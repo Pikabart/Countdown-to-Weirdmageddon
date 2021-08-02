@@ -1,0 +1,10 @@
+state={
+	id=16
+	name="STATE_16"
+	provinces={
+		903 1002 1024 2029 2210 2376 3824 5134 6918 9417 9418 9419 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

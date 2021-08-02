@@ -1,0 +1,10 @@
+state={
+	id=9
+	name="STATE_9"
+	provinces={
+		1034 2509 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}
