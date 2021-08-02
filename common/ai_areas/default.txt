@@ -1,0 +1,46 @@
+areas = {
+
+
+	Earth = {
+		continents = { 
+			earth
+		}
+	}
+
+	Mewnie = {
+
+		continents = { 
+			mewnie 
+		}
+	}
+
+	Amphibia = {
+
+		continents = { 
+			amphibia 
+		}
+	}
+
+	Boiling_Isles = {
+
+		continents = { 
+			boiling_isles 
+		}		
+	}
+
+	Realm_of_Magic = {
+
+		continents = { 
+			realm_of_magic 
+		}
+	}
+
+	middle_east = {
+
+		continents = { 
+			middle_east 
+		}
+	}
+
+	
+}
