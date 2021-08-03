@@ -2,8 +2,14 @@
 state={
 	id=35
 	name="STATE_35"
+	
+	history={
+		owner = GTF
+		add_core_of = GTF	
+	}
+	
 	provinces={
-		4091 6163 6844 8699 8719 8745 8750 8774 10692 
+		4091 6163 8699 8719 8745 8750 10692 
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000

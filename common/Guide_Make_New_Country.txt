@@ -1,5 +1,5 @@
 1.	Create a country file in common/countries for country rgb color and graphical culture 
-1A. Also add color to color.txt file
+1A. Also add color to color.txt file in common/countries
 
 2.	Add country tag in common/country_tags file of 00_countries
 

@@ -1,6 +1,16 @@
 state={
 	id=37
 	name="STATE_37"
+	
+	history={
+		owner = GTF
+		add_core_of = GTF	
+		
+		victory_points = {
+			8524  10
+		}
+	}
+	
 	provinces={
 		8524 
 	}
