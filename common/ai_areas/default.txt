@@ -35,7 +35,15 @@ areas = {
 		}
 	}
 
-	middle_east = {
+	Asia = {
+
+		continents = { 
+			asia 
+		}
+	}
+
+
+	Middle_East = {
 
 		continents = { 
 			middle_east 

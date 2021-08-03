@@ -1,6 +1,12 @@
 state={
 	id=56
 	name="STATE_56"
+	
+	history={
+		owner = GTF
+		add_core_of = GTF	
+	}
+	
 	provinces={
 		6178 6278 6714 6904 6947 8587 8679 8689 8724 8736 8753 
 	}

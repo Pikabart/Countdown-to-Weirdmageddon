@@ -1,0 +1,2 @@
+MYS = "countries/Mystery Shack.txt"
+GTF = "countries/Gravity Falls.txt"
