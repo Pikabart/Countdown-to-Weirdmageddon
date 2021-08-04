@@ -1,2 +1,8 @@
-MYS = "countries/Mystery Shack.txt"
-GTF = "countries/Gravity Falls.txt"
+MYS = "countries/E-Mystery Shack.txt"
+GTF = "countries/E-Gravity Falls.txt"
+MEW = "countries/M-Butterfly Kingdom.txt"
+JOH = "countries/M-Johansen Kingdom.txt"
+BUF = "countries/M-Monster Buffer.txt"
+PNY = "countries/M-Ponyhead Kingdom.txt"
+SPI = "countries/M-Spiderbite Kingdom.txt"
+

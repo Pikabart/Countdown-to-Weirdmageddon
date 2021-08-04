@@ -4,6 +4,14 @@ state={
 	provinces={
 		474 1673 2550 2828 3273 3633 3745 4426 5051 5978 7127 7426 7444 7473 7492 7531 
 	}
+	
+	history {
+	owner = PNY
+	add_core_of = PNY
+	victory_points = { 3633 5 }
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

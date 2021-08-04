@@ -4,6 +4,14 @@ state={
 	provinces={
 		1464 1511 1590 2839 4472 4866 6761 8073 8187 
 	}
+	
+	history {
+	owner = JOH
+	add_core_of = JOH
+	victory_points = { 1511 5 }
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

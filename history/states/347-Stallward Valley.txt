@@ -5,6 +5,14 @@ state={
 	provinces={
 		161 874 879 2425 4828 5397 7253 7807 7823 7833 7875 7898 7901 
 	}
+	
+	history {
+	owner = MEW
+	add_core_of = MEW
+	victory_points = { 161 5 }
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

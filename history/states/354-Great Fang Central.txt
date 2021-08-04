@@ -4,6 +4,14 @@ state={
 	provinces={
 		1135 3711 5225 5747 5772 6162 7443 7527 
 	}
+	
+	history {
+	owner = SPI
+	add_core_of = SPI
+	victory_points = { 5747 20 }
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

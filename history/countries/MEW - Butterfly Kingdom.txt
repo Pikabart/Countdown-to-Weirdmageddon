@@ -1,0 +1,27 @@
+﻿capital = 266
+
+set_research_slots = 2
+set_convoys = 10
+set_stability = 0.70
+set_war_support = 0.70
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 98
+	communism = 1
+	fascism = 1
+}
+
+create_country_leader = {
+	name = "Queen Moon of House Butterfly"
+	desc = "placeholder"
+	picture = "hoi4_portrait_moon.dds"
+	expire = "1947.1.1"
+	ideology = conservatism #liberalism
+}

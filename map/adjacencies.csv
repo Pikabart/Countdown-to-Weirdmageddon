@@ -1,6 +1,40 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 
+#Earth
+
 # Oregon Adjacencies
-8460;8458;sea;2967;-1;-1;-1;-1;;Cliff Bridge
+8460;8458;;2967;-1;-1;-1;-1;;Cliff Bridge
+
+# Mewni
+
+#Spider Hill
+1551;4083;impassable;-1;-1;-1;-1;-1;;Spider Hill
+1551;1582;impassable;-1;-1;-1;-1;-1;;Spider Hill
+1551;5737;impassable;-1;-1;-1;-1;-1;;Spider Hill
+1551;6109;impassable;-1;-1;-1;-1;-1;;Spider Hill
+7661;6109;impassable;-1;-1;-1;-1;-1;;Spider Hill
+7661;1073;impassable;-1;-1;-1;-1;-1;;Spider Hill
+7661;7698;impassable;-1;-1;-1;-1;-1;;Spider Hill
+3182;7698;impassable;-1;-1;-1;-1;-1;;Spider Hill
+3182;5519;impassable;-1;-1;-1;-1;-1;;Spider Hill
+2240;5519;impassable;-1;-1;-1;-1;-1;;Spider Hill
+2240;7674;impassable;-1;-1;-1;-1;-1;;Spider Hill
+2240;3793;impassable;-1;-1;-1;-1;-1;;Spider Hill
+2240;2991;impassable;-1;-1;-1;-1;-1;;Spider Hill
+2240;7600;impassable;-1;-1;-1;-1;-1;;Spider Hill
+2240;4645;impassable;-1;-1;-1;-1;-1;;Spider Hill
+396;4645;impassable;-1;-1;-1;-1;-1;;Spider Hill
+396;6520;impassable;-1;-1;-1;-1;-1;;Spider Hill
+4580;6520;impassable;-1;-1;-1;-1;-1;;Spider Hill
+4580;6943;impassable;-1;-1;-1;-1;-1;;Spider Hill
+4580;4083;impassable;-1;-1;-1;-1;-1;;Spider Hill
+
+# Port Emily Adjacencies
+5224;7902;sea;10770;-1;-1;-1;-1;;Cliff Bridge
+
+
+
+
+
 
 -1;-1;;-1;-1;-1;-1;-1;-1

@@ -4,6 +4,19 @@ state={
 	provinces={
 		1784 2752 3617 4210 5024 5659 6539 7135 7256 8154 8242 
 	}
+	
+	history {
+	owner = MEW
+	add_core_of = MEW
+	victory_points = { 1784 5 }
+	
+	buildings = {
+	1784 = { naval_base = 6 }
+	
+	}
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

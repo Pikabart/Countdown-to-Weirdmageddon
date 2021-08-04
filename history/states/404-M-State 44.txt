@@ -1,0 +1,18 @@
+state={
+	id=404
+	name="STATE_404"
+	provinces={
+		1496 3644 6683 6941 7882 7888 
+	}
+	
+	history {
+	owner = BUF
+	add_core_of = BUF
+
+	
+	}
+	
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
