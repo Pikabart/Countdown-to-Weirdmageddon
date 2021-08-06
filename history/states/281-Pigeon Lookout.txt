@@ -4,6 +4,14 @@ state={
 	provinces={
 		1019 1023 2974 3340 4135 4205 4471 6431 7925 7995 8020 8064 8075 8101 8117 8153 
 	}
+	
+	history {
+	owner = PIG
+	add_core_of = PIG
+	victory_points = { 6431 5 }
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

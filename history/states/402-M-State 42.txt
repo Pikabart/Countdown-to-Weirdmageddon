@@ -6,8 +6,8 @@ state={
 	}
 	
 	history {
-	owner = BUF
-	add_core_of = BUF
+	owner = JOH
+	add_core_of = JOH
 
 	
 	}

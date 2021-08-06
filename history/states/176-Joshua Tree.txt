@@ -2,6 +2,17 @@
 state={
 	id=176
 	name="STATE_176"
+	
+	history={
+		owner = SOC
+		buildings = {
+			infrastructure = 10
+		}
+		
+		add_core_of = SOC
+		
+	}
+	
 	provinces={
 		669 3004 3155 4169 4570 4579 4938 6124 6153 6690 6716 10108 10163 10181 
 	}

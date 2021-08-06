@@ -7,9 +7,9 @@ set_war_support = 0.70
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1932.11.8"
+	last_election = "1980.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {

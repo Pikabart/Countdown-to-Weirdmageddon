@@ -1,0 +1,43 @@
+﻿l_english:
+
+ BM_HISTORY_TITLE:0 "FPI Regional Report:" # this modifies the title above the description for each bookmark
+ ####################################
+ ROADKILL_NAME:0 "West of Weird"
+ ROADKILL_DESC:0 "This summer will most certainly be an eventful one."
+ HITTING_FAN_NAME:0 "The Hitting of the Fan"
+ HITTING_FAN_DESC:0 "Yup, that's right! That umbrella collection is about to come in real handy."
+ MYS_ROADKILL_DESC:0 "A"
+ GTF_ROADKILL_DESC:0 "A"
+ #EFL_GATHERING_STORM_DESC:0 "A"
+ #WFL_GATHERING_STORM_DESC:0 "A"
+ #SFL_GATHERING_STORM_DESC:0 "A"
+ #NRW_GATHERING_STORM_DESC:0 "A"
+ #MYM_GATHERING_STORM_DESC:0 "A"
+ OTHER_ROADKILL_DESC:0 "Normal Picking now Works"
+ 
+ ###################################
+ WILD_WEST_NAME:0 "Mostly Harmless"
+ WILD_WEST_DESC:0 "Some find the world to be a horrific place. One only needs to see the multiverse to find Earth to be rather benign, all things considered."
+ ORE_WILD_WEST_DESC:0 "B"
+ CAL_WILD_WEST_DESC:0 "B"
+ WAS_WILD_WEST_DESC:0 "B"
+ OTHER_WILD_WEST_DESC:0 "Normal Picking now Works" #Ignore -> Choose this to actually choose a nation. Main bookmarks are broken for some reason.
+ 
+ ##################################
+ ANOTHER_DIMENSION_NAME:0 "From another Dimension!"
+ ANOTHER_DIMENSION_DESC:0 "It's gonna get a little weird. It's gonna get a little wild!"
+ MEW_ANOTHER_DIMENSION_DESC:0 "C"
+ JOH_ANOTHER_DIMENSION_DESC:0 "C"
+ LUC_ANOTHER_DIMENSION_DESC:0 "C"
+ PNY_ANOTHER_DIMENSION_DESC:0 "C"
+ SPI_ANOTHER_DIMENSION_DESC:0 "C"
+ PIG_ANOTHER_DIMENSION_DESC:0 "C"
+ OTHER_ANOTHER_DIMENSION_DESC:0 "Normal Picking now Works"
+ 
+ 
+ ####################################
+
+
+
+
+ 

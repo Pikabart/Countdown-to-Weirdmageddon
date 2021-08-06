@@ -5,11 +5,7 @@ state={
 		1963 2842 4768 7741 
 	}
 	
-	history {
-	owner = BUF
-	add_core_of = BUF
-	
-	}
+
 	
 	manpower=1000
 	buildings_max_level_factor=1.000

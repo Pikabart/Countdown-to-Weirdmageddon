@@ -1,0 +1,191 @@
+bookmarks = {
+	#For the Oregon Outback
+	bookmark = {
+		name = "ROADKILL_NAME"
+		desc = "ROADKILL_DESC"
+		date = 2012.1.1.12
+		picture = "GFX_bookmark_1"
+		default_country = "MYS"
+		default = yes
+		
+		"MYS"={
+			history = "MYS_ROADKILL_DESC"
+			ideology = fascism
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"GTF"={
+			history = "GTF_ROADKILL_DESC"
+			ideology = democratic
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"---"={
+			history = "OTHER_ROADKILL_DESC"
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+	
+	#For the West Coast
+	bookmark = {
+		name = "WILD_WEST_NAME"
+		desc = "WILD_WEST_DESC"
+		date = 2012.1.1.12
+		picture = "GFX_bookmark_2"
+		default_country = "ORE"
+
+		
+		"ORE"={
+			history = "ORE_WILD_WEST_DESC"
+			ideology = democratic
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"CAL"={
+			history = "CAL_WILD_WEST_DESC"
+			ideology = democratic
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"WAS"={
+			history = "WAS_WILD_WEST_DESC"
+			ideology = democratic
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"---"={
+			history = "OTHER_WILD_WEST_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+	
+	#For Mewni
+	bookmark = {
+		name = "ANOTHER_DIMENSION_NAME"
+		desc = "ANOTHER_DIMENSION_DESC"
+		date = 2012.1.1.12
+		picture = "GFX_bookmark_3"
+		default_country = "ORE"
+
+		
+		"MEW"={
+			history = "MEW_ANOTHER_DIMENSION_DESC"
+			ideology = neutrality
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"JOH"={
+			history = "MEW_ANOTHER_DIMENSION_DESC"
+			ideology = neutrality
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"LUC"={
+			history = "MEW_ANOTHER_DIMENSION_DESC"
+			ideology = neutrality
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"PNY"={
+			history = "MEW_ANOTHER_DIMENSION_DESC"
+			ideology = neutrality
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"SPI"={
+			history = "MEW_ANOTHER_DIMENSION_DESC"
+			ideology = neutrality
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"PIG"={
+			history = "MEW_ANOTHER_DIMENSION_DESC"
+			ideology = neutrality
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"---"={
+			history = "OTHER_ANOTHER_DIMENSION_DESC"
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+	
+}

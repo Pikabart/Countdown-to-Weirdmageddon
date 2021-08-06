@@ -4,6 +4,13 @@ state={
 	provinces={
 		904 2559 5319 9297 9310 
 	}
+	
+	history {
+	owner = LUC
+	add_core_of = LUC
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

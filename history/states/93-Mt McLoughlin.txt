@@ -2,6 +2,17 @@
 state={
 	id=93
 	name="STATE_93"
+	
+	history={
+		owner = ORE
+		buildings = {
+			infrastructure = 10
+
+		}
+		add_core_of = ORE
+
+	}
+	
 	provinces={
 		1022 4925 5155 5466 5951 6785 8878 8935 8973 8986 
 	}

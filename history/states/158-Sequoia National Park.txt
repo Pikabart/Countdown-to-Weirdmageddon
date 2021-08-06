@@ -1,6 +1,17 @@
 state={
 	id=158
 	name="STATE_158"
+	
+	history={
+		owner = CAL
+		buildings = {
+			infrastructure = 10
+		}
+		
+		add_core_of = CAL
+		
+	}
+	
 	provinces={
 		322 2344 2980 4334 4421 4918 6264 9752 9776 9780 9795 
 	}

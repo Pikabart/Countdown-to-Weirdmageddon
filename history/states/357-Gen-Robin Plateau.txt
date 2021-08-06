@@ -5,6 +5,12 @@ state={
 	provinces={
 		525 2665 3462 6356 6925 6992 7711 
 	}
+	
+	history {
+	owner = SPI
+	add_core_of = SPI	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

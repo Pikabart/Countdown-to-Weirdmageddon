@@ -1,8 +1,17 @@
+#Earth
 MYS = "countries/E-Mystery Shack.txt"
 GTF = "countries/E-Gravity Falls.txt"
+ORE = "countries/E-Oregon.txt"
+CAL = "countries/E-California.txt"
+WAS = "countries/E-Washington.txt"
+SOC = "countries/E-Southern California.txt"
+
+#Mewni
 MEW = "countries/M-Butterfly Kingdom.txt"
 JOH = "countries/M-Johansen Kingdom.txt"
 BUF = "countries/M-Monster Buffer.txt"
 PNY = "countries/M-Ponyhead Kingdom.txt"
 SPI = "countries/M-Spiderbite Kingdom.txt"
+PIG = "countries/M-Pigeon Kingdom.txt"
+LUC = "countries/M-Lucitor Kingdom.txt"
 

@@ -2,6 +2,16 @@
 state={
 	id=128
 	name="STATE_128"
+	
+	history={
+		owner = WAS
+		buildings = {
+			infrastructure = 10
+		}
+		add_core_of = WAS
+
+	}
+	
 	provinces={
 		3855 4101 4508 6128 6272 6370 6491 6497 6499 6507 6546 6580 6684 6999 7900 7912 7923 7927 7935 7967 7975 7998 
 	}

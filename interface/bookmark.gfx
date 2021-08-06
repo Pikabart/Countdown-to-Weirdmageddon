@@ -1,0 +1,16 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_bookmark_1"
+		texturefile = "gfx/interface/bookmark/select_Roadkill.dds"
+	}
+	spriteType = {
+		name = "GFX_bookmark_2"
+		texturefile = "gfx/interface/bookmark/select_Earth.dds"
+	}
+	spriteType = {
+		name = "GFX_bookmark_3"
+		texturefile = "gfx/interface/bookmark/select_Mewni.dds"
+	}
+	
+}
