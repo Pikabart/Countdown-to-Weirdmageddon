@@ -103,3 +103,21 @@
  
  VICTORY_POINTS_5700:0 "Fort Teller"
  VICTORY_POINTS_1991:0 "Twin Peaks"
+ 
+ ################################################
+ #Eastern US VPs
+ VICTORY_POINTS_7727:0 "Washington DC"
+ 
+ ################################################
+ #Canada VPs
+ VICTORY_POINTS_870:0 "Ottawa"
+ VICTORY_POINTS_7526:0 "One Eyed Jacks"
+ VICTORY_POINTS_5768:0 "Vancouver"
+ VICTORY_POINTS_7670:0 "Victoria"
+ 
+ ################################################
+ #Mexican VPs
+ VICTORY_POINTS_40:0 "Monterrey"
+ 
+ 
+ 

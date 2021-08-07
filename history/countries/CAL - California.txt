@@ -48,8 +48,8 @@ complete_national_focus = production_effort
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "2008.1.1"
-	election_frequency = 4   #four months
+	last_election = "2008.6.1"
+	election_frequency = 48   #four months
 	elections_allowed = yes
 }
 

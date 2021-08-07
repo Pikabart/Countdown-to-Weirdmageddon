@@ -1,6 +1,17 @@
 state={
 	id=237
 	name="STATE_237"
+	
+	history={
+		owner = EPI
+		buildings = {
+			infrastructure = 10
+		}
+		
+		add_core_of = EPI
+		
+	}
+	
 	provinces={
 		3757 7075 
 	}

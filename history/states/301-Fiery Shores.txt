@@ -3,8 +3,15 @@ state={
 	id=301
 	name="STATE_301"
 	provinces={
-		841 1873 2721 5696 5796 6125 6566 9007 9009 
+		841 1873 2721 5696 5796 6125 9007 
 	}
+	
+	history {
+	owner = MER
+	add_core_of = MER
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

@@ -32,10 +32,38 @@ bookmarks = {
 			}
 		}
 		
+		"NRW"={
+			history = "NRW_ROADKILL_DESC"
+			ideology = neutrality
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"---"={
+			history = "OTHER_ROADKILL_DESC"
+		}
+		
 		"---"={
 			history = "OTHER_ROADKILL_DESC"
 		}
 
+		"---"={
+			history = "OTHER_ROADKILL_DESC"
+		}
+
+		"---"={
+			history = "OTHER_ROADKILL_DESC"
+		}
+
+		"---"={
+			history = "OTHER_ROADKILL_DESC"
+		}
+	
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
@@ -87,10 +115,52 @@ bookmarks = {
 			}
 		}
 		
+	
+		"EUS"={
+			history = "EUS_WILD_WEST_DESC"
+			ideology = democratic
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		
+		"EPI"={
+			history = "EPI_WILD_WEST_DESC"
+			ideology = neutrality
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"CAN"={
+			history = "CAN_WILD_WEST_DESC"
+			ideology = democratic
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
 		"---"={
 			history = "OTHER_WILD_WEST_DESC"
 		}
-
+	
+		"---"={
+			history = "OTHER_WILD_WEST_DESC"
+		}
+		
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
@@ -176,6 +246,10 @@ bookmarks = {
 			focuses = {
 				
 			}
+		}
+		
+		"---"={
+			history = "OTHER_ANOTHER_DIMENSION_DESC"
 		}
 		
 		"---"={

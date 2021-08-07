@@ -11485,3 +11485,6 @@
 11484;166;30;61;sea;true;ocean;0
 11485;173;56;31;sea;true;ocean;0
 11486;190;16;13;sea;true;ocean;0
+11487;95;180;240;land;true;plains;3
+11488;95;70;150;land;false;urban;3
+11489;95;250;60;land;false;plains;3

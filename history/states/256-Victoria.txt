@@ -2,6 +2,16 @@
 state={
 	id=256
 	name="STATE_256"
+	
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 10
+		}
+		victory_points = { 7670 50 }
+		add_core_of = CAN	
+	}
+	
 	provinces={
 		6341 6415 7002 7670 
 	}

@@ -1,6 +1,17 @@
 state={
 	id=30
 	name="STATE_30"
+	
+	history={
+		owner = NRW
+		buildings = {
+			infrastructure = 10
+		}
+		victory_points = { 8114 30 }
+		add_core_of = NRW
+		
+	}
+	
 	provinces={
 		3772 6840 8114 8628 8642 8652 
 	}

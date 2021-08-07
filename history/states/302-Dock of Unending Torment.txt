@@ -5,6 +5,15 @@ state={
 	provinces={
 		3948 6584 6803 9167 
 	}
+	
+	history {
+	owner = SCU
+	add_core_of = SCU
+	victory_points = { 6803 20 }
+
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

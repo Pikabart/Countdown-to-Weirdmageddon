@@ -5,6 +5,15 @@ state={
 	provinces={
 		1642 6467 6502 9023 
 	}
+	
+	history {
+	owner = MER
+	add_core_of = MER
+	victory_points = { 9023 5 }
+	
+	}
+
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

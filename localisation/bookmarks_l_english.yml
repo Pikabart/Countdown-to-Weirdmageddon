@@ -11,7 +11,7 @@
  #EFL_GATHERING_STORM_DESC:0 "A"
  #WFL_GATHERING_STORM_DESC:0 "A"
  #SFL_GATHERING_STORM_DESC:0 "A"
- #NRW_GATHERING_STORM_DESC:0 "A"
+ NRW_ROADKILL_DESC:0 "A"
  #MYM_GATHERING_STORM_DESC:0 "A"
  OTHER_ROADKILL_DESC:0 "Normal Picking now Works"
  
@@ -21,6 +21,9 @@
  ORE_WILD_WEST_DESC:0 "B"
  CAL_WILD_WEST_DESC:0 "B"
  WAS_WILD_WEST_DESC:0 "B"
+ EUS_WILD_WEST_DESC:0 "B"
+ EPI_WILD_WEST_DESC:0 "B"
+ CAN_WILD_WEST_DESC:0 "B"
  OTHER_WILD_WEST_DESC:0 "Normal Picking now Works" #Ignore -> Choose this to actually choose a nation. Main bookmarks are broken for some reason.
  
  ##################################

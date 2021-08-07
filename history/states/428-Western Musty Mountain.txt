@@ -4,6 +4,14 @@ state={
 	provinces={
 		3981 4898 4926 8890 
 	}
+	
+	history {
+	owner = HKM
+	add_core_of = HKM
+	victory_points = { 3981 20 }
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

@@ -1,6 +1,15 @@
 state={
 	id=230
 	name="STATE_230"
+	
+	history={
+		owner = EUS
+		buildings = {
+			infrastructure = 10
+		}
+		add_core_of = EUS	
+	}
+	
 	provinces={
 		2062 5633 7595 7597 7633 7647 7676 7682 9052 
 	}

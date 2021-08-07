@@ -4,6 +4,14 @@ state={
 	provinces={
 		105 2793 5792 8687 8688 
 	}
+	
+	history {
+	owner = ICH
+	add_core_of = ICH
+	victory_points = { 2793 5 }
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

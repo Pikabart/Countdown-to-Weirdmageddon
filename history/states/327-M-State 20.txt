@@ -1,17 +1,10 @@
+
 state={
 	id=327
 	name="STATE_327"
 	provinces={
-		188 222 1300 2279 2339 2370 3878 4177 5658 5860 6037 6618 8837 
+		188 222 2370 3878 4177 6037 8837 
 	}
-	
-	history {
-	owner = LUC
-	add_core_of = LUC
-	victory_points = { 8837 5 }
-	
-	}
-	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

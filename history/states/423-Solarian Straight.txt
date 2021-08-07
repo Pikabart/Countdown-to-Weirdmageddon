@@ -4,6 +4,14 @@ state={
 	provinces={
 		513 3246 5750 6865 9141 
 	}
+	
+	history {
+	owner = SOL
+	add_core_of = SOL
+	victory_points = { 9141 5 }
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

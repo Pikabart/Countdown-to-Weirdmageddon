@@ -1,6 +1,16 @@
 state={
 	id=255
 	name="STATE_255"
+	
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 10
+		}
+		add_core_of = MEX
+		
+	}
+	
 	provinces={
 		576 1356 1946 2147 2273 2445 2657 3280 3734 4168 4374 6972 10669 
 	}

@@ -1,10 +1,17 @@
+#Roadkill
+MYS = "countries/R-Mystery Shack.txt"
+GTF = "countries/R-Gravity Falls.txt"
+NRW = "countries/R-Northwest.txt"
+
 #Earth
-MYS = "countries/E-Mystery Shack.txt"
-GTF = "countries/E-Gravity Falls.txt"
 ORE = "countries/E-Oregon.txt"
 CAL = "countries/E-California.txt"
 WAS = "countries/E-Washington.txt"
 SOC = "countries/E-Southern California.txt"
+EUS = "countries/E-Eastern US.txt"
+EPI = "countries/E-Eastern FPI.txt"
+CAN = "countries/E-Canada.txt"
+MEX = "countries/E-Mexico.txt"
 
 #Mewni
 MEW = "countries/M-Butterfly Kingdom.txt"
@@ -14,4 +21,17 @@ PNY = "countries/M-Ponyhead Kingdom.txt"
 SPI = "countries/M-Spiderbite Kingdom.txt"
 PIG = "countries/M-Pigeon Kingdom.txt"
 LUC = "countries/M-Lucitor Kingdom.txt"
+
+#Mewni_Monsters
+ICH = "countries/Monst-Itchy Kingdom.txt"
+AIR = "countries/Monst-Lordship of the Air.txt"
+MMG = "countries/Monst-The Monsters Merchant Guild.txt"
+JUN = "countries/Monst-Restoration Junta.txt"
+REP = "countries/Monst-Republic of the Tri River.txt"
+HKM = "countries/Monst-Holy Kingdom of Musty Mountain.txt"
+STI = "countries/Monst-Warlordship of the River Sticks.txt"
+MER = "countries/Monst-Mercanaries of the Hell Coast.txt"
+SOL = "countries/Monst-Solarian Cleansing State of the Underworld.txt"
+UKN = "countries/Monst-anarch-Unknown.txt"
+SCU = "countries/Monst-Scout Team 227.txt"
 

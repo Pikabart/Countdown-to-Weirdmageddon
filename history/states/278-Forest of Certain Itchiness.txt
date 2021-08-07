@@ -5,6 +5,14 @@ state={
 	provinces={
 		295 418 991 1039 1107 1247 4129 5084 5188 5572 5787 5913 6144 6509 8619 8639 8725 8762 
 	}
+	
+	history {
+	owner = AIR
+	add_core_of = AIR
+	victory_points = { 5913 5 }
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

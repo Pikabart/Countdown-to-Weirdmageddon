@@ -22,6 +22,5 @@ create_country_leader = {
 	name = "Queen Moon of House Butterfly"
 	desc = "placeholder"
 	picture = "hoi4_portrait_moon.dds"
-	expire = "1947.1.1"
 	ideology = conservatism #liberalism
 }
