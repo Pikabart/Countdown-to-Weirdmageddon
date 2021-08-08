@@ -1,0 +1,18 @@
+state={
+	id=461
+	name="STATE_461"
+	provinces={
+		535 2091 8491 8520 
+	}
+	
+	history {
+	owner = JOH
+	add_core_of = JOH
+	#victory_points = {}
+	
+	}
+	
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

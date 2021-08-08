@@ -97,7 +97,13 @@ color = rgb { 101 255 255 }
 color_ui = rgb { 101 255 255 }
 }
 
-#Mewni Monsters
+#------------------------------------
+JAG = {
+color = rgb { 101 255 255 }
+color_ui = rgb { 101 255 255 }
+}
+
+#Mewni South Monsters
 
 #------------------------------------
 ICH = {
@@ -165,3 +171,27 @@ color = rgb { 104 47 102 }
 color_ui = rgb { 104 47 102 }
 }
 
+#Mewni North Monsters
+
+SWP = {
+color = rgb { 21 111 10 }
+color_ui = rgb { 21 111 10 }
+}
+
+#------------------------------------
+TSR = {
+color = rgb { 101 255 255 }
+color_ui = rgb { 101 255 255 }
+}
+
+#------------------------------------
+KAI = {
+color = rgb { 151 151 151 }
+color_ui = rgb { 151 151 151 }
+}
+
+#------------------------------------
+AVA = {
+color = rgb { 195 41 57 }
+color_ui = rgb { 195 41 57 }
+}

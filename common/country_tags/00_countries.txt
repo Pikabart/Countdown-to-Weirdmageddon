@@ -21,6 +21,7 @@ PNY = "countries/M-Ponyhead Kingdom.txt"
 SPI = "countries/M-Spiderbite Kingdom.txt"
 PIG = "countries/M-Pigeon Kingdom.txt"
 LUC = "countries/M-Lucitor Kingdom.txt"
+JAG = "countries/M-Jaggy Kingdom.txt"
 
 #Mewni_Monsters
 ICH = "countries/Monst-Itchy Kingdom.txt"
@@ -34,4 +35,10 @@ MER = "countries/Monst-Mercanaries of the Hell Coast.txt"
 SOL = "countries/Monst-Solarian Cleansing State of the Underworld.txt"
 UKN = "countries/Monst-anarch-Unknown.txt"
 SCU = "countries/Monst-Scout Team 227.txt"
+
+#Mewni_North_Monsters
+SWP = "countries/N-Monst-Coalition of the Swamp.txt"
+TSR = "countries/N-Monst-Tsardom.txt"
+KAI = "countries/N-Monst-Kaiserreich.txt"
+AVA = "countries/N-Monst-Avarius Exile.txt"
 

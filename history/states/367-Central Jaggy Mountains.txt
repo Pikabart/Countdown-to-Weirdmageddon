@@ -4,6 +4,14 @@ state={
 	provinces={
 		371 703 2447 2541 2631 5639 6693 6962 7324 7357 7445 
 	}
+	
+	history {
+	owner = JAG
+	add_core_of = JAG
+	victory_points = { 7357 20 } 
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

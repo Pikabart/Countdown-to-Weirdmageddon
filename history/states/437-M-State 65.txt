@@ -4,6 +4,14 @@ state={
 	provinces={
 		411 3846 4022 5730 6390 8855 8861 8907 8953 8960 
 	}
+	
+	history {
+	owner = LUC
+	add_core_of = LUC
+	victory_points = { 8960 5 }
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

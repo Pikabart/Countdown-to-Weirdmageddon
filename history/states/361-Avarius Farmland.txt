@@ -5,6 +5,14 @@ state={
 	provinces={
 		392 785 794 5461 7630 
 	}
+	
+	history {
+	owner = AVA
+	add_core_of = AVA
+	victory_points = { 794 5 } 
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

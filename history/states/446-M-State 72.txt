@@ -4,6 +4,14 @@ state={
 	provinces={
 		2037 2756 2785 5929 
 	}
+	
+	history {
+	owner = SWP
+	add_core_of = SWP
+	victory_points = { 2785 5 }
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

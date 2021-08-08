@@ -3,14 +3,13 @@ state={
 	id=274
 	name="STATE_274"
 	provinces={
-		13 1584 1871 1903 2652 2888 3371 4476 5267 5660 5695 8537 8658 
+		1584 1871 1903 2888 4476 5267 5660 8658 
 	}
 	
 	history {
 	owner = MEW
 	add_core_of = MEW
-	victory_points = { 8658 5 }
-	
+	#victory_points = { }
 	}
 	
 	manpower=1000

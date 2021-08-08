@@ -60,7 +60,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "David Curtis"
+	name = "Adrian Curtis"
 	desc = ""
 	picture = "hoi4_portrait_curtis.dds"
 	ideology = liberalism

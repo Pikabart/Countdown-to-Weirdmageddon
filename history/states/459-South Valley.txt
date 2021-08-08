@@ -1,0 +1,18 @@
+state={
+	id=459
+	name="STATE_459"
+	provinces={
+		161 5397 7253 7875 7898 7901 
+	}
+	
+	history {
+	owner = MEW
+	add_core_of = MEW
+	#victory_points = {}
+	
+	}
+	
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

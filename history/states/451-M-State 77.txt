@@ -4,6 +4,13 @@ state={
 	provinces={
 		1768 2539 5667 7091 7560 
 	}
+	
+	history {
+	owner = UKN
+	add_core_of = UKN
+	
+	}
+	
 	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural

@@ -1,0 +1,18 @@
+state={
+	id=457
+	name="STATE_457"
+	provinces={
+		2247 4401 6002 6724 6980 8066 8091 
+	}
+	
+	history {
+	owner = MEW
+	add_core_of = MEW
+	#victory_points = {}
+	
+	}
+	
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
