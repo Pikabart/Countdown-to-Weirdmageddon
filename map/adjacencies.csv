@@ -1,11 +1,176 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 
-#Earth
+#Earth ###########################################
 
-# Oregon Adjacencies
+# Canada Adjacencies
+6415;5768;;10792;-1;-1;-1;-1;;Island
+
+# Mexico Adjacencies
+3418;2230;;11416;-1;-1;-1;-1;;Baja
+
+# Washington Adjacencies
+2310;10708;;11193;-1;-1;-1;-1;;Key West
+10707;10708;;11193;-1;-1;-1;-1;;Key West
+10707;124;;11193;-1;-1;-1;-1;;Key West
+
+# Washington Adjacencies
+6538;5497;;11430;-1;-1;-1;-1;;Columbia-Snake
+6538;5883;;11434;-1;-1;-1;-1;;Columbia-Snake
+5883;5497;;11426;-1;-1;-1;-1;;Columbia-Snake
+
+# California  Adjacencies
+5545;9629;;11405;-1;-1;-1;-1;;Stockton
+9554;9526;;11404;-1;-1;-1;-1;;Sacramento
+5246;6627;;11402;-1;-1;-1;-1;;Golden Gate
+5246;1289;;11402;-1;-1;-1;-1;;Norton Bridge
+
+# GF Adjacencies
 8460;8458;;2967;-1;-1;-1;-1;;Cliff Bridge
+8548;8587;;11437;-1;-1;-1;-1;;Lake GF Ford
 
-# Mewni
+# GF Cliffs
+8463;2873;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8463;8424;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8448;2873;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8448;8416;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8448;8390;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8460;8390;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8460;861;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8460;2967;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8460;7976;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8460;8449;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8448;8449;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8448;6727;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+
+8458;8486;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8458;5654;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8458;8436;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8458;8397;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8458;8426;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+6934;8426;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+6934;8486;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+6934;8492;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+5389;8492;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+5389;8426;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+5389;4709;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8483;4709;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+8483;8459;impassable;-1;-1;-1;-1;-1;; GF Cliffs
+
+#GF Hills
+8679;8703;impassable;-1;-1;-1;-1;-1;; GF Hills
+8724;8703;impassable;-1;-1;-1;-1;-1;; GF Hills
+8724;8739;impassable;-1;-1;-1;-1;-1;; GF Hills
+6714;8739;impassable;-1;-1;-1;-1;-1;; GF Hills
+6714;8779;impassable;-1;-1;-1;-1;-1;; GF Hills
+8736;8779;impassable;-1;-1;-1;-1;-1;; GF Hills
+8736;8793;impassable;-1;-1;-1;-1;-1;; GF Hills
+6278;8793;impassable;-1;-1;-1;-1;-1;; GF Hills
+6278;8803;impassable;-1;-1;-1;-1;-1;; GF Hills
+6278;2646;impassable;-1;-1;-1;-1;-1;; GF Hills
+8753;2646;impassable;-1;-1;-1;-1;-1;; GF Hills
+8753;8802;impassable;-1;-1;-1;-1;-1;; GF Hills
+8753;8800;impassable;-1;-1;-1;-1;-1;; GF Hills
+8753;6844;impassable;-1;-1;-1;-1;-1;; GF Hills
+
+8772;8774;impassable;-1;-1;-1;-1;-1;; GF Hills
+8772;8795;impassable;-1;-1;-1;-1;-1;; GF Hills
+8772;4040;impassable;-1;-1;-1;-1;-1;; GF Hills
+6350;4040;impassable;-1;-1;-1;-1;-1;; GF Hills
+6350;5483;impassable;-1;-1;-1;-1;-1;; GF Hills
+8748;5483;impassable;-1;-1;-1;-1;-1;; GF Hills
+8748;5819;impassable;-1;-1;-1;-1;-1;; GF Hills
+8748;5104;impassable;-1;-1;-1;-1;-1;; GF Hills
+8717;5104;impassable;-1;-1;-1;-1;-1;; GF Hills
+8717;8744;impassable;-1;-1;-1;-1;-1;; GF Hills
+6685;8744;impassable;-1;-1;-1;-1;-1;; GF Hills
+6685;1124;impassable;-1;-1;-1;-1;-1;; GF Hills
+8662;1124;impassable;-1;-1;-1;-1;-1;; GF Hills
+8662;6952;impassable;-1;-1;-1;-1;-1;; GF Hills
+8662;8627;impassable;-1;-1;-1;-1;-1;; GF Hills
+8632;8627;impassable;-1;-1;-1;-1;-1;; GF Hills
+8632;8596;impassable;-1;-1;-1;-1;-1;; GF Hills
+3362;8596;impassable;-1;-1;-1;-1;-1;; GF Hills
+3362;1408;impassable;-1;-1;-1;-1;-1;; GF Hills
+8562;1408;impassable;-1;-1;-1;-1;-1;; GF Hills
+8562;8526;impassable;-1;-1;-1;-1;-1;; GF Hills
+8505;8526;impassable;-1;-1;-1;-1;-1;; GF Hills
+8505;8503;impassable;-1;-1;-1;-1;-1;; GF Hills
+8482;8503;impassable;-1;-1;-1;-1;-1;; GF Hills
+8482;586;impassable;-1;-1;-1;-1;-1;; GF Hills
+8482;8443;impassable;-1;-1;-1;-1;-1;; GF Hills
+8462;8443;impassable;-1;-1;-1;-1;-1;; GF Hills
+
+#Redwood-Forest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Mewni ###########################################
+
+# Stallward
+3992;5397;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+3992;7898;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+3992;7901;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+3992;39;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+3992;7949;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+3992;3323;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+5055;3323;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+5055;5862;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+5055;7253;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+2588;5862;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+2588;7974;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+7934;7974;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+7934;78;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+7934;7962;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+7934;2623;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+7934;5310;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+7903;5310;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+7903;7253;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+7903;879;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+7903;3482;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+5458;7843;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+5458;7813;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+5458;7795;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+5458;5783;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+5458;3543;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+5458;3520;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+5458;874;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+5458;4828;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+5458;879;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+5458;3482;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+5055;5397;impassable;-1;-1;-1;-1;-1;;Stallward Barrier
+
 
 #Spider Hill
 1551;4083;impassable;-1;-1;-1;-1;-1;;Spider Hill
@@ -29,9 +194,91 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4580;6943;impassable;-1;-1;-1;-1;-1;;Spider Hill
 4580;4083;impassable;-1;-1;-1;-1;-1;;Spider Hill
 
-# Port Emily Adjacencies
-5224;7902;sea;10770;-1;-1;-1;-1;;Cliff Bridge
+# Gen Robin Plateau
+7711;3793;impassable;-1;-1;-1;-1;-1;;Gen Robin
+7711;7674;impassable;-1;-1;-1;-1;-1;;Gen Robin
+7711;5519;impassable;-1;-1;-1;-1;-1;;Gen Robin
+7711;1121;impassable;-1;-1;-1;-1;-1;;Gen Robin
+7711;5603;impassable;-1;-1;-1;-1;-1;;Gen Robin
+7711;623;impassable;-1;-1;-1;-1;-1;;Gen Robin
+7711;5865;impassable;-1;-1;-1;-1;-1;;Gen Robin
+3462;3793;impassable;-1;-1;-1;-1;-1;;Gen Robin
+3462;7654;impassable;-1;-1;-1;-1;-1;;Gen Robin
+3462;5865;impassable;-1;-1;-1;-1;-1;;Gen Robin
+6992;7654;impassable;-1;-1;-1;-1;-1;;Gen Robin
+6992;5865;impassable;-1;-1;-1;-1;-1;;Gen Robin
+6992;7732;impassable;-1;-1;-1;-1;-1;;Gen Robin
+6992;5841;impassable;-1;-1;-1;-1;-1;;Gen Robin
+6992;4641;impassable;-1;-1;-1;-1;-1;;Gen Robin
+6356;4641;impassable;-1;-1;-1;-1;-1;;Gen Robin
+6356;7732;impassable;-1;-1;-1;-1;-1;;Gen Robin
+6356;857;impassable;-1;-1;-1;-1;-1;;Gen Robin
+6925;857;impassable;-1;-1;-1;-1;-1;;Gen Robin
+6925;4641;impassable;-1;-1;-1;-1;-1;;Gen Robin
+6925;7712;impassable;-1;-1;-1;-1;-1;;Gen Robin
+6925;4567;impassable;-1;-1;-1;-1;-1;;Gen Robin
+2665;7712;impassable;-1;-1;-1;-1;-1;;Gen Robin
+2665;4567;impassable;-1;-1;-1;-1;-1;;Gen Robin
+2665;4992;impassable;-1;-1;-1;-1;-1;;Gen Robin
+2665;1728;impassable;-1;-1;-1;-1;-1;;Gen Robin
+525;4992;impassable;-1;-1;-1;-1;-1;;Gen Robin
+525;1728;impassable;-1;-1;-1;-1;-1;;Gen Robin
+525;7730;impassable;-1;-1;-1;-1;-1;;Gen Robin
+525;5515;impassable;-1;-1;-1;-1;-1;;Gen Robin
+525;2151;impassable;-1;-1;-1;-1;-1;;Gen Robin
+525;7686;impassable;-1;-1;-1;-1;-1;;Gen Robin
+525;7678;impassable;-1;-1;-1;-1;-1;;Gen Robin
 
+# Musty Mountain
+4926;5402;impassable;-1;-1;-1;-1;-1;;Musty
+4926;6112;impassable;-1;-1;-1;-1;-1;;Musty
+4926;6502;impassable;-1;-1;-1;-1;-1;;Musty
+4926;1873;impassable;-1;-1;-1;-1;-1;;Musty
+4926;6125;impassable;-1;-1;-1;-1;-1;;Musty
+4898;6125;impassable;-1;-1;-1;-1;-1;;Musty
+4898;5696;impassable;-1;-1;-1;-1;-1;;Musty
+3981;5696;impassable;-1;-1;-1;-1;-1;;Musty
+3981;6566;impassable;-1;-1;-1;-1;-1;;Musty
+6706;6566;impassable;-1;-1;-1;-1;-1;;Musty
+6706;3040;impassable;-1;-1;-1;-1;-1;;Musty
+2661;3040;impassable;-1;-1;-1;-1;-1;;Musty
+2661;7105;impassable;-1;-1;-1;-1;-1;;Musty
+8923;7105;impassable;-1;-1;-1;-1;-1;;Musty
+8923;3833;impassable;-1;-1;-1;-1;-1;;Musty
+6502;6112;impassable;-1;-1;-1;-1;-1;;Musty
+1642;6112;impassable;-1;-1;-1;-1;-1;;Musty
+6800;6112;impassable;-1;-1;-1;-1;-1;;Musty
+6800;2784;impassable;-1;-1;-1;-1;-1;;Musty
+4813;2784;impassable;-1;-1;-1;-1;-1;;Musty
+
+
+
+
+# Port Emily Adjacencies
+5224;7902;sea;10770;-1;-1;-1;-1;;Port Emily
+
+# Solaria's Folly
+4749;2570;sea;11449;-1;-1;-1;-1;;Folly
+8657;8710;sea;11453;-1;-1;-1;-1;;Folly
+
+# Sanctuary
+8429;2548;sea;10713;-1;-1;-1;-1;;Sanctuary
+
+#Lower River
+5660;5070;sea;11456;-1;-1;-1;-1;;Lower RIver
+2652;2189;sea;11454;-1;-1;-1;-1;;Lower RIver
+8711;8658;sea;11455;-1;-1;-1;-1;;Lower RIver
+
+#Moat
+4506;6524;sea;11485;-1;-1;-1;-1;;Moat
+
+#Half Acre
+3472;2884;sea;11187;-1;-1;-1;-1;;Half Acre
+9298;2884;sea;11187;-1;-1;-1;-1;;Half Acre
+
+#Dry Harvest
+9298;5479;sea;10983;-1;-1;-1;-1;;Harvest
+82;9230;sea;11457;-1;-1;-1;-1;;Harvest
 
 
 

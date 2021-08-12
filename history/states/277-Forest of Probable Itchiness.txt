@@ -1,20 +1,28 @@
-
 state={
 	id=277
 	name="STATE_277"
+	history {
+		owner = ICH
+		add_core_of = ICH
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		
+		victory_points = { 3163 20 }
+	}
+
 	provinces={
 		977 1556 1825 1857 2100 3064 3163 3248 3303 3690 3740 3835 3974 4145 4937 4980 5043 5325 5905 5950 6593 6750 8437 8472 8547 8554 8595 8670 8726 
 	}
 	
-	history {
-	owner = ICH
-	add_core_of = ICH
-	victory_points = { 3163 20 }
-	
-	}
-
-	
-	manpower=1000
+	manpower=5000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 }

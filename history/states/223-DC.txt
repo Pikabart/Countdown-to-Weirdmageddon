@@ -4,18 +4,25 @@ state={
 	
 	history={
 		owner = EUS
-		buildings = {
-			infrastructure = 10
-		}
-		victory_points = { 7727 50 }
 		add_core_of = EUS
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+		
+		victory_points = { 7727 50 }
 		
 	}
 	
 	provinces={
 		7727 10117 10133 10699 10700 
 	}
-	manpower=1000
+	manpower=1000000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

@@ -1,18 +1,28 @@
 state={
 	id=424
 	name="STATE_424"
+	history {
+		owner = SOL
+		add_core_of = SOL
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		
+		victory_points = { 4813 5 }
+	}
+	
 	provinces={
 		1072 1458 2934 4813 6119 6800 7084 
 	}
 	
-	history {
-	owner = SOL
-	add_core_of = SOL
-	victory_points = { 4813 20 }
-	
-	}
-	
-	manpower=1000
+	manpower=7500
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 }

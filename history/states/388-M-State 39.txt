@@ -1,18 +1,27 @@
 state={
 	id=388
 	name="STATE_388"
+	history {
+		owner = UKN
+		add_core_of = UKN
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+			
+	}
+	
 	provinces={
 		1585 1753 3396 4871 4892 5774 6331 7841 7904 8003 
 	}
 	
-	history {
-	owner = JOH
-	add_core_of = JOH
-	victory_points = { 1753 5 }
-	
-	}
-	
-	manpower=1000
+	manpower=4000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

@@ -1,14 +1,23 @@
-
 state={
 	id=357
 	name="STATE_357"
-	provinces={
-		525 2665 3462 6356 6925 6992 7711 
+	history {
+		owner = SPI
+		add_core_of = SPI	
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
 	}
 	
-	history {
-	owner = SPI
-	add_core_of = SPI	
+	provinces={
+		525 2665 3462 6356 6925 6992 7711 
 	}
 	
 	manpower=1000

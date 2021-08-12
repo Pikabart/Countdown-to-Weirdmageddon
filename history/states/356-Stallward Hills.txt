@@ -1,15 +1,23 @@
 state={
 	id=356
 	name="STATE_356"
-	provinces={
-		2588 3992 5055 
+	history {
+		owner = MEW
+		add_core_of = MEW	
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
 	}
 	
-	history {
-	owner = MEW
-	add_core_of = MEW
-	victory_points = { 3992 5 }
-	
+	provinces={
+		2588 3992 5055 
 	}
 	
 	manpower=1000

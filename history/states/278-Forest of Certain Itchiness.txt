@@ -1,19 +1,28 @@
-
 state={
 	id=278
 	name="STATE_278"
+	history {
+		owner = AIR
+		add_core_of = AIR
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+
+		victory_points = { 5913 20 }
+	}
+	
 	provinces={
 		295 418 991 1039 1107 1247 4129 5084 5188 5572 5787 5913 6144 6509 8619 8639 8725 8762 
 	}
 	
-	history {
-	owner = AIR
-	add_core_of = AIR
-	victory_points = { 5913 5 }
-	
-	}
-	
-	manpower=1000
+	manpower=6500
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 }

@@ -1,18 +1,30 @@
 state={
 	id=288
 	name="STATE_288"
+	history {
+		owner = PIE
+		add_core_of = PIE
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 2
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			8615 = {naval_base = 2}
+		}
+		
+		victory_points = { 8615 25 }
+	}
+	
 	provinces={
 		5832 8461 8615 
 	}
 	
-	history {
-	owner = JOH
-	add_core_of = JOH
-	victory_points = { 8615 5 }
-	
-	}
-	
-	manpower=1000
+	manpower=8000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_city 
 }

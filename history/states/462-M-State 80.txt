@@ -1,18 +1,25 @@
 state={
 	id=462
 	name="STATE_462"
+	history {
+		owner = MEW
+		add_core_of = MEW
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	}
+	
 	provinces={
 		13 3368 3587 3612 4746 7104 8454 
 	}
 	
-	history {
-	owner = MEW
-	add_core_of = MEW
-	#victory_points = {}
-	
-	}
-	
-	manpower=1000
+	manpower=7000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 }

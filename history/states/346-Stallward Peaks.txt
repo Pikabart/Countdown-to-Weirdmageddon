@@ -1,16 +1,23 @@
-
 state={
 	id=346
 	name="STATE_346"
-	provinces={
-		5458 7903 7934 
+	history {
+		owner = MEW
+		add_core_of = MEW	
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
 	}
 	
-	history {
-	owner = MEW
-	add_core_of = MEW
-	victory_points = { 7903 5 }
-	
+	provinces={
+		5458 7903 7934 
 	}
 	
 	manpower=1000

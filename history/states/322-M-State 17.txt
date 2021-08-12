@@ -1,19 +1,27 @@
-
 state={
 	id=322
 	name="STATE_322"
+	history {
+		owner = LUC
+		add_core_of = LUC
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		victory_points = { 8776 5 }
+	}
+	
 	provinces={
 		2630 4467 5904 6515 8776 8789 
 	}
 	
-	history {
-	owner = LUC
-	add_core_of = LUC
-	victory_points = { 8776 5 }
-	
-	}
-	
-	manpower=1000
+	manpower=3000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

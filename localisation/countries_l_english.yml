@@ -148,18 +148,18 @@
 
 ###########################################################
 #Mewni 
- MEW_fascism:0 "Royal Domain"
+ MEW_fascism:0 "Butterfly Kingdom"
  MEW_fascism_DEF:0 "Royal Grounds"
- MEW_democratic:0 "Royal Domain"
- MEW_democratic_DEF:0 "Royal Domain"
- MEW_neutrality:1 "Royal Domain"
- MEW_neutrality_DEF:1 "Royal Domain"
- MEW_communism:0 "Royal Domain"
- MEW_communism_DEF:0 "Royal Domain"
- MEW_fascism_ADJ:0 "Royal Domain"
- MEW_democratic_ADJ:0 "Royal Domain"
- MEW_neutrality_ADJ:0 "Royal Domain"
- MEW_communism_ADJ:0 "Royal Domain"
+ MEW_democratic:0 "Butterfly Kingdom"
+ MEW_democratic_DEF:0 "Butterfly Kingdom"
+ MEW_neutrality:1 "Butterfly Kingdom"
+ MEW_neutrality_DEF:1 "Butterfly Kingdom"
+ MEW_communism:0 "Butterfly Kingdom"
+ MEW_communism_DEF:0 "Butterfly Kingdom"
+ MEW_fascism_ADJ:0 "Butterfly Kingdom"
+ MEW_democratic_ADJ:0 "Butterfly Kingdom"
+ MEW_neutrality_ADJ:0 "Butterfly Kingdom"
+ MEW_communism_ADJ:0 "Butterfly Kingdom"
  
  JOH_fascism:0 "Johansen Kingdom"
  JOH_fascism_DEF:0 "Johansen Kingdom"
@@ -251,6 +251,19 @@
  JAG_democratic_ADJ:0 "Jaggy Kingdom"
  JAG_neutrality_ADJ:0 "Jaggy Kingdom"
  JAG_communism_ADJ:0 "Jaggy Kingdom"
+ 
+ PIE_fascism:0 "Pie Folk"
+ PIE_fascism_DEF:0 "Pie Folk"
+ PIE_democratic:0 "Pie Folk"
+ PIE_democratic_DEF:0 "Pie Folk"
+ PIE_neutrality:1 "Pie Folk"
+ PIE_neutrality_DEF:1 "Pie Folk"
+ PIE_communism:0 "Pie Folk"
+ PIE_communism_DEF:0 "Pie Folk"
+ PIE_fascism_ADJ:0 "Pie Folk"
+ PIE_democratic_ADJ:0 "Pie Folk"
+ PIE_neutrality_ADJ:0 "Pie Folk"
+ PIE_communism_ADJ:0 "Pie Folk"
  
 ###########################################################
 #Mewni Monsters

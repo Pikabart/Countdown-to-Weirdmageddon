@@ -3,20 +3,25 @@ state={
 	id=146
 	name="STATE_146"
 	
-	history={
+history={
 		owner = CAL
-		buildings = {
-			infrastructure = 10
-		}
-		
 		add_core_of = CAL
-		
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+
 	}
 	
 	provinces={
 		273 1621 3099 4952 5333 5390 5546 6196 6732 9420 9438 9476 9485 9508 9518 9524 9539 9557 
 	}
-	manpower=1000
+	manpower=150000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 }

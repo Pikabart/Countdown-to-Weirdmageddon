@@ -18,6 +18,14 @@ set_popularities = {
 	fascism = 1
 }
 
+create_faction = "Kingdom of Mewni"
+add_to_faction = JOH
+add_to_faction = LUC
+add_to_faction = PIG
+add_to_faction = PNY
+add_to_faction = SPI
+add_to_faction = JAG
+
 create_country_leader = {
 	name = "Queen Moon of House Butterfly"
 	desc = "placeholder"

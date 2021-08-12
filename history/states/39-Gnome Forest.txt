@@ -1,10 +1,24 @@
 state={
 	id=39
 	name="STATE_39"
+	
+	history = {
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+				
+		}
+	}
+	
 	provinces={
 		1235 2873 3381 4956 7179 8352 8376 8416 8424 
 	}
-	manpower=1000
+	manpower=4000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city 
 }

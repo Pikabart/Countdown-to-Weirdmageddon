@@ -4,18 +4,25 @@ state={
 	
 	history={
 		owner = NRW
-		buildings = {
-			infrastructure = 10
-		}
-		victory_points = { 8114 30 }
 		add_core_of = NRW
 		
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			infrastructure = 8
+			air_base = 1
+			anti_air_building = 1
+			radar_station = 1
+		}
+		
+		victory_points = { 8114 30 }	
 	}
 	
 	provinces={
 		3772 6840 8114 8628 8642 8652 
 	}
-	manpower=1000
+	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town 
 }

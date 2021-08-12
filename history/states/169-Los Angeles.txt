@@ -4,20 +4,24 @@ state={
 	
 	history={
 		owner = SOC
+		add_core_of = SOC
 		buildings = {
-			infrastructure = 10
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
 		}
 		
-		add_core_of = SOC
-		victory_points = {
-			2357 50 
-		}
+		victory_points = {2357 50}
 	}
 	
 	provinces={
 		102 517 2357 3729 5460 5902 6407 10095 10143 10153 10157 10158 
 	}
-	manpower=1000
+	manpower=3500000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=megalopolis
 }

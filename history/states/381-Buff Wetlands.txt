@@ -1,19 +1,28 @@
-
 state={
 	id=381
-	name="STATE_381"
+	name="STATE_381"	
+	history {
+		owner = SWP
+		add_core_of = SWP
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+			
+		victory_points = { 7870 20 } 
+	}
+	
 	provinces={
 		1810 7826 7870 
 	}
 	
-	history {
-	owner = SWP
-	add_core_of = SWP
-	victory_points = { 7870 20 }
-	
-	}
-	
-	manpower=1000
+	manpower=5000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

@@ -1,19 +1,28 @@
-
 state={
 	id=376
-	name="STATE_376"
+	name="STATE_376"	
+	history {
+		owner = KAI
+		add_core_of = KAI
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		
+		victory_points = { 6029 5 } 
+	}
+	
 	provinces={
 		555 3520 3543 5491 5895 6029 
 	}
 	
-	history {
-	owner = KAI
-	add_core_of = KAI
-	victory_points = { 6029 5 } 
-	
-	}
-	
-	manpower=1000
+	manpower=6000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 }

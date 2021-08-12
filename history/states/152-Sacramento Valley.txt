@@ -4,22 +4,25 @@ state={
 	
 	history={
 		owner = CAL
-		buildings = {
-			infrastructure = 10
-			air_base = 3
-		}
-		
 		add_core_of = CAL
-		victory_points = {
-			3309 50 
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
 		}
+
+		victory_points = {3309 50 }
 
 	}
 	
 	provinces={
 		2010 2970 3309 3933 4775 6197 6230 6753 7174 9494 9498 9505 9512 9526 9534 9545 9546 9549 9566 9570 9575 9593 9595 
 	}
-	manpower=1000
+	manpower=500000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_city
 }

@@ -1,18 +1,27 @@
 state={
 	id=367
 	name="STATE_367"
+	history {
+		owner = JAG
+		add_core_of = JAG	
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		victory_points = { 7357 50 }
+	}
+	
 	provinces={
 		371 703 2447 2541 2631 5639 6693 6962 7324 7357 7445 
 	}
 	
-	history {
-	owner = JAG
-	add_core_of = JAG
-	victory_points = { 7357 20 } 
-	
-	}
-	
-	manpower=1000
+	manpower=9000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_city
 }

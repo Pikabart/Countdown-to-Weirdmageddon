@@ -1,18 +1,27 @@
 state={
 	id=444
 	name="STATE_444"
+	history {
+		owner = SWP
+		add_core_of = SWP
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		
+		victory_points = { 2510 5 }
+	}
+	
 	provinces={
 		783 2435 2510 4547 5198 7853 
 	}
 	
-	history {
-	owner = SWP
-	add_core_of = SWP
-	victory_points = { 2510 5 }
-	
-	}
-	
-	manpower=1000
+	manpower=4000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

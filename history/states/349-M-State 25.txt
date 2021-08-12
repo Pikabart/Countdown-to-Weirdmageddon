@@ -1,18 +1,26 @@
-
 state={
 	id=349
 	name="STATE_349"
+	history {
+		owner = MEW
+		add_core_of = MEW	
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	}
+	
 	provinces={
 		361 2057 3624 4769 6391 7806 7860 7868 7908 
 	}
 	
-	history {
-	owner = MEW
-	add_core_of = MEW
-	#victory_points = { }
-	}
-	
-	manpower=1000
+	manpower=4000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

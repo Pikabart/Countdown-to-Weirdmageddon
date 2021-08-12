@@ -1,18 +1,27 @@
 state={
 	id=330
 	name="STATE_330"
+	history {
+		owner = MEW
+		add_core_of = MEW
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		victory_points = { 7972 5 }
+	}
+	
 	provinces={
 		7721 7972 
 	}
 	
-	history {
-	owner = MEW
-	add_core_of = MEW
-	victory_points = { 7972 5 }
-	
-	}
-	
-	manpower=1000
+	manpower=500
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=small_island
 }

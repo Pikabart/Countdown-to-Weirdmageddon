@@ -4,16 +4,22 @@ state={
 	
 	history={
 		owner = EUS
+		add_core_of = EUS
 		buildings = {
-			infrastructure = 10
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
 		}
-		add_core_of = EUS	
 	}
 	
 	provinces={
 		456 591 801 888 1133 1486 1816 1942 2023 2050 2101 2111 2315 2352 2684 2707 2724 2830 2879 3134 3187 4386 4854 6792 7258 10047 10250 10297 10312 10401 
 	}
-	manpower=1000
+	manpower=1000000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

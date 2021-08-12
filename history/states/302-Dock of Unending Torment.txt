@@ -1,20 +1,28 @@
-
 state={
 	id=302
 	name="STATE_302"
+	history {
+		owner = SCU
+		add_core_of = SCU
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	
+		victory_points = { 6803 20 }
+	}
+	
 	provinces={
 		3948 6584 6803 9167 
 	}
 	
-	history {
-	owner = SCU
-	add_core_of = SCU
-	victory_points = { 6803 20 }
-
-	
-	}
-	
-	manpower=1000
+	manpower=5000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

@@ -1,18 +1,27 @@
 state={
 	id=375
 	name="STATE_375"
+	history {
+		owner = PNY
+		add_core_of = PNY	
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		victory_points = { 412 10 }
+	}
+	
 	provinces={
 		421 1158 1941 1976 4562 5050 6047 7154 7265 7318 7323 7331 7337 7394 7434 
 	}
 	
-	history {
-	owner = PNY
-	add_core_of = PNY
-	victory_points = { 421 5 }
-	
-	}
-	
-	manpower=1000
+	manpower=4000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

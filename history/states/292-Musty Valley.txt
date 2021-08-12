@@ -1,19 +1,27 @@
-
 state={
 	id=292
 	name="STATE_292"
+	history {
+		owner = REP
+		add_core_of = REP
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+			
+			
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		
+	}
+	
 	provinces={
 		589 1641 2268 2693 4204 5858 6387 6569 7057 7115 8656 8738 8781 9204 
 	}
 	
-	history {
-	owner = REP
-	add_core_of = REP
-	victory_points = { 589 5 }
-	
-	}
-	
-	manpower=1000
+	manpower=8000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 }

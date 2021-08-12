@@ -5,18 +5,23 @@ state={
 	
 	history={
 		owner = SOC
-		buildings = {
-			infrastructure = 10
-		}
-		
 		add_core_of = SOC
-		
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+			
 	}
 	
 	provinces={
 		3416 3742 4869 5312 5779 10080 10081 10089 10091 10096 
 	}
-	manpower=1000
+	manpower=10000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

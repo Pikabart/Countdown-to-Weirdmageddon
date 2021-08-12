@@ -1,16 +1,25 @@
-
 state={
 	id=285
 	name="STATE_285"
-	provinces={
-		1057 1593 2233 2289 2490 2668 4592 6475 7204 7929 7942 8012 
+	history {
+		owner = PIG
+		add_core_of = PIG
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		
+		victory_points = { 7942 5 }
 	}
 	
-	history {
-	owner = PIG
-	add_core_of = PIG
-	victory_points = { 7942 5 }
-	
+	provinces={
+		1057 1593 2233 2289 2490 2668 4592 6475 7204 7929 7942 8012 
 	}
 	
 	manpower=1000

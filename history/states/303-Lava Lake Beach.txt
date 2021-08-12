@@ -1,18 +1,26 @@
-
 state={
 	id=303
 	name="STATE_303"
+	history {
+		owner = STI
+		add_core_of = STI
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	}
+	
 	provinces={
 		464 4072 
 	}
 	
-	history {
-	owner = STI
-	add_core_of = STI
-	
-	}
-	
-	manpower=1000
+	manpower=4000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

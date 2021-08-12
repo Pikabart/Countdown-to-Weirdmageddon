@@ -1,18 +1,28 @@
 state={
 	id=282
 	name="STATE_282"
+	history {
+		owner = PIG
+		add_core_of = PIG
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		
+		victory_points = { 9132 5 }
+	}
+	
 	provinces={
 		20 554 601 942 1399 1776 2887 3318 4886 6599 8123 8132 
 	}
 	
-	history {
-	owner = PIG
-	add_core_of = PIG
-	victory_points = { 8132 5 }
-	
-	}
-	
-	manpower=1000
+	manpower=4000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

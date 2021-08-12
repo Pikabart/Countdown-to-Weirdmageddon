@@ -5,7 +5,17 @@ state={
 	
 	history={
 		owner = GTF
-		add_core_of = GTF	
+		add_core_of = GTF
+
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 1
+		}		
 	}
 	
 	provinces={

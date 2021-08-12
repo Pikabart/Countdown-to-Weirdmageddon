@@ -1,17 +1,26 @@
 state={
 	id=420
 	name="STATE_420"
+	history {
+		owner = UKN
+		add_core_of = UKN
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	}
+	
 	provinces={
 		4507 4802 
 	}
 	
-	history {
-	owner = UKN
-	add_core_of = UKN
-	
-	}
-	
-	manpower=1000
+	manpower=3500
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

@@ -1,17 +1,26 @@
 state={
 	id=429
 	name="STATE_429"
+	history {
+		owner = MER
+		add_core_of = MER
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	}
+	
 	provinces={
 		2405 3040 6566 7105 9009 
 	}
 	
-	history {
-	owner = MER
-	add_core_of = MER
-	
-	}
-	
-	manpower=1000
+	manpower=3500
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

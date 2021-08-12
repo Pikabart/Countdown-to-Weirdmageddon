@@ -1,18 +1,28 @@
 state={
 	id=355
 	name="STATE_355"
+	history {
+		owner = SPI
+		add_core_of = SPI	
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	
+		victory_points = { 7656 5 }
+	}
+	
 	provinces={
 		210 1582 4276 5227 6186 6553 7607 7656 7666 7715 
 	}
 	
-		history {
-	owner = SPI
-	add_core_of = SPI
-	victory_points = { 7656 5 }
-	
-	}
-	
-	manpower=1000
+	manpower=4000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

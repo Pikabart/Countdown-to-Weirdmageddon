@@ -1,19 +1,28 @@
-
 state={
 	id=362
 	name="STATE_362"
+	history {
+		owner = AVA
+		add_core_of = AVA	
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	
+		victory_points = { 4045 15 }
+	}
+	
 	provinces={
 		875 2851 4045 
 	}
 	
-	history {
-	owner = AVA
-	add_core_of = AVA
-	victory_points = { 4045 20 } 
-	
-	}
-	
-	manpower=1000
+	manpower=12500
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 }

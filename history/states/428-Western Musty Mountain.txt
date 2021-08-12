@@ -1,18 +1,28 @@
 state={
 	id=428
 	name="STATE_428"
+	history {
+		owner = HKM
+		add_core_of = HKM
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		
+		victory_points = { 3981 20 }
+	}
+	
 	provinces={
 		3981 4898 4926 8890 
 	}
 	
-	history {
-	owner = HKM
-	add_core_of = HKM
-	victory_points = { 3981 20 }
-	
-	}
-	
-	manpower=1000
+	manpower=7500
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 }

@@ -4,18 +4,23 @@ state={
 	
 	history={
 		owner = ORE
-		buildings = {
-			infrastructure = 10
-
-		}
 		add_core_of = ORE
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
 
 	}
 	
 	provinces={
 		1855 2838 3059 3563 3710 5097 5381 5481 5685 6088 6487 6551 7155 7230 8813 8851 8875 8893 8912 8941 8945 8957 8967 8980 8991 9016 
 	}
-	manpower=1000
+	manpower=10000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

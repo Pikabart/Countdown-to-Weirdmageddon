@@ -1,15 +1,25 @@
 state={
 	id=279
 	name="STATE_279"
-	provinces={
-		992 2089 2667 3010 3210 3764 4219 8287 8383 
+	history {
+		owner = PIG
+		add_core_of = PIG
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		
+		victory_points = { 4219 20 }
 	}
 	
-	history {
-	owner = PIG
-	add_core_of = PIG
-	victory_points = { 4219 20 }
-	
+	provinces={
+		992 2089 2667 3010 3210 3764 4219 8287 8383 
 	}
 	
 	manpower=1000

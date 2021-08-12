@@ -4,17 +4,23 @@ state={
 	
 	history={
 		owner = WAS
-		buildings = {
-			infrastructure = 10
-		}
 		add_core_of = WAS
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
 
 	}
 	
 	provinces={
 		1154 1165 1646 2162 2163 2896 2897 3032 3531 3860 4054 4416 4423 4661 5358 5540 6529 7207 7241 7264 7584 7606 7618 7639 7642 7660 7672 7679 7696 7700 7717 
 	}
-	manpower=1000
+	manpower=50000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

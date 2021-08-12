@@ -6,6 +6,18 @@ state={
 		owner = GTF
 		add_core_of = GTF	
 		
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 4
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			4780 = {bunker = 10}
+		}
+		
 		victory_points = {
 			4780  50
 		}
@@ -14,7 +26,7 @@ state={
 	provinces={
 		4780 5690 6645 6853 7218 8559 8586 8591 8622 
 	}
-	manpower=1000
+	manpower=5000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis  
 }

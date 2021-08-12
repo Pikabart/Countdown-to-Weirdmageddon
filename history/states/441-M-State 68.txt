@@ -1,18 +1,26 @@
 state={
 	id=441
 	name="STATE_441"
+	history {
+		owner = TSR
+		add_core_of = TSR
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		victory_points = { 7843 5 }
+	}
+	
 	provinces={
 		3482 3967 5512 5665 7843 
 	}
 	
-	history {
-	owner = TSR
-	add_core_of = TSR
-	victory_points = { 7843 5 }
-	
-	}
-	
-	manpower=1000
+	manpower=4000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

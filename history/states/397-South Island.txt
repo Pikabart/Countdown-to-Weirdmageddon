@@ -5,16 +5,23 @@ state={
 	
 	history={
 		owner = CAN
+		add_core_of = CAN
 		buildings = {
-			infrastructure = 10
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
 		}
-		add_core_of = CAN	
+		
 	}
 	
 	provinces={
 		1363 1997 2127 3137 3401 3463 3586 4108 4930 5152 5364 5569 5706 6914 6985 7027 7141 7188 7525 7538 7549 7553 7563 7578 7580 7581 7587 7591 7594 7605 7610 7614 7621 7631 7634 7644 7649 7650 7664 7667 
 	}
-	manpower=1000
+	manpower=200000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 }

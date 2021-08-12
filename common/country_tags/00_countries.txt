@@ -22,6 +22,7 @@ SPI = "countries/M-Spiderbite Kingdom.txt"
 PIG = "countries/M-Pigeon Kingdom.txt"
 LUC = "countries/M-Lucitor Kingdom.txt"
 JAG = "countries/M-Jaggy Kingdom.txt"
+PIE = "countries/M-Pie Folk.txt"
 
 #Mewni_Monsters
 ICH = "countries/Monst-Itchy Kingdom.txt"

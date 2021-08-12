@@ -1,18 +1,28 @@
 state={
 	id=338
 	name="STATE_338"
+	history {
+		owner = JOH
+		add_core_of = JOH
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	
+		victory_points = { 2978 5 }
+	}
+	
 	provinces={
 		1233 2386 2485 2635 2978 4977 5613 5689 6687 6705 7189 8192 8200 8260 
 	}
 	
-	history {
-	owner = JOH
-	add_core_of = JOH
-	victory_points = { 2978 5 }
-	
-	}
-	
-	manpower=1000
+	manpower=3000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }
