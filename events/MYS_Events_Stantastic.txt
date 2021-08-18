@@ -1,0 +1,260 @@
+﻿###########################
+#  - Report Events MYS Stantastic -
+###########################
+
+add_namespace = stantastic
+
+###
+# Stan-Tastic Adventure 1: Corn, The Crawlspace, and Old Memories
+###
+
+country_event = {
+	id = stantastic.1
+	title = stantastic.1.t 
+	desc = stantastic.1.d  
+	picture = GFX_report_event_gideon_fruit 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		
+	}
+}
+	
+country_event = {
+	id = stantastic.2
+	title = stantastic.2.t 
+	desc = stantastic.2.d  
+	picture = GFX_report_event_stan_running_away 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}	
+	
+country_event = {
+	id = stantastic.3
+	title = stantastic.3.t 
+	desc = stantastic.3.d  
+	picture = GFX_report_event_corn_crew 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}	
+	
+country_event = {
+	id = stantastic.4
+	title = stantastic.4.t 
+	desc = stantastic.4.d  
+	picture = GFX_report_event_river_corn 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}	
+	
+country_event = {
+	id = stantastic.5
+	title = stantastic.5.t 
+	desc = stantastic.5.d  
+	picture = GFX_report_event_crawlspace #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = stantastic.6
+	}
+}
+
+country_event = {
+	id = stantastic.6
+	title = stantastic.6.t 
+	desc = stantastic.6.d  
+	picture = GFX_report_event_stan_running_away #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = stantastic.7
+		MEW={country_event = stantastic.13}
+	}
+}
+
+country_event = {
+	id = stantastic.7
+	title = stantastic.7.t 
+	desc = stantastic.7.d  
+	picture = GFX_report_event_sanctuary #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.7.a
+		ai_chance = { factor = 5 }	# 5% AI choose this
+		country_event = { id = stantastic.8 days = 3 }
+		MEW={country_event = { id = stantastic.10 days = 3 }}
+	}
+	option = { 
+		name = stantastic.7.b
+		ai_chance = { factor = 95 }	# 95% AI choose this
+		country_event = { id = stantastic.9 days = 3 }
+		MEW={country_event = { id = stantastic.11 days = 3 }}
+	}
+}
+
+country_event = {
+	id = stantastic.8
+	title = stantastic.8.t 
+	desc = stantastic.8.d  
+	picture = GFX_report_event_beatup_stan #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.8.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = stantastic.9
+	title = stantastic.9.t 
+	desc = stantastic.9.d  
+	picture = GFX_report_event_still_standing_stan #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.9.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = stantastic.12 days = 3 }
+	}
+}
+
+country_event = {
+	id = stantastic.10
+	title = stantastic.10.t 
+	desc = stantastic.10.d  
+	picture = GFX_report_event_commission_charge #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.10.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = stantastic.11
+	title = stantastic.11.t 
+	desc = stantastic.11.d  
+	picture = GFX_report_event_commission_defeat 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.11.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = stantastic.12
+	title = stantastic.12.t 
+	desc = stantastic.12.d  
+	picture = GFX_report_event_owlbert_steal 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.12.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}	
+
+country_event = {
+	id = stantastic.13
+	title = stantastic.13.t 
+	desc = stantastic.13.d  
+	picture = GFX_report_event_commission 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.13.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}	
+	
+	
+	
+	

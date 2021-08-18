@@ -2,6 +2,16 @@
 MYS = "countries/R-Mystery Shack.txt"
 GTF = "countries/R-Gravity Falls.txt"
 NRW = "countries/R-Northwest.txt"
+GNM = "countries/R-Gnome Kingdom.txt"
+UFC = "countries/R-United Forest.txt"
+MAN = "countries/R-Manotaurs Lands.txt"
+
+#Tourist
+MYM = "countries/T-Mystery Mountain.txt"
+YBL = "countries/T-Upside Down.txt"
+UPD = "countries/T-Yarnball.txt"
+LOG = "countries/T-Logland.txt"
+COR = "countries/T-Cornmaze.txt"
 
 #Earth
 ORE = "countries/E-Oregon.txt"

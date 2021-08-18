@@ -1,0 +1,557 @@
+##########IDEAS and ADVISORS for the MYS  ##############
+###NOTE: GFX calls tied to advisors_MYS.gfx and ideas_MYS.gfx ####
+	
+ideas = { #Entire file
+
+	######################################################
+	#National Spirits
+	######################################################
+	country = {
+		##############
+		MYS_NWHS_1 = {
+			#picture = GFX_idea_NWHS_1 #GFX_NWHS_1 #Does Not Work
+			#Make GFX call is GFX_idea_*idea name*
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				political_power_factor = 0.2
+				stability_weekly_factor = 0.005 #gain .5% eveyr week
+				consumer_goods_factor = -0.10
+				local_resources_factor = 0.05
+				research_speed_factor = -0.05
+				max_surrender_limit_offset = 0.5 #Less likely to surrender	
+			}
+		}
+		##############
+		MYS_NWHS_2 = {
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				political_power_factor = 0.1
+				#stability_weekly_factor = 0.001 #gain .1% every week
+				consumer_goods_factor = -0.05
+				local_resources_factor = 0.01
+				research_speed_factor = -0.01
+				max_surrender_limit_offset = 0.3 #Less likely to surrender	
+			}
+		}
+		##############
+		MYS_NWHS_3 = {
+	
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				#political_power_factor = 0.1
+				stability_weekly_factor = -0.001 #loss .1% eveyr week
+				#consumer_goods_factor = -0.05
+				#local_resources_factor = 0.0
+				#research_speed_factor = 0.5
+				#max_surrender_limit_offset = 0 #Less likely to surrender	
+			}
+		}
+		##############
+		MYS_NWHS_4 = {
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				political_power_factor = -0.1
+				stability_weekly_factor = -0.005 #lose .5% every week
+				consumer_goods_factor = 0.05
+				local_resources_factor = -0.01
+				research_speed_factor = 0.1
+				max_surrender_limit_offset = -0.1 #More likely to surrender	
+			}
+		}
+		##############
+		MYS_NWHS_5 = {
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				political_power_factor = -0.25
+				stability_weekly_factor = -0.01 #loss 1% every week
+				consumer_goods_factor = 0.1
+				local_resources_factor = -0.05
+				research_speed_factor = 0.15
+				max_surrender_limit_offset = -0.2 #More likely to surrender	
+			}
+		}
+		##############
+		MYS_plenty_of_suckers = {
+		
+			allowed = {tag = MYS}
+			available = {}#Unless Western US Civil War breaks out
+			cancel = {}#prank wars begin
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				conversion_cost_mil_to_civ_factor = -0.1
+				conscription_factor = 0.2
+			}
+		}
+		###############
+		
+	}
+
+###############################################################
+	# POLITICAL	
+################################################################
+
+	political_advisor = {
+		
+		#############
+		soos_handy_man_advisor = { 
+		# For in-game name, see localisation\advisor_l_english.yml
+		
+			picture = soos_the_handy_man # See interface\advisors.gfx
+			
+			allowed = {
+				original_tag = MYS #make advisor just for this country
+				#NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = ROM tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR } }			
+				#prevent advisor to be one for other countries (for country already have their own)
+			}
+
+			available = {				
+			}
+			
+			traits = { handy_man } # See common\country_leader\00_traits.txt
+
+			on_add = {
+				#country_event = political.1
+			}
+
+			do_effect = {
+				NOT = {
+					#has_government = communism
+				}
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		#############
+		wendy_battle_cashier_1_advisor = {  #For early game Wendy
+			picture = wendy_1
+			allowed = {
+				original_tag = MYS
+			}
+			available = {
+				has_completed_focus = MYS_corduroy_spirit #Will not be selectable until condition met
+			}
+			traits = { 
+				battle_cashier_1 
+			}
+			on_add = {
+				#country_event = mystery_shack.2
+			}
+			do_effect = {
+				NOT = {
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		###############
+		wendy_rebel_girl_1_advisor = {  #Use for late game weirdmageddon
+			picture = wendy_2
+			allowed = {
+				original_tag = MYS
+				#has_completed_focus = MYS_new_pranks
+			}
+			available = {
+				has_completed_focus = MYS_new_pranks
+			}
+			traits = { 
+				rebel_girl_1 
+			}
+			on_add = {
+				#country_event = mystery_shack.2
+			}
+			do_effect = {
+				NOT = {
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		###########
+		dipper_explorer_1_advisor = {
+			picture = dipper_1
+			allowed = {
+				original_tag = MYS
+			}
+			available = {
+				has_completed_focus = MYS_the_pine_twins
+			}
+			traits = { 
+				explorer_1 
+			}
+			on_add = {
+			}
+			do_effect = {
+				NOT = {
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		##################
+		mabel_multi-skilled_1_advisor = {
+			picture = mabel_1
+			allowed = {
+				original_tag = MYS
+			}
+			available = {
+				has_completed_focus = MYS_the_pine_twins
+			}
+			traits = { 
+				multi-skilled_1 
+			}
+			on_add = {
+			}
+			do_effect = {
+				NOT = {
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+		
+		##############
+		gompers_head_of_intelligence = {
+			picture = gompers_1
+			allowed = {
+				original_tag = MYS
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = { 
+				spy_goat_1 
+			}
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					has_intelligence_agency = no
+					factor = 0
+				}
+			}
+
+		}
+			
+	}
+	
+################################################################	
+	# Research and Production choices
+################################################################
+	tank_manufacturer = { 
+		designer = yes #mark the category as a designer for the A
+		
+		MYS_tank_manufacturer = {
+			picture = generic_tank_manufacturer_1
+			allowed = {
+				original_tag = MYS
+			}
+			
+			cost = 150 # In PP
+			removal_cost = 10
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { tank_manufacturer }
+		}
+	}
+	
+	naval_manufacturer = { 
+	
+		designer = yes
+	
+		MYS_naval_manufacturer = {
+			
+			picture = generic_naval_manufacturer_1
+
+			allowed = {
+				original_tag = MYS
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { naval_manufacturer }
+		}
+	}
+
+	aircraft_manufacturer = { 
+	
+		designer = yes
+	
+		MYS_light_aircraft_manufacturer = {
+			
+			picture = generic_air_manufacturer_1
+
+			allowed = {
+				original_tag = MYS
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		
+		MYS_medium_aircraft_manufacturer = {
+			
+			picture = generic_air_manufacturer_3
+
+			allowed = {
+				original_tag = MYS
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		
+		MYS_heavy_aircraft_manufacturer = {
+
+			picture = generic_air_manufacturer_2
+			
+			allowed = {
+				original_tag = MYS
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+		
+		MYS_naval_aircraft_manufacturer = {
+			
+			picture = generic_naval_manufacturer_2
+
+			allowed = {
+				original_tag = MYS
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+		}
+	}
+
+	industrial_concern = {
+	
+		MYS_industrial_concern = {
+			
+			picture = generic_industrial_concern_1
+
+			allowed = {
+				original_tag = MYS
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { industrial_concern }
+		}
+
+		MYS_electronics_concern = {
+			
+			picture = generic_electronics_concern_1
+
+			allowed = {
+				original_tag = MYS
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				electronics = 0.15
+			}
+			
+			traits = { electronics_concern }
+		}
+	}
+
+	materiel_manufacturer = {
+	
+		designer = yes
+	
+		MYS_motorized_equipment_manufacturer = {
+			
+			picture = generic_motorized_equipment_manufacturer_3
+
+			allowed = {
+				original_tag = MYS
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+		}
+		
+		MYS_infantry_equipment_manufacturer = {
+			
+			picture = generic_infantry_equipment_manufacturer_2
+
+			allowed = {
+				original_tag = MYS
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+		
+		MYS_artillery_manufacturer = {
+			
+			picture = generic_artillery_manufacturer_2
+
+			allowed = {
+				original_tag = MYS
+			}
+			
+			cost = 150
+			removal_cost = 10
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+
+################################################################	
+	# Theorist
+################################################################
+	
+	theorist = {
+
+		MYS_military_theorist = {
+			ledger = army
+			#picture = wendy_1
+			allowed = {
+				original_tag = MYS
+			}
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+	
+		MYS_naval_theorist = {
+			ledger = navy
+			#picture = soos_the_handy_man
+			allowed = {
+				original_tag = MYS
+			}
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}
+
+		MYS_air_warfare_theorist = {
+			ledger = air
+			
+			allowed = {
+				original_tag = MYS
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { air_warfare_theorist }
+		}
+		
+		MYS_total_warfare_theorist = {
+			ledger = army 
+			
+			allowed = {
+				original_tag = MYS
+			}
+			
+			research_bonus = {
+				air_doctrine = 0.10
+			}
+			
+			traits = { total_warfare_theorist }
+		}
+
+	}
+	
+}

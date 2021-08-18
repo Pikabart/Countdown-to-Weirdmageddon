@@ -1,0 +1,117 @@
+﻿l_english:
+    #TEST_EVENT######################################
+    
+    mystery_shack.9999.t:0 "Dippy Returns!"
+    mystery_shack.9999.d:0 "Oh no! Why? Sweet Hot Belgium waffles, why?!"
+    mystery_shack.9999.a:0 "Hey Dippy, your hat's on backward!"
+    mystery_shack.9999.b:0 "Why Mable, why?!"
+    
+    #################################################
+    
+    mystery_shack.1.t:0 "Welcome to the Mystery Shack!"
+    mystery_shack.1.d:0 "'Come one, come all, and feast your eyes on what spooky, creepy, bizarre things inside the Mystery Shack! I'm Mr. Mystery, your guide to what lays beyond this portal into the wierd and unnatural!\nPrepare to be amazed, astounded, brought to tears... Payment upfront!'\n\nI've been doing this now for thirty years. Day in, day out. Not for the money... well, yes the money. But also for something truely out of this world. All within the Myserty Shack!"
+    mystery_shack.1.a:0 "And remember, we put the Fun in 'No Refunds'!"
+    
+    ##################################################
+    
+    mystery_shack.2.t:0 "A Man of Mystery"
+    mystery_shack.2.d:0 "There once was a man, not unlike me, who lived in this old, run-down shack. Smart, a genius really, if not also a bit of a stuck-up idiot at times. But standing in front of this invention of his, its humbling really. This was his achievement of a lifetime, a gateway to the universe and beyond. Its was his rise and because of me, it would be his fall.\n\nThirty years ago, that man was lost from our world, sucked up by the portal and into parts unknown. He was gone and I have labored since. To repair, to rebuild, to reinvent what I had thought anyway was the product of his mind. In his lost, I was changed to a new man. In my lost, he became known as a changed man. Across all the universe, across countless dimensions and realms that go beyond human comprehension, my quest to bring him back had led me to find more about myself. In that portal, I felt reborn, I felt broken, I stood on the shoulders of gods, and I saw where I really laid among the vast infinity.\n\nMaybe nothing has changed. But as that man once said, even in an isolated environment, nothing stays the same. I am not the man they think I am. I am not who I seem to be."
+    mystery_shack.2.a:0 "But of course, my name is ‘Stanford’ Pines"
+    
+    ##################################################
+    
+    mystery_shack.3.t:0 "Our Man, the Handyman!"
+    mystery_shack.3.d:0 "Put something here Soos"
+    mystery_shack.3.a:0 "Place Holder"
+    
+    mystery_shack.4.t:0 "The New Cashier"
+    mystery_shack.4.d:0 "A run in with the people of this town would quickly show exactly what Stan was working with when it came to having an able staff. It says somthing that the only permanent staff Stan ever had was Soos, who he hired ten years ago when Soos was a kid. Still, even the great 'Man of Mystery' can't do every task in the Mystery Shack.\n\n'Now than. Wendy, right?'\n\n'That's my name. Don't wear it out, Mr. Pines.'\n\n'Yah, right.. so how did you hear about this open position?'\n\n'My old man wanted me to get a summer job. Told me the shack he built as a kid was hiring.'\n\n'Dan built this place? I mean, oh yes, of course. It was a long time ago. Cutting to the chase, why should I hire you?'\n\n'Well, actually, I've already completed Advance Algebra so I'm good with counting. I'm skilled with an axe and know how to use it, like say on would-be stick up artists. And you already interviewed all my friends.'\n\n'So you're the only compentant person to apply than? (And you got farther in school than I ever did)...'"
+    mystery_shack.4.a:0 "Welcome aboard! Now get back to work!"
+    
+    ##################################################################
+    
+    mystery_shack.5.t:0 "Fresh Air, Stale Lies"
+    mystery_shack.5.d:0 "‘Now hold on, Gene. Why can’t they stay with their Grandpa Shermie in Navarro?’ \n\n‘Dad is kind of busy at the moment. He got called up to serve as an advisor for the state government. Something about a recent discovery across the bay in San Francisco. It’s been all that everyone is talking about here in California.’ \n\n‘Now Eugene, look. I love the two pipsqueaks as much as you and your sis, but you think spending the whole summer up in Oregon would be the best.’ \n\n‘Well hey now, I remember our trip to Gravity Falls when Emily and I were kids. The encompassing forest of Cascadia, the clean fresh air, the friendly locals-’ \n\n‘‘Friendly’ Locals? These chumps?’ \n\n'Haha, you really have been there for over thirty years. I would have presumed you made friends, what with running the world-famous Mystery Shack.’ \n\n‘The people of this town are weirder than anything in my shack.’ \n\n‘Yes, well. Look Uncle Stan. With the kids nearing their teenage years and high school, this may be one of the last free summers they'll have to explore the world around them. They won’t get that here in Peidmont. But with you in Gravity Falls, they can get that one last great adventure. I’m sure of it.’ \n\n‘Well... ah heck, fine. Send the youngers over. If they want a great summer, they’ll get one! With their good old Grunkle Stan!’ \n\n‘That’s great! Thanks Uncle Stanford. It’ll be a blast! They can have the same adventures that you and Uncle Stanley had that dad told me about- Wait, I mean-‘\n\n‘Stanley...’\n\n‘I’m sorry, I-’\n\n‘What? Don’t mind me, Eugene. You never even met him. Stanley is gone... But your Uncle Stanford is alive and kicking!’"
+    mystery_shack.5.a:0 "Yup... your ol' Uncle Stanford is still here."
+    
+    ###################################################################
+    mystery_shack.6.t:0 "Journel 3"
+    mystery_shack.6.d:0 "Dipper finds the journal"
+    mystery_shack.6.a:0 "Wait, what were you saying, Mabel?"
+   
+    mystery_shack.7.t:0 "Thats no boyfriend..."
+    mystery_shack.7.d:0 "Mabel dates a zombie"
+    mystery_shack.7.a:0 "Stop right there, you undead fiend."
+  
+    mystery_shack.8.t:0 "Well, didn't expect that"
+    mystery_shack.8.d:0 "Dipper and Mabel escpae the gnomes"
+    mystery_shack.8.a:0 "My first summer romance... just some gnomes in a suit."
+    ###################################################################
+    mystery_shack.9.t:0 "Lets break stuff"
+    mystery_shack.9.d:0 "Filler for Wendy"
+    mystery_shack.9.a:0 "Axes"
+    
+    ###################################################################
+    
+    stantastic.1.t:0 "Grocery Shopping"
+    stantastic.1.d:0 "Gideon buys all the corn at the store. Stan resorts to an interdimensional solution"
+    stantastic.1.a:0 "I hope they're not mad about the last time I was there"
+    
+    # MYS Point of View (same time with 2)
+    stantastic.2.t:0 "Free for the Taking"
+    stantastic.2.d:0 "With some dynamite and River's bad aiming, Stan steals a big bag Mewni Corn and Mina's scissors after she gets crushed by a boulder."
+    stantastic.2.a:0 "Better Luck Next Time, Mina!"
+    
+    # BUF Point of View (same time with 2)
+    stantastic.3.t:0 "On the Job"
+    stantastic.3.d:0 "Bufffrog and Boo Fly watch on as this human openly steals the Butterfly's corn, battle Mina Loveberry, and escape with his own portal."
+    stantastic.3.a:0 "Those crazy Humans..."
+    
+    # MEW Point of View (same time with 2)
+    stantastic.4.t:0 "My Corn!"
+    stantastic.4.d:0 "Rivers and Mina try to stop Stan from taking thier corn, but River's bad aimming with a catapult ends with a crushed Mina and Stanford the thief making away with thier corn. But with Mina's scissors also gone, Stan will be dealt with this time around."
+    stantastic.4.a:0 "Curse that Stanford Pines!"
+    
+    stantastic.5.t:0 "The Crawlspace"
+    stantastic.5.d:0 "Stan makes his way to the Crawlspace, disguicing himself as a BI witch. Needing alien tech, his bargain with higly sought after Mewni corn nearly prevails, he notices what looks like Eda's staff.
+    stantastic.5.a:0 "What is that? It can't be..."
+    
+    stantastic.6.t:0 "Stealing what they rightfully took"
+    stantastic.6.d:0 "He steals the corn and staff and escapes. Cornered, he tries to use the staff, but they all learn the staff was a fake by Eda meant to trick the people he was running from. Though all it did was display a message scroll ending with, 'Your's truly, Eda', it had enough inert magic to allow stan to distract them and run. He uses Mina's scissors escpaes for good.""
+    stantastic.6.a:0 "I thought her that trick, you know"
+    
+    # MYS Point of View
+    stantastic.7.t:0 "Corn and Tribulations"
+    stantastic.7.d:0 "Stan emerges at the Mewni Sanctuary. After a friendly conversation with Glossaryck, he learns he had portaled his way into an ambush by Moon and the Comission. They demand Mina's scissors, Stan oblige. But the corn is another matter..."
+    stantastic.7.a:0 "Fine, you can keep it!"
+    stantastic.7.b:0 "I rightfully took this corn!"
+    
+    # MEW Point of View (same time with 7)
+    stantastic.13.t:0 "Catch the Corn Thief!"
+    stantastic.13.d:0 "With Hekapoo's control off all magical scissors, Stan's use took him to where they could properly ambish him. Glossaryck insist the sactuary though instead of some dungeon. Still, it worked and Stan is corned. Mon makes it clear, they want Mina's scissors and the corn back."
+    stantastic.13.a:0 "Surrender, Pines! You can't escape the Magic High Commission!"
+    
+    # MYS Point of View 7A
+    stantastic.8.t:0 "Glassshard Beach Shuffle"
+    stantastic.8.d:0 "Stan seemingly surrenders. But as they appropch him, he tooses the corn at them and makes a break for it. The council opned fire with thier magic and nearly overwhelm him, but Stan managed to use his remot to call a portal to open and take him home. He escapes back intot he basement of the Shack. Bruised and with nothing to show for it besides a fake staff by Eda, he retires to bed. He checks the clock, it's already 9AM."
+    stantastic.8.a:0 "I'll be feeling that in the morning"
+    
+    # MYS Point of View 7B
+    stantastic.9.t:0 "The Man of Myserty!"
+    stantastic.9.d:0 "Stan defies Moon's orders. He will keep the corn he rightfully stole. They battle and quickly overwhelm him. His remote glitching, Glossaryck takes it to repair it himself. Stan is hit with a blast from Moon and tossed intot he magic waters.\n\nThinking he's dead and planning to make Rhombus fish himout, the water enpowered the fake satff and he emerged with magical powers. They battle again, but Stan quickly knocks the Comission out. Moon enters her Mewberty form and as Stan prepares to use the staff to blast her out of the air, it runs out of power.\n\nBy Luck, Glossaryck hands back the remote and Stan escapes before Moon can catch him. Returning to the basement with a bag full of corn, he thinks to himself,"
+    stantastic.9.a:0 "Now what am I suppose to do with this corn?"
+    
+    # MEW Point of View 7A
+    stantastic.10.t:0 "Pine-fidy"
+    stantastic.10.d:0 "The commission apprched to get the corn. but Stan suddenly lunges the bag at them and tries to make his escape. Moon shot a magical blast at him and launched him up intot he air, but Stan managed to get his remote working and summon a portal. he fell right into the portal and out of Mewni, but the corn retrieved would do well in refilling surpluss and the battle would help discourge anyone opposing Moon and the comission."
+    stantastic.10.a:0 "That'll teach that dreaded human Stanford!"
+    
+    # MEW Point of View 7B
+    stantastic.11.t:0 "A clash of Magic and Will"
+    stantastic.11.d:0 "Stan defies Moon's orders. He will keep the corn he rightfully stole. They battle and quickly overwhelm him. His remote glitching, Glossaryck takes it to repair it himself. Stan is hit with a blast from Moon and tossed intot he magic waters.\n\nThinking he's dead and planning to make Rhombus fish himout, the water enpowered the fake satff and he emerged with magical powers. They battle again, but Stan quickly knocks the Comission out. Moon enters her Mewberty form and as Stan prepares to use the staff to blast her out of the air, it runs out of power.\n\nBy Luck, Glossaryck hands back the remote and Stan escapes before Moon can catch him. Crashiing into the wall and falling intot he water, she ask why Glossaryck helped Stan..."
+    stantastic.11.a:0 "Of course I helped him. He's an old poker buddy of mine. It be rude not too."
+    
+     # MYS after 7B and 9
+    stantastic.12.t:0 "Cornicorn!"
+    stantastic.12.d:0 "As the Shack gang chow down on the best corn they ever had, Stan unviels the Cornicorn! Only waddles seemed to care for the attraction, Stan keeping him at leg's length away from it. As he goes out to trowaway the trash, he stumbles on a ruckass near the trashcans. Thinking it was Mabel's handosme men, he rushes out with the fake staff in hand, but is shocked to see the tiny palisman Owlbert.\n\nStan calms the little owl, who then recognizeds him. Smiling at a sight he never though he would see again, he hands Owlbert a Stan bogglehead and watches as he dissapears intot he woods. He takes out the scroll and plays it once more time to hear her voice.\n\n'Your's truly, Eda'"
+    stantastic.12.a:0 "And your's truly, Stan"

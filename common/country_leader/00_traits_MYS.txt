@@ -1,0 +1,108 @@
+#MYS Leader and Advisor Specific Traits
+
+leader_traits = {
+
+##############################################################################
+	### IDEA TRAITS ###
+	
+	# drift is a percent applied weekly, ex: 0.1 = .1% weekly
+	
+	handy_man = {  #Custom Trait #1 Soos
+		random = no
+		# Quick Repair and Construction
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		industry_repair_factor = 0.2
+		production_speed_buildings_factor = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	battle_cashier_1 = {  #Custom Trait #2 Wendy (Normal, Non-Ideological)
+		random = no
+		# Better attack, defence, and morale, less PP and more Consumer % 
+		sprite = 13
+		army_attack_factor = 0.5
+		army_defence_factor = 0.5
+		army_morale_Factor = 0.5
+		political_power_factor = -0.2 #less PP, bad
+		consumer_goods_factor = 0.1 #More Consumer Facts loss, bad
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	rebel_girl_1 = {  #Custom Trait #2a Wendy (Weirdmageddon)
+		random = no
+		# Better attack, defence, and morale, less PP and more Consumer % 
+		sprite = 13
+		army_attack_factor = 0.15
+		army_defence_factor = 0.15
+		army_morale_Factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	explorer_1 = {  #Custom Trait #3 Dipper (Non-Ideological)
+		random = no
+		# Reasearch and build tech buildings faster 
+		sprite = 13
+		research_speed_factor = 0.1
+		production_speed_rocket_site_factor = 0.15
+		production_speed_radar_station_factor = 0.15
+		production_speed_nuclear_reactor_factor = 0.15
+		stability_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	multi-skilled_1 = {  #Custom Trait #4 Mabel (Ideological)
+		random = no
+		# Better stability, PP, manpower, lower resistance, will try to take over 
+		sprite = 13
+		political_power_factor = +0.2 #more PP, good
+		consumer_goods_factor = -0.1 #Less Consumer Facts loss, good
+		
+		resistance_damage_to_garrison = -0.25 # cant resist mabel
+		foreign_subversive_activites = -0.3 # America's Sweetheart... to some
+		weekly_manpower = 20 # Drag the neighbors in
+		non_core_manpower = 0.02 # Hey you, buy our stuff!
+		
+		democratic_drift = 0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	spy_goat_1 = {  #Custom Trait #5 Gompers
+		random = no
+		sprite = 15
+		operative_slot = 1
+		agency_upgrade_time = -0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	total_warfare_theorist = {
+		sprite = 14
+		experience_gain_air = 0.1
+		experience_gain_navy = 0.1
+		experience_gain_army = 0.1
+		
+		ai_will_do = {
+			factor = 500
+		}
+	}
+
+######################################################################
+
+}

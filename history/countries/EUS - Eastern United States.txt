@@ -59,6 +59,13 @@ set_popularities = {
 	fascism = 30
 }
 
+create_faction = "United States of America"
+add_to_faction = CAL
+add_to_faction = SOC
+add_to_faction = ORE
+add_to_faction = WAS
+add_to_faction = EPI
+
 create_country_leader = {
 	name = "Adrian Curtis"
 	desc = ""

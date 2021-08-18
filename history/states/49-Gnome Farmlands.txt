@@ -3,6 +3,9 @@ state={
 	name="STATE_49"
 	
 	history = {
+		owner = UFC
+		add_core_of = UFC
+		add_claim_by = GNM
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 2

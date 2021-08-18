@@ -1,0 +1,35 @@
+﻿l_english:
+
+ MYS_NWHS_1:0 "Not What He Seems: Level 1"
+ MYS_NWHS_1_desc:0 "'Mr.Pines? He's like the coolest dude I know. Besides my Abuelita anyway. But she isn't a dude, so you know.'\n-'Soos' Ramirez"
+ 
+ MYS_NWHS_2:0 "Not What He Seems: Level 2"
+ MYS_NWHS_2_desc:0 "'I get that our Grunkle Stan can be a bit odd at times. But he always seemed to be upfront and frank with us.'\n-Mabel Pines"
+ 
+ MYS_NWHS_3:0 "Not What He Seems: Level 3"
+ MYS_NWHS_3_desc:0 "'I don't know. Everytime I'm with him, he never seems to care much of me. Always making me do the work, always bossing me around. Honestly, it feels like he doesn't want me around sometimes...'\n-'Dipper' Pines"
+ 
+ MYS_NWHS_4:0 "Not What He Seems: Level 4"
+ MYS_NWHS_4_desc:0 "'You don't understand, kids. You don't know your great uncle. This man is dangerous! What he could be working on could very well doom us all. If the old guard were still around, they'd already taken him out. Us? Rest assured, we'll send him somewhere were he can't put you two in harm's way anymore.'\n-FPI Agent Powers"
+ 
+ MYS_NWHS_5:0 "Not What He Seems: Level 5"
+ MYS_NWHS_5_desc:0 "TRUST NO ONE!"
+ 
+ MYS_plenty_of_suckers:0 "High Tourism"
+ MYS_plenty_of_suckers_desc:0 "Pleanty of suckers...er, Tourist, coming to Oregon. Of course, where else would they go to than Gravity Falls' Mystery Shack!"
+#################################
+ MYS_tank_manufacturer:0 "Gleeful's Armor Sale"
+ MYS_motorized_equipment_manufacturer:0 "Gleeful's Auto Sale"
+ MYS_infantry_equipment_manufacturer:0 "Y2K Supply Wholesale"
+ MYS_artillery_manufacturer:0 "Go Far Range Ordinace"
+ MYS_light_aircraft_manufacturer:0 "Full'o'HotAir"
+ MYS_medium_aircraft_manufacturer:0 "Amatuer Air Craft Supply"
+ MYS_heavy_aircraft_manufacturer:0 "Screaming Eagle Aircraft Manufacotry"
+ MYS_naval_aircraft_manufacturer:0 "Seagull LMT"
+ MYS_naval_manufacturer:0 "Lake GF Pro Fish Shop"
+ MYS_industrial_concern:0 "Northwest Industry"
+ MYS_electronics_concern:0 "Northwest Electronics"
+ MYS_military_theorist:0 "Wendy Corduroy"
+ MYS_naval_theorist:0 "'Soos' Ramírez"
+ MYS_air_warfare_theorist:0 "Stan Pines"
+ MYS_total_warfare_theorist:0 "Waddles the Pig"

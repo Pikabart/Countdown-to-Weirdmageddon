@@ -1,0 +1,16 @@
+Set up a new advisor in mod folders - ITGUY042
+
+1.	Go to or create a file in common/ideas. This file, such as "MYS_ideas.txt" would hold both the idea for a nation and all the advisors/companies, chiefs and so forth for them.
+
+2.	Add an advisor in that file for the country. Technically, they can be in any file in the ideas folder, but keep group to nations for easy search and debugging
+
+3.	Special portraits for them are in gfx/interface/advisors/*tag*. Place or create file in the respective nation.
+
+4.	To connect images to advisor, go to the main interface folder and then to advisors file like advisors_MYS to code out the connect between the GFX and the image.
+
+5.	Localisation would contain the text for names and descriptions for the advisor, like advisor_l_english.txt. A seperate one can be made for each nation as the game will search all file anyway for the matching pointer.
+
+6.	If a custom trait is given to an advisor, this trait must be coded in common/country_leader. Here a file like 00_traits.txt would contain all default traits and their stats while a custom one for a nation like 00_traits_MYS.txt can be made just for the traits used by nations in the mod. Other countries and thier advisors or leaders can still use those trait can they can be in anyfile in the folder and the game will search through all of them.
+
+7.	
+

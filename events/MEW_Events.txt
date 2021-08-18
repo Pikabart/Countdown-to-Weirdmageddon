@@ -1,0 +1,583 @@
+﻿###########################
+# Mewni Events
+###########################
+
+add_namespace = mewni_solaria
+add_namespace = mewni_300_peace
+add_namespace = butterfly_family
+add_namespace = MEW_prolouge_end
+add_namespace = corn_theft
+add_namespace = corn_theft_ludo
+add_namespace = exterminators
+add_namespace = utilize_army
+add_namespace = controlled_burning
+add_namespace = emergency_economics 
+add_namespace = emergency_economics_2
+add_namespace = emergency_economics_3
+add_namespace = hunt_rat
+add_namespace = force_economy
+add_namespace = force_economy_2
+add_namespace = force_economy_3
+add_namespace = force_economy_4
+add_namespace = MEW_reform_economy
+add_namespace = MEW_reform_economy_2
+add_namespace = MEW_reform_economy_3
+add_namespace = MEW_reform_economy_4
+add_namespace = MEW_economy_final
+add_namespace = magic_fritz
+
+country_event = {
+	id = mewni_solaria.1
+	title = mewni_solaria.1.t
+	desc = mewni_solaria.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mewni_solaria.1.a
+		ai_chance = { factor = 90 }
+		add_war_support = 0.05
+		army_experience = 5
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 1.0
+			uses = 1
+			category = land_doctrine
+			}
+	}
+}
+
+country_event = {
+	id = mewni_300_peace.1
+	title = mewni_300_peace.1.t
+	desc = mewni_300_peace.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mewni_300_peace.1.a
+		ai_chance = { factor = 90 }
+		add_ideas = MEW_300_years_of_peace
+		ai_chance = {
+			factor = 50
+
+		}
+	}
+}
+
+country_event = {
+	id = butterfly_family.1
+	title = butterfly_family.1.t
+	desc = butterfly_family.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = butterfly_family.1.a
+		ai_chance = { factor = 90 }
+		add_ideas = MEW_vacant_heir
+		add_ideas = MEW_heir_studying_overdimensions
+		ai_chance = {
+			factor = 50
+
+		}
+	}
+}
+
+country_event = {
+	id = MEW_prolouge_end.1
+	title = MEW_prolouge_end.1.t
+	desc = MEW_prolouge_end.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_prolouge_end.1.a
+		ai_chance = { factor = 90 }
+		ai_chance = {
+			factor = 50
+
+		}
+	}
+}
+
+country_event = {
+	id = corn_theft.1
+	title = corn_theft.1.t
+	desc = corn_theft.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = corn_theft.1.a
+		ai_chance = { factor = 90 }
+		add_ideas = MEW_corn_theft
+	}
+}
+
+country_event = {
+	id = corn_theft_ludo.1
+	title = corn_theft_ludo.1.t
+	desc = corn_theft_ludo.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = corn_theft_ludo.1.a
+		ai_chance = { factor = 90 }
+		add_ideas = MEW_corn_theft
+	}
+}
+
+country_event = {
+	id = exterminators.1
+	title = exterminators.1.t
+	desc = exterminators.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = exterminators.1.a
+		ai_chance = { factor = 90 }
+		army_experience = 5
+			add_tech_bonus = {
+		name = land_doc_bonus
+		bonus = 0.5
+		uses = 1
+		category = land_doctrine
+			}
+	}
+}
+
+country_event = {
+	id = utilize_army.1
+	title = utilize_army.1.t
+	desc = utilize_army.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = utilize_army.1.a
+		ai_chance = { factor = 90 }
+		army_experience = 10
+		add_tech_bonus = {
+		name = land_doc_bonus
+		bonus = 0.5
+		uses = 1
+		category = land_doctrine
+			}
+		#GIVE GENERAL TRAITS ONCE WE MAKE THE GENERALS AND STUFF
+	}
+	
+	
+}
+
+country_event = {
+	id = controlled_burning.1
+	title = controlled_burning.1.t
+	desc = controlled_burning.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = controlled_burning.1.a
+		ai_chance = { factor = 90 }
+		army_experience = 5
+		add_tech_bonus = {
+		name = land_doc_bonus
+		bonus = 0.5
+		uses = 1
+		category = land_doctrine
+			}
+		#DAMAGE SOME INFRASTRUCTURE. LIKE WHAT THEY DO IN OLD WORLD BLUES WHEN YOU PLAY AS LANIUS AND ROAST LAMAR
+	}
+	
+	
+}
+
+country_event = {
+	id = hunt_rat.1
+	title = hunt_rat.1.t
+	desc = hunt_rat.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hunt_rat.1.a
+		ai_chance = { factor = 90 }
+		#UNLOCK RAT HUNTING DESCISIONS, WHICH WILL GIVE ARMY STUFF AND PROGRESS STORY
+		
+	}
+}
+
+country_event = {
+	id = emergency_economics.1
+	title = emergency_economics.1.t
+	desc = emergency_economics.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = emergency_economics.1.a
+		ai_chance = { factor = 90 }
+		add_ideas = MEW_emergency_economics
+	}
+	
+	
+}
+
+country_event = {
+	id = emergency_economics_2.1
+	title = emergency_economics_2.1.t
+	desc = emergency_economics_2.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = emergency_economics_2.1.a
+		ai_chance = { factor = 90 }
+		swap_ideas = { 
+		
+		remove_idea = MEW_emergency_economics
+		add_idea = MEW_emergency_economics_2
+
+		}
+	}
+	
+	
+}
+
+country_event = {
+	id = emergency_economics_3.1
+	title = emergency_economics_3.1.t
+	desc = emergency_economics_3.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = emergency_economics_3.1.a
+		ai_chance = { factor = 90 }
+		swap_ideas = { 
+		
+		remove_idea = MEW_emergency_economics_2
+		add_idea = MEW_emergency_economics_3
+
+		}
+	}
+	
+	
+}
+
+country_event = {
+	id = force_economy.1
+	title = force_economy.1.t
+	desc = force_economy.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = force_economy.1.a
+		ai_chance = { factor = 90 }
+	
+		swap_ideas = { 
+		
+		remove_idea = MEW_emergency_economics_3
+		add_idea = MEW_forced_economics
+
+		}
+		
+		
+	}
+}
+
+country_event = {
+	id = force_economy_2.1
+	title = force_economy_2.1.t
+	desc = force_economy_2.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = force_economy_2.1.a
+		ai_chance = { factor = 90 }
+		280 = { add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			add_building_construction = {
+			type = arms_factory
+			level = 3
+			instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 5
+
+
+		}
+		
+		269 = { add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			add_building_construction = {
+			type = arms_factory
+			level = 3
+			instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 5
+
+		}
+		
+		
+		
+		270 = { add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			add_building_construction = {
+			type = arms_factory
+			level = 3
+			instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 5
+
+
+		}
+		
+		272 = { add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}
+			add_building_construction = {
+			type = arms_factory
+			level = 3
+			instant_build = yes
+}			add_extra_state_shared_building_slots = 5
+
+
+		}
+		
+		
+	}
+}
+
+country_event = {
+	id = force_economy_3.1
+	title = force_economy_3.1.t
+	desc = force_economy_3.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = force_economy_3.1.a
+		ai_chance = { factor = 90 }
+		266 = { add_building_construction = {
+			type = industrial_complex
+			level = 4
+			instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 4
+
+		}
+		
+		
+		
+	}
+	
+	option = {
+		name = force_economy_3.2.a
+		ai_chance = { factor = 90 }
+		266 = { add_building_construction = {
+			type = arms_factory
+			level = 5 
+			instant_build = yes
+			}
+			add_extra_state_shared_building_slots = 5
+
+		
+		}
+		
+		
+	}
+}
+
+country_event = {
+	id = force_economy_4.1
+	title = force_economy_4.1.t
+	desc = force_economy_4.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = force_economy_4.1.a
+		ai_chance = { factor = 50 }
+		
+		
+	}
+
+	option = {
+		name = force_economy_4.2.a
+		ai_chance = { factor = 50 }
+		
+		
+	}
+}
+
+
+country_event = {
+	id = MEW_reform_economy.1
+	title = MEW_reform_economy.1.t
+	desc = MEW_reform_economy.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_reform_economy.1.a
+		ai_chance = { factor = 90 }
+		add_stability = -0.05
+		
+	}
+}
+
+country_event = {
+	id = MEW_reform_economy_2.1
+	title = MEW_reform_economy_2.1.t
+	desc = MEW_reform_economy_2.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_reform_economy_2.1.a
+		ai_chance = { factor = 90 }
+		add_stability = 0.2
+		
+	}
+}
+
+country_event = {
+	id = MEW_reform_economy_3.1
+	title = MEW_reform_economy_3.1.t
+	desc = MEW_reform_economy_3.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_reform_economy_3.1.a
+		ai_chance = { factor = 90 }
+		269 = { add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+}
+		}
+		272 = { add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes }
+			
+			}
+		270 = { add_building_construction = {
+			type = infrastructure
+			level = 2
+			instant_build = yes
+}
+		}
+
+		}
+		
+	}
+
+country_event = {
+	id = MEW_reform_economy_4.1
+	title = MEW_reform_economy_4.1.t
+	desc = MEW_reform_economy_4.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_reform_economy_4.1.a
+		ai_chance = { factor = 90 }
+		add_ideas = MEW_public_works
+		
+	}
+}
+
+country_event = {
+	id = MEW_economy_final.1
+	title = MEW_economy_final.1.t
+	desc = MEW_economy_final.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_economy_final.1.a
+		ai_chance = { factor = 90 }
+		458 = { add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}			
+			add_extra_state_shared_building_slots = 2
+
+		}
+		457 = { add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			add_extra_state_shared_building_slots = 2
+			}			
+
+			add_extra_state_shared_building_slots = 2
+
+		}
+		
+		455 = { add_building_construction = {
+			type = industrial_complex
+			level = 2
+			instant_build = yes
+			}			
+			add_extra_state_shared_building_slots = 2
+
+		}
+	}
+	}
+	
+	country_event = {
+		id = magic_fritz.1
+		title = magic_fritz.1.t
+		desc = magic_fritz.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = magic_fritz.1.a
+			ai_chance = { factor = 90 }
+		
+		}
+}

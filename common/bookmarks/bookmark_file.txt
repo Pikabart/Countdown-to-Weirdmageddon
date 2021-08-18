@@ -44,20 +44,52 @@ bookmarks = {
 			}
 		}
 		
-		"---"={
-			history = "OTHER_ROADKILL_DESC"
+		"MYM"={
+			history = "MYM_ROADKILL_DESC"
+			ideology = democratic
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
 		}
 		
-		"---"={
-			history = "OTHER_ROADKILL_DESC"
+		"GNM"={
+			history = "GNM_ROADKILL_DESC"
+			ideology = neutrality
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
 		}
 
-		"---"={
-			history = "OTHER_ROADKILL_DESC"
+		"UFC"={
+			history = "UFC_ROADKILL_DESC"
+			ideology = democratic
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
 		}
 
-		"---"={
-			history = "OTHER_ROADKILL_DESC"
+		"MAN"={
+			history = "MAN_ROADKILL_DESC"
+			ideology = fascism
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
 		}
 
 		"---"={

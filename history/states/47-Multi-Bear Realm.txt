@@ -3,6 +3,8 @@ state={
 	name="STATE_47"
 	
 	history = {
+		owner = UFC
+		add_core_of = UFC
 		buildings = {
 			arms_factory = 2
 			industrial_complex = 1

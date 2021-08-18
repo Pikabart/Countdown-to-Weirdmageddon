@@ -1,0 +1,37 @@
+add_namespace = A-RAT_mobilize
+add_namepsace = A-RAT_funding
+
+
+country_event = {
+	id = A-RAT_mobilize.1
+	title = A-RAT_mobilize.1.t
+	desc = A-RAT_mobilize.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = A-RAT_mobilize.1.a
+		ai_chance = { factor = 90 }
+		hidden_effect = {
+		set_global_flag = A-RAT_mobilize
+		
+		}
+	}
+}
+
+country_event = {
+	id = A-RAT_funding.1
+	title = A-RAT_funding.1.t
+	desc = A-RAT_funding.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = A-RAT_funding.1.a
+		ai_chance = { factor = 90 }
+		hidden_effect = {
+		}
+	}
+}

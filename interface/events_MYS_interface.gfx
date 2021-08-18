@@ -1,0 +1,60 @@
+##########
+# MYS country event picture interface
+############
+spriteTypes = {
+
+	spriteType = { # DIPPY ZOG
+		name = "GFX_report_event_dippy_zog"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_dippy_zog.dds"
+	}
+
+	spriteType = { # The Shack
+		name = "GFX_report_event_mystery_shack"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_mystery_shack.dds"
+	}
+
+	spriteType = { # Fixin it with Soos
+		name = "GFX_report_event_fixin_with_soos"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_fixin_with_soos.dds"
+	}
+	
+	spriteType = { # Wendy bored at work
+		name = "GFX_report_event_wendy_cashier"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_new_cashier.dds"
+	}
+	
+	spriteType = { # Stan on the phone
+		name = "GFX_report_event_stan_on_phone"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_call.dds"
+	}
+	
+	spriteType = { # Stan in front of the portal
+		name = "GFX_report_event_stan_portal"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_stan_portal.dds"
+	}
+	
+	spriteType = { # Stan running away
+		name = "GFX_report_event_stan_running_away"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_stan_running.dds"
+	}
+	
+	spriteType = { # The Crawlspace
+		name = "GFX_report_event_crawlspace"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_crawlspace.dds"
+	}
+	
+	spriteType = { # Gideon with tomatoes
+		name = "GFX_report_event_gideon_fruit"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_gideon_fruit.dds"
+	}
+	
+	spriteType = { # beaten up Stan
+		name = "GFX_report_event_beatup_stan"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_beatup_stan.dds"
+	}
+	
+	spriteType = { # still standing Stan
+		name = "GFX_report_event_still_standing_stan"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_still_standing_stan.dds"
+	}
+}

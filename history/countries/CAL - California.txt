@@ -46,6 +46,11 @@ complete_national_focus = industrial_effort
 complete_national_focus = construction_effort
 complete_national_focus = production_effort
 
+set_autonomy = {
+	target = SOC
+	autonomous_state = autonomy_puppet
+}
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "2008.6.1"

@@ -3,6 +3,8 @@ state={
 	name="STATE_63"
 	
 	history = {
+		owner = YBL
+		add_core_of = YBL
 		buildings = {
 			arms_factory = 0
 			industrial_complex = 0
@@ -12,6 +14,9 @@ state={
 			anti_air_building = 0
 			radar_station = 0
 				
+		}
+		victory_points = {
+			8478  10
 		}
 	}
 	

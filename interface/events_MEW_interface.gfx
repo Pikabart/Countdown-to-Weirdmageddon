@@ -1,0 +1,36 @@
+##########
+# MEW country event picture interface
+############
+spriteTypes = {
+
+	spriteType = { #River with a catapult
+		name = "GFX_report_event_river_corn"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_defend_corn.dds"
+	}
+
+	spriteType = { # The Commission
+		name = "GFX_report_event_commission"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_magic_commission.dds"
+	}
+
+	spriteType = { # The Boo Fly gang
+		name = "GFX_report_event_corn_crew"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_monster_corn.dds"
+	}
+	
+	spriteType = { # The Commision charge
+		name = "GFX_report_event_commission_charge"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_commission_charge.dds"
+	}
+	
+	spriteType = { # The Sanctuary
+		name = "GFX_report_event_sanctuary"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_sanctuary.dds"
+	}
+	
+	spriteType = { # The Sanctuary
+		name = "GFX_report_event_commission_defeat"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_commission_defeat.dds"
+	}
+	
+}

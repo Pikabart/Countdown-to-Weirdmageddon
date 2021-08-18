@@ -3,6 +3,8 @@ state={
 	name="STATE_43"
 	
 	history = {
+		owner = UFC
+		add_core_of = UFC
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 1
@@ -18,7 +20,7 @@ state={
 	provinces={
 		1827 4709 6401 8391 8403 8414 8426 8459 
 	}
-	manpower=1000
+	manpower=1500
 	buildings_max_level_factor=1.000
 	state_category=town
 }

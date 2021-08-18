@@ -1,0 +1,135 @@
+﻿l_english:
+
+ #For Msyerty Shack Focus Tree description and custom_effect_tooltip
+ 
+ #1
+ MYS_prepare_for_the_summer:0 "Prepare for the Summer Season!"
+ MYS_prepare_for_the_summer_desc:0 "Summertime! The sun shines down through the tall everygreen trees. The animals in the woods skimper about. And tourist prepare to flock to the great outback of Oregon.\nAnother year, another new tourist season to profit from...\nAnother year, another yearly reminder of my work to fix what I have done."
+ MYS_prepare_for_the_summer_effect:0 "Let's see here. I still need to hire a cashier. Gotta fix the 'S' on the roof.\nHopefully Soos forgot about that raise I promised him. And where to get nuclear waste?\n\n<ring ring>\nWho's calling at this hour?" # ^ above is a custom loc to add text to effect section of focus. Must be called in focus file
+ ######################################################
+ #2
+ MYS_not_who_he_seems:0 "Not Who He Seems"
+ MYS_not_who_he_seems_desc:0 "No one can know what is beyond that vending machine, what real mystery rest benethe the Mystery Shack. The dangers that could entail. The horrors that could be beyond. The mistakes I have made."
+ MYS_not_who_he_seems_effect:0 "A"
+ ######################################################
+ #3
+ MYS_cheapest:0 "The cheapest money can buy!"
+ MYS_cheapest_desc:0 "A"
+ MYS_cheapest_effect:0 "A"
+ ######################################################
+ #4
+ MYS_the_pine_twins:0 "The Pine Twins"
+ MYS_the_pine_twins_desc:0 "I still remember that day years ago. Mable came first. Dipper second, nearly kicking the bucket as soon as he got it. I held them in my arms first before their granddad and got a fist clean across the face from my Green Beret of an older brother. Still, Shermie said they reminded him of when my twin and I were born. \nSaid it was ashame Stanley wasn't here."
+ MYS_the_pine_twins_effect:0 "These two have each other, and they'll have their Grunkle Stan as well. That's all that matters."
+ ######################################################
+ #5
+ MYS_journal_3:0 "Uncovering old secrets"
+ MYS_journal_3_desc:0 "TBD"
+ MYS_journal_3_effect:0 ""
+ 
+ MYS_stantastic:0 "The Stan-Tastic Adventures!"
+ MYS_stantastic_desc:0 "As the twins go about thier way, going on adventures, threading the line between life and death in the great outback of Gravity Falls, Stan continues on his work to repair the portal fully and complete his mission."
+ MYS_stantastic_effect:0 ""
+ 
+ MYS_stantastic_1:0 "Going on a grocery run"
+ MYS_stantastic_1_desc:0 ""
+ MYS_stantastic_1_effect:0 ""
+ 
+ MYS_stantastic_3:0 "Free Corn"
+ MYS_stantastic_3_desc:0 ""
+ MYS_stantastic_3_effect:0 ""
+ 
+ MYS_stantastic_5:0 "The Weirdess Black Market"
+ MYS_stantastic_5_desc:0 ""
+ MYS_stantastic_5_effect:0 ""
+ 
+ MYS_stantastic_2:0 "Time for a Refill"
+ MYS_stantastic_2_desc:0 ""
+ MYS_stantastic_2_effect:0 ""
+ 
+ MYS_stantastic_4:0 "Its legal if the FPI don't see you!"
+ MYS_stantastic_4_desc:0 ""
+ MYS_stantastic_4_effect:0 ""
+ 
+ MYS_stantastic_6:0 "Love at first car theft"
+ MYS_stantastic_6_desc:0 ""
+ MYS_stantastic_6_effect:0 ""
+ 
+ 
+ MYS_awaits:0 "What awaits in Gravity Falls"
+ MYS_awaits_desc:0 ""
+ MYS_awaits_effect:0""
+ 
+ 
+ ######################################################
+ #  Construction and Military focuses # 
+ ######################################################
+ #4
+ MYS_fix_with_soos:0 "Fix'in it with Soos"
+ MYS_fix_with_soos_desc:0 ""
+ ######################################################
+ #5
+ MYS_corduroy_spirit:0 "The Corduroy Spirit"
+ MYS_corduroy_spirit_desc:0 ""
+ ######################################################
+ #6
+ MYS_up_to_code:0 "Bringing the Shack to Code"
+ MYS_up_to_code_desc:0 ""
+ ######################################################
+ #7
+ MYS_nay_sayers:0 "Those Nay Sayers"
+ MYS_nay_sayers_desc:0 ""
+ ######################################################
+ #8
+ MYS_security_armament:0 "Security Armament"
+ MYS_security_armament_desc:0 ""
+ ######################################################
+ #9
+ MYS_leaks_patches:0 "Leaks and Patches"
+ MYS_leaks_patches_desc:0 ""
+ ######################################################
+ #10
+ MYS_teen_vandals:0 "Smells like Teen Vandals"
+ MYS_teen_vandals_desc:0 ""
+ ######################################################
+ #11
+ MYS_no_refunds:0 "No Refunds"
+ MYS_no_refunds_desc:0 ""
+ ######################################################
+ #12
+ MYS_no_hack_here:0 "No 'Hacks' Here"
+ MYS_no_hack_here_desc:0 ""
+ ######################################################
+ #13
+ MYS_competition:0 "The Competition"
+ MYS_competition_desc:0 ""
+ ######################################################
+ #14
+ MYS_i_heart_kids:0 "I 'HEART' Kids!"
+ MYS_i_heart_kids_desc:0 "" 
+ ######################################################
+ #15
+ MYS_osha_cant_touch:0 "OSHA can't touch this"
+ MYS_osha_cant_touch_desc:0 "" 
+ ######################################################
+ #16
+ MYS_new_pranks:0 "Old Man, New Pranks"
+ MYS_new_pranks_desc:0 "" 
+ ######################################################
+ #17
+ MYS_too_fast_planes:0 "Too fast for a crossbow"
+ MYS_too_fast_planes_desc:0 "" 
+ ######################################################
+ #18
+ MYS_charge_extra:0 "We can charge extra for this!"
+ MYS_charge_extra_desc:0 "" 
+ ######################################################
+ #  Mabel and Dipper related Focuses  #
+ ######################################
+ #19
+ #:0 ""
+ #_desc:0 "" 
+ 
+ 
+ 
+ 

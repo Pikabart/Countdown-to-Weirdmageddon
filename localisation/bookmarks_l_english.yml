@@ -7,12 +7,12 @@
  HITTING_FAN_NAME:0 "The Hitting of the Fan"
  HITTING_FAN_DESC:0 "Yup, that's right! That umbrella collection is about to come in real handy."
  MYS_ROADKILL_DESC:0 "A"
- GTF_ROADKILL_DESC:0 "A"
- #EFL_GATHERING_STORM_DESC:0 "A"
- #WFL_GATHERING_STORM_DESC:0 "A"
- #SFL_GATHERING_STORM_DESC:0 "A"
- NRW_ROADKILL_DESC:0 "A"
- #MYM_GATHERING_STORM_DESC:0 "A"
+ GTF_ROADKILL_DESC:0 "B"
+ GNM_ROADKILL_DESC:0 "C"
+ UFC_ROADKILL_DESC:0 "D"
+ MAN_ROADKILL_DESC:0 "E"
+ NRW_ROADKILL_DESC:0 "F"
+ MYM_ROADKILL_DESC:0 "E"
  OTHER_ROADKILL_DESC:0 "Normal Picking now Works"
  
  ###################################

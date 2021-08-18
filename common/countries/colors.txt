@@ -4,17 +4,50 @@ MYS = {
 	color = rgb { 57 113 228 }
 	color_ui = rgb { 74 147 255 }
 }
-#------------------------------------
 GTF = {
 	color = rgb { 107  114  255 }
 	color_ui = rgb { 107  114  255 }
 }
-#------------------------------------
 NRW={
 	color = rgb { 0 153 0 }
 	color_ui = rgb { 0 153 0 }
 }
+#------------------------------------
+GNM = {
+	color = rgb { 255  0  0  }
+	color_ui = rgb { 255  0  0  }
+}
+UFC = {
+	color = rgb { 160  160  160 }
+	color_ui = rgb { 160  160  160 }
+}
+MAN = {
+	color = rgb { 210  105  30 }
+	color_ui = rgb { 210  105  30 }
+}
 
+#Tourist
+#------------------------------------
+MYM = {
+	color = rgb { 30  30  30 }
+	color_ui = rgb { 30  30  30 }
+}
+YBL = {
+	color = rgb { 255  153  204 }
+	color_ui = rgb { 255  153  204 }
+}
+UPD = {
+	color = rgb { 204  204  255 }
+	color_ui = rgb { 204  204  255 }
+}
+LOG = {
+	color = rgb { 101  51  0 }
+	color_ui = rgb { 101  51  0 }
+}
+COR = {
+	color = rgb { 204  204  0 }
+	color_ui = rgb { 204  204  0 }
+}
 
 #Earth
 #------------------------------------

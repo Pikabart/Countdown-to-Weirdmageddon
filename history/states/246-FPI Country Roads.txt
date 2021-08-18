@@ -1,23 +1,25 @@
+
 state={
 	id=246
 	name="STATE_246"
-	
+
 	history={
 		owner = EPI
 		add_core_of = EPI
 		buildings = {
 			arms_factory = 0
 			industrial_complex = 0
-			
 			infrastructure = 6
 			air_base = 0
 			anti_air_building = 0
-			radar_station = 0	
+			radar_station = 0
+
 		}
+
 	}
-	
+
 	provinces={
-		1415 2083 4987 
+		2083 4987 
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000

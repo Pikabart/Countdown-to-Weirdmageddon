@@ -1,0 +1,238 @@
+﻿###########################
+#  - Report Events MYS -
+###########################
+
+add_namespace = mystery_shack
+
+country_event = { #1
+	id = mystery_shack.1
+	title = mystery_shack.1.t 
+	desc = mystery_shack.1.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes  
+	
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mystery_shack.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = { #2
+	id = mystery_shack.2
+	title = mystery_shack.2.t 
+	desc = mystery_shack.2.d  
+	picture = GFX_report_event_stan_portal
+	
+	is_triggered_only = yes  
+
+	fire_only_once = yes  
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mystery_shack.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this	
+		add_stability = 0.05
+		add_war_support = 0.05
+		
+	}
+}
+
+country_event = { #3
+	id = mystery_shack.3
+	title = mystery_shack.3.t 
+	desc = mystery_shack.3.d  
+	picture = GFX_report_event_fixin_with_soos
+	
+	is_triggered_only = yes   
+	 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mystery_shack.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_stability = 0.1
+	}
+}
+
+country_event = { #4
+	id = mystery_shack.4
+	title = mystery_shack.4.t # 
+	desc = mystery_shack.4.d  # 
+	picture = GFX_report_event_wendy_cashier
+	
+	is_triggered_only = yes  
+
+	fire_only_once = yes  
+	
+	immediate = {        
+	}
+	
+	option = { # Better than the other applicants, I guess
+		name = mystery_shack.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this	
+		add_stability = -0.05
+		add_war_support = 0.05
+		
+	}
+}
+
+country_event = { #5
+	id = mystery_shack.5
+	title = mystery_shack.5.t 
+	desc = mystery_shack.5.d  
+	picture = GFX_report_event_stan_on_phone
+	
+	is_triggered_only = yes  
+	
+	fire_only_once = yes 
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mystery_shack.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+###
+#chain event 6,7,8
+###
+country_event = { #6
+	id = mystery_shack.6
+	title = mystery_shack.6.t 
+	desc = mystery_shack.6.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mystery_shack.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mystery_shack.7 days = 1 }
+	}
+}
+country_event = { #7
+	id = mystery_shack.7
+	title = mystery_shack.7.t 
+	desc = mystery_shack.7.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes   
+	 
+	fire_only_once = yes    
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mystery_shack.7.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mystery_shack.8 days = 1 }
+	}
+}
+country_event = { #8
+	id = mystery_shack.8
+	title = mystery_shack.8.t 
+	desc = mystery_shack.8.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mystery_shack.8.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+###
+# Stan-Tastic Adventure 1: Corn, The Crawlspace, and Old memories
+###
+
+country_event = {
+	id = stantastic.1
+	title = stantastic.1.t 
+	desc = stantastic.1.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		# Dippy Returns! Test Event #9999
+	country_event = {
+		id = mystery_shack.9999 
+		title = mystery_shack.9999.t # infile title "Dippy Returns!" - look at \localisation\events_l_english.yml
+		desc = mystery_shack.9999.d  # infile desc "Oh no!" - look at \localisation\events_l_english.yml
+		picture = GFX_report_event_dippy_zog # \interface\eventwindow.gfx and \gfx\event_country_pictures
+		
+		is_triggered_only = yes  #if no or not here, look at trigger, fire once, and meantime below
+		
+		#trigger = {              # What will cause it to happen
+		#	orignal_tag = MYS
+		#	date > 2012.1.1
+		#}
+		 
+		fire_only_once = yes     #Can't happen again
+		
+		#mean_time_to_happen = {   #some formula. research it
+		#	days = 1
+		#}
+		
+		immediate = {             #An effect that occures no matter what the player does or doesn't do
+			hidden_effect ={
+				add_political_power = -10
+			}
+		}
+		
+		option = { # Oh Heck NO!
+			name = mystery_shack.9999.a
+			ai_chance = { factor = 90 }	# 90% AI choose this	
+			add_stability = -0.1
+			add_war_support = 0.2
+		}
+		option = { # Uhg, fine...
+			name = mystery_shack.9999.b
+			ai_chance = { factor = 10 } # 10% AI choose this
+			add_political_power = 500
+		}
+	}
+	

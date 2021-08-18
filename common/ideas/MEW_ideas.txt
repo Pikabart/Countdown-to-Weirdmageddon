@@ -1,0 +1,143 @@
+##########IDEAS and ADVISORS for the MEW  ##############
+###NOTE: GFX calls tied to advisors_MYS.gfx and ideas_MYS.gfx ####
+
+ideas = {
+
+	######################################################
+	#National Spirits
+	######################################################
+	country = {
+
+		MEW_300_years_of_peace = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = 0.2
+				war_support_factor = -0.2
+			}
+		}
+		
+		MEW_vacant_heir = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				political_power_gain = 0.2
+				stability_factor = -0.05
+			}
+		}
+		
+		MEW_heir_studying_overdimensions = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+		
+		MEW_corn_theft = {     # This idea can be modified based on a MYS stantastic event
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = -0.4
+				consumer_goods_factor = 0.4
+
+			}
+		}
+
+		MEW_emergency_economics = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+			#when at war
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = -0.15
+			}
+		}		
+			
+		MEW_emergency_economics_2 = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = -0.15
+				consumer_goods_factor = -0.30
+			}
+		}	
+		
+		MEW_emergency_economics_3 = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = -0.15
+				consumer_goods_factor = -0.45
+			}
+		}	
+		
+		MEW_forced_economics = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = -0.20
+				consumer_goods_factor = -0.60
+			}
+		}	
+		
+		MEW_public_works = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				production_speed_buildings_factor = 0.15
+			}
+		}
+
+ 				
+
+
+
+
+}
+}
