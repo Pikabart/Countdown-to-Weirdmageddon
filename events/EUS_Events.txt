@@ -1,0 +1,194 @@
+﻿###########################
+# Mewni Events
+###########################
+
+add_namespace = EUS
+add_namespace = BYE
+
+country_event = {
+	id = EUS.1
+	title = EUS.1.t
+	desc = EUS.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = EUS.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = EUS.2 days = 2 }
+	}
+}
+
+country_event = {
+	id = EUS.2
+	title = EUS.2.t
+	desc = EUS.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = EUS.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = EUS.3 days = 2 }
+	}
+}
+
+country_event = {
+	id = EUS.3
+	title = EUS.3.t
+	desc = EUS.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = EUS.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		#country_event = { id = EUS.1 days = 2 }
+	}
+}
+
+##############################################
+# States Split Off for keruffle
+# hidden events for better nation releaseing
+#############################################
+
+country_event = {
+	id = BYE.1
+	title = BYE.1.t
+	desc = BYE.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	timeout_days = 1
+	hidden = yes
+	
+	immediate = {
+		hidden_effect = {
+			every_state = { 
+				limit = { is_owned_by = EUS is_claimed_by = NEV}
+				NEV = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}
+			}	
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = IDH}
+				IDH = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}	
+			}
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = ARZ}
+				ARZ = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}	
+			}
+		}
+	}
+	
+	option = { 
+		name = BYE.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = BYE.2 days = 2 }
+	}
+}
+
+country_event = {
+	id = BYE.2
+	title = BYE.2.t
+	desc = BYE.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	timeout_days = 1
+	hidden = yes
+	
+	immediate = {
+		hidden_effect = {
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = NMX}
+				NMX = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}	
+			}
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = UTH}
+				UTH = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}	
+			}
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = CRD}
+				CRD = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}	
+			}
+		}
+	}
+	
+	option = { 
+		name = BYE.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = BYE.3 days = 2 }
+	}
+}
+
+country_event = {
+	id = BYE.3
+	title = BYE.3.t
+	desc = BYE.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	timeout_days = 1
+	hidden = yes
+	
+	immediate = {
+		hidden_effect = {
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = TEX}
+				TEX = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}
+			}
+		}
+	}
+	
+	option = { 
+		name = BYE.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = BYE.4 days = 2 }
+	}
+}
+
+country_event = {
+	id = BYE.4
+	title = BYE.4.t
+	desc = BYE.4.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	timeout_days = 1
+	hidden = yes
+	
+	immediate = {
+		hidden_effect = {
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = KAN}
+				KAN = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}	
+			}
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = MIN}
+				MIN = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}
+			}
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = WYM}
+				WYM = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}
+			}
+		}
+	}
+	
+	option = { 
+		name = BYE.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		#country_event = { id = BYE.1 days = 2 }
+	}
+}

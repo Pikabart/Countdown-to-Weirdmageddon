@@ -2,6 +2,18 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 
 #Earth ###########################################
 
+# Arizona Adjacencies
+3402;1887;;11413;-1;-1;-1;-1;; Upper Grand Canyon
+997;9742;;11413;-1;-1;-1;-1;;
+434;2155;;11412;-1;-1;-1;-1;; Hoover Dam
+434;9883;;11412;-1;-1;-1;-1;;
+434;9913;;11412;-1;-1;-1;-1;;
+1659;10022;;11412;-1;-1;-1;-1;; route 66
+1659;6252;;11412;-1;-1;-1;-1;; route 66
+
+# Utah Adjacencies
+9714;1249;;11414;-1;-1;-1;-1;; Utah
+
 # Canada Adjacencies
 6415;5768;;10792;-1;-1;-1;-1;;Island
 
@@ -23,6 +35,13 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9554;9526;;11404;-1;-1;-1;-1;;Sacramento
 5246;6627;;11402;-1;-1;-1;-1;;Golden Gate
 5246;1289;;11402;-1;-1;-1;-1;;Norton Bridge
+
+# Oregon  Adjacencies
+6585;8149;;11427;-1;-1;-1;-1;;Biggs
+8125;5798;;11427;-1;-1;-1;-1;;Biggs
+7175;8441;;11427;-1;-1;-1;-1;;Bend
+
+
 
 # GF Adjacencies
 8460;8458;;2967;-1;-1;-1;-1;;Cliff Bridge

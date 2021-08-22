@@ -7,7 +7,8 @@ Set up a new country in mod folders - ITGUY042
 
 3.	In gfx, assign a gfx/flags folder file for regular, medium, and small
 
-4.	In gfx/leaders, Create a folder with the country tag as the name in gfx/leaders. Actual portraits not needed now
+4.	In gfx/leaders, Create a folder with the country tag as the name in gfx/leaders. 
+Actual portraits not needed now
 
 5.	In history/countries, create file for country info, such as tech level, capital, ideology, so on
 

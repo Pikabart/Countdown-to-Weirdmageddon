@@ -2,7 +2,7 @@
 	id = mewni_focus
 	
 	country = {
-		factor = 1
+		factor = 0
 		modifier = {
 			add = 10
 			tag = MEW

@@ -91,6 +91,10 @@ MEX = {
 	color_ui = rgb { 135 198 108 }
 }
 
+KER = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 
 
 #Mewni
@@ -233,4 +237,51 @@ color_ui = rgb { 151 151 151 }
 AVA = {
 color = rgb { 195 41 57 }
 color_ui = rgb { 195 41 57 }
+}
+
+
+#------------------------------------
+#US States
+#------------------------------------
+ARZ = { 
+	color = rgb { 255 170 100 }
+	color_ui = rgb { 255 170 100  }
+}
+CRD = { 
+	color = rgb { 255 255 100 }
+	color_ui = rgb { 255 255 100  }
+}
+NMX = { 
+	color = rgb { 50 120  255 }
+	color_ui = rgb { 50  120  255 }
+}
+UTH = { 
+	color = rgb { 140  255  255 }
+	color_ui = rgb { 140  255  255 }
+}
+#------------------------------------
+NEV = { 
+	color = rgb { 255  190  50 }
+	color_ui = rgb { 255  190  50 }
+}
+IDH = { 
+	color = rgb { 230 120 10 }
+	color_ui = rgb { 230 120 10 }
+}
+#--------------------------------------
+TEX = { 
+	color = rgb { 255 100 100 }
+	color_ui = rgb { 255 100 100 }
+}
+KAN = { 
+	color = rgb { 204 255 204 }
+	color_ui = rgb { 204 255 204 }
+}
+MIN = { 
+	color = rgb { 204 229 255 }
+	color_ui = rgb { 204 229 255 }
+}
+MON = { 
+	color = rgb { 150 102 50 }
+	color_ui = rgb { 150 102 50 }
 }

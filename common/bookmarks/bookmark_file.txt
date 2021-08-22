@@ -185,8 +185,16 @@ bookmarks = {
 			}
 		}
 
-		"---"={
-			history = "OTHER_WILD_WEST_DESC"
+		"MEX"={
+			history = "MEX_WILD_WEST_DESC"
+			ideology = democratic
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
 		}
 	
 		"---"={

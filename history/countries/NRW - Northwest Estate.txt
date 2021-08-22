@@ -99,6 +99,13 @@ set_politics = {
 	elections_allowed = no
 }
 
+set_popularities = {
+	democratic = 20
+	communism = 0
+	fascism = 10
+	neutrality = 70
+}
+
 create_country_leader = {
 	name = "Preston Northwest"
 	desc = "Money"

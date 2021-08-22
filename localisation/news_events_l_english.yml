@@ -1,0 +1,35 @@
+﻿l_english:
+ MINIMIZE_EVENT:0 "§GClick§! to Minimize. Event will be placed in the Event Queue under §HEvents and Decisions§!."
+ 
+ world_news.1.t:0 "Nothing left behind..."
+ world_news.1.d:0 "'It happened in the early morning. It felt like any other ordinary day. I was there at the border when it occurred. I had just crossed into the US for business and had stopped near the Peace Arc to take a picture to send to my kids. All at once, a thick fog rolled in from along the coastline. Thick, gray, unnerving, it rose as high as I could tilt my head to look up. Sunny and clear on the American side, just a wall of fog on the other side. My home and native land, my husband and children in Vancouver. They’re all gone...'\n\nOlivia Martin - Canadian Refugee\nFrom a recorded interview by the Washington State Guard"
+ world_news.1.a:1 "The Kerfuffle is upon us"
+ world_news.1.b:1 "Oh Good Lord, what's happening, eh?"
+ 
+ world_news.2.t:0 "The Canadian Kerfuffle"
+ world_news.2.d:0 "In the early morning hours across North America, a thick fog descended and consumed the entire nation of Canada. Right along the border between the contental US and Alaska, the entire nation was consumed by a thick fog nearly a mile high in the air. US President Curtis sat in the war room as his generals made it clear to him. Along with Norway as well in Europe, Canada, the leader of the Imperial Commonwealth, the US's largest trading partner, was gone.\n\nThe lost of Canada would have grave implications for world diplomacy, having been the balance between between the two superpowers of the United States and the European Union. But new reports internally spell a worse image. Americans are worried. Are they next?"
+ world_news.2.d_a:0 "In the early morning hours across North America, a thick fog descended and consumed the entire nation of Canada. Right along the border between the continental US and Alaska, the entire nation was consumed by a thick fog nearly a mile high in the air. Residence on Vancouver Island looked on as the fog seemingly avoided their island and descended on the mainland, devouring it whole.\n\nThe People rushed to get online, make phone calls, or send radio transmissions to the mainland, but the lines were dead, nothing came back. As the Mayor of Victoria took charge to calm people down and sent scout teams to investigate, it dawned on him that he was likely the highest ranking Canadian left. His city and the island were all that was left of Canada."
+ world_news.2.a:0 "What a keruffle this has been"
+ world_news.2.b:0 "Our home and native land, gone..."
+ 
+ world_news.3.t:0 "The Atlantic Cold War"
+ world_news.3.d:0 "Despite inconclusive reports of what caused the Canadian Kerfuffle, Curtis had announced to the League of Nations that the European Union caused the Kerfuffle. Seeing a chance to inspire patriotism in a seemingly defeated America, he dismissed the 'cowardly' congress with Chief Justice Norman’s help and called on the US to rally for war. Though the EU had also been given similar reports, the EU reacted in turn by blaming the 'Imperialist' Americans for stealing Norway and began preparation for war as well.\n\nMany across the US are shocked at the news as the army and navy are called up to head to the East to prepare for an invasion of Europe. With congress gone, governors west of the Mississippi River have denounced President Curtis as a madman."
+ world_news.3.a:0 "Give us back Canada, you dirty Sauer-Frogs!"
+ world_news.3.b:0 "That's just great, we can kiss help from MI-13 and the EIO goodbye!"
+ world_news.3.c:0 "Stop fighting, we need to save Canada and the Commonwealth!"
+ world_news.3.e:0 "President Curtis has gone mad!"
+ 
+ world_news.4.t:0 "The Long Summer"
+ world_news.4.d:0 "Today, the great 75-Star Union has all but fallen apart. In the west, Oregon, Washington, and California have met to rally the Western US against President Curtis. The now independent Texas have annexed its neighboring states to protect its new independence from Federal forces. The admirals of the US Pacific Fleets refused orders from DC to return home and instituted martial law in the states of Hawaii, Korea, Vietnam, the Oriental, and Kamchatka. In Europe, the State of Ireland had revolted from American rule and the State of Levant was being blockaded by the EU Mediterranean Fleet. All the while, President Curtis have cemented his power east of the Mississippi, determined to crush the Euros and the traitors.\n                                The Long Summer had begun"
+ world_news.4.a:0 "First we will crush the Euros, then we'll deal with the traitors!"
+ world_news.4.b:0 "Hey, where did the Deputy Director run off to?"
+ world_news.4.c:0 "We won't let the East kerfuffle the West as well!"
+ world_news.4.e:0 "Dumb Americanos. We should probably build a wall to keep thier mess out!"
+ world_news.4.f:0 "Hello? We are still here! Someone help us!"
+
+ 
+ world_news.6.t:0 "The Disunited States of America"
+ world_news.6.d:0 ""
+ world_news.6.a:0 "What a keruffle this has been"
+ world_news.6.a:0 "What a keruffle this has been"
+ 

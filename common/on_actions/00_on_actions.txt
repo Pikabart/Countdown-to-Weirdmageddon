@@ -1,0 +1,9 @@
+on_actions = {
+	#on_startup = {
+	#	effect = {
+	#		EUS = {
+	#			country_event = {id = EUS.1 }
+	#		}
+	#	}
+	#}
+}

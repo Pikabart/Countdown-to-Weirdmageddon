@@ -1,5 +1,7 @@
 ﻿capital = 223
 
+
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -33,6 +35,16 @@ set_technology = {
 	dispersed_industry2 = 1
 	
 }
+
+country_event = { id = EUS.1 hours = 2 } #Intro Event
+news_event = { id = world_news.1 days = 10 } #The Kerfuffle
+
+
+#country_event = { id = EUS.23 days = 76 } #St. Patrick's Day Floods
+#country_event = { id = EUS.22 days = 121 } #May Day Riots
+#country_event = { id = EUS.24 days = 181 } #Red Summer
+#country_event = { id = EUS.538 days = 185 } #Fourth of July
+
 
 set_convoys = 200
 
@@ -76,3 +88,12 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Adrian Curtis"
+	desc = ""
+	picture = "hoi4_portrait_curtis.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
