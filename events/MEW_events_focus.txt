@@ -25,6 +25,21 @@ add_namespace = MEW_reform_economy_3
 add_namespace = MEW_reform_economy_4
 add_namespace = MEW_economy_final
 add_namespace = magic_fritz
+add_namespace = brush_up_event
+add_namespace = visit_avarius_family_event
+add_namespace = ensure_support_from_mhc_event
+add_namespace = song_day_event
+add_namespace = song_day_event_crush
+add_namespace = song_day_event_censor
+add_namespace = song_day_event_good
+add_namespace = ludo_confront_1
+add_namespace = ludo_confront_2
+add_namespace = ludo_confront_3
+add_namespace = ludo_confront_4
+add_namespace = ludo_confront_5
+add_namespace = ludo_confront_6
+add_namespace = ludo_confront_7
+add_namespace = ludo_confront_8
 
 country_event = {
 	id = mewni_solaria.1
@@ -198,7 +213,42 @@ country_event = {
 		uses = 1
 		category = land_doctrine
 			}
-		#DAMAGE SOME INFRASTRUCTURE. LIKE WHAT THEY DO IN OLD WORLD BLUES WHEN YOU PLAY AS LANIUS AND ROAST LAMAR
+		269 = {
+			damage_building = {
+				type = infrastructure
+				damage = 10
+			}
+		}
+		270 = {
+			damage_building = {
+				type = infrastructure
+				damage = 10
+		}
+	}
+			280 = {
+			damage_building = {
+				type = infrastructure
+				damage = 10
+		}
+	}
+			457 = {
+			damage_building = {
+				type = infrastructure
+				damage = 10
+		}
+	}
+			455 = {
+			damage_building = {
+				type = infrastructure
+				damage = 10
+		}
+	}
+			276 = {
+			damage_building = {
+				type = infrastructure
+				damage = 10
+		}
+	}
 	}
 	
 	
@@ -431,14 +481,14 @@ country_event = {
 	option = {
 		name = force_economy_4.1.a
 		ai_chance = { factor = 50 }
-		
+		set_global_flag = mew_suppression_trigger_peaceful
 		
 	}
 
 	option = {
 		name = force_economy_4.2.a
 		ai_chance = { factor = 50 }
-		
+		set_global_flag = mew_suppression_trigger_hostile
 		
 	}
 }
@@ -564,6 +614,8 @@ country_event = {
 			add_extra_state_shared_building_slots = 2
 
 		}
+		
+		set_global_flag = magic_fritz_trigger_2
 	}
 	}
 	
@@ -578,6 +630,282 @@ country_event = {
 		option = {
 			name = magic_fritz.1.a
 			ai_chance = { factor = 90 }
+			add_ideas = magic_fritz_idea
 		
 		}
+}
+
+	country_event = {
+		id = brush_up_event.1
+		title = brush_up_event.1.t
+		desc = brush_up_event.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = brush_up_event.1.a
+			ai_chance = { factor = 90 }
+			
+		}
+}
+	country_event = {
+		id = visit_avarius_family_event.1
+		title = visit_avarius_family_event.1.t
+		desc = visit_avarius_family_event.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = visit_avarius_family_event.1.a
+			ai_chance = { factor = 90 }
+			create_country_leader = {
+				name = "King River of House Butterfly"
+				desc = "placeholder"
+				picture = "hoi4_portrait_river_butterfly3.dds"
+				ideology = oligarchism
+
+			}
+		
+		}
+}
+	country_event = {
+		id = ensure_support_from_mhc_event.1
+		title = ensure_support_from_mhc_event.1.t
+		desc = ensure_support_from_mhc_event.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = ensure_support_from_mhc_event.1.a
+			ai_chance = { factor = 90 }
+		
+		}
+}
+
+	country_event = {
+		id = song_day_event.1
+		title = song_day_event.1.t
+		desc = song_day_event.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = song_day_event.1.a
+			ai_chance = { factor = 34 }
+			country_event = { id = song_day_event_crush.1 days = 2 }
+		
+		}
+		option = {
+			name = song_day_event.2.a
+			ai_chance = { factor = 33 }
+			country_event = { id = song_day_event_censor.1 days = 2 }
+			
+		}
+		
+		option = {
+			name = song_day_event.3.a
+			ai_chance = { factor = 33 }
+			country_event = { id = song_day_event_good.1 days = 2 }
+		
+		}
+}
+
+#################
+#song_day_events#
+#################
+
+	country_event = {
+		id = song_day_event_crush.1
+		title = song_day_event_crush.1.t
+		desc = song_day_event_crush.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = song_day_event_crush.1.a
+			ai_chance = { factor = 90 }
+			add_stability = -0.05
+		
+		}
+}
+
+	country_event = {
+		id = song_day_event_censor.1
+		title = song_day_event_censor.1.t
+		desc = song_day_event_censor.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = song_day_event_censor.1.a
+			ai_chance = { factor = 90 }
+			add_stability = 0.05
+
+			
+		}
+}
+
+	country_event = {
+		id = song_day_event_good.1
+		title = song_day_event_good.1.t
+		desc = song_day_event_good.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = song_day_event_good.1.a
+			ai_chance = { factor = 90 }
+			add_stability = 0.15
+		
+		}
+}
+
+###############################
+#start of the civil war events#
+###############################
+
+	country_event = {
+		id = ludo_confront_1.1
+		title = ludo_confront_1.1.t
+		desc = ludo_confront_1.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = ludo_confront_1.1.a
+			ai_chance = { factor = 90 }
+			country_event = { id = ludo_confront_2.1 days = 1 }
+
+		
+		}
+}
+
+	country_event = {
+		id = ludo_confront_2.1
+		title = ludo_confront_2.1.t
+		desc = ludo_confront_2.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = ludo_confront_2.1.a
+			ai_chance = { factor = 90 }
+			country_event = { id = ludo_confront_3.1 days = 1 }
+		}
+}
+
+	country_event = {
+		id = ludo_confront_3.1
+		title = ludo_confront_3.1.t
+		desc = ludo_confront_3.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = ludo_confront_3.1.a
+			ai_chance = { factor = 90 }
+			country_event = { id = ludo_confront_4.1 days = 6 }
+			create_country_leader = {
+				name = "King Ludo of House Avarius"
+				desc = "placeholder"
+				picture = "hoi4_portrait_ludo_mew.dds"
+				ideology = oligarchism
+
+		}
+		}
+}
+
+	country_event = {
+		id = ludo_confront_4.1
+		title = ludo_confront_4.1.t
+		desc = ludo_confront_4.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = ludo_confront_4.1.a
+			ai_chance = { factor = 90 }
+			country_event = { id = ludo_confront_5.1 days = 6 }
+		}
+}
+
+	country_event = {
+		id = ludo_confront_5.1
+		title = ludo_confront_5.1.t
+		desc = ludo_confront_5.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+		
+		option = {
+			name = ludo_confront_5.1.a
+			ai_chance = { factor = 90 }
+			create_country_leader = {
+				name = "Queen Moon of House Butterfly"
+				desc = "placeholder"
+				picture = "hoi4_portrait_moon.dds"
+				ideology = oligarchism
+
+			}
+			LUD = { set_state_controller = 266 }
+			LUD = { set_state_controller = 331 }
+			LUD = { set_state_controller = 269 }
+			LUD = { set_state_controller = 272 }
+			LUD = { set_state_controller = 280 }
+			LUD = { set_state_controller = 458 }
+			LUD = { set_state_controller = 457 }
+			LUD = { set_state_controller = 343 }
+			LUD = { set_state_controller = 349 }
+			LUD = { set_state_controller = 345 }
+			LUD = { set_state_controller = 334 }
+			LUD = { set_state_controller = 332 }
+			LUD = { set_state_controller = 333 }
+			add_war_support = 0.2
+			country_event = { id = ludo_confront_6.1 days = 1 }
+
+		}
+}
+
+	country_event = {
+		id = ludo_confront_6.1
+		title = ludo_confront_6.1.t
+		desc = ludo_confront_6.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = ludo_confront_6.1.a
+			ai_chance = { factor = 90 }
+			dismantle_faction = yes
+			country_event = { id = ludo_confront_7.1 days = 6 }
+ 
+		}
+
+}
+
+	country_event = {
+		id = ludo_confront_7.1
+		title = ludo_confront_7.1.t
+		desc = ludo_confront_7.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = ludo_confront_7.1.a
+			ai_chance = { factor = 90 }
+		}
+
 }

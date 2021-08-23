@@ -3,3 +3,27 @@
 A-RAT_mobilize.1.t:0 "The A-RAT Mobilizes!"
 A-RAT_mobilize.1.d:0 "Write soemthing about the first A-RAT personaell being trained"
 A-RAT_mobilize.1.a:0 "Ok"
+
+A-RAT_funding.1.t:0 "Our Funding Is Secured!"
+A-RAT_funding.1.d:0 "With us fully mobilized and funded, we can start instating new government programs to curtail the rat menace!"
+A-RAT_funding.1.a:0 "Death to the emus, glory to 'straylia- *cough* uh, I mean death to the rats, glory to Mewni!"
+
+A-RAT_pamphlet.1.t:0 "The Anti-Rat Pamphlets"
+A-RAT_pamphlet.1.d:0 "Our personell are going out and distributing pamphlets. Our people are growing eager to the notion of rat hunting, but there hasnt been any real dent in the problem."
+A-RAT_pamphlet.1.a:0 "Something is Better Than Nothing"
+
+A-RAT_bounty.1.t:0 "The Bounties"
+A-RAT_bounty.1.d:0 "The bounty has paid off, people are turning in rat bodies! And yet, the problem still persists!"
+A-RAT_bounty.1.a:0 "Damn"
+
+A-RAT_operation.1.t:0 "The Operations"
+A-RAT_operation.1.d:0 "We have raided numerous rat nests and sites, and yet the problem still persists! We got some expirience though."
+A-RAT_operation.1.a:0 "Damn"
+
+A-RAT_operation.2.t:0 "The Operations"
+A-RAT_operation.2.d:0 "We have raided numerous rat nests and sites, and yet the problem still persists! We got some expirience though."
+A-RAT_operation.2.a:0 "Damn"
+
+A-RAT_magic_operation.1.t:0 "A Magical Malfunction"
+A-RAT_magic_operation.1.d:0 "Something strange is happening. It seems that utilizing magic has actually reduced our rat obliteration efficiency! Now this could be chalked up to inexpirienced magic users, but those in the Magic High Commision are saying that it's a too big of a drop to just be that."
+A-RAT_magic_operation.1.a:0 "Hm, weird."

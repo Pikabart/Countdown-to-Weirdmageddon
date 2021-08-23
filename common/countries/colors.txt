@@ -144,6 +144,11 @@ PIE = {
 color = rgb { 255 204 255 }
 color_ui = rgb { 255 204 255 }
 }
+#------------------------------------
+LUD = {
+color = rgb { 6 91 12 }
+color_ui = rgb { 6 91 12 }
+}
 
 
 #Mewni South Monsters
@@ -240,6 +245,12 @@ color_ui = rgb { 195 41 57 }
 }
 
 
+
+
+
+
+
+
 #------------------------------------
 #US States
 #------------------------------------
@@ -273,6 +284,19 @@ TEX = {
 	color = rgb { 255 100 100 }
 	color_ui = rgb { 255 100 100 }
 }
+LOU = { 
+	color = rgb { 255 120 120 }
+	color_ui = rgb { 255 120 120 }
+}
+ARK = { 
+	color = rgb { 255 140 140 }
+	color_ui = rgb { 255 140 140 }
+}
+OKL = { 
+	color = rgb { 255 160 160 }
+	color_ui = rgb { 255 160 160 }
+}
+#-------------------------------
 KAN = { 
 	color = rgb { 204 255 204 }
 	color_ui = rgb { 204 255 204 }

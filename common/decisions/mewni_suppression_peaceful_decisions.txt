@@ -1,0 +1,162 @@
+#####################################################################################################################
+# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
+# ID's must not include spaces!
+# Decisions MUST be visible for the AI to execute them, if in doubt, switch tag to the AI country and check if they can see/execute the mission.
+#####################################################################################################################
+mewni_suppression_peaceful = {		#Name of category that decisions will appear under, decisions MUST have a category to work properly.
+	
+	mew_peaceful_suppression_propaganda = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+		}
+		
+		fire_only_once = no
+		
+
+		visible = {
+			has_global_flag = mew_suppression_trigger_peaceful
+		}		
+
+		cost = 25
+
+		complete_effect = {		
+			add_stability = 0.02			
+		}
+		
+		ai_will_do = {
+			factor = 0			
+		}
+	}
+	
+	mew_peaceful_suppression_legalize_unions = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+		}
+		
+		fire_only_once = yes
+
+		visible = {
+			has_global_flag = mew_suppression_trigger_peaceful
+		}		
+
+		cost = 50
+
+		complete_effect = {		
+			add_stability = 0.1	
+			set_global_flag = unions_legal
+		}
+		
+		ai_will_do = {
+			factor = 0			
+		}
+	}
+	
+	mew_peaceful_suppression_convene_with_unions = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+		has_global_flag = unions_legal
+		
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			has_global_flag = unions_legal
+		}		
+
+		cost = 25
+
+		complete_effect = {		
+			add_stability = 0.02
+			set_global_flag = unions_convened
+		}
+		
+		ai_will_do = {
+			factor = 0			
+		}
+	}
+	
+	mew_peaceful_suppression_integrate_a_union = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			has_global_flag = unions_convened
+		
+		}
+		
+		fire_only_once = no
+
+		visible = {
+			has_global_flag = unions_convened
+		}		
+
+		cost = 100
+
+		complete_effect = {		
+			add_stability = 0.06			
+		}
+		
+		ai_will_do = {
+			factor = 0			
+		}
+	}
+	
+	mew_peaceful_suppression_lower_work_days = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+		}
+		
+		fire_only_once = yes
+
+		visible = {
+			has_global_flag = mew_suppression_trigger_peaceful
+		}		
+
+		cost = 50
+
+		complete_effect = {		
+			add_war_support = -0.04
+			add_stability = 0.06
+		}
+		
+		ai_will_do = {
+			factor = 0			
+		}
+	}
+	
+	mew_peaceful_suppression_lower_work_hours = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+		}
+		
+		fire_only_once = yes
+
+		visible = {
+			has_global_flag = mew_suppression_trigger_peaceful
+		}		
+
+		cost = 50
+
+		complete_effect = {		
+			add_war_support = -0.02
+			add_stability = 0.04
+		}
+		
+		ai_will_do = {
+			factor = 0			
+		}
+	}
+	
+	
+	}

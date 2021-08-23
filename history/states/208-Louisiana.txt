@@ -2,23 +2,24 @@
 state={
 	id=208
 	name="STATE_208"
-	
+
 	history={
 		owner = EUS
 		add_core_of = EUS
 		buildings = {
 			arms_factory = 0
 			industrial_complex = 0
-			
 			infrastructure = 6
 			air_base = 0
 			anti_air_building = 0
-			radar_station = 0	
+			radar_station = 0
+
 		}
+
 	}
-	
+
 	provinces={
-		29 31 268 441 457 952 1053 1246 1372 1650 1761 2579 2781 3047 4300 4349 4723 5187 5878 6436 6921 10299 10360 10367 10425 10435 10439 10450 10456 
+		29 31 253 268 441 457 952 1053 1246 1372 1650 1761 2579 2781 3047 3278 4300 4349 4723 5187 5688 5878 6436 6921 10299 10360 10367 10425 10435 10439 10450 10456 
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000

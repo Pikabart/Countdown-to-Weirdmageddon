@@ -19,6 +19,9 @@
  VICTORY_POINTS_3071:0 "Eureka"
  VICTORY_POINTS_9363:0 "Fort Navarro"
  VICTORY_POINTS_9524:0 "Santa Rosa"
+ VICTORY_POINTS_4181:0 "San Jose"
+ VICTORY_POINTS_6615:0 "Mountain View"
+
  
  ################################################
  #Southern California VPs
@@ -93,6 +96,7 @@
  VICTORY_POINTS_1380:0 "Corvallis"
  VICTORY_POINTS_5163:0 "Eugene"
  VICTORY_POINTS_5827:0 "North Roseburg"
+ VICTORY_POINTS_8210:0 "Sherwood"
  
  VICTORY_POINTS_3953:0 "Medford"
  VICTORY_POINTS_8785:0 "South Roseburg"
@@ -121,5 +125,17 @@
  #Mexican VPs
  VICTORY_POINTS_40:0 "Monterrey"
  
+ ################################################
  
+ #START
+ #OF
+ #MEWNI
+ #VPS
  
+ ################################################
+ 
+ #Jaggy Kingdom VPs
+ VICTORY_POINTS_7487:0 "Jaggi-vostok"
+ 
+ #Kaisserreich  VPs
+ VICTORY_POINTS_5783:0 "Big Building"

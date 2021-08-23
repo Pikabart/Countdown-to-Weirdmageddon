@@ -170,12 +170,20 @@ news_event = { # Cold War
 			CRD = { 
 				add_state_claim = 197
 			}
+			
 			TEX = { 
 				add_state_claim = 198
+			}
+			LOU = { 
 				add_state_claim = 208
+			}
+			ARK = { 
 				add_state_claim = 207
+			}
+			OKL = { 
 				add_state_claim = 199
 			}
+			
 			KAN = { 
 				add_state_claim = 200
 				add_state_claim = 206

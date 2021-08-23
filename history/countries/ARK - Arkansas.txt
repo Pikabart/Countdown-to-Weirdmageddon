@@ -1,18 +1,5 @@
 ﻿capital = 198
 
-set_autonomy = {
-	target = LOU
-	autonomous_state = autonomy_puppet
-}
-set_autonomy = {
-	target = ARK
-	autonomous_state = autonomy_puppet
-}
-set_autonomy = {
-	target = OKL
-	autonomous_state = autonomy_puppet
-}
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "2008.1.1"
@@ -28,7 +15,7 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "President of Texas"
+	name = "Governor of Arkansas"
 	desc = ""
 	picture = ""
 	ideology = conservatism

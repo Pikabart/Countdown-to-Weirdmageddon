@@ -94,5 +94,63 @@ MEW_economy_final.1.d:0 "Write something about how the results are lower than ex
 MEW_economy_final.1.a:0 "Better something than nothing, I guess..."
 
 magic_fritz.1.t:0 "Magic Is On A fritz!"
-magic_fritz.1.d:0 "Write about the magic fritz"
-magic_fritz.1.a:0 "We must fix this! (Unlocks descisions to find the source of the magic fritz)"
+magic_fritz.1.d:0 "thew mhc talks about the fritz, moon says that ludo has the megic instruction book, and they all agree it's probably him causing the fritz"
+magic_fritz.1.a:0 "We must bring down ludo!"
+
+brush_up_event.1.t:0 "Brushing Up On Magical Combat"
+brush_up_event.1.d:0 "Write Something About River Helping Moon in training, but moon suprises him with her magic."
+brush_up_event.1.a:0 "It's the sentiment that counts. (MAKES MOON A FIELD MARSHAL)"
+
+visit_avarius_family_event.1.t:0 "Keeping Up With The Avariuses"
+visit_avarius_family_event.1.d:0 "The episode where moon visits the avarius family"
+visit_avarius_family_event.1.a:0 "Ok"
+
+ensure_support_from_mhc_event.1.t:0 "A Proposal"
+ensure_support_from_mhc_event.1.d:0 "Write Something about Moon asking for support from the MHC"
+ensure_support_from_mhc_event.1.a:0 "Strength in numbers"
+
+song_day_event.1.t:0 "Final Inspection"
+song_day_event.1.d:0 "As song day draws near, the final draft of Star's Song is brought in front of Moon Butterfly for a final inspection."
+song_day_event.1.a:0 ""I don't have time to fully read it, but i'm sure it's fine. Approved!""
+song_day_event.2.a:0 ""An Electric Guitar!? Are you serious!? Rewrite this, and make it traditional!""
+song_day_event.3.a:0 ""This looks great! Just... cut out that last part about Star's personal affairs.""
+
+song_day_event_crush.1.t:0 "Song Day"
+song_day_event_crush.1.d:0 "Write about song day, canonically."
+song_day_event_crush.1.a:0 "What a disaster!"
+
+song_day_event_censor.1.t:0 "Song Day"
+song_day_event_censor.1.d:0 "Write about how it was a normal song day."
+song_day_event_censor.1.a:0 "The ancinet tradiiton persists"
+
+song_day_event_good.1.t:0 "Song Day"
+song_day_event_good.1.d:0 "Write about how it was a REALLY GOOD song day."
+song_day_event_good.1.a:0 "Rock on!"
+
+ludo_confront_1.1.t:0 "Storming The Monster Temple"
+ludo_confront_1.1.d:0 "Write something about how the MHC was defeated by ludo. Like what happened canonically."
+ludo_confront_1.1.a:0 ""Oh God, I have to get Star!""
+
+ludo_confront_2.1.t:0 "The Magic Sanctuary"
+ludo_confront_2.1.d:0 "Write about how moon and star try to ressurect the MHC at the sanctuary, like what happened canonically."
+ludo_confront_2.1.a:0 "I hope river's doing ok."
+
+ludo_confront_3.1.t:0 "The Avarius Coup"
+ludo_confront_3.1.d:0 "Write About How Ludo took controll of butterfly castle, like what happened canonically."
+ludo_confront_3.1.a:0 "OH GOD OH FU-"
+
+ludo_confront_4.1.t:0 "Last chance at true peace"
+ludo_confront_4.1.d:0 "Write about how moon and star try to stop ludo, like in the show, but toffee possesed ludo and fights them off"
+ludo_confront_4.1.a:0 "Last hopes, dashed."
+
+ludo_confront_5.1.t:0 ""To War!""
+ludo_confront_5.1.d:0 "Write about how Moon is rallying support for a civil war."
+ludo_confront_5.1.a:0 "The Mewman peace is ending..."
+
+ludo_confront_6.1.t:0 "...And The Kingdom is Collapsing!"
+ludo_confront_6.1.d:0 "Write about how mewni cant exert authority or give it's subjects their privleges, thus the kingdom of mewni is nothing but a name."
+ludo_confront_6.1.a:0 "Corn Help Us..."
+
+ludo_confront_7.1.t:0 "The Uneasy Peace"
+ludo_confront_7.1.d:0 "Write about how nobody really wants to fight, and thus there is some time before all out war breaks out"
+ludo_confront_7.1.a:0 "Ok."

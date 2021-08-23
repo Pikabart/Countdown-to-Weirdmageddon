@@ -1,0 +1,125 @@
+add_namespace = A-RAT_mobilize
+add_namespace = A-RAT_funding
+add_namespace = A-RAT_pamphlet
+add_namespace = A-RAT_bounty
+add_namespace = A-RAT_operation
+add_namespace = A-RAT_operation_2
+add_namespace = A-RAT_magic_operation
+
+
+country_event = {
+	id = A-RAT_mobilize.1
+	title = A-RAT_mobilize.1.t
+	desc = A-RAT_mobilize.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = A-RAT_mobilize.1.a
+		ai_chance = { factor = 90 }
+		hidden_effect = {
+		set_global_flag = A-RAT_mobilize
+		
+		}
+	}
+}
+
+country_event = {
+	id = A-RAT_funding.1
+	title = A-RAT_funding.1.t
+	desc = A-RAT_funding.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = A-RAT_funding.1.a
+		ai_chance = { factor = 90 }
+		hidden_effect = {
+		set_global_flag = A-RAT_funding
+		
+		}
+	}
+}
+
+country_event = {
+	id = A-RAT_pamphlet.1
+	title = A-RAT_pamphlet.1.t
+	desc = A-RAT_pamphlet.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = A-RAT_pamphlet.1.a
+		ai_chance = { factor = 90 }
+		add_war_support = 0.02
+
+	}
+}
+
+country_event = {
+	id = A-RAT_bounty.1
+	title = A-RAT_bounty.1.t
+	desc = A-RAT_bounty.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = A-RAT_bounty.1.a
+		ai_chance = { factor = 90 }
+		add_war_support = 0.02
+
+	}
+}
+
+country_event = {
+	id = A-RAT_operation.1
+	title = A-RAT_operation.1.t
+	desc = A-RAT_operation.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = A-RAT_operation.1.a
+		ai_chance = { factor = 90 }
+		set_global_flag = A-RAT_operation
+		add_war_support = 0.1
+		army_experience = 5
+
+	}
+}
+
+country_event = {
+	id = A-RAT_operation.2
+	title = A-RAT_operation.2.t
+	desc = A-RAT_operation.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = A-RAT_operation.2.a
+		ai_chance = { factor = 90 }
+
+	}
+}
+
+country_event = {
+	id = A-RAT_magic_operation.1
+	title = A-RAT_magic_operation.1.t
+	desc = A-RAT_magic_operation.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = A-RAT_magic_operation.1.a
+		ai_chance = { factor = 90 }
+		set_global_flag = rats_hunted_with_magic
+
+	}
+}

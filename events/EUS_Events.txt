@@ -146,6 +146,21 @@ country_event = {
 				TEX = { transfer_state = PREV add_state_core = PREV}
 				EUS = { remove_state_core = PREV}
 			}
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = LOU}
+				LOU = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}
+			}
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = ARK}
+				ARK = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}
+			}
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = OKL}
+				OKL = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}
+			}
 		}
 	}
 	

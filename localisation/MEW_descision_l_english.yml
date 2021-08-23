@@ -1,7 +1,76 @@
 ﻿l_english:
 
+#################################
+
+########A-RAT DESCISIONS#########
+
+#################################
+
+simple_category_mewni:0 "The A-RAT"
+simple_category_mewni_desc:0 "The A-RAT"
+
 A-RAT_mobilize:0 "Mobilize the A-RAT"
 A-RAT_mobilize_desc:0 "The A-RAT if founded, but it is still in it's infancy. In order to truly make it a rat hunting organization, it must mobilize. (Unlocks another descision)"
 
 A-RAT_funding:0 "Grant Funding"
 A-RAT_funding_desc:0 "Give Funding to the A-RAT (We will have a funding game mechanic for this, like how germany and britan have to fight for the dutch trade)"
+
+A-RAT_pamphlet:0 "Distribute Anti-Rat Pamphlets"
+A-RAT_pamphlet_desc:0 "Distribute pamphlets detailing how to deal with rats to the populace."
+
+A-RAT_bounty:0 "Post A Bounty Against The Rats"
+A-RAT_bounty_desc:0 "We can incentivise the public to hunt rats by providing a monetary reward for every rat that comes in. 1 gold coin for males, 2 gold coins for females! We wont be able to sustain this, though. It will be an on and off government program."
+
+A-RAT_operation:0 "Anti-Rat Operations"
+A-RAT_operation_desc:0 "If you want to do something right, you have to do it yourself. We will map out important rat hideouts and nests, and hit each and every one with a team of specialized hunters!"
+
+A-RAT_operation_2:0 "Anti-Rat Operations"
+A-RAT_operation_2_desc:0 "If you want to do something right, you have to do it yourself. We will map out important rat hideouts and nests, and hit each and every one with a team of specialized hunters!"
+
+A-RAT_magic_operation:0 "Expiremental Magical Anti-Rat Operations"
+A-RAT_magic_operation_desc:0 "By utilizing magic in our Anti-Rat Operations, we can more effectivley obliterate the rat menace. Theoretically, of course. Magic can be a fickle mistress..."
+
+#################################
+
+#PEACEFUL SUPPRESSION DESCISIONS#
+
+#################################
+
+mewni_suppression_peaceful:0 "Dissent Suppression (Peaceful)"
+mewni_suppression_peaceful_desc:0 "We must suppress unrest through peaceful means."
+
+mew_peaceful_suppression_propaganda:0 "Distribute Propaganda"
+mew_peaceful_suppression_propaganda_desc:0 "It seems that the Mewman people have forgotten exactly why they must work so hard. We must remind them that the country is in a crisis, and the only reason mewni has not fallen into anarchy is that the diligent mewman worker has kept it afloat!"
+
+mew_peaceful_suppression_legalize_unions:0 "Legalize Unions"
+mew_peaceful_suppression_legalize_unions_desc:0 "Unions have been illegal ever since the late Queen Solaria deemed them an obstacle to the state. However, with increasing worker unrest, we must revisit this policy."
+
+mew_peaceful_suppression_convene_with_unions:0 "Convene With The Unions"
+mew_peaceful_suppression_convene_with_unions_desc:0 "By hearing out the demands of the worker unions, we can see what we can do for them."
+
+mew_peaceful_suppression_integrate_a_union:0 "Integrate A Union"
+mew_peaceful_suppression_integrate_a_union_desc:0 "By integrating a union we can both eliminate that union as an advresary to the government, while also seeming peaceful and benevolent!"
+
+mew_peaceful_suppression_lower_work_days:0 "Lower Work Days"
+mew_peaceful_suppression_lower_work_days_desc:0 "We can temporarily give our people a day off from government mandated work."
+
+mew_peaceful_suppression_lower_work_hours:0 "Lower Work Hours"
+mew_peaceful_suppression_lower_work_hours_desc:0 "We can temprarily give our people lower working hours from government mandated work"
+
+##################################
+
+##HOSTILE SUPPRESSION DESCISIONS##
+
+##################################
+
+mewni_suppression_hostile:0 "Dissent Suppression (Hostile)"
+mewni_suppression_hostile_desc:0 "The time for talk has past, the lord's work must be done."
+
+mew_hostile_suppression_propaganda:0 "Distribute Propaganda"
+mew_hostile_suppression_propaganda_desc:0 "It seems that the peasants have forgotten their place in the world. We will distribute information reminding them of the great mewman conquests under Solaria, and how she was only able to achive them because everybody knew their place in the great Mewman machine."
+
+mew_hostile_suppression_arrests:0 "Arrest Major Opposition Leaders"
+mew_hostile_suppression_arrests_desc:0 "By arresting major union leaders, political figures, critical celebrities, and more, we can cripple any chance at a unified political movement."
+
+mew_hostile_suppression_raids:0 "Raids"
+mew_hostile_suppression_raids_desc:0 "By arresting, tourtuting, and even executing dissenters from the general public, we can instill fear into the average civillian so that they would never dare to rise up."

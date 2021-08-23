@@ -133,6 +133,18 @@ ideas = {
 				production_speed_buildings_factor = 0.15
 			}
 		}
+		
+		magic_fritz_idea = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.40
+			}
+		}
 
  				
 

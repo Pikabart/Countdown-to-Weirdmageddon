@@ -436,6 +436,7 @@
 		y = 1
 		prerequisite = { focus = MEW_economy_final }
 		prerequisite = { focus = hunt_rat }
+		available = { has_global_flag = rats_hunted_with_magic }
 		relative_position_id = MEW_economy_final
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -445,6 +446,109 @@
 
 		completion_reward = {
 			country_event = magic_fritz.1
+		}
+	}
+	
+	focus = {
+		id = visit_avarius_family
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		prerequisite = { focus = magic_fritz }
+		prerequisite = { focus = magic_fritz }
+		relative_position_id = magic_fritz
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 3
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = visit_avarius_family_event.1
+		
+		}
+	}
+	
+	focus = {
+		id = ensure_support_from_mhc
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 2
+		y = 1
+		prerequisite = { focus = magic_fritz }
+		relative_position_id = magic_fritz
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 3
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = ensure_support_from_mhc_event.1
+		
+		}
+	}
+	
+	focus = {
+		id = brush_up
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -2
+		y = 1
+		prerequisite = { focus = magic_fritz }
+		relative_position_id = magic_fritz
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 3
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = brush_up_event.1
+		
+		}
+	}
+	
+	focus = {
+		id = song_day
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		prerequisite = { focus = visit_avarius_family }
+		prerequisite = { focus = ensure_support_from_mhc }
+		prerequisite = { focus = brush_up }
+
+		relative_position_id = visit_avarius_family
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 3
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = song_day_event.1
+		
+		}
+	}
+	
+	focus = {
+		id = confront_ludo
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 2
+		
+		prerequisite = { focus = song_day }
+		relative_position_id = song_day
+
+
+		relative_position_id = visit_avarius_family
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 10
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = ludo_confront_1.1
+		
 		}
 	}
 
