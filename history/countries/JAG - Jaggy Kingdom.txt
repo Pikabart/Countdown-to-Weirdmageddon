@@ -21,5 +21,5 @@ create_country_leader = {
 	name = "Princess Jags of house Jaggy"
 	desc = "placeholder"
 	picture = "hoi4_portrait_moon.dds"
-	ideology = oligarchisim
+	ideology = oligarchism
 }

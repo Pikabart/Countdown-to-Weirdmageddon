@@ -77,7 +77,7 @@ create_country_leader = {
 	name = "King Pigeon of Nest Pigeon"
 	desc = ""
 	picture = ""
-	ideology = oligarchisim
+	ideology = oligarchism
 	traits = {
 		#
 	}

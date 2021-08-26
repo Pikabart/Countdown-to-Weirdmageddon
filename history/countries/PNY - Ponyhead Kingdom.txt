@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "King Ponyhead of House Ponyhead"
 	desc = ""
 	picture = ""
-	ideology = oligarchisim
+	ideology = oligarchism
 	traits = {
 		#
 	}
