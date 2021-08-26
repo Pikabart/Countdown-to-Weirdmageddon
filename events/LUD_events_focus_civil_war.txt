@@ -1,0 +1,40 @@
+﻿###########################
+# Mewni Events
+###########################
+
+add_namespace = uneasy_peace_lud
+add_namespace = lud_focus_tree
+
+country_event = {
+	id = uneasy_peace_lud.1
+	title = uneasy_peace.1.t
+	desc = uneasy_peace.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uneasy_peace.1.a
+		ai_chance = { factor = 90 }
+	
+	}
+}
+
+country_event = {
+	id = lud_focus_tree.1
+	title = lud_focus_tree.1.t
+	desc = lud_focus_tree.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lud_focus_tree.1.a
+		ai_chance = { factor = 90 }
+		load_focus_tree = {
+			tree = ludo_civil_war_focus
+			keep_completed = yes
+			}
+	
+	}
+}

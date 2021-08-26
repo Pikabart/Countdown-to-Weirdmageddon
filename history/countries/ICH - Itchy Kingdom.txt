@@ -56,23 +56,22 @@ complete_national_focus = construction_effort
 complete_national_focus = production_effort
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "2000.1.1"
+	ruling_party = neutrality
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 90
 	communism = 5
 	fascism = 5
+	neutrality = 90
 }
 
 create_country_leader = {
 	name = "King Monster of House Monster"
 	desc = ""
 	picture = "hoi4_portrait_river_butterfly2.dds"
-	ideology = conservatism
+	ideology = oligarchism
 	traits = {
 		#
 	}

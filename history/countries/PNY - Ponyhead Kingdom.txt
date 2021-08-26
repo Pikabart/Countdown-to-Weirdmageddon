@@ -56,14 +56,14 @@ complete_national_focus = construction_effort
 complete_national_focus = production_effort
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1912.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 90
+	neutrality = 90
 	communism = 5
 	fascism = 5
 }
@@ -72,7 +72,7 @@ create_country_leader = {
 	name = "King Ponyhead of House Ponyhead"
 	desc = ""
 	picture = ""
-	ideology = conservatism
+	ideology = oligarchisim
 	traits = {
 		#
 	}

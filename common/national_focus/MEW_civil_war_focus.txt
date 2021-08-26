@@ -1,0 +1,163 @@
+﻿focus_tree = {
+	id = mewni_civil_war_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			tag = MEW
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+
+	focus = {
+		id = get_our_bearings
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 10
+		y = 0
+		cost = 1
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		available = { has_war = no }
+
+		completion_reward = {
+		country_event = uneasy_peace.1
+		}
+	}
+	
+		focus = {
+		id = butterfly_front
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		cost = 5
+			
+		relative_position_id = get_our_bearings 
+		prerequisite = { focus = get_our_bearings }
+		available = { has_war = no }
+	
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			create_faction = "Butterfly Front"
+			Add_to_faction = JOH
+		}
+	}
+	
+	
+	
+	focus = {
+		id = ally_with_the_tsardom
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 1
+		cost = 5
+			
+		relative_position_id = butterfly_front 
+		prerequisite = { focus = butterfly_front }
+		available = { has_war = no }
+	
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			TSR = { country_event = { id = tsr_alliance_proposal.1 days = 7 } }
+
+		}
+	}
+	
+	focus = {
+		id = mobilize_populace
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 2
+		cost = 5
+			
+		relative_position_id = butterfly_front 
+		prerequisite = { focus = butterfly_front }
+		available = { has_war = no }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = mew_rapid_deployment_idea	
+
+		}
+	}
+	
+	focus = {
+		id = import_airplanes
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -1
+		y = 1
+		cost = 5
+			
+		relative_position_id = mobilize_populace 
+		prerequisite = { focus = mobilize_populace }
+		available = { has_war = no }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		country_event = import_airplanes_event.1
+		
+		}
+	}
+	
+	focus = {
+		id = pull_all_strings
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 2
+		cost = 5
+			
+		relative_position_id = mobilize_populace 
+		prerequisite = { focus = mobilize_populace }
+		available = { has_war = no }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_ideas = pull_all_strings_idea
+
+		}
+	}
+	
+	focus = {
+		id = strike_first
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 2
+		cost = 5
+			
+		relative_position_id = pull_all_strings 
+		prerequisite = { focus = pull_all_strings }
+		available = { has_war = no }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_ideas = strike_first_idea
+		declare_war_on = { type = annex_everything    target = LUD }
+		remove_ideas = MEW_300_years_of_peace
+
+		}
+	}
+
+}

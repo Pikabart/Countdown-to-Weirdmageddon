@@ -6,14 +6,13 @@ set_stability = 0.70
 set_war_support = 0.70
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1980.1.1"
+	ruling_party = neutrality
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 98
+	neutrality = 98
 	communism = 1
 	fascism = 1
 }
@@ -22,5 +21,5 @@ create_country_leader = {
 	name = "Princess Jags of house Jaggy"
 	desc = "placeholder"
 	picture = "hoi4_portrait_moon.dds"
-	ideology = conservatism #liberalism
+	ideology = oligarchisim
 }
