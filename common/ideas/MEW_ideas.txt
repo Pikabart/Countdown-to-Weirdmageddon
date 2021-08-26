@@ -145,6 +145,47 @@ ideas = {
 				stability_factor = -0.40
 			}
 		}
+		
+		mew_rapid_deployment_idea = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				training_time_factor = -0.5
+			}
+		}
+		
+		pull_all_strings_idea = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_gain = 1
+				
+			}
+		}
+		
+		strike_first_idea = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				army_attack_factor = 0.15
+				army_defense_factor = 0.15
+				
+				
+				
+			}
+		}
 
  				
 

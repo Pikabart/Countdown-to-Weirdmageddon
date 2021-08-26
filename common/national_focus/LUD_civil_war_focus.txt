@@ -1,0 +1,130 @@
+﻿focus_tree = {
+	id = ludo_civil_war_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			tag = LUD
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+
+	focus = {
+		id = get_our_bearings_lud
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 10
+		y = 0
+		cost = 1
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		available = { has_war = no }
+
+		completion_reward = {
+		country_event = uneasy_peace_lud.1
+		}
+	}
+	
+		focus = {
+		id = solidify_control
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		cost = 5
+			
+		relative_position_id = get_our_bearings_lud 
+		prerequisite = { focus = get_our_bearings_lud }
+		available = { has_war = no }
+	
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			266 = { add_core_of = LUD }
+			331 = { add_core_of = LUD }
+			269 = { add_core_of = LUD }
+			272 = { add_core_of = LUD }
+			280 = { add_core_of = LUD }
+			458 = { add_core_of = LUD }
+			457 = { add_core_of = LUD }
+			343 = { add_core_of = LUD }
+			349 = { add_core_of = LUD }
+			345 = { add_core_of = LUD }
+			334 = { add_core_of = LUD }
+			332 = { add_core_of = LUD }
+			333 = { add_core_of = LUD }
+
+		}
+	}
+	
+	
+	focus = {
+		id = more_rats
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 2
+		cost = 5
+			
+		relative_position_id = solidify_control 
+		prerequisite = { focus = solidify_control }
+		available = { has_war = no }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = levitato
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 2
+		cost = 5
+			
+		relative_position_id = more_rats 
+		prerequisite = { focus = more_rats }
+		available = { has_war = no }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_ideas = levitato_idea
+
+		}
+	}
+	
+	focus = {
+		id = strike_first_lud
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 2
+		cost = 5
+			
+		relative_position_id = levitato 
+		prerequisite = { focus = levitato }
+		available = { has_war = no }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_ideas = strike_first_idea_lud
+		declare_war_on = { type = annex_everything    target = MEW }
+
+		}
+	}
+
+}

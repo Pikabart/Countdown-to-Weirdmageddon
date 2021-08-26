@@ -1,0 +1,44 @@
+##########IDEAS and ADVISORS for the LUD  ##############
+###NOTE: GFX calls tied to advisors_MYS.gfx and ideas_MYS.gfx ####
+
+ideas = {
+
+	######################################################
+	#National Spirits
+	######################################################
+	country = {
+
+		levitato_idea = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = LUD }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_gain = 1
+				
+			}
+		}
+		
+		strike_first_idea_lud = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = LUD }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				army_attack_factor = 0.15
+				army_defense_factor = 0.15
+				
+			}
+		}
+
+ 				
+
+
+
+
+}
+}

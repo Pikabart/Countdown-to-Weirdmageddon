@@ -34,6 +34,11 @@ set_technology = {
 	dispersed_industry = 1
 	dispersed_industry2 = 1
 	
+	#air
+	early_fighter = 1
+	fighter1 = 1
+	CAS1 = 1
+	
 }
 
 country_event = { id = EUS.1 hours = 2 } #Intro Event
