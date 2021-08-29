@@ -43,15 +43,15 @@
  MYS_stantastic_5_desc:0 ""
  MYS_stantastic_5_effect:0 ""
  
- MYS_stantastic_2:0 "Time for a Refill"
+ MYS_stantastic_2:0 "Drained to the Atomic Core"
  MYS_stantastic_2_desc:0 ""
  MYS_stantastic_2_effect:0 ""
  
- MYS_stantastic_4:0 "Its legal if the FPI don't see you!"
+ MYS_stantastic_4:0 "A Homey place to be in"
  MYS_stantastic_4_desc:0 ""
  MYS_stantastic_4_effect:0 ""
  
- MYS_stantastic_6:0 "Love at first car theft"
+ MYS_stantastic_6:0 "What happens in Las Vegas"
  MYS_stantastic_6_desc:0 ""
  MYS_stantastic_6_effect:0 ""
  
@@ -59,6 +59,130 @@
  MYS_awaits:0 "What awaits in Gravity Falls"
  MYS_awaits_desc:0 ""
  MYS_awaits_effect:0""
+ 
+ MYS_awaits_1:0 ""
+ MYS_awaits_1_desc:0 ""
+ MYS_awaits_1_effect:0""
+ 
+ MYS_awaits_2:0 ""
+ MYS_awaits_2_desc:0 ""
+ MYS_awaits_2_effect:0""
+ 
+ MYS_awaits_3:0 ""
+ MYS_awaits_3_desc:0 ""
+ MYS_awaits_3_effect:0""
+ 
+ MYS_awaits_4:0 ""
+ MYS_awaits_4_desc:0 ""
+ MYS_awaits_4_effect:0""
+ 
+ MYS_awaits_5:0 ""
+ MYS_awaits_5_desc:0 ""
+ MYS_awaits_5_effect:0 ""
+ 
+ MYS_awaits_6:0 ""
+ MYS_awaits_6_desc:0 ""
+ MYS_awaits_6_effect:0 ""
+ 
+ ######################################################
+ #  Boss Mabel Focus# 
+ ######################################################
+ 
+ MYS_boss_1:0 "The Mabel Difference"
+ MYS_boss_1_desc:0 ""
+ MYS_boss_1_effect:0 ""
+ 
+ MYS_boss_2:0 "Attraction output"
+ MYS_boss_2_desc:0 ""
+ MYS_boss_2_effect:0 ""
+ 
+ MYS_boss_3:0 "New Souvineer Line"
+ MYS_boss_3_desc:0 ""
+ MYS_boss_3_effect:0 ""
+ 
+ MYS_boss_4:0 "Question Man"
+ MYS_boss_4_desc:0 ""
+ MYS_boss_4_effect:0 ""
+ 
+ MYS_boss_5:0 "Manning the Cash Register"
+ MYS_boss_5_desc:0 ""
+ MYS_boss_5_effect:0 ""
+ 
+ MYS_boss_6:0 "Real Show-stoppers"
+ MYS_boss_6_desc:0 ""
+ MYS_boss_6_effect:0 ""
+ 
+ MYS_boss_7:0 "New Sales"
+ MYS_boss_7_desc:0 ""
+ MYS_boss_7_effect:0 ""
+ 
+ MYS_boss_8:0 "The Bet..."
+ MYS_boss_8_desc:0 ""
+ MYS_boss_8_effect:0 ""
+ 
+ ######################################################
+ #  Pines PR Focus# 
+ ######################################################
+ 
+ MYS_PR_1:0 "Stan and Gravity Falls"
+ MYS_PR_1_desc:0 ""
+ MYS_PR_1_effect:0 ""
+ 
+ MYS_PR_2:0 "The Roadkill County Business Council"
+ MYS_PR_2_desc:0 ""
+ MYS_PR_2_effect:0 ""
+ 
+ MYS_PR_3:0 "The Weekly Town Hall Forum"
+ MYS_PR_3_desc:0 ""
+ MYS_PR_3_effect:0 ""
+
+ MYS_PR_4:0 "Good PR"
+ MYS_PR_4_desc:0 ""
+ MYS_PR_4_effect:0 ""
+
+ MYS_PR_5:0 "Back Taxes"
+ MYS_PR_5_desc:0 ""
+ MYS_PR_5_effect:0 ""
+
+ MYS_PR_6:0 "Free Souvenirs* "
+ MYS_PR_6_desc:0 ""
+ MYS_PR_6_effect:0 ""
+
+ MYS_PR_7:0 "Community Service"
+ MYS_PR_7_desc:0 ""
+ MYS_PR_7_effect:0 ""
+
+ MYS_PR_8:0 "The Mystery Fair"
+ MYS_PR_8_desc:0 ""
+ MYS_PR_8_effect:0 "" 
+ 
+ MYS_PR_9:0 "A Gift for the Mayor"
+ MYS_PR_9_desc:0 ""
+ MYS_PR_9_effect:0 ""
+ 
+ MYS_PR_10:0 "Our Man Stan!"
+ MYS_PR_10_desc:0 ""
+ MYS_PR_10_effect:0 ""
+ 
+ MYS_PR_11:0 "False Flags"
+ MYS_PR_11_desc:0 ""
+ MYS_PR_11_effect:0 ""
+ 
+ MYS_PR_12:0 "'Job Makers'"
+ MYS_PR_12_desc:0 ""
+ MYS_PR_12_effect:0 ""
+
+ MYS_PR_13:0 "Supporting 'Small' Business"
+ MYS_PR_13_desc:0 ""
+ MYS_PR_13_effect:0 ""
+
+ MYS_PR_14:0 "Gravity Falls Shuffle"
+ MYS_PR_14_desc:0 ""
+ MYS_PR_14_effect:0 ""
+
+ MYS_PR_15:0 "And this Con-Man You can't Change"
+ MYS_PR_15_desc:0 ""
+ MYS_PR_15_effect:0 "" 
  
  
  ######################################################
@@ -88,45 +212,45 @@
  MYS_leaks_patches:0 "Leaks and Patches"
  MYS_leaks_patches_desc:0 ""
  ######################################################
- #10
+ #90
  MYS_teen_vandals:0 "Smells like Teen Vandals"
  MYS_teen_vandals_desc:0 ""
  ######################################################
- #11
+ #99
  MYS_no_refunds:0 "No Refunds"
  MYS_no_refunds_desc:0 ""
  ######################################################
- #12
+ #92
  MYS_no_hack_here:0 "No 'Hacks' Here"
  MYS_no_hack_here_desc:0 ""
  ######################################################
- #13
+ #93
  MYS_competition:0 "The Competition"
  MYS_competition_desc:0 ""
  ######################################################
- #14
+ #94
  MYS_i_heart_kids:0 "I 'HEART' Kids!"
  MYS_i_heart_kids_desc:0 "" 
  ######################################################
- #15
+ #95
  MYS_osha_cant_touch:0 "OSHA can't touch this"
  MYS_osha_cant_touch_desc:0 "" 
  ######################################################
- #16
+ #96
  MYS_new_pranks:0 "Old Man, New Pranks"
  MYS_new_pranks_desc:0 "" 
  ######################################################
- #17
+ #97
  MYS_too_fast_planes:0 "Too fast for a crossbow"
  MYS_too_fast_planes_desc:0 "" 
  ######################################################
- #18
+ #98
  MYS_charge_extra:0 "We can charge extra for this!"
  MYS_charge_extra_desc:0 "" 
  ######################################################
  #  Mabel and Dipper related Focuses  #
  ######################################
- #19
+ #99
  #:0 ""
  #_desc:0 "" 
  

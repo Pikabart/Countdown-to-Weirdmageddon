@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = stantastic
+add_namespace = stantastic_51
 
 ###
 # Stan-Tastic Adventure 1: Corn, The Crawlspace, and Old Memories
@@ -255,6 +256,244 @@ country_event = {
 	}
 }	
 	
+###########################################################################################
+
+###
+# Stan-Tastic Adventure 2: Winning Bets and Raiding Bases
+###
+
+country_event = {
+	id = stantastic_51.1
+	title = stantastic_51.1.t 
+	desc = stantastic_51.1.d  
+	picture = GFX_report_event_stan_running_away 
 	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
 	
+	immediate = { 
+		hidden_effect={
+			#set_country_flag = stantastic_raid_1
+			#mark_focus_tree_layout_dirty = yes 
+		}
+	}
+	
+	option = { 
+		name = stantastic_51.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = stantastic_51.2 days = 3 }	
+	}
+}	
+
+country_event = {
+	id = stantastic_51.2
+	title = stantastic_51.2.t 
+	desc = stantastic_51.2.d  
+	picture = GFX_report_event_stan_running_away 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic_51.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = stantastic_51.3 days = 3 }	
+	
+	}
+}
+
+country_event = {
+	id = stantastic_51.3
+	title = stantastic_51.3.t 
+	desc = stantastic_51.3.d  
+	picture = GFX_report_event_stan_running_away 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { 
+		hidden_effect = {
+			complete_national_focus = MYS_stantastic_4
+		}
+	}
+	
+	option = { 
+		name = stantastic_51.3.a
+		ai_chance = { factor = 50 }	# 100% AI choose this
+		country_event = { id = stantastic_51.4 days = 3 }	
+
+	}
+	option = { 
+		name = stantastic_51.3.b
+		ai_chance = { factor = 50 }	# 100% AI choose this
+		country_event = { id = stantastic_51.8 days = 3 }	
+	
+	}
+}
+################ silent ######################
+country_event = {
+	id = stantastic_51.4
+	title = stantastic_51.4.t 
+	desc = stantastic_51.4.d  
+	picture = GFX_report_event_stan_running_away 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic_51.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = stantastic_51.5 days = 3 }	
+
+	}
+}
+
+country_event = {
+	id = stantastic_51.5
+	title = stantastic_51.5.t 
+	desc = stantastic_51.5.d  
+	picture = GFX_report_event_stan_running_away 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic_51.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this	
+		country_event = { id = stantastic_51.6 days = 3 }	
+
+	}
+}
+
+country_event = {
+	id = stantastic_51.6
+	title = stantastic_51.6.t 
+	desc = stantastic_51.6.d  
+	picture = GFX_report_event_stan_running_away 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic_51.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = stantastic_51.7 days = 3 }	
+	
+	}
+}
+	
+country_event = {
+	id = stantastic_51.7
+	title = stantastic_51.7.t 
+	desc = stantastic_51.7.d  
+	picture = GFX_report_event_stan_running_away 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {  
+		hidden_effect = {
+			complete_national_focus = MYS_stantastic_6
+		}	
+	}
+	
+	option = { 
+		name = stantastic_51.7.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		custom_effect_tooltip = stantastic_51.7.tool
+	}
+}
+################ LOUD! #############
+country_event = {
+	id = stantastic_51.8
+	title = stantastic_51.8.t 
+	desc = stantastic_51.8.d  
+	picture = GFX_report_event_stan_running_away 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic_51.8.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = stantastic_51.9 days = 3 }	
+	
+	}
+}
+
+country_event = {
+	id = stantastic_51.9
+	title = stantastic_51.9.t 
+	desc = stantastic_51.9.d  
+	picture = GFX_report_event_stan_running_away 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic_51.9.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = stantastic_51.10 days = 3 }	
+	
+	}
+}
+
+country_event = {
+	id = stantastic_51.10
+	title = stantastic_51.10.t 
+	desc = stantastic_51.10.d  
+	picture = GFX_report_event_stan_running_away 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic_51.10.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = stantastic_51.11 days = 3 }	
+	}
+}
+
+country_event = {
+	id = stantastic_51.11
+	title = stantastic_51.11.t 
+	desc = stantastic_51.11.d  
+	picture = GFX_report_event_stan_running_away 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {
+		hidden_effect = {
+			complete_national_focus = MYS_stantastic_6
+		}	
+	}
+	
+	option = { 
+		name = stantastic_51.11.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		custom_effect_tooltip = stantastic_51.11.tool		
+	}
+}	
 	
