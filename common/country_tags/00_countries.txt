@@ -23,7 +23,6 @@ EPI = "countries/E-Eastern FPI.txt"
 CAN = "countries/E-Canada.txt"
 MEX = "countries/E-Mexico.txt"
 KER = "countries/E-Kerfuffle.txt"
-GEU = "countries/E-European Union.txt"
 
 #Mewni
 MEW = "countries/M-Butterfly Kingdom.txt"

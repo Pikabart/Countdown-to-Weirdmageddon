@@ -1,0 +1,23 @@
+#MYS Leader and Advisor Specific Traits
+
+leader_traits = {
+
+##############################################################################
+	### IDEA TRAITS ###
+	
+	# drift is a percent applied weekly, ex: 0.1 = .1% weekly
+	
+	imperial_ties = {  #Custom Trait Johansen
+		random = no
+		# + 0.2 PP
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		political_power_factor = 0.20
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+######################################################################
+
+}

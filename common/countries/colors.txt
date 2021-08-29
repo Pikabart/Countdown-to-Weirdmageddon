@@ -96,10 +96,6 @@ KER = {
 	color_ui = rgb { 0 0 0 }
 }
 
-GEU = {
-	color = rgb { 0 33 99 }
-	color_ui = rgb { 0 33 99 }
-}
 
 #Mewni
 #------------------------------------

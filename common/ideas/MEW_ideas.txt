@@ -193,4 +193,33 @@ ideas = {
 
 
 }
+
+	######################################################
+	#Political Advisors
+	######################################################
+	
+	political_advisor = {
+		
+		johansen = {
+		
+			picture = advisor_johansen
+	
+			allowed = {
+				original_tag = MEW
+			}
+			available = {
+			}
+			
+			traits = { imperial_ties }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+	
+	
+	}
+
+
+
 }
