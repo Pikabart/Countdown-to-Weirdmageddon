@@ -144,21 +144,25 @@
  MYS_PR_5_desc:0 ""
  MYS_PR_5_effect:0 ""
 
- MYS_PR_6:0 "Free Souvenirs* "
+ MYS_PR_6:0 "The Mystery Fair"
  MYS_PR_6_desc:0 ""
  MYS_PR_6_effect:0 ""
 
- MYS_PR_7:0 "Community Service"
+ MYS_PR_7:0 "Council Lobbying"
  MYS_PR_7_desc:0 ""
  MYS_PR_7_effect:0 ""
 
- MYS_PR_8:0 "The Mystery Fair"
+ MYS_PR_8:0 "Free Souvenirs***"
  MYS_PR_8_desc:0 ""
  MYS_PR_8_effect:0 "" 
  
  MYS_PR_9:0 "A Gift for the Mayor"
  MYS_PR_9_desc:0 ""
  MYS_PR_9_effect:0 ""
+ 
+ MYS_PR_16:0 "Community Service"
+ MYS_PR_16_desc:0 ""
+ MYS_PR_16_effect:0 ""
  
  MYS_PR_10:0 "Our Man Stan!"
  MYS_PR_10_desc:0 ""
@@ -184,6 +188,69 @@
  MYS_PR_15_desc:0 ""
  MYS_PR_15_effect:0 "" 
  
+ ######################################################
+ #  Gideon locs # 
+ ######################################################
+ 
+ MYS_rockthemabel:0 "Psychic Dating"
+ MYS_rockthemabel_desc:0 ""
+ MYS_rockthemabel_effect:0 "" 
+ 
+ MYS_ship_1:0 "A Gleeful Pair"
+ MYS_ship_1_desc:0 ""
+ MYS_ship_1_effect:0 ""
+ 
+ MYS_ship_2:0 "Learning the Pine's Secret"
+ MYS_ship_2_desc:0 ""
+ MYS_ship_2_effect:0 "" 
+ 
+ MYS_ship_3:0 "Trojan Pig"
+ MYS_ship_3_desc:0 ""
+ MYS_ship_3_effect:0 "" 
+ 
+ MYS_ship_4:0 "Heart in Hand"
+ MYS_ship_4_desc:0 ""
+ MYS_ship_4_effect:0 "" 
+ 
+ MYS_ship_5:0 "A most beautiful Puppet"
+ MYS_ship_5_desc:0 ""
+ MYS_ship_5_effect:0 "" 
+ 
+ MYS_ship_6:0 "A tightly controlled soul"
+ MYS_ship_6_desc:0 ""
+ MYS_ship_6_effect:0 "" 
+ 
+ MYS_ship_7:0 "Only room for one"
+ MYS_ship_7_desc:0 ""
+ MYS_ship_7_effect:0 "" 
+ 
+ MYS_pine_1:0 "Pining for Time"
+ MYS_pine_1_desc:0 ""
+ MYS_pine_1_effect:0 ""
+ 
+ MYS_pine_2:0 "New Attractions"
+ MYS_pine_2_desc:0 ""
+ MYS_pine_2_effect:0 ""
+ 
+ MYS_pine_3:0 "Interior Motives"
+ MYS_pine_3_desc:0 ""
+ MYS_pine_3_effect:0 ""
+ 
+ MYS_pine_4:0 "Mystery Sale"
+ MYS_pine_4_desc:0 ""
+ MYS_pine_4_effect:0 ""
+ 
+ MYS_pine_5:0 "The Source of his powers"
+ MYS_pine_5_desc:0 ""
+ MYS_pine_5_effect:0 ""
+ 
+ MYS_pine_6:0 "I tricked the law and I won"
+ MYS_pine_6_desc:0 ""
+ MYS_pine_6_effect:0 ""
+ 
+ MYS_pine_7:0 "Expose the real Hack!"
+ MYS_pine_7_desc:0 ""
+ MYS_pine_7_effect:0 ""
  
  ######################################################
  #  Construction and Military focuses # 
