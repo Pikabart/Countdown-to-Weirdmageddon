@@ -858,19 +858,19 @@ country_event = {
 				ideology = oligarchism
 
 			}
-			LUD = { set_state_controller = 266 }
-			LUD = { set_state_controller = 331 }
-			LUD = { set_state_controller = 269 }
-			LUD = { set_state_controller = 272 }
-			LUD = { set_state_controller = 280 }
-			LUD = { set_state_controller = 458 }
-			LUD = { set_state_controller = 457 }
-			LUD = { set_state_controller = 343 }
-			LUD = { set_state_controller = 349 }
-			LUD = { set_state_controller = 345 }
-			LUD = { set_state_controller = 334 }
-			LUD = { set_state_controller = 332 }
-			LUD = { set_state_controller = 333 }
+			LUD = { transfer_state = 266 }
+			LUD = { transfer_state = 331 }
+			LUD = { transfer_state = 269 }
+			LUD = { transfer_state = 272 }
+			LUD = { transfer_state = 280 }
+			LUD = { transfer_state = 458 }
+			LUD = { transfer_state = 457 }
+			LUD = { transfer_state = 343 }
+			LUD = { transfer_state = 349 }
+			LUD = { transfer_state = 345 }
+			LUD = { transfer_state = 334 }
+			LUD = { transfer_state = 332 }
+			LUD = { transfer_state = 333 }
 			add_war_support = 0.2
 			country_event = { id = ludo_confront_6.1 days = 1 }
 
@@ -889,23 +889,17 @@ country_event = {
 			name = ludo_confront_6.1.a
 			ai_chance = { factor = 90 }
 			dismantle_faction = yes
-			country_event = { id = ludo_confront_7.1 days = 6 }
+			MEW = {
+				load_focus_tree = {
+				tree = mewni_civil_war_focus
+				keep_completed = yes
+				}
+			}
+			LUD = {
+				country_event = lud_focus_tree.1
+				
+			}
  
 		}
 
-}
-
-	country_event = {
-		id = ludo_confront_7.1
-		title = ludo_confront_7.1.t
-		desc = ludo_confront_7.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
-	
-		is_triggered_only = yes
-	
-		option = {
-			name = ludo_confront_7.1.a
-			ai_chance = { factor = 90 }
-		}
-
-}
+	}
