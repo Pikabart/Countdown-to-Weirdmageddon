@@ -1,0 +1,522 @@
+﻿###########################
+# MEXICO
+###########################
+
+add_namespace = MEX_START
+add_namespace = MEX_DRUMPF
+add_namespace = WALL
+
+
+country_event = {
+	id = MEX_START.1
+	title = MEX_START.1.t
+	desc = MEX_START.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEX_START.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = MEX_DRUMPF.1
+	title = MEX_DRUMPF.1.t
+	desc = MEX_DRUMPF.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEX_DRUMPF.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = MEX_DRUMPF.2 days = 5 }
+	}
+}
+
+country_event = {
+	id = MEX_DRUMPF.2
+	title = MEX_DRUMPF.2.t
+	desc = MEX_DRUMPF.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEX_DRUMPF.2.a
+		ai_chance = { factor = 99 }	# 95% AI choose this
+		country_event = { id = MEX_DRUMPF.3 days = 5 }
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Eduardo Diaz"
+			desc = "placeholder"
+			picture = ""
+			ideology = liberalism #conservatism
+		}
+	}
+	option = { 
+		name = MEX_DRUMPF.2.b
+		ai_chance = { factor = 1 }	# 5% AI choose this
+		country_event = { id = MEX_DRUMPF.4 days = 5 }
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Danni Drumpf"
+			desc = "placeholder"
+			picture = ""
+			ideology = fascism_ideology #conservatism
+		}
+	}
+}
+
+country_event = {
+	id = MEX_DRUMPF.3
+	title = MEX_DRUMPF.3.t
+	desc = MEX_DRUMPF.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	immediate = { 
+		hidden_effect={
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.04
+			}
+			set_politics = {
+				ruling_party = democratic
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEX_DRUMPF.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		
+	}
+}
+
+country_event = {
+	id = MEX_DRUMPF.4
+	title = MEX_DRUMPF.4.t
+	desc = MEX_DRUMPF.4.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	immediate = { 
+		hidden_effect={
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.02
+			}
+			set_politics = {
+				ruling_party = fascism
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEX_DRUMPF.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = MEX_DRUMPF.5 days = 5 }
+	}
+}
+
+country_event = {
+	id = MEX_DRUMPF.5
+	title = MEX_DRUMPF.5.t
+	desc = MEX_DRUMPF.5.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	immediate = {
+		hidden_effect = {
+			country_event = { id = WALL.1 }
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEX_DRUMPF.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = MEX_DRUMPF.6 days = 5 }		
+	}
+}
+
+country_event = {
+	id = MEX_DRUMPF.6
+	title = MEX_DRUMPF.6.t
+	desc = MEX_DRUMPF.6.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	immediate = {
+		hidden_effect = {
+			every_state = { 	
+				limit = { is_owned_by = MEX}
+				GEU = { transfer_state = PREV add_state_core = PREV}
+			}
+			EUS={country_event = { id = WALL.2 }}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MEX_DRUMPF.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+##############################################
+# Event to add the wall
+# hidden events for better adding ease
+#############################################
+
+country_event = {
+	id = WALL.1
+	title = WALL.1.t
+	desc = WALL.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	timeout_days = 1
+	hidden = yes
+	
+	immediate = {
+		hidden_effect = {
+			248 = {
+				add_building_construction = {
+					type = bunker
+					province = 5511
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 10271
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6578
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 10266
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 1006
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6869
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 2904
+					level = 2
+					instant_build = yes
+				}
+			}
+			249 = {
+				add_building_construction = {
+					type = bunker
+					province = 2230
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 1644
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 10319
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3431
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 10347
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 503
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 4278
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 895
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3501
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 4676
+					level = 2
+					instant_build = yes
+				}
+			}
+			251 = {
+				add_building_construction = {
+					type = bunker
+					province = 10359
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 978
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 2556
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 1164
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 5714
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 814
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 4397
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 1132
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 2928
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 569
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 5281
+					level = 2
+					instant_build = yes
+				}
+			}
+			253 = {
+				add_building_construction = {
+					type = bunker
+					province = 459
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 4717
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6909
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 4073
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 2506
+					level = 2
+					instant_build = yes
+				}
+			}
+			254 = {
+				add_building_construction = {
+					type = bunker
+					province = 3324
+					level = 2
+					instant_build = yes
+				}
+			}
+			255 = {
+				add_building_construction = {
+					type = bunker
+					province = 3734
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 2273
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 1356
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 10669
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3280
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	
+	option = { 
+		name = WALL.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = WALL.2
+	title = WALL.2.t
+	desc = WALL.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	immediate = { 
+		hidden_effect={
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.8
+			}
+			set_politics = {
+				ruling_party = democratic
+			}
+			add_to_faction = CAL
+			add_to_faction = ORE
+			add_to_faction = WAS
+			add_to_faction = TEX
+			add_to_faction = NEV
+			add_to_faction = IDH
+			add_to_faction = ARZ
+			add_to_faction = NMX
+			add_to_faction = UTH
+			add_to_faction = CRD
+			add_to_faction = KAN
+			add_to_faction = MIN
+			add_to_faction = WYM
+			GEU = {declare_war_on = { type = annex_everything    target = EUS }}
+			GEU = {declare_war_on = { type = annex_everything    target = CAL }}
+			GEU = {declare_war_on = { type = annex_everything    target = ORE }}
+			GEU = {declare_war_on = { type = annex_everything    target = WAS }}
+			GEU = {declare_war_on = { type = annex_everything    target = TEX }}
+			GEU = {declare_war_on = { type = annex_everything    target = NEV }}
+			GEU = {declare_war_on = { type = annex_everything    target = ARZ }}
+			GEU = {declare_war_on = { type = annex_everything    target = IDH }}
+			GEU = {declare_war_on = { type = annex_everything    target = NMX }}
+			GEU = {declare_war_on = { type = annex_everything    target = UTH }}
+			GEU = {declare_war_on = { type = annex_everything    target = CRD }}
+			GEU = {declare_war_on = { type = annex_everything    target = KAN }}
+			GEU = {declare_war_on = { type = annex_everything    target = MIN }}
+			GEU = {declare_war_on = { type = annex_everything    target = WYM }}
+			GEU = {declare_war_on = { type = annex_everything    target = OKH }}
+			GEU = {declare_war_on = { type = annex_everything    target = LOU }}
+			GEU = {declare_war_on = { type = annex_everything    target = ARK }}
+			GEU = {declare_war_on = { type = annex_everything    target = SOC }}
+		}
+	}
+	
+	is_triggered_only = yes
+	timeout_days = 1
+	hidden = yes
+
+	option = { 
+		name = WALL.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+

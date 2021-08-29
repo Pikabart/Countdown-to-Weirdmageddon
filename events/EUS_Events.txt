@@ -1,5 +1,5 @@
 ﻿###########################
-# Mewni Events
+# Eastern US
 ###########################
 
 add_namespace = EUS

@@ -1,13 +1,9 @@
 ﻿capital = 254
 
-country_event = { id = MEX_START.1 hours = 2 } #Intro Event
-news_event = { id = world_news.1 days = 10 } #The Kerfuffle
-country_event = { id = MEX_DRUMPF.1 days = 35 } #Mexican Elections Event
-
-set_research_slots = 2
+set_research_slots = 6
 set_convoys = 10
-set_stability = 0.70
-set_war_support = 0.70
+set_stability = 1
+set_war_support = 1
 
 set_politics = {
 	ruling_party = democratic
@@ -17,14 +13,14 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 49
-	neutrality = 1
-	communism = 1
-	fascism = 49
+	democratic = 70
+	neutrality = 10
+	communism = 10
+	fascism = 10
 }
 
 create_country_leader = {
-	name = "A Mexican"
+	name = "Karolina Küchler"
 	desc = "placeholder"
 	picture = ""
 	ideology = conservatism #liberalism
