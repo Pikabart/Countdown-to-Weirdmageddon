@@ -42,7 +42,7 @@ set_technology = {
 }
 
 country_event = { id = EUS.1 hours = 2 } #Intro Event
-news_event = { id = world_news.1 days = 10 } #The Kerfuffle
+news_event = { id = launcher_news.1 days = 10 } #Launch launcher for Kerfuffle
 
 
 #country_event = { id = EUS.23 days = 76 } #St. Patrick's Day Floods

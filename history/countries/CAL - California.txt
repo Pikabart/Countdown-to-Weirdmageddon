@@ -1,6 +1,6 @@
 ﻿capital = 152
 
-news_event = { id = world_news.1 days = 10 } #The Kerfuffle
+#news_event = { id = world_news.1 days = 10 } #The Kerfuffle
 
 # Starting tech
 set_technology = {

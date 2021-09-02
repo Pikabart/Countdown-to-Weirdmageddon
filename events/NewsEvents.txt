@@ -3,6 +3,41 @@
 ###########################
 
 add_namespace = world_news
+add_namespace = launcher_news
+
+news_event = { # Launch Kerfuffle
+	id = launcher_news.1
+	title = launcher_news.1.t
+	desc = launcher_news.1.d
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = yes
+	hidden = yes
+	is_triggered_only = yes
+	timeout_days = 1
+	
+	immediate = {
+		hidden_effect = {
+			#news_event = { id = world_news.1 days = 1 }		
+			
+			CAL = { news_event = { id = world_news.1 days = 1 } }
+			WAS = { news_event = { id = world_news.1 days = 1 } }
+			ORE = { news_event = { id = world_news.1 days = 1 } }
+			SOC = { news_event = { id = world_news.1 days = 1 } }
+			EUS = { news_event = { id = world_news.1 days = 1 } }
+			EPI = { news_event = { id = world_news.1 days = 1 } }
+			CAN = { news_event = { id = world_news.1 days = 1 } }
+			MEX = { news_event = { id = world_news.1 days = 1 } }
+			GTF = { news_event = { id = world_news.1 days = 1 } }
+		}
+	}
+	
+	option = {
+		name = world_news.1.a
+		ai_chance = { factor = 100 }		
+	}
+}
+
 
 news_event = { # Pre-Kerfuffle
 	id = world_news.1

@@ -52,7 +52,7 @@ country_event = {
 		create_country_leader = {
 			name = "Eduardo Diaz"
 			desc = "placeholder"
-			picture = ""
+			picture = "hoi4_portrait_Eduardo_Diaz.dds"
 			ideology = liberalism #conservatism
 		}
 	}
@@ -62,7 +62,7 @@ country_event = {
 		country_event = { id = MEX_DRUMPF.4 days = 5 }
 		retire_country_leader = yes
 		create_country_leader = {
-			name = "Danni Drumpf"
+			name = "Donald Drumpf"
 			desc = "placeholder"
 			picture = ""
 			ideology = fascism_ideology #conservatism
