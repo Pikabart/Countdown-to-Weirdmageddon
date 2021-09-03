@@ -63,6 +63,50 @@
 		}
 	}
 	
+	focus = {
+		id = local_recruitment
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -1
+		y = 1
+		cost = 5
+			
+		relative_position_id = solidify_control 
+		prerequisite = { focus = solidify_control }
+		available = { has_war = no }
+		available = { country_exists = MEW }
+
+	
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = loyalist_front
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 1
+		cost = 5
+			
+		relative_position_id = solidify_control 
+		prerequisite = { focus = solidify_control }
+		available = { has_war = no }
+		available = { country_exists = MEW }
+
+	
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		SPI = { country_event = { id = spi_lud_alliance_proposal.1 days = 7 } }
+
+		}
+	}
+	
 	
 	focus = {
 		id = more_rats
@@ -80,7 +124,372 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
+		custom_effect_tooltip = "more_rats_tooltip"
+			hidden_effect = {
+				division_template = {
+					name = "Rats"
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						
+					}
+				}
+		
+			random_owned_controlled_state = {
+				prioritize = { 343 }
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
 
+			}
+			}
+		}
+
+		}
+		
+	focus = {
+		id = even_more_rats
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 1
+		cost = 5
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+		
+		relative_position_id = more_rats 
+		prerequisite = { focus = more_rats }
+		available = { has_war = no }
+
+		completion_reward = {
+			hidden_effect = {
+			random_owned_controlled_state = {
+				prioritize = { 343 }
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+				create_unit = {
+								division = "name = \"Extra Rat Swarm\" division_template = \"Rats\" start_experience_factor = 0"
+								owner = LUD
+				}
+		}
+	}
+		custom_effect_tooltip = "even_more_rats_tooltip"
+	}
+	}
+	
+	focus = {
+		id = better_rats
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -1
+		y = 1
+		cost = 5
+			
+		relative_position_id = more_rats 
+		prerequisite = { focus = more_rats }
+		available = { has_war = no }
+		available = { country_exists = MEW }
+
+	
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_ideas = better_rats
 		}
 	}
 	
@@ -106,6 +515,48 @@
 	}
 	
 	focus = {
+		id = pol_power_lud_1
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 1
+		cost = 5
+			
+		relative_position_id = levitato 
+		prerequisite = { focus = levitato }
+		available = { has_war = no }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = -0.1
+			add_political_power = 150
+		}
+	}
+	
+	focus = {
+		id = pol_power_lud_2
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -1
+		y = 1
+		cost = 5
+			
+		relative_position_id = levitato 
+		prerequisite = { focus = levitato }
+		available = { has_war = no }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = -0.1
+			add_political_power = 150
+		}
+	}
+	
+	focus = {
 		id = strike_first_lud
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 0
@@ -123,7 +574,17 @@
 		completion_reward = {
 		add_ideas = strike_first_idea_lud
 		declare_war_on = { type = annex_everything    target = MEW }
-
+		hidden_effect = {
+				news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 }
+				JOH = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
+				LUC = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
+				PIG = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
+				PNY = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
+				SPI = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
+				JAG = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
+				LUD = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
+			
+			}
 		}
 	}
 

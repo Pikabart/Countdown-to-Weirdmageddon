@@ -1,0 +1,14 @@
+﻿l_english:
+ #Contains both custom advisors and custom advisor traits
+ 
+ johansen:0 "King River of House Butterfly"
+ adolf:0 "Señor Adolfus Hitos"
+ daniel_drumpf:0 "Daniel Drumpf"
+ ivan:0 "Bosboyov Ivanoviĉ"
+ 
+ ############# Custom for each nation: MEW ###########
+ imperial_ties:0 "Imperial Connections"
+ foreigner:0 "Foreigner"
+ monster:0 "Monster"
+ ############# Defaults
+ 

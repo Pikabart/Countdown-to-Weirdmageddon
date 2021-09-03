@@ -60,7 +60,25 @@ country_event = {
 			uses = 1
 			category = land_doctrine
 			}
+			hidden_effect = {
+			random_owned_controlled_state = {
+				prioritize = { 266 }
+				create_unit = {
+						division = "name = \"Solarian Ceremonial Guard\" division_template = \"Ceremonial Guard\" start_experience_factor = 0"
+						owner = MEW
+				}
+				create_unit = {
+						division = "name = \"Solarian Ceremonial Guard\" division_template = \"Ceremonial Guard\" start_experience_factor = 0"
+						owner = MEW
+				}
+				create_unit = {
+						division = "name = \"Solarian Ceremonial Guard\" division_template = \"Ceremonial Guard\" start_experience_factor = 0"
+						owner = MEW
+				}
 	}
+	}
+	custom_effect_tooltip = "legacy_of_solaria_tooltip"
+}
 }
 
 country_event = {
@@ -77,10 +95,11 @@ country_event = {
 		add_ideas = MEW_300_years_of_peace
 		ai_chance = {
 			factor = 50
+		}
 
 		}
 	}
-}
+
 
 country_event = {
 	id = butterfly_family.1
@@ -131,7 +150,16 @@ country_event = {
 	option = {
 		name = corn_theft.1.a
 		ai_chance = { factor = 90 }
-		add_ideas = MEW_corn_theft
+	hidden_effect = {
+		news_event = { id = mewni_corn_crisis_news_event.1 days = 1 }
+		JOH = { news_event = { id = mewni_corn_crisis_news_event.1 days = 1 } }
+		LUC = { news_event = { id = mewni_corn_crisis_news_event.1 days = 1 } }
+		PIG = { news_event = { id = mewni_corn_crisis_news_event.1 days = 1 } }
+		PNY = { news_event = { id = mewni_corn_crisis_news_event.1 days = 1 } }
+		SPI = { news_event = { id = mewni_corn_crisis_news_event.1 days = 1 } }
+		JAG = { news_event = { id = mewni_corn_crisis_news_event.1 days = 1 } }
+		
+		}
 	}
 }
 
@@ -321,7 +349,6 @@ country_event = {
 		name = emergency_economics_3.1.a
 		ai_chance = { factor = 90 }
 		swap_ideas = { 
-		
 		remove_idea = MEW_emergency_economics_2
 		add_idea = MEW_emergency_economics_3
 
@@ -482,6 +509,7 @@ country_event = {
 		name = force_economy_4.1.a
 		ai_chance = { factor = 50 }
 		set_global_flag = mew_suppression_trigger_peaceful
+		custom_effect_tooltip = "mew_suppression_trigger_peaceful_tooltip"
 		
 	}
 
@@ -489,7 +517,7 @@ country_event = {
 		name = force_economy_4.2.a
 		ai_chance = { factor = 50 }
 		set_global_flag = mew_suppression_trigger_hostile
-		
+		custom_effect_tooltip = "mew_suppression_trigger_hostile_tooltip"
 	}
 }
 
@@ -646,6 +674,17 @@ country_event = {
 		option = {
 			name = brush_up_event.1.a
 			ai_chance = { factor = 90 }
+			create_field_marshal = {
+				name = "Queen Moon of House Butterfly"
+				picture = "hoi4_portrait_moon.dds"
+				traits = { politically_connected trait_cautious }
+				skill = 5
+
+				attack_skill = 7
+				defense_skill = 2
+				planning_skill = 3
+				logistics_skill = 2
+}
 			
 		}
 }
@@ -822,6 +861,17 @@ country_event = {
 				ideology = oligarchism
 
 		}
+			hidden_effect = {
+				news_event = { id = mewni_ludo_coup_news_event.1 days = 1 }
+				JOH = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
+				LUC = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
+				PIG = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
+				PNY = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
+				SPI = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
+				JAG = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
+				LUD = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
+		
+			}		
 		}
 }
 
@@ -872,8 +922,18 @@ country_event = {
 			LUD = { transfer_state = 332 }
 			LUD = { transfer_state = 333 }
 			add_war_support = 0.2
-			country_event = { id = ludo_confront_6.1 days = 1 }
-
+			country_event = { id = ludo_confront_6.1 days = 6 }
+			hidden_effect = {
+				news_event = { id = mewni_kingdom_split_news_event.1 days = 1 }
+				JOH = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
+				LUC = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
+				PIG = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
+				PNY = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
+				SPI = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
+				JAG = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
+				LUD = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
+		
+			}
 		}
 }
 
@@ -898,6 +958,17 @@ country_event = {
 			LUD = {
 				country_event = lud_focus_tree.1
 				
+			}
+			hidden_effect = {
+				news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }
+				JOH = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
+				LUC = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
+				PIG = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
+				PNY = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
+				SPI = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
+				JAG = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
+				LUD = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
+		
 			}
  
 		}

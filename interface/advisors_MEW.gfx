@@ -1,0 +1,9 @@
+### Advisors for MEW ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_idea_advisor_johansen"
+			texturefile = "gfx/interface/advisors/MEW/advisor_johansen.dds"
+		}
+	
+}

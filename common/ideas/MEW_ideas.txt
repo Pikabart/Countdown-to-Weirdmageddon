@@ -193,4 +193,199 @@ ideas = {
 
 
 }
+
+	######################################################
+	#Political Advisors
+	######################################################
+	
+	political_advisor = {
+		
+		johansen = {
+		
+			picture = advisor_johansen
+	
+			allowed = {
+				original_tag = MEW
+			}
+			available = {
+			}
+			
+			traits = { imperial_ties }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+		
+		adolf = {
+		
+			picture = 
+	
+			allowed = {
+				original_tag = MEW
+			}
+			
+			available = {
+				has_global_flag = foreign_imports
+
+			}
+			
+			traits = { foreigner }
+			traits = { captain_of_industry }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+		
+		daniel_drumpf = {
+		
+			picture = 
+	
+			allowed = {
+				original_tag = MEW
+			}
+			available = {
+				has_global_flag = foreign_imports
+
+			}
+			
+			traits = { foreigner }
+			traits = { financial_expert }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+		
+		ivan = {
+		
+			picture = 
+	
+			allowed = {
+				original_tag = MEW
+				}
+			
+			available = {
+				has_global_flag = emergency_equality_flag
+			
+			}
+			
+			traits = { monster }
+			traits = { war_industrialist }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+	
+	
+	}
+	
+	##########
+	#MILITARY#
+	##########
+	
+	army_chief = {
+	
+		johansen = {
+
+			allowed = {
+				original_tag = MEW
+			}
+			available = {
+			}
+						
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		monster_staff_chief  = {
+
+			
+			allowed = {
+				original_tag = MEW
+			}
+
+			available = {
+				has_global_flag = emergency_equality_flag
+			}
+						
+			traits = { army_chief_offensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+	}
+	
+	high_command = {
+		sir_stabby = {
+			ledger = army
+			allowed = {
+				original_tag = MEW
+			}
+			
+			traits = { army_chief_drill_2 }			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		sir_dashing = {
+			ledger = army
+			allowed = {
+				original_tag = MEW
+			}
+			available = {
+			}
+
+					
+			traits = { army_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		lady_whosits = {
+			ledger = army
+			allowed = {
+				original_tag = MEW
+			}
+			available = {
+			}
+
+					
+			traits = { army_chief_defensive_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+		monster_staff = {
+			ledger = army
+			allowed = {
+				original_tag = MEW
+			}
+			available = {
+				has_global_flag = emergency_equality_flag
+			}
+
+					
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+	}
+
+
+
 }

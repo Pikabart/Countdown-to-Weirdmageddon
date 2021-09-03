@@ -4,6 +4,8 @@
 
 add_namespace = uneasy_peace_lud
 add_namespace = lud_focus_tree
+add_namespace = lud_spi_alliance_accepted
+add_namespace = lud_spi_alliance_rejected
 
 country_event = {
 	id = uneasy_peace_lud.1
@@ -35,6 +37,38 @@ country_event = {
 			tree = ludo_civil_war_focus
 			keep_completed = yes
 			}
+	
+	}
+}
+
+country_event = {
+	id = lud_spi_alliance_rejected.1
+	title = lud_spi_alliance_rejected.1.t
+	desc = lud_spi_alliance_rejected.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lud_alliance_rejected.1.a
+		ai_chance = { factor = 90 }
+	
+	}
+}
+
+country_event = {
+	id = lud_spi_alliance_accepted.1
+	title = lud_spi_alliance_accepted.1.t
+	desc = lud_spi_alliance_accepted.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lud_spi_alliance_accepted.1.a
+		ai_chance = { factor = 90 }
+		create_faction = "Loyalist Front"
+		Add_to_faction = SPI
 	
 	}
 }

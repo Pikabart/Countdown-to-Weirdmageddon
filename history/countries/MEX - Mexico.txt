@@ -1,8 +1,10 @@
 ﻿capital = 254
 
+
 country_event = { id = MEX_START.1 hours = 2 } #Intro Event
 #news_event = { id = world_news.1 days = 10 } #The Kerfuffle
 country_event = { id = MEX_DRUMPF.1 days = 35 } #Mexican Elections Event
+
 
 set_research_slots = 2
 set_convoys = 10
@@ -17,10 +19,9 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 49
-	neutrality = 1
+	democratic = 98
 	communism = 1
-	fascism = 49
+	fascism = 1
 }
 
 create_country_leader = {
@@ -28,6 +29,7 @@ create_country_leader = {
 	desc = "placeholder"
 	picture = ""
 	ideology = conservatism #liberalism
+
 }
 
 #create_country_leader = {
@@ -43,3 +45,4 @@ create_country_leader = {
 #	picture = ""
 #	ideology = fascism_ideology #conservatism
 #}
+

@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = world_news
+
 add_namespace = launcher_news
 
 news_event = { # Launch Kerfuffle
@@ -37,6 +38,7 @@ news_event = { # Launch Kerfuffle
 		ai_chance = { factor = 100 }		
 	}
 }
+
 
 
 news_event = { # Pre-Kerfuffle
