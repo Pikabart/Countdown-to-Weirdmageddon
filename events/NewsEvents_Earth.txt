@@ -30,6 +30,9 @@ news_event = { # Launch Kerfuffle
 			CAN = { news_event = { id = world_news.1 days = 1 } }
 			MEX = { news_event = { id = world_news.1 days = 1 } }
 			GTF = { news_event = { id = world_news.1 days = 1 } }
+			MYS = { news_event = { id = world_news.1 days = 1 } }
+			NRW = { news_event = { id = world_news.1 days = 1 } }
+			MYM = { news_event = { id = world_news.1 days = 1 } }
 		}
 	}
 	
@@ -110,10 +113,15 @@ news_event = { #The Kerfuffle, All Earth Except Canada
 	desc = {
 		text = world_news.2.d
 		trigger = {NOT={tag=CAN}}
+		trigger = {NOT={tag=MEX}}
 	}
 	desc = {
 		text = world_news.2.d_a
 		trigger = {OR={tag=CAN}}
+	}
+	desc = {
+		text = world_news.2.d_b
+		trigger = {OR={tag=MEX}}
 	}
 	
 	picture = GFX_news_peace_arc_kerfuffle
@@ -154,7 +162,7 @@ news_event = { #The Kerfuffle, All Earth Except Canada
 		trigger = {	TAG = EPI}	
 	}
 	option = {
-		name = world_news.2.a
+		name = world_news.2.c
 		trigger = {	TAG = MEX}	
 	}
 	option = {
