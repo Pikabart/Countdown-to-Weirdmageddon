@@ -180,7 +180,7 @@ ideas = {
 			
 			modifier = {	
 				army_attack_factor = 0.15
-				army_defense_factor = 0.15
+				army_defence_factor = 0.15
 				
 				
 				
@@ -219,7 +219,7 @@ ideas = {
 		
 		adolf = {
 		
-			picture = 
+			#picture = 
 	
 			allowed = {
 				original_tag = MEW
@@ -240,7 +240,7 @@ ideas = {
 		
 		daniel_drumpf = {
 		
-			picture = 
+			#picture = 
 	
 			allowed = {
 				original_tag = MEW
@@ -260,7 +260,7 @@ ideas = {
 		
 		ivan = {
 		
-			picture = 
+			#picture = 
 	
 			allowed = {
 				original_tag = MEW
@@ -288,7 +288,7 @@ ideas = {
 	
 	army_chief = {
 	
-		johansen = {
+		johansen_army_chief = {
 
 			allowed = {
 				original_tag = MEW

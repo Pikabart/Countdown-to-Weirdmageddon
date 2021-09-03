@@ -1,7 +1,7 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 
 #Portals (canals and strights)
-11078;10766;sea;7943;-1;-1;-1;-1;Earth_Mewni_Portal;Earth-Mewni Portal
+11078;10766;;7943;-1;-1;-1;-1;Earth_Mewni_Portal;suez
 
 
 
@@ -75,14 +75,14 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7175;4211;;11428;-1;-1;-1;-1;;Bend
 4211;8441;;11427;-1;-1;-1;-1;;Bend
 6585;8149;;11427;-1;-1;-1;-1;;Biggs
-8125;5798;;11427;-1;-1;-1;-1;;Biggs
+8125;5798;;11425;-1;-1;-1;-1;;Biggs
 7175;8441;;11427;-1;-1;-1;-1;;Bend
 8785;8758;;11417;-1;-1;-1;-1;;Roseburg
 8785;5827;;11417;-1;-1;-1;-1;;Roseburg
 1380;8247;;11423;-1;-1;-1;-1;;Willametta
 8210;8193;;11422;-1;-1;-1;-1;;Willametta
 8103;8167;;11421;-1;-1;-1;-1;;Wash-Ore
-7967;6446;;11421;-1;-1;-1;-1;;Wash-Ore
+7967;6446;;11093;-1;-1;-1;-1;;Wash-Ore
 6933;8120;;11426;-1;-1;-1;-1;;Wash-Ore
 8092;8120;;11426;-1;-1;-1;-1;;Wash-Ore
 

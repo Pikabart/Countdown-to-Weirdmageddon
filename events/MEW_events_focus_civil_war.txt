@@ -217,7 +217,7 @@ country_event = {
 		ai_chance = { factor = 90 }
 	
 	}
-
+}
 country_event = {
 	id = tsr_land_alliance_rejected_mew.1
 	title = tsr_land_alliance_rejected_mew.1.t
@@ -246,5 +246,4 @@ country_event = {
 		ai_chance = { factor = 90 }
 
 	}
-}
 }
