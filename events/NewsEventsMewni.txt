@@ -1,0 +1,225 @@
+﻿###########################
+# News Events for Mewni
+###########################
+
+add_namespace = mewni_corn_crisis_news_event
+add_namespace = mewni_kingdom_collapse_news_event
+add_namespace = mewni_kingdom_split_news_event
+add_namespace = mewni_butterfly_front_news_event
+add_namespace = mewni_ludo_coup_news_event
+add_namespace = mewni_ludo_war_start_news_event
+add_namespace = mewni_tsardom_join_bf_news_event
+
+news_event = { #The Corn Crisis
+	id = mewni_corn_crisis_news_event.1
+	title = mewni_corn_crisis_news_event.1.t
+	desc = {
+		text = mewni_corn_crisis_news_event.1.d
+	}
+	
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = mewni_corn_crisis_news_event.1.a
+		trigger = {	TAG = MEW} #mewni
+		add_ideas = MEW_corn_theft
+	}
+	option = {
+		name = mewni_corn_crisis_news_event.1.c
+		trigger = {NOT={TAG = MEW}} #not mewni
+	}
+
+}
+
+news_event = { #The Split of Mewni
+	id = mewni_kingdom_split_news_event.1
+	title = mewni_kingdom_split_news_event.1.t
+	desc = {
+		text = mewni_kingdom_split_news_event.1.d
+	}
+	
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = mewni_kingdom_split_news_event.1.a
+		trigger = {	TAG = MEW} #mewni
+	}
+	option = {
+		name = mewni_kingdom_split_news_event.1.b
+		trigger = {TAG = LUD} #ludo kingdom
+	}
+	option = {
+		name = mewni_kingdom_split_news_event.1.c
+		trigger = {NOT={TAG = MEW}} #not mewni
+		trigger = {NOT={TAG = LUD}}
+	}
+
+}
+
+news_event = { #The Collapse of Mewni
+	id = mewni_kingdom_collapse_news_event.1
+	title = mewni_kingdom_collapse_news_event.1.t
+	desc = {
+		text = mewni_kingdom_collapse_news_event.1.d
+	}
+	
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = mewni_kingdom_collapse_news_event.1.a
+		trigger = {	TAG = MEW} #mewni
+	}
+	option = {
+		name = mewni_kingdom_collapse_news_event.1.b
+		trigger = {TAG = LUD} #ludo kingdom
+	}
+	option = {
+		name = mewni_kingdom_collapse_news_event.1.c
+		trigger = {NOT={TAG = MEW}} #not mewni
+		trigger = {NOT={TAG = LUD}}
+	}
+
+}
+
+news_event = { #The Butterfly Front
+	id = mewni_butterfly_front_news_event.1
+	title = mewni_butterfly_front_news_event.1.t
+	desc = {
+		text = mewni_butterfly_front_news_event.1.d
+	}
+	
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = mewni_butterfly_front_news_event.1.a
+		trigger = {	TAG = MEW} #mewni
+	}
+	option = {
+		name = mewni_butterfly_front_news_event.1.b
+		trigger = {TAG = LUD} #ludo kingdom
+	}
+	option = {
+		name = mewni_butterfly_front_news_event.1.c
+		trigger = {NOT={TAG = MEW}} #not mewni
+		trigger = {NOT={TAG = LUD}} #not ludo
+	}
+
+}
+
+news_event = { #tsardom joins butterfly front
+	id = mewni_tsardom_join_bf_news_event.1
+	title = mewni_tsardom_join_bf_news_event.1.t
+	desc = {
+		text = mewni_tsardom_join_bf_news_event.1.d
+	}
+	
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = mewni_tsardom_join_bf_news_event.1.a
+		trigger = {	TAG = MEW} #mewni
+	}
+	option = {
+		name = mewni_tsardom_join_bf_news_event.1.b
+		trigger = {TAG = LUD} #ludo kingdom
+	}
+	option = {
+		name = mewni_tsardom_join_bf_news_event.1.c
+		trigger = {NOT={TAG = MEW}} #not mewni
+		trigger = {NOT={TAG = LUD}} #not ludo
+	}
+
+}
+
+news_event = { #The Ludo Coup
+	id = mewni_ludo_coup_news_event.1
+	title = mewni_ludo_coup_news_event.1.t
+	desc = {
+		text = mewni_ludo_coup_news_event.1.d
+	}
+	
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = mewni_ludo_coup_news_event.1.a
+		trigger = {	TAG = MEW} #mewni
+	}
+	option = {
+		name = mewni_ludo_coup_news_event.1.b
+		trigger = {TAG = LUD} #ludo kingdom
+	}
+	option = {
+		name = mewni_ludo_coup_news_event.1.c
+		trigger = {NOT={TAG = MEW}} #not mewni
+		trigger = {NOT={TAG = LUD}} #not ludo
+	}
+
+}
+
+news_event = { #The War Starts
+	id = mewni_ludo_war_start_news_event.1
+	title = mewni_ludo_war_start_news_event.1.t
+	desc = {
+		text = mewni_ludo_war_start_news_event.1.d
+	}
+	
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = mewni_ludo_war_start_news_event.1.a
+		trigger = {	TAG = MEW} #mewni
+		remove_ideas = MEW_300_years_of_peace
+	}
+	option = {
+		name = mewni_ludo_war_start_news_event.1.b
+		trigger = {TAG = LUD} #ludo kingdom
+	}
+	option = {
+		name = mewni_ludo_war_start_news_event.1.c
+		trigger = {NOT={TAG = MEW}} #not mewni
+		trigger = {NOT={TAG = LUD}} #not ludo
+	}
+
+}

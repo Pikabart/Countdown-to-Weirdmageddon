@@ -24,6 +24,7 @@
 		available_if_capitulated = yes
 
 		available = { has_war = no }
+		available = { country_exists = LUD }
 
 		completion_reward = {
 		country_event = uneasy_peace.1
@@ -40,6 +41,8 @@
 		relative_position_id = get_our_bearings 
 		prerequisite = { focus = get_our_bearings }
 		available = { has_war = no }
+		available = { country_exists = LUD }
+
 	
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -48,6 +51,17 @@
 		completion_reward = {
 			create_faction = "Butterfly Front"
 			Add_to_faction = JOH
+			hidden_effect = {
+				news_event = { id = mewni_butterfly_front_news_event.1 days = 1 }
+				JOH = { news_event = { id = mewni_butterfly_front_news_event.1 days = 1 } }
+				LUC = { news_event = { id = mewni_butterfly_front_news_event.1 days = 1 } }
+				PIG = { news_event = { id = mewni_butterfly_front_news_event.1 days = 1 } }
+				PNY = { news_event = { id = mewni_butterfly_front_news_event.1 days = 1 } }
+				SPI = { news_event = { id = mewni_butterfly_front_news_event.1 days = 1 } }
+				JAG = { news_event = { id = mewni_butterfly_front_news_event.1 days = 1 } }
+				LUD = { news_event = { id = mewni_butterfly_front_news_event.1 days = 1 } }
+			
+			}
 		}
 	}
 	
@@ -63,6 +77,8 @@
 		relative_position_id = butterfly_front 
 		prerequisite = { focus = butterfly_front }
 		available = { has_war = no }
+		available = { country_exists = LUD }
+
 	
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -84,13 +100,15 @@
 		relative_position_id = butterfly_front 
 		prerequisite = { focus = butterfly_front }
 		available = { has_war = no }
+		available = { country_exists = LUD }
+
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_ideas = mew_rapid_deployment_idea	
+			add_ideas = mew_rapid_deployment_idea
 
 		}
 	}
@@ -105,6 +123,8 @@
 		relative_position_id = mobilize_populace 
 		prerequisite = { focus = mobilize_populace }
 		available = { has_war = no }
+		available = { country_exists = LUD }
+
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -113,6 +133,80 @@
 		completion_reward = {
 		country_event = import_airplanes_event.1
 		
+		}
+	}
+	
+	focus = {
+		id = emergency_conscription
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 1
+		relative_position_id = mobilize_populace
+		prerequisite = {
+			focus = mobilize_populace
+		}
+		available = { has_war = no }
+		available = { country_exists = LUD }
+		cost = 5
+		
+		
+		completion_reward = {
+		
+			#The following code was taken and modified from Red Flood french speed warriors focus
+			
+			hidden_effect = {
+				division_template = {
+					name = "Emergency Conscripts"
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						
+					}
+				}
+			random_owned_controlled_state = {
+				prioritize = { 266 }
+				create_unit = {
+								division = "name = \"Elderly Conscripts\" division_template = \"Emergency Conscripts\" start_experience_factor = 0"
+								owner = MEW
+				}
+				create_unit = {
+								division = "name = \"Child Conscripts\" division_template = \"Emergency Conscripts\" start_experience_factor = 0"
+								owner = MEW
+				}
+				create_unit = {
+								division = "name = \"Disabled Conscripts\" division_template = \"Emergency Conscripts\" start_experience_factor = 0"
+								owner = MEW
+				}
+				create_unit = {
+								division = "name = \"Mentally Ill Conscripts\" division_template = \"Emergency Conscripts\" start_experience_factor = 0"
+								owner = MEW
+				}
+				create_unit = {
+								division = "name = \"Infant Conscripts\" division_template = \"Emergency Conscripts\" start_experience_factor = 0"
+								owner = MEW
+				}
+				create_unit = {
+								division = "name = \"Pregnant Conscripts\" division_template = \"Emergency Conscripts\" start_experience_factor = 0"
+								owner = MEW
+				}
+				create_unit = {
+								division = "name = \"Obese Conscripts\" division_template = \"Emergency Conscripts\" start_experience_factor = 0"
+								owner = MEW
+				}
+				create_unit = {
+								division = "name = \"Gamer Conscripts\" division_template = \"Emergency Conscripts\" start_experience_factor = 0"
+								owner = MEW
+				}
+				create_unit = {
+								division = "name = \"Monster Conscripts\" division_template = \"Emergency Conscripts\" start_experience_factor = 0"
+								owner = MEW
+				}
+			}
+			}
+			
+			custom_effect_tooltip = "MEW_emergency_conscription_tooltip"
 		}
 	}
 	
@@ -126,6 +220,8 @@
 		relative_position_id = mobilize_populace 
 		prerequisite = { focus = mobilize_populace }
 		available = { has_war = no }
+		available = { country_exists = LUD }
+
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -134,6 +230,52 @@
 		completion_reward = {
 		add_ideas = pull_all_strings_idea
 
+		}
+	}
+	
+	focus = {
+		id = emergency_visas
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -1
+		y = 1
+		cost = 5
+			
+		relative_position_id = pull_all_strings 
+		prerequisite = { focus = pull_all_strings }
+		available = { has_war = no }
+		available = { country_exists = LUD }
+
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		set_global_flag = foreign_imports
+		custom_effect_tooltip = "MEW_emergency_visas_tooltip"
+		}
+	}
+	
+	focus = {
+		id = emergency_equality
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 1
+		cost = 5
+			
+		relative_position_id = pull_all_strings 
+		prerequisite = { focus = pull_all_strings }
+		available = { has_war = no }
+		available = { country_exists = LUD }
+
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		set_global_flag = emergency_equality_flag
+		custom_effect_tooltip = "MEW_emergency_equality_tooltip"
 		}
 	}
 	
@@ -147,6 +289,8 @@
 		relative_position_id = pull_all_strings 
 		prerequisite = { focus = pull_all_strings }
 		available = { has_war = no }
+		available = { country_exists = LUD }
+
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -155,7 +299,17 @@
 		completion_reward = {
 		add_ideas = strike_first_idea
 		declare_war_on = { type = annex_everything    target = LUD }
-		remove_ideas = MEW_300_years_of_peace
+		hidden_effect = {
+				news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 }
+				JOH = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
+				LUC = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
+				PIG = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
+				PNY = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
+				SPI = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
+				JAG = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
+				LUD = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
+			
+			}
 
 		}
 	}

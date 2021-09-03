@@ -175,6 +175,17 @@ country_event = {
 		name = tsr_land_alliance_accepted_mew.1.a
 		ai_chance = { factor = 90 }
 		add_to_faction = TSR
+		hidden_effect = {
+				news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 }
+				JOH = { news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 } }
+				LUC = { news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 } }
+				PIG = { news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 } }
+				PNY = { news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 } }
+				SPI = { news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 } }
+				JAG = { news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 } }
+				LUD = { news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 } }
+			
+			}
 
 	}
 }

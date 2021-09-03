@@ -3,7 +3,6 @@
 ###########################
 
 add_namespace = world_news
-
 news_event = { # Pre-Kerfuffle
 	id = world_news.1
 	title = world_news.1.t

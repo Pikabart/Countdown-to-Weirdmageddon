@@ -1,0 +1,44 @@
+﻿l_english:
+
+#Legacy of Solaria
+
+mewni_corn_crisis_news_event.1.t:0 "The Corn Market Crashes!"
+mewni_corn_crisis_news_event.1.d:0 "Extreme news has come from the Butterfly Kingdom today. The Kingdom's Corn supply, the crop which they base their entire economy on, has been comprimised! Thousands of pounds of corn are going missing, with entire silos being found full one day and then empty the next!\n\nIt is beleived by the Magic High Commision that a new family of rats is the culprit, and they are working hard to stop them. However, these rats are extremeley well organized, and will likley be able to evade eradication for the forseeable future.\n\nThe populace is already preparing for the worst, hiding corn under mattreses and stockpiling weapons in case of societal collapse."
+mewni_corn_crisis_news_event.1.a:0 "OH GOD, NOT THE CORN MARKET!"
+mewni_corn_crisis_news_event.1.c:0 "How Terrible!"
+
+mewni_kingdom_collapse_news_event.1.t:0 "The Kingdom Of Mewni Collapses!"
+mewni_kingdom_collapse_news_event.1.d:0 "With the Butterfly Kingdom being split between King Ludo and Queen Moon, the kingdom is unable to provide the various privleges that come with being a vassal. And with the possibility of the Butterfly dynasty being desposed becoming a reality, most vassal states see no reason to provide aid to their 300 year old oppressor.\n\n It seems that the Butterfly dynasty stands alone in this conflict."
+mewni_kingdom_collapse_news_event.1.a:0 "Corn help us..."
+mewni_kingdom_collapse_news_event.1.b:0 "Good"
+mewni_kingdom_collapse_news_event.1.c:0 "Interesting"
+
+mewni_kingdom_split_news_event.1.t:0 "Moon Butterfly Declares Ludo Illegitimate!"
+mewni_kingdom_split_news_event.1.d:0 "The deposed Queen Moon has declared Ludo as an ilegitimate King who has no right to rule Mewni! Already, a border between the Queen's supporters and Ludo's loyalists has formed. Refugees fleeing from Ludo's reign are more than willing to take up arms and fight, while Ludo's rat swarms are being summoned out of hiding. Peace seems impossible now."
+mewni_kingdom_split_news_event.1.a:0 "We will drive this invader out of our lands!"
+mewni_kingdom_split_news_event.1.b:0 "They are trying to kidnap what we've rightfully stolen!"
+mewni_kingdom_split_news_event.1.c:0 "Who will win?"
+
+mewni_butterfly_front_news_event.1.t:0 "The Butterfly Front Is Formed!"
+mewni_butterfly_front_news_event.1.d:0 "In response to the vassal states abandoning the kingdom, Queen Butterfly has formed an alliance with the Johansen Kingdom. As the rulers of both the kingdoms are married to each other, it was in both their interests to keep the Queen in power. The Alliance is called "The Butterfly Front," and although it has only existed for a few days, it already has it's own "theme song" of sorts."
+mewni_butterfly_front_news_event.1.a:0 ""For The Queen!""
+mewni_butterfly_front_news_event.1.b:0 "Drat!"
+mewni_butterfly_front_news_event.1.c:0 "What will this mean for the coming war?"
+
+mewni_ludo_coup_news_event.1.t:0 "Ludo Takes Controll Of The Butterfly Kingdom!"
+mewni_ludo_coup_news_event.1.d:0 "In a sudden coup, a monster by the name of Ludo Avarius has taken control of Butterfly Castle! He has taken most government officials hostage in the dungeon, and has even imprisoned an American foreigner 14 years of age. It is beleived that King River, who was ruling as regent in place for the Queen, has been imprisoned as well. The whereabouts of Queen Moon is unknown, however it is beleived she had left the castle a few days before the coup, along with the Magic High Commision.\n\nQuestions are swirling about how the vassal kingdoms will react, along with when queen moon will make a public appearance, if she ever does."
+mewni_ludo_coup_news_event.1.a:0 "Where are you, Queen Moon!?"
+mewni_ludo_coup_news_event.1.b:0 "."
+mewni_ludo_coup_news_event.1.c:0 "How could this happen so quickly!?"
+
+mewni_ludo_war_start_news_event.1.t:0 "The War Goes Hot!"
+mewni_ludo_war_start_news_event.1.d:0 "Some say the Queen started it, a peasant brigade getting unruly and crossing the border. Some say Ludo started it, a team of rats ambushing a peasant. But at this point it doesn't matter, the civil war has started.\n\nAlready, swarms of rats pour out into the country side as mewman peasants stand to face them. The last time a war was fought on Mewman homelands was 500 years ago, even Solaria's generation never knew what war on home soil would be like. However, this generation will."
+mewni_ludo_war_start_news_event.1.a:0 "We will reclaim the Mewman homelands from this usurper! For the Queen!"
+mewni_ludo_war_start_news_event.1.b:0 "We will take what we have worked so hard for! Charge!"
+mewni_ludo_war_start_news_event.1.c:0 "It has begun"
+
+mewni_tsardom_join_bf_news_event.1.t:0 "The Tsardom Joins The Butterfly Front!"
+mewni_tsardom_join_bf_news_event.1.d:0 "In a turn of events, a monster warlord in the Forest of Certain Death has joined the Butterfly Front!\n\nCalling themselves the "Tsarstvo Monstrov," or "Tsardom of Monsters," they have pledged their support to Queen Moon in the upcoming conflict between her and Ludo!"
+mewni_tsardom_join_bf_news_event.1.a:0 "Welcome to the Front!"
+mewni_tsardom_join_bf_news_event.1.b:0 "Drat!"
+mewni_tsardom_join_bf_news_event.1.c:0 "Interesting"
