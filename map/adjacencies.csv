@@ -1,7 +1,12 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 
-#Earth ###########################################
+#Portals (canals and strights)
+11078;10766;sea;7943;-1;-1;-1;-1;Earth_Mewni_Portal;Earth-Mewni Portal
 
+
+
+
+#Earth ###########################################
 # Arizona Adjacencies
 3402;1887;;11413;-1;-1;-1;-1;; Upper Grand Canyon
 997;9742;;11413;-1;-1;-1;-1;;
