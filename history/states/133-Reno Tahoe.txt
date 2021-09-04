@@ -14,7 +14,8 @@ state={
 			anti_air_building = 0
 			radar_station = 0	
 		}
-
+		victory_points = { 4152 10 } #Reno
+		victory_points = { 7201 15 } #Carson
 	}
 	
 	provinces={

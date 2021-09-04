@@ -15,11 +15,12 @@ state={
 			radar_station = 0	
 		}
 
-		victory_points = { 4181 20 }
-		victory_points = { 5246 30 }
-		victory_points = { 6615 10 }
-
-
+		victory_points = { 9694 20 } #SJ
+		victory_points = { 5246 30 } #SF
+		victory_points = { 6615 10 }  #MTV
+		victory_points = { 10701 5 }  #Pied
+		victory_points = { 1289 10 }  #OAK
+		
 	}
 	
 	provinces={

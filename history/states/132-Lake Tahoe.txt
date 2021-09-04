@@ -14,7 +14,8 @@ state={
 			anti_air_building = 0
 			radar_station = 0	
 		}
-
+		victory_points = { 9489 5 } #Truckee
+		victory_points = { 3442 5 } #South LT
 	}
 	
 	provinces={

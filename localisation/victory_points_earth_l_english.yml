@@ -1,27 +1,29 @@
 ﻿l_english:
  VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
- #VICTORY_POINTS_9671:0 "San Francisco"
- #VICTORY_POINTS_9713:0 "Sacramento"
  
  #Northern California VPs
  VICTORY_POINTS_3309:0 "Sacramento"
  VICTORY_POINTS_9554:0 "West Sacramento"
+ 
  VICTORY_POINTS_10701:0 "Piedmont"
  VICTORY_POINTS_5246:0 "San Francisco"
  VICTORY_POINTS_9694:0 "San Jose"
+ VICTORY_POINTS_9524:0 "Santa Rosa"
+ VICTORY_POINTS_6615:0 "Mountain View"
  VICTORY_POINTS_6722:0 "Mystery Spot"
+ VICTORY_POINTS_1289:0 "Oakland"
+ 
  VICTORY_POINTS_3304:0 "Redding"
  VICTORY_POINTS_9373:0 "Chico"
  VICTORY_POINTS_9395:0 "Yuba"
- VICTORY_POINTS_453:0 "Truckee"
+ 
+ VICTORY_POINTS_9489:0 "Truckee"
  VICTORY_POINTS_3442:0 "South Tahoe"
+ 
  VICTORY_POINTS_9067:0 "Yreka"
  VICTORY_POINTS_3071:0 "Eureka"
+ 
  VICTORY_POINTS_9363:0 "Fort Navarro"
- VICTORY_POINTS_9524:0 "Santa Rosa"
- VICTORY_POINTS_4181:0 "San Jose"
- VICTORY_POINTS_6615:0 "Mountain View"
-
  
  ################################################
  #Southern California VPs
@@ -113,6 +115,21 @@
  ################################################
  #Eastern US VPs
  VICTORY_POINTS_7727:0 "Washington DC"
+ VICTORY_POINTS_2083:0 "Raven Rock"
+ VICTORY_POINTS_7597:0 "Gravesfield"
+ VICTORY_POINTS_3291:0 "New York City"
+ 
+ ################################################
+ #Nevada and Idaho VPs
+ VICTORY_POINTS_4152:0 "Reno"
+ VICTORY_POINTS_7201:0 "Carson"
+ VICTORY_POINTS_4967:0 "Las Vegas"
+ VICTORY_POINTS_5209:0 "Homey Air Force Base"
+ 
+ VICTORY_POINTS_8690:0 "Boise"
+ VICTORY_POINTS_5286:0 "Weird"
+ VICTORY_POINTS_4253:0 "Twin Falls"
+ VICTORY_POINTS_8653:0 "Idaho Falls"
  
  ################################################
  #Canada VPs
@@ -127,15 +144,4 @@
  
  ################################################
  
- #START
- #OF
- #MEWNI
- #VPS
  
- ################################################
- 
- #Jaggy Kingdom VPs
- VICTORY_POINTS_7487:0 "Jaggi-vostok"
- 
- #Kaisserreich  VPs
- VICTORY_POINTS_5783:0 "Big Building"
