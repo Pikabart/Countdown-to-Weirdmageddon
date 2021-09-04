@@ -5,8 +5,8 @@
 #2.	For localization of say ex:mystery_shack.1.t, create or ad into a loc file in localisation folder. File name should be events_*tag*_l_english.yml for locs of said country in english
 
 #3.	In gfx, to add a custom image for event, go to either event_country_pictures or event_news_pictures, which ever is appropriate. 
-3A. event_country_pictures - Add por create folder of country for event and add image there with appropriate naming
-3B. event_news_pictures - place world news image direct in folder with appropriate name. See others for how name template works
+#3A. event_country_pictures - Add por create folder of country for event and add image there with appropriate naming
+#3B. event_news_pictures - place world news image direct in folder with appropriate name. See others for how name template works
 
 #4.	Go to interface folder if non-stock image is made. To ensure that the game knows that say ex:GFX_report_event_dippy_zog points to the image of dippy zog in gfx, an interface file is needed. Add to or create one with name structure events_*tag*_interface.gfx or add to world one ex:events_news_interface. Check existing files how this works
 

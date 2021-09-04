@@ -29,9 +29,47 @@ news_event = { #The Corn Crisis
 		name = mewni_corn_crisis_news_event.1.a
 		trigger = {	TAG = MEW} #mewni
 		add_ideas = MEW_corn_theft
+			hidden_effect = {
+				news_event = { id = mewni_corn_crisis_news_event.2 days = 15 }
+				JOH = { news_event = { id = mewni_corn_crisis_news_event.2 days = 15 } }
+				LUC = { news_event = { id = mewni_corn_crisis_news_event.2 days = 15 } }
+				PIG = { news_event = { id = mewni_corn_crisis_news_event.2 days = 15 } }
+				PNY = { news_event = { id = mewni_corn_crisis_news_event.2 days = 15 } }
+				SPI = { news_event = { id = mewni_corn_crisis_news_event.2 days = 15 } }
+				JAG = { news_event = { id = mewni_corn_crisis_news_event.2 days = 15 } }
+				LUD = { news_event = { id = mewni_corn_crisis_news_event.2 days = 15 } }
+			
+			}
 	}
 	option = {
 		name = mewni_corn_crisis_news_event.1.c
+		trigger = {NOT={TAG = MEW}} #not mewni
+	}
+
+}
+
+news_event = { #The Corn Crisis Flavor: Unemployed Mercanaries
+	id = mewni_corn_crisis_news_event.2
+	title = mewni_corn_crisis_news_event.2.t
+	desc = {
+		text = mewni_corn_crisis_news_event.2.d
+	}
+	
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = mewni_corn_crisis_news_event.2.a
+		trigger = {	TAG = MEW} #mewni
+		add_ideas = MEW_merc_gangs
+	}
+	option = {
+		name = mewni_corn_crisis_news_event.2.c
 		trigger = {NOT={TAG = MEW}} #not mewni
 	}
 

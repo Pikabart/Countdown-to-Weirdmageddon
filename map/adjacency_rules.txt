@@ -1,10 +1,10 @@
 ﻿#From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 #-1;-1;;-1;-1;-1;-1;-1;-1
 
-#Suez Canal
+#Earth Mewni Portal
 adjacency_rule
 {
-	name = "SUEZ_CANAL"
+	name = "Earth_Mewni_Portal"
 
 	contested =
 	{
@@ -29,25 +29,35 @@ adjacency_rule
 	}
 	neutral =
 	{
-		army = yes
-		navy = yes
+		army = no
+		navy = no
 		submarine = yes
-		trade = yes
+		trade = no
 	}
 	
 	required_provinces = { 7943 }
 
 	is_disabled = {
 		OR = {
-			has_global_flag = SUEZ_CANAL_BLOCKED
-			has_country_flag = SUEZ_CANAL_BLOCKED_FOR_COUNTRY
+			has_global_flag = Earth_Mewni_Portal_BLOCKED
+			has_country_flag = Earth_Mewni_Portal_BLOCKED_FOR_COUNTRY
 		}
 		tooltip = disable_canal_tt
 	}
 		
 	icon = 7943
-	offset = { 0 -10 0 }
+	offset = { 0 0 0 }
 }
+
+
+#8857;2284;sea;7617;1560;1009;1556;1016;PANAMA_CANAL;Panama
+#2729;2408;sea;6257;2949;1598;2962;1612;KIEL_CANAL;Kiel
+#5388;803;sea;1155;-1;-1;-1;-1;SUEZ_CANAL;Suez
+#5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
+#5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
+#2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Ã˜resund
+#5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
+
 
 #Gibraltar Strait
 adjacency_rule

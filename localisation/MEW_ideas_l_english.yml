@@ -12,6 +12,18 @@ MEW_heir_studying_overdimensions_desc:0 "This will dissapear when star come home
 MEW_corn_theft:0 "The Corn Crisis"
 MEW_corn_theft_desc:0 "Rats have been stealing a huge amount of corn! Our economy is collapsing!"
 
+MEW_merc_gangs:0 "Unemployed Mercanary Gangs"
+MEW_merc_gangs_desc:0 "Roaming gangs of former mercanaries are wreaking havoc upon the populace"
+
+MEW_emergency_economics_2_display:0 "Emergency Economic Measures"
+MEW_emergency_economics_2_display_desc:0 "The Corn Crisis has forced our hand, and we must take certain measures to survive as a nation"
+
+MEW_emergency_economics_3_display:0 "Emergency Economic Measures"
+MEW_emergency_economics_3_display_desc:0 "The Corn Crisis has forced our hand, and we must take certain measures to survive as a nation"
+
+MEW_forced_economics_display:0 "Extreme Economic Measures"
+MEW_forced_economics_display_desc:0 "The Corn Crisis has forced our hand, and we must take certain measures to survive as a nation. Even if we have to drag our people kicking and screaming into survival!"
+
 MEW_emergency_economics:0 "Emergency Economic Measures"
 MEW_emergency_economics_desc:0 "The Corn Crisis has forced our hand, and we must take certain measures to survive as a nation"
 

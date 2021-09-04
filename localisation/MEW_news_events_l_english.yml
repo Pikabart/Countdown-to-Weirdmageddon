@@ -7,6 +7,11 @@ mewni_corn_crisis_news_event.1.d:0 "Extreme news has come from the Butterfly Kin
 mewni_corn_crisis_news_event.1.a:0 "OH GOD, NOT THE CORN MARKET!"
 mewni_corn_crisis_news_event.1.c:0 "How Terrible!"
 
+mewni_corn_crisis_news_event.2.t:0 "The Corn Crisis: Unemployed Mercanaries!"
+mewni_corn_crisis_news_event.2.d:0 "With the Corn Crisis making the government demand every peasant work the fields as hard as thay can, other fields of work have been neglected. One of these is the Mewman guard, and with a lack of money the government had no choice but to let off the majority of mercanaries. This has backfired though, as throwing thousands of trained warriors out onto the street was not a good idea.\n\nRobbery, burglary, extortion, and black market supply are all up. Gangs are forming, with organized raids on both civillian and government warehouses being carried out. And with the imperial police department lacking funds, they seem unlikley to stop anytime soon."
+mewni_corn_crisis_news_event.2.a:0 "Criminals!"
+mewni_corn_crisis_news_event.2.c:0 "Interesting"
+
 mewni_kingdom_collapse_news_event.1.t:0 "The Kingdom Of Mewni Collapses!"
 mewni_kingdom_collapse_news_event.1.d:0 "With the Butterfly Kingdom being split between King Ludo and Queen Moon, the kingdom is unable to provide the various privleges that come with being a vassal. And with the possibility of the Butterfly dynasty being desposed becoming a reality, most vassal states see no reason to provide aid to their 300 year old oppressor.\n\n It seems that the Butterfly dynasty stands alone in this conflict."
 mewni_kingdom_collapse_news_event.1.a:0 "Corn help us..."

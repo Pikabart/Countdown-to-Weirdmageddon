@@ -112,8 +112,6 @@ country_event = {
 	option = {
 		name = butterfly_family.1.a
 		ai_chance = { factor = 90 }
-		add_ideas = MEW_vacant_heir
-		add_ideas = MEW_heir_studying_overdimensions
 		ai_chance = {
 			factor = 50
 
@@ -132,6 +130,8 @@ country_event = {
 	option = {
 		name = MEW_prolouge_end.1.a
 		ai_chance = { factor = 90 }
+		add_ideas = MEW_vacant_heir
+		add_ideas = MEW_heir_studying_overdimensions
 		ai_chance = {
 			factor = 50
 
@@ -328,7 +328,7 @@ country_event = {
 		ai_chance = { factor = 90 }
 		swap_ideas = { 
 		
-		remove_idea = MEW_emergency_economics
+		remove_idea = MEW_emergency_economics_2_display
 		add_idea = MEW_emergency_economics_2
 
 		}
@@ -348,10 +348,12 @@ country_event = {
 	option = {
 		name = emergency_economics_3.1.a
 		ai_chance = { factor = 90 }
-		swap_ideas = { 
-		remove_idea = MEW_emergency_economics_2
-		add_idea = MEW_emergency_economics_3
+		hidden_effect = {
+			swap_ideas = { 
+				remove_idea = MEW_emergency_economics_3_display
+				add_idea = MEW_emergency_economics_3
 
+			}
 		}
 	}
 	
@@ -372,7 +374,7 @@ country_event = {
 	
 		swap_ideas = { 
 		
-		remove_idea = MEW_emergency_economics_3
+		remove_idea = MEW_forced_economics_display
 		add_idea = MEW_forced_economics
 
 		}
@@ -627,7 +629,7 @@ country_event = {
 			type = industrial_complex
 			level = 2
 			instant_build = yes
-			add_extra_state_shared_building_slots = 2
+			#add_extra_state_shared_building_slots = 2
 			}			
 
 			add_extra_state_shared_building_slots = 2

@@ -19,9 +19,9 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 98
-	communism = 1
-	fascism = 1
+	democratic = 55
+	communism = 0
+	fascism = 45
 }
 
 create_country_leader = {
@@ -29,7 +29,6 @@ create_country_leader = {
 	desc = "placeholder"
 	picture = ""
 	ideology = conservatism #liberalism
-
 }
 
 #create_country_leader = {

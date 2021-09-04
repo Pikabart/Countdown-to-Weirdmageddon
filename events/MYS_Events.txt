@@ -165,37 +165,6 @@ country_event = { #8
 	}
 }
 
-###
-# Stan-Tastic Adventure 1: Corn, The Crawlspace, and Old memories
-###
-
-country_event = {
-	id = stantastic.1
-	title = stantastic.1.t 
-	desc = stantastic.1.d  
-	picture = GFX_report_event_mystery_shack #  change this later
-	
-	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
-	
-	immediate = {        
-	}
-	
-	option = { 
-		name = stantastic.1.a
-		ai_chance = { factor = 100 }	# 100% AI choose this
-	}
-}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 		# Dippy Returns! Test Event #9999
 	country_event = {
