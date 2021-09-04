@@ -2,21 +2,21 @@
 
 #Legacy of Solaria
 
-mewni_solaria.1.t:0 "The Legacy of Solaria"
-mewni_solaria.1.d:0 "300 years ago, the Late Queen Solaria Butterfly went on a grand campaign to conquer the entire dimension for Mewman Kind. She succeeded, bringing an unprecedented golden age of Mewman supremacy. If not for her death in a foul ambush, the very idea of the monsters would have become a historical footnote. Still, thanks to her, the greater Kingdom of Mewni stands!\n\nBut Mewni has been in a slow decline ever since she died, with us having to hand out land and decentralize ourselves in order to effectivley maintain control of our holdings. The intricate allainces made by Queen Solaria and her brother Prince Jushtin still stands, but it grow weaker by the day. We have even completley lost control in some reigons, shattered monster warlords in the north and south roaming about, unimpeded.\n\nHowever, we are still the dominant force in our dimension, and those monsters dont pose a major threat to out order. The water ripples left by Queen Solaria are still being felt, 300 years later!"
+mewni_solaria.1.t:0 "The Legacy of Queen Solaria"
+mewni_solaria.1.d:0 "Three hundred years ago, a newly crowned Queen Solaria Butterfly rallied the numerous Mewnan kingdoms for a grand campaign. Her mission, that she proclaimed to the Butterfly kingdom on the very night of her coronation, was to bring the entire dimension of Menwi under the rule of Mewmankind. She rallied her armies, perfected the great magic of the Butterfly Line, and began a long and glorious war to crush the monster filth.\n\nShe undoubtedly succeeded, and brought about an unprecedented golden age of Mewman supremacy. Her leadership drove the monster hordes into the Underworld and the Forest of Certain Death, where they still remain fighting amongst themselves. Thanks to her keen interest in alliance building, spearheaded by her older brother, Prince Jushtin Butterfly, she gave birth to the system that stands today as the Kingdom of Mewni. And it would be her dying wish that ensured that through centuries of dynasties and political changes, the Butterfly Family would have everlasting hegemonoy over all of Mewni."
 mewni_solaria.1.a:0 "Rest in peace, Monster Carver"
 
 mewni_300_peace.1.t:0 "300 Years of Peace"
-mewni_300_peace.1.d:0 "Blah Blah Blah something somthing lore"
-mewni_300_peace.1.a:0 "Bruh"
+mewni_300_peace.1.d:0 "Mewni has enjoyed three hundred years of peace. There is no doubt of what was accomplished during that time. But it was not an era of "happily ever after." The whole dimension is entering a new era, political alliances are now being tested and strained. The old social order facing challenges from rapidly evolving foes. The economy has stagnated due to minimal reform, the entire economy relying on exporting the corn crop. Even the monsters, who were so utterly crushed three centuries ago, are now starting to recover.\n\n And there is of course, the odd radical and revolutionary here and there. Spewing foreign doctrines of "Freedom" and "Democracy." But they are few and far between."
+mewni_300_peace.1.a:0 "As the Earth saying goes, "We live in interesting times.""
 
-butterfly_family.1.t:0 "Ay dawg, can I get some ice cream?"
-butterfly_family.1.d:0 "Only a spoonful"
-butterfly_family.1.a:0 "*pulls out comically large spoon*"
+butterfly_family.1.t:0 "House Butterfly"
+butterfly_family.1.d:0 "The Butterfly family has ruled most of Mewni since the great Queen Solaria lead the glorious fight against the monsters and secured Mewnipendance. Having secured the Mewman’s goal of ‘Life, Safety, and Corn’, the monarchy under House Butterfly has led their kingdom, and by extension most of the Mewman race, through the golden age of Mewman peace. But not all is easy, as in the recent years the reluctance to reform has begun to show it's concequences.\n\nThe Septarian mercanary crisis, which had the current Queen Butterfly rise to the throne after her mother was killed by a monster force, almost had Mewni be plunged into war once again. However, Queen Moon protected her people and prevented the crisis from starting total war. And as a new era dawns on the Mewman dimension, everyone looks to Moon and the Butterfly family for guidance."
+butterfly_family.1.a:0 "A notable exception though, is Star."
 
-MEW_prolouge_end.1.t:0 "Who the hell is steve jobs?"
-MEW_prolouge_end.1.d:0 "ligma balls"
-MEW_prolouge_end.1.a:0 "*fucking implodes*"
+MEW_prolouge_end.1.t:0 "The Underestimated"
+MEW_prolouge_end.1.d:0 "Princess Star of House Butterfly, heir to the Mewman throne, is not in her home dimension of Mewni. Instead, she is on Earth. In California, to be precise. This is because she had insufficiently studied her magic, and now with the Butterfly wand in her possession (Given to all mewman heirs at age 14,) Her ineptitude is now destructive. The last straw was the great fire of Mewni, which was caused by her on the very first day she got the wand. Thus, she will study on earth using their “Foriegn Exchange Program.” Until she can sufficiently control her magic.\n\nIt’s not all bad with her though. Politically speaking, anyway. It seems that every heir in the various Kingdoms that make up the Kingdom of Mewni are of similar age. Thus, all rulers of Mewni could be friends from childhood in the next generation. And there is of course always the possibility of an alliance through marriage."
+MEW_prolouge_end.1.a:0 "However, they still call her "The Underestimated" for a reason."
 
 corn_theft.1.t:0 "The Corn Report"
 corn_theft.1.d:0 "There is an extreme deficiency in our corn supply! Thousands of pounds of corn seem to be vanishing off of the record, with hundreds of farmers suddenly finding out that their silos are empty! We should expect a market collapse at any second now!"

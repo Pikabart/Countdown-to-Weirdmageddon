@@ -18,8 +18,8 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = 0.2
-				war_support_factor = -0.2
+				stability_factor = 0.4
+				war_support_factor = -0.4
 			}
 		}
 		
@@ -62,12 +62,78 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.4
-				consumer_goods_factor = 0.4
+				stability_factor = -0.5
+				consumer_goods_factor = 0.5
 
 			}
 		}
+		
+		MEW_merc_gangs = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				stability_factor = -0.1
 
+			}
+		}
+		MEW_emergency_economics_display = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+			#when at war
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.15
+			}
+		}		
+			
+		MEW_emergency_economics_2_display = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				consumer_goods_factor = -0.30
+				stability_factor = -0.1
+			}
+		}	
+		
+		MEW_emergency_economics_3_display = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				consumer_goods_factor = -0.45
+				stability_factor = -0.2
+			}
+		}	
+		
+		MEW_forced_economics_display = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = -0.2
+				consumer_goods_factor = -0.60
+			}
+		}
+		
 		MEW_emergency_economics = {
 			picture = FRA_factory_strikes
 			
@@ -91,7 +157,7 @@ ideas = {
 			cancel = {}
 			
 			modifier = {
-				stability_factor = -0.15
+				stability_factor = -0.2
 				consumer_goods_factor = -0.30
 			}
 		}	
@@ -104,7 +170,7 @@ ideas = {
 			cancel = {}
 			
 			modifier = {
-				stability_factor = -0.15
+				stability_factor = -0.2
 				consumer_goods_factor = -0.45
 			}
 		}	
@@ -117,10 +183,11 @@ ideas = {
 			cancel = {}
 			
 			modifier = {
-				stability_factor = -0.20
+				stability_factor = -0.35
 				consumer_goods_factor = -0.60
 			}
-		}	
+		}
+		
 		
 		MEW_public_works = {
 			picture = FRA_factory_strikes
