@@ -26,7 +26,7 @@ mewni_suppression_hostile = {		#Name of category that decisions will appear unde
 		}
 		
 		ai_will_do = {
-			factor = 0			
+			factor = 1			
 		}
 	}
 	
@@ -56,7 +56,7 @@ mewni_suppression_hostile = {		#Name of category that decisions will appear unde
 		}
 		
 		ai_will_do = {
-			factor = 0			
+			factor = 1			
 		}
 	}
 	
@@ -87,7 +87,7 @@ mewni_suppression_hostile = {		#Name of category that decisions will appear unde
 		}
 		
 		ai_will_do = {
-			factor = 0			
+			factor = 1			
 		}
 	}
 	

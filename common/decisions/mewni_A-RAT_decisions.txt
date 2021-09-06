@@ -34,7 +34,7 @@ simple_category_mewni = {		#Name of category that decisions will appear under, d
 		# AI LOGIC FOR THIS DECISION/MISSION
 
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 0			
+			factor = 1			
 		}
 	}
 	
@@ -69,7 +69,7 @@ simple_category_mewni = {		#Name of category that decisions will appear under, d
 		# AI LOGIC FOR THIS DECISION/MISSION
 
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 0			
+			factor = 1			
 		}
 	}
 	
@@ -103,7 +103,7 @@ simple_category_mewni = {		#Name of category that decisions will appear under, d
 		# AI LOGIC FOR THIS DECISION/MISSION
 
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 0			
+			factor = 1			
 		}
 	}
 	
@@ -138,7 +138,7 @@ simple_category_mewni = {		#Name of category that decisions will appear under, d
 		# AI LOGIC FOR THIS DECISION/MISSION
 
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 0			
+			factor = 1			
 		}
 	}
 	
@@ -166,13 +166,15 @@ simple_category_mewni = {		#Name of category that decisions will appear under, d
 
 		complete_effect = {		
 			country_event = A-RAT_operation.1
+			custom_effect_tooltip = "mew_arat_operation_tooltip"
+
 	
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
 
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 0			
+			factor = 5			
 		}
 	}
 	
@@ -209,7 +211,7 @@ simple_category_mewni = {		#Name of category that decisions will appear under, d
 		# AI LOGIC FOR THIS DECISION/MISSION
 
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 0			
+			factor = 1			
 		}
 	}
 	
@@ -244,7 +246,7 @@ simple_category_mewni = {		#Name of category that decisions will appear under, d
 		# AI LOGIC FOR THIS DECISION/MISSION
 
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 0			
+			factor = 5			
 		}
 	}
 	

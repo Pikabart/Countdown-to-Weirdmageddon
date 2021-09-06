@@ -218,6 +218,7 @@ country_event = {
 		category = land_doctrine
 			}
 		#GIVE GENERAL TRAITS ONCE WE MAKE THE GENERALS AND STUFF
+		add_stability = -0.1
 	}
 	
 	
@@ -244,37 +245,37 @@ country_event = {
 		269 = {
 			damage_building = {
 				type = infrastructure
-				damage = 10
+				damage = 2
 			}
 		}
 		270 = {
 			damage_building = {
 				type = infrastructure
-				damage = 10
+				damage = 2
 		}
 	}
 			280 = {
 			damage_building = {
 				type = infrastructure
-				damage = 10
+				damage = 2
 		}
 	}
 			457 = {
 			damage_building = {
 				type = infrastructure
-				damage = 10
+				damage = 2
 		}
 	}
 			455 = {
 			damage_building = {
 				type = infrastructure
-				damage = 10
+				damage = 2
 		}
 	}
 			276 = {
 			damage_building = {
 				type = infrastructure
-				damage = 10
+				damage = 2
 		}
 	}
 	}

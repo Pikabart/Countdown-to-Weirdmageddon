@@ -1,0 +1,147 @@
+﻿l_english:
+ VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
+ 
+ #Northern California VPs
+ VICTORY_POINTS_3309:0 "Sacramento"
+ VICTORY_POINTS_9554:0 "West Sacramento"
+ 
+ VICTORY_POINTS_10701:0 "Piedmont"
+ VICTORY_POINTS_5246:0 "San Francisco"
+ VICTORY_POINTS_9694:0 "San Jose"
+ VICTORY_POINTS_9524:0 "Santa Rosa"
+ VICTORY_POINTS_6615:0 "Mountain View"
+ VICTORY_POINTS_6722:0 "Mystery Spot"
+ VICTORY_POINTS_1289:0 "Oakland"
+ 
+ VICTORY_POINTS_3304:0 "Redding"
+ VICTORY_POINTS_9373:0 "Chico"
+ VICTORY_POINTS_9395:0 "Yuba"
+ 
+ VICTORY_POINTS_9489:0 "Truckee"
+ VICTORY_POINTS_3442:0 "South Tahoe"
+ 
+ VICTORY_POINTS_9067:0 "Yreka"
+ VICTORY_POINTS_3071:0 "Eureka"
+ 
+ VICTORY_POINTS_9363:0 "Fort Navarro"
+ 
+ ################################################
+ #Southern California VPs
+ VICTORY_POINTS_6704:0 "Echo Creek"
+ VICTORY_POINTS_2357:0 "Los Angeles"
+ VICTORY_POINTS_6843:0 "Bakersfield"
+ VICTORY_POINTS_4206:0 "San Diego"
+ VICTORY_POINTS_5237:0 "Night City"
+ VICTORY_POINTS_9949:0 "San Luis Obispo"
+ 
+ ################################################
+ #Gravity Falls VPs
+ VICTORY_POINTS_4780:0 "Main Street"
+ VICTORY_POINTS_5886:0 "Greasy's Diner"
+ VICTORY_POINTS_6685:0 "Maximum Security Prison"
+ VICTORY_POINTS_894:0 "Lake GF Docks"
+ VICTORY_POINTS_8460:0 "412 Gopher Rd"
+ VICTORY_POINTS_8573:0 "Junkyard"
+ VICTORY_POINTS_8638:0 "Ye Royal Putt Hutt"
+ VICTORY_POINTS_8727:0 "Water Tower"
+ VICTORY_POINTS_7067:0 "Gravity Mall"
+ VICTORY_POINTS_8663:0 "Cemetary"
+ VICTORY_POINTS_8506:0 "Tent of Telepathy"
+ VICTORY_POINTS_8458:0 "Lookout Point"
+ VICTORY_POINTS_8524:0 "Scuttlebutt Island"
+ VICTORY_POINTS_8574:0 "Hidden Beachcove"
+ VICTORY_POINTS_8708:0 "Sprott Farm"
+ 
+ VICTORY_POINTS_10618:0 "Mystery Shack"
+ VICTORY_POINTS_4065:0 "Bottomless Pit"
+ 
+ VICTORY_POINTS_8114:0 "Northwest Manor"
+ VICTORY_POINTS_8605:0 "Northwest Pier"
+ VICTORY_POINTS_5814:0 "Northwest Industry Park"
+ VICTORY_POINTS_8936:0 "Northwest Private Forest"
+ 
+ ################################################
+ #GF Forest VPs
+ VICTORY_POINTS_8376:0 "Gnomepolis"
+ VICTORY_POINTS_6234:0 "Gnome Waterways"
+ VICTORY_POINTS_6141:0 "Maple Clearings"
+ VICTORY_POINTS_8424:0 "Abandon Church"
+ 
+ VICTORY_POINTS_4599:0 "Gnomington"
+ VICTORY_POINTS_8397:0 "Secret Bunker"
+ VICTORY_POINTS_1342:0 "Gnasty's Tavern"
+ VICTORY_POINTS_8273:0 "Woodland Union"
+ VICTORY_POINTS_8351:0 "Unicorn Grove"
+ VICTORY_POINTS_8341:0 "Fairy Salon"
+ VICTORY_POINTS_8253:0 "Multi-Caves"
+ 
+ VICTORY_POINTS_6214:0 "The Man Cave"
+ VICTORY_POINTS_8158:0 "Handwitch Lair"
+ 
+ ################################################
+ #Tourist VPs
+ VICTORY_POINTS_8374:0 "Mystery Mountain"
+ VICTORY_POINTS_8120:0 "Biggs Junction"
+ VICTORY_POINTS_8425:0 "Mystery Forest"
+ 
+ VICTORY_POINTS_8350:0 "Septic Ridge #1"
+ VICTORY_POINTS_8334:0 "Septic Ridge #2"
+ VICTORY_POINTS_8434:0 "Yarnball"
+ VICTORY_POINTS_8144:0 "Cornmaze"
+ VICTORY_POINTS_8195:0 "Upside Down House"
+ VICTORY_POINTS_6863:0 "Log Land"
+ 
+ ################################################
+ #Oregon VPs
+ VICTORY_POINTS_8193:0 "Portland"
+ VICTORY_POINTS_8247:0 "Salem"
+ VICTORY_POINTS_1380:0 "Corvallis"
+ VICTORY_POINTS_5163:0 "Eugene"
+ VICTORY_POINTS_5827:0 "North Roseburg"
+ VICTORY_POINTS_8210:0 "Sherwood"
+ 
+ VICTORY_POINTS_3953:0 "Medford"
+ VICTORY_POINTS_8785:0 "South Roseburg"
+ 
+ ################################################
+ #Washington VPs
+ VICTORY_POINTS_5936:0 "Seattle"
+ VICTORY_POINTS_7855:0 "Olympia"
+ VICTORY_POINTS_8103:0 "Fort Vancouver"
+ 
+ VICTORY_POINTS_5700:0 "Fort Teller"
+ VICTORY_POINTS_1991:0 "Twin Peaks"
+ 
+ ################################################
+ #Eastern US VPs
+ VICTORY_POINTS_7727:0 "Washington DC"
+ VICTORY_POINTS_2083:0 "Raven Rock"
+ VICTORY_POINTS_7597:0 "Gravesfield"
+ VICTORY_POINTS_3291:0 "New York City"
+ 
+ ################################################
+ #Nevada and Idaho VPs
+ VICTORY_POINTS_4152:0 "Reno"
+ VICTORY_POINTS_7201:0 "Carson"
+ VICTORY_POINTS_4967:0 "Las Vegas"
+ VICTORY_POINTS_5209:0 "Homey Air Force Base"
+ 
+ VICTORY_POINTS_8690:0 "Boise"
+ VICTORY_POINTS_5286:0 "Weird"
+ VICTORY_POINTS_4253:0 "Twin Falls"
+ VICTORY_POINTS_8653:0 "Idaho Falls"
+ 
+ ################################################
+ #Canada VPs
+ VICTORY_POINTS_870:0 "Ottawa"
+ VICTORY_POINTS_7526:0 "One Eyed Jacks"
+ VICTORY_POINTS_5768:0 "Vancouver"
+ VICTORY_POINTS_7670:0 "Victoria"
+ 
+ ################################################
+ #Mexican VPs
+ VICTORY_POINTS_40:0 "Monterrey"
+ 
+ ################################################
+ 
+ 
