@@ -12,11 +12,11 @@ mewni_300_peace.1.a:0 "As the Earth saying goes, "We live in interesting times."
 
 butterfly_family.1.t:0 "House Butterfly"
 butterfly_family.1.d:0 "The Butterfly family has ruled most of Mewni since the great Queen Solaria lead the glorious fight against the monsters and secured Mewnipendance. Having secured the Mewman’s goal of ‘Life, Safety, and Corn’, the monarchy under House Butterfly has led their kingdom, and by extension most of the Mewman race, through the golden age of Mewman peace. But not all is easy, as in the recent years the reluctance to reform has begun to show it's concequences.\n\nThe Septarian mercanary crisis, which had the current Queen Butterfly rise to the throne after her mother was killed by a monster force, almost had Mewni be plunged into war once again. However, Queen Moon protected her people and prevented the crisis from starting total war. And as a new era dawns on the Mewman dimension, everyone looks to Moon and the Butterfly family for guidance."
-butterfly_family.1.a:0 "A notable exception though, is Star."
+butterfly_family.1.a:0 "A notable exception though, is Star"
 
 MEW_prolouge_end.1.t:0 "The Underestimated"
-MEW_prolouge_end.1.d:0 "Princess Star of House Butterfly, heir to the Mewman throne, is not in her home dimension of Mewni. Instead, she is on Earth. In California, to be precise. This is because she had insufficiently studied her magic, and now with the Butterfly wand in her possession (Given to all mewman heirs at age 14,) Her ineptitude is now destructive. The last straw was the great fire of Mewni, which was caused by her on the very first day she got the wand. Thus, she will study on earth using their “Foriegn Exchange Program.” Until she can sufficiently control her magic.\n\nIt’s not all bad with her though. Politically speaking, anyway. It seems that every heir in the various Kingdoms that make up the Kingdom of Mewni are of similar age. Thus, all rulers of Mewni could be friends from childhood in the next generation. And there is of course always the possibility of an alliance through marriage."
-MEW_prolouge_end.1.a:0 "However, they still call her "The Underestimated" for a reason."
+MEW_prolouge_end.1.d:0 "Princess Star of House Butterfly, heir to the Mewman throne, is not in her home dimension of Mewni. Instead, she is on Earth. In California, to be precise. This is because she had insufficiently studied her magic, and now with the Butterfly wand in her possession (Given to all Butterfly heirs at age 14,) Her ineptitude is now destructive. The last straw was the great fire of Mewni, which was caused by her on the very first day she got the wand. Thus, she will study on earth using their “Foriegn Exchange Program.” Until she can sufficiently control her magic.\n\nIt’s not all bad with her though. Politically speaking, anyway. It seems that every heir in the various Kingdoms that make up the Kingdom of Mewni are of similar age. Thus, all rulers of Mewni could be friends from childhood in the next generation. And there is of course always the possibility of an alliance through marriage."
+MEW_prolouge_end.1.a:0 "However, they still call her "The Underestimated" for a reason"
 
 corn_theft.1.t:0 "The Corn Report"
 corn_theft.1.d:0 "There is an extreme deficiency in our corn supply! Thousands of pounds of corn seem to be vanishing off of the record, with hundreds of farmers suddenly finding out that their silos are empty! We should expect a market collapse at any second now!"
@@ -27,79 +27,78 @@ corn_theft_ludo.1.d:0 "Write something here about a rat delivering corn to Ludo.
 corn_theft_ludo.1.a:0 "Yes... good rat..."
 
 exterminators.1.t:0 "The Founding Of The Royal Extermination Company"
-exterminators.1.d:0 "The royal extermination company is founded. We assembled the best exterminations around the kingdom of Mewni. Their tactics might be useful in places other than rat killing."
+exterminators.1.d:0 "The royal extermination company has been founded. We assembled the best exterminations around the kingdom of Mewni. Although we have not yet deployed them, their theoretical tactics might be useful in places other than rat killing."
 exterminators.1.a:0 "They better get rid of the rats!"
 
 utilize_army.1.t:0 "The Report"
-utilize_army.1.d:0 "Write an army report concerning the rats"
-utilize_army.1.a:0 "This is gonna take a while"
+utilize_army.1.d:0 "It seems that deploying the army was not the best course of action. Not only did they kill a negligable number of rats, they trampled crops while they marched! They even wounded a peasant!"
+utilize_army.1.a:0 "I want whoever's responsible dishonorably discharged!"
 
 controlled_burning.1.t:0 "Controlled Burns"
-controlled_burning.1.d:0 ""Some may question my right to destroy a world of 10 billion souls... but those who truly understand realise I have no right to let them live!""
-controlled_burning.1.a:0 "You're being overdramatic"
+controlled_burning.1.d:0 "It didn't work! Even though we burned a thick border of crops, the rats just tunneled underground to avoid our guards!"
+controlled_burning.1.a:0 "Drat!"
 
 hunt_rat.1.t:0 "The A-RAT is founded!"
-hunt_rat.1.d:0 "the anti-rat army and technologies is founded! (Unlocks A-RAT Descisions)"
-hunt_rat.1.a:0 "ANTI-RAT DESCISIONS ADDED"
-
+hunt_rat.1.d:0 "The anti-rat army and technologies is founded! (Unlocks A-RAT Descisions)"
+hunt_rat.1.a:0 "Ok"
 
 emergency_economics.1.t:0 "New Quotas"
-emergency_economics.1.d:0 "Write something about a factory owner announcing the new production quotas to his workers"
-emergency_economics.1.a:0 "It is nessecary"
+emergency_economics.1.d:0 ""Attention! Attention! We have orders from the Queen herself!" Sir Proletius, governer of the royal industrial district, was on a high balcony. He was talking into a microphone, which was connected to loudspeakers all thoughout the district. A crowd had already formed below him, mostly working peasants on their lunch break.\n\n "What is it?" One of them shouted up.\n\nSir Proletius raised an eyebrow. "What, you think i'm just gonna announce that we have orders, then leave you all guessing?"\n\n"Well, no, but it's a figure of speech you see?"\n\n "Oh yeah? What it supposed to mean?"\n\n"It means get on with it!"\n\n"I would be getting on with it, if you hadn't inturupted me!"\n\n"Well then get on with it, you daft git!"\n\n"What, are you british!?"\n\n"Why don't you come down here, i'll show you what us brits are made of!"\n\n"You want a fight? I'll give you a-" He felt a tap at the back of his shoulder.\n\n"Uhm, sir? Your Microphone is still on."\n\n"Huh? oh... OH... Uh, hey everyone, the orders were that we have to increse production. Ok, bye!" He smashed the microphone over his knee in embarrasment."
+emergency_economics.1.a:0 ""I am so fired""
 
 emergency_economics_2.1.t:0 "Protests over the new shifts!"
-emergency_economics_2.1.d:0 "Placeholder"
-emergency_economics_2.1.a:0 "Hopefully it wont escalate."
+emergency_economics_2.1.d:0 "Our recent mandate to extend the workshift is not popular with the people. Protests are starting to break out, with workers taking their 1 hour lunch break to chant slogans and hold signs outside the doors of Butterfly castle.\n\nThankfully, these protests are only minor. And once their break ends, they go right back to work. They have to make a living somehow, after all."
+emergency_economics_2.1.a:0 "Hopefully it wont escalate"
 
 emergency_economics_3.1.t:0 "Strange Imports From A Strange Land"
 emergency_economics_3.1.d:0 "Sir Stabby and his cohort of knights awaited on horseback at the main docks in Port Festiva. It was the middle of the night, the shipment from the Earth dimension was due to arrive and Her Highness Queen Moon did not want the public to be openly aware of the shipment. Through the fog, the human vessel arrived. Expecting a slow wooden craft, they were greeted by a monster size ship of metal, coated black as the night and moving against the wind at fast speeds as though it wasn’t there. Stabby himself pulled out his telescope and looked to the flag at the bow of the behemoth. A white background flag with a red star and a red stripe at the bottom. Center was a bear wearing a beaver top hat. Beneath it in Terran English and coincidently Low Mewni were the words, ‘Imperial California Republic’.\n\n‘That’s the ship. A ‘gift’ from their Emperor Norton,’ Stabby remarked.\n\nHis squire, Higgs, was awe struck. ‘How did they fit this ship through a dimension tear?’ she asked.\n\nThe human representative with them smiled and answered, “We have our ways. What you call magic, we call science!’\n\nIt docked at Port Festiva’s largest mooring. As offboarding proceeded, the mewni dockmaster stood in awe of at the massive ship. The human captain complained, remarking of the ‘tiny docks’ and how they could barley moore 'the smallest cargo ship in the Imperial Merchant Navy’. With a dozen heavy duty carts lined along the docks, all pulled by top breed warnicorns, the ship’s cranes loaded up the new equipment. The new machines would go far to relieve the kingdom’s pains. But the knights seemed skeptical at best.\n\nStill, Mr. Birnbaum assured them of Earth’s aid, ‘Rest assured, Emperor Norton and the Northwest Corporation of California stands ready to help. You but merely need to ask.’\n\n‘We’ll see about that, Earth man,’ said Stabby as he signaled the convoy to move out."
 emergency_economics_3.1.a:0 "For now, we'll take what help we can."
 
 MEW_reform_economy.1.t:0 "Unrest At The Government Handout Center!"
-MEW_reform_economy.1.d:0 "Write something about a crowd getting mad in a government care package handout because they keep on getting corn"
-MEW_reform_economy.1.a:0 "Ok"
+MEW_reform_economy.1.d:0 "Strange news is coming out from the govenrment handout center today. It was a routine care package distribution, vaccum sealed packs of corn being thrown out into the crowd. However, today was diffrent. The people seemingly rejected the corn, complaining about it and demanding that we "Give them something else!"\n\nThis absolutley prepsoterous proposal could only be thought up of in a mob mentality, and yet people throughout the Kingdom are agreeing with this new idea!"
+MEW_reform_economy.1.a:0 "Hm, why do we rely on corn anyway?"
 
 MEW_reform_economy_2.1.t:0 "New Seeds"
-MEW_reform_economy_2.1.d:0 "Write something about a farmer getting forced to grow new seeds from the government"
-MEW_reform_economy_2.1.a:0 "The ends justify the means"
+MEW_reform_economy_2.1.d:0 "Two farmers were looking at some new seed packets given to them by the government. "I tell ya Junior, this is the stuff of monsters"\n\nJunior raised an eyebrow "What? They're just seeds, pa."\n\n"That's what they want you to think!"\n\nJunior sighed "Whats so bad about 'em anyway?"\n\n"I'll tell ya what's bad about 'em, they're not corn!"\n\n"...Is that it?"\n\n"Yes! They want us to stop growing corn, and start growing this... 'weht' stuff!"\n\n"It's called wheat, pa."\n\n"Well whatever it is, It ain't proper! Us Mewman farmers have been farmin' corn for generations! It's a slippery slope, next they're gonna give women positions of power!"\n\n"Wha- pa, we have been ruled by queens ever since-" Junior pinched the bridge of his nose. "Whatever. Just help me plant this wheat.""
+MEW_reform_economy_2.1.a:0 ""Never!""
 
 MEW_reform_economy_3.1.t:0 "Two Worlds Collide"
-MEW_reform_economy_3.1.d:0 "Have two people argue about resorting to foreign means. One is ok with the new stuff, while the other doesn't. Also foreshadow the cleaving."
-MEW_reform_economy_3.1.a:0 "Ok."
+MEW_reform_economy_3.1.d:0 "Two workers were watching the dockyards unload a ship from earth. "Disgusting, isin't it?"\n\n"Hm? What is?"\n\n"That." He pointed to the ship. "The USS Golden."\n\n"What's wrong with it? Looks pretty clean to me."\n\n"No, that's not what I mean. I mean the cargo."\n\n"The crates? I guess they're a bit gross if they get wet but it still beats cargo from the Pigeon Kingdom. Have those animals even invented the toilet yet-"\n\n"No, that's not what i'm talking about! I'm talking about how we, as Mewmans, have resorted to foreign means just to survive!" He spat on the ground.\n\n"What's so bad about that?"\n\n"What's so bad about that? WHAT'S SO BAD ABOUT THAT!? WE, AS MEWMANS, ARE PROVERBIALLY ON OUR KNEES AND BEGGING THE FOREIGNERS TO SAVE US! DO YOU SEE NOTHING WRONG WITH THAT? DO YOU NOT FEEL DEGRADED?"\n\n"Uh...haha! Yeah..." He slowly backed away "I'm gonna... get some popcorn." He back up until he was out of sight of the other worker.\n\nAnother Dock worker come up to him. "What's with that guy?""
+MEW_reform_economy_3.1.a:0 ""I think he's racist.""
 
 MEW_reform_economy_4.1.t:0 "Debate in the Magic High Commision."
 MEW_reform_economy_4.1.d:0 "Write something about the Magic high commision not liking the new foreign stuff."
 MEW_reform_economy_4.1.a:0 "ok"
 
 force_economy.1.t:0 "Riots!"
-force_economy.1.d:0 "Write something about riots and how they were quickly suppressed and put back to work, but we should take it as a sign"
+force_economy.1.d:0 "It started as a general strike. Workers in the industrial district laying down their tools and instead opting to spend all day protesting. This could not be tolerated, we are in an industrial crisis after all! And so the Royal Guard was sent in to dissapate the riot and send everyone back to work.\n\nHowever, the protesters were steadfast, unwilling to go back to work. They chanted anti-Butterfly slogans and waved their protest signs wildly. One thing led to another, and the guards had no choice but to draw their weapons and spill blood.\n\nThe day ended in 3 deaths, 1 guard and 2 protesters."
 force_economy.1.a:0 "Hopefully it doesnt happen again"
 
-force_economy_2.1.t:0 "Able Bodied Men"
-force_economy_2.1.d:0 "Write something about soldiers going out into the farms and knocking on doors looking for able bodied men for the factories"
-force_economy_2.1.a:0 "Ok"
+force_economy_2.1.t:0 "Submissive And Breedable"
+force_economy_2.1.d:0 "It was nighttime on Mewni. A royal guard walked up to the front door of a house and knocked. A young man in My Little Pony: Friendship Is Magic® pajamas opened the door.\n\n"Hello sir, my name is Sir Jesse of the Royal Guard. Are you submissive and breedable?"\n\n"...Jesse, what the fuck are you talking about?"\n\n"Submissive and breedable! Submissive as in able to take orders, and breedable as in young and healthy!"\n\n"...I think there's a better way to phrase that."\n\n"Doesn't matter. Anyway, i'm out here recruiting people for a new government program. You'll work in this new government funded factory for the military, what do you say?"\n\n"...Does this count as serving in the military? I want that veteran discount"\n\n"Yup!"\n\n"And... are people there not as weird as you?"\n\n"...Yup?"\n\n"Alright, I'm in."\n\n"Great! I'll fill out the forms, you just need to tell me your name.""
+force_economy_2.1.a:0 ""It's Walter. My name is Walter.""
 
 force_economy_3.1.t:0 "The first shipment."
-force_economy_3.1.d:0 "The first monster have come back, chained on the backs of horse drawn wagons. Should we give them ok quotas, or impossible quotas?"
+force_economy_3.1.d:0 "The first monsters have come back, chained on the backs of horse drawn wagons. Now comes the question of treatment, should we give them basic nessecities? Or should we pursue a more immediate reward?"
 force_economy_3.1.a:0 "Preserve them, we need their hands"
 force_economy_3.2.a:0 "Work them to death!"
 
 force_economy_4.1.t:0 "Crisis at the industrial sector!"
-force_economy_4.1.d:0 "A crisis is happening in the industrial sector! The workers, fed up with the high quotas and long hours, have seized a sizable portion of the sector and have armed themselves to the teeth! They have demands of shorter hours and less work days! We must act quick, their rebbellion could spread throught the kingdom!"
+force_economy_4.1.d:0 "A crisis is happening in the industrial sector! The workers, fed up with the high quotas and long hours, have seized a sizable portion of the sector and have armed themselves to the teeth! They have demands of shorter hours and less work days! We must act quick, their rebbellion could spread throughout the kingdom!"
 force_economy_4.1.a:0 "Fine, give them their demands!"
 force_economy_4.2.a:0 "A peasant's lot is to serve their lord! Send the army!"
 
 MEW_economy_final.1.t:0 "Dissapointing results"
-MEW_economy_final.1.d:0 "Write something about how the results are lower than expected, and that the MHC doesnt know why."
+MEW_economy_final.1.d:0 "The results of the expiramental Magical Mechanization have come back, and they are... underwehlming. The Magic High Commision is utterly confused, as their forecasts were much higher than what actually happened."
 MEW_economy_final.1.a:0 "Better something than nothing, I guess..."
 
-magic_fritz.1.t:0 "Magic Is On A fritz!"
+magic_fritz.1.t:0 "Magic Is On A Fritz!"
 magic_fritz.1.d:0 "thew mhc talks about the fritz, moon says that ludo has the megic instruction book, and they all agree it's probably him causing the fritz"
 magic_fritz.1.a:0 "We must bring down ludo!"
 
 brush_up_event.1.t:0 "Brushing Up On Magical Combat"
 brush_up_event.1.d:0 "Write Something About River Helping Moon in training, but moon suprises him with her magic."
-brush_up_event.1.a:0 "It's the sentiment that counts. (MAKES MOON A FIELD MARSHAL)"
+brush_up_event.1.a:0 "It's the sentiment that counts."
 
 visit_avarius_family_event.1.t:0 "Keeping Up With The Avariuses"
 visit_avarius_family_event.1.d:0 "The episode where moon visits the avarius family"
