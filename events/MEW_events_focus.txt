@@ -41,6 +41,8 @@ add_namespace = ludo_confront_6
 add_namespace = ludo_confront_7
 add_namespace = ludo_confront_8
 
+add_namespace = trade_ports
+
 country_event = {
 	id = mewni_solaria.1
 	title = mewni_solaria.1.t
@@ -595,15 +597,19 @@ country_event = {
 	id = MEW_reform_economy_4.1
 	title = MEW_reform_economy_4.1.t
 	desc = MEW_reform_economy_4.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_keep_calm
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = MEW_reform_economy_4.1.a
 		ai_chance = { factor = 90 }
-		add_ideas = MEW_public_works
-		
+		add_ideas = MEW_public_works	
+	}
+	option = {
+		name = MEW_reform_economy_4.1.b
+		ai_chance = { factor = 10 }
+		add_ideas = MEW_public_works	
 	}
 }
 
@@ -670,7 +676,7 @@ country_event = {
 		id = brush_up_event.1
 		title = brush_up_event.1.t
 		desc = brush_up_event.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_river_corn
 	
 		is_triggered_only = yes
 	
@@ -686,21 +692,36 @@ country_event = {
 				attack_skill = 7
 				defense_skill = 2
 				planning_skill = 3
-				logistics_skill = 2
-}
-			
+				logistics_skill = 1
+			}
 		}
 }
+	
 	country_event = {
 		id = visit_avarius_family_event.1
 		title = visit_avarius_family_event.1.t
 		desc = visit_avarius_family_event.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_brudo_moon
 	
 		is_triggered_only = yes
 	
 		option = {
 			name = visit_avarius_family_event.1.a
+			ai_chance = { factor = 90 }
+			country_event = { id = visit_avarius_family_event.2 days = 1 }
+		
+		}
+}
+	country_event = {
+		id = visit_avarius_family_event.2
+		title = visit_avarius_family_event.2.t
+		desc = visit_avarius_family_event.2.d
+		picture = GFX_report_event_moon_dennis
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = visit_avarius_family_event.2.a
 			ai_chance = { factor = 90 }
 			create_country_leader = {
 				name = "King River of House Butterfly"
@@ -716,7 +737,7 @@ country_event = {
 		id = ensure_support_from_mhc_event.1
 		title = ensure_support_from_mhc_event.1.t
 		desc = ensure_support_from_mhc_event.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_commission
 	
 		is_triggered_only = yes
 	
@@ -817,19 +838,50 @@ country_event = {
 		id = ludo_confront_1.1
 		title = ludo_confront_1.1.t
 		desc = ludo_confront_1.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_commission_charge
 	
 		is_triggered_only = yes
 	
 		option = {
 			name = ludo_confront_1.1.a
 			ai_chance = { factor = 90 }
+			country_event = { id = ludo_confront_1.2 days = 1 }
+
+		
+		}
+}
+country_event = {
+		id = ludo_confront_1.2
+		title = ludo_confront_1.2.t
+		desc = ludo_confront_1.2.d
+		picture = GFX_report_event_commission_defeat
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = ludo_confront_1.2.a
+			ai_chance = { factor = 90 }
+			country_event = { id = ludo_confront_1.3 days = 1 }
+
+		
+		}
+}
+country_event = {
+		id = ludo_confront_1.3
+		title = ludo_confront_1.3.t
+		desc = ludo_confront_1.3.d
+		picture = GFX_report_event_toffee_ludo
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = ludo_confront_1.3.a
+			ai_chance = { factor = 90 }
 			country_event = { id = ludo_confront_2.1 days = 1 }
 
 		
 		}
 }
-
 	country_event = {
 		id = ludo_confront_2.1
 		title = ludo_confront_2.1.t
@@ -974,6 +1026,50 @@ country_event = {
 		
 			}
  
+		}
+
+	}
+	
+	country_event = {
+		id = trade_ports.1
+		title = trade_ports.1.t
+		desc = trade_ports.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = trade_ports.1.a
+			ai_chance = { factor = 99 }
+			add_political_power = -100
+			MEW = { 
+				remove_state_core = 273
+				add_offsite_building = {
+					type = industrial_complex
+					level = 2
+				}
+				add_offsite_building = {
+					type = arms_factory
+					level = 2
+				}
+				287 = {
+					add_resource = {
+						type = oil
+						amount = 16
+					}
+				}
+			}
+			CAL = {
+				transfer_state = 273
+				add_state_core = 273
+			}
+		}
+		
+		option = {
+			name = trade_ports.1.a
+			ai_chance = { factor = 99 }
+			add_political_power = 500
+			
 		}
 
 	}
