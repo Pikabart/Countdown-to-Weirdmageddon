@@ -15,7 +15,7 @@
 
 	focus = {
 		id = solaria_legacy
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_foucs_legacy_of_solaria
 		x = 10
 		y = 0
 		cost = 1
@@ -31,7 +31,7 @@
 	
 	focus = {
 		id = 300_peace
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_300_years_of_peace
 		x = 0
 		y = 1
 		relative_position_id = solaria_legacy 
@@ -49,7 +49,7 @@
 
 	focus = {
 		id = Butterfly_family
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_the_butterfly_family
 		x = 0
 		y = 1
 		relative_position_id = 300_peace
@@ -67,7 +67,7 @@
 
 	focus = {
 		id = Butterfly_prolouge_end
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_star_butterfly
 		x = 0
 		y = 1
 		relative_position_id = Butterfly_family 
@@ -85,7 +85,7 @@
 	
 	focus = {
 		id = corn_report
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_investigate_missing_corn_stocks
 		x = 1
 		y = 1
 		relative_position_id = Butterfly_prolouge_end
@@ -131,7 +131,7 @@
 	
 	focus = {
 		id = exterminators
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_assemble_royal_exterminators
 		x = 0
 		y = 2		
 		prerequisite = { focus = corn_report }
@@ -149,7 +149,7 @@
 	
 	focus = {
 		id = utilize_army
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_utilize_the_army
 		x = 0
 		y = 2		
 		prerequisite = { focus = exterminators }
@@ -167,7 +167,7 @@
 
 	focus = {
 		id = desperate_measures
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_desperate_measures
 		x = 0
 		y = 2
 		prerequisite = { focus = utilize_army }
@@ -185,7 +185,7 @@
 	
 	focus = {
 		id = hunt_rat
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_form_the_arat
 		x = 0
 		y = 2
 		prerequisite = { focus = desperate_measures }
@@ -205,7 +205,7 @@
 
 	focus = {
 		id = emergency_economics
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 4
 		y = 1	
 		prerequisite = { focus = corn_report }
@@ -223,7 +223,7 @@
 	
 	focus = {
 		id = emergency_economics_2
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		prerequisite = { focus = emergency_economics }
@@ -246,7 +246,7 @@
 
 	focus = {
 		id = emergency_economics_3
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_import_earth_machinery
 		x = 0
 		y = 1
 		prerequisite = { focus = emergency_economics_2 }
@@ -269,7 +269,7 @@
 	
 	focus = {
 		id = MEW_force_economy
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_double_down
 		x = -1
 		y = 1
 		prerequisite = { focus = emergency_economics_3 }
@@ -295,7 +295,7 @@
 	}
 	focus = {
 		id = MEW_force_economy_2
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		prerequisite = { focus = MEW_force_economy }
@@ -313,7 +313,7 @@
 	
 	focus = {
 		id = MEW_force_economy_3
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		prerequisite = { focus = MEW_force_economy_2 }
@@ -331,7 +331,7 @@
 	
 	focus = {
 		id = MEW_force_economy_4
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_continuous_suppression
 		x = 0
 		y = 1
 		prerequisite = { focus = MEW_force_economy_3 }
@@ -349,7 +349,7 @@
 	
 	focus = {
 		id = MEW_reform_economy
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_why_corn
 		x = 1
 		y = 1
 		prerequisite = { focus = emergency_economics_3 }
@@ -371,7 +371,7 @@
 	
 	focus = {
 		id = MEW_reform_economy_2
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_crop_variation
 		x = 0
 		y = 1
 		prerequisite = { focus = MEW_reform_economy }
@@ -389,7 +389,7 @@
 	
 	focus = {
 		id = MEW_reform_economy_3
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_foreign_economic_theory
 		x = 0
 		y = 1
 		prerequisite = { focus = MEW_reform_economy_2 }
@@ -407,7 +407,7 @@
 	
 	focus = {
 		id = MEW_reform_economy_4
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_continuous_non_factory_construct
 		x = 0
 		y = 1
 		prerequisite = { focus = MEW_reform_economy_3 }
@@ -425,7 +425,7 @@
 	
 	focus = {
 		id = MEW_economy_final
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_theoretical_magical_mechanization
 		x = 1
 		y = 1
 		prerequisite = { 
@@ -446,7 +446,7 @@
 	
 	focus = {
 		id = magic_fritz
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_the_magical_malfunction
 		x = -2
 		y = 1
 		prerequisite = { focus = MEW_economy_final }
@@ -466,7 +466,7 @@
 	
 	focus = {
 		id = visit_avarius_family
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_visit_the_avarius_family
 		x = 0
 		y = 1
 		prerequisite = { focus = magic_fritz }
@@ -486,7 +486,7 @@
 	
 	focus = {
 		id = ensure_support_from_mhc
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_ensure_support_from_the_mhc
 		x = 2
 		y = 1
 		prerequisite = { focus = magic_fritz }
@@ -505,7 +505,7 @@
 	
 	focus = {
 		id = brush_up
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_brush_up_on_magical_combat
 		x = -2
 		y = 1
 		prerequisite = { focus = magic_fritz }
@@ -524,7 +524,7 @@
 	
 	focus = {
 		id = song_day
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_stars_song_day
 		x = 0
 		y = 1
 		prerequisite = { focus = visit_avarius_family }
@@ -546,7 +546,7 @@
 	
 	focus = {
 		id = confront_ludo
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_confront_ludo
 		x = 0
 		y = 2
 		
