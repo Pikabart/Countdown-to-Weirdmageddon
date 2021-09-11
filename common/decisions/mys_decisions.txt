@@ -1,0 +1,67 @@
+#####################################################################################################################
+# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
+# ID's must not include spaces!
+# Decisions MUST be visible for the AI to execute them, if in doubt, switch tag to the AI country and check if they can see/execute the mission.
+#####################################################################################################################
+MYS_boss_mabel = {		
+	
+	mabel_promice = { 		#ID of the decision, must not contain spaces!
+
+		icon = GFX_decision_icon_default		
+		
+		available = {		
+		}
+		
+		fire_only_once = yes		#If set to yes, the decision will only appear once, after execution will not appear again.
+
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			#has_country_flag = 
+		}		
+
+		cost = 50		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		
+			#		
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+}	
+
+MYS_dipper_clone  = {		
+	copy_ten_dips = { 		#ID of the decision, must not contain spaces!
+
+		icon = GFX_decision_icon_default		
+		
+		available = {		
+		}
+		
+		fire_only_once = no		
+		
+		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
+			#has_country_flag = 
+		}		
+
+		cost = 50		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+
+		complete_effect = {		
+			add_manpower = 1000 #CHANGE LATER		
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 0			
+		}
+	}
+	
+	
+}

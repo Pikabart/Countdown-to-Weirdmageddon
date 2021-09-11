@@ -57,4 +57,25 @@ spriteTypes = {
 		name = "GFX_report_event_still_standing_stan"
 		texturefile = "gfx/event_country_pictures/MYS/report_event_still_standing_stan.dds"
 	}
+	
+	spriteType = { # gif test
+		name = "GFX_report_event_pine_or_star"
+		texturefile = "gfx/event_country_pictures/MYS/pine-or-star.dds"
+	}
+	
+	frameAnimatedSpriteType = {
+																				#usual stuff
+    	name = "GFX_report_event_pine_or_star"
+    	texturefile = "gfx/event_country_pictures/MYS/pine-or-star.dds"
+		
+    	noOfFrames = 17  														#toal frames, must be exact or erros occure
+    	loadType = "INGAME"
+    	transparencecheck = no
+    	animation_rate_fps = 4 													#frames per second, so if gif is several seconds, divid total frames accordingly 
+    	looping = yes
+    	play_on_show = yes
+    	pause_on_loop = 0.0
+	}
+
+	
 }

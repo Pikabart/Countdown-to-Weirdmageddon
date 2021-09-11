@@ -56,3 +56,26 @@ mewni_suppression_hostile = {
 	
 	visible_when_empty = no
 }
+
+MYS_boss_mabel = {
+	priority = 8
+	icon = GFX_category_icon
+	picture = GFX_category_image_template 
+	
+	allowed = { always = yes }
+	visible = { has_country_flag = mys_the_bet }
+	
+	visible_when_empty = no
+}
+
+MYS_dipper_clone = {
+	priority = 7
+	icon = GFX_category_icon
+	picture = GFX_category_image_template 
+	
+	allowed = { always = yes }
+	visible = { has_country_flag = mys_clones }
+	
+	visible_when_empty = no
+}
+

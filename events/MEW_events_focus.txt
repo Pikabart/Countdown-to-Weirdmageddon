@@ -990,7 +990,7 @@ country_event = {
 		
 			}
 		}
-}
+}  
 
 	country_event = {
 		id = ludo_confront_6.1
@@ -1017,12 +1017,22 @@ country_event = {
 			hidden_effect = {
 				news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }
 				JOH = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
-				LUC = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
-				PIG = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
-				PNY = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
-				SPI = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
-				JAG = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
-				LUD = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
+				LUC = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } 
+					set_cosmetic_tag = LUC_IND
+				}
+				PIG = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }
+					set_cosmetic_tag = PIG_IND
+				}
+				PNY = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } 
+					set_cosmetic_tag = PNY_IND
+				}
+				SPI = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } 
+					set_cosmetic_tag = SPI_IND
+				}
+				AIR = { set_cosmetic_tag = PIG_IND }
+				STI = { set_cosmetic_tag = LUC_IND }
+				JAG = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }}
+				LUD = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }}
 		
 			}
  
@@ -1057,16 +1067,21 @@ country_event = {
 						type = oil
 						amount = 16
 					}
+					add_resource = {
+						type = aluminum
+						amount = 16
+					}
 				}
 			}
 			CAL = {
 				transfer_state = 273
 				add_state_core = 273
 			}
+			set_province_name = { id = 338 name = "Fort Norton"}
 		}
 		
 		option = {
-			name = trade_ports.1.a
+			name = trade_ports.1.b
 			ai_chance = { factor = 99 }
 			add_political_power = 500
 			
