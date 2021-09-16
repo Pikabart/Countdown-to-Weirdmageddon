@@ -1,5 +1,7 @@
 ﻿l_english:
 
+
+
 tsr_alliance_proposal.1.t:0 "The Mewmans Propose An Alliance"
 tsr_alliance_proposal.1.d:0 "The recent civil strife in the Kingdom of Mewni is growing more and more desperate, and as the fate of the Mewman state hangs in the balance we have been given a unique oppurtunity. A Mewman delegate has come to the cream-lin, and is asking for our support in the inevitable conflict. \nOn one hand, if we side with Mewni and they win, we would be seen in great favor by them. We might even be formally entered into the Kingdom of Mewni, being given the same privleges as the other monster kingdoms underneath them. On the other hand, we would be serving our historical oppressers, who we only knelt to in the past for our own survival."
 tsr_alliance_proposal.1.a:0 "History has shown us that we are perfect partners to the Mewman, we accept!"
@@ -35,3 +37,7 @@ tsr_land_alliance_rejected_mew.1.a:0 "It was for the best"
 tsr_land_alliance_rejected_joh.1.t:0 "The Queen Protects Our Sovereignty!"
 tsr_land_alliance_rejected_joh.1.d:0 "In a deal that we were not made aware of, a warlord to the north wanted Boggabah in exchange for their support in the coming conflcit. The queen stood firm, and rejected them!"
 tsr_land_alliance_rejected_joh.1.a:0 "Big mcthankies from mcspankies"
+
+uneasy_peace.1.t:0 "The Uneasy Peace"
+uneasy_peace.1.d:0 "Along the border between Ludo's Loyalists and Moon's resistance, guards on each side exchange tense glances and stares. Most soldiers on both sides have never seen combat, the most one could have ever seen would be a bar brawl. Almost all are hesitant to break the 300 years of peace, and both sides don't want to be labeled as the one who broke it."
+uneasy_peace.1.a:0 "Good, it gives us more time to prepare."

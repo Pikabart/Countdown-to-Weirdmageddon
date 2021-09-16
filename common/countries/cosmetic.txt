@@ -1,0 +1,9 @@
+LUD = {
+ color = rgb { 6 91 12 }
+ color_ui = rgb { 6 91 12 }
+}
+
+MEW = {
+ color = rgb { 101 255 255 }
+ color_ui = rgb { 101 255 255 }
+}
