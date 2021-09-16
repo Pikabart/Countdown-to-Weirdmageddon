@@ -69,6 +69,16 @@ country_event = {
 		ai_chance = { factor = 90 }
 		create_faction = "Loyalist Front"
 		Add_to_faction = SPI
+		hidden_effect = {
+		news_event = { id = ludo_spider_alliance_news_event.1 days = 1 }
+		JOH = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		LUC = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		PIG = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		PNY = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		SPI = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		JAG = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		LUD = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		}
 	
 	}
 }

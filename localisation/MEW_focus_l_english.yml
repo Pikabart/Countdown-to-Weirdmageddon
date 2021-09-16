@@ -72,8 +72,8 @@ magic_fritz_desc:0 "It seems that our magic based systems are malfunctioning. We
 visit_avarius_family:0 "Visit The Avarius Family"
 visit_avarius_family_desc:0 "The magic fritz is most likley being caused by Ludo. Although we don't know his location, perhaps his family does. Thus, moon butterfly will ride out into the forest of certain death and personally ask them." 
 
-ensure_support_from_mhc:0 "Ensure Support From the MHC"
-ensure_support_from_mhc_desc:0 "Ludo has accses to the Magic Instruction Book and is only growing more powerful by the day. If moon is to take him down, she will need the full support and firepower of the Magic High Commision as well."
+ensure_support_from_mhc:0 "Inform the MHC"
+ensure_support_from_mhc_desc:0 "Ludo has accses to the Magic Instruction Book and is only growing more powerful by the day. If moon is to take him down, she will need the full support and firepower of the Magic High Commision as well. It's time to tell them."
 
 brush_up:0 "Brush Up On Magical Combat"
 brush_up_desc:0 "It has been a while since Moon Butterfly has trained her magical combat skills. She must brush up on them if she ever hopes to take down Ludo."
@@ -82,4 +82,4 @@ song_day:0 "Star's Song Day"
 song_day_desc:0 "Although the magic fritz is of extreme importance, the song day of Star Butterfly is coming up. This ancient tradition has the official songstrel of Mewni write a song dedicated to the heir of Mewni, and then perform it to the people. Other than being a fun conert, carrying out this tradition will bring a much needed sense of stability in these trying times."
 
 confront_ludo:0 "Confront Ludo"
-confront_ludo_desc:0 "The time has come. Ludo must be taken down."
+confront_ludo_desc:0 "The time has come. Ludo must fall."

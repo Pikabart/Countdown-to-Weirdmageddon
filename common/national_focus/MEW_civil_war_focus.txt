@@ -49,6 +49,7 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
+			dismantle_faction = yes
 			create_faction = "Butterfly Front"
 			Add_to_faction = JOH
 			hidden_effect = {

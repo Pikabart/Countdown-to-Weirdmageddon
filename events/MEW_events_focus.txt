@@ -845,8 +845,8 @@ country_event = {
 		option = {
 			name = ludo_confront_1.1.a
 			ai_chance = { factor = 90 }
-			country_event = { id = ludo_confront_1.2 days = 1 }
 
+				country_event = { id = ludo_confront_1.2 days = 1 }
 		
 		}
 }
@@ -861,8 +861,9 @@ country_event = {
 		option = {
 			name = ludo_confront_1.2.a
 			ai_chance = { factor = 90 }
-			country_event = { id = ludo_confront_1.3 days = 1 }
-
+			hidden_effect = {
+				country_event = { id = ludo_confront_1.3 days = 1 }
+			}
 		
 		}
 }
@@ -877,11 +878,13 @@ country_event = {
 		option = {
 			name = ludo_confront_1.3.a
 			ai_chance = { factor = 90 }
-			country_event = { id = ludo_confront_2.1 days = 1 }
-
+			hidden_effect = {
+				country_event = { id = ludo_confront_2.1 days = 1 }
+			}
 		
 		}
 }
+
 	country_event = {
 		id = ludo_confront_2.1
 		title = ludo_confront_2.1.t
@@ -893,7 +896,9 @@ country_event = {
 		option = {
 			name = ludo_confront_2.1.a
 			ai_chance = { factor = 90 }
-			country_event = { id = ludo_confront_3.1 days = 1 }
+			hidden_effect = {
+				country_event = { id = ludo_confront_3.1 days = 1 }
+			}
 		}
 }
 
@@ -908,15 +913,9 @@ country_event = {
 		option = {
 			name = ludo_confront_3.1.a
 			ai_chance = { factor = 90 }
-			country_event = { id = ludo_confront_4.1 days = 6 }
-			create_country_leader = {
-				name = "King Ludo of House Avarius"
-				desc = "placeholder"
-				picture = "hoi4_portrait_ludo_mew.dds"
-				ideology = oligarchism
-
-		}
+			
 			hidden_effect = {
+				country_event = { id = ludo_confront_4.1 days = 30 }
 				news_event = { id = mewni_ludo_coup_news_event.1 days = 1 }
 				JOH = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
 				LUC = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
@@ -941,7 +940,9 @@ country_event = {
 		option = {
 			name = ludo_confront_4.1.a
 			ai_chance = { factor = 90 }
-			country_event = { id = ludo_confront_5.1 days = 6 }
+			hidden_effect = {
+				country_event = { id = ludo_confront_5.1 days = 6 }
+			}
 		}
 }
 
@@ -963,22 +964,10 @@ country_event = {
 				ideology = oligarchism
 
 			}
-			LUD = { transfer_state = 266 }
-			LUD = { transfer_state = 331 }
-			LUD = { transfer_state = 269 }
-			LUD = { transfer_state = 272 }
-			LUD = { transfer_state = 280 }
-			LUD = { transfer_state = 458 }
-			LUD = { transfer_state = 457 }
-			LUD = { transfer_state = 343 }
-			LUD = { transfer_state = 349 }
-			LUD = { transfer_state = 345 }
-			LUD = { transfer_state = 334 }
-			LUD = { transfer_state = 332 }
-			LUD = { transfer_state = 333 }
 			add_war_support = 0.2
-			country_event = { id = ludo_confront_6.1 days = 6 }
+			
 			hidden_effect = {
+				country_event = { id = ludo_confront_6.1 days = 6 }
 				news_event = { id = mewni_kingdom_split_news_event.1 days = 1 }
 				JOH = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
 				LUC = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
@@ -987,7 +976,6 @@ country_event = {
 				SPI = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
 				JAG = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
 				LUD = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
-		
 			}
 		}
 }  
@@ -1003,17 +991,6 @@ country_event = {
 		option = {
 			name = ludo_confront_6.1.a
 			ai_chance = { factor = 90 }
-			dismantle_faction = yes
-			MEW = {
-				load_focus_tree = {
-				tree = mewni_civil_war_focus
-				keep_completed = yes
-				}
-			}
-			LUD = {
-				country_event = lud_focus_tree.1
-				
-			}
 			hidden_effect = {
 				news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }
 				JOH = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
@@ -1065,10 +1042,6 @@ country_event = {
 				287 = {
 					add_resource = {
 						type = oil
-						amount = 16
-					}
-					add_resource = {
-						type = aluminum
 						amount = 16
 					}
 				}

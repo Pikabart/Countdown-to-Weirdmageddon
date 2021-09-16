@@ -9,6 +9,7 @@ add_namespace = mewni_butterfly_front_news_event
 add_namespace = mewni_ludo_coup_news_event
 add_namespace = mewni_ludo_war_start_news_event
 add_namespace = mewni_tsardom_join_bf_news_event
+add_namespace = ludo_spider_alliance_news_event
 
 news_event = { #The Corn Crisis
 	id = mewni_corn_crisis_news_event.1
@@ -93,6 +94,23 @@ news_event = { #The Split of Mewni
 	option = {
 		name = mewni_kingdom_split_news_event.1.a
 		trigger = {	TAG = MEW} #mewni
+		hidden_effect = {			
+			LUD = { transfer_state = 266 }
+			LUD = { transfer_state = 331 }
+			LUD = { transfer_state = 269 }
+			LUD = { transfer_state = 272 }
+			LUD = { transfer_state = 280 }
+			LUD = { transfer_state = 458 }
+			LUD = { transfer_state = 457 }
+			LUD = { transfer_state = 343 }
+			LUD = { transfer_state = 349 }
+			LUD = { transfer_state = 345 }
+			LUD = { transfer_state = 334 }
+			LUD = { transfer_state = 332 }
+			LUD = { transfer_state = 333 }
+			set_cosmetic_tag = MEW
+
+		}
 	}
 	option = {
 		name = mewni_kingdom_split_news_event.1.b
@@ -124,7 +142,26 @@ news_event = { #The Collapse of Mewni
 	option = {
 		name = mewni_kingdom_collapse_news_event.1.a
 		trigger = {	TAG = MEW} #mewni
+		remove_from_faction = PIG
+		remove_from_faction = LUC
+		remove_from_faction = PNY
+		remove_from_faction = SPI
+		
+		
+			hidden_effect = {
+				MEW = {
+					load_focus_tree = {
+					tree = mewni_civil_war_focus
+					keep_completed = yes
+					}
+				}
+				LUD = {
+					country_event = lud_focus_tree.1
+				
+				}
+		}
 	}
+	
 	option = {
 		name = mewni_kingdom_collapse_news_event.1.b
 		trigger = {TAG = LUD} #ludo kingdom
@@ -217,6 +254,14 @@ news_event = { #The Ludo Coup
 	option = {
 		name = mewni_ludo_coup_news_event.1.a
 		trigger = {	TAG = MEW} #mewni
+		create_country_leader = {
+			name = "King Ludo of House Avarius"
+			desc = "placeholder"
+			picture = "hoi4_portrait_ludo_mew.dds"
+			ideology = oligarchism
+
+		}
+		set_cosmetic_tag = LUD
 	}
 	option = {
 		name = mewni_ludo_coup_news_event.1.b
@@ -224,6 +269,37 @@ news_event = { #The Ludo Coup
 	}
 	option = {
 		name = mewni_ludo_coup_news_event.1.c
+		trigger = {NOT={TAG = MEW}} #not mewni
+		trigger = {NOT={TAG = LUD}} #not ludo
+	}
+
+}
+
+news_event = { #The Loyalist front
+	id = ludo_spider_alliance_news_event.1
+	title = ludo_spider_alliance_news_event.1.t
+	desc = {
+		text = ludo_spider_alliance_news_event.1.d
+	}
+	
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ludo_spider_alliance_news_event.1.a
+		trigger = {	TAG = MEW} #mewni
+	}
+	option = {
+		name = ludo_spider_alliance_news_event.1.b
+		trigger = {TAG = LUD} #ludo kingdom
+	}
+	option = {
+		name = ludo_spider_alliance_news_event.1.c
 		trigger = {NOT={TAG = MEW}} #not mewni
 		trigger = {NOT={TAG = LUD}} #not ludo
 	}
