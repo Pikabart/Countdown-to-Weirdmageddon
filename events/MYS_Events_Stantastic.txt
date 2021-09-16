@@ -493,6 +493,14 @@ country_event = {
 	option = { 
 		name = stantastic_51.11.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		random_list = {
+			95 = {
+				set_country_flag = mys_please
+			}
+			5 = {
+				set_country_flag = mys_winning
+			}
+		}
 		custom_effect_tooltip = stantastic_51.11.tool		
 	}
 }	
