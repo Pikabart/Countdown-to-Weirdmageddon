@@ -1,0 +1,18 @@
+﻿l_english:
+
+ #For Oregon events
+ 
+ #1
+ CAL_START.1.t:0 "Alis Volat Propiis!"
+ ORE_START.1.d:0 ""
+ ORE_START.1.a:0 "On our own wings, we shall fly!"
+ ######################################################
+ #2
+ CAL_TREMBLEY.1.t:0 "The Cascadian Cold War Begins!"
+ CAL_TREMBLEY.1.d:0 ""
+ CAL_TREMBLEY.1.a:0 "Rush troops in, we must protect Northern California!"
+ 
+ CAL_ELECTION.1.t:0 "Emperor by Will oif the People"
+ CAL_ELECTION.1.d:0 ""
+ CAL_ELECTION.1.a:0 "God Save Norton and the California Republic!"
+ 

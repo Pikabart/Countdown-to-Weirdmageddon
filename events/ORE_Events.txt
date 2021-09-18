@@ -1,0 +1,222 @@
+﻿###########################
+# Oregon
+###########################
+
+add_namespace = ORE_START
+add_namespace = ORE_TREMBLEY
+add_namespace = ORE_FPI
+
+
+country_event = {
+	id = ORE_START.1
+	title = ORE_START.1.t
+	desc = ORE_START.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = ORE_START.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+############################################################################################################
+country_event = { # Trembley shows up
+	id = ORE_TREMBLEY.1
+	title = ORE_TREMBLEY.1.t
+	desc = ORE_TREMBLEY.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {	
+			WPI = { transfer_state = 92 add_state_core = 92 }
+			ORE = { remove_state_core = 92 }
+			EUS = { add_to_faction = WPI }
+		}
+	}
+	
+	option = { 
+		name = ORE_TREMBLEY.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = { 
+			country_event = { id = ORE_TREMBLEY.2 days = 3 } 
+			news_event = { id = launcher_news.2 days = 1 } # Launch event to launch world news event for Earth
+		}
+	}
+	option = { 
+		name = ORE_TREMBLEY.1.b
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = { 
+			country_event = { id = ORE_TREMBLEY.2 days = 3 } 
+			news_event = { id = launcher_news.2 days = 1 } # Launch event to launch world news event for Earth
+			WPI = { country_event = { id = WPI_TREMBLEY.1 days = 2 } }
+		}
+		WPI = { change_tag_from = ROOT} # Switch player nation to WPI
+	}
+}
+
+country_event = { #Interviewing Trembley
+	id = ORE_TREMBLEY.2
+	title = ORE_TREMBLEY.2.t
+	desc = ORE_TREMBLEY.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = ORE_TREMBLEY.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = ORE_TREMBLEY.3 days = 3 }
+		WPI = { country_event = { id = WPI_TREMBLEY.3 days = 3 } }
+	}
+}
+
+country_event = { # Onyx meets Shroud - ORE POV
+	id = ORE_TREMBLEY.3
+	title = ORE_TREMBLEY.3.t
+	desc = ORE_TREMBLEY.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = ORE_TREMBLEY.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = ORE_TREMBLEY.4 days = 3 }
+	}
+}
+
+country_event = { #Colonel Northwest and Secretary Chiu
+	id = ORE_TREMBLEY.4
+	title = ORE_TREMBLEY.4.t
+	desc = ORE_TREMBLEY.4.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = ORE_TREMBLEY.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = ORE_TREMBLEY.5 days = 3 }
+	}
+}
+
+country_event = { #Onyx Descision
+	id = ORE_TREMBLEY.5
+	title = ORE_TREMBLEY.5.t
+	desc = ORE_TREMBLEY.5.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = ORE_TREMBLEY.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = ORE_TREMBLEY.6 days = 3 }
+		WPI = { country_event = { id = WPI_TREMBLEY.4 days = 3 } }
+	}
+	option = { 
+		name = ORE_TREMBLEY.5.b
+		ai_chance = { factor = 0 }	# 100% AI choose this
+		country_event = { id = ORE_TREMBLEY.7 days = 3 }
+		WPI = { country_event = { id = WPI_TREMBLEY.5 days = 3 } }
+	}
+}
+
+country_event = { # Trembley declares Rival government
+	id = ORE_TREMBLEY.6
+	title = ORE_TREMBLEY.6.t
+	desc = ORE_TREMBLEY.6.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = ORE_TREMBLEY.6.a
+		ai_chance = { factor = 99 }	# 95% AI choose this
+		
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Quentin Trembley"
+			desc = "placeholder"
+			picture = "hoi4_portrait_trembley.dds"
+			ideology = liberalism #conservatism
+		}
+		hidden_effect={
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+			set_politics = {
+				ruling_party = democratic
+			}		
+		}
+		set_party_name = {
+			ideology = democratic
+			name = ORE_democratic_party_trembley
+			long_name = ORE_democratic_party_trembley
+		}
+		hidden_effect = { 
+			country_event = { id = ORE_TREMBLEY.8 days = 3 } 
+			news_event = { id = launcher_news.3 days = 1 } # Launch event to launch world news event for Earth
+		}
+	}
+}
+
+country_event = { #Onyx gives Trembley up
+	id = ORE_TREMBLEY.7
+	title = ORE_TREMBLEY.7.t
+	desc = ORE_TREMBLEY.7.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = ORE_TREMBLEY.7.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		#country_event = { id =  days = 5 }
+	}
+}
+
+country_event = { #border wars
+	id = ORE_TREMBLEY.8
+	title = ORE_TREMBLEY.8.t
+	desc = ORE_TREMBLEY.8.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = ORE_TREMBLEY.8.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		CAL = {country_event = { id = CAL_TREMBLEY.1 days = 5 } }
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+##############################################
+# 
+# 
+#############################################
+
+
+
+
+
+
+
+
+
+

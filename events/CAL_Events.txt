@@ -1,0 +1,97 @@
+﻿###########################
+# California
+###########################
+
+add_namespace = CAL_START
+add_namespace = CAL_TREMBLEY
+add_namespace = CAL_ELECTION
+
+
+
+country_event = {
+	id = CAL_START.1
+	title = CAL_START.1.t
+	desc = CAL_START.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_START.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+############################################################################################################
+country_event = { # Oregon FPI Standoff
+	id = CAL_TREMBLEY.1
+	title = CAL_TREMBLEY.1.t
+	desc = CAL_TREMBLEY.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {	
+			WPI = { transfer_state = 92 add_state_core = 92 }
+			ORE = { remove_state_core = 92 }
+			EUS = { add_to_faction = WPI }
+		}
+	}
+	
+	option = { 
+		name = CAL_TREMBLEY.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = CAL_ELECTION.1 days = 5}
+	}
+	
+}
+
+country_event = { # California chooses Norton for Governor
+	id = CAL_ELECTION.1
+	title = CAL_ELECTION.1.t
+	desc = CAL_ELECTION.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {	
+			WPI = { transfer_state = 92 add_state_core = 92 }
+			ORE = { remove_state_core = 92 }
+			EUS = { add_to_faction = WPI }
+		}
+	}
+	
+	option = { 
+		name = CAL_ELECTION.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Joshua Norton"
+			desc = "placeholder"
+			picture = "hoi4_portrait_norton_v1.dds"
+			ideology = liberalism #conservatism
+		}
+		hidden_effect={
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+			set_politics = {
+				ruling_party = democratic
+			}		
+		}
+		set_party_name = {
+			ideology = democratic
+			name = CAL_democratic_party_norton
+			long_name = CAL_democratic_party_norton
+		}
+		
+		hidden_effect = {  
+			news_event = { id = launcher_news.4 days = 1 } # Launch event to launch world news event for Earth
+		}
+		#country_event = { id = CAL_ELECTION.2 days = 3 }
+	}
+	
+}
