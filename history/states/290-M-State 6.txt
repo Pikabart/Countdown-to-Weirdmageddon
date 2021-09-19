@@ -21,7 +21,8 @@ state={
 		499 2441 2705 5683 8453 
 	}
 	
-	manpower=2000
+	
+	manpower=5900000
 	buildings_max_level_factor=1.000
 	state_category=town
 }

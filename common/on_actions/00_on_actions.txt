@@ -6,4 +6,16 @@ on_actions = {
 	#		}
 	#	}
 	#}
+	
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					original_tag = LUD
+				}
+				MEW = { country_event = { id = ludo_defeated.1 days = 3 }}
+			}
+		}
+	
+	}
 }

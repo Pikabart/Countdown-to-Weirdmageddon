@@ -40,6 +40,7 @@ add_namespace = ludo_confront_5
 add_namespace = ludo_confront_6
 add_namespace = ludo_confront_7
 add_namespace = ludo_confront_8
+add_namespace = jaggy_collapse
 
 add_namespace = trade_ports
 
@@ -513,18 +514,46 @@ country_event = {
 	option = {
 		name = force_economy_4.1.a
 		ai_chance = { factor = 50 }
-		set_global_flag = mew_suppression_trigger_peaceful
-		custom_effect_tooltip = "mew_suppression_trigger_peaceful_tooltip"
+		add_stability = 0.05
 		
 	}
 
 	option = {
 		name = force_economy_4.2.a
 		ai_chance = { factor = 50 }
-		set_global_flag = mew_suppression_trigger_hostile
-		custom_effect_tooltip = "mew_suppression_trigger_hostile_tooltip"
+		add_stability = 0.1
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -200
+			producer = MEW
+		}
+		
 	}
 }
+
+#country_event = {
+#	id = force_economy_4.1
+#	title = force_economy_4.1.t
+#	desc = force_economy_4.1.d
+#	picture = GFX_report_event_chinese_soldiers_fighting
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = force_economy_4.1.a
+#		ai_chance = { factor = 50 }
+#		set_global_flag = mew_suppression_trigger_peaceful
+#		custom_effect_tooltip = "mew_suppression_trigger_peaceful_tooltip"
+#		
+#	}
+#
+#	option = {
+#		name = force_economy_4.2.a
+#		ai_chance = { factor = 50 }
+#		set_global_flag = mew_suppression_trigger_hostile
+#		custom_effect_tooltip = "mew_suppression_trigger_hostile_tooltip"
+#	}
+#}
 
 
 country_event = {
@@ -825,7 +854,7 @@ country_event = {
 		option = {
 			name = song_day_event_good.1.a
 			ai_chance = { factor = 90 }
-			add_stability = 0.15
+			add_stability = 0.1
 		
 		}
 }
@@ -915,7 +944,7 @@ country_event = {
 			ai_chance = { factor = 90 }
 			
 			hidden_effect = {
-				country_event = { id = ludo_confront_4.1 days = 30 }
+				country_event = { id = ludo_confront_4.1 days = 20 }
 				news_event = { id = mewni_ludo_coup_news_event.1 days = 1 }
 				JOH = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
 				LUC = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
@@ -1010,12 +1039,44 @@ country_event = {
 				STI = { set_cosmetic_tag = LUC_IND }
 				JAG = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }}
 				LUD = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }}
+				UKN = { country_event = { id = jaggy_collapse.1 days = 7 } }
 		
 			}
  
 		}
 
 	}
+	
+	country_event = {
+		id = jaggy_collapse.1
+		title = jaggy_collapse.1.t
+		desc = jaggy_collapse.1.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = jaggy_collapse.1.a
+			ai_chance = { factor = 90 }
+			transfer_state = 364
+			transfer_state = 365
+			transfer_state = 366
+			transfer_state = 367
+			transfer_state = 368
+			transfer_state = 391
+			transfer_state = 392
+			transfer_state = 396
+				MEW = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
+				JOH = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
+				LUC = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
+				PIG = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
+				PNY = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
+				SPI = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
+				JAG = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
+				LUD = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
+			
+		}
+}
 	
 	country_event = {
 		id = trade_ports.1

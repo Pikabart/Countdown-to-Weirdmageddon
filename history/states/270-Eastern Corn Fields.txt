@@ -23,7 +23,8 @@ state={
 		212 248 1324 2814 4688 8246 8370 8429 
 	}
 	
-	manpower=5000
+	manpower=15000000
 	buildings_max_level_factor=1.000
 	state_category=town
+
 }

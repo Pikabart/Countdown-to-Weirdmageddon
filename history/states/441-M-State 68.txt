@@ -5,8 +5,8 @@ state={
 		owner = TSR
 		add_core_of = TSR
 		buildings = {
-			arms_factory = 0
-			industrial_complex = 0
+			arms_factory = 5
+			industrial_complex = 3
 			
 			infrastructure = 6
 			air_base = 0
@@ -20,7 +20,11 @@ state={
 		3482 3967 5512 5665 7843 
 	}
 	
-	manpower=4000
+	resources={
+		steel=21
+	}
+	
+	manpower=1400000
 	buildings_max_level_factor=1.000
 	state_category=town
 }

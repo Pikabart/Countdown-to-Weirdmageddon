@@ -19,7 +19,7 @@ state={
 		535 2091 8491 8520 
 	}
 	
-	manpower=6000
+	manpower=2561000
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

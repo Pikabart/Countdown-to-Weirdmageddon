@@ -39,7 +39,10 @@ set_technology = {
 	
 }
 
-#oob = "GTF_2012"
+#order of battle, AKA the units/armies that will be available
+
+oob = "JOH_2012"
+
 set_research_slots = 3
 set_convoys = 50
 set_stability = 0.70

@@ -18,7 +18,10 @@ state={
 	provinces={
 		1042 2380 2469 4921 5868 8169 8209 8262 
 	}
-	
+
+	resources={
+		steel=21
+	}
 	manpower=4000
 	buildings_max_level_factor=1.000
 	state_category=town

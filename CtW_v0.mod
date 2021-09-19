@@ -4,6 +4,7 @@ tags={
 	"Utilities"
 }
 replace_path="history/states"
+replace_path="localisation/victory_points_l_english"
 replace_path="common/ai_areas"
 replace_path="common/ai_peace"
 replace_path="common/ai_strategy"

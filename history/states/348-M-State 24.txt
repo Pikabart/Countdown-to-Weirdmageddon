@@ -14,12 +14,20 @@ state={
 			anti_air_building = 0
 			radar_station = 0
 		}
+		
+		victory_points = {
+			2237 25
+		}
 	}
 	
 	provinces={
 		1407 2237 3500 6290 6516 7107 7849 7881 
 	}
-	
+
+	resources={
+		steel=40
+	}
+
 	manpower=4000
 	buildings_max_level_factor=1.000
 	state_category=town

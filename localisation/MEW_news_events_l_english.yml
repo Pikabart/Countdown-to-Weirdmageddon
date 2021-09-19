@@ -36,6 +36,11 @@ mewni_ludo_coup_news_event.1.a:0 "Where are you, Queen Moon!?"
 mewni_ludo_coup_news_event.1.b:0 "."
 mewni_ludo_coup_news_event.1.c:0 "How could this happen so quickly!?"
 
+jaggy_collapse_news_event.1.t:0 "The Jaggy Kingdom Collapses!"
+jaggy_collapse_news_event.1.d:0 "The nothern most Mewman vassal kingdom, the Jaggy Kingdom, has collapsed! With supply lines unable to reach the unfarmable mountains of the Jaggy Kingdom, starvation has engulfed the sparse populace and raiding of government food stocks has become common place. Information from the kingdom in few and far between, but it is currently beleived that Crown Princess Jags has fled over-dimensions.\n\nThis leaves the kingdom in a state of absolute anarchy, and factions are sure to start forming. However, the fog of war has obscured any information coming out of the reigon."
+jaggy_collapse_news_event.1.a:0 "Only one ally remains..."
+jaggy_collapse_news_event.1.c:0 "Interesting"
+
 mewni_ludo_war_start_news_event.1.t:0 "The Battle For Mewni"
 mewni_ludo_war_start_news_event.1.d:0 "Some say the Queen started it, a peasant brigade getting unruly and crossing the border. Some say Ludo started it, a team of rats ambushing a peasant. But at this point it doesn't matter, the civil war has started.\n\nAlready, swarms of rats pour out into the country side as mewman peasants stand to face them. The last time a war was fought on Mewman homelands was 500 years ago, even Solaria's generation never knew what war on home soil would be like. However, this generation will."
 mewni_ludo_war_start_news_event.1.a:0 "We will reclaim the Mewman homelands from this usurper! For the Queen!"
