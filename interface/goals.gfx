@@ -106,6 +106,45 @@ spriteTypes = {
 	name = "GFX_goal_focus_confront_ludo"
 	texturefile = "gfx/interface/goals/focus_confront_ludo.dds"			
 	}
+	
+	##################
+	#civil war focues#
+	##################
+	
+	SpriteType = {
+	name = "GFX_goal_focus_bearings"
+	texturefile = "gfx/interface/goals/focus_bearings.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_butterfly_front"
+	texturefile = "gfx/interface/goals/focus_butterfly_front.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_mobilize_populace"
+	texturefile = "gfx/interface/goals/focus_mobilize_populace.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_emergency_conscription"
+	texturefile = "gfx/interface/goals/focus_emergency_conscription.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_pull_all_strings"
+	texturefile = "gfx/interface/goals/focus_pull_all_strings.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_foreign_advisors"
+	texturefile = "gfx/interface/goals/focus_foreign_advisors.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_emergency_equality"
+	texturefile = "gfx/interface/goals/focus_emergency_equality.dds"			
+	}
 
 	SpriteType = {
 	name = "GFX_goal_continuous_air_production"

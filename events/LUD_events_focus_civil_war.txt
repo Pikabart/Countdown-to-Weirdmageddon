@@ -71,6 +71,7 @@ country_event = {
 		Add_to_faction = SPI
 		hidden_effect = {
 		news_event = { id = ludo_spider_alliance_news_event.1 days = 1 }
+		MEW = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
 		JOH = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
 		LUC = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
 		PIG = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }

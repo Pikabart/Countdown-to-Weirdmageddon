@@ -17,12 +17,16 @@ state={
 	
 		victory_points = { 302 5 }
 	}
+
+	resources={
+		steel=21
+	}
 	
 	provinces={
 		302 1268 3728 4052 4517 5278 5954 6108 6821 8306 8326 8375 
 	}
 	
-	manpower=5500
+	manpower=2415500
 	buildings_max_level_factor=1.000
 	state_category=town
 }

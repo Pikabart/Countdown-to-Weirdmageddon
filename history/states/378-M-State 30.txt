@@ -22,7 +22,7 @@ state={
 		1015 3662 3909 4036 4687 5991 7003 7916 
 	}
 	
-	manpower=5000
+	manpower=1200000
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

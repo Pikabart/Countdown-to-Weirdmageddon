@@ -10,8 +10,8 @@ tsr_alliance_proposal.3.a:0 "What if we... got some... land in exchange? Haha jk
 
 tsr_wants_land.1.t:0 "The Tsar Wants Land!"
 tsr_wants_land.1.d:0 "Our delegation to the Monster Tsardom has returned with news: The monsters will support us in the coming conflict, as long as they get the reigons of Boggabah and Skywyne Institute. As the Johansen Kingdom recognizes us as their superior, we have ultimate say in this matter despite Boggabah being owned by them. Although this problem may arise in the future, once we win the civil war and we are no longer united by a common enemy. \n\nHow should we respond?"
-tsr_wants_land.1.a:0 ""Your terms are acceptable. Welcome to the Butterfly Front!""
-tsr_wants_land.2.a:0 ""Those lands are important pieces of Mewman pride. Your terms are unnacaptable.""
+tsr_wants_land.1.a:0 "Your terms are acceptable. Welcome to the Butterfly Front!"
+tsr_wants_land.2.a:0 "Those lands are important pieces of Mewman pride. Your terms are unnacaptable."
 
 tsr_land_alliance_accepted.1.t:0 "The Land Exchange Is Approved!"
 tsr_land_alliance_accepted.1.d:0 "The land exchange has been approved, we are now part of the Butterfly Front!"

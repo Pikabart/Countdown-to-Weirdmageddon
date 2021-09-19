@@ -15,6 +15,8 @@ add_namespace = tsr_land_alliance_rejected_joh
 add_namespace = tsr_land_alliance_rejected_mew
 add_namespace = uneasy_peace
 add_namespace = import_airplanes_event
+add_namespace = ludo_defeated
+add_namespace = alpha_end
 
 
 country_event = {
@@ -243,6 +245,36 @@ country_event = {
 	
 	option = {
 		name = tsr_land_alliance_rejected_joh.1.a
+		ai_chance = { factor = 90 }
+
+	}
+}
+
+country_event = {
+	id = alpha_end.1
+	title = alpha_end.1.t
+	desc = alpha_end.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = alpha_end.1.a
+		ai_chance = { factor = 90 }
+
+	}
+}
+
+country_event = {
+	id = ludo_defeated.1
+	title = ludo_defeated.1.t
+	desc = ludo_defeated.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ludo_defeated.1.a
 		ai_chance = { factor = 90 }
 
 	}

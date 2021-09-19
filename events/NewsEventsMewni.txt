@@ -10,6 +10,7 @@ add_namespace = mewni_ludo_coup_news_event
 add_namespace = mewni_ludo_war_start_news_event
 add_namespace = mewni_tsardom_join_bf_news_event
 add_namespace = ludo_spider_alliance_news_event
+add_namespace = jaggy_collapse_news_event
 
 news_event = { #The Corn Crisis
 	id = mewni_corn_crisis_news_event.1
@@ -146,7 +147,8 @@ news_event = { #The Collapse of Mewni
 		remove_from_faction = LUC
 		remove_from_faction = PNY
 		remove_from_faction = SPI
-		
+		custom_effect_tooltip = "new_focus_tree_tooltip"
+
 		
 			hidden_effect = {
 				MEW = {
@@ -271,6 +273,32 @@ news_event = { #The Ludo Coup
 		name = mewni_ludo_coup_news_event.1.c
 		trigger = {NOT={TAG = MEW}} #not mewni
 		trigger = {NOT={TAG = LUD}} #not ludo
+	}
+
+}
+
+news_event = { #collapse of jaggy
+	id = jaggy_collapse_news_event.1
+	title = jaggy_collapse_news_event.1.t
+	desc = {
+		text = jaggy_collapse_news_event.1.d
+	}
+	
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = jaggy_collapse_news_event.1.a
+		trigger = {	TAG = MEW} #mewni
+	}
+	option = {
+		name = jaggy_collapse_news_event.1.c
+		trigger = {NOT={TAG = MEW}} #not mewni
 	}
 
 }

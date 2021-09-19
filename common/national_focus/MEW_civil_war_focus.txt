@@ -14,7 +14,7 @@
 
 	focus = {
 		id = get_our_bearings
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_bearings
 		x = 10
 		y = 0
 		cost = 1
@@ -33,7 +33,7 @@
 	
 		focus = {
 		id = butterfly_front
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_butterfly_front
 		x = 0
 		y = 1
 		cost = 5
@@ -93,7 +93,7 @@
 	
 	focus = {
 		id = mobilize_populace
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_mobilize_populace
 		x = 0
 		y = 2
 		cost = 5
@@ -116,7 +116,7 @@
 	
 	focus = {
 		id = import_airplanes
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_air_fighter2
 		x = -1
 		y = 1
 		cost = 5
@@ -139,7 +139,7 @@
 	
 	focus = {
 		id = emergency_conscription
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_emergency_conscription
 		x = 1
 		y = 1
 		relative_position_id = mobilize_populace
@@ -213,7 +213,7 @@
 	
 	focus = {
 		id = pull_all_strings
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_pull_all_strings
 		x = 0
 		y = 2
 		cost = 5
@@ -236,7 +236,7 @@
 	
 	focus = {
 		id = emergency_visas
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_foreign_advisors
 		x = -1
 		y = 1
 		cost = 5
@@ -259,7 +259,7 @@
 	
 	focus = {
 		id = emergency_equality
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_emergency_equality
 		x = 1
 		y = 1
 		cost = 5
@@ -282,7 +282,7 @@
 	
 	focus = {
 		id = strike_first
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_confront_ludo
 		x = 0
 		y = 2
 		cost = 5
