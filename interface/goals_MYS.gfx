@@ -6,32 +6,32 @@ spriteTypes = {
 
 	SpriteType = {
 	name = "GFX_goal_focus_the_shack"
-	texturefile = "gfx/interface/goals/focus_shack_1.dds"			
+	texturefile = "gfx/interface/goals/MYS/focus_shack_1.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_goal_focus_vending_machine"
-	texturefile = "gfx/interface/goals/focus_vending_2.dds"			
+	texturefile = "gfx/interface/goals/MYS/focus_vending_2.dds"			
 	}
 
 	SpriteType = {
 	name = "GFX_goal_focus_the_staff"
-	texturefile = "gfx/interface/goals/focus_the_staff.dds"			
+	texturefile = "gfx/interface/goals/MYS/focus_the_staff.dds"			
 	}
 
 	SpriteType = {
 	name = "GFX_goal_focus_the_twins"
-	texturefile = "gfx/interface/goals/focus_twins.dds"			
+	texturefile = "gfx/interface/goals/MYS/focus_twins.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_goal_focus_journal_3"
-	texturefile = "gfx/interface/goals/focus_journal_3.dds"			
+	texturefile = "gfx/interface/goals/MYS/focus_journal_3.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_goal_focus_stan_run"
-	texturefile = "gfx/interface/goals/focus_stan_run.dds"			
+	texturefile = "gfx/interface/goals/MYS/focus_stan_run.dds"			
 	}
 
 

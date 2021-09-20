@@ -5,10 +5,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_goal_focus_the_shack_shine"
-		texturefile = "gfx/interface/goals/focus_shack_1.dds"
+		texturefile = "gfx/interface/goals/MYS/focus_shack_1.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_shack_1.dds"
+			animationmaskfile = "gfx/interface/goals/MYS/focus_shack_1.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -21,7 +21,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_shack_1.dds"
+			animationmaskfile = "gfx/interface/goals/MYS/focus_shack_1.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -37,10 +37,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_goal_focus_vending_machine_shine"
-		texturefile = "gfx/interface/goals/focus_vending_2.dds"
+		texturefile = "gfx/interface/goals/MYS/focus_vending_2.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_vending_2.dds"
+			animationmaskfile = "gfx/interface/goals/MYS/focus_vending_2.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -53,7 +53,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_vending_2.dds"
+			animationmaskfile = "gfx/interface/goals/MYS/focus_vending_2.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -69,10 +69,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_goal_focus_the_staff_shine"
-		texturefile = "gfx/interface/goals/focus_the_staff.dds"
+		texturefile = "gfx/interface/goals/MYS/focus_the_staff.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_the_staff.dds"
+			animationmaskfile = "gfx/interface/goals/MYS/focus_the_staff.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -85,7 +85,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_the_staff.dds"
+			animationmaskfile = "gfx/interface/goals/MYS/focus_the_staff.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -101,10 +101,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_goal_focus_the_twins_shine"
-		texturefile = "gfx/interface/goals/focus_twins.dds"
+		texturefile = "gfx/interface/goals/MYS/focus_twins.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_twins.dds"
+			animationmaskfile = "gfx/interface/goals/MYS/focus_twins.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -117,7 +117,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_twins.dds"
+			animationmaskfile = "gfx/interface/goals/MYS/focus_twins.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -135,10 +135,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_goal_focus_stan_run_shine"
-		texturefile = "gfx/interface/goals/focus_stan_run.dds"
+		texturefile = "gfx/interface/goals/MYS/focus_stan_run.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_stan_run.dds"
+			animationmaskfile = "gfx/interface/goals/MYS/focus_stan_run.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -151,7 +151,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_stan_run.dds"
+			animationmaskfile = "gfx/interface/goals/MYS/focus_stan_run.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -167,10 +167,10 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_goal_focus_journal_3_shine"
-		texturefile = "gfx/interface/goals/focus_journal_3.dds"
+		texturefile = "gfx/interface/goals/MYS/focus_journal_3.dds"
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_journal_3.dds"
+			animationmaskfile = "gfx/interface/goals/MYS/focus_journal_3.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -183,7 +183,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_journal_3.dds"
+			animationmaskfile = "gfx/interface/goals/MYS/focus_journal_3.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
