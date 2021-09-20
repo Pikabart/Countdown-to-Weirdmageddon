@@ -20,6 +20,7 @@ WAS = "countries/E-Washington.txt"
 SOC = "countries/E-Southern California.txt"
 EUS = "countries/E-Eastern US.txt"
 EPI = "countries/E-Eastern FPI.txt"
+WPI = "countries/E-Western FPI.txt"
 CAN = "countries/E-Canada.txt"
 MEX = "countries/E-Mexico.txt"
 KER = "countries/E-Kerfuffle.txt"
@@ -36,6 +37,7 @@ LUC = "countries/M-Lucitor Kingdom.txt"
 JAG = "countries/M-Jaggy Kingdom.txt"
 PIE = "countries/M-Pie Folk.txt"
 LUD = "countries/M-Ludo's Kingdom.txt"
+
 
 #Mewni_Monsters
 ICH = "countries/Monst-Itchy Kingdom.txt"

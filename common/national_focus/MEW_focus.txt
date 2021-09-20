@@ -12,6 +12,10 @@
 	default = no
 	reset_on_civilwar = no
 
+	continuous_focus_position = { x = 50 y = 50 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+#################################
 
 	focus = {
 		id = solaria_legacy
@@ -86,7 +90,7 @@
 	focus = {
 		id = corn_report
 		icon = GFX_goal_focus_investigate_missing_corn_stocks
-		x = 3
+		x = 0
 		y = 1
 		relative_position_id = Butterfly_prolouge_end
 		prerequisite = { focus = Butterfly_prolouge_end }
@@ -109,7 +113,7 @@
 	focus = {
 		id = ludo_path
 		icon = GFX_goal_generic_allies_build_infantry
-		x = -3
+		x = -5
 		y = 1
 		relative_position_id = Butterfly_prolouge_end
 		prerequisite = { focus = Butterfly_prolouge_end }		
@@ -129,12 +133,14 @@
 		}
 	}
 	
+	##########################################################
+	
 	focus = {
 		id = exterminators
 		icon = GFX_goal_focus_assemble_royal_exterminators
-		x = 0
-		y = 2	
-		prerequisite = { focus = emergency_economics_3 }
+		x = -1
+		y = 2		
+		prerequisite = { focus = emergency_economics }
 		relative_position_id = emergency_economics_3
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -148,9 +154,30 @@
 	}
 	
 	focus = {
+		id = hunt_rat
+		icon = GFX_goal_focus_form_the_arat
+		x = 1
+		y = 2
+		prerequisite = { focus = emergency_economics }
+		relative_position_id = emergency_economics_3
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 4
+		
+		available_if_capitulated = yes
+		
+		completion_reward = {
+			country_event = hunt_rat.1
+			set_country_flag = A-RAT_founded
+			custom_effect_tooltip = "hunt_rat_custom_tooltip"
+
+		}
+	}
+	
+	focus = {
 		id = utilize_army
 		icon = GFX_goal_focus_utilize_the_army
-		x = 0
+		x = 1
 		y = 1		
 		prerequisite = { focus = exterminators }
 		relative_position_id = exterminators
@@ -183,28 +210,9 @@
 		}
 	}
 	
-	focus = {
-		id = hunt_rat
-		icon = GFX_goal_focus_form_the_arat
-		x = 1
-		y = 1
-		prerequisite = { focus = desperate_measures }
-		relative_position_id = desperate_measures
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		cost = 4
-		
-		available_if_capitulated = yes
-		
-		completion_reward = {
-			country_event = hunt_rat.1
-			set_global_flag = A-RAT_founded
-			custom_effect_tooltip = "hunt_rat_custom_tooltip"
+	
 
-		}
-	}
-
-
+###################################################################################
 	focus = {
 		id = emergency_economics
 		icon = GFX_goal_generic_construct_civ_factory
@@ -264,15 +272,19 @@
 				remove_idea = MEW_emergency_economics_2
 				add_idea = MEW_emergency_economics_3_display
 			}	
-			hidden_effect = { country_event = { id = emergency_economics_3.1 days = 7 }}
+			hidden_effect = { 
+				country_event = { id = emergency_economics_3.1 days = 7 }
+			}
 		
 		}
 	}
 	
+	#########################################################
+	
 	focus = {
 		id = MEW_force_economy
 		icon = GFX_goal_focus_double_down
-		x = -2
+		x = -3
 		y = 1
 		prerequisite = { focus = emergency_economics_3 }
 		relative_position_id = emergency_economics_3
@@ -350,10 +362,12 @@
 		}
 	}
 	
+	################################################################
+	
 	focus = {
 		id = MEW_reform_economy
 		icon = GFX_goal_focus_why_corn
-		x = 2
+		x = 3
 		y = 1
 		prerequisite = { focus = emergency_economics_3 }
 		relative_position_id = emergency_economics_3
@@ -403,8 +417,9 @@
 		
 		available_if_capitulated = yes
 
-		completion_reward = {
+		completion_reward = { 
 			country_event = MEW_reform_economy_3.1
+			CAL = { country_event = { id = CAL_TWOWORLDS.1 days = 7 } }
 		}
 	}
 	
@@ -428,16 +443,19 @@
 		}
 	}
 	
+	##########################################################
+	
 	focus = {
 		id = MEW_economy_final
 		icon = GFX_goal_focus_theoretical_magical_mechanization
-		x = 1
+		x = 0
 		y = 1
 		prerequisite = { 
 			focus = MEW_reform_economy_4 
 			focus = MEW_force_economy_4
 		}
-		relative_position_id = MEW_force_economy_4
+		prerequisite = { focus = hunt_rat }
+		relative_position_id = desperate_measures
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 
 		cost = 6
@@ -452,12 +470,11 @@
 	focus = {
 		id = magic_fritz
 		icon = GFX_goal_focus_the_magical_malfunction
-		x = 1
-		y = 1
+		x = 0
+		y = 2
 		prerequisite = { focus = MEW_economy_final }
-		prerequisite = { focus = hunt_rat }
 		available = { has_global_flag = rats_hunted_with_magic }
-		relative_position_id = MEW_economy_final
+		relative_position_id = desperate_measures
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
 		cost = 6

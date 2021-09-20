@@ -1,0 +1,19 @@
+﻿focus_tree = {
+	id = blank_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 100 # 100% KER get focus, 0% everyone else, so basicly gurrenteed
+			tag = KER
+		}
+		modifier = {
+			add = 100 # 100% UKN get focus, 0% everyone else, so basicly gurrenteed
+			tag = UKN
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+}

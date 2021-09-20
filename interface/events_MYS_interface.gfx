@@ -1,5 +1,5 @@
 ##########
-# MYS country event picture interface
+# MYS country event and decisions picture interface
 ############
 spriteTypes = {
 
@@ -63,19 +63,36 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MYS/pine-or-star.dds"
 	}
 	
-	frameAnimatedSpriteType = {
-																				#usual stuff
+	frameAnimatedSpriteType = {	#usual stuff
     	name = "GFX_report_event_pine_or_star"
     	texturefile = "gfx/event_country_pictures/MYS/pine-or-star.dds"
 		
-    	noOfFrames = 17  														#toal frames, must be exact or erros occure
+    	noOfFrames = 17  	#total frames, must be exact or errors occures
     	loadType = "INGAME"
     	transparencecheck = no
-    	animation_rate_fps = 4 													#frames per second, so if gif is several seconds, divid total frames accordingly 
+    	animation_rate_fps = 4  #frames per second, so if gif is several seconds, divide total frames accordingly 
     	looping = yes
     	play_on_show = yes
     	pause_on_loop = 0.0
 	}
 
+
+
+   #############################################################
+   #  Decisions
+   #############################################################
+	spriteType = { # descions Boss Mabel
+		name = "GFX_decision_category_boss_mabel"
+		texturefile = "gfx/interface/decisions/decision_cat_boss_mabel.dds"
+	}
 	
-}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+} #end of file

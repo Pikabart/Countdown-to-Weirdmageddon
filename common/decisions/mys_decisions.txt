@@ -5,36 +5,401 @@
 #####################################################################################################################
 MYS_boss_mabel = {		
 	
-	mabel_promice = { 		#ID of the decision, must not contain spaces!
-
+	mabel_promice_1 = { #Good Customer Service 
 		icon = GFX_decision_icon_default		
-		
-		available = {		
-		}
-		
-		fire_only_once = yes		#If set to yes, the decision will only appear once, after execution will not appear again.
+		available = {}
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 7
+		visible = {	}		
 
-		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
-			#has_country_flag = 
-		}		
-
-		cost = 50		#The cost to execute the decision, by default its political power.
+		cost = 20		#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
-
+		fixed_random_seed = no # So the answer could be different every time
 		complete_effect = {		
-			#		
+			random_list = {
+				40 = { #gain moral
+					add_to_variable = {
+						var = mys_mabel_moral
+						value = 10
+					}
+				}
+				50 = { #lose money, gain moral
+					subtract_from_variable = {
+						var = mys_mabel_money
+						value = 10
+					}
+					add_to_variable = {
+						var = mys_mabel_moral
+						value = 10
+					}
+				}
+				10 = { #lose moral
+					subtract_from_variable = {
+						var = mys_mabel_moral
+						value = 10
+					}
+				}
+			}		
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
-
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
 			factor = 1			
 		}
 	}
-}	
+	mabel_promice_2 = { #Promote Dipper's Real Mysteries
+		icon = GFX_decision_icon_default		
+		available = {}
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 7
+		visible = {	}		
 
-MYS_dipper_clone  = {		
+		cost = 20		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+		fixed_random_seed = no # So the answer could be different every time
+		complete_effect = {		
+			random_list = {
+				50 = { #gain money, gain moral
+					add_to_variable = {
+						var = mys_mabel_money
+						value = 10
+					}
+					add_to_variable = {
+						var = mys_mabel_moral
+						value = 10
+					}
+				}
+				20 = { #lots money, lots moral
+					add_to_variable = {
+						var = mys_mabel_money
+						value = 15
+					}
+					add_to_variable = {
+						var = mys_mabel_moral
+						value = 15
+					}
+				}
+				30 = { #lose money, lose moral, lose extra PP
+					subtract_from_variable = {
+						var = mys_mabel_money
+						value = 5
+					}
+					subtract_from_variable = {
+						var = mys_mabel_moral
+						value = 5
+					}
+					add_political_power = -20
+				}
+			}		
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	mabel_promice_3 = { 	# #1 Employee
+		icon = GFX_decision_icon_default		
+		available = {}
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 7
+		visible = {	}		
+
+		cost = 20		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+		fixed_random_seed = no # So the answer could be different every time
+		complete_effect = {	
+			custom_effect_tooltip = "Hey, where's Wendy?"
+			hidden_effect = {	
+				random_list = {
+					40 = { #lose money
+						subtract_from_variable = {
+							var = mys_mabel_moral
+							value = 15
+							#custom_effect_tooltip = "Hey, where's Wendy?"
+						}
+					}
+					50 = { #lose money, gain moral
+						subtract_from_variable = {
+							var = mys_mabel_money
+							value = 20
+						}
+						add_to_variable = {
+							var = mys_mabel_moral
+							value = 20
+						}
+						add_stability = 0.02
+						#custom_effect_tooltip = "Wendy, what are your friends doing?"
+					}
+					10 = { #gain money, gain moral
+						add_to_variable = {
+							var = mys_mabel_money
+							value = 10
+						}
+						add_to_variable = {
+							var = mys_mabel_moral
+							value = 10
+						}
+						add_stability = -0.02
+						#custom_effect_tooltip = "Work Hard, Play Hard"
+					}
+				}
+			}
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	#######################################################################################
+	mabel_cash_1 = { # Squeez them dry!
+		icon = GFX_decision_icon_default		
+		available = {}
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 7
+		visible = {}		
+
+		cost = 20		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+		fixed_random_seed = no # So the answer could be different every time
+		complete_effect = {		
+			random_list = {
+				40 = { #gain money
+					add_to_variable = {
+						var = mys_mabel_money
+						value = 10
+					}
+				}
+				50 = { #gain money, lose moral
+					subtract_from_variable = {
+						var = mys_mabel_moral
+						value = 10
+					}
+					add_to_variable = {
+						var = mys_mabel_money
+						value = 10
+					}
+				}
+				10 = { #lose money
+					subtract_from_variable = {
+						var = mys_mabel_money
+						value = 10
+					}
+				}
+			}		
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	mabel_cash_2 = { # Get in the suit!
+		icon = GFX_decision_icon_default		
+		available = {}
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 7
+		visible = {}		
+
+		cost = 20		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+		fixed_random_seed = no # So the answer could be different every time
+		complete_effect = {		
+			random_list = {
+				50 = { #gain money, gain moral
+					add_to_variable = {
+						var = mys_mabel_money
+						value = 10
+					}
+					add_to_variable = {
+						var = mys_mabel_moral
+						value = 10
+					}
+				}
+				20 = { #lots money, lots moral
+					add_to_variable = {
+						var = mys_mabel_money
+						value = 15
+					}
+					add_to_variable = {
+						var = mys_mabel_moral
+						value = 15
+					}
+				}
+				30 = { #lose money, lose moral, lose extra PP
+					subtract_from_variable = {
+						var = mys_mabel_money
+						value = 5
+					}
+					subtract_from_variable = {
+						var = mys_mabel_moral
+						value = 5
+					}
+					add_political_power = -20
+				}
+			}		
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	mabel_cash_3 = { 	# get Back to Work
+		icon = GFX_decision_icon_default		
+		available = {}
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 7
+		visible = {	}		
+
+		cost = 20		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+		fixed_random_seed = no # So the answer could be different every time
+		complete_effect = {		
+			random_list = {
+				20 = { #lose moral
+					subtract_from_variable = {
+						var = mys_mabel_moral
+						value = 15
+					}
+				}
+				50 = { #gain money, lose moral
+					subtract_from_variable = {
+						var = mys_mabel_moral
+						value = 20
+					}
+					add_to_variable = {
+						var = mys_mabel_money
+						value = 20
+					}
+					add_stability = 0.02
+				}
+				30 = { #gain money, gain moral
+					add_to_variable = {
+						var = mys_mabel_money
+						value = 10
+					}
+					add_to_variable = {
+						var = mys_mabel_moral
+						value = 10
+					}
+					add_stability = -0.02
+				}
+			}		
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	###############################################################
+	#######################################################################################
+	mabel_comprise_1 = { # The magic word
+		icon = GFX_decision_icon_default		
+		available = {}
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 7
+		visible = {}		
+
+		cost = 100		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+		fixed_random_seed = no # So the answer could be different every time
+		complete_effect = {		
+			add_to_variable = {
+				var = mys_mabel_moral
+				value = 10
+			}	
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	mabel_comprise_2 = { # Get rich quick
+		icon = GFX_decision_icon_default		
+		available = {}
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 7
+		visible = {}		
+
+		cost = 100		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+		fixed_random_seed = no # So the answer could be different every time
+		complete_effect = {		
+			add_to_variable = {
+				var = mys_mabel_money
+				value = 10
+			}		
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	mabel_comprise_3 = { 	#Yelling
+		icon = GFX_decision_icon_default		
+		available = {}
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 7
+		visible = {	}		
+
+		cost = 100		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+		fixed_random_seed = no # So the answer could be different every time
+		complete_effect = {		
+			subtract_from_variable = {
+				var = mys_mabel_moral
+				value = 10
+			}		
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	mabel_comprise_4 = { 	# Got to spend to make
+		icon = GFX_decision_icon_default		
+		available = {}
+		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
+		days_re_enable = 7
+		visible = {	}		
+
+		cost = 100		#The cost to execute the decision, by default its political power.
+
+		# EFFECTS OF THIS DECISION/MISSION
+		fixed_random_seed = no # So the answer could be different every time
+		complete_effect = {		
+			subtract_from_variable = {
+				var = mys_mabel_money
+				value = 10
+			}		
+		}
+		
+		# AI LOGIC FOR THIS DECISION/MISSION
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	
+}	
+#########################################################################################################
+#########################################################################################################
+MYS_dipper_clone  = {
+		
 	copy_ten_dips = { 		#ID of the decision, must not contain spaces!
 
 		icon = GFX_decision_icon_default		

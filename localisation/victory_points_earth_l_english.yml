@@ -99,7 +99,6 @@
  VICTORY_POINTS_5163:0 "Eugene"
  VICTORY_POINTS_5827:0 "North Roseburg"
  VICTORY_POINTS_8210:0 "Sherwood"
- VICTORY_POINTS_6602:0 "Brazzersville"
  
  VICTORY_POINTS_3953:0 "Medford"
  VICTORY_POINTS_8785:0 "South Roseburg"
@@ -119,6 +118,15 @@
  VICTORY_POINTS_2083:0 "Raven Rock"
  VICTORY_POINTS_7597:0 "Gravesfield"
  VICTORY_POINTS_3291:0 "New York City"
+ VICTORY_POINTS_9177:0 "Southampton"
+ VICTORY_POINTS_7075:0 "Cape Charles"
+ VICTORY_POINTS_2418:0 "Cumberland Pass"
+ VICTORY_POINTS_2310:0 "Key West"
+ VICTORY_POINTS_5331:0 "Shell Beach"
+ VICTORY_POINTS_2187:0 "Buffalo"
+ VICTORY_POINTS_3043:0 "Copper Harbor"
+ VICTORY_POINTS_3109:0 "Shawnee"
+ 
  
  ################################################
  #Nevada and Idaho VPs

@@ -2,8 +2,8 @@
 # News Events
 ###########################
 
-add_namespace = world_news
-
+add_namespace = kerfuffle_news
+add_namespace = west_election_news
 add_namespace = launcher_news
 
 news_event = { # Launch Kerfuffle
@@ -19,35 +19,140 @@ news_event = { # Launch Kerfuffle
 	
 	immediate = {
 		hidden_effect = {
-			#news_event = { id = world_news.1 days = 1 }		
+			#news_event = { id = kerfuffle_news.1 days = 1 }		
 			
-			CAL = { news_event = { id = world_news.1 days = 1 } }
-			WAS = { news_event = { id = world_news.1 days = 1 } }
-			ORE = { news_event = { id = world_news.1 days = 1 } }
-			SOC = { news_event = { id = world_news.1 days = 1 } }
-			EUS = { news_event = { id = world_news.1 days = 1 } }
-			EPI = { news_event = { id = world_news.1 days = 1 } }
-			CAN = { news_event = { id = world_news.1 days = 1 } }
-			MEX = { news_event = { id = world_news.1 days = 1 } }
-			GTF = { news_event = { id = world_news.1 days = 1 } }
-			MYS = { news_event = { id = world_news.1 days = 1 } }
-			NRW = { news_event = { id = world_news.1 days = 1 } }
-			MYM = { news_event = { id = world_news.1 days = 1 } }
+			CAL = { news_event = { id = kerfuffle_news.1 days = 1 } }
+			WAS = { news_event = { id = kerfuffle_news.1 days = 1 } }
+			ORE = { news_event = { id = kerfuffle_news.1 days = 1 } }
+			SOC = { news_event = { id = kerfuffle_news.1 days = 1 } }
+			EUS = { news_event = { id = kerfuffle_news.1 days = 1 } }
+			EPI = { news_event = { id = kerfuffle_news.1 days = 1 } }
+			CAN = { news_event = { id = kerfuffle_news.1 days = 1 } }
+			MEX = { news_event = { id = kerfuffle_news.1 days = 1 } }
+			GTF = { news_event = { id = kerfuffle_news.1 days = 1 } }
+			MYS = { news_event = { id = kerfuffle_news.1 days = 1 } }
+			NRW = { news_event = { id = kerfuffle_news.1 days = 1 } }
+			MYM = { news_event = { id = kerfuffle_news.1 days = 1 } }
 		}
 	}
 	
 	option = {
-		name = world_news.1.a
+		name = kerfuffle_news.1.a
 		ai_chance = { factor = 100 }		
 	}
 }
 
+news_event = { # Launch Trembley's return
+	id = launcher_news.2
+	title = launcher_news.2.t
+	desc = launcher_news.2.d
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = yes
+	hidden = yes
+	is_triggered_only = yes
+	timeout_days = 1
+	
+	immediate = {
+		hidden_effect = {	
+			CAL = { news_event = { id = west_election_news.1 days = 1 } }
+			WAS = { news_event = { id = west_election_news.1 days = 1 } }
+			ORE = { news_event = { id = west_election_news.1 days = 1 } }
+			SOC = { news_event = { id = west_election_news.1 days = 1 } }
+			EUS = { news_event = { id = west_election_news.1 days = 1 } }
+			EPI = { news_event = { id = west_election_news.1 days = 1 } }
+			CAN = { news_event = { id = west_election_news.1 days = 1 } }
+			MEX = { news_event = { id = west_election_news.1 days = 1 } }
+			GTF = { news_event = { id = west_election_news.1 days = 1 } }
+			MYS = { news_event = { id = west_election_news.1 days = 1 } }
+			NRW = { news_event = { id = west_election_news.1 days = 1 } }
+			MYM = { news_event = { id = west_election_news.1 days = 1 } }
+		}
+	}
+	
+	option = {
+		name = launcher_news.2.a
+		ai_chance = { factor = 100 }		
+	}
+}
+
+news_event = { # Launch Trembley Declare Rival Government
+	id = launcher_news.3
+	title = launcher_news.3.t
+	desc = launcher_news.3.d
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = yes
+	hidden = yes
+	is_triggered_only = yes
+	timeout_days = 1
+	
+	immediate = {
+		hidden_effect = {	
+			CAL = { news_event = { id = west_election_news.2 days = 1 } }
+			WAS = { news_event = { id = west_election_news.2 days = 1 } }
+			ORE = { news_event = { id = west_election_news.2 days = 1 } }
+			SOC = { news_event = { id = west_election_news.2 days = 1 } }
+			EUS = { news_event = { id = west_election_news.2 days = 1 } }
+			EPI = { news_event = { id = west_election_news.2 days = 1 } }
+			CAN = { news_event = { id = west_election_news.2 days = 1 } }
+			MEX = { news_event = { id = west_election_news.2 days = 1 } }
+			GTF = { news_event = { id = west_election_news.2 days = 1 } }
+			MYS = { news_event = { id = west_election_news.2 days = 1 } }
+			NRW = { news_event = { id = west_election_news.2 days = 1 } }
+			MYM = { news_event = { id = west_election_news.2 days = 1 } }
+		}
+	}
+	
+	option = {
+		name = launcher_news.3.a
+		ai_chance = { factor = 100 }		
+	}
+}
+
+news_event = { # Launch Norton becomes governor
+	id = launcher_news.4
+	title = launcher_news.4.t
+	desc = launcher_news.4.d
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = yes
+	hidden = yes
+	is_triggered_only = yes
+	timeout_days = 1
+	
+	immediate = {
+		hidden_effect = {	
+			CAL = { news_event = { id = west_election_news.3 days = 1 } }
+			WAS = { news_event = { id = west_election_news.3 days = 1 } }
+			ORE = { news_event = { id = west_election_news.3 days = 1 } }
+			SOC = { news_event = { id = west_election_news.3 days = 1 } }
+			EUS = { news_event = { id = west_election_news.3 days = 1 } }
+			EPI = { news_event = { id = west_election_news.3 days = 1 } }
+			CAN = { news_event = { id = west_election_news.3 days = 1 } }
+			MEX = { news_event = { id = west_election_news.3 days = 1 } }
+			GTF = { news_event = { id = west_election_news.3 days = 1 } }
+			MYS = { news_event = { id = west_election_news.3 days = 1 } }
+			NRW = { news_event = { id = west_election_news.3 days = 1 } }
+			MYM = { news_event = { id = west_election_news.3 days = 1 } }
+		}
+	}
+	
+	option = {
+		name = launcher_news.4.a
+		ai_chance = { factor = 100 }		
+	}
+}
+
+##############################################################################################
+##############################################################################################
+##############################################################################################
 
 
 news_event = { # Pre-Kerfuffle
-	id = world_news.1
-	title = world_news.1.t
-	desc = world_news.1.d
+	id = kerfuffle_news.1
+	title = kerfuffle_news.1.t
+	desc = kerfuffle_news.1.d
 	picture = GFX_news_peace_arc_kerfuffle
 	
 	major = no  # based on how it is truggered, it wil still happen even if a nation not related is played
@@ -55,7 +160,7 @@ news_event = { # Pre-Kerfuffle
 	
 	immediate = {
 		hidden_effect = {
-			news_event = { id = world_news.2 days = 5 }		
+			news_event = { id = kerfuffle_news.2 days = 5 }		
 			#This adds claims to allow state switch next event
 			KER = { add_state_claim = 257 }
 			KER = { add_state_claim = 258 }
@@ -70,57 +175,57 @@ news_event = { # Pre-Kerfuffle
 	}
 	
 	option = {
-		name = world_news.1.a
+		name = kerfuffle_news.1.a
 		trigger = {	TAG = ORE}	
 	}
 	option = {
-		name = world_news.1.a
+		name = kerfuffle_news.1.a
 		trigger = {	TAG = CAL}	
 	}
 	option = {
-		name = world_news.1.a
+		name = kerfuffle_news.1.a
 		trigger = {	TAG = WAS}	
 	}
 	option = {
-		name = world_news.1.a
+		name = kerfuffle_news.1.a
 		trigger = {	TAG = SOC}	
 	}
 	option = {
-		name = world_news.1.a
+		name = kerfuffle_news.1.a
 		trigger = {	TAG = EUS}	
 	}
 	option = {
-		name = world_news.1.a
+		name = kerfuffle_news.1.a
 		trigger = {	TAG = EPI}	
 	}
 	option = {
-		name = world_news.1.a
+		name = kerfuffle_news.1.a
 		trigger = {	TAG = MEX}	
 	}
 	option = {
-		name = world_news.1.b
+		name = kerfuffle_news.1.b
 		trigger = {	TAG = CAN}
 		#hidden_effect = {
 			#Canada Will get their own version fo this event
-			#CAN = { news_event = { id = world_news.5 days = 5 } }
+			#CAN = { news_event = { id = kerfuffle_news.5 days = 5 } }
 		#}
 	}
 }
 
 news_event = { #The Kerfuffle, All Earth Except Canada
-	id = world_news.2
-	title = world_news.2.t
+	id = kerfuffle_news.2
+	title = kerfuffle_news.2.t
 	desc = {
-		text = world_news.2.d
+		text = kerfuffle_news.2.d
 		trigger = {NOT={tag=CAN}}
 		trigger = {NOT={tag=MEX}}
 	}
 	desc = {
-		text = world_news.2.d_a
+		text = kerfuffle_news.2.d_a
 		trigger = {OR={tag=CAN}}
 	}
 	desc = {
-		text = world_news.2.d_b
+		text = kerfuffle_news.2.d_b
 		trigger = {OR={tag=MEX}}
 	}
 	
@@ -131,7 +236,8 @@ news_event = { #The Kerfuffle, All Earth Except Canada
 	
 	immediate = {
 		hidden_effect = {
-			news_event = { id = world_news.3 days = 5 }
+			set_global_flag	= canada_kerfuffled
+			news_event = { id = kerfuffle_news.3 days = 5 }
 			add_political_power = -100
 			every_state = { 
 				limit = { is_owned_by = CAN is_claimed_by = KER}
@@ -142,50 +248,50 @@ news_event = { #The Kerfuffle, All Earth Except Canada
 	}
 	
 	option = {
-		name = world_news.2.a
+		name = kerfuffle_news.2.a
 		trigger = {	TAG = ORE}	
 	}
 	option = {
-		name = world_news.2.a
+		name = kerfuffle_news.2.a
 		trigger = {	TAG = CAL}	
 	}
 	option = {
-		name = world_news.2.a
+		name = kerfuffle_news.2.a
 		trigger = {	TAG = WAS}	
 	}
 	option = {
-		name = world_news.2.a
+		name = kerfuffle_news.2.a
 		trigger = {	TAG = EUS}	
 	}
 	option = {
-		name = world_news.2.a
+		name = kerfuffle_news.2.a
 		trigger = {	TAG = EPI}	
 	}
 	option = {
-		name = world_news.2.c
+		name = kerfuffle_news.2.c
 		trigger = {	TAG = MEX}	
 	}
 	option = {
-		name = world_news.2.a
+		name = kerfuffle_news.2.a
 		trigger = {	TAG = SOC}	
 	}
 	option = {
-		name = world_news.2.b
+		name = kerfuffle_news.2.b
 		trigger = {	TAG = CAN}	
 	}
 }
 
 news_event = { # Cold War
-	id = world_news.3
-	title = world_news.3.t
-	desc = world_news.3.d
+	id = kerfuffle_news.3
+	title = kerfuffle_news.3.t
+	desc = kerfuffle_news.3.d
 	picture = GFX_news_usvseu_kerfuffle
 	
 	major = no
 	is_triggered_only = yes
 	
 	immediate = {
-		hidden_effect = {news_event = { id = world_news.4 days = 5 }
+		hidden_effect = {news_event = { id = kerfuffle_news.4 days = 5 }
 			NEV = { 
 				add_state_claim = 133
 				add_state_claim = 181
@@ -249,43 +355,43 @@ news_event = { # Cold War
 	}
 	
 	option = {
-		name = world_news.3.a
+		name = kerfuffle_news.3.a
 		trigger = {	TAG = EUS}	
 	}
 	option = {
-		name = world_news.3.b
+		name = kerfuffle_news.3.b
 		trigger = {	TAG = EPI}	
 	}
 	option = {
-		name = world_news.3.e
+		name = kerfuffle_news.3.e
 		trigger = {	TAG = ORE}	
 	}
 	option = {
-		name = world_news.3.e
+		name = kerfuffle_news.3.e
 		trigger = {	TAG = CAL}	
 	}
 	option = {
-		name = world_news.3.e
+		name = kerfuffle_news.3.e
 		trigger = {	TAG = WAS}	
 	}
 	option = {
-		name = world_news.3.e
+		name = kerfuffle_news.3.e
 		trigger = {	TAG = SOC}	
 	}
 	option = {
-		name = world_news.3.e
+		name = kerfuffle_news.3.e
 		trigger = {	TAG = MEX}	
 	}
 	option = {
-		name = world_news.3.c
+		name = kerfuffle_news.3.c
 		trigger = {	TAG = CAN}	
 	}
 }
 
 news_event = { #
-	id = world_news.4
-	title = world_news.4.t
-	desc = world_news.4.d
+	id = kerfuffle_news.4
+	title = kerfuffle_news.4.t
+	desc = kerfuffle_news.4.d
 	picture = GFX_news_divided_kerfuffle
 	
 	major = no
@@ -298,7 +404,7 @@ news_event = { #
 	}
 	
 	option = {
-		name = world_news.4.a
+		name = kerfuffle_news.4.a
 		trigger = {	TAG = EUS}
 			remove_from_faction = CAL
 			remove_from_faction = ORE
@@ -313,32 +419,246 @@ news_event = { #
 			}
 	}
 	option = {
-		name = world_news.4.b
+		name = kerfuffle_news.4.b
 		trigger = {	TAG = EPI}	
 	}
 	option = {
-		name = world_news.4.c
+		name = kerfuffle_news.4.c
 		trigger = {	TAG = ORE}	
 	}
 	option = {
-		name = world_news.4.c
+		name = kerfuffle_news.4.c
 		trigger = {	TAG = CAL}	
 	}
 	option = {
-		name = world_news.4.c
+		name = kerfuffle_news.4.c
 		trigger = {	TAG = WAS}	
 	}
 	option = {
-		name = world_news.4.c
+		name = kerfuffle_news.4.c
 		trigger = {	TAG = SOC}	
 	}
 	option = {
-		name = world_news.4.e
+		name = kerfuffle_news.4.e
 		trigger = {	TAG = MEX}	
 	}
 	option = {
-		name = world_news.4.f
+		name = kerfuffle_news.4.f
 		trigger = {	TAG = CAN}	
 		set_cosmetic_tag = CAN_KER
+	}
+}
+
+#######################################################################################################################
+#######################################################################################################################
+
+news_event = { #Trembley's return, for all earth
+	id = west_election_news.1
+	title = west_election_news.1.t
+	desc = {
+		text = west_election_news.1.d
+		trigger = {NOT={tag=ORE}}
+		trigger = {NOT={tag=CAL}}
+		trigger = {NOT={tag=WAS}}
+	}
+	desc = {
+		text = west_election_news.1.d_a
+		trigger = {OR={tag=ORE}}
+	}
+	desc = {
+		text = west_election_news.1.d_b
+		trigger = {OR={tag=CAL}}
+	}
+	desc = {
+		text = west_election_news.1.d_c
+		trigger = {OR={tag=WAS}}
+	}
+	
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			#set_global_flag = 
+			#news_event = { id =  days = 5 }
+			#add_political_power = -100
+		}
+	}
+	
+	option = {
+		name = west_election_news.1.a
+		trigger = {	TAG = ORE}	
+	}
+	option = {
+		name = west_election_news.1.b
+		trigger = {	TAG = CAL}	
+	}
+	option = {
+		name = west_election_news.1.c
+		trigger = {	TAG = WAS}	
+	}
+	option = {
+		name = west_election_news.1.e
+		trigger = {	TAG = EUS}	
+	}
+	option = {
+		name = west_election_news.1.f
+		trigger = {	TAG = EPI}	
+	}
+	option = {
+		name = west_election_news.1.g
+		trigger = {	TAG = MEX}	
+	}
+	option = {
+		name = west_election_news.1.h
+		trigger = {	TAG = SOC}	
+	}
+	option = {
+		name = west_election_news.1.i
+		trigger = {	TAG = CAN}	
+	}
+}
+
+news_event = { #Trembley declares rival government
+	id = west_election_news.2
+	title = west_election_news.2.t
+	desc = {
+		text = west_election_news.2.d
+		trigger = {NOT={tag=ORE}}
+		trigger = {NOT={tag=CAL}}
+		trigger = {NOT={tag=WAS}}
+	}
+	desc = {
+		text = west_election_news.2.d_a
+		trigger = {OR={tag=ORE}}
+	}
+	desc = {
+		text = west_election_news.2.d_b
+		trigger = {OR={tag=CAL}}
+	}
+	desc = {
+		text = west_election_news.2.d_c
+		trigger = {OR={tag=WAS}}
+	}
+	
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			#set_global_flag = 
+			#news_event = { id =  days = 5 }
+			#add_political_power = -100
+		}
+	}
+	
+	option = {
+		name = west_election_news.2.a
+		trigger = {	TAG = ORE}	
+	}
+	option = {
+		name = west_election_news.2.b
+		trigger = {	TAG = CAL}	
+	}
+	option = {
+		name = west_election_news.2.c
+		trigger = {	TAG = WAS}	
+	}
+	option = {
+		name = west_election_news.2.e
+		trigger = {	TAG = EUS}	
+	}
+	option = {
+		name = west_election_news.2.f
+		trigger = {	TAG = EPI}	
+	}
+	option = {
+		name = west_election_news.2.g
+		trigger = {	TAG = MEX}	
+	}
+	option = {
+		name = west_election_news.2.h
+		trigger = {	TAG = SOC}	
+	}
+	option = {
+		name = west_election_news.2.i
+		trigger = {	TAG = CAN}	
+	}
+	option = {
+		name = west_election_news.2.j
+		trigger = {	TAG = MYS}	
+	}
+}
+
+news_event = { #Norton becomes Cali Governor
+	id = west_election_news.3
+	title = west_election_news.3.t
+	desc = {
+		text = west_election_news.3.d
+		trigger = {NOT={tag=ORE}}
+		trigger = {NOT={tag=CAL}}
+		trigger = {NOT={tag=WAS}}
+	}
+	desc = {
+		text = west_election_news.3.d_a
+		trigger = {OR={tag=ORE}}
+	}
+	desc = {
+		text = west_election_news.3.d_b
+		trigger = {OR={tag=CAL}}
+	}
+	desc = {
+		text = west_election_news.3.d_c
+		trigger = {OR={tag=WAS}}
+	}
+	
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			#set_global_flag = 
+			#news_event = { id =  days = 5 }
+			#add_political_power = -100
+		}
+	}
+	
+	option = {
+		name = west_election_news.3.a
+		trigger = {	TAG = ORE}	
+	}
+	option = {
+		name = west_election_news.3.b
+		trigger = {	TAG = CAL}	
+	}
+	option = {
+		name = west_election_news.3.c
+		trigger = {	TAG = WAS}	
+	}
+	option = {
+		name = west_election_news.3.e
+		trigger = {	TAG = EUS}	
+	}
+	option = {
+		name = west_election_news.3.f
+		trigger = {	TAG = EPI}	
+	}
+	option = {
+		name = west_election_news.3.g
+		trigger = {	TAG = MEX}	
+	}
+	option = {
+		name = west_election_news.3.h
+		trigger = {	TAG = SOC}	
+	}
+	option = {
+		name = west_election_news.3.i
+		trigger = {	TAG = CAN}	
 	}
 }

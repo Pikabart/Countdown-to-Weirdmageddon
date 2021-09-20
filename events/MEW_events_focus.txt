@@ -40,9 +40,11 @@ add_namespace = ludo_confront_5
 add_namespace = ludo_confront_6
 add_namespace = ludo_confront_7
 add_namespace = ludo_confront_8
-add_namespace = jaggy_collapse
+add_namespace = jaggy_collapse		  
 
 add_namespace = trade_ports
+
+###############################################################################################################
 
 country_event = {
 	id = mewni_solaria.1
@@ -78,10 +80,10 @@ country_event = {
 						division = "name = \"Solarian Ceremonial Guard\" division_template = \"Ceremonial Guard\" start_experience_factor = 0"
 						owner = MEW
 				}
+			}
+		}
+		custom_effect_tooltip = "legacy_of_solaria_tooltip"
 	}
-	}
-	custom_effect_tooltip = "legacy_of_solaria_tooltip"
-}
 }
 
 country_event = {
@@ -181,6 +183,8 @@ country_event = {
 	}
 }
 
+############################################################
+
 country_event = {
 	id = exterminators.1
 	title = exterminators.1.t
@@ -193,12 +197,29 @@ country_event = {
 		name = exterminators.1.a
 		ai_chance = { factor = 90 }
 		army_experience = 5
-			add_tech_bonus = {
-		name = land_doc_bonus
-		bonus = 0.5
-		uses = 1
-		category = land_doctrine
-			}
+		add_tech_bonus = {
+			name = land_doc_bonus
+			bonus = 0.5
+			uses = 1
+			category = land_doctrine
+		}
+		hidden_effect = { set_country_flag = REC_founded }
+	}
+}
+
+country_event = {
+	id = hunt_rat.1
+	title = hunt_rat.1.t
+	desc = hunt_rat.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hunt_rat.1.a
+		ai_chance = { factor = 90 }
+		#UNLOCK RAT HUNTING DESCISIONS, WHICH WILL GIVE ARMY STUFF AND PROGRESS STORY
+		
 	}
 }
 
@@ -286,21 +307,7 @@ country_event = {
 	
 }
 
-country_event = {
-	id = hunt_rat.1
-	title = hunt_rat.1.t
-	desc = hunt_rat.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = hunt_rat.1.a
-		ai_chance = { factor = 90 }
-		#UNLOCK RAT HUNTING DESCISIONS, WHICH WILL GIVE ARMY STUFF AND PROGRESS STORY
-		
-	}
-}
+##################################################
 
 country_event = {
 	id = emergency_economics.1
@@ -382,8 +389,6 @@ country_event = {
 		add_idea = MEW_forced_economics
 
 		}
-		
-		
 	}
 }
 
@@ -409,8 +414,6 @@ country_event = {
 			instant_build = yes
 			}
 			add_extra_state_shared_building_slots = 5
-
-
 		}
 		
 		269 = { add_building_construction = {
@@ -480,10 +483,7 @@ country_event = {
 			}
 			add_extra_state_shared_building_slots = 4
 
-		}
-		
-		
-		
+		}		
 	}
 	
 	option = {
@@ -494,12 +494,8 @@ country_event = {
 			level = 5 
 			instant_build = yes
 			}
-			add_extra_state_shared_building_slots = 5
-
-		
-		}
-		
-		
+			add_extra_state_shared_building_slots = 5		
+		}	
 	}
 }
 
@@ -514,8 +510,7 @@ country_event = {
 	option = {
 		name = force_economy_4.1.a
 		ai_chance = { factor = 50 }
-		add_stability = 0.05
-		
+		add_stability = 0.05				
 	}
 
 	option = {
@@ -526,35 +521,11 @@ country_event = {
 			type = infantry_equipment
 			amount = -200
 			producer = MEW
-		}
-		
+		}	
 	}
 }
 
-#country_event = {
-#	id = force_economy_4.1
-#	title = force_economy_4.1.t
-#	desc = force_economy_4.1.d
-#	picture = GFX_report_event_chinese_soldiers_fighting
-#	
-#	is_triggered_only = yes
-#	
-#	option = {
-#		name = force_economy_4.1.a
-#		ai_chance = { factor = 50 }
-#		set_global_flag = mew_suppression_trigger_peaceful
-#		custom_effect_tooltip = "mew_suppression_trigger_peaceful_tooltip"
-#		
-#	}
-#
-#	option = {
-#		name = force_economy_4.2.a
-#		ai_chance = { factor = 50 }
-#		set_global_flag = mew_suppression_trigger_hostile
-#		custom_effect_tooltip = "mew_suppression_trigger_hostile_tooltip"
-#	}
-#}
-
+##################################################################################
 
 country_event = {
 	id = MEW_reform_economy.1
@@ -603,24 +574,23 @@ country_event = {
 			type = infrastructure
 			level = 2
 			instant_build = yes
-}
+			}
 		}
 		272 = { add_building_construction = {
 			type = infrastructure
 			level = 2
-			instant_build = yes }
-			
+			instant_build = yes 
 			}
+		}
 		270 = { add_building_construction = {
 			type = infrastructure
 			level = 2
 			instant_build = yes
-}
+			}
 		}
-
-		}
-		
 	}
+		
+}
 
 country_event = {
 	id = MEW_reform_economy_4.1
@@ -683,7 +653,9 @@ country_event = {
 		
 		set_global_flag = magic_fritz_trigger_2
 	}
-	}
+}
+	
+###############################################################################################################
 	
 	country_event = {
 		id = magic_fritz.1
@@ -1039,13 +1011,15 @@ country_event = {
 				STI = { set_cosmetic_tag = LUC_IND }
 				JAG = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }}
 				LUD = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }}
-				UKN = { country_event = { id = jaggy_collapse.1 days = 7 } }
+				UKN = { country_event = { id = jaggy_collapse.1 days = 7 } }			 
 		
 			}
  
 		}
 
 	}
+	
+###############################################################################################################
 	
 	country_event = {
 		id = jaggy_collapse.1
@@ -1077,7 +1051,9 @@ country_event = {
 			
 		}
 }
-	
+
+###############################################################################################################
+
 	country_event = {
 		id = trade_ports.1
 		title = trade_ports.1.t

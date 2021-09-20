@@ -77,6 +77,10 @@ EUS={ #Eastern US
 }
 #------------------------------------
 EPI={ #Eastern FPI
+	color = rgb { 110 110 110 }
+	color_ui = rgb { 110 110 110 }
+}
+WPI={ #Western FPI
 	color = rgb { 89 89 89 }
 	color_ui = rgb { 89 89 89 }
 }
@@ -313,3 +317,6 @@ MON = {
 	color = rgb { 150 102 50 }
 	color_ui = rgb { 150 102 50 }
 }
+
+
+

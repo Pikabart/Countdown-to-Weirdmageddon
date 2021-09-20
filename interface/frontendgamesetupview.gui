@@ -33,7 +33,7 @@ guiTypes = {
 			position = { x = 22 y = 147 }
 			font = "hoi_20b"
 			borderSize = {x = 0 y = 0}
-			text = "FPI Report"
+			text = "FPI: Incoming Report!"
 			maxWidth = 185
 			maxHeight = 20
 			fixedsize = yes	

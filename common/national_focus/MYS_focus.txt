@@ -1,4 +1,5 @@
 ﻿focus_tree = {
+
 	id = mystery_shack_focus
 	
 	country = {
@@ -11,7 +12,7 @@
 	
 	default = no # This is not a default generic tree
 	
-	continuous_focus_position = { x = 500 y = 100 } 
+	continuous_focus_position = { x = 1000 y = 50 } 
 	# Change as needed as more focus are added - orginally {x=50 y=1000}
 
 ######################################
@@ -20,7 +21,7 @@
 	########################################################
 	focus = { #1  
 		id = MYS_prepare_for_the_summer #go to focus_MYS_l_english
-		icon = GFX_goal_generic_major_war 
+		icon = GFX_goal_focus_the_shack 
 		#relative_position_id = *another_focus_here*
 		#Without "relative_position_id", x,y coordinates are hardcoded
 		x = 24  
@@ -61,7 +62,7 @@
 	###########################################################
 	focus = { #2
 		id = MYS_not_who_he_seems
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_vending_machine
 		x = -1
 		y = 1
 		prerequisite = { focus = MYS_prepare_for_the_summer }
@@ -81,7 +82,7 @@
 		
 		completion_reward = {
 			MYS = {
-				#add_ideas = MYS_not_what_he_seems
+				add_ideas = MYS_NWHS_1
 			}
 		}
 		
@@ -91,9 +92,9 @@
 	}
 	
 	###############################################################
-	focus = { #3
+	focus = { #3 
 		id = MYS_cheapest
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_the_staff
 		x = 1
 		y = 1
 		prerequisite = { focus = MYS_prepare_for_the_summer }
@@ -112,6 +113,7 @@
 		}
 		
 		completion_reward = {
+			custom_effect_tooltip = "MYS_cheapest_effect"
 			country_event = mystery_shack.4
 		}
 		
@@ -123,7 +125,7 @@
 	#######################################################
 	focus = { #4
 		id = MYS_the_pine_twins
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_the_twins
 		x = 0
 		y = 2
 		prerequisite = { focus = MYS_not_who_he_seems }
@@ -151,7 +153,7 @@
 	##########################################
 	focus = { #5
 		id = MYS_journal_3
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_journal_3
 		x = 0
 		y = 1
 		relative_position_id = MYS_the_pine_twins
@@ -171,7 +173,19 @@
 			set_country_flag = mys_clones  #Change
 			set_country_flag = mys_public_time 		#Change
 			set_country_flag = mys_rock_the_mabel	#Change
+			
+			#DELETE LATER, for debugging
 			set_country_flag = mys_the_bet
+			set_variable = {
+				var = mys_mabel_money
+				value = 70
+			}
+			set_variable = {
+				var = mys_mabel_moral
+				value = 130
+			}
+			
+			
 			mark_focus_tree_layout_dirty = yes 
 			}
 		}
@@ -313,7 +327,7 @@
 	
 	focus = { #4
 		id = MYS_stantastic_4
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_stan_run
 		x = 0
 		y = 1
 		prerequisite = { focus = MYS_stantastic_2 }
@@ -398,7 +412,7 @@
 		}
 	}
 	
-	focus = { #14
+	focus = { #4 
 		id = MYS_awaits_1
 		icon = GFX_goal_generic_major_war
 		x = -1
@@ -549,20 +563,19 @@
 	}
 	
 ##################################################################################################################
-#  MYS Boss Mabel # ### Move this to decisons, do a always false/auto-complete model
+#  MYS Construiction and Army # ### Move this to decisons, do a always false/auto-complete model
 ##################################################################################################################	
 	
 	focus = { 
-		id = MYS_boss_1
+		id = MYS_investment
 		icon = GFX_goal_generic_major_war
-		x = -8
+		x = -12
 		y = 1	
 		relative_position_id = MYS_the_pine_twins
 			
-		allow_branch = { has_country_flag = dipper_cloning }
 		#focus and branch underneath will hide until flag is set and focus tree refresh
 		bypass = {}
-		cost = 4 # (#)x7days 
+		cost = 3 # (#)x7days 
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -571,16 +584,36 @@
 		ai_will_do = {factor = 1}
 	}	
 	
+	########################################################
+	
 	focus = { 
-		id = MYS_boss_2
+		id = MYS_soos_1
+		icon = GFX_goal_generic_major_war
+		x = -4
+		y = 1	
+		prerequisite = { focus = MYS_investment }
+		relative_position_id = MYS_investment
+
+		bypass = {}
+		cost = 3 # (#)x7days 
+
+		completion_reward = {
+			#country_event = mystery_shack.
+		}
+		
+		ai_will_do = {factor = 1}
+	}
+	
+	focus = { 
+		id = MYS_soos_2
 		icon = GFX_goal_generic_major_war
 		x = -1
 		y = 1	
-		prerequisite = { focus = MYS_boss_1 }
-		relative_position_id = MYS_boss_1
+		prerequisite = { focus = MYS_soos_1 }
+		relative_position_id = MYS_soos_1
 
 		bypass = {}
-		cost = 4 # (#)x7days 
+		cost = 3 # (#)x7days 
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -590,15 +623,15 @@
 	}
 	
 	focus = { 
-		id = MYS_boss_3
+		id = MYS_soos_3
 		icon = GFX_goal_generic_major_war
 		x = 1
 		y = 1	
-		prerequisite = { focus = MYS_boss_1 }
-		relative_position_id = MYS_boss_1
+		prerequisite = { focus = MYS_soos_1 }
+		relative_position_id = MYS_soos_1
 
 		bypass = {}
-		cost = 4 # (#)x7days 
+		cost = 3 # (#)x7days 
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -608,15 +641,15 @@
 	}
 	
 	focus = { 
-		id = MYS_boss_4
+		id = MYS_soos_4
 		icon = GFX_goal_generic_major_war
 		x = 0
 		y = 1	
-		prerequisite = { focus = MYS_boss_2 }
-		relative_position_id = MYS_boss_2
+		prerequisite = { focus = MYS_soos_2 }
+		relative_position_id = MYS_soos_2
 
 		bypass = {}
-		cost = 4 # (#)x7days 
+		cost = 3 # (#)x7days 
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -626,15 +659,15 @@
 	}
 	
 	focus = { 
-		id = MYS_boss_5
+		id = MYS_soos_5
 		icon = GFX_goal_generic_major_war
 		x = 0
 		y = 1	
-		prerequisite = { focus = MYS_boss_3 }
-		relative_position_id = MYS_boss_3
+		prerequisite = { focus = MYS_soos_3 }
+		relative_position_id = MYS_soos_3
 
 		bypass = {}
-		cost = 4 # (#)x7days 
+		cost = 3 # (#)x7days 
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -644,15 +677,19 @@
 	}
 	
 	focus = { 
-		id = MYS_boss_6
+		id = MYS_soos_6
 		icon = GFX_goal_generic_major_war
 		x = 0
 		y = 1	
-		prerequisite = { focus = MYS_boss_4 }
-		relative_position_id = MYS_boss_4
+		prerequisite = {
+			focus = MYS_soos_4
+			focus = MYS_soos_5
+		}
+		mutually_exclusive = { focus = MYS_soos_7 }
+		relative_position_id = MYS_soos_4
 
 		bypass = {}
-		cost = 4 # (#)x7days 
+		cost = 3 # (#)x7days 
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -662,15 +699,19 @@
 	}
 	
 	focus = { 
-		id = MYS_boss_7
+		id = MYS_soos_7
 		icon = GFX_goal_generic_major_war
 		x = 0
 		y = 1	
-		prerequisite = { focus = MYS_boss_5 }
-		relative_position_id = MYS_boss_5
-		
+		prerequisite = {
+			focus = MYS_soos_4
+			focus = MYS_soos_5
+		}
+		mutually_exclusive = { focus = MYS_soos_6 }
+		relative_position_id = MYS_soos_5
+
 		bypass = {}
-		cost = 4 # (#)x7days 
+		cost = 3 # (#)x7days 
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -679,27 +720,271 @@
 		ai_will_do = {factor = 1}
 	}
 	
-	focus = { #4
-		id = MYS_boss_8
+	focus = { 
+		id = MYS_soos_8
 		icon = GFX_goal_generic_major_war
 		x = 0
-		y = 4
-		prerequisite = { focus = MYS_boss_6 }
-		prerequisite = { focus = MYS_boss_7 }
-		relative_position_id = MYS_boss_1
-		
-		available = {}		
+		y = 4	
+		prerequisite = {
+			focus = MYS_soos_6
+			focus = MYS_soos_7
+		}
+		relative_position_id = MYS_soos_1
+
 		bypass = {}
-		cost = 4
+		cost = 3 # (#)x7days 
 
 		completion_reward = {
-			#custom_effect_tooltip = "MYS_the_pine_twins_effect"
-			#country_event = mystery_shack.5
+			#country_event = mystery_shack.
+		}
+		
+		ai_will_do = {factor = 1}
+	}
+	
+	########################################################
+	
+	focus = { 
+		id = MYS_wendy_1
+		icon = GFX_goal_generic_major_war
+		x = 4
+		y = 1	
+		prerequisite = { focus = MYS_investment }
+		relative_position_id = MYS_investment
+
+		bypass = {}
+		cost = 3 # (#)x7days 
+
+		completion_reward = {
+			#country_event = mystery_shack.
+		}
+		
+		ai_will_do = {factor = 1}
+	}
+	
+	focus = { 
+		id = MYS_wendy_2
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 1	
+		prerequisite = { focus = MYS_wendy_1 }
+		relative_position_id = MYS_wendy_1
+		mutually_exclusive = { focus = MYS_wendy_3 }
+
+		bypass = {}
+		cost = 3 # (#)x7days 
+
+		completion_reward = {
+			#country_event = mystery_shack.
+		}
+		
+		ai_will_do = {factor = 1}
+	}
+	
+	focus = { 
+		id = MYS_wendy_3
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1	
+		prerequisite = { focus = MYS_wendy_1 }
+		relative_position_id = MYS_wendy_1
+		mutually_exclusive = { focus = MYS_wendy_2 }
+
+		bypass = {}
+		cost = 3 # (#)x7days 
+
+		completion_reward = {
+			#country_event = mystery_shack.
+		}
+		
+		ai_will_do = {factor = 1}
+	}
+	
+	focus = { 
+		id = MYS_wendy_4
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 2	
+		prerequisite = {
+			focus = MYS_wendy_2
+			focus = MYS_wendy_3
+		}
+		relative_position_id = MYS_wendy_1
+
+		bypass = {}
+		cost = 3 # (#)x7days 
+
+		completion_reward = {
+			#country_event = mystery_shack.
+		}
+		
+		ai_will_do = {factor = 1}
+	}
+	
+	focus = { 
+		id = MYS_wendy_5
+		icon = GFX_goal_generic_major_war
+		x = -1
+		y = 1	
+		prerequisite = { focus = MYS_wendy_4 }
+		relative_position_id = MYS_wendy_4
+		mutually_exclusive = { focus = MYS_wendy_6 }
+
+		bypass = {}
+		cost = 3 # (#)x7days 
+
+		completion_reward = {
+			#country_event = mystery_shack.
+		}
+		
+		ai_will_do = {factor = 1}
+	}
+	
+	focus = { 
+		id = MYS_wendy_6
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1	
+		prerequisite = { focus = MYS_wendy_4 }
+		relative_position_id = MYS_wendy_4
+		mutually_exclusive = { focus = MYS_wendy_5 }
+
+		bypass = {}
+		cost = 3 # (#)x7days 
+
+		completion_reward = {
+			#country_event = mystery_shack.
+		}
+		
+		ai_will_do = {factor = 1}
+	}
+	
+	focus = { 
+		id = MYS_wendy_7
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 2	
+		prerequisite = {
+			focus = MYS_wendy_5
+			focus = MYS_wendy_6
+		}
+		relative_position_id = MYS_wendy_4
+
+		bypass = {}
+		cost = 3 # (#)x7days 
+
+		completion_reward = {
+			#country_event = mystery_shack.
+		}
+		
+		ai_will_do = {factor = 1}
+	}
+	
+	focus = { 
+		id = MYS_wendy_8 
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1	
+		prerequisite = {
+			focus = MYS_wendy_7
+		}
+		relative_position_id = MYS_wendy_7
+
+		bypass = {}
+		cost = 3 # (#)x7days 
+
+		completion_reward = {
+			#country_event = mystery_shack.
+		}
+		
+		ai_will_do = {factor = 1}
+	}
+	
+	########################################################
+	
+	focus = { 
+		id = MYS_clones
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		prerequisite = { focus = MYS_investment }
+		relative_position_id = MYS_investment
+		
+		#allow_branch = { has_country_flag = mys_clones }
+		available = { always = no }	
+		bypass = {}
+		cost = 1 # (#)x7days 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			#country_event = mystery_shack.
 		}
 		
 		ai_will_do = {
 			factor = 1
 		}
+	}
+	
+	focus = { 
+		id = MYS_clones_1
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1	
+		prerequisite = {
+			focus = MYS_clones
+		}
+		relative_position_id = MYS_clones
+
+		bypass = {}
+		cost = 3 # (#)x7days 
+
+		completion_reward = {
+			#country_event = mystery_shack.
+		}
+		
+		ai_will_do = {factor = 1}
+	}
+	
+	focus = { 
+		id = MYS_clones_2
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1	
+		prerequisite = {
+			focus = MYS_clones_1
+		}
+		relative_position_id = MYS_clones_1
+
+		bypass = {}
+		cost = 3 # (#)x7days 
+
+		completion_reward = {
+			#country_event = mystery_shack.
+		}
+		
+		ai_will_do = {factor = 1}
+	}
+	
+	focus = { 
+		id = MYS_clones_3
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1	
+		prerequisite = {
+			focus = MYS_clones_2
+		}
+		relative_position_id = MYS_clones_2
+
+		bypass = {}
+		cost = 3 # (#)x7days 
+
+		completion_reward = {
+			#country_event = mystery_shack.
+		}
+		
+		ai_will_do = {factor = 1}
 	}
 	
 ############################################################################
@@ -713,7 +998,7 @@
 		y = 0	
 		relative_position_id = MYS_the_pine_twins
 			
-		allow_branch = { has_country_flag = mys_public_time }
+		available = { has_country_flag = mys_public_time }
 		cost = 4
 
 		completion_reward = {
@@ -863,7 +1148,7 @@
 	}
 	
 	focus = { 
-		id = MYS_PR_16
+		id = MYS_PR_10
 		icon = GFX_goal_generic_major_war
 		x = 0
 		y = 1	
@@ -880,11 +1165,11 @@
 	}
 	
 	focus = { 
-		id = MYS_PR_10
+		id = MYS_PR_16
 		icon = GFX_goal_generic_major_war
 		x = 0
 		y = 2
-		prerequisite = { focus = MYS_PR_16 }
+		prerequisite = { focus = MYS_PR_10 }
 		prerequisite = { focus = MYS_PR_9 }
 		relative_position_id = MYS_PR_9
 			
@@ -997,9 +1282,10 @@ focus = {
 		y = 6
 		relative_position_id = MYS_journal_3
 		
-		prerequisite = { focus = MYS_journal_3 }
-		available = {always = no}	
-		allow_branch = { has_country_flag = mys_rock_the_mabel }
+		prerequisite = { focus = MYS_awaits }
+		prerequisite = { focus = MYS_stantastic }
+		available = { has_country_flag = mys_rock_the_mabel } # {always = no}	
+		#allow_branch = { has_country_flag = mys_rock_the_mabel }
 		cost = 1
 
 		completion_reward = {

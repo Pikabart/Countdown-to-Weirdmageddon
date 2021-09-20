@@ -15,7 +15,7 @@ state={
 			radar_station = 0
 
 		}
-		victory_points = { 2083 5 } #Command
+		victory_points = { 2083 51 } #Command
 	}
 
 	provinces={

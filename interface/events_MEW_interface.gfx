@@ -28,9 +28,29 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MEW/report_event_sanctuary.dds"
 	}
 	
-	spriteType = { # The Sanctuary
+	spriteType = { # Comission defeat
 		name = "GFX_report_event_commission_defeat"
 		texturefile = "gfx/event_country_pictures/MEW/report_event_commission_defeat.dds"
+	}
+	
+	spriteType = { # Keep Calm
+		name = "GFX_report_event_keep_calm"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_mewni_keep_calm.dds"
+	}
+	
+	spriteType = { # Brudo and Moon
+		name = "GFX_report_event_brudo_moon"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_brudo_moon.dds"
+	}
+	
+	spriteType = { # Moon and Dennis
+		name = "GFX_report_event_moon_dennis"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_moon_dennis.dds"
+	}
+	
+	spriteType = { # Toffee Ludo
+		name = "GFX_report_event_toffee_ludo"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_toffee_ludo.dds"
 	}
 	
 }

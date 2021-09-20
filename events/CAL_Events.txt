@@ -5,9 +5,24 @@
 add_namespace = CAL_START
 add_namespace = CAL_TREMBLEY
 add_namespace = CAL_ELECTION
+add_namespace = CAL_TWOWORLDS
 
 
 
+country_event = {
+	id = CAL_TWOWORLDS.1
+	title = CAL_TWOWORLDS.1.t
+	desc = CAL_TWOWORLDS.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_TWOWORLDS.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+############################################################################################################
 country_event = {
 	id = CAL_START.1
 	title = CAL_START.1.t

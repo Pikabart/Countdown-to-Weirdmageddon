@@ -5,13 +5,13 @@ set_convoys = 10
 set_stability = 0.70
 set_war_support = 0.70
 
-add_ideas = {
-	MYS_NWHS_1
-	MYS_NWHS_2
-	MYS_NWHS_3
-	MYS_NWHS_4
-	MYS_NWHS_5
-}
+#add_ideas = {
+	#MYS_NWHS_1
+	#MYS_NWHS_2
+	#MYS_NWHS_3
+	#MYS_NWHS_4
+	#MYS_NWHS_5
+#}
 
 set_politics = {
 	ruling_party = fascism
@@ -41,9 +41,23 @@ create_country_leader = {
 	ideology = liberalism
 }
 
+create_country_leader = {
+	name = "Wendy Corduroy"
+	desc = ""
+	picture = "Portrait_Wendy_Corduroy.dds"
+	ideology = anarchist_communism
+}
+
+create_country_leader = {
+	name = "'Soos' Ramirez"
+	desc = ""
+	picture = ""
+	ideology = moderatism
+}
+
 create_field_marshal = {# Stan Pines
 	name = "Stan Pines"
-	desc = "Pffft, If Shermie can do it, so can I."
+	desc = "Pffft, If Shermie can do it, then so can I."
 	picture = "gfx/leaders/MYS/Portrait_Stan_Pines.dds"
 	traits = {
 		harsh_leader

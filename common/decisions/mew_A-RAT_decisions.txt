@@ -3,71 +3,36 @@
 # ID's must not include spaces!
 # Decisions MUST be visible for the AI to execute them, if in doubt, switch tag to the AI country and check if they can see/execute the mission.
 #####################################################################################################################
-simple_category_mewni = {		#Name of category that decisions will appear under, decisions MUST have a category to work properly.
+mewni_arat = {		
 	
-	A-RAT_mobilize = { 		#ID of the decision, must not contain spaces!
+	A-RAT_mobilize = { 		
+		icon = GFX_decision_icon_default		
+		fire_only_once = yes		
+		available = {	}	
+		visible = {	}		
 
-		icon = GFX_decision_icon_default		#The left side icon to show for this decision.
-		
-		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
-		
-		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
-		}
-		
-		fire_only_once = yes		#If set to yes, the decision will only appear once, after execution will not appear again.
-
-		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
-			ROOT = {
-				is_ai = no
-			}
-			has_global_flag = A-RAT_founded
-		}		
-
-		cost = 50		#The cost to execute the decision, by default its political power.
-
-		# EFFECTS OF THIS DECISION/MISSION
-
+		cost = 50		
 		complete_effect = {		
-			country_event = A-RAT_mobilize.1			
+			country_event = A-RAT_mobilize.1	# Will set flag: A-RAT_mobilize	
 		}
-		
-		# AI LOGIC FOR THIS DECISION/MISSION
-
-		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+		ai_will_do = {	
 			factor = 1			
 		}
 	}
 	
-	A-RAT_funding = {		#ID of the decision, must not contain spaces!
-
-		icon = GFX_decision_icon_default		#The left side icon to show for this decision.
-		
-		# CONDITIONS TO MAKE THIS DECISION/MISSION APPEAR AND EXECUTE
-		
-		available = {		#Conditions that will allow the player/AI to click the decision and execute its effect.
-		}
-		
-		fire_only_once = yes		#If set to yes, the decision will only appear once, after execution will not appear again.
+	A-RAT_funding = {		
+		icon = GFX_decision_icon_default	
+		available = {	}
+		fire_only_once = yes		
 		days_re_enable = 1
-
-		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
-			ROOT = {
-				is_ai = no
-			}
-			has_global_flag = A-RAT_mobilize
+		visible = {		
+			has_country_flag = A-RAT_mobilize
 		}		
 
-		cost = 50		#The cost to execute the decision, by default its political power.
-
-		# EFFECTS OF THIS DECISION/MISSION
-
+		cost = 50		
 		complete_effect = {		
-			country_event = A-RAT_funding.1
-			
+			country_event = A-RAT_funding.1	
 		}
-		
-		# AI LOGIC FOR THIS DECISION/MISSION
-
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
 			factor = 1			
 		}
@@ -88,7 +53,7 @@ simple_category_mewni = {		#Name of category that decisions will appear under, d
 			ROOT = {
 				is_ai = no
 			}
-			has_global_flag = A-RAT_funding
+			has_country_flag = A-RAT_funding
 		}		
 
 		cost = 50		#The cost to execute the decision, by default its political power.
@@ -123,7 +88,7 @@ simple_category_mewni = {		#Name of category that decisions will appear under, d
 			ROOT = {
 				is_ai = no
 			}
-			has_global_flag = A-RAT_funding
+			has_country_flag = A-RAT_funding
 		}		
 
 		cost = 75		#The cost to execute the decision, by default its political power.
@@ -157,7 +122,7 @@ simple_category_mewni = {		#Name of category that decisions will appear under, d
 			ROOT = {
 				is_ai = no
 			}
-			has_global_flag = A-RAT_funding
+			has_country_flag = A-RAT_funding
 		}		
 
 		cost = 125		#The cost to execute the decision, by default its political power.
@@ -194,8 +159,8 @@ simple_category_mewni = {		#Name of category that decisions will appear under, d
 			ROOT = {
 				is_ai = no
 			}
-			has_global_flag = A-RAT_funding
-			has_global_flag = A-RAT_operation
+			has_country_flag = A-RAT_funding
+			has_country_flag = A-RAT_operation
 		}		
 
 		cost = 75		#The cost to execute the decision, by default its political power.
@@ -230,8 +195,8 @@ simple_category_mewni = {		#Name of category that decisions will appear under, d
 			ROOT = {
 				is_ai = no
 			}
-			has_global_flag = A-RAT_funding
-			has_global_flag = A-RAT_operation
+			has_country_flag = A-RAT_funding
+			has_country_flag = A-RAT_operation
 		}		
 
 		cost = 100		#The cost to execute the decision, by default its political power.
@@ -250,4 +215,27 @@ simple_category_mewni = {		#Name of category that decisions will appear under, d
 		}
 	}
 	
+}  ###end
+
+#############################################################################################################
+
+mewni_rec = {		
+	
+	REC_mobilize = { 		
+		icon = GFX_decision_icon_default		
+		fire_only_once = yes		
+		available = {	}	
+		visible = {	}		
+
+		cost = 50		
+		complete_effect = {		
+			#country_event = A-RAT_mobilize.1	# Will set flag: REC_mobilize	
+		}
+		ai_will_do = {	
+			factor = 1			
+		}
 	}
+	
+	
+	
+} ###end

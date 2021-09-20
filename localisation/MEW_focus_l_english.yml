@@ -18,18 +18,23 @@ corn_report_desc:0 "It seems our corn stocks are lower than expected. We must in
 ludo_path:0 "A Rat in the Shadows"
 ludo_path_desc:0 "Somewhere, in the darkest ditches of Mewni, a rat carries it's corn."
 
-exterminators:0 "Assemble Royal Exterminators"
-exterminators_desc:0 "This is not going to be the last time we have a rat problem. It's high time we assemble an official, state extermination company."
 
-utilize_army:0 "Utilize the Army"
-utilize_army_desc:0 "The rats are still a problem. Send in the army!"
-
-desperate_measures:0 "Desperate Measures"
-desperate_measures_desc:0 "You know that one warhammer 40k story about someone doing exterminatus on a bunch of planets in order to deprive the enemy of resources? Yeah we're doing that but on a smaller scale."
+#############################################################################################
+exterminators:0 "Assemble the Royal Exterminators"
+exterminators_desc:0 "It's high time we assemble an official, state extermination company. With backing from the mostly brightest minds at the Skywynne Institute and financers from Port Festiva and Port Emily, we'll bring our best and richest to bare on this treat!"
 
 hunt_rat:0 "Form the A-RAT"
-hunt_rat_desc:0 "It seems that the rats will be here for a long time. We must move anti-rat operations to a new organization, the Anti-Rat Army and Technologies."
+hunt_rat_desc:0 "As the military might of Mewni, we must organize anti-rat operations under a single new organization. With the Anti-Rat Army and Technologies Corp, we'll drive the rats back into thier filthy holes!"
 
+utilize_army:0 "Regroup our forces"
+utilize_army_desc:0 "The rats are still a problem. Refocus our efforts and ensure victory for the Queen!"
+
+desperate_measures:0 "Desperate Measures"
+desperate_measures_desc:0 "With some foresight and some sacrifice, we can implment 'Scorched Mewni' tactics to stop the rats. Our losses would still be dwarfed by the amount the rats would have taken otherwise."
+
+
+
+#############################################################################################
 emergency_economics:0 "Increase Production Quotas"
 emergency_economics_desc:0 "We must preserve the little corn we have left, and to do that we must increase production in our canning facilities. This mandate wont be popular, though."
 
@@ -38,6 +43,8 @@ emergency_economics_2_desc:0 "Our previous mandate has offset some of our econom
 
 emergency_economics_3:0 "Import Earth Machinery"
 emergency_economics_3_desc:0 "Our populace is quite overworked, and we are even seeing some minor protests break out. In order to maintain stability, we will import foreign machinery so that we can produce more while not agitating the populace."
+
+#################################################################################################
 
 MEW_reform_economy:0 "Why Corn?"
 MEW_reform_economy_desc:0 "Our emergency measures to preserve what little corn we have left has given rise to a radical new idea: Not relying on a single crop and basing the entire economy off of it. Perhaps this idea has some merit."
