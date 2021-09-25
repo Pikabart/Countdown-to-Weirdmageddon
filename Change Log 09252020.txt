@@ -1,0 +1,25 @@
+Changed Folders  11AM PST
+
+common/decisons
+common/ideas
+common/national_focus
+
+events
+- file edits
+
+gfx/interface/decisons
+gfx/interface/goal
+
+history/countries
+-updated MEW and CAN
+
+interface
+- added decision cat image for MEW
+- new goal and goal shines
+
+localisation
+-file change
+
+map
+- new stratetgic regions
+- upadted definitions, adjacencies, province, and adjacency_rules

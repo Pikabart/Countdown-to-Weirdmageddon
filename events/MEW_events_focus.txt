@@ -1013,6 +1013,9 @@ country_event = {
 				LUD = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }}
 				UKN = { country_event = { id = jaggy_collapse.1 days = 7 } }			 
 		
+				clr_country_flag = A-RAT_founded_flag   #Disbale ARAT and REC
+				clr_country_flag = REC_founded_flag
+				
 			}
  
 		}

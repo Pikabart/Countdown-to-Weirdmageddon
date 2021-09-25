@@ -29,16 +29,44 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/MYS/focus_journal_3.dds"			
 	}
 	
+	##################################################################
+
+	
+
+	SpriteType = {
+	name = "GFX_goal_focus_stantastic"
+	texturefile = "gfx/interface/goals/MYS/focus_stantastic.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_gideon_corn"
+	texturefile = "gfx/interface/goals/MYS/focus_gideon_corn.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_stan_corn"
+	texturefile = "gfx/interface/goals/MYS/focus_stan_corn.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_stan_moon"
+	texturefile = "gfx/interface/goals/MYS/focus_stan_and_moon.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_no_fuel"
+	texturefile = "gfx/interface/goals/MYS/focus_fuel.dds"			
+	}
+
 	SpriteType = {
 	name = "GFX_goal_focus_stan_run"
 	texturefile = "gfx/interface/goals/MYS/focus_stan_run.dds"			
 	}
 
-
-
-
-
-
-
+	SpriteType = {
+	name = "GFX_goal_focus_las_vegas"
+	texturefile = "gfx/interface/goals/MYS/focus_las_vegas.dds"			
+	}
+	
 
 } ### End Bracket

@@ -6,7 +6,7 @@ add_namespace = WPI_TREMBLEY
 
 ############################################################################################################
 country_event = { # Closing in on Trembley
-	id = WPI_TREBLEY.1
+	id = WPI_TREMBLEY.1
 	title = WPI_TREMBLEY.1.t
 	desc = WPI_TREMBLEY.1.d
 	picture = GFX_report_event_chinese_soldiers_fighting

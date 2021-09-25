@@ -1,0 +1,17 @@
+﻿l_english:
+
+##########################################################################################
+#Descions LOCS
+##########################################################################################
+ MYS_boss_mabel:0 "I'm the Boss now!"
+ MYS_boss_mabel_desc:0 "Its time for changes! Now that I'm the Boss, we'll show Stan how to run a buisness!\n\nMabel's Money = [?mys_mabel_money|+0]\nMabel's Morals = [?mys_mabel_moral|+0]"
+ mabel_promice_1:0 "§CGood Customer Servivce§"
+ mabel_promice_2:0 "§CDipper's Real Mysteries§"
+ mabel_promice_3:0 "§C#1 Employee!§"
+ mabel_cash_1:0 "§RSqueez them Dry!§"
+ mabel_cash_2:0 "§RGet in the Suit!§"
+ mabel_cash_3:0 "§RGet Back to Work§"
+ mabel_comprise_1:0 "§YThe Magic Word§"
+ mabel_comprise_2:0 "§YGet rich Quick§"
+ mabel_comprise_3:0 "§YYell at the help§"
+ mabel_comprise_4:0 "§YGot to Spend Money to Make Money§"

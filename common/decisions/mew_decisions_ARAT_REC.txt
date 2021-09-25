@@ -1,0 +1,720 @@
+#####################################################################################################################
+# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
+# ID's must not include spaces!
+# Decisions MUST be visible for the AI to execute them, if in doubt, switch tag to the AI country and check if they can see/execute the mission.
+#####################################################################################################################
+mewni_arat = {		
+	
+	A-RAT_mobilize = { 		
+		icon = GFX_decision_icon_default		
+		fire_only_once = yes		
+		available = {	}	
+		visible = {	}		
+
+		cost = 50	
+		complete_effect = {		
+			#country_event = A-RAT_mobilize.1
+			set_country_flag = A-RAT_mobilize_flag
+			hidden_effect = {
+				set_variable = {
+					var = mew_arat_funding
+					value = 0 
+				}
+				set_variable = {
+					var = mew_arat_strength
+					value = 0 
+				}
+			}
+		}
+		ai_will_do = {	
+			factor = 1			
+		}
+	}
+	
+	A-RAT_funding = {	 	
+		icon = GFX_decision_icon_default	
+		available = {	}
+		fire_only_once = no		
+		days_re_enable = 1
+		visible = {		
+			has_country_flag = A-RAT_mobilize_flag
+		}		
+
+		cost = 50	
+		complete_effect = {		
+			#country_event = A-RAT_funding.1	   # Will set flag: A-RAT_funding_flag	
+			set_country_flag = A-RAT_funding_flag
+			add_to_variable = {
+				var = mew_arat_funding
+				value = 30
+			}
+			custom_effect_tooltip = A-RAT_funding_tt 
+		}
+		days_remove = 9
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	
+	#################################################################
+	# when both A-RAT_mobilize and A-RAT_funding flags are on
+	#
+	#################################################################
+	
+	A-RAT_parade = {		
+		icon = GFX_decision_icon_default	
+		available = {
+			check_variable = {    ### ican do if funding is 10 or higher
+				var = mew_arat_funding
+				value = 10
+				compare = greater_than_or_equals
+			}
+		}
+		fire_only_once = no		
+		days_re_enable = 1
+		visible = {		
+			has_country_flag = A-RAT_mobilize_flag
+			has_country_flag = A-RAT_funding_flag
+		}		
+
+		cost = 50		
+		complete_effect = {		
+			#country_event = A-RAT_funding.1	   # Will set flag: A-RAT_funding
+			subtract_from_variable = {
+				var = mew_arat_funding
+				value = 10
+			}
+			custom_effect_tooltip = A-RAT_parade_tt 
+			add_manpower = -1000 
+		}
+		days_remove = 9
+		remove_effect = {
+			random_list = {
+				
+				70 = { #regular outcome
+					hidden_effect ={
+						add_manpower = 1000
+						add_stability = .05
+						add_war_support = .05
+					}
+					custom_effect_tooltip = A-RAT_parade_1_tt 
+				}
+				20 = { #good outcome
+					hidden_effect ={
+						add_manpower = 1250
+						add_political_power = 100
+						add_stability = .10
+						add_war_support = .10
+						add_to_variable = {
+							var = mew_arat_strength
+							value = 5
+						}
+					}
+					custom_effect_tooltip = A-RAT_parade_2_tt
+				}
+				10 = { #bad outcome
+					hidden_effect ={
+						add_manpower = 950
+						add_political_power = -50
+						add_stability = -.05
+						add_war_support = -.05
+						subtract_from_variable = {
+							var = mew_arat_strength
+							value = 5
+						} 
+					}
+					custom_effect_tooltip = A-RAT_parade_3_tt
+				}				
+			}
+		}
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	
+	#################################################################
+
+	A-RAT_recruit = {		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_icon_default	
+		available = {
+			check_variable = {    ### ican do if funding is 10 or higher
+				var = mew_arat_funding
+				value = 10
+				compare = greater_than_or_equals
+			}
+		}
+		fire_only_once = no		
+		days_re_enable = 1
+		visible = {		
+			has_country_flag = A-RAT_mobilize_flag
+			has_country_flag = A-RAT_funding_flag
+		}		
+
+		cost = 50	
+		complete_effect = {		
+			#country_event = A-RAT_funding.1	   # Will set flag: A-RAT_funding
+			subtract_from_variable = {
+				var = mew_arat_funding
+				value = 10
+			}			
+			add_to_variable = {
+				var = mew_arat_strength 
+				value = 5
+			} 
+		}
+		days_remove = 9
+		remove_effect = {
+			random_list = {
+				70 = { #regular outcome
+					custom_effect_tooltip = A-RAT_recruit_1_tt 
+					add_manpower = 1000
+				}				
+				20 = { #good outcome
+					add_to_variable = {
+						var = mew_arat_strength
+						value = 5
+					}
+					custom_effect_tooltip = A-RAT_recruit_2_tt
+					add_manpower = 2000 
+				}			
+				10 = { #bad outcome
+
+					subtract_from_variable = {
+						var = mew_arat_strength
+						value = 5
+					}
+					custom_effect_tooltip = A-RAT_recruit_3_tt
+					add_manpower = 500
+				}
+			} 
+		}
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	
+	##########################################################################################
+	### Supply #########################
+	##########################################################################################
+	
+	A-RAT_arms = {		
+		icon = GFX_decision_icon_default	
+		available = {
+			check_variable = {    ### ican do if funding is 10 or higher
+				var = mew_arat_funding
+				value = 10
+				compare = greater_than_or_equals
+			}
+		}
+		fire_only_once = no		
+		days_re_enable = 1
+		visible = {		
+			has_country_flag = A-RAT_mobilize_flag
+			has_country_flag = A-RAT_funding_flag
+		}		
+		
+		cost = 50
+		complete_effect = {		
+			#country_event = A-RAT_funding.1	
+			subtract_from_variable = {
+				var = mew_arat_funding
+				value = 10 
+			}
+			add_to_variable = {
+				var = mew_arat_strength
+				value = 5
+			}
+			random_list = {
+				80 = { #regular outcome					
+					custom_effect_tooltip = A-RAT_arms_1_tt
+					add_to_variable = {
+						var = mew_arat_strength
+						value = 5
+					}
+					add_equipment_to_stockpile = {
+						type = infantry_equipment_1
+						amount = 100
+					} 
+				}
+				15 = { #good outcome
+					custom_effect_tooltip = A-RAT_arms_2_tt
+					add_to_variable = {
+						var = mew_arat_strength
+						value = 10
+					}
+					add_equipment_to_stockpile = {
+						type = infantry_equipment_1
+						amount = 200
+					} 
+				}
+				5 = { #bad outcome
+					custom_effect_tooltip = A-RAT_arms_3_tt
+					subtract_from_variable = {
+						var = mew_arat_strength
+						value = 5
+					}
+					add_equipment_to_stockpile = {
+						type = infantry_equipment_1
+						amount = -100
+					} 
+				}				
+			}
+		}
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}  
+	
+	#################################################################
+
+	A-RAT_foods = {		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_icon_default	
+		available = {
+			check_variable = {    ### ican do if funding is 10 or higher
+				var = mew_arat_funding
+				value = 10
+				compare = greater_than_or_equals
+			}
+		}
+		fire_only_once = no		
+		days_re_enable = 1
+		visible = {		
+			has_country_flag = A-RAT_mobilize_flag
+			has_country_flag = A-RAT_funding_flag
+		}	
+
+		cost = 50		
+		complete_effect = {		
+			#country_event = A-RAT_funding.1	  
+			subtract_from_variable = {
+				var = mew_arat_funding
+				value = 10
+			}
+			add_to_variable = {
+				var = mew_arat_strength
+				value = 5
+			}
+			random_list = {
+				80 = { #regular outcome 
+					custom_effect_tooltip = A-RAT_foods_1_tt
+					add_to_variable = {
+						var = mew_arat_strength
+						value = 5
+					}
+					add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 100 
+					} 
+				}
+				15 = { #good outcome
+					custom_effect_tooltip = A-RAT_foods_2_tt
+					add_to_variable = {
+						var = mew_arat_strength
+						value = 10
+					}
+					add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 200
+					} 
+				}
+				5 = { #bad outcome
+					custom_effect_tooltip = A-RAT_foods_3_tt					
+					subtract_from_variable = {
+						var = mew_arat_strength
+						value = 5
+					}
+					add_equipment_to_stockpile = {
+						type = support_equipment
+						amount = 50
+					} 
+				}	
+			}
+		} 
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	
+	###########################################################################
+	### Operations #########################
+	###########################################################################
+	
+	A-RAT_operation = {		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_icon_default	
+		available = {
+			check_variable = {    ### ican do if funding is 10 or higher
+				var = mew_arat_funding
+				value = 10
+				compare = greater_than_or_equals
+			}
+			check_variable = {    ### ican do if funding is 10 or higher
+				var = mew_arat_strength
+				value = 5 
+				compare = greater_than_or_equals
+			}
+		}
+		fire_only_once = no		
+		days_re_enable = 1
+		visible = {		
+			has_country_flag = A-RAT_mobilize_flag
+			has_country_flag = A-RAT_funding_flag
+		}		
+
+		cost = 50		
+		complete_effect = {		
+			#country_event = A-RAT_funding.1	   # Will set flag: A-RAT_funding
+			subtract_from_variable = {
+				var = mew_arat_funding
+				value = 10
+			}
+			subtract_from_variable = {
+				var = mew_arat_strength
+				value = 5
+			}			
+		} 
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	
+	A-RAT_operation_2 = {		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_icon_default	
+		available = {
+			check_variable = {    ### ican do if funding is 10 or higher
+				var = mew_arat_funding
+				value = 10
+				compare = greater_than_or_equals
+			}
+			check_variable = {    ### ican do if funding is 10 or higher
+				var = mew_arat_strength
+				value = 5
+				compare = greater_than_or_equals
+			}
+		}
+		fire_only_once = no		
+		days_re_enable = 1
+		visible = {		
+			has_country_flag = A-RAT_mobilize_flag
+			has_country_flag = A-RAT_funding_flag
+		}		
+
+		cost = 50		
+		complete_effect = {		
+			#country_event = A-RAT_funding.1	   # Will set flag: A-RAT_funding
+			subtract_from_variable = {
+				var = mew_arat_funding
+				value = 10
+			}
+			subtract_from_variable = {
+				var = mew_arat_strength
+				value = 5
+			}			
+		} 
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		} 
+	}
+	
+	A-RAT_magic_operation = {		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_icon_default	
+		available = {
+			check_variable = {    ### ican do if funding is 10 or higher
+				var = mew_arat_funding
+				value = 10
+				compare = greater_than_or_equals
+			}
+			check_variable = {    ### ican do if funding is 10 or higher
+				var = mew_arat_strength
+				value = 10
+				compare = greater_than_or_equals
+			}
+		}
+		fire_only_once = no		
+		days_re_enable = 1
+		visible = {		
+			has_country_flag = A-RAT_mobilize_flag
+			has_country_flag = A-RAT_funding_flag
+		}		
+
+		cost = 50		
+		complete_effect = {		
+			#country_event = A-RAT_funding.1	   # Will set flag: A-RAT_funding
+			subtract_from_variable = {
+				var = mew_arat_funding
+				value = 10
+			}
+			subtract_from_variable = {
+				var = mew_arat_strength
+				value = 10
+			}			
+		} 
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		} 
+	}
+	
+}  ###end 
+
+###########################################################################################################################
+###########################################################################################################################
+###########################################################################################################################
+
+mewni_rec = {		
+	
+	REC_mobilize = { 		
+		icon = GFX_decision_icon_default		
+		fire_only_once = yes		
+		available = {	}	
+		visible = {	}		
+
+		cost = 50		
+		complete_effect = {		
+			#country_event = A-RAT_mobilize.1		
+			set_country_flag = REC_mobilize_flag
+			hidden_effect = {
+				set_variable = {
+					var = mew_rec_funding
+					value = 0 
+				}
+				set_variable = {
+					var = mew_rec_pr
+					value = 25 
+				}
+			}
+		}
+		ai_will_do = {	
+			factor = 1			
+		}
+	}
+	
+	REC_funding_1 = {	 	
+		icon = GFX_decision_icon_default	
+		available = {	}
+		fire_only_once = no		
+		days_re_enable = 1
+		visible = {		
+			has_country_flag = REC_mobilize_flag
+		}		
+
+		cost = 50		
+		complete_effect = {		
+			#country_event = A-RAT_funding.1	   # Will set flag: A-RAT_funding_flag	
+			set_country_flag = REC_funding_flag
+		}
+		days_remove = 9
+		remove_effect = {
+			add_to_variable = {
+				var = mew_rec_funding
+				value = 10
+			}
+			custom_effect_tooltip = REC_funding_1_tt 
+		}
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	
+	REC_funding_2 = {	 	
+		icon = GFX_decision_icon_default	
+		available = {	}
+		fire_only_once = no		
+		days_re_enable = 1
+		visible = {		
+			has_country_flag = REC_mobilize_flag
+		}		
+
+		cost = 50		
+		complete_effect = {		
+			#country_event = A-RAT_funding.1	   # Will set flag: A-RAT_funding_flag	
+			set_country_flag = REC_funding_flag 
+			add_to_variable = { 
+				var = mew_rec_funding 
+				value = 30
+			}
+		} 
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	
+	##############################################
+	###  Populace Rally
+	##############################################
+	 
+	REC_bounty = {	   	
+		icon = GFX_decision_icon_default	
+		available = {
+			check_variable = {    ### ican do if funding is 10 or higher
+				var = mew_rec_funding
+				value = 10
+				compare = greater_than_or_equals
+			}
+		}
+		fire_only_once = no		
+		days_re_enable = 1
+		visible = {		
+			has_country_flag = REC_mobilize_flag
+			has_country_flag = REC_funding_flag
+		}		
+
+		cost = 50		
+		complete_effect = {		
+			#country_event = A-RAT_funding.1	   # Will set flag: A-RAT_funding_flag	
+			set_country_flag = REC_funding_flag
+			subtract_from_variable = { 
+				var = mew_rec_funding 
+				value = 10
+			}
+			add_to_variable = {
+				var = mew_rec_pr
+				value = 5
+			}
+		}
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	
+	REC_pamphlet = {	 	
+		icon = GFX_decision_icon_default	
+		available = {
+			check_variable = {    ### ican do if funding is 10 or higher
+				var = mew_rec_funding
+				value = 10
+				compare = greater_than_or_equals
+			}
+		}
+		fire_only_once = no		
+		days_re_enable = 1
+		visible = {		
+			has_country_flag = REC_mobilize_flag
+			has_country_flag = REC_funding_flag
+		}		
+
+		cost = 50		
+		complete_effect = {		
+			#country_event = A-RAT_funding.1	   # Will set flag: A-RAT_funding_flag	
+			set_country_flag = REC_funding_flag 
+			subtract_from_variable = { 
+				var = mew_rec_funding 
+				value = 10
+			}
+			add_to_variable = {
+				var = mew_rec_pr
+				value = 5
+			}
+		} 
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	
+	##############################################
+	###  Research and Industry
+	##############################################
+	
+	REC_research = {	 	
+		icon = GFX_decision_icon_default	
+		available = {
+			check_variable = {    ### ican do if funding is 10 or higher
+				var = mew_rec_funding
+				value = 10
+				compare = greater_than_or_equals
+			}
+		}
+		fire_only_once = no		
+		days_re_enable = 1
+		visible = {		
+			has_country_flag = REC_mobilize_flag
+			has_country_flag = REC_funding_flag
+		}		
+
+		cost = 50		
+		complete_effect = {		
+			#country_event = A-RAT_funding.1	   # Will set flag: A-RAT_funding_flag	
+			set_country_flag = REC_funding_flag
+			subtract_from_variable = { 
+				var = mew_rec_funding 
+				value = 10
+			}
+		}
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	
+	REC_industry = {	 	
+		icon = GFX_decision_icon_default	
+		available = {
+			check_variable = {    ### ican do if funding is 10 or higher
+				var = mew_rec_funding
+				value = 10
+				compare = greater_than_or_equals
+			}
+		}
+		fire_only_once = no		
+		days_re_enable = 1
+		visible = {		
+			has_country_flag = REC_mobilize_flag
+			has_country_flag = REC_funding_flag
+		}		
+
+		cost = 50		
+		complete_effect = {		
+			#country_event = A-RAT_funding.1	   # Will set flag: A-RAT_funding_flag	
+			set_country_flag = REC_funding_flag 
+			subtract_from_variable = { 
+				var = mew_rec_funding 
+				value = 10
+			}
+		} 
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1		
+		} 
+	}
+	
+	##############################################
+	###  BAIL OUT PR!!!!	
+	##############################################
+	
+	REC_PR = {	 	
+		icon = GFX_decision_icon_default	
+		available = {
+			check_variable = {    ### need lots of money to buy PR reps
+				var = mew_rec_funding
+				value = 30
+				compare = greater_than_or_equals
+			}
+			check_variable = {    ### only if PR hits rock botton
+				var = mew_rec_pr
+				value = 0
+				compare = less_than 
+			}
+		}
+		fire_only_once = no		
+		days_re_enable = 1
+		visible = {		
+			has_country_flag = REC_mobilize_flag
+			has_country_flag = REC_funding_flag
+		}		
+
+		cost = 250		
+		complete_effect = {		
+			#country_event = A-RAT_funding.1	  
+			set_country_flag = REC_funding_flag 
+			subtract_from_variable = { 
+				var = mew_rec_funding 
+				value = 30
+			}
+			set_variable = {                        # basicly as reset on PR level
+				var = mew_rec_pr
+				value = 25
+			}
+		} 
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 1			
+		}
+	}
+	
+	
+} ###end

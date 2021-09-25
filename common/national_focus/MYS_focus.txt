@@ -200,7 +200,7 @@
 ##################################################################################################################
 	focus = { 
 		id = MYS_stantastic
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_stantastic
 		x = -3
 		y = 1
 		prerequisite = { focus = MYS_journal_3 }
@@ -225,7 +225,7 @@
 
 	focus = { #1
 		id = MYS_stantastic_1
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_gideon_corn
 		x = -1
 		y = 1
 		prerequisite = { focus = MYS_stantastic }
@@ -250,7 +250,7 @@
 	
 	focus = { #3
 		id = MYS_stantastic_3
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_stan_corn
 		x = 0
 		y = 1
 		prerequisite = { focus = MYS_stantastic_1 }
@@ -277,7 +277,7 @@
 	
 	focus = { #5
 		id = MYS_stantastic_5
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_stan_moon
 		x = 0
 		y = 1
 		prerequisite = { focus = MYS_stantastic_3 }
@@ -302,7 +302,7 @@
 	
 	focus = { #2
 		id = MYS_stantastic_2
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_no_fuel
 		x = 1
 		y = 1
 		prerequisite = { focus = MYS_stantastic }
@@ -354,7 +354,7 @@
 	
 	focus = { #6
 		id = MYS_stantastic_6
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_las_vegas
 		x = 0
 		y = 1
 		prerequisite = { focus = MYS_stantastic_4 }

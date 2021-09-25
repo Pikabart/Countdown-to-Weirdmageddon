@@ -13,16 +13,18 @@ set_politics = {
 }
 
 set_popularities = {
-	neutrality = 98
+	neutrality = 89
+	democratic = 5
 	communism = 1
-	fascism = 1
+	fascism = 5
 }
 
 #starting tech
 
 set_technology = {
 	infantry_weapons = 1
-
+	infantry_weapons1 = 1
+	tech_support = 1
 }
 
 #order of battle, AKA the units/armies that will be available
@@ -38,14 +40,35 @@ add_to_faction = SPI
 add_to_faction = JAG
 
 create_country_leader = {
-	name = "Queen Moon of House Butterfly"
+	name = "Queen Moon Butterfly"
 	desc = "placeholder"
 	picture = "hoi4_portrait_moon.dds"
 	ideology = oligarchism
 }
 
+create_country_leader = {
+	name = "Council Marvin"
+	desc = "placeholder"
+	picture = ""
+	ideology = democratic
+}
+
+create_country_leader = {
+	name = "Worker's Council"
+	desc = "placeholder"
+	picture = ""
+	ideology = communism
+}
+
+create_country_leader = {
+	name = "Manfred"
+	desc = "placeholder"
+	picture = ""
+	ideology = fascism
+}
+
 create_field_marshal = {
-	name = "King River of House Butterfly"
+	name = "King River Butterfly"
 	picture = "hoi4_portrait_river_butterfly_general.dds"
 	traits = {  trickster politically_connected trait_reckless }
 	skill = 5

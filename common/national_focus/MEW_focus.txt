@@ -150,6 +150,7 @@
 		
 		completion_reward = {
 			country_event = exterminators.1
+			set_country_flag = REC_founded_flag     # enable decisions cat
 		}
 	}
 	
@@ -168,11 +169,11 @@
 		
 		completion_reward = {
 			country_event = hunt_rat.1
-			set_country_flag = A-RAT_founded
+			set_country_flag = A-RAT_founded_flag    # enable decisions cat
 			custom_effect_tooltip = "hunt_rat_custom_tooltip"
-
 		}
 	}
+	
 	
 	focus = {
 		id = utilize_army

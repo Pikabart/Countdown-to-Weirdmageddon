@@ -50,3 +50,19 @@ strike_first_idea_desc:0 "We have striked first in the civil war, giving us an a
 
 mew_rapid_deployment_idea:0 "Rapid Deployment"
 mew_rapid_deployment_idea_desc:0 "Rapid deployment"
+
+###############################
+#Special MYS event idea for MEW
+stan_steal_corn_idea:0 "Curse that Stanford Pines!"
+stan_steal_corn_idea_desc:0 "Stanford Stole our Corn and humiliated us! How embarrasing!"
+stan_get_corn_back_idea:0 "Rightfully Ours"
+stan_get_corn_back_idea_desc:0 "That annoying Stanford Pines will think twice before stealing from us again!"
+###############################
+
+
+
+
+
+
+
+

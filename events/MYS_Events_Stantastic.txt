@@ -181,6 +181,9 @@ country_event = {
 		name = stantastic.9.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		country_event = { id = stantastic.12 days = 3 }
+		MEW = {
+				add_ideas = stan_steal_corn_idea
+		}
 	}
 }
 
@@ -199,6 +202,9 @@ country_event = {
 	option = { 
 		name = stantastic.10.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		MEW = {
+				add_ideas = stan_get_corn_back_idea
+		}
 	}
 }
 
@@ -262,7 +268,7 @@ country_event = {
 # Stan-Tastic Adventure 2: Winning Bets and Raiding Bases
 ###
 
-country_event = {
+country_event = { #Out of fuel
 	id = stantastic_51.1
 	title = stantastic_51.1.t 
 	desc = stantastic_51.1.d  
@@ -281,11 +287,11 @@ country_event = {
 	option = { 
 		name = stantastic_51.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = stantastic_51.2 days = 3 }	
+		country_event = { id = mystery_shack_boss_mabel.1 days = 3 }	
 	}
 }	
 
-country_event = {
+country_event = { #The Bet
 	id = stantastic_51.2
 	title = stantastic_51.2.t 
 	desc = stantastic_51.2.d  
@@ -294,18 +300,35 @@ country_event = {
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
 	
-	immediate = {        
+	immediate = {
+		hidden_effect = {
+			set_country_flag = mys_the_bet
+		}
 	}
 	
 	option = { 
 		name = stantastic_51.2.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		country_event = { id = stantastic_51.3 days = 3 }	
-	
+		add_popularity = {
+				ideology = democratic
+				popularity = 0.50
+		}
+		set_politics = {
+			ruling_party = democratic
+		}
+		set_variable = {
+			var = mys_mabel_money
+			value = 70
+		}
+		set_variable = {
+			var = mys_mabel_moral
+			value = 130
+		}
 	}
 }
 
-country_event = {
+country_event = { #Outside 51
 	id = stantastic_51.3
 	title = stantastic_51.3.t 
 	desc = stantastic_51.3.d  
@@ -323,13 +346,13 @@ country_event = {
 	option = { 
 		name = stantastic_51.3.a
 		ai_chance = { factor = 50 }	# 100% AI choose this
-		country_event = { id = stantastic_51.4 days = 3 }	
+		country_event = { id = stantastic_51.4 days = 21 }	
 
 	}
 	option = { 
 		name = stantastic_51.3.b
 		ai_chance = { factor = 50 }	# 100% AI choose this
-		country_event = { id = stantastic_51.8 days = 3 }	
+		country_event = { id = stantastic_51.8 days = 21 }	
 	
 	}
 }
@@ -349,7 +372,7 @@ country_event = {
 	option = { 
 		name = stantastic_51.4.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = stantastic_51.5 days = 3 }	
+		country_event = { id = stantastic_51.5 days = 7 }	
 
 	}
 }
@@ -369,7 +392,7 @@ country_event = {
 	option = { 
 		name = stantastic_51.5.a
 		ai_chance = { factor = 100 }	# 100% AI choose this	
-		country_event = { id = stantastic_51.6 days = 3 }	
+		country_event = { id = stantastic_51.6 days = 7 }	
 
 	}
 }
@@ -389,7 +412,7 @@ country_event = {
 	option = { 
 		name = stantastic_51.6.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = stantastic_51.7 days = 3 }	
+		country_event = { id = stantastic_51.7 days = 7 }	
 	
 	}
 }
@@ -431,7 +454,7 @@ country_event = {
 	option = { 
 		name = stantastic_51.8.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = stantastic_51.9 days = 3 }	
+		country_event = { id = stantastic_51.9 days = 7 }	
 	
 	}
 }
@@ -451,7 +474,7 @@ country_event = {
 	option = { 
 		name = stantastic_51.9.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = stantastic_51.10 days = 3 }	
+		country_event = { id = stantastic_51.10 days = 7 }	
 	
 	}
 }
@@ -471,7 +494,7 @@ country_event = {
 	option = { 
 		name = stantastic_51.10.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = stantastic_51.11 days = 3 }	
+		country_event = { id = stantastic_51.11 days = 7 }	
 	}
 }
 

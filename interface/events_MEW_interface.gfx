@@ -1,5 +1,5 @@
 ##########
-# MEW country event picture interface
+# MEW country event and decisions picture interface
 ############
 spriteTypes = {
 
@@ -52,5 +52,26 @@ spriteTypes = {
 		name = "GFX_report_event_toffee_ludo"
 		texturefile = "gfx/event_country_pictures/MEW/report_event_toffee_ludo.dds"
 	}
+	
+	
+	
+	
+   #############################################################
+   #  Decisions
+   #############################################################
+	spriteType = { # Decisions REC
+		name = "GFX_decision_category_REC"
+		texturefile = "gfx/interface/decisions/decision_cat_REC.dds"
+	}
+	
+	spriteType = { # Decisions REC
+		name = "GFX_decision_category_ARAT"
+		texturefile = "gfx/interface/decisions/decision_cat_ARAT.dds"
+	}
+	
+	
+	
+	
+	
 	
 }
