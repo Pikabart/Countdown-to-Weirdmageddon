@@ -5,7 +5,8 @@
 
 #2.	Add country tag in common/country_tags file of 00_countries
 
-#3.	In gfx, assign a gfx/flags folder file for regular, medium, and small
+#3.	In gfx, assign to gfx/flags folder the flag file for regular, medium, and small
+#Actual flag not needed now
 
 #4.	In gfx/leaders, Create a folder with the country tag as the name in gfx/leaders. 
 #Actual portraits not needed now

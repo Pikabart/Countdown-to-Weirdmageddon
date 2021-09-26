@@ -281,6 +281,48 @@ ideas = {
 			}
 		}
 		###############################
+		# Decision Ideas
+		#############################
+		MEW_tech_incentive = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = 0.07		
+			}
+		}
+		MEW_northwest_bonus = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = 0.05
+				political_power_gain = 0.5
+				stability_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		MEW_northwest_pain = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = -0.05
+				political_power_gain = -0.5
+				stability_factor = -0.1
+				consumer_goods_factor = 0.05	
+			}
+		}
+		###############################
 
 }
 

@@ -18,6 +18,33 @@
  MYS_plenty_of_suckers:0 "High Tourism"
  MYS_plenty_of_suckers_desc:0 "Pleanty of suckers...er, Tourist, coming to Oregon. Of course, where else would they go to than Gravity Falls' Mystery Shack!"
 #################################
+
+MYS_cordoury_spirit:0 "The Cordoury Spirit"
+MYS_cordoury_spirit_speed:0 "The Cordoury Spirit"
+MYS_cordoury_spirit_hike:0 "The Cordoury Spirit"
+MYS_cordoury_spirit_speed_security:0 "The Cordoury Spirit"
+MYS_cordoury_spirit_hike_security:0 "The Cordoury Spirit"
+MYS_cordoury_spirit_speed_security_attack:0 "The Cordoury Spirit"
+MYS_cordoury_spirit_hike_security_attack:0 "The Cordoury Spirit"
+MYS_cordoury_spirit_speed_security_attack_cool:0 "The Cordoury Spirit"
+MYS_cordoury_spirit_hike_security_attack_cool:0 "The Cordoury Spirit"
+MYS_cordoury_spirit_desc:0 "The Cordourys have always been a fiesty bunch, from the old tales of Archibald Cordoury to the feats of Daniel "Manly Dan" Cordoury. It's great that we have one of their folks on our team!"
+MYS_cordoury_spirit_speed_desc:0 "The Cordourys have always been a fiesty bunch, from the old tales of Archibald Cordoury to the feats of Daniel "Manly Dan" Cordoury. It's great that we have one of their folks on our team!"
+MYS_cordoury_spirit_hike_desc:0 "The Cordourys have always been a fiesty bunch, from the old tales of Archibald Cordoury to the feats of Daniel "Manly Dan" Cordoury. It's great that we have one of their folks on our team!"
+MYS_cordoury_spirit_speed_security_desc:0 "The Cordourys have always been a fiesty bunch, from the old tales of Archibald Cordoury to the feats of Daniel "Manly Dan" Cordoury. It's great that we have one of their folks on our team!"
+MYS_cordoury_spirit_hike_security_desc:0 "The Cordourys have always been a fiesty bunch, from the old tales of Archibald Cordoury to the feats of Daniel "Manly Dan" Cordoury. It's great that we have one of their folks on our team!"
+MYS_cordoury_spirit_speed_security_attack_desc:0 "The Cordourys have always been a fiesty bunch, from the old tales of Archibald Cordoury to the feats of Daniel "Manly Dan" Cordoury. It's great that we have one of their folks on our team!"
+MYS_cordoury_spirit_hike_security_attack_desc:0 "The Cordourys have always been a fiesty bunch, from the old tales of Archibald Cordoury to the feats of Daniel "Manly Dan" Cordoury. It's great that we have one of their folks on our team!"
+MYS_cordoury_spirit_speed_security_attack_cool_desc:0 "The Cordourys have always been a fiesty bunch, from the old tales of Archibald Cordoury to the feats of Daniel "Manly Dan" Cordoury. It's great that we have one of their folks on our team!"
+MYS_cordoury_spirit_hike_security_attack_cool_desc:0 "The Cordourys have always been a fiesty bunch, from the old tales of Archibald Cordoury to the feats of Daniel "Manly Dan" Cordoury. It's great that we have one of their folks on our team!"
+
+#################################
+
+MYS_cordoury_drip:0 "The Cordoury Drip"
+MYS_cordoury_drip_desc:0 ""Haha silly Wendy, you can't have dr-""
+
+#################################
+
  MYS_tank_manufacturer:0 "Gleeful's Armor Sale"
  MYS_motorized_equipment_manufacturer:0 "Gleeful's Auto Sale"
  MYS_infantry_equipment_manufacturer:0 "Y2K Supply Wholesale"

@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = mystery_shack
+add_namespace = mystery_shack_boss_mabel
 
 country_event = { #1
 	id = mystery_shack.1
@@ -106,9 +107,9 @@ country_event = { #5
 	}
 }
 
-###
+#############################################
 #chain event 6,7,8
-###
+#############################################
 country_event = { #6
 	id = mystery_shack.6
 	title = mystery_shack.6.t 
@@ -165,7 +166,33 @@ country_event = { #8
 	}
 }
 
+########################################
+# mystery_shack_boss_mabel
+########################################
+
+country_event = { # Starting the bet
+	id = mystery_shack_boss_mabel.1
+	title = mystery_shack_boss_mabel.1.t 
+	desc = mystery_shack_boss_mabel.1.d  
+	picture = GFX_report_event_mystery_shack #  change this later
 	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mystery_shack_boss_mabel.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = stantastic_51.2 days = 2 }
+	}
+}
+
+
+##############################################################################################################################
+##############################################################################################################################
+##############################################################################################################################
 		# Dippy Returns! Test Event #9999
 	country_event = {
 		id = mystery_shack.9999 

@@ -1,9 +1,8 @@
 add_namespace = A-RAT_mobilize
-add_namespace = A-RAT_funding
-add_namespace = A-RAT_pamphlet
-add_namespace = A-RAT_bounty
+add_namespace = A-RAT_parade
+add_namespace = A-RAT_recruitment
+add_namespace = A-RAT_supply
 add_namespace = A-RAT_operation
-add_namespace = A-RAT_operation_2
 add_namespace = A-RAT_magic_operation
 
 
@@ -18,108 +17,380 @@ country_event = {
 	option = {
 		name = A-RAT_mobilize.1.a
 		ai_chance = { factor = 90 }
-		hidden_effect = {
-		set_global_flag = A-RAT_mobilize
-		
-		}
 	}
 }
 
 country_event = {
-	id = A-RAT_funding.1
-	title = A-RAT_funding.1.t
-	desc = A-RAT_funding.1.d
+	id = A-RAT_parade.1
+	title = A-RAT_parade.1.t
+	desc = {
+		text = A-RAT_parade.1.d_1
+		trigger = { has_country_flag = A-RAT_parade_outcome_1 }
+	}
+	desc = {
+		text = A-RAT_parade.1.d_2
+		trigger = { has_country_flag = A-RAT_parade_outcome_2 }
+	}
+	desc = {
+		text = A-RAT_parade.1.d_3
+		trigger = { has_country_flag = A-RAT_parade_outcome_3 }
+	}
 	picture = GFX_report_event_chinese_soldiers_fighting
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = A-RAT_funding.1.a
-		ai_chance = { factor = 90 }
-		hidden_effect = {
-		set_global_flag = A-RAT_funding
-		
-		}
+		name = A-RAT_parade.1.a_1
+		trigger = { has_country_flag = A-RAT_parade_outcome_1 }
+		clr_country_flag = A-RAT_parade_outcome_1
+		clr_country_flag = A-RAT_parade_outcome_2
+		clr_country_flag = A-RAT_parade_outcome_3
+	}
+	option = {
+		name = A-RAT_parade.1.a_2
+		trigger = { has_country_flag = A-RAT_parade_outcome_2 }
+		clr_country_flag = A-RAT_parade_outcome_1
+		clr_country_flag = A-RAT_parade_outcome_2
+		clr_country_flag = A-RAT_parade_outcome_3
+	}
+	option = {
+		name = A-RAT_parade.1.a_3
+		trigger = { has_country_flag = A-RAT_parade_outcome_3 }
+		clr_country_flag = A-RAT_parade_outcome_1
+		clr_country_flag = A-RAT_parade_outcome_2
+		clr_country_flag = A-RAT_parade_outcome_3
 	}
 }
 
 country_event = {
-	id = A-RAT_pamphlet.1
-	title = A-RAT_pamphlet.1.t
-	desc = A-RAT_pamphlet.1.d
+	id = A-RAT_recruitment.1
+	title = A-RAT_recruitment.1.t
+	desc = {
+		text = A-RAT_recruitment.1.d_1
+		trigger = { has_country_flag = A-RAT_parade_outcome_1 }
+	}
+	desc = {
+		text = A-RAT_recruitment.1.d_2
+		trigger = { has_country_flag = A-RAT_parade_outcome_2 }
+	}
+	desc = {
+		text = A-RAT_recruitment.1.d_3
+		trigger = { has_country_flag = A-RAT_parade_outcome_3 }
+	}
 	picture = GFX_report_event_chinese_soldiers_fighting
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = A-RAT_pamphlet.1.a
-		ai_chance = { factor = 90 }
-		add_war_support = 0.02
-
+		name = A-RAT_recruitment.1.a_1
+		trigger = { has_country_flag = A-RAT_recruitment_outcome_1 }
+		clr_country_flag = A-RAT_recruitment_outcome_1
+		clr_country_flag = A-RAT_recruitment_outcome_2
+		clr_country_flag = A-RAT_recruitment_outcome_3
 	}
-}
-
-country_event = {
-	id = A-RAT_bounty.1
-	title = A-RAT_bounty.1.t
-	desc = A-RAT_bounty.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
-	
-	is_triggered_only = yes
-	
 	option = {
-		name = A-RAT_bounty.1.a
-		ai_chance = { factor = 90 }
-		add_war_support = 0.02
-
+		name = A-RAT_recruitment.1.a_2
+		trigger = { has_country_flag = A-RAT_recruitment_outcome_2 }
+		clr_country_flag = A-RAT_recruitment_outcome_1
+		clr_country_flag = A-RAT_recruitment_outcome_2
+		clr_country_flag = A-RAT_recruitment_outcome_3
+	}
+	option = {
+		name = A-RAT_recruitment.1.a_3
+		trigger = { has_country_flag = A-RAT_recruitment_outcome_3 }
+		clr_country_flag = A-RAT_recruitment_outcome_1
+		clr_country_flag = A-RAT_recruitment_outcome_2
+		clr_country_flag = A-RAT_recruitment_outcome_3
 	}
 }
 
 country_event = {
 	id = A-RAT_operation.1
 	title = A-RAT_operation.1.t
-	desc = A-RAT_operation.1.d
+	desc = {
+		text = A-RAT_operation.1.d_1
+		trigger = { has_country_flag = A-RAT_operation_1_outcome_1 }
+	}
+	desc = {
+		text = A-RAT_operation.1.d_2
+		trigger = { has_country_flag = A-RAT_operation_1_outcome_2 }
+	}
+	desc = {
+		text = A-RAT_operation.1.d_3
+		trigger = { has_country_flag = A-RAT_operation_1_outcome_3 }
+	}
 	picture = GFX_report_event_chinese_soldiers_fighting
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = A-RAT_operation.1.a
-		ai_chance = { factor = 90 }
-		set_global_flag = A-RAT_operation
-		add_war_support = 0.1
-		army_experience = 5
-
+		name = A-RAT_operation.1.a_1
+		#set_global_flag = A-RAT_operation
+		#add_war_support = 0.1
+		#army_experience = 5
+		trigger = { has_country_flag = A-RAT_operation_1_outcome_1 }
+		clr_country_flag = A-RAT_operation_1_outcome_1
+		clr_country_flag = A-RAT_operation_1_outcome_2
+		clr_country_flag = A-RAT_operation_1_outcome_3
+	}
+	option = {
+		name = A-RAT_operation.1.a_2
+		trigger = { has_country_flag = A-RAT_operation_1_outcome_2 }
+		clr_country_flag = A-RAT_operation_1_outcome_1
+		clr_country_flag = A-RAT_operation_1_outcome_2
+		clr_country_flag = A-RAT_operation_1_outcome_3
+	}
+	option = {
+		name = A-RAT_operation.1.a_3
+		trigger = { has_country_flag = A-RAT_operation_1_outcome_3 }
+		clr_country_flag = A-RAT_operation_1_outcome_1
+		clr_country_flag = A-RAT_operation_1_outcome_2
+		clr_country_flag = A-RAT_operation_1_outcome_3
 	}
 }
 
 country_event = {
 	id = A-RAT_operation.2
 	title = A-RAT_operation.2.t
-	desc = A-RAT_operation.2.d
+	desc = {
+		text = A-RAT_operation.2.d_1
+		trigger = { has_country_flag = A-RAT_operation_2_outcome_1 }
+	}
+	desc = {
+		text = A-RAT_operation.2.d_2
+		trigger = { has_country_flag = A-RAT_operation_2_outcome_2 }
+	}
+	desc = {
+		text = A-RAT_operation.2.d_3
+		trigger = { has_country_flag = A-RAT_operation_2_outcome_3 }
+	}
 	picture = GFX_report_event_chinese_soldiers_fighting
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = A-RAT_operation.2.a
-		ai_chance = { factor = 90 }
-
+		name = A-RAT_operation.2.a_1
+		#set_global_flag = A-RAT_operation
+		#add_war_support = 0.1
+		#army_experience = 5
+		trigger = { has_country_flag = A-RAT_operation_2_outcome_1 }
+		clr_country_flag = A-RAT_operation_2_outcome_1
+		clr_country_flag = A-RAT_operation_2_outcome_2
+		clr_country_flag = A-RAT_operation_2_outcome_3
+	}
+	option = {
+		name = A-RAT_operation.2.a_2
+		trigger = { has_country_flag = A-RAT_operation_2_outcome_2 }
+		clr_country_flag = A-RAT_operation_2_outcome_1
+		clr_country_flag = A-RAT_operation_2_outcome_2
+		clr_country_flag = A-RAT_operation_2_outcome_3
+	}
+	option = {
+		name = A-RAT_operation.2.a_3
+		trigger = { has_country_flag = A-RAT_operation_2_outcome_3 }
+		clr_country_flag = A-RAT_operation_2_outcome_1
+		clr_country_flag = A-RAT_operation_2_outcome_2
+		clr_country_flag = A-RAT_operation_2_outcome_3
 	}
 }
 
 country_event = {
 	id = A-RAT_magic_operation.1
 	title = A-RAT_magic_operation.1.t
-	desc = A-RAT_magic_operation.1.d
+	desc = {
+		text = A-RAT_magic_operation.1.d_1
+		trigger = { has_country_flag = A-RAT_magic_operation_outcome_1 }
+	}
+	desc = {
+		text = A-RAT_magic_operation.1.d_2
+		trigger = { has_country_flag = A-RAT_magic_operation_outcome_2 }
+	}
+	desc = {
+		text = A-RAT_magic_operation.1.d_3
+		trigger = { has_country_flag = A-RAT_magic_operation_outcome_3 }
+	}
 	picture = GFX_report_event_chinese_soldiers_fighting
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = A-RAT_magic_operation.1.a
-		ai_chance = { factor = 90 }
-		set_global_flag = rats_hunted_with_magic
-
+		name = A-RAT_magic_operation.1.a_1
+		#set_global_flag = A-RAT_operation
+		#add_war_support = 0.1
+		#army_experience = 5
+		trigger = { has_country_flag = A-RAT_magic_operation_outcome_1 }
+		clr_country_flag = A-RAT_magic_operation_outcome_1
+		clr_country_flag = A-RAT_magic_operation_outcome_2
+		clr_country_flag = A-RAT_magic_operation_outcome_3
+	}
+	option = {
+		name = A-RAT_magic_operation.1.a_2
+		trigger = { has_country_flag = A-RAT_magic_operation_outcome_2 }
+		clr_country_flag = A-RAT_magic_operation_outcome_1
+		clr_country_flag = A-RAT_magic_operation_outcome_2
+		clr_country_flag = A-RAT_magic_operation_outcome_3
+	}
+	option = {
+		name = A-RAT_magic_operation.1.a_3
+		trigger = { has_country_flag = A-RAT_magic_operation_outcome_3 }
+		clr_country_flag = A-RAT_magic_operation_outcome_1
+		clr_country_flag = A-RAT_magic_operation_outcome_2
+		clr_country_flag = A-RAT_magic_operation_outcome_3
 	}
 }
+
+###################################################################################################
+##  REC events
+###################################################################################################
+
+add_namespace = REC_mobilize
+add_namespace = REC_investment
+add_namespace = REC_bounty
+add_namespace = REC_pamphlet
+add_namespace = REC_research
+add_namespace = REC_factory
+add_namespace = REC_NWB
+
+country_event = {
+	id = REC_mobilize.1
+	title = REC_mobilize.1.t
+	desc = REC_mobilize.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = REC_mobilize.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = REC_bounty.1
+	title = REC_bounty.1.t
+	desc = {
+		text = REC_bounty.1.d_1
+		trigger = { has_country_flag = REC_bounty_outcome_1 }
+	}
+	desc = {
+		text = REC_bounty.1.d_2
+		trigger = { has_country_flag = REC_bounty_outcome_2 }
+	}
+	desc = {
+		text = REC_bounty.1.d_3
+		trigger = { has_country_flag = REC_bounty_outcome_3 }
+	}
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = REC_bounty.1.a_1
+		trigger = { has_country_flag = REC_bounty_outcome_1 }
+		clr_country_flag = REC_bounty_outcome_1
+		clr_country_flag = REC_bounty_outcome_2
+		clr_country_flag = REC_bounty_outcome_3
+	}
+	option = {
+		name = REC_bounty.1.a_2
+		trigger = { has_country_flag = REC_bounty_outcome_2 }
+		clr_country_flag = REC_bounty_outcome_1
+		clr_country_flag = REC_bounty_outcome_2
+		clr_country_flag = REC_bounty_outcome_3
+	}
+	option = {
+		name = REC_bounty.1.a_3
+		trigger = { has_country_flag = REC_bounty_outcome_3 }
+		clr_country_flag = REC_bounty_outcome_1
+		clr_country_flag = REC_bounty_outcome_2
+		clr_country_flag = REC_bounty_outcome_3
+	}
+}
+
+country_event = {
+	id = REC_pamphlet.1
+	title = REC_pamphlet.1.t
+	desc = {
+		text = REC_pamphlet.1.d_1
+		trigger = { has_country_flag = REC_pamphlet_outcome_1 }
+	}
+	desc = {
+		text = REC_pamphlet.1.d_2
+		trigger = { has_country_flag = REC_pamphlet_outcome_2 }
+	}
+	desc = {
+		text = REC_pamphlet.1.d_3
+		trigger = { has_country_flag = REC_pamphlet_outcome_3 }
+	}
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = REC_pamphlet.1.a_1
+		trigger = { has_country_flag = REC_pamphlet_outcome_1 }
+		clr_country_flag = REC_pamphlet_outcome_1
+		clr_country_flag = REC_pamphlet_outcome_2
+		clr_country_flag = REC_pamphlet_outcome_3
+	}
+	option = {
+		name = REC_pamphlet.1.a_2
+		trigger = { has_country_flag = REC_pamphlet_outcome_2 }
+		clr_country_flag = REC_pamphlet_outcome_1
+		clr_country_flag = REC_pamphlet_outcome_2
+		clr_country_flag = REC_pamphlet_outcome_3
+	}
+	option = {
+		name = REC_pamphlet.1.a_3
+		trigger = { has_country_flag = REC_pamphlet_outcome_3 }
+		clr_country_flag = REC_pamphlet_outcome_1
+		clr_country_flag = REC_pamphlet_outcome_2
+		clr_country_flag = REC_pamphlet_outcome_3
+	}
+}
+
+country_event = {
+	id = REC_NWB.1
+	title = REC_NWB.1.t
+	desc = {
+		text = REC_NWB.1.d_1
+		trigger = { has_country_flag = REC_NWB_good }
+	}
+	desc = {
+		text = REC_NWB.1.d_2
+		trigger = { has_country_flag = REC_NWB_bad }
+	}
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = REC_NWB.1.a_1
+		trigger = { has_country_flag = REC_NWB_good }
+		add_ideas = MEW_northwest_bonus 
+		clr_country_flag = REC_NWB_good
+		clr_country_flag = REC_NWB_bad
+		
+	}
+	option = {
+		name = REC_NWB.1.a_2
+		trigger = { has_country_flag = REC_NWB_bad }
+		add_ideas = MEW_northwest_pain 
+		CAL = { country_event = {CAL_NWB.1 days = 1 }}
+		clr_country_flag = REC_NWB_good
+		clr_country_flag = REC_NWB_bad
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

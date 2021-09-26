@@ -84,75 +84,77 @@
  MYS_awaits_6_effect:0 ""
  
  ######################################################
- #  Boss Mabel Focus# 
+ #  Investment Focus# 
  ######################################################
  
  MYS_investment:0 "Investing in the Shack"
- MYS_investment_desc:0 ""
+ MYS_investment_desc:0 "You know what they say, you gotta spend monsey to make money! It's just... so hard to part with it at all..."
  MYS_investment_effect:0 ""
  
  MYS_soos_1:0 "Fix'in it with Soos"
- MYS_soos_1_desc:0 ""
+ MYS_soos_1_desc:0 "That Soos kid has always been helpful in reapiring small stuff. But I think it's time that I get him workin' on bigger things."
  MYS_soos_1_effect:0 ""
  
  MYS_soos_2:0 "Tune up the Attractions"
- MYS_soos_2_desc:0 ""
+ MYS_soos_2_desc:0 "The preservation jars are foggy, the display stands are unstable, and the Bigfoot statue has it's hairs falling out! We (And by "we" I mean Soos,) have to tune up the attractions for the oncoming wave of tourists!"
  MYS_soos_2_effect:0 ""
  
- MYS_soos_3:0 "Laid down new flooring"
- MYS_soos_3_desc:0 ""
+ MYS_soos_3:0 "Lay down new flooring"
+ MYS_soos_3_desc:0 "This'll be Soos' first big task. We gotta replace the floor so that's it's not so splintery, it drives away customers! But still, we have to keep it's creakiness. It adds character."
  MYS_soos_3_effect:0 ""
  
- MYS_soos_4:0 "Repave the driveway"
- MYS_soos_4_desc:0 ""
+ MYS_soos_4:0 "Repair the Totem Pole"
+ MYS_soos_4_desc:0 "The totem pole is one of my main outdoor attractions. It lets me tell stories, true or otherwise, about the Native Americans who inhabited this land before us. Everything from their displacement detailed in historical documents, to ancient curses detailed by my big mouth. Problem is, the color has faded and scratches are starting to build upon each other. Soos has gotta fix this."
  MYS_soos_4_effect:0 ""
  
- MYS_soos_5:0 "Repair the Totem Pole"
- MYS_soos_5_desc:0 ""
+ MYS_soos_5:0 ""Repave The Driveway!""
+ MYS_soos_5_desc:0 "Y'know, that Soos kid will do anything I ask. The Mystery Shack only has a dirt road, wouldn't it be funny if I told him to repave the driveway?"
  MYS_soos_5_effect:0 ""
  
  MYS_soos_6:0 "Rebuild the Sign"
- MYS_soos_6_desc:0 ""
+ MYS_soos_6_desc:0 "Although the "Damaged" sign of the Mystery Shack adds character, it's not OSHA complaiant. If I'm gonna ensure the safety of my customers, and more importantly the saftey of my wallet, Soos has gotta fix it. But we only have so much material in storage, and doing this would mean giving up on the bottomless pit..."
  MYS_soos_6_effect:0 ""
  
- MYS_soos_7:0 "Fence up the Bottomless Pit"
- MYS_soos_7_desc:0 ""
+ MYS_soos_7:0 "Fence Up the Bottomless Pit"
+ MYS_soos_7_desc:0 "The bottomless pit is dangerous. What if someone fell into it? And even worse, what if word got out? I gotta fence it up, so if somebody falls into it then I have I can pin the blame on them for jumping the fence. But we only have so much material in storage, and doing this would mean giving up on the sign..."
  MYS_soos_7_effect:0 ""
  
  MYS_soos_8:0 "A new coat of Paint"
- MYS_soos_8_desc:0 ""
+ MYS_soos_8_desc:0 "What you are on the inside will never be more important than what you are on the outside. This is as true for buildings as it is for relationships."
  MYS_soos_8_effect:0 ""
  
  MYS_wendy_1:0 "The Cordoury Spirit"
- MYS_wendy_1_desc:0 ""
+ MYS_wendy_1_desc:0 "The Cordourys have always been a fiesty bunch, from the old tales of Archibald Cordoury to the feats of Daniel "Manly Dan" Cordoury. It's great that we have one of their folks on our team!"
  MYS_wendy_1_effect:0 ""
  
  MYS_wendy_2:0 "Sick Drifts with the Cart"
- MYS_wendy_2_desc:0 ""
+ MYS_wendy_2_desc:0 "Finally, that old coot Mr. Pines is gone! Apparently he's going into town and he's not gonna come back until tommorow. It's time to have some fun while he's away, and I know just how to do it: Doing some tricks with the cart!"
  MYS_wendy_2_effect:0 ""
  
  MYS_wendy_3:0 "Hiking through the Oregon Outback"
- MYS_wendy_3_desc:0 ""
+ MYS_wendy_3_desc:0 "Finally, that old coot Mr. Pines is gone! Apparently he's going into town and he's not gonna come back until tommorow. It's time to have some fun while he's away, and I know just how to do it: A hiking trip!"
  MYS_wendy_3_effect:0 ""
  
  MYS_wendy_4:0 "Cashier Security"
- MYS_wendy_4_desc:0 ""
+ MYS_wendy_4_desc:0 "Pines is finally back from town, and he brought back some weapons. He says we have to stash 'em around the shack incase of armageddon. I heard him singing the national anthem as he went to bed, weird."
  MYS_wendy_4_effect:0 ""
+ MYS_wendy_4_tooltip:0 "Modify §YThe Cordoury Spirit§! by\nDivision Defense: §G+5.00%§!"
  
  MYS_wendy_5:0 "Striking Fast"
- MYS_wendy_5_desc:0 ""
+ MYS_wendy_5_desc:0 "Look's like i've got some time off from working at the shack, coolio. I've been thinking about specializing my fighting style, maybe i'll throw hits so fast my enemies wont know what's goin' on..."
  MYS_wendy_5_effect:0 ""
  
  MYS_wendy_6:0 "Hitting Hard"
- MYS_wendy_6_desc:0 ""
+ MYS_wendy_6_desc:0 "Look's like i've got some time off from working at the shack, coolio. I've been thinking about specializing my fighting style, maybe i'll throw hits so hard and heavy my enemies wont know what's goin' on..."
  MYS_wendy_6_effect:0 ""
  
- MYS_wendy_7:0 "Sharp Axes, Sharper Flannel"
- MYS_wendy_7_desc:0 ""
+ MYS_wendy_7:0 "Sharp Axes, Sharper Drip"
+ MYS_wendy_7_desc:0 "Defeating your eneimes is good, but looking stylish while doing so is even better!"
  MYS_wendy_7_effect:0 ""
+ MYS_wendy_7_tooltip:0 "Modify §YThe Cordoury Spirit§! by\nDivision Attack: §G+5.00%§!"
  
- MYS_wendy_8:0 "Staying Cool under pressure"
- MYS_wendy_8_desc:0 ""
+ MYS_wendy_8:0 "Staying Cool Under Pressure"
+ MYS_wendy_8_desc:0 "My family is crazy, so i've kinda grown thicker skin than most."
  MYS_wendy_8_effect:0 ""
  
  MYS_clones:0 "That old copier"

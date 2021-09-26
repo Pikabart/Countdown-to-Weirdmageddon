@@ -110,6 +110,214 @@ ideas = { #Entire file
 		}
 		###############
 		
+		MYS_fixin_it_with_soos = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				industry_repair_factor = 0.1
+			}
+		}
+		###############
+		
+		MYS_janky_building = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				recruitable_population_factor = 0.02
+				industry_repair_factor = -0.02
+			}
+		}
+		###############
+		
+		MYS_OSHA_complaiant = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				industry_repair_factor = 0.02
+			}
+		}
+		###############
+	
+		MYS_presentable_establishment = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				recruitable_population_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		###############
+		
+		MYS_cordoury_spirit = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
+		###############
+		
+		MYS_cordoury_spirit_speed = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				army_speed_factor = 0.05
+				
+			}
+		}
+		###############
+		MYS_cordoury_spirit_hike = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+				org_loss_when_moving = -0.05
+				supply_consumption_factor = -0.05
+				
+			}
+		}
+		###############
+		MYS_cordoury_spirit_hike_security = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.1
+				org_loss_when_moving = -0.05
+				supply_consumption_factor = -0.05
+				
+			}
+		}
+		###############
+		MYS_cordoury_spirit_speed_security = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				army_attack_factor = 0.05
+				army_defence_factor = 0.1
+				army_speed_factor = 0.05
+				
+			}
+		}
+		###############
+		MYS_cordoury_drip = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			picture = wendy_drip_idea
+			
+			modifier = {
+				recruitable_population_factor = 0.02
+				
+			}
+		}
+		###############
+		MYS_cordoury_spirit_speed_security_attack = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				army_speed_factor = 0.05
+				
+			}
+		}
+		###############
+		MYS_cordoury_spirit_hike_security_attack = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				org_loss_when_moving = -0.05
+				supply_consumption_factor = -0.05
+				
+			}
+		}
+		###############
+		MYS_cordoury_spirit_speed_security_attack_cool = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				army_speed_factor = 0.05
+				surrender_limit = 0.1
+				
+			}
+		}
+		###############
+		MYS_cordoury_spirit_hike_security_attack_cool = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				army_attack_factor = 0.1
+				army_defence_factor = 0.1
+				org_loss_when_moving = -0.05
+				supply_consumption_factor = -0.05
+				surrender_limit = 0.1
+				
+			}
+		}
+		
 	}
 
 ###############################################################

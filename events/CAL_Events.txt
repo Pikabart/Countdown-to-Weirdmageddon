@@ -7,6 +7,8 @@ add_namespace = CAL_TREMBLEY
 add_namespace = CAL_ELECTION
 add_namespace = CAL_TWOWORLDS
 
+add_namespace = CAL_NWB
+
 
 
 country_event = {
@@ -109,4 +111,24 @@ country_event = { # California chooses Norton for Governor
 		#country_event = { id = CAL_ELECTION.2 days = 3 }
 	}
 	
+}
+
+
+country_event = {
+	id = CAL_NWB.1
+	title = CAL_NWB.1.t
+	desc = CAL_NWB.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_NWB.1.a
+		ai_chance = { factor = 0 }	# 0% AI choose this
+	}
+	option = { 
+		name = CAL_NWB.1.b
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		MEW = { remove_ideas = MEW_northwest_pain }
+	}
 }

@@ -13,7 +13,7 @@ A-RAT_mobilize:0 "§YMobilize the A-RAT Corps§ "
 A-RAT_mobilize_desc:0 "The A-RAT is still in it's infancy. In order to truly make it a rat hunting organization, it must mobilize into the field. (Unlocks another descision)"
 
 A-RAT_funding:0 "§GAllocate Resource§ "
-A-RAT_funding_desc:0 "Allocate war resource to the A-RAT Corps (decisions enabled by this will would consume a percentage of consumer resource or military factories until complete)"
+A-RAT_funding_desc:0 "Allocate war resource to the A-RAT Corps"
 A-RAT_funding_tt:0 "§GThe Kingdom will give the Corps 30 Golden Sols to fund operations§!\n\n"
 
 ### Propaganda ### Will add 5% consumer
@@ -53,12 +53,22 @@ A-RAT_foods_3_tt:0 "§RMaking Due§!"
 
 A-RAT_operation:0 "§RAnti-Rat Operations: Level 1§! "
 A-RAT_operation_desc:0 "We found some places where the rats have been gathering up. Likely small outposts on the whole scale, but easy targets for both our operations and the propaganda value.\n\n§RCost: 10 Golden Sols§! and §R-5 Corps Strength§!\n"
+A-RAT_operation_1_1_tt:0 "§CBy the Book§!"
+A-RAT_operation_1_2_tt:0 "§GAs easy as husking corn§!"
+A-RAT_operation_1_3_tt:0 "§RGood Corn, why?§!"
 
 A-RAT_operation_2:0 "§RAnti-Rat Operations: Level 2§! "
 A-RAT_operation_2_desc:0 "Stratgetic bases of rat activity have been found. The risk are great, but if we strike and decisivley, we can secure a local regions food supply and push them out for good.\n\n§RCost: 10 Golden Sols§! and §R-5 Corps Strength§!\n"
+A-RAT_operation_2_1_tt:0 "§CAs planned out§!"
+A-RAT_operation_2_2_tt:0 "§GBest case Scenario§!"
+A-RAT_operation_2_3_tt:0 "§RAlphonos's Law strikes again§!"
+A-RAT_upgrade:0 "We have regrouped our forces for more better efficency!"
 
 A-RAT_magic_operation:0 "§RExpiremental Magical Anti-Rat Operations§ "
 A-RAT_magic_operation_desc:0 "By utilizing magic weilders from Skywynne Institute in our Anti-Rat Operations, we can more effectivley obliterate the rat menace. Theoretically, of course. Magic can be a fickle mistress and these magic weilders are no trained Butterfly Royals...\n\n§RCost: 10 Golden Sols§! and §R-10 Corps Strength§!\n"
+A-RAT_magic_operation_1_tt:0 "§CMake the rats pay§!"
+A-RAT_magic_operation_2_tt:0 "§GCooking up the rats§!"
+A-RAT_magic_operation_3_tt:0 "§ROur magic is acting up?§!"
 
 ###################################################################################################
 ########REC DESCISIONS#########
@@ -76,33 +86,41 @@ REC_mobilize_desc:0 "By her majesty's will, the company's charter shall be appro
 
 REC_funding_1:0 "§GBegin a round of investment§ "
 REC_funding_1_desc:0 "Relying on the private market, we can gather funding for more of our projects. Many would like thier buisness and assets assosaited with our Royal Charter. But such rounds take time and failures from previous ventures can weaken investor support."
-REC_funding_1_tt:0 "Once our investment round is over, we shall gain §G10 Golden Sols§!\n"
+REC_funding_1_tt:0 "-Once our investment round is over, we shall gain §G25 Golden Sols§! if our PR is at 25 or higher\n-Our PR is lower than that however, we shall only gain §G10 Golden Sols§!\n"
 
 REC_funding_2:0 "§GRequest Government Stimulas§ "
 REC_funding_2_desc:0 "To speed up our efforts, we can file for government grants. If approved, funding comes quick and we can spend it with surpricing flexibility. If we don't produce results though, the Queen's court won't be eager to do so again."
+REC_funding_2_tt:0 "-With good PR of 40 to the people, we shall gain §G30 Golden Sols§! immedietly from the Crown.\n-If our PR is below that that however, we shall get §RNothing but Ridicule!§!\n"
 
 ### Off source ###
 
 REC_bounty:0 "§CPost A Bounty Against The Rats§ "
-REC_bounty_desc:0 "We can incentivise the public and outsource some of our efforts to hunt rats by providing a monetary reward for every rat that comes in. 1 gold coin for males rats, 2 gold coins for females rats! Though easy to do, success isn't assured and this can be easily abused as well."
+REC_bounty_desc:0 "We can incentivise the public and outsource some of our efforts to hunt rats by providing a monetary reward for every rat that comes in. 1 Silver Sol for males rats, 2 Silver Sol for females rats! Though easy to do, success isn't assured and this can be easily abused as well.\n\n§RCost: 10 to 15 Golden Sols§!\n§GGain: §!§R-5§!§G to +15 Public Relationship Points§!\n"
+REC_bounty_1_tt:0 "§CA Modest Result§!"
+REC_bounty_2_tt:0 "§GThese things can multiply, huh?!§!"
+REC_bounty_3_tt:0 "§RRuined it for Everyone§!"
 
 REC_pamphlet:0 "§CDistribute Anti-Rat Pamphlets§ "
-REC_pamphlet_desc:0 "Distribute pamphlets detailing how to deal with rats to the populace. Even if we don't remove them, we still get credit if a town egts rid of thier rats."
+REC_pamphlet_desc:0 "Distributing pamphlets detailing how to deal with rats to the populace can be work. Even if we don't remove them ourselves, we still would get credit if a town gets rid of thier rats. Hopefully, they actually take out just the rats and not anything rat-like.\n\n§RCost: 5 to 50 Golden Sols§!\n§GGain: §!§R-20§!§G to +30 Public Relationship Points§!\n"
+REC_pamphlet_1_tt:0 "§CStay Vigilant!§!"
+REC_pamphlet_2_tt:0 "§GThe greatest weapon, the mind!§!"
+REC_pamphlet_3_tt:0 "§RBut, but... a Possum?§!"
 
 ### Research and indutry bonus ###
 
 REC_research:0 "§WResearch Incentive§ "
-REC_research_desc:0 "Skywynne Institute is the main academic center of Mewni. Its the only academic center in Mewmni open to non-royalty. We could grant some funding to its minds there to gives us a boost in our technological development over the rats and more technologically advance dimesions."
+REC_research_desc:0 "Skywynne Institute is the main academic center of Mewni. Its the only academic center in Mewmni open to non-royalty. We could grant some funding to its minds there to gives us a boost in our technological development over the rats and more technologically advance dimesions.\n\n§RCost: 15 Golden Sols and 10 Public Relationship§!\n§GGain: A Tech Idea Bonus and maybe the people actually like doing this!§!\n"
 
 REC_industry:0 "§WIndustry Incentive§ "
-REC_industry_desc:0 "With the current fervor to shore up the kingdom's industrial base, we can help by spending some of our money to invest in new factories. Becuase this is only somewhat rat related and might violtate our charter, we can get in trouble. But think of the help we could give... and the money we make."
+REC_industry_desc:0 "With the current fervor to shore up the kingdom's industrial base, we can help by spending some of our money to invest in new factories. Becuase this is only somewhat rat related and might violtate our charter, we can get in trouble. But think of the help we could give... and the money we make.\n\n§RCost: 15 Golden Sols and 10 Public Relationship§!\n§GGain: One random civilian or military factory and maybe even your Sols back!§!\n"
 
-### Worst case senario ###
+### Worst case senarios ###
 
 REC_PR:0 "§RRegain the public grace§ "
-REC_PR_desc:0 "So some of our investments fell flat. Our image isn't particularly good. The royal court is angry we accidently burnt down a town after confusing a possum for a rat instead. Said possum was actually from Earth and now the humans are angry for burning thier popssum. But since everyone is glued to thier compact mirrors, we can just hire the best PR reps from Mewni and Earth and just blitz everyone about how we're the good guys! People will forget quickly enough."
+REC_PR_desc:0 "So some of our investments fell flat. Our image isn't particularly good. The royal court is angry we accidently burnt down a town after confusing a possum for a rat instead. Said possum was actually from Earth and now the humans are angry for burning thier possum. But since everyone is glued to thier compact mirrors, we can just hire the best PR reps from Mewni and Earth and just blitz everyone about how we're the good guys! People will forget quickly enough.\n\n§RCost: 30 Golden Sols§!\n§GGain: Reset PR to 25§!\nTry not to be Public Enemy Number 1 again..."
 
-
+REC_NWB:0 "§RThe Northwest Bailout§ "
+REC_NWB_desc:0 "We are in the red! If we don't turn our financial situation around, the company will go under. Worse, because of our crown charter, a notable part of the Mewman Economy is tied to us. If we fall, the market might crash!\nNow, Mr. Birnbaum of Northwest Corporation of California has approched us with a bailout. Though more turbulant, the US Dollar is a very powerful currency in our part of the multi-verse. Better, we won't even have an interest to pay, as the bailout was already negotiated between the two countries.\n\n-§GThis bailout with grant us a whopping 100 Golden Sols§!\n-§YBut we must achieve at least 75 PR and a reserve of 30 Golden Sols in 120 Days§!\n§R-Or else Mr. Birnbaum will declare breach of contract and make us pay for our failure...§!"
 #################################
 
 #PEACEFUL SUPPRESSION DESCISIONS#

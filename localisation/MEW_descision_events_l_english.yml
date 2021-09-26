@@ -1,29 +1,81 @@
 ﻿l_english:
 
-A-RAT_mobilize.1.t:0 "The A-RAT Mobilizes!"
+A-RAT_mobilize.1.t:0 "The A-RAT Corps mobilizes!"
 A-RAT_mobilize.1.d:0 "Write soemthing about the first A-RAT personaell being trained"
-A-RAT_mobilize.1.a:0 "Ok"
+A-RAT_mobilize.1.a:0 "Onward for Victory! For Queen and Kingdom!"
 
-A-RAT_funding.1.t:0 "Our Funding Is Secured!"
-A-RAT_funding.1.d:0 "With us fully mobilized and funded, we can start instating new government programs to curtail the rat menace!"
-A-RAT_funding.1.a:0 "Death to the emus, glory to 'straylia- *cough* uh, I mean death to the rats, glory to Mewni!"
+A-RAT_parade.1.t:0 "The A-RAT Parade"
+A-RAT_parade.1.d_1:0 "Parade 1. Normal desc"
+A-RAT_parade.1.d_2:0 "Parade 1. Good desc"
+A-RAT_parade.1.d_3:0 "Parade 1. Bad desc"
+A-RAT_parade.1.a_1:0 "Good, simple, uplifting"
+A-RAT_parade.1.a_2:0 "Awe inspiring!"
+A-RAT_parade.1.a_3:0 "Why do we even try?"
 
-A-RAT_pamphlet.1.t:0 "The Anti-Rat Pamphlets"
-A-RAT_pamphlet.1.d:0 "Our personell are going out and distributing pamphlets. Our people are growing eager to the notion of rat hunting, but there hasnt been any real dent in the problem."
-A-RAT_pamphlet.1.a:0 "Something is Better Than Nothing"
+A-RAT_recruitment.1.t:0 "The A-RAT Recruitment"
+A-RAT_recruitment.1.d_1:0 "Recruitment 1. Normal desc"
+A-RAT_recruitment.1.d_2:0 "Recruitment 1. Good desc"
+A-RAT_recruitment.1.d_3:0 "Recruitment 1. Bad desc"
+A-RAT_recruitment.1.a_1:0 "In her Majesty's Service"
+A-RAT_recruitment.1.a_2:0 "Corn save the Queen!"
+A-RAT_recruitment.1.a_3:0 "Daddy, what did YOU do in the Rat War?"
 
-A-RAT_bounty.1.t:0 "The Bounties"
-A-RAT_bounty.1.d:0 "The bounty has paid off, people are turning in rat bodies! And yet, the problem still persists!"
-A-RAT_bounty.1.a:0 "Damn"
+A-RAT_operation.1.t:0 "Basic Operations"
+A-RAT_operation.1.d_1:0 "Operations 1. Normal desc"
+A-RAT_operation.1.d_2:0 "Operations 1. Good desc"
+A-RAT_operation.1.d_3:0 "Operations 1. Bad desc"
+A-RAT_operation.1.a_1:0 "Let's clean this up"
+A-RAT_operation.1.a_2:0 "Its literally stabbing rats in a barrel"
+A-RAT_operation.1.a_3:0 "Damn, seriously?"
 
-A-RAT_operation.1.t:0 "The Operations"
-A-RAT_operation.1.d:0 "We have raided numerous rat nests and sites, and yet the problem still persists! We got some expirience though."
-A-RAT_operation.1.a:0 "Damn"
-
-A-RAT_operation.2.t:0 "The Operations"
-A-RAT_operation.2.d:0 "We have raided numerous rat nests and sites, and yet the problem still persists! We got some expirience though."
-A-RAT_operation.2.a:0 "Damn"
+A-RAT_operation.2.t:0 "Advance Operations"
+A-RAT_operation.2.d_1:0 "Operations 2. Normal desc"
+A-RAT_operation.2.d_2:0 "Operations 2. Good desc"
+A-RAT_operation.2.d_3:0 "Operations 2. Bad desc"
+A-RAT_operation.2.a_1:0 "Sweep the area and lock it down"
+A-RAT_operation.2.a_2:0 "Is this the best they got?"
+A-RAT_operation.2.a_3:0 "Nothing to see here... MOVE!"
 
 A-RAT_magic_operation.1.t:0 "A Magical Malfunction"
-A-RAT_magic_operation.1.d:0 "Something strange is happening. It seems that utilizing magic has actually reduced our rat obliteration efficiency! Now this could be chalked up to inexpirienced magic users, but those in the Magic High Commision are saying that it's a too big of a drop to just be that."
-A-RAT_magic_operation.1.a:0 "Hm, weird."
+A-RAT_magic_operation.1.d_1:0 "Magical Operations 1. Normal desc"
+A-RAT_magic_operation.1.d_2:0 "Magical Operations 1. Good desc"
+A-RAT_magic_operation.1.d_3:0 "Magical Operations 1. Bad desc"
+A-RAT_magic_operation.1.a_1:0 "By the Book... of Spells"
+A-RAT_magic_operation.1.a_2:0 "Feel the Queen's Wrath!"
+A-RAT_magic_operation.1.a_3:0 "That isn't good..."
+
+#A-RAT_magic_operation.1.d:0 "Something strange is happening. It seems that utilizing magic has actually reduced our rat obliteration efficiency! Now this could be chalked up to inexpirienced magic users, but those in the Magic High Commision are saying that it's a too big of a drop to just be that."
+#A-RAT_magic_operation.1.a:0 "Hm, weird."
+
+REC_mobilize.1.t:0 "The REC Charter has been approved!"
+REC_mobilize.1.d:0 "Write something about the Mewni Stock market rising"
+REC_mobilizee.1.a:0 "Corn Prosperity or Rat Deoslation!"
+
+REC_bounty.1.t:0 "Bounty: RATS!!!"
+REC_bounty.1.d_1:0 "Bounty 1. Normal desc"
+REC_bounty.1.d_2:0 "Bounty 1. Good desc"
+REC_bounty.1.d_3:0 "Bounty 1. Bad desc"
+REC_bounty.1.a_1:0 "That went well."
+REC_bounty.1.a_2:0 "M.E.T.A. would faint at the sight of these dead rats!"
+REC_bounty.1.a_3:0 "Solaria never outsourced her genocide, did she?"
+
+REC_pamphlet.1.t:0 "A Modest Purposal"
+REC_pamphlet.1.d_1:0 "Pamphlet 1. Normal desc"
+REC_pamphlet.1.d_2:0 "Pamphlet 1. Good desc"
+REC_pamphlet.1.d_3:0 "Pamphlet 1. Bad desc"
+REC_pamphlet.1.a_1:0 "Now they know."
+REC_pamphlet.1.a_2:0 "A clean village is a happy village"
+REC_pamphlet.1.a_3:0 "Why are we being blamed for these dumb peasents!?"
+
+REC_NWB.1.t:0 "Terms and Conditions"
+REC_NWB.1.d_1:0 "NWB 1. Bonuses!"
+REC_NWB.1.d_2:0 "NWB 1. You done Goofed!"
+REC_NWB.1.a_1:0 "That was close"
+REC_NWB.1.a_2:0 "Oh dear corn, no!"
+
+
+
+
+
+
+

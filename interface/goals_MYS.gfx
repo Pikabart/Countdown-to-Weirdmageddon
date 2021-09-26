@@ -68,5 +68,71 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/MYS/focus_las_vegas.dds"			
 	}
 	
+	##################################################################
+	
+	SpriteType = {
+	name = "GFX_goal_focus_stan_run"
+	texturefile = "gfx/interface/goals/MYS/focus_stan_run.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_cordoury_drip"
+	texturefile = "gfx/interface/goals/MYS/focus_cordoury_drip.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_shack_investment"
+	texturefile = "gfx/interface/goals/MYS/focus_shack_investment.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_soos_fixing"
+	texturefile = "gfx/interface/goals/MYS/focus_soos_fixing.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_soos_blueprint"
+	texturefile = "gfx/interface/goals/MYS/focus_soos_blueprint.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_soos_concrete"
+	texturefile = "gfx/interface/goals/MYS/focus_soos_concrete.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_soos_eye_jar"
+	texturefile = "gfx/interface/goals/MYS/focus_soos_eye_jar.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_soos_totem"
+	texturefile = "gfx/interface/goals/MYS/focus_soos_totem.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_fixed_shack_sign"
+	texturefile = "gfx/interface/goals/MYS/focus_fixed_shack_sign.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_bottomless_pit_fence"
+	texturefile = "gfx/interface/goals/MYS/focus_bottomless_pit_fence.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_cordoury_spirit"
+	texturefile = "gfx/interface/goals/MYS/focus_cordoury_spirit.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_sick_drifts"
+	texturefile = "gfx/interface/goals/MYS/focus_sick_drifts.dds"			
+	}
+	
+	
+	
+	
+	
 
 } ### End Bracket

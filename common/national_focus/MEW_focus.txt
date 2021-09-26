@@ -190,6 +190,7 @@
 
 		completion_reward = {
 			country_event = utilize_army.1
+			set_country_flag = A-RAT_upgrade
 		}
 	}
 
