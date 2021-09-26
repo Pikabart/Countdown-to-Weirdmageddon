@@ -49,7 +49,11 @@ A-RAT_magic_operation.1.a_3:0 "That isn't good..."
 
 REC_mobilize.1.t:0 "The REC Charter has been approved!"
 REC_mobilize.1.d:0 "Write something about the Mewni Stock market rising"
-REC_mobilizee.1.a:0 "Corn Prosperity or Rat Deoslation!"
+REC_mobilize.1.a:0 "Corn Prosperity or Rat Desolation!"
+
+REC_investment.1.t:0 "What, seriously?"
+REC_investment.1.d:0 "Not with those approval ratings. Do better!"
+REC_investment.1.a:0 "Not even the magic fritzing could delay this rejection letter"
 
 REC_bounty.1.t:0 "Bounty: RATS!!!"
 REC_bounty.1.d_1:0 "Bounty 1. Normal desc"

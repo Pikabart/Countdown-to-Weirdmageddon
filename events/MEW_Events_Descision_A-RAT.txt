@@ -266,6 +266,21 @@ country_event = {
 }
 
 country_event = {
+	id = REC_investment.1
+	title = REC_investment.1.t
+	desc = REC_investment.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = REC_investment.1.a
+		ai_chance = { factor = 100 }
+		add_political_power = -10
+	}
+}
+
+country_event = {
 	id = REC_bounty.1
 	title = REC_bounty.1.t
 	desc = {

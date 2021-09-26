@@ -689,6 +689,7 @@ mewni_rec = {
 					var = mew_rec_funding
 					value = 0
 				}
+				hidden_effect = { country_event = REC_investment.1 } 
 			}
 			custom_effect_tooltip = REC_funding_2_tt
 		} 
