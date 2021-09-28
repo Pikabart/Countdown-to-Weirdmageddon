@@ -28,34 +28,34 @@
  MYS_journal_3_effect:0 ""
  
  MYS_stantastic:0 "The Stan-Tastic Adventures!"
- MYS_stantastic_desc:0 "As the twins go about thier way, going on adventures, threading the line between life and death in the great outback of Gravity Falls, Stan continues on his work to repair the portal fully and complete his mission."
- MYS_stantastic_effect:0 ""
+ MYS_stantastic_desc:0 "As the twins go about thier way, going on adventures, threading the line between life and death in the great outback of Gravity Falls, I'll continues on my work to repair the portal fully and bring this all to an end."
+ MYS_stantastic_effect:0 "Let's see here on the ol'list. Find new attractions, get money back from Bird-Person, refill the energy reactor..."
  
  MYS_stantastic_1:0 "Going on a grocery run"
- MYS_stantastic_1_desc:0 ""
- MYS_stantastic_1_effect:0 ""
+ MYS_stantastic_1_desc:0 "It's the perfect attraction. A unicorn made of corn! And there's even a sale at the supermarket! I'll just head on down to town and grab some corn and glue. I better also make sure to store it away from the food black hole that Mabel calls a 'pet'."
+ MYS_stantastic_1_effect:0 "Making a unicorn is easy. I've been attack by them enough times."
  
  MYS_stantastic_3:0 "From Mewni, With Corn"
- MYS_stantastic_3_desc:0 ""
- MYS_stantastic_3_effect:0 ""
+ MYS_stantastic_3_desc:0 "'There are simple ways to get corn', is what my brother would say. But there are also fun and illegal ways to get corn and I think I'll go for that instead. Time to give the old land of magic and enchantment a visit."
+ MYS_stantastic_3_effect:0 "What's a little corn between interdimesional friends?"
  
  MYS_stantastic_5:0 "To Take what was rightfully Stolen"
- MYS_stantastic_5_desc:0 ""
- MYS_stantastic_5_effect:0 ""
+ MYS_stantastic_5_desc:0 "Mewni Corn would be an aweful waste on a tourist attraction. Its better off being sold in a shaddy location for ludicrous prices. And I know just the place in Gravity Falls to do that."
+ MYS_stantastic_5_effect:0 "The regular black market was boring anyway. Not much demand for non-laser emitting pugs lately..."
  
  MYS_stantastic_2:0 "Running on Empty"
- MYS_stantastic_2_desc:0 ""
- MYS_stantastic_2_effect:0 ""
+ MYS_stantastic_2_desc:0 "That gauge doesn't look right, I mean, I doubt it ever worked properly. I haven't refilled the portal's reactor since... well, since I was with her. A bit amazing how a few drops of that blue stuff lasted this long. Its not like I can ever get more of it, anyway."
+ MYS_stantastic_2_effect:0 "I mean, the 'E' must mean that I still have like an extra 10 interdimesional miles left, right?"
  
  MYS_stantastic_4:0 "A Homey place to be in"
- MYS_stantastic_4_desc:0 ""
- MYS_stantastic_4_effect:0 ""
+ MYS_stantastic_4_desc:0 "The open desert is a good place to hide stuff from the civilian populace. Its a great place to pretend to hide stuff and make people think you are hiding stuff. Let those idiots shout about freeing E.T.. As long as they got my fuel, I am good."
+ MYS_stantastic_4_effect:0 "Like anyone can catch Stan Pines anyway..."
  
  MYS_stantastic_6:0 "What happens in Las Vegas"
- MYS_stantastic_6_desc:0 ""
- MYS_stantastic_6_effect:0 ""
+ MYS_stantastic_6_desc:0 "Ah, Vegas. You know, it was here, where I met her all those years ago. I lost my car and my winnings, but the love. The love was real. If only I had the nerve to go back... Anyway, I might as well try my luck on something else, like that bet with Mabel."
+ MYS_stantastic_6_effect:0 "I'll probably have to go back if I'm going to get more fuel going forward."
  
- MYS_awaits:0 "What awaits in\nGravity Falls"
+ MYS_awaits:0 "What awaits in Gravity Falls"
  MYS_awaits_desc:0 ""
  MYS_awaits_effect:0""
  
@@ -178,20 +178,20 @@
  ######################################################
  
  MYS_PR_1:0 "Stan and Gravity Falls"
- MYS_PR_1_desc:0 ""
- MYS_PR_1_effect:0 ""
+ MYS_PR_1_desc:0 "Stanford Pines had lived in Gravity Falls for over 30 years. A visiting researcher turn permanent fixture of the town, one would presume Stan had made many contacts within the town. His Mystery Shack is a staple of the tourism in Roadkill County and many of its residents had grown up with the Shack as a fixture of their lives, from their own time spent there to the role it played in the local town economy."
+ MYS_PR_1_effect:0 "Surely Stan would have become a staple of the town itself..."
  
  MYS_PR_2:0 "The Roadkill County Business Council"
- MYS_PR_2_desc:0 ""
- MYS_PR_2_effect:0 ""
+ MYS_PR_2_desc:0 "The Roadkill County Business Council is a private group of the business owners in the county. Its leaders represent the different sectors of the economy: Lazy Susuan for the Service Industry, Farmer Sprott of the Primary Industry, and even Preston Northwest, personally representing the Manufacturing Industry in the county. That was actually expected as he owns all the factories in Roadkill County."
+ MYS_PR_2_effect:0 "At this month’s meeting, an interesting development occurred. For Stan, if he plays his hand right, it would be an opportunity. Otherwise, disaster can easily loom."
  
  MYS_PR_3:0 "The Weekly Town Hall Forum"
- MYS_PR_3_desc:0 ""
- MYS_PR_3_effect:0 ""
+ MYS_PR_3_desc:0 "A mandated event to inform the town of the ongoing events in the area, the weekly town meeting is often ignored by most of the residents. In any given meeting, it's either the mayor going on a delusional rant about how he was apparently the former leader of a secret government shadow agency, or a meeting for an actual shadow group, the Blind-Eye Society. "
+ MYS_PR_3_effect:0 "With the horror that is the Canadian Kerfuffle and the minor annoyance that is the collapse of the United States, some real action is needed by the town to handle the matter"
 
  MYS_PR_4:0 "Good PR"
- MYS_PR_4_desc:0 ""
- MYS_PR_4_effect:0 ""
+ MYS_PR_4_desc:0 "For all the fault the town has, Stan knows he needs them if he hopes for the Shack, and himself, to stay afloat and survive. Having, as Mabel called it ‘Good Public Relationship’, is key to winning the town over. Besides, he’s the Man of Mystery! What isn’t there to love about the Mystery Shack and all the spooky, hazardous things inside!"
+ MYS_PR_4_effect:0 "And Soos, fix those hazardous things inside the Shack. I ain’t in the hankering for a lawsuit."
 
  MYS_PR_6:0 "Free Souvenirs***"
  MYS_PR_6_desc:0 ""

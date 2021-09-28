@@ -58,10 +58,31 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MYS/report_event_still_standing_stan.dds"
 	}
 	
-	spriteType = { # gif test
-		name = "GFX_report_event_pine_or_star"
-		texturefile = "gfx/event_country_pictures/MYS/pine-or-star.dds"
+	spriteType = { # post card
+		name = "GFX_report_event_post_card"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_post_card.dds"
 	}
+	
+	spriteType = { # cheers america
+		name = "GFX_report_event_cheers_america"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_cheers_america.dds"
+	}
+	
+	spriteType = { # Trembley Defiant
+		name = "GFX_report_event_trembley_defiant"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_trembley_defiant.dds"
+	}
+	
+	
+	
+   #############################################################
+   #  Special GIF Evenrt image
+   #############################################################
+	
+	#spriteType = { # gif test
+	#	name = "GFX_report_event_pine_or_star"
+	#	texturefile = "gfx/event_country_pictures/MYS/pine-or-star.dds"
+	#}
 	
 	frameAnimatedSpriteType = {	#usual stuff
     	name = "GFX_report_event_pine_or_star"
@@ -76,7 +97,7 @@ spriteTypes = {
     	pause_on_loop = 0.0
 	}
 
-
+	
 
    #############################################################
    #  Decisions
