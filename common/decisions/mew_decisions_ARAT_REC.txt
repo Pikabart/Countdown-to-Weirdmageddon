@@ -27,7 +27,7 @@ mewni_arat = {
 			}
 		}
 		ai_will_do = {	
-			factor = 1			
+			factor = 2			
 		}
 	}
 	
@@ -52,7 +52,7 @@ mewni_arat = {
 		}
 		days_remove = 9
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 2			
 		}
 	}
 	
@@ -272,7 +272,7 @@ mewni_arat = {
 		}
 	
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 2			
 		}
 	}  
 	
@@ -345,7 +345,7 @@ mewni_arat = {
 			}
 		} 
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 2			
 		}
 	}
 	
@@ -538,7 +538,8 @@ mewni_arat = {
 			subtract_from_variable = {
 				var = mew_arat_strength
 				value = 10
-			}			
+			}
+			set_country_flag = A-RAT_magic_operation_done	#This will enable focus The Magical Malfunction
 		}
 		days_remove = 5 
 		remove_effect = {
@@ -581,7 +582,7 @@ mewni_arat = {
 			country_event = A-RAT_magic_operation.1 
 		}
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 3			
 		} 
 	}
 	

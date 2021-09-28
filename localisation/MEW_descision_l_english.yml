@@ -69,6 +69,7 @@ A-RAT_magic_operation_desc:0 "By utilizing magic weilders from Skywynne Institut
 A-RAT_magic_operation_1_tt:0 "§CMake the rats pay§!"
 A-RAT_magic_operation_2_tt:0 "§GCooking up the rats§!"
 A-RAT_magic_operation_3_tt:0 "§ROur magic is acting up?§!"
+A-RAT_magic_operation_done:0 "Have performed an experiemntal magic based ARAT Operation"  #FLAG #This will enable focus The Magical Malfunction
 
 ###################################################################################################
 ########REC DESCISIONS#########

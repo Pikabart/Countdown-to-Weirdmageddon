@@ -475,7 +475,7 @@
 		x = 0
 		y = 2
 		prerequisite = { focus = MEW_economy_final }
-		available = { has_global_flag = rats_hunted_with_magic }
+		available = { has_country_flag = A-RAT_magic_operation_done } #This will enable focus The Magical Malfunction
 		relative_position_id = desperate_measures
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
