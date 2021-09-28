@@ -25,6 +25,8 @@ exterminators_desc:0 "It's high time we assemble an official, state exterminatio
 
 hunt_rat:0 "Form the A-RAT"
 hunt_rat_desc:0 "As the military might of Mewni, we must organize anti-rat operations under a single new organization. With the Anti-Rat Army and Technologies Corp, we'll drive the rats back into thier filthy holes!"
+hunt_rat_custom_tooltip:0 "Unlocks §YA-RAT§! descisions, which support the §YMilitary§!"
+
 
 utilize_army:0 "Regroup our forces"
 utilize_army_desc:0 "The rats are still a problem. Refocus our efforts and ensure victory for the Queen!"
@@ -57,6 +59,7 @@ MEW_reform_economy_3_desc:0 "By looking out of our own dimension, we can utilize
 
 MEW_reform_economy_4:0 "Public Works"
 MEW_reform_economy_4_desc:0 "By dedicating an entirely new organization to construct public buildings, we can test and apply foreign construction techniques in the field. This builds confidence in said techniques, and will encourage private organizations to adopt them."
+MEW_reform_economy_4_custom_tooltip:0 "Increase §YConstruction Speed§!"
 
 MEW_force_economy:0 "Double Down"
 MEW_force_economy_desc:0 "Now is not the time for reform, we cannot risk our resources on societal upheaval that we dont even know will work. Rather, we will double down on our previous mandates, seeing as they have already gotten us this far."
@@ -69,6 +72,7 @@ MEW_force_economy_3_desc:0 "The high monster populations in the north and south 
 
 MEW_force_economy_4:0 "Suppress Dissent"
 MEW_force_economy_4_desc:0 "Our mandates are unpopular, that much is obvious. But with our most recent mandates the people have grown very much fed up and tired. Therefore, we must deal with this problem. By peaceful means... or otherwise."
+MEW_force_economy_4_custom_tooltip:0 "Increase §YStability§!"
 
 MEW_economy_final:0 "Theoretical Magical Mechanization"
 MEW_economy_final_desc:0 "The Magic High Commision has proposed that we combine our native traditional magic with the new foreign machinery."

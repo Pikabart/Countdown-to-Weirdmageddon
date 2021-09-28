@@ -5,6 +5,8 @@
 mewni_solaria.1.t:0 "The Legacy of Queen Solaria"
 mewni_solaria.1.d:0 "Three hundred years ago, a newly crowned Queen Solaria Butterfly rallied the numerous Mewman kingdoms for a grand campaign. Her mission, that she proclaimed to the Butterfly kingdom on the very night of her coronation, was to bring the entire dimension of Menwi under the rule of Mewmankind. She rallied her armies, perfected the great magic of the Butterfly Line, and began a long and glorious war to crush the monster filth.\n\nShe undoubtedly succeeded, and brought about an unprecedented golden age of Mewman supremacy. Her leadership drove the monster hordes into the Underworld and the Forest of Certain Death, where they still remain fighting amongst themselves. Thanks to her keen interest in alliance building, spearheaded by her older brother, Prince Jushtin Butterfly, she gave birth to the system that stands today as the Kingdom of Mewni. And it would be her dying wish that ensured that through centuries of dynasties and political changes, the Butterfly Family would have everlasting hegemonoy over all of Mewni."
 mewni_solaria.1.a:0 "Rest in peace, Monster Carver"
+legacy_of_solaria_tooltip:0 "Gain 3 §YSolarian Ceremonial Guard§! divisions"
+
 
 mewni_300_peace.1.t:0 "300 Years of Peace"
 mewni_300_peace.1.d:0 "Mewni has enjoyed three hundred years of peace. There is no doubt of what was accomplished during that time. But it was not an era of "happily ever after." The whole dimension is entering a new era, political alliances are now being tested and strained. The old social order facing challenges from rapidly evolving foes. The economy has stagnated due to minimal reform, the entire economy relying on exporting the corn crop. Even the monsters, who were so utterly crushed three centuries ago, are now starting to recover.\n\n And there is of course, the odd radical and revolutionary here and there. Spewing foreign doctrines of "Freedom" and "Democracy." But they are few and far between."
@@ -163,6 +165,8 @@ ludo_confront_5.1.a:0 ""We have the will to do what is right.""
 ludo_confront_6.1.t:0 ""Just a Formality""
 ludo_confront_6.1.d:0 "After a few days of organization and consolidation, the Butterfly Kingdom has sent delegations to the other vassal kingdoms. It was just a formality, as the vassal kingdoms have always helped the Butterflys in crises like these. However, almost all of them did the unexpectable: most of them have declined to help us."
 ludo_confront_6.1.a:0 "Wait, what? You can't just-"
+new_focus_tree_tooltip:0 "§CNew Focus Tree Unlocked!§!"
+
 
 ################
 

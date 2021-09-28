@@ -14,6 +14,7 @@ mobilize_populace_desc:0 "This conflict endangers the future of the Butterfly dy
 
 emergency_conscription:0 "Emergency Conscription"
 emergency_conscription_desc:0 "This conflict reqiures that everyone, from the lowest farmer to the highest of high courtiers, devote themselves to winning against the tyrant in the west. Thus, those who cannot contribute much mentally, must contribute their bodies and lives!"
+MEW_emergency_conscription_tooltip:0 "Gain 9 §YEmergency Conscript§  divisions"
 
 import_airplanes:0 "Import Airplane Schematics"
 import_airplanes_desc:0 "By importing plane schematics from other dimensions, we can gain an advantage in researching them and thus produce them sooner."
@@ -23,9 +24,11 @@ pull_all_strings_desc:0 "The fate of the nation hangs in the balance! We must go
 
 emergency_visas:0 "Permit Foreigners In Government"
 emergency_visas_desc:0 "Now is not the time to let our pride overtake us! We will permit foreigner professionals in the government, using their expertise to help win us the war!"
+MEW_emergency_visas_tooltip:0 "§YForeigner advisors§, become available"
 
 emergency_equality:0 "Emergency Equality"
 emergency_equality_desc:0 "Now is no the time to let our prejudice overtake us! There are numerous promising Monster army officers, and by letting monsters into the military we can use their expertise to help us in the war!"
+MEW_emergency_equality_tooltip:0 "§YMonster advisors§, become available"
 
 strike_first:0 "Strike First!"
 strike_first_desc:0 "We must not be taken by surprise!\nWe must strike first!\nFor the Queen!"

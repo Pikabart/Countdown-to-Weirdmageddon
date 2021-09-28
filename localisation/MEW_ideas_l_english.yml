@@ -67,7 +67,15 @@ MEW_northwest_bonus_desc:0 "Nice!"
 MEW_northwest_pain:0 "REC NWB Pain"
 MEW_northwest_pain_desc:0 "Corn help us all!"
 
+###############################
+#Military Advisors
 
+sir_stabby:0 "Sir Stabby"
+sir_dashing:0 "Sir Dashing"
+lady_whosits:0 "Lady Whosits"
+monster_staff:0 "Dmitry Ulyanov"
+monster_staff_chief:0 "Petr Ulyanov"
+johansen_army_chief:0 "King Johansen of House Butterfly"
 
 
 
