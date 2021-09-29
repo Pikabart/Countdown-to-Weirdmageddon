@@ -11,7 +11,7 @@ mewni_arat = {
 		available = {	}	
 		visible = {	}		
 
-		cost = 50	
+		cost = 25	
 		complete_effect = {		
 			country_event = A-RAT_mobilize.1
 			set_country_flag = A-RAT_mobilize_flag
@@ -40,7 +40,7 @@ mewni_arat = {
 			has_country_flag = A-RAT_mobilize_flag
 		}		
 
-		cost = 50	
+		cost = 25	
 		complete_effect = {		
 			#country_event = A-RAT_funding.1	   # Will set flag: A-RAT_funding_flag	
 			set_country_flag = A-RAT_funding_flag
@@ -77,7 +77,7 @@ mewni_arat = {
 			has_country_flag = A-RAT_funding_flag
 		}		
 
-		cost = 50		
+		cost = 25		
 		complete_effect = {		
 			subtract_from_variable = {
 				var = mew_arat_funding
@@ -153,7 +153,7 @@ mewni_arat = {
 			has_country_flag = A-RAT_funding_flag
 		}		
 
-		cost = 50	
+		cost = 25	
 		complete_effect = {		
 			#country_event = A-RAT_funding.1	   # Will set flag: A-RAT_funding
 			subtract_from_variable = {
@@ -220,7 +220,7 @@ mewni_arat = {
 			has_country_flag = A-RAT_funding_flag
 		}		
 		
-		cost = 50
+		cost = 25
 		complete_effect = {		
 			#country_event = A-RAT_funding.1	
 			subtract_from_variable = {
@@ -294,7 +294,7 @@ mewni_arat = {
 			has_country_flag = A-RAT_funding_flag
 		}	
 
-		cost = 50		
+		cost = 25		
 		complete_effect = {		
 			#country_event = A-RAT_funding.1	  
 			subtract_from_variable = {
@@ -374,7 +374,7 @@ mewni_arat = {
 			has_country_flag = A-RAT_funding_flag
 		}		
 
-		cost = 50		
+		cost = 25		
 		complete_effect = {		
 			subtract_from_variable = {
 				var = mew_arat_funding 
@@ -452,7 +452,7 @@ mewni_arat = {
 			has_country_flag = A-RAT_funding_flag
 		}		
 
-		cost = 50		
+		cost = 25		
 		complete_effect = {				
 			subtract_from_variable = {
 				var = mew_arat_funding
@@ -529,7 +529,7 @@ mewni_arat = {
 			has_country_flag = A-RAT_funding_flag
 		}		
 
-		cost = 50		
+		cost = 25		
 		complete_effect = {		
 			subtract_from_variable = {
 				var = mew_arat_funding
@@ -582,7 +582,7 @@ mewni_arat = {
 			country_event = A-RAT_magic_operation.1 
 		}
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 3			
+			factor = 30			
 		} 
 	}
 	
@@ -600,7 +600,7 @@ mewni_rec = {
 		available = {	}	
 		visible = {	}		
 
-		cost = 50		
+		cost = 25		
 		complete_effect = {		
 			country_event = REC_mobilize.1		
 			set_country_flag = REC_mobilize_flag
@@ -627,7 +627,7 @@ mewni_rec = {
 			has_country_flag = REC_mobilize_flag
 		}		
 
-		cost = 50		
+		cost = 25		
 		complete_effect = {			
 			set_country_flag = REC_funding_flag
 			custom_effect_tooltip = REC_funding_1_tt
@@ -669,7 +669,7 @@ mewni_rec = {
 			has_country_flag = REC_mobilize_flag
 		}		
 
-		cost = 50		
+		cost = 25		
 		complete_effect = {			
 			set_country_flag = REC_funding_flag 
 			if = {
@@ -720,7 +720,7 @@ mewni_rec = {
 			has_country_flag = REC_funding_flag
 		}		
 
-		cost = 50		
+		cost = 25		
 		complete_effect = {		
 			subtract_from_variable = { 
 				var = mew_rec_funding 
@@ -783,7 +783,7 @@ mewni_rec = {
 			has_country_flag = REC_funding_flag
 		}		
 
-		cost = 50		
+		cost = 25		
 		complete_effect = {		
 			subtract_from_variable = { 
 				var = mew_rec_funding 
@@ -853,7 +853,7 @@ mewni_rec = {
 			has_country_flag = REC_funding_flag
 		}		
 
-		cost = 50		
+		cost = 25		
 		complete_effect = {		
 			subtract_from_variable = { 
 				var = mew_rec_funding 
@@ -917,7 +917,7 @@ mewni_rec = {
 			has_country_flag = REC_funding_flag
 		}		
 
-		cost = 50		
+		cost = 25		
 		complete_effect = {		
 			subtract_from_variable = { 
 				var = mew_rec_funding 
