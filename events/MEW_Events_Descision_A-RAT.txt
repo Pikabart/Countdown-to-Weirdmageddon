@@ -222,6 +222,7 @@ country_event = {
 		clr_country_flag = A-RAT_magic_operation_outcome_1
 		clr_country_flag = A-RAT_magic_operation_outcome_2
 		clr_country_flag = A-RAT_magic_operation_outcome_3
+		add_country_flag = A-RAT_magic_operation_done
 	}
 	option = {
 		name = A-RAT_magic_operation.1.a_2
@@ -229,6 +230,7 @@ country_event = {
 		clr_country_flag = A-RAT_magic_operation_outcome_1
 		clr_country_flag = A-RAT_magic_operation_outcome_2
 		clr_country_flag = A-RAT_magic_operation_outcome_3
+		add_country_flag = A-RAT_magic_operation_done
 	}
 	option = {
 		name = A-RAT_magic_operation.1.a_3
@@ -236,6 +238,7 @@ country_event = {
 		clr_country_flag = A-RAT_magic_operation_outcome_1
 		clr_country_flag = A-RAT_magic_operation_outcome_2
 		clr_country_flag = A-RAT_magic_operation_outcome_3
+		add_country_flag = A-RAT_magic_operation_done
 	}
 }
 

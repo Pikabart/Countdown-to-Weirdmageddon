@@ -67,13 +67,21 @@ spriteTypes = {
 	name = "GFX_goal_focus_las_vegas"
 	texturefile = "gfx/interface/goals/MYS/focus_las_vegas.dds"			
 	}
-	
+
 	##################################################################
 	
 	SpriteType = {
-	name = "GFX_goal_focus_stan_run"
-	texturefile = "gfx/interface/goals/MYS/focus_stan_run.dds"			
+	name = "GFX_goal_focus_what_awaits"
+	texturefile = "gfx/interface/goals/MYS/focus_what_awaits.dds"			
 	}
+	
+	
+	
+	
+	
+	
+	
+	##################################################################
 	
 	SpriteType = {
 	name = "GFX_goal_focus_cordoury_drip"
@@ -130,7 +138,22 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/MYS/focus_sick_drifts.dds"			
 	}
 	
+	##################################################################
 	
+	SpriteType = {
+	name = "GFX_goal_focus_GF_emblem"
+	texturefile = "gfx/interface/goals/MYS/focus_GF_emblem.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_town_hall"
+	texturefile = "gfx/interface/goals/MYS/focus_town_hall.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_council"
+	texturefile = "gfx/interface/goals/MYS/focus_council.dds"			
+	}
 	
 	
 	

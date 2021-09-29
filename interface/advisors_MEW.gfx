@@ -5,5 +5,9 @@ spriteTypes = {
 			name = "GFX_idea_advisor_johansen"
 			texturefile = "gfx/interface/advisors/MEW/advisor_johansen.dds"
 		}
+	spriteType = {
+			name = "GFX_idea_advisor_mina"
+			texturefile = "gfx/interface/advisors/MEW/advisor_mina.dds"
+		}
 	
 }

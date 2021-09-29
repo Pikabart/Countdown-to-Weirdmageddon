@@ -349,6 +349,23 @@ ideas = {
 			}
 		}
 		
+		mina_advisor = {
+		
+			picture = advisor_mina
+	
+			allowed = {
+				original_tag = MEW
+			}
+			available = {
+			}
+			
+			traits = { popular_figurehead }
+
+			ai_will_do = {
+				factor = 0.5
+			}
+		}
+		
 		adolf = {
 		
 			#picture = 

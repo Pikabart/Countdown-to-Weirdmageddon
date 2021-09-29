@@ -79,6 +79,7 @@ MEW_economy_final_desc:0 "The Magic High Commision has proposed that we combine 
 
 magic_fritz:0 "The Magical Malfunction"
 magic_fritz_desc:0 "It seems that our magic based systems are malfunctioning. We will investigate this."
+A-RAT_magic_operation_done:0 "Must have taken the decision §CExperimental Magical Anti-Rat Operations§!"
 
 visit_avarius_family:0 "Visit The Avarius Family"
 visit_avarius_family_desc:0 "The magic fritz is most likley being caused by Ludo. Although we don't know his location, perhaps his family does. Thus, moon butterfly will ride out into the forest of certain death and personally ask them." 
