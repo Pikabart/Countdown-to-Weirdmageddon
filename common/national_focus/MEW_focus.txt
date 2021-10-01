@@ -181,6 +181,7 @@
 		x = 1
 		y = 1		
 		prerequisite = { focus = exterminators }
+		prerequisite = { focus = hunt_rat }
 		relative_position_id = exterminators
 		search_filters = {  FOCUS_FILTER_RESEARCH }		
 		
@@ -456,7 +457,7 @@
 			focus = MEW_reform_economy_4 
 			focus = MEW_force_economy_4
 		}
-		prerequisite = { focus = hunt_rat }
+		prerequisite = { focus = desperate_measures }
 		relative_position_id = desperate_measures
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 

@@ -603,12 +603,14 @@ country_event = {
 	option = {
 		name = MEW_reform_economy_4.1.a
 		ai_chance = { factor = 90 }
-		add_ideas = MEW_public_works	
+		add_ideas = MEW_public_works
+		add_ideas = MEW_shame_of_foreign_aid		
 	}
 	option = {
 		name = MEW_reform_economy_4.1.b
 		ai_chance = { factor = 10 }
-		add_ideas = MEW_public_works	
+		add_ideas = MEW_rejected_foreign_aid
+		
 	}
 }
 
@@ -958,13 +960,6 @@ country_event = {
 		option = {
 			name = ludo_confront_5.1.a
 			ai_chance = { factor = 90 }
-			create_country_leader = {
-				name = "Queen Moon of House Butterfly"
-				desc = "placeholder"
-				picture = "hoi4_portrait_moon.dds"
-				ideology = oligarchism
-
-			}
 			add_war_support = 0.2
 			
 			hidden_effect = {
@@ -1079,7 +1074,7 @@ country_event = {
 					type = arms_factory
 					level = 2
 				}
-				287 = {
+				289 = {
 					add_resource = {
 						type = oil
 						amount = 16
@@ -1091,13 +1086,61 @@ country_event = {
 				add_state_core = 273
 			}
 			set_province_name = { id = 338 name = "Fort Norton"}
+			custom_effect_tooltip = "trade_ports_1_tooltip"
+			hidden_effect = {
+				MEW = { country_event = { id = trade_ports.2 days = 192 } }
+			}
+
 		}
 		
 		option = {
 			name = trade_ports.1.b
 			ai_chance = { factor = 99 }
-			add_political_power = 500
+			add_political_power = 150
+			add_stability = 0.05
 			
 		}
 
 	}
+	
+	country_event = {
+		id = trade_ports.2
+		title = trade_ports.2.t
+		desc = trade_ports.2.d
+		picture = GFX_report_event_chinese_soldiers_fighting
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = trade_ports.2.a
+			ai_chance = { factor = 90 }
+			random_owned_controlled_state = {
+				prioritize = { 289 }
+				create_unit = {
+						division = "name = \"California Expeditionaries\" division_template = \"Conscript Brigade\" start_experience_factor = 0"
+						owner = MEW
+				}
+				create_unit = {
+						division = "name = \"California Expeditionaries\" division_template = \"Conscript Brigade\" start_experience_factor = 0"
+						owner = MEW
+				}
+				create_unit = {
+						division = "name = \"California Expeditionaries\" division_template = \"Conscript Brigade\" start_experience_factor = 0"
+						owner = MEW
+				}
+				create_unit = {
+						division = "name = \"California Expeditionaries\" division_template = \"Conscript Brigade\" start_experience_factor = 0"
+						owner = MEW
+				}
+				create_unit = {
+						division = "name = \"California Expeditionaries\" division_template = \"Conscript Brigade\" start_experience_factor = 0"
+						owner = MEW
+				}
+				create_unit = {
+						division = "name = \"California Expeditionaries\" division_template = \"Conscript Brigade\" start_experience_factor = 0"
+						owner = MEW
+				}
+			}
+
+		}
+}

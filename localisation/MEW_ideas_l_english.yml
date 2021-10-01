@@ -37,7 +37,13 @@ MEW_forced_economics:0 "Extreme Economic Measures"
 MEW_forced_economics_desc:0 "The Corn Crisis has forced our hand, and we must take certain measures to survive as a nation. Even if we have to drag our people kicking and screaming into survival!"
 
 MEW_public_works:0 "The Public Works Department"
-MEW_public_works_desc:0 "The Public Works Department is a a government organization dedicated to studying foreign construction methods and applying it to our nation"
+MEW_public_works_desc:0 "The Public Works Department is a a government organization dedicated to studying foreign construction methods and applying it to our dimension"
+
+MEW_shame_of_foreign_aid:0 "Shame of Foreign Aid"
+MEW_shame_of_foreign_aid_desc:0 "How could we have accepted this much foreign aid? What are we, some sort of poverty stricken dimension?"
+
+MEW_rejected_foreign_aid:0 "Rejected Foreign Aid"
+MEW_rejected_foreign_aid_desc:0 "We are no poverty stricken dimension! We Mewmans will be fine, and we will rise from these turbulent times without having to get on our knees and beg other dimensions to help us!"
 
 magic_fritz_idea:0 "The Magic Fritz"
 magic_fritz_idea_desc:0 "Magic is dumb, lmao"
