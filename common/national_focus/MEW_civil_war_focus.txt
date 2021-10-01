@@ -36,8 +36,7 @@
 		icon = GFX_goal_focus_butterfly_front
 		x = 0
 		y = 1
-		cost = 5
-			
+		cost = 2			
 		relative_position_id = get_our_bearings 
 		prerequisite = { focus = get_our_bearings }
 		available = { has_war = no }
@@ -66,15 +65,33 @@
 		}
 	}
 	
+	focus = {
+		id = california_embassy
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -1
+		y = 1
+		cost = 2			
+		relative_position_id = butterfly_front 
+		prerequisite = { focus = butterfly_front }
+		available = { has_war = no }
+		available = { country_exists = LUD }
+
 	
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = trade_ports.1
+		}
+	}	
 	
 	focus = {
 		id = ally_with_the_tsardom
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 1
 		y = 1
-		cost = 5
-			
+		cost = 2			
 		relative_position_id = butterfly_front 
 		prerequisite = { focus = butterfly_front }
 		available = { has_war = no }
@@ -96,8 +113,7 @@
 		icon = GFX_goal_focus_mobilize_populace
 		x = 0
 		y = 2
-		cost = 5
-			
+		cost = 2			
 		relative_position_id = butterfly_front 
 		prerequisite = { focus = butterfly_front }
 		available = { has_war = no }
@@ -119,8 +135,7 @@
 		icon = GFX_goal_generic_air_fighter2
 		x = -1
 		y = 1
-		cost = 5
-			
+		cost = 2			
 		relative_position_id = mobilize_populace 
 		prerequisite = { focus = mobilize_populace }
 		available = { has_war = no }
@@ -148,8 +163,7 @@
 		}
 		available = { has_war = no }
 		available = { country_exists = LUD }
-		cost = 5
-		
+		cost = 2		
 		
 		completion_reward = {
 		
@@ -216,8 +230,7 @@
 		icon = GFX_goal_focus_pull_all_strings
 		x = 0
 		y = 2
-		cost = 5
-			
+		cost = 2			
 		relative_position_id = mobilize_populace 
 		prerequisite = { focus = mobilize_populace }
 		available = { has_war = no }
@@ -239,8 +252,7 @@
 		icon = GFX_goal_focus_foreign_advisors
 		x = -1
 		y = 1
-		cost = 5
-			
+		cost = 2			
 		relative_position_id = pull_all_strings 
 		prerequisite = { focus = pull_all_strings }
 		available = { has_war = no }
@@ -262,8 +274,7 @@
 		icon = GFX_goal_focus_emergency_equality
 		x = 1
 		y = 1
-		cost = 5
-			
+		cost = 2			
 		relative_position_id = pull_all_strings 
 		prerequisite = { focus = pull_all_strings }
 		available = { has_war = no }
@@ -285,8 +296,7 @@
 		icon = GFX_goal_focus_confront_ludo
 		x = 0
 		y = 2
-		cost = 5
-			
+		cost = 2			
 		relative_position_id = pull_all_strings 
 		prerequisite = { focus = pull_all_strings }
 		available = { has_war = no }

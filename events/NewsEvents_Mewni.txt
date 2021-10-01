@@ -110,7 +110,13 @@ news_event = { #The Split of Mewni
 			LUD = { transfer_state = 332 }
 			LUD = { transfer_state = 333 }
 			set_cosmetic_tag = MEW
+			create_country_leader = {
+				name = "Queen Moon of House Butterfly"
+				desc = "placeholder"
+				picture = "hoi4_portrait_moon.dds"
+				ideology = oligarchism
 
+			}
 		}
 	}
 	option = {

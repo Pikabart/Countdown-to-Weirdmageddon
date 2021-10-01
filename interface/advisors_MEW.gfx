@@ -10,4 +10,13 @@ spriteTypes = {
 			texturefile = "gfx/interface/advisors/MEW/advisor_mina.dds"
 		}
 	
+	spriteType = {
+			name = "GFX_idea_advisor_drumpf_poe"
+			texturefile = "gfx/interface/advisors/MEW/advisor_drumpf_poe.dds"
+		}
+		
+	spriteType = {
+			name = "GFX_idea_advisor_whosits"
+			texturefile = "gfx/interface/advisors/MEW/advisor_whosits.dds"
+		}
 }

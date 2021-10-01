@@ -9,6 +9,9 @@ butterfly_front_desc:0 "The majority of our vassal states have abandoned us, and
 ally_with_the_tsardom:0 "Historical Freinds"
 ally_with_the_tsardom_desc:0 "In the aftermath of the Kingdom's collapse, we have only a single ally remaining. Thus, we must seek out more allies. Luckily we have allied with the Tsarsvto Monstrov, a monster Kingdom in the north, in the past. Perhaps we can do so again in the present."
 
+california_embassy:0 "Californian Embassy"
+california_embassy_desc:0 "With our old allies betraying us, perhaps it is time to seek new ones from outside the dimension."
+
 mobilize_populace:0 "Mobilize The Populace"
 mobilize_populace_desc:0 "This conflict endangers the future of the Butterfly dynasty, and by extention the whole dimension itself. We must rapidly deploy people into the field in order to gain any sort of advantage against the enemy."
 
@@ -31,4 +34,4 @@ emergency_equality_desc:0 "Now is no the time to let our prejudice overtake us! 
 MEW_emergency_equality_tooltip:0 "§YMonster advisors§, become available"
 
 strike_first:0 "Strike First!"
-strike_first_desc:0 "We must not be taken by surprise!\nWe must strike first!\nFor the Queen!"
+strike_first_desc:0 "We must not be taken by surprise!\nWe must strike first!\n§CFor the Queen!§!"
