@@ -1176,24 +1176,7 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_4_effect
-			#country_event = mystery_shack.
-		}
-		
-		ai_will_do = {factor = 1}
-	}
-	
-	focus = { 
-		id = MYS_PR_5
-		icon = GFX_goal_generic_major_war
-		x = 0
-		y = 3	
-		prerequisite = { focus = MYS_PR_2 }
-		prerequisite = { focus = MYS_PR_3 }
-		relative_position_id = MYS_PR_1
-			
-		cost = 4
-
-		completion_reward = {
+			set_country_flag = MYS_pr_path  #Flase Flags also has this for Mayor focus
 			#country_event = mystery_shack.
 		}
 		
@@ -1211,23 +1194,7 @@
 		cost = 4
 
 		completion_reward = {
-			#country_event = mystery_shack.
-		}
-		
-		ai_will_do = {factor = 1}
-	}
-	
-	focus = { 
-		id = MYS_PR_7
-		icon = GFX_goal_generic_major_war
-		x = 0
-		y = 1	
-		prerequisite = { focus = MYS_PR_5 }
-		relative_position_id = MYS_PR_5
-			
-		cost = 4
-
-		completion_reward = {
+			custom_effect_tooltip = MYS_PR_6_effect
 			#country_event = mystery_shack.
 		}
 		
@@ -1245,29 +1212,8 @@
 		cost = 4
 
 		completion_reward = {
+			custom_effect_tooltip = MYS_PR_8_effect
 			#country_event = mystery_shack.
-		}
-		
-		ai_will_do = {factor = 1}
-	}
-	
-	focus = { 
-		id = MYS_PR_9
-		icon = GFX_goal_generic_major_war
-		x = 0
-		y = 1	
-		prerequisite = { focus = MYS_PR_7 }
-		relative_position_id = MYS_PR_7
-			
-		cost = 4
-
-		completion_reward = {
-			#country_event = mystery_shack.
-			transfer_state = 54
-			54 = { 
-				add_core_of = MYS 
-				remove_core_of = GTF
-				}
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1284,11 +1230,89 @@
 		cost = 4
 
 		completion_reward = {
+			custom_effect_tooltip = MYS_PR_10_effect
 			#country_event = mystery_shack.
 		}
 		
 		ai_will_do = {factor = 1}
 	}
+	
+	###################################
+	
+		focus = { 
+		id = MYS_PR_5
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 3	
+		prerequisite = { focus = MYS_PR_2 }
+		prerequisite = { focus = MYS_PR_3 }
+		relative_position_id = MYS_PR_1
+			
+		cost = 4
+
+		completion_reward = {
+			custom_effect_tooltip = MYS_PR_5_effect
+			#country_event = mystery_shack.
+		}
+		
+		ai_will_do = {factor = 1}
+	}
+	
+	focus = { 
+		id = MYS_PR_7
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1	
+		prerequisite = { focus = MYS_PR_5 }
+		relative_position_id = MYS_PR_5
+			
+		cost = 4
+
+		completion_reward = {
+			custom_effect_tooltip = MYS_PR_7_effect
+			#country_event = mystery_shack.
+		}
+		
+		ai_will_do = {factor = 1}
+	}
+	
+	focus = { 
+		id = MYS_PR_9
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1	
+		prerequisite = { focus = MYS_PR_7 }
+		relative_position_id = MYS_PR_7
+		
+		available = {
+			has_country_flag = MYS_pr_path # Either PR Tree will enable this focus
+			if = {                         # Will require a second flag if Flase Flags is taken
+				limit = {
+					has_country_flag = MYS_false_flags
+				}
+				has_country_flag = MYS_GF_shuffle
+			}	
+		}
+		
+		cost = 4
+
+		completion_reward = {
+			custom_effect_tooltip = MYS_PR_9_effect
+			#country_event = mystery_shack.
+			
+			hidden_effect = {
+				transfer_state = 54
+				54 = { 
+					add_core_of = MYS 
+					remove_core_of = GTF
+					}
+			}
+		}
+		
+		ai_will_do = {factor = 1}
+	}
+	
+	################################
 	
 	focus = { 
 		id = MYS_PR_16
@@ -1302,6 +1326,7 @@
 		cost = 4
 
 		completion_reward = {
+			custom_effect_tooltip = MYS_PR_16_effect
 			#country_event = mystery_shack.
 		}
 		
@@ -1323,6 +1348,8 @@
 
 		completion_reward = {
 			#country_event = mystery_shack.
+			set_country_flag = MYS_false_flags #Will be used to reuire an additon flag for Mayor focus
+			set_country_flag = MYS_pr_path #Good PR also has this for Mayor focus
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1339,6 +1366,7 @@
 		cost = 4
 
 		completion_reward = {
+			custom_effect_tooltip = MYS_PR_12_effect
 			#country_event = mystery_shack.
 		}
 		
@@ -1374,6 +1402,8 @@
 		cost = 4
 
 		completion_reward = {
+			custom_effect_tooltip = MYS_PR_14_effect
+			set_country_flag = MYS_GF_shuffle
 			#country_event = mystery_shack.
 		}
 		
@@ -1391,6 +1421,7 @@
 		cost = 4
 
 		completion_reward = {
+			custom_effect_tooltip = MYS_PR_15_effect
 			#country_event = mystery_shack.
 		}
 		

@@ -93,7 +93,8 @@
  
  ################################################
  #Oregon VPs
- VICTORY_POINTS_8193:0 "Portland"
+ VICTORY_POINTS_8143:0 "Portland"
+ VICTORY_POINTS_8167:0 "Brazzersville"
  VICTORY_POINTS_8247:0 "Salem"
  VICTORY_POINTS_1380:0 "Corvallis"
  VICTORY_POINTS_5163:0 "Eugene"
