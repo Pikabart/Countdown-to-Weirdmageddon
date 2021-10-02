@@ -393,7 +393,7 @@ ideas = {
 		
 		adolf = {
 		
-			#picture = 
+			picture = advisor_hitler
 	
 			allowed = {
 				original_tag = MEW

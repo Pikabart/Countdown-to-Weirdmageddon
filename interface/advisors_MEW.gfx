@@ -19,4 +19,8 @@ spriteTypes = {
 			name = "GFX_idea_advisor_whosits"
 			texturefile = "gfx/interface/advisors/MEW/advisor_whosits.dds"
 		}
+	spriteType = {
+			name = "GFX_idea_advisor_hitler"
+			texturefile = "gfx/interface/advisors/MEW/advisor_hitler.dds"
+		}
 }
