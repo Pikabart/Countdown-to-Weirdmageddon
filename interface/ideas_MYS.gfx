@@ -2,31 +2,31 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_idea_MYS_NWHS_1"
-		texturefile = "gfx/interface/ideas/NWHS_1.dds"			
+		texturefile = "gfx/interface/ideas/mys/NWHS_1.dds"			
 	}
 	SpriteType = {
 		name = "GFX_idea_MYS_NWHS_2"
-		texturefile = "gfx/interface/ideas/NWHS_2.dds"			
+		texturefile = "gfx/interface/ideas/mys/NWHS_2.dds"			
 	}
 	SpriteType = {
 		name = "GFX_idea_MYS_NWHS_3"
-		texturefile = "gfx/interface/ideas/NWHS_3.dds"			
+		texturefile = "gfx/interface/ideas/mys/NWHS_3.dds"			
 	}
 	SpriteType = {
 		name = "GFX_idea_MYS_NWHS_4"
-		texturefile = "gfx/interface/ideas/NWHS_4.dds"			
+		texturefile = "gfx/interface/ideas/mys/NWHS_4.dds"			
 	}
 	SpriteType = {
 		name = "GFX_idea_MYS_NWHS_5"
-		texturefile = "gfx/interface/ideas/NWHS_5.dds"			
+		texturefile = "gfx/interface/ideas/mys/NWHS_5.dds"			
 	}
 	SpriteType = {
 		name = "GFX_idea_MYS_plenty_of_suckers"
-		texturefile = "gfx/interface/ideas/generic_goods_red_bonus.dds"	
+		texturefile = "gfx/interface/ideas/mys/generic_goods_red_bonus.dds"	
 	}
 	SpriteType = {
 		name = "GFX_idea_wendy_drip_idea"
-		texturefile = "gfx/interface/ideas/wendy_drip_idea.dds"	
+		texturefile = "gfx/interface/ideas/mys/wendy_drip_idea.dds"	
 	}
 	
 }
