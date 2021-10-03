@@ -19,7 +19,7 @@ news_event = { #The Corn Crisis
 		text = mewni_corn_crisis_news_event.1.d
 	}
 	
-	picture = GFX_news_peace_arc_kerfuffle
+	picture = GFX_news_event_crash
 	
 	major = no
 	is_triggered_only = yes
@@ -84,7 +84,7 @@ news_event = { #The Split of Mewni
 		text = mewni_kingdom_split_news_event.1.d
 	}
 	
-	picture = GFX_news_peace_arc_kerfuffle
+	picture = GFX_news_event_ludo_not_legit
 	
 	major = no
 	is_triggered_only = yes
@@ -138,7 +138,7 @@ news_event = { #The Collapse of Mewni
 		text = mewni_kingdom_collapse_news_event.1.d
 	}
 	
-	picture = GFX_news_peace_arc_kerfuffle
+	picture = GFX_news_event_kingdom_collapse
 	
 	major = no
 	is_triggered_only = yes
@@ -189,7 +189,7 @@ news_event = { #The Butterfly Front
 		text = mewni_butterfly_front_news_event.1.d
 	}
 	
-	picture = GFX_news_peace_arc_kerfuffle
+	picture = GFX_news_event_kingdom_collapse
 	
 	major = no
 	is_triggered_only = yes
@@ -220,7 +220,7 @@ news_event = { #tsardom joins butterfly front
 		text = mewni_tsardom_join_bf_news_event.1.d
 	}
 	
-	picture = GFX_news_peace_arc_kerfuffle
+	picture = GFX_news_event_kingdom_collapse
 	
 	major = no
 	is_triggered_only = yes
@@ -251,7 +251,7 @@ news_event = { #The Ludo Coup
 		text = mewni_ludo_coup_news_event.1.d
 	}
 	
-	picture = GFX_news_peace_arc_kerfuffle
+	picture = GFX_news_event_ludo_coup
 	
 	major = no
 	is_triggered_only = yes
@@ -290,7 +290,7 @@ news_event = { #collapse of jaggy
 		text = jaggy_collapse_news_event.1.d
 	}
 	
-	picture = GFX_news_peace_arc_kerfuffle
+	picture = GFX_news_event_jaggy_collapse
 	
 	major = no
 	is_triggered_only = yes
@@ -316,7 +316,7 @@ news_event = { #The Loyalist front
 		text = ludo_spider_alliance_news_event.1.d
 	}
 	
-	picture = GFX_news_peace_arc_kerfuffle
+	picture = GFX_news_event_jaggy_collapse
 	
 	major = no
 	is_triggered_only = yes
@@ -347,7 +347,7 @@ news_event = { #The War Starts
 		text = mewni_ludo_war_start_news_event.1.d
 	}
 	
-	picture = GFX_news_peace_arc_kerfuffle
+	picture = GFX_news_event_start_of_civil_war
 	
 	major = no
 	is_triggered_only = yes

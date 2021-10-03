@@ -1,0 +1,34 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_news_event_crash"
+		texturefile = "gfx/event_news_pictures/mew/news_event_crash.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_ludo_coup"
+		texturefile = "gfx/event_news_pictures/mew/news_event_ludo_coup.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_ludo_not_legit"
+		texturefile = "gfx/event_news_pictures/mew/news_event_ludo_not_legit.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_kingdom_collapse"
+		texturefile = "gfx/event_news_pictures/mew/news_event_kingdom_collapse.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_jaggy_collapse"
+		texturefile = "gfx/event_news_pictures/mew/news_event_jaggy_collapse.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_event_start_of_civil_war"
+		texturefile = "gfx/event_news_pictures/mew/news_event_start_of_civil_war.dds"
+	}
+
+	
+}

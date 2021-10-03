@@ -123,9 +123,9 @@
  
  #Mewni###############################################################
  
- MEW_fascism_party:0 "Solarian Guard"
- MEW_communism_party:0 "Revolutionary Corn Council"
- MEW_democratic_party:0 "Butterfly Parliament"
+ MEW_fascism_party:0 "Military Command"
+ MEW_communism_party:0 "Corn Union"
+ MEW_democratic_party:0 "Magic High Commision"
  MEW_neutrality_party:0 "House Butterfly"
  
  LUD_fascism_party:0 "Will of Toffee"

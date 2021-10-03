@@ -150,6 +150,7 @@
 		
 		completion_reward = {
 			country_event = exterminators.1
+			custom_effect_tooltip = "REC_focus_tooltip"
 			set_country_flag = REC_founded_flag     # enable decisions cat
 		}
 	}
