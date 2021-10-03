@@ -147,6 +147,11 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/MEW/focus_emergency_equality.dds"			
 	}
 
+	SpriteType = {
+	name = "GFX_goal_focus_california_embassy"
+	texturefile = "gfx/interface/goals/MEW/focus_california_embassy.dds"			
+	}
+
 
 
 

@@ -808,7 +808,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_focus_emergency_conscription"
+		name = "GFX_goal_focus_emergency_conscription_shine"
 		texturefile = "gfx/interface/goals/MEW/focus_emergency_conscription.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -840,7 +840,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_focus_pull_all_strings"
+		name = "GFX_goal_focus_pull_all_strings_shine"
 		texturefile = "gfx/interface/goals/MEW/focus_pull_all_strings.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -872,7 +872,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_focus_foreign_advisors"
+		name = "GFX_goal_focus_foreign_advisors_shine"
 		texturefile = "gfx/interface/goals/MEW/focus_foreign_advisors.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -904,7 +904,7 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_focus_emergency_equality"
+		name = "GFX_goal_focus_emergency_equality_shine"
 		texturefile = "gfx/interface/goals/MEW/focus_emergency_equality.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
@@ -922,6 +922,38 @@ spriteTypes = {
 
 		animation = {
 			animationmaskfile = "gfx/interface/goals/MEW/focus_emergency_equality.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		legacy_lazy_load = no
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_focus_california_embassy_shine"
+		texturefile = "gfx/interface/goals/MEW/focus_california_embassy.dds"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MEW/focus_california_embassy.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+
+		animation = {
+			animationmaskfile = "gfx/interface/goals/MEW/focus_california_embassy.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

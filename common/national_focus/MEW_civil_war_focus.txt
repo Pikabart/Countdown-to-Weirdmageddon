@@ -67,7 +67,7 @@
 	
 	focus = {
 		id = california_embassy
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_california_embassy
 		x = -1
 		y = 1
 		cost = 2			
@@ -296,7 +296,7 @@
 		icon = GFX_goal_focus_confront_ludo
 		x = 0
 		y = 2
-		cost = 2			
+		cost = 4			
 		relative_position_id = pull_all_strings 
 		prerequisite = { focus = pull_all_strings }
 		available = { has_war = no }

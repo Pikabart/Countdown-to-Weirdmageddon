@@ -3,6 +3,106 @@
 ############
 spriteTypes = {
 
+	spriteType = { #Solaria old picture
+		name = "GFX_report_event_solaria_legacy"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_solaria_legacy.dds"
+	}
+	
+	spriteType = { #Jushtin
+		name = "GFX_report_event_jushtin"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_jushtin.dds"
+	}
+	
+	spriteType = { #Pilot Opening scene
+		name = "GFX_report_event_butterfly_family"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_butterfly_family.dds"
+	}
+	
+	spriteType = { #Star with wand scared
+		name = "GFX_report_event_star_with_wand"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_star_with_wand.dds"
+	}
+	
+	spriteType = { #Open mouth moon
+		name = "GFX_report_event_open_mouth_moon"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_open_mouth_moon.dds"
+	}
+	
+	spriteType = { #REC logo
+		name = "GFX_report_event_rec"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_rec.dds"
+	}
+	
+	spriteType = { #ARAT logo
+		name = "GFX_report_event_arat"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_arat.dds"
+	}
+	
+	spriteType = { #Mewman army
+		name = "GFX_report_event_mewman_army"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_mewman_army.dds"
+	}
+	
+	spriteType = { #armor under construction
+		name = "GFX_report_event_armor_under_construction"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_armor_under_construction.dds"
+	}
+
+	spriteType = { #broken wand
+		name = "GFX_report_event_broken_wand"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_broken_wand.dds"
+	}
+	
+	spriteType = { #moon kissing river
+		name = "GFX_report_event_moon_river"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_moon_river.dds"
+	}
+	
+	spriteType = { #worried ruberiot
+		name = "GFX_report_event_worried_ruberiot"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_worried_ruberiot.dds"
+	}
+	
+	spriteType = { #traditional song day
+		name = "GFX_report_event_songday_trad"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_songday_trad.dds"
+	}
+	
+	spriteType = { #embarrasing song day
+		name = "GFX_report_event_song_day_love"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_song_day_love.dds"
+	}
+	
+	spriteType = { #good song day
+		name = "GFX_report_event_song_day_good"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_song_day_good.dds"
+	}
+	
+	spriteType = { #magic sanctuary
+		name = "GFX_report_event_magic_sanctuary"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_magic_sanctuary.dds"
+	}
+	
+	spriteType = { #marco and river
+		name = "GFX_report_event_marco_and_river"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_marco_and_river.dds"
+	}
+	
+	spriteType = { #moon butterfly form
+		name = "GFX_report_event_moon_butterfly_form"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_moon_butterfly_form.dds"
+	}
+	
+	spriteType = { #moon broadcast
+		name = "GFX_report_event_broadcast"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_broadcast.dds"
+	}
+	
+	spriteType = { #angry spiderbites
+		name = "GFX_report_event_angry_spiderbites"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_angry_spiderbites.dds"
+	}
+
 	spriteType = { #River with a catapult
 		name = "GFX_report_event_river_corn"
 		texturefile = "gfx/event_country_pictures/MEW/report_event_defend_corn.dds"

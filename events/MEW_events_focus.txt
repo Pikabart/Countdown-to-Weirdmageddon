@@ -50,7 +50,7 @@ country_event = {
 	id = mewni_solaria.1
 	title = mewni_solaria.1.t
 	desc = mewni_solaria.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_solaria_legacy
 	
 	is_triggered_only = yes
 	
@@ -90,7 +90,7 @@ country_event = {
 	id = mewni_300_peace.1
 	title = mewni_300_peace.1.t
 	desc = mewni_300_peace.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_jushtin
 	
 	is_triggered_only = yes
 	
@@ -110,7 +110,7 @@ country_event = {
 	id = butterfly_family.1
 	title = butterfly_family.1.t
 	desc = butterfly_family.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_butterfly_family
 	
 	is_triggered_only = yes
 	
@@ -128,7 +128,7 @@ country_event = {
 	id = MEW_prolouge_end.1
 	title = MEW_prolouge_end.1.t
 	desc = MEW_prolouge_end.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_star_with_wand
 	
 	is_triggered_only = yes
 	
@@ -148,7 +148,7 @@ country_event = {
 	id = corn_theft.1
 	title = corn_theft.1.t
 	desc = corn_theft.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_open_mouth_moon
 	
 	is_triggered_only = yes
 	
@@ -189,7 +189,7 @@ country_event = {
 	id = exterminators.1
 	title = exterminators.1.t
 	desc = exterminators.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_rec
 	
 	is_triggered_only = yes
 	
@@ -211,7 +211,7 @@ country_event = {
 	id = hunt_rat.1
 	title = hunt_rat.1.t
 	desc = hunt_rat.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_arat
 	
 	is_triggered_only = yes
 	
@@ -227,7 +227,7 @@ country_event = {
 	id = utilize_army.1
 	title = utilize_army.1.t
 	desc = utilize_army.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_mewman_army
 	
 	is_triggered_only = yes
 	
@@ -252,7 +252,7 @@ country_event = {
 	id = controlled_burning.1
 	title = controlled_burning.1.t
 	desc = controlled_burning.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_mewman_army
 	
 	is_triggered_only = yes
 	
@@ -313,7 +313,7 @@ country_event = {
 	id = emergency_economics.1
 	title = emergency_economics.1.t
 	desc = emergency_economics.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_armor_under_construction
 	
 	is_triggered_only = yes
 	
@@ -330,7 +330,7 @@ country_event = {
 	id = emergency_economics_2.1
 	title = emergency_economics_2.1.t
 	desc = emergency_economics_2.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_armor_under_construction
 	
 	is_triggered_only = yes
 	
@@ -352,7 +352,7 @@ country_event = {
 	id = emergency_economics_3.1
 	title = emergency_economics_3.1.t
 	desc = emergency_economics_3.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_armor_under_construction
 	
 	is_triggered_only = yes
 	
@@ -375,7 +375,7 @@ country_event = {
 	id = force_economy.1
 	title = force_economy.1.t
 	desc = force_economy.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_armor_under_construction
 	
 	is_triggered_only = yes
 	
@@ -396,7 +396,7 @@ country_event = {
 	id = force_economy_2.1
 	title = force_economy_2.1.t
 	desc = force_economy_2.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_armor_under_construction
 	
 	is_triggered_only = yes
 	
@@ -469,7 +469,7 @@ country_event = {
 	id = force_economy_3.1
 	title = force_economy_3.1.t
 	desc = force_economy_3.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_armor_under_construction
 	
 	is_triggered_only = yes
 	
@@ -503,7 +503,7 @@ country_event = {
 	id = force_economy_4.1
 	title = force_economy_4.1.t
 	desc = force_economy_4.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_armor_under_construction
 	
 	is_triggered_only = yes
 	
@@ -531,7 +531,7 @@ country_event = {
 	id = MEW_reform_economy.1
 	title = MEW_reform_economy.1.t
 	desc = MEW_reform_economy.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_armor_under_construction
 	
 	is_triggered_only = yes
 	
@@ -547,7 +547,7 @@ country_event = {
 	id = MEW_reform_economy_2.1
 	title = MEW_reform_economy_2.1.t
 	desc = MEW_reform_economy_2.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_armor_under_construction
 	
 	is_triggered_only = yes
 	
@@ -563,7 +563,7 @@ country_event = {
 	id = MEW_reform_economy_3.1
 	title = MEW_reform_economy_3.1.t
 	desc = MEW_reform_economy_3.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_armor_under_construction
 	
 	is_triggered_only = yes
 	
@@ -618,7 +618,7 @@ country_event = {
 	id = MEW_economy_final.1
 	title = MEW_economy_final.1.t
 	desc = MEW_economy_final.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_armor_under_construction
 	
 	is_triggered_only = yes
 	
@@ -663,7 +663,7 @@ country_event = {
 		id = magic_fritz.1
 		title = magic_fritz.1.t
 		desc = magic_fritz.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_broken_wand
 	
 		is_triggered_only = yes
 	
@@ -679,7 +679,7 @@ country_event = {
 		id = brush_up_event.1
 		title = brush_up_event.1.t
 		desc = brush_up_event.1.d
-		picture = GFX_report_event_river_corn
+		picture = GFX_report_event_moon_river
 	
 		is_triggered_only = yes
 	
@@ -755,7 +755,7 @@ country_event = {
 		id = song_day_event.1
 		title = song_day_event.1.t
 		desc = song_day_event.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_worried_ruberiot
 	
 		is_triggered_only = yes
 	
@@ -788,7 +788,7 @@ country_event = {
 		id = song_day_event_crush.1
 		title = song_day_event_crush.1.t
 		desc = song_day_event_crush.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_song_day_love
 	
 		is_triggered_only = yes
 	
@@ -804,7 +804,7 @@ country_event = {
 		id = song_day_event_censor.1
 		title = song_day_event_censor.1.t
 		desc = song_day_event_censor.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_songday_trad
 	
 		is_triggered_only = yes
 	
@@ -821,7 +821,7 @@ country_event = {
 		id = song_day_event_good.1
 		title = song_day_event_good.1.t
 		desc = song_day_event_good.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_song_day_good
 	
 		is_triggered_only = yes
 	
@@ -892,7 +892,7 @@ country_event = {
 		id = ludo_confront_2.1
 		title = ludo_confront_2.1.t
 		desc = ludo_confront_2.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_magic_sanctuary
 	
 		is_triggered_only = yes
 	
@@ -909,7 +909,7 @@ country_event = {
 		id = ludo_confront_3.1
 		title = ludo_confront_3.1.t
 		desc = ludo_confront_3.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_marco_and_river
 	
 		is_triggered_only = yes
 	
@@ -936,7 +936,7 @@ country_event = {
 		id = ludo_confront_4.1
 		title = ludo_confront_4.1.t
 		desc = ludo_confront_4.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_moon_butterfly_form
 	
 		is_triggered_only = yes
 	
@@ -953,7 +953,7 @@ country_event = {
 		id = ludo_confront_5.1
 		title = ludo_confront_5.1.t
 		desc = ludo_confront_5.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_broadcast
 	
 		is_triggered_only = yes
 		
@@ -980,7 +980,7 @@ country_event = {
 		id = ludo_confront_6.1
 		title = ludo_confront_6.1.t
 		desc = ludo_confront_6.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_angry_spiderbites
 	
 		is_triggered_only = yes
 	

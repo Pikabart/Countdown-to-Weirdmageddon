@@ -22,6 +22,7 @@ ludo_path_desc:0 "Somewhere, in the darkest ditches of Mewni, a rat carries it's
 #############################################################################################
 exterminators:0 "Assemble the Royal Exterminators"
 exterminators_desc:0 "It's high time we assemble an official, state extermination company. With backing from the mostly brightest minds at the Skywynne Institute and financers from Port Festiva and Port Emily, we'll bring our best and richest to bare on this treat!"
+REC_focus_tooltip:0 "Unlocks §YREC§! descisions, which increase §YStability§!"
 
 hunt_rat:0 "Form the A-RAT"
 hunt_rat_desc:0 "As the military might of Mewni, we must organize anti-rat operations under a single new organization. With the Anti-Rat Army and Technologies Corp, we'll drive the rats back into thier filthy holes!"

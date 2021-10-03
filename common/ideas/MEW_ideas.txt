@@ -9,7 +9,7 @@ ideas = {
 	country = {
 
 		MEW_300_years_of_peace = {
-			picture = FRA_factory_strikes
+			picture = MEW_peace
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -24,7 +24,7 @@ ideas = {
 		}
 		
 		MEW_vacant_heir = {
-			picture = FRA_factory_strikes
+			picture = MEW_star_single
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -39,7 +39,7 @@ ideas = {
 		}
 		
 		MEW_heir_studying_overdimensions = {
-			picture = FRA_factory_strikes
+			picture = MEW_star_study
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -53,7 +53,7 @@ ideas = {
 		}
 		
 		MEW_corn_theft = {     # This idea can be modified based on a MYS stantastic event
-			picture = FRA_factory_strikes
+			picture = MEW_corn_crisis
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -69,7 +69,7 @@ ideas = {
 		}
 		
 		MEW_merc_gangs = {
-			picture = FRA_factory_strikes
+			picture = MEW_corn_crisis
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -82,7 +82,7 @@ ideas = {
 			}
 		}
 		MEW_emergency_economics_display = {
-			picture = FRA_factory_strikes
+			picture = MEW_emergency_economics
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -96,7 +96,7 @@ ideas = {
 		}		
 			
 		MEW_emergency_economics_2_display = {
-			picture = FRA_factory_strikes
+			picture = MEW_emergency_economics
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -109,7 +109,7 @@ ideas = {
 		}	
 		
 		MEW_emergency_economics_3_display = {
-			picture = FRA_factory_strikes
+			picture = MEW_emergency_economics
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -122,7 +122,7 @@ ideas = {
 		}	
 		
 		MEW_forced_economics_display = {
-			picture = FRA_factory_strikes
+			picture = MEW_emergency_economics
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -135,7 +135,7 @@ ideas = {
 		}
 		
 		MEW_emergency_economics = {
-			picture = FRA_factory_strikes
+			picture = MEW_emergency_economics
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -150,7 +150,7 @@ ideas = {
 		}		
 			
 		MEW_emergency_economics_2 = {
-			picture = FRA_factory_strikes
+			picture = MEW_emergency_economics
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -163,7 +163,7 @@ ideas = {
 		}	
 		
 		MEW_emergency_economics_3 = {
-			picture = FRA_factory_strikes
+			picture = MEW_emergency_economics
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -176,7 +176,7 @@ ideas = {
 		}	
 		
 		MEW_forced_economics = {
-			picture = FRA_factory_strikes
+			picture = MEW_emergency_economics
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -190,7 +190,7 @@ ideas = {
 		
 		
 		MEW_public_works = {
-			picture = FRA_factory_strikes
+			picture = MEW_public_works_idea
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -202,7 +202,7 @@ ideas = {
 		}
 		
 		MEW_shame_of_foreign_aid = {
-			picture = FRA_factory_strikes
+			picture = MEW_shame
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -214,7 +214,7 @@ ideas = {
 		}
 		
 		MEW_rejected_foreign_aid = {
-			picture = FRA_factory_strikes
+			picture = MEW_pride
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -227,7 +227,7 @@ ideas = {
 		}
 		
 		magic_fritz_idea = {
-			picture = FRA_factory_strikes
+			picture = MEW_magic_fritz
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -239,7 +239,7 @@ ideas = {
 		}
 		
 		mew_rapid_deployment_idea = {
-			picture = FRA_factory_strikes
+			picture = MEW_rapid_deployment_idea
 			
 			allowed = {original_tag = MEW}
 			available = {}
@@ -251,7 +251,7 @@ ideas = {
 		}
 		
 		pull_all_strings_idea = {
-			picture = FRA_factory_strikes
+			picture = MEW_pull_all_strings_idea
 			
 			allowed = { original_tag = MEW }
 			available = {}
@@ -264,7 +264,7 @@ ideas = {
 		}
 		
 		strike_first_idea = {
-			picture = FRA_factory_strikes
+			picture = MEW_strike_first_idea
 			
 			allowed = { original_tag = MEW }
 			available = {}
