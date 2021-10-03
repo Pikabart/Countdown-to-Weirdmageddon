@@ -2,8 +2,8 @@ state={
 	id=292
 	name="STATE_292"
 	history {
-		owner = REP
-		add_core_of = REP
+		owner = UKN
+		add_core_of = UKN
 		buildings = {
 			arms_factory = 2
 			industrial_complex = 2
