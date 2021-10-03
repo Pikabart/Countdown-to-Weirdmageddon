@@ -28,9 +28,9 @@
  OTHER_WILD_WEST_DESC:0 "Normal Picking now Works" #Ignore -> Choose this to actually choose a nation. Main bookmarks are broken for some reason.
  
  ##################################
- ANOTHER_DIMENSION_NAME:0 "From another Dimension!"
- ANOTHER_DIMENSION_DESC:0 "It's gonna get a little weird. It's gonna get a little wild!"
- MEW_ANOTHER_DIMENSION_DESC:0 "C"
+ ANOTHER_DIMENSION_NAME:0 "Sunset on Mewni"
+ ANOTHER_DIMENSION_DESC:0 "For the last 300 years, the Mewman people have experienced an unprecedented period of peace. Although some conflicts have erupted, nothing has disrupted the daily lives of the Mewman people ever since the Solairan conquests.\n\nYet."
+ MEW_ANOTHER_DIMENSION_DESC:0 "The Mewman Hegemony is starting to crack. Economic dependance on corn, no incentives to industrialize, and an illiterate populace have held Mewni back centuries compared to other dimensions. And with monsters in the north and south consolidating their power, it is only a mater of time when the Kingdom will finally go through another great test. And if it is to fail... the entire dimension will be dragged down with it."
  JOH_ANOTHER_DIMENSION_DESC:0 "C"
  LUC_ANOTHER_DIMENSION_DESC:0 "C"
  PNY_ANOTHER_DIMENSION_DESC:0 "C"

@@ -221,9 +221,14 @@ bookmarks = {
 			ideology = neutrality
 			
 			ideas = {
-				
+				MEW_300_years_of_peace
+				MEW_heir_studying_overdimensions
+				MEW_vacant_heir
 			}
 			focuses = {
+				magic_fritz
+				MEW_force_economy_3
+				MEW_reform_economy
 				
 			}
 		}

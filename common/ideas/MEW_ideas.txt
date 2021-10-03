@@ -309,7 +309,7 @@ ideas = {
 		# Decision Ideas
 		#############################
 		MEW_tech_incentive = {
-			picture = FRA_factory_strikes
+			picture = GFX_idea_generic_research_bonus
 			
 			allowed = { original_tag = MEW }
 			available = {}

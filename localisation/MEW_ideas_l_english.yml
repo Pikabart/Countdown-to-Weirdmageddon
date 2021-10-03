@@ -1,13 +1,13 @@
 ﻿l_english:
 
 MEW_300_years_of_peace:0 "300 years of peace"
-MEW_300_years_of_peace_desc:0 "peace more like piss haha gottem"
+MEW_300_years_of_peace_desc:0 "Although the Kingdom of Mewni has had a history of regular warfare, these last 300 years has never seen a major conflict interrupt the daily lives of the Mewman people."
 
-MEW_vacant_heir:0 "Heir Unbethrothed"
-MEW_vacant_heir_desc:0 "This will dissapear once star's married"
+MEW_vacant_heir:0 "Heir Single"
+MEW_vacant_heir_desc:0 "Star Butterfly, heir to the Mewman throne, is single. This gives us some extra leveraging power in certain deals between our client kingdoms, however it also comes with the future having some uncertainty."
 
-MEW_heir_studying_overdimensions:0 "Heir Studying Overseas"
-MEW_heir_studying_overdimensions_desc:0 "This will dissapear when star come home from earth"
+MEW_heir_studying_overdimensions:0 "Heir Studying Overdimensions"
+MEW_heir_studying_overdimensions_desc:0 "Although Star Butterfly does make regular visits to Mewni, she spends most of her time studying her magic on earth. This has made it hard for certain traditions to be carried out in full."
 
 MEW_corn_theft:0 "The Corn Crisis"
 MEW_corn_theft_desc:0 "Rats have been stealing a huge amount of corn! Our economy is collapsing!"
@@ -46,13 +46,13 @@ MEW_rejected_foreign_aid:0 "Rejected Foreign Aid"
 MEW_rejected_foreign_aid_desc:0 "We are no poverty stricken dimension! We Mewmans will be fine, and we will rise from these turbulent times without having to get on our knees and beg other dimensions to help us!"
 
 magic_fritz_idea:0 "The Magic Fritz"
-magic_fritz_idea_desc:0 "Magic is dumb, lmao"
+magic_fritz_idea_desc:0 "For some reason, Magic is malfunctioning. This is completely upturning the magic based systems of our dimension!"
 
 pull_all_strings_idea:0 "Pulling All Strings" 
 pull_all_strings_idea_desc:0 "The fate of the nation hangs in the balance, we must go through every measure to ensure our state's survival!"
 
 strike_first_idea:0 "Striked First"
-strike_first_idea_desc:0 "We have striked first in the civil war, giving us an advantage"
+strike_first_idea_desc:0 "We have striked first in the civil war, and thus we have the advantage"
 
 mew_rapid_deployment_idea:0 "Rapid Deployment"
 mew_rapid_deployment_idea_desc:0 "Rapid deployment"
