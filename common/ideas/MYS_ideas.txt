@@ -7,6 +7,22 @@ ideas = { #Entire file
 	#National Spirits
 	######################################################
 	country = {
+		MYS_Twins_1 = {
+			#picture = GFX_idea_NWHS_1 #GFX_NWHS_1 #Does Not Work
+			#Make GFX call is GFX_idea_*idea name*
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				political_power_factor = 0.2
+				stability_weekly_factor = 0.005 #gain .5% eveyr week
+				consumer_goods_factor = -0.10
+			}
+		}
+		##############
 		##############
 		MYS_NWHS_1 = {
 			#picture = GFX_idea_NWHS_1 #GFX_NWHS_1 #Does Not Work

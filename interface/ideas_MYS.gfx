@@ -28,5 +28,9 @@ spriteTypes = {
 		name = "GFX_idea_wendy_drip_idea"
 		texturefile = "gfx/interface/ideas/mys/wendy_drip_idea.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_MYS_Twins_1"
+		texturefile = "gfx/interface/ideas/mys/idea_twins.dds"	
+	}
 	
 }

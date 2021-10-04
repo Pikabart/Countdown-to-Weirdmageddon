@@ -13,10 +13,13 @@ bookmarks = {
 			ideology = fascism
 			
 			ideas = {
-				
+				MYS_NWHS_1
+				MYS_Twins_1
 			}
 			focuses = {
-				
+				MYS_stantastic
+				MYS_awaits
+				MYS_rockthemabel
 			}
 		}
 		
@@ -109,7 +112,7 @@ bookmarks = {
 		date = 2012.1.1.12
 		picture = "GFX_bookmark_2"
 		default_country = "ORE"
-
+		default = yes
 		
 		"ORE"={
 			history = "ORE_WILD_WEST_DESC"
@@ -213,8 +216,8 @@ bookmarks = {
 		desc = "ANOTHER_DIMENSION_DESC"
 		date = 2012.1.1.12
 		picture = "GFX_bookmark_3"
-		default_country = "ORE"
-
+		default_country = "MEW"
+		default = yes
 		
 		"MEW"={
 			history = "MEW_ANOTHER_DIMENSION_DESC"

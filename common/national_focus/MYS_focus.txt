@@ -1164,7 +1164,7 @@
 	
 	focus = { 
 		id = MYS_PR_4
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_good_pr
 		x = -2
 		y = 1	
 		prerequisite = { focus = MYS_PR_2 }
@@ -1185,7 +1185,7 @@
 	
 	focus = { 
 		id = MYS_PR_6
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_souvineers
 		x = 0
 		y = 1	
 		prerequisite = { focus = MYS_PR_4 }
@@ -1201,9 +1201,9 @@
 		ai_will_do = {factor = 1}
 	}
 	
-	focus = { #The Mystery Fair
+	focus = { 
 		id = MYS_PR_8
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_community_service
 		x = 0
 		y = 1	
 		prerequisite = { focus = MYS_PR_6 }
@@ -1219,9 +1219,9 @@
 		ai_will_do = {factor = 1}
 	}
 	
-	focus = { 
+	focus = {    #The Mystery Fair
 		id = MYS_PR_10
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_mys_fair
 		x = 0
 		y = 1	
 		prerequisite = { focus = MYS_PR_8 }
@@ -1241,7 +1241,7 @@
 	
 		focus = { 
 		id = MYS_PR_5
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_back_tax
 		x = 0
 		y = 3	
 		prerequisite = { focus = MYS_PR_2 }
@@ -1260,7 +1260,7 @@
 	
 	focus = { 
 		id = MYS_PR_7
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_town_council
 		x = 0
 		y = 1	
 		prerequisite = { focus = MYS_PR_5 }
@@ -1276,9 +1276,9 @@
 		ai_will_do = {factor = 1}
 	}
 	
-	focus = { 
+	focus = {                  #Meeting wiht the mayor
 		id = MYS_PR_9
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_mayor
 		x = 0
 		y = 1	
 		prerequisite = { focus = MYS_PR_7 }
@@ -1316,7 +1316,7 @@
 	
 	focus = { 
 		id = MYS_PR_16
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_the_man_stan
 		x = 0
 		y = 2
 		prerequisite = { focus = MYS_PR_10 }
@@ -1336,7 +1336,7 @@
 	############################################################################
 	focus = { 
 		id = MYS_PR_11
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_false_flag
 		x = 4
 		y = 1	
 		prerequisite = { focus = MYS_PR_2 }
@@ -1357,7 +1357,7 @@
 	
 	focus = { 
 		id = MYS_PR_12
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_bad_job
 		x = -1
 		y = 1	
 		prerequisite = { focus = MYS_PR_11 }
@@ -1375,7 +1375,7 @@
 	
 	focus = { 
 		id = MYS_PR_13
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_bad_invest
 		x = 1
 		y = 1	
 		prerequisite = { focus = MYS_PR_11 }
@@ -1392,7 +1392,7 @@
 	
 	focus = { 
 		id = MYS_PR_14
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_shuffle
 		x = 0
 		y = 2	
 		prerequisite = { focus = MYS_PR_12 }
@@ -1405,6 +1405,14 @@
 			custom_effect_tooltip = MYS_PR_14_effect
 			set_country_flag = MYS_GF_shuffle
 			#country_event = mystery_shack.
+			hidden_effect = {
+				transfer_state = 37
+				37 = { 
+					add_core_of = MYS 
+					remove_core_of = GTF
+				}
+				GTF = { give_military_access = MYS }
+			}
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1412,7 +1420,7 @@
 	
 	focus = { 
 		id = MYS_PR_15
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_conman
 		x = 0
 		y = 1	
 		prerequisite = { focus = MYS_PR_14 }
@@ -1434,7 +1442,7 @@
 
 focus = { 
 		id = MYS_rockthemabel
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_gideon
 		x = 0
 		y = 6
 		relative_position_id = MYS_journal_3
