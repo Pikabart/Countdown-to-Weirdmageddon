@@ -170,6 +170,7 @@
 		completion_reward = {
 			country_event = mystery_shack.6
 			hidden_effect={
+			set_country_flag = mys_invest  #Change			
 			set_country_flag = mys_clones  #Change
 			set_country_flag = mys_public_time 		#Change
 			set_country_flag = mys_rock_the_mabel	#Change
@@ -579,7 +580,7 @@
 		y = 1	
 		relative_position_id = MYS_the_pine_twins
 			
-		#focus and branch underneath will hide until flag is set and focus tree refresh
+		available = { has_country_flag = mys_invest }
 		bypass = {}
 		cost = 3 # (#)x7days 
 
@@ -812,7 +813,7 @@
 			#country_event = mystery_shack.
 			swap_ideas = { 
 				remove_idea = MYS_cordoury_spirit
-				add_idea = MYS_cordoury_spirit_speed
+				add_ideas = MYS_cordoury_spirit_speed
 
 			}
 			
@@ -837,7 +838,7 @@
 			#country_event = mystery_shack.
 			swap_ideas = { 
 				remove_idea = MYS_cordoury_spirit
-				add_idea = MYS_cordoury_spirit_hike
+				add_ideas = MYS_cordoury_spirit_hike
 
 			}
 		}
@@ -872,7 +873,7 @@
 				limit = { has_idea = MYS_cordoury_spirit_speed }
 					swap_ideas = { 
 						remove_idea = MYS_cordoury_spirit_speed
-						add_idea = MYS_cordoury_spirit_speed_security
+						add_ideas = MYS_cordoury_spirit_speed_security
 
 					}
 			}
@@ -880,7 +881,7 @@
 				limit = { has_idea = MYS_cordoury_spirit_hike }
 					swap_ideas = { 
 						remove_idea = MYS_cordoury_spirit_hike
-						add_idea = MYS_cordoury_spirit_hike_security
+						add_ideas = MYS_cordoury_spirit_hike_security
 
 					}
 			}
@@ -960,7 +961,7 @@
 				limit = { has_idea = MYS_cordoury_spirit_speed_security }
 					swap_ideas = { 
 						remove_idea = MYS_cordoury_spirit_speed_security
-						add_idea = MYS_cordoury_spirit_speed_security_attack
+						add_ideas = MYS_cordoury_spirit_speed_security_attack
 
 					}
 			}
@@ -968,7 +969,7 @@
 				limit = { has_idea = MYS_cordoury_spirit_hike_security }
 					swap_ideas = { 
 						remove_idea = MYS_cordoury_spirit_hike_security
-						add_idea = MYS_cordoury_spirit_hike_security_attack
+						add_ideas = MYS_cordoury_spirit_hike_security_attack
 
 					}
 			}
@@ -997,7 +998,7 @@
 				limit = { has_idea = MYS_cordoury_spirit_speed_security_attack }
 					swap_ideas = { 
 						remove_idea = MYS_cordoury_spirit_speed_security_attack
-						add_idea = MYS_cordoury_spirit_speed_security_attack_cool
+						add_ideas = MYS_cordoury_spirit_speed_security_attack_cool
 
 					}
 			}
@@ -1005,7 +1006,7 @@
 				limit = { has_idea = MYS_cordoury_spirit_hike_security_attack }
 					swap_ideas = { 
 						remove_idea = MYS_cordoury_spirit_hike_security_attack
-						add_idea = MYS_cordoury_spirit_hike_security_attack_cool
+						add_ideas = MYS_cordoury_spirit_hike_security_attack_cool
 
 					}
 			}
@@ -1118,7 +1119,8 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_1_effect
-			#country_event = mystery_shack.
+			#country_event = mystery_shack_PR.1
+			add_ideas = MYS_PR_idea
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1136,7 +1138,7 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_2_effect
-			#country_event = mystery_shack.
+			country_event = mystery_shack_PR.2
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1154,7 +1156,7 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_3_effect
-			#country_event = mystery_shack.
+			country_event = mystery_shack_PR.3
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1175,16 +1177,26 @@
 		cost = 3
 
 		completion_reward = {
+			country_event = mystery_shack_PR_good.1		
 			custom_effect_tooltip = MYS_PR_4_effect
 			set_country_flag = MYS_pr_path  #Flase Flags also has this for Mayor focus
-			#country_event = mystery_shack.
 		}
 		
-		ai_will_do = {factor = 1}
-	}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 80
+				check_variable = {
+					var = stan_pr_will
+					value = 4
+					compare = greater_than_or_equals
+				}
+			}
+		}
+	} 
 	
 	focus = { 
-		id = MYS_PR_6
+		id = MYS_PR_6 
 		icon = GFX_goal_focus_souvineers
 		x = 0
 		y = 1	
@@ -1194,6 +1206,7 @@
 		cost = 4
 
 		completion_reward = {
+			add_ideas = MYS_PR_souvenir
 			custom_effect_tooltip = MYS_PR_6_effect
 			#country_event = mystery_shack.
 		}
@@ -1213,7 +1226,7 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_8_effect
-			#country_event = mystery_shack.
+			country_event = mystery_shack_PR_good.2
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1239,7 +1252,7 @@
 	
 	###################################
 	
-		focus = { 
+	focus = { 
 		id = MYS_PR_5
 		icon = GFX_goal_focus_back_tax
 		x = 0
@@ -1252,6 +1265,7 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_5_effect
+			add_ideas = MYS_PR_backtax
 			#country_event = mystery_shack.
 		}
 		
@@ -1270,7 +1284,7 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_7_effect
-			#country_event = mystery_shack.
+			country_event = mystery_shack_PR.4
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1298,15 +1312,7 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_9_effect
-			#country_event = mystery_shack.
-			
-			hidden_effect = {
-				transfer_state = 54
-				54 = { 
-					add_core_of = MYS 
-					remove_core_of = GTF
-					}
-			}
+			country_event = mystery_shack_PR.5
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1327,7 +1333,7 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_16_effect
-			#country_event = mystery_shack.
+			country_event = mystery_shack_PR_good.8
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1352,7 +1358,17 @@
 			set_country_flag = MYS_pr_path #Good PR also has this for Mayor focus
 		}
 		
-		ai_will_do = {factor = 1}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 80
+				check_variable = {
+					var = stan_pr_will
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+		}
 	}
 	
 	focus = { 

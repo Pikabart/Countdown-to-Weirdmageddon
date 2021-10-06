@@ -8,8 +8,7 @@ ideas = { #Entire file
 	######################################################
 	country = {
 		MYS_Twins_1 = {
-			#picture = GFX_idea_NWHS_1 #GFX_NWHS_1 #Does Not Work
-			#Make GFX call is GFX_idea_*idea name*
+			picture = GFX_idea_MYS_Twins_1 #GFX_NWHS_1 #Does Not Work
 			
 			allowed = {tag = MYS}
 			available = {}#Until Ford returns
@@ -333,6 +332,116 @@ ideas = { #Entire file
 				
 			}
 		}
+		
+		##############
+		##############
+		MYS_PR_idea = {
+			picture = GFX_idea_MYS_PR_idea
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.05
+				war_support_factor = -0.05
+				trade_opinion_factor = 0.05
+			}
+		}
+		MYS_PR_idea_1a = {
+			picture = GFX_idea_MYS_PR_idea
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				political_power_factor = 0.5
+				consumer_goods_factor = 0.10
+				stability_factor = 0.05
+				war_support_factor = -0.10
+				trade_opinion_factor = 0.10
+			}
+		}
+		MYS_PR_idea_1b = {
+			picture = GFX_idea_MYS_PR_idea
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				political_power_factor = -0.5
+				stability_factor = 0.10
+				war_support_factor = 0.10
+				trade_opinion_factor = -0.10
+			}
+		}
+		MYS_PR_idea_good = {
+			picture = GFX_idea_MYS_PR_idea
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				political_power_factor = 0.5
+				stability_factor = 0.10
+				war_support_factor = 0.10
+				trade_opinion_factor = 0.25
+			}
+		}
+		
+		##############
+		MYS_PR_tate = {
+			picture = GFX_idea_MYS_PR_tate
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				research_speed_factor = 0.15
+			}
+		}
+		##############
+		MYS_PR_souvenir = {
+			picture = GFX_idea_MYS_PR_souvenir
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.05
+				trade_opinion_factor = 0.05
+			}
+		}
+		
+		MYS_PR_backtax = {
+			picture = GFX_idea_MYS_Twins_1
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {has_idea = MYS_mayor_gift}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				stability_weekly_factor = 0.005 #gain .5% eveyr week
+				consumer_goods_factor = 0.10
+			}
+		}
+		
+		
+		
 		
 	}
 

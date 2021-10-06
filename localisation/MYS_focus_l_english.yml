@@ -250,6 +250,74 @@
  MYS_PR_15_effect:0 "If I leave here tomorrow\nWould you still remember me?\nFor I must be traveling on now\n'Cause there's too many places I've got to see" 
  
  ######################################################
+ #  Rock the Mabel  #
+ ######################################################
+ 
+ MYS_rockthemabel:0 "Li'l Gideon"
+ MYS_rockthemabel_desc:0 ""
+ MYS_rockthemabel_effect:0 ""
+ 
+ MYS_ship_1:0 "A Gleeful Pair"
+ MYS_ship_1_desc:0 ""
+ MYS_ship_1_effect:0 ""
+ 
+ MYS_ship_2:0 "Learning the Pine's Secret"
+ MYS_ship_2_desc:0 ""
+ MYS_ship_2_effect:0 ""
+ 
+ MYS_ship_3:0 "Trojan Pig"
+ MYS_ship_3_desc:0 ""
+ MYS_ship_3_effect:0 ""
+ 
+ MYS_ship_4:0 "Heart in Hand"
+ MYS_ship_4_desc:0 ""
+ MYS_ship_4_effect:0 ""
+ 
+ MYS_ship_5:0 "A most beautiful Puppet"
+ MYS_ship_5_desc:0 ""
+ MYS_ship_5_effect:0 ""
+ 
+ MYS_ship_6:0 "A tightly controlled soul"
+ MYS_ship_6_desc:0 ""
+ MYS_ship_6_effect:0 ""
+ 
+ MYS_ship_7:0 "Only room for one"
+ MYS_ship_7_desc:0 ""
+ MYS_ship_7_effect:0 ""
+ 
+ ######################################################
+ #  Expose Gideon  #
+ ######################################################
+ 
+ MYS_pine_1:0 "Pining for Time"
+ MYS_pine_1_desc:0 ""
+ MYS_pine_1_effect:0 ""
+ 
+ MYS_pine_2:0 "New Attractions"
+ MYS_pine_2_desc:0 ""
+ MYS_pine_2_effect:0 ""
+ 
+ MYS_pine_3:0 "Interior Motives"
+ MYS_pine_3_desc:0 ""
+ MYS_pine_3_effect:0 ""
+ 
+ MYS_pine_4:0 "Mystery Sale"
+ MYS_pine_4_desc:0 ""
+ MYS_pine_4_effect:0 ""
+ 
+ MYS_pine_5:0 "The Source of his powers"
+ MYS_pine_5_desc:0 ""
+ MYS_pine_5_effect:0 ""
+ 
+ MYS_pine_6:0 "I tricked the law and I won"
+ MYS_pine_6_desc:0 ""
+ MYS_pine_6_effect:0 ""
+ 
+ MYS_pine_7:0 "Expose the real Hack!"
+ MYS_pine_7_desc:0 ""
+ MYS_pine_7_effect:0 ""
+ 
+ ######################################################
  #  Mabel and Dipper related Focuses  #
  ######################################
  #99

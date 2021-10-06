@@ -12,8 +12,13 @@ state={
 			infrastructure = 6
 			air_base = 0
 			anti_air_building = 0
-			radar_station = 0
-				
+			radar_station = 0		
+		}
+		victory_points = {
+			8376  30
+		}
+		victory_points = {
+			8424  10
 		}
 	}
 	

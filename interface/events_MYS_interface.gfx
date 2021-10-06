@@ -73,7 +73,10 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MYS/report_event_trembley_defiant.dds"
 	}
 	
-	
+	spriteType = { # Our Man Stan
+		name = "GFX_report_event_our_man_stan"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_our_man_stan.dds"
+	}
 	
    #############################################################
    #  Special GIF Evenrt image

@@ -240,7 +240,7 @@ country_event = {
 		clr_country_flag = A-RAT_magic_operation_outcome_1
 		clr_country_flag = A-RAT_magic_operation_outcome_2
 		clr_country_flag = A-RAT_magic_operation_outcome_3
-		add_country_flag = A-RAT_magic_operation_done
+		set_country_flag = A-RAT_magic_operation_done
 		add_war_support = 0.02
 		add_stability = 0.02
 	}
@@ -250,7 +250,7 @@ country_event = {
 		clr_country_flag = A-RAT_magic_operation_outcome_1
 		clr_country_flag = A-RAT_magic_operation_outcome_2
 		clr_country_flag = A-RAT_magic_operation_outcome_3
-		add_country_flag = A-RAT_magic_operation_done
+		set_country_flag = A-RAT_magic_operation_done
 		add_war_support = 0.05
 		add_stability = 0.05
 	}
@@ -260,7 +260,7 @@ country_event = {
 		clr_country_flag = A-RAT_magic_operation_outcome_1
 		clr_country_flag = A-RAT_magic_operation_outcome_2
 		clr_country_flag = A-RAT_magic_operation_outcome_3
-		add_country_flag = A-RAT_magic_operation_done
+		set_country_flag = A-RAT_magic_operation_done
 		add_war_support = -0.02
 		add_stability = -0.02
 	}
@@ -430,7 +430,9 @@ country_event = {
 		name = REC_NWB.1.a_2
 		trigger = { has_country_flag = REC_NWB_bad }
 		add_ideas = MEW_northwest_pain 
-		CAL = { country_event = {CAL_NWB.1 days = 1 }}
+		CAL = { 
+			country_event = { id = CAL_NWB.1 days = 1 }
+		}
 		clr_country_flag = REC_NWB_good
 		clr_country_flag = REC_NWB_bad
 	}

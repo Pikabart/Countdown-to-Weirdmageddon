@@ -46,6 +46,29 @@ MYS_cordoury_drip_desc:0 ""Haha silly Wendy, you can't have dr-""
 MYS_Twins_1:0 "Mystery Twins: Forever!"
 MYS_Twins_1_desc:0 "Dipper and Mabel stand ready to take on the world itself! And with worlds coming right after them, the mystery twins will certainly need it."
 
+#####################################
+
+MYS_PR_idea:0 "Public Relationship"
+MYS_PR_idea_desc:0 ""
+
+MYS_PR_idea_1a:0 "Public Relationship"
+MYS_PR_idea_1a_desc:0 ""
+
+MYS_PR_idea_1b:0 "Public Relationship"
+MYS_PR_idea_1b_desc:0 ""
+
+MYS_PR_idea_good:0 "Our Man Stan!"
+MYS_PR_idea_good_desc:0 "The one, the only, Mister Man of Mystery himself! Stan Pines!"
+
+MYS_PR_backtax:0 "Paying Backtaxes"
+MYS_PR_backtax_desc:0 "Its terrible, I know. I keep telling myself, "Its a legal bribe, its a legal bribe"... A legal bribe? That's even worse!"
+
+MYS_PR_tate:0 "Favors from the McGuckets"
+MYS_PR_tate_desc:0 ""
+
+MYS_PR_souvenir:0 "Free Souvineers!"
+MYS_PR_souvenir_desc:0 "How am I still losing money inspite that T&C?"
+
 #################################
 
  MYS_tank_manufacturer:0 "Gleeful's Armor Sale"

@@ -41,7 +41,7 @@ add_to_faction = JAG
 
 create_country_leader = {
 	name = "Queen Moon of house Butterfly"
-	desc = "placeholder"
+	desc = "POLITICS_QUEEN_MOON_DESC"
 	picture = "hoi4_portrait_moon.dds"
 	ideology = oligarchism
 }
@@ -50,21 +50,21 @@ create_country_leader = {
 	name = "Council Marvin"
 	desc = "placeholder"
 	picture = ""
-	ideology = democratic
+	ideology = conservatism
 }
 
 create_country_leader = {
 	name = "Worker's Council"
 	desc = "placeholder"
 	picture = ""
-	ideology = communism
+	ideology = anarchist_communism
 }
 
 create_country_leader = {
 	name = "Manfred"
 	desc = "placeholder"
 	picture = ""
-	ideology = fascism
+	ideology = fascism_ideology
 }
 
 create_field_marshal = {

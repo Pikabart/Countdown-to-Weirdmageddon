@@ -32,5 +32,19 @@ spriteTypes = {
 		name = "GFX_idea_MYS_Twins_1"
 		texturefile = "gfx/interface/ideas/mys/idea_twins.dds"	
 	}
+	SpriteType = {
+		name = "GFX_idea_MYS_PR_idea"
+		texturefile = "gfx/interface/ideas/mys/idea_generic_free_trade.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_MYS_PR_tate"
+		texturefile = "gfx/interface/ideas/mys/idea_generic_free_trade.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_MYS_PR_souvenir"
+		texturefile = "gfx/interface/ideas/mys/idea_souvineers.dds"	
+	}
+	
+	
 	
 }
