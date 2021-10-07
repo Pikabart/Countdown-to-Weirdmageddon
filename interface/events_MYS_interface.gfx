@@ -78,6 +78,11 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MYS/report_event_our_man_stan.dds"
 	}
 	
+	spriteType = { # Our Devil Stan
+		name = "GFX_report_event_our_devil_stan"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_our_devil_stan.dds"
+	}
+	
    #############################################################
    #  Special GIF Evenrt image
    #############################################################

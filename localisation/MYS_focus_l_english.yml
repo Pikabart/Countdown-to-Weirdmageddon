@@ -181,6 +181,7 @@
  MYS_pr_path:0 "A relationship path has been choosen"
  MYS_false_flags:0 "The Con-Man won't be denied!"
  MYS_GF_shuffle:0 "Stan's Gravity Falls Shuffle has been performed!"
+ MYS_PR_choice_effect:0 "§CWill be made avaible based on how you handle the Buisness Council and the Town Hall Forum§!"
  
  MYS_PR_1:0 "Stan and Gravity Falls"
  MYS_PR_1_desc:0 "Stanford Pines had lived in Gravity Falls for over 30 years. A visiting researcher turn permanent fixture of the town, one would presume Stan had made many contacts within the town. His Mystery Shack is a staple of the tourism in Roadkill County and many of its residents had grown up with the Shack as a fixture of their lives, from their own time spent there to the role it played in the local town economy."
@@ -234,12 +235,12 @@
  MYS_PR_11_effect:0 ""
  
  MYS_PR_12:0 "'Job Makers'"
- MYS_PR_12_desc:0 "The local economy has been in a slump since the Canadian Kerfuffle and the collapse of the US. But oddly enough, the tourism industry is prospering! Must have something to do with people getting their minds of the potential war with Oregon, Washington, and California.\nNow, people are in need of jobs. And I could use some cheap lab- I mean, new valauble employees!"
+ MYS_PR_12_desc:0 "The local economy has been in a slump since the Canadian Kerfuffle and the collapse of the US. But oddly enough, the tourism industry is prospering! Must have something to do with people getting their minds of the potential war between Oregon, Washington, and California.\nNow, people are in need of jobs. And I could use some cheap lab- I mean, new valauble employees!"
  MYS_PR_12_effect:0 "Got to work for that minimum wage!"
 
  MYS_PR_13:0 "Supporting 'Small' Business"
  MYS_PR_13_desc:0 "What is investing but a smarter looking way of gambling? What kind of man would I be if the I didn't rig the game? With the recent economic downturn, the businesses in town could use some inflow of cash.\n\nSure, Preston Northwest can offer more. But would you trust a rich snob, or your local nighborhood Mystery Man?"
- MYS_PR_13_effect:0 ""
+ MYS_PR_13_effect:0 "And remember, meet the minimum payment, or Wendy will have a very unpleasent chat with you."
 
  MYS_PR_14:0 "Gravity Falls Shuffle"
  MYS_PR_14_desc:0 "The local hills beyond the shack use to be part of my property. But due to some completely misunderstood incident involving the mayor's galapagos turtle, the town confincastwed my land. Naturally, everyone would assume I take it back."

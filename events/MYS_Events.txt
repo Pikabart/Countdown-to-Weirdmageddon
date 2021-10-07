@@ -238,7 +238,7 @@ country_event = {    #
 		ai_chance = { factor = 20 }
 		add_political_power = -25
 		hidden_effect = {
-			set_variable = {
+			add_to_variable = {
 				var = stan_pr_will
 				value = 1
 			}
@@ -249,7 +249,7 @@ country_event = {    #
 		ai_chance = { factor = 40 }
 		add_political_power = 25
 		hidden_effect = {
-			set_variable = {
+			add_to_variable = {
 				var = stan_pr_will
 				value = 2
 			}
@@ -262,7 +262,7 @@ country_event = {    #
 		custom_effect_tooltip = mystery_shack_PR.2.c.tt
 		hidden_effect = {
 			add_ideas = MYS_PR_tate
-			set_variable = {
+			add_to_variable = {
 				var = stan_pr_will
 				value = 3
 			}
@@ -305,7 +305,7 @@ country_event = {    #
 			}
 		}
 		hidden_effect = {
-			set_variable = {
+			add_to_variable = {
 				var = stan_pr_will
 				value = 1
 			}
@@ -328,7 +328,7 @@ country_event = {    #
 			}
 		}
 		hidden_effect = {
-			set_variable = {
+			add_to_variable = {
 				var = stan_pr_will
 				value = 2
 			}
@@ -343,7 +343,7 @@ country_event = {    #
 				add_manpower = 5000
 				add_war_support = 0.02
 			}
-			set_variable = {
+			add_to_variable = {
 				var = stan_pr_will
 				value = 3
 			}
@@ -370,8 +370,8 @@ country_event = {    # Council
 	option = { 
 		name = mystery_shack_PR.4.a
 		swap_ideas = {
-			add_idea = MYS_PR_idea_1a
-			remove_idea = MYS_PR_idea
+			add_idea = MYS_PR_lobby
+			remove_idea = MYS_PR_start
 		}
 		ai_chance = { factor = 50 }	# 100% AI choose this
 	}
@@ -379,8 +379,8 @@ country_event = {    # Council
 		name = mystery_shack_PR.4.b
 		add_political_power = -50
 		swap_ideas = {
-			add_idea = MYS_PR_idea_1b
-			remove_idea = MYS_PR_idea
+			add_idea = MYS_PR_blackmail
+			remove_idea = MYS_PR_start
 		}
 		ai_chance = { factor = 50 }	# 100% AI choose this
 	}
@@ -478,16 +478,6 @@ country_event = {    # Community Service
 
 
 
-
-
-
-
-
-
-
-
-
-
 country_event = {    # OUR MAN STAN!!!!!!!!!!!!!!!!!!!!!!!!!!
 	id = mystery_shack_PR_good.8
 	title = mystery_shack_PR_good.8.t 
@@ -504,13 +494,103 @@ country_event = {    # OUR MAN STAN!!!!!!!!!!!!!!!!!!!!!!!!!!
 		name = mystery_shack_PR_good.8.a
 		add_political_power = 100
 		swap_ideas = {
-			add_idea = MYS_PR_idea_good
-			remove_idea = MYS_PR_idea
+			add_idea = MYS_PR_our_man_stan
+			remove_idea = MYS_PR_start
 		}
+		
+		hidden_effect = {
+			remove_ideas = MYS_PR_start
+			remove_ideas = MYS_PR_lobby
+			remove_ideas = MYS_PR_blackmail
+		}
+		
 		ai_chance = { factor = 50 }	# 100% AI choose this
 		
 	}
 	
+}
+
+########################################
+# BAD PR Events
+########################################
+
+country_event = {    # BAD PR
+	id = mystery_shack_PR_bad.1
+	title = mystery_shack_PR_bad.1.t 
+	desc = mystery_shack_PR_bad.1.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { 
+	}
+	
+	option = { 
+		name = mystery_shack_PR_bad.1.a
+		add_political_power = 50
+		add_stability = -0.05
+		add_war_support = 0.05
+		add_ideas = MYS_PR_false
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+		
+}
+country_event = {    # BAD PR
+	id = mystery_shack_PR_bad.2
+	title = mystery_shack_PR_bad.2.t 
+	desc = mystery_shack_PR_bad.2.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { 
+	}
+	
+	option = { 
+		name = mystery_shack_PR_bad.2.a
+		transfer_state = 37
+		37 = { 
+			add_core_of = MYS 
+			remove_core_of = GTF
+		}
+		#GTF = { give_military_access = MYS }
+		diplomatic_relation = {
+			country = GTF
+			relation = docking_rights
+			active = yes
+		}
+		diplomatic_relation = {
+			country = GTF
+			relation = military_access
+			active = yes
+		}
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+		
+}
+country_event = {    # BAD PR
+	id = mystery_shack_PR_bad.3
+	title = mystery_shack_PR_bad.3.t 
+	desc = mystery_shack_PR_bad.3.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { 
+	}
+	
+	option = { 
+		name = mystery_shack_PR_bad.3.a
+		swap_ideas = {
+			add_idea = MYS_PR_devil
+			remove_idea = MYS_PR_false
+		}
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+		
 }
 
 
@@ -519,63 +599,63 @@ country_event = {    # OUR MAN STAN!!!!!!!!!!!!!!!!!!!!!!!!!!
 ##############################################################################################################################
 ##############################################################################################################################
 		# Dippy Returns! Test Event #9999
-	country_event = {
-		id = mystery_shack.9999 
-		title = mystery_shack.9999.t # infile title "Dippy Returns!" - look at \localisation\events_l_english.yml
-		desc = mystery_shack.9999.d  # infile desc "Oh no!" - look at \localisation\events_l_english.yml
-		picture = GFX_report_event_dippy_zog # \interface\eventwindow.gfx and \gfx\event_country_pictures
-		
-		is_triggered_only = yes  #if no or not here, look at trigger, fire once, and meantime below
-		
-		#trigger = {              # What will cause it to happen
-		#	orignal_tag = MYS
-		#	date > 2012.1.1
-		#}
-		 
-		fire_only_once = yes     #Can't happen again
-		
-		#mean_time_to_happen = {   #some formula. research it
-		#	days = 1
-		#}
-		
-		immediate = {             #An effect that occures no matter what the player does or doesn't do
-			hidden_effect ={
-				add_political_power = -10
-			}
-		}
-		
-		option = { # Oh Heck NO!
-			name = mystery_shack.9999.a
-			ai_chance = { factor = 90 }	# 90% AI choose this	
-			add_stability = -0.1
-			add_war_support = 0.2
-		}
-		option = { # Uhg, fine...
-			name = mystery_shack.9999.b
-			ai_chance = { factor = 10 } # 10% AI choose this
-			add_political_power = 500
+country_event = {
+	id = mystery_shack.9999 
+	title = mystery_shack.9999.t # infile title "Dippy Returns!" - look at \localisation\events_l_english.yml
+	desc = mystery_shack.9999.d  # infile desc "Oh no!" - look at \localisation\events_l_english.yml
+	picture = GFX_report_event_dippy_zog # \interface\eventwindow.gfx and \gfx\event_country_pictures
+	
+	is_triggered_only = yes  #if no or not here, look at trigger, fire once, and meantime below
+	
+	#trigger = {              # What will cause it to happen
+	#	orignal_tag = MYS
+	#	date > 2012.1.1
+	#}
+	 
+	fire_only_once = yes     #Can't happen again
+	
+	#mean_time_to_happen = {   #some formula. research it
+	#	days = 1
+	#}
+	
+	immediate = {             #An effect that occures no matter what the player does or doesn't do
+		hidden_effect ={
+			add_political_power = -10
 		}
 	}
 	
-	country_event = { #Animated dds test
-		id = mystery_shack.9998
-		title = mystery_shack.9998.t 
-		desc = mystery_shack.9998.d  
-		picture = GFX_report_event_pine_or_star 
-		
-		is_triggered_only = yes 
-		fire_only_once = yes     #Can't happen again
-		
-		immediate = {        
-		}
-		
-		option = { 
-			name = mystery_shack.9998.a
-			ai_chance = { factor = 50 }	# 100% AI choose this
-		}
-		option = { 
-			name = mystery_shack.9998.b
-			ai_chance = { factor = 50 }	# 100% AI choose this
-		}
+	option = { # Oh Heck NO!
+		name = mystery_shack.9999.a
+		ai_chance = { factor = 90 }	# 90% AI choose this	
+		add_stability = -0.1
+		add_war_support = 0.2
 	}
+	option = { # Uhg, fine...
+		name = mystery_shack.9999.b
+		ai_chance = { factor = 10 } # 10% AI choose this
+		add_political_power = 500
+	}
+}
+
+country_event = { #Animated dds test
+	id = mystery_shack.9998
+	title = mystery_shack.9998.t 
+	desc = mystery_shack.9998.d  
+	picture = GFX_report_event_pine_or_star 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mystery_shack.9998.a
+		ai_chance = { factor = 50 }	# 100% AI choose this
+	}
+	option = { 
+		name = mystery_shack.9998.b
+		ai_chance = { factor = 50 }	# 100% AI choose this
+	}
+}
 	

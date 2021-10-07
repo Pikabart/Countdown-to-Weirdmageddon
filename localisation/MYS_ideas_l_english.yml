@@ -1,18 +1,18 @@
 ﻿l_english:
 
- MYS_NWHS_1:0 "Not What He Seems: Level 1"
+ MYS_NWHS_1:0 "Not What He Seems..."
  MYS_NWHS_1_desc:0 "'Mr.Pines? He's like the coolest dude I know. Besides my Abuelita anyway. But she isn't a dude, so you know.'\n-'Soos' Ramirez"
  
- MYS_NWHS_2:0 "Not What He Seems: Level 2"
+ MYS_NWHS_2:0 "Not What He Seems..."
  MYS_NWHS_2_desc:0 "'I get that our Grunkle Stan can be a bit odd at times. But he always seemed to be upfront and frank with us.'\n-Mabel Pines"
  
- MYS_NWHS_3:0 "Not What He Seems: Level 3"
+ MYS_NWHS_3:0 "Not What He Seems..."
  MYS_NWHS_3_desc:0 "'I don't know. Everytime I'm with him, he never seems to care much of me. Always making me do the work, always bossing me around. Honestly, it feels like he doesn't want me around sometimes...'\n-'Dipper' Pines"
  
- MYS_NWHS_4:0 "Not What He Seems: Level 4"
+ MYS_NWHS_4:0 "Not What He Seems..."
  MYS_NWHS_4_desc:0 "'You don't understand, kids. You don't know your great uncle. This man is dangerous! What he could be working on could very well doom us all. If the old guard were still around, they'd already taken him out. Us? Rest assured, we'll send him somewhere were he can't put you two in harm's way anymore.'\n-FPI Agent Powers"
  
- MYS_NWHS_5:0 "Not What He Seems: Level 5"
+ MYS_NWHS_5:0 "Not What He Seems..."
  MYS_NWHS_5_desc:0 "TRUST NO ONE!"
  
  MYS_plenty_of_suckers:0 "High Tourism"
@@ -48,17 +48,17 @@ MYS_Twins_1_desc:0 "Dipper and Mabel stand ready to take on the world itself! An
 
 #####################################
 
-MYS_PR_idea:0 "Public Relationship"
-MYS_PR_idea_desc:0 ""
+MYS_PR_start:0 "Public Relationship"
+MYS_PR_start_desc:0 ""
 
-MYS_PR_idea_1a:0 "Public Relationship"
-MYS_PR_idea_1a_desc:0 ""
+MYS_PR_lobby:0 "Public Relationship"
+MYS_PR_lobby_desc:0 "Lobbying"
 
-MYS_PR_idea_1b:0 "Public Relationship"
-MYS_PR_idea_1b_desc:0 ""
+MYS_PR_blackmail:0 "Public Relationship"
+MYS_PR_blackmail_desc:0 "Blackmailing"
 
-MYS_PR_idea_good:0 "Our Man Stan!"
-MYS_PR_idea_good_desc:0 "The one, the only, Mister Man of Mystery himself! Stan Pines!"
+MYS_PR_our_man_stan:0 "Our Man Stan!"
+MYS_PR_our_man_stan_desc:0 "The one, the only, Mister Man of Mystery himself! Stan Pines!"
 
 MYS_PR_backtax:0 "Paying Backtaxes"
 MYS_PR_backtax_desc:0 "Its terrible, I know. I keep telling myself, "Its a legal bribe, its a legal bribe"... A legal bribe? That's even worse!"
@@ -68,6 +68,19 @@ MYS_PR_tate_desc:0 ""
 
 MYS_PR_souvenir:0 "Free Souvineers!"
 MYS_PR_souvenir_desc:0 "How am I still losing money inspite that T&C?"
+
+MYS_PR_false:0 "Can't Stan it no longer"
+MYS_PR_false_desc:0 ""
+
+MYS_PR_devil:0 "This Con you can't Changed!"
+MMYS_PR_devil_con_desc:0 ""
+
+MYS_GTF_low_pay:0 "Low Wages"
+MYS_GTF_low_pay_desc:0 ""
+
+MYS_GTF_loan_shark:0 "Pine's Investings and Loans"
+MYS_GTF_loan_shark_desc:0 ""
+
 
 #################################
 

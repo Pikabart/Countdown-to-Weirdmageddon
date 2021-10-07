@@ -7,6 +7,7 @@ ideas = { #Entire file
 	#National Spirits
 	######################################################
 	country = {
+	
 		MYS_Twins_1 = {
 			picture = GFX_idea_MYS_Twins_1 #GFX_NWHS_1 #Does Not Work
 			
@@ -335,8 +336,8 @@ ideas = { #Entire file
 		
 		##############
 		##############
-		MYS_PR_idea = {
-			picture = GFX_idea_MYS_PR_idea
+		MYS_PR_start = {
+			picture = GFX_idea_MYS_PR_start
 			
 			allowed = {tag = MYS}
 			available = {}#Until Ford returns
@@ -350,8 +351,8 @@ ideas = { #Entire file
 				trade_opinion_factor = 0.05
 			}
 		}
-		MYS_PR_idea_1a = {
-			picture = GFX_idea_MYS_PR_idea
+		MYS_PR_lobby = {
+			picture = GFX_idea_MYS_PR_lobby
 			
 			allowed = {tag = MYS}
 			available = {}#Until Ford returns
@@ -366,8 +367,8 @@ ideas = { #Entire file
 				trade_opinion_factor = 0.10
 			}
 		}
-		MYS_PR_idea_1b = {
-			picture = GFX_idea_MYS_PR_idea
+		MYS_PR_blackmail = {
+			picture = GFX_idea_MYS_PR_blackmail
 			
 			allowed = {tag = MYS}
 			available = {}#Until Ford returns
@@ -381,8 +382,8 @@ ideas = { #Entire file
 				trade_opinion_factor = -0.10
 			}
 		}
-		MYS_PR_idea_good = {
-			picture = GFX_idea_MYS_PR_idea
+		MYS_PR_our_man_stan = {
+			picture = GFX_idea_MYS_PR_our_man_stan
 			
 			allowed = {tag = MYS}
 			available = {}#Until Ford returns
@@ -416,7 +417,7 @@ ideas = { #Entire file
 			
 			allowed = {tag = MYS}
 			available = {}#Until Ford returns
-			cancel = {}#When Ford returns
+			cancel = {has_country_flag = MYS_OUR_MAN_STAN}
 			allowed_civil_war = {always = no}
 			
 			modifier = {
@@ -425,13 +426,13 @@ ideas = { #Entire file
 				trade_opinion_factor = 0.05
 			}
 		}
-		
+		###############
 		MYS_PR_backtax = {
-			picture = GFX_idea_MYS_Twins_1
+			picture = GFX_idea_MYS_PR_backtax  
 			
 			allowed = {tag = MYS}
 			available = {}#Until Ford returns
-			cancel = {has_idea = MYS_mayor_gift}
+			cancel = {has_country_flag = MYS_mayor_gift}
 			allowed_civil_war = {always = no}
 			
 			modifier = {
@@ -439,7 +440,69 @@ ideas = { #Entire file
 				consumer_goods_factor = 0.10
 			}
 		}
+		########################################################
+		MYS_PR_false = {
+			picture = GFX_idea_MYS_PR_false
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				research_speed_factor = 0.05
+				war_support_weekly = 0.01
+				decryption_factor = 0.10
+				encryption_factor = 0.10
+				training_time_factor = 0.20
+			}
+		}
+		MYS_PR_devil = {
+			picture = GFX_idea_MYS_PR_devil
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				research_speed_factor = 0.1
+				war_support_weekly = 0.02
+				decryption_factor = 0.15
+				encryption_factor = 0.15
+				training_time_factor = 0.25
+				trade_opinion_factor = -0.5
+			}
+		}
 		
+		MYS_GTF_low_pay = {
+			picture = GFX_idea_MYS_GTF_low_pay
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				stability_factor = -0.1
+				war_stability_factor = -0.1
+				monthly_population = -0.1
+			}
+		}
+		MYS_GTF_loan_shark = {
+			picture = MYS_GTF_loan_shark
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				consumer_goods_factor = -0.1
+			}
+		}
 		
 		
 		
@@ -887,4 +950,4 @@ ideas = { #Entire file
 
 	}
 	
-}
+}  ##############End of File
