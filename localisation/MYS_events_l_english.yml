@@ -243,15 +243,26 @@
     mystery_shack_PR_good.2.a:0 "Well? Dipper, Mabel, get out there and serve my community"
     mystery_shack_PR_good.2.b:0 "Dipper 4, 7, 11, 20; Get out there and serve my community"
     
+    ### MYSYERY FAIR
+    mystery_shack_PR_good.3.t:0 ""
+    mystery_shack_PR_good.3.d:0 ""
+    mystery_shack_PR_good.3.a:0 ""
     
-    mystery_shack_PR_good.0.t:0 "Stan and Gravity Falls"
-    mystery_shack_PR_good.0.d:0 "filler"
-    mystery_shack_PR_good.0.a:0 "filler"
+    mystery_shack_PR_good.4.t:0 ""
+    mystery_shack_PR_good.4.d:0 ""
+    mystery_shack_PR_good.4.a:0 ""
     
+    mystery_shack_PR_good.5.t:0 ""
+    mystery_shack_PR_good.5.d:0 ""
+    mystery_shack_PR_good.5.a:0 ""
     
+    mystery_shack_PR_good.6.t:0 ""
+    mystery_shack_PR_good.6.d:0 ""
+    mystery_shack_PR_good.6.a:0 ""
     
-    
-    
+    mystery_shack_PR_good.7.t:0 ""
+    mystery_shack_PR_good.7.d:0 ""
+    mystery_shack_PR_good.7.a:0 ""
     
     mystery_shack_PR_good.8.t:8 "Our Man, Stan!"
     mystery_shack_PR_good.8.d:8 "What the title says"
@@ -260,10 +271,9 @@
     
     ##################################################################
     
-    
     mystery_shack_PR_bad.1.t:8 "All about the game"
     mystery_shack_PR_bad.1.d:8 ""
-    mystery_shack_PR_bad.1.a:0 ""
+    mystery_shack_PR_bad.1.a:0 "Time to raise Heck... and make money from it!"
     
     mystery_shack_PR_bad.2.t:8 "The ol' Gravity Falls Shuffle"
     mystery_shack_PR_bad.2.d:8 ""
@@ -273,9 +283,37 @@
     mystery_shack_PR_bad.3.d:8 ""
     mystery_shack_PR_bad.3.a:0 "As honest as you can get!"
     
+    ##################################################################
+    #   Don't rock the Mabel
+    ##################################################################
     
+    mystery_shack_rock_the_mabel.1.t:0 "Gideon is waiting for you"
+    mystery_shack_rock_the_mabel.1.d:0 ""
+    mystery_shack_rock_the_mabel.1.a:0 ""
     
+    mystery_shack_rock_the_mabel.2.t:0 "Mabel, who is that?"
+    mystery_shack_rock_the_mabel.2.d:0 ""
+    mystery_shack_rock_the_mabel.2.a:0 ""
+    mystery_shack_rock_the_mabel.2.b:0 ""
+    mystery_shack_rock_the_mabel.2.c:0 ""
     
+    mystery_shack_rock_the_mabel.3.t:0 "What a view!"
+    mystery_shack_rock_the_mabel.3.d:0 ""
+    mystery_shack_rock_the_mabel.3.a:0 ""
+    mystery_shack_rock_the_mabel.3.b:0 ""
+    mystery_shack_rock_the_mabel.3.c:0 ""
+    
+    mystery_shack_rock_the_mabel.4.t:0 "M'Lady"
+    mystery_shack_rock_the_mabel.4.d:0 ""
+    mystery_shack_rock_the_mabel.4.a:0 ""
+    mystery_shack_rock_the_mabel.4.b:0 ""
+    mystery_shack_rock_the_mabel.4.c:0 ""
+    
+    mystery_shack_rock_the_mabel.5.t:0 "Excellent Choice, Mr. Gideon"
+    mystery_shack_rock_the_mabel.5.d:0 ""
+    mystery_shack_rock_the_mabel.5.a:0 ""
+    mystery_shack_rock_the_mabel.5.b:0 ""
+    mystery_shack_rock_the_mabel.5.c:0 ""
     
     
     

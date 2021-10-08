@@ -64,7 +64,7 @@ MYS_PR_backtax:0 "Paying Backtaxes"
 MYS_PR_backtax_desc:0 "Its terrible, I know. I keep telling myself, "Its a legal bribe, its a legal bribe"... A legal bribe? That's even worse!"
 
 MYS_PR_tate:0 "Favors from the McGuckets"
-MYS_PR_tate_desc:0 ""
+MYS_PR_tate_desc:0 "The line between brilliance and insanity is a blurry one at best."
 
 MYS_PR_souvenir:0 "Free Souvineers!"
 MYS_PR_souvenir_desc:0 "How am I still losing money inspite that T&C?"
@@ -76,10 +76,10 @@ MYS_PR_devil:0 "This Con you can't Changed!"
 MMYS_PR_devil_con_desc:0 ""
 
 MYS_GTF_low_pay:0 "Low Wages"
-MYS_GTF_low_pay_desc:0 ""
+MYS_GTF_low_pay_desc:0 "Through a series of business and other "entities", Stan Pines had hired many of the town folks to work for them. They have agreed to to the badly needed employment, though the pay is only marginally better than not wokring at all."
 
 MYS_GTF_loan_shark:0 "Pine's Investings and Loans"
-MYS_GTF_loan_shark_desc:0 ""
+MYS_GTF_loan_shark_desc:0 "To restimulate the economy, Stan Pines had loaned out funding at insane rates to the town. But with no other source to borrow from as the rest of Oregon is concentrated with the valley, there is not much we can do."
 
 
 #################################

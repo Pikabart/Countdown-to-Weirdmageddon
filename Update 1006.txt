@@ -1,5 +1,33 @@
-Update File Notes Oct 6
+#############################################################
+Update File Notes Oct 7
 
+common/countries
+common/country_tag
+common/national_focus/mys_focus
+
+events/MYS_Events.txt
+
+gfx/flags/GID
+gfx/flags/med/GID
+gfx/flags/small/GID
+gfx/leaders/GID
+
+history/countries/GID
+history/states/22, 23, 267, 268
+
+localisation/MYS_events
+localisation/MYS_ideas
+localisation/MYS_focus
+localisation/countries_earth
+localisation/VP_amphibia
+localisation/VP_boilingisles
+
+
+
+
+#############################################################
+
+Update File Notes Oct 6
 
 common/ideas/mys_ideas
 common/national_focus/mys_focus

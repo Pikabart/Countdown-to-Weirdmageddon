@@ -7,6 +7,7 @@ add_namespace = mystery_shack_boss_mabel
 add_namespace = mystery_shack_PR
 add_namespace = mystery_shack_PR_good
 add_namespace = mystery_shack_PR_bad
+add_namespace = mystery_shack_rock_the_mabel
 
 country_event = { #1
 	id = mystery_shack.1
@@ -593,7 +594,230 @@ country_event = {    # BAD PR
 		
 }
 
+#######################################################################################################################
+# ROCK THE MABEL
+########################################################################################################################
 
+country_event = {    # STARTINFG EVENT
+	id = mystery_shack_rock_the_mabel.1
+	title = mystery_shack_rock_the_mabel.1.t 
+	desc = mystery_shack_rock_the_mabel.1.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { 
+		hidden_effect = {
+			set_variable = {
+				var = mabel_impressed
+				value = 0
+			}
+		}
+	}
+	
+	option = { 
+		name = mystery_shack_rock_the_mabel.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mystery_shack_rock_the_mabel.2 days = 3 }
+	}
+}
+############################################################
+country_event = {    # Bedezzle
+	id = mystery_shack_rock_the_mabel.2
+	title = mystery_shack_rock_the_mabel.2.t 
+	desc = mystery_shack_rock_the_mabel.2.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { hidden_effect = {} }
+	
+	option = {    ##########  ADD 6
+		name = mystery_shack_rock_the_mabel.2.a
+		ai_chance = { factor = 20 }	# 100% AI choose this
+		country_event = { id = mystery_shack_rock_the_mabel.3 days = 3 }
+		add_political_power = 50
+		hidden_effect = {
+			add_to_variable = {
+				var = mabel_impressed
+				value = 6
+			}
+		}
+	}
+	option = {    ##########  ADD 3
+		name = mystery_shack_rock_the_mabel.2.b
+		ai_chance = { factor = 20 }	# 100% AI choose this
+		country_event = { id = mystery_shack_rock_the_mabel.3 days = 3 }
+		add_political_power = 25
+		hidden_effect = {
+			add_to_variable = {
+				var = mabel_impressed
+				value = 3
+			}
+		}
+	}
+	option = {    ##########  ADD 1
+		name = mystery_shack_rock_the_mabel.2.c
+		ai_chance = { factor = 60 }	# 100% AI choose this
+		country_event = { id = mystery_shack_rock_the_mabel.3 days = 3 }
+		add_political_power = -25
+		hidden_effect = {
+			add_to_variable = {
+				var = mabel_impressed
+				value = 1
+			}
+		}
+	}
+}
+############################################################
+country_event = {    # Looking down from the factory
+	id = mystery_shack_rock_the_mabel.3
+	title = mystery_shack_rock_the_mabel.3.t 
+	desc = mystery_shack_rock_the_mabel.3.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { hidden_effect = {} }
+	
+	option = {    ##########  ADD 6
+		name = mystery_shack_rock_the_mabel.3.a
+		ai_chance = { factor = 20 }	# 100% AI choose this
+		country_event = { id = mystery_shack_rock_the_mabel.4 days = 3 }
+		add_political_power = 50
+		hidden_effect = {
+			add_to_variable = {
+				var = mabel_impressed
+				value = 6
+			}
+		}
+	}
+	option = {    ##########  ADD 3
+		name = mystery_shack_rock_the_mabel.3.b
+		ai_chance = { factor = 20 }	# 100% AI choose this
+		country_event = { id = mystery_shack_rock_the_mabel.4 days = 3 }
+		add_political_power = 25
+		hidden_effect = {
+			add_to_variable = {
+				var = mabel_impressed
+				value = 3
+			}
+		}
+	}
+	option = {     ##########  SUBTRACT 1
+		name = mystery_shack_rock_the_mabel.3.c
+		ai_chance = { factor = 60 }	# 100% AI choose this
+		country_event = { id = mystery_shack_rock_the_mabel.4 days = 3 }
+		add_political_power = -25
+		hidden_effect = {
+			subtract_from_variable = {
+				var = mabel_impressed
+				value = 3
+			}
+		}
+	}
+}
+############################################################
+country_event = {    # Pick you up at 7
+	id = mystery_shack_rock_the_mabel.4
+	title = mystery_shack_rock_the_mabel.4.t 
+	desc = mystery_shack_rock_the_mabel.4.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { hidden_effect = {} }
+	
+	option = {    ##########  ADD 6
+		name = mystery_shack_rock_the_mabel.4.a
+		ai_chance = { factor = 20 }	# 100% AI choose this
+		country_event = { id = mystery_shack_rock_the_mabel.5 days = 3 }
+		add_political_power = 50
+		hidden_effect = {
+			add_to_variable = {
+				var = mabel_impressed
+				value = 6
+			}
+		}
+	}
+	option = {    ##########  ADD 3
+		name = mystery_shack_rock_the_mabel.5.b
+		ai_chance = { factor = 20 }	# 100% AI choose this
+		country_event = { id = mystery_shack_rock_the_mabel.5 days = 3 }
+		add_political_power = 25
+		hidden_effect = {
+			add_to_variable = {
+				var = mabel_impressed
+				value = 3
+			}
+		}
+	}
+	option = {     ##########  SUBTRACT 3
+		name = mystery_shack_rock_the_mabel.4.c
+		ai_chance = { factor = 60 }	# 100% AI choose this
+		country_event = { id = mystery_shack_rock_the_mabel.5 days = 3 }
+		add_political_power = -25
+		hidden_effect = {
+			subtract_from_variable = {
+				var = mabel_impressed
+				value = 3
+			}
+		}
+	}
+}
+############################################################
+country_event = {    # Keeping it going
+	id = mystery_shack_rock_the_mabel.5
+	title = mystery_shack_rock_the_mabel.5.t 
+	desc = mystery_shack_rock_the_mabel.5.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { hidden_effect = {} }
+	
+	option = {    ##########  ADD 6
+		name = mystery_shack_rock_the_mabel.5.a
+		ai_chance = { factor = 20 }	# 100% AI choose this
+		#country_event = { id = mystery_shack_rock_the_mabel. days = 2 }
+		add_political_power = 50
+		hidden_effect = {
+			add_to_variable = {
+				var = mabel_impressed
+				value = 6
+			}
+		}
+	}
+	option = {    ##########  ADD 3
+		name = mystery_shack_rock_the_mabel.5.b
+		ai_chance = { factor = 20 }	# 100% AI choose this
+		#country_event = { id = mystery_shack_rock_the_mabel. days = 2 }
+		add_political_power = 25
+		hidden_effect = {
+			add_to_variable = {
+				var = mabel_impressed
+				value = 3
+			}
+		}
+	}
+	option = {    ##########  SUBTRACT 3
+		name = mystery_shack_rock_the_mabel.5.c
+		ai_chance = { factor = 60 }	# 100% AI choose this
+		#country_event = { id = mystery_shack_rock_the_mabel. days = 2 }
+		add_political_power = -25
+		hidden_effect = {
+			subtract_from_variable = {
+				var = mabel_impressed
+				value = 3
+			}
+		}
+	}
+}
 
 ##############################################################################################################################
 ##############################################################################################################################

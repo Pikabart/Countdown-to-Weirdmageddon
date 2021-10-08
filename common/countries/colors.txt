@@ -12,6 +12,10 @@ NRW={
 	color = rgb { 0 153 0 }
 	color_ui = rgb { 0 153 0 }
 }
+GID={
+	color = rgb { 72  73  126 }
+	color_ui = rgb { 72  73  126 }
+}
 #------------------------------------
 GNM = {
 	color = rgb { 255  0  0  }

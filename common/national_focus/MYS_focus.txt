@@ -1499,7 +1499,26 @@ focus = {
 		cost = 1
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			country_event = mystery_shack_rock_the_mabel.1
+			hidden_effect = {
+				GID = {
+					transfer_state = 23
+					23 = { 
+						add_core_of = GID 
+						remove_core_of = GTF
+					}
+					transfer_state = 25
+					25 = { 
+						add_core_of = GID 
+						remove_core_of = GTF
+					}
+					transfer_state = 26
+					26 = { 
+						add_core_of = GID 
+						remove_core_of = GTF
+					}
+				}
+			}
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1514,7 +1533,13 @@ focus = {
 		
 		prerequisite = { focus = MYS_rockthemabel }
 		mutually_exclusive = { focus = MYS_pine_1 }
-		available = {always = no}
+		available = {
+			check_variable = {
+					var = mabel_impressed
+					value = 11
+					compare = greater_than_or_equals
+			}
+		}
 		cost = 1
 
 		completion_reward = {
@@ -1639,7 +1664,13 @@ focus = {
 		
 		prerequisite = { focus = MYS_rockthemabel }
 		mutually_exclusive = { focus = MYS_ship_1 }
-		available = {always = no}
+		available = {
+			check_variable = {
+					var = mabel_impressed
+					value = 10
+					compare = less_than_or_equals
+			}
+		}
 		cost = 1
 
 		completion_reward = {
