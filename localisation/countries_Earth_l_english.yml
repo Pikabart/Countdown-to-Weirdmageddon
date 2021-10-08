@@ -41,6 +41,18 @@
  NRW_neutrality_ADJ:0 "Northwest Estate"
  NRW_communism_ADJ:0 "Northwest Estate"
  
+ GID_fascism:0 "Tent of Telepathy"
+ GID_fascism_DEF:0 "Tent of Telepathy"
+ GID_democratic:0 "Tent of Telepathy"
+ GID_democratic_DEF:0 "Tent of Telepathy"
+ GID_neutrality:1 "Tent of Telepathy"
+ GID_neutrality_DEF:1 "Tent of Telepathy"
+ GID_communism:0 "Tent of Telepathy"
+ GID_communism_DEF:0 "Tent of Telepathy"
+ GID_fascism_ADJ:0 "Tent of Telepathy"
+ GID_democratic_ADJ:0 "Tent of Telepathy"
+ GID_neutrality_ADJ:0 "Tent of Telepathy"
+ GID_communism_ADJ:0 "Tent of Telepathy"
  
  GNM_fascism:0 "Gnome Kingdom"
  GNM_fascism_DEF:0 "Gnome Kingdom"

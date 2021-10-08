@@ -29,7 +29,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Stan Pines"
-	desc = "No Refunds!"
+	desc = "POLITICS_STAN_PINES_DESC"
 	picture = "Portrait_Stan_Pines.dds"
 	ideology = fascism_ideology #conservatism #liberalism
 }

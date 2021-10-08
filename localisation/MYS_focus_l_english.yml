@@ -181,6 +181,7 @@
  MYS_pr_path:0 "A relationship path has been choosen"
  MYS_false_flags:0 "The Con-Man won't be denied!"
  MYS_GF_shuffle:0 "Stan's Gravity Falls Shuffle has been performed!"
+ MYS_PR_choice_effect:0 "§CWill be made avaible based on how you handle the Buisness Council and the Town Hall Forum§!"
  
  MYS_PR_1:0 "Stan and Gravity Falls"
  MYS_PR_1_desc:0 "Stanford Pines had lived in Gravity Falls for over 30 years. A visiting researcher turn permanent fixture of the town, one would presume Stan had made many contacts within the town. His Mystery Shack is a staple of the tourism in Roadkill County and many of its residents had grown up with the Shack as a fixture of their lives, from their own time spent there to the role it played in the local town economy."
@@ -234,12 +235,12 @@
  MYS_PR_11_effect:0 ""
  
  MYS_PR_12:0 "'Job Makers'"
- MYS_PR_12_desc:0 "The local economy has been in a slump since the Canadian Kerfuffle and the collapse of the US. But oddly enough, the tourism industry is prospering! Must have something to do with people getting their minds of the potential war with Oregon, Washington, and California.\nNow, people are in need of jobs. And I could use some cheap lab- I mean, new valauble employees!"
+ MYS_PR_12_desc:0 "The local economy has been in a slump since the Canadian Kerfuffle and the collapse of the US. But oddly enough, the tourism industry is prospering! Must have something to do with people getting their minds of the potential war between Oregon, Washington, and California.\nNow, people are in need of jobs. And I could use some cheap lab- I mean, new valauble employees!"
  MYS_PR_12_effect:0 "Got to work for that minimum wage!"
 
  MYS_PR_13:0 "Supporting 'Small' Business"
  MYS_PR_13_desc:0 "What is investing but a smarter looking way of gambling? What kind of man would I be if the I didn't rig the game? With the recent economic downturn, the businesses in town could use some inflow of cash.\n\nSure, Preston Northwest can offer more. But would you trust a rich snob, or your local nighborhood Mystery Man?"
- MYS_PR_13_effect:0 ""
+ MYS_PR_13_effect:0 "And remember, meet the minimum payment, or Wendy will have a very unpleasent chat with you."
 
  MYS_PR_14:0 "Gravity Falls Shuffle"
  MYS_PR_14_desc:0 "The local hills beyond the shack use to be part of my property. But due to some completely misunderstood incident involving the mayor's galapagos turtle, the town confincastwed my land. Naturally, everyone would assume I take it back."
@@ -248,6 +249,74 @@
  MYS_PR_15:0 "And this Con-Man You can't Change"
  MYS_PR_15_desc:0 "Someone once told me I can't change. Honestly, maybe she was right. The fact I am here and not there proves that. But I won't go down. I survived up to now and I'll keep on survivinging. I have a mission and I won't stop.\n\nThis Con-Man they can't Change!"
  MYS_PR_15_effect:0 "If I leave here tomorrow\nWould you still remember me?\nFor I must be traveling on now\n'Cause there's too many places I've got to see" 
+ 
+ ######################################################
+ #  Rock the Mabel  #
+ ######################################################
+ 
+ MYS_rockthemabel:0 "Li'l Gideon"
+ MYS_rockthemabel_desc:0 "Nothing good can come from dealing with that li'l monster Gideon. Dipper, Mabel, stay away from them."
+ MYS_rockthemabel_effect:0 "We could do what Grunkle Stan said... or we could go see this Gidoen for ourselves!"
+ 
+ MYS_ship_1:0 "A Gleeful Pair"
+ MYS_ship_1_desc:0 ""
+ MYS_ship_1_effect:0 "§CWould be made avaible depending on hows well Gideon and Mabel get along.§!"
+ 
+ MYS_ship_2:0 "A beneficial arrangment"
+ MYS_ship_2_desc:0 ""
+ MYS_ship_2_effect:0 ""
+ 
+ MYS_ship_3:0 "Trojan Pig"
+ MYS_ship_3_desc:0 ""
+ MYS_ship_3_effect:0 ""
+ 
+ MYS_ship_4:0 "Heart in Hand"
+ MYS_ship_4_desc:0 ""
+ MYS_ship_4_effect:0 ""
+ 
+ MYS_ship_5:0 "A most beautiful Puppet"
+ MYS_ship_5_desc:0 ""
+ MYS_ship_5_effect:0 ""
+ 
+ MYS_ship_6:0 "A tightly controlled soul"
+ MYS_ship_6_desc:0 ""
+ MYS_ship_6_effect:0 ""
+ 
+ MYS_ship_7:0 "Only room for one"
+ MYS_ship_7_desc:0 ""
+ MYS_ship_7_effect:0 ""
+ 
+ ######################################################
+ #  Expose Gideon  #
+ ######################################################
+ 
+ MYS_pine_1:0 "Pining for Time"
+ MYS_pine_1_desc:0 ""
+ MYS_pine_1_effect:0 "§CWould be made avaible depending on hows well Gideon and Mabel get along.§!"
+ 
+ MYS_pine_2:0 "New Attractions"
+ MYS_pine_2_desc:0 ""
+ MYS_pine_2_effect:0 ""
+ 
+ MYS_pine_3:0 "Interior Motives"
+ MYS_pine_3_desc:0 ""
+ MYS_pine_3_effect:0 ""
+ 
+ MYS_pine_4:0 "Mystery Sale"
+ MYS_pine_4_desc:0 ""
+ MYS_pine_4_effect:0 ""
+ 
+ MYS_pine_5:0 "The Source of his powers"
+ MYS_pine_5_desc:0 ""
+ MYS_pine_5_effect:0 ""
+ 
+ MYS_pine_6:0 "I tricked the law and I won"
+ MYS_pine_6_desc:0 ""
+ MYS_pine_6_effect:0 ""
+ 
+ MYS_pine_7:0 "Expose the real Hack!"
+ MYS_pine_7_desc:0 ""
+ MYS_pine_7_effect:0 ""
  
  ######################################################
  #  Mabel and Dipper related Focuses  #

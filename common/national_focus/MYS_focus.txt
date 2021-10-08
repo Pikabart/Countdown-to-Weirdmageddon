@@ -170,6 +170,7 @@
 		completion_reward = {
 			country_event = mystery_shack.6
 			hidden_effect={
+			set_country_flag = mys_invest  #Change			
 			set_country_flag = mys_clones  #Change
 			set_country_flag = mys_public_time 		#Change
 			set_country_flag = mys_rock_the_mabel	#Change
@@ -579,7 +580,7 @@
 		y = 1	
 		relative_position_id = MYS_the_pine_twins
 			
-		#focus and branch underneath will hide until flag is set and focus tree refresh
+		available = { has_country_flag = mys_invest }
 		bypass = {}
 		cost = 3 # (#)x7days 
 
@@ -861,11 +862,12 @@
 
 		completion_reward = {
 			custom_effect_tooltip = "MYS_wendy_4_tooltip"
-			add_building_construction = {
-				type = bunker
-				level = 2
-				instant_build = yes
-				province = 10618
+			27 = {
+				add_building_construction = {
+					type = bunker
+					province = 10618
+					level = 2
+				}
 			}
 			hidden_effect = {
 			if = {
@@ -1118,7 +1120,8 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_1_effect
-			#country_event = mystery_shack.
+			#country_event = mystery_shack_PR.1
+			add_ideas = MYS_PR_start
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1136,7 +1139,7 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_2_effect
-			#country_event = mystery_shack.
+			country_event = mystery_shack_PR.2
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1154,7 +1157,7 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_3_effect
-			#country_event = mystery_shack.
+			country_event = mystery_shack_PR.3
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1164,7 +1167,7 @@
 	
 	focus = { 
 		id = MYS_PR_4
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_good_pr
 		x = -2
 		y = 1	
 		prerequisite = { focus = MYS_PR_2 }
@@ -1174,18 +1177,36 @@
 		mutually_exclusive = { focus = MYS_PR_11 }
 		cost = 3
 
+		available = {
+			check_variable = {
+				var = stan_pr_will
+				value = 4
+				compare = greater_than_or_equals
+			}
+		}
+
 		completion_reward = {
-			custom_effect_tooltip = MYS_PR_4_effect
+			country_event = mystery_shack_PR_good.1		
+			custom_effect_tooltip = MYS_PR_choice_effect
 			set_country_flag = MYS_pr_path  #Flase Flags also has this for Mayor focus
-			#country_event = mystery_shack.
 		}
 		
-		ai_will_do = {factor = 1}
-	}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 80
+				check_variable = {
+					var = stan_pr_will
+					value = 4
+					compare = greater_than_or_equals
+				}
+			}
+		}
+	} 
 	
 	focus = { 
-		id = MYS_PR_6
-		icon = GFX_goal_generic_major_war
+		id = MYS_PR_6 
+		icon = GFX_goal_focus_souvineers
 		x = 0
 		y = 1	
 		prerequisite = { focus = MYS_PR_4 }
@@ -1194,6 +1215,7 @@
 		cost = 4
 
 		completion_reward = {
+			add_ideas = MYS_PR_souvenir
 			custom_effect_tooltip = MYS_PR_6_effect
 			#country_event = mystery_shack.
 		}
@@ -1201,9 +1223,9 @@
 		ai_will_do = {factor = 1}
 	}
 	
-	focus = { #The Mystery Fair
+	focus = { 
 		id = MYS_PR_8
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_community_service
 		x = 0
 		y = 1	
 		prerequisite = { focus = MYS_PR_6 }
@@ -1213,15 +1235,15 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_8_effect
-			#country_event = mystery_shack.
+			country_event = mystery_shack_PR_good.2
 		}
 		
 		ai_will_do = {factor = 1}
 	}
 	
-	focus = { 
+	focus = {    #The Mystery Fair
 		id = MYS_PR_10
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_mys_fair
 		x = 0
 		y = 1	
 		prerequisite = { focus = MYS_PR_8 }
@@ -1239,9 +1261,9 @@
 	
 	###################################
 	
-		focus = { 
+	focus = { 
 		id = MYS_PR_5
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_back_tax
 		x = 0
 		y = 3	
 		prerequisite = { focus = MYS_PR_2 }
@@ -1252,6 +1274,7 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_5_effect
+			add_ideas = MYS_PR_backtax
 			#country_event = mystery_shack.
 		}
 		
@@ -1260,7 +1283,7 @@
 	
 	focus = { 
 		id = MYS_PR_7
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_town_council
 		x = 0
 		y = 1	
 		prerequisite = { focus = MYS_PR_5 }
@@ -1270,15 +1293,15 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_7_effect
-			#country_event = mystery_shack.
+			country_event = mystery_shack_PR.4
 		}
 		
 		ai_will_do = {factor = 1}
 	}
 	
-	focus = { 
+	focus = {                  #Meeting wiht the mayor
 		id = MYS_PR_9
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_mayor
 		x = 0
 		y = 1	
 		prerequisite = { focus = MYS_PR_7 }
@@ -1298,15 +1321,8 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_9_effect
-			#country_event = mystery_shack.
-			
-			hidden_effect = {
-				transfer_state = 54
-				54 = { 
-					add_core_of = MYS 
-					remove_core_of = GTF
-					}
-			}
+			country_event = mystery_shack_PR.5
+			set_country_flag = MYS_mayor_gift
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1316,7 +1332,7 @@
 	
 	focus = { 
 		id = MYS_PR_16
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_the_man_stan
 		x = 0
 		y = 2
 		prerequisite = { focus = MYS_PR_10 }
@@ -1327,7 +1343,8 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_16_effect
-			#country_event = mystery_shack.
+			country_event = mystery_shack_PR_good.8
+			set_country_flag = MYS_OUR_MAN_STAN
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1336,28 +1353,47 @@
 	############################################################################
 	focus = { 
 		id = MYS_PR_11
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_false_flag
 		x = 4
 		y = 1	
 		prerequisite = { focus = MYS_PR_2 }
 		prerequisite = { focus = MYS_PR_3 }
 		relative_position_id = MYS_PR_2
 		
+		available = {
+			check_variable = {
+					var = stan_pr_will
+					value = 3
+					compare = less_than_or_equals
+			}
+		}
+		
 		mutually_exclusive = { focus = MYS_PR_4 }
 		cost = 4
 
 		completion_reward = {
-			#country_event = mystery_shack.
-			set_country_flag = MYS_false_flags #Will be used to reuire an additon flag for Mayor focus
-			set_country_flag = MYS_pr_path #Good PR also has this for Mayor focus
+			country_event = mystery_shack_PR_bad.1
+			set_country_flag = MYS_false_flags #Will be used to require an additon flag for Mayor focus
+			set_country_flag = MYS_pr_path     #Good PR also has this for Mayor focus
+			custom_effect_tooltip = MYS_PR_choice_effect
 		}
 		
-		ai_will_do = {factor = 1}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 80
+				check_variable = {
+					var = stan_pr_will
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+		}
 	}
 	
-	focus = { 
+	focus = {          #JOb Maker
 		id = MYS_PR_12
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_bad_job
 		x = -1
 		y = 1	
 		prerequisite = { focus = MYS_PR_11 }
@@ -1367,15 +1403,19 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_12_effect
+			GTF = {
+				add_ideas = MYS_GTF_low_pay
+			}
+			add_manpower = 5000
 			#country_event = mystery_shack.
 		}
 		
 		ai_will_do = {factor = 1}
 	}
 	
-	focus = { 
+	focus = {            #Small buinsess
 		id = MYS_PR_13
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_bad_invest
 		x = 1
 		y = 1	
 		prerequisite = { focus = MYS_PR_11 }
@@ -1384,6 +1424,18 @@
 		cost = 4
 
 		completion_reward = {
+			custom_effect_tooltip = MYS_PR_13_effect
+			add_offsite_building = {
+					type = industrial_complex
+					level = 1
+			}
+			add_offsite_building = {
+				type = arms_factory
+				level = 1
+			}
+			GTF = {
+				add_ideas = MYS_GTF_loan_shark
+			}
 			#country_event = mystery_shack.
 		}
 		
@@ -1392,7 +1444,7 @@
 	
 	focus = { 
 		id = MYS_PR_14
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_shuffle
 		x = 0
 		y = 2	
 		prerequisite = { focus = MYS_PR_12 }
@@ -1404,7 +1456,7 @@
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_14_effect
 			set_country_flag = MYS_GF_shuffle
-			#country_event = mystery_shack.
+			country_event = mystery_shack_PR_bad.2
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1412,7 +1464,7 @@
 	
 	focus = { 
 		id = MYS_PR_15
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_conman
 		x = 0
 		y = 1	
 		prerequisite = { focus = MYS_PR_14 }
@@ -1422,7 +1474,8 @@
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_15_effect
-			#country_event = mystery_shack.
+			set_country_flag = MYS_CON_MAN_STAN
+			country_event = mystery_shack_PR_bad.3
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1434,7 +1487,7 @@
 
 focus = { 
 		id = MYS_rockthemabel
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_gideon
 		x = 0
 		y = 6
 		relative_position_id = MYS_journal_3
@@ -1446,7 +1499,26 @@ focus = {
 		cost = 1
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			country_event = mystery_shack_rock_the_mabel.1
+			hidden_effect = {
+				GID = {
+					transfer_state = 23
+					23 = { 
+						add_core_of = GID 
+						remove_core_of = GTF
+					}
+					transfer_state = 25
+					25 = { 
+						add_core_of = GID 
+						remove_core_of = GTF
+					}
+					transfer_state = 26
+					26 = { 
+						add_core_of = GID 
+						remove_core_of = GTF
+					}
+				}
+			}
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1461,7 +1533,13 @@ focus = {
 		
 		prerequisite = { focus = MYS_rockthemabel }
 		mutually_exclusive = { focus = MYS_pine_1 }
-		available = {always = no}
+		available = {
+			check_variable = {
+					var = mabel_impressed
+					value = 11
+					compare = greater_than_or_equals
+			}
+		}
 		cost = 1
 
 		completion_reward = {
@@ -1586,7 +1664,13 @@ focus = {
 		
 		prerequisite = { focus = MYS_rockthemabel }
 		mutually_exclusive = { focus = MYS_ship_1 }
-		available = {always = no}
+		available = {
+			check_variable = {
+					var = mabel_impressed
+					value = 10
+					compare = less_than_or_equals
+			}
+		}
 		cost = 1
 
 		completion_reward = {

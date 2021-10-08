@@ -4,29 +4,114 @@ spriteTypes = {
 		name = "GFX_idea_MYS_NWHS_1"
 		texturefile = "gfx/interface/ideas/mys/NWHS_1.dds"			
 	}
+	
 	SpriteType = {
 		name = "GFX_idea_MYS_NWHS_2"
 		texturefile = "gfx/interface/ideas/mys/NWHS_2.dds"			
 	}
+	
 	SpriteType = {
 		name = "GFX_idea_MYS_NWHS_3"
 		texturefile = "gfx/interface/ideas/mys/NWHS_3.dds"			
 	}
+	
 	SpriteType = {
 		name = "GFX_idea_MYS_NWHS_4"
 		texturefile = "gfx/interface/ideas/mys/NWHS_4.dds"			
 	}
+	
 	SpriteType = {
 		name = "GFX_idea_MYS_NWHS_5"
 		texturefile = "gfx/interface/ideas/mys/NWHS_5.dds"			
 	}
+	
 	SpriteType = {
 		name = "GFX_idea_MYS_plenty_of_suckers"
 		texturefile = "gfx/interface/ideas/mys/generic_goods_red_bonus.dds"	
 	}
+	
 	SpriteType = {
 		name = "GFX_idea_wendy_drip_idea"
 		texturefile = "gfx/interface/ideas/mys/wendy_drip_idea.dds"	
 	}
 	
-}
+	SpriteType = {
+		name = "GFX_idea_MYS_Twins_1"
+		texturefile = "gfx/interface/ideas/mys/idea_twins.dds"	
+	}
+	
+	#######################
+	#   PR GFX
+	#######################
+	
+	SpriteType = {
+		name = "GFX_idea_MYS_PR_start"
+		texturefile = "gfx/interface/ideas/mys/idea_generic_free_trade.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_MYS_PR_lobby"
+		texturefile = "gfx/interface/ideas/mys/idea_generic_free_trade.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_MYS_PR_blackmail"
+		texturefile = "gfx/interface/ideas/mys/idea_generic_free_trade.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_MYS_PR_our_man_stan"
+		texturefile = "gfx/interface/ideas/mys/idea_the_man_stan.dds"	
+	}
+	
+	#####################
+	SpriteType = {
+		name = "GFX_idea_MYS_PR_tate"
+		texturefile = "gfx/interface/ideas/mys/idea_generic_free_trade.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MYS_PR_backtax"
+		texturefile = "gfx/interface/ideas/mys/idea_backtax.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MYS_PR_souvenir"
+		texturefile = "gfx/interface/ideas/mys/idea_souvineers.dds"	
+	}
+	
+	########################
+	SpriteType = {
+		name = "GFX_idea_MYS_PR_false"
+		texturefile = "gfx/interface/ideas/mys/idea_conman.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_MYS_PR_devil"
+		texturefile = "gfx/interface/ideas/mys/idea_devil_stan.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_MYS_GTF_low_pay"
+		texturefile = "gfx/interface/ideas/mys/idea_conman.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_MYS_GTF_loan_shark"
+		texturefile = "gfx/interface/ideas/mys/idea_conman.dds"	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}   #END OF FILE

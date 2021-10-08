@@ -5,6 +5,7 @@ NRW = "countries/R-Northwest.txt"
 GNM = "countries/R-Gnome Kingdom.txt"
 UFC = "countries/R-United Forest.txt"
 MAN = "countries/R-Manotaurs Lands.txt"
+GID = "countries/R-Tent of Telepathy.txt"
 
 #Tourist
 MYM = "countries/T-Mystery Mountain.txt"

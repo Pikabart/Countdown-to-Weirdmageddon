@@ -1,0 +1,51 @@
+﻿capital = 23
+
+set_research_slots = 2
+set_convoys = 10
+set_stability = 0.70
+set_war_support = 0.70
+
+#add_ideas = {
+#}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1912.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 10
+	communism = 10
+	fascism = 70
+	neutrality = 10
+}
+
+create_country_leader = {
+	name = "Gideon Gleeful"
+	desc = "POLITICS_STAN_PINES_DESC"
+	picture = "hoi4_portrait_Gideon.dds"
+	ideology = fascism_ideology #conservatism #liberalism
+}
+
+create_country_leader = {
+	name = "Cheekums"
+	desc = ""
+	picture = ""
+	ideology = liberalism
+}
+
+create_country_leader = {
+	name = "Mrs. Gleeful"
+	desc = ""
+	picture = ""
+	ideology = anarchist_communism
+}
+
+create_country_leader = {
+	name = "Bud Gleeful"
+	desc = ""
+	picture = ""
+	ideology = moderatism
+}

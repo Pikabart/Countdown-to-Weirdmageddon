@@ -2,6 +2,7 @@
 # News Events
 ###########################
 
+add_namespace = multiverse_news
 add_namespace = kerfuffle_news
 add_namespace = west_election_news
 add_namespace = launcher_news
@@ -661,4 +662,47 @@ news_event = { #Norton becomes Cali Governor
 		name = west_election_news.3.i
 		trigger = {	TAG = CAN}	
 	}
+}
+
+###############################################################################
+###############################################################################
+
+news_event = { #
+	id = multiverse_news.1
+	title = multiverse_news.1.t
+	desc = multiverse_news.1.d
+	picture = GFX_news_good_stan
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+		}
+	}
+	
+	option = {
+		name = multiverse_news.1.a
+		trigger = {	TAG = MYS}
+	}
+	option = {
+		name = multiverse_news.1.b
+		trigger = {	TAG = GTF}
+	}
+	option = {
+		name = multiverse_news.1.c
+		trigger = {	TAG = MEW}	
+	}
+	option = {
+		name = multiverse_news.1.e
+		trigger = {
+			NOT = {
+				TAG = MYS
+				TAG = GTF
+				TAG = MEW
+			}
+		}
+	}
+	
+	
 }

@@ -11,9 +11,9 @@
  fascism_noun:0 "Autocracy"
  fascism_desc:0 "Autocratic Regime"
  
- neutrality:0 "Obligarchy"
- neutrality_noun:0 "Obligarchy"
- neutrality_desc:0 "Elite Court"
+ neutrality:0 "Oligarchy"
+ neutrality_noun:0 "Oligarchy"
+ neutrality_desc:0 "Oligarchical Council"
  
  ##Subtype, for flavor#############################################
  conservatism:0 "Conservatism"
@@ -55,83 +55,6 @@
  centrism_desc:1 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
- 
- #Earth ################################################################
- 
- MYS_fascism_party:0 "Stan Management"
- MYS_communism_party:0 "Wendy's Rule"
- MYS_democratic_party:0 "The Mabel Difference"
- MYS_neutrality_party:0 "Soos Managment"
- 
- GTF_fascism_party:0 "Stan-For-Mayor Party"
- GTF_communism_party:0 "Teenage Revolt"
- GTF_democratic_party:0 "Gravity Falls Town Council"
- GTF_neutrality_party:0 "Society of the Blind Eye"
- 
- NRW_fascism_party:0 "Preston Takeover"
- NRW_communism_party:0 "I.W.G.F."
- NRW_democratic_party:0 "Northwest Trust"
- NRW_neutrality_party:0 "Board of Directors"
- 
- ORE_fascism_party:0 "Outback Boys"
- ORE_communism_party:0 "Willamette Workers Union"
- ORE_democratic_party:0 "Oregon New Democratic-Republicans"
- ORE_democratic_party_trembley:0 "Oregon National Eccentric Party"
- ORE_neutrality_party:0 "Cascadia Council"
- 
- WAS_fascism_party:0 "Outback Boys"
- WAS_communism_party:0 "Seattle Commune Council"
- WAS_democratic_party:0 "Washington New Democratic-Republicans"
- WAS_neutrality_party:0 "Cascadia Counil"
- 
- CAL_fascism_party:0 "Imperial State"
- CAL_communism_party:0 "California Socialist Party"
- CAL_democratic_party:0 "NorCal New Democratic-Republicans"
- CAL_democratic_party_norton:0 "NorCal National Eccentric Party"
- CAL_neutrality_party:0 "Norton Loyalist"
- 
- SOC_fascism_party:0 "Orange League"
- SOC_communism_party:0 "California Socialist Party"
- SOC_democratic_party:0 "SoCal New Democratic-Republicans"
- SOC_neutrality_party:0 "Guzman Loyalist"
- 
- EUS_fascism_party:0 "Curtis Administration"
- EUS_communism_party:0 "American Communist Party"
- EUS_democratic_party:0 "New Democratic-Republican Party"
- EUS_neutrality_party:0 "National Eccentric Party"
- 
- MEX_fascism_party:0 "Partido Mexico Grande"
- MEX_communism_party:0 "Consejo Revolucionario"
- MEX_democratic_party:0 "Viejo Orden"
- MEX_democratic_party_election:0 "Partido Cordura"
- MEX_neutrality_party:0 "EU Collaborators"
- 
- EPI_fascism_party:0 "Huckabone Loyalist"
- EPI_communism_party:0 "Inter-Dimensional KGB"
- EPI_democratic_party:0 "Senate Oversight Committee"
- EPI_neutrality_party:0 "Standing Order: 11"
- 
- WPI_fascism_party:0 "Deputy Director S Loyalist"
- WPI_communism_party:0 "Inter-Dimensional KGB"
- WPI_democratic_party:0 "Agent C Loyalist"
- WPI_neutrality_party:0 "Director A Loyalist"
- 
- CAN_fascism_party:0 "Canadian Nationalist"
- CAN_communism_party:0 "Revolutionary Party"
- CAN_democratic_party:0 "Liberal-Consevative Parties"
- CAN_neutrality_party:0 "Royal Mandate"
- 
- #Mewni###############################################################
- 
- MEW_fascism_party:0 "Military Command"
- MEW_communism_party:0 "Corn Union"
- MEW_democratic_party:0 "Magic High Commision"
- MEW_neutrality_party:0 "House Butterfly"
- 
- LUD_fascism_party:0 "Will of Toffee"
- LUD_communism_party:0 "Monster's Revolt"
- LUD_democratic_party:0 "Monster Council"
- LUD_neutrality_party:0 "House Averius-Ludo"
  
  
  

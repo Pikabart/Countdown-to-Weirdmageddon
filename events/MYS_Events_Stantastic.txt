@@ -373,7 +373,15 @@ country_event = {
 		name = stantastic_51.4.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		country_event = { id = stantastic_51.5 days = 7 }	
-
+		CAL = {
+			hidden_effect = {
+				transfer_state = 244
+				244 = { 
+					add_core_of = CAL 
+					remove_core_of = EPI
+				}
+			}
+		}
 	}
 }
 
@@ -455,7 +463,15 @@ country_event = {
 		name = stantastic_51.8.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		country_event = { id = stantastic_51.9 days = 7 }	
-	
+		CAL = {
+			hidden_effect = {
+				transfer_state = 244
+				244 = { 
+					add_core_of = CAL 
+					remove_core_of = EPI
+				}
+			}
+		}
 	}
 }
 

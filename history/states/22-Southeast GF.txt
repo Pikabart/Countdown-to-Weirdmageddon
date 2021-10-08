@@ -15,13 +15,16 @@ state={
 			air_base = 0
 			anti_air_building = 0
 			radar_station = 0
+			
+			8573 = {naval_base = 2}
+			
 		}
 		
 		victory_points = {
 			8638  10
 		}
 		victory_points = {
-			8573  10
+			8573  15
 		}
 	}
 	

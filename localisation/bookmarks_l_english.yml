@@ -3,21 +3,21 @@
  BM_HISTORY_TITLE:0 "FPI Regional Report:" # this modifies the title above the description for each bookmark
  ####################################
  ROADKILL_NAME:0 "West of Weird"
- ROADKILL_DESC:0 "This summer will most certainly be an eventful one."
+ ROADKILL_DESC:0 "The summer approches! The sun shines hot and only the cool green hills of Cascadia can bring relief. Out in the Oregon Outback, just west of Weird, something is amiss in that sleeply town of Gravity Falls and everywhere around it. One things for certain.\n\nThis summer will most certainly be an eventful one."
  HITTING_FAN_NAME:0 "The Hitting of the Fan"
  HITTING_FAN_DESC:0 "Yup, that's right! That umbrella collection is about to come in real handy."
- MYS_ROADKILL_DESC:0 "A"
+ MYS_ROADKILL_DESC:0 "The World-Famous Mystery Shack has been a staple of Oregon for thirty years. And yet in all this time, nearly no one had suspect what true mysteries lurk beneath this tourist trap. Truely this "Stanford" Pines is the Man of Mystery, a past shrouded. But no doubt, a goal for the future ever clearer."
  GTF_ROADKILL_DESC:0 "B"
  GNM_ROADKILL_DESC:0 "C"
  UFC_ROADKILL_DESC:0 "D"
  MAN_ROADKILL_DESC:0 "E"
  NRW_ROADKILL_DESC:0 "F"
  MYM_ROADKILL_DESC:0 "E"
- OTHER_ROADKILL_DESC:0 "Normal Picking now Works"
+ OTHER_ROADKILL_DESC:0 "Worlds are on the verge of collision. From the weirdness, new normals shall arise. New adventures to be have, new plans to bring to fruition. The quest for Chaos or Order, domination or something even greater. Across the multiverse, people will fight for normalacy. Some, however, shall fight to bring about wierdmageddon!"
  
  ###################################
- WILD_WEST_NAME:0 "Mostly Harmless"
- WILD_WEST_DESC:0 "Some find the world to be a horrific place. One only needs to see the multiverse to find Earth to be rather benign, all things considered."
+ WILD_WEST_NAME:0 "The Long Summer"
+ WILD_WEST_DESC:0 "President Curtis once said that America is basicly the whole world. One only needs to see the US to see that the whole world is heading towards disaster. Danger lurks up north and chaos treatens the south. From sea to shining sea, new dangers across the multiverse begin their final approach towards Earth. Without a doubt, its going to be a very Long Summer.\n\nAnd they say Earth is "Mostly Harmless"?"
  ORE_WILD_WEST_DESC:0 "B"
  CAL_WILD_WEST_DESC:0 "B"
  WAS_WILD_WEST_DESC:0 "B"
@@ -25,18 +25,18 @@
  EPI_WILD_WEST_DESC:0 "B"
  CAN_WILD_WEST_DESC:0 "B"
  MEX_WILD_WEST_DESC:0 "B"
- OTHER_WILD_WEST_DESC:0 "Normal Picking now Works" #Ignore -> Choose this to actually choose a nation. Main bookmarks are broken for some reason.
+ OTHER_WILD_WEST_DESC:0 "Worlds are on the verge of collision. From the weirdness, new normals shall arise. New adventures to be have, new plans to bring to fruition. The quest for Chaos or Order, domination or something even greater. Across the multiverse, people will fight for normalacy. Some, however, shall fight to bring about wierdmageddon!" #Ignore -> Choose this to actually choose a nation. Main bookmarks are broken for some reason.
  
  ##################################
  ANOTHER_DIMENSION_NAME:0 "Sunset on Mewni"
  ANOTHER_DIMENSION_DESC:0 "For the last 300 years, the Mewman people have experienced an unprecedented period of peace. Although some conflicts have erupted, nothing has disrupted the daily lives of the Mewman people ever since the Solairan conquests.\n\nYet."
- MEW_ANOTHER_DIMENSION_DESC:0 "The Mewman Hegemony is starting to crack. Economic dependance on corn, no incentives to industrialize, and an illiterate populace have held Mewni back centuries compared to other dimensions. And with monsters in the north and south consolidating their power, it is only a mater of time when the Kingdom will finally go through another great test. And if it is to fail... the entire dimension will be dragged down with it."
+ MEW_ANOTHER_DIMENSION_DESC:0 "The Mewman Hegemony is starting to crack. Economic dependance on corn, no incentives to industrialize, and an illiterate populace have held Mewni back centuries compared to other dimensions. And with monsters in the north and south consolidating their power, it is only a matter of time when the Kingdom will finally go through another great test. And if it is to fail... the entire dimension will be dragged down with it."
  JOH_ANOTHER_DIMENSION_DESC:0 "C"
  LUC_ANOTHER_DIMENSION_DESC:0 "C"
  PNY_ANOTHER_DIMENSION_DESC:0 "C"
  SPI_ANOTHER_DIMENSION_DESC:0 "C"
  PIG_ANOTHER_DIMENSION_DESC:0 "C"
- OTHER_ANOTHER_DIMENSION_DESC:0 "Normal Picking now Works"
+ OTHER_ANOTHER_DIMENSION_DESC:0 "Worlds are on the verge of collision. From the weirdness, new normals shall arise. New adventures to be have, new plans to bring to fruition. The quest for Chaos or Order, domination or something even greater. Across the multiverse, people will fight for normalacy. Some, however, shall fight to bring about wierdmageddon!"
  
  
  ####################################

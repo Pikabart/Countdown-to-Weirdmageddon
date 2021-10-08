@@ -55,7 +55,6 @@ create_country_leader = {
 
 add_ideas = {
 	mina_advisor
-
 }
 
 create_country_leader = {

@@ -17,6 +17,9 @@ state={
 			8196 = {bunker = 1}
 			3896 = {bunker = 1}
 		}
+		victory_points = {
+			8253  40
+		}
 	}
 	
 	provinces={

@@ -1,18 +1,18 @@
 ﻿l_english:
 
- MYS_NWHS_1:0 "Not What He Seems: Level 1"
+ MYS_NWHS_1:0 "Not What He Seems..."
  MYS_NWHS_1_desc:0 "'Mr.Pines? He's like the coolest dude I know. Besides my Abuelita anyway. But she isn't a dude, so you know.'\n-'Soos' Ramirez"
  
- MYS_NWHS_2:0 "Not What He Seems: Level 2"
+ MYS_NWHS_2:0 "Not What He Seems..."
  MYS_NWHS_2_desc:0 "'I get that our Grunkle Stan can be a bit odd at times. But he always seemed to be upfront and frank with us.'\n-Mabel Pines"
  
- MYS_NWHS_3:0 "Not What He Seems: Level 3"
+ MYS_NWHS_3:0 "Not What He Seems..."
  MYS_NWHS_3_desc:0 "'I don't know. Everytime I'm with him, he never seems to care much of me. Always making me do the work, always bossing me around. Honestly, it feels like he doesn't want me around sometimes...'\n-'Dipper' Pines"
  
- MYS_NWHS_4:0 "Not What He Seems: Level 4"
+ MYS_NWHS_4:0 "Not What He Seems..."
  MYS_NWHS_4_desc:0 "'You don't understand, kids. You don't know your great uncle. This man is dangerous! What he could be working on could very well doom us all. If the old guard were still around, they'd already taken him out. Us? Rest assured, we'll send him somewhere were he can't put you two in harm's way anymore.'\n-FPI Agent Powers"
  
- MYS_NWHS_5:0 "Not What He Seems: Level 5"
+ MYS_NWHS_5:0 "Not What He Seems..."
  MYS_NWHS_5_desc:0 "TRUST NO ONE!"
  
  MYS_plenty_of_suckers:0 "High Tourism"
@@ -42,6 +42,45 @@ MYS_cordoury_spirit_hike_security_attack_cool_desc:0 "The Cordourys have always 
 
 MYS_cordoury_drip:0 "The Cordoury Drip"
 MYS_cordoury_drip_desc:0 ""Haha silly Wendy, you can't have dr-""
+
+MYS_Twins_1:0 "Mystery Twins: Forever!"
+MYS_Twins_1_desc:0 "Dipper and Mabel stand ready to take on the world itself! And with worlds coming right after them, the mystery twins will certainly need it."
+
+#####################################
+
+MYS_PR_start:0 "Public Relationship"
+MYS_PR_start_desc:0 ""
+
+MYS_PR_lobby:0 "Public Relationship"
+MYS_PR_lobby_desc:0 "Lobbying"
+
+MYS_PR_blackmail:0 "Public Relationship"
+MYS_PR_blackmail_desc:0 "Blackmailing"
+
+MYS_PR_our_man_stan:0 "Our Man Stan!"
+MYS_PR_our_man_stan_desc:0 "The one, the only, Mister Man of Mystery himself! Stan Pines!"
+
+MYS_PR_backtax:0 "Paying Backtaxes"
+MYS_PR_backtax_desc:0 "Its terrible, I know. I keep telling myself, "Its a legal bribe, its a legal bribe"... A legal bribe? That's even worse!"
+
+MYS_PR_tate:0 "Favors from the McGuckets"
+MYS_PR_tate_desc:0 "The line between brilliance and insanity is a blurry one at best."
+
+MYS_PR_souvenir:0 "Free Souvineers!"
+MYS_PR_souvenir_desc:0 "How am I still losing money inspite that T&C?"
+
+MYS_PR_false:0 "Can't Stan it no longer"
+MYS_PR_false_desc:0 ""
+
+MYS_PR_devil:0 "This Con you can't Changed!"
+MMYS_PR_devil_con_desc:0 ""
+
+MYS_GTF_low_pay:0 "Low Wages"
+MYS_GTF_low_pay_desc:0 "Through a series of business and other "entities", Stan Pines had hired many of the town folks to work for them. They have agreed to to the badly needed employment, though the pay is only marginally better than not wokring at all."
+
+MYS_GTF_loan_shark:0 "Pine's Investings and Loans"
+MYS_GTF_loan_shark_desc:0 "To restimulate the economy, Stan Pines had loaned out funding at insane rates to the town. But with no other source to borrow from as the rest of Oregon is concentrated with the valley, there is not much we can do."
+
 
 #################################
 

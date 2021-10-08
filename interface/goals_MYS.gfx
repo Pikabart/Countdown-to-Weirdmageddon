@@ -155,6 +155,100 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/MYS/focus_council.dds"			
 	}
 	
+	##################################################################
+	
+	SpriteType = {
+	name = "GFX_goal_focus_good_pr"
+	texturefile = "gfx/interface/goals/MYS/focus_good_pr.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_souvineers"
+	texturefile = "gfx/interface/goals/MYS/focus_souvineers.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_community_service"
+	texturefile = "gfx/interface/goals/MYS/focus_community_service.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_mys_fair"
+	texturefile = "gfx/interface/goals/MYS/focus_mys_fair.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_back_tax"
+	texturefile = "gfx/interface/goals/MYS/focus_back_tax.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_town_council"
+	texturefile = "gfx/interface/goals/MYS/focus_town_council.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_mayor"
+	texturefile = "gfx/interface/goals/MYS/focus_stan_hukabone.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_the_man_stan"
+	texturefile = "gfx/interface/goals/MYS/focus_the_man_stan.dds"			
+	}
+	
+	##################################################################
+	
+	SpriteType = {
+	name = "GFX_goal_focus_false_flag"
+	texturefile = "gfx/interface/goals/MYS/focus_false_flag.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_bad_job"
+	texturefile = "gfx/interface/goals/MYS/focus_bad_job.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_bad_invest"
+	texturefile = "gfx/interface/goals/MYS/focus_bad_invest.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_shuffle"
+	texturefile = "gfx/interface/goals/MYS/focus_shuffle.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_conman"
+	texturefile = "gfx/interface/goals/MYS/focus_conman.dds"			
+	}
+	
+	
+	
+	
+	
+	
+	##################################################################
+	##################################################################
+	# Gideon Branch
+	##################################################################
+	##################################################################
+	SpriteType = {
+	name = "GFX_goal_focus_gideon"
+	texturefile = "gfx/interface/goals/MYS/focus_gideon.dds"			
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 

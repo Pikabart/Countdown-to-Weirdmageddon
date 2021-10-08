@@ -11,7 +11,8 @@
     mystery_shack.9998.a:0 "Time to trim the Pinetree!"
     mystery_shack.9998.b:0 "Guess why they call you 'Shooting Star'?"
     
-    #################################################
+    ##################################################################################################
+    ##################################################################################################
     
     mystery_shack.1.t:0 "Welcome to the Mystery Shack!"
     mystery_shack.1.d:0 "'Come one, come all, and feast your eyes on what spooky, creepy, bizarre things inside the Mystery Shack! I'm Mr. Mystery, your guide to what lays beyond this portal into the wierd and unnatural!\nPrepare to be amazed, astounded, brought to tears... Payment upfront!'\n\nI've been doing this now for thirty years. Day in, day out. Not for the money... well, yes the money. But also for something truely out of this world. All within the Myserty Shack!"
@@ -56,7 +57,8 @@
     mystery_shack.9.d:0 "Filler for Wendy"
     mystery_shack.9.a:0 "Axes"
     
-    ###################################################################
+    ####################################################################################################################
+    ####################################################################################################################
     
     stantastic.1.t:0 "Grocery Shopping"
     stantastic.1.d:0 "Gideon buys all the corn at the store. Stan resorts to an interdimensional solution"
@@ -173,7 +175,8 @@
     stantastic_51.11.a:0 "‘Do I look like an idiot, folks?’"
     stantastic_51.11.tool:0 "(95% he’s wrong, no money made. 5% he accidentally says ‘please’ somehow and wins)\n\nResulting event based on that and events from mabel boss tree events"
     
-    ##################################################################
+    ############################################################################################################################
+    ############################################################################################################################
     
     soos.1.t:0 "filler"
     soos.1.d:0 "filler"
@@ -198,6 +201,128 @@
     wendy.3.t:0 "filler"
     wendy.3.d:0 "filler"
     wendy.3.a:0 "filler"
+    
+    ############################################################################################################################
+    ############################################################################################################################
+    
+    mystery_shack_PR.1.t:0 "Stan and Gravity Falls"
+    mystery_shack_PR.1.d:0 "filler"
+    mystery_shack_PR.1.a:0 "filler"
+    
+    mystery_shack_PR.2.t:0 "An Open Seat"
+    mystery_shack_PR.2.d:0 "Lazy Susan has announced she will be vacating her seat on the council for the Service Industry. Nearing her retirement, this announcement wasn’t unexpected for some time. What was unexpected however was the exact timing, as there was not much in the way of an agreed successor to her seat. Quickly, the entire meeting between the Council and its members had devolved quickly into arguing and fighting over her seat as every business owner gave their month full of opinion.\n\nIn this chaos, it has become clear that two business owners in the service industry have emerged as the most likely candidate for the seat. The first is Stanford Pines, who runs the tourist popular Mystery Shack. The other is Buddy Gleeful, the owner of the Gleeful's Auto Sale and the legal owner of the local favorite Tent of Telepathy. Farmer Spur seems inclined to Gleeful, as Stan stole Spur’s cow. Preston oddly enough favors Pines, as Gleeful’s used car business interferes with his car industry.\n\nDuring the argument, Old Man McGucket approached Stan. Though he runs the Junkyard, Stan actually owns it after an agreement the two made decades ago. In a bout of sanity, he asked Stan to support having his son, Tate McGucket of the Lake Gravity Falls Pro Fish Shop, for the seat. A ridiculous idea, but Stan did think of it. Stan could barely muster support for the seat for himself and he would have little support from his own base on the council. But everyone likes Tate. Like the old McGucket, before he went insane, Stan knew he was a genius also. More importantly, Tate isn’t Bud, which alone is a good enough reason. Stan throwing support would ensure Tate gains the seat and a favor from both McGuckets could be worth far more than a seat. Especially since he had to pay monthly into the seat position if he won."
+    mystery_shack_PR.2.a:0 "The Council becomes more Gleeful"
+    mystery_shack_PR.2.b:0 "Let me show you some real business!"
+    mystery_shack_PR.2.c:0 "Let the younger McGucket have it"
+    
+    mystery_shack_PR.3.t:0 "Stan Defends the Twins!"
+    mystery_shack_PR.3.d:0 "The Shack gang took their seats as Mayor Befufftlefumpter called for an open forum for citizens of the town to suggest ideas to improve the situation the town is in. Naturally the meeting, full for once, devolved into fighting between the town folk. As Stan took a quick nap, he awoke to overhear Gideon sneaking around and making suggestions to people that this was all President Trembley’s fault. While Stan was no fan of the weirdo those weird Portlandiers picked, it was when Gideon reminded everyone who released trembley that suddenly the Shack gang was part of the conversation. People grew angry at him and the twins for unleashing the ‘Madman’ Trembley. The police claimed they interfered with the operation to stop Trembley. Some went so far as to call Dipper an communist and Mabel an anarchist.\n\nStan arose to defend his grandnephew and grandniece. He won’t stand for such McCarthy statements. At the very least, Dipper was an anarchist and Mabel was a Communist. ‘The Man should pay for dinner? We beat the soviets so I don’t have to, Mabel!’\n\nThe town awaits Stan’s response. He spoke..."
+    mystery_shack_PR.3.a:0 "You crazy bumpkins are all idiots! You have only yourself to blame!"
+    mystery_shack_PR.3.b:0 "Dipper and Mabel did nothing wrong. It's the Twerp, Gideon! Get him!"
+    mystery_shack_PR.3.c:0 "It's Norton’s fault. His security software ruined America!"
+    mystery_shack_PR.3.c.tt:0 "He's Right! Everyone, install McGuckettfee!\nFor Trembley, Oregon, and the True America!"
+    
+    mystery_shack_PR.4.t:0 "The Town Council"
+    mystery_shack_PR.4.d:0 ""
+    mystery_shack_PR.4.a:0 "Perhaps a donation to your re-election campaign?"
+    mystery_shack_PR.4.b:0 "It would be unfortunate if anyone learned about the Giraffe Incident..."
+    
+    mystery_shack_PR.5.t:0 "Befuddled by Befufftlefumpter"
+    mystery_shack_PR.5.d:0 "The Mayor of Gravity Falls. He's a weird one, alright. From what I read, he's more of a mystery man than I am. But I don't have the luxuary or care really to figure out this man. Driving up to his mansion on the south east end of town, near the Northwest's place, the old geezer had more guards on premise than President Curtis.\n\nArriving, I was escorted to his personal chambers, where he was feeding his giant turtle. It gave me a mean eye, but Befufftlefumpter paid no mind and had his assistant wheel him over.\n\n"Mayor Befufftlefumpter."\n\n"Mr. Pines."\n\nHe had me sit on a couch. As I waited for him, I took a look of some photos on the end table. There was him when he opened the watertower half a century ago. But there was him with sopmeone I could swear I knew. I knew her, yet I did not.\n\n"A gift!" I nervously offered to him.\n\n He didn't seeme to care too much for it. A fancy vase I traded some souvineers for from a tourist a few years back. A better deal than that goat I would imagine. I paniked and insitintaully took out my wallet. I guess I was now just going to bribe him. As I did do, the card holder unfurled. Befufftlefumpter took a look, and quickly latched on to a picture I had of this year's staff. He demanded to see it. I handed it over and he stared at it with revernce. I swear he began to tear up.\n\n"She looks just like Annebelle..."\n\n"So, uh, about the hillside..."\n\n"What? Oh yes that," He gave me the picture back, "You can have it."\n\n"Great!"\n\nI finished up the paperwork for the transfer. As I was about to leave, Befufftlefumpter turned to me.\n\n"Take good care of the Shack and your staff, Mr. Stanly Pines."\n\nHe singled to be returned to his chambers."
+    mystery_shack_PR.5.a:0 "How did he-? You know what? I'm not going to question it!"
+    
+    ##################################################################
+    
+    mystery_shack_PR_good.1.t:0 "Spread the Word"
+    mystery_shack_PR_good.1.d:0 "‘If the Mystery Shack is going to survive in this economy, we need the support of the town. We need to be remembered by tourists as the World Famous Shack of Mystery. We need... what did you call it Mabel?’\n\n‘Good Public Relationship, Grunkle Stan,’ said Mabel.\n\n‘That’s it! Good PR. The only news of the Shack, and me, should be good news! Dipper! Get over here!’\n\nDipper sighed, ‘Yes, Grunkle Stan?’\n\n‘Here’s twenty dollars. Go bribe Toby to print good things about the shack.’\n\n‘Is bribing a journalist even ethical?’\n\nWendy commented, “Hey, Mr. Pines. For that twenty, I can just threaten to beat up Toby. That’ll get our good review from him.\n\n‘Hmmm, bribery or extortion?"
+    mystery_shack_PR_good.1.a:0 "And let him know there’s more where that came from!"
+    mystery_shack_PR_good.1.b:0 "Let him know he should only print the right kind of news"
+    
+    mystery_shack_PR_good.2.t:0 ""Serving" the Community"
+    mystery_shack_PR_good.2.d:0 "So the local night court wants me to make amends from some "violations" that were completely out of my control. I mean, who hasn't stolen from the Summer-Ween store? Those old pioneer wagons are flamable and the Northwest can always buy another. And honestly, if not me, the pastor would have eventually been chased away from this crazy town by heck knows who.\n\nAnyway, they settled on community service. Fortunatley, I don't nessisarly have to be the one out there, so..."
+    mystery_shack_PR_good.2.a:0 "Well? Dipper, Mabel, get out there and serve my community"
+    mystery_shack_PR_good.2.b:0 "Dipper 4, 7, 11, 20; Get out there and serve my community"
+    
+    ### MYSYERY FAIR
+    mystery_shack_PR_good.3.t:0 ""
+    mystery_shack_PR_good.3.d:0 ""
+    mystery_shack_PR_good.3.a:0 ""
+    
+    mystery_shack_PR_good.4.t:0 ""
+    mystery_shack_PR_good.4.d:0 ""
+    mystery_shack_PR_good.4.a:0 ""
+    
+    mystery_shack_PR_good.5.t:0 ""
+    mystery_shack_PR_good.5.d:0 ""
+    mystery_shack_PR_good.5.a:0 ""
+    
+    mystery_shack_PR_good.6.t:0 ""
+    mystery_shack_PR_good.6.d:0 ""
+    mystery_shack_PR_good.6.a:0 ""
+    
+    mystery_shack_PR_good.7.t:0 ""
+    mystery_shack_PR_good.7.d:0 ""
+    mystery_shack_PR_good.7.a:0 ""
+    
+    mystery_shack_PR_good.8.t:8 "Our Man, Stan!"
+    mystery_shack_PR_good.8.d:8 "What the title says"
+    mystery_shack_PR_good.8.a:0 "Yes We Stan!"
+    
+    
+    ##################################################################
+    
+    mystery_shack_PR_bad.1.t:8 "All about the game"
+    mystery_shack_PR_bad.1.d:8 ""
+    mystery_shack_PR_bad.1.a:0 "Time to raise Heck... and make money from it!"
+    
+    mystery_shack_PR_bad.2.t:8 "The ol' Gravity Falls Shuffle"
+    mystery_shack_PR_bad.2.d:8 ""
+    mystery_shack_PR_bad.2.a:0 "Savvy, but not enough!"
+    
+    mystery_shack_PR_bad.3.t:8 "Nothing up my sleeves"
+    mystery_shack_PR_bad.3.d:8 ""
+    mystery_shack_PR_bad.3.a:0 "As honest as you can get!"
+    
+    ##################################################################
+    #   Don't rock the Mabel
+    ##################################################################
+    
+    mystery_shack_rock_the_mabel.1.t:0 "Gideon is waiting for you"
+    mystery_shack_rock_the_mabel.1.d:0 ""
+    mystery_shack_rock_the_mabel.1.a:0 ""
+    
+    mystery_shack_rock_the_mabel.2.t:0 "Mabel, who is that?"
+    mystery_shack_rock_the_mabel.2.d:0 ""
+    mystery_shack_rock_the_mabel.2.a:0 ""
+    mystery_shack_rock_the_mabel.2.b:0 ""
+    mystery_shack_rock_the_mabel.2.c:0 ""
+    
+    mystery_shack_rock_the_mabel.3.t:0 "What a view!"
+    mystery_shack_rock_the_mabel.3.d:0 ""
+    mystery_shack_rock_the_mabel.3.a:0 ""
+    mystery_shack_rock_the_mabel.3.b:0 ""
+    mystery_shack_rock_the_mabel.3.c:0 ""
+    
+    mystery_shack_rock_the_mabel.4.t:0 "M'Lady"
+    mystery_shack_rock_the_mabel.4.d:0 ""
+    mystery_shack_rock_the_mabel.4.a:0 ""
+    mystery_shack_rock_the_mabel.4.b:0 ""
+    mystery_shack_rock_the_mabel.4.c:0 ""
+    
+    mystery_shack_rock_the_mabel.5.t:0 "Excellent Choice, Mr. Gideon"
+    mystery_shack_rock_the_mabel.5.d:0 ""
+    mystery_shack_rock_the_mabel.5.a:0 ""
+    mystery_shack_rock_the_mabel.5.b:0 ""
+    mystery_shack_rock_the_mabel.5.c:0 ""
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
