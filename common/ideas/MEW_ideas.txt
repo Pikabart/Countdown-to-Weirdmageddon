@@ -19,7 +19,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.4
-				war_support_factor = -0.4
+				war_support_factor = -0.6
 			}
 		}
 		
@@ -349,7 +349,83 @@ ideas = {
 		}
 		###############################
 
+
+
+	######################################################
+	#National Spirits Imposed on Others
+	######################################################
+	
+		OST_hostile_mewman_trade = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.05
+				consumer_goods_factor = 0.05	
+			}
+		}
+		
+		OST_hostile_mewman_trade_2 = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.1
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		OST_hostile_mewman_trade_3 = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.15
+				consumer_goods_factor = 0.15
+			}
+		}
+		
+		OST_hostile_mewman_trade_mew = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		#################################
+		#STAR RELATIONSHIPS##############
+		#################################
+
+		MEW_star_x_tom_unofficial = {
+			picture = MEW_star_x_tom_idea
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				political_power_gain = 0.1
+			}
+		}		
+
 }
+
 
 	######################################################
 	#Political Advisors
@@ -384,7 +460,7 @@ ideas = {
 			available = {
 			}
 			
-			traits = { popular_figurehead }
+			traits = { insane popular_figurehead }
 
 			ai_will_do = {
 				factor = 0.5

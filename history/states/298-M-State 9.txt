@@ -5,8 +5,8 @@ state={
 		131 263 781 1618 1789 3139 4465 5488 6045 6793 6977 7144 8357 8432 
 	}
 	history {
-		owner = PIG
-		add_core_of = PIG
+		owner = OST
+		add_core_of = OST
 		buildings = {
 			arms_factory = 0
 			industrial_complex = 0
@@ -17,6 +17,8 @@ state={
 			anti_air_building = 0
 			radar_station = 0
 		}	
+	victory_points = { 4465 20 }
+	victory_points = { 781 5 }
 	}
 	
 	manpower=5000

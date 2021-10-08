@@ -12,14 +12,67 @@ Butterfly_family_desc:0 "The royal family that lead our kingdom though good and 
 Butterfly_prolouge_end:0 "Star Butterfly"
 Butterfly_prolouge_end_desc:0 "The children are the future, the inheritors to the world. And the future of the royal family, and by extension of all of Mewni, rests on the royal heir. Star Butterfly."
 
+#############################################################################################
+
+situation_in_the_south:0 "Situation in the South"
+situation_in_the_south_desc:0 "To the south lies the Ostro Starvarian Empire, the largest state on Mewni not subjagated by us. Wouldn't it be great if it were?"
+
+mew_mina_treatment:0 "Doctor's Orders"
+mew_mina_treatment_desc:0 "Mina Loveberry, although revered by the populace for being the last Solarian Warrior still alive, is growing more and more of a nuisance to us each day on account of her deteriorating mental state. As such we must get treatment for her. Not only will we be seen as kind for getting Mina the help she needs, we will more importantly be getting rid of her and her insane proposals."
+
+import_tax:0 "Impose Import Tax"
+import_tax_desc:0 "We are a- no, THE major economic bloc of Mewni. If you want to make money on Mewni, you will have to be on good terms with us. If we were to impose import taxes upon Ostro Starvarian goods, we could damage their economy and destabalize their nation!"
+
+mew_sanctions:0 "Economic Sanctions"
+mew_sanctions_desc:0 "It is not enough that we deny their goods to flow into us, we must stop goods from going into the Ostro Starvarian empire as well! This will effectively starve out their nation, further destabalizing it."
+
+mew_tribute:0 "Demand Tribute"
+mew_tribute_desc:0 "The Ostro Starvarians cannot witstand our economic pressure. We will demand a tribute from them."
+
+mew_trolling:0 "Extert Diplomatic Pressure"
+mew_trolling_desc:0 "By hiring those who call themselves "Russians" we can use them to send a constant stream of propaganda- I mean reasons that Mewman rule would be better, to the Ostro Starvarian minorities. And we can also send a constant stream of insults to the Emperor himself, or as the Russians call it, "A Little Bit of Trolling." Whatever that means. "
+excessive_trolling:0 "Excessive Trolling"
+
+mew_demand_state:0 "Demand Emily River"
+mew_demand_state_desc:0 "We do not have big enough frontlines to attack the Ostro Starvarians in case of a war. We will demand some land from them under threat of war. They will have no choice but to accept this."
+
+mew_demand_state_a:0 "Demand Itchy Clearing"
+mew_demand_state_a_desc:0 "The Ostro Starvarians cannot withstand out diplomatic pressure. We will demand more land from them as a power move."
+
+mew_demand_subjagation:0 "Demand Subjagation"
+mew_demand_subjagation_desc:0 "It is obvious that the Ostro Starvarians cannot withstand our diplomatic and economic pressure. We will give them the option to swear fealty to us."
+
+mew_drill_border:0 "Drills on the Border"
+mew_drill_border_desc:0 "We will intimidate the Ostro Starvarians by doing marching drills near the border."
+
+mew_freinds_in_high_places:0 "Infiltrate the Enemy Government"
+mew_freinds_in_high_places_desc:0 "We can send in spies to act as secrataries, janitors, and more, so that they can discreetly cause disorder in the nation."
+
+mew_factory_overdrive:0 "Subsidize Factories"
+mew_factory_overdrive_desc:0 "For the upcoming war effort, we must produce weapons of war. Paying for new, industrial equipment will help in this."
+
+mew_waterway_supremacy:0 "Supremacy Over the Mewman Waterway"
+mew_waterway_supremacy_desc:0 "By subsidizing new industrial shipbuilding equipment, we can ensure supremacy over the Mewni Waterway."
+
+mew_michael_bay:0 "Contact Michael Bay"
+mew_michael_bay_desc:0 "By creating a short movie and telling the Mewman populace that it is true footage of an Ostro Starvarian attack, we can fire up the Mewman populace into action. We will contact Michael bay for the pyrotechnics."
+
+mew_war_1:0 "Death to the Emperor!"
+mew_war_1_desc:0 "You've waited long enough. It's time to have some fun."
+
+#############################################################################################
+
+star_14_birthday:0 "Star's 14th Birthday"
+star_14_birthday_desc:0 "Star's 14th birthay is coming up. It is tradition that the royal magic wand be passed down to her on that day. Hopefully she studied her magic well."
+
 corn_report:0 "Investigate Missing Corn Stocks"
 corn_report_desc:0 "It seems our corn stocks are lower than expected. We must investigate this."
 
 ludo_path:0 "A Rat in the Shadows"
 ludo_path_desc:0 "Somewhere, in the darkest ditches of Mewni, a rat carries it's corn."
 
+#################################################################################################
 
-#############################################################################################
 exterminators:0 "Assemble the Royal Exterminators"
 exterminators_desc:0 "It's high time we assemble an official, state extermination company. With backing from the mostly brightest minds at the Skywynne Institute and financers from Port Festiva and Port Emily, we'll bring our best and richest to bare on this treat!"
 REC_focus_tooltip:0 "Unlocks §YREC§! descisions, which increase §YStability§!"

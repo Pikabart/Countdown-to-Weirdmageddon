@@ -164,6 +164,19 @@
 ###########################################################
 #Mewni Monsters
 
+ OST_fascism:0 "Ostro Starvarian Empire"
+ OST_fascism_DEF:0 "Ostro Starvarian Empire"
+ OST_democratic:0 "Ostro Starvarian Empire"
+ OST_democratic_DEF:0 "Ostro Starvarian Empire"
+ OST_neutrality:1 "Ostro Starvarian Empire"
+ OST_neutrality_DEF:1 "Ostro Starvarian Empire"
+ OST_communism:0 "Ostro Starvarian Empire"
+ OST_communism_DEF:0 "Ostro Starvarian Empire"
+ OST_fascism_ADJ:0 "Ostro Starvarian Empire"
+ OST_democratic_ADJ:0 "Ostro Starvarian Empire"
+ OST_neutrality_ADJ:0 "Ostro Starvarian Empire"
+ OST_communism_ADJ:0 "Ostro Starvarian Empire"
+
  ICH_fascism:0 "Itchy Kingdom"
  ICH_fascism_DEF:0 "Itchy Kingdom"
  ICH_democratic:0 "Itchy Kingdom"

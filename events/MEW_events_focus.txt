@@ -6,6 +6,7 @@ add_namespace = mewni_solaria
 add_namespace = mewni_300_peace
 add_namespace = butterfly_family
 add_namespace = MEW_prolouge_end
+add_namespace = MEW_stars_14th_birthday_event
 add_namespace = corn_theft
 add_namespace = corn_theft_ludo
 add_namespace = exterminators
@@ -128,7 +129,7 @@ country_event = {
 	id = MEW_prolouge_end.1
 	title = MEW_prolouge_end.1.t
 	desc = MEW_prolouge_end.1.d
-	picture = GFX_report_event_star_with_wand
+	picture = GFX_report_event_young_star
 	
 	is_triggered_only = yes
 	
@@ -136,7 +137,33 @@ country_event = {
 		name = MEW_prolouge_end.1.a
 		ai_chance = { factor = 90 }
 		add_ideas = MEW_vacant_heir
+		ai_chance = {
+			factor = 50
+
+		}
+	}
+}
+
+country_event = {
+	id = MEW_stars_14th_birthday_event.1
+	title = MEW_stars_14th_birthday_event.1.t
+	desc = MEW_stars_14th_birthday_event.1.d
+	picture = GFX_report_event_star_with_wand
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MEW_stars_14th_birthday_event.1.a
+		ai_chance = { factor = 90 }
 		add_ideas = MEW_heir_studying_overdimensions
+		266 = {
+			damage_building = {
+				type = infrastructure
+				damage = 2
+			}
+		}
+		add_stability = -0.05
+		
 		ai_chance = {
 			factor = 50
 
@@ -155,7 +182,7 @@ country_event = {
 	option = {
 		name = corn_theft.1.a
 		ai_chance = { factor = 90 }
-	hidden_effect = {
+		hidden_effect = {
 		news_event = { id = mewni_corn_crisis_news_event.1 days = 1 }
 		JOH = { news_event = { id = mewni_corn_crisis_news_event.1 days = 1 } }
 		LUC = { news_event = { id = mewni_corn_crisis_news_event.1 days = 1 } }
@@ -302,9 +329,45 @@ country_event = {
 				damage = 2
 		}
 	}
+		hidden_effect = {
+			MEW = { country_event = { id = controlled_burning.2 days = 14 } }
+		}
+	
 	}
 	
 	
+}
+
+country_event = {
+	id = controlled_burning.2
+	title = controlled_burning.2.t
+	desc = controlled_burning.2.d
+	picture = GFX_report_event_broken_wand
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = controlled_burning.2.a
+		ai_chance = { factor = 90 }
+		UKN = { transfer_state = 393 }
+		hidden_effect = {
+			MEW = { country_event = { id = controlled_burning.3 days = 28 } }
+		}
+	}
+}
+
+country_event = {
+	id = controlled_burning.3
+	title = controlled_burning.3.t
+	desc = controlled_burning.3.d
+	picture = GFX_report_event_open_mouth_moon
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = controlled_burning.3.a
+		ai_chance = { factor = 90 }
+	}
 }
 
 ##################################################

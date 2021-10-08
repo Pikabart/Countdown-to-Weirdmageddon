@@ -72,7 +72,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "King River of House Butterfly"
+	name = "King River Butterfly"
 	desc = ""
 	picture = "hoi4_portrait_river_butterfly2.dds"
 	ideology = oligarchism

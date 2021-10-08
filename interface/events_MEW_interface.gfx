@@ -153,7 +153,25 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MEW/report_event_toffee_ludo.dds"
 	}
 	
+	spriteType = { # Star x Tom
+		name = "GFX_report_event_star_x_tom"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_star_x_tom.dds"
+	}
 	
+	spriteType = { # Mina in formal wear, angry
+		name = "GFX_report_event_mina_formal_angry"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_mina_formal_angry.dds"
+	}
+	
+	spriteType = { # Star angry crying
+		name = "GFX_report_event_star_breakup"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_star_breakup.dds"
+	}
+	
+	spriteType = { # Young Star
+		name = "GFX_report_event_young_star"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_young_star.dds"
+	}
 	
 	
    #############################################################

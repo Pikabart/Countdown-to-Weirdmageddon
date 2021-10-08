@@ -73,9 +73,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Queen Wrathmelior of House Lucitor"
+	name = "Queen Wrathmelior Lucitor"
 	desc = ""
-	picture = ""
+	picture = "hoi4_portrait_wrathmelior.dds"
 	ideology = oligarchism
 	traits = {
 		#

@@ -1,4 +1,4 @@
-﻿focus_tree = {
+focus_tree = {
 	id = mewni_focus
 	
 	country = {
@@ -12,7 +12,7 @@
 	default = no
 	reset_on_civilwar = no
 
-	continuous_focus_position = { x = 50 y = 50 } 
+	continuous_focus_position = { x = 50 y = 250 } 
 	# Change as needed as more focus are added - orginally {x=50 y=1000}
 
 #################################
@@ -88,509 +88,320 @@
 	}
 	
 	focus = {
-		id = corn_report
-		icon = GFX_goal_focus_investigate_missing_corn_stocks
+		id = situation_in_the_south
+		icon = GFX_goal_focus_attack_ostritch
 		x = 0
 		y = 1
-		relative_position_id = Butterfly_prolouge_end
+		relative_position_id = Butterfly_prolouge_end 
 		prerequisite = { focus = Butterfly_prolouge_end }
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
 		cost = 1
 		
-		mutually_exclusive = {
-			focus = ludo_path
+		available_if_capitulated = yes
+
+		completion_reward = {
+		country_event = mew_ost_situation.1
+		
 		}
+	}
+	
+	focus = {
+		id = import_tax
+		icon = GFX_goal_generic_neutrality_focus
+		x = -2
+		y = 1
+		relative_position_id = situation_in_the_south 
+		prerequisite = { focus = situation_in_the_south }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 1
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			country_event = corn_theft.1
-			set_global_flag = MEW_corn_theft
+		
+			OST = { country_event = { id = mew_ost_trade.1 days = 1 } }
+		
 		}
 	}
-
+	
 	focus = {
-		id = ludo_path
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -5
+		id = mew_sanctions
+		icon = GFX_goal_generic_forceful_treaty
+		x = 0
 		y = 1
-		relative_position_id = Butterfly_prolouge_end
-		prerequisite = { focus = Butterfly_prolouge_end }		
+		relative_position_id = import_tax 
+		prerequisite = { focus = import_tax }
 		search_filters = {  FOCUS_FILTER_RESEARCH }
-		available = { has_global_flag = ai_block }
-
+		
 		cost = 2
 		
-		mutually_exclusive = {
-			focus = corn_report
+		available_if_capitulated = yes
+
+		completion_reward = {
+			OST = { country_event = { id = mew_ost_trade.2 days = 1 } }
+
+
 		}
+	}
+	
+	focus = {
+		id = mew_tribute
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 1
+		relative_position_id = mew_sanctions 
+		prerequisite = { focus = mew_sanctions }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 4
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			country_event = corn_theft_ludo.1
+		OST = { country_event = { id = mew_ost_trade.3 days = 1 } }
+
 		}
 	}
 	
-	##########################################################
+	focus = {
+		id = mew_trolling
+		icon = GFX_goal_generic_propaganda
+		x = 0
+		y = 1
+		relative_position_id = situation_in_the_south 
+		prerequisite = { focus = situation_in_the_south }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 1
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_opinion_modifier = {
+			target = OST
+			modifier = excessive_trolling
+		}
+		OST = { country_event = { id = mew_ost_diplo.1 days = 1 } }
+		
+		}
+	}
 	
 	focus = {
-		id = exterminators
-		icon = GFX_goal_focus_assemble_royal_exterminators
+		id = mew_demand_state
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 1
+		relative_position_id = mew_trolling 
+		prerequisite = { focus = mew_trolling }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 2
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		OST = { country_event = { id = mew_ost_diplo.2 days = 1 } }
+		
+		}
+	}
+
+	focus = {
+		id = mew_demand_state_a
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 1
+		relative_position_id = mew_demand_state 
+		prerequisite = { focus = mew_demand_state }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 4
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		OST = { country_event = { id = mew_ost_diplo.3 days = 1 } }
+
+		
+		}
+	}
+	
+	focus = {
+		id = mew_demand_subjagation
+		icon = GFX_goal_generic_secret_weapon
 		x = -1
-		y = 2		
-		prerequisite = { focus = emergency_economics }
-		relative_position_id = emergency_economics_3
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		cost = 4
-		
-		available_if_capitulated = yes
-		
-		completion_reward = {
-			country_event = exterminators.1
-			custom_effect_tooltip = "REC_focus_tooltip"
-			set_country_flag = REC_founded_flag     # enable decisions cat
-		}
-	}
-	
-	focus = {
-		id = hunt_rat
-		icon = GFX_goal_focus_form_the_arat
-		x = 1
-		y = 2
-		prerequisite = { focus = emergency_economics }
-		relative_position_id = emergency_economics_3
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		cost = 4
-		
-		available_if_capitulated = yes
-		
-		completion_reward = {
-			country_event = hunt_rat.1
-			set_country_flag = A-RAT_founded_flag    # enable decisions cat
-			custom_effect_tooltip = "hunt_rat_custom_tooltip"
-		}
-	}
-	
-	
-	focus = {
-		id = utilize_army
-		icon = GFX_goal_focus_utilize_the_army
-		x = 1
-		y = 1		
-		prerequisite = { focus = exterminators }
-		prerequisite = { focus = hunt_rat }
-		relative_position_id = exterminators
-		search_filters = {  FOCUS_FILTER_RESEARCH }		
-		
-		cost = 4
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = utilize_army.1
-			set_country_flag = A-RAT_upgrade
-		}
-	}
-
-	focus = {
-		id = desperate_measures
-		icon = GFX_goal_focus_desperate_measures
-		x = 0
 		y = 1
-		prerequisite = { focus = utilize_army }
-		relative_position_id = utilize_army
+		relative_position_id = mew_demand_state_a
+		prerequisite = { focus = mew_demand_state_a }
+		prerequisite = { focus = mew_tribute }
+
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
-		cost = 4
+		cost = 5
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			country_event = controlled_burning.1
-		}
-	}
-	
-	
-
-###################################################################################
-	focus = {
-		id = emergency_economics
-		icon = GFX_goal_generic_construct_civ_factory
-		x = 0
-		y = 1	
-		prerequisite = { focus = corn_report }
-		relative_position_id = corn_report
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-			
-		cost = 4
 		
-		available_if_capitulated = yes
+		OST = { country_event = { id = mew_ost_subjagation.1 days = 1 } }
 
-		completion_reward = {
-			country_event = emergency_economics.1
+		
 		}
 	}
 	
 	focus = {
-		id = emergency_economics_2
-		icon = GFX_goal_generic_construct_civ_factory
-		x = 0
-		y = 1
-		prerequisite = { focus = emergency_economics }
-		relative_position_id = emergency_economics
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		cost = 4
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			swap_ideas = { 
-				remove_idea = MEW_emergency_economics
-				add_idea = MEW_emergency_economics_2_display
-
-			}
-			hidden_effect = { country_event = { id = emergency_economics_2.1 days = 7}}
-		}
-	}
-
-	focus = {
-		id = emergency_economics_3
-		icon = GFX_goal_focus_import_earth_machinery
-		x = 0
-		y = 1
-		prerequisite = { focus = emergency_economics_2 }
-		relative_position_id = emergency_economics_2
-		
-		cost = 4
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			swap_ideas = { 
-				remove_idea = MEW_emergency_economics_2
-				add_idea = MEW_emergency_economics_3_display
-			}	
-			hidden_effect = { 
-				country_event = { id = emergency_economics_3.1 days = 7 }
-			}
-		
-		}
-	}
-	
-	#########################################################
-	
-	focus = {
-		id = MEW_force_economy
-		icon = GFX_goal_focus_double_down
-		x = -3
-		y = 1
-		prerequisite = { focus = emergency_economics_3 }
-		relative_position_id = emergency_economics_3
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		cost = 4
-		
-		mutually_exclusive = {
-		focus = MEW_reform_economy
-	}
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			swap_ideas = {
-				remove_idea = MEW_emergency_economics_3
-				add_idea = MEW_forced_economics_display
-			}
-			hidden_effect = { country_event = { id = force_economy.1 days = 7 }}
-
-	}	
-	}
-	focus = {
-		id = MEW_force_economy_2
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 0
-		y = 1
-		prerequisite = { focus = MEW_force_economy }
-		relative_position_id = MEW_force_economy
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		cost = 6
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = force_economy_2.1
-		}
-	}
-	
-	focus = {
-		id = MEW_force_economy_3
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 0
-		y = 1
-		prerequisite = { focus = MEW_force_economy_2 }
-		relative_position_id = MEW_force_economy_2
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		cost = 6
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = force_economy_3.1
-		}
-	}
-	
-	focus = {
-		id = MEW_force_economy_4
-		icon = GFX_goal_continuous_suppression
-		x = 0
-		y = 1
-		prerequisite = { focus = MEW_force_economy_3 }
-		relative_position_id = MEW_force_economy_3
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		cost = 6
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = force_economy_4.1
-			custom_effect_tooltip = "MEW_force_economy_4_custom_tooltip"
-		}
-	}
-	
-	################################################################
-	
-	focus = {
-		id = MEW_reform_economy
-		icon = GFX_goal_focus_why_corn
+		id = mew_drill_border
+		icon = GFX_goal_generic_allies_build_infantry
 		x = 3
 		y = 1
-		prerequisite = { focus = emergency_economics_3 }
-		relative_position_id = emergency_economics_3
+		relative_position_id = situation_in_the_south 
+		prerequisite = { focus = situation_in_the_south }
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 1
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		army_experience = 5
+
+		}
+	}
+	
+	focus = {
+		id = mew_freinds_in_high_places
+		icon = GFX_goal_generic_wolf_pack
+		x = 0
+		y = 1
+		relative_position_id = mew_drill_border 
+		prerequisite = { focus = mew_drill_border }
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 2
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		OST = { add_stability = -0.15 }
+		
+		}
+	}
+
+	focus = {
+		id = mew_factory_overdrive
+		icon = GFX_goal_generic_construct_mil_factory
+		x = -1
+		y = 1
+		relative_position_id = mew_freinds_in_high_places 
+		prerequisite = { focus = mew_freinds_in_high_places }
+
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
 		cost = 4
 		
-		mutually_exclusive = {
-			focus = MEW_force_economy
-		}
-		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			country_event = MEW_reform_economy.1
+			add_offsite_building = {
+				type = arms_factory
+				level = 4
+			}
+		
 		}
 	}
 	
 	focus = {
-		id = MEW_reform_economy_2
-		icon = GFX_goal_focus_crop_variation
-		x = 0
-		y = 1
-		prerequisite = { focus = MEW_reform_economy }
-		relative_position_id = MEW_reform_economy
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		cost = 6
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = MEW_reform_economy_2.1
-		}
-	}
-	
-	focus = {
-		id = MEW_reform_economy_3
-		icon = GFX_goal_focus_foreign_economic_theory
-		x = 0
-		y = 1
-		prerequisite = { focus = MEW_reform_economy_2 }
-		relative_position_id = MEW_reform_economy_2
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		cost = 6
-		
-		available_if_capitulated = yes
-
-		completion_reward = { 
-			country_event = MEW_reform_economy_3.1
-			CAL = { country_event = { id = CAL_TWOWORLDS.1 days = 7 } }
-		}
-	}
-	
-	focus = {
-		id = MEW_reform_economy_4
-		icon = GFX_goal_continuous_non_factory_construct
-		x = 0
-		y = 1
-		prerequisite = { focus = MEW_reform_economy_3 }
-		relative_position_id = MEW_reform_economy_3
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		cost = 6
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = MEW_reform_economy_4.1
-			custom_effect_tooltip = "MEW_reform_economy_4_custom_tooltip"
-			
-		}
-	}
-	
-	##########################################################
-	
-	focus = {
-		id = MEW_economy_final
-		icon = GFX_goal_focus_theoretical_magical_mechanization
-		x = 0
-		y = 1
-		prerequisite = { 
-			focus = MEW_reform_economy_4 
-			focus = MEW_force_economy_4
-		}
-		prerequisite = { focus = desperate_measures }
-		relative_position_id = desperate_measures
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-
-		cost = 6
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = MEW_economy_final.1
-		}
-	}
-	
-	focus = {
-		id = magic_fritz
-		icon = GFX_goal_focus_the_magical_malfunction
-		x = 0
-		y = 2
-		prerequisite = { focus = MEW_economy_final }
-		available = { has_country_flag = A-RAT_magic_operation_done } #This will enable focus The Magical Malfunction
-		relative_position_id = desperate_measures
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		cost = 6
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = magic_fritz.1
-		}
-	}
-	
-	focus = {
-		id = visit_avarius_family
-		icon = GFX_goal_focus_visit_the_avarius_family
+		id = mew_waterway_supremacy
+		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 1
 		y = 1
-		prerequisite = { focus = magic_fritz }
-		relative_position_id = magic_fritz
+		relative_position_id = mew_freinds_in_high_places 
+		prerequisite = { focus = mew_freinds_in_high_places }
+
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
-		cost = 3
+		cost = 4
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			country_event = visit_avarius_family_event.1
+		
+			add_offsite_building = {
+				type = dockyard
+				level = 4
+			}
 		
 		}
 	}
-	
+
 	focus = {
-		id = brush_up
-		icon = GFX_goal_focus_brush_up_on_magical_combat
+		id = mew_michael_bay
+		icon = GFX_goal_generic_air_naval_bomber
 		x = -1
 		y = 1
-		prerequisite = { focus = magic_fritz }
-		relative_position_id = magic_fritz
+		relative_position_id = mew_waterway_supremacy 
+		prerequisite = { focus = mew_waterway_supremacy }
+		prerequisite = { focus = mew_factory_overdrive }
+
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
-		cost = 3
+		cost = 5
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			country_event = brush_up_event.1
 		
-		}
-	}
-	
-		focus = {
-		id = ensure_support_from_mhc
-		icon = GFX_goal_focus_ensure_support_from_the_mhc
-		x = 1
-		y = 1
-		prerequisite = { focus = visit_avarius_family }
-		prerequisite = { focus = brush_up }
-
-		relative_position_id = brush_up
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		
-		cost = 3
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = ensure_support_from_mhc_event.1
+		add_war_support = 0.2
 		
 		}
 	}
 	
 	focus = {
-		id = song_day
-		icon = GFX_goal_focus_stars_song_day
-		x = 0
+		id = mew_war_1
+		icon = GFX_goal_focus_attack_ostritch
+		x = -2
 		y = 1
-		prerequisite = { focus = ensure_support_from_mhc }
+		relative_position_id = mew_michael_bay 
+		prerequisite = { focus = mew_michael_bay }
+		prerequisite = { focus = mew_demand_subjagation }
 
-		relative_position_id = ensure_support_from_mhc
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
-		cost = 3
+		cost = 5
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			country_event = song_day_event.1
+		declare_war_on = {
+			target = OST
+			type = annex_everything
+		}
 		
 		}
 	}
 	
 	focus = {
-		id = confront_ludo
-		icon = GFX_goal_focus_confront_ludo
-		x = -1
-		y = 3
-		
-		prerequisite = { focus = song_day }
-		relative_position_id = song_day
-
-
-		relative_position_id = visit_avarius_family
+		id = mew_mina_treatment
+		icon = GFX_goal_focus_mina_treatment
+		x = 5
+		y = 1
+		relative_position_id = situation_in_the_south 
+		prerequisite = { focus = situation_in_the_south }
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
-		cost = 10
+		cost = 1
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
-			country_event = ludo_confront_1.1
+			remove_ideas = mina_advisor
 		
 		}
 	}
-
-
 }

@@ -3,6 +3,8 @@ spriteTypes = {
 	####
 	# Mewni Focus
 	####
+	
+	
 	SpriteType = {
 	name = "GFX_goal_focus_the_butterfly_family"
 	texturefile = "gfx/interface/goals/MEW/focus_the_butterfly_family.dds"			
@@ -17,6 +19,20 @@ spriteTypes = {
 	name = "GFX_goal_focus_300_years_of_peace"
 	texturefile = "gfx/interface/goals/MEW/focus_300_years_of_peace.dds"			
 	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_attack_ostritch"
+	texturefile = "gfx/interface/goals/MEW/pigeon_war/focus_attack_ostritch.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_mina_treatment"
+	texturefile = "gfx/interface/goals/MEW/pigeon_war/focus_mina_treatment.dds"			
+	}	
+	
+	####
+	# Mewni after pigeon war Focus
+	####
 	
 	SpriteType = {
 	name = "GFX_goal_focus_investigate_missing_corn_stocks"
