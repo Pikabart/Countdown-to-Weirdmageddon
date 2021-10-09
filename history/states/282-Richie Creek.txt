@@ -2,8 +2,8 @@ state={
 	id=282
 	name="STATE_282"
 	history {
-		owner = PIG
-		add_core_of = PIG
+		owner = OST
+		add_core_of = OST
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 1
@@ -16,6 +16,7 @@ state={
 		}
 		
 		victory_points = { 942 5 }
+		victory_points = { 1399 5 }
 	}
 	
 	provinces={

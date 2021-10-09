@@ -2,8 +2,8 @@ state={
 	id=278
 	name="STATE_278"
 	history {
-		owner = AIR
-		add_core_of = AIR
+		owner = OST
+		add_core_of = OST
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 2
@@ -15,14 +15,14 @@ state={
 			radar_station = 0
 		}
 
-		victory_points = { 5913 20 }
+		victory_points = { 5913 5 }
 	}
 	
 	provinces={
 		295 418 991 1039 1107 1247 4129 5084 5188 5572 5787 5913 6144 6509 8619 8639 8725 8762 
 	}
 	
-	manpower=6500
+	manpower=2000000
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

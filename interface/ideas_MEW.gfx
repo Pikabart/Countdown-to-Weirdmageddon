@@ -60,6 +60,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/mew/MEW_strike_first_idea.dds"			
 	}
 
+	############
+	#STAR SHIPS#
+	############
+	
+	SpriteType = {
+		name = "GFX_idea_MEW_star_x_tom_idea"
+		texturefile = "gfx/interface/ideas/mew/MEW_star_x_tom_idea.dds"			
+	}
 
 	
 }

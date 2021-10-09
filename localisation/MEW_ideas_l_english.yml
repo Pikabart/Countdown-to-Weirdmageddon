@@ -6,6 +6,8 @@ MEW_300_years_of_peace_desc:0 "Although the Kingdom of Mewni has had a history o
 MEW_vacant_heir:0 "Heir Single"
 MEW_vacant_heir_desc:0 "Star Butterfly, heir to the Mewman throne, is single. This gives us some extra leveraging power in certain deals between our client kingdoms, however it also comes with the future having some uncertainty."
 
+MEW_star_x_tom_unofficial:0 "Heir in a Relationship"
+
 MEW_heir_studying_overdimensions:0 "Heir Studying Overdimensions"
 MEW_heir_studying_overdimensions_desc:0 "Although Star Butterfly does make regular visits to Mewni, she spends most of her time studying her magic on earth. This has made it hard for certain traditions to be carried out in full."
 
@@ -57,6 +59,11 @@ strike_first_idea_desc:0 "We have striked first in the civil war, and thus we ha
 mew_rapid_deployment_idea:0 "Rapid Deployment"
 mew_rapid_deployment_idea_desc:0 "Rapid deployment"
 
+OST_hostile_mewman_trade:0 "Hostile Mewman Trade"
+OST_hostile_mewman_trade_2:0 "Hostile Mewman Trade"
+OST_hostile_mewman_trade_3:0 "Hostile Mewman Trade"
+OST_hostile_mewman_trade_mew:0 "Ostro Starvarian Tribute"
+
 ###############################
 #Special MYS event idea for MEW
 stan_steal_corn_idea:0 "Curse that Stanford Pines!"
@@ -82,6 +89,4 @@ lady_whosits:0 "Lady Whosits"
 monster_staff:0 "Dmitry Ulyanov"
 monster_staff_chief:0 "Petr Ulyanov"
 johansen_army_chief:0 "King Johansen of House Butterfly"
-
-
 

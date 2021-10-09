@@ -69,9 +69,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "King Ponyhead of House Ponyhead"
+	name = "King Ponyhead"
 	desc = ""
-	picture = ""
+	picture = "hoi4_portrait_king_pony.dds"
 	ideology = oligarchism
 	traits = {
 		#

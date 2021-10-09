@@ -18,8 +18,8 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Princess Jags of house Jaggy"
+	name = "King Jags Jaggy"
 	desc = "placeholder"
-	picture = "hoi4_portrait_moon.dds"
+	picture = "hoi4_portrait_king_jags.dds"
 	ideology = oligarchism
 }

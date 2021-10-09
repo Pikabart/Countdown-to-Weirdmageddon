@@ -3,8 +3,8 @@ state={
 	name="STATE_296"
 
 	history {
-		owner = PIG
-		add_core_of = PIG
+		owner = OST
+		add_core_of = OST
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 1
@@ -21,7 +21,7 @@ state={
 		1891 2355 3755 4449 4566 4600 5150 5243 6864 8471 8480 8514 
 	}
 	
-	manpower=6000
+	manpower=700000
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

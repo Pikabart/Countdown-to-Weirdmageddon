@@ -74,9 +74,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "King Pigeon of Nest Pigeon"
+	name = "King Pigeon"
 	desc = ""
-	picture = ""
+	picture = "hoi4_portrait_king_pigeon.dds"
 	ideology = oligarchism
 	traits = {
 		#

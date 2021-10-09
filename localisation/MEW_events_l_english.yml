@@ -1,6 +1,8 @@
 ﻿l_english:
 
-#Legacy of Solaria
+#######
+#INTRO#
+#######
 
 mewni_solaria.1.t:0 "The Legacy of Queen Solaria"
 mewni_solaria.1.d:0 "Three hundred years ago, a newly crowned Queen Solaria Butterfly rallied the numerous Mewman kingdoms for a grand campaign. Her mission, that she proclaimed to the Butterfly kingdom on the very night of her coronation, was to bring the entire dimension of Menwi under the rule of Mewmankind. She rallied her armies, perfected the great magic of the Butterfly Line, and began a long and glorious war to crush the monster filth.\n\nShe undoubtedly succeeded, and brought about an unprecedented golden age of Mewman supremacy. Her leadership drove the monster hordes into the Underworld and the Forest of Certain Death, where they still remain fighting amongst themselves. Thanks to her keen interest in alliance building, spearheaded by her older brother, Prince Jushtin Butterfly, she gave birth to the system that stands today as the Kingdom of Mewni. And it would be her dying wish that ensured that through centuries of dynasties and political changes, the Butterfly Family would have everlasting hegemonoy over all of Mewni."
@@ -16,9 +18,79 @@ butterfly_family.1.t:0 "House Butterfly"
 butterfly_family.1.d:0 "The Butterfly family has ruled most of Mewni since the great Queen Solaria led the glorious fight against the monsters and secured Mewnipendance. Having secured the Mewman’s goal of "Life, Safety, and Corn" the monarchy under House Butterfly has led their kingdom, and by extension most of the Mewman race, through the golden age of Mewman peace. But not all is easy, as in the recent years the reluctance to reform has begun to show it's concequences.\n\nThe Queen Comet Crisis, which had the current Queen Butterfly rise to the throne after her mother was slain by the Monster Toffee, almost had Mewni be plunged into war once again. However, Queen Moon protected her people and prevented the crisis from starting total war. And as a new era dawns on the Mewman dimension, everyone looks to Moon and the Butterfly family for guidance."
 butterfly_family.1.a:0 "Except Star, definitley not Star"
 
-MEW_prolouge_end.1.t:0 "The Underestimated"
-MEW_prolouge_end.1.d:0 "Princess Star of House Butterfly, heir to the Mewman throne, is not in her home dimension of Mewni. Instead, she is on Earth. In California, to be precise. This is because she had insufficiently studied her magic, and now with the Butterfly wand in her possession (Given to all Butterfly heirs at age 14,) Her ineptitude is now destructive. The last straw was the great fire of Mewni, which was caused by her the very first day she got her wand. Thus, she will study on earth using their “Foriegn Exchange Program.” Until she can sufficiently control her magic.\n\nIt’s not all bad with her though. Politically speaking, anyway. It seems that every heir in the various Kingdoms that make up the Kingdom of Mewni are of similar age. Thus, all rulers of Mewni could be friends from childhood in the next generation. And there is of course always the possibility of an alliance through marriage."
-MEW_prolouge_end.1.a:0 "However, they still call her "The Underestimated" for a reason"
+MEW_prolouge_end.1.t:0 "Princess and Heiress"
+MEW_prolouge_end.1.d:0 "Princess Star of House Butterfly, heiress to the Mewman throne, is 9 years old. These formative years of her childhood will require a careful customized education in order for her to truly act like royalty. Unfortunately, the situation in the south will have to take precedence. All we can do is trust that a standardized education will suit her.\n\nIt's not all bad though. It seems that every heir in the various Kingdoms that make up the Kingdom of Mewni are of similar age. Thus, all rulers of Mewni could be friends from childhood in the next generation. And there is of course always the possibility of an alliance through marriage."
+MEW_prolouge_end.1.a:0 "What could be so important in the south?"
+
+mew_ost_situation.1.t:0 "Situation in the South"
+mew_ost_situation.1.d:0 "To the southwest, across the Mewni waterway, lies the Ostro Starvarian Empire. An empire which consists of a ruling aristocrat class of Ostritches, while the majority of the servant population are divided by the Starvarians and the Pigeons. It is an infighting, divided state who's government operates on bribes and nepotisim. It is a ripe, low hanging fruit for a war to bring glory to Mewni and reinvigorate the Mewman spirit."
+mew_ost_situation.1.a:0 "Oh boy, here I go killin' again!"
+
+mew_ost_trade.1.t:0 "The Mewmans Impose Tariffs on us!"
+mew_ost_trade.1.d:0 ""
+mew_ost_trade.1.a:0 ""
+
+mew_ost_trade.2.t:0 "The Mewmans Sanction us!"
+mew_ost_trade.2.d:0 ""
+mew_ost_trade.2.a:0 ""
+
+mew_ost_trade.3.t:0 "The Mewmans Demand Tribute!"
+mew_ost_trade.3.d:0 ""
+mew_ost_trade.3.a:0 ""
+
+mew_ost_trade.4.t:0 "The Ostro Starvarians are Tributized."
+mew_ost_trade.4.d:0 "The Ostro Starvarians have bent, and they are sending money to us now!"
+mew_ost_trade.4.a:0 "Good, very good..."
+
+mew_ost_diplo.1.t:0 "The Mewmans are Trolling us!"
+mew_ost_diplo.1.d:0 ""
+mew_ost_diplo.1.a:0 ""
+
+mew_ost_diplo.2.t:0 "The Mewmans Demand Land!"
+mew_ost_diplo.2.d:0 ""
+mew_ost_diplo.2.a:0 ""
+
+mew_ost_diplo.3.t:0 "The Mewmans Demand MORE Land!"
+mew_ost_diplo.3.d:0 ""
+mew_ost_diplo.3.a:0 ""
+
+mew_ost_subjagation.1.t:0 "The Mewmans Offer That we Swear Fealty!"
+mew_ost_subjagation.1.d:0 ""
+mew_ost_subjagation.1.a:0 ""
+
+mew_ost_subjagation.2.t:0 "The Ostro Starvarians Have Declined!"
+mew_ost_subjagation.2.d:0 "The Ostro Starvarians have declined out offer."
+mew_ost_subjagation.3.a:0 "It won't matter in the end..."
+
+###############
+#TIMED OST WAR#
+###############
+
+star_tom_start.1.t:0 "Star and Tom Lucitor are in a relationship together!"
+star_tom_start.1.d:0 "Star Butterfly and Tom Lucitor, heir to the Lucitor Kingdom's throne, are in their first romantic relationships together! Sightings of them going out on dates in diffrent dimensions have confirmed this. And although this does aleviate the uncertainty of the future, it is still an unofficial and they could break up at any time."
+star_tom_start.1.a:0 "Aw, how sweet!"
+
+mina_return.1.t:0 "Mina Loveberry Returns to Mewni!"
+mina_return.1.d:0 "Mina Loveberry, who was sent to earth as part of her mental treatment, has returned to our dimension in order to fight in the war! She has been sighted in the reigons with the most action, doing whatever she can to make herself useful. She is even wearing her old formal millitary uniform, having it finally see the light of day after about 30 years.\n\nShe apparently has no desire to take up public office again, and her doctors are saying that her going out and doing things is good for her mental health. She already has a team of professionals on standby incase she gets too rowdy."
+mina_return.1.a:0 "Well, it doesnt hurt."
+
+star_tom_start.2.t:0 "Star and Tom break up!"
+star_tom_start.2.d:0 "Star and Tom have broken up, ending their relationship! Details are scarce, but it is beleived that the break up was not clean. Star was trying to explain what had happened, but she was incomprehensible due to the angry crying she was doing at the same time.\n\nWith the break up, the future seems less certain. But with Star being single, it gives us the oppourtunity for more political leverage."
+star_tom_start.2.a:0 "Part of growing up, I guess..."
+
+ost_mew_surrender.2.t:0 "Triumph Over the Ostritches!"
+ost_mew_surrender.2.d:0 "We have won! The Imperial family is in our custody, likley to be exiled off the dimesnion. Now is the question of who will govern the new state."
+ost_mew_surrender.2.a:0 "Elevate the Pigeon minority!"
+
+ost_mew_surrender_tooltip:0 "§CNew Focus Tree Unlocked!§!"
+
+############
+#FIRST TREE#
+############
+
+MEW_stars_14th_birthday_event.1.t:0 "Star's 14th Birthday"
+MEW_stars_14th_birthday_event.1.d:0 "Star's 14th birthday was a disaster! Not only did she act extremely unprofesionally, but within 5 minutes of her obtaining the wand she had accidentaly set fire to parts of Mewni!\n\nA new education program has been set up for her. But instead of going to St. Olga's Reform School for Wayward Princesses as per usual, we will do something new. Instead, she will go to the dimension known as "Earth" and use one of their country's foreign exchange programs. This way, she can study magic while not being a danger to anybody else. (That we care about.)"
+MEW_stars_14th_birthday_event.1.a:0 "Let's hope this works..."
 
 corn_theft.1.t:0 "The Corn Report"
 corn_theft.1.d:0 "There is an extreme deficiency in our corn supply! Thousands of pounds of corn seem to be vanishing off of the record, with hundreds of farmers suddenly finding out that their silos are empty! We should expect a market collapse at any second now!"
@@ -39,6 +111,14 @@ utilize_army.1.a:0 "I want whoever's responsible dishonorably discharged!"
 controlled_burning.1.t:0 "Controlled Burns"
 controlled_burning.1.d:0 "It didn't work! Even though we burned a thick border of crops, the rats just tunneled underground to avoid our guards!"
 controlled_burning.1.a:0 "Drat!"
+
+controlled_burning.2.t:0 "Ludo is Defeated!"
+controlled_burning.2.d:0 "Ludo Avarius, who has been trying to steal the magic wand from Star Butterfly, has been defeated by her in a fight! His whereabouts are unknown, but it is beleived that he will be unable to recover and attempt to steal the wand any time soon."
+controlled_burning.2.a:0 "Hm, Star's growing stronger"
+
+controlled_burning.3.t:0 "The Magic Instruction Book is stolen by Ludo!"
+controlled_burning.3.d:0 "In a private mirror call, Star has confessed that Ludo Avarius has come back and that he has stolen the Magic Instruction book. This book contains the aggregate knoledge of all previous Mewman queens! Although Star was quickly forgiven, this must be kept secret from anyone."
+controlled_burning.3.a:0 "We will deal with this... eventually"
 
 hunt_rat.1.t:0 "The A-RAT is founded!"
 hunt_rat.1.d:0 "The anti-rat army and technologies is founded! (Unlocks A-RAT Descisions)"

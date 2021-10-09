@@ -1,0 +1,28 @@
+state={
+	id=463
+	name="STATE_463"
+	history {
+		owner = OST
+		add_core_of = OST
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		victory_points = { 7942 5 }
+
+	}
+		
+	provinces={
+	7929 4592 8012 1057
+
+	}
+	
+	manpower=7000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}
