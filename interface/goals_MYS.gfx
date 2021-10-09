@@ -239,7 +239,10 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/MYS/focus_gideon.dds"			
 	}
 	
-	
+	SpriteType = {
+	name = "GFX_goal_focus_gleeful_pair"
+	texturefile = "gfx/interface/goals/MYS/focus_gleeful_pair.dds"			
+	}
 	
 	
 	

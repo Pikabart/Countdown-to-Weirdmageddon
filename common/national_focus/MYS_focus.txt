@@ -1526,7 +1526,7 @@ focus = {
 
 focus = { 
 		id = MYS_ship_1
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_gleeful_pair
 		x = -3
 		y = 1	
 		relative_position_id = MYS_rockthemabel
