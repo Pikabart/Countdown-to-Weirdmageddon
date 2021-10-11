@@ -9,6 +9,8 @@ add_ideas = {
 	KER_KER_1
 }
 
+create_faction = " "
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "2012.1.1"

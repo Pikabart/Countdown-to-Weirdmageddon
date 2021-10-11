@@ -50,6 +50,27 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = EUS.4
+	title = EUS.4.t
+	desc = EUS.4.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {dismantle_faction = yes}
+	}
+	
+	option = { 
+		name = EUS.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		create_faction = "The Curtis Administration"
+		add_to_faction = EPI
+		#country_event = { id = EUS.1 days = 2 }
+	}
+}
+
 ##############################################
 # States Split Off for keruffle
 # hidden events for better nation releaseing
@@ -204,6 +225,6 @@ country_event = {
 	option = { 
 		name = BYE.3.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		#country_event = { id = BYE.1 days = 2 }
+		EUS = {country_event = { id = EUS.4 days = 2 }}
 	}
 }
