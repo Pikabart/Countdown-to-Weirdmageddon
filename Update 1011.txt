@@ -1,4 +1,15 @@
 #############################################################
+Update File Notes Oct 11
+
+common/national_focus/mys_focus
+
+events/
+
+history/countries/
+
+localisation/
+
+#############################################################
 Update File Notes Oct 7
 
 common/countries
