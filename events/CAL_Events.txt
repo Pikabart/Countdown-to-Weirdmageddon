@@ -39,7 +39,7 @@ country_event = {
 	}
 }
 ############################################################################################################
-country_event = { # Oregon FPI Standoff
+country_event = { # What the heck is going on up there?
 	id = CAL_TREMBLEY.1
 	title = CAL_TREMBLEY.1.t
 	desc = CAL_TREMBLEY.1.d
@@ -49,21 +49,65 @@ country_event = { # Oregon FPI Standoff
 	
 	immediate = {
 		hidden_effect = {	
-			WPI = { transfer_state = 92 add_state_core = 92 }
-			ORE = { remove_state_core = 92 }
-			EUS = { add_to_faction = WPI }
+
 		}
 	}
 	
 	option = { 
-		name = CAL_TREMBLEY.1.a
+		name = CAL_TREMBLEY.2.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = CAL_ELECTION.1 days = 5}
-	}
-	
+	}	
 }
 
-country_event = { # California chooses Norton for Governor
+country_event = { # Oregon FPI Standoff
+	id = CAL_TREMBLEY.2
+	title = CAL_TREMBLEY.2.t
+	desc = CAL_TREMBLEY.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {	
+
+		}
+	}
+	
+	option = { 
+		name = CAL_TREMBLEY.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = CAL_ELECTION.2 days = 5}  # Cal Will elect Norton
+	}	
+}
+
+country_event = { # Now, back to where we we're...
+	id = CAL_TREMBLEY.3
+	title = CAL_TREMBLEY.3.t
+	desc = CAL_TREMBLEY.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {	
+		}
+	}
+	
+	option = { 
+		name = CAL_TREMBLEY.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = west_election_news.4 days = 4}  # The Western Allaince is formed
+		create_faction = "The Western Alliance"
+		add_to_faction = ORE
+		add_to_faction = WAS
+		add_to_faction = IDH
+		add_to_faction = NEV
+		add_to_faction = ARZ
+	}	
+}
+
+############################################################################################################
+country_event = { # Norton Enters the governor race!
 	id = CAL_ELECTION.1
 	title = CAL_ELECTION.1.t
 	desc = CAL_ELECTION.1.d
@@ -73,15 +117,33 @@ country_event = { # California chooses Norton for Governor
 	
 	immediate = {
 		hidden_effect = {	
-			WPI = { transfer_state = 92 add_state_core = 92 }
-			ORE = { remove_state_core = 92 }
-			EUS = { add_to_faction = WPI }
 		}
 	}
 	
 	option = { 
 		name = CAL_ELECTION.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = CAL_ELECTION.1 days = 5}
+	}	
+}
+
+country_event = { # California chooses Norton for Governor
+	id = CAL_ELECTION.2
+	title = CAL_ELECTION.2.t
+	desc = CAL_ELECTION.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_ELECTION.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		
+		set_party_name = {
+			ideology = democratic
+			name = CAL_democratic_party_norton
+			long_name = CAL_democratic_party_norton
+		}
 		
 		retire_country_leader = yes
 		create_country_leader = {
@@ -99,22 +161,68 @@ country_event = { # California chooses Norton for Governor
 				ruling_party = democratic
 			}		
 		}
-		set_party_name = {
-			ideology = democratic
-			name = CAL_democratic_party_norton
-			long_name = CAL_democratic_party_norton
-		}
+		
 		
 		hidden_effect = {  
 			news_event = { id = launcher_news.4 days = 1 } # Launch event to launch world news event for Earth
 		}
-		#country_event = { id = CAL_ELECTION.2 days = 3 }
+		create_faction = "Imperial California Republic"
+		add_to_faction = NEV
+	}
+	
+}
+
+country_event = { # California chooses Olson for Governor
+	id = CAL_ELECTION.3
+	title = CAL_ELECTION.3.t
+	desc = CAL_ELECTION.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {	
+		}
+	}
+	
+	option = { 
+		name = CAL_ELECTION.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Travis Olson"
+			desc = "placeholder"
+			picture = ""
+			ideology = liberalism #conservatism
+		}
+		hidden_effect={
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
+			set_politics = {
+				ruling_party = democratic
+			}		
+			news_event = { id = launcher_news.5 days = 1 } # Launch event to launch world news event for Earth
+		}
+		country_event = { id = CAL_TREMBLEY.3 days = 3 }
 	}
 	
 }
 
 
-country_event = {
+
+
+
+
+
+
+
+
+########################################################################################################
+
+country_event = {  # If Mewni REC fails to pay loan
 	id = CAL_NWB.1
 	title = CAL_NWB.1.t
 	desc = CAL_NWB.1.d

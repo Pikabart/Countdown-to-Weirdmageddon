@@ -145,6 +145,40 @@ news_event = { # Launch Norton becomes governor
 	}
 }
 
+news_event = { # Launch The Wester Allaince is formed!
+	id = launcher_news.5
+	title = launcher_news.5.t
+	desc = launcher_news.5.d
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = yes
+	hidden = yes
+	is_triggered_only = yes
+	timeout_days = 1
+	
+	immediate = {
+		hidden_effect = {	
+			CAL = { news_event = { id = west_election_news.4 days = 1 } }
+			WAS = { news_event = { id = west_election_news.4 days = 1 } }
+			ORE = { news_event = { id = west_election_news.4 days = 1 } }
+			SOC = { news_event = { id = west_election_news.4 days = 1 } }
+			EUS = { news_event = { id = west_election_news.4 days = 1 } }
+			EPI = { news_event = { id = west_election_news.4 days = 1 } }
+			CAN = { news_event = { id = west_election_news.4 days = 1 } }
+			MEX = { news_event = { id = west_election_news.4 days = 1 } }
+			GTF = { news_event = { id = west_election_news.4 days = 1 } }
+			MYS = { news_event = { id = west_election_news.4 days = 1 } }
+			NRW = { news_event = { id = west_election_news.4 days = 1 } }
+			MYM = { news_event = { id = west_election_news.4 days = 1 } }
+		}
+	}
+	
+	option = {
+		name = launcher_news.5.a
+		ai_chance = { factor = 100 }		
+	}
+}
+
 ##############################################################################################
 ##############################################################################################
 ##############################################################################################
@@ -625,7 +659,7 @@ news_event = { #Norton becomes Cali Governor
 	immediate = {
 		hidden_effect = {
 			#set_global_flag = 
-			#news_event = { id =  days = 5 }
+			CAN = {country_event = { id = CAN_alone.1 days = 5 }}
 			#add_political_power = -100
 		}
 	}
@@ -660,6 +694,53 @@ news_event = { #Norton becomes Cali Governor
 	}
 	option = {
 		name = west_election_news.3.i
+		trigger = {	TAG = CAN}	
+	}
+}
+
+news_event = { #The West unites againts Curtis
+	id = west_election_news.4
+	title = west_election_news.4.t
+	desc = {text = west_election_news.4.d}
+	
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			#set_global_flag = 
+			CAN = {country_event = { id = CAN_alone.1 days = 5 }}
+			#add_political_power = -100
+		}
+	}
+	
+	option = {
+		name = west_election_news.4.a
+		trigger = {	
+			OR={
+				tag=ORE
+				tag=CAL
+				tag=WAS
+				tag=SOC
+			}
+		}	
+	}
+	option = {
+		name = west_election_news.4.b
+		trigger = {	TAG = EUS}	
+	}
+	option = {
+		name = west_election_news.4.c
+		trigger = {	TAG = EPI}	
+	}
+	option = {
+		name = west_election_news.4.e
+		trigger = {	TAG = MEX}	
+	}
+	option = {
+		name = west_election_news.4.f
 		trigger = {	TAG = CAN}	
 	}
 }

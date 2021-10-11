@@ -1,7 +1,5 @@
 ﻿capital = 223
 
-
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -42,7 +40,7 @@ set_technology = {
 }
 
 country_event = { id = EUS.1 hours = 2 } #Intro Event
-news_event = { id = launcher_news.1 days = 10 } #Launch launcher for Kerfuffle
+news_event = { id = launcher_news.1 days = 40 } #Launch launcher for Kerfuffle
 
 
 #country_event = { id = EUS.23 days = 76 } #St. Patrick's Day Floods

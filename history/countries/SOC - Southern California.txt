@@ -52,7 +52,7 @@ complete_national_focus = production_effort
 set_politics = {
 	ruling_party = democratic
 	last_election = "2008.1.1"
-	election_frequency = 4   #four months
+	election_frequency = 60   #four months
 	elections_allowed = yes
 }
 
@@ -64,8 +64,8 @@ set_popularities = {
 
 
 create_country_leader = {
-	name = "Hector Guzman"
-	desc = ""
+	name = "Hector Diaz-Guzman"
+	desc = "POLITICS_HECTOR_DESC"
 	picture = ""
 	ideology = liberalism
 	traits = {

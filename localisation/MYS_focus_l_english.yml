@@ -1,6 +1,6 @@
 ﻿l_english:
 
- #For Msyerty Shack Focus Tree description and custom_effect_tooltip
+ #For Mystery Shack Focus Tree description and custom_effect_tooltip
  
  #1
  MYS_prepare_for_the_summer:0 "Preparing for the Summer!"
@@ -259,31 +259,31 @@
  MYS_rockthemabel_effect:0 "We could do what Grunkle Stan said... or we could go see this Gidoen for ourselves!"
  
  MYS_ship_1:0 "A Gleeful Pair"
- MYS_ship_1_desc:0 ""
+ MYS_ship_1_desc:0 "Ah, my dearest Mabel! For you, I'll give you all the world itself. Don't let those nay-sayers like your dim-witted brother say otherwise. Let me make you happy, let me care for you. Everything for you, for us."
  MYS_ship_1_effect:0 "§CWould be made avaible depending on hows well Gideon and Mabel get along.§!"
  
  MYS_ship_2:0 "A beneficial arrangment"
- MYS_ship_2_desc:0 ""
+ MYS_ship_2_desc:0 "Oh course that old man of your wants to profit from us. But feather not, by dear sweetems. I'll have my father negationate with Stan. After all, why can't we all "benefit" from what we have?"
  MYS_ship_2_effect:0 ""
  
  MYS_ship_3:0 "Trojan Pig"
- MYS_ship_3_desc:0 ""
+ MYS_ship_3_desc:0 "Stanford Pines is hiding something from me. But not even my amulet can peirce what secrets he is hiding in his old wrinkled head. If only I have a spy...\n\nOh dearest Mabel, may I see that adorable pig of yours?"
  MYS_ship_3_effect:0 ""
  
  MYS_ship_4:0 "Heart in Hand"
- MYS_ship_4_desc:0 ""
+ MYS_ship_4_desc:0 "I know what you want. I know what you need. Let nothing distract you from what we have. My heart in your hand, I'll give to you the world itself!"
  MYS_ship_4_effect:0 ""
  
  MYS_ship_5:0 "A most beautiful Puppet"
- MYS_ship_5_desc:0 ""
+ MYS_ship_5_desc:0 "Oh you clever old man. Con Man by day, scientist by night. Journal 1 and a portal to the multiverse itself! The power I would have. How fortunate am I? She's the perfect tool to get it."
  MYS_ship_5_effect:0 ""
  
  MYS_ship_6:0 "A tightly controlled soul"
- MYS_ship_6_desc:0 ""
+ MYS_ship_6_desc:0 "And your soul now mine, all the sercets of universe are now at my grasp. No one to stop us. No one can oppose us!\n\nYou and me, Mabeon, forever!"
  MYS_ship_6_effect:0 ""
  
  MYS_ship_7:0 "Only room for one"
- MYS_ship_7_desc:0 ""
+ MYS_ship_7_desc:0 "My dear, my affection for you is grand. But the multiverse is infinite and yet only has room for one.\nSo step aside, and at least relish the fact you were once enough for "Li'l Gideon"..."
  MYS_ship_7_effect:0 ""
  
  ######################################################
@@ -291,32 +291,32 @@
  ######################################################
  
  MYS_pine_1:0 "Pining for Time"
- MYS_pine_1_desc:0 ""
+ MYS_pine_1_desc:0 "That "Li'l Gideon" is crazy! And we know he won't stop, not until he can have Mabel and take me and Stan out.\nBut with the love the town has for him, we'll need to pine for time and figure out the source of his power.\n\nI have a feeling whatever it is, its tied to the author himself!"
  MYS_pine_1_effect:0 "§CWould be made avaible depending on hows well Gideon and Mabel get along.§!"
  
  MYS_pine_2:0 "New Attractions"
- MYS_pine_2_desc:0 ""
+ MYS_pine_2_desc:0 "Dipper's right! We need to knock the steam out of Gideon if we are to stop the little twerp. With the tourist season in full gear, I'll make up some new attractions to draw attention away from that fraudulant psychic! There's only room for one conman in this town!"
  MYS_pine_2_effect:0 ""
  
  MYS_pine_3:0 "Interior Motives"
- MYS_pine_3_desc:0 ""
- MYS_pine_3_effect:0 ""
+ MYS_pine_3_desc:0 "I mean, what he is after. It can't seriously be my sister. No, he wants something from us. I don't know what secrets he has and I can't think of what we hav-...\n\nOh no. The Journals!"
+ MYS_pine_3_effect:0 "There must be something in this book to help us... a muse?"
  
  MYS_pine_4:0 "Mystery Sale"
- MYS_pine_4_desc:0 ""
+ MYS_pine_4_desc:0 "Damn that little monster and his cuteness. A simple press of his cheeks and people flock to him like he's the messiah!\n\nThere's only one option left. Oh mightly Bunyun forgive... Soos, Wendy. Slash the prices, we're having a sale!"
  MYS_pine_4_effect:0 ""
  
  MYS_pine_5:0 "The Source of his powers"
- MYS_pine_5_desc:0 ""
- MYS_pine_5_effect:0 ""
+ MYS_pine_5_desc:0 "How would he know? No one takes this old book seriously. To know its power, you have to have one yourself... Journal "3". Does he really have the other Journals? 1? 2? Whatever happens, I can't let him get a hold of Journal 3. The fate of Gravity Falls depends on it!"
+ MYS_pine_5_effect:0 "Perhaps I need to call for help..."
  
- MYS_pine_6:0 "I tricked the law and I won"
- MYS_pine_6_desc:0 ""
+ MYS_pine_6:0 "Shack Strikes!"
+ MYS_pine_6_desc:0 "Gideon is a threat as long as he has the other journal. While Stan and Soos prepare the defenses, Wendy and Mabel will go with me to try and take his source of power before he has time to get the jump on us!"
  MYS_pine_6_effect:0 ""
  
  MYS_pine_7:0 "Expose the real Hack!"
- MYS_pine_7_desc:0 ""
- MYS_pine_7_effect:0 ""
+ MYS_pine_7_desc:0 "That creep Gideon been exposed! After that climatic battle at the cliff with Dipper and a quick save to my good old grappling hook, Grunkle Stan exposed that li'l ol' fraudster.\n\nI doubt we'll have to worry about Gideon again."
+ MYS_pine_7_effect:0 "Mabel thinks we're safe for now. But with the other journals out there. Who knows what could be done if someone had all three?"
  
  ######################################################
  #  Mabel and Dipper related Focuses  #

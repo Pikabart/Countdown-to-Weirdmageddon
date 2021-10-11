@@ -132,7 +132,7 @@ country_event = { #Bunker down
 	}
 }
 
-country_event = { #W FPI Leaves
+country_event = { # WFPI Leaves
 	id = WPI_TREMBLEY.7
 	title = WPI_TREMBLEY.7.t
 	desc = WPI_TREMBLEY.7.d
