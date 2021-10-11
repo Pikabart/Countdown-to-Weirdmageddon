@@ -181,7 +181,7 @@ focus_tree = {
 		completion_reward = {
 		add_opinion_modifier = {
 			target = OST
-			modifier = excessive_trolling
+			modifier = excessive_trolling #localization for this in the focus loc file
 		}
 		OST = { country_event = { id = mew_ost_diplo.1 days = 1 } }
 		
@@ -382,6 +382,7 @@ focus_tree = {
 			target = OST
 			type = annex_everything
 		}
+		remove_ideas = OST_hostile_mewman_trade_mew
 		
 		}
 	}

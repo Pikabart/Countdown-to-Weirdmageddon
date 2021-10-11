@@ -11,6 +11,7 @@ add_namespace = mewni_ludo_war_start_news_event
 add_namespace = mewni_tsardom_join_bf_news_event
 add_namespace = ludo_spider_alliance_news_event
 add_namespace = jaggy_collapse_news_event
+add_namespace = ludo_surrender_news_event
 
 news_event = { #The Corn Crisis
 	id = mewni_corn_crisis_news_event.1
@@ -368,6 +369,33 @@ news_event = { #The War Starts
 		name = mewni_ludo_war_start_news_event.1.c
 		trigger = {NOT={TAG = MEW}} #not mewni
 		trigger = {NOT={TAG = LUD}} #not ludo
+	}
+
+}
+
+news_event = { #Ludo Surrenders
+	id = ludo_surrender_news_event.1
+	title = ludo_surrender_news_event.1.t
+	desc = {
+		text = ludo_surrender_news_event.1.d
+	}
+	
+	picture = GFX_news_event_kingdom_collapse
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = ludo_surrender_news_event.1.a
+		trigger = {	TAG = MEW} #mewni
+		country_event = ludo_surrender.2
+	}
+	option = {
+		name = mewni_corn_crisis_news_event.1.c
+		trigger = {NOT={TAG = MEW}} #not mewni
 	}
 
 }
