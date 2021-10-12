@@ -58,3 +58,8 @@ ludo_spider_alliance_news_event.1.d:0 "In a turn of events, the Spiderbite Kingd
 ludo_spider_alliance_news_event.1.a:0 "Traitors!"
 ludo_spider_alliance_news_event.1.b:0 "Welcome to the Front!"
 ludo_spider_alliance_news_event.1.c:0 "How unexpected!"
+
+ludo_surrender_news_event.1.t:0 "The Civil War Ends!"
+ludo_surrender_news_event.1.d:0 "Good news from Mewni today! Ludo Avarius, the leader of the force waging war against the Butterfly Kingdom, has been captured! With this, the rat forces are left with no central authority. They are currently disorganizaed and scattered to the point that Mewman forces can claim victory."
+ludo_surrender_news_event.1.a:0 "It's over! By god, it's over!"
+ludo_surrender_news_event.1.c:0 "Interesting"

@@ -15,9 +15,8 @@ state={
 			radar_station = 0
 		}
 		
-		victory_points = {
-			7794 25
-		}
+		victory_points = { 7794 15 }
+		victory_points = { 7828 5 }
 	
 	}
 	

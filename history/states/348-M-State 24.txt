@@ -15,11 +15,9 @@ state={
 			radar_station = 0
 		}
 		
-		victory_points = {
-			2237 25
-		}
+		victory_points = { 2237 10 }
+		victory_points = { 7849 5 }
 	}
-	
 	provinces={
 		1407 2237 3500 6290 6516 7107 7849 7881 
 	}

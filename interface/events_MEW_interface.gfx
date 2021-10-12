@@ -173,6 +173,11 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MEW/report_event_young_star.dds"
 	}
 	
+	spriteType = { # Thumbnail
+		name = "GFX_report_event_thumbnail"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_thumbnail.dds"
+	}
+	
 	
    #############################################################
    #  Decisions
