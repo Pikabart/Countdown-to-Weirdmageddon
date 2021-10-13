@@ -9,6 +9,7 @@ add_namespace = mystery_shack_PR
 add_namespace = mystery_shack_PR_good
 add_namespace = mystery_shack_PR_bad
 add_namespace = mystery_shack_rock_the_mabel
+add_namespace = mystery_shack_mystery_fair
 
 country_event = { #1
 	id = mystery_shack.1
@@ -517,11 +518,6 @@ country_event = {    # Community Service
 	
 }
 
-
-
-
-
-
 country_event = {    # OUR MAN STAN!!!!!!!!!!!!!!!!!!!!!!!!!!
 	id = mystery_shack_PR_good.8
 	title = mystery_shack_PR_good.8.t 
@@ -552,6 +548,155 @@ country_event = {    # OUR MAN STAN!!!!!!!!!!!!!!!!!!!!!!!!!!
 		
 	}
 	
+}
+
+########################################
+# PR GOOD - Mystery Fair
+########################################
+
+country_event = {    # Fair
+	id = mystery_shack_mystery_fair.1
+	title = mystery_shack_mystery_fair.1.t 
+	desc = mystery_shack_mystery_fair.1.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	option = { 
+		name = mystery_shack_mystery_fair.1.a
+		country_event = {id = mystery_shack_mystery_fair.2 days = 3}
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}		
+}
+
+country_event = {    # Fair
+	id = mystery_shack_mystery_fair.2
+	title = mystery_shack_mystery_fair.2.t 
+	desc = mystery_shack_mystery_fair.2.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	option = { 
+		name = mystery_shack_mystery_fair.2.a
+		country_event = {id = mystery_shack_mystery_fair.3 days = 3}
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}		
+}
+
+country_event = {    # Fair
+	id = mystery_shack_mystery_fair.3
+	title = mystery_shack_mystery_fair.3.t 
+	desc = mystery_shack_mystery_fair.3.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	option = { 
+		name = mystery_shack_mystery_fair.3.a
+		country_event = {id = mystery_shack_mystery_fair.4 days = 3}
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}		
+}
+
+country_event = {    # Fair
+	id = mystery_shack_mystery_fair.4
+	title = mystery_shack_mystery_fair.4.t 
+	desc = mystery_shack_mystery_fair.4.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	option = { 
+		name = mystery_shack_mystery_fair.4.a
+		country_event = {id = mystery_shack_mystery_fair.5 days = 3}
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}		
+}
+
+country_event = {    # Fair
+	id = mystery_shack_mystery_fair.5
+	title = mystery_shack_mystery_fair.5.t 
+	desc = mystery_shack_mystery_fair.5.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	option = { 
+		name = mystery_shack_mystery_fair.5.a
+		country_event = {id = mystery_shack_mystery_fair.6 days = 3}
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}		
+}
+
+country_event = {    # Fair
+	id = mystery_shack_mystery_fair.6
+	title = mystery_shack_mystery_fair.6.t 
+	desc = mystery_shack_mystery_fair.6.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	option = { 
+		name = mystery_shack_mystery_fair.6.a
+		country_event = {id = mystery_shack_mystery_fair.7 days = 3}
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}		
+}
+
+country_event = {    # Fair
+	id = mystery_shack_mystery_fair.7
+	title = mystery_shack_mystery_fair.7.t 
+	desc = mystery_shack_mystery_fair.7.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	option = { 
+		name = mystery_shack_mystery_fair.7.a
+		country_event = {id = mystery_shack_mystery_fair.8 days = 3}
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}		
+}
+
+country_event = {    # Fair
+	id = mystery_shack_mystery_fair.8
+	title = mystery_shack_mystery_fair.8.t 
+	desc = mystery_shack_mystery_fair.8.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {hidden_effect = {add_ideas = MYS_PR_dunk}}
+	
+	option = { 
+		name = mystery_shack_mystery_fair.8.a
+		CAL = {country_event = {id = mystery_shack_mystery_fair.9 days = 3}}
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}		
+}
+
+country_event = {    # Fair
+	id = mystery_shack_mystery_fair.9
+	title = mystery_shack_mystery_fair.9.t 
+	desc = mystery_shack_mystery_fair.9.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	option = { 
+		name = mystery_shack_mystery_fair.9.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}		
 }
 
 ########################################

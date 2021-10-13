@@ -1250,7 +1250,11 @@
 		relative_position_id = MYS_PR_8
 			
 		cost = 4
-
+		
+		select_effect = {
+			country_event = { id = mystery_shack_mystery_fair.1 days = 2 }
+		}
+		
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_10_effect
 			#country_event = mystery_shack.

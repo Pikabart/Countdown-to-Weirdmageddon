@@ -1,4 +1,18 @@
 #############################################################
+Update File Notes Oct 12
+
+common/ideas/mys_ideas
+common/national_focus/mys_focus
+
+events/mys
+
+gfx/interface/ideas/mys/
+
+interface/ideas_MYS_interface
+
+localisation/
+
+#############################################################
 Update File Notes Oct 11
 
 common/national_focus/mys_focus

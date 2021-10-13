@@ -77,6 +77,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/mys/idea_souvineers.dds"	
 	}
 	
+	SpriteType = {
+		name = "GFX_idea_MYS_PR_dunk"
+		texturefile = "gfx/interface/ideas/mys/idea_dunk.dds"	
+	}
+	
 	########################
 	SpriteType = {
 		name = "GFX_idea_MYS_PR_false"

@@ -426,6 +426,21 @@ ideas = { #Entire file
 				trade_opinion_factor = 0.05
 			}
 		}
+		##############
+		MYS_PR_dunk = {
+			picture = GFX_idea_MYS_PR_dunk
+			
+			allowed = {tag = MYS}
+			available = {} 
+			cancel = {}  # Will Stay until Wendy's Mom Returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.10
+				war_support_factor = 0.10
+			}
+		}
 		###############
 		MYS_PR_backtax = {
 			picture = GFX_idea_MYS_PR_backtax  
