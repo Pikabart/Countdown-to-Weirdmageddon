@@ -4,7 +4,7 @@
  
  #1
  MYS_prepare_for_the_summer:0 "Preparing for the Summer!"
- MYS_prepare_for_the_summer_desc:0 "Summertime!\nThe sun shines down through the tall everygreen trees. The animals in the woods skimper about. And tourist prepare to flock to the great outback of Oregon.\nAnother year, another new tourist season to profit from...\nAnother year, another reminder of my work to fix what I have done."
+ MYS_prepare_for_the_summer_desc:0 "Summertime!\nThe sun shines down through the tall everygreen trees. The animals skimper about. And tourist flock to the great outback of Oregon.\nAnother year, another new tourist season to profit from...\nAnother year, another reminder of my work to fix what I have done.\n- §RStan Pines§! -"
  MYS_prepare_for_the_summer_effect:0 "Let's see here. I still need to hire a cashier. Gotta fix the 'S' on the roof.\nHopefully Soos forgot about that raise I promised him. And where to get nuclear waste?\n\n<ring ring>\nWho's calling at this hour?" # ^ above is a custom loc to add text to effect section of focus. Must be called in focus file
  ######################################################
  #2
@@ -24,11 +24,11 @@
  ######################################################
  #5
  MYS_journal_3:0 "Uncovering old secrets"
- MYS_journal_3_desc:0 "Againts my own wishes, Mom and Dad insisted that me and Mabel spend the summer with out Great Uncle Stanford. Dad talked about all the time he and auntie Emily had fun in Gravity Falls. I wonder where's the fun in working at the shack and putting up signs in the woods..."
+ MYS_journal_3_desc:0 "Againts my own wishes, Mom and Dad insisted that me and Mabel spend the summer with our Great Uncle Stanford. Dad talked about all the time he and auntie Emily had fun in Gravity Falls. I wonder where's the fun in working at the shack and putting up signs in the woods...\n\n- §CDipper Pines§! -"
  MYS_journal_3_effect:0 ""
  
  MYS_stantastic:0 "The Stan-Tastic Adventures!"
- MYS_stantastic_desc:0 "As the twins go about thier way, going on adventures, threading the line between life and death in the great outback of Gravity Falls, I'll continues on my work to repair the portal fully and bring this all to an end."
+ MYS_stantastic_desc:0 "As the twins go about thier way, going on adventures, threading the line between life and death in the great outback of Gravity Falls, I'll continues on my work to repair the portal fully and bring this all to an end.\n\n- §RStan Pines§! -"
  MYS_stantastic_effect:0 "Let's see here on the ol'list. Find new attractions, get money back from Bird-Person, refill the energy reactor..."
  
  MYS_stantastic_1:0 "Going on a grocery run"
@@ -56,7 +56,7 @@
  MYS_stantastic_6_effect:0 "I'll probably have to go back if I'm going to get more fuel going forward."
  
  MYS_awaits:0 "What awaits in Gravity Falls"
- MYS_awaits_desc:0 ""
+ MYS_awaits_desc:0 "\n- §YMabel Pines§! -"
  MYS_awaits_effect:0""
  
  MYS_awaits_1:0 ""
@@ -88,47 +88,47 @@
  ######################################################
  
  MYS_investment:0 "Investing in the Shack"
- MYS_investment_desc:0 "You know what they say, you gotta spend monsey to make money! It's just... so hard to part with it at all..."
+ MYS_investment_desc:0 "You know what they say, you gotta spend monsey to make money! It's just... so hard to part with it at all...\n\n- §RStan Pines§! -"
  MYS_investment_effect:0 ""
  
  MYS_soos_1:0 "Fix'in it with Soos"
- MYS_soos_1_desc:0 "That Soos kid has always been helpful in reapiring small stuff. But I think it's time that I get him workin' on bigger things."
+ MYS_soos_1_desc:0 "I've worked with Stanford Pines since, like, forever! But now that he asked me to work on "Bigger Things"? What a dream come through!\n\nI won't let him down.\n\n- §GSoos Rameriz§! -"
  MYS_soos_1_effect:0 ""
  
  MYS_soos_2:0 "Tune up the Attractions"
- MYS_soos_2_desc:0 "The preservation jars are foggy, the display stands are unstable, and the Bigfoot statue has it's hairs falling out! We (And by "we" I mean Soos,) have to tune up the attractions for the oncoming wave of tourists!"
+ MYS_soos_2_desc:0 "The preservation jars are foggy, the display stands are unstable, and the Bigfoot statue has it's hairs falling out! Yup, I got alot of things to do to tune up the attractions for the oncoming wave of tourists!"
  MYS_soos_2_effect:0 ""
  
  MYS_soos_3:0 "Lay down new flooring"
- MYS_soos_3_desc:0 "This'll be Soos' first big task. We gotta replace the floor so that's it's not so splintery, it drives away customers! But still, we have to keep it's creakiness. It adds character."
+ MYS_soos_3_desc:0 "Mr. Pines has given me my first big task. We gotta replace the floor so that's it's not so splintery. The sharp spikes are driving away customers! But at the same time, Mr. Pines wants to keep it's creakiness. "It adds character", he says."
  MYS_soos_3_effect:0 ""
  
  MYS_soos_4:0 "Repair the Totem Pole"
- MYS_soos_4_desc:0 "The totem pole is one of my main outdoor attractions. It lets me tell stories, true or otherwise, about the Native Americans who inhabited this land before us. Everything from their displacement detailed in historical documents, to ancient curses detailed by my big mouth. Problem is, the color has faded and scratches are starting to build upon each other. Soos has gotta fix this."
+ MYS_soos_4_desc:0 "The totem pole is one of the Shack's main outdoor attractions. Mr. Pines has tons of stories about it and the Native Americans who inhabited this land before us. Everything from their way of life, traditions and beliefs, to ancient curses! Its a head turner!\nProblem is, the color has faded and scratches are starting to build upon each other. Time to restore a part of history!"
  MYS_soos_4_effect:0 ""
  
  MYS_soos_5:0 ""Repave The Driveway!""
- MYS_soos_5_desc:0 "Y'know, that Soos kid will do anything I ask. The Mystery Shack only has a dirt road, wouldn't it be funny if I told him to repave the driveway?"
+ MYS_soos_5_desc:0 "I overheard Mr. Pines talking to Wendy. "The Mystery Shack only has a dirt road, wouldn't it be funny if I told him to repave the driveway?"\n\nDude, how psyched would he be if I did it before he asked?"
  MYS_soos_5_effect:0 ""
  
  MYS_soos_6:0 "Rebuild the Sign"
- MYS_soos_6_desc:0 "Although the "Damaged" sign of the Mystery Shack adds character, it's not OSHA complaiant. If I'm gonna ensure the safety of my customers, and more importantly the saftey of my wallet, Soos has gotta fix it. But we only have so much material in storage, and doing this would mean giving up on the bottomless pit..."
- MYS_soos_6_effect:0 ""
+ MYS_soos_6_desc:0 "The "Damaged" sign of the Mystery Shack adds character, Mr. Pines told me. But there's a problem when people read your own sign and think you're a "Mystery Hack". I got to make it clear there's no hack here! But we only have so much material in storage and Mr. Pines isn't in the mood to get more to fix up the Bottomless Pit as well..."
+ MYS_soos_6_effect:0 ""We can just add those left over safety certificates from the fair and stick them to the edge." - §RStan Pines§!"
  
  MYS_soos_7:0 "Fence Up the Bottomless Pit"
- MYS_soos_7_desc:0 "The bottomless pit is dangerous. What if someone fell into it? And even worse, what if word got out? I gotta fence it up, so if somebody falls into it then I have I can pin the blame on them for jumping the fence. But we only have so much material in storage, and doing this would mean giving up on the sign..."
- MYS_soos_7_effect:0 ""
+ MYS_soos_7_desc:0 "That bottomless pit is dangerous," he tells me, "What if someone fell into it? And even worse, what if word got out? We gotta fence it up, so if somebody falls into it, I can pin the blame on them for jumping the fence." But we only have so much material in storage, and doing this would mean giving up on the sign..."
+ MYS_soos_7_effect:0 ""Heh, not like these people can even read anyway..." - §RStan Pines§!"
  
  MYS_soos_8:0 "A new coat of Paint"
- MYS_soos_8_desc:0 "What you are on the inside will never be more important than what you are on the outside. This is as true for buildings as it is for relationships."
+ MYS_soos_8_desc:0 "The Shack has never look this good.\nBut what you are on the outside will never be as important than what you are on the inside. That's how much our relationship matters to me.\n\nMr. Pines than promised me a raise if I never said that to him again."
  MYS_soos_8_effect:0 ""
  
  MYS_wendy_1:0 "The Cordoury Spirit"
- MYS_wendy_1_desc:0 "The Cordourys have always been a fiesty bunch, from the old tales of Archibald Cordoury to the feats of Daniel "Manly Dan" Cordoury. It's great that we have one of their folks on our team!"
+ MYS_wendy_1_desc:0 "We Cordourys have always been a fiesty bunch. From the old tales of my ancestors who tamed the Wild West to the feats of my dad, Daniel "Manly Dan" Cordoury. I think Mr. Pines is lucky to have me on his team!\n\n- §OWendy Cordoury§! -"
  MYS_wendy_1_effect:0 ""
  
  MYS_wendy_2:0 "Sick Drifts with the Cart"
- MYS_wendy_2_desc:0 "Finally, that old coot Mr. Pines is gone! Apparently he's going into town and he's not gonna come back until tommorow. It's time to have some fun while he's away, and I know just how to do it: Doing some tricks with the cart!"
+ MYS_wendy_2_desc:0 "Finally, that old coot Mr. Pines is gone! Apparently he's going into town and he's not gonna come back until tommorow. It's time to have some fun while he's away, and I know just how to do it: Doing some sick tricks with the golf cart!"
  MYS_wendy_2_effect:0 ""
  
  MYS_wendy_3:0 "Hiking through the Oregon Outback"
@@ -136,26 +136,26 @@
  MYS_wendy_3_effect:0 ""
  
  MYS_wendy_4:0 "Cashier Security"
- MYS_wendy_4_desc:0 "Pines is finally back from town, and he brought back some weapons. He says we have to stash 'em around the shack incase of armageddon. I heard him singing the national anthem as he went to bed, weird."
+ MYS_wendy_4_desc:0 "Pines is finally back from town, and he brought back some weapons. He says we have to stash 'em around the shack in case of armageddon. I heard him singing the national anthem as he went to bed, weird."
  MYS_wendy_4_effect:0 ""
  MYS_wendy_4_tooltip:0 "Modify §YThe Cordoury Spirit§! by\nDivision Defense: §G+5.00%§!"
  
  MYS_wendy_5:0 "Striking Fast"
- MYS_wendy_5_desc:0 "Look's like i've got some time off from working at the shack, coolio. I've been thinking about specializing my fighting style, maybe i'll throw hits so fast my enemies wont know what's goin' on..."
- MYS_wendy_5_effect:0 ""
+ MYS_wendy_5_desc:0 "Look's like I've got some time off from working at the shack, coolio. I've been thinking about specializing my fighting style, maybe I'll throw hits so fast my enemies wont know what's goin' on..."
+ MYS_wendy_5_effect:0 "Hey Thompson, I need a sparing partner!"
  
  MYS_wendy_6:0 "Hitting Hard"
- MYS_wendy_6_desc:0 "Look's like i've got some time off from working at the shack, coolio. I've been thinking about specializing my fighting style, maybe i'll throw hits so hard and heavy my enemies wont know what's goin' on..."
- MYS_wendy_6_effect:0 ""
+ MYS_wendy_6_desc:0 "Look's like I've got some time off from working at the shack, coolio. I've been thinking about specializing my fighting style, maybe I'll throw hits so hard and heavy my enemies wont know what's goin' on..."
+ MYS_wendy_6_effect:0 "Hey Toby, I need a sparing partner!"
  
  MYS_wendy_7:0 "Sharp Axes, Sharper Drip"
  MYS_wendy_7_desc:0 "Defeating your eneimes is good, but looking stylish while doing so is even better!"
- MYS_wendy_7_effect:0 ""
+ MYS_wendy_7_effect:0 "Can't believe I got Mr. Pines to pay for this! Thank you Buisness Cards!"
  MYS_wendy_7_tooltip:0 "Modify §YThe Cordoury Spirit§! by\nDivision Attack: §G+5.00%§!"
  
  MYS_wendy_8:0 "Staying Cool Under Pressure"
- MYS_wendy_8_desc:0 "My family is crazy, so I've kinda grown thicker skin than most."
- MYS_wendy_8_effect:0 ""
+ MYS_wendy_8_desc:0 "Trust me. My family is crazy. My baby brothers run around like headless chickens and my dad is probably wrestling a multi-bear. Deep down, I'm losing it.\n\nBut outside, I'm cool as the lake during winter."
+ MYS_wendy_8_effect:0 "... I still miss mom..."
  
  MYS_clones:0 "That old copier"
  MYS_clones_desc:0 ""
@@ -196,7 +196,7 @@
  MYS_PR_3_effect:0 "With the horror that is the Canadian Kerfuffle and the minor annoyance that is the collapse of the United States, some real action is needed by the town to handle the matter"
 
  MYS_PR_4:0 "Good PR"
- MYS_PR_4_desc:0 "For all the fault the town has, I know better then that their my only hope for the Shack and myself to stay afloat and survive. Having, as Mabel called it ‘Good Public Relationship’, is key to winning the town over. Besides, I'm the Man of Mystery! What isn’t there to love about the Mystery Shack and all the spooky, hazardous things inside!"
+ MYS_PR_4_desc:0 "For all the fault the town has, I know better then that their my only hope for the Shack and myself to stay afloat and survive. Having, as Mabel called it ‘Good Public Relationship’, is key to winning the town over. Besides, I'm the Man of Mystery! What isn’t there to love about the Mystery Shack and all the spooky, hazardous things inside!\n- §RStan Pines§! -"
  MYS_PR_4_effect:0 "And Soos, fix those hazardous things inside the Shack. I ain’t in the hankering for a lawsuit."
 
  MYS_PR_6:0 "Free Souvenirs***"
@@ -231,7 +231,7 @@
  ################################
  
  MYS_PR_11:0 "False Flags"
- MYS_PR_11_desc:0 "This town thinks they can just walk right over me?\nI placed it on the map!\nPeople don't flock to this this backwater Oregon town for the food or the scenery. They come here for the Mystery Shack! Its time I make my point abundantly clear."
+ MYS_PR_11_desc:0 "This town thinks they can just walk right over me?\nI placed it on the map!\nPeople don't flock to this this backwater Oregon town for the food or the scenery. They come here for the Mystery Shack! Its time I make my point abundantly clear.\n- §RStan Pines§! -"
  MYS_PR_11_effect:0 ""
  
  MYS_PR_12:0 "'Job Makers'"
@@ -255,11 +255,11 @@
  ######################################################
  
  MYS_rockthemabel:0 "Li'l Gideon"
- MYS_rockthemabel_desc:0 "Nothing good can come from dealing with that li'l monster Gideon. Dipper, Mabel, stay away from them."
+ MYS_rockthemabel_desc:0 "Nothing good can come from dealing with that li'l monster Gideon. Dipper, Mabel, stay away from them.\n\n- §RStan Pines§! -"
  MYS_rockthemabel_effect:0 "We could do what Grunkle Stan said... or we could go see this Gidoen for ourselves!"
  
  MYS_ship_1:0 "A Gleeful Pair"
- MYS_ship_1_desc:0 "Ah, my dearest Mabel! For you, I'll give you all the world itself. Don't let those nay-sayers like your dim-witted brother say otherwise. Let me make you happy, let me care for you. Everything for you, for us."
+ MYS_ship_1_desc:0 "Ah, my dearest Mabel! For you, I'll give you all the world itself. Don't let those nay-sayers like your dim-witted brother say otherwise. Let me make you happy, let me care for you. Everything for you, for us.\n\n- §LGideon Gleefull§! -"
  MYS_ship_1_effect:0 "§CWould be made avaible depending on hows well Gideon and Mabel get along.§!"
  
  MYS_ship_2:0 "A beneficial arrangment"
@@ -291,11 +291,11 @@
  ######################################################
  
  MYS_pine_1:0 "Pining for Time"
- MYS_pine_1_desc:0 "That "Li'l Gideon" is crazy! And we know he won't stop, not until he can have Mabel and take me and Stan out.\nBut with the love the town has for him, we'll need to pine for time and figure out the source of his power.\n\nI have a feeling whatever it is, its tied to the author himself!"
+ MYS_pine_1_desc:0 "That "Li'l Gideon" is crazy! And we know he won't stop, not until he can have Mabel and take me and Stan out.\nBut with the love the town has for him, we'll need to pine for time and figure out the source of his power.\nI have a feeling whatever it is, its tied to the author himself!\n- §CDipper Pines§! -"
  MYS_pine_1_effect:0 "§CWould be made avaible depending on hows well Gideon and Mabel get along.§!"
  
  MYS_pine_2:0 "New Attractions"
- MYS_pine_2_desc:0 "Dipper's right! We need to knock the steam out of Gideon if we are to stop the little twerp. With the tourist season in full gear, I'll make up some new attractions to draw attention away from that fraudulant psychic! There's only room for one conman in this town!"
+ MYS_pine_2_desc:0 "Dipper's right! We need to knock the steam out of Gideon if we are to stop the little twerp. With the tourist season in full gear, I'll make up some new attractions to draw attention away from that fraudulant psychic! There's only room for one conman in this town!\n\n- §RStan Pines§! -"
  MYS_pine_2_effect:0 ""
  
  MYS_pine_3:0 "Interior Motives"
@@ -303,7 +303,7 @@
  MYS_pine_3_effect:0 "There must be something in this book to help us... a muse?"
  
  MYS_pine_4:0 "Mystery Sale"
- MYS_pine_4_desc:0 "Damn that little monster and his cuteness. A simple press of his cheeks and people flock to him like he's the messiah!\n\nThere's only one option left. Oh mightly Bunyun forgive... Soos, Wendy. Slash the prices, we're having a sale!"
+ MYS_pine_4_desc:0 "Damn that little monster and his cuteness. A simple press of his cheeks and people flock to him like he's the messiah!\n\nThere's only one option left. Oh mightly Bunyun forgive... Soos, Wendy. Slash the prices, we're having a sale!\n- §RStan Pines§! -"
  MYS_pine_4_effect:0 ""
  
  MYS_pine_5:0 "The Source of his powers"
@@ -315,8 +315,8 @@
  MYS_pine_6_effect:0 ""
  
  MYS_pine_7:0 "Expose the real Hack!"
- MYS_pine_7_desc:0 "That creep Gideon been exposed! After that climatic battle at the cliff with Dipper and a quick save to my good old grappling hook, Grunkle Stan exposed that li'l ol' fraudster.\n\nI doubt we'll have to worry about Gideon again."
- MYS_pine_7_effect:0 "Mabel thinks we're safe for now. But with the other journals out there. Who knows what could be done if someone had all three?"
+ MYS_pine_7_desc:0 "That creep Gideon been exposed! After that climatic battle at the cliff with Dipper and a quick save to my good old grappling hook, Grunkle Stan exposed that li'l ol' fraudster.\n\nI doubt we'll have to worry about Gideon again.\n- §YMabel Pines§! -"
+ MYS_pine_7_effect:0 "Mabel thinks we're safe for now. But with the other journals out there. Who knows what could be done if someone had all three? - §CDipper Pines§!"
  
  ######################################################
  #  Mabel and Dipper related Focuses  #

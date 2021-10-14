@@ -69,6 +69,9 @@ MYS_PR_tate_desc:0 "The line between brilliance and insanity is a blurry one at 
 MYS_PR_souvenir:0 "Free Souvineers!"
 MYS_PR_souvenir_desc:0 "How am I still losing money inspite that T&C?"
 
+MYS_PR_dunk:0 "Dunk the Grunk!"
+MYS_PR_dunk_desc:0 "Leave it to her dad to charge headlong into the wall that was the dunk lever. Of course she would get smart about it and just knock the literal support from under me.\n\nDan's right though. Wendy really is just like her mother. I'll miss Annebelle, thats for sure."
+
 MYS_PR_false:0 "Can't Stan it no longer"
 MYS_PR_false_desc:0 ""
 
@@ -76,7 +79,7 @@ MYS_PR_devil:0 "This Con you can't Changed!"
 MMYS_PR_devil_con_desc:0 ""
 
 MYS_GTF_low_pay:0 "Low Wages"
-MYS_GTF_low_pay_desc:0 "Through a series of business and other "entities", Stan Pines had hired many of the town folks to work for them. They have agreed to to the badly needed employment, though the pay is only marginally better than not wokring at all."
+MYS_GTF_low_pay_desc:0 "Through a series of business and other "entities", Stan Pines had hired many of the town folks to work for them. They have agreed to the badly needed employment, though the pay is only marginally better than not wokring at all."
 
 MYS_GTF_loan_shark:0 "Pine's Investings and Loans"
 MYS_GTF_loan_shark_desc:0 "To restimulate the economy, Stan Pines had loaned out funding at insane rates to the town. But with no other source to borrow from as the rest of Oregon is concentrated with the valley, there is not much we can do."
