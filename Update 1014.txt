@@ -1,4 +1,17 @@
 #############################################################
+Update File Notes Oct 14
+
+common/ai_peace
+common/national_focus/mys_focus
+
+events/mys
+events/MEW_events_war_timed
+
+
+localisation/peace_l_english
+
+
+#############################################################
 Update File Notes Oct 12
 
 common/ideas/mys_ideas

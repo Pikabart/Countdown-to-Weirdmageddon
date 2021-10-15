@@ -10,6 +10,8 @@ add_namespace = mystery_shack_PR_good
 add_namespace = mystery_shack_PR_bad
 add_namespace = mystery_shack_rock_the_mabel
 add_namespace = mystery_shack_mystery_fair
+add_namespace = mystery_shack_ship
+add_namespace = mystery_shack_pine
 
 country_event = { #1
 	id = mystery_shack.1
@@ -1006,6 +1008,105 @@ country_event = {    # Keeping it going
 		}
 	}
 }
+
+#######################################################################################################################
+# Pining for Time
+########################################################################################################################
+
+country_event = {    # Start the War
+	id = mystery_shack_pine.1
+	title = mystery_shack_pine.1.t 
+	desc = mystery_shack_pine.1.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { hidden_effect = {} }
+	
+	option = { 
+		name = mystery_shack_pine.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mystery_shack_pine.2 days = 3 }
+		GID = {
+			declare_war_on = {
+				target = MYS
+				type = annex_everything
+			}
+		}
+	}
+}
+
+country_event = {    # Does GF get involve
+	id = mystery_shack_pine.2
+	title = mystery_shack_pine.2.t 
+	desc = mystery_shack_pine.2.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { hidden_effect = {} }
+	
+	option = { 
+		name = mystery_shack_pine.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		#country_event = { id = mystery_shack_pine. days = 3 }
+		if = {
+			limit = { has_country_flag = MYS_OUR_MAN_STAN}
+			GTF = {
+				declare_war_on = {
+					target = GID
+					type = annex_everything
+				}
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = MYS_CON_MAN_STAN}
+			GTF = {
+				declare_war_on = {
+					target = MYS
+					type = annex_everything
+				}
+			}
+		}
+		else = {
+			GTF = {
+				give_military_access = MYS	
+				give_military_access = GID
+			}
+		}
+	}
+}
+
+#country_event = {
+#	id = mystery_shack_pine.3
+#	title = mystery_shack_pine.3.t
+#	desc = mystery_shack_pine.3.d
+#	picture = GFX_report_event_solaria_legacy
+#	hidden = yes
+#		
+#	trigger = {
+#		original_tag = MYS
+#		GID = { surrender_progress > 0.60 }
+#	}
+#	
+#	fire_only_once = yes
+#		
+#	immediate = {
+#		name = mystery_shack_pine.3.a
+#		white_peace = {
+#			tag = GID
+#			message = "Gideon Has Been Defeated!"
+#		}
+#		MYS = { transfer_state = 25 }
+#		GTF = { transfer_state = 26 }
+#		GTF = { transfer_state = 23 }
+#		MYS = { add_state_core = 25 }
+#		GTF = { add_state_core = 26 }
+#		GTF = { add_state_core = 23 }
+#	}
+#}
 
 ##############################################################################################################################
 ##############################################################################################################################

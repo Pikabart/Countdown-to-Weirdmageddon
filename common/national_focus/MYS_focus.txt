@@ -1773,7 +1773,7 @@ focus = {
 		cost = 1
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			country_event = mystery_shack_pine.1
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1786,6 +1786,7 @@ focus = {
 		y = 1	
 		relative_position_id = MYS_pine_6
 		
+		available = { always = no }	
 		prerequisite = { focus = MYS_pine_6 }
 		cost = 1
 
