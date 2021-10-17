@@ -244,8 +244,60 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/MYS/focus_gleeful_pair.dds"			
 	}
 	
+	SpriteType = { 
+	name = "GFX_goal_focus_spy_waddles"
+	texturefile = "gfx/interface/goals/MYS/focus_spy_waddles.dds"			
+	}
 	
+	SpriteType = { 
+	name = "GFX_goal_focus_heart_in_hand"
+	texturefile = "gfx/interface/goals/MYS/focus_heart_in_hand.dds"			
+	}
 	
+	SpriteType = { 
+	name = "GFX_goal_focus_tight_control"
+	texturefile = "gfx/interface/goals/MYS/focus_tight_control.dds"			
+	}
+	
+	SpriteType = { 
+	name = "GFX_goal_focus_only_room_for_one"
+	texturefile = "gfx/interface/goals/MYS/focus_only_room_for_one.dds"			
+	}
+	
+	SpriteType = { 
+	name = "GFX_goal_focus_mabel_puppet"
+	texturefile = "gfx/interface/goals/MYS/focus_mabel_puppet.dds"			
+	}
+	
+	SpriteType = { 
+	name = "GFX_goal_focus_pining_for_time"
+	texturefile = "gfx/interface/goals/MYS/focus_pining_for_time.dds"			
+	}
+	
+	SpriteType = { 
+	name = "GFX_goal_focus_interior_motives"
+	texturefile = "gfx/interface/goals/MYS/focus_interior_motives.dds"			
+	}
+	
+	SpriteType = { 
+	name = "GFX_goal_focus_new_attractions"
+	texturefile = "gfx/interface/goals/MYS/focus_new_attractions.dds"			
+	}
+	
+	SpriteType = { 
+	name = "GFX_goal_focus_contact_bill"
+	texturefile = "gfx/interface/goals/MYS/focus_contact_bill.dds"			
+	}
+	
+	SpriteType = { 
+	name = "GFX_goal_focus_shack_strikes"
+	texturefile = "gfx/interface/goals/MYS/focus_shack_strikes.dds"			
+	}
+	
+	SpriteType = { 
+	name = "GFX_goal_focus_expose"
+	texturefile = "gfx/interface/goals/MYS/focus_expose.dds"			
+	}
 	
 	
 	

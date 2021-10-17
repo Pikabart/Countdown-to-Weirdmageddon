@@ -21,6 +21,7 @@ country_event = {
 	
 	option = { 
 		name = soos.1.a
+		add_ideas = MYS_fixin_it_with_soos
 		ai_chance = { factor = 100 }	# 100% AI choose this
 	}
 }

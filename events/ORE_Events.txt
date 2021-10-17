@@ -34,6 +34,7 @@ country_event = { # Trembley shows up
 			WPI = { transfer_state = 92 add_state_core = 92 }
 			ORE = { remove_state_core = 92 }
 			EUS = { add_to_faction = WPI }
+			CAL = {country_event = { id = CAL_TREMBLEY.1 days = 1 } }
 		}
 	}
 	
@@ -45,9 +46,9 @@ country_event = { # Trembley shows up
 			news_event = { id = launcher_news.2 days = 1 } # Launch event to launch world news event for Earth
 		}
 	}
-	option = { 
+	option = {   # For players only to switch Nations to the West FPI 
 		name = ORE_TREMBLEY.1.b
-		ai_chance = { factor = 100 }	# 100% AI choose this
+		ai_chance = { factor = 0 }	# 00% AI choose this
 		hidden_effect = { 
 			country_event = { id = ORE_TREMBLEY.2 days = 3 } 
 			news_event = { id = launcher_news.2 days = 1 } # Launch event to launch world news event for Earth
@@ -114,13 +115,13 @@ country_event = { #Onyx Descision
 	option = { 
 		name = ORE_TREMBLEY.5.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = ORE_TREMBLEY.6 days = 3 }
+		country_event = { id = ORE_TREMBLEY.6 days = 3 }            # Go to event 6
 		WPI = { country_event = { id = WPI_TREMBLEY.4 days = 3 } }
 	}
 	option = { 
 		name = ORE_TREMBLEY.5.b
 		ai_chance = { factor = 0 }	# 100% AI choose this
-		country_event = { id = ORE_TREMBLEY.7 days = 3 }
+		country_event = { id = ORE_TREMBLEY.7 days = 3 }			# Go to event 7
 		WPI = { country_event = { id = WPI_TREMBLEY.5 days = 3 } }
 	}
 }
@@ -158,6 +159,8 @@ country_event = { # Trembley declares Rival government
 			name = ORE_democratic_party_trembley
 			long_name = ORE_democratic_party_trembley
 		}
+		create_faction = "Trembley Administration"
+		add_to_faction = IDH
 		hidden_effect = { 
 			country_event = { id = ORE_TREMBLEY.8 days = 3 } 
 			news_event = { id = launcher_news.3 days = 1 } # Launch event to launch world news event for Earth
@@ -176,7 +179,7 @@ country_event = { #Onyx gives Trembley up
 	option = { 
 		name = ORE_TREMBLEY.7.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		#country_event = { id =  days = 5 }
+		CAL = {country_event = { id = CAL_ELECTION.3 days = 5 } }  #Olson will win immedeitly in Cal
 	}
 }
 
@@ -191,7 +194,7 @@ country_event = { #border wars
 	option = { 
 		name = ORE_TREMBLEY.8.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		CAL = {country_event = { id = CAL_TREMBLEY.1 days = 5 } }
+		CAL = {country_event = { id = CAL_TREMBLEY.2 days = 5 } }  # The NEws the promtpt Norton's electin
 	}
 }
 

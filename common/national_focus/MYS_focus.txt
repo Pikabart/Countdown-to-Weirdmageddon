@@ -53,7 +53,7 @@
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 400
 			#modifier = {}
 		}
 		
@@ -87,7 +87,7 @@
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 400
 		}
 	}
 	
@@ -118,7 +118,7 @@
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 360
 		}
 	}
 	
@@ -146,7 +146,7 @@
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 400
 		}
 	}
 	
@@ -192,7 +192,7 @@
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 400
 		}
 	}
 
@@ -607,7 +607,6 @@
 
 		completion_reward = {
 			country_event = soos.1
-			add_ideas = MYS_fixin_it_with_soos
 		}
 		
 		ai_will_do = {factor = 1}
@@ -994,7 +993,9 @@
 		cost = 3 # (#)x7days 
 
 		completion_reward = {
+			custom_effect_tooltip = "MYS_wendy_8_tooltip"
 			country_event = wendy.3
+			hidden_effect = {
 			if = {
 				limit = { has_idea = MYS_cordoury_spirit_speed_security_attack }
 					swap_ideas = { 
@@ -1011,6 +1012,7 @@
 
 					}
 			}
+		}
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1544,6 +1546,7 @@ focus = {
 
 		completion_reward = {
 			#country_event = mystery_shack.
+			custom_effect_tooltip = "MYS_ship_1_effect"
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1551,7 +1554,7 @@ focus = {
 
 focus = { 
 		id = MYS_ship_2
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_generic_dangerous_deal
 		x = 0
 		y = 1	
 		relative_position_id = MYS_ship_1
@@ -1568,7 +1571,7 @@ focus = {
 
 focus = { 
 		id = MYS_ship_3
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_spy_waddles
 		x = 0
 		y = 1	
 		relative_position_id = MYS_ship_2
@@ -1585,7 +1588,7 @@ focus = {
 
 focus = { 
 		id = MYS_ship_4
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_heart_in_hand
 		x = -1
 		y = 1	
 		relative_position_id = MYS_ship_3
@@ -1603,7 +1606,7 @@ focus = {
 
 focus = { 
 		id = MYS_ship_5
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_mabel_puppet
 		x = 1
 		y = 1	
 		relative_position_id = MYS_ship_3
@@ -1621,7 +1624,7 @@ focus = {
 
 focus = { 
 		id = MYS_ship_6
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_tight_control
 		x = 0
 		y = 1	
 		relative_position_id = MYS_ship_4
@@ -1638,7 +1641,7 @@ focus = {
 
 focus = { 
 		id = MYS_ship_7
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_only_room_for_one
 		x = 0
 		y = 1	
 		relative_position_id = MYS_ship_5
@@ -1657,7 +1660,7 @@ focus = {
 #####################################
 focus = { 
 		id = MYS_pine_1
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_pining_for_time
 		x = 3
 		y = 1	
 		relative_position_id = MYS_rockthemabel
@@ -1675,6 +1678,7 @@ focus = {
 
 		completion_reward = {
 			#country_event = mystery_shack.
+			custom_effect_tooltip = "MYS_pine_1_effect"
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1682,7 +1686,7 @@ focus = {
 
 focus = { 
 		id = MYS_pine_2
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_new_attractions
 		x = -1
 		y = 1	
 		relative_position_id = MYS_pine_1
@@ -1699,7 +1703,7 @@ focus = {
 
 focus = { 
 		id = MYS_pine_3
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_interior_motives
 		x = 1
 		y = 1	
 		relative_position_id = MYS_pine_1
@@ -1709,6 +1713,7 @@ focus = {
 
 		completion_reward = {
 			#country_event = mystery_shack.
+			custom_effect_tooltip = "MYS_pine_3_effect"
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1716,7 +1721,7 @@ focus = {
 	
 focus = { 
 		id = MYS_pine_4
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_souvineers
 		x = 0
 		y = 1	
 		relative_position_id = MYS_pine_2
@@ -1733,7 +1738,7 @@ focus = {
 
 focus = { 
 		id = MYS_pine_5
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_contact_bill
 		x = 0
 		y = 1	
 		relative_position_id = MYS_pine_3
@@ -1743,6 +1748,7 @@ focus = {
 
 		completion_reward = {
 			#country_event = mystery_shack.
+			custom_effect_tooltip = "MYS_pine_5_effect"
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1750,7 +1756,7 @@ focus = {
 	
 focus = { 
 		id = MYS_pine_6
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_shack_strikes
 		x = 0
 		y = 3	
 		relative_position_id = MYS_pine_1
@@ -1768,7 +1774,7 @@ focus = {
 
 focus = { 
 		id = MYS_pine_7
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_expose
 		x = 0
 		y = 1	
 		relative_position_id = MYS_pine_6
@@ -1778,6 +1784,7 @@ focus = {
 
 		completion_reward = {
 			#country_event = mystery_shack.
+			custom_effect_tooltip = "MYS_pine_7_effect"
 		}
 		
 		ai_will_do = {factor = 1}

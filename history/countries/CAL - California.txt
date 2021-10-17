@@ -62,8 +62,9 @@ set_politics = {
 
 set_popularities = {
 	democratic = 80
-	communism = 15
+	communism = 10
 	fascism = 5
+	neutrality = 5
 }
 
 create_country_leader = {
@@ -86,3 +87,32 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Hector Diaz-Guzman"
+	desc = ""
+	picture = ""
+	ideology = moderatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Carman Evertt"
+	desc = ""
+	picture = ""
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Carman Evertt"
+	desc = ""
+	picture = ""
+	ideology = anarchist_communism
+	traits = {
+		#
+	}
+}
