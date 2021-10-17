@@ -716,7 +716,8 @@
 		cost = 3 # (#)x7days 
 
 		completion_reward = {
-			add_ideas = MYS_OSHA_complaiant
+			custom_effect_tooltip = MYS_soos_6_effect
+			add_ideas = MYS_janky_building
 		}
 		
 		ai_will_do = {factor = 1}
@@ -738,7 +739,7 @@
 		cost = 3 # (#)x7days 
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			custom_effect_tooltip = MYS_soos_7_effect
 			29 = {
 				add_building_construction = {
 					type = infrastructure 
@@ -746,7 +747,7 @@
 					instant_build = yes
 				}
 			}
-			add_ideas = MYS_janky_building
+			add_ideas = MYS_OSHA_complaiant
 
 		}
 		
@@ -905,6 +906,7 @@
 
 		completion_reward = {
 			#country_event = mystery_shack.
+			custom_effect_tooltip = MYS_wendy_5_effect
 			add_tech_bonus = {
 				bonus = 1
 				uses = 1
@@ -929,6 +931,7 @@
 
 		completion_reward = {
 			#country_event = mystery_shack.
+			custom_effect_tooltip = MYS_wendy_6_effect
 			add_tech_bonus = {
 				bonus = 1
 				uses = 1
@@ -954,6 +957,7 @@
 		cost = 3 # (#)x7days 
 
 		completion_reward = {
+			custom_effect_tooltip = MYS_wendy_7_effect
 			custom_effect_tooltip = "MYS_wendy_7_tooltip"
 			country_event = wendy.2
 			hidden_effect = {
@@ -1252,7 +1256,11 @@
 		relative_position_id = MYS_PR_8
 			
 		cost = 4
-
+		
+		select_effect = {
+			country_event = { id = mystery_shack_mystery_fair.1 days = 2 }
+		}
+		
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_10_effect
 			#country_event = mystery_shack.
@@ -1766,7 +1774,7 @@ focus = {
 		cost = 1
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			country_event = mystery_shack_pine.1
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1779,6 +1787,7 @@ focus = {
 		y = 1	
 		relative_position_id = MYS_pine_6
 		
+		available = { always = no }	
 		prerequisite = { focus = MYS_pine_6 }
 		cost = 1
 

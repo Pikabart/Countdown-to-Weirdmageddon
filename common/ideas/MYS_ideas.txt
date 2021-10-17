@@ -147,8 +147,7 @@ ideas = { #Entire file
 			allowed_civil_war = {always = no}
 			
 			modifier = {
-				recruitable_population_factor = 0.02
-				industry_repair_factor = -0.02
+				industry_repair_factor = 0.02
 			}
 		}
 		###############
@@ -161,7 +160,8 @@ ideas = { #Entire file
 			allowed_civil_war = {always = no}
 			
 			modifier = {
-				industry_repair_factor = 0.02
+				recruitable_population_factor = 0.02
+				industry_repair_factor = -0.02
 			}
 		}
 		###############
@@ -424,6 +424,21 @@ ideas = { #Entire file
 				consumer_goods_factor = 0.05
 				stability_factor = 0.05
 				trade_opinion_factor = 0.05
+			}
+		}
+		##############
+		MYS_PR_dunk = {
+			picture = GFX_idea_MYS_PR_dunk
+			
+			allowed = {tag = MYS}
+			available = {} 
+			cancel = {}  # Will Stay until Wendy's Mom Returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				consumer_goods_factor = 0.02
+				stability_factor = 0.05
+				war_support_factor = 0.05
 			}
 		}
 		###############
