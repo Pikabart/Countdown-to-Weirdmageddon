@@ -155,7 +155,7 @@
  
  MYS_wendy_8:0 "Staying Cool Under Pressure"
  MYS_wendy_8_desc:0 "Trust me. My family is crazy. My baby brothers run around like headless chickens and my dad is probably wrestling a multi-bear. Deep down, I'm losing it.\n\nBut outside, I'm cool as the lake during winter."
- MYS_wendy_8_effect:0 "... I still miss mom..."
+ MYS_wendy_8_tooltip:0 "Modify §YThe Cordoury Spirit§! by\nSurrender Limit: §G+10.00%§!"
  
  MYS_clones:0 "That old copier"
  MYS_clones_desc:0 ""
