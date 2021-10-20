@@ -6,14 +6,10 @@ on_actions = {
 	#		}
 	#	}
 	#}
-	
-	on_capitulation = {
+	on_startup = {
 		effect = {
-			if = {
-				limit = {
-					original_tag = LUD
-				}
-				MEW = { country_event = { id = ludo_defeated.1 days = 3 }}
+			MEW = {
+				country_event = { id = mewni_startup.1 } # Event code is in MEW_events_focus
 			}
 		}
 	

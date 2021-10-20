@@ -23,7 +23,7 @@ country_event = {
 	id = tsr_alliance_proposal.1
 	title = tsr_alliance_proposal.1.t
 	desc = tsr_alliance_proposal.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_solaria_legacy
 	
 	is_triggered_only = yes
 	
@@ -55,7 +55,7 @@ country_event = {
 	id = uneasy_peace.1
 	title = uneasy_peace.1.t
 	desc = uneasy_peace.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_solaria_legacy
 	
 	is_triggered_only = yes
 	
@@ -70,7 +70,7 @@ country_event = {
 	id = import_airplanes_event.1
 	title = import_airplanes_event.1.t
 	desc = import_airplanes_event.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_solaria_legacy
 	
 	is_triggered_only = yes
 	
@@ -94,7 +94,7 @@ country_event = {
 	id = tsr_accepts.1
 	title = tsr_accepts.1.t
 	desc = tsr_accepts.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_solaria_legacy
 	
 	is_triggered_only = yes
 	
@@ -111,7 +111,7 @@ country_event = {
 	id = tsr_rejects.1
 	title = tsr_rejects.1.t
 	desc = tsr_rejects.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_solaria_legacy
 	
 	is_triggered_only = yes
 	
@@ -126,7 +126,7 @@ country_event = {
 	id = tsr_wants_land.1
 	title = tsr_wants_land.1.t
 	desc = tsr_wants_land.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_solaria_legacy
 	
 	is_triggered_only = yes
 	
@@ -153,7 +153,7 @@ country_event = {
 	id = tsr_land_alliance_accepted.1
 	title = tsr_land_alliance_accepted.1.t
 	desc = tsr_land_alliance_accepted.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_solaria_legacy
 	
 	is_triggered_only = yes
 	
@@ -169,7 +169,7 @@ country_event = {
 	id = tsr_land_alliance_accepted_mew.1
 	title = tsr_land_alliance_accepted_mew.1.t
 	desc = tsr_land_alliance_accepted_mew.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_solaria_legacy
 	
 	is_triggered_only = yes
 	
@@ -196,7 +196,7 @@ country_event = {
 	id = tsr_land_alliance_accepted_joh.1
 	title = tsr_land_alliance_accepted_joh.1.t
 	desc = tsr_land_alliance_accepted_joh.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_solaria_legacy
 	
 	is_triggered_only = yes
 	
@@ -210,7 +210,7 @@ country_event = {
 	id = tsr_land_alliance_rejected.1
 	title = tsr_land_alliance_rejected.1.t
 	desc = tsr_land_alliance_rejected.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_solaria_legacy
 	
 	is_triggered_only = yes
 	
@@ -224,7 +224,7 @@ country_event = {
 	id = tsr_land_alliance_rejected_mew.1
 	title = tsr_land_alliance_rejected_mew.1.t
 	desc = tsr_land_alliance_rejected_mew.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_solaria_legacy
 	
 	is_triggered_only = yes
 	
@@ -239,42 +239,12 @@ country_event = {
 	id = tsr_land_alliance_rejected_joh.1
 	title = tsr_land_alliance_rejected_joh.1.t
 	desc = tsr_land_alliance_rejected_joh.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_solaria_legacy
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = tsr_land_alliance_rejected_joh.1.a
-		ai_chance = { factor = 90 }
-
-	}
-}
-
-country_event = {
-	id = alpha_end.1
-	title = alpha_end.1.t
-	desc = alpha_end.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = alpha_end.1.a
-		ai_chance = { factor = 90 }
-
-	}
-}
-
-country_event = {
-	id = ludo_defeated.1
-	title = ludo_defeated.1.t
-	desc = ludo_defeated.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = ludo_defeated.1.a
 		ai_chance = { factor = 90 }
 
 	}

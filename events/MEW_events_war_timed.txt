@@ -180,13 +180,15 @@ country_event = {
 country_event = {
 	id = ludo_surrender.1
 	title = ludo_surrender.1.t
-	desc = ludo_surrender.1.d
+	desc = ludo_surrender.1.
+	
 	picture = GFX_report_event_solaria_legacy
 	hidden = yes
 		
 	trigger = {
 		original_tag = MEW
 		LUD = { surrender_progress > 0.85 }
+		has_country_flag = ludo_civil_war_start
 	}
 	
 	fire_only_once = yes

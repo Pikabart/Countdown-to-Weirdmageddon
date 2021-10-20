@@ -4,6 +4,10 @@
 #INTRO#
 #######
 
+mewni_startup.1.t:0 "Welcome to Countdown to Weirdmaggedon: Mewni!"
+mewni_startup.1.d:0 "Welcome to our mod, we hope you enjoy!\n\n§RIMPORTANT NOTES:§! At this point in development, Mewni is expected to win every war it has. Events about the end of wars take a short amount of time after the war to show up. Scripted peace is a possibility, but it is not game-ending if you get a manual peace confrence."
+mewni_startup.1.a:0 "Alright, time to play!"
+
 mewni_solaria.1.t:0 "The Legacy of Queen Solaria"
 mewni_solaria.1.d:0 "Three hundred years ago, a newly crowned Queen Solaria Butterfly rallied the numerous Mewman kingdoms for a grand campaign. Her mission, that she proclaimed to the Butterfly kingdom on the very night of her coronation, was to bring the entire dimension of Menwi under the rule of Mewmankind. She rallied her armies, perfected the great magic of the Butterfly Line, and began a long and glorious war to crush the monster filth.\n\nShe undoubtedly succeeded, and brought about an unprecedented golden age of Mewman supremacy. Her leadership drove the monster hordes into the Underworld and the Forest of Certain Death, where they still remain fighting amongst themselves. Thanks to her keen interest in alliance building, spearheaded by her older brother, Prince Jushtin Butterfly, she gave birth to the system that stands today as the Kingdom of Mewni. And it would be her dying wish that ensured that through centuries of dynasties and political changes, the Butterfly Family would have everlasting hegemonoy over all of Mewni."
 mewni_solaria.1.a:0 "Rest in peace, Monster Carver"
