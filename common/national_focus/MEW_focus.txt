@@ -20,7 +20,7 @@ focus_tree = {
 	focus = {
 		id = solaria_legacy
 		icon = GFX_goal_foucs_legacy_of_solaria
-		x = 10
+		x = 9
 		y = 0
 		cost = 1
 		
@@ -109,7 +109,7 @@ focus_tree = {
 	focus = {
 		id = import_tax
 		icon = GFX_goal_generic_neutrality_focus
-		x = -2
+		x = -3
 		y = 1
 		relative_position_id = situation_in_the_south 
 		prerequisite = { focus = situation_in_the_south }
@@ -168,7 +168,7 @@ focus_tree = {
 	focus = {
 		id = mew_trolling
 		icon = GFX_goal_generic_propaganda
-		x = 0
+		x = -1
 		y = 1
 		relative_position_id = situation_in_the_south 
 		prerequisite = { focus = situation_in_the_south }
@@ -255,7 +255,7 @@ focus_tree = {
 	focus = {
 		id = mew_drill_border
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 3
+		x = 2
 		y = 1
 		relative_position_id = situation_in_the_south 
 		prerequisite = { focus = situation_in_the_south }
@@ -390,7 +390,7 @@ focus_tree = {
 	focus = {
 		id = mew_mina_treatment
 		icon = GFX_goal_focus_mina_treatment
-		x = 5
+		x = 4
 		y = 1
 		relative_position_id = situation_in_the_south 
 		prerequisite = { focus = situation_in_the_south }

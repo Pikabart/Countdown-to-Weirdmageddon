@@ -2,6 +2,7 @@
 # Mewni Events
 ###########################
 
+add_namespace = mewni_startup
 add_namespace = mewni_solaria
 add_namespace = mewni_300_peace
 add_namespace = butterfly_family
@@ -46,6 +47,20 @@ add_namespace = jaggy_collapse
 add_namespace = trade_ports
 
 ###############################################################################################################
+
+country_event = {
+	id = mewni_startup.1
+	title = mewni_startup.1.t
+	desc = mewni_startup.1.d
+	picture = GFX_report_event_thumbnail
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mewni_startup.1.a
+		ai_chance = { factor = 90 }
+		}
+	}
 
 country_event = {
 	id = mewni_solaria.1
@@ -331,6 +346,7 @@ country_event = {
 	}
 		hidden_effect = {
 			MEW = { country_event = { id = controlled_burning.2 days = 14 } }
+			
 		}
 	
 	}
@@ -1073,6 +1089,7 @@ country_event = {
 		
 				clr_country_flag = A-RAT_founded_flag   #Disbale ARAT and REC
 				clr_country_flag = REC_founded_flag
+				set_country_flag = ludo_civil_war_start
 				
 			}
  
