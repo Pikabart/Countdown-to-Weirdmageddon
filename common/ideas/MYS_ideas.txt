@@ -334,8 +334,8 @@ ideas = { #Entire file
 			}
 		}
 		
-		##############
-		##############
+		########################################################
+		########################################################
 		MYS_PR_start = {
 			picture = GFX_idea_MYS_PR_start
 			
@@ -489,9 +489,8 @@ ideas = { #Entire file
 				trade_opinion_factor = -0.5
 			}
 		}
-		
-		MYS_GTF_low_pay = {
-			picture = GFX_idea_MYS_GTF_low_pay
+		MYS_PR_low = {
+			picture = GFX_idea_MYS_PR_devil
 			
 			allowed = {tag = MYS}
 			available = {}#Until Ford returns
@@ -499,23 +498,55 @@ ideas = { #Entire file
 			allowed_civil_war = {always = no}
 			
 			modifier = {
+				research_speed_factor = 0.1
+				war_support_weekly = 0.02
+				decryption_factor = 0.15
+				encryption_factor = 0.15
+				training_time_factor = 0.25
+				trade_opinion_factor = -0.5
+			}
+		}
+
+		MYS_GTF_low_pay = {
+			picture = GFX_idea_MYS_GTF_low_pay
+			
+			allowed = {	}
+			available = {}#Until Ford returns
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			targeted_modifier = {
+				tag = GTF
 				stability_factor = -0.1
 				war_stability_factor = -0.1
 				monthly_population = -0.1
+			}
+			targeted_modifier = {
+				tag = MYS 
+				stability_factor = +0.1
+				war_stability_factor = +0.1
+				monthly_population = +0.1
 			}
 		}
 		MYS_GTF_loan_shark = {
 			picture = MYS_GTF_loan_shark
 			
-			allowed = {tag = MYS}
+			allowed = {}
 			available = {}#Until Ford returns
 			cancel = {}
 			allowed_civil_war = {always = no}
 			
-			modifier = {
-				stability_factor = -0.1
-				war_support_factor = -0.1
-				consumer_goods_factor = -0.1
+			targeted_modifier = {
+					tag = GTF 
+					stability_factor = -0.1
+					war_support_factor = -0.1
+					consumer_goods_factor = +0.1		
+			}
+			targeted_modifier = {
+					tag = MYS
+					stability_factor = 0.1
+					war_support_factor = 0.1
+					consumer_goods_factor = -0.1	
 			}
 		}
 		

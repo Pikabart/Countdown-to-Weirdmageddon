@@ -72,7 +72,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Deputy Director S"
-	desc = ""
+	desc = "POLITICS_S_DESC"
 	picture = ""
 	ideology = despotism
 	traits = {
@@ -82,7 +82,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Deputy Director S"
-	desc = ""
+	desc = "POLITICS_S_DESC"
 	picture = ""
 	ideology = fascism_ideology
 	traits = {

@@ -65,7 +65,7 @@ country_event = {
 		create_country_leader = {
 
 			name = "Dónald Drumpf"
-			desc = "placeholder"
+			desc = "POLITICS_MEXICO_DRUMPF_DESC"
 			picture = "hoi4_portrait_drumpf.dds"
 			ideology = fascism_ideology #conservatism
 		}
@@ -163,6 +163,10 @@ country_event = {
 			every_state = { 	
 				limit = { is_owned_by = MEX}
 				GEU = { transfer_state = PREV add_state_core = PREV}
+			}
+			every_state = { 	
+				limit = { is_owned_by = WPI}
+				ORE = { transfer_state = PREV add_state_core = PREV}
 			}
 			EUS={country_event = { id = WALL.2 }}
 		}
@@ -458,13 +462,14 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = {  # US GETS THIS EVENT!
 	id = WALL.2
 	title = WALL.2.t
 	desc = WALL.2.d
 	picture = GFX_report_event_chinese_soldiers_fighting
 	
 	immediate = { 
+		
 		hidden_effect={
 			add_popularity = {
 				ideology = democratic

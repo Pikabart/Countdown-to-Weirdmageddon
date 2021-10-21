@@ -67,19 +67,10 @@ set_popularities = {
 	neutrality = 5
 }
 
-create_country_leader = {
-	name = "Emperor Norton"
-	desc = ""
-	picture = ""
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
 
 create_country_leader = {
 	name = "Gerald Green"
-	desc = ""
+	desc = "POLITICS_GREEN_DESC"
 	picture = ""
 	ideology = liberalism
 	traits = {
@@ -89,7 +80,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Hector Diaz-Guzman"
-	desc = ""
+	desc = "POLITICS_HECTOR_DESC"
 	picture = ""
 	ideology = moderatism
 	traits = {
@@ -99,7 +90,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Carman Evertt"
-	desc = ""
+	desc = "POLITICS_EVERTT_F_DESC"
 	picture = ""
 	ideology = fascism_ideology
 	traits = {
@@ -109,7 +100,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Carman Evertt"
-	desc = ""
+	desc = "POLITICS_EVERTT_C_DESC"
 	picture = ""
 	ideology = anarchist_communism
 	traits = {

@@ -24,7 +24,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Gideon Gleeful"
-	desc = "POLITICS_STAN_PINES_DESC"
+	desc = "POLITICS_GIDEON_DESC"
 	picture = "hoi4_portrait_Gideon.dds"
 	ideology = fascism_ideology #conservatism #liberalism
 }

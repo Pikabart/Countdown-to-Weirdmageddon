@@ -83,6 +83,11 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MYS/report_event_our_devil_stan.dds"
 	}
 	
+	spriteType = { # The Army of the Grand Stanpublic!
+		name = "GFX_report_event_army_of_the_stanpublic"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_army_of_the_stanpublic.dds"
+	}
+	
    #############################################################
    #  Special GIF Evenrt image
    #############################################################

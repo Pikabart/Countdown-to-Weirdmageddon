@@ -52,7 +52,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Multi-Bear"
-	desc = ""
+	desc = "POLITICS_MULTIBEAR_DESC"
 	picture = "Portrait_Multi-bear.dds"
 	ideology = conservatism
 	traits = {
@@ -60,4 +60,9 @@ create_country_leader = {
 	}
 }
 
-
+create_country_leader = {
+	name = "Celestabellebethabelle"
+	desc = "POLITICS_CELESTA_DESC"
+	picture = ""
+	ideology = fascism_ideology
+}

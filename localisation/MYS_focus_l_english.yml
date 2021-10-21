@@ -56,7 +56,7 @@
  MYS_stantastic_6_effect:0 "I'll probably have to go back if I'm going to get more fuel going forward."
  
  MYS_awaits:0 "What awaits in Gravity Falls"
- MYS_awaits_desc:0 "\n- §YMabel Pines§! -"
+ MYS_awaits_desc:0 "Gnomes, Lake Monsters, Convenience Store Ghost!\nLiving wax, Time Travel,\nand the Eight and a Half President!\n\nDipper's right! What eles awaits in Gravity Falls?\n- §YMabel Pines§! -"
  MYS_awaits_effect:0""
  
  MYS_awaits_1:0 ""
@@ -158,20 +158,22 @@
  MYS_wendy_8_tooltip:0 "Modify §YThe Cordoury Spirit§! by\nSurrender Limit: §G+10.00%§!"
  
  MYS_clones:0 "That old copier"
- MYS_clones_desc:0 ""
+ MYS_clones_desc:0 "Gideon has the town on his side and some really scary goons. We'll need an army to take them all on...\n\nActually, I think I know where to get an army!\n- §CDipper Pines§! -"
  MYS_clones_effect:0 ""
  
  MYS_clones_1:0 "Construction Paper"
- MYS_clones_1_desc:0 ""
+ MYS_clones_1_desc:0 "These Dipper clones are cool and all, what with them seemingly attending to my every whim. But they aren't the most durable clones out there.\n\nTo Dipper 34, I'm sorry about spilling my drink on you...\n- §OWendy Cordoury§! -"
  MYS_clones_1_effect:0 ""
  
  MYS_clones_2:0 "Shiny Lamination"
- MYS_clones_2_desc:0 ""
- MYS_clones_2_effect:0 ""
+ MYS_clones_2_desc:0 "These little dudes' are awesome! But in just the past few hours, three accidently dissolved, four caught on fire, two got bedazzled by Mabel, and one was eaten by Gompers. Haha, disturbing!\nBut with this new laminator from home, these Dippers shall save the Republic- I mean the Shack!\n- §GSoos Rameriz§! -"
+ MYS_clones_2_effect:0 "You think Mr. Pines will pull a Order 66 on us?"
  
  MYS_clones_3:0 "The Xerox Generation"
- MYS_clones_3_desc:0 ""
+ MYS_clones_3_desc:0 "These Dippers are great! They can fight, like Emily, they can serve, like Shermie, they're all afriad of me, like Eugene!\nBut seeing so many Dippers is a bit weird. We need expandable, I mean, exceptional clones! And I know who would be the next generation of clones- Mabel, get off that copier! We only need one Mabel!\n- §RStan Pines§! -"
  MYS_clones_3_effect:0 ""
+ 
+ mys_clone_wars:0 "Begun, the Gleeful War have..."
  
  ######################################################
  #  Pines PR Focus# 
@@ -213,7 +215,7 @@
  
  #####################
  MYS_PR_5:0 "Back Taxes"
- MYS_PR_5_desc:0 "Building leeway into the workings of the town government requires not compromices, but offerings of appeasment. I haven't really made any friends with the mayor or the council. But maybe being on the by and by can help. And we all like money after all... unfortunatley."
+ MYS_PR_5_desc:0 "Building leeway into the workings of the town government requires not compromices, but offerings of appeasment. I haven't really made any friends with the mayor or the council. But maybe being on the by and by can help. And we all like money after all... unfortunatley.\n\n- §RStan Pines§! -"
  MYS_PR_5_effect:0 "Surely we can write off some of these items, right?"
 
  MYS_PR_7:0 "Council Lobbying"
@@ -259,7 +261,7 @@
  MYS_rockthemabel_effect:0 "We could do what Grunkle Stan said... or we could go see this Gidoen for ourselves!"
  
  MYS_ship_1:0 "A Gleeful Pair"
- MYS_ship_1_desc:0 "Ah, my dearest Mabel! For you, I'll give you all the world itself. Don't let those nay-sayers like your dim-witted brother say otherwise. Let me make you happy, let me care for you. Everything for you, for us.\n\n- §LGideon Gleefull§! -"
+ MYS_ship_1_desc:0 "Ah, my dearest Mabel! For you, I'll give you all the world itself. Don't let those nay-sayers like your dim-witted brother say otherwise. Let me make you happy, let me care for you. Everything for you, for us.\n\n- §LGideon Gleeful§! -"
  MYS_ship_1_effect:0 "§CWould be made avaible depending on hows well Gideon and Mabel get along.§!"
  
  MYS_ship_2:0 "A beneficial arrangment"
