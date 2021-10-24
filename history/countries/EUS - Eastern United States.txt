@@ -83,7 +83,7 @@ add_to_faction = EPI
 
 create_country_leader = {
 	name = "Adrian Curtis"
-	desc = ""
+	desc = "POLITICS_CURTIS_DESC"
 	picture = "hoi4_portrait_curtis.dds"
 	ideology = liberalism
 	traits = {
@@ -93,7 +93,7 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Adrian Curtis"
-	desc = ""
+	desc = "POLITICS_CURTIS_F_DESC"
 	picture = "hoi4_portrait_curtis.dds"
 	ideology = fascism_ideology
 	traits = {

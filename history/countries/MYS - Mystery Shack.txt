@@ -45,21 +45,21 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Wendy Corduroy"
-	desc = ""
+	desc = "POLITICS_WENDY_CORDUROY_DESC"
 	picture = "Portrait_Wendy_Corduroy.dds"
 	ideology = anarchist_communism
 }
 
 create_country_leader = {
 	name = "'Soos' Ramirez"
-	desc = ""
+	desc = "POLITICS_SOOS_RAMIREZ_DESC"
 	picture = ""
 	ideology = moderatism
 }
 
 create_field_marshal = {# Stan Pines
 	name = "Stan Pines"
-	desc = "Pffft, If Shermie can do it, then so can I."
+	desc = ""
 	picture = "gfx/leaders/MYS/Portrait_Stan_Pines.dds"
 	traits = {
 		harsh_leader

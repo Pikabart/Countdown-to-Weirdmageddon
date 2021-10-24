@@ -64,15 +64,15 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 0
-	communism = 0
+	democratic = 10
+	communism = 1
 	fascism = 10
-	neutrality = 90
+	neutrality = 79
 }
 
 create_country_leader = {
 	name = "Director A"
-	desc = ""
+	desc = "POLITICS_A_DESC"
 	picture = ""
 	ideology = despotism
 	traits = {

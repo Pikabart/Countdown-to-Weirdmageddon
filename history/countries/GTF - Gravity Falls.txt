@@ -70,22 +70,33 @@ set_popularities = {
 
 create_country_leader = {
 	name = "E. Befufftlefumpter"
-	desc = "I've been wondering when you would arrive."
+	desc = "POLITICS_HUCKABONE_DESC"
 	picture = "hoi4_portrait_Mayor_Befuff.dds"
 	ideology = conservatism
-	traits = {
-		#
-	}
+	traits = {}
 }
 
 create_country_leader = {
-	name = "Stan Pines"
-	desc = "Well, would you look at that. I won!"
-	picture = "Portrait_Falls_Stan_Pines.dds"
+	name = "Bud Gleeful"
+	desc = ""
+	picture = ""
 	ideology = fascism_ideology
-	traits = {
-		#
-	}
+
+}
+
+create_country_leader = {
+	name = "Robbie Valentine"
+	desc = ""
+	picture = ""
+	ideology = anarchist_communism
+
+}
+
+create_country_leader = {
+	name = "Daryl Blubs"
+	desc = ""
+	picture = ""
+	ideology = moderatism
 }
 
 create_field_marshal = {# Daryl Blubs

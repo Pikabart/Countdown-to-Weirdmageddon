@@ -89,9 +89,21 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+	name = "GFX_goal_focus_cordoury_spirit"
+	texturefile = "gfx/interface/goals/MYS/focus_cordoury_spirit.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_sick_drifts"
+	texturefile = "gfx/interface/goals/MYS/focus_sick_drifts.dds"			
+	}
+	
+	SpriteType = {
 	name = "GFX_goal_focus_shack_investment"
 	texturefile = "gfx/interface/goals/MYS/focus_shack_investment.dds"			
 	}
+
+	##################################################################
 
 	SpriteType = {
 	name = "GFX_goal_focus_soos_fixing"
@@ -133,9 +145,26 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/MYS/focus_cordoury_spirit.dds"			
 	}
 
+	##################################################################
+
 	SpriteType = {
-	name = "GFX_goal_focus_sick_drifts"
-	texturefile = "gfx/interface/goals/MYS/focus_sick_drifts.dds"			
+	name = "GFX_goal_focus_copy_machine"
+	texturefile = "gfx/interface/goals/MYS/focus_copy_machine.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_construction_paper"
+	texturefile = "gfx/interface/goals/MYS/focus_construction_paper.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_shiny_lamination"
+	texturefile = "gfx/interface/goals/MYS/focus_shiny_lamination.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_xerox"
+	texturefile = "gfx/interface/goals/MYS/focus_xerox.dds"			
 	}
 	
 	##################################################################

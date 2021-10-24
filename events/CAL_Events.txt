@@ -139,16 +139,10 @@ country_event = { # California chooses Norton for Governor
 		name = CAL_ELECTION.2.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		
-		set_party_name = {
-			ideology = democratic
-			name = CAL_democratic_party_norton
-			long_name = CAL_democratic_party_norton
-		}
-		
 		retire_country_leader = yes
 		create_country_leader = {
 			name = "Joshua Norton"
-			desc = "placeholder"
+			desc = "POLITICS_NORTON_DESC"
 			picture = "hoi4_portrait_norton_v1.dds"
 			ideology = liberalism #conservatism
 		}
@@ -161,7 +155,11 @@ country_event = { # California chooses Norton for Governor
 				ruling_party = democratic
 			}		
 		}
-		
+		set_party_name = {
+			ideology = democratic
+			name = CAL_democratic_party_norton
+			long_name = CAL_democratic_party_norton
+		}
 		
 		hidden_effect = {  
 			news_event = { id = launcher_news.4 days = 1 } # Launch event to launch world news event for Earth
@@ -192,7 +190,7 @@ country_event = { # California chooses Olson for Governor
 		retire_country_leader = yes
 		create_country_leader = {
 			name = "Travis Olson"
-			desc = "placeholder"
+			desc = "POLITICS_OLSON_DESC"
 			picture = ""
 			ideology = liberalism #conservatism
 		}

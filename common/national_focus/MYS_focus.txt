@@ -171,7 +171,6 @@
 			country_event = mystery_shack.6
 			hidden_effect={
 			set_country_flag = mys_invest  #Change			
-			set_country_flag = mys_clones  #Change
 			set_country_flag = mys_public_time 		#Change
 			set_country_flag = mys_rock_the_mabel	#Change
 			
@@ -1026,14 +1025,14 @@
 	
 	focus = { 
 		id = MYS_clones
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_copy_machine
 		x = 0
 		y = 1
 		prerequisite = { focus = MYS_investment }
 		relative_position_id = MYS_investment
 		
 		#allow_branch = { has_country_flag = mys_clones }
-		available = { always = no }	
+		available = { has_country_flag = mys_clone_wars }
 		bypass = {}
 		cost = 1 # (#)x7days 
 
@@ -1052,7 +1051,7 @@
 	
 	focus = { 
 		id = MYS_clones_1
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_construction_paper
 		x = 0
 		y = 1	
 		prerequisite = {
@@ -1072,7 +1071,7 @@
 	
 	focus = { 
 		id = MYS_clones_2
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_shiny_lamination
 		x = 0
 		y = 1	
 		prerequisite = {
@@ -1085,6 +1084,7 @@
 
 		completion_reward = {
 			#country_event = mystery_shack.
+			custom_effect_tooltip = MYS_clones_2_effect
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1092,7 +1092,7 @@
 	
 	focus = { 
 		id = MYS_clones_3
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_xerox
 		x = 0
 		y = 1	
 		prerequisite = {
@@ -1510,6 +1510,7 @@ focus = {
 
 		completion_reward = {
 			country_event = mystery_shack_rock_the_mabel.1
+			hidden_effect = { set_country_flag = mys_clones }
 			hidden_effect = {
 				GID = {
 					transfer_state = 23
@@ -1686,7 +1687,8 @@ focus = {
 
 		completion_reward = {
 			#country_event = mystery_shack.
-			custom_effect_tooltip = "MYS_pine_1_effect"
+			custom_effect_tooltip = "MYS_pine_1_effect" 
+			hidden_effect = { set_country_flag = mys_clone_wars }
 		}
 		
 		ai_will_do = {factor = 1}

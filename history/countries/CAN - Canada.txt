@@ -24,7 +24,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Jeffery Poutine"
-	desc = "placeholder"
+	desc = "POLITICS_POUTINE_DESC"
 	picture = ""
-	ideology = liberalism #conservatism
+	ideology = liberalism
 }

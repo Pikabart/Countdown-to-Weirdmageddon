@@ -3,7 +3,7 @@
 
 country_event = { id = MEX_START.1 hours = 2 } #Intro Event
 #news_event = { id = world_news.1 days = 10 } #The Kerfuffle
-country_event = { id = MEX_DRUMPF.1 days = 35 } #Mexican Elections Event
+country_event = { id = MEX_DRUMPF.1 days = 70 } #Mexican Elections Event
 
 
 set_research_slots = 2
@@ -19,14 +19,15 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 55
-	communism = 0
-	fascism = 45
+	democratic = 50
+	communism = 5
+	fascism = 40
+	neutrality = 5
 }
 
 create_country_leader = {
 	name = "José Luis Méndez"
-	desc = "placeholder"
+	desc = "POLITICS_MENDEZ_DESC"
 	picture = ""
 	ideology = conservatism #liberalism
 }

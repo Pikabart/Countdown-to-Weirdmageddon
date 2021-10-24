@@ -45,11 +45,34 @@ country_event = {  # All alone
 	picture = GFX_report_event_chinese_soldiers_fighting
 	
 	is_triggered_only = yes
+
 	
 	option = { 
 		name = CAN_alone.1.a
 		dismantle_faction = yes
-		ai_chance = { factor = 0 }	# 0% AI choose this
+		ai_chance = { factor = 100 }	# 0% AI choose this
+		
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Jonathan Morgan"
+			desc = "POLITICS_MORGON_DESC"
+			picture = ""
+			ideology = liberalism #conservatism
+		}
+		hidden_effect={
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.20
+			}
+			set_politics = {
+				ruling_party = democratic
+			}		
+		}
+		set_party_name = {
+			ideology = democratic
+			name = CAN_democratic_party_kerfuffle
+			long_name = CAN_democratic_party_kerfuffle
+		}
 	}
 
 }

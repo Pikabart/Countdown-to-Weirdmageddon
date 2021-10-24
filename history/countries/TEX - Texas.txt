@@ -29,7 +29,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "President of Texas"
-	desc = ""
+	desc = "POLITICS_TEXAS_DESC"
 	picture = ""
 	ideology = conservatism
 	traits = {

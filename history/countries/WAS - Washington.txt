@@ -64,7 +64,7 @@ set_popularities = {
 
 create_country_leader = {
 	name = "Harold Day"
-	desc = ""
+	desc = "POLITICS_DAY_DESC"
 	picture = ""
 	ideology = liberalism
 	traits = {
