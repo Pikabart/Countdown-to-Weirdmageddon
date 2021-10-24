@@ -5,7 +5,7 @@
 #######
 
 mewni_startup.1.t:0 "Welcome to Countdown to Weirdmaggedon: Mewni!"
-mewni_startup.1.d:0 "Welcome to our mod, we hope you enjoy!\n\n§RIMPORTANT NOTES:§! At this point in development, Mewni is expected to win every war it has. Events about the end of wars take a short amount of time after the war to show up. Scripted peace is a possibility, but it is not game-ending if you get a manual peace confrence."
+mewni_startup.1.d:0 "Welcome to our mod, we hope you enjoy!\n\n§RIMPORTANT NOTES:§! You will get a thank you event once you've reached the end of the mod's current content. At this point in development, Mewni is expected to win every war it has. Events about the end of wars take a short amount of time after the war to show up. Scripted peace is a possibility, but it is not game-ending if you get a manual peace confrence."
 mewni_startup.1.a:0 "Alright, time to play!"
 
 mewni_solaria.1.t:0 "The Legacy of Queen Solaria"
@@ -23,7 +23,7 @@ butterfly_family.1.d:0 "The Butterfly family has ruled most of Mewni since the g
 butterfly_family.1.a:0 "Hail to the Butterflys!"
 
 MEW_prolouge_end.1.t:0 "Princess and Heiress"
-MEW_prolouge_end.1.d:0 "Princess Star of House Butterfly, heiress to the Mewman throne, is 9 years old. These formative years of her childhood requires a carefully customized education in order for her to truly act like royalty. Unfortunately, the situation in the south will have to take precedence. All we can do is trust that a standardized education will suit her.\n\nIt's not all bad though. It every heir in the various Kingdoms that make up the Kingdom of Mewni are of similar age. Thus, all rulers of Mewni could be friends from childhood in the next generation. And there is of course always the possibility of an alliance through marriage."
+MEW_prolouge_end.1.d:0 "Princess Star of House Butterfly, heiress to the Mewman throne, is 9 years old. These formative years of her childhood requires a carefully customized education in order for her to truly act like royalty. Unfortunately, the situation in the south will have to take precedence. All we can do is trust that a standardized education will suit her.\n\nIt's not all bad though. Every heir in the various Kingdoms that make up the Kingdom of Mewni are of similar age. Thus, all rulers of Mewni could be friends from childhood in the next generation. And there is of course always the possibility of an alliance through marriage."
 MEW_prolouge_end.1.a:0 "What could be so important in the south?"
 
 mew_ost_situation.1.t:0 "Situation in the South"
