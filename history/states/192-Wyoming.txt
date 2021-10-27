@@ -14,7 +14,8 @@ state={
 			anti_air_building = 0
 			radar_station = 0	
 		}
-		victory_points = { 2516 5 }
+		victory_points = { 2516 10 }
+		victory_points = { 227 10 }
 	}
 	
 	provinces={

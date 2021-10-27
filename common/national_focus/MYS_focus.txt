@@ -173,20 +173,8 @@
 			set_country_flag = mys_invest  #Change			
 			set_country_flag = mys_public_time 		#Change
 			set_country_flag = mys_rock_the_mabel	#Change
-			
-			#DELETE LATER, for debugging
-			set_country_flag = mys_the_bet
-			set_variable = {
-				var = mys_mabel_money
-				value = 70
-			}
-			set_variable = {
-				var = mys_mabel_moral
-				value = 130
-			}
-			
-			
-			mark_focus_tree_layout_dirty = yes 
+		
+			mark_focus_tree_layout_dirty = yes # Will reset three and make invisable branches appear
 			}
 		}
 		
@@ -1021,7 +1009,8 @@
 		ai_will_do = {factor = 1}
 	}
 	
-	########################################################
+	################################################################################################################
+	################################################################################################################
 	
 	focus = { 
 		id = MYS_clones
@@ -1031,7 +1020,7 @@
 		prerequisite = { focus = MYS_investment }
 		relative_position_id = MYS_investment
 		
-		#allow_branch = { has_country_flag = mys_clones }
+		allow_branch = { has_country_flag = mys_clones }
 		available = { has_country_flag = mys_clone_wars }
 		bypass = {}
 		cost = 1 # (#)x7days 
@@ -1042,6 +1031,21 @@
 
 		completion_reward = {
 			#country_event = mystery_shack.
+			hidden_effect = {load_oob = "MYS_Clones"}
+			#load_oob = "MYS_Clones"
+			set_country_flag = mys_clone_dipper
+			set_variable = {
+				var = mys_dipper_reserve
+				value = 0
+			}
+			set_variable = {
+				var = mys_wendy_reserve
+				value = 0
+			}
+			set_variable = {
+				var = mys_soos_reserve
+				value = 0
+			}
 		}
 		
 		ai_will_do = {
@@ -1063,7 +1067,7 @@
 		cost = 3 # (#)x7days 
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			add_ideas = MYS_GTF_clones_durable
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1083,7 +1087,10 @@
 		cost = 3 # (#)x7days 
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			swap_ideas = {
+				add_idea = MYS_GTF_clones_shiny
+				remove_idea = MYS_GTF_clones_durable
+			}
 			custom_effect_tooltip = MYS_clones_2_effect
 		}
 		
@@ -1104,7 +1111,11 @@
 		cost = 3 # (#)x7days 
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			swap_ideas = {
+				add_idea = MYS_GTF_clones_exceptional
+				remove_idea = MYS_GTF_clones_shiny
+			}
+			set_country_flag = mys_clone_exceptional
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1511,6 +1522,7 @@ focus = {
 		completion_reward = {
 			country_event = mystery_shack_rock_the_mabel.1
 			hidden_effect = { set_country_flag = mys_clones }
+			mark_focus_tree_layout_dirty = yes # Will reset three and make invisable branches appear
 			hidden_effect = {
 				GID = {
 					transfer_state = 23

@@ -46,6 +46,11 @@ MYS_cordoury_drip_desc:0 ""Haha silly Wendy, you can't have dr-""
 MYS_Twins_1:0 "Mystery Twins: Forever!"
 MYS_Twins_1_desc:0 "Dipper and Mabel stand ready to take on the world itself! And with worlds coming right after them, the mystery twins will certainly need it."
 
+MYS_GTF_clones_durable:0 "The Grand Army of the Stanpublic!"
+MYS_GTF_clones_shiny:0 "The Grand Army of the Stanpublic!"
+MYS_GTF_clones_exceptional:0 "The Grand Army of the Stanpublic!"
+MYS_GTF_clones_exceptional_desc:0 "What? No I don't love democracy. But most capitalist societies are democratic, so yeah...\nI tolerate Democracy. I tolerate the Republic."
+
 #####################################
 
 MYS_PR_start:0 "Public Relationship"

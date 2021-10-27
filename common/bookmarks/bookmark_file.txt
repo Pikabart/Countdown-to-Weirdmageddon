@@ -13,8 +13,9 @@ bookmarks = {
 			ideology = fascism
 			
 			ideas = {
-				MYS_NWHS_1
+				MYS_NWHS_3
 				MYS_Twins_1
+				MYS_PR_our_man_stan
 			}
 			focuses = {
 				MYS_stantastic

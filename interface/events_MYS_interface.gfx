@@ -88,6 +88,11 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MYS/report_event_army_of_the_stanpublic.dds"
 	}
 	
+	spriteType = { # The Staff!
+		name = "GFX_report_event_the_staff"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_the_staff.dds"
+	}
+	
    #############################################################
    #  Special GIF Evenrt image
    #############################################################
@@ -119,7 +124,10 @@ spriteTypes = {
 		name = "GFX_decision_category_boss_mabel"
 		texturefile = "gfx/interface/decisions/decision_cat_boss_mabel.dds"
 	}
-	
+	spriteType = { # descions Clones
+		name = "GFX_decision_category_clones"
+		texturefile = "gfx/interface/decisions/decision_cat_clones.dds"
+	}
 	
 	
 	

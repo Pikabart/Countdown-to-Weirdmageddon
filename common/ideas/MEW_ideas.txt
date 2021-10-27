@@ -281,28 +281,28 @@ ideas = {
 
 		###############################
 		#Special MYS event idea for MEW
-		stan_steal_corn_idea = {
-			picture = FRA_factory_strikes
+		MEW_stan_steal_corn_idea = {
+			picture = GFX_idea_MEW_stan_steal_corn_idea
 			
 			allowed = { original_tag = MEW }
 			available = {}
 			cancel = {}
 			
 			modifier = {	
-				consumer_goods_factor = 0.05
-				stability_factor = -0.05			
+				consumer_goods_factor = 0.01
+				stability_factor = -0.01			
 			}
 		}
-		stan_get_corn_back_idea = {
-			picture = FRA_factory_strikes
+		MEW_stop_stan_steal_idea = {
+			picture = GFX_idea_MEW_stop_stan_steal_idea
 			
 			allowed = { original_tag = MEW }
 			available = {}
 			cancel = {}
 			
 			modifier = {	
-				consumer_goods_factor = -0.05
-				stability_factor = 0.05			
+				consumer_goods_factor = -0.01
+				stability_factor = 0.01			
 			}
 		}
 		###############################

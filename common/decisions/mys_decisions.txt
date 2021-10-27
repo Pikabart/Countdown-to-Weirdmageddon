@@ -23,6 +23,11 @@ MYS_boss_mabel = {
 						var = mys_mabel_moral
 						value = 10
 					}
+					clamp_variable = {
+						var = mys_mabel_moral
+						min = 0
+						max = 100
+					}
 				}
 				50 = { #lose money, gain moral
 					subtract_from_variable = {
@@ -33,11 +38,26 @@ MYS_boss_mabel = {
 						var = mys_mabel_moral
 						value = 10
 					}
+					clamp_variable = {
+						var = mys_mabel_money
+						min = -50
+						max = 50
+					}
+					clamp_variable = {
+						var = mys_mabel_moral
+						min = 0
+						max = 100
+					}
 				}
 				10 = { #lose moral
 					subtract_from_variable = {
 						var = mys_mabel_moral
 						value = 10
+					}
+					clamp_variable = {
+						var = mys_mabel_moral
+						min = 0
+						max = 100
 					}
 				}
 			}		
@@ -70,6 +90,16 @@ MYS_boss_mabel = {
 						var = mys_mabel_moral
 						value = 10
 					}
+					clamp_variable = {
+						var = mys_mabel_money
+						min = -50
+						max = 50
+					}
+					clamp_variable = {
+						var = mys_mabel_moral
+						min = 0
+						max = 100
+					}
 				}
 				20 = { #lots money, lots moral
 					add_to_variable = {
@@ -80,6 +110,16 @@ MYS_boss_mabel = {
 						var = mys_mabel_moral
 						value = 15
 					}
+					clamp_variable = {
+						var = mys_mabel_money
+						min = -50
+						max = 50
+					}
+					clamp_variable = {
+						var = mys_mabel_moral
+						min = 0
+						max = 100
+					}
 				}
 				30 = { #lose money, lose moral, lose extra PP
 					subtract_from_variable = {
@@ -89,6 +129,16 @@ MYS_boss_mabel = {
 					subtract_from_variable = {
 						var = mys_mabel_moral
 						value = 5
+					}
+					clamp_variable = {
+						var = mys_mabel_money
+						min = -50
+						max = 50
+					}
+					clamp_variable = {
+						var = mys_mabel_moral
+						min = 0
+						max = 100
 					}
 					add_political_power = -20
 				}
@@ -112,15 +162,20 @@ MYS_boss_mabel = {
 		# EFFECTS OF THIS DECISION/MISSION
 		fixed_random_seed = no # So the answer could be different every time
 		complete_effect = {	
-			custom_effect_tooltip = "Hey, where's Wendy?"
+			custom_effect_tooltip = "mabel_promice_3a"
 			hidden_effect = {	
 				random_list = {
 					40 = { #lose money
 						subtract_from_variable = {
 							var = mys_mabel_moral
 							value = 15
-							#custom_effect_tooltip = "Hey, where's Wendy?"
 						}
+						clamp_variable = {
+							var = mys_mabel_moral
+							min = 0
+							max = 100
+						}
+						#custom_effect_tooltip = "mabel_promice_3a"
 					}
 					50 = { #lose money, gain moral
 						subtract_from_variable = {
@@ -130,6 +185,16 @@ MYS_boss_mabel = {
 						add_to_variable = {
 							var = mys_mabel_moral
 							value = 20
+						}
+						clamp_variable = {
+							var = mys_mabel_money
+							min = -50
+							max = 50
+						}
+						clamp_variable = {
+							var = mys_mabel_moral
+							min = 0
+							max = 100
 						}
 						add_stability = 0.02
 						#custom_effect_tooltip = "Wendy, what are your friends doing?"
@@ -142,6 +207,16 @@ MYS_boss_mabel = {
 						add_to_variable = {
 							var = mys_mabel_moral
 							value = 10
+						}
+						clamp_variable = {
+							var = mys_mabel_money
+							min = -50
+							max = 50
+						}
+						clamp_variable = {
+							var = mys_mabel_moral
+							min = 0
+							max = 100
 						}
 						add_stability = -0.02
 						#custom_effect_tooltip = "Work Hard, Play Hard"
@@ -174,6 +249,11 @@ MYS_boss_mabel = {
 						var = mys_mabel_money
 						value = 10
 					}
+					clamp_variable = {
+						var = mys_mabel_money
+						min = -50
+						max = 50
+					}
 				}
 				50 = { #gain money, lose moral
 					subtract_from_variable = {
@@ -184,11 +264,26 @@ MYS_boss_mabel = {
 						var = mys_mabel_money
 						value = 10
 					}
+					clamp_variable = {
+						var = mys_mabel_money
+						min = -50
+						max = 50
+					}
+					clamp_variable = {
+						var = mys_mabel_moral
+						min = 0
+						max = 100
+					}
 				}
 				10 = { #lose money
 					subtract_from_variable = {
 						var = mys_mabel_money
 						value = 10
+					}
+					clamp_variable = {
+						var = mys_mabel_money
+						min = -50
+						max = 50
 					}
 				}
 			}		
@@ -221,6 +316,16 @@ MYS_boss_mabel = {
 						var = mys_mabel_moral
 						value = 10
 					}
+					clamp_variable = {
+						var = mys_mabel_money
+						min = -50
+						max = 50
+					}
+					clamp_variable = {
+						var = mys_mabel_moral
+						min = 0
+						max = 100
+					}
 				}
 				20 = { #lots money, lots moral
 					add_to_variable = {
@@ -231,6 +336,16 @@ MYS_boss_mabel = {
 						var = mys_mabel_moral
 						value = 15
 					}
+					clamp_variable = {
+						var = mys_mabel_money
+						min = -50
+						max = 50
+					}
+					clamp_variable = {
+						var = mys_mabel_moral
+						min = 0
+						max = 100
+					}
 				}
 				30 = { #lose money, lose moral, lose extra PP
 					subtract_from_variable = {
@@ -240,6 +355,16 @@ MYS_boss_mabel = {
 					subtract_from_variable = {
 						var = mys_mabel_moral
 						value = 5
+					}
+					clamp_variable = {
+						var = mys_mabel_money
+						min = -50
+						max = 50
+					}
+					clamp_variable = {
+						var = mys_mabel_moral
+						min = 0
+						max = 100
 					}
 					add_political_power = -20
 				}
@@ -269,6 +394,11 @@ MYS_boss_mabel = {
 						var = mys_mabel_moral
 						value = 15
 					}
+					clamp_variable = {
+						var = mys_mabel_moral
+						min = 0
+						max = 100
+					}
 				}
 				50 = { #gain money, lose moral
 					subtract_from_variable = {
@@ -278,6 +408,16 @@ MYS_boss_mabel = {
 					add_to_variable = {
 						var = mys_mabel_money
 						value = 20
+					}
+					clamp_variable = {
+						var = mys_mabel_money
+						min = -50
+						max = 50
+					}
+					clamp_variable = {
+						var = mys_mabel_moral
+						min = 0
+						max = 100
 					}
 					add_stability = 0.02
 				}
@@ -289,6 +429,16 @@ MYS_boss_mabel = {
 					add_to_variable = {
 						var = mys_mabel_moral
 						value = 10
+					}
+					clamp_variable = {
+						var = mys_mabel_money
+						min = -50
+						max = 50
+					}
+					clamp_variable = {
+						var = mys_mabel_moral
+						min = 0
+						max = 100
 					}
 					add_stability = -0.02
 				}
@@ -317,7 +467,12 @@ MYS_boss_mabel = {
 			add_to_variable = {
 				var = mys_mabel_moral
 				value = 10
-			}	
+			}
+			clamp_variable = {
+				var = mys_mabel_moral
+				min = 0
+				max = 100
+			}
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -340,7 +495,12 @@ MYS_boss_mabel = {
 			add_to_variable = {
 				var = mys_mabel_money
 				value = 10
-			}		
+			}
+			clamp_variable = {
+				var = mys_mabel_money
+				min = -50
+				max = 50
+			}
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -363,7 +523,12 @@ MYS_boss_mabel = {
 			subtract_from_variable = {
 				var = mys_mabel_moral
 				value = 10
-			}		
+			}
+			clamp_variable = {
+				var = mys_mabel_moral
+				min = 0
+				max = 100
+			}			
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -386,7 +551,12 @@ MYS_boss_mabel = {
 			subtract_from_variable = {
 				var = mys_mabel_money
 				value = 10
-			}		
+			}
+			clamp_variable = {
+				var = mys_mabel_money
+				min = -50
+				max = 50
+			}
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -400,33 +570,168 @@ MYS_boss_mabel = {
 #########################################################################################################
 MYS_dipper_clone  = {
 		
-	copy_ten_dips = { 		#ID of the decision, must not contain spaces!
-
+	clone_dips = { 		#ID of the decision, must not contain spaces!
 		icon = GFX_decision_icon_default		
-		
-		available = {		
-		}
-		
+		available = { has_country_flag = mys_clone_dipper }
 		fire_only_once = no		
-		
-		visible = {		#Conditions to make this decision visible, can be left blank to make it always appear.
-			#has_country_flag = 
-		}		
-
-		cost = 50		#The cost to execute the decision, by default its political power.
-
-		# EFFECTS OF THIS DECISION/MISSION
+		visible = {	}		
+		days_re_enable = 4
+		cost = 10	
 
 		complete_effect = {		
-			add_manpower = 1000 #CHANGE LATER		
+			add_manpower = 100 #CHANGE LATER in unit rework
+			add_to_variable = {
+				var = mys_dipper_reserve
+				value = 1
+			}	
 		}
-		
-		# AI LOGIC FOR THIS DECISION/MISSION
 
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 0			
+			factor = 40			
 		}
 	}
+	clone_dips_div = { 		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_icon_default		
+		available = { 
+			has_country_flag = mys_clone_dipper 
+			check_variable = { mys_dipper_reserve > 2}
+		}
+		fire_only_once = no		
+		visible = {	}		
+		days_re_enable = 4
+		cost = 10	
+
+		complete_effect = {		
+			custom_effect_tooltip = "clone_dips_tt"
+			hidden_effect = {
+				random_owned_controlled_state = {
+					prioritize = { 27 }
+					create_unit = {
+							division = "name = \"Dipper Regiment\" division_template = \"Dipper Regiment\" start_experience_factor = 0"
+							owner = MYS
+					}
+				}
+				subtract_from_variable = {
+					var = mys_dipper_reserve
+					value = 3
+				}
+			}
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 40			
+		}
+	}
+	################################################################################
+	clone_wens = { 		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_icon_default		
+		available = { has_country_flag = mys_clone_exceptional }
+		fire_only_once = no		
+		visible = {	}		
+		days_re_enable = 4
+		cost = 10	
+
+		complete_effect = {		
+			add_manpower = 100 #CHANGE LATER in unit rework
+			add_to_variable = {
+				var = mys_wendy_reserve
+				value = 1
+			}	
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 40			
+		}
+	}
+	clone_wens_div = { 		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_icon_default		
+		available = { 
+			has_country_flag = mys_clone_exceptional 
+			check_variable = { mys_wendy_reserve > 2}
+		}
+		fire_only_once = no		
+		visible = {	}		
+		days_re_enable = 4
+		cost = 10	
+
+		complete_effect = {	
+			custom_effect_tooltip = "clone_wens_tt"
+			hidden_effect = {
+				random_owned_controlled_state = {
+					prioritize = { 27 }
+					create_unit = {
+							division = "name = \"Wendy Special Ops\" division_template = \"Wendy SpecOps\" start_experience_factor = 1"
+							owner = MYS
+					}
+				}
+				subtract_from_variable = {
+					var = mys_wendy_reserve
+					value = 3
+				}
+			}
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 40			
+		}
+	}
+	################################################################################
+	clone_soos = { 		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_icon_default		
+		available = { has_country_flag = mys_clone_exceptional }
+		fire_only_once = no		
+		visible = {	}		
+		days_re_enable = 4
+		cost = 10	
+
+		complete_effect = {		
+			add_manpower = 100 #CHANGE LATER in unit rework
+			add_to_variable = {
+				var = mys_soos_reserve
+				value = 1
+			}	
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 40			
+		}
+	}
+	clone_soos_div = { 		#ID of the decision, must not contain spaces!
+		icon = GFX_decision_icon_default		
+		available = { 
+			has_country_flag = mys_clone_exceptional 
+			check_variable = { mys_soos_reserve > 2}
+		}
+		fire_only_once = no		
+		visible = {	}		
+		days_re_enable = 4
+		cost = 10	
+
+		complete_effect = {	
+			custom_effect_tooltip = "clone_soos_tt"
+			hidden_effect = {
+				random_owned_controlled_state = {
+					prioritize = { 27 }
+					create_unit = {
+							division = "name = \"Soos Brigade\" division_template = \"Soos Brigade\" start_experience_factor = 0.5"
+							owner = MYS
+					}
+				}
+				subtract_from_variable = {
+					var = mys_soos_reserve
+					value = 3
+				}
+			}
+		}
+
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 40			
+		}
+	}
+	
+	
+	
+	
 	
 	
 }

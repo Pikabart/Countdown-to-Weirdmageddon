@@ -1,0 +1,24 @@
+# Update 10/26
+
+common/bookmark/bookmark_file
+common/focus/mys_focus
+common/decision/mys_descions
+common/decision/catagory/decisons_cat_mys
+common/idea/mys_ideas
+common/idea/mew_ideas
+
+events/mys_events
+events/mys_events_stantastic
+
+gfx/event_country_pictures/mys
+gfx/interface/decisions
+gfx/interface/ideas/mew
+gfx/interface/ideas/mys
+
+histroy/country/MYS
+history/units/MYS_2012
+history/units/MYS_clones
+
+interface
+
+localisation
