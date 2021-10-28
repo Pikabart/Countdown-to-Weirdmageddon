@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = mystery_shack
+add_namespace = mys_startup
 add_namespace = mystery_shack_TREMBLEY
 add_namespace = mystery_shack_boss_mabel
 add_namespace = mystery_shack_PR
@@ -12,6 +13,29 @@ add_namespace = mystery_shack_rock_the_mabel
 add_namespace = mystery_shack_mystery_fair
 add_namespace = mystery_shack_ship
 add_namespace = mystery_shack_pine
+
+####################################
+
+country_event = { #1
+	id = mys_startup.1
+	title = mys_startup.1.t 
+	desc = mys_startup.1.d  
+	picture = GFX_report_event_mystery_shack_intro #  change this later
+	
+	is_triggered_only = yes  
+	
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mys_startup.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+####################################
 
 country_event = { #1
 	id = mystery_shack.1

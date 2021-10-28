@@ -1,17 +1,27 @@
 on_actions = {
-	#on_startup = {
-	#	effect = {
-	#		EUS = {
-	#			country_event = {id = EUS.1 }
-	#		}
-	#	}
-	#}
+
 	on_startup = {
 		effect = {
 			MEW = {
 				country_event = { id = mewni_startup.1 } # Event code is in MEW_events_focus
 			}
 		}
-	
+		effect = {
+			MYS = {
+				country_event = { id = mys_startup.1 } # Event code is in MYS_events
+			}
+		}
+		effect = {
+			#if = {
+			#	limit = {
+			#		NOT = {
+			#			original_tag = MYS
+			#			original_tag = MEW
+			#		}
+			#	}
+			#ROOT = { country_event = { id = game_startup.1 } }# Event code is in news_events
+			#}
+		}
 	}
-}
+	
+} ## END OF FILE ##

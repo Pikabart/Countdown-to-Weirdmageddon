@@ -1,6 +1,11 @@
 ﻿l_english:
  MINIMIZE_EVENT:0 "§GClick§! to Minimize. Event will be placed in the Event Queue under §HEvents and Decisions§!."
  
+ game_startup.1.t:0 "The Countdown to Weirdmageddon!"
+ game_startup.1.d:0 "Welcome! And thank you for playing "Countdown to Wierdmageddon", the HoI4 total conversion mod set in the Multiverse intersecting Gravity Falls, Star vs The Forces of Evil, Amphibia, and The Owl House.\n\nWe are proud to release our Alpha 0.01 version for all of you to play as we contninue working on expanding this unique world of Earth 42'\\ and the dimensions around it!\n\nSo If you're reading this particular event, the country you choosen haven't been really developed yet. But if you want, feel free to do whatever with it. Never know what you might encounter..."
+ game_startup.1.a:0 "But if you see a floating triangle, please step away"
+ 
+ 
  kerfuffle_news.1.t:0 "Nothing left behind..."
  kerfuffle_news.1.d:0 "'It happened in the early morning. It felt like any other ordinary day. I was there at the border when it occurred. I had just crossed into the US for business and had stopped near the Peace Arc to take a picture to send to my kids. All at once, a thick fog rolled in from along the coastline. Thick, gray, unnerving, it rose as high as I could tilt my head to look up. Sunny and clear on the American side, just a wall of fog on the other side. My home and native land, my husband and children in Vancouver. They’re all gone...'\n\nOlivia Martin - Canadian Refugee\nFrom a recorded interview by the Washington State Guard"
  kerfuffle_news.1.a:1 "The Kerfuffle is upon us"

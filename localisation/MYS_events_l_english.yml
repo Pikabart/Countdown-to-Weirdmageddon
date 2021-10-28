@@ -14,9 +14,13 @@
     ##################################################################################################
     ##################################################################################################
     
+    mys_startup.1.t:0 "The Countdown to Weirdmageddon: The Mystery Shack!"
+    mys_startup.1.d:0 "Welcome! And thank you for playing "Countdown to Wierdmageddon", the HoI4 total conversion mod set in the Multiverse intersecting Gravity Falls, Star vs The Forces of Evil, Amphibia, and The Owl House.\n\nWe are proud to release our Alpha 0.01 version for all of you to play as we contninue working on expanding this unique world of Earth 42'\\ and the dimensions around it.\n\nFor the Mystery Shack, the Shack is a story driven experience exploring a reinterpetation of season one of Gravity Falls. Follow the Mystery Twins as they explore Gravity Falls, and join Stan in his quest to fully rebuild the portal.\n\nEnjoy!"
+    mys_startup.1.a:0 "And remember, we put the "Fun" in "No Refunds"!"
+    
     mystery_shack.1.t:0 "Welcome to the Mystery Shack!"
-    mystery_shack.1.d:0 "'Come one, come all, and feast your eyes on what spooky, creepy, bizarre things inside the Mystery Shack! I'm Mr. Mystery, your guide to what lays beyond this portal into the wierd and unnatural!\nPrepare to be amazed, astounded, brought to tears... Payment upfront!'\n\nI've been doing this now for thirty years. Day in, day out. Not for the money... well, yes the money. But also for something truely out of this world. All within the Myserty Shack!"
-    mystery_shack.1.a:0 "And remember, we put the Fun in 'No Refunds'!"
+    mystery_shack.1.d:0 ""Come one, come all, and feast your eyes on what spooky, creepy, bizarre things inside the Mystery Shack! I'm Mr. Mystery, your guide to what lays beyond this portal into the wierd and unnatural!\nPrepare to be amazed, astounded, brought to tears... Payment upfront!"\n\nI've been doing this now for thirty years. Day in, day out. Not for the money... well, yes the money. But also for something truely out of this world. Oh the real secrets and mysteries. All within the Myserty Shack!"
+    mystery_shack.1.a:0 "But you'll have to pay extra for that!"
     
     ##################################################
     

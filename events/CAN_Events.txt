@@ -60,10 +60,6 @@ country_event = {  # All alone
 			ideology = liberalism #conservatism
 		}
 		hidden_effect={
-			add_popularity = {
-				ideology = democratic
-				popularity = -0.20
-			}
 			set_politics = {
 				ruling_party = democratic
 			}		
