@@ -76,6 +76,7 @@ create_field_marshal = {
 	picture = "hoi4_portrait_river_butterfly_general.dds"
 	traits = {  trickster politically_connected trait_reckless }
 	skill = 5
+	id = 5
 
 	attack_skill = 5
 	defense_skill = 4
@@ -88,6 +89,7 @@ create_corps_commander = {
 	name = "Lady Whosits"
 	picture = "hoi4_portrait_lady_whosits.dds"
 	traits = { career_officer inflexible_strategist }
+	id = 6
 	skill = 5
 
 	attack_skill = 2
@@ -97,10 +99,25 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
+	name = "Mina Loveberry"
+	picture = "hoi4_portrait_mina.dds"
+	traits = { war_hero old_guard }
+	skill = 5
+	id = 9
+	is_female = yes
+
+	attack_skill = 4
+	defense_skill = 2		
+	planning_skill = 3
+	logistics_skill = 3
+	}
+
+create_corps_commander = {
 	name = "Sir Stabby"
 	picture = "hoi4_portrait_empty.dds"
 	traits = { career_officer }
-	skill = 3
+	skill = 4
+	id = 7
 
 	attack_skill = 2
 	defense_skill = 2
@@ -113,6 +130,7 @@ create_corps_commander = {
 	picture = "hoi4_portrait_empty.dds"
 	traits = { career_officer }
 	skill = 5
+	id = 8
 
 	attack_skill = 2
 	defense_skill = 2
