@@ -45,6 +45,9 @@ add_namespace = ludo_confront_8
 add_namespace = jaggy_collapse		  
 
 add_namespace = trade_ports
+add_namespace = remove_commander
+add_namespace = remove_mina
+add_namespace = test_civil_war
 
 ###############################################################################################################
 
@@ -1222,5 +1225,56 @@ country_event = {
 				}
 			}
 
+		}
+}
+
+	country_event = {
+		id = remove_commander.1
+		title = remove_commander.1.t
+		desc = remove_commander.1.d
+		picture = GFX_report_event_broadcast
+	
+		is_triggered_only = yes
+		
+		option = {
+			name = remove_commander.1.a
+			ai_chance = { factor = 90 }
+			remove_unit_leader = 6
+		}
+}  
+
+	country_event = {
+		id = remove_mina.1
+		title = remove_mina.1.t
+		desc = remove_mina.1.d
+		picture = GFX_report_event_broadcast
+	
+		is_triggered_only = yes
+		
+		option = {
+			name = remove_mina.1.a
+			ai_chance = { factor = 90 }
+			remove_unit_leader = 9
+		}
+}
+
+	country_event = {
+		id = test_civil_war.1
+		title = test_civil_war.1.t
+		desc = test_civil_war.1.d
+		picture = GFX_report_event_broadcast
+	
+		is_triggered_only = yes
+		
+		option = {
+			name = test_civil_war.1.a
+			ai_chance = { factor = 90 }
+			start_civil_war = {
+			ideology = democratic
+			size = 0.7
+			keep_unit_leaders = {
+			8 7 5
+			}
+			}
 		}
 }

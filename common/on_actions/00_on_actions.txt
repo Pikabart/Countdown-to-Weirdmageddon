@@ -4,6 +4,7 @@ on_actions = {
 		effect = {
 			MEW = {
 				country_event = { id = mewni_startup.1 } # Event code is in MEW_events_focus
+				remove_unit_leader = 9
 			}
 		}
 		effect = {

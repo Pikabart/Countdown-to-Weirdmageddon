@@ -54,19 +54,7 @@ country_event = {
 	option = {
 		name = mina_return.1.a
 		ai_chance = { factor = 90 }
-		create_corps_commander = {
-			name = "Mina Loveberry"
-			picture = "hoi4_portrait_mina.dds"
-			traits = { war_hero old_guard }
-			skill = 5
-			id = 425
-			is_female = yes
-
-			attack_skill = 4
-			defense_skill = 2
-			planning_skill = 3
-			logistics_skill = 3
-		}
+		add_unit_leader = 9 #Mina is a general to mewni at game start, but is removed immediatly with an on_action. Trying to remove her again with an event makes the event tooltip say "Mina Loveberry stops being a General" But she still remains. HAving Mina Loveberry be created as entirely new using this event does not fix it. Hopefully this can be fixed in the No Step Back update, since they have a new character modding system 
 	}
 	
 }
