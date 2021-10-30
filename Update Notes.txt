@@ -1,0 +1,42 @@
+# Update 10/29
+
+common/countries
+common/National_focus
+
+events
+
+gft/event_countries/mew
+
+interface
+
+localisation
+
+# Update 10/26 and 10/28
+
+common/bookmark/bookmark_file
+common/focus/mys_focus
+common/decision/mys_descions
+common/decision/catagory/decisons_cat_mys
+common/idea/mys_ideas
+common/idea/mew_ideas
+common/define/
+common/on_action
+
+events/<a bunch>
+
+gfx/event_country_pictures/mys
+gfx/flags
+gfx/flags/medium
+gfx/flags/small
+gfx/interface/decisions
+gfx/interface/ideas/mew
+gfx/interface/ideas/mys
+gfx/interface/<all new resource icons>
+
+histroy/country/MYS
+history/units/MYS_2012
+history/units/MYS_clones
+
+interface
+
+localisation

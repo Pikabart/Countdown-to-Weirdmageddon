@@ -549,14 +549,64 @@ ideas = { #Entire file
 					consumer_goods_factor = -0.1	
 			}
 		}
-		
+	################################################
+	# The Gleeful Clones Wars
+		MYS_GTF_clones_durable = {
+			picture = GFX_idea_MYS_GTF_clones_durable
+			
+			allowed = {}
+			available = {}#Until Ford returns
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				defence = 0.05
+				army_org = 1
+			}
+		}
+		MYS_GTF_clones_shiny = {
+			picture = GFX_idea_MYS_GTF_clones_shiny
+			
+			allowed = {}
+			available = {}#Until Ford returns
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				offence = 0.1
+				defence = 0.10
+				army_org = 5
+				acclimatization_cold_climate_gain_factor = 0.5
+				acclimatization_hot_climate_gain_factor = 0.5
+			}
+		}
+		MYS_GTF_clones_exceptional = {
+			picture = GFX_idea_MYS_GTF_clones_exceptional
+			
+			allowed = {}
+			available = {}#Until Ford returns
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				offence = 0.10
+				defence = 0.10
+				army_org = 5				
+				army_morale_factor = 0.25
+				army_speed_factor = 0.10
+				acclimatization_cold_climate_gain_factor = 0.5
+				acclimatization_hot_climate_gain_factor = 0.5	
+			}
+		}
 		
 		
 	}
 
-###############################################################
-	# POLITICAL	
-################################################################
+###############################################################################################################
+	# POLITICAL	################################################
+################################################################################################################
 
 	political_advisor = {
 		
@@ -711,9 +761,9 @@ ideas = { #Entire file
 			
 	}
 	
-################################################################	
+################################################################################################################	
 	# Research and Production choices
-################################################################
+################################################################################################################
 	tank_manufacturer = { 
 		designer = yes #mark the category as a designer for the A
 		

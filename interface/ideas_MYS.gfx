@@ -99,8 +99,19 @@ spriteTypes = {
 		name = "GFX_idea_MYS_GTF_loan_shark"
 		texturefile = "gfx/interface/ideas/mys/idea_conman.dds"	
 	}
-	
-	
+	########################
+	SpriteType = {
+		name = "GFX_idea_MYS_GTF_clones_durable"
+		texturefile = "gfx/interface/ideas/mys/idea_clone_1.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_MYS_GTF_clones_shiny"
+		texturefile = "gfx/interface/ideas/mys/idea_clone_1.dds"	
+	}
+	SpriteType = {
+		name = "GFX_idea_MYS_GTF_clones_exceptional"
+		texturefile = "gfx/interface/ideas/mys/idea_clone_3.dds"	
+	}
 	
 	
 	

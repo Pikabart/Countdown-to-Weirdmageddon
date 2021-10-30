@@ -88,6 +88,11 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MYS/report_event_army_of_the_stanpublic.dds"
 	}
 	
+	spriteType = { # The Staff!
+		name = "GFX_report_event_the_staff"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_the_staff.dds"
+	}
+	
    #############################################################
    #  Special GIF Evenrt image
    #############################################################
@@ -110,7 +115,18 @@ spriteTypes = {
     	pause_on_loop = 0.0
 	}
 
-	
+	frameAnimatedSpriteType = {	#usual stuff
+    	name = "GFX_report_event_mystery_shack_intro"
+    	texturefile = "gfx/event_country_pictures/MYS/mys_intro_final.dds"
+		
+    	noOfFrames = 20  	#total frames, must be exact or errors occures
+    	loadType = "INGAME"
+    	transparencecheck = no
+    	animation_rate_fps = 5  #frames per second, so if gif is several seconds, divide total frames accordingly 
+    	looping = yes
+    	play_on_show = yes
+    	pause_on_loop = 0.0
+	}
 
    #############################################################
    #  Decisions
@@ -119,7 +135,10 @@ spriteTypes = {
 		name = "GFX_decision_category_boss_mabel"
 		texturefile = "gfx/interface/decisions/decision_cat_boss_mabel.dds"
 	}
-	
+	spriteType = { # descions Clones
+		name = "GFX_decision_category_clones"
+		texturefile = "gfx/interface/decisions/decision_cat_clones.dds"
+	}
 	
 	
 	

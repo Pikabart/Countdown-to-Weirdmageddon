@@ -4,6 +4,7 @@
 
 add_namespace = stantastic
 add_namespace = stantastic_51
+add_namespace = stantastic_the_bet
 
 ###
 # Stan-Tastic Adventure 1: Corn, The Crawlspace, and Old Memories
@@ -28,7 +29,7 @@ country_event = {
 	}
 }
 	
-country_event = {
+country_event = {  #Part 2.1
 	id = stantastic.2
 	title = stantastic.2.t 
 	desc = stantastic.2.d  
@@ -43,8 +44,27 @@ country_event = {
 	option = { 
 		name = stantastic.2.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = stantastic.14
 	}
-}	
+}
+
+country_event = {   #Part 2.2
+	id = stantastic.14
+	title = stantastic.14.t 
+	desc = stantastic.14.d  
+	picture = GFX_report_event_mina_formal_angry 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.14.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
 	
 country_event = {
 	id = stantastic.3
@@ -101,7 +121,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = {  # The chase
 	id = stantastic.6
 	title = stantastic.6.t 
 	desc = stantastic.6.d  
@@ -116,12 +136,31 @@ country_event = {
 	option = { 
 		name = stantastic.6.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = stantastic.15
+	}
+}
+
+country_event = {  #The scroll and escape
+	id = stantastic.15
+	title = stantastic.15.t 
+	desc = stantastic.15.d  
+	picture = GFX_report_event_stan_running_away #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.15.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
 		country_event = stantastic.7
 		MEW={country_event = stantastic.13}
 	}
 }
 
-country_event = {
+country_event = {   #End game
 	id = stantastic.7
 	title = stantastic.7.t 
 	desc = stantastic.7.d  
@@ -180,9 +219,28 @@ country_event = {
 	option = { 
 		name = stantastic.9.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = stantastic.16
+	}
+}
+
+country_event = {
+	id = stantastic.16
+	title = stantastic.16.t 
+	desc = stantastic.16.d  
+	picture = GFX_report_event_still_standing_stan #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = stantastic.16.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
 		country_event = { id = stantastic.12 days = 3 }
 		MEW = {
-				add_ideas = stan_steal_corn_idea
+				add_ideas = MEW_stan_steal_corn_idea
 		}
 	}
 }
@@ -203,7 +261,7 @@ country_event = {
 		name = stantastic.10.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		MEW = {
-				add_ideas = stan_get_corn_back_idea
+				add_ideas = MEW_stop_stan_steal_idea
 		}
 	}
 }
@@ -317,14 +375,17 @@ country_event = { #The Bet
 		set_politics = {
 			ruling_party = democratic
 		}
+		set_country_flag = mys_the_bet
 		set_variable = {
 			var = mys_mabel_money
-			value = 70
+			value = 10
 		}
 		set_variable = {
 			var = mys_mabel_moral
-			value = 130
+			value = 30
 		}
+		
+		
 	}
 }
 
@@ -443,6 +504,7 @@ country_event = {
 	option = { 
 		name = stantastic_51.7.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = stantastic_the_bet.1 days = 7 }
 		custom_effect_tooltip = stantastic_51.7.tool
 	}
 }
@@ -540,7 +602,47 @@ country_event = {
 				set_country_flag = mys_winning
 			}
 		}
-		custom_effect_tooltip = stantastic_51.11.tool		
+		custom_effect_tooltip = stantastic_51.11.tool
+		country_event = { id = stantastic_the_bet.1 days = 7 }
 	}
 }	
+
+########################################################
+country_event = {
+	id = stantastic_the_bet.1
+	title = stantastic_the_bet.1.t 
+	desc = stantastic_the_bet.1.d  
+	picture = GFX_report_event_stan_running_away 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {
+		hidden_effect = {
+			#add_popularity = {
+			#		ideology = fascism
+			#		popularity = 0.55
+			#}
+			set_popularities = {
+				democratic = 15
+				communism = 10
+				fascism = 65
+				neutrality = 10
+			}
+			set_politics = {
+				ruling_party = fascism
+			}
+			clr_country_flag = mys_the_bet
+		}	
+	}
+	
+	option = { 
+		name = stantastic_51.11.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		
+		
+		
+		#custom_effect_tooltip = stantastic_the_bet.1.tool		
+	}
+}
 	

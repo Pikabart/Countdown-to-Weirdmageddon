@@ -192,6 +192,48 @@ spriteTypes = {
 		texturefile = "gfx/interface/decisions/decision_cat_ARAT.dds"
 	}
 	
+   #############################################################
+   #  Special GIF Event image
+   #############################################################
+	
+	frameAnimatedSpriteType = {	#1
+    	name = "GFX_report_event_gimme"
+    	texturefile = "gfx/event_country_pictures/MEW/report_event_get_wand.dds"
+		
+    	noOfFrames = 20  	#total frames, must be exact or errors occures
+    	loadType = "INGAME"
+    	transparencecheck = no
+    	animation_rate_fps = 5  #frames per second, so if gif is several seconds, divide total frames accordingly 
+    	looping = yes
+    	play_on_show = yes
+    	pause_on_loop = 0.0
+	}
+	
+	frameAnimatedSpriteType = {	#2
+    	name = "GFX_report_event_not_ready"
+    	texturefile = "gfx/event_country_pictures/MEW/report_event_not_ready.dds"
+		
+    	noOfFrames = 20  	#total frames, must be exact or errors occures
+    	loadType = "INGAME"
+    	transparencecheck = no
+    	animation_rate_fps = 5  #frames per second, so if gif is several seconds, divide total frames accordingly 
+    	looping = yes
+    	play_on_show = yes
+    	pause_on_loop = 0.0
+	}
+	
+	frameAnimatedSpriteType = {	#3
+    	name = "GFX_report_event_another_dimension"
+    	texturefile = "gfx/event_country_pictures/MEW/report_event_another_dimension.dds"
+		
+    	noOfFrames = 28  	#total frames, must be exact or errors occures
+    	loadType = "INGAME"
+    	transparencecheck = no
+    	animation_rate_fps = 7  #frames per second, so if gif is several seconds, divide total frames accordingly 
+    	looping = yes
+    	play_on_show = yes
+    	pause_on_loop = 0.0
+	}
 	
 	
 	

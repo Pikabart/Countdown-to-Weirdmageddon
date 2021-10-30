@@ -173,20 +173,8 @@
 			set_country_flag = mys_invest  #Change			
 			set_country_flag = mys_public_time 		#Change
 			set_country_flag = mys_rock_the_mabel	#Change
-			
-			#DELETE LATER, for debugging
-			set_country_flag = mys_the_bet
-			set_variable = {
-				var = mys_mabel_money
-				value = 70
-			}
-			set_variable = {
-				var = mys_mabel_moral
-				value = 130
-			}
-			
-			
-			mark_focus_tree_layout_dirty = yes 
+		
+			mark_focus_tree_layout_dirty = yes # Will reset three and make invisable branches appear
 			}
 		}
 		
@@ -1021,7 +1009,8 @@
 		ai_will_do = {factor = 1}
 	}
 	
-	########################################################
+	################################################################################################################
+	################################################################################################################
 	
 	focus = { 
 		id = MYS_clones
@@ -1031,7 +1020,7 @@
 		prerequisite = { focus = MYS_investment }
 		relative_position_id = MYS_investment
 		
-		#allow_branch = { has_country_flag = mys_clones }
+		allow_branch = { has_country_flag = mys_clones }
 		available = { has_country_flag = mys_clone_wars }
 		bypass = {}
 		cost = 1 # (#)x7days 
@@ -1042,6 +1031,21 @@
 
 		completion_reward = {
 			#country_event = mystery_shack.
+			hidden_effect = {load_oob = "MYS_Clones"}
+			#load_oob = "MYS_Clones"
+			set_country_flag = mys_clone_dipper
+			set_variable = {
+				var = mys_dipper_reserve
+				value = 0
+			}
+			set_variable = {
+				var = mys_wendy_reserve
+				value = 0
+			}
+			set_variable = {
+				var = mys_soos_reserve
+				value = 0
+			}
 		}
 		
 		ai_will_do = {
@@ -1063,7 +1067,7 @@
 		cost = 3 # (#)x7days 
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			add_ideas = MYS_GTF_clones_durable
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1083,7 +1087,10 @@
 		cost = 3 # (#)x7days 
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			swap_ideas = {
+				add_idea = MYS_GTF_clones_shiny
+				remove_idea = MYS_GTF_clones_durable
+			}
 			custom_effect_tooltip = MYS_clones_2_effect
 		}
 		
@@ -1104,7 +1111,11 @@
 		cost = 3 # (#)x7days 
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			swap_ideas = {
+				add_idea = MYS_GTF_clones_exceptional
+				remove_idea = MYS_GTF_clones_shiny
+			}
+			set_country_flag = mys_clone_exceptional
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1502,15 +1513,18 @@ focus = {
 		y = 6
 		relative_position_id = MYS_journal_3
 		
-		prerequisite = { focus = MYS_awaits }
-		prerequisite = { focus = MYS_stantastic }
+		prerequisite = { focus = MYS_stantastic_5 }
+		prerequisite = { focus = MYS_stantastic_6 }
+		prerequisite = { focus = MYS_awaits_5 }
+		prerequisite = { focus = MYS_awaits_6 }
 		available = { has_country_flag = mys_rock_the_mabel } # {always = no}	
 		#allow_branch = { has_country_flag = mys_rock_the_mabel }
-		cost = 1
+		cost = 5
 
 		completion_reward = {
 			country_event = mystery_shack_rock_the_mabel.1
 			hidden_effect = { set_country_flag = mys_clones }
+			mark_focus_tree_layout_dirty = yes # Will reset three and make invisable branches appear
 			hidden_effect = {
 				GID = {
 					transfer_state = 23
@@ -1528,7 +1542,9 @@ focus = {
 						add_core_of = GID 
 						remove_core_of = GTF
 					}
+					#hidden_effect = {load_oob = "GID_2012"}
 				}
+				
 			}
 		}
 		
@@ -1551,11 +1567,16 @@ focus = {
 					compare = greater_than_or_equals
 			}
 		}
-		cost = 1
+		cost = 3
 
 		completion_reward = {
 			#country_event = mystery_shack.
 			custom_effect_tooltip = "MYS_ship_1_effect"
+			hidden_effect = {
+				GID = {
+					#load_oob = "MYS_2012"
+				}
+			}
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1569,7 +1590,7 @@ focus = {
 		relative_position_id = MYS_ship_1
 		
 		prerequisite = { focus = MYS_ship_1 }
-		cost = 2
+		cost = 3
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -1586,7 +1607,7 @@ focus = {
 		relative_position_id = MYS_ship_2
 		
 		prerequisite = { focus = MYS_ship_2 }
-		cost = 2
+		cost = 3
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -1604,7 +1625,7 @@ focus = {
 		
 		mutually_exclusive = { focus = MYS_ship_5 }
 		prerequisite = { focus = MYS_ship_3 }
-		cost = 2
+		cost = 3
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -1622,7 +1643,7 @@ focus = {
 		
 		mutually_exclusive = { focus = MYS_ship_4 }
 		prerequisite = { focus = MYS_ship_3 }
-		cost = 2
+		cost = 3
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -1639,7 +1660,7 @@ focus = {
 		relative_position_id = MYS_ship_4
 		
 		prerequisite = { focus = MYS_ship_4 }
-		cost = 2
+		cost = 3
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -1656,7 +1677,7 @@ focus = {
 		relative_position_id = MYS_ship_5
 		
 		prerequisite = { focus = MYS_ship_5 }
-		cost = 2
+		cost = 3
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -1683,12 +1704,17 @@ focus = {
 					compare = less_than_or_equals
 			}
 		}
-		cost = 1
+		cost = 3
 
 		completion_reward = {
 			#country_event = mystery_shack.
 			custom_effect_tooltip = "MYS_pine_1_effect" 
-			hidden_effect = { set_country_flag = mys_clone_wars }
+			hidden_effect = { 
+				set_country_flag = mys_clone_wars 
+				GID = {
+					#load_oob = "MYS_2012"
+				}
+			}
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1702,7 +1728,7 @@ focus = {
 		relative_position_id = MYS_pine_1
 	
 		prerequisite = { focus = MYS_pine_1 }
-		cost = 1
+		cost = 3
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -1719,7 +1745,7 @@ focus = {
 		relative_position_id = MYS_pine_1
 		
 		prerequisite = { focus = MYS_pine_1 }
-		cost = 1
+		cost = 3
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -1737,7 +1763,7 @@ focus = {
 		relative_position_id = MYS_pine_2
 		
 		prerequisite = { focus = MYS_pine_2 }
-		cost = 1
+		cost = 3
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -1754,7 +1780,7 @@ focus = {
 		relative_position_id = MYS_pine_3
 		
 		prerequisite = { focus = MYS_pine_3 }
-		cost = 1
+		cost = 3
 
 		completion_reward = {
 			#country_event = mystery_shack.
@@ -1773,7 +1799,7 @@ focus = {
 	
 		prerequisite = { focus = MYS_pine_4 }
 		prerequisite = { focus = MYS_pine_5 }
-		cost = 1
+		cost = 3
 
 		completion_reward = {
 			country_event = mystery_shack_pine.1
@@ -1791,7 +1817,7 @@ focus = {
 		
 		available = { always = no }	
 		prerequisite = { focus = MYS_pine_6 }
-		cost = 1
+		cost = 3
 
 		completion_reward = {
 			#country_event = mystery_shack.

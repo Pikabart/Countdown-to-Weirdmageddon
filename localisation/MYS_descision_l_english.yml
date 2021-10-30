@@ -4,14 +4,40 @@
 #Descions LOCS
 ##########################################################################################
  MYS_boss_mabel:0 "I'm the Boss now!"
- MYS_boss_mabel_desc:0 "Its time for changes! Now that I'm the Boss, we'll show Stan how to run a buisness!\n\nMabel's Money = [?mys_mabel_money|+0]\nMabel's Morals = [?mys_mabel_moral|+0]"
- mabel_promice_1:0 "§CGood Customer Servivce§"
- mabel_promice_2:0 "§CDipper's Real Mysteries§"
- mabel_promice_3:0 "§C#1 Employee!§"
- mabel_cash_1:0 "§RSqueez them Dry!§"
- mabel_cash_2:0 "§RGet in the Suit!§"
- mabel_cash_3:0 "§RGet Back to Work§"
- mabel_comprise_1:0 "§YThe Magic Word§"
- mabel_comprise_2:0 "§YGet rich Quick§"
- mabel_comprise_3:0 "§YYell at the help§"
- mabel_comprise_4:0 "§YGot to Spend Money to Make Money§"
+ MYS_boss_mabel_desc:0 "Its time for changes! Now that I'm the Boss, we'll show Stan how to run a buisness!\n\nMabel's Waddles Bank = [?mys_mabel_money|+0]\nMabel's Moral Rating = [?mys_mabel_moral|+0]"
+ mabel_promice_1:0 "§CGood Customer Servivce§!"
+ mabel_promice_1a:0 "§C30%§! Chance of §CA§! \n§C40%§! Chance of §CB§! \n§C20%§! Chance of §CC§!\n"
+ 
+ mabel_promice_2:0 "§CDipper's Real Mysteries§!"
+ mabel_promice_2a:0 "§C30%§! Chance of §CA§! \n§C40%§! Chance of §CB§! \n§C20%§! Chance of §CC§!\n"
+ 
+ mabel_promice_3:0 "§C#1 Employee!§!"
+ mabel_promice_3a:0 "§C30%§! Chance of §CA§! \n§C40%§! Chance of §CB§! \n§C20%§! Chance of §CC§!\n"
+
+ mabel_cash_1:0 "§RSqueez them Dry!§!"
+ mabel_cash_2:0 "§RGet in the Suit!§!"
+ mabel_cash_3:0 "§RGet Back to Work§!"
+ mabel_comprise_1:0 "§YThe Magic Word§!"
+ mabel_comprise_2:0 "§YGet rich Quick§!"
+ mabel_comprise_3:0 "§YYell at the help§!"
+ mabel_comprise_4:0 "§YGot to Spend Money to Make Money§!"
+ 
+ 
+ #########################################
+ 
+ MYS_dipper_clone:0 "Begun, the Gleeful Wars Have..."
+ MYS_dipper_clone_desc:0 "Besides all of Dipper and Soos's Stellar Wars puns, we need to have an army to take on Gideon and his Goons. Fortunatley, thanks to that old copier, we can just xerox us an army. Sure there may be moral implications, but...\n\nDipper, lay down on that copy bed and don't move!\n\nDipper Reserves = [?mys_dipper_reserve|+0]\nWendy Reserves = [?mys_wendy_reserve|+0]\nSoos Reserves = [?mys_soos_reserve|+0]"
+ 
+ #flags
+ mys_clone_dipper:0 "Strapped Dipper to the Copier Machine"
+ mys_clone_exceptional:0 "As if one Wendy and Soos wasn't scary enough."
+ #options
+ clone_dips:0 "§CA new batch of Dipper§!"
+ clone_dips_div:0 "§CA new Dipper Formation!§!"
+ clone_dips_tt:0 "§CA new Dipper Regiment will spawn near the Shack§!"
+ clone_wens:0 "§OQuality and Quantity!§!"
+ clone_wens_div:0 "§OThose who can strike fast and hard!§!"
+ clone_wens_tt:0 "§OA new Wendy Special Ops will spawn near the Shack§!"
+ clone_soos:0 "§GGood thing I'm paying only one§!"
+ clone_soos_div:0 "§GWreckin' it with the Sooses§!"
+ clone_soos_tt:0 "§GA new Soos Brigade will spawn near the Shack§!"
