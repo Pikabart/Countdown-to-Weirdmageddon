@@ -14,8 +14,8 @@
     ##################################################################################################
     ##################################################################################################
     
-    mys_startup.1.t:0 "The Countdown to Weirdmageddon: The Mystery Shack!"
-    mys_startup.1.d:0 "Welcome! And thank you for playing "Countdown to Wierdmageddon", the HoI4 total conversion mod set in the Multiverse intersecting Gravity Falls, Star vs The Forces of Evil, Amphibia, and The Owl House.\n\nWe are proud to release our Alpha 0.01 version for all of you to play as we contninue working on expanding this unique world of Earth 42'\\ and the dimensions around it.\n\nFor the Mystery Shack, the Shack is a story driven experience exploring a reinterpetation of season one of Gravity Falls. Follow the Mystery Twins as they explore Gravity Falls, and join Stan in his quest to fully rebuild the portal.\n\nEnjoy!"
+    mys_startup.1.t:0 "Welcome to the Countdown to Weirdmageddon:\nThe Mystery Shack"
+    mys_startup.1.d:0 "Welcome! And thank you for playing "Countdown to Wierdmageddon", the HoI4 total conversion mod set in the Multiverse intersecting Gravity Falls, Star vs The Forces of Evil, Amphibia, and The Owl House.\n\nWe are proud to release our Alpha 0.0.1 version for all of you to play as we contninue working on expanding this unique world of Earth 42'\\ and the dimensions around it.\n\nFor the Mystery Shack, the Shack is a story driven experience exploring a reinterpetation of season one of Gravity Falls. Follow the Mystery Twins as they explore Gravity Falls, and join Stan in his quest to fully rebuild the portal, as well as use it for `fun and profit!\n\nEnjoy!"
     mys_startup.1.a:0 "And remember, we put the "Fun" in "No Refunds"!"
     
     mystery_shack.1.t:0 "Welcome to the Mystery Shack!"

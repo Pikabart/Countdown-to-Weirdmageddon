@@ -52,7 +52,7 @@ country_event = {
 	id = mewni_startup.1
 	title = mewni_startup.1.t
 	desc = mewni_startup.1.d
-	picture = GFX_report_event_thumbnail
+	picture = GFX_report_event_gimme
 	
 	is_triggered_only = yes
 	
@@ -60,7 +60,7 @@ country_event = {
 		name = mewni_startup.1.a
 		ai_chance = { factor = 90 }
 		}
-	}
+}
 
 country_event = {
 	id = mewni_solaria.1

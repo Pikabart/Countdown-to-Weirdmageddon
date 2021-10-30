@@ -238,11 +238,11 @@
  
  MYS_PR_12:0 "'Job Makers'"
  MYS_PR_12_desc:0 "The local economy has been in a slump since the Canadian Kerfuffle and the collapse of the US. But oddly enough, the tourism industry is prospering! Must have something to do with people getting their minds of the potential war between Oregon, Washington, and California.\nNow, people are in need of jobs. And I could use some cheap lab- I mean, new valauble employees!"
- MYS_PR_12_effect:0 "Got to work for that minimum wage!"
+ MYS_PR_12_effect:0 "Got to work for that minimum wage!\n\n"
 
  MYS_PR_13:0 "Supporting 'Small' Business"
  MYS_PR_13_desc:0 "What is investing but a smarter looking way of gambling? What kind of man would I be if the I didn't rig the game? With the recent economic downturn, the businesses in town could use some inflow of cash.\n\nSure, Preston Northwest can offer more. But would you trust a rich snob, or your local nighborhood Mystery Man?"
- MYS_PR_13_effect:0 "And remember, meet the minimum payment, or Wendy will have a very unpleasent chat with you."
+ MYS_PR_13_effect:0 "And remember, meet the minimum payment, or Wendy will have a very unpleasent chat with you.\n\n"
 
  MYS_PR_14:0 "Gravity Falls Shuffle"
  MYS_PR_14_desc:0 "The local hills beyond the shack use to be part of my property. But due to some completely misunderstood incident involving the mayor's galapagos turtle, the town confincastwed my land. Naturally, everyone would assume I take it back."
@@ -250,7 +250,7 @@
 
  MYS_PR_15:0 "And this Con-Man You can't Change"
  MYS_PR_15_desc:0 "Someone once told me I can't change. Honestly, maybe she was right. The fact I am here and not there proves that. But I won't go down. I survived up to now and I'll keep on survivinging. I have a mission and I won't stop.\n\nThis Con-Man they can't Change!"
- MYS_PR_15_effect:0 "If I leave here tomorrow\nWould you still remember me?\nFor I must be traveling on now\n'Cause there's too many places I've got to see" 
+ MYS_PR_15_effect:0 "If I leave here tomorrow\nWould you still remember me?\nFor I must be traveling on now\n'Cause there's too many places I've got to see\n\n" 
  
  ######################################################
  #  Rock the Mabel  #

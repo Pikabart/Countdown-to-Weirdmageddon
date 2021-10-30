@@ -1,3 +1,16 @@
+# Update 10/29
+
+common/countries
+common/National_focus
+
+events
+
+gft/event_countries/mew
+
+interface
+
+localisation
+
 # Update 10/26 and 10/28
 
 common/bookmark/bookmark_file
