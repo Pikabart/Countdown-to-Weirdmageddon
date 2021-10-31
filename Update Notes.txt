@@ -1,3 +1,17 @@
+# Update 10/30
+
+common/bookmark/bookmark_file
+common/decision/mys_descions
+common/National_focus
+
+events
+
+histroy/country/GID
+history/units/MYS_2012
+history/units/GID_2012
+
+loc
+
 # Update 10/29
 
 common/countries

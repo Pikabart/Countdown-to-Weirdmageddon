@@ -1049,7 +1049,7 @@
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 40
 		}
 	}
 	
@@ -1070,7 +1070,7 @@
 			add_ideas = MYS_GTF_clones_durable
 		}
 		
-		ai_will_do = {factor = 1}
+		ai_will_do = {factor = 40}
 	}
 	
 	focus = { 
@@ -1094,7 +1094,7 @@
 			custom_effect_tooltip = MYS_clones_2_effect
 		}
 		
-		ai_will_do = {factor = 1}
+		ai_will_do = {factor = 40}
 	}
 	
 	focus = { 
@@ -1118,7 +1118,7 @@
 			set_country_flag = mys_clone_exceptional
 		}
 		
-		ai_will_do = {factor = 1}
+		ai_will_do = {factor = 40}
 	}
 	
 ############################################################################
@@ -1521,8 +1521,12 @@ focus = {
 		#allow_branch = { has_country_flag = mys_rock_the_mabel }
 		cost = 5
 
+		select_effect = {
+			country_event = { id = mystery_shack_rock_the_mabel.1 days = 3 }
+		}
+
 		completion_reward = {
-			country_event = mystery_shack_rock_the_mabel.1
+			#country_event = mystery_shack_rock_the_mabel.1
 			hidden_effect = { set_country_flag = mys_clones }
 			mark_focus_tree_layout_dirty = yes # Will reset three and make invisable branches appear
 			hidden_effect = {
@@ -1542,7 +1546,7 @@ focus = {
 						add_core_of = GID 
 						remove_core_of = GTF
 					}
-					#hidden_effect = {load_oob = "GID_2012"}
+					load_oob = "GID_2012"
 				}
 				
 			}
@@ -1574,7 +1578,7 @@ focus = {
 			custom_effect_tooltip = "MYS_ship_1_effect"
 			hidden_effect = {
 				GID = {
-					#load_oob = "MYS_2012"
+					#load_oob = "GID_2012"
 				}
 			}
 		}
@@ -1712,7 +1716,7 @@ focus = {
 			hidden_effect = { 
 				set_country_flag = mys_clone_wars 
 				GID = {
-					#load_oob = "MYS_2012"
+					#load_oob = "GID_2012"
 				}
 			}
 		}
@@ -1838,6 +1842,53 @@ focus = {
 ######################################
 #  Construction and Military focuses #
 ######################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#FOR BOOKMARK
+focus = { 
+	id = MYS_rockthemabel_book
+	icon = GFX_goal_focus_gideon
+	x = 0
+	y = 0
+	relative_position_id = MYS_journal_3
+	
+	prerequisite = { focus = MYS_stantastic_5 }
+	prerequisite = { focus = MYS_stantastic_6 }
+	prerequisite = { focus = MYS_awaits_5 }
+	prerequisite = { focus = MYS_awaits_6 }
+	available = {always = no}	
+	allow_branch = { always = false }
+	cost = 5
+
+	completion_reward = {
+		country_event = mystery_shack_rock_the_mabel.1
+	}
+	
+	ai_will_do = {factor = 1}
+}
+
+
+
+
+
 
 }		
 

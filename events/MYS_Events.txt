@@ -26,7 +26,8 @@ country_event = { #1
 	
 	fire_only_once = yes     #Can't happen again
 	
-	immediate = {        
+	immediate = {    
+		hidden_effect = {add_manpower = 5000}
 	}
 	
 	option = { 

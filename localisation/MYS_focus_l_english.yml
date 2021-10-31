@@ -281,7 +281,7 @@
  MYS_ship_5_effect:0 ""
  
  MYS_ship_6:0 "A tightly controlled soul"
- MYS_ship_6_desc:0 "And your soul now mine, all the sercets of universe are now at my grasp. No one to stop us. No one can oppose us!\n\nYou and me, Mabeon, forever!"
+ MYS_ship_6_desc:0 "And your soul now mine, all the sercets of the universe are now at our grasp. No one to stop us. No one can oppose us!\n\nYou and me, Mabeon, forever!"
  MYS_ship_6_effect:0 ""
  
  MYS_ship_7:0 "Only room for one"
@@ -301,7 +301,7 @@
  MYS_pine_2_effect:0 ""
  
  MYS_pine_3:0 "Interior Motives"
- MYS_pine_3_desc:0 "I mean, what he is after. It can't seriously be my sister. No, he wants something from us. I don't know what secrets he has and I can't think of what we hav-...\n\nOh no. The Journals!"
+ MYS_pine_3_desc:0 "I mean, what he is after. It can't seriously be my sister. No, he wants something from us. I don't know what secrets he has and I can't think of what we hav-...\n\nOh no. The Journal!"
  MYS_pine_3_effect:0 "There must be something in this book to help us... a muse?"
  
  MYS_pine_4:0 "Mystery Sale"
@@ -327,6 +327,8 @@
  #:0 ""
  #_desc:0 "" 
  
+ MYS_rockthemabel_book:0 "Li'l Gideon"
+ MYS_rockthemabel_book_desc:0 "You shall be mine. Imagine it, my dear. All the sercets of the universe are now at our grasp. No one to stop us. No one can oppose us!\n\nYou and me, Mabeon, forever!\n\n- §LGideon Gleeful§! -"
  
  
  
