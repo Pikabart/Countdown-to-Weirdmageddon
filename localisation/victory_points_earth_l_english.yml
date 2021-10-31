@@ -29,7 +29,7 @@
  #Southern California VPs
  VICTORY_POINTS_6704:0 "Echo Creek"
  VICTORY_POINTS_2357:0 "Los Angeles"
- VICTORY_POINTS_6843:0 "Bakersfield"
+ VICTORY_POINTS_6843:0 "Bakersfieldville"
  VICTORY_POINTS_4206:0 "San Diego"
  VICTORY_POINTS_5237:0 "Night City"
  VICTORY_POINTS_9949:0 "San Luis Obispo"
@@ -160,4 +160,5 @@
  ################################################
  #Wyoming VPs
  VICTORY_POINTS_2516:0 "Old Youthful"
+ VICTORY_POINTS_227:0 "Still Valley"
  

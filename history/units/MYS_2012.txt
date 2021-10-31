@@ -1,0 +1,67 @@
+﻿# New MYS 2012
+
+division_template = {
+	name = "Shack Security"
+	division_names_group = MYS_INFB_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Mounted Tour Guide"  
+	division_names_group = MYS_CAVB_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+
+	}
+}
+
+units = {
+	
+	##################
+	#Starting Temps#
+	##################
+	
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 10618 # The Shack
+		division_template = "Shack Security"
+		start_experience_factor = 0.2
+
+
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4065 # The Pit
+		division_template = "Mounted Tour Guide"
+		start_experience_factor = 0.2
+
+	}
+
+}
+##### No Notable Naval Forces #####
+##### No Notable Air Forces #####
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "MYS"
+		}
+		requested_factories = 1
+		progress = 0.54
+		efficiency = 100
+	}
+}
