@@ -20,7 +20,7 @@ bookmarks = {
 			focuses = {
 				MYS_stantastic
 				MYS_awaits
-				MYS_rockthemabel
+				MYS_rockthemabel_book
 			}
 		}
 		

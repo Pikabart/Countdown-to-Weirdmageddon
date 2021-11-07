@@ -57,12 +57,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/mys/idea_generic_free_trade.dds"	
 	}
 	SpriteType = {
-		name = "GFX_idea_MYS_PR_our_man_stan"
-		texturefile = "gfx/interface/ideas/mys/idea_the_man_stan.dds"	
-	}
-	
-	#####################
-	SpriteType = {
 		name = "GFX_idea_MYS_PR_tate"
 		texturefile = "gfx/interface/ideas/mys/idea_generic_free_trade.dds"	
 	}
@@ -71,7 +65,8 @@ spriteTypes = {
 		name = "GFX_idea_MYS_PR_backtax"
 		texturefile = "gfx/interface/ideas/mys/idea_backtax.dds"	
 	}
-	
+	#####################
+	# Good PR
 	SpriteType = {
 		name = "GFX_idea_MYS_PR_souvenir"
 		texturefile = "gfx/interface/ideas/mys/idea_souvineers.dds"	
@@ -81,8 +76,12 @@ spriteTypes = {
 		name = "GFX_idea_MYS_PR_dunk"
 		texturefile = "gfx/interface/ideas/mys/idea_dunk.dds"	
 	}
-	
+	SpriteType = {
+		name = "GFX_idea_MYS_PR_our_man_stan"
+		texturefile = "gfx/interface/ideas/mys/idea_the_man_stan.dds"	
+	}
 	########################
+	# BAD PR
 	SpriteType = {
 		name = "GFX_idea_MYS_PR_false"
 		texturefile = "gfx/interface/ideas/mys/idea_conman.dds"	
@@ -100,6 +99,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/mys/idea_conman.dds"	
 	}
 	########################
+	# Clones
 	SpriteType = {
 		name = "GFX_idea_MYS_GTF_clones_durable"
 		texturefile = "gfx/interface/ideas/mys/idea_clone_1.dds"	
@@ -113,7 +113,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/mys/idea_clone_3.dds"	
 	}
 	
-	
+	########################
+	# Companies
+	SpriteType = {
+		name = "GFX_idea_MYS_Northwest_Corp"
+		texturefile = "gfx/interface/ideas/mys/idea_NW_CORP.dds"	
+	}	
 	
 	
 	

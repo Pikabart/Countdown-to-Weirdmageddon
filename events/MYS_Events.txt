@@ -12,7 +12,9 @@ add_namespace = mystery_shack_PR_bad
 add_namespace = mystery_shack_rock_the_mabel
 add_namespace = mystery_shack_mystery_fair
 add_namespace = mystery_shack_ship
+add_namespace = mystery_shack_pining
 add_namespace = mystery_shack_pine
+add_namespace = mystery_shack_ship_end
 
 ####################################
 
@@ -26,7 +28,8 @@ country_event = { #1
 	
 	fire_only_once = yes     #Can't happen again
 	
-	immediate = {        
+	immediate = {    
+		hidden_effect = {add_manpower = 5000}
 	}
 	
 	option = { 
@@ -330,7 +333,7 @@ country_event = {    #
 		name = mystery_shack_PR.2.c
 		ai_chance = { factor = 40 }	
 		add_political_power = -50
-		custom_effect_tooltip = mystery_shack_PR.2.c.tt
+		#custom_effect_tooltip = mystery_shack_PR.2.c.tt
 		hidden_effect = {
 			add_ideas = MYS_PR_tate
 			add_to_variable = {
@@ -1034,6 +1037,108 @@ country_event = {    # Keeping it going
 }
 
 #######################################################################################################################
+# Ship
+########################################################################################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+country_event = {    #Gideon End 1
+	id = mystery_shack_ship_end.1
+	title = mystery_shack_ship_end.1.t 
+	desc = mystery_shack_ship_end.1.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { hidden_effect = {} }
+	
+	option = { 
+		name = mystery_shack_ship_end.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mystery_shack_ship_end.3 days = 4 }
+		#set_country_flag = MYS_mabel_gone
+	}
+}
+
+country_event = {    #Gideon End 2
+	id = mystery_shack_ship_end.2
+	title = mystery_shack_ship_end.2.t 
+	desc = mystery_shack_ship_end.2.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { hidden_effect = {} }
+	
+	option = { 
+		name = mystery_shack_ship_end.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mystery_shack_ship_end.3 days = 4 }
+		#set_country_flag = MYS_still_twins
+	}
+}
+
+country_event = {    #Gideon Alpha End
+	id = mystery_shack_ship_end.3
+	title = {
+		text = mystery_shack_ship_end.3.t_a
+		trigger = {has_country_flag = MYS_mabel_gone}
+	}
+	title = {
+		text = mystery_shack_ship_end.3.t_b
+		trigger = {has_country_flag = MYS_still_twins}
+	}
+	desc = {
+		text = mystery_shack_ship_end.3.d_a
+		trigger = {has_country_flag = MYS_mabel_gone}
+	}
+	desc = {
+		text = mystery_shack_ship_end.3.d_b
+		trigger = {has_country_flag = MYS_still_twins} 
+	}
+	
+	
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { hidden_effect = {} }
+	
+	option = { 
+		name = mystery_shack_ship_end.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+
+#######################################################################################################################
 # Pining for Time
 ########################################################################################################################
 
@@ -1052,6 +1157,7 @@ country_event = {    # Start the War
 		name = mystery_shack_pine.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		country_event = { id = mystery_shack_pine.2 days = 3 }
+		set_country_flag = MYS_begun_gleeful_war
 		GID = {
 			declare_war_on = {
 				target = MYS
@@ -1083,7 +1189,9 @@ country_event = {    # Does GF get involve
 					target = GID
 					type = annex_everything
 				}
+				give_military_access = MYS
 			}
+				set_country_flag = MYS_GF_war_GID
 		}
 		else_if = {
 			limit = { has_country_flag = MYS_CON_MAN_STAN}
@@ -1092,7 +1200,9 @@ country_event = {    # Does GF get involve
 					target = MYS
 					type = annex_everything
 				}
+				give_military_access = GID
 			}
+			set_country_flag = MYS_GF_war_MYS
 		}
 		else = {
 			GTF = {
@@ -1100,6 +1210,95 @@ country_event = {    # Does GF get involve
 				give_military_access = GID
 			}
 		}
+	}
+}
+
+country_event = {    # POST WAR Check after war had ended
+	id = mystery_shack_pine.3
+	title = mystery_shack_pine.3.t 
+	desc = mystery_shack_pine.3.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	# is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	trigger = {  
+			has_country_flag = MYS_begun_gleeful_war
+			OR = {
+				NOT = { country_exists = GID } 
+				GID = {is_subject = yes}
+			}
+	}
+	
+	option = { 
+		name = mystery_shack_pine.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mystery_shack_pine.7 days = 5 }	
+		complete_national_focus = MYS_pine_7
+		add_state_core = 25
+		transfer_state = 25
+		GTF = {
+			add_state_core = 24
+			transfer_state = 24
+			add_state_core = 23
+			transfer_state = 23
+			add_state_core = 26
+			transfer_state = 26
+		}
+		GID = {
+			remove_state_core = 23
+			remove_state_core = 24
+			remove_state_core = 25
+			remove_state_core = 26
+		}
+	}
+}
+
+country_event = {    # GF war with MYS, losing white peace
+	id = mystery_shack_pine.4
+	title = mystery_shack_pine.4.t 
+	desc = mystery_shack_pine.4.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	#is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	trigger = {  
+		has_country_flag = MYS_begun_gleeful_war
+		has_country_flag = MYS_GF_war_MYS
+		original_tag = MYS
+		GTF = { surrender_progress > 0.40 }		
+	}
+	
+	immediate = {
+		name = mystery_shack_pine.4.t 
+		white_peace = {
+			tag = GTF
+			message = "Gravity Falls has withdrawn from the Gleeful War"
+		}	
+	}
+	
+	option = { 
+		name = mystery_shack_pine.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this		
+	}
+}
+
+
+
+
+country_event = {    # END OF ALPHA FOR MYS VICTORY
+	id = mystery_shack_pine.7
+	title = mystery_shack_pine.7.t 
+	desc = mystery_shack_pine.7.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	option = { 
+		name = mystery_shack_pine.7.a
+		ai_chance = { factor = 100 }	# 100% AI choose this		
 	}
 }
 
