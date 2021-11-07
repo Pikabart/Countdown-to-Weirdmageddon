@@ -1,0 +1,146 @@
+﻿l_english:
+
+victory_against_ludo:0 "Victory Against Ludo!"
+victory_against_ludo_desc:0 "We've won! :D"
+new_decisions_tooltip:0 "§CUnlock New Decisions§!"
+trad_opinion_up:0 "§YTraditionalist Opinion Increases§!"
+prog_opinion_up:0 "§YProgressive Opinion Increases§!"
+
+post_war_admin:0 "Post War Administration"
+post_war_admin_desc:0 "The crisis required our full attention on the matters of warfare. But as we put all of our effort into taking back our rightful lands, the administrative side of things were neglected. We are now seeing the consequences of this neglect."
+
+corn_crisis_end:0 "End Of The Corn Crisis"
+corn_crisis_end_desc:0 "The main cause of the Corn Crisis were the rats, which we now know were being directed by Ludo. With the Rats finally gone, our corn stocks are once again rising. Now we must transition out of the emergency economic measures."
+
+fate_of_butterfly_front:0 "Fate Of The Butterfly Front"
+fate_of_butterfly_front_desc:0 "The Butterfly Front is the result of us giving our remaining loyal vassals more freedom in order to help us in the civil war. With the end of the war, we must consider two options: Keep the name of the Butterfly Front as a symbol of progress, or go back to the Kingdom of Mewni as a symbol of tradition and stability."
+
+include_tsr:0 "Include The Tsardom"
+include_tsr_desc:0 "The Monster Tsardom was a loyal and helpful ally in the war. We will reward them by letting them stay with us."
+
+official_membership:0 "Official Membership"
+official_membership_desc:0 "It's time of officially bring in the Tsardom, traditions and all."
+
+kick_out_tsr:0 "Kick Out The Tsardom"
+kick_out_tsr_desc:0 "We are Mewmans. They are Monsters. We are simply incompatible."
+
+take_back_lands:0 "Take Back Our Lands"
+take_back_lands_desc:0 "It was a mistake to give away out lands to the Tsar. We must take them back!"
+
+internal_organization:0 "Internal Organization"
+internal_organization_desc:0 "The immediate matters dealt with, we can start organizing and stablizing the government."
+
+status_of_monsters:0 "Status Of Monsters"
+status_of_monsters_desc:0 "We have given Monsters certain freedoms and positions of power as an emergency measure during the civil war. The question on everyone's mind is whether or not the Monsters will keep this status."
+
+status_of_humans:0 "Status of Humans"
+status_of_humans_desc:0 "Humans, the most controversial of foreigners, have been given certain freedoms and positions of power as an emergency measure during the civil war. The question on everyone's mind is whether or not the humans will keep this status."
+
+reunification_process:0 "Start The Reunification Process"
+reunification_process_desc:0 "With the internal matters secured, we can look outwards and see how we can reunify the kingdom."
+
+contact_lucitor:0 "Contact The Lucitor Kingdom"
+contact_lucitor_desc:0 "It's time to contact the Lucitor Kingdom"
+
+contact_lucitor_strong:0 "Stay Strong"
+contact_lucitor_strong_desc:0 "We musn't bend the knee and bribe them! We will use political manipulation to being them back into the fold."
+
+contact_lucitor_comp:0 "Compromise"
+contact_lucitor_comp_desc:0 "In order to swiftly bring them back into the fold, we will make payments."
+
+lucitor_resolved:0 "The Issue Resolved"
+lucitor_resolved_desc:0 "The Issue has been resolved, things are a little more certain now."
+
+contact_pigeon:0 "Contact The Pigeon Kingdom"
+contact_pigeon_desc:0 "It's time to contact the Pigeon Kingdom"
+
+contact_pigeon_strong:0 "Stay Strong"
+contact_pigeon_strong_desc:0 "We musn't bend the knee and bribe them! We will use political manipulation to being them back into the fold."
+
+contact_pigeon_comp:0 "Compromise"
+contact_pigeon_comp_desc:0 "In order to swiftly bring them back into the fold, we will make payments."
+
+pigeon_resolved:0 "The Issue Resolved"
+pigeon_resolved_desc:0 "The Issue has been resolved, things are a little more certain now."
+
+contact_ponyhead:0 "Contact The Ponyhead Kingdom"
+contact_ponyhead_desc:0 "It's time to contact the Ponyhead Kingdom"
+
+contact_ponyhead_strong:0 "Stay Strong"
+contact_ponyhead_strong_desc:0 "We musn't bend the knee and bribe them! We will use political manipulation to being them back into the fold."
+
+contact_ponyhead_comp:0 "Compromise"
+contact_ponyhead_comp_desc:0 "In order to swiftly bring them back into the fold, we will make payments."
+
+ponyhead_resolved:0 "The Issue Resolved"
+ponyhead_resolved_desc:0 "The Issue has been resolved, things are a little more certain now."
+
+contact_spiderbite:0 "Contact The Spiderbite Kingdom"
+contact_spiderbite_desc:0 "It's time to contact the Spiderbite Kingdom"
+
+contact_spiderbite_strong:0 "Stay Strong"
+contact_spiderbite_strong_desc:0 "We musn't bend the knee and bribe them! We will use political manipulation to being them back into the fold."
+
+contact_spiderbite_comp:0 "Compromise"
+contact_spiderbite_comp_desc:0 "In order to swiftly bring them back into the fold, we will make payments."
+
+spiderbite_resolved:0 "The Issue Resolved"
+spiderbite_resolved_desc:0 "The Issue has been resolved, things are a little more certain now."
+
+contact_spiderbite_punish:0 "Punish The Traitors!"
+contact_spiderbite_punish_desc:0 "The Spiderbites betrayed us! We mus punish them accordingly!"
+
+contact_spiderbite_punish_2:0 "Cripple the Traitors!"
+contact_spiderbite_punish_2_desc:0 "We must ensure that the Spiderbites can never again go againt us!"
+
+contact_jaggy:0 "Contact The Jaggy Kingdom"
+contact_jaggy_desc:0 "It's time to contact the Jaggy Kingdom"
+
+contact_jaggy_strong:0 "Stay Strong"
+contact_jaggy_strong_desc:0 "We musn't bend the knee and bribe them! We will use political manipulation to being them back into the fold."
+
+contact_jaggy_comp:0 "Compromise"
+contact_jaggy_comp_desc:0 "In order to swiftly bring them back into the fold, we will make payments."
+
+jaggy_resolved:0 "The Issue Resolved"
+jaggy_resolved_desc:0 "The Issue has been resolved, things are a little more certain now."
+
+contact_jaggy_support_1:0 "Gun Runners"
+contact_jaggy_support_1_desc:0 "We will employ people to bring guns into the hazardous and harshly-terrained Jaggy Kingdom to help out the Loyalists."
+
+contact_jaggy_support_2:0 "Strength And Muscle And Mountain Work!"
+contact_jaggy_support_2_desc:0 "THREE MEW-MEN\nIN A MONSTER TRUCK\nTHEY TAKE A LITTLE BEND\nINTO A JAGGY TOWN!"
+
+kingdom_united:0 "The Kingdom Reunified!"
+kingdom_united_desc:0 "The Kingdom is once again under one banner! Three hurrahs for Queen Moon!"
+kingdom_united_tooltip:0 "§CHurrah! Hurrah! Hurrah!§!"
+
+modern_engines:0 "Modern Engines"
+modern_engines_desc:0 ""
+
+centralize_government:0 "Centralize The Government"
+centralize_government_desc:0 "We will trim the excess bureaucracy of our medieval style government and adopt some foreign systems."
+
+state_schooling:0 "State Schooling"
+state_schooling_desc:0 "We will adopt foreign style schooling. We will of course use it to promote Mewman ideals, appealing to Traditionalists. This will anger the progressives who want a fair and balanced education."
+
+accelerate_industry:0 "Accelerate Industry"
+accelerate_industry_desc:0 ""
+
+mewni_infrastructure:0 "The Road To Garbage Beach"
+mewni_infrastructure_desc:0 ""
+
+foreign_expertise:0 "Foreign Expertise"
+foreign_expertise_desc:0 ""
+
+propaganda:0 "Propaganda"
+propaganda_desc:0 "We will use foreign Propaganda techniques to promote Mewman ideas."
+
+skywynne_subsidies:0 "Skywynne Subsidies"
+skywynne_subsidies_desc:0 "We will subsidize Skywynne instiutute to create more Mewman intellectuals."
+
+mewni_infrastructure_2:0 "The Road To Port Festivia"
+mewni_infrastructure_2_desc:0 ""
+
+new_mewni:0 "A New Mewni"
+new_mewni_desc:0 ""

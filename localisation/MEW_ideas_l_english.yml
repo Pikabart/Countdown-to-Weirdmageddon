@@ -64,6 +64,43 @@ OST_hostile_mewman_trade_2:0 "Hostile Mewman Trade"
 OST_hostile_mewman_trade_3:0 "Hostile Mewman Trade"
 OST_hostile_mewman_trade_mew:0 "Ostro Starvarian Tribute"
 
+thankful_populace:0 "Thankful Populace"
+thankful_populace_desc:0 "The people have had to endure harsh emergency measures. But now as the crisis subsides, the people are thankful for the lives they had before."
+
+post_ludo_war_economy_reform:0 "Economic Reform"
+post_ludo_war_economy_reform_desc:0 "The economy is undergoing reforms to be more formidable."
+
+post_ludo_war_westernization:0 "Westernization"
+post_ludo_war_westernization_desc:0 "Our entire society is undergoing reforms to be more formidable."
+
+recovering_from_civil_war:0 "Recovering From Civil War."
+recovering_from_civil_war_desc:0 ""
+
+payments_to_joh:0 "Payments To The Johansen Kingdom"
+
+luc_concessions:0 "Payments To The Lucitor Kingdom"
+
+pig_concessions:0 "Payments To The Pigeon Kingdom"
+
+spi_concessions:0 "Payments To The Spiderbite Kingdom"
+
+jag_concessions:0 "Payments To The Jaggy Kingdom"
+
+pny_concessions:0 "Payments To The Ponyhead Kingdom"
+
+modernizing_education:0 "Modernizing Education"
+
+skywynne_subsidies:0 "Skywynne Subsidies"
+
+new_mewni_idea:0 "A New Mewni"
+
+mew_lud_pol_power:0 "Political Manipulation"
+mew_pig_pol_power:0 "Political Manipulation"
+mew_pny_pol_power:0 "Political Manipulation"
+mew_spi_pol_power:0 "Political Manipulation"
+mew_jag_pol_power:0 "Political Manipulation"
+mew_jag_volunteers:0 "State Mercanaries"
+
 ###############################
 #Special MYS event idea for MEW
 MEW_stan_steal_corn_idea:0 "Curse that Stanford Pines!"

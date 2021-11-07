@@ -121,6 +121,19 @@ REC_PR_desc:0 "So some of our investments fell flat. Our image isn't particularl
 
 REC_NWB:0 "§RThe Northwest Bailout§ "
 REC_NWB_desc:0 "We are in the red! If we don't turn our financial situation around, the company will go under. Worse, because of our crown charter, a notable part of the Mewman Economy is tied to us. If we fall, the market might crash!\nNow, Mr. Birnbaum of Northwest Corporation of California has approched us with a bailout. Though more turbulant, the US Dollar is a very powerful currency in our part of the multi-verse. Better, we won't even have an interest to pay, as the bailout was already negotiated between the two countries.\n\n-§GThis bailout with grant us a whopping 100 Golden Sols§!\n-§YBut we must achieve at least 75 PR and a reserve of 30 Golden Sols in 120 Days§!\n§R-Or else Mr. Birnbaum will declare breach of contract and make us pay for our failure...§!"
+
+#################################
+
+#POST LUDO CIVIL WAR#
+
+#################################
+
+mew_trad_vs_prog_category:0 "Traditionalist/Progressive Divide"
+mew_trad_vs_prog_category_desc:0 "As the Mewman people recover from the civil war, there is one question on everyone's mind: How can we prevent another one? There are two schools of thought: Either we look towards the future, or we look towards the past.\n\n§YTraditionalist Opinion:§! [?mew_trad_opinion]\n\n§YProgressive Opinion:§! [?mew_prog_opinion]"
+
+mew_post_ludo_reunification:0 "Title"
+mew_post_ludo_reunification_desc:0 "Dick and balls"
+
 #################################
 
 #PEACEFUL SUPPRESSION DESCISIONS#

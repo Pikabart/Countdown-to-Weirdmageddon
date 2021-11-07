@@ -1,0 +1,72 @@
+#####################################################################################################################
+#Mewni Traditionalist v progressive
+#####################################################################################################################
+mew_trad_vs_prog_category = {		#Name of category that decisions will appear under, decisions MUST have a category to work properly.
+	
+	mew_trad_opinion_increase_1 = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+		}
+		
+		fire_only_once = no
+		
+		
+
+		visible = {
+
+		}		
+
+		cost = 75
+		
+		days_remove = 14
+		days_re_enable = 14
+
+		remove_effect = {
+			add_stability = 0.02
+			add_to_variable = {
+				var = mew_trad_opinion
+				value = 1
+			}		
+		
+		}
+		
+		ai_will_do = {
+			factor = 1			
+		}
+	}
+	
+	mew_prog_opinion_increase_1 = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+		}
+		
+		fire_only_once = no
+		
+
+		visible = {
+
+		}		
+
+		cost = 75
+
+		days_remove = 14
+		days_re_enable = 14
+
+		complete_effect = {		
+			add_to_variable = {
+				var = mew_prog_opinion
+				value = 1
+			}		
+		}
+		
+		ai_will_do = {
+			factor = 1			
+		}
+	}
+
+}
+

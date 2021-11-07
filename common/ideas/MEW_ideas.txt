@@ -278,6 +278,265 @@ ideas = {
 				
 			}
 		}
+		
+		thankful_populace = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = 0.15
+				
+			}
+		}
+		
+		post_ludo_war_economy_reform = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.10
+				production_speed_buildings_factor = 0.05
+				
+			}
+		}
+		
+
+		
+		post_ludo_war_westernization = {
+
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.15
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.03
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		
+		recovering_from_civil_war = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_weekly = -0.02
+				
+			}
+		}
+		
+		payments_to_joh = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		
+		luc_concessions = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		
+		pig_concessions = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		
+		spi_concessions = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		
+		jag_concessions = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		
+		pny_concessions = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		
+		modernizing_education = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = 0.02
+				stability_factor = -0.05
+				
+			}
+		}
+	
+		skywynne_subsidies = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = 0.05
+				consumer_goods_factor = 0.02
+				
+			}
+		}
+		
+		new_mewni_idea = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				stability_factor = 0.05
+				
+			}
+		}
+		
+		mew_lud_pol_power = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_gain = -0.2
+				
+			}
+		}
+		
+		mew_pig_pol_power = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_gain = -0.2
+				
+			}
+		}
+		
+		mew_pny_pol_power = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_gain = -0.2
+				
+			}
+		}
+		
+		mew_spi_pol_power = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_gain = -0.2
+				
+			}
+		}
+		
+		mew_jag_pol_power = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_gain = -0.2
+				
+			}
+		}
+		
+		mew_jag_volunteers = {
+			picture = MEW_public_works_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				send_volunteer_size = 5
+				consumer_goods_factor = -0.05
+				
+			}
+		}
 
 		###############################
 		#Special MYS event idea for MEW

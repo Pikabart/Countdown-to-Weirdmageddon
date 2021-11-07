@@ -36,8 +36,8 @@ mewni_ludo_coup_news_event.1.a:0 "Where are you, Queen Moon!?"
 mewni_ludo_coup_news_event.1.b:0 "."
 mewni_ludo_coup_news_event.1.c:0 "How could this happen so quickly!?"
 
-jaggy_collapse_news_event.1.t:0 "The Jaggy Kingdom Collapses!"
-jaggy_collapse_news_event.1.d:0 "The nothern most Mewman vassal kingdom, the Jaggy Kingdom, has collapsed! With supply lines unable to reach the infertile mountains of the Jaggy Kingdom, starvation has engulfed the sparse populace and raiding of government food stocks has become common place. Information from the kingdom in few and far between, but it is currently beleived that Crown Princess Jags has fled over-dimensions.\n\nThis leaves the kingdom in a state of absolute anarchy, and factions are sure to start forming. However, the fog of war has obscured any information coming out of the reigon."
+jaggy_collapse_news_event.1.t:0 "Uprising  In The Jaggy Kingdom!"
+jaggy_collapse_news_event.1.d:0 "The nothern most Mewman vassal kingdom, the Jaggy Kingdom, has collapsed! With supply lines unable to reach the infertile mountains of the Jaggy Kingdom, starvation has engulfed the sparse populace and raiding of government food stocks has become common place.\n\nInformation from the kingdom in few and far between, but it is currently beleived that they are embroiled in a major uprising. The rebels tout a new and foreign ideology called "Communisim," and claim that their system of government will be able to feed everyone in the malnourished kingdom."
 jaggy_collapse_news_event.1.a:0 "Only one ally remains..."
 jaggy_collapse_news_event.1.c:0 "Interesting"
 
@@ -60,6 +60,19 @@ ludo_spider_alliance_news_event.1.b:0 "Welcome to the Front!"
 ludo_spider_alliance_news_event.1.c:0 "How unexpected!"
 
 ludo_surrender_news_event.1.t:0 "The Civil War Ends!"
-ludo_surrender_news_event.1.d:0 "Good news from Mewni today! Ludo Avarius, the leader of the force waging war against the Butterfly Kingdom, has been captured! With this, the rat forces are left with no central authority. They are currently disorganizaed and scattered to the point that Mewman forces can claim victory."
+ludo_surrender_news_event.1.d:0 "Good news from Mewni today! Ludo Avarius, the leader of the force waging war against the Butterfly Kingdom, has been captured! With this, the rat forces are left with no central authority. They have scattered to the point that Mewman forces can claim victory.\n\nSpare Mewman military forces are holding victory parades as Moon Butterfly celebrates the day with numerous public speeches. Corn stocks are rising to normal levels, as Ludo's rat army were the ones compromising the Mewman Corn supply.\n\nThe vassal kingdoms have sent their congratulations, indicating interest in rejoining the Kingdom of Mewni."
 ludo_surrender_news_event.1.a:0 "It's over! By god, it's over!"
 ludo_surrender_news_event.1.c:0 "Interesting"
+remove_civil_war_ideas:0 "§YRemoves Some Civil War National Spirits§!"
+
+jaggy_loyal_victory_news_event.1.t:0 "Uprising In The Jaggy Kingdom Crushed"
+jaggy_loyal_victory_news_event.1.d:0 "The Communist uprising in the Jaggy Kingdom has been crushed! Butterfly loyalists have declared full victory and express interest in joining the [MEW.GetFactionName]." 
+jaggy_loyal_victory_news_event.1.a:0 "Great!"
+jaggy_loyal_victory_news_event.1.c:0 "Interesting"
+
+jaggy_rebel_victory_news_event.1.t:0 "Revolution In The Jaggy Kingdom!"
+jaggy_rebel_victory_news_event.1.d:0 "The Communist revolution in the Jaggy Kingdom has succeeded! The communists have declared full victory and express no interest in joining the [MEW.GetFactionName]." 
+jaggy_rebel_victory_news_event.1.a:0 "Drat!"
+jaggy_rebel_victory_news_event.1.c:0 "Interesting"
+
+

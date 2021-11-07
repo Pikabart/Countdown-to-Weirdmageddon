@@ -45,6 +45,52 @@ units = {
 	#Ceremonial Guard#
 	##################
 	
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Ceremonial Guard"
+		# = 0.9
+
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Ceremonial Guard"
+		# = 0.9
+
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Ceremonial Guard"
+		# = 0.9
+
+
+	}	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Ceremonial Guard"
+		# = 0.9
+
+
+	}
+	
 	division= {
 		division_name = {
 				is_name_ordered = yes
@@ -240,6 +286,125 @@ units = {
 
 	}
 	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Warnicorn Brigade"
+		# = 0.6
+
+
+	}
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Warnicorn Brigade"
+		# = 0.6
+
+
+	}	
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}	
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}	
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}	
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}	
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}	
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}	
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}	
 
 	####################
 	#Conscript Brigade#
@@ -289,6 +454,54 @@ units = {
 		location = 4219 # The Nest
 		division_template = "Conscript Brigade"
 		# = 0.001
+
+	}
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Conscript Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Conscript Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Conscript Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4219 # The Nest
+		division_template = "Conscript Brigade"
+		# = 0.001
+
 
 	}
 	
