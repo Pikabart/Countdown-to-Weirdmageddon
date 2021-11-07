@@ -582,7 +582,7 @@ mewni_arat = {
 			country_event = A-RAT_magic_operation.1 
 		}
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 30			
+			factor = 280			
 		} 
 	}
 	

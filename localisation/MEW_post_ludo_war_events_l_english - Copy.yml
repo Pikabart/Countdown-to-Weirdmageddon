@@ -1,0 +1,30 @@
+﻿l_english:
+
+corn_crisis_end.1.t:0 "End Of The Corn Crisis"
+corn_crisis_end.1.d:0 "Our corn stocks are returning to normal, but the emergency measuers we took have given us a new perspective into our economy. How should we proceed?"
+corn_crisis_end.1.a:0 "We should go back to our previous status quo"
+corn_crisis_end.2.a:0 "We must reform our economy in order to be stronger!"
+corn_crisis_end.3.a:0 "We must reform our entire society in order to be stronger!"
+
+fate_of_butterfly_front_event.1.t:0 "Fate Of The Butterfly Front"
+fate_of_butterfly_front_event.1.d:0 "We must decide what the Butterfly Front's fate will be in the future."
+fate_of_butterfly_front_event.1.a:0 "The Butterfly Front was always just a temporary measure, it's time to go back to the Kingdom!"
+fate_of_butterfly_front_event.2.a:0 "We must look towards the future, we cannot hold such tight control as we did in the past."
+
+tsr_let_in_event_mew.1.t:0 "The Johansens Protest The Tsardom's membership!"
+tsr_let_in_event_mew.1.d:0 "King River has personally protested the Tsardom's long term inclusion in the [Root.GetFactionName.GetName]. He demands that we compensate him with either land or payments, or we can decide to kick the Tsardom out."
+tsr_let_in_event_mew.1.a:0 "Give him some land"
+tsr_let_in_event_mew.2.a:0 "Give him some money"
+tsr_let_in_event_mew.3.a:0 "On second thought, maybe including the tsardom isn't such a good idea..."
+
+monster_status.1.t:0 "Status Of Monsters"
+monster_status.1.d:0 "How should we handle the monster's new found rights?"
+monster_status.1.a:0 "We must go back to status quo"
+monster_status.2.a:0 "The monster talent pool is too valuble"
+
+human_status.1.t:0 "Status Of Humans"
+human_status.1.d:0 "How should we handle the human's new found rights?"
+human_status.1.a:0 "We must go back to status quo"
+human_status.2.a:0 "The human talent pool is too valuble"
+
+

@@ -18,6 +18,7 @@ country_event = {
 	option = {
 		name = uneasy_peace.1.a
 		ai_chance = { factor = 90 }
+		set_global_flag = spi_loyal
 	
 	}
 }
@@ -79,6 +80,8 @@ country_event = {
 		SPI = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
 		JAG = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
 		LUD = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		set_global_flag = spi_unloyal
+		clr_global_flag = spi_loyal
 		}
 	
 	}

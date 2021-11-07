@@ -11,6 +11,8 @@ add_namespace = mewni_ludo_war_start_news_event
 add_namespace = mewni_tsardom_join_bf_news_event
 add_namespace = ludo_spider_alliance_news_event
 add_namespace = jaggy_collapse_news_event
+add_namespace = jaggy_rebel_victory_news_event
+add_namespace = jaggy_loyal_victory_news_event
 add_namespace = ludo_surrender_news_event
 
 news_event = { #The Corn Crisis
@@ -302,9 +304,71 @@ news_event = { #collapse of jaggy
 	option = {
 		name = jaggy_collapse_news_event.1.a
 		trigger = {	TAG = MEW} #mewni
+		set_global_flag = jaggy_collapsed
 	}
 	option = {
 		name = jaggy_collapse_news_event.1.c
+		trigger = {NOT={TAG = MEW}} #not mewni
+	}
+
+}
+
+news_event = { #jaggy loyalist victory
+	id = jaggy_loyal_victory_news_event.1
+	title = jaggy_loyal_victory_news_event.1.t
+	desc = {
+		text = jaggy_loyal_victory_news_event.1.d
+	}
+	
+	picture = GFX_news_event_kingdom_collapse
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = { 
+		name = jaggy_loyal_victory_news_event.1.a
+		trigger = {	TAG = MEW} #mewni
+		clr_global_flag = jaggy_collapsed
+	}
+	option = {
+		name = jaggy_loyal_victory_news_event.1.c
+		trigger = {NOT={TAG = MEW}} #not mewni
+	}
+
+}
+
+news_event = { #jaggy rebel victory
+	id = jaggy_rebel_victory_news_event.1
+	title = jaggy_rebel_victory_news_event.1.t
+	desc = {
+		text = jaggy_rebel_victory_news_event.1.d
+	}
+	
+	picture = GFX_news_event_jaggy_collapse
+	
+	major = no
+	is_triggered_only = yes
+	trigger = {
+		tag = MEW
+		has_global_flag = jaggy_collapsed
+		JAG = { exists = no }
+	}
+	
+	immediate = {
+	}
+	
+	option = { 
+		name = jaggy_rebel_victory_news_event.1.a
+		trigger = {	TAG = MEW} #mewni
+		clr_global_flag = jaggy_collapsed
+		unlock_national_focus = contact_jaggy_strong
+		unlock_national_focus = contact_jaggy_comp
+	}
+	option = {
+		name = jaggy_rebel_victory_news_event.1.c
 		trigger = {NOT={TAG = MEW}} #not mewni
 	}
 
@@ -391,7 +455,20 @@ news_event = { #Ludo Surrenders
 	option = {
 		name = ludo_surrender_news_event.1.a
 		trigger = {	TAG = MEW} #mewni
-		country_event = ludo_surrender.2
+		custom_effect_tooltip = "remove_civil_war_ideas"
+		custom_effect_tooltip = "new_focus_tree_tooltip"
+		hidden_effect = {
+		MEW = {
+			load_focus_tree = {
+			tree = MEW_after_civil_war_focus
+			keep_completed = yes
+			}
+			remove_ideas = magic_fritz_idea
+			remove_ideas = MEW_rapid_deployment_idea
+			remove_ideas = pull_all_strings_idea
+			remove_ideas = strike_first_idea
+		}
+		}
 	}
 	option = {
 		name = mewni_corn_crisis_news_event.1.c

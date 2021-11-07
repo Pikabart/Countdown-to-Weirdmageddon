@@ -188,6 +188,7 @@ country_event = {
 				LUD = { news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 } }
 			
 			}
+		
 
 	}
 }
