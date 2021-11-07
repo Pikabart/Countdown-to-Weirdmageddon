@@ -1,5 +1,25 @@
 # Update 10/30
 
+common/country_leader
+common/decision/mew_ARAT_REC
+common/defines/
+common/idea/
+common/National_focus
+
+events
+
+gft/event_countries/ALL
+gfx/flags
+gfx/interface/ideas/mys
+gfx/interface/ideas/cal
+
+interface
+
+locs
+
+###################################
+# Update 10/30
+
 common/bookmark/bookmark_file
 common/decision/mys_descions
 common/National_focus
@@ -12,6 +32,7 @@ history/units/GID_2012
 
 loc
 
+###################################
 # Update 10/29
 
 common/countries
@@ -25,6 +46,7 @@ interface
 
 localisation
 
+###################################
 # Update 10/26 and 10/28
 
 common/bookmark/bookmark_file
@@ -54,3 +76,5 @@ history/units/MYS_clones
 interface
 
 localisation
+
+###################################
