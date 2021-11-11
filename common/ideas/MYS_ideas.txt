@@ -622,7 +622,8 @@ ideas = { #Entire file
 				#prevent advisor to be one for other countries (for country already have their own)
 			}
 
-			available = {				
+			available = {	
+				has_completed_focus = MYS_soos_1 #Will not be selectable until condition met
 			}
 			
 			traits = { handy_man } # See common\country_leader\00_traits.txt
@@ -649,7 +650,7 @@ ideas = { #Entire file
 				original_tag = MYS
 			}
 			available = {
-				has_completed_focus = MYS_corduroy_spirit #Will not be selectable until condition met
+				has_completed_focus = MYS_wendy_1 #Will not be selectable until condition met
 			}
 			traits = { 
 				battle_cashier_1 
@@ -667,29 +668,29 @@ ideas = { #Entire file
 		}
 		
 		###############
-		wendy_rebel_girl_1_advisor = {  #Use for late game weirdmageddon
-			picture = wendy_2
-			allowed = {
-				original_tag = MYS
-				#has_completed_focus = MYS_new_pranks
-			}
-			available = {
-				has_completed_focus = MYS_new_pranks
-			}
-			traits = { 
-				rebel_girl_1 
-			}
-			on_add = {
-				#country_event = mystery_shack.2
-			}
-			do_effect = {
-				NOT = {
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
+		#wendy_rebel_girl_1_advisor = {  #Use for late game weirdmageddon
+		#	picture = wendy_2
+		#	allowed = {
+		#		original_tag = MYS
+		#		#has_completed_focus = MYS_new_pranks
+		#	}
+		#	available = {
+		#		has_completed_focus = MYS_new_pranks
+		#	}
+		#	traits = { 
+		#		rebel_girl_1 
+		#	}
+		#	on_add = {
+		#		#country_event = mystery_shack.2
+		#	}
+		#	do_effect = {
+		#		NOT = {
+		#		}
+		#	}
+		#	ai_will_do = {
+		#		factor = 0
+		#	}
+		#}
 		
 		###########
 		dipper_explorer_1_advisor = {
@@ -744,7 +745,10 @@ ideas = { #Entire file
 				original_tag = MYS
 			}
 			available = {
-				has_intelligence_agency = yes
+				OR = {
+					has_intelligence_agency = yes
+					has_completed_focus = MYS_PR_1
+			}
 			}
 			traits = { 
 				spy_goat_1 
@@ -888,7 +892,7 @@ ideas = { #Entire file
 	
 		MYS_industrial_concern = {
 			
-			picture = generic_industrial_concern_1
+			picture = MYS_Northwest_Corp
 
 			allowed = {
 				original_tag = MYS
@@ -906,7 +910,7 @@ ideas = { #Entire file
 
 		MYS_electronics_concern = {
 			
-			picture = generic_electronics_concern_1
+			picture = MYS_Northwest_Corp
 
 			allowed = {
 				original_tag = MYS

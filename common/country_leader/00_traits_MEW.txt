@@ -37,7 +37,9 @@ leader_traits = {
 		random = no
 		sprite = 13 #Likely the type of advisor portrait - more research needed
 		stability_factor = -0.2
+		stability_weekly = -0.01
 		political_power_factor = -0.5
+		
 		
 		ai_will_do = {
 			factor = 1

@@ -579,7 +579,7 @@ MYS_dipper_clone  = {
 		cost = 10	
 
 		complete_effect = {		
-			add_manpower = 100 #CHANGE LATER in unit rework
+			add_manpower = 500 #CHANGE LATER in unit rework
 			add_to_variable = {
 				var = mys_dipper_reserve
 				value = 1
@@ -587,7 +587,7 @@ MYS_dipper_clone  = {
 		}
 
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 40			
+			factor = 80			
 		}
 	}
 	clone_dips_div = { 		#ID of the decision, must not contain spaces!
@@ -619,7 +619,7 @@ MYS_dipper_clone  = {
 		}
 
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 40			
+			factor = 80			
 		}
 	}
 	################################################################################
@@ -632,7 +632,7 @@ MYS_dipper_clone  = {
 		cost = 10	
 
 		complete_effect = {		
-			add_manpower = 100 #CHANGE LATER in unit rework
+			add_manpower = 500 #CHANGE LATER in unit rework
 			add_to_variable = {
 				var = mys_wendy_reserve
 				value = 1
@@ -640,7 +640,7 @@ MYS_dipper_clone  = {
 		}
 
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 40			
+			factor = 80			
 		}
 	}
 	clone_wens_div = { 		#ID of the decision, must not contain spaces!
@@ -685,7 +685,7 @@ MYS_dipper_clone  = {
 		cost = 10	
 
 		complete_effect = {		
-			add_manpower = 100 #CHANGE LATER in unit rework
+			add_manpower = 500 #CHANGE LATER in unit rework
 			add_to_variable = {
 				var = mys_soos_reserve
 				value = 1
@@ -693,7 +693,7 @@ MYS_dipper_clone  = {
 		}
 
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 40			
+			factor = 80			
 		}
 	}
 	clone_soos_div = { 		#ID of the decision, must not contain spaces!

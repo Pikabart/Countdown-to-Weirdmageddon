@@ -23,9 +23,9 @@ leader_traits = {
 		random = no
 		# Better attack, defence, and morale, less PP and more Consumer % 
 		sprite = 13
-		army_attack_factor = 0.5
-		army_defence_factor = 0.5
-		army_morale_Factor = 0.5
+		army_attack_factor = 0.1
+		army_defence_factor = 0.1
+		army_morale_Factor = 0.1
 		political_power_factor = -0.2 #less PP, bad
 		consumer_goods_factor = 0.1 #More Consumer Facts loss, bad
 		
@@ -74,7 +74,7 @@ leader_traits = {
 		weekly_manpower = 20 # Drag the neighbors in
 		non_core_manpower = 0.02 # Hey you, buy our stuff!
 		
-		democratic_drift = 0.1
+		#democratic_drift = 0.1
 		
 		ai_will_do = {
 			factor = 1

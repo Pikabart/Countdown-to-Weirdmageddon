@@ -168,7 +168,30 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/MEW/focus_california_embassy.dds"			
 	}
 
+	SpriteType = {
+	name = "GFX_goal_focus_victory_against_ludo"
+	texturefile = "gfx/interface/goals/MEW/post_ludo_war/focus_victory_against_ludo.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_post_war_admin"
+	texturefile = "gfx/interface/goals/MEW/post_ludo_war/focus_post_war_admin.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_corn_crisis_end"
+	texturefile = "gfx/interface/goals/MEW/post_ludo_war/focus_corn_crisis_end.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_butterfly_front_fate"
+	texturefile = "gfx/interface/goals/MEW/post_ludo_war/focus_butterfly_front_fate.dds"			
+	}
 
+	SpriteType = {
+	name = "GFX_goal_focus_kingdom_united"
+	texturefile = "gfx/interface/goals/MEW/post_ludo_war/focus_kingdom_united.dds"			
+	}
 
 
 
