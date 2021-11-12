@@ -16,7 +16,7 @@ country_event = {
 	id = corn_crisis_end.1
 	title = corn_crisis_end.1.t
 	desc = corn_crisis_end.1.d
-	picture = GFX_report_event_gimme
+	picture = GFX_report_event_jushtin
 	
 	is_triggered_only = yes
 	
@@ -91,7 +91,7 @@ country_event = {
 	id = fate_of_butterfly_front_event.1
 	title = fate_of_butterfly_front_event.1.t
 	desc = fate_of_butterfly_front_event.1.d
-	picture = GFX_report_event_gimme
+	picture = GFX_report_event_mew_flag
 	
 	is_triggered_only = yes
 	
@@ -141,7 +141,7 @@ country_event = {
 	id = tsr_let_in_event_mew.1
 	title = tsr_let_in_event_mew.1.t
 	desc = tsr_let_in_event_mew.1.d
-	picture = GFX_report_event_gimme
+	picture = GFX_report_event_mew_flag
 	
 	is_triggered_only = yes
 	
@@ -173,7 +173,7 @@ country_event = {
 	id = monster_status.1
 	title = monster_status.1.t
 	desc = monster_status.1.d
-	picture = GFX_report_event_gimme
+	picture = GFX_report_event_corn_crew
 	
 	is_triggered_only = yes
 	
@@ -212,7 +212,7 @@ country_event = {
 	id = human_status.1
 	title = human_status.1.t
 	desc = human_status.1.d
-	picture = GFX_report_event_gimme
+	picture = GFX_report_event_corn_crew
 	
 	is_triggered_only = yes
 	
