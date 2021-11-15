@@ -375,6 +375,7 @@ focus_tree = {
 		
 		cost = 5
 		
+		will_lead_to_war_with = OST
 		available_if_capitulated = yes
 
 		completion_reward = {

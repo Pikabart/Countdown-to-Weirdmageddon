@@ -78,9 +78,14 @@ mina_return.1.t:0 "Mina Loveberry Returns to Mewni!"
 mina_return.1.d:0 "Mina Loveberry, who was sent to earth as part of her mental treatment, has returned to our dimension in order to fight in the war! She has been sighted in the reigons with the most action, doing whatever she can to make herself useful. She is even wearing her old formal millitary uniform, having it finally see the light of day after about 30 years.\n\nShe apparently has no desire to take up public office again, and her doctors are saying that her going out and doing things is good for her mental health. She already has a team of professionals on standby incase she gets too rowdy."
 mina_return.1.a:0 "Well, it doesnt hurt."
 
-star_tom_start.2.t:0 "Star and Tom break up!"
-star_tom_start.2.d:0 "Star and Tom have broken up, ending their relationship! Details are scarce, but it is beleived that the break up was not clean. Star was trying to explain what had happened, but she was incomprehensible due to the angry crying she was doing at the same time.\n\nWith the break up, the future seems less certain. But with Star being single, it gives us the oppourtunity for more political leverage."
-star_tom_start.2.a:0 "Part of growing up, I guess..."
+star_tom_start_decision.2.t:0 "Mother's Advice"
+star_tom_start_decision.2.d:0 ""Hey, Mom? Can I talk to you for a bit?"\n\nQueen Moon Butterfly looked up from her paperwork. "Sure, sweetie. What do you want to talk about?"\n\n"Uhm... I actually wanted some advice. About relationships."\n\nMoon raised an eyebrow. "Has something about Tom been bothering you?"\n\n"Oh, no no! Tom's been great! I just... I wanna talk about hypotheticals."\n\n"Hm. Well, it's always good to have a backup plan. Go on, what's your question?"\n\n"So lets say that I... lost interest in Tom. I don't want to be with him anymore. Hypothetically. Now, personally I would want to break up with him. But since Tom is part of the Lucitor family, me breaking up with him would worsen relations with them. So what should I do?"\n\nQueen Moon smiled at the fact that Star was thinking about political affairs at this level, but then her smile turned to a frown. "You arent thinking of breaking up with Tom, are you?"\n\n"What? No, of course not!" She laughed it off. "This is just a theory, a relationship theory!" Then her face turned serious. "So what's your advice?""
+star_tom_start_decision.2.a:0 ""If it's what your heart desires, then break up with him.""
+star_tom_start_decision.2.b:0 ""The matters of the state take precedence. Stay with him.""
+
+star_tom_start.3.t:0 "Star and Tom break up!"
+star_tom_start.3.d:0 "Star and Tom have broken up, ending their relationship! Details are scarce, but it is beleived that the break up was not clean. Star was trying to explain what had happened, but she was incomprehensible due to the angry crying she was doing at the same time.\n\nWith the break up, the future seems less certain. But with Star being single, it gives us the oppourtunity for more political leverage."
+star_tom_start.3.a:0 "Part of growing up, I guess..."
 
 ost_mew_surrender.2.t:0 "Triumph Over the Ostritches!"
 ost_mew_surrender.2.d:0 "We have won! The Imperial family is in our custody, likley to be exiled off the dimesnion. Now is the question of who will govern the new state."

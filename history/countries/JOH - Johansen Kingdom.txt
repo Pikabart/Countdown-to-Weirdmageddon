@@ -71,6 +71,11 @@ set_popularities = {
 	fascism = 5
 }
 
+add_ideas = {
+MEW_pre_industrial
+
+}
+
 create_country_leader = {
 	name = "King River Butterfly"
 	desc = ""

@@ -138,7 +138,7 @@ news_event = { #The Collapse of Mewni
 	id = mewni_kingdom_collapse_news_event.1
 	title = mewni_kingdom_collapse_news_event.1.t
 	desc = {
-		text = mewni_kingdom_collapse_news_event.1.d
+			text = mewni_kingdom_collapse_news_event.1.d
 	}
 	
 	picture = GFX_news_event_kingdom_collapse
@@ -153,9 +153,14 @@ news_event = { #The Collapse of Mewni
 		name = mewni_kingdom_collapse_news_event.1.a
 		trigger = {	TAG = MEW} #mewni
 		remove_from_faction = PIG
-		remove_from_faction = LUC
 		remove_from_faction = PNY
 		remove_from_faction = SPI
+		if = {
+			limit = {
+				MEW = { has_idea = MEW_vacant_heir }
+			}
+			remove_from_faction = LUC
+		}
 		custom_effect_tooltip = "new_focus_tree_tooltip"
 
 		

@@ -39,6 +39,10 @@ set_technology = {
 	
 }
 
+add_ideas = {
+MEW_pre_industrial
+}
+
 #oob = "GTF_2012"
 set_research_slots = 3
 set_convoys = 50

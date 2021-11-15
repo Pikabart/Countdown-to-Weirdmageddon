@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = star_tom_start
+add_namespace = star_tom_start_decision
 add_namespace = mina_return
 add_namespace = ost_mew_surrender
 add_namespace = ludo_surrender
@@ -61,10 +62,10 @@ country_event = {
 }
 
 country_event = {
-	id = star_tom_start.2
-	title = star_tom_start.2.t
-	desc = star_tom_start.2.d
-	picture = GFX_report_event_star_breakup
+	id = star_tom_start_decision.2
+	title = star_tom_start_decision.2.t
+	desc = star_tom_start_decision.2.d
+	picture = GFX_report_event_open_mouth_moon
 		
 	trigger = {
 		original_tag = MEW
@@ -73,10 +74,37 @@ country_event = {
 	
 	fire_only_once = yes
 	
+	option = {
+		name = star_tom_start_decision.2.a
+		ai_chance = { factor = 90 }
+		hidden_effect = {
+			MEW = { country_event = { id = star_tom_start.3 days = 1 } }
+		}
+	}
+	
+	option = {
+		name = star_tom_start_decision.2.b
+		ai_chance = { factor = 90 }
+
+	}
+	
+	
+}
+
+country_event = {
+	id = star_tom_start.3
+	title = star_tom_start.3.t
+	desc = star_tom_start.3.d
+	picture = GFX_report_event_star_breakup
+		
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	
 
 		
 	option = {
-		name = star_tom_start.2.a
+		name = star_tom_start.3.a
 		ai_chance = { factor = 90 }
 		swap_ideas = {
 		remove_idea = MEW_star_x_tom_unofficial
