@@ -48,9 +48,7 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
-			dismantle_faction = yes
-			create_faction = "Butterfly Front"
-			Add_to_faction = JOH
+			set_faction_name = "Butterfly Front"
 			hidden_effect = {
 				news_event = { id = mewni_butterfly_front_news_event.1 days = 1 }
 				JOH = { news_event = { id = mewni_butterfly_front_news_event.1 days = 1 } }

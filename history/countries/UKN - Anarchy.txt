@@ -55,6 +55,10 @@ complete_national_focus = industrial_effort
 complete_national_focus = construction_effort
 complete_national_focus = production_effort
 
+add_ideas = {
+MEW_pre_industrial
+}
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1990.1.1"

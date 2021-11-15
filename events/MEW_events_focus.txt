@@ -1072,8 +1072,13 @@ country_event = {
 			hidden_effect = {
 				news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }
 				JOH = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
-				LUC = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } 
-					set_cosmetic_tag = LUC_IND
+				if = {
+					limit = {
+						MEW = { has_idea = MEW_vacant_heir }
+					}
+					LUC = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } 
+						set_cosmetic_tag = LUC_IND
+					}
 				}
 				PIG = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }
 					set_cosmetic_tag = PIG_IND

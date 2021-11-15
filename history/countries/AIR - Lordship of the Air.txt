@@ -78,6 +78,10 @@ create_country_leader = {
 	}
 }
 
+add_ideas = {
+MEW_pre_industrial
+}
+
 #create_field_marshal = {#
 #	name = ""
 #	desc = ""

@@ -12,6 +12,10 @@ set_politics = {
 	elections_allowed = no
 }
 
+add_ideas = {
+MEW_pre_industrial
+}
+
 set_popularities = {
 	neutrality = 80
 	communism = 10

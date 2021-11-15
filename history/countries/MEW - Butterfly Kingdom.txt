@@ -54,6 +54,7 @@ create_country_leader = {
 }
 
 add_ideas = {
+	MEW_pre_industrial
 	mina_advisor
 }
 
@@ -114,7 +115,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Sir Stabby"
-	picture = "hoi4_portrait_empty.dds"
+	picture = "hoi4_portrait_stabby.dds"
 	traits = { career_officer }
 	skill = 4
 	id = 7
@@ -127,7 +128,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Sir Dashing"
-	picture = "hoi4_portrait_empty.dds"
+	picture = "hoi4_portrait_dashing.dds"
 	traits = { career_officer }
 	skill = 5
 	id = 8

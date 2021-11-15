@@ -13,7 +13,7 @@ mewni_corn_crisis_news_event.2.a:0 "Criminals!"
 mewni_corn_crisis_news_event.2.c:0 "Interesting"
 
 mewni_kingdom_collapse_news_event.1.t:0 "The Kingdom Of Mewni Collapses!"
-mewni_kingdom_collapse_news_event.1.d:0 "With the Butterfly Kingdom being split between King Ludo and Queen Moon, most of the vassal kingdoms have reacted harshly.\n\nThe Pigeon Kingdom, Ponyhead Kingdom, and the Lucitor Kingdom have declared absolute neutrality. The Spiderbite Kingdom has also declared neutrality, along with publishing a list of greivances citing why they did so. These include the numerous harsh worker mandates, Mewni's dependance on foreign aid, and the extremly suspicious dissapearance of the Queen mere days before the coup.\n\nHowever, in response to this, the Johansen Kingdom and the Jaggy Kingdom have declared that they will still fully support the queen."
+mewni_kingdom_collapse_news_event.1.d:0 "With the Butterfly Kingdom being split between King Ludo and Queen Moon, most of the vassal kingdoms have reacted harshly.\n\nThe Pigeon and Ponyhead Kingdom have declared absolute neutrality. The Spiderbite Kingdom has also declared neutrality, along with publishing a list of greivances citing why they did so. These include the numerous harsh worker mandates, Mewni's dependance on foreign aid, and the extremly suspicious dissapearance of the Queen mere days before the coup.\n\nHowever, in response to this, the Johansen Kingdom and the Jaggy Kingdom have declared that they will still fully support the queen."
 mewni_kingdom_collapse_news_event.1.a:0 "Corn help us..."
 mewni_kingdom_collapse_news_event.1.b:0 "Good"
 mewni_kingdom_collapse_news_event.1.c:0 "Interesting"
@@ -38,7 +38,7 @@ mewni_ludo_coup_news_event.1.c:0 "How could this happen so quickly!?"
 
 jaggy_collapse_news_event.1.t:0 "Uprising  In The Jaggy Kingdom!"
 jaggy_collapse_news_event.1.d:0 "The nothern most Mewman vassal kingdom, the Jaggy Kingdom, has collapsed! With supply lines unable to reach the infertile mountains of the Jaggy Kingdom, starvation has engulfed the sparse populace and raiding of government food stocks has become common place.\n\nInformation from the kingdom in few and far between, but it is currently beleived that they are embroiled in a major uprising. The rebels tout a new and foreign ideology called "Communisim," and claim that their system of government will be able to feed everyone in the malnourished kingdom."
-jaggy_collapse_news_event.1.a:0 "Only one ally remains..."
+jaggy_collapse_news_event.1.a:0 "One ally down..."
 jaggy_collapse_news_event.1.c:0 "Interesting"
 
 mewni_ludo_war_start_news_event.1.t:0 "The Battle For Mewni"

@@ -8,6 +8,21 @@ ideas = {
 	######################################################
 	country = {
 
+		MEW_pre_industrial = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				research_speed_factor = -0.80
+				production_speed_buildings_factor = -0.5
+			}
+		}
+
 		MEW_300_years_of_peace = {
 			picture = MEW_peace
 			
@@ -843,6 +858,8 @@ ideas = {
 				original_tag = MEW
 			}
 			
+			picture = advisor_stabby
+			
 			traits = { army_chief_drill_2 }			
 			ai_will_do = {
 				factor = 1
@@ -855,6 +872,8 @@ ideas = {
 			}
 			available = {
 			}
+			
+			picture = advisor_dashing
 
 					
 			traits = { army_chief_maneuver_2 }
