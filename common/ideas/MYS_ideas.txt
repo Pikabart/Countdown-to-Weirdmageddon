@@ -663,7 +663,7 @@ ideas = { #Entire file
 				}
 			}
 			ai_will_do = {
-				factor = 0
+				factor = 0 
 			}
 		}
 		
@@ -672,10 +672,12 @@ ideas = { #Entire file
 		#	picture = wendy_2
 		#	allowed = {
 		#		original_tag = MYS
-		#		#has_completed_focus = MYS_new_pranks
 		#	}
 		#	available = {
-		#		has_completed_focus = MYS_new_pranks
+		#		#has_completed_focus = MYS_wendy_1
+		#	}
+		#	visible = {
+		#		#has_completed_focus = MYS_wendy_1
 		#	}
 		#	traits = { 
 		#		rebel_girl_1 
