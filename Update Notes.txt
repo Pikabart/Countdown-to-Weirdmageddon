@@ -1,3 +1,18 @@
+# Update 11/18
+
+events
+
+gfx/interface
+gfx/news_events
+gfx/leaders/CAL
+
+history/states -- roughly 53 states worth
+
+interface
+
+locs
+
+###################################
 # Update 11/17
 
 common/idea/

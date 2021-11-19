@@ -6,13 +6,15 @@ state={
 		owner = ORE
 		add_core_of = ORE
 		buildings = {
-			arms_factory = 0
-			industrial_complex = 0
+			arms_factory = 1
+			industrial_complex = 4
 			
 			infrastructure = 8
-			air_base = 0
+			air_base = 4
 			anti_air_building = 0
-			radar_station = 0	
+			radar_station = 0
+
+			8228 = {naval_base = 6}
 		}
 		
 		victory_points = { 8143 50 }

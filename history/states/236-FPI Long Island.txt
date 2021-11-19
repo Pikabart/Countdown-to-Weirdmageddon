@@ -6,13 +6,15 @@ state={
 		owner = EPI
 		add_core_of = EPI
 		buildings = {
-			arms_factory = 0
-			industrial_complex = 0
+			arms_factory = 2
+			industrial_complex = 2
 			
 			infrastructure = 6
 			air_base = 0
 			anti_air_building = 0
-			radar_station = 0	
+			radar_station = 0
+
+			9177 = {naval_base = 6}
 		}
 		victory_points = {9177  20}
 	}
