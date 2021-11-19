@@ -17,7 +17,7 @@ set_technology = {
 	convoy_sailing = 1
 
 	#electronics
-	electronic_mechanical_engineering = 1
+	electronic_mechanical_engineering = 1 
 	radio = 1
 	radio_detection = 1
 	mechanical_computing = 1
@@ -51,10 +51,20 @@ set_popularities = {
 }
 
 create_country_leader = {
+	name = "Dual Prime Ministership"
+	desc = "POLITICS_MULTIBEAR_DESC"
+	picture = "Portrait_Dual_PM.dds"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Multi-Bear"
 	desc = "POLITICS_MULTIBEAR_DESC"
 	picture = "Portrait_Multi-bear.dds"
-	ideology = conservatism
+	ideology = moderatism
 	traits = {
 		#
 	}

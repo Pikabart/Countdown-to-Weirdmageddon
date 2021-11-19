@@ -1,0 +1,23 @@
+state={
+	id=465
+	name="STATE_465"
+	
+	history={
+		owner = CAL
+		add_core_of = CAL
+		buildings = {
+			
+			infrastructure = 6 
+		}
+
+		victory_points = { 10701 5 }  #Pied
+		
+	}
+	
+	provinces={
+		10701 
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=city 
+}

@@ -1,4 +1,4 @@
-state={
+state={ 
 	id=134
 	name="STATE_134"
 	
@@ -18,13 +18,13 @@ state={
 		victory_points = { 9694 20 } #SJ
 		victory_points = { 5246 30 } #SF
 		victory_points = { 6615 10 }  #MTV
-		victory_points = { 10701 5 }  #Pied
+		#victory_points = { 10701 5 }  #Pied
 		victory_points = { 1289 10 }  #OAK
 		
 	}
 	
 	provinces={
-		1289 3574 4181 4843 5246 5680 5752 6223 6417 6561 6615 9667 9686 9694 9707 9709 9713 9732 10701 
+		1289 3574 4181 4843 5246 5680 5752 6223 6417 6561 6615 9667 9686 9694 9707 9709 9713 9732
 	}
 	manpower=6000000
 	buildings_max_level_factor=1.000
