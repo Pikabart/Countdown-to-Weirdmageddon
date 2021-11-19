@@ -1,3 +1,19 @@
+# Update 11/17
+
+common/idea/
+
+events
+
+history/countries
+history/states
+
+gfx/interface
+
+locs
+
+maps
+
+###################################
 # Update 10/30
 
 common/country_leader

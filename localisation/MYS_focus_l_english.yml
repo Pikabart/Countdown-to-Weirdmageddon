@@ -185,7 +185,7 @@
  MYS_GF_shuffle:0 "Stan's Gravity Falls Shuffle has been performed!"
  MYS_PR_choice_effect:0 "§CWill be made avaible based on how you handle the Buisness Council and the Town Hall Forum§!"
  
- MYS_PR_1:0 "Stan and Gravity Falls"
+ MYS_PR_1:0 "Stan And Gravity Falls"
  MYS_PR_1_desc:0 "Stanford Pines had lived in Gravity Falls for over 30 years. A visiting researcher turn permanent fixture of the town, one would presume Stan had made many contacts within the town. His Mystery Shack is a staple of the tourism in Roadkill County and many of its residents had grown up with the Shack as a fixture of their lives, from their own time spent there to the role it played in the local town economy."
  MYS_PR_1_effect:0 "Surely Stan would have become a staple of the town itself..."
  
@@ -201,7 +201,7 @@
  MYS_PR_4_desc:0 "For all the fault the town has, I know better then that their my only hope for the Shack and myself to stay afloat and survive. Having, as Mabel called it ‘Good Public Relationship’, is key to winning the town over. Besides, I'm the Man of Mystery! What isn’t there to love about the Mystery Shack and all the spooky, hazardous things inside!\n- §RStan Pines§! -"
  MYS_PR_4_effect:0 "And Soos, fix those hazardous things inside the Shack. I ain’t in the hankering for a lawsuit."
 
- MYS_PR_6:0 "Free Souvenirs***"
+ MYS_PR_6:0 "Free Souvenirs***" 
  MYS_PR_6_desc:0 "Free Souvineers! Get your Free Souvineers!*** "
  MYS_PR_6_effect:0 "§R***Free "sourvineer" is at the management's disgression. Requires a $200 gift shop purchase and a purchase of a "Full Experience" Shack Tour on the same visit. Not libable for any physical or mental harm while on Shack premice and/or caused by said souvineer for the entirity of existance. Technically liable under EU law, but one must trick Man of Mystery to going to Europe for any litgation.§!"
 
@@ -248,7 +248,7 @@
  MYS_PR_14_desc:0 "The local hills beyond the shack use to be part of my property. But due to some completely misunderstood incident involving the mayor's galapagos turtle, the town confincastwed my land. Naturally, everyone would assume I take it back."
  MYS_PR_14_effect:0 "But honestley, I could use something with some water front property..."
 
- MYS_PR_15:0 "And this Con-Man You can't Change"
+ MYS_PR_15:0 "And This Con-Man You Can't Change"
  MYS_PR_15_desc:0 "Someone once told me I can't change. Honestly, maybe she was right. The fact I am here and not there proves that. But I won't go down. I survived up to now and I'll keep on survivinging. I have a mission and I won't stop.\n\nThis Con-Man they can't Change!"
  MYS_PR_15_effect:0 "If I leave here tomorrow\nWould you still remember me?\nFor I must be traveling on now\n'Cause there's too many places I've got to see\n\n" 
  
