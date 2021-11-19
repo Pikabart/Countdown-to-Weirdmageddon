@@ -301,6 +301,7 @@
 		cost = 1
 		relative_position_id = reunification_process 
 		prerequisite = { focus = reunification_process }
+		bypass = { LUC = { is_in_faction_with = MEW } }
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -321,6 +322,7 @@
 		relative_position_id = contact_lucitor 
 		prerequisite = { focus = contact_lucitor }
 		mutually_exclusive = { focus = contact_lucitor_comp }
+		bypass = { LUC = { is_in_faction_with = MEW } }
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -346,6 +348,7 @@
 		relative_position_id = contact_lucitor 
 		prerequisite = { focus = contact_lucitor }
 		mutually_exclusive = { focus = contact_lucitor_strong }
+		bypass = { LUC = { is_in_faction_with = MEW } }
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -376,6 +379,7 @@
 		focus = contact_lucitor_strong 
 		focus = contact_lucitor_comp 
 		}
+		bypass = { LUC = { is_in_faction_with = MEW } }
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		

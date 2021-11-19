@@ -139,6 +139,11 @@ news_event = { #The Collapse of Mewni
 	title = mewni_kingdom_collapse_news_event.1.t
 	desc = {
 			text = mewni_kingdom_collapse_news_event.1.d
+			trigger = { MEW = { has_idea = MEW_vacant_heir } } 
+	}
+	desc = {
+			text = mewni_kingdom_collapse_news_event.2.d
+			trigger = { MEW = { has_idea = MEW_star_x_tom_unofficial } } 
 	}
 	
 	picture = GFX_news_event_kingdom_collapse
