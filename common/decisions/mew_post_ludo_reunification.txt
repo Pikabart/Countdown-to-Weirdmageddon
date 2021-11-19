@@ -25,13 +25,11 @@ mew_post_ludo_reunification = {
 			
 		}
 
-		complete_effect = {
-		add_ideas = mew_lud_pol_power
-		
+		modifier = {
+			political_power_gain = -0.2
 		}
 
 		remove_effect = {	
-			remove_ideas = mew_lud_pol_power
 			add_to_faction = LUD
 			
 		}
@@ -62,13 +60,11 @@ mew_post_ludo_reunification = {
 			
 		}
 
-		complete_effect = {
-		add_ideas = mew_pig_pol_power
-		
+		modifier = {
+			political_power_gain = -0.2
 		}
 
 		remove_effect = {	
-			remove_ideas = mew_pig_pol_power
 			add_to_faction = PIG
 			
 		}
@@ -99,13 +95,11 @@ mew_post_ludo_reunification = {
 			
 		}
 
-		complete_effect = {
-		add_ideas = mew_pny_pol_power
-		
+		modifier = {
+			political_power_gain = -0.2
 		}
 
 		remove_effect = {	
-			remove_ideas = mew_pny_pol_power
 			add_to_faction = PNY
 			
 		}
@@ -136,13 +130,11 @@ mew_post_ludo_reunification = {
 			
 		}
 
-		complete_effect = {
-		add_ideas = mew_spi_pol_power
-		
+		modifier = {
+			political_power_gain = -0.2
 		}
 
 		remove_effect = {	
-			remove_ideas = mew_spi_pol_power
 			add_to_faction = SPI
 			
 		}
@@ -173,13 +165,11 @@ mew_post_ludo_reunification = {
 			
 		}
 
-		complete_effect = {
-		add_ideas = mew_jag_pol_power
-		
+		modifier = {
+			political_power_gain = -0.2
 		}
 
 		remove_effect = {	
-			remove_ideas = mew_jag_pol_power
 			add_to_faction = JAG
 			
 		}
