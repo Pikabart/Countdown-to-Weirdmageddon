@@ -25,4 +25,9 @@ spriteTypes = {
 		texturefile = "gfx/event_news_pictures/earth/news_event_good_stan.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_news_trembley_1"
+		texturefile = "gfx/event_news_pictures/earth/news_event_Trembley.dds"
+	}
+	
 }

@@ -512,26 +512,8 @@ news_event = { #
 news_event = { #Trembley's return, for all earth
 	id = west_election_news.1
 	title = west_election_news.1.t
-	desc = {
-		text = west_election_news.1.d
-		trigger = {NOT={tag=ORE}}
-		trigger = {NOT={tag=CAL}}
-		trigger = {NOT={tag=WAS}}
-	}
-	desc = {
-		text = west_election_news.1.d_a
-		trigger = {OR={tag=ORE}}
-	}
-	desc = {
-		text = west_election_news.1.d_b
-		trigger = {OR={tag=CAL}}
-	}
-	desc = {
-		text = west_election_news.1.d_c
-		trigger = {OR={tag=WAS}}
-	}
-	
-	picture = GFX_news_peace_arc_kerfuffle
+	desc = west_election_news.1.d
+	picture = GFX_news_trembley_1
 	
 	major = no
 	is_triggered_only = yes
@@ -581,26 +563,9 @@ news_event = { #Trembley's return, for all earth
 news_event = { #Trembley declares rival government
 	id = west_election_news.2
 	title = west_election_news.2.t
-	desc = {
-		text = west_election_news.2.d
-		trigger = {NOT={tag=ORE}}
-		trigger = {NOT={tag=CAL}}
-		trigger = {NOT={tag=WAS}}
-	}
-	desc = {
-		text = west_election_news.2.d_a
-		trigger = {OR={tag=ORE}}
-	}
-	desc = {
-		text = west_election_news.2.d_b
-		trigger = {OR={tag=CAL}}
-	}
-	desc = {
-		text = west_election_news.2.d_c
-		trigger = {OR={tag=WAS}}
-	}
+	desc = west_election_news.2.d
 	
-	picture = GFX_news_peace_arc_kerfuffle
+	picture = GFX_news_trembley_1
 	
 	major = no
 	is_triggered_only = yes

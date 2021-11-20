@@ -77,6 +77,8 @@ ponyhead_resolved_desc:0 "The Issue has been resolved, things are a little more 
 
 contact_spiderbite:0 "Contact The Spiderbite Kingdom"
 contact_spiderbite_desc:0 "It's time to contact the Spiderbite Kingdom"
+spi_loyal:0 "The Spiderbites Remained Neutral"
+spi_unloyal:0 "The Spiderbites Backstabbed Us"
 
 contact_spiderbite_strong:0 "Stay Strong"
 contact_spiderbite_strong_desc:0 "We musn't bend the knee and bribe them! We will use political manipulation to being them back into the fold."
@@ -117,6 +119,8 @@ kingdom_united_tooltip:0 "§CHurrah! Hurrah! Hurrah!§!"
 
 modern_engines:0 "Modern Engines"
 modern_engines_desc:0 ""
+westernization:0 "Has Decided To Modernize"
+mewni_economy_reform_post_ludo:0 "Has Decided To Reform The Economy"
 
 centralize_government:0 "Centralize The Government"
 centralize_government_desc:0 "We will trim the excess bureaucracy of our medieval style government and adopt some foreign systems."

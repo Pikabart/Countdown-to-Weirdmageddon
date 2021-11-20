@@ -6,13 +6,15 @@ state={
 		owner = SOC
 		add_core_of = SOC
 		buildings = {
-			arms_factory = 0
-			industrial_complex = 0
+			arms_factory = 1
+			industrial_complex = 1
 			
 			infrastructure = 6
 			air_base = 0
 			anti_air_building = 0
-			radar_station = 0	
+			radar_station = 0
+			
+			6843 = {naval_base = 1}
 		}
 		
 		victory_points = {6843 10}

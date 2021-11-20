@@ -7,8 +7,8 @@ state={
 		owner = EPI
 		add_core_of = EPI
 		buildings = {
-			arms_factory = 0
-			industrial_complex = 0
+			arms_factory = 2
+			industrial_complex = 2
 			infrastructure = 6
 			air_base = 0
 			anti_air_building = 0
@@ -23,5 +23,5 @@ state={
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=megalopolis
 }
