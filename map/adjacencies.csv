@@ -324,7 +324,71 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6800;2784;impassable;-1;-1;-1;-1;-1;;Musty
 4813;2784;impassable;-1;-1;-1;-1;-1;;Musty
 
+# Underworld Ceiling
+9057;8939;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;4943;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;6055;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;5038;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;4772;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;8956;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;5399;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;902;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;9030;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;9174;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;1354;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;889;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;3140;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;154;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;2292;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;9064;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;944;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;3334;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+9057;560;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;560;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;3653;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;218;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;1741;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;2583;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;9081;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;6469;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;1138;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;4177;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;3209;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;3414;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;8952;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;469;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;2862;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;1095;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;8906;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;3120;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;8901;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;1529;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;8939;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
 
+# Lower Ridge
+141;5860;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+141;222;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+141;8930;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+141;1138;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+141;6469;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+141;4380;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+141;640;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+141;9024;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+141;2695;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+1703;2695;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+1703;543;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+1703;9103;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+1703;3641;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+1703;9196;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+1703;3488;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+1703;974;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+1703;6767;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+1703;3057;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+1703;3846;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+1703;6390;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+1703;8933;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+1703;2339;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+1703;5860;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
 
 
 # Port Emily Adjacencies

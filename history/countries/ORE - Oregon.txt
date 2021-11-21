@@ -36,6 +36,13 @@ set_technology = {
 	
 }
 
+add_ideas = {
+	idea_cascadia_standoff
+	ORE_own_wings
+	ORE_northwest
+	ORE_true_ninth
+}
+
 set_convoys = 200
 
 complete_national_focus = army_effort

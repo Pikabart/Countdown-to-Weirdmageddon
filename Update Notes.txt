@@ -1,3 +1,26 @@
+# Update 11/20
+
+common/ideas
+
+gfx/interface/ideas/cal,ore,eus
+
+history/countries
+history/states
+
+interface
+
+locs
+
+maps/strat region
+maps/supply
+maps/adjacencies
+maps/airports,buildings,rocketsites
+maps/heightmaps
+maps/province
+maps/terrain
+
+###################################
+
 # Update 11/18
 
 events
