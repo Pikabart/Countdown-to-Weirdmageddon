@@ -130,22 +130,21 @@
  FE_DIFFICULTY:0 "FPI Threat Level Assessment:"
  
  FE_DIFFICULTY_VERY_EASY:0 "Low"
- FE_DIFFICULTY_VERY_EASY_TOOLTIP:0 "§L"You think I'm afraid of some triangel, a candy named lizard, a salamander that sounds like me, or some pilgrim witch? Of course I'll win! I'm the freaking President of the United Freaking States of America! Oorah"\n\n- US President Adrian Curtis, during a debriefing by the FPI§!"
+ FE_DIFFICULTY_VERY_EASY_TOOLTIP:0 "§C"You think I'm afraid of some triangel, a candy named lizard, a salamander that sounds like me, or some pilgrim witch? Of course I'll win! I'm the freaking President of the United Freaking States of America! Oorah"\n\n- US President Adrian Curtis, during a debriefing by the FPI§!"
  #"§L"Marco, you have my full confidence... that you can beat up that bratty ten year old kid. Just not too much thought. His father is selling us most of our equipment."\n\n- California Lt. Governor Hector Diaz-Guzman, cheering on his grandnephew in a Karate Tournament.§!"
  
  FE_DIFFICULTY_EASY:1 "Elevated"
  FE_DIFFICULTY_EASY_TOOLTIP:0 "§G"Marco, you battled monsters from other dimensions, lead a revolution while wearing a stylish pink dress, spot me $650 from the profits of said revolution, and got the crown princess of Mewni to fall in love with you. I can't be anymore proud of you."\n\n- California Lt. Governor Hector Diaz-Guzman, congratulating his grandnephew after the Mewni Civil War\n\n"Uncle Hector, me and Star are JUST FRIENDS!"\n\n- Marco Diaz, in denial§!"
  
  FE_DIFFICULTY_NORMAL:1 "Guarded"
- FE_DIFFICULTY_NORMAL_TOOLTIP:0 "§C"Anne, you can't fight King Andrias alone. Strong as you are, you will need help! From your friends, your family, from those... from those who don't want to see you make the same mistake they made... that I made long ago."\n\n- FPI Director Beth Amarin, on the eve of King Andrias' invasion of Earth§!\n\n§Y"Look kid... Sasha, right? Leading a Resistance, let alone a poorly planned rescue operation isn't heoric. It's a very painful way of getting yourself killed! So you, your one-eye toad, and these frogs here best stick with me. We'll make that overgrown salamander and his pet creature pay... and we'll get your friend back. You have my word on that."\n\n- FPI Deputy Director Elin Shroud, after driving back back a robot incurssion into Wartwood§!" 
+ FE_DIFFICULTY_NORMAL_TOOLTIP:0 "§W"Anne, you can't fight King Andrias alone. Strong as you are, you will need help! From your friends, your family, from those... from those who don't want to see you make the same mistake they made... that I made long ago."\n\n- FPI Director Beth Amarin, on the eve of King Andrias' invasion of Earth§!\n\n§Y"Look kid... Sasha, right? Leading a Resistance, let alone a poorly planned rescue operation isn't heoric. It's a very painful way of getting yourself killed! So you, your one-eye toad, and these frogs here best stick with me. We'll make that overgrown salamander and his pet creature pay... and we'll get your friend back. You have my word on that."\n\n- FPI Deputy Director Elin Shroud, after driving back back a robot incurssion into Wartwood§!" 
  #"§C"I'm not like the crown princess of Mewni. I'm a Marine! I can handle mewman magic. Oorah!"\n\n- US Marine Major Emily Pines, an hour before setting the Santa Cruz Mountains on fire.§!"
  
  FE_DIFFICULTY_HARD:1 "High"
  FE_DIFFICULTY_HARD_TOOLTIP:1 "§O"Don't be mistaken by how Luz and her parliament of owls here had fought back Emperor Belos and his Covens. If he had truely stuck in force, not even the full might of the American Magic Corps could win. How do I know the strength of Belos's Coven? Who do you think was the one that built it? Who do you think was its first Coven Leader?!"\n\n- US Secretary of State Andrew Chiu, debriefing a squad of US Witchfinders after retreating to the Owl House§!"
  
  FE_DIFFICULTY_VERY_HARD:0 "Severe"
- FE_DIFFICULTY_VERY_HARD_TOOLTIP:1 "§R"TRUST NO ONE!"\n\n"That was the lesson Bill taught me, all those years ago. I am an old man now. I have made grave mistakes and now so many others are paying for it. All I can do is watch. But you two, young Mason and Mabel? You have each other, and you have friends and allies around you, awaiting your call to enter the fray!\n\nSo don't believe the lie. Trust one another and fight along side one together. That is how you will defeat him!"\n\n- Gravity Falls Mayor Eustace "Huckabone" Befufftlefumpter, his final words on the eve of Weirdmageddon§!"
- #"§R"The Author of the Journals, kid? As far as I remember of him, he cared of only one thing, lived on only one principal, one fact of life...\n\n"TRUST NO ONE!""\n\n- Stan Pines, on the eve of Weirdmageddon§!"
+ FE_DIFFICULTY_VERY_HARD_TOOLTIP:1 "§R"The Author of the Journals, kid? As far as I remember of him, he cared of only one thing, lived on only one principal, one fact of life...\n\n"TRUST NO ONE!""\n\n- Stan Pines, on the eve of Weirdmageddon§!"
  ######################################################################################################
  FE_DIFFICULTY_UNKNOWN:0 "Secret Difficulty"
  FE_DIFFICULTY_MODIFIER_PLAYER_TOOLTIP:0 "\n\nPlayer:\n$PLAYERMOD$"
