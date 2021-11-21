@@ -249,10 +249,13 @@ country_event = {
 			SPI = { transfer_state = 351 }
 			SPI = { transfer_state = 352 }
 			MEW = { news_event = { id = ludo_surrender_news_event.1 days = 1 }}
+			MEW = { country_event = { id = MHC_return.1 days = 3 }}
+			MEW = { country_event = { id = ludo_surrender.4 days = 7 }} #Is in MEW_events_post_ludo_civil_war.yxt
 	
 	
 	}
 }
+
 
 country_event = {
 	id = ludo_surrender.2

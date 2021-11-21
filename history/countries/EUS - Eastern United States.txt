@@ -39,6 +39,13 @@ set_technology = {
 	
 }
 
+add_ideas = {
+	EUS_anti_military
+	EUS_center
+	EUS_NDR
+	EUS_SDI
+}
+
 country_event = { id = EUS.1 hours = 2 } #Intro Event
 news_event = { id = launcher_news.1 days = 40 } #Launch launcher for Kerfuffle
 
