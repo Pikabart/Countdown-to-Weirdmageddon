@@ -1,0 +1,39 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_idea_cascadia_standoff"
+		texturefile = "gfx/interface/ideas/ore/idea_cascadia_standoff.dds"			
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_ORE_own_wings"
+		texturefile = "gfx/interface/ideas/ore/idea_fly_own_wings.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_ORE_true_ninth"
+		texturefile = "gfx/interface/ideas/ore/idea_the_true_ninth.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_ORE_northwest"
+		texturefile = "gfx/interface/ideas/ore/idea_Northwest_Ore.dds"			
+	}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}   #END OF FILE
