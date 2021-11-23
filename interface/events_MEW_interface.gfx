@@ -183,6 +183,16 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MEW/report_event_thumbnail.dds"
 	}
 	
+	spriteType = { # Concerned Toffee
+		name = "GFX_report_event_toffee_concerned"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_toffee_concerned.dds"
+	}
+	
+	spriteType = { # Chained eclipsa
+		name = "GFX_report_event_eclipsa_chained"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_eclipsa_chained.dds"
+	}
+	
 	
    #############################################################
    #  Decisions
