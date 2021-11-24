@@ -402,7 +402,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			remove_ideas = mina_advisor
+			remove_ideas = advisor_mina
 		
 		}
 	}
