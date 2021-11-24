@@ -39,102 +39,23 @@ add_to_faction = PNY
 add_to_faction = SPI
 add_to_faction = JAG
 
-create_country_leader = {
-	name = "Queen Moon Butterfly"
-	desc = "POLITICS_QUEEN_MOON_DESC"
-	picture = "hoi4_portrait_moon.dds"
-	ideology = oligarchism
-}
-
-create_country_leader = {
-	name = "Council Marvin"
-	desc = "placeholder"
-	picture = ""
-	ideology = conservatism
-}
+recruit_character = MEW_moon_butterfly
+recruit_character = MEW_council_marvin
+recruit_character = MEW_workers_council
+recruit_character = MEW_manfred
+recruit_character = MEW_mina_loveberry
+recruit_character = MEW_river_butterfly
+recruit_character = MEW_lady_whosits
+recruit_character = MEW_sir_stabby
+recruit_character = MEW_sir_dashing
+recruit_character = MEW_adolf
+recruit_character = MEW_poe
+recruit_character = MEW_ivan
+recruit_character = MEW_petr_ulyanov
+recruit_character = MEW_dmitry_ulyanov
+recruit_character = MEW_moon_butterfly_field_marshall
 
 add_ideas = {
 	MEW_pre_industrial
-	mina_advisor
-}
-
-create_country_leader = {
-	name = "Worker's Council"
-	desc = "placeholder"
-	picture = ""
-	ideology = anarchist_communism
-}
-
-create_country_leader = {
-	name = "Manfred"
-	desc = "placeholder"
-	picture = ""
-	ideology = fascism_ideology
-}
-
-create_field_marshal = {
-	name = "King River Butterfly"
-	picture = "hoi4_portrait_river_butterfly_general.dds"
-	traits = {  trickster politically_connected trait_reckless }
-	skill = 5
-	id = 5
-
-	attack_skill = 5
-	defense_skill = 4
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-
-create_corps_commander = {
-	name = "Lady Whosits"
-	picture = "hoi4_portrait_lady_whosits.dds"
-	traits = { career_officer inflexible_strategist }
-	id = 6
-	skill = 5
-
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Mina Loveberry"
-	picture = "hoi4_portrait_mina.dds"
-	traits = { war_hero old_guard }
-	skill = 5
-	id = 9
-	is_female = yes
-
-	attack_skill = 4
-	defense_skill = 2		
-	planning_skill = 3
-	logistics_skill = 3
-	}
-
-create_corps_commander = {
-	name = "Sir Stabby"
-	picture = "hoi4_portrait_stabby.dds"
-	traits = { career_officer }
-	skill = 4
-	id = 7
-
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Sir Dashing"
-	picture = "hoi4_portrait_dashing.dds"
-	traits = { career_officer }
-	skill = 5
-	id = 8
-
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 5
+	advisor_mina
 }

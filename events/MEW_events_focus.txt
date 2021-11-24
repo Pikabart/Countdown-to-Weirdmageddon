@@ -768,16 +768,10 @@ country_event = {
 		option = {
 			name = brush_up_event.1.a
 			ai_chance = { factor = 90 }
-			create_field_marshal = {
-				name = "Queen Moon of House Butterfly"
-				picture = "hoi4_portrait_moon.dds"
-				traits = { politically_connected trait_cautious }
-				skill = 5
-
-				attack_skill = 7
-				defense_skill = 2
-				planning_skill = 3
-				logistics_skill = 1
+			MEW_moon_butterfly = {
+				promote_leader = yes
+				add_skill_level = 3
+			
 			}
 		}
 }
