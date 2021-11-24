@@ -2,6 +2,8 @@ state={
 	id=189
 	name="STATE_189"
 	
+	local_supplies=0.0 
+	
 	history={
 		owner = EUS
 		add_core_of = EUS
@@ -20,6 +22,6 @@ state={
 		314 354 537 774 848 1302 1632 1780 1953 2140 4468 4910 5849 6831 8249 8398 8549 8729 
 	}
 	manpower=10000
-	buildings_max_level_factor=1.000
+	
 	state_category=rural
 }

@@ -1,6 +1,8 @@
 state={
 	id=427
 	name="STATE_427"
+	local_supplies=6.0 
+	
 	history {
 		owner = OST
 		add_core_of = OST
@@ -18,11 +20,12 @@ state={
 		victory_points = { 2995 5 }
 	}
 	
+	
 	provinces={
 		1803 2995 4442 4700 5873 5974 6254 6910 7102 8580 8648 
 	}
 	
 	manpower=12000000
-	buildings_max_level_factor=1.000
+	
 	state_category=large_town
 }

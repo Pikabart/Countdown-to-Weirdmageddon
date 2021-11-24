@@ -2,6 +2,8 @@ state={
 	id=56
 	name="STATE_56"
 	
+	local_supplies=0.0 
+	
 	history={
 		owner = GTF
 		add_core_of = GTF
@@ -23,6 +25,6 @@ state={
 		6178 6278 6714 6904 6947 8587 8679 8689 8724 8736 8753 
 	}
 	manpower=1000
-	buildings_max_level_factor=1.000
+	
 	state_category=rural
 }

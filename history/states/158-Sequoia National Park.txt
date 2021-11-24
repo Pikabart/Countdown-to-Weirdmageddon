@@ -2,6 +2,8 @@ state={
 	id=158
 	name="STATE_158"
 	
+	local_supplies=0.0 
+	
 	history={
 		owner = CAL
 		add_core_of = CAL
@@ -21,6 +23,6 @@ state={
 		322 2344 2980 4334 4421 4918 6264 9752 9776 9780 9795 
 	}
 	manpower=5000
-	buildings_max_level_factor=1.000
+	
 	state_category=rural
 }

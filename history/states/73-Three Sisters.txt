@@ -2,6 +2,8 @@ state={
 	id=73
 	name="STATE_73"
 	
+	local_supplies=0.0 
+	
 	history={
 		owner = ORE
 		add_core_of = ORE
@@ -21,6 +23,6 @@ state={
 		622 737 3912 5509 6284 8384 8402 8433 
 	}
 	manpower=5000
-	buildings_max_level_factor=1.000
+	
 	state_category=wasteland 
 }

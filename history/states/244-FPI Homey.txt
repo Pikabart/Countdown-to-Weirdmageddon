@@ -2,6 +2,8 @@ state={
 	id=244
 	name="STATE_244"
 	
+	local_supplies=0.0 
+	
 	history={
 		owner = EPI
 		add_core_of = EPI
@@ -21,6 +23,6 @@ state={
 		528 1889 5209 5403 6637 9777 9789 
 	}
 	manpower=1000
-	buildings_max_level_factor=1.000
+	
 	state_category=megalopolis  
 }

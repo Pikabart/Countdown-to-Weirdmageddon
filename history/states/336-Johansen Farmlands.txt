@@ -1,6 +1,8 @@
 state={
 	id=336
 	name="STATE_336"
+	local_supplies=0.0 
+	
 	history {
 		owner = JOH
 		add_core_of = JOH
@@ -23,6 +25,6 @@ state={
 	}
 	
 	manpower=2870000
-	buildings_max_level_factor=1.000
+	
 	state_category=large_town
 }

@@ -3,6 +3,8 @@ state={
 	id=229
 	name="STATE_229"
 	
+	local_supplies=0.0 
+	
 	history={
 		owner = EUS
 		add_core_of = EUS
@@ -22,6 +24,6 @@ state={
 		181 239 256 266 281 649 756 1310 1462 1677 1695 1796 2794 2823 2859 3060 3225 3291 3417 4307 4439 4493 4686 5415 5571 5766 6628 6682 7211 8299 8464 8686 8886 10205 10242 
 	}
 	manpower=1000000
-	buildings_max_level_factor=1.000
+	
 	state_category=city
 }

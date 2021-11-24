@@ -1,6 +1,8 @@
 state={
 	id=331
 	name="STATE_331"
+	local_supplies=0.0 
+	
 	history {
 		owner = MEW
 		add_core_of = MEW
@@ -26,6 +28,6 @@ state={
 	}
 	
 	manpower=9000
-	buildings_max_level_factor=1.000
+	
 	state_category=city
 }

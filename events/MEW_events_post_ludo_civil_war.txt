@@ -50,6 +50,23 @@ country_event = {
 
 }
 
+country_event = { #unused currently
+	id = eclipsa.2
+	title = eclipsa.2.t
+	desc = eclipsa.2.d
+	picture = GFX_report_event_eclipsa_chained
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = eclipsa.2.a
+		ai_chance = { factor = 90 }
+		add_stability = -0.05
+
+	}
+
+}
+
 country_event = {
 	id = ludo_surrender.4
 	title = ludo_surrender.4.t
