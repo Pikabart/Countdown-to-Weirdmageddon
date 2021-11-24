@@ -164,12 +164,25 @@ characters = {
 			available = {
 			}
 								
-			traits = { army_chief_defensive_2 }
+			traits = { army_chief_defensive_1 }
 			
 			ai_will_do = {
 				factor = 1
 			}
 		
+		}
+		advisor = {
+			slot = army_chief
+			idea_token = MEW_whosits
+			allowed = {
+					original_tag = MEW
+				}
+				traits = {
+					army_chief_defensive_2
+				}
+				ai_will_do = {
+					factor = 1.000
+				}
 		}
 	}
 	MEW_sir_stabby = {
