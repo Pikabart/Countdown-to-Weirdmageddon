@@ -3,6 +3,8 @@ state={
 	id=266
 	name="STATE_266"
 	
+	local_supplies=0.0 
+	
 	history {
 		owner = MEW
 		add_core_of = MEW
@@ -32,6 +34,6 @@ state={
 	}
 	
 	manpower=25000000
-	buildings_max_level_factor=1.000
+	
 	state_category=megalopolis 
 }

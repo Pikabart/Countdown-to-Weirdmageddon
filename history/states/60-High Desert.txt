@@ -2,6 +2,8 @@ state={
 	id=60
 	name="STATE_60"
 	
+	local_supplies=0.0 
+	
 	history={
 		owner = ORE
 		add_core_of = ORE
@@ -22,6 +24,6 @@ state={
 		1100 2316 4137 4220 4502 4650 5105 5526 6444 6575 6598 7093 8920 8946 8955 8962 8968 8975 8989 8997 8998 
 	}
 	manpower=10000
-	buildings_max_level_factor=1.000
+	
 	state_category=rural
 }

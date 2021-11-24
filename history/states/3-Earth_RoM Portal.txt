@@ -5,6 +5,7 @@ state={
 		2987 6703 
 	}
 	manpower=1000
-	buildings_max_level_factor=1.000
+	
 	state_category=enclave
+	local_supplies=0.0 
 }

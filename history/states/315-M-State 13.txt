@@ -3,6 +3,8 @@ state={
 	id=315
 	name="STATE_315"
 	
+	local_supplies=0.0 
+	
 	history {
 		owner = LUC
 		add_core_of = LUC
@@ -22,6 +24,6 @@ state={
 		346 686 832 1059 2043 2568 3111 3825 4530 4936 6402 8987 8990 9057 
 	}
 	manpower=3000
-	buildings_max_level_factor=1.000
+	
 	state_category=town
 }

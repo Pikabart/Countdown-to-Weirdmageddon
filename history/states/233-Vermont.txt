@@ -3,6 +3,8 @@ state={
 	id=233
 	name="STATE_233"
 	
+	local_supplies=0.0 
+	
 	history={
 		owner = EUS
 		add_core_of = EUS
@@ -21,6 +23,6 @@ state={
 		523 4115 4690 6883 8552 
 	}
 	manpower=1000000
-	buildings_max_level_factor=1.000
+	
 	state_category=town
 }

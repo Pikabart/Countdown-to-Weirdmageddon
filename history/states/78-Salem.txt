@@ -2,6 +2,8 @@ state={
 	id=78
 	name="STATE_78"
 	
+	local_supplies=0.0 
+	
 	history={
 		owner = ORE
 		add_core_of = ORE
@@ -25,6 +27,6 @@ state={
 		6647 7237 8247 8363 
 	}
 	manpower=150000
-	buildings_max_level_factor=1.000
+	
 	state_category=metropolis 
 }

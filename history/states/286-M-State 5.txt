@@ -1,6 +1,8 @@
 state={
 	id=286
 	name="STATE_286"
+	local_supplies=0.0 
+	
 	history {
 		owner = OST
 		add_core_of = OST
@@ -25,6 +27,6 @@ state={
 	}
 	
 	manpower=1000
-	buildings_max_level_factor=1.000
+	
 	state_category=rural
 }

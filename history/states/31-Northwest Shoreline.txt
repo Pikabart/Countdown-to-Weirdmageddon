@@ -2,6 +2,8 @@ state={
 	id=31
 	name="STATE_31"
 	
+	local_supplies=0.0 
+	
 	history={
 		owner = NRW
 		add_core_of = NRW
@@ -27,6 +29,7 @@ state={
 		8593 8605 8629 
 	}
 	manpower=100
-	buildings_max_level_factor=1.000
+	
 	state_category=rural
+	local_supplies=0.0 
 }

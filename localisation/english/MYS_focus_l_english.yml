@@ -1,0 +1,334 @@
+﻿l_english:
+
+ #For Mystery Shack Focus Tree description and custom_effect_tooltip
+ 
+ #1
+ MYS_prepare_for_the_summer:0 "Preparing For The Summer!"
+ MYS_prepare_for_the_summer_desc:0 "Summertime!\nThe sun shines down through the tall everygreen trees. The animals skimper about. And tourist flock to the great outback of Oregon.\nAnother year, another new tourist season to profit from...\nAnother year, another reminder of my work to fix what I have done.\n- §RStan Pines§! -"
+ MYS_prepare_for_the_summer_effect:0 "Let's see here. I still need to hire a cashier. Gotta fix the 'S' on the roof.\nHopefully Soos forgot about that raise I promised him. And where to get nuclear waste?\n\n<ring ring>\nWho's calling at this hour?" # ^ above is a custom loc to add text to effect section of focus. Must be called in focus file
+ ######################################################
+ #2
+ MYS_not_who_he_seems:0 "Not Who He Seems"
+ MYS_not_who_he_seems_desc:0 "No one can know what is beyond that vending machine, what real mystery rest benethe the Mystery Shack. The dangers that could entail. The horrors that could be beyond. The mistakes I have made."
+ MYS_not_who_he_seems_effect:0 "A"
+ ######################################################
+ #3
+ MYS_cheapest:0 "The Cheapest Money Can Buy!"
+ MYS_cheapest_desc:0 "Though most would like to forget about it, many of the townsfolk had worked for Stan at the Mystery Shack at some point in its 30 years, from Edwin Durland to Annabelle Corduroy. But while Stan had burnt through more people than a wildfire through the forest, there was always one man Stan could count on. Even better, the man forgot that Stan promised him a raise."
+ MYS_cheapest_effect:0 "<Looking through applications> That Valentino kid is too depressing for me. And I just don't like the look of Thompson... Wait, Annie had a kid?\n "
+ ######################################################
+ #4
+ MYS_the_pine_twins:0 "The Pine Twins"
+ MYS_the_pine_twins_desc:0 "I still remember that day, August 31st, all those years ago. Mable came first. Dipper second, nearly kicking the bucket as soon as he got it. I held them in my arms first before their granddad and got a fist clean across the face from my general of an older brother. Still, Shermie said they reminded him of when my twin and I were born. \nSaid it was ashame Stanley wasn't here."
+ MYS_the_pine_twins_effect:0 "These two have each other, and they'll have their Grunkle Stan as well. That's all that matters."
+ ######################################################
+ #5
+ MYS_journal_3:0 "Uncovering Old Secrets"
+ MYS_journal_3_desc:0 "Againts my own wishes, Mom and Dad insisted that me and Mabel spend the summer with our Great Uncle Stanford. Dad talked about all the time he and auntie Emily had fun in Gravity Falls. I wonder where's the fun in working at the shack and putting up signs in the woods...\n\n- §CDipper Pines§! -"
+ MYS_journal_3_effect:0 ""
+ 
+ MYS_stantastic:0 "The Stan-Tastic Adventures!"
+ MYS_stantastic_desc:0 "As the twins go about their way, going on adventures, threading the line between life and death in the great outback of Gravity Falls, I'll continues on my work to repair the portal fully and bring this all to an end.\n\n- §RStan Pines§! -"
+ MYS_stantastic_effect:0 "§YLet's see here on the ol'list.§!\nFind new attractions\nGet money back from Birdperson\nRefill the energy reactor..."
+ 
+ MYS_stantastic_1:0 "Going On A Grocery Run"
+ MYS_stantastic_1_desc:0 "It's the perfect attraction. A unicorn made of corn! And there's even a sale at the supermarket! I'll just head on down to town and grab some corn and glue. I better also make sure to store it away from the food black hole that Mabel calls a 'pet'."
+ MYS_stantastic_1_effect:0 "Making a unicorn is easy. I've been attack by them so many times."
+ 
+ MYS_stantastic_3:0 "From Mewni, With Corn"
+ MYS_stantastic_3_desc:0 "'There are simple ways to get corn', is what my brother would say. But there are also fun and illegal ways to get corn and I think I'll go for that instead. Time to give the old land of magic and enchantment a visit."
+ MYS_stantastic_3_effect:0 "What's a little corn between interdimesional friends?"
+ 
+ MYS_stantastic_5:0 "To Take What Was Rightfully Stolen"
+ MYS_stantastic_5_desc:0 "Mewni Corn would be an aweful waste on a tourist attraction. Its better off being sold in a shaddy location for ludicrous prices. And I know just the place in Gravity Falls to do that."
+ MYS_stantastic_5_effect:0 "The regular black market was boring anyway. Not much demand for non-laser emitting pugs lately..."
+ 
+ MYS_stantastic_2:0 "Running on Empty"
+ MYS_stantastic_2_desc:0 "That gauge doesn't look right, I mean, I doubt it ever worked properly. I haven't refilled the portal's reactor since... well, since I was with her. A bit amazing how a few drops of that blue stuff lasted this long. Its not like I can ever get more of it, anyway."
+ MYS_stantastic_2_effect:0 "I mean, the 'E' must mean that I still have like an extra 10 interdimesional miles left, right?"
+ 
+ MYS_stantastic_4:0 "A Homey Place To Be In"
+ MYS_stantastic_4_desc:0 "The open desert is a good place to hide stuff from the civilian populace. But its an even greater place to pretend to be hiding stuff there and make people think you are hiding stuff there! Let those idiots shout about freeing E.T.. As long as they got my fuel, I am good."
+ MYS_stantastic_4_effect:0 "Like anyone can catch Stan Pines anyway..."
+ 
+ MYS_stantastic_6:0 "What happens in Las Vegas"
+ MYS_stantastic_6_desc:0 "Ah, Vegas. You know, it was here, where I met her all those years ago. I lost my car and my winnings, but the love. The love was real. If only I had the nerve to go back... Anyway, I might as well try my luck on something else, like that bet with Mabel."
+ MYS_stantastic_6_effect:0 "I'll probably have to go back if I'm going to get more fuel going forward."
+ 
+ MYS_awaits:0 "What Awaits In Gravity Falls"
+ MYS_awaits_desc:0 "Gnomes, Lake Monsters, Convenience Store Ghost!\nLiving wax, Time Travel,\nand the Eight and a Half President!\n\nDipper's right! What eles awaits in Gravity Falls?\n- §YMabel Pines§! -"
+ MYS_awaits_effect:0""
+ 
+ MYS_awaits_1:0 ""
+ MYS_awaits_1_desc:0 ""
+ MYS_awaits_1_effect:0""
+ 
+ MYS_awaits_2:0 ""
+ MYS_awaits_2_desc:0 ""
+ MYS_awaits_2_effect:0""
+ 
+ MYS_awaits_3:0 ""
+ MYS_awaits_3_desc:0 ""
+ MYS_awaits_3_effect:0""
+ 
+ MYS_awaits_4:0 ""
+ MYS_awaits_4_desc:0 ""
+ MYS_awaits_4_effect:0""
+ 
+ MYS_awaits_5:0 ""
+ MYS_awaits_5_desc:0 ""
+ MYS_awaits_5_effect:0 ""
+ 
+ MYS_awaits_6:0 ""
+ MYS_awaits_6_desc:0 ""
+ MYS_awaits_6_effect:0 ""
+ 
+ ######################################################
+ #  Investment Focus# 
+ ######################################################
+ 
+ MYS_investment:0 "Investing In The Shack"
+ MYS_investment_desc:0 "You know what they say, you gotta spend monsey to make money! It's just... so hard to part with it at all...\n\n- §RStan Pines§! -"
+ MYS_investment_effect:0 ""
+ 
+ MYS_soos_1:0 "Fix'in It With Soos"
+ MYS_soos_1_desc:0 "I've worked with Stanford Pines since, like, forever! But now that he asked me to work on "Bigger Things"? What a dream come through!\n\nI won't let him down.\n\n- §GSoos Rameriz§! -"
+ MYS_soos_1_effect:0 ""
+ 
+ MYS_soos_2:0 "Tune up the Attractions"
+ MYS_soos_2_desc:0 "The preservation jars are foggy, the display stands are unstable, and the Bigfoot statue has it's hairs falling out! Yup, I got alot of things to do to tune up the attractions for the oncoming wave of tourists!"
+ MYS_soos_2_effect:0 ""
+ 
+ MYS_soos_3:0 "Lay Down New Flooring"
+ MYS_soos_3_desc:0 "Mr. Pines has given me my first big task. We gotta replace the floor so that's it's not so splintery. The sharp spikes are driving away customers! But at the same time, Mr. Pines wants to keep it's creakiness. "It adds character", he says."
+ MYS_soos_3_effect:0 ""
+ 
+ MYS_soos_4:0 "Repair the Totem Pole"
+ MYS_soos_4_desc:0 "The totem pole is one of the Shack's main outdoor attractions. Mr. Pines has tons of stories about it and the Native Americans who inhabited this land before us. Everything from their way of life, traditions and beliefs, to ancient curses! Its a head turner!\nProblem is, the color has faded and scratches are starting to build upon each other. Time to restore a part of history!"
+ MYS_soos_4_effect:0 ""
+ 
+ MYS_soos_5:0 ""Repave The Driveway!""
+ MYS_soos_5_desc:0 "I overheard Mr. Pines talking to Wendy. "The Mystery Shack only has a dirt road, wouldn't it be funny if I told him to repave the driveway?"\n\nDude, how psyched would he be if I did it before he asked?"
+ MYS_soos_5_effect:0 ""
+ 
+ MYS_soos_6:0 "Rebuild The Sign"
+ MYS_soos_6_desc:0 "The "Damaged" sign of the Mystery Shack adds character, Mr. Pines told me. But there's a problem when people read your own sign and think you're a "Mystery Hack". I got to make it clear there's no hack here! But we only have so much material in storage and Mr. Pines isn't in the mood to get more to fix up the Bottomless Pit as well..."
+ MYS_soos_6_effect:0 ""We can just add those left over safety certificates from the fair and stick them to the edge." - §RStan Pines§!"
+ 
+ MYS_soos_7:0 "Fence Up The Bottomless Pit"
+ MYS_soos_7_desc:0 "That bottomless pit is dangerous," he tells me, "What if someone fell into it? And even worse, what if word got out? We gotta fence it up, so if somebody falls into it, I can pin the blame on them for jumping the fence." But we only have so much material in storage, and doing this would mean giving up on the sign..."
+ MYS_soos_7_effect:0 ""Heh, not like these people can even read anyway..." - §RStan Pines§!"
+ 
+ MYS_soos_8:0 "A New Coat Of Paint"
+ MYS_soos_8_desc:0 "The Shack has never look this good.\nBut what you are on the outside will never be as important than what you are on the inside. That's how much our relationship matters to me.\n\nMr. Pines than promised me a raise if I never said that to him again."
+ MYS_soos_8_effect:0 ""
+ 
+ MYS_wendy_1:0 "The Cordoury Spirit"
+ MYS_wendy_1_desc:0 "We Cordourys have always been a fiesty bunch. From the old tales of my ancestors who tamed the Wild West to the feats of my dad, Daniel "Manly Dan" Cordoury. I think Mr. Pines is lucky to have me on his team!\n\n- §OWendy Cordoury§! -"
+ MYS_wendy_1_effect:0 ""
+ 
+ MYS_wendy_2:0 "Sick Drifts With The Cart"
+ MYS_wendy_2_desc:0 "Finally, that old coot Mr. Pines is gone! Apparently he's going into town and he's not gonna come back until tommorow. It's time to have some fun while he's away, and I know just how to do it: Doing some sick tricks with the golf cart!"
+ MYS_wendy_2_effect:0 ""
+ 
+ MYS_wendy_3:0 "Hiking Through The Oregon Outback"
+ MYS_wendy_3_desc:0 "Finally, that old coot Mr. Pines is gone! Apparently he's going into town and he's not gonna come back until tommorow. It's time to have some fun while he's away, and I know just how to do it: A hiking trip!"
+ MYS_wendy_3_effect:0 ""
+ 
+ MYS_wendy_4:0 "Cashier Security"
+ MYS_wendy_4_desc:0 "Pines is finally back from town, and he brought back some weapons. He says we have to stash 'em around the shack in case of armageddon. I heard him singing the national anthem as he went to bed, weird."
+ MYS_wendy_4_effect:0 ""
+ MYS_wendy_4_tooltip:0 "Modify §YThe Cordoury Spirit§! by\nDivision Defense: §G+5.00%§!"
+ 
+ MYS_wendy_5:0 "Striking Fast"
+ MYS_wendy_5_desc:0 "Look's like I've got some time off from working at the shack, coolio. I've been thinking about specializing my fighting style, maybe I'll throw hits so fast my enemies wont know what's goin' on..."
+ MYS_wendy_5_effect:0 "Hey Thompson, I need a sparing partner!"
+ 
+ MYS_wendy_6:0 "Hitting Hard"
+ MYS_wendy_6_desc:0 "Look's like I've got some time off from working at the shack, coolio. I've been thinking about specializing my fighting style, maybe I'll throw hits so hard and heavy my enemies wont know what's goin' on..."
+ MYS_wendy_6_effect:0 "Hey Toby, I need a sparing partner!"
+ 
+ MYS_wendy_7:0 "Sharp Axes, Sharper Drip"
+ MYS_wendy_7_desc:0 "Defeating your eneimes is good, but looking stylish while doing so is even better!"
+ MYS_wendy_7_effect:0 "Can't believe I got Mr. Pines to pay for this! Thank you Buisness Cards!"
+ MYS_wendy_7_tooltip:0 "Modify §YThe Cordoury Spirit§! by\nDivision Attack: §G+5.00%§!"
+ 
+ MYS_wendy_8:0 "Staying Cool Under Pressure"
+ MYS_wendy_8_desc:0 "Trust me. My family is crazy. My baby brothers run around like headless chickens and my dad is probably wrestling a multi-bear. Deep down, I'm losing it.\n\nBut outside, I'm cool as the lake during winter."
+ MYS_wendy_8_tooltip:0 "Modify §YThe Cordoury Spirit§! by\nSurrender Limit: §G+10.00%§!"
+ 
+ MYS_clones:0 "That Old Copier"
+ MYS_clones_desc:0 "Gideon has the town on his side and some really scary goons. We'll need an army to take them all on...\n\nActually, I think I know where to get an army!\n- §CDipper Pines§! -"
+ MYS_clones_effect:0 ""
+ 
+ MYS_clones_1:0 "Construction Paper"
+ MYS_clones_1_desc:0 "These Dipper clones are cool and all, what with them seemingly attending to my every whim. But they aren't the most durable clones out there.\n\nTo Dipper 34, I'm sorry about spilling my drink on you...\n- §OWendy Cordoury§! -"
+ MYS_clones_1_effect:0 ""
+ 
+ MYS_clones_2:0 "Shiny Lamination"
+ MYS_clones_2_desc:0 "These little dudes' are awesome! But in just the past few hours, three accidently dissolved, four caught on fire, two got bedazzled by Mabel, and one was eaten by Gompers. Haha, disturbing!\nBut with this new laminator from home, these Dippers shall save the Republic- I mean the Shack!\n- §GSoos Rameriz§! -"
+ MYS_clones_2_effect:0 "You think Mr. Pines will pull a Order 66 on us?"
+ 
+ MYS_clones_3:0 "The Xerox Generation"
+ MYS_clones_3_desc:0 "These Dippers are great! They can fight, like Emily, they can serve, like Shermie, they're all afriad of me, like Eugene!\nBut seeing so many Dippers is a bit weird. We need expandable, I mean, exceptional clones! And I know who would be the next generation of clones- Mabel, get off that copier! We only need one Mabel!\n- §RStan Pines§! -"
+ MYS_clones_3_effect:0 ""
+ 
+ mys_clone_wars:0 "Begun, the Gleeful War Have..."
+ 
+ ######################################################
+ #  Pines PR Focus# 
+ ######################################################
+ 
+ #Flags
+ MYS_pr_path:0 "A relationship path has been choosen"
+ MYS_false_flags:0 "The Con-Man won't be denied!"
+ MYS_GF_shuffle:0 "Stan's Gravity Falls Shuffle has been performed!"
+ MYS_PR_choice_effect:0 "§CWill be made avaible based on how you handle the Buisness Council and the Town Hall Forum§!"
+ 
+ MYS_PR_1:0 "Stan And Gravity Falls"
+ MYS_PR_1_desc:0 "Stanford Pines had lived in Gravity Falls for over 30 years. A visiting researcher turn permanent fixture of the town, one would presume Stan had made many contacts within the town. His Mystery Shack is a staple of the tourism in Roadkill County and many of its residents had grown up with the Shack as a fixture of their lives, from their own time spent there to the role it played in the local town economy."
+ MYS_PR_1_effect:0 "Surely Stan would have become a staple of the town itself..."
+ 
+ MYS_PR_2:0 "The Roadkill County Business Council"
+ MYS_PR_2_desc:0 "The Roadkill County Business Council is a private group of the business owners in the county. Its leaders represent the different sectors of the economy: Lazy Susuan for the Service Industry, Farmer Sprott of the Primary Industry, and even Preston Northwest, personally representing the Manufacturing Industry in the county. That was actually expected as he owns all the factories in Roadkill County."
+ MYS_PR_2_effect:0 "At this month’s meeting, an interesting development occurred. For Stan, if he plays his hand right, it would be an opportunity. Otherwise, disaster can easily loom."
+ 
+ MYS_PR_3:0 "The Weekly Town Hall Forum"
+ MYS_PR_3_desc:0 "A mandated event to inform the town of the ongoing events in the area, the weekly town meeting is often ignored by most of the residents. In any given meeting, it's either the mayor going on a delusional rant about how he was apparently the former leader of a secret government shadow agency, or a meeting for an actual shadow group, the Blind-Eye Society, whenever the meuseum is closed."
+ MYS_PR_3_effect:0 "With the horror that is the Canadian Kerfuffle and the minor annoyance that is the collapse of the United States, some real action is needed by the town to handle the matter"
+
+ MYS_PR_4:0 "Good PR"
+ MYS_PR_4_desc:0 "For all the fault the town has, I know better then that their my only hope for the Shack and myself to stay afloat and survive. Having, as Mabel called it ‘Good Public Relationship’, is key to winning the town over. Besides, I'm the Man of Mystery! What isn’t there to love about the Mystery Shack and all the spooky, hazardous things inside!\n- §RStan Pines§! -"
+ MYS_PR_4_effect:0 "And Soos, fix those hazardous things inside the Shack. I ain’t in the hankering for a lawsuit."
+
+ MYS_PR_6:0 "Free Souvenirs***" 
+ MYS_PR_6_desc:0 "Free Souvineers! Get your Free Souvineers!*** "
+ MYS_PR_6_effect:0 "§R***Free "sourvineer" is at the management's disgression. Requires a $200 gift shop purchase and a purchase of a "Full Experience" Shack Tour on the same visit. Not libable for any physical or mental harm while on Shack premice and/or caused by said souvineer for the entirity of existance. Technically liable under EU law, but one must trick Man of Mystery to going to Europe for any litgation.§!"
+
+ MYS_PR_8:0 "Community Service"
+ MYS_PR_8_desc:0 "So the court has come to me with a plea deal of sorts. In my interactions with the town, I may have broke a few minor city ordiances. Stuff like robbing the Summer-Ween Store, burning down the Northwest Pinoneer Wagon on Pioneer Day, scared off the local pastor with my Devil's Costume..."
+ MYS_PR_8_effect:0 "I swear, I thought the costume and the store thing were booked as the same crime!"
+ 
+ MYS_PR_10:0 "The Mystery Fair"
+ MYS_PR_10_desc:0 "The Mystery Fair! What no better way to bring the people of this town together. Playing games, almost winning prizes, partaking on rides and attractions with ‘special’ safety permits on them. Yup, this time, I spared ALMOST every expense. Not like I have a choice..."
+ MYS_PR_10_effect:0 "Thanks to Dipper and Mabel’s shenanigans with some bald guy that sounded like a Morty, the entire day got wiped from history. And my profits along with it! Just a corn eating pig to show for it..." 
+ 
+ #####################
+ MYS_PR_5:0 "Back Taxes"
+ MYS_PR_5_desc:0 "Building leeway into the workings of the town government requires not compromices, but offerings of appeasment. I haven't really made any friends with the mayor or the council. But maybe being on the by and by can help. And we all like money after all... unfortunatley.\n\n- §RStan Pines§! -"
+ MYS_PR_5_effect:0 "Surely we can write off some of these items, right?"
+
+ MYS_PR_7:0 "Council Lobbying"
+ MYS_PR_7_desc:0 "The Town Council has never been interested in my dealings. Unlike the old chook above them and the crazied constituents that voted for them, these are ordinary people that happen to live this this crazy place. Honestly, that makes them the biggest weirdos in Gravity Falls."
+ MYS_PR_7_effect:0 "But we all talk in the same language... sorta?"
+
+ MYS_PR_9:0 "A Gift for the Mayor"
+ MYS_PR_9_desc:0 "I thought it would take longer, but Mayor Befufftlefumpter- Hey, I said that right! The old chook wanted to have a sit down with me. This is my chance! The town took some land of "mine" a few years back over the whole 'Jembles' incident. Maybe I can win him over with a gift?"
+ MYS_PR_9_effect:0 "Just don't mention World War 1, just don't mention World War 1!"
+
+ MYS_PR_16:0 "Our Man Stan!"
+ MYS_PR_16_desc:0 "I didn't think it would ever happen, with my past, and the plans I had for my future, I doubted that this town would ever like me. But here I am. Their Man, Stan! My pollings even put me ahead of that smug little Gideon! Beisdies ithe increace tourism, I wonder if I could use this popularity in the future?"
+ MYS_PR_16_effect:0 "I mean, what other uses does having the love of the town give besides making money, anyway?" 
+ 
+ ################################
+ 
+ MYS_PR_11:0 "False Flags"
+ MYS_PR_11_desc:0 "This town thinks they can just walk right over me?\nI placed it on the map!\nPeople don't flock to this this backwater Oregon town for the food or the scenery. They come here for the Mystery Shack! Its time I make my point abundantly clear.\n- §RStan Pines§! -"
+ MYS_PR_11_effect:0 ""
+ 
+ MYS_PR_12:0 "'Job Makers'"
+ MYS_PR_12_desc:0 "The local economy has been in a slump since the Canadian Kerfuffle and the collapse of the US. But oddly enough, the tourism industry is prospering! Must have something to do with people getting their minds of the potential war between Oregon, Washington, and California.\nNow, people are in need of jobs. And I could use some cheap lab- I mean, new valauble employees!"
+ MYS_PR_12_effect:0 "Got to work for that minimum wage!\n\n"
+
+ MYS_PR_13:0 "Supporting 'Small' Business"
+ MYS_PR_13_desc:0 "What is investing but a smarter looking way of gambling? What kind of man would I be if the I didn't rig the game? With the recent economic downturn, the businesses in town could use some inflow of cash.\n\nSure, Preston Northwest can offer more. But would you trust a rich snob, or your local nighborhood Mystery Man?"
+ MYS_PR_13_effect:0 "And remember, meet the minimum payment, or Wendy will have a very unpleasent chat with you.\n\n"
+
+ MYS_PR_14:0 "Gravity Falls Shuffle"
+ MYS_PR_14_desc:0 "The local hills beyond the shack use to be part of my property. But due to some completely misunderstood incident involving the mayor's galapagos turtle, the town confincastwed my land. Naturally, everyone would assume I take it back."
+ MYS_PR_14_effect:0 "But honestley, I could use something with some water front property..."
+
+ MYS_PR_15:0 "And This Con-Man You Can't Change"
+ MYS_PR_15_desc:0 "Someone once told me I can't change. Honestly, maybe she was right. The fact I am here and not there proves that. But I won't go down. I survived up to now and I'll keep on survivinging. I have a mission and I won't stop.\n\nThis Con-Man they can't Change!"
+ MYS_PR_15_effect:0 "If I leave here tomorrow\nWould you still remember me?\nFor I must be traveling on now\n'Cause there's too many places I've got to see\n\n" 
+ 
+ ######################################################
+ #  Rock the Mabel  #
+ ######################################################
+ 
+ MYS_rockthemabel:0 "Li'l Gideon"
+ MYS_rockthemabel_desc:0 "Nothing good can come from dealing with that li'l monster Gideon. Dipper, Mabel, stay away from him.\nNo one that lives under my roof is allowed under that Gideon's roof!\n\n- §RStan Pines§! -"
+ MYS_rockthemabel_effect:0 "Do tents have roofs?\nI think we found our loophole... literally! Mwop-Mwop!"
+ 
+ MYS_ship_1:0 "A Gleeful Pair"
+ MYS_ship_1_desc:0 "Ah, my dearest Mabel! For you, I'll give you all the world itself. Don't let those nay-sayers like your dim-witted brother say otherwise. Let me make you happy, let me care for you. Everything for you, for us.\n\n- §LGideon Gleeful§! -"
+ MYS_ship_1_effect:0 "§CWould be made avaible depending on hows well Gideon and Mabel get along.§!"
+ 
+ MYS_ship_2:0 "A beneficial arrangment"
+ MYS_ship_2_desc:0 "Oh course that old man of your wants to profit from us. But feather not, by dear sweetems. I'll have my father negationate with Stan. After all, why can't we all "benefit" from what we have?"
+ MYS_ship_2_effect:0 ""
+ 
+ MYS_ship_3:0 "Trojan Pig"
+ MYS_ship_3_desc:0 "Stanford Pines is hiding something from me. But not even my amulet can peirce what secrets he is hiding in his old wrinkled head. If only I have a spy...\n\nOh dearest Mabel, may I see that adorable pig of yours?"
+ MYS_ship_3_effect:0 ""
+ 
+ MYS_ship_4:0 "Heart in Hand"
+ MYS_ship_4_desc:0 "I know what you want. I know what you need. Let nothing distract you from what we have. My heart in your hand, I'll give to you the world itself!"
+ MYS_ship_4_effect:0 ""
+ 
+ MYS_ship_5:0 "A most beautiful Puppet"
+ MYS_ship_5_desc:0 "Oh you clever old man. Con Man by day, scientist by night. Journal 1 and a portal to the multiverse itself! The power I would have. How fortunate am I? She's the perfect tool to get it."
+ MYS_ship_5_effect:0 ""
+ 
+ MYS_ship_6:0 "A tightly controlled soul"
+ MYS_ship_6_desc:0 "And your soul now mine, all the sercets of the universe are now at our grasp. No one to stop us. No one can oppose us!\n\nYou and me, Mabeon, forever!"
+ MYS_ship_6_effect:0 ""
+ 
+ MYS_ship_7:0 "Only room for one"
+ MYS_ship_7_desc:0 "My dear, my affection for you is grand. But the multiverse is infinite and yet only has room for one.\nSo step aside, and at least relish the fact you were once enough for "Li'l Gideon"..."
+ MYS_ship_7_effect:0 ""
+ 
+ ######################################################
+ #  Expose Gideon  #
+ ######################################################
+ 
+ MYS_pine_1:0 "Pining for Time"
+ MYS_pine_1_desc:0 "That "Li'l Gideon" is crazy! And we know he won't stop, not until he can have Mabel and take me and Stan out.\nBut with the love the town has for him, we'll need to pine for time and figure out the source of his power.\nI have a feeling whatever it is, its tied to the author himself!\n- §CDipper Pines§! -"
+ MYS_pine_1_effect:0 "§CWould be made avaible depending on hows well Gideon and Mabel get along.§!"
+ 
+ MYS_pine_2:0 "New Attractions"
+ MYS_pine_2_desc:0 "Dipper's right! We need to knock the steam out of Gideon if we are to stop the little twerp. With the tourist season in full gear, I'll make up some new attractions to draw attention away from that fraudulant psychic! There's only room for one conman in this town!\n\n- §RStan Pines§! -"
+ MYS_pine_2_effect:0 ""
+ 
+ MYS_pine_3:0 "Interior Motives"
+ MYS_pine_3_desc:0 "I mean, what he is after. It can't seriously be my sister. No, he wants something from us. I don't know what secrets he has and I can't think of what we hav-...\n\nOh no. The Journal!"
+ MYS_pine_3_effect:0 "There must be something in this book to help us... a muse?"
+ 
+ MYS_pine_4:0 "Mystery Sale"
+ MYS_pine_4_desc:0 "Damn that little monster and his cuteness. A simple press of his cheeks and people flock to him like he's the messiah!\n\nThere's only one option left. Oh mightly Bunyun forgive... Soos, Wendy. Slash the prices, we're having a sale!\n- §RStan Pines§! -"
+ MYS_pine_4_effect:0 ""
+ 
+ MYS_pine_5:0 "The Source of his powers"
+ MYS_pine_5_desc:0 "How would he know? No one takes this old book seriously. To know its power, you have to have one yourself... Journal "3". Does he really have the other Journals? 1? 2? Whatever happens, I can't let him get a hold of Journal 3. The fate of Gravity Falls depends on it!"
+ MYS_pine_5_effect:0 "Perhaps I need to call for help..."
+ 
+ MYS_pine_6:0 "Shack Strikes!"
+ MYS_pine_6_desc:0 "Gideon is a threat as long as he has the other journal. While Stan and Soos prepare the defenses, Wendy and Mabel will go with me to try and take his source of power before he has time to get the jump on us!"
+ MYS_pine_6_effect:0 ""
+ 
+ MYS_pine_7:0 "Expose the real Hack!"
+ MYS_pine_7_desc:0 "That creep Gideon been exposed! After that climatic battle at the cliff with Dipper and a quick save to my good old grappling hook, Grunkle Stan exposed that li'l ol' fraudster.\n\nI doubt we'll have to worry about Gideon again.\n- §YMabel Pines§! -"
+ MYS_pine_7_effect:0 "Mabel thinks we're safe for now. But with the other journals out there. Who knows what could be done if someone had all three? - §CDipper Pines§!"
+ 
+ ######################################################
+ #  Mabel and Dipper related Focuses  #
+ ######################################
+ #99
+ #:0 ""
+ #_desc:0 "" 
+ 
+ MYS_rockthemabel_book:0 "Li'l Gideon"
+ MYS_rockthemabel_book_desc:0 "You shall be mine. Imagine it, my dear. All the sercets of the universe are now at our grasp. No one to stop us. No one can oppose us!\n\nYou and me, Mabeon, forever!\n\n- §LGideon Gleeful§! -"
+ 
+ 
+ 

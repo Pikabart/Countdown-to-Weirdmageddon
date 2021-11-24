@@ -1,0 +1,42 @@
+﻿l_english:
+ VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
+  #START
+ #OF
+ #MEWNI
+ #VPS
+ 
+ ################################################
+ 
+ #Butterfly Kingdom CPs
+ VICTORY_POINTS_2237:0 "Upper Stallward Mines"
+ VICTORY_POINTS_7849:0 "Upper Miner Quarters"
+ VICTORY_POINTS_7794:0 "Lower Stallward Mines"
+ VICTORY_POINTS_7828:0 "Lower Miner Quarters"
+ VICTORY_POINTS_7984:0 "Skywynne Institute"
+ VICTORY_POINTS_1274:0 "Skywynne Student Quarters"
+ VICTORY_POINTS_6724:0 "Comet's Gate"
+ VICTORY_POINTS_8091:0 "Comet's Tulips"
+ VICTORY_POINTS_6980:0 "Komet's Kush"
+ VICTORY_POINTS_2057:0 "Stallward Gift Shop"
+ VICTORY_POINTS_7908:0 "Stallward Tourisim Center"
+ VICTORY_POINTS_7806:0 "Stallward Management"
+ VICTORY_POINTS_5659:0 "Queen's Stop-gap"
+ VICTORY_POINTS_3617:0 "Outer Collection Center"
+ VICTORY_POINTS_4506:0 "Western Collection Center"
+ VICTORY_POINTS_8324:0 "Corn Canning Center"
+ VICTORY_POINTS_2814:0 "Eastern Collection Center"
+ VICTORY_POINTS_8296:0 "Inner Collection Center"
+ VICTORY_POINTS_5729:0 "Wandering Coast"
+ VICTORY_POINTS_5317:0 "Wandering Outpost"
+ VICTORY_POINTS_2882:0 "Forest Center"
+ VICTORY_POINTS_217:0 "Jaggy Embassy"
+ VICTORY_POINTS_2570:0 "Waterway Purification Center"
+ 
+ #Jaggy Kingdom VPs
+ VICTORY_POINTS_7487:0 "Jaggi-vostok"
+ 
+ #Kaisserreich  VPs
+ VICTORY_POINTS_5783:0 "Big Building"
+
+ #Tsardom VPs
+ VICTORY_POINTS_5991:0 "Mothscow"

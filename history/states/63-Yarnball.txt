@@ -2,6 +2,8 @@ state={
 	id=63
 	name="STATE_63"
 	
+	local_supplies=0.0 
+	
 	history = {
 		owner = YBL
 		add_core_of = YBL
@@ -24,6 +26,6 @@ state={
 		922 1003 3130 4563 5239 6265 8430 8434 8478 8485 8497 8498 
 	}
 	manpower=1000
-	buildings_max_level_factor=1.000
+	
 	state_category=town
 }

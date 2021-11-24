@@ -2,6 +2,8 @@ state={
 	id=126
 	name="STATE_126"
 	
+	local_supplies=0.0 
+	
 	history={
 		owner = WAS
 		add_core_of = WAS
@@ -21,6 +23,6 @@ state={
 		682 2395 3098 4215 5277 6549 7915 7919 7944 7951 7992 8027 8034 8061 
 	}
 	manpower=25000
-	buildings_max_level_factor=1.000
+	
 	state_category=town
 }

@@ -2,6 +2,8 @@ state={
 	id=134
 	name="STATE_134"
 	
+	local_supplies=0.0 
+	
 	history={
 		owner = CAL
 		add_core_of = CAL
@@ -30,6 +32,6 @@ state={
 		1289 3574 4181 4843 5246 5680 5752 6223 6417 6561 6615 9667 9686 9694 9707 9709 9713 9732
 	}
 	manpower=6000000
-	buildings_max_level_factor=1.000
+	
 	state_category=megalopolis 
 }

@@ -2,6 +2,8 @@ state={
 	id=48
 	name="STATE_48"
 	
+	local_supplies=0.0 
+	
 	history = {
 		owner = UFC
 		add_core_of = UFC
@@ -24,6 +26,6 @@ state={
 		2769 2925 6334 7110 8131 8165 8171 8189 8217 
 	}
 	manpower=1000
-	buildings_max_level_factor=1.000
+	
 	state_category=rural
 }

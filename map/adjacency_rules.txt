@@ -2,7 +2,7 @@
 #-1;-1;;-1;-1;-1;-1;-1;-1
 
 #Earth Mewni Portal
-adjacency_rule
+adjacency_rule = 
 {
 	name = "Earth_Mewni_Portal"
 

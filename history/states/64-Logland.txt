@@ -2,6 +2,8 @@ state={
 	id=64
 	name="STATE_64"
 	
+	local_supplies=0.0 
+	
 	history = {
 		owner = LOG
 		add_core_of = LOG
@@ -24,6 +26,6 @@ state={
 		3178 4697 5340 5670 6863 8281 
 	}
 	manpower=1000
-	buildings_max_level_factor=1.000
+	
 	state_category=town
 }

@@ -1,0 +1,1 @@
+core_l_english - Contains menu related locs including the text on the TOP BAR of the Loading Screen - look here: https://www.reddit.com/r/hoi4modding/comments/am7ulh/how_do_you_change_the_loading_screen_top_bar_text/

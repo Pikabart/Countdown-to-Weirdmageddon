@@ -2,6 +2,8 @@ state={
 	id=52
 	name="STATE_52"
 	
+	local_supplies=0.0 
+	
 	history = {
 		owner = MAN
 		add_core_of = MAN
@@ -24,6 +26,6 @@ state={
 		3622 4006 6214 8057 8059 8062 8077 8081 8107 8127 
 	}
 	manpower=3000
-	buildings_max_level_factor=1.000
+	
 	state_category=city 
 }

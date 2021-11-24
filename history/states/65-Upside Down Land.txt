@@ -2,6 +2,8 @@ state={
 	id=65
 	name="STATE_65"
 	
+	local_supplies=0.0 
+	
 	history = {
 		owner = UPD
 		add_core_of = UPD
@@ -24,6 +26,6 @@ state={
 		4521 5643 8125 8181 8195 
 	}
 	manpower=1000
-	buildings_max_level_factor=1.000
+	
 	state_category=town
 }

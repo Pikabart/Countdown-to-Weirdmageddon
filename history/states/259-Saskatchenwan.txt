@@ -2,6 +2,8 @@ state={
 	id=259
 	name="STATE_259"
 	
+	local_supplies=0.0 
+	
 	history={
 		owner = CAN
 		add_core_of = CAN
@@ -21,6 +23,6 @@ state={
 		69 367 410 481 614 619 828 1000 1147 1177 1179 1225 1478 1912 1966 2181 2212 2284 2324 2473 2504 2563 2600 2726 2775 2789 2972 3011 3338 3696 3850 4272 4595 4805 5348 5351 6416 7278 7279 7280 7281 7312 7321 7364 7377 7413 7514 
 	}
 	manpower=1000000
-	buildings_max_level_factor=1.000
+	
 	state_category=large_city
 }

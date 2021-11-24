@@ -2,6 +2,8 @@ state={
 	id=162
 	name="STATE_162"
 	
+	local_supplies=0.0 
+	
 	history={
 		owner = SOC
 		add_core_of = SOC
@@ -21,6 +23,6 @@ state={
 		1653 2602 3215 4004 5705 5708 5808 6101 6270 6285 6543 6622 6913 10028 10035 10043 10054 10057 10074 
 	}
 	manpower=80000
-	buildings_max_level_factor=1.000
+	
 	state_category=large_town
 }
