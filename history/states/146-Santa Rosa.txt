@@ -17,7 +17,8 @@ local_supplies=0.0
 			anti_air_building = 0
 			radar_station = 0	
 		}
-
+		victory_points = { 9524 10 }  #Santa Rosa
+		victory_points = { 273 10 }  #Fort Navarro
 	}
 	
 	provinces={
