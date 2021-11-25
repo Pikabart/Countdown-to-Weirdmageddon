@@ -317,8 +317,8 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = mew_waterway_supremacy
-		icon = GFX_goal_generic_construct_naval_dockyard
+		id = mew_emily_railroad
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 1
 		y = 1
 		relative_position_id = mew_freinds_in_high_places 
@@ -332,10 +332,13 @@ focus_tree = {
 
 		completion_reward = {
 		
-			add_offsite_building = {
-				type = dockyard
-				level = 4
-			}
+		build_railway = {
+			path = { 3617 8242 5659 8154 1784 6539 3337 5729 4693 2419 7979 6135 1956 7902 5224 }
+		}
+
+		build_railway = {
+			path = { 2597 8392 3194 2570 4749 338 }
+		}
 		
 		}
 	}
@@ -345,8 +348,8 @@ focus_tree = {
 		icon = GFX_goal_generic_air_naval_bomber
 		x = -1
 		y = 1
-		relative_position_id = mew_waterway_supremacy 
-		prerequisite = { focus = mew_waterway_supremacy }
+		relative_position_id = mew_emily_railroad 
+		prerequisite = { focus = mew_emily_railroad }
 		prerequisite = { focus = mew_factory_overdrive }
 
 		search_filters = {  FOCUS_FILTER_RESEARCH }

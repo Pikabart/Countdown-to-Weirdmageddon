@@ -129,8 +129,8 @@
 	}
 	
 	focus = {
-		id = import_airplanes
-		icon = GFX_goal_generic_air_fighter2
+		id = force_railroad
+		icon = GFX_goal_generic_construct_infrastructure
 		x = -1
 		y = 1
 		cost = 2			
@@ -145,7 +145,71 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
-		country_event = import_airplanes_event.1
+			add_manpower = -75
+			add_stability = -0.1
+			289 = {
+				add_building_construction = {
+					type = naval_base
+					level = 4
+					province = 5966
+					instant_build = yes
+				}
+			}
+			270 = {
+				add_building_construction = {
+					type = naval_base
+					level = 4
+					province = 2814
+					instant_build = yes
+				}
+			}
+			455 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 1423
+					instant_build = yes
+				}
+			}
+			456 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 3956
+					instant_build = yes
+				}
+			}
+			348 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 6290
+					instant_build = yes
+				}
+			}
+			350 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					province = 7800
+					instant_build = yes
+				}
+			}			
+			build_railway = {
+				path = { 8296 7035 2469 8169 8111 8067 251 7964 7901 7875 7823 2425 }
+			}
+			build_railway = {
+				path = { 8067 2428 1423 }
+			}
+			build_railway = {
+				path = { 7964 4318 3956 }
+			}
+			build_railway = {
+				path = { 7875 1407 7849 2237 6290 }
+			}
+			build_railway = {
+				path = { 2425 2232 2779 7794 7800 }
+			}
 		
 		}
 	}

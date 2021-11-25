@@ -19,8 +19,8 @@ emergency_conscription:0 "Emergency Conscription"
 emergency_conscription_desc:0 "This conflict reqiures that everyone, from the lowest farmer to the highest of high courtiers, devote themselves to winning against the tyrant in the west. Thus, those who cannot contribute much mentally, must contribute their bodies and lives!"
 MEW_emergency_conscription_tooltip:0 "Gain 9 §YEmergency Conscript§  divisions"
 
-import_airplanes:0 "Import Airplane Schematics"
-import_airplanes_desc:0 "By importing plane schematics from other dimensions, we can gain an advantage in researching them and thus produce them sooner."
+force_railroad:0 "Forceful Supply Line Construction"
+force_railroad_desc:0 "Our frontlines are lacking in supply. We must construct railways in order to supply our troops. These railways must be built through any means possible, as this may win us the war!"
 
 pull_all_strings:0 "Pull All Strings"
 pull_all_strings_desc:0 "The fate of the nation hangs in the balance! We must go through every measure in order to ensure victory the coming conflict!"
