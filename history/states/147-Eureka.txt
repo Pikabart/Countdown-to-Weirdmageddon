@@ -11,12 +11,12 @@ state={
 			arms_factory = 0
 			industrial_complex = 0
 			
-			infrastructure = 6
+			infrastructure = 1
 			air_base = 0
 			anti_air_building = 0
 			radar_station = 0	
 		}
-		victory_points = { 9363 10 }  #Navarro
+		victory_points = { 3071 10 }  #Eureka
 	}
 	
 	provinces={

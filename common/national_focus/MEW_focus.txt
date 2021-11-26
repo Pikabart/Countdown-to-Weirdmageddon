@@ -340,6 +340,47 @@ focus_tree = {
 			path = { 2597 8392 3194 2570 4749 338 }
 		}
 		
+		458 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		
+		}
+		332 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		
+		}
+		333 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		
+		}
+		287 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		
+		}
+		273 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		
+		}
+		
 		}
 	}
 

@@ -1,5 +1,5 @@
 ﻿l_english:
- VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
+ #VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
  
  #Northern California VPs
  VICTORY_POINTS_3309:0 "Sacramento"
@@ -8,7 +8,6 @@
  VICTORY_POINTS_10701:0 "Piedmont"
  VICTORY_POINTS_5246:0 "San Francisco"
  VICTORY_POINTS_9694:0 "San Jose"
- VICTORY_POINTS_9524:0 "Santa Rosa"
  VICTORY_POINTS_6615:0 "Mountain View"
  VICTORY_POINTS_6722:0 "Mystery Spot"
  VICTORY_POINTS_1289:0 "Oakland"
@@ -23,7 +22,8 @@
  VICTORY_POINTS_9067:0 "Yreka"
  VICTORY_POINTS_3071:0 "Eureka"
  
- VICTORY_POINTS_9363:0 "Fort Navarro"
+ VICTORY_POINTS_273:0 "Fort Navarro"
+ VICTORY_POINTS_9524:0 "Santa Rosa"
  
  ################################################
  #Southern California VPs

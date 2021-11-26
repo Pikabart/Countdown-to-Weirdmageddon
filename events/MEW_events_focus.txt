@@ -1135,7 +1135,7 @@ country_event = {
 		id = trade_ports.1
 		title = trade_ports.1.t
 		desc = trade_ports.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_mew_flag
 	
 		is_triggered_only = yes
 	
@@ -1158,6 +1158,11 @@ country_event = {
 						type = oil
 						amount = 16
 					}
+				}
+				add_equipment_to_stockpile = {
+					type = train_equipment
+					amount = 15
+					producer = CAL
 				}
 			}
 			CAL = {
@@ -1193,30 +1198,40 @@ country_event = {
 		option = {
 			name = trade_ports.2.a
 			ai_chance = { factor = 90 }
+				division_template = {
+					name = "Californian Expeditionaries"
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+						infantry = { x = 1 y = 0 }
+						
+					}
+				}
 			random_owned_controlled_state = {
 				prioritize = { 289 }
 				create_unit = {
-						division = "name = \"California Expeditionaries\" division_template = \"Conscript Brigade\" start_experience_factor = 0"
+						division = "name = \"Californian Expeditionaries\" division_template = \"Californian Expeditionaries\" start_experience_factor = 0"
 						owner = MEW
 				}
 				create_unit = {
-						division = "name = \"California Expeditionaries\" division_template = \"Conscript Brigade\" start_experience_factor = 0"
+						division = "name = \"Californian Expeditionaries\" division_template = \"Californian Expeditionaries\" start_experience_factor = 0"
 						owner = MEW
 				}
 				create_unit = {
-						division = "name = \"California Expeditionaries\" division_template = \"Conscript Brigade\" start_experience_factor = 0"
+						division = "name = \"Californian Expeditionaries\" division_template = \"Californian Expeditionaries\" start_experience_factor = 0"
 						owner = MEW
 				}
 				create_unit = {
-						division = "name = \"California Expeditionaries\" division_template = \"Conscript Brigade\" start_experience_factor = 0"
+						division = "name = \"Californian Expeditionaries\" division_template = \"Californian Expeditionaries\" start_experience_factor = 0"
 						owner = MEW
 				}
 				create_unit = {
-						division = "name = \"California Expeditionaries\" division_template = \"Conscript Brigade\" start_experience_factor = 0"
+						division = "name = \"Californian Expeditionaries\" division_template = \"Californian Expeditionaries\" start_experience_factor = 0"
 						owner = MEW
 				}
 				create_unit = {
-						division = "name = \"California Expeditionaries\" division_template = \"Conscript Brigade\" start_experience_factor = 0"
+						division = "name = \"Californian Expeditionaries\" division_template = \"Californian Expeditionaries\" start_experience_factor = 0"
 						owner = MEW
 				}
 			}

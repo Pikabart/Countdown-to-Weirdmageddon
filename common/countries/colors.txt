@@ -323,10 +323,10 @@ MIN = {
 	color = rgb { 204 229 255 }
 	color_ui = rgb { 204 229 255 }
 }
-MON = { 
-	color = rgb { 150 102 50 }
-	color_ui = rgb { 150 102 50 }
-}
+#MON = { 
+#	color = rgb { 150 102 50 }
+#	color_ui = rgb { 150 102 50 }
+#}
 
 
 

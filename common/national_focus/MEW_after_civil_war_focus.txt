@@ -1017,6 +1017,14 @@
 			}
 			331 = {
 				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			
+			}
+			331 = {
+				add_building_construction = {
 					type = supply_node
 					level = 1
 					province = 3491
@@ -1125,6 +1133,22 @@
 				value = 1
 			}
 			custom_effect_tooltip = "prog_opinion_up"
+			290 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			
+			}
+			274 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			
+			}
 			build_railway = {
 				path = { 8296 7035 1671 5683 3612 4746 1584 5267 3371 2652 5966 }
 			}

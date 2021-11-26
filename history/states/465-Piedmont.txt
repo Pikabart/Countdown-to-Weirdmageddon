@@ -9,7 +9,7 @@ state={
 		add_core_of = CAL
 		buildings = {
 			
-			infrastructure = 6 
+			infrastructure = 1 
 		}
 
 		victory_points = { 10701 5 }  #Pied

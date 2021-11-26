@@ -1,3 +1,33 @@
+#########################################
+# Update 11/25
+
+history/states
+
+#########################################
+# Update 11/24
+
+common/ai_areas
+common/ai_focuses
+common/ai_peace
+common/ai_strategy
+common/ai_strategy_plans
+common/countries
+common/scripted_triggers
+
+gfx/entities
+gfx/flags - ALL MEWNI FLAGS, ALL SIZES
+
+hisotry/states
+
+locs/english/
+loc/ --moved zzzguides files to outside english
+
+maps/railways
+maps/supply_nodes
+
+CtW_v0.MOD file -- new replace paths to remove errors
+
+#########################################
 # Update 11/23
 
 common/decisions

@@ -246,6 +246,14 @@ country_event = {
 			MEW = { transfer_state = 334 }
 			MEW = { transfer_state = 332 }
 			MEW = { transfer_state = 333 }
+			delete_unit_template_and_units = {
+				division_template = "Emergency Conscripts"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Californian Expeditionaries"
+				disband = no
+			}
 			
 			SPI = { transfer_state = 359 }
 			SPI = { transfer_state = 357 }
