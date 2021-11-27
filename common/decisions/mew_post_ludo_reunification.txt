@@ -4,7 +4,7 @@
 
 mew_post_ludo_reunification = {
 
-	mew_lud_force_ally = {
+	mew_luc_force_ally = {
 
 		icon = GFX_decision_icon_default
 		
@@ -21,7 +21,7 @@ mew_post_ludo_reunification = {
 		days_remove = 28
 
 		available = {
-		has_country_flag = forcing_spi
+		has_country_flag = forcing_luc
 			
 		}
 
@@ -30,12 +30,12 @@ mew_post_ludo_reunification = {
 		}
 
 		remove_effect = {	
-			add_to_faction = LUD
+			add_to_faction = LUC
 			
 		}
 		
 		ai_will_do = {
-			factor = 1			
+			factor = 15			
 		}
 	}
 	
@@ -70,7 +70,7 @@ mew_post_ludo_reunification = {
 		}
 		
 		ai_will_do = {
-			factor = 1			
+			factor = 15			
 		}
 	}
 	
@@ -105,7 +105,7 @@ mew_post_ludo_reunification = {
 		}
 		
 		ai_will_do = {
-			factor = 1			
+			factor = 15			
 		}
 	}
 	
@@ -140,7 +140,7 @@ mew_post_ludo_reunification = {
 		}
 		
 		ai_will_do = {
-			factor = 1			
+			factor = 15			
 		}
 	}
 	
@@ -175,7 +175,7 @@ mew_post_ludo_reunification = {
 		}
 		
 		ai_will_do = {
-			factor = 1			
+			factor = 15			
 		}
 	}
 

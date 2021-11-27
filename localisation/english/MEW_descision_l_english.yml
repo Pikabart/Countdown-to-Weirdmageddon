@@ -1,5 +1,23 @@
 ﻿l_english:
 
+#################################
+
+#OST SUPPLY LINE CREATION#
+
+#################################
+
+supplyline_construction:0 "Supplyline Creation"
+supplyline_construction_desc:0 "We will employ foreign workers can companies to build modernized supply lines for our war."
+
+construct_supply_284:0 "Supplyline Construction: Itchy Clearing"
+construct_supply_463:0 "Supplyline Construction: West Emily River"
+construct_supply_464:0 "Supplyline Construction: East Emily River"
+construct_supply_281:0 "Supplyline Construction: Pigeon Lookout"
+construct_supply_282:0 "Supplyline Construction: Richie's Creek"
+construct_supply_285:0 "Supplyline Construction: Pigeon Fjord"
+construct_supply_283:0 "Supplyline Construction: M-State 3"
+construct_supply_277:0 "Supplyline Construction: Forest of Probable Itchyness"
+
 ###################################################################################################
 ########A-RAT DESCISIONS#########
 ###################################################################################################
@@ -135,7 +153,7 @@ mew_prog_opinion_increase_1:0 "Employ Foreign Expertise"
 
 mew_post_ludo_reunification:0 "Reunification"
 mew_post_ludo_reunification_desc:0 ""
-mew_lud_force_ally:0 "Pressure the Lucitors"
+mew_luc_force_ally:0 "Pressure the Lucitors"
 mew_pig_force_ally:0 "Pressure the Pigeons"
 mew_pny_force_ally:0 "Pressure the Ponyheads"
 mew_spi_force_ally:0 "Pressure the Spiderbites"
@@ -143,7 +161,7 @@ mew_jag_force_ally:0 "Pressure the Jaggys"
 
 #################################
 
-#PEACEFUL SUPPRESSION DESCISIONS#
+#PEACEFUL SUPPRESSION DESCISIONS (UNUSED)#
 
 #################################
 
@@ -170,7 +188,7 @@ mew_peaceful_suppression_lower_work_hours_desc:0 "We can temprarily give our peo
 
 ##################################
 
-##HOSTILE SUPPRESSION DESCISIONS##
+##HOSTILE SUPPRESSION DESCISIONS(UNUSED)##
 
 ##################################
 

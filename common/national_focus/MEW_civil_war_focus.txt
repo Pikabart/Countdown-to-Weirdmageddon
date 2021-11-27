@@ -73,7 +73,9 @@
 		prerequisite = { focus = butterfly_front }
 		available = { has_war = no }
 		available = { country_exists = LUD }
-
+		ai_will_do = {
+			factor = 10
+		}
 	
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -138,7 +140,9 @@
 		prerequisite = { focus = mobilize_populace }
 		available = { has_war = no }
 		available = { country_exists = LUD }
-
+		ai_will_do = {
+			factor = 10
+		}
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -427,7 +431,7 @@
 		prerequisite = { focus = pull_all_strings }
 		available = { has_war = no }
 		available = { country_exists = LUD }
-
+		will_lead_to_war_with = LUD
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		

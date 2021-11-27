@@ -115,7 +115,7 @@
 		prerequisite = { focus = fate_of_butterfly_front }
 		mutually_exclusive = { focus = kick_out_tsr }
 		available = { TSR = { is_in_faction_with = MEW } }
-		
+
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
 		available_if_capitulated = yes
@@ -196,7 +196,7 @@
 			MEW = { owns_state = 342 }
 			JOH = { owns_state = 339 }
 		}
-		
+		will_lead_to_war_with = TSR
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
 		available_if_capitulated = yes

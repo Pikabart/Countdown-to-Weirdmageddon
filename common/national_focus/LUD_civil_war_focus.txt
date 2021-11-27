@@ -565,7 +565,7 @@
 		relative_position_id = levitato 
 		prerequisite = { focus = levitato }
 		available = { has_war = no }
-		
+		will_lead_to_war_with = MEW
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
 		available_if_capitulated = yes
@@ -575,6 +575,7 @@
 		declare_war_on = { type = annex_everything    target = MEW }
 		hidden_effect = {
 				news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 }
+				MEW = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
 				JOH = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
 				LUC = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
 				PIG = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
