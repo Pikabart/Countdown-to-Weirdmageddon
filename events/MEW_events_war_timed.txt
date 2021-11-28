@@ -165,6 +165,7 @@ country_event = {
 			OST = { transfer_state = 278 }
 			OST = { transfer_state = 427 }
 			MEW = { country_event = { id = ost_mew_surrender.2 days = 7 }}
+			clr_country_flag = ost_war_starting
 	
 	
 	}
@@ -246,6 +247,14 @@ country_event = {
 			MEW = { transfer_state = 334 }
 			MEW = { transfer_state = 332 }
 			MEW = { transfer_state = 333 }
+			delete_unit_template_and_units = {
+				division_template = "Emergency Conscripts"
+				disband = yes
+			}
+			delete_unit_template_and_units = {
+				division_template = "Californian Expeditionaries"
+				disband = no
+			}
 			
 			SPI = { transfer_state = 359 }
 			SPI = { transfer_state = 357 }

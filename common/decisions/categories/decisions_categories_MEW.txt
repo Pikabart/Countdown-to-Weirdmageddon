@@ -18,6 +18,28 @@ simple_category = {		#ID of category
 	}	
 	visible_when_empty = no
 }
+
+########################################################################################################
+#  Railroad creation
+#############################
+
+supplyline_construction = {
+	priority = 9	
+	icon = GFX_category_icon	
+	picture = 
+	
+	allowed = {
+		has_country_flag = ost_war_starting
+	}
+	visible = {
+		tag = MEW
+		has_country_flag = ost_war_starting
+
+	}
+	
+	visible_when_empty = no
+}
+
 ########################################################################################################
 #  ARAT and REC
 #############################
