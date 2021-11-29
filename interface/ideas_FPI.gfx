@@ -1,0 +1,38 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_FPI_cognito"
+		texturefile = "gfx/interface/ideas/fpi/idea_deep_state_dividen.dds"			
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_FPI_consequence"
+		texturefile = "gfx/interface/ideas/fpi/idea_fpi_center_multiverse.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FPI_division"
+		texturefile = "gfx/interface/ideas/fpi/idea_fpi_divided_AS.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_FPI_MI13"
+		texturefile = "gfx/interface/ideas/fpi/idea_mi13.dds"			
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}   #END OF FILE

@@ -6,17 +6,17 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_news_peace_arc_kerfuffle"
+		name = "GFX_news_peace_arc"
 		texturefile = "gfx/event_news_pictures/earth/news_event_peace_arc.dds"
 	}
 
 	spriteType = {
-		name = "GFX_news_usvseu_kerfuffle"
+		name = "GFX_news_usvseu"
 		texturefile = "gfx/event_news_pictures/earth/news_event_USvsEU.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_news_divided_kerfuffle"
+		name = "GFX_news_divided"
 		texturefile = "gfx/event_news_pictures/earth/news_event_divided.dds"
 	}
 	
@@ -28,6 +28,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_news_trembley_1"
 		texturefile = "gfx/event_news_pictures/earth/news_event_Trembley.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_news_norton_1"
+		texturefile = "gfx/event_news_pictures/earth/news_event_Norton.dds"
 	}
 	
 }

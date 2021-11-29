@@ -45,47 +45,9 @@ set_popularities = {
 	neutrality = 10
 }
 
-create_country_leader = {
-	name = "Stan Pines"
-	desc = "POLITICS_STAN_PINES_DESC"
-	picture = "Portrait_Stan_Pines.dds"
-	ideology = fascism_ideology #conservatism #liberalism
-}
+recruit_character = MYS_stan_pines
+recruit_character = MYS_mabel_pines
+recruit_character = MYS_wendy_corduroy
+recruit_character = MYS_soos_ramirez
+recruit_character = MYS_dipper_pines
 
-create_country_leader = {
-	name = "Mabel Pines"
-	desc = "That's the Mabel Promise!"
-	picture = "Portrait_Mabel_Pines.dds"
-	ideology = liberalism
-}
-
-create_country_leader = {
-	name = "Wendy Corduroy"
-	desc = "POLITICS_WENDY_CORDUROY_DESC"
-	picture = "Portrait_Wendy_Corduroy.dds"
-	ideology = anarchist_communism
-}
-
-create_country_leader = {
-	name = "'Soos' Ramirez"
-	desc = "POLITICS_SOOS_RAMIREZ_DESC"
-	picture = ""
-	ideology = moderatism
-}
-
-create_field_marshal = {# Stan Pines
-	name = "Stan Pines"
-	desc = ""
-	picture = "gfx/leaders/MYS/Portrait_Stan_Pines.dds"
-	traits = {
-		harsh_leader
-		organizer
-		trait_reckless
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 2
-	id = 1
-}
