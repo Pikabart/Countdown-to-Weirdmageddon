@@ -40,6 +40,13 @@ set_technology = {
 	
 }
 
+add_ideas = {
+	FPI_cognito
+	FPI_consequence
+	FPI_MI13
+	FPI_division
+}
+
 #oob = "GTF_2012"
 set_research_slots = 3
 set_convoys = 50

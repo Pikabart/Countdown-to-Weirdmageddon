@@ -210,7 +210,7 @@ news_event = { # Pre-Kerfuffle
 	id = kerfuffle_news.1
 	title = kerfuffle_news.1.t
 	desc = kerfuffle_news.1.d
-	picture = GFX_news_peace_arc_kerfuffle
+	picture = GFX_news_peace_arc
 	
 	major = no  # based on how it is truggered, it wil still happen even if a nation not related is played
 	is_triggered_only = yes
@@ -286,7 +286,7 @@ news_event = { #The Kerfuffle, All Earth Except Canada
 		trigger = {OR={tag=MEX}}
 	}
 	
-	picture = GFX_news_peace_arc_kerfuffle
+	picture = GFX_news_peace_arc
 	
 	major = no
 	is_triggered_only = yes
@@ -342,7 +342,7 @@ news_event = { # Cold War
 	id = kerfuffle_news.3
 	title = kerfuffle_news.3.t
 	desc = kerfuffle_news.3.d
-	picture = GFX_news_usvseu_kerfuffle
+	picture = GFX_news_usvseu
 	
 	major = no
 	is_triggered_only = yes
@@ -449,7 +449,7 @@ news_event = { #
 	id = kerfuffle_news.4
 	title = kerfuffle_news.4.t
 	desc = kerfuffle_news.4.d
-	picture = GFX_news_divided_kerfuffle
+	picture = GFX_news_divided
 	
 	major = no
 	is_triggered_only = yes
@@ -621,24 +621,9 @@ news_event = { #Norton becomes Cali Governor
 	title = west_election_news.3.t
 	desc = {
 		text = west_election_news.3.d
-		trigger = {NOT={tag=ORE}}
-		trigger = {NOT={tag=CAL}}
-		trigger = {NOT={tag=WAS}}
-	}
-	desc = {
-		text = west_election_news.3.d_a
-		trigger = {OR={tag=ORE}}
-	}
-	desc = {
-		text = west_election_news.3.d_b
-		trigger = {OR={tag=CAL}}
-	}
-	desc = {
-		text = west_election_news.3.d_c
-		trigger = {OR={tag=WAS}}
 	}
 	
-	picture = GFX_news_peace_arc_kerfuffle
+	picture = GFX_news_norton_1
 	
 	major = no
 	is_triggered_only = yes
@@ -683,6 +668,11 @@ news_event = { #Norton becomes Cali Governor
 		name = west_election_news.3.i
 		trigger = {	TAG = CAN}	
 	}
+	option = {
+		name = west_election_news.3.j
+		trigger = {	TAG = MYS}	
+	}
+	
 }
 
 news_event = { #The West unites againts Curtis

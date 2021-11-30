@@ -1,4 +1,34 @@
 #########################################
+# Update 11/29 B
+
+common/ideas
+common/nationa_focus
+
+events
+
+history/country
+
+locs/english
+#########################################
+# Update 11/29
+
+common/characters
+common/ideas
+common/nationa_focus
+
+events
+
+gfx/event_news_pictures/earth
+gfx/interface/idea/fpi
+gfx/interface/idea/mew
+
+history/country
+
+interface
+
+locs/english
+
+#########################################
 # Update 11/25
 
 history/states

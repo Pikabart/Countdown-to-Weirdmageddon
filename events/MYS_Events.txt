@@ -4,7 +4,7 @@
 
 add_namespace = mystery_shack
 add_namespace = mys_startup
-add_namespace = mystery_shack_TREMBLEY
+
 add_namespace = mystery_shack_boss_mabel
 add_namespace = mystery_shack_PR
 add_namespace = mystery_shack_PR_good
@@ -142,107 +142,6 @@ country_event = { #5
 	}
 }
 
-#############################################
-#chain event 6,7,8
-#############################################
-country_event = { #6
-	id = mystery_shack.6
-	title = mystery_shack.6.t 
-	desc = mystery_shack.6.d  
-	picture = GFX_report_event_mystery_shack #  change this later
-	
-	is_triggered_only = yes 
-	 
-	fire_only_once = yes     #Can't happen again
-	
-	immediate = {        
-	}
-	
-	option = { 
-		name = mystery_shack.6.a
-		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = mystery_shack.7 days = 1 }
-	}
-}
-country_event = { #7
-	id = mystery_shack.7
-	title = mystery_shack.7.t 
-	desc = mystery_shack.7.d  
-	picture = GFX_report_event_mystery_shack #  change this later
-	
-	is_triggered_only = yes   
-	 
-	fire_only_once = yes    
-	
-	immediate = {        
-	}
-	
-	option = { 
-		name = mystery_shack.7.a
-		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = mystery_shack.8 days = 1 }
-	}
-}
-country_event = { #8
-	id = mystery_shack.8
-	title = mystery_shack.8.t 
-	desc = mystery_shack.8.d  
-	picture = GFX_report_event_mystery_shack #  change this later
-	
-	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
-	
-	immediate = {        
-	}
-	
-	option = { 
-		name = mystery_shack.8.a
-		add_ideas = MYS_Twins_1
-		ai_chance = { factor = 100 }	# 100% AI choose this
-	}
-}
-
-########################################
-# mystery_shack_TREMBLEY EVENTS
-########################################
-
-country_event = { #
-	id = mystery_shack_TREMBLEY.1
-	title = mystery_shack_TREMBLEY.1.t 
-	desc = mystery_shack_TREMBLEY.1.d  
-	picture = GFX_report_event_mystery_shack #  change this later
-	
-	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
-	
-	immediate = {        
-	}
-	
-	option = { 
-		name = mystery_shack_TREMBLEY.1.a
-		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = mystery_shack_TREMBLEY.4 days = 1 }
-	}
-}
-
-country_event = { #
-	id = mystery_shack_TREMBLEY.4
-	title = mystery_shack_TREMBLEY.4.t 
-	desc = mystery_shack_TREMBLEY.4.d  
-	picture = GFX_report_event_mystery_shack #  change this later
-	
-	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
-	
-	immediate = {        
-	}
-	
-	option = { 
-		name = mystery_shack_TREMBLEY.4.a
-		ai_chance = { factor = 100 }	# 100% AI choose this
-		ORE = {	country_event = { id = ORE_TREMBLEY.1 days = 2 } }
-	}
-}
 
 ########################################
 # mystery_shack_boss_mabel

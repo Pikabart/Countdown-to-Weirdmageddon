@@ -1,0 +1,65 @@
+##########IDEAS and ADVISORS for the FPI  ##############
+###NOTE: GFX calls tied to advisors_MYS.gfx and ideas_MYS.gfx ####
+	
+ideas = { #Entire file
+
+	######################################################
+	#National Spirits
+	######################################################
+	country = {
+		##############
+		FPI_cognito = {
+			picture =  GFX_idea_FPI_cognito 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				
+			}
+		}
+	
+		FPI_consequence = {
+			picture =  GFX_idea_FPI_consequence
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				
+			}
+		}
+		
+		FPI_MI13 = {
+			picture =  GFX_idea_FPI_MI13
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+				
+			}
+		}
+
+		FPI_division = {
+			picture =  GFX_idea_FPI_division 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+				
+			}
+		}
+
+
+	
+	}
+}
