@@ -5,6 +5,7 @@ on_actions = {
 			MEW = {
 				country_event = { id = mewni_startup.1 } # Event code is in MEW_events_focus
 				set_country_flag = ost_war_starting
+				activate_mission = ost_war_countdown
 			}
 		}
 		effect = {

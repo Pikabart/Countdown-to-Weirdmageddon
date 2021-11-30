@@ -56,11 +56,11 @@ country_event = {
 	option = {
 		name = mina_return.1.a
 		ai_chance = { factor = 90 }
-		MEW_mina_loveberry = {
-			create_corps_commander = {
+		add_corps_commander_role = {
+			character = { MEW_mina_loveberry }
 			traits = { war_hero old_guard }
 			skill = 5
-			id = 9
+			#legacy_id = 9
 			is_female = yes
 
 			attack_skill = 4
@@ -68,7 +68,6 @@ country_event = {
 			planning_skill = 3
 			logistics_skill = 3
 			}
-		}
 	}
 	
 }
@@ -166,7 +165,7 @@ country_event = {
 			OST = { transfer_state = 427 }
 			MEW = { country_event = { id = ost_mew_surrender.2 days = 7 }}
 			clr_country_flag = ost_war_starting
-	
+
 	
 	}
 }

@@ -399,6 +399,9 @@
 		cost = 1
 		relative_position_id = reunification_process 
 		prerequisite = { focus = reunification_process }
+		bypass = { PIG = { is_in_faction_with = MEW } }
+		bypass = { NOT = { country_exists = PIG } }
+
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -419,6 +422,9 @@
 		relative_position_id = contact_pigeon 
 		prerequisite = { focus = contact_pigeon }
 		mutually_exclusive = { focus = contact_pigeon_comp }
+		bypass = { PIG = { is_in_faction_with = MEW } }
+		bypass = { NOT = { country_exists = PIG } }
+
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -444,6 +450,9 @@
 		relative_position_id = contact_pigeon 
 		prerequisite = { focus = contact_pigeon }
 		mutually_exclusive = { focus = contact_pigeon_strong }
+		bypass = { PIG = { is_in_faction_with = MEW } }
+		bypass = { NOT = { country_exists = PIG } }
+
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -474,6 +483,9 @@
 		focus = contact_pigeon_strong 
 		focus = contact_pigeon_comp 
 		}
+		bypass = { PIG = { is_in_faction_with = MEW } }
+		bypass = { NOT = { country_exists = PIG } }
+
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -493,6 +505,8 @@
 		cost = 1
 		relative_position_id = reunification_process 
 		prerequisite = { focus = reunification_process }
+		bypass = { PNY = { is_in_faction_with = MEW } }
+
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -513,6 +527,7 @@
 		relative_position_id = contact_ponyhead
 		prerequisite = { focus = contact_ponyhead }
 		mutually_exclusive = { focus = contact_ponyhead_comp }
+		bypass = { PNY = { is_in_faction_with = MEW } }
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -538,6 +553,8 @@
 		relative_position_id = contact_ponyhead 
 		prerequisite = { focus = contact_ponyhead }
 		mutually_exclusive = { focus = contact_ponyhead_strong }
+		bypass = { PNY = { is_in_faction_with = MEW } }
+
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -568,6 +585,8 @@
 		focus = contact_ponyhead_strong 
 		focus = contact_ponyhead_comp 
 		}
+		bypass = { PNY = { is_in_faction_with = MEW } }
+
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -587,6 +606,8 @@
 		cost = 1
 		relative_position_id = reunification_process 
 		prerequisite = { focus = reunification_process }
+		bypass = { SPI = { is_in_faction_with = MEW } }
+
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -660,6 +681,7 @@
 		prerequisite = { focus = contact_spiderbite }
 		mutually_exclusive = { focus = contact_spiderbite_comp }
 		available = { has_global_flag = spi_loyal }
+		bypass = { SPI = { is_in_faction_with = MEW } }
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -686,6 +708,7 @@
 		prerequisite = { focus = contact_spiderbite }
 		mutually_exclusive = { focus = contact_spiderbite_strong }
 		available = { has_global_flag = spi_loyal }
+		bypass = { SPI = { is_in_faction_with = MEW } }
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -716,6 +739,7 @@
 		focus = contact_spiderbite_strong 
 		focus = contact_spiderbite_comp 
 		}
+		bypass = { SPI = { is_in_faction_with = MEW } }
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -735,7 +759,8 @@
 		cost = 1
 		relative_position_id = reunification_process 
 		prerequisite = { focus = reunification_process }
-		
+		bypass = { JAG = { is_in_faction_with = MEW } }
+
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
 		available_if_capitulated = yes
@@ -800,6 +825,7 @@
 		prerequisite = { focus = contact_jaggy }
 		mutually_exclusive = { focus = contact_jaggy_comp }
 		available = { JAG = { has_civil_war = no } }
+		bypass = { JAG = { is_in_faction_with = MEW } }
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -825,8 +851,9 @@
 		relative_position_id = contact_jaggy
 		prerequisite = { focus = contact_jaggy }
 		mutually_exclusive = { focus = contact_jaggy_strong }
-		available = { JAG = { has_civil_war = no } }
-		
+		available = { JAG = { has_civil_war = no } }		
+		bypass = { JAG = { is_in_faction_with = MEW } }
+
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
 		available_if_capitulated = yes
@@ -856,7 +883,8 @@
 		focus = contact_jaggy_strong 
 		focus = contact_jaggy_comp 
 		}
-		
+		bypass = { JAG = { is_in_faction_with = MEW } }
+
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
 		available_if_capitulated = yes
