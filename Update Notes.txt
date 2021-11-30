@@ -1,4 +1,15 @@
 #########################################
+# Update 11/29 B
+
+common/ideas
+common/nationa_focus
+
+events
+
+history/country
+
+locs/english
+#########################################
 # Update 11/29
 
 common/characters

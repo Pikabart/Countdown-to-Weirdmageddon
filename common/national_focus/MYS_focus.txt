@@ -172,17 +172,16 @@
 		available_if_capitulated = no
 
 		select_effect = {
-			set_country_flag = all_lock_focus  #FLAG STRICTLY FOR MAKING UNCANCELABLE FOCUS 
+			#set_country_flag = all_lock_focus  #FLAG STRICTLY FOR MAKING THE FOCUS UNCANCELABLE
+			country_event = { id = awaits_journal.1 days = 1 }
 		}
 
 		completion_reward = {
-			country_event = mystery_shack.6
 			hidden_effect={
-			set_country_flag = mys_invest  #Change			
-			set_country_flag = mys_public_time 		#Change
-			###set_country_flag = mys_rock_the_mabel	#Change
-		
-			mark_focus_tree_layout_dirty = yes # Will reset three and make invisable branches appear
+				set_country_flag = mys_invest  #Change			
+				set_country_flag = mys_public_time 		#Change
+				###set_country_flag = mys_rock_the_mabel	#Change
+				mark_focus_tree_layout_dirty = yes # Will reset three and make invisable branches appear
 			}
 		}
 		
@@ -453,7 +452,7 @@
 		}
 	}
 	
-	focus = { #4 
+	focus = { #   Plaid 1
 		id = MYS_dipper_s1_1
 		icon = GFX_goal_generic_major_war
 		x = -1
@@ -478,32 +477,7 @@
 		}
 	}
 	
-	focus = { #15
-		id = MYS_dipper_s1_2
-		icon = GFX_goal_generic_major_war
-		x = 1
-		y = 1
-		prerequisite = { focus = MYS_dipper_s1 }
-		relative_position_id = MYS_dipper_s1
-		
-		available = {}		
-		bypass = {}
-		cost = 4 # (#)x7days 
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#country_event = mystery_shack.
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	focus = { #16
+	focus = { #  Plaid 2
 		id = MYS_dipper_s1_3
 		icon = GFX_goal_generic_major_war
 		x = 0
@@ -528,32 +502,7 @@
 		}
 	}
 	
-	focus = { #17
-		id = MYS_dipper_s1_4
-		icon = GFX_goal_generic_major_war
-		x = 0
-		y = 1
-		prerequisite = { focus = MYS_dipper_s1_2 }
-		relative_position_id = MYS_dipper_s1_2
-		
-		available = {}		
-		bypass = {}
-		cost = 4 # (#)x7days 
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#country_event = mystery_shack.
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = { #18
+	focus = { #  Plaid 3
 		id = MYS_dipper_s1_5
 		icon = GFX_goal_generic_major_war
 		x = 0
@@ -578,6 +527,64 @@
 		}
 	}
 	
+	focus = { #    
+		id = MYS_dipper_s1_2
+		icon = GFX_goal_generic_major_war
+		x = 1
+		y = 1
+		prerequisite = { focus = MYS_dipper_s1 }
+		relative_position_id = MYS_dipper_s1
+		
+		available = {}		
+		bypass = {}
+		cost = 4 # (#)x7days 
+
+		select_effect = {  
+			country_event = { id = dipper_plaid.1 days = 10 }
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	focus = { #17
+		id = MYS_dipper_s1_4
+		icon = GFX_goal_generic_major_war
+		x = 0
+		y = 1
+		prerequisite = { focus = MYS_dipper_s1_2 }
+		relative_position_id = MYS_dipper_s1_2
+		
+		available = {}		
+		bypass = {}
+		cost = 4 # (#)x7days 
+
+		select_effect = {  
+			country_event = { id = dipper_plaid.3 days = 10 }
+		}
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 	focus = { #19
 		id = MYS_dipper_s1_6
 		icon = GFX_goal_generic_major_war
@@ -585,6 +592,10 @@
 		y = 1
 		prerequisite = { focus = MYS_dipper_s1_4 }
 		relative_position_id = MYS_dipper_s1_4
+		
+		select_effect = {  
+			country_event = { id = dipper_plaid.5 days = 10 }
+		}
 		
 		available = {}		
 		bypass = {}
@@ -595,7 +606,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			
 		}
 		
 		ai_will_do = {

@@ -1,6 +1,6 @@
 ﻿capital = 27
 
-country_event = { id = mystery_shack_TREMBLEY.1 days = 65 }
+country_event = { id = awaits_TREMBLEY.1 days = 65 }
 
 set_research_slots = 2
 set_convoys = 10
