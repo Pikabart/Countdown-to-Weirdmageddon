@@ -78,12 +78,12 @@ country_event = {
 		ai_chance = { factor = 90 }
 		add_war_support = 0.05
 		army_experience = 5
-		add_tech_bonus = {
+		add_doctrine_cost_reduction = {
 			name = land_doc_bonus
-			bonus = 1.0
-			uses = 1
+			cost_reduction = 0.5
+			uses = 2
 			category = land_doctrine
-			}
+		}
 			hidden_effect = {
 			random_owned_controlled_state = {
 				prioritize = { 266 }
@@ -242,9 +242,9 @@ country_event = {
 		name = exterminators.1.a
 		ai_chance = { factor = 90 }
 		army_experience = 5
-		add_tech_bonus = {
+		add_doctrine_cost_reduction = {
 			name = land_doc_bonus
-			bonus = 0.5
+			cost_reduction = 0.5
 			uses = 1
 			category = land_doctrine
 		}
@@ -280,12 +280,12 @@ country_event = {
 		name = utilize_army.1.a
 		ai_chance = { factor = 90 }
 		army_experience = 10
-		add_tech_bonus = {
-		name = land_doc_bonus
-		bonus = 0.5
-		uses = 1
-		category = land_doctrine
-			}
+		add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+			cost_reduction = 0.5
+			uses = 1
+			category = land_doctrine
+		}
 		#GIVE GENERAL TRAITS ONCE WE MAKE THE GENERALS AND STUFF
 		add_stability = -0.1
 	}
@@ -305,12 +305,12 @@ country_event = {
 		name = controlled_burning.1.a
 		ai_chance = { factor = 90 }
 		army_experience = 5
-		add_tech_bonus = {
+		add_doctrine_cost_reduction = {
 		name = land_doc_bonus
-		bonus = 0.5
-		uses = 1
-		category = land_doctrine
-			}
+			cost_reduction = 0.5
+			uses = 1
+			category = land_doctrine
+		}
 		269 = {
 			damage_building = {
 				type = infrastructure
