@@ -4,26 +4,22 @@ on_actions = {
 		effect = {
 			MEW = {
 				country_event = { id = mewni_startup.1 } # Event code is in MEW_events_focus
-				set_country_flag = ost_war_starting
-				activate_mission = ost_war_countdown
 			}
-		}
-		effect = {
 			MYS = {
 				country_event = { id = mys_startup.1 } # Event code is in MYS_events
 			}
-		}
-		effect = {
-			#if = {
-			#	limit = {
-			#		NOT = {
-			#			original_tag = MYS
-			#			original_tag = MEW
-			#		}
-			#	}
-			#ROOT = { country_event = { id = game_startup.1 } }# Event code is in news_events
+			#effect = {
+				#if = {
+				#	limit = {
+				#		NOT = {
+				#			original_tag = MYS
+				#			original_tag = MEW
+				#		}
+				#	}
+				#ROOT = { country_event = { id = game_startup.1 } }# Event code is in news_events
+				#}
 			#}
-		}
+		}	
 	}
 	
 } ## END OF FILE ##

@@ -44,13 +44,12 @@ ost_war_countdown_category = {
 	priority = 10	
 	icon = GFX_category_icon	
 	picture = 
-	
+		
 	allowed = {
-		has_country_flag = ost_war_starting
+		tag = MEW
 	}
 	visible = {
 		has_country_flag = ost_war_starting
-
 	}
 	
 	visible_when_empty = no
