@@ -165,7 +165,8 @@ country_event = {
 			OST = { transfer_state = 427 }
 			MEW = { country_event = { id = ost_mew_surrender.2 days = 7 }}
 			clr_country_flag = ost_war_starting
-
+			remove_mission = ost_war_countdown
+			remove_decision = ost_war_countdown
 	
 	}
 }

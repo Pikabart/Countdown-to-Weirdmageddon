@@ -62,7 +62,26 @@ country_event = {
 	option = {
 		name = mewni_startup.1.a
 		ai_chance = { factor = 90 }
+		hidden_effect = {
+			country_event = mewni_startup.2
 		}
+	}
+}
+country_event = {
+	id = mewni_startup.2
+	title = mewni_startup.2.t
+	desc = mewni_startup.2.d
+	picture = GFX_report_event_gimme
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mewni_startup.2.a
+		ai_chance = { factor = 90 }
+		set_country_flag = ost_war_starting #DOING THIS WITH ON EFFECT DOESNT WORK, OST_WAR COUNTDOWN IS VISIBLE FOR ALL NATIONS
+		activate_mission = ost_war_countdown
+	}
 }
 
 country_event = {
