@@ -8,8 +8,12 @@ ideas = { #Entire file
 	######################################################
 	country = {
 	
-		MYS_Twins_1 = {
-			picture = GFX_idea_MYS_Twins_1 #GFX_NWHS_1 #Does Not Work
+		##############################
+		# Twins Relationship Rating IDeas
+		##############################
+		
+		MYS_Twins_1 = { # Togetehr Forever
+			picture = GFX_idea_MYS_Twins_1 
 			
 			allowed = {tag = MYS}
 			available = {}#Until Ford returns
@@ -22,10 +26,58 @@ ideas = { #Entire file
 				consumer_goods_factor = -0.10
 			}
 		}
+		
+		MYS_Twins_2 = { # Through Thick or Thin
+			picture = GFX_idea_MYS_Twins_2 
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				political_power_factor = 0.1
+				
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		MYS_Twins_3 = { # Fraternal Fracture
+			picture = GFX_idea_MYS_Twins_3 
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				political_power_factor = -0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		MYS_Twins_4 = { # Twin Division
+			picture = GFX_idea_MYS_Twins_4 
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				political_power_factor = -0.2
+				stability_weekly_factor = -0.005 #gain .5% eveyr week
+				consumer_goods_factor = 0.10
+			}
+		}
+		
+		
+		
 		##############
+		#Stan's trustfullness rating
 		##############
 		MYS_NWHS_1 = {
-			#picture = GFX_idea_NWHS_1 #GFX_NWHS_1 #Does Not Work
+			#picture = GFX_idea_NWHS_1 
 			#Make GFX call is GFX_idea_*idea name*
 			
 			allowed = {tag = MYS}
@@ -609,136 +661,7 @@ ideas = { #Entire file
 ################################################################################################################
 
 	political_advisor = {
-		
-		#############
-		soos_handy_man_advisor = { 
-		# For in-game name, see localisation\advisor_l_english.yml
-		
-			picture = soos_the_handy_man # See interface\advisors.gfx
-			
-			allowed = {
-				original_tag = MYS #make advisor just for this country
-				#NOT = { OR = { tag = GER tag = ENG tag = SOV original_tag = FRA tag = ITA tag = JAP tag = USA tag = AST tag = RAJ tag = CAN tag = SAF tag = CZE tag = ROM tag = CHI tag = MAN tag = MEX tag = HOL original_tag = SPR } }			
-				#prevent advisor to be one for other countries (for country already have their own)
-			}
-
-			available = {	
-				has_completed_focus = MYS_soos_1 #Will not be selectable until condition met
-			}
-			
-			traits = { handy_man } # See common\country_leader\00_traits.txt
-
-			on_add = {
-				#country_event = political.1
-			}
-
-			do_effect = {
-				NOT = {
-					#has_government = communism
-				}
-			}
-
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		
-		#############
-		wendy_battle_cashier_1_advisor = {  #For early game Wendy
-			picture = wendy_1
-			allowed = {
-				original_tag = MYS
-			}
-			available = {
-				has_completed_focus = MYS_wendy_1 #Will not be selectable until condition met
-			}
-			traits = { 
-				battle_cashier_1 
-			}
-			on_add = {
-				#country_event = mystery_shack.2
-			}
-			do_effect = {
-				NOT = {
-				}
-			}
-			ai_will_do = {
-				factor = 0 
-			}
-		}
-		
-		###############
-		#wendy_rebel_girl_1_advisor = {  #Use for late game weirdmageddon
-		#	picture = wendy_2
-		#	allowed = {
-		#		original_tag = MYS
-		#	}
-		#	available = {
-		#		#has_completed_focus = MYS_wendy_1
-		#	}
-		#	visible = {
-		#		#has_completed_focus = MYS_wendy_1
-		#	}
-		#	traits = { 
-		#		rebel_girl_1 
-		#	}
-		#	on_add = {
-		#		#country_event = mystery_shack.2
-		#	}
-		#	do_effect = {
-		#		NOT = {
-		#		}
-		#	}
-		#	ai_will_do = {
-		#		factor = 0
-		#	}
-		#}
-		
-		###########
-		dipper_explorer_1_advisor = {
-			picture = dipper_1
-			allowed = {
-				original_tag = MYS
-			}
-			available = {
-				has_completed_focus = MYS_the_pine_twins
-			}
-			traits = { 
-				explorer_1 
-			}
-			on_add = {
-			}
-			do_effect = {
-				NOT = {
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
-		
-		##################
-		mabel_multi-skilled_1_advisor = {
-			picture = mabel_1
-			allowed = {
-				original_tag = MYS
-			}
-			available = {
-				has_completed_focus = MYS_the_pine_twins
-			}
-			traits = { 
-				multi-skilled_1 
-			}
-			on_add = {
-			}
-			do_effect = {
-				NOT = {
-				}
-			}
-			ai_will_do = {
-				factor = 0
-			}
-		}
+	
 		
 		##############
 		gompers_head_of_intelligence = {

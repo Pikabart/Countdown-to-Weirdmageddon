@@ -552,6 +552,23 @@ ideas = {
 				
 			}
 		}
+		
+		mew_hard_tacks = {
+			picture = GFX_idea_mew_hard_tacks
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				army_org_factor = 0.05
+				attrition = 0.01
+				no_supply_grace = 24
+				army_morale_factor = -0.05
+			}
+		}
 
 		###############################
 		#Special MYS event idea for MEW

@@ -2,7 +2,7 @@
 spriteTypes = {
 
 	spriteType = {
-			name = "GFX_idea_soos_the_handy_man"
+			name = "GFX_idea_advisor_soos"
 			texturefile = "gfx/interface/advisors/MYS/advisor_soos.dds"
 		}
 	spriteType = {
