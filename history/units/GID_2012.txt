@@ -21,6 +21,18 @@ division_template = {
 	}
 }
 
+division_template = {
+	name = "Gideon Bot"
+	division_names_group = GID_INFB_03
+
+	regiments = {
+		mechanized = { x = 0 y = 0 } 
+		mechanized = { x = 0 y = 1 }
+		mechanized = { x = 1 y = 0 }
+		mechanized = { x = 1 y = 1 }
+	}
+}
+
 units = {
 	
 	##################
