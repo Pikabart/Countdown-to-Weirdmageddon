@@ -27,7 +27,7 @@ mewni_arat = {
 			}
 		}
 		ai_will_do = {	
-			factor = 2			
+			factor = 280			
 		}
 	}
 	
@@ -52,7 +52,7 @@ mewni_arat = {
 		}
 		days_remove = 9
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 2			
+			factor = 280	
 		}
 	}
 	
@@ -131,7 +131,7 @@ mewni_arat = {
 			country_event = A-RAT_parade.1 
 		}
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 40			
 		}
 	}
 	
@@ -196,7 +196,7 @@ mewni_arat = {
 			country_event = A-RAT_recruitment.1 
 		}
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 40			
 		}
 	}
 	
@@ -582,7 +582,7 @@ mewni_arat = {
 			country_event = A-RAT_magic_operation.1 
 		}
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 280			
+			factor = 560			
 		} 
 	}
 	

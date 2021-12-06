@@ -4,7 +4,6 @@
 	country = {
 		factor = 0
 		modifier = {
-			tag = LUD
 		}
 	}
 	
@@ -14,7 +13,7 @@
 
 	focus = {
 		id = get_our_bearings_lud
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_bearings
 		x = 10
 		y = 0
 		cost = 1
@@ -32,7 +31,7 @@
 	
 		focus = {
 		id = solidify_control
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_demand_territory
 		x = 0
 		y = 1
 		cost = 2			
@@ -64,7 +63,7 @@
 	
 	focus = {
 		id = local_recruitment
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_production
 		x = -1
 		y = 1
 		cost = 2			
@@ -93,7 +92,7 @@
 	
 	focus = {
 		id = loyalist_front
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_national_unity
 		x = 1
 		y = 1
 		cost = 2			
@@ -116,7 +115,7 @@
 	
 	focus = {
 		id = more_rats
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 2
 		cost = 2			
@@ -477,7 +476,7 @@
 	
 	focus = {
 		id = better_rats
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_demand_territory
 		x = -1
 		y = 1
 		cost = 2			
@@ -498,7 +497,7 @@
 	
 	focus = {
 		id = levitato
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
 		x = 0
 		y = 2
 		cost = 2			
@@ -518,7 +517,7 @@
 	
 	focus = {
 		id = pol_power_lud_1
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
 		x = 1
 		y = 1
 		cost = 2			
@@ -538,7 +537,7 @@
 	
 	focus = {
 		id = pol_power_lud_2
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
 		x = -1
 		y = 1
 		cost = 2			
@@ -558,7 +557,7 @@
 	
 	focus = {
 		id = strike_first_lud
-		icon = GFX_goal_generic_allies_build_infantry
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 2
 		cost = 4			

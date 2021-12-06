@@ -1,0 +1,12 @@
+spriteTypes = {	
+
+	####
+	# Ludo Focus
+	####
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ludo_youre_going_to_the_sky"
+	texturefile = "gfx/interface/goals/LUD/focus_ludo_youre_going_to_the_sky.dds"			
+	}	
+
+} ### End Bracket

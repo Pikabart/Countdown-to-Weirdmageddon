@@ -466,7 +466,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			retire_character = MEW_mina_loveberry
+			remove_advisor_role = {
+			  character = "MEW_mina_loveberry"
+			  slot = political_advisor
+			}
 		
 		}
 	}
