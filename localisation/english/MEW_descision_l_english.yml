@@ -10,7 +10,7 @@ ost_war_countdown_category:0 "Stalemate Countdown"
 ost_war_countdown_category_desc:0 "There is a certain point where war is just not worth it any more. This sounds like some sort of philisophical debate, but no we've actually calculated it with cold hard numbers. January 11th 2015 is the perfect point in which a war in the south will not be worth the investment. We must capitulate the Ostro-Starvarians before then."
 ost_war_countdown:0 "Days until January 11th 2015"
 conquer_ost:0 "Conquer the @OST§YOstro Starvarian Empire§!"
-ost_war_countdown_tooltip:0 "§YIf still at war:§! White Peace with @OST§YOstro Starvarian Empire§! Add stability §R-10%§! Unlock new focus tree. §YIf at peace:§! §G+1%§! Stability"
+ost_war_countdown_tooltip:0 "§YIf still at war:§! White Peace with @OST§YOstro Starvarian Empire§! Add stability §R-10%§!. §YIf at peace:§! §G+1%§! Stability"
 
 supplyline_construction:0 "Supplyline Creation"
 supplyline_construction_desc:0 "We will employ foreign workers can companies to build modernized supply lines for our war."

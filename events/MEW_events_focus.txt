@@ -703,7 +703,7 @@ country_event = {
 	
 	option = {
 		name = MEW_reform_economy_4.1.a
-		ai_chance = { factor = 90 }
+		ai_chance = { factor = 10 }
 		add_ideas = MEW_public_works
 		add_ideas = MEW_shame_of_foreign_aid		
 	}

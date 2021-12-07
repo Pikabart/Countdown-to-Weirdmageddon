@@ -390,6 +390,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1703;2339;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
 1703;5860;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
 
+# Itchy Clearing - Outer Cornfields 
+5707;7256;sea;11451;-1;-1;-1;-1;;Itchy Clearing - Outer Cornfields
 
 # Port Emily Adjacencies
 5224;7902;sea;10770;-1;-1;-1;-1;;Port Emily

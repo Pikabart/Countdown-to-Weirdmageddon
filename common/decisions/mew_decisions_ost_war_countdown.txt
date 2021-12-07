@@ -17,6 +17,7 @@ ost_war_countdown_category = {
 		timeout_effect = {
 		custom_effect_tooltip = "ost_war_countdown_tooltip"
 		hidden_effect = {
+		set_country_flag = conquer_ost
 		IF = {
 			limit = { MEW = { has_war_with = OST} }
 				white_peace = {
