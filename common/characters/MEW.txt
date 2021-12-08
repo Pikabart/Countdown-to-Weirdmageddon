@@ -24,6 +24,15 @@ characters = {
 		}
 		
 	}
+	MEW_ludo = {
+		name = "King Ludo Avarius" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEW/hoi4_portrait_ludo_mew.dds"
+			}
+		}
+	}
 	MEW_council_marvin = {
 		name = "Council Marvin" 
 		desc = ""

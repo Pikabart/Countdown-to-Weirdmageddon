@@ -42,6 +42,7 @@ add_namespace = ludo_confront_5
 add_namespace = ludo_confront_6
 add_namespace = ludo_confront_7
 add_namespace = ludo_confront_8
+add_namespace = rescue_art
 add_namespace = jaggy_collapse		  
 
 add_namespace = trade_ports
@@ -1084,6 +1085,7 @@ country_event = {
 			ai_chance = { factor = 90 }
 			hidden_effect = {
 				news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }
+				country_event = { id = rescue_art.1 days = 28 }
 				JOH = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
 				if = {
 					limit = {
@@ -1114,6 +1116,71 @@ country_event = {
 				
 			}
  
+		}
+
+	}
+	
+	country_event = {
+		id = rescue_art.1
+		title = rescue_art.1.t
+		desc = rescue_art.1.d
+		picture = GFX_report_event_marco_and_resistance
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = rescue_art.1.a
+			ai_chance = { factor = 90 }
+			add_manpower = -4
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -4
+			}
+			hidden_effect = {
+				country_event = { id = rescue_art.2 days = 28 }
+			
+			}
+		}
+		option = {
+			name = rescue_art.2.a
+			ai_chance = { factor = 90 }
+		}
+
+	}
+	
+	country_event = {
+		id = rescue_art.2
+		title = rescue_art.2.t
+		desc = rescue_art.2.d
+		picture = GFX_report_event_worried_ruberiot
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = rescue_art.3.a
+			ai_chance = { factor = 90 }
+			add_manpower = 7
+			hidden_effect = {
+				country_event = { id = rescue_art.3 days = 28 }
+				
+			}
+
+		}
+
+	}
+	country_event = {
+		id = rescue_art.3
+		title = rescue_art.3.t
+		desc = rescue_art.3.d
+		picture = GFX_report_event_song_day_good
+	
+		is_triggered_only = yes
+	
+		option = {
+			name = rescue_art.4.a
+			ai_chance = { factor = 90 }
+			LUD = { add_ideas = MEW_scathing_parody }
+
 		}
 
 	}

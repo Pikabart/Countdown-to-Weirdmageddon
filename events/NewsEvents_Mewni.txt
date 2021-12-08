@@ -113,12 +113,14 @@ news_event = { #The Split of Mewni
 			LUD = { transfer_state = 332 }
 			LUD = { transfer_state = 333 }
 			set_cosmetic_tag = MEW
-			create_country_leader = {
-				name = "Queen Moon of House Butterfly"
-				desc = "placeholder"
-				picture = "hoi4_portrait_moon.dds"
+			MEW_moon_butterfly = {
+			  promote_character = {
+				Ideology = oligarchism
+			  }
+			}
+			set_country_leader_portrait = {
 				ideology = oligarchism
-
+				portrait = gfx/leaders/MEW/hoi4_portrait_moon_war.dds
 			}
 		}
 	}
@@ -275,12 +277,14 @@ news_event = { #The Ludo Coup
 	option = {
 		name = mewni_ludo_coup_news_event.1.a
 		trigger = {	TAG = MEW} #mewni
-		create_country_leader = {
-			name = "King Ludo of House Avarius"
-			desc = "placeholder"
-			picture = "hoi4_portrait_ludo_mew.dds"
-			ideology = oligarchism
-
+		add_country_leader_role = {
+			Character = MEW_ludo
+			Promote_leader = yes
+			Country_leader = {
+				ideology = oligarchism
+				expire = “2040.1.1.1”
+			traits = {}
+			}
 		}
 		set_cosmetic_tag = LUD
 	}

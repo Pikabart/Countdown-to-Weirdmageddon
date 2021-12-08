@@ -40,6 +40,7 @@ add_to_faction = SPI
 add_to_faction = JAG
 
 recruit_character = MEW_moon_butterfly
+recruit_character = MEW_ludo
 recruit_character = MEW_council_marvin
 recruit_character = MEW_workers_council
 recruit_character = MEW_manfred
