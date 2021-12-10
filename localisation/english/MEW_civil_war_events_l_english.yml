@@ -42,6 +42,19 @@ uneasy_peace.1.t:0 "The Uneasy Peace"
 uneasy_peace.1.d:0 "Along the border between Ludo's Loyalists and Moon's resistance, guards on each side exchange tense glances and stares. Most soldiers on both sides have never seen combat, the most one could have ever seen would be a bar brawl. Almost all are hesitant to break the 300 years of peace, and both sides don't want to be labeled as the one who broke it."
 uneasy_peace.1.a:0 "Good, it gives us more time to prepare."
 
+rescue_art.1.t:0 "Covert Operations"
+rescue_art.1.d:0 "A question has come up to whether or not we should attempt a covert operation to free 4 people and bring them over to our side of the war: Ruberiot the Songstrel of Mewni and writer of Star's Song Day song, "Foolduke," "Mime Girl," and Marco Diaz of Earth. These 4 people are the self proclaimed "Resistance," but they have all been locked up in Ludo's Dungeon.\n\nRuberiot, Foolduke, and Mime Girl's artistic talents could be useful assets in increasing troop morale. While Marco Diaz holds no immediate value, Star Butterfly insists that he also be freed."
+rescue_art.1.a:0 "They could be useful, send in a squad"
+rescue_art.2.a:0 "They will be freed when Ludo is defeated"
+
+rescue_art.2.t:0 "Four Freed"
+rescue_art.2.d:0 "The covert operation to free Ruberiot, Foolduke, Mime Girl, and Marco Diaz has succeeded! Although there was one casualty on our side, all four people of interest are alive and have arrived in Port Festivia! Ruberiot seems inspired to write a song about his experiences."
+rescue_art.3.a:0 "Come on, put on the music!"
+
+rescue_art.3.t:0 "Scathing Parody"
+rescue_art.3.d:0 "Ruberiot has come out with a new song which makes fun of Ludo. It makes fun of everything from his rat army to his appearance and obedience to his hand."
+rescue_art.4.a:0 "Roasted!"
+
 ludo_surrender.2.t:0 "End Of The Open Beta"
 ludo_surrender.2.d:0 "With Ludo Defeated, Moon Butterfly looks out at the mess before her. The 300 year hegemony has finally been broken, the remnants warping the Kingdom of Mewni into the Butterfly Front. Moon will have to use everything at her disposal to reunite the Kingdom, and even that might not be enough. The road ahead will be long and hard, and that's not even mentioning the interdimensional forces that might intervene. The future, however certain and predictable it seemed to be before, is now a pitch black void.\n\nYou have reached the end of the Open Beta. We hope you enjoyed v0.01 of Countdown to Weirdmaggedon! You can follow development, ask questions, give feedback, or even sign up to join the dev team in our discord! (Link on the Steam Page)\n\nWe hope to see you there!"
 ludo_surrender.2.a:0 "Aw, that's it? I loved this mod!"

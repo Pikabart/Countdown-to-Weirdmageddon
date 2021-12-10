@@ -177,6 +177,11 @@ spriteTypes = {
 		name = "GFX_report_event_mew_flag"
 		texturefile = "gfx/event_country_pictures/MEW/report_event_mew_flag.dds"
 	}
+
+	spriteType = { # Marco and Resistance, chained
+		name = "GFX_report_event_marco_and_resistance"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_marco_and_resistance.dds"
+	}
 	
 	spriteType = { # Thumbnail
 		name = "GFX_report_event_thumbnail"
