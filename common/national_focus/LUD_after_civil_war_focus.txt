@@ -1,0 +1,350 @@
+﻿focus_tree = {
+	id = ludo_after_civil_war_focus
+	
+	country = {
+		factor = 0
+		modifier = { #Ludo only has this at game start for testing purposes
+			add = 10
+			tag = LUD
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+
+	focus = {
+		id = lud_triumph_over_the_butterflys
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 10
+		y = 0
+		cost = 1
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = -0.25
+		}
+	}
+	
+	focus = {
+		id = lud_memory_of_the_butterflys
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = lud_triumph_over_the_butterflys 
+		prerequisite = { focus = lud_triumph_over_the_butterflys }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			country_event = lud_butterfly_memory_event.1
+		}
+	}
+	focus = {
+		id = lud_legit_regime
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = lud_memory_of_the_butterflys 
+		prerequisite = { focus = lud_memory_of_the_butterflys }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = 0.02
+		}
+	}
+	focus = {
+		id = lud_no_tolerance
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = -4
+		y = 1
+		cost = 1
+		relative_position_id = lud_legit_regime 
+		prerequisite = { focus = lud_legit_regime }
+		mutually_exclusive = { focus = lud_reparations }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = 0.05
+			add_manpower = -650
+		}
+	}
+	focus = {
+		id = lud_punish_sympathetic_civilians
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = lud_no_tolerance 
+		prerequisite = { focus = lud_no_tolerance }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = 0.15
+			add_manpower = -1300
+		}
+	}
+	focus = {
+		id = lud_summer_camps
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = lud_punish_sympathetic_civilians 
+		prerequisite = { focus = lud_punish_sympathetic_civilians }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = 0.5
+			add_ideas = lud_summer_camps
+			add_manpower = -1300
+		}
+	}
+	focus = {
+		id = lud_reparations
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = -2
+		y = 1
+		cost = 1
+		relative_position_id = lud_legit_regime 
+		prerequisite = { focus = lud_legit_regime }
+		mutually_exclusive = { focus = lud_no_tolerance }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = lud_reparations
+				days = 720
+			}
+		}
+	}
+	focus = {
+		id = lud_benefits
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = lud_reparations 
+		prerequisite = { focus = lud_reparations }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = lud_loyalist_benefits
+				days = 720
+			}
+		}
+	}
+	focus = {
+		id = lud_reintroduce_mewmans_in_government
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = lud_benefits 
+		prerequisite = { focus = lud_benefits }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = lud_national_anthem
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = lud_legit_regime 
+		prerequisite = { focus = lud_legit_regime }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = 0.04
+		}
+	}
+	focus = {
+		id = lud_law_reform
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = lud_national_anthem 
+		prerequisite = { focus = lud_national_anthem }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = 0.04
+		}
+	}
+	focus = {
+		id = lud_avarius_education
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = lud_law_reform 
+		prerequisite = { focus = lud_law_reform }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = 0.04
+			add_ideas = propaganda_education
+		}
+	}
+	focus = {
+		id = lud_fate_of_loyalist_front
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 2
+		y = 1
+		cost = 1
+		relative_position_id = lud_legit_regime 
+		prerequisite = { focus = lud_legit_regime }
+		bypass = { is_in_faction_with = SPI }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = lud_support_spi
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 0
+		y = 2
+		cost = 1
+		relative_position_id = lud_fate_of_loyalist_front 
+		prerequisite = { focus = lud_fate_of_loyalist_front }
+		bypass = { is_in_faction_with = SPI }
+		mutually_exclusive = { focus = lud_total_hegemon }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			send_equipment = {
+				equipment = infantry_equipment
+				amount = 1000
+				target = SPI
+			}
+		}
+	}
+	focus = {
+		id = lud_total_hegemon
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 2
+		y = 2
+		cost = 1
+		relative_position_id = lud_fate_of_loyalist_front 
+		prerequisite = { focus = lud_fate_of_loyalist_front }
+		bypass = { is_in_faction_with = SPI }
+		mutually_exclusive = { focus = lud_support_spi }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			declare_war_on = {
+				target = SPI
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = lud_people_tolerate
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = lud_avarius_education 
+		prerequisite = { focus = lud_avarius_education }
+		prerequisite = { focus = lud_total_hegemon focus = lud_support_spi }
+		prerequisite = { focus = lud_summer_camps focus = lud_reintroduce_mewmans_in_government }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = lud_look_outwards
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = lud_people_tolerate 
+		prerequisite = { focus = lud_people_tolerate }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+
+
+}
