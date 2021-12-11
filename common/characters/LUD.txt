@@ -1,0 +1,27 @@
+characters = {
+	LUD_ludo = {
+		name = "Ludo Avarius" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEW/hoi4_portrait_ludo_mew.dds"
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+	LUD_blank = {
+		name = "None" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MEW/hoi4_portrait_empty.dds"
+			}
+		}
+	}
+
+}
+	

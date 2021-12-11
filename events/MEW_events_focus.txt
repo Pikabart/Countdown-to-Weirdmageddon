@@ -388,9 +388,18 @@ country_event = {
 	option = {
 		name = controlled_burning.2.a
 		ai_chance = { factor = 90 }
-		UKN = { transfer_state = 393 }
+		LUD = {
 		hidden_effect = {
+			add_country_leader_role = {
+				Character = LUD_blank
+				Promote_leader = yes
+				Country_leader = {
+					ideology = oligarchism
+					expire = “2040.1.1.1”
+				}
+			}
 			MEW = { country_event = { id = controlled_burning.3 days = 28 } }
+		}
 		}
 	}
 }

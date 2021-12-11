@@ -8,6 +8,7 @@ add_namespace = mina_return
 add_namespace = ost_mew_surrender
 add_namespace = ludo_surrender
 add_namespace = tsr_v_mew_hidden
+add_namespace = ludo_win
 
 ###############################################################################################################
 
@@ -210,6 +211,89 @@ country_event = {
 ##################
 
 country_event = {
+    id = ludo_win.1
+    title = ludo_win.1.t
+    desc = ludo_win.1.
+    
+    picture = GFX_report_event_solaria_legacy
+    hidden = yes
+        
+    trigger = {
+        original_tag = LUD
+        MEW = { surrender_progress > 0.99 }
+        JOH = { surrender_progress > 0.99 }
+        has_country_flag = ludo_civil_war_start
+    }
+    
+    fire_only_once = yes
+    
+        
+    immediate = {
+    name = ludo_win.1.a
+        white_peace = {
+            tag = MEW
+            message = "The Butterflys have Fallen"
+        }
+			LUD = { transfer_state = 287 }
+			LUD = { transfer_state = 330 }
+            LUD = { transfer_state = 350 }
+            LUD = { transfer_state = 347 }
+			LUD = { transfer_state = 346 }
+			LUD = { transfer_state = 348 }
+			LUD = { transfer_state = 459 }
+			LUD = { transfer_state = 356 }
+			LUD = { transfer_state = 456 }
+			LUD = { transfer_state = 344 }
+			LUD = { transfer_state = 455 }
+			LUD = { transfer_state = 454 }
+			LUD = { transfer_state = 276 }
+			LUD = { transfer_state = 270 }
+			LUD = { transfer_state = 299 }
+			LUD = { transfer_state = 284 }
+			LUD = { transfer_state = 430 }
+			LUD = { transfer_state = 323 }
+			LUD = { transfer_state = 324 }
+			LUD = { transfer_state = 271 }
+			LUD = { transfer_state = 290 }
+			LUD = { transfer_state = 462 }
+			LUD = { transfer_state = 274 }
+			LUD = { transfer_state = 460 }
+			LUD = { transfer_state = 289 }
+			LUD = { transfer_state = 461 }
+			LUD = { transfer_state = 337 }
+			LUD = { transfer_state = 340 }
+			LUD = { transfer_state = 335 }
+			LUD = { transfer_state = 275 }
+			LUD = { transfer_state = 336 }
+			LUD = { transfer_state = 341 }
+			LUD = { transfer_state = 338 }
+			LUD = { transfer_state = 388 }
+			LUD = { transfer_state = 402 }
+			LUD = { transfer_state = 403 }
+			LUD = { transfer_state = 404 }
+			if = {
+				limit = { MEW = { owns_state = 342 } }
+				LUD = { transfer_state = 342 }
+			}
+			if = {
+				limit = { JOH = { owns_state = 339 } }
+				LUD = { transfer_state = 339 }
+			}
+			if = {
+				limit = { MEW = { owns_state = 273 } }
+				LUD = { transfer_state = 273 }
+			}
+
+            delete_unit_template_and_units = {
+                division_template = "Rats"
+                disband = no
+            }    
+    
+    }
+}
+
+
+country_event = {
 	id = ludo_surrender.1
 	title = ludo_surrender.1.t
 	desc = ludo_surrender.1.
@@ -219,8 +303,9 @@ country_event = {
 		
 	trigger = {
 		original_tag = MEW
-		LUD = { surrender_progress > 0.85 }
+		LUD = { surrender_progress > 0.99 }
 		has_country_flag = ludo_civil_war_start
+		
 	}
 	
 	fire_only_once = yes

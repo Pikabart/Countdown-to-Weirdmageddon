@@ -22,12 +22,8 @@ set_popularities = {
 	fascism = 10
 }
 
-create_country_leader = {
-	name = "King Ludo of House Avarius"
-	desc = "placeholder"
-	picture = "hoi4_portrait_ludo.dds"
-	ideology = oligarchism
-}
+recruit_character = LUD_ludo
+recruit_character = LUD_blank
 
 create_field_marshal = {
 	name = "King Ludo of House Avarius"

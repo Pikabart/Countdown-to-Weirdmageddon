@@ -47,6 +47,56 @@ ideas = {
 				
 			}
 		}
+		
+		propaganda_education = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = LUD }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_weekly = 0.002
+				research_speed_factor = -0.05
+			}
+		}
+		lud_reparations = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = LUD }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_weekly = 0.002
+				consumer_goods_factor = 0.05
+				industry_repair_factor = 0.25
+			}
+		}
+		lud_loyalist_benefits = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = LUD }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_weekly = 0.002
+				consumer_goods_factor = 0.1
+			}
+		}
+		lud_summer_camps = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = LUD }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_weekly = 0.002
+				consumer_goods_factor = 0.1
+			}
+		}
 
  				
 

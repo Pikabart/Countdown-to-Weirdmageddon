@@ -98,7 +98,13 @@ news_event = { #The Split of Mewni
 	option = {
 		name = mewni_kingdom_split_news_event.1.a
 		trigger = {	TAG = MEW} #mewni
-		hidden_effect = {			
+		hidden_effect = {
+			LUD = { 
+				remove_country_leader_role = {
+					character = LUD_blank
+					ideology = oligarchism
+				}
+			}
 			LUD = { transfer_state = 266 }
 			LUD = { transfer_state = 331 }
 			LUD = { transfer_state = 269 }
@@ -112,6 +118,8 @@ news_event = { #The Split of Mewni
 			LUD = { transfer_state = 334 }
 			LUD = { transfer_state = 332 }
 			LUD = { transfer_state = 333 }
+			LUD = { set_capital = 266 }
+			UKN = { transfer_state = 393 }
 			set_cosmetic_tag = MEW
 			MEW_moon_butterfly = {
 			  promote_character = {
