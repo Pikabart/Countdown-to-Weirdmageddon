@@ -191,7 +191,7 @@ country_event = {    #
 	option = { 
 		name = mystery_shack_PR.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-	}
+	} 
 }
 
 country_event = {    # 

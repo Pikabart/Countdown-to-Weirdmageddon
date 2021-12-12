@@ -80,3 +80,8 @@ OKL = "countries/US-Oklahoma.txt"
 TEX = "countries/US-Texas.txt"
 UTH = "countries/US-Utah.txt"
 WYM = "countries/US-Wyoming.txt"
+
+#Dimensional Barriers
+ROM = "countries/D-Barrier.txt"
+WAL = "countries/D-Realm of Magic.txt"
+ZZZ = "countries/D-Classified.txt"

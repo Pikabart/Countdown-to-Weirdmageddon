@@ -1,4 +1,27 @@
 #########################################
+# Update 12/11
+
+common/countries
+common/ideas
+common/national_focus
+
+events
+
+gfx/flags
+gfx/interface
+gfx/leaders/UFC,ZZZ,WAL,ROM,EPI
+gfx/loading_screen
+
+history/countries
+history/states
+
+interface
+
+locs/english/
+
+MOD file
+
+#########################################
 # Update 11/29 B
 
 common/ideas

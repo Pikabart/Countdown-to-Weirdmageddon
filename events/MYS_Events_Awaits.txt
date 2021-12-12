@@ -250,7 +250,7 @@ country_event = { #
 	}
 }
 	
-country_event = { #
+country_event = { # 
 	id = dipper_plaid.6
 	title = dipper_plaid.6.t
 	desc = {
