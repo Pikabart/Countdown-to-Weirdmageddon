@@ -17,7 +17,11 @@ country_event = {
 		ai_chance = { factor = 90 }
 		add_state_core = 456
 		add_stability = -0.1
-	
+		custom_effect_tooltip = toffee_influence_tooltip
+		add_to_variable = {
+			var = toffee_influence
+			value = 1
+		}
 	}
 	option = {
 		name = lud_butterfly_memory_event.2.a
@@ -48,6 +52,10 @@ country_event = {
 		add_state_core = 276
 		add_state_core = 270
 		add_stability = -0.3
-	
+		custom_effect_tooltip = toffee_influence_tooltip_minus
+		add_to_variable = {
+			var = toffee_influence
+			value = -1
+		}
 	}
 }

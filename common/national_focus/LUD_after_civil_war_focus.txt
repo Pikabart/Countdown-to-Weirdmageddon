@@ -3,11 +3,10 @@
 	
 	country = {
 		factor = 0
-		modifier = { #Ludo only has this at game start for testing purposes
-			add = 10
-			tag = LUD
-		}
 	}
+	
+	continuous_focus_position = { x = 1250 y = 0 } 
+	continuous_focus_position = { x = 1250 y = 0 } 
 	
 	default = no
 	reset_on_civilwar = no
@@ -15,7 +14,7 @@
 
 	focus = {
 		id = lud_triumph_over_the_butterflys
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_ludo_and_toffee
 		x = 10
 		y = 0
 		cost = 1
@@ -27,12 +26,16 @@
 
 		completion_reward = {
 			add_stability = -0.25
+			set_variable = {
+				var = toffee_influence
+				value = 0
+			}
 		}
 	}
 	
 	focus = {
 		id = lud_memory_of_the_butterflys
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_lud_moon_alive_question
 		x = 0
 		y = 1
 		cost = 1
@@ -50,7 +53,7 @@
 	}
 	focus = {
 		id = lud_legit_regime
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_legit
 		x = 0
 		y = 1
 		cost = 1
@@ -68,7 +71,7 @@
 	}
 	focus = {
 		id = lud_no_tolerance
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_ludo_no_tolerance
 		x = -4
 		y = 1
 		cost = 1
@@ -88,7 +91,7 @@
 	}
 	focus = {
 		id = lud_punish_sympathetic_civilians
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_punish_civillians
 		x = 0
 		y = 1
 		cost = 1
@@ -107,7 +110,7 @@
 	}
 	focus = {
 		id = lud_summer_camps
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_ludo_summer_camp
 		x = 0
 		y = 1
 		cost = 1
@@ -127,7 +130,7 @@
 	}
 	focus = {
 		id = lud_reparations
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_ludo_purple_reparations
 		x = -2
 		y = 1
 		cost = 1
@@ -145,11 +148,16 @@
 				idea = lud_reparations
 				days = 720
 			}
+			custom_effect_tooltip = toffee_influence_tooltip
+			add_to_variable = {
+				var = toffee_influence
+				value = 1
+			}
 		}
 	}
 	focus = {
 		id = lud_benefits
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_purple_benefits
 		x = 0
 		y = 1
 		cost = 1
@@ -170,7 +178,7 @@
 	}
 	focus = {
 		id = lud_reintroduce_mewmans_in_government
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_ludo_purple_mewmans_in_gov
 		x = 0
 		y = 1
 		cost = 1
@@ -188,7 +196,7 @@
 	}
 	focus = {
 		id = lud_national_anthem
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_ludo_choir
 		x = 0
 		y = 1
 		cost = 1
@@ -206,7 +214,7 @@
 	}
 	focus = {
 		id = lud_law_reform
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_ludo_law_reform
 		x = 0
 		y = 1
 		cost = 1
@@ -224,7 +232,7 @@
 	}
 	focus = {
 		id = lud_avarius_education
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_ludo_education
 		x = 0
 		y = 1
 		cost = 1
@@ -243,13 +251,13 @@
 	}
 	focus = {
 		id = lud_fate_of_loyalist_front
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_ludo_fate_of_loyalist_front
 		x = 2
 		y = 1
 		cost = 1
 		relative_position_id = lud_legit_regime 
 		prerequisite = { focus = lud_legit_regime }
-		bypass = { is_in_faction_with = SPI }
+		bypass = { NOT = { is_in_faction_with = SPI } }
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
@@ -262,13 +270,13 @@
 	}
 	focus = {
 		id = lud_support_spi
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_ludo_purple_support_spi
 		x = 0
 		y = 2
 		cost = 1
 		relative_position_id = lud_fate_of_loyalist_front 
 		prerequisite = { focus = lud_fate_of_loyalist_front }
-		bypass = { is_in_faction_with = SPI }
+		bypass = { NOT = { is_in_faction_with = SPI } }
 		mutually_exclusive = { focus = lud_total_hegemon }
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
@@ -282,17 +290,21 @@
 				amount = 1000
 				target = SPI
 			}
+			add_to_variable = {
+				var = toffee_influence
+				value = 1
+			}
+			custom_effect_tooltip = toffee_influence_tooltip
 		}
 	}
 	focus = {
 		id = lud_total_hegemon
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_ludo_total_hegemon
 		x = 2
 		y = 2
 		cost = 1
 		relative_position_id = lud_fate_of_loyalist_front 
 		prerequisite = { focus = lud_fate_of_loyalist_front }
-		bypass = { is_in_faction_with = SPI }
 		mutually_exclusive = { focus = lud_support_spi }
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
@@ -301,6 +313,7 @@
 
 
 		completion_reward = {
+			dismantle_faction = yes
 			declare_war_on = {
 				target = SPI
 				type = annex_everything
@@ -308,8 +321,8 @@
 		}
 	}
 	focus = {
-		id = lud_people_tolerate
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		id = lud_look_outwards
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 0
 		y = 1
 		cost = 1
@@ -328,13 +341,151 @@
 		}
 	}
 	focus = {
-		id = lud_look_outwards
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
-		x = 0
+		id = lud_pig_conquer
+		icon = GFX_goal_generic_political_pressure
+		x = 3
 		y = 1
 		cost = 1
-		relative_position_id = lud_people_tolerate 
-		prerequisite = { focus = lud_people_tolerate }
+		relative_position_id = lud_look_outwards 
+		prerequisite = { focus = lud_look_outwards }
+		mutually_exclusive = { focus = lud_pig_puppet }
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = 0.05
+			declare_war_on = {
+				target = PIG
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = lud_pig_puppet
+		icon = GFX_goal_generic_political_pressure
+		x = 1
+		y = 1
+		cost = 1
+		relative_position_id = lud_look_outwards 
+		prerequisite = { focus = lud_look_outwards }
+		mutually_exclusive = { focus = lud_pig_conquer }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = 0.05
+			declare_war_on = {
+				target = PIG
+				type = puppet_wargoal_focus
+			}
+			add_to_variable = {
+				var = toffee_influence
+				value = 1
+			}
+			custom_effect_tooltip = toffee_influence_tooltip
+		}
+	}
+	focus = {
+		id = lud_pny_conquer
+		icon = GFX_goal_generic_political_pressure
+		x = -3
+		y = 1
+		cost = 1
+		relative_position_id = lud_look_outwards 
+		prerequisite = { focus = lud_look_outwards }
+		mutually_exclusive = { focus = lud_pny_puppet }
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = 0.05
+			declare_war_on = {
+				target = PNY
+				type = annex_everything
+			}
+		}
+	}
+	focus = {
+		id = lud_pny_puppet
+		icon = GFX_goal_generic_political_pressure
+		x = -1
+		y = 1
+		cost = 1
+		relative_position_id = lud_look_outwards 
+		prerequisite = { focus = lud_look_outwards }
+		mutually_exclusive = { focus = lud_pny_conquer }
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = 0.05
+			declare_war_on = {
+				target = PNY
+				type = puppet_wargoal_focus
+			}
+			add_to_variable = {
+				var = toffee_influence
+				value = 1
+			}
+			custom_effect_tooltip = toffee_influence_tooltip
+		}
+	}
+	focus = {
+		id = lud_ludo_branch
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = -1
+		y = 2
+		cost = 1
+		relative_position_id = lud_pny_puppet 
+		prerequisite = { focus = lud_pny_puppet focus = lud_pny_conquer }
+		prerequisite = { focus = lud_pig_puppet focus = lud_pig_conquer }
+		mutually_exclusive = { focus = lud_toffee_branch }
+		available = {
+			check_variable = {
+				var = toffee_influence
+				value = 2
+				compare = less_than_or_equals
+			}
+		}
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = lud_toffee_branch
+		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		x = 3
+		y = 2
+		cost = 1
+		relative_position_id = lud_pny_puppet 
+		prerequisite = { focus = lud_pny_puppet focus = lud_pny_conquer }
+		prerequisite = { focus = lud_pig_puppet focus = lud_pig_conquer }
+		mutually_exclusive = { focus = lud_ludo_branch }
+		available = {
+			check_variable = {
+				var = toffee_influence
+				value = 2
+				compare = greater_than
+			}
+		}
 		
 		search_filters = {  FOCUS_FILTER_RESEARCH }
 		
