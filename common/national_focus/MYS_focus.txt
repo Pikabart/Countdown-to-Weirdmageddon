@@ -1,4 +1,4 @@
-﻿focus_tree = {
+﻿focus_tree = { 
 
 	id = mystery_shack_focus
 	
@@ -1872,7 +1872,7 @@ focus = {
 		
 		ai_will_do = {factor = 1}
 }
-
+ 
 focus = { 
 		id = MYS_ship_4
 		icon = GFX_goal_focus_heart_in_hand

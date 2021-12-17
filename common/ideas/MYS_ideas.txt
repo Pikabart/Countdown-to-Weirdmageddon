@@ -440,7 +440,7 @@ ideas = { #Entire file
 			allowed = {tag = MYS}
 			available = {}#Until Ford returns
 			cancel = {}#When Ford returns
-			allowed_civil_war = {always = no}
+			allowed_civil_war = {always = no} 
 			
 			modifier = {
 				political_power_factor = 0.5

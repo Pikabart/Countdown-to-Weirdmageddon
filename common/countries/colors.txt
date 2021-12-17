@@ -312,7 +312,7 @@ ARK = {
 }
 OKL = { 
 	color = rgb { 255 160 160 }
-	color_ui = rgb { 255 160 160 }
+	color_ui = rgb { 255 160 160 } 
 }
 #-------------------------------
 KAN = { 
@@ -329,4 +329,16 @@ MIN = {
 #}
 
 
-
+#Dimensional Barriers
+ROM = { 
+	color = rgb { 255 255 224 }
+	color_ui = rgb { 255 255 224 }
+}
+WAL = { 
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
+ZZZ = { 
+	color = rgb { 90 90 90 }
+	color_ui = rgb { 90 90 90 }
+}
