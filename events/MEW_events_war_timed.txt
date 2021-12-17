@@ -288,6 +288,12 @@ country_event = {
                 division_template = "Rats"
                 disband = no
             }    
+			LUD = {
+				load_focus_tree = {
+				tree = ludo_after_civil_war_focus
+				keep_completed = yes
+				}
+			}
     
     }
 }
