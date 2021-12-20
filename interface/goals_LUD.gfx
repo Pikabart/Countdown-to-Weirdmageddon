@@ -68,5 +68,13 @@ spriteTypes = {
 	name = "GFX_goal_focus_ludo_total_hegemon"
 	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_ludo_total_hegemon.dds"			
 	}
+	SpriteType = {
+	name = "GFX_goal_focus_ludo"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_ludo.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_toffee"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_toffee.dds"			
+	}
 
 } ### End Bracket

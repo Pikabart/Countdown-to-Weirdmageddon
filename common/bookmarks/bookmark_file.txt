@@ -236,6 +236,19 @@ bookmarks = {
 				
 			}
 		}
+		"LUD"={
+			history = "LUD_ANOTHER_DIMENSION_DESC"
+			ideology = neutrality
+			
+			ideas = {
+			}
+			focuses = {
+				lud_triumph_over_the_butterflys
+				lud_ludo_branch
+				lud_toffee_branch
+				
+			}
+		}
 		
 		"---"={
 			history = "OTHER_ANOTHER_DIMENSION_DESC"

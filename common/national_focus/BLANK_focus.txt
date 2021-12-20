@@ -11,6 +11,10 @@
 			add = 100 # 100% UKN get focus, 0% everyone else, so basicly gurrenteed
 			tag = UKN
 		}
+		modifier = {
+			add = 100 # 100% LUD get focus, 0% everyone else, so basicly gurrenteed
+			tag = LUD
+		}
 	}
 	
 	default = no
