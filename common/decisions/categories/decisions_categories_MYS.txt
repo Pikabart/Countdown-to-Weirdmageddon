@@ -9,7 +9,7 @@ MYS_boss_mabel = {
 	picture = GFX_decision_category_boss_mabel
 	
 	allowed = { always = yes }
-	visible = { has_country_flag = mys_the_bet }
+	visible = { has_country_flag = mys_the_bet_d }
 	
 	visible_when_empty = yes
 }

@@ -332,7 +332,7 @@ country_event = {    # Council
 	id = mystery_shack_PR.4
 	title = mystery_shack_PR.4.t 
 	desc = mystery_shack_PR.4.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_post_card #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -350,7 +350,7 @@ country_event = {    # Council
 	}
 	option = { 
 		name = mystery_shack_PR.4.b
-		add_political_power = -50
+		add_political_power = -100
 		swap_ideas = {
 			add_idea = MYS_PR_blackmail
 			remove_idea = MYS_PR_start

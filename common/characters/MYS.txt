@@ -1,18 +1,20 @@
 characters = {
 	MYS_stan_pines = {
 		name = "Stan Pines" 
-		desc = POLITICS_STAN_PINES_DESC
+		
 		portraits = {
 			civilian = {
 				large = "gfx/leaders/MYS/Portrait_Stan_Pines.dds"
 			}
 		}
 		country_leader = {
+			desc = "POLITICS_STAN_PINES_DESC"
 			ideology = fascism_ideology
 			expire = "2040.1.1.1"
 			id = -1
 		}
 		field_marshal = {
+			desc = "MILITARY_STAN_PINES_DESC"
 			traits = { harsh_leader trickster trait_reckless }
 			skill = 1
 
@@ -141,7 +143,7 @@ characters = {
 		}
 		advisor={
 			slot = political_advisor
-			idea_token = dipper_1
+			idea_token = advisor_dipper_1
 			allowed = {
 				original_tag = MYS
 			}
@@ -155,6 +157,36 @@ characters = {
 		}
 	}
 	
+	MYS_gompers_goat = {
+		name = "Gompers the Goat" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "GFX_idea_gompers_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_gompers_1
+			allowed = {
+				original_tag = MYS
+			}
+			available = {
+				OR = {
+					has_intelligence_agency = yes			
+					has_completed_focus = MYS_investment
+				}
+			}
+			traits = { spy_goat_1 } 
+			ai_will_do = {
+				factor = 40
+				modifier = {
+					has_intelligence_agency = no
+					factor = 0
+				}
+			}
+		}
+	}
 
 }
 	
