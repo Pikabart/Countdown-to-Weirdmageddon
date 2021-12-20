@@ -1,4 +1,4 @@
-﻿capital = 27
+﻿capital = 27 
 
 country_event = { id = awaits_TREMBLEY.1 days = 65 }
 

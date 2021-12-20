@@ -1,6 +1,20 @@
 state={
 	id=6
 	name="STATE_6"
+	history {
+		owner = ROM
+		add_core_of = ROM
+		buildings = {
+			2455 = {
+				naval_base = 2
+				coastal_bunker = 2
+			}
+			4968 = { 
+				naval_base = 2
+				coastal_bunker = 2
+			}	
+		}
+	}
 	provinces={
 		2455 4968 
 	}

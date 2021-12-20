@@ -1,6 +1,10 @@
 state={
 	id=17
 	name="STATE_17"
+	history {
+		owner = WAL
+		add_core_of = WAL
+	}
 	provinces={
 		462 496 779 1535 2639 3314 3731 5284 6239 6271 
 	}

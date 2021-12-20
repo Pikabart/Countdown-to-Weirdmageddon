@@ -2,6 +2,20 @@
 state={
 	id=2
 	name="STATE_2"
+	history {
+		owner = WAL
+		add_core_of = WAL
+		buildings = {
+			3797 = {
+				naval_base = 2
+				coastal_bunker = 2
+			}
+			3976 = {
+				naval_base = 2
+				coastal_bunker = 2
+			}	
+		}
+	}
 	provinces={
 		3797 3976
 	}
