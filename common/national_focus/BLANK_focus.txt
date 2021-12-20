@@ -12,6 +12,10 @@
 			tag = UKN
 		}
 		modifier = {
+			add = 100 # LUDO
+			tag = LUD
+		}
+		modifier = {
 			add = 100 # Realm of Magic
 			tag = ROM
 		}

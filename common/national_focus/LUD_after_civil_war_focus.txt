@@ -444,7 +444,7 @@
 	}
 	focus = {
 		id = lud_ludo_branch
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_ludo
 		x = -1
 		y = 2
 		cost = 1
@@ -471,7 +471,7 @@
 	}
 	focus = {
 		id = lud_toffee_branch
-		icon = GFX_goal_focus_ludo_youre_going_to_the_sky
+		icon = GFX_goal_focus_toffee
 		x = 3
 		y = 2
 		cost = 1

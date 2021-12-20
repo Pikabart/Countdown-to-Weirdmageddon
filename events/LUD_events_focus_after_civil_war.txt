@@ -37,7 +37,7 @@ country_event = {
 	
 	}
 	option = {
-		name = lud_butterfly_memory_event.2.a
+		name = lud_butterfly_memory_event.3.a
 		ai_chance = { factor = 90 }
 		add_state_core = 456
 		add_state_core = 348
