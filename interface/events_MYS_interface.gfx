@@ -27,6 +27,35 @@ spriteTypes = {
 		name = "GFX_report_event_stan_on_phone"
 		texturefile = "gfx/event_country_pictures/MYS/report_event_call.dds"
 	}
+
+	#########################
+	
+	spriteType = { # Finding Journal 3
+		name = "GFX_report_event_finding_journal_3"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_finding_journal_3.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_norman"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_norman.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_evidence"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_evidence.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_gnome_marriage"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_gnome_marriage.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_twins"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_twins.dds"
+	}
+	
+	##########################
 	
 	spriteType = { # Stan in front of the portal
 		name = "GFX_report_event_stan_portal"
@@ -58,6 +87,28 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MYS/report_event_still_standing_stan.dds"
 	}
 	
+	############################
+	
+	spriteType = { # 
+		name = "GFX_report_event_silly_1"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_silly_1.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_solve_mystery"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_solve_mystery.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_silly_2"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_silly_2.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_frozen_trembley"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_frozen_trembley.dds"
+	}
+	
 	spriteType = { # post card
 		name = "GFX_report_event_post_card"
 		texturefile = "gfx/event_country_pictures/MYS/report_event_post_card.dds"
@@ -72,6 +123,26 @@ spriteTypes = {
 		name = "GFX_report_event_trembley_defiant"
 		texturefile = "gfx/event_country_pictures/MYS/report_event_trembley_defiant.dds"
 	}
+	
+	############################
+	
+	spriteType = { # 
+		name = "GFX_report_event_forest"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_forest.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_admiring_wendy"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_admiring_wendy.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_mailbox"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_mailbox.dds"
+	}
+	
+	
+	#####################
 	
 	spriteType = { # Our Man Stan
 		name = "GFX_report_event_our_man_stan"

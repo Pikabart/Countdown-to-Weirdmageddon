@@ -4,8 +4,8 @@ country_event = { id = awaits_TREMBLEY.1 days = 65 }
 
 set_research_slots = 2
 set_convoys = 10
-set_stability = 0.70
-set_war_support = 0.70
+set_stability = 0.50
+set_war_support = 0.30
 
 # Starting tech
 set_technology = {
@@ -50,4 +50,5 @@ recruit_character = MYS_mabel_pines
 recruit_character = MYS_wendy_corduroy
 recruit_character = MYS_soos_ramirez
 recruit_character = MYS_dipper_pines
+recruit_character = MYS_gompers_goat
 

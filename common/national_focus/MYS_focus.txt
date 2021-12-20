@@ -165,7 +165,7 @@
 		
 		available = {}		
 		bypass = {}
-		cost = 1 # (#)x7days 
+		cost = 2 # (#)x7days 
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -241,13 +241,15 @@
 		
 		available = {}		
 		bypass = {}
-		cost = 4 # (#)x7days 
+		cost = 3 # (#)x7days 
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_war_support = 0.05
+			add_command_power = 50
 			custom_effect_tooltip = "MYS_stantastic_effect"
 		}
 		
@@ -425,7 +427,7 @@
 ##################################################################################################################
 	focus = { #13
 		id = MYS_dipper_s1
-		icon = GFX_goal_focus_what_awaits
+		icon = GFX_goal_focus_guide_to_unexplained
 		x = -6
 		y = 2
 		prerequisite = { focus = MYS_awaits }
@@ -433,18 +435,14 @@
 		
 		available = {}		
 		bypass = {}
-		cost = 4 # (#)x7days 
+		cost = 3 # (#)x7days 
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-			#country_event = mystery_shack.
-			hidden_effect={
-				#set_country_flag = public_time
-				#mark_focus_tree_layout_dirty = yes 
-			}	
+			add_political_power = 50
 		}
 		
 		ai_will_do = {
@@ -529,7 +527,7 @@
 	
 	focus = { #    
 		id = MYS_dipper_s1_2
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_plaidypus
 		x = 1
 		y = 1
 		prerequisite = { focus = MYS_dipper_s1 }
@@ -548,7 +546,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			custom_effect_tooltip = MYS_dipper_s1_2_effect
 		}
 		
 		ai_will_do = {
@@ -558,7 +556,7 @@
 	
 	focus = { #17
 		id = MYS_dipper_s1_4
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_standoff_for_wendy
 		x = 0
 		y = 1
 		prerequisite = { focus = MYS_dipper_s1_2 }
@@ -577,7 +575,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			custom_effect_tooltip = MYS_dipper_s1_4_effect
 		}
 		
 		ai_will_do = {
@@ -587,7 +585,7 @@
 	
 	focus = { #19
 		id = MYS_dipper_s1_6
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_dead_plaidypus
 		x = 0
 		y = 1
 		prerequisite = { focus = MYS_dipper_s1_4 }
@@ -606,7 +604,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			custom_effect_tooltip = MYS_dipper_s1_6_effect
 		}
 		
 		ai_will_do = {
@@ -619,7 +617,7 @@
 ##################################################################################################################
 	focus = { #13
 		id = MYS_mabel_s1
-		icon = GFX_goal_focus_what_awaits
+		icon = GFX_goal_focus_guide_to
 		x = 6
 		y = 2
 		prerequisite = { focus = MYS_awaits }
@@ -627,18 +625,14 @@
 		
 		available = {}		
 		bypass = {}
-		cost = 4 # (#)x7days 
+		cost = 3 # (#)x7days 
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-			#country_event = mystery_shack.
-			hidden_effect={
-				#set_country_flag = public_time
-				#mark_focus_tree_layout_dirty = yes 
-			}	
+			add_stability = 0.05
 		}
 		
 		ai_will_do = {
@@ -648,23 +642,94 @@
 	
 	focus = { #4  
 		id = MYS_mabel_s1_1
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_guide_to_color
 		x = -1
 		y = 1
 		prerequisite = { focus = MYS_mabel_s1 }
 		relative_position_id = MYS_mabel_s1
 		
 		available = { }
-		
 		bypass = {}
 		cost = 4 # (#)x7days 
+		
+		select_effect = {  
+			country_event = { id = mabel_magnet.1 days = 14 } 
+		}
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			custom_effect_tooltip = MYS_mabel_s1_1_effect
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	focus = { #16
+		id = MYS_mabel_s1_3
+		icon = GFX_goal_focus_mending
+		x = 0
+		y = 1
+		prerequisite = { focus = MYS_mabel_s1_1 }
+		relative_position_id = MYS_mabel_s1_1
+		
+		available = {}		
+		bypass = {}
+		cost = 4 # (#)x7days 
+
+		select_effect = {  
+			country_event = { id = mabel_magnet.2 days = 14 }
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid =   no 
+		available_if_capitulated = no
+
+		completion_reward = {
+				custom_effect_tooltip = MYS_mabel_s1_3_effect
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	focus = { #18
+		id = MYS_mabel_s1_5
+		icon = GFX_goal_focus_mabelwaves
+		x = 0
+		y = 1
+		prerequisite = { focus = MYS_mabel_s1_3 }
+		relative_position_id = MYS_mabel_s1_3
+		
+		available = {}		
+		bypass = {}
+		cost = 4 # (#)x7days 
+
+		select_effect = { 
+			if = {
+				limit = { has_country_flag = mabel_magnet_3 }
+				country_event = { id = mabel_magnet.3 days = 8 }	
+			}
+			else_if = {
+				limit = { has_country_flag = mabel_magnet_6 }
+				country_event = { id = mabel_magnet.6 days = 12 }	
+			}
+			else = {
+				country_event = { id = mabel_magnet.3 days = 8 }
+			}
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = MYS_mabel_s1_5_effect
 		}
 		
 		ai_will_do = {
@@ -697,31 +762,6 @@
 		}
 	}
 	
-	focus = { #16
-		id = MYS_mabel_s1_3
-		icon = GFX_goal_generic_major_war
-		x = 0
-		y = 1
-		prerequisite = { focus = MYS_mabel_s1_1 }
-		relative_position_id = MYS_mabel_s1_1
-		
-		available = {}		
-		bypass = {}
-		cost = 4 # (#)x7days 
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#country_event = mystery_shack.
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
 	focus = { #17
 		id = MYS_mabel_s1_4
 		icon = GFX_goal_generic_major_war
@@ -729,31 +769,6 @@
 		y = 1
 		prerequisite = { focus = MYS_mabel_s1_2 }
 		relative_position_id = MYS_mabel_s1_2
-		
-		available = {}		
-		bypass = {}
-		cost = 4 # (#)x7days 
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			#country_event = mystery_shack.
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	focus = { #18
-		id = MYS_mabel_s1_5
-		icon = GFX_goal_generic_major_war
-		x = 0
-		y = 1
-		prerequisite = { focus = MYS_mabel_s1_3 }
-		relative_position_id = MYS_mabel_s1_3
 		
 		available = {}		
 		bypass = {}
@@ -1379,6 +1394,10 @@
 		available = { has_country_flag = mys_public_time }
 		cost = 4
 
+		available = {
+			NOT = {has_country_flag = mys_the_bet}
+		}
+
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_1_effect
 			#country_event = mystery_shack_PR.1
@@ -1397,7 +1416,11 @@
 		relative_position_id = MYS_PR_1
 			
 		cost = 4
-
+		
+		available = {
+			NOT = {has_country_flag = mys_the_bet}
+		}
+		
 		select_effect = {
 			country_event = { id = mystery_shack_PR.2 days = 14 }
 		}
@@ -1419,7 +1442,11 @@
 		relative_position_id = MYS_PR_1
 			
 		cost = 4
-
+		
+		available = {
+			NOT = {has_country_flag = mys_the_bet}
+		}
+		
 		select_effect = {
 			country_event = { id = mystery_shack_PR.3 days = 14 }
 		}
@@ -1447,6 +1474,7 @@
 		cost = 3
 
 		available = {
+			NOT = {has_country_flag = mys_the_bet}
 			check_variable = {
 				var = stan_pr_will
 				value = 4
@@ -1483,6 +1511,10 @@
 			
 		cost = 4
 
+		available = {
+			NOT = {has_country_flag = mys_the_bet}
+		}
+	
 		completion_reward = {
 			add_ideas = MYS_PR_souvenir
 			custom_effect_tooltip = MYS_PR_6_effect
@@ -1502,6 +1534,10 @@
 			
 		cost = 4
 
+		available = {
+			NOT = {has_country_flag = mys_the_bet}
+		}
+
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_8_effect
 			country_event = mystery_shack_PR_good.2
@@ -1519,6 +1555,10 @@
 		relative_position_id = MYS_PR_8
 			
 		cost = 4
+		
+		available = {
+			NOT = {has_country_flag = mys_the_bet}
+		}
 		
 		select_effect = {
 			country_event = { id = mystery_shack_mystery_fair.1 days = 2 }
@@ -1545,6 +1585,10 @@
 			
 		cost = 4
 
+		available = {
+			NOT = {has_country_flag = mys_the_bet}
+		}
+
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_5_effect
 			add_ideas = MYS_PR_backtax
@@ -1564,6 +1608,10 @@
 			
 		cost = 4
 
+		available = {
+			NOT = {has_country_flag = mys_the_bet}
+		}
+
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_7_effect
 			country_event = mystery_shack_PR.4
@@ -1582,6 +1630,7 @@
 		
 		available = {
 			has_country_flag = MYS_pr_path # Either PR Tree will enable this focus
+			NOT = {has_country_flag = mys_the_bet}
 			if = {                         # Will require a second flag if Flase Flags is taken
 				limit = {
 					has_country_flag = MYS_false_flags
@@ -1614,6 +1663,10 @@
 			
 		cost = 4
 
+		available = {
+			NOT = {has_country_flag = mys_the_bet}
+		}
+
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_16_effect
 			country_event = mystery_shack_PR_good.8
@@ -1634,6 +1687,7 @@
 		relative_position_id = MYS_PR_2
 		
 		available = {
+			NOT = {has_country_flag = mys_the_bet}
 			check_variable = {
 					var = stan_pr_will
 					value = 3
@@ -1645,7 +1699,7 @@
 		cost = 4
 
 		completion_reward = {
-			country_event = mystery_shack_PR_bad.1
+			#country_event = mystery_shack_PR_bad.1
 			set_country_flag = MYS_false_flags #Will be used to require an additon flag for Mayor focus
 			set_country_flag = MYS_pr_path     #Good PR also has this for Mayor focus
 			custom_effect_tooltip = MYS_PR_choice_effect
@@ -1674,6 +1728,10 @@
 			
 		cost = 4
 
+		available = {
+			NOT = {has_country_flag = mys_the_bet}
+		}
+
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_12_effect
 			GTF = {
@@ -1695,6 +1753,10 @@
 		relative_position_id = MYS_PR_11
 			
 		cost = 4
+
+		available = {
+			NOT = {has_country_flag = mys_the_bet}
+		}
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_13_effect
@@ -1726,10 +1788,14 @@
 			
 		cost = 4
 
+		available = {
+			NOT = {has_country_flag = mys_the_bet}
+		}
+ 
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_14_effect
 			set_country_flag = MYS_GF_shuffle
-			country_event = mystery_shack_PR_bad.2
+			#country_event = mystery_shack_PR_bad.2
 		}
 		
 		ai_will_do = {factor = 1}
@@ -1745,10 +1811,14 @@
 			
 		cost = 4
 
+		available = {
+			NOT = {has_country_flag = mys_the_bet}
+		}
+
 		completion_reward = {
 			custom_effect_tooltip = MYS_PR_15_effect
 			set_country_flag = MYS_CON_MAN_STAN
-			country_event = mystery_shack_PR_bad.3
+			#country_event = mystery_shack_PR_bad.3
 		}
 		
 		ai_will_do = {factor = 1}
