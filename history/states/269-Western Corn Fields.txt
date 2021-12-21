@@ -29,6 +29,10 @@ state={
 		612 986 1182 2597 3786 4506 5793 8324 8392 
 	}
 	
+	resources={
+		aluminium=42
+	}
+	
 	manpower=4000
 	
 	state_category=town
