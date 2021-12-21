@@ -293,12 +293,14 @@ country_event = { #
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		set_country_flag = MYS_Dipper_Plaid
 		country_event = { id = dipper_plaid.6 days = 10 }
+		add_political_power = 50
 	}
 	option = { 
 		name = dipper_plaid.5.b
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		set_country_flag = MYS_Robbie_Plaid
 		country_event = { id = dipper_plaid.6 days = 10 }
+		add_political_power = -50
 	}
 }
 	
@@ -442,6 +444,7 @@ country_event = { #
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		country_event = { id = mabel_magnet.6 days = 10 }
 		set_country_flag = mabel_magnet_6
+		add_political_power = -50
 		hidden_effect = {	
 				if = {
 					limit = { has_idea = MYS_Twins_1 } 
@@ -471,6 +474,7 @@ country_event = { #
 		name = mabel_magnet.3.b
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		country_event = { id = mabel_magnet.4 days = 8 }
+		add_political_power = 50
 	}
 }
 

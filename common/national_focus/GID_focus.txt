@@ -1,6 +1,6 @@
 ﻿focus_tree = {
 
-	id = mystery_shack_focus
+	id = gideon_focus_initial
 	
 	country = {
 		factor = 0		
@@ -26,7 +26,7 @@
 				
 		bypass = {} 
 		
-		cost = 1
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -128,7 +128,7 @@
 			MYS = { has_completed_focus = MYS_PR_16 }
 		} 
 		
-		cost = 1
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -159,7 +159,7 @@
 			MYS = { has_completed_focus = MYS_PR_16 }
 		} 
 		
-		cost = 1
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -190,7 +190,7 @@
 			MYS = { has_completed_focus = MYS_PR_16 }
 		} 
 		
-		cost = 1
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -227,7 +227,7 @@
 			MYS = { has_completed_focus = MYS_PR_16 }
 		} 
 		
-		cost = 1
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -268,7 +268,7 @@
 			MYS = { has_completed_focus = MYS_PR_16 }
 		} 
 		
-		cost = 1
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -303,7 +303,7 @@
 			MYS = { has_completed_focus = MYS_PR_16 }
 		} 
 		
-		cost = 1
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -339,7 +339,7 @@
 			MYS = { has_idea = MYS_PR_tate }
 		} 
 		
-		cost = 1
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -375,7 +375,7 @@
 		bypass = {
 		} 
 		
-		cost = 1
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -408,7 +408,7 @@
 		bypass = {
 		} 
 		
-		cost = 1
+		cost = 10
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

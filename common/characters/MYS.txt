@@ -76,7 +76,7 @@ characters = {
 			skill = 2
 			id = 8
 			
-			available = {
+			visible = {
 				has_completed_focus = MYS_wendy_1 
 			}
 
@@ -187,6 +187,56 @@ characters = {
 			}
 		}
 	}
+	
+	MYS_wendy_annie_corduroy = {
+		name = "Annie Corduroy" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MYS/Portrait_Wendy_Annie_Corduroy.dds"
+			}
+		}
+		corps_commander= {
+			traits = {  }
+			skill = 2
+			id = 8
+			
+			visible = {
+				has_completed_focus = MYS_clones_3
+			}
 
-}
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		
+		}
+	}
+	
+	MYS_tyrone_dipper = {
+		name = "Tyrone" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MYS/Portrait_Tyrone.dds"
+			}
+		}
+		corps_commander= {
+			traits = {  }
+			skill = 1
+			id = 8
+			
+			visible = {
+				has_completed_focus = MYS_clones 
+			}
+
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		
+		}
+	}
+
+}###########################################################
 	

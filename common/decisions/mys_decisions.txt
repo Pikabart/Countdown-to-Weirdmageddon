@@ -9,10 +9,11 @@ MYS_boss_mabel = {
 		icon = GFX_decision_icon_default		
 		available = {}
 		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
-		days_re_enable = 7
+		days_re_enable = 1
+		days_remove = 6
 		visible = {	}		
 
-		cost = 20		#The cost to execute the decision, by default its political power.
+		cost = 10		#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
 		fixed_random_seed = no # So the answer could be different every time
@@ -80,10 +81,11 @@ MYS_boss_mabel = {
 		icon = GFX_decision_icon_default		
 		available = {}
 		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
-		days_re_enable = 7
+		days_re_enable = 1
+		days_remove = 6
 		visible = {	}		
 
-		cost = 20		#The cost to execute the decision, by default its political power.
+		cost = 10		#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
 		fixed_random_seed = no # So the answer could be different every time
@@ -170,10 +172,11 @@ MYS_boss_mabel = {
 		icon = GFX_decision_icon_default		
 		available = {}
 		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
-		days_re_enable = 7
+		days_re_enable = 1
+		days_remove = 6
 		visible = {	}		
 
-		cost = 20		#The cost to execute the decision, by default its political power.
+		cost = 10		#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
 		fixed_random_seed = no # So the answer could be different every time
@@ -256,10 +259,11 @@ MYS_boss_mabel = {
 		icon = GFX_decision_icon_default		
 		available = {}
 		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
-		days_re_enable = 7
+		days_re_enable = 1
+		days_remove = 6
 		visible = {}		
 
-		cost = 20		#The cost to execute the decision, by default its political power.
+		cost = 10		#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
 		fixed_random_seed = no # So the answer could be different every time
@@ -319,10 +323,11 @@ MYS_boss_mabel = {
 		icon = GFX_decision_icon_default		
 		available = {}
 		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
-		days_re_enable = 7
+		days_re_enable = 1
+		days_remove = 6
 		visible = {}		
 
-		cost = 20		#The cost to execute the decision, by default its political power.
+		cost = 10		#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
 		fixed_random_seed = no # So the answer could be different every time
@@ -401,10 +406,11 @@ MYS_boss_mabel = {
 		icon = GFX_decision_icon_default		
 		available = {}
 		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
-		days_re_enable = 7
+		days_re_enable = 1
+		days_remove = 6
 		visible = {	}		
 
-		cost = 20		#The cost to execute the decision, by default its political power.
+		cost = 10		#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
 		fixed_random_seed = no # So the answer could be different every time
@@ -477,10 +483,11 @@ MYS_boss_mabel = {
 		icon = GFX_decision_icon_default		
 		available = {}
 		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
-		days_re_enable = 7
+		days_re_enable = 1
+		days_remove = 6
 		visible = {}		
 
-		cost = 50		#The cost to execute the decision, by default its political power.
+		cost = 40		#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
 		fixed_random_seed = no # So the answer could be different every time
@@ -506,10 +513,11 @@ MYS_boss_mabel = {
 		icon = GFX_decision_icon_default		
 		available = {}
 		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
-		days_re_enable = 7
+		days_re_enable = 1
+		days_remove = 6
 		visible = {}		
 
-		cost = 50		#The cost to execute the decision, by default its political power.
+		cost = 40		#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
 		fixed_random_seed = no # So the answer could be different every time
@@ -535,10 +543,11 @@ MYS_boss_mabel = {
 		icon = GFX_decision_icon_default		
 		available = {}
 		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
-		days_re_enable = 7
+		days_re_enable = 1
+		days_remove = 6
 		visible = {	}		
 
-		cost = 50		#The cost to execute the decision, by default its political power.
+		cost = 40		#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
 		fixed_random_seed = no # So the answer could be different every time
@@ -564,10 +573,11 @@ MYS_boss_mabel = {
 		icon = GFX_decision_icon_default		
 		available = {}
 		fire_only_once = no		#If set to yes, the decision will only appear once, after execution will not appear again.
-		days_re_enable = 7
+		days_re_enable = 1
+		days_remove = 6
 		visible = {	}		
 
-		cost = 50		#The cost to execute the decision, by default its political power.
+		cost = 40		#The cost to execute the decision, by default its political power.
 
 		# EFFECTS OF THIS DECISION/MISSION
 		fixed_random_seed = no # So the answer could be different every time
@@ -600,7 +610,8 @@ MYS_dipper_clone  = {
 		available = { has_country_flag = mys_clone_dipper }
 		fire_only_once = no		
 		visible = {	}		
-		days_re_enable = 4
+		days_re_enable = 1
+		days_remove = 3
 		cost = 10	
 
 		complete_effect = {		
@@ -623,22 +634,35 @@ MYS_dipper_clone  = {
 		}
 		fire_only_once = no		
 		visible = {	}		
-		days_re_enable = 4
+		days_re_enable = 1
+		days_remove = 3
 		cost = 10	
 
 		complete_effect = {		
 			custom_effect_tooltip = "clone_dips_tt"
+			add_war_support = 0.01
 			hidden_effect = {
-				random_owned_controlled_state = {
-					prioritize = { 27 }
-					create_unit = {
-							division = "name = \"Dipper Regiment\" division_template = \"Dipper Regiment\" start_experience_factor = 0"
-							owner = MYS
+				random_list = {
+					80 = {	
+						random_owned_controlled_state = {
+							prioritize = { 27 }
+							create_unit = {
+									division = "name = \"Dipper Regiment\" division_template = \"Dipper Regiment\" start_experience_factor = 0"
+									owner = MYS
+							}
+						}
+						subtract_from_variable = {
+							var = mys_dipper_reserve
+							value = 3
+						}
 					}
-				}
-				subtract_from_variable = {
-					var = mys_dipper_reserve
-					value = 3
+					20 = {
+						country_event = mystery_shack_pining.4
+						subtract_from_variable = {
+							var = mys_dipper_reserve
+							value = 3
+						}
+					}
 				}
 			}
 		}
@@ -653,7 +677,8 @@ MYS_dipper_clone  = {
 		available = { has_country_flag = mys_clone_exceptional }
 		fire_only_once = no		
 		visible = {	}		
-		days_re_enable = 4
+		days_re_enable = 1
+		days_remove = 5
 		cost = 10	
 
 		complete_effect = {		
@@ -676,11 +701,13 @@ MYS_dipper_clone  = {
 		}
 		fire_only_once = no		
 		visible = {	}		
-		days_re_enable = 4
+		days_re_enable = 1
+		days_remove = 5
 		cost = 10	
 
 		complete_effect = {	
 			custom_effect_tooltip = "clone_wens_tt"
+			add_war_support = 0.01
 			hidden_effect = {
 				random_owned_controlled_state = {
 					prioritize = { 27 }
@@ -706,7 +733,8 @@ MYS_dipper_clone  = {
 		available = { has_country_flag = mys_clone_exceptional }
 		fire_only_once = no		
 		visible = {	}		
-		days_re_enable = 4
+		days_re_enable = 1
+		days_remove = 5
 		cost = 10	
 
 		complete_effect = {		
@@ -729,11 +757,13 @@ MYS_dipper_clone  = {
 		}
 		fire_only_once = no		
 		visible = {	}		
-		days_re_enable = 4
+		days_re_enable = 1
+		days_remove = 5
 		cost = 10	
 
 		complete_effect = {	
 			custom_effect_tooltip = "clone_soos_tt"
+			add_war_support = 0.01
 			hidden_effect = {
 				random_owned_controlled_state = {
 					prioritize = { 27 }

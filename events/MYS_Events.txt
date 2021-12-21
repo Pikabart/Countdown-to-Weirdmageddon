@@ -13,7 +13,8 @@ add_namespace = mystery_shack_rock_the_mabel
 add_namespace = mystery_shack_mystery_fair
 add_namespace = mystery_shack_ship
 add_namespace = mystery_shack_pining
-add_namespace = mystery_shack_pine
+add_namespace = mystery_shack_muse
+add_namespace = mystery_shack_war
 add_namespace = mystery_shack_ship_end
 
 ####################################
@@ -939,32 +940,6 @@ country_event = {    # Keeping it going
 # Ship
 ########################################################################################################################
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 country_event = {    #Gideon End 1
 	id = mystery_shack_ship_end.1
 	title = mystery_shack_ship_end.1.t 
@@ -1041,11 +1016,82 @@ country_event = {    #Gideon Alpha End
 # Pining for Time
 ########################################################################################################################
 
-country_event = {    # Start the War
-	id = mystery_shack_pine.1
-	title = mystery_shack_pine.1.t 
-	desc = mystery_shack_pine.1.d  
+country_event = {   # Mable rejects Gideon
+	id = mystery_shack_pining.1
+	title = mystery_shack_pining.1.t 
+	desc = mystery_shack_pining.1.d  
 	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	option = { 
+		name = mystery_shack_pining.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		
+	}
+}
+
+country_event = {   # Stan starts a sale
+	id = mystery_shack_pining.2
+	title = mystery_shack_pining.2.t 
+	desc = mystery_shack_pining.2.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	option = { 
+		name = mystery_shack_pining.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_political_power = 100
+		add_war_support = 0.05
+		add_stability = -0.10
+	}
+}
+
+country_event = {   # The New Tyrone
+	id = mystery_shack_pining.3
+	title = mystery_shack_pining.3.t 
+	desc = mystery_shack_pining.3.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	option = { 
+		name = mystery_shack_pining.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		
+	}
+}
+
+country_event = {   # 
+	id = mystery_shack_pining.4
+	title = mystery_shack_pining.4.t 
+	desc = mystery_shack_pining.4.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	option = { 
+		name = mystery_shack_pining.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_war_support = -0.05
+	}
+}
+
+
+#######################################################################################################################
+# The Muse
+########################################################################################################################
+
+country_event = {   # Learns of the muse
+	id = mystery_shack_muse.1
+	title = mystery_shack_muse.1.t 
+	desc = mystery_shack_muse.1.d  
+	picture = GFX_report_event_reading_journal #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -1053,9 +1099,125 @@ country_event = {    # Start the War
 	immediate = { hidden_effect = {} }
 	
 	option = { 
-		name = mystery_shack_pine.1.a
+		name = mystery_shack_muse.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = mystery_shack_pine.2 days = 3 }
+		country_event = { id = mystery_shack_muse.2 days = 3 }
+		
+	}
+}
+
+country_event = {    # Talks to Bill in his sleep
+	id = mystery_shack_muse.2
+	title = mystery_shack_muse.2.t 
+	desc = mystery_shack_muse.2.d  
+	picture = GFX_report_event_bill_dream #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { hidden_effect = {} }
+	
+	option = { 
+		name = mystery_shack_muse.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+			
+	}
+}
+
+country_event = {    # Learns Gideon sent a demon after stan, but not know it was Bill. Ask for help
+	id = mystery_shack_muse.3
+	title = mystery_shack_muse.3.t 
+	desc = mystery_shack_muse.3.d  
+	picture = GFX_report_event_summon #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { hidden_effect = {} }
+	
+	option = { 
+		name = mystery_shack_muse.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mystery_shack_muse.4 days = 5 }
+		
+	}
+}
+
+country_event = {    # Confront bill
+	id = mystery_shack_muse.4
+	title = mystery_shack_muse.4.t 
+	desc = mystery_shack_muse.4.d  
+	picture = GFX_report_event_seeing_bill #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { hidden_effect = {} }
+	
+	option = { 
+		name = mystery_shack_muse.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mystery_shack_muse.5 days = 5 }		
+	}
+}
+
+country_event = {    # Mend relationship between Dipper and Stan
+	id = mystery_shack_muse.5
+	title = mystery_shack_muse.5.t 
+	desc = mystery_shack_muse.5.d  
+	picture = GFX_report_event_stan_with_cola #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { hidden_effect = {} }
+	
+	option = { 
+		name = mystery_shack_muse.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mystery_shack_muse.6 days = 5 }
+		
+	}
+}
+
+country_event = {    # Twins and Soos battle Bill in Stan's mind. Gideon didnt get deed. War approching
+	id = mystery_shack_muse.6
+	title = mystery_shack_muse.6.t 
+	desc = mystery_shack_muse.6.d  
+	picture = GFX_report_event_wrecking_ball #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { hidden_effect = {} }
+	
+	option = { 
+		name = mystery_shack_muse.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mystery_shack_muse.4 days = 5 }
+		
+	}
+}
+
+#######################################################################################################################
+# The Gleeful War
+########################################################################################################################
+
+country_event = {    # Start the War
+	id = mystery_shack_war.1
+	title = mystery_shack_war.1.t 
+	desc = mystery_shack_war.1.d  
+	picture = GFX_report_event_gideon_rises #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { hidden_effect = {} }
+	
+	option = { 
+		name = mystery_shack_war.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mystery_shack_war.2 days = 3 }
 		set_country_flag = MYS_begun_gleeful_war
 		GID = {
 			declare_war_on = {
@@ -1067,9 +1229,9 @@ country_event = {    # Start the War
 }
 
 country_event = {    # Does GF get involve
-	id = mystery_shack_pine.2
-	title = mystery_shack_pine.2.t 
-	desc = mystery_shack_pine.2.d  
+	id = mystery_shack_war.2
+	title = mystery_shack_war.2.t 
+	desc = mystery_shack_war.2.d  
 	picture = GFX_report_event_mystery_shack #  change this later
 	
 	is_triggered_only = yes 
@@ -1078,9 +1240,9 @@ country_event = {    # Does GF get involve
 	immediate = { hidden_effect = {} }
 	
 	option = { 
-		name = mystery_shack_pine.2.a
+		name = mystery_shack_war.2.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		#country_event = { id = mystery_shack_pine. days = 3 }
+		#country_event = { id = mystery_shack_war.X days = 3 }
 		if = {
 			limit = { has_country_flag = MYS_OUR_MAN_STAN}
 			GTF = {
@@ -1113,9 +1275,9 @@ country_event = {    # Does GF get involve
 }
 
 country_event = {    # POST WAR Check after war had ended
-	id = mystery_shack_pine.3
-	title = mystery_shack_pine.3.t 
-	desc = mystery_shack_pine.3.d  
+	id = mystery_shack_war.3
+	title = mystery_shack_war.3.t 
+	desc = mystery_shack_war.3.d  
 	picture = GFX_report_event_mystery_shack #  change this later
 	
 	# is_triggered_only = yes 
@@ -1130,9 +1292,9 @@ country_event = {    # POST WAR Check after war had ended
 	}
 	
 	option = { 
-		name = mystery_shack_pine.3.a
+		name = mystery_shack_war.3.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = mystery_shack_pine.7 days = 5 }	
+		country_event = { id = mystery_shack_war.7 days = 5 }	
 		complete_national_focus = MYS_pine_7
 		add_state_core = 25
 		transfer_state = 25
@@ -1154,9 +1316,9 @@ country_event = {    # POST WAR Check after war had ended
 }
 
 country_event = {    # GF war with MYS, losing white peace
-	id = mystery_shack_pine.4
-	title = mystery_shack_pine.4.t 
-	desc = mystery_shack_pine.4.d  
+	id = mystery_shack_war.4
+	title = mystery_shack_war.4.t 
+	desc = mystery_shack_war.4.d  
 	picture = GFX_report_event_mystery_shack #  change this later
 	
 	#is_triggered_only = yes 
@@ -1170,7 +1332,7 @@ country_event = {    # GF war with MYS, losing white peace
 	}
 	
 	immediate = {
-		name = mystery_shack_pine.4.t 
+		name = mystery_shack_war.4.t 
 		white_peace = {
 			tag = GTF
 			message = "Gravity Falls has withdrawn from the Gleeful War"
@@ -1178,7 +1340,7 @@ country_event = {    # GF war with MYS, losing white peace
 	}
 	
 	option = { 
-		name = mystery_shack_pine.4.a
+		name = mystery_shack_war.4.a
 		ai_chance = { factor = 100 }	# 100% AI choose this		
 	}
 }
@@ -1187,16 +1349,16 @@ country_event = {    # GF war with MYS, losing white peace
 
 
 country_event = {    # END OF ALPHA FOR MYS VICTORY
-	id = mystery_shack_pine.7
-	title = mystery_shack_pine.7.t 
-	desc = mystery_shack_pine.7.d  
+	id = mystery_shack_war.7
+	title = mystery_shack_war.7.t 
+	desc = mystery_shack_war.7.d  
 	picture = GFX_report_event_mystery_shack #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
 	
 	option = { 
-		name = mystery_shack_pine.7.a
+		name = mystery_shack_war.7.a
 		ai_chance = { factor = 100 }	# 100% AI choose this		
 	}
 }

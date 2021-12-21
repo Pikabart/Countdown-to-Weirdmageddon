@@ -240,7 +240,7 @@ country_event = {
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		country_event = { id = stantastic.12 days = 3 }
 		MEW = {
-				add_ideas = MEW_stan_steal_corn_idea
+				add_timed_idea = { idea = MEW_stan_steal_corn_idea days = 360 }
 		}
 	}
 }
@@ -261,7 +261,7 @@ country_event = {
 		name = stantastic.10.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		MEW = {
-				add_ideas = MEW_stop_stan_steal_idea
+				add_timed_idea = { idea = MEW_stop_stan_steal_idea days = 360 }
 		}
 	}
 }

@@ -19,6 +19,11 @@
  MYS_plenty_of_suckers_desc:0 "Pleanty of suckers...er, Tourist, coming to Oregon. Of course, where else would they go to than Gravity Falls' Mystery Shack!"
 #################################
 
+MYS_fixin_it_with_soos:0 "Fixin' ti with Soos!"
+MYS_OSHA_complaiant:0 "OSHA "Complaiant""
+MYS_presentable_establishment:0 "Desired Destination"
+
+
 MYS_cordoury_spirit:0 "The Cordoury Spirit"
 MYS_cordoury_spirit_speed:0 "The Cordoury Spirit"
 MYS_cordoury_spirit_hike:0 "The Cordoury Spirit"
@@ -59,10 +64,28 @@ MYS_Twins_4_desc:0 ""
 MYS_GTF_clones_durable:0 "The Grand Army of the Stanpublic!"
 MYS_GTF_clones_shiny:0 "The Grand Army of the Stanpublic!"
 MYS_GTF_clones_exceptional:0 "The Grand Army of the Stanpublic!"
-MYS_GTF_clones_exceptional_desc:0 "What? No I don't love democracy. But most capitalist societies are democratic, so yeah...\nI tolerate Democracy. I tolerate the Republic."
+MYS_GTF_clones_exceptional_desc:0 "§RWhat? No I don't love democracy. But most capitalist societies are democratic, so yeah...\nI tolerate Democracy. I tolerate the Republic.§!"
 
 #####################################
 
+MYS_bet_wrong:0 "The Magic Word"
+MYS_bet_loser:0 "T he Loser Shirt!"
+
+
+
+
+
+
+#####################################
+
+MYS_medical_bill:0 "Mabel's Medical Bill"
+MYS_medical_bill_desc:0 "Stupid Trembley won’t pass a bill for stupid socialized medicine. Stupid Canada being Kerfuffled so I can’t just steal their stupid health care."
+
+MYS_eye_of_the_stan:0 "Eye of the Stan"
+MYS_eye_of_the_stan_desc:0 "Mystery and Tigers. Kids love that stuff, and I love their parents' money!"
+
+#################################### 
+ 
 MYS_PR_start:0 "Public Relationship"
 MYS_PR_start_desc:0 ""
 

@@ -61,7 +61,7 @@
  MYS_awaits_desc:0 "Gnomes, Lake Monsters, Convenience Store Ghost!\nLiving wax, Time Travel,\nand the Eight and a Half President!\n\nDipper's right! What eles awaits in Gravity Falls?\n- §YMabel Pines§! -"
  MYS_awaits_effect:0""
  
- ######################################################
+ ###################################################### 
  #6
  
  MYS_dipper_s1:0 "Dipper's Guide To The Unexplained"
@@ -82,7 +82,7 @@
  
  MYS_dipper_s1_2:0 "Majestic Oddities"
  MYS_dipper_s1_2_desc:0 "The Author mentions finding an animal with a duck beak, web feet, and a beaver tail...\n\nIt's also plaid! That's the real mystery to explore!"
- MYS_dipper_s1_2_effect:0 "Such an interesting and oddly fasioned creature..."
+ MYS_dipper_s1_2_effect:0 "Such an interesting and oddly fasioned creature...\n\nYour choices here will effect the twin's relationship between each other."
  
  MYS_dipper_s1_4:0 "The Color Flannel"
  MYS_dipper_s1_4_desc:0 "Wendy needs a new shirt! And I know just where to get one from.\n"The Source of all Lumberjacks' Jackets"!\n\nMabel has some reservations of what I'm about to do though..."
@@ -113,7 +113,7 @@
  
  MYS_mabel_s1_1:0 "She Blinded Me With Science!"
  MYS_mabel_s1_1_desc:0 "Thanks to me, Stan saw the Rainbow. Unfortunatley, it turned into more of a Painbow.\n\nBut don't worry, on my next guide, I'll show you all how to apologies and make up to your grunkle after causing retinal damage!\nHooray!"
- MYS_mabel_s1_1_effect:0 "Hahaha, painbows"
+ MYS_mabel_s1_1_effect:0 "Hahaha, painbows...\n\nYour choices will effect both the twin's relationship with each other as well as their relationship with their Grunkle Stan."
  
  MYS_mabel_s1_3:0 "Making It Up"
  MYS_mabel_s1_3_desc:0 "Today's Guide is a Two Parter!\n\nToday I'll show you how to use a series of magnets to "aquire" the change from unsuspecting tourist. From there, you can present it to your grunkle to apologise for making them experience the better part of life in a painful manner."
@@ -127,10 +127,10 @@
  #  Investment Focus# 
  ######################################################
  
- MYS_invest:0 "Time to Make Money... By Spending it *sniffle*"
+ mys_invest:0 "Time to Make Money... By Spending it *sniffle*"
  
  MYS_investment:0 "Investing In The Shack"
- MYS_investment_desc:0 "You know what they say, you gotta spend monsey to make money! It's just... so hard to part with it at all...\n\n- §RStan Pines§! -"
+ MYS_investment_desc:0 "You know what they say, you gotta spend money to make money! It's just... so hard to part with it at all...\n\n- §RStan Pines§! -"
  MYS_investment_effect:0 ""
  
  MYS_soos_1:0 "Fix'in It With Soos"
@@ -201,7 +201,7 @@
  
  MYS_clones:0 "That Old Copier"
  MYS_clones_desc:0 "Gideon has the town on his side and some really scary goons. We'll need an army to take them all on...\n\nActually, I think I know where to get an army!\n- §CDipper Pines§! -"
- MYS_clones_effect:0 ""
+ MYS_clones_effect:0 "§CUnlock the decisions to scan up and assemble new clone divisions to fight Gideon.§!"
  
  MYS_clones_1:0 "Construction Paper"
  MYS_clones_1_desc:0 "These Dipper clones are cool and all, what with them seemingly attending to my every whim. But they aren't the most durable clones out there.\n\nTo Dipper 34, I'm sorry about spilling my drink on you...\n- §OWendy Cordoury§! -"
@@ -212,7 +212,7 @@
  MYS_clones_2_effect:0 "You think Mr. Pines will pull a Order 66 on us?"
  
  MYS_clones_3:0 "The Xerox Generation"
- MYS_clones_3_desc:0 "These Dippers are great! They can fight, like Emily, they can serve, like Shermie, they're all afriad of me, like Eugene!\nBut seeing so many Dippers is a bit weird. We need expandable, I mean, exceptional clones! And I know who would be the next generation of clones- Mabel, get off that copier! We only need one Mabel!\n- §RStan Pines§! -"
+ MYS_clones_3_desc:0 "These Dippers are great! They can serve, like Shermie. They can fight, like Emily. They're all afriad of me, like Eugene!\nBut seeing so many Dippers is a bit weird. We need expandable, I mean, exceptional clones! And I know who would be the next generation of clones- Mabel, get off that copier! We only need one Mabel!\n- §RStan Pines§! -"
  MYS_clones_3_effect:0 ""
  
  mys_clone_wars:0 "Begun, the Gleeful War Have..."
@@ -240,7 +240,7 @@
  MYS_PR_3_effect:0 "With the horror that is the Canadian Kerfuffle and the minor annoyance that is the collapse of the United States, some real action is needed by the town to handle the matter"
 
  MYS_PR_4:0 "Good PR"
- MYS_PR_4_desc:0 "For all the fault the town has, I know better then that their my only hope for the Shack and myself to stay afloat and survive. Having, as Mabel called it ‘Good Public Relationship’, is key to winning the town over. Besides, I'm the Man of Mystery! What isn’t there to love about the Mystery Shack and all the spooky, hazardous things inside!\n- §RStan Pines§! -"
+ MYS_PR_4_desc:0 "For all the fault the town has, I know better then that they're my only hope for the Shack and myself to stay afloat and survive. Having, as Mabel called it ‘Good Public Relationship’, is key to winning the town over. Besides, I'm the Man of Mystery! What isn’t there to love about the Mystery Shack and all the spooky, hazardous things inside!\n- §RStan Pines§! -"
  MYS_PR_4_effect:0 "And Soos, fix those hazardous things inside the Shack. I ain’t in the hankering for a lawsuit."
 
  MYS_PR_6:0 "Free Souvenirs***" 
