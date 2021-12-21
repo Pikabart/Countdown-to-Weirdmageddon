@@ -138,7 +138,7 @@ country_event = {
 		
 	trigger = {
 		original_tag = MEW
-		OST = { surrender_progress > 0.75 }
+		OST = { surrender_progress > 0.90 }
 	}
 	
 	fire_only_once = yes
@@ -166,6 +166,8 @@ country_event = {
 			OST = { transfer_state = 427 }
 			MEW = { country_event = { id = ost_mew_surrender.2 days = 7 }}
 			clr_country_flag = ost_war_starting
+			set_country_flag = conquer_ost
+
 	
 	}
 }

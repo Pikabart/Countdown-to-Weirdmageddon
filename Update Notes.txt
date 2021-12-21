@@ -1,5 +1,26 @@
 #########################################
 # Update 12/11
+common/characters
+common/decisions/catagories
+common/ideas
+common/national_focus
+
+events
+
+gfx/event_country_pictures/mys
+gfx/interface - new events folder (for later use), updated newpaper gfx, new menu gfx for version 0.0.1, other
+gfx/interface/goals/mys - new icons and updated stan_and_moon.dds
+
+history/countries/mys
+
+interface
+
+loc/english
+
+map/railways,supply_nodes
+
+#########################################
+# Update 12/11
 
 common/countries
 common/ideas

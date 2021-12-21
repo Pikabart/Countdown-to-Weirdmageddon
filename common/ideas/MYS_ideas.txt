@@ -162,6 +162,66 @@ ideas = { #Entire file
 				max_surrender_limit_offset = -0.2 #More likely to surrender	
 			}
 		}
+		
+		#######################
+		
+		MYS_medical_bill = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		MYS_eye_of_the_stan = {
+		
+			allowed = {tag = MYS}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		##############
+		
+		MYS_bet_wrong = { # Twin Division
+			picture = ""
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				political_power_factor = -0.2
+				stability_weekly_factor = -0.005 #gain .5% eveyr week
+				consumer_goods_factor = 0.10
+			}
+		}
+		
+		MYS_bet_loser = { # Twin Division
+			picture = ""
+			
+			allowed = {tag = MYS}
+			available = {}#Until Ford returns
+			cancel = {}#When Ford returns
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				political_power_factor = -0.2
+				stability_weekly_factor = -0.005 #gain .5% eveyr week
+				consumer_goods_factor = 0.10
+			}
+		}
+		
+		##############
 		##############
 		MYS_plenty_of_suckers = {
 		
@@ -656,39 +716,7 @@ ideas = { #Entire file
 		
 	}
 
-###############################################################################################################
-	# POLITICAL	################################################
-################################################################################################################
 
-	political_advisor = {
-	
-		
-		##############
-		gompers_head_of_intelligence = {
-			picture = gompers_1
-			allowed = {
-				original_tag = MYS
-			}
-			available = {
-				OR = {
-					has_intelligence_agency = yes
-					has_completed_focus = MYS_PR_1
-			}
-			}
-			traits = { 
-				spy_goat_1 
-			}
-			ai_will_do = {
-				factor = 1
-				modifier = {
-					has_intelligence_agency = no
-					factor = 0
-				}
-			}
-
-		}
-			
-	}
 	
 ################################################################################################################	
 	# Research and Production choices

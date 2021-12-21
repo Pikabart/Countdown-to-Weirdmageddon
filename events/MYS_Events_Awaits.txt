@@ -7,7 +7,7 @@ add_namespace = awaits_TREMBLEY
 add_namespace = dipper_soos
 add_namespace = dipper_plaid
 add_namespace = mabel_dino
-add_namespace = mabel_micro
+add_namespace = mabel_magnet
 
 #############################################
 # 
@@ -16,7 +16,7 @@ country_event = { #1
 	id = awaits_journal.1
 	title = awaits_journal.1.t 
 	desc = awaits_journal.1.d  
-	picture = GFX_report_event_awaits_journal #  change this later
+	picture = GFX_report_event_finding_journal_3 #  change this later
 	
 	is_triggered_only = yes 
 	 
@@ -35,7 +35,7 @@ country_event = { #2
 	id = awaits_journal.2
 	title = awaits_journal.2.t 
 	desc = awaits_journal.2.d  
-	picture = GFX_report_event_awaits_journal #  change this later
+	picture = GFX_report_event_norman #  change this later
 	
 	is_triggered_only = yes   
 	 
@@ -54,16 +54,47 @@ country_event = { #3
 	id = awaits_journal.3
 	title = awaits_journal.3.t 
 	desc = awaits_journal.3.d  
-	picture = GFX_report_event_awaits_journal #  change this later
+	picture = GFX_report_event_evidence #  change this later
+	
+	is_triggered_only = yes  
+	fire_only_once = yes     #Can't happen again
+
+	option = { 
+		name = awaits_journal.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = awaits_journal.4 days = 1 }
+	}
+}
+country_event = { #4
+	id = awaits_journal.4
+	title = awaits_journal.4.t 
+	desc = awaits_journal.4.d  
+	picture = GFX_report_event_gnome_marriage #  change this later
+	
+	is_triggered_only = yes  
+	fire_only_once = yes     #Can't happen again
+
+	option = { 
+		name = awaits_journal.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = awaits_journal.5 days = 1 }
+	}
+}
+country_event = { #5
+	id = awaits_journal.5
+	title = awaits_journal.5.t 
+	desc = awaits_journal.5.d  
+	picture = GFX_report_event_twins #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
 	
-	immediate = { hidden_effect = {add_ideas = MYS_Twins_1 } }
+	#immediate = { hidden_effect = { } }
 	
 	option = { 
-		name = awaits_journal.3.a
+		name = awaits_journal.5.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_ideas = MYS_Twins_1
 	}
 }
 
@@ -76,7 +107,7 @@ country_event = { #
 	id = awaits_TREMBLEY.1
 	title = awaits_TREMBLEY.1.t 
 	desc = awaits_TREMBLEY.1.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_silly_1 #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -87,7 +118,7 @@ country_event = { #
 	option = { 
 		name = awaits_TREMBLEY.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = awaits_TREMBLEY.4 days = 1 }
+		country_event = { id = awaits_TREMBLEY.2 days = 2 }
 	}
 }
 
@@ -95,7 +126,7 @@ country_event = { #
 	id = awaits_TREMBLEY.2
 	title = awaits_TREMBLEY.2.t 
 	desc = awaits_TREMBLEY.2.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_solve_mystery #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -106,6 +137,7 @@ country_event = { #
 	option = { 
 		name = awaits_TREMBLEY.2.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = awaits_TREMBLEY.3 days = 2 }
 	}
 }
 
@@ -113,7 +145,7 @@ country_event = { #
 	id = awaits_TREMBLEY.3
 	title = awaits_TREMBLEY.3.t 
 	desc = awaits_TREMBLEY.3.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_silly_2 #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -124,6 +156,7 @@ country_event = { #
 	option = { 
 		name = awaits_TREMBLEY.3.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = awaits_TREMBLEY.4 days = 2 }
 	}
 }
 
@@ -131,7 +164,7 @@ country_event = { #
 	id = awaits_TREMBLEY.4
 	title = awaits_TREMBLEY.4.t 
 	desc = awaits_TREMBLEY.4.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_frozen_trembley #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -141,6 +174,25 @@ country_event = { #
 	
 	option = { 
 		name = awaits_TREMBLEY.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = awaits_TREMBLEY.5 days = 2 }
+	}
+}
+
+country_event = { #
+	id = awaits_TREMBLEY.5
+	title = awaits_TREMBLEY.5.t 
+	desc = awaits_TREMBLEY.5.d  
+	picture = GFX_report_event_cheers_america #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = awaits_TREMBLEY.5.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		ORE = {	country_event = { id = ORE_TREMBLEY.1 days = 2 } }
 	}
@@ -154,7 +206,7 @@ country_event = { #
 	id = dipper_plaid.1
 	title = dipper_plaid.1.t 
 	desc = dipper_plaid.1.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_forest #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -173,7 +225,7 @@ country_event = { #
 	id = dipper_plaid.2
 	title = dipper_plaid.2.t 
 	desc = dipper_plaid.2.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_admiring_wendy #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -191,7 +243,7 @@ country_event = { #
 	id = dipper_plaid.3
 	title = dipper_plaid.3.t 
 	desc = dipper_plaid.3.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_mailbox #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -210,7 +262,7 @@ country_event = { #
 	id = dipper_plaid.4
 	title = dipper_plaid.4.t 
 	desc = dipper_plaid.4.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_forest #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -228,7 +280,7 @@ country_event = { #
 	id = dipper_plaid.5
 	title = dipper_plaid.5.t 
 	desc = dipper_plaid.5.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_forest #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -327,3 +379,344 @@ country_event = { #
 	}
 }
 
+########################################
+# mabel_magnet
+########################################
+
+country_event = { #
+	id = mabel_magnet.1
+	title = mabel_magnet.1.t 
+	desc = mabel_magnet.1.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mabel_magnet.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = { #
+	id = mabel_magnet.2
+	title = mabel_magnet.2.t 
+	desc = mabel_magnet.2.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mabel_magnet.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_flag = mabel_magnet_3
+	}
+	option = { 
+		name = mabel_magnet.2.b
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_flag = mabel_magnet_6
+	}
+}
+
+country_event = { #
+	id = mabel_magnet.3
+	title = mabel_magnet.3.t 
+	desc = mabel_magnet.3.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mabel_magnet.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mabel_magnet.6 days = 10 }
+		set_country_flag = mabel_magnet_6
+		hidden_effect = {	
+				if = {
+					limit = { has_idea = MYS_Twins_1 } 
+					swap_ideas = {
+						add_idea = MYS_Twins_2
+						remove_idea = MYS_Twins_1
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_Twins_2 } 
+					swap_ideas = {
+						add_idea = MYS_Twins_3
+						remove_idea = MYS_Twins_2
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_Twins_3 } 
+					swap_ideas = {
+						add_idea = MYS_Twins_4
+						remove_idea = MYS_Twins_3
+					}
+				}
+				else = {}
+		}
+	}
+	option = { 
+		name = mabel_magnet.3.b
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mabel_magnet.4 days = 8 }
+	}
+}
+
+country_event = { #
+	id = mabel_magnet.4
+	title = mabel_magnet.4.t 
+	desc = mabel_magnet.4.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mabel_magnet.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mabel_magnet.5 days = 8 }
+	}
+}
+
+country_event = { #
+	id = mabel_magnet.5
+	title = mabel_magnet.5.t 
+	desc = mabel_magnet.5.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mabel_magnet.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_timed_idea = { idea = MYS_medical_bill  days = 60 }
+	
+				if = {
+					limit = { has_idea = MYS_NWHS_1 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_2
+						remove_idea = MYS_NWHS_1
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_2 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_3
+						remove_idea = MYS_NWHS_2
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_3 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_4
+						remove_idea = MYS_NWHS_3
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_4 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_5
+						remove_idea = MYS_NWHS_4
+					}
+				}
+				else = {}
+				
+	}
+}
+
+country_event = { #
+	id = mabel_magnet.6
+	title = mabel_magnet.6.t 
+	desc = mabel_magnet.6.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mabel_magnet.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_timed_idea = { idea = MYS_eye_of_the_stan  days = 60 }
+	}
+}
+
+
+########################################
+# mabel_dino
+########################################
+
+country_event = { #
+	id = mabel_dino.1
+	title = mabel_dino.1.t 
+	desc = mabel_dino.1.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mabel_dino.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = { #
+	id = mabel_dino.2
+	title = mabel_dino.2.t 
+	desc = mabel_dino.2.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mabel_dino.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_flag = mabel_dino_3
+	}
+	option = { 
+		name = mabel_dino.2.b
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_flag = mabel_dino_6
+	}
+}
+
+country_event = { #
+	id = mabel_dino.3
+	title = mabel_dino.3.t 
+	desc = mabel_dino.3.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mabel_dino.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mabel_dino.6 days = 10 }
+		set_country_flag = mabel_dino_6
+	}
+	option = { 
+		name = mabel_dino.3.b
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mabel_dino.4 days = 10 }
+	}
+}
+
+country_event = { #
+	id = mabel_dino.4
+	title = mabel_dino.4.t 
+	desc = mabel_dino.4.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mabel_dino.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = mabel_dino.5 days = 10 }
+	}
+}
+
+country_event = { #
+	id = mabel_dino.5
+	title = mabel_dino.5.t 
+	desc = mabel_dino.5.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mabel_dino.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		
+	}
+}
+
+country_event = { #
+	id = mabel_dino.6
+	title = mabel_dino.6.t 
+	desc = mabel_dino.6.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = mabel_dino.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#################################### end of file ###########################################

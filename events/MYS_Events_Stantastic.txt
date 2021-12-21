@@ -33,7 +33,7 @@ country_event = {  #Part 2.1
 	id = stantastic.2
 	title = stantastic.2.t 
 	desc = stantastic.2.d  
-	picture = GFX_report_event_stan_running_away 
+	picture = GFX_report_event_stan_running_away
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -361,6 +361,7 @@ country_event = { #The Bet
 	immediate = {
 		hidden_effect = {
 			set_country_flag = mys_the_bet
+			set_country_flag = mys_the_bet_d
 		}
 	}
 	
@@ -594,35 +595,421 @@ country_event = {
 	option = { 
 		name = stantastic_51.11.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		random_list = {
-			95 = {
-				set_country_flag = mys_please
-			}
-			5 = {
-				set_country_flag = mys_winning
+		hidden_effect = {	
+			random_list = {
+				95 = {
+					set_country_flag = mys_please
+				}
+				5 = {
+					set_country_flag = mys_winning
+				}
 			}
 		}
 		custom_effect_tooltip = stantastic_51.11.tool
-		country_event = { id = stantastic_the_bet.1 days = 7 }
+		country_event = { id = stantastic_the_bet.1 days = 5 }
 	}
 }	
 
-########################################################
-country_event = {
+################################################################################################################
+country_event = {   # Hidden Event to evalaucate Mabel's Performance
 	id = stantastic_the_bet.1
 	title = stantastic_the_bet.1.t 
 	desc = stantastic_the_bet.1.d  
 	picture = GFX_report_event_stan_running_away 
 	
+	hidden = yes
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
+	timeout_days = 1
+	
+	immediate = {
+		#hidden_effect = {
+		#	clr_country_flag = mys_the_bet
+		#}
+		hidden_effect = {
+			if = {					   # High Profits, High Morals
+				limit = { 
+					check_variable = { mys_mabel_money > 30 }
+					check_variable = { mys_mabel_moral > 60 } 
+				}
+				set_country_flag = MYS_Mabel_HPHM
+			}
+			else_if = {					# Low Profits, High Morals
+				limit = { 
+					check_variable = { mys_mabel_money < 30 }
+					check_variable = { mys_mabel_moral > 60 } 
+				}
+				set_country_flag = MYS_Mabel_LPHM
+			}
+			else_if = {					# High Profits, Low Morals
+				limit = { 
+					check_variable = { mys_mabel_money > 30 }
+					check_variable = { mys_mabel_moral < 60 } 
+				}
+				set_country_flag = MYS_Mabel_HPLM
+			}
+			else = {set_country_flag = MYS_Mabel_LPLM} # Low Profits, Low Morals
+		}
+	}
+	
+	option = { 
+		name = stantastic_the_bet.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = stantastic_the_bet.2 days = 1 }		
+	}
+}
+
+country_event = {
+	id = stantastic_the_bet.2
+	title = stantastic_the_bet.2.t 
+	desc = stantastic_the_bet.2.d  
+	picture = GFX_report_event_stan_running_away 
+	
+	hidden = yes
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	timeout_days = 1
 	
 	immediate = {
 		hidden_effect = {
-			#add_popularity = {
-			#		ideology = fascism
-			#		popularity = 0.55
-			#}
+			if = {
+				limit = { 
+					has_country_flag = mys_please
+					has_country_flag = MYS_Mabel_HPHM
+				}
+				set_country_flag = MYS_bet_win_1
+			}
+			else_if = {
+				limit = { 
+					has_country_flag = mys_please
+					has_country_flag = MYS_Mabel_LPHM
+				}
+				set_country_flag = MYS_bet_win_2
+			}
+			else_if = {
+				limit = { 
+					has_country_flag = mys_please
+					has_country_flag = MYS_Mabel_HPLM
+				}
+				set_country_flag = MYS_bet_win_3
+			}
+			else_if = {
+				limit = { 
+					has_country_flag = mys_please
+					has_country_flag = MYS_Mabel_LPLM
+				}
+				set_country_flag = MYS_bet_win_4
+			}
+			#######################################
+			else_if = {
+				limit = { 
+					has_country_flag = mys_winning
+					has_country_flag = MYS_Mabel_HPHM
+				}
+				set_country_flag = MYS_bet_lose_1
+			}
+			else_if = {
+				limit = { 
+					has_country_flag = mys_winning
+					has_country_flag = MYS_Mabel_LPHM
+				}
+				set_country_flag = MYS_bet_lose_2
+			}
+			else_if = {
+				limit = { 
+					has_country_flag = mys_winning
+					has_country_flag = MYS_Mabel_HPLM
+				}
+				set_country_flag = MYS_bet_lose_3
+			}
+			else = {
+				set_country_flag = MYS_bet_lose_4
+			}
+			
+			
+		}
+	}
+	
+	option = { 
+		name = stantastic_the_bet.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = stantastic_the_bet.3 days = 1 }			
+	}
+}
+
+country_event = {
+	id = stantastic_the_bet.3
+	title = stantastic_the_bet.3.t 
+	desc = { 
+		text = stantastic_the_bet.3.d_a    # HPHM
+		trigger = {has_country_flag = MYS_bet_win_1}
+	}
+	desc = {
+		text = stantastic_the_bet.3.d_b    # LPHM
+		trigger = {has_country_flag = MYS_bet_win_2}
+	} 
+	desc = {
+		text = stantastic_the_bet.3.d_c    # HPLM
+		trigger = {has_country_flag = MYS_bet_win_3}
+	} 
+	desc = {
+		text = stantastic_the_bet.3.d_d    # LPLM
+		trigger = {has_country_flag = MYS_bet_win_4}
+	} 
+	desc = {
+		text = stantastic_the_bet.3.d_e    # HPHM
+		trigger = {has_country_flag = MYS_bet_lose_1}
+	} 
+	desc = {
+		text = stantastic_the_bet.3.d_f    # LPHM
+		trigger = {has_country_flag = MYS_bet_lose_2}
+	} 
+	desc = {
+		text = stantastic_the_bet.3.d_g    # HPLM
+		trigger = {has_country_flag = MYS_bet_lose_3}
+	} 
+	desc = {
+		text = stantastic_the_bet.3.d_h    # LPLM
+		trigger = {has_country_flag = MYS_bet_lose_4}
+	} 
+	picture = GFX_report_event_stan_running_away 
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+		clr_country_flag = mys_the_bet_d
+	}
+	
+	option = { 
+		name = stantastic_the_bet.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		if = {
+			limit = { has_country_flag = MYS_bet_win_1 }    # HPHM
+			add_timed_idea = { idea = MYS_bet_wrong  days = 180 }
+			country_event = { id = stantastic_the_bet.5 days = 60 }
+		}
+		else_if = {
+			limit = { has_country_flag = MYS_bet_win_2 }    # LPHM
+			add_timed_idea = { idea = MYS_bet_wrong  days = 90 }
+			country_event = { id = stantastic_the_bet.5 days = 60 }
+			if = {
+					limit = { has_idea = MYS_NWHS_5 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_4
+						remove_idea = MYS_NWHS_5
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_4 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_3
+						remove_idea = MYS_NWHS_4
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_3 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_2
+						remove_idea = MYS_NWHS_3
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_2 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_1
+						remove_idea = MYS_NWHS_2
+					}
+				}
+				else = {}
+		}
+		else_if = {
+			limit = { has_country_flag = MYS_bet_win_3 }    # HPLM
+			add_timed_idea = { idea = MYS_bet_wrong  days = 90 }
+			country_event = stantastic_the_bet.4
+		}
+		else_if = {
+			limit = { has_country_flag = MYS_bet_win_4 }    # LPLM
+			add_timed_idea = { idea = MYS_bet_wrong  days = 90 }
+			country_event = stantastic_the_bet.4
+			if = {
+					limit = { has_idea = MYS_NWHS_1 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_2
+						remove_idea = MYS_NWHS_1
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_2 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_3
+						remove_idea = MYS_NWHS_2
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_3 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_4
+						remove_idea = MYS_NWHS_3
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_4 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_5
+						remove_idea = MYS_NWHS_4
+					}
+				}
+				else = {}
+		}
+		##############################################################################
+		else_if = {
+			limit = { has_country_flag = MYS_bet_lose_1 }
+			#add_timed_idea = { idea = MYS_bet_loser  days = 90 }
+			country_event = stantastic_the_bet.4
+			if = {
+					limit = { has_idea = MYS_NWHS_5 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_4
+						remove_idea = MYS_NWHS_5
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_4 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_3
+						remove_idea = MYS_NWHS_4
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_3 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_2
+						remove_idea = MYS_NWHS_3
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_2 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_1
+						remove_idea = MYS_NWHS_2
+					}
+				}
+				else = {}
+		}
+		else_if = {
+			limit = { has_country_flag = MYS_bet_lose_2 }
+			#add_timed_idea = { idea = MYS_bet_loser  days = 30 }
+			country_event = stantastic_the_bet.4
+		}
+		else_if = {
+			limit = { has_country_flag = MYS_bet_lose_3 }
+			add_timed_idea = { idea = MYS_bet_loser  days = 180 }
+			country_event = stantastic_the_bet.4
+			if = {
+					limit = { has_idea = MYS_NWHS_1 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_2
+						remove_idea = MYS_NWHS_1
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_2 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_3
+						remove_idea = MYS_NWHS_2
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_3 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_4
+						remove_idea = MYS_NWHS_3
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_4 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_5
+						remove_idea = MYS_NWHS_4
+					}
+				}
+				else = {}
+		}
+		else_if = {
+			limit = { has_country_flag = MYS_bet_lose_4 }
+			add_timed_idea = { idea = MYS_bet_loser  days = 270 }
+			country_event = stantastic_the_bet.4
+				if = {
+					limit = { has_idea = MYS_NWHS_1 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_3
+						remove_idea = MYS_NWHS_1
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_2 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_4
+						remove_idea = MYS_NWHS_2
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_3 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_5
+						remove_idea = MYS_NWHS_3
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_NWHS_4 } 
+					swap_ideas = {
+						add_idea = MYS_NWHS_5
+						remove_idea = MYS_NWHS_4
+					}
+				}
+				else = {}
+				if = {
+					limit = { has_idea = MYS_Twins_1 } 
+					swap_ideas = {
+						add_idea = MYS_Twins_2
+						remove_idea = MYS_Twins_1
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_Twins_2 } 
+					swap_ideas = {
+						add_idea = MYS_Twins_3
+						remove_idea = MYS_Twins_2
+					}
+				}
+				else_if = {
+					limit = { has_idea = MYS_Twins_3 } 
+					swap_ideas = {
+						add_idea = MYS_Twins_4
+						remove_idea = MYS_Twins_3
+					}
+				}
+				else = {}
+		}
+		else = {		}
+			
+	}
+}
+
+country_event = {   # Hidden Event to chnage MYS over to Stan for ease of use purposes
+	id = stantastic_the_bet.4
+	title = stantastic_the_bet.4.t 
+	desc = stantastic_the_bet.4.d  
+	picture = GFX_report_event_stan_running_away 
+	
+	hidden = yes
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	timeout_days = 1
+	
+	immediate = {
+		hidden_effect = {
 			set_popularities = {
 				democratic = 15
 				communism = 10
@@ -633,16 +1020,43 @@ country_event = {
 				ruling_party = fascism
 			}
 			clr_country_flag = mys_the_bet
-		}	
+			clr_country_flag = mys_the_bet_d
+		}
+		
 	}
 	
 	option = { 
-		name = stantastic_51.11.a
+		name = stantastic_the_bet.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this		
+	}
+}
+
+country_event = {   # Public Event to chnage MYS over to Stan when Mabel gets board
+	id = stantastic_the_bet.5
+	title = stantastic_the_bet.5.t 
+	desc = stantastic_the_bet.5.d  
+	picture = GFX_report_event_stan_running_away 
+
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {
+	}
+	
+	option = { 
+		name = stantastic_the_bet.5.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		
-		
-		
-		#custom_effect_tooltip = stantastic_the_bet.1.tool		
+		set_politics = {
+			ruling_party = fascism
+		}
+		set_popularities = {
+				democratic = 15
+				communism = 10
+				fascism = 65
+				neutrality = 10
+		}
+		clr_country_flag = mys_the_bet
+		clr_country_flag = mys_the_bet_d		
 	}
 }
 	

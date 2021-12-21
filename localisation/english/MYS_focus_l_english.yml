@@ -29,7 +29,7 @@
  
  MYS_stantastic:0 "The Stan-Tastic Adventures!"
  MYS_stantastic_desc:0 "As the twins go about their way, going on adventures, threading the line between life and death in the great outback of Gravity Falls, I'll continues on my work to repair the portal fully and bring this all to an end.\n\n- §RStan Pines§! -"
- MYS_stantastic_effect:0 "§YLet's see here on the ol'list.§!\nFind new attractions\nGet money back from Birdperson\nRefill the energy reactor..."
+ MYS_stantastic_effect:0 "§YLet's see here on the ol'list.§!\n-Find new attractions\n-Get money back from Birdperson\n-Refill the energy reactor..."
  
  MYS_stantastic_1:0 "Going On A Grocery Run"
  MYS_stantastic_1_desc:0 "It's the perfect attraction. A unicorn made of corn! And there's even a sale at the supermarket! I'll just head on down to town and grab some corn and glue. I better also make sure to store it away from the food black hole that Mabel calls a 'pet'."
@@ -42,11 +42,11 @@
  MYS_crawlspace:0 "Stan's Corn Escapades have concluded."
  
  MYS_stantastic_5:0 "To Take What Was Rightfully Stolen"
- MYS_stantastic_5_desc:0 "Mewni Corn would be an aweful waste on a tourist attraction. Its better off being sold in a shaddy location for ludicrous prices. And I know just the place in Gravity Falls to do that."
+ MYS_stantastic_5_desc:0 "Mewni Corn would be an awful waste on a tourist attraction. Its better off being sold in a shaddy location for ludicrous prices! And I know just the place in Gravity Falls to do that."
  MYS_stantastic_5_effect:0 "The regular black market was boring anyway. Not much demand for non-laser emitting pugs lately..."
  
  MYS_stantastic_2:0 "Running on Empty"
- MYS_stantastic_2_desc:0 "That gauge doesn't look right, I mean, I doubt it ever worked properly. I haven't refilled the portal's reactor since... well, since I was with her. A bit amazing how a few drops of that blue stuff lasted this long. Its not like I can ever get more of it, anyway."
+ MYS_stantastic_2_desc:0 "That gauge doesn't look right, I mean, I doubt it ever worked properly. I haven't refilled the portal's hyperdrive reactor since... well, since I was with over there. A bit amazing how a few drops of that blue stuff lasted this long. Its not like I can ever get more of it, anyway."
  MYS_stantastic_2_effect:0 "I mean, the 'E' must mean that I still have like an extra 10 interdimesional miles left, right?"
  
  MYS_stantastic_4:0 "A Homey Place To Be In"
@@ -70,11 +70,11 @@
  
  MYS_dipper_s1_1:0 "Soos to the Future"
  MYS_dipper_s1_1_desc:0 "We told Soos about how we found President Quentin Trembley and that he froze himself in peanut brittle in order to travel to the future. We asked him to keep it a secret. But apparently, he decided to give Trembley’s time travel method a try so he could “Check out the Distant Future, Dudes!”"
- MYS_dipper_s1_1_effect:0""
+ MYS_dipper_s1_1_effect:0 ""
  
  MYS_dipper_s1_3:0 "Temporal Pranking"
  MYS_dipper_s1_3_desc:0 "Only partially frozen in his homemade peanut brittle, Soos laid there in that bathtub. Next to him, a drawing of what he imagines the future would be. That’s when Mabel and I got a idea of a prank that’ll resonate through time."
- MYS_dipper_s1_3_effect:0""
+ MYS_dipper_s1_3_effect:0 ""
  
  MYS_dipper_s1_5:0 "Awaking From Mega-Sleep"
  MYS_dipper_s1_5_desc:0 "Having worn our robot costumes, placed a fake Rip van Winkle beard on Soos, and turned the living room into a futuristic lab, I think it’s time we revive Soos from “Mega-Sleep”"
@@ -82,15 +82,15 @@
  
  MYS_dipper_s1_2:0 "Majestic Oddities"
  MYS_dipper_s1_2_desc:0 "The Author mentions finding an animal with a duck beak, web feet, and a beaver tail...\n\nIt's also plaid! That's the real mystery to explore!"
- MYS_dipper_s1_2_effect:0""
+ MYS_dipper_s1_2_effect:0 "Such an interesting and oddly fasioned creature..."
  
  MYS_dipper_s1_4:0 "The Color Flannel"
  MYS_dipper_s1_4_desc:0 "Wendy needs a new shirt! And I know just where to get one from.\n"The Source of all Lumberjacks' Jackets"!\n\nMabel has some reservations of what I'm about to do though..."
- MYS_dipper_s1_4_effect:0""
+ MYS_dipper_s1_4_effect:0 "Mabel, come on. Wendy NEEDS this... probably."
  
  MYS_dipper_s1_6:0 "A Plaid Standoff"
  MYS_dipper_s1_6_desc:0 "Got my cage, trapping gear, and this kid's hunting licence. Time to get me a Plaidypus!\n\nAnd get one before that dumb Robbie does also."
- MYS_dipper_s1_6_effect:0 ""
+ MYS_dipper_s1_6_effect:0 "I could have sworn I saw a green platypus around here as well..."
  
  ######################################################
  #7
@@ -113,15 +113,15 @@
  
  MYS_mabel_s1_1:0 "She Blinded Me With Science!"
  MYS_mabel_s1_1_desc:0 "Thanks to me, Stan saw the Rainbow. Unfortunatley, it turned into more of a Painbow.\n\nBut don't worry, on my next guide, I'll show you all how to apologies and make up to your grunkle after causing retinal damage!\nHooray!"
- MYS_mabel_s1_1_effect:0 ""
+ MYS_mabel_s1_1_effect:0 "Hahaha, painbows"
  
- MYS_mabel_s1_3:0 "A Magnetic Personality"
+ MYS_mabel_s1_3:0 "Making It Up"
  MYS_mabel_s1_3_desc:0 "Today's Guide is a Two Parter!\n\nToday I'll show you how to use a series of magnets to "aquire" the change from unsuspecting tourist. From there, you can present it to your grunkle to apologise for making them experience the better part of life in a painful manner."
- MYS_mabel_s1_3_effect:0""
+ MYS_mabel_s1_3_effect:0 "I think this switch reverses the polarity."
  
  MYS_mabel_s1_5:0 "A High Dose of Mabelwaves"
  MYS_mabel_s1_5_desc:0 "Dipper keeps trying to warn me that this isn't a good plan. Made me even sign a release form so he isn't blamed for what happens next.\nSo lame of him...\n\n But maybe he has a point?"
- MYS_mabel_s1_5_effect:0 ""
+ MYS_mabel_s1_5_effect:0 "If not magnets, what else can I do?"
  
  ######################################################
  #  Investment Focus# 
@@ -245,7 +245,7 @@
 
  MYS_PR_6:0 "Free Souvenirs***" 
  MYS_PR_6_desc:0 "Free Souvineers! Get your Free Souvineers!*** "
- MYS_PR_6_effect:0 "§R***Free "sourvineer" is at the management's disgression. Requires a $200 gift shop purchase and a purchase of a "Full Experience" Shack Tour on the same visit. Not libable for any physical or mental harm while on Shack premice and/or caused by said souvineer for the entirity of existance. Technically liable under EU law, but one must trick Man of Mystery to going to Europe for any litgation.§!"
+ MYS_PR_6_effect:0 "§R***Free "souvenir" is at the management's discretion. Requires a $200 gift shop purchase and a purchase of a "Full Experience" Shack Tour on the same visit. Not liable for any physical or mental harm while on Shack premise and/or caused by said souvenir for the entirety of existence. Technically liable under EU law, but one must trick Man of Mystery to going to Europe for any litigation.§!"
 
  MYS_PR_8:0 "Community Service"
  MYS_PR_8_desc:0 "So the court has come to me with a plea deal of sorts. In my interactions with the town, I may have broke a few minor city ordiances. Stuff like robbing the Summer-Ween Store, burning down the Northwest Pinoneer Wagon on Pioneer Day, scared off the local pastor with my Devil's Costume..."
