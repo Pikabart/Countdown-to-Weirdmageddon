@@ -40,7 +40,7 @@
  #########################################
  
  MYS_dipper_clone:0 "Begun, the Gleeful Wars Have..."
- MYS_dipper_clone_desc:0 "Besides all of Dipper and Soos's Stellar Wars puns, we need to have an army to take on Gideon and his Goons. Fortunatley, thanks to that old copier, we can just xerox us an army. Sure there may be moral implications, but...\n\nDipper, lay down on that copy bed and don't move!\n\nDipper Reserves = [?mys_dipper_reserve|+0]\nWendy Reserves = [?mys_wendy_reserve|+0]\nSoos Reserves = [?mys_soos_reserve|+0]"
+ MYS_dipper_clone_desc:0 "Dipper and Soos's Star Wars puns aside, we need to have an army to take on Gideon and his Goons. Fortunatley, thanks to that old copier, we can just xerox us an army! Sure there may be moral implications, but...\n\nDipper, lay down on that copy bed and don't move!\n\n§C3 Clone Batches of the same type are needed to train a divison.§!\nDipper Reserves = [?mys_dipper_reserve|+0]\nWendy Reserves = [?mys_wendy_reserve|+0]\nSoos Reserves = [?mys_soos_reserve|+0]"
  
  #flags
  mys_clone_dipper:0 "Strapped Dipper to the Copier Machine"
@@ -48,7 +48,7 @@
  #options
  clone_dips:0 "§CA new batch of Dipper§!"
  clone_dips_div:0 "§CA new Dipper Formation!§!"
- clone_dips_tt:0 "§CA new Dipper Regiment will spawn near the Shack§!"
+ clone_dips_tt:0 "§CA new Dipper Regiment MAY spawn near the Shack§!"
  clone_wens:0 "§OQuality and Quantity!§!"
  clone_wens_div:0 "§OThose who can strike fast and hard!§!"
  clone_wens_tt:0 "§OA new Wendy Special Ops will spawn near the Shack§!"

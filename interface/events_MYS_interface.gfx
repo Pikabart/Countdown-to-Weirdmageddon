@@ -164,6 +164,44 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MYS/report_event_the_staff.dds"
 	}
 	
+	###############
+	
+	spriteType = { #
+		name = "GFX_report_event_reading_journal"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_reading_journal.dds"
+	}
+	
+	spriteType = { #
+		name = "GFX_report_event_bill_dream"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_bill_dream.dds"
+	}
+	
+	spriteType = { #
+		name = "GFX_report_event_summon"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_summon.dds"
+	}
+	
+	spriteType = { #
+		name = "GFX_report_event_seeing_bill"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_seeing_bill.dds"
+	}
+	
+	spriteType = { #
+		name = "GFX_report_event_stan_with_cola"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_stan_with_cola.dds"
+	}
+	
+	spriteType = { #
+		name = "GFX_report_event_wrecking_ball"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_wrecking_ball.dds"
+	}
+	
+	spriteType = { #
+		name = "GFX_report_event_gideon_rises"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_gideon_rises.dds"
+	}
+	
+	
    #############################################################
    #  Special GIF Evenrt image
    #############################################################

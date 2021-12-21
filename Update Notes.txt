@@ -1,5 +1,23 @@
 #########################################
-# Update 12/11
+# Update 12/20
+common/characters
+common/decisions/catagories
+common/national_focus
+
+events
+
+gfx/event_country_pictures/mys
+gfx/leaders/mys
+gfx/interface/goals/mys -
+
+history/countries/mys
+
+interface
+
+loc/english
+
+#########################################
+# Update 12/19
 common/characters
 common/decisions/catagories
 common/ideas

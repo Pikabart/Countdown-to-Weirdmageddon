@@ -1275,7 +1275,7 @@
 		id = MYS_clones
 		icon = GFX_goal_focus_copy_machine
 		x = 0
-		y = 1
+		y = 2
 		prerequisite = { focus = MYS_investment }
 		relative_position_id = MYS_investment
 		
@@ -1286,12 +1286,12 @@
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
+		available_if_capitulated = no 
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			country_event = mystery_shack_pining.3
 			hidden_effect = {load_oob = "MYS_Clones"}
-			#load_oob = "MYS_Clones"
+			custom_effect_tooltip = MYS_clones_effect
 			set_country_flag = mys_clone_dipper
 			set_variable = {
 				var = mys_dipper_reserve
@@ -2036,13 +2036,14 @@ focus = {
 		cost = 3
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			country_event =  mystery_shack_pining.1
 			custom_effect_tooltip = "MYS_pine_1_effect" 
 			hidden_effect = { 
 				set_country_flag = mys_clone_wars 
 				GID = {
 					#load_oob = "GID_2012"
 				}
+				mark_focus_tree_layout_dirty = yes
 			}
 		}
 		
@@ -2077,7 +2078,7 @@ focus = {
 		cost = 3
 
 		completion_reward = {
-			#country_event = mystery_shack. 
+			country_event =  mystery_shack_muse.1
 			custom_effect_tooltip = "MYS_pine_3_effect"
 		}
 		
@@ -2095,7 +2096,7 @@ focus = {
 		cost = 3
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			country_event = mystery_shack_pining.2
 		}
 		
 		ai_will_do = {factor = 1}
@@ -2112,7 +2113,7 @@ focus = {
 		cost = 3
 
 		completion_reward = {
-			#country_event = mystery_shack.
+			country_event =  mystery_shack_muse.3
 			custom_effect_tooltip = "MYS_pine_5_effect"
 		}
 		
@@ -2131,7 +2132,7 @@ focus = {
 		cost = 3
 
 		completion_reward = {
-			country_event = mystery_shack_pine.1
+			country_event = mystery_shack_war.1
 		}
 		
 		ai_will_do = {factor = 1}
