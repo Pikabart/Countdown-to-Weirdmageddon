@@ -23,6 +23,9 @@ state={
 	provinces={
 		260 2456 7035 8203 8296 8388 8393 
 	}
+	resources={
+		aluminium=12
+	}
 	
 	manpower=8000000
 	

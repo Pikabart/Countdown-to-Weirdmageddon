@@ -5,6 +5,9 @@ on_actions = {
 			MEW = {
 				country_event = { id = mewni_startup.1 } # Event code is in MEW_events_focus
 			}
+			LUD = {
+				country_event = { id = lud_start.1 }
+			}
 			MYS = {
 				country_event = { id = mys_startup.1 } # Event code is in MYS_events
 			}
