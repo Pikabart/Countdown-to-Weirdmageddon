@@ -1,4 +1,24 @@
 #########################################
+# Update 12/21
+common/characters
+common/national_focus
+
+events
+
+gfx/leaders/mys
+gfx/interface/alpha stamp
+
+history/countries/
+history/states/
+history/units/
+
+interface/ edit files and new files
+
+loc/english
+
+map/ all river files
+
+#########################################
 # Update 12/20
 common/characters
 common/decisions/catagories
