@@ -21,6 +21,10 @@ state={
 		2223 3956 4318 8006 8051 
 	}
 	
+	resources={
+		oil=16
+	}
+	
 	manpower=4000
 	
 	state_category=town

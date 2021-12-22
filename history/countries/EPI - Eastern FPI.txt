@@ -80,7 +80,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Director A"
 	desc = "POLITICS_A_DESC"
-	picture = ""
+	picture = "hoi4_portrait_FPI_HOLDER.dds"
 	ideology = despotism
 	traits = {
 		#

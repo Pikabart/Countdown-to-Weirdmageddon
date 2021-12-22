@@ -203,6 +203,140 @@ country_event = { #
 ########################################
 
 country_event = { #
+	id = dipper_soos.1
+	title = dipper_soos.1.t 
+	desc = dipper_soos.1.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = dipper_soos.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = { #
+	id = dipper_soos.2
+	title = dipper_soos.2.t 
+	desc = dipper_soos.2.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = dipper_soos.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = { #
+	id = dipper_soos.3
+	title = dipper_soos.3.t 
+	desc = dipper_soos.3.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = dipper_soos.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = dipper_soos.4 days = 10 }
+	}
+	option = { 
+		name = dipper_soos.3.b
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = dipper_soos.5 days = 10 }
+	}
+}
+
+country_event = { #
+	id = dipper_soos.4
+	title = dipper_soos.4.t 
+	desc = dipper_soos.4.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = dipper_soos.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_war_support = 0.05
+		add_political_power = -50
+		23 ={
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+		}
+		24 ={
+			damage_building = {
+				type = industrial_complex 
+				damage = 1
+			}
+		}
+		27 ={
+			damage_building = {
+				type = arms_factory 
+				damage = 1
+			}
+		}
+		28 ={
+			damage_building = {
+				type = infrastructure
+				damage = 1
+			}
+		}
+		29 ={
+			damage_building = {
+				type = industrial_complex 
+				damage = 1
+			}
+		}
+	}
+}
+
+country_event = { #
+	id = dipper_soos.5
+	title = dipper_soos.5.t 
+	desc = dipper_soos.5.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = dipper_soos.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_stability = +0.03
+	}
+}
+
+
+########################################
+# dipper_plaid
+########################################
+
+country_event = { #
 	id = dipper_plaid.1
 	title = dipper_plaid.1.t 
 	desc = dipper_plaid.1.d  

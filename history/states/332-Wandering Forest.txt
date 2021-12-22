@@ -25,6 +25,10 @@ state={
 		702 2419 2882 3337 4116 4432 4693 5317 5729 7905 7960 7973 
 	}
 	
+	resources={
+		oil=16
+	}
+	
 	manpower=5000
 	
 	state_category=large_town

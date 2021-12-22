@@ -12,6 +12,13 @@ set_popularities = {
 	neutrality = 100
 }
 
+add_ideas = {
+	KER_KER_1
+}
+
+create_faction = " "
+add_to_faction = WAL
+
 create_country_leader = {
 	name = " "
 	desc = ""

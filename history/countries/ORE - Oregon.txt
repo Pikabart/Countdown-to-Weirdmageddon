@@ -72,7 +72,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Amelia Onyx"
 	desc = "POLITICS_ONYX_DESC"
-	picture = ""
+	picture = "gfx/leaders/EPI/hoi4_portrait_FPI_HOLDER.dds"
 	ideology = liberalism
 	traits = {
 		#
@@ -82,7 +82,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Andrew Chiu"
 	desc = "POLITICS_CHIU_DESC"
-	picture = ""
+	picture = "leader_unknown.dds"
 	ideology = moderatism
 
 }

@@ -4,6 +4,10 @@ state={
 	
 	local_supplies=0.0 
 	
+	resources={
+		steel = 16
+	}
+	
 	history={
 		owner = GTF
 		add_core_of = GTF

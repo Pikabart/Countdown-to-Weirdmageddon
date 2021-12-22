@@ -5,6 +5,29 @@
  game_startup.1.d:0 "Welcome! And thank you for playing "Countdown to Wierdmageddon", the HoI4 total conversion mod set in the Multiverse intersecting Gravity Falls, Star vs The Forces of Evil, Amphibia, and The Owl House.\n\nWe are proud to release our Alpha 0.01 version for all of you to play as we contninue working on expanding this unique world of Earth 42'\\ and the dimensions around it!\n\nSo If you're reading this particular event, the country you choosen haven't been really developed yet. But if you want, feel free to do whatever with it. Never know what you might encounter..."
  game_startup.1.a:0 "But if you see a floating triangle, please step away"
  
+ before_news.1.t:0 "Man frozen in Peanut Brittle!"
+ before_news.1.d:0 "Yesterday in San Francisco, during an excavation to expand the BART Train Tunnels, a lost underground factory once owned by Ghirardelli was found. Inside was old 19th Century vats containing since rotted confections of the 1880s. However, during excavation, authorities found a near perfectly preserved man in a giant encasing of peanut brittle. Upon opening the peanut to retrieve the man, he has discovered to be alive and was successfully revived at Mark Bowman SF General Hospital.\n\nUpon questioning, it was discovered the man was local legend Joshua Norton, the self-proclaimed emperor of the United States. Many in the scientific community are amazed of his preservation while historians rushed to learn of the 19th century man."
+ before_news.1.a:0 "ORE"
+ before_news.1.b:0 "CAL"
+ before_news.1.c:0 "WAS"
+ before_news.1.e:0 "EUS"
+ before_news.1.f:0 "EPI"
+ before_news.1.g:0 "MEX"
+ before_news.1.h:0 "SOC"
+ before_news.1.i:0 "CAN"
+ 
+ before_news.2.t:0 "Skirmish of the Union"
+ before_news.2.d:0 "Last night, President Adrian Curtis gave his State of the Union Address. In attendance was the congress of over 700 representatives and all 150 senators. In his opening remarks, Curtis attempted to bring unity, speaking of the American spirit and the common unity Americans have.\n\nHowever, it did not take long for him to turn to rhetoric. He stated how only his strong leadership can preserve the country, and spoke poorly of America’s Allies and dismissed talks of many oversea states wanting to leave the US. Quickly, he words sparked arguments in the audience and his speech ended early when fighting broke out.\n\nNew Polls leading into the election year place him at 43%."
+ before_news.1.a:0 "ORE"
+ before_news.1.b:0 "CAL"
+ before_news.1.c:0 "WAS"
+ before_news.1.e:0 "EUS"
+ before_news.1.f:0 "EPI"
+ before_news.1.g:0 "MEX"
+ before_news.1.h:0 "SOC"
+ before_news.1.i:0 "CAN"
+ 
+ 
  
  kerfuffle_news.1.t:0 "Nothing left behind..."
  kerfuffle_news.1.d:0 "'It happened in the early morning. It felt like any other ordinary day. I was there at the border when it occurred. I had just crossed into the US for business and had stopped near the Peace Arc to take a picture to send to my kids. All at once, a thick fog rolled in from along the coastline. Thick, gray, unnerving, it rose as high as I could tilt my head to look up. Sunny and clear on the American side, just a wall of fog on the other side. My home and native land, my husband and children in Vancouver. They’re all gone...'\n\nOlivia Martin - Canadian Refugee\nFrom a recorded interview by the Washington State Guard"
@@ -37,7 +60,7 @@
 #####################################################################################################################
  
  west_election_news.1.t:0 "The 8 and a half President Returns!"
- west_election_news.1.d:0 ""
+ west_election_news.1.d:0 "In the morning hours yesterday, a man claiming to be the President of the United States rode backwards on horsebacks through the streets of Portland before his horse jumped over the Burmside Bridge and fell into the Willamette River. Disrupting a high-level meeting between the governors of Oregon, California, Washington, Alaska, and Hawaii, Governor Onyx has announced that the man, who called himself Sir Lord Quentin Trembley III, Esq., is in fact the former and original 9th President of the United States.\n\nHe was in suspended animation in peanut brittle, similar to California's Joshua Norton. With this revelation, many wonder how this will affect the Western US’s response to President Curtis’ Coup."
  west_election_news.1.a:0 "ORE"
  west_election_news.1.b:0 "CAL"
  west_election_news.1.c:0 "WAS"
