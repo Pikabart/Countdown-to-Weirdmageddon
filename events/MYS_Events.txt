@@ -1253,6 +1253,9 @@ country_event = {    # Does GF get involve
 					target = GID
 					type = annex_everything
 				}
+				add_state_core = 24
+				add_state_core = 23
+				add_state_core = 26
 				give_military_access = MYS
 			}
 				set_country_flag = MYS_GF_war_GID
@@ -1264,6 +1267,8 @@ country_event = {    # Does GF get involve
 					target = MYS
 					type = annex_everything
 				}
+				add_state_core = 54
+				remove_state_core = 24
 				give_military_access = GID
 			}
 			set_country_flag = MYS_GF_war_MYS

@@ -697,7 +697,37 @@ country_event = { #
 		name = mabel_magnet.6.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		add_timed_idea = { idea = MYS_eye_of_the_stan  days = 60 }
-	}
+		
+		if = {
+				limit = { has_idea = MYS_NWHS_5 } 
+				swap_ideas = {
+					add_idea = MYS_NWHS_4
+					remove_idea = MYS_NWHS_5
+				}
+			}
+			else_if = {
+				limit = { has_idea = MYS_NWHS_4 } 
+				swap_ideas = {
+					add_idea = MYS_NWHS_3
+					remove_idea = MYS_NWHS_4
+				}
+			}
+			else_if = {
+				limit = { has_idea = MYS_NWHS_3 } 
+				swap_ideas = {
+					add_idea = MYS_NWHS_2
+					remove_idea = MYS_NWHS_3
+				}
+			}
+			else_if = {
+				limit = { has_idea = MYS_NWHS_2 } 
+				swap_ideas = {
+					add_idea = MYS_NWHS_1
+					remove_idea = MYS_NWHS_2
+				}
+			}
+			else = {}
+	}``
 }
 
 

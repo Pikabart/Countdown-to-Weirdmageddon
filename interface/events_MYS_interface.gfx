@@ -27,6 +27,11 @@ spriteTypes = {
 		name = "GFX_report_event_stan_on_phone"
 		texturefile = "gfx/event_country_pictures/MYS/report_event_call.dds"
 	}
+	
+	spriteType = { # Shock Dip
+		name = "GFX_report_event_shock_dip"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_shock_dip.dds"
+	}
 
 	#########################
 	

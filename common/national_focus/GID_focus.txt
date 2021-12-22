@@ -409,8 +409,8 @@
 		available = {
 		}
 				
-		bypass = {
-		} 
+		will_lead_to_war_with = MYS 
+		will_lead_to_war_with = GTF
 		
 		cost = 10
 

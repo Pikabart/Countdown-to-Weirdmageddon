@@ -94,7 +94,7 @@ country_event = {
 	id = wendy.2
 	title = wendy.2.t 
 	desc = wendy.2.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_shock_dip #  change this later
 	
 	is_triggered_only = yes  
 	
@@ -115,7 +115,7 @@ country_event = {
 	id = wendy.3
 	title = wendy.3.t 
 	desc = wendy.3.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_wendy_cashier #  change this later
 	
 	is_triggered_only = yes  
 	

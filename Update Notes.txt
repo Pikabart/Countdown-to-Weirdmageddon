@@ -1,5 +1,23 @@
 #########################################
 # Update 12/21
+
+common/national_focus
+
+events
+
+gfx/countries/mys
+gfx/interface/idea/mys
+
+history/countries/
+history/general
+
+interface/
+
+loc/english
+
+
+#########################################
+# Update 12/21
 common/characters
 common/national_focus
 
