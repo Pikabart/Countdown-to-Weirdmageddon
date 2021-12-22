@@ -6,6 +6,11 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_news_stateofunion"
+		texturefile = "gfx/event_news_pictures/earth/news_event_stateofunion.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_news_peace_arc"
 		texturefile = "gfx/event_news_pictures/earth/news_event_peace_arc.dds"
 	}

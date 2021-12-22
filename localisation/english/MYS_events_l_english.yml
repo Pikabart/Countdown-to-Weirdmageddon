@@ -92,7 +92,7 @@
     soos.3.a:0 "Come on, he was asking for it with those shallow pockets!"
     
     wendy.1.t:0 "The Fightin' Cordoury!"
-    wendy.1.d:0 "filler"
+    wendy.1.d:0 "The Cordoury Family are a local staple of the town"
     wendy.1.a:0 "filler"
    
     wendy.2.t:0 "The Cordoury Drip"
@@ -283,16 +283,16 @@
     mystery_shack_pining.1.a:0 "“This isn't the last you'll see of wittle... ol' me!”"
     
     mystery_shack_pining.2.t:0 "The Sale of Our Lives"
-    mystery_shack_pining.2.d:0 "A"  
-    mystery_shack_pining.2.a:0 "A"
+    mystery_shack_pining.2.d:0 "As the last bus of tourist left for the day, Stan counted the money the Shack had made for the day. As a dipper clone helped with the budgeting, he couldn't help but think how much more he could have made.\n\n"And we have a profit margin of approximately 90%", said the clone.\n\n"Our margins are normally more than double that..." but overall, he needed more money and more tourist coming through the shack. The margins are smaller, but with overall high profits and foot traffic, his Shack and the Mystery Sale was drawing away people from Gideon. As much as he wants better Short Term Quarterly Profits Margins, he knew the old saying.\n\n"He who sells and cuts prices, may turn and sell another day. But he that is out-completed will never open their business doors again..."\n\nThe clone spoke."  
+    mystery_shack_pining.2.a:0 "I don't think thats how the quote goes, Stan."
     
     mystery_shack_pining.3.t:0 "The New Tyrone"
-    mystery_shack_pining.3.d:0 "A"  
-    mystery_shack_pining.3.a:0 "I told your dad "Mason" wasn't a hip name..."
+    mystery_shack_pining.3.d:0 "Mabel pulled the recently printed sheet out of the output tray and laid it on the floor. Dipper sat up from the copier as the copy of him came to life and popped out from the sheet of paper.\n\n“Now this... this is the third weirdest thing I saw in my life,” said Stan.\n\nThe new clone stood up and turned to Dipper, “Alright then. I guess I’m the first of many.”\n\nMabel spoke, “What should we call this Dipper?”\n\nDipper snapped his fingers, “He’s my new number 2. So I guess-“\n\n“I’m a new Tyrone! Awesome!”\n\nMabel yanked Dipper off the copier, “I want a clone with a cool name now!”\n\nAll three of them quickly pulled Mabel back. “We don’t need another Mabel around... not yet anyway,” said Stan. He turned to Tyrone, “Tyrone?”\n\n“What? Its better than his real name. Or Dipper.”\n\n“Hey!” Dipper looked at him.\n\nStan shrugged."  
+    mystery_shack_pining.3.a:0 "I told Eugene that "Mason" wasn't a hip name..."
     
     mystery_shack_pining.4.t:0 "Training Disaster!"
-    mystery_shack_pining.4.d:0 "A"  
-    mystery_shack_pining.4.a:0 "Back to the copier..."
+    mystery_shack_pining.4.d:0 "Tyrone ordered the new clone squad of Dippers to formation in order to ready them for deployment. But there was something wrong with some of the clone dippers.\n\nAs Tyrone began to run them through a basic obstacle course for training, some of the Dippers snapped and began attacking each other. The brawl was fierce, mostly as each individual dipper was weak and their noodle-like arms made little damaged against each other. None the less, the brawl turned into a riot as more dippers broke from formation and battled.\n\nTyrone ran to the garden faucet and turned on the sprinklers. As water fell on his newly laminated skin, the other Dippers got soaked and the paper body of theirs melted away.\n\nStan came outside to see what was happening.\n\n"Some of the Dippers just went crazy!"\n\nStan gave it a thought, "Maybe, as each clone of Dipper was made, some deep underlining subconscious took the place of his regular copied persona during the process. Once alive, this caused some dippers to be act differently and even rebel from being a "Dipper"."\n\n"Wow... didn't know you were that philosophical?"\n\nStan commented, "Heard someone say it on tv.”"  
+    mystery_shack_pining.4.a:0 "Well, back to the copier..."
     
     
     
@@ -347,7 +347,7 @@
     
     mystery_shack_war.7.t:0 "Finally... I have all three!\n§REnd of Alpha 0.0.1§!"
     mystery_shack_war.7.d:0 "Stan opened up the three journals and laid them out on the table. Heading to the special pages in each one, he turned to the console and inputted the final coordinates and settings into the computer. A quiet moment passed, then the control room came alive. Once dormant or half power machines came to life with the electric humming of 80s circuitry as Stan watched in disbelief. He turned around to see as the portal activated. He rushed out and approached the portal. Open, it was only the second time he had ever seen the portal in this new state. Bright, intense, surging with energy. All the indicators to the side indicated full operational status. He looked on as he felt a gust flow through the room.\n\n“Thirty long years, and it’s all led up to this. My greatest achievement!”\n\n------------------------------------------------------------------------------------------------------------------------------\n\nThank you everyone for playing through the first alpha of Countdown to Weirdmageddon. Making this mod has been an experience. It's an honor to have you all playing this and rest assured, more content is on the way as we explore what happens next. With the portal truly operational, a whole new series of events awaits for Stan and the Mystery Twins. But wherever they may go, things will always come back to the center of it all.\n\nThat sleepy little town in Oregon."
-    mystery_shack_war.7.a:0 ""§RProbably should have worn pants...§!""
+    mystery_shack_war.7.a:0 "§R"Probably should have worn pants..."§!"
     
     
     

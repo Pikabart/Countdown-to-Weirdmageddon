@@ -1,0 +1,115 @@
+﻿##### Division Templates #####
+division_template = {
+	name = "GFPD Squad"
+	#division_names_group = USA_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Roadkill County Mounties"  
+	#division_names_group = USA_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	##### Law and Order: Gravity Falls! #####
+	division= {	# "1a Police Squad"
+		division_name = {
+				#is_name_ordered = yes
+				#name_order = 1
+		}
+		location = 4780 # Downtown
+		division_template = "GFPD Squad"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division= {	# "2a Police Squad"
+		division_name = {
+				#is_name_ordered = yes
+				#name_order = 1
+		}
+		location = 7067 # Mall
+		division_template = "GFPD Squad"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	
+	division= {	# "3a Police Squad"
+		division_name = {
+				#is_name_ordered = yes
+				#name_order = 1
+		}
+		location = 6685 # Mall
+		division_template = "GFPD Squad"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+
+	division= {	# "1a Gravity Mounties "
+		division_name = {
+				#is_name_ordered = yes
+				#name_order = 1
+		}
+		location = 5886 # At the Diner
+		division_template = "Roadkill County Mounties" 
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division= {	# "2a Gravity Mounties "
+		division_name = {
+				#is_name_ordered = yes
+				#name_order = 1
+		}
+		location = 8574 # Beachside
+		division_template = "Roadkill County Mounties" 
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+
+	##### No Notable Naval Forces #####
+}
+
+###Air Wings###
+
+air_wings = {
+
+32 = { 	#state number, must already have airfield
+		fighter_equipment_0 =  {
+			owner = "GTF" 
+			amount = 50
+		}		
+		tac_bomber_equipment_0 = {
+			owner = "GTF" 
+			amount = 50
+		}
+	}
+	
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GTF"
+		}
+		requested_factories = 1
+		progress = 0.54
+		efficiency = 100
+	}
+}

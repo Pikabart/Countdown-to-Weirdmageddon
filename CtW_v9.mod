@@ -1,9 +1,9 @@
 name="CtW_v9"
 tags={
 	"Gameplay"
-	"National Focuses" 
+	"National Focuses"
 	"Map"
-	"Events" 
+	"Events"
 }
 replace_path="history/general"
 replace_path="history/states"
@@ -35,4 +35,5 @@ replace_path="portraits"
 replace_path="country_leader"
 picture="thumbnail.png"
 supported_version="1.11.*"
-path="C:/Users/user/Documents/Paradox Interactive/Hearts of Iron IV/mod/CtW_v9"
+path="C:/Users/Admin/Documents/Paradox Interactive/Hearts of Iron IV/mod/Countdown-to-Weirdmageddon-0.0.1"
+remote_file_id="2689567884"

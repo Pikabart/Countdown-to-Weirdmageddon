@@ -4,6 +4,10 @@ state={
 	
 	local_supplies=0.0 
 	
+	resources={
+		oil = 8
+	}
+	
 	history={
 		owner = MYS
 		add_core_of = MYS	

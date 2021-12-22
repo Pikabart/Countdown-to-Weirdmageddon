@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = multiverse_news
+add_namespace = before_news
 add_namespace = kerfuffle_news
 add_namespace = west_election_news
 add_namespace = launcher_news
@@ -201,9 +202,143 @@ news_event = { # Launch The Wester Allaince is formed!
 	}
 }
 
+news_event = { # Launch The Wester Allaince is formed!
+	id = launcher_news.6
+	title = launcher_news.6.t
+	desc = launcher_news.6.d
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = yes
+	hidden = yes
+	is_triggered_only = yes
+	timeout_days = 1
+	
+	immediate = {
+		hidden_effect = {	
+			CAL = { news_event = { id = before_news.1 days = 1 } }
+			WAS = { news_event = { id = before_news.1 days = 1 } }
+			ORE = { news_event = { id = before_news.1 days = 1 } }
+			SOC = { news_event = { id = before_news.1 days = 1 } }
+			EUS = { news_event = { id = before_news.1 days = 1 } }
+			EPI = { news_event = { id = before_news.1 days = 1 } }
+			CAN = { news_event = { id = before_news.1 days = 1 } }
+			MEX = { news_event = { id = before_news.1 days = 1 } }
+			GTF = { news_event = { id = before_news.1 days = 1 } }
+			MYS = { news_event = { id = before_news.1 days = 1 } }
+			NRW = { news_event = { id = before_news.1 days = 1 } }
+			MYM = { news_event = { id = before_news.1 days = 1 } }
+		}
+	}
+	
+	option = {
+		name = launcher_news.6.a
+		ai_chance = { factor = 100 }		
+	}
+}
+
+
 ##############################################################################################
 ##############################################################################################
 ##############################################################################################
+
+news_event = { # Norton found
+	id = before_news.1
+	title = before_news.1.t
+	desc = before_news.1.d
+	picture = GFX_news_norton_1
+	
+	major = no 
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			news_event = { id = before_news.2 days = 10 }	
+		}
+	}
+	
+	option = {
+		name = before_news.1.a
+		trigger = {	TAG = ORE}	
+	}
+	option = {
+		name = before_news.1.a
+		trigger = {	TAG = CAL}	
+	}
+	option = {
+		name = before_news.1.a
+		trigger = {	TAG = WAS}	
+	}
+	option = {
+		name = before_news.1.a
+		trigger = {	TAG = SOC}	
+	}
+	option = {
+		name = before_news.1.a
+		trigger = {	TAG = EUS}	
+	}
+	option = {
+		name = before_news.1.a
+		trigger = {	TAG = EPI}	
+	}
+	option = {
+		name = before_news.1.a
+		trigger = {	TAG = MEX}	
+	}
+	option = {
+		name = before_news.1.b
+		trigger = {	TAG = CAN}
+	}
+}
+
+news_event = { # State of Union
+	id = before_news.2
+	title = before_news.2.t
+	desc = before_news.2.d
+	picture = GFX_news_stateofunion
+	
+	major = no 
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+		}
+	}
+	
+	option = {
+		name = before_news.2.a
+		trigger = {	TAG = ORE}	
+	}
+	option = {
+		name = before_news.2.a
+		trigger = {	TAG = CAL}	
+	}
+	option = {
+		name = before_news.2.a
+		trigger = {	TAG = WAS}	
+	}
+	option = {
+		name = before_news.2.a
+		trigger = {	TAG = SOC}	
+	}
+	option = {
+		name = before_news.2.a
+		trigger = {	TAG = EUS}	
+	}
+	option = {
+		name = before_news.2.a
+		trigger = {	TAG = EPI}	
+	}
+	option = {
+		name = before_news.2.a
+		trigger = {	TAG = MEX}	
+	}
+	option = {
+		name = before_news.2.b
+		trigger = {	TAG = CAN}
+	}
+}
+
 
 
 news_event = { # Pre-Kerfuffle

@@ -26,7 +26,7 @@
 				
 		bypass = {} 
 		
-		cost = 5
+		cost = 10
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -61,7 +61,7 @@
 				
 		bypass = {} 
 		
-		cost = 1
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -96,7 +96,7 @@
 				
 		bypass = {} 
 		
-		cost = 1
+		cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -128,7 +128,7 @@
 			MYS = { has_completed_focus = MYS_PR_16 }
 		} 
 		
-		cost = 2
+		cost = 3
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -156,7 +156,7 @@
 		}
 				
 		bypass = {
-			MYS = { has_completed_focus = MYS_PR_16 }
+			#MYS = { has_completed_focus = MYS_PR_16 }
 		} 
 		
 		cost = 2
@@ -187,10 +187,10 @@
 		}
 				
 		bypass = {
-			MYS = { has_completed_focus = MYS_PR_16 }
+			#MYS = { has_completed_focus = MYS_PR_16 }
 		} 
 		
-		cost = 2
+		cost = 3
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -200,7 +200,7 @@
 			random_owned_controlled_state = {
 				prioritize = { 23 }
 				create_unit = {
-								division = "name = \"Tent Security\" division_template = \"Tent Security\" start_experience_factor = 0"
+								division = "name = \"Tent Security\" division_template = \"Tent Security\" start_experience_factor = 1"
 								owner = GID
 				}
 			}
@@ -224,7 +224,7 @@
 		}
 				
 		bypass = {
-			MYS = { has_completed_focus = MYS_PR_16 }
+			#MYS = { has_completed_focus = MYS_PR_16 }
 		} 
 		
 		cost = 2
@@ -265,10 +265,10 @@
 		}
 				
 		bypass = {
-			MYS = { has_completed_focus = MYS_PR_16 }
+			#MYS = { has_completed_focus = MYS_PR_16 }
 		} 
 		
-		cost = 2
+		cost = 3
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -277,6 +277,10 @@
 		completion_reward = {
 			add_offsite_building = { 
 				type = industrial_complex 
+				level = 2 
+			}
+			add_offsite_building = { 
+				type = arms_factory 
 				level = 2 
 			}
 			add_ideas = GID_assets
@@ -300,7 +304,7 @@
 		}
 				
 		bypass = {
-			MYS = { has_completed_focus = MYS_PR_16 }
+			#MYS = { has_completed_focus = MYS_PR_16 }
 		} 
 		
 		cost = 2
@@ -339,7 +343,7 @@
 			MYS = { has_idea = MYS_PR_tate }
 		} 
 		
-		cost = 2
+		cost = 3
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -375,7 +379,7 @@
 		bypass = {
 		} 
 		
-		cost = 2
+		cost = 3
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

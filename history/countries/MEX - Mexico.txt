@@ -28,7 +28,7 @@ set_popularities = {
 create_country_leader = {
 	name = "José Luis Méndez"
 	desc = "POLITICS_MENDEZ_DESC"
-	picture = ""
+	picture = "gfx/leaders/EPI/hoi4_portrait_FPI_HOLDER.dds"
 	ideology = conservatism #liberalism
 }
 

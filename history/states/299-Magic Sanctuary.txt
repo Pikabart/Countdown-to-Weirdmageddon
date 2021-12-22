@@ -3,6 +3,10 @@ state={
 	name="STATE_299"
 	local_supplies=0.0 
 	
+	resources={
+		tungsten=64
+	}
+	
 	history {
 		owner = MEW
 		add_core_of = MEW

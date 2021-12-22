@@ -4,6 +4,13 @@ state={
 	
 	local_supplies=0.0 
 	
+	resources={
+		rubber = 24
+	}
+	resources={
+		oil = 24
+	}
+	
 	history={
 		owner = NRW
 		add_core_of = NRW

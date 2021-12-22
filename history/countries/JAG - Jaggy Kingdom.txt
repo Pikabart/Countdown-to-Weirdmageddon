@@ -21,6 +21,8 @@ set_popularities = {
 	fascism = 1
 }
 
+oob = "JAG_2012"
+
 create_country_leader = {
 	name = "King Jags Jaggy"
 	desc = "placeholder"
