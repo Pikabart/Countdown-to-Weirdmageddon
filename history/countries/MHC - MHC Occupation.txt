@@ -1,4 +1,4 @@
-﻿capital = 279
+﻿capital = 275
 
 # Starting tech
 set_technology = {
@@ -39,40 +39,38 @@ set_technology = {
 	
 }
 
-oob = "OST_2012"
+#order of battle, AKA the units/armies that will be available
+
+#oob = "JOH_2012"
+
 set_research_slots = 3
 set_convoys = 50
 set_stability = 0.70
 set_war_support = 0.70
 
-add_ideas = {
-MEW_pre_industrial
-
-}
-
-set_autonomy = {
-	target = AIR
-	autonomous_state =  autonomy_puppet
-}
-
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2000.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 90
+	neutrality = 90
 	communism = 5
 	fascism = 5
 }
 
+add_ideas = {
+MEW_pre_industrial
+
+}
+
 create_country_leader = {
-	name = "Charles IV"
+	name = "MHC Occupation Council"
 	desc = ""
-	picture = "hoi4_portrait_emperor_charles.dds"
-	ideology = conservatism
+	picture = ""
+	ideology = oligarchism
 	traits = {
 		#
 	}

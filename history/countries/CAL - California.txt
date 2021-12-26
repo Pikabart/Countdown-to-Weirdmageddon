@@ -39,11 +39,7 @@ set_technology = {
 
 add_ideas = {
 	CAL_golden
-	CAL_UNITY_1
-	CAL_UNITY_2
-	CAL_UNITY_3
 	CAL_northwest
-	CAL_norton
 }
 
 set_convoys = 200

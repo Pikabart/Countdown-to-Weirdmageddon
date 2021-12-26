@@ -59,6 +59,10 @@ SWP = "countries/N-Monst-Coalition of the Swamp.txt"
 TSR = "countries/N-Monst-Tsardom.txt"
 KAI = "countries/N-Monst-Kaiserreich.txt"
 AVA = "countries/N-Monst-Avarius Exile.txt"
+DTH = "countries/N-monst death cult.txt"
+HGH = "countries/N-monst forest high.txt"
+DRG = "countries/N-monst drug empire.txt"
+MHC = "countries/M-Magic High Commision Peacekeeping.txt"
 
 #US States
 ARZ = "countries/US-Arizona.txt"

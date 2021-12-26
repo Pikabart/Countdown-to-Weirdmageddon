@@ -606,7 +606,7 @@ country_event = {
 			}
 		}
 		custom_effect_tooltip = stantastic_51.11.tool
-		country_event = { id = stantastic_the_bet.1 days = 5 }
+		hidden_effect = {country_event = { id = stantastic_the_bet.1 days = 5 }}
 	}
 }	
 
@@ -939,8 +939,10 @@ country_event = {
 		else_if = {
 			limit = { has_country_flag = MYS_bet_lose_4 }
 			add_timed_idea = { idea = MYS_bet_loser  days = 270 }
-			country_event = stantastic_the_bet.4
-				if = {
+				
+			hidden_effect = {country_event = stantastic_the_bet.4}
+			
+			if = {
 					limit = { has_idea = MYS_NWHS_1 } 
 					swap_ideas = {
 						add_idea = MYS_NWHS_3

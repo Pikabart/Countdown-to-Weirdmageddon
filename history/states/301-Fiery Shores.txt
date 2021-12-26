@@ -5,8 +5,8 @@ state={
 	local_supplies=0.0 
 	
 	history {
-		owner = UKN
-		add_core_of = UKN
+		owner = MER
+		add_core_of = MER
 		buildings = {
 			arms_factory = 2
 			industrial_complex = 1

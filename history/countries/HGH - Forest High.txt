@@ -1,4 +1,4 @@
-﻿capital = 279
+﻿capital = 278
 
 # Starting tech
 set_technology = {
@@ -39,21 +39,11 @@ set_technology = {
 	
 }
 
-oob = "OST_2012"
+#oob = "GTF_2012"
 set_research_slots = 3
 set_convoys = 50
 set_stability = 0.70
 set_war_support = 0.70
-
-add_ideas = {
-MEW_pre_industrial
-
-}
-
-set_autonomy = {
-	target = AIR
-	autonomous_state =  autonomy_puppet
-}
 
 set_politics = {
 	ruling_party = democratic
@@ -69,13 +59,17 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Charles IV"
+	name = "Forest High Leader"
 	desc = ""
-	picture = "hoi4_portrait_emperor_charles.dds"
+	picture = ""
 	ideology = conservatism
 	traits = {
 		#
 	}
+}
+
+add_ideas = {
+MEW_pre_industrial
 }
 
 #create_field_marshal = {#
