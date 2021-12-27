@@ -169,5 +169,3 @@ locs/english/
 maps/railways
 maps/supply_nodes
 
-test
-
