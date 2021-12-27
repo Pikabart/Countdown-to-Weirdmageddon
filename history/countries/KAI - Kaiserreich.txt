@@ -8,6 +8,12 @@ set_technology = {
 	tech_recon = 1
 	support_weapons = 1
 	gw_artillery = 1
+	interwar_artillery = 1
+	artillery1 = 1
+	artillery2 = 1
+	artillery3 = 1
+	artillery4 = 1
+	artillery5 = 1
 	
 	#airplanes
 	early_fighter = 1
@@ -43,21 +49,11 @@ add_ideas = {
 MEW_pre_industrial
 }
 
-#oob = "GTF_2012"
+oob = "KAI_2012"
 set_research_slots = 3
 set_convoys = 50
 set_stability = 0.70
 set_war_support = 0.70
-
-complete_national_focus = army_effort
-complete_national_focus = equipment_effort
-complete_national_focus = motorization_effort
-complete_national_focus = aviation_effort
-complete_national_focus = naval_effort
-complete_national_focus = large_navy
-complete_national_focus = industrial_effort
-complete_national_focus = construction_effort
-complete_national_focus = production_effort
 
 set_politics = {
 	ruling_party = democratic

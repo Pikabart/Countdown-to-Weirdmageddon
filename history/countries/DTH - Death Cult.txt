@@ -1,4 +1,4 @@
-﻿capital = 422
+﻿capital = 278
 
 # Starting tech
 set_technology = {
@@ -39,19 +39,15 @@ set_technology = {
 	
 }
 
-oob = "UKN_2012"
+#oob = "GTF_2012"
 set_research_slots = 3
 set_convoys = 50
 set_stability = 0.70
 set_war_support = 0.70
 
-add_ideas = {
-MEW_pre_industrial
-}
-
 set_politics = {
 	ruling_party = democratic
-	last_election = "1990.1.1"
+	last_election = "2000.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -63,7 +59,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Warlord Name"
+	name = "Death Cult Leader"
 	desc = ""
 	picture = ""
 	ideology = conservatism
@@ -71,3 +67,33 @@ create_country_leader = {
 		#
 	}
 }
+
+add_ideas = {
+MEW_pre_industrial
+}
+
+#create_field_marshal = {#
+#	name = ""
+#	desc = ""
+#	portrait_path = ""
+#	traits = {}
+#	skill = 2
+#	attack_skill = 2
+#	defense_skill = 2
+#	planning_skill = 2
+#	logistics_skill = 2
+#	id = 3
+#}
+
+#create_corps_commander = {#
+#	name = ""
+#	desc = ""
+#	portrait_path = ""
+#	traits = {}
+#	skill = 1
+#	attack_skill = 1
+#	defense_skill = 1
+#	planning_skill = 1
+#	logistics_skill = 1
+#	id = 4
+#}

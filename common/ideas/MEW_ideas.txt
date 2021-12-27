@@ -35,6 +35,8 @@ ideas = {
 			modifier = {
 				stability_factor = 0.4
 				war_support_factor = -0.6
+				recruitable_population_factor = -0.75
+				training_time_factor = 0.75
 			}
 		}
 		
