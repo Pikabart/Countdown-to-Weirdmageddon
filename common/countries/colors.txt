@@ -236,6 +236,16 @@ SCU = {
 color = rgb { 104 47 102 }
 color_ui = rgb { 104 47 102 }
 }
+#------------------------------------
+SIG = {
+color = rgb { 151 151 151 }
+color_ui = rgb { 151 151 151 }
+}
+#------------------------------------
+SPK = {
+color = rgb { 90 4 37 }
+color_ui = rgb { 90 4 37 }
+}
 
 #Mewni North Monsters
 

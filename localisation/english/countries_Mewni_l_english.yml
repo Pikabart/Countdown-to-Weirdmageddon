@@ -320,6 +320,32 @@
  SCU_neutrality_ADJ:0 "Scout Team 227"
  SCU_communism_ADJ:0 "Scout Team 227"
  
+ SIG_fascism:0 "Sigma State"
+ SIG_fascism_DEF:0 "Sigma State"
+ SIG_democratic:0 "Sigma State"
+ SIG_democratic_DEF:0 "Sigma State"
+ SIG_neutrality:1 "Sigma State"
+ SIG_neutrality_DEF:1 "Sigma State"
+ SIG_communism:0 "Sigma State"
+ SIG_communism_DEF:0 "Sigma State"
+ SIG_fascism_ADJ:0 "Sigma State"
+ SIG_democratic_ADJ:0 "Sigma State"
+ SIG_neutrality_ADJ:0 "Sigma State"
+ SIG_communism_ADJ:0 "Sigma State"
+ 
+ SPK_fascism:0 "Spiked Angels In Exile"
+ SPK_fascism_DEF:0 "Spiked Angels In Exile"
+ SPK_democratic:0 "Spiked Angels In Exile"
+ SPK_democratic_DEF:0 "Spiked Angels In Exile"
+ SPK_neutrality:1 "Spiked Angels In Exile"
+ SPK_neutrality_DEF:1 "Spiked Angels In Exile"
+ SPK_communism:0 "Spiked Angels In Exile"
+ SPK_communism_DEF:0 "Spiked Angels In Exile"
+ SPK_fascism_ADJ:0 "Spiked Angels In Exile"
+ SPK_democratic_ADJ:0 "Spiked Angels In Exile"
+ SPK_neutrality_ADJ:0 "Spiked Angels In Exile"
+ SPK_communism_ADJ:0 "Spiked Angels In Exile"
+ 
 ###########################################################
 #Mewni North Monsters
 
