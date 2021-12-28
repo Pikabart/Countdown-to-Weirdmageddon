@@ -39,6 +39,8 @@ set_technology = {
 	
 }
 
+#oob = "EUS_2012"
+
 add_ideas = {
 	EUS_anti_military
 	EUS_center

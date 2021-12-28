@@ -1,0 +1,312 @@
+﻿division_template = {
+	name = "FPI Security Team"
+	#division_names_group = SPAN_INFB_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "FPI Mobile Force"  
+	#division_names_group = SPAN_CAVB_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "SCP Field Team"  
+	#division_names_group = SPAN_CAVB_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Deep State Taskforce"  
+	#division_names_group = SPAN_CAVB_01
+
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	
+	#### FPI Security Team 
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2083 # 
+		division_template = "FPI Security Team"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 7075 # 
+		division_template = "FPI Security Team"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 9177 # T
+		division_template = "FPI Security Team"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2187 # 
+		division_template = "FPI Security Team"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3043 # 
+		division_template = "FPI Security Team"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3109 # 
+		division_template = "FPI Security Team"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5331 # 
+		division_template = "FPI Security Team"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 10708 # 
+		division_template = "FPI Security Team"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2418 # 
+		division_template = "FPI Security Team"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	
+	######### FPI Mobile Force 
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2083 # 
+		division_template = "FPI Mobile Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 7075 # 
+		division_template = "FPI Mobile Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 9177 # T
+		division_template = "FPI Mobile Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2187 # 
+		division_template = "FPI Mobile Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3043 # 
+		division_template = "FPI Mobile Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3109 # 
+		division_template = "FPI Mobile Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5331 # 
+		division_template = "FPI Mobile Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 10708 # 
+		division_template = "FPI Mobile Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2418 # 
+		division_template = "FPI Mobile Force"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	
+	#### Elite Division #4
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2083 # 
+		division_template = "SCP Field Team"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 7727 # 
+		division_template = "SCP Field Team"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2083 # 
+		division_template = "Deep State Taskforce"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 7727 # 
+		division_template = "Deep State Taskforce"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	
+	##### No Notable Naval Forces #####
+}
+
+##### No Notable Air Forces #####
+
+### Other ###
+
+instant_effect = {
+	add_manpower = 125000
+}

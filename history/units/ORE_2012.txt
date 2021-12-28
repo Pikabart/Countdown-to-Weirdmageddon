@@ -1,0 +1,270 @@
+﻿division_template = {
+	name = "Oregon National Guard"
+	#division_names_group = SPAN_INFB_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "Oregon Rangers"  
+	#division_names_group = SPAN_CAVB_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Oregon US Forces"  
+	#division_names_group = SPAN_CAVB_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+units = {
+	
+	#### National Gaurd #8
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 8070 # North Redwood near Wash.
+		division_template = "Oregon National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3953 # Medford
+		division_template = "Oregon National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 1928 # Chemult
+		division_template = "Oregon National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 8974 # K Falls
+		division_template = "Oregon National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 8785 # South Roseburg
+		division_template = "Oregon National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5666 # Santiam Junction
+		division_template = "Oregon National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 8247 # Salem
+		division_template = "Oregon National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 8143 # Portland
+		division_template = "Oregon National Guard"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	
+	#### Oregon Rangers #7
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 8120 # Biggs Junction
+		division_template = "Oregon Rangers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6575 # High Desert
+		division_template = "Oregon Rangers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 8046 # Clatsop State Forest
+		division_template = "Oregon Rangers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5827 # North Roseburg
+		division_template = "Oregon Rangers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 8822 # Umpqua Nat Forest
+		division_template = "Oregon Rangers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 8994 # South Oregon Coast
+		division_template = "Oregon Rangers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 7199 # Oregon Coastline
+		division_template = "Oregon Rangers"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	#### Oregon Loyal US Forces #4
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 8773 # South Redwood near Idaho
+		division_template = "Oregon US Forces"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 8441 # Bend
+		division_template = "Oregon US Forces"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 8247 # Salem
+		division_template = "Oregon US Forces"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5163 # Springfield
+		division_template = "Oregon US Forces"
+		start_experience_factor = 0.5
+		start_equipment_factor = 1.0
+
+	}	
+
+	##### No Notable Naval Forces #####
+}
+
+##### No Notable Air Forces #####
+
+### Other ###
+
+instant_effect = {
+	add_manpower = 75000
+}
