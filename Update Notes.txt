@@ -1,4 +1,10 @@
 #########################################
+# Update 12/27
+
+history/countries
+history/units
+
+#########################################
 # Update 12/21
 
 common/national_focus

@@ -37,6 +37,8 @@ set_technology = {
 	
 }
 
+#oob = "SOC_2012"
+
 set_convoys = 200
 
 complete_national_focus = army_effort
