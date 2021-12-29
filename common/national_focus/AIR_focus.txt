@@ -1,0 +1,221 @@
+focus_tree = {
+
+	id = AIR_focus
+	
+	country = {
+		factor = 0		
+		modifier = {
+			add = 100 # 100% AIR get focus, 0% everyone else, so basicly gurrenteed
+			tag = AIR
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = { 
+		id = AIR_start
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AIR_quality_troop
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = AIR_start 
+		prerequisite = { focus = AIR_start }
+		cost = 10
+		mutually_exclusive = { focus = AIR_quantity_troop }
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = quality_troops_generic_warlord
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = {
+		id = AIR_quantity_troop
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = AIR_start 
+		prerequisite = { focus = AIR_start }
+		cost = 10
+		mutually_exclusive = { focus = AIR_quality_troop }
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = quantity_troops_generic_warlord
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = {
+		id = AIR_civilian_production
+		icon = a
+		x = -2
+		y = 1
+		relative_position_id = AIR_quantity_troop 
+		prerequisite = { focus = AIR_quantity_troop focus = AIR_quality_troop }
+		cost = 10
+		mutually_exclusive = { focus = AIR_military_production }
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = priority_civillian_generic_warlord
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = {
+		id = AIR_military_production
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = AIR_quantity_troop 
+		prerequisite = { focus = AIR_quantity_troop focus = AIR_quality_troop }
+		cost = 10
+		mutually_exclusive = { focus = AIR_civilian_production }
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = priority_military_generic_warlord
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = {
+		id = AIR_modern_politics_production
+		icon = a
+		x = -2
+		y = 1
+		relative_position_id = AIR_military_production 
+		prerequisite = { focus = AIR_military_production focus = AIR_civilian_production }
+		cost = 10
+		mutually_exclusive = { focus = AIR_civilian_production }
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 150
+			add_stability = 0.1
+			add_ideas = modern_politics_generic_warlord
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = {
+		id = AIR_modern_warfare_production
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = AIR_military_production 
+		prerequisite = { focus = AIR_military_production focus = AIR_civilian_production }
+		cost = 10
+		mutually_exclusive = { focus = AIR_civilian_production }
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.1
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.1
+				uses = 25
+				category = land_doctrine
+			}
+			add_ideas = modern_warfare_generic_warlord
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+}
