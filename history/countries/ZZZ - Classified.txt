@@ -1,5 +1,6 @@
 ﻿capital = 267
 
+oob = "ZZZ_2012"
 
 set_politics = {
 	ruling_party = neutrality
