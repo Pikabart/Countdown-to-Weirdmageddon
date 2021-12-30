@@ -160,6 +160,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JUN_military_production 
 		prerequisite = { focus = JUN_military_production focus = JUN_civilian_production }
+
 		cost = 5
 		mutually_exclusive = { focus = JUN_modern_warfare_production }
 	
@@ -190,6 +191,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = JUN_military_production 
 		prerequisite = { focus = JUN_military_production focus = JUN_civilian_production }
+
 		cost = 5
 		mutually_exclusive = { focus = JUN_modern_politics_production }
 	

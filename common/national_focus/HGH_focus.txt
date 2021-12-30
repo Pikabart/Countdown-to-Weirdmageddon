@@ -160,6 +160,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HGH_military_production 
 		prerequisite = { focus = HGH_military_production focus = HGH_civilian_production }
+
 		cost = 5
 		mutually_exclusive = { focus = HGH_modern_warfare_production }
 	
@@ -190,6 +191,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HGH_military_production 
 		prerequisite = { focus = HGH_military_production focus = HGH_civilian_production }
+
 		cost = 5
 		mutually_exclusive = { focus = HGH_modern_politics_production }
 	
@@ -218,6 +220,7 @@ focus_tree = {
 		}
 		
 	}
+
 	focus = {
 		id = HGH_take_state
 		icon = a
@@ -343,4 +346,5 @@ focus_tree = {
 		}
 		
 	}
+
 }

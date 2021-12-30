@@ -160,6 +160,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = DRG_military_production 
 		prerequisite = { focus = DRG_military_production focus = DRG_civilian_production }
+		
 		cost = 5
 		mutually_exclusive = { focus = DRG_modern_warfare_production }
 	
@@ -190,6 +191,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = DRG_military_production 
 		prerequisite = { focus = DRG_military_production focus = DRG_civilian_production }
+
 		cost = 5
 		mutually_exclusive = { focus = DRG_modern_politics_production }
 	
@@ -218,6 +220,7 @@ focus_tree = {
 		}
 		
 	}
+
 	
 	focus = {
 		id = DRG_take_state
@@ -313,4 +316,5 @@ focus_tree = {
 		}
 		
 	}
+
 }

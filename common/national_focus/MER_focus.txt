@@ -160,6 +160,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MER_military_production 
 		prerequisite = { focus = MER_military_production focus = MER_civilian_production }
+
 		cost = 5
 		mutually_exclusive = { focus = MER_modern_warfare_production }
 	
@@ -190,6 +191,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = MER_military_production 
 		prerequisite = { focus = MER_military_production focus = MER_civilian_production }
+
 		cost = 5
 		mutually_exclusive = { focus = MER_modern_politics_production }
 	

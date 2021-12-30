@@ -160,6 +160,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = AVA_military_production 
 		prerequisite = { focus = AVA_military_production focus = AVA_civilian_production }
+
 		cost = 5
 		mutually_exclusive = { focus = AVA_modern_warfare_production }
 	
@@ -190,6 +191,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = AVA_military_production 
 		prerequisite = { focus = AVA_military_production focus = AVA_civilian_production }
+		
 		cost = 5
 		mutually_exclusive = { focus = AVA_modern_politics_production }
 	
@@ -218,6 +220,7 @@ focus_tree = {
 		}
 		
 	}
+
 	focus = {
 		id = AVA_take_state
 		icon = a
@@ -312,4 +315,5 @@ focus_tree = {
 		}
 		
 	}
+
 }
