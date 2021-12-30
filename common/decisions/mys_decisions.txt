@@ -267,51 +267,54 @@ MYS_boss_mabel = {
 
 		# EFFECTS OF THIS DECISION/MISSION
 		fixed_random_seed = no # So the answer could be different every time
-		complete_effect = {		
-			random_list = {
-				40 = { #gain money
-					add_to_variable = {
-						var = mys_mabel_money
-						value = 10
+		complete_effect = {	
+			custom_effect_tooltip = "mabel_cash_1a"
+			hidden_effect = {	
+				random_list = {
+					40 = { #gain money
+						add_to_variable = {
+							var = mys_mabel_money
+							value = 10
+						}
+						clamp_variable = {
+							var = mys_mabel_money
+							min = -50
+							max = 50
+						}
 					}
-					clamp_variable = {
-						var = mys_mabel_money
-						min = -50
-						max = 50
+					50 = { #gain money, lose moral
+						subtract_from_variable = {
+							var = mys_mabel_moral
+							value = 10
+						}
+						add_to_variable = {
+							var = mys_mabel_money
+							value = 10
+						}
+						clamp_variable = {
+							var = mys_mabel_money
+							min = -50
+							max = 50
+						}
+						clamp_variable = {
+							var = mys_mabel_moral
+							min = 0
+							max = 100
+						}
+					}
+					10 = { #lose money
+						subtract_from_variable = {
+							var = mys_mabel_money
+							value = 10
+						}
+						clamp_variable = {
+							var = mys_mabel_money
+							min = -50
+							max = 50
+						}
 					}
 				}
-				50 = { #gain money, lose moral
-					subtract_from_variable = {
-						var = mys_mabel_moral
-						value = 10
-					}
-					add_to_variable = {
-						var = mys_mabel_money
-						value = 10
-					}
-					clamp_variable = {
-						var = mys_mabel_money
-						min = -50
-						max = 50
-					}
-					clamp_variable = {
-						var = mys_mabel_moral
-						min = 0
-						max = 100
-					}
-				}
-				10 = { #lose money
-					subtract_from_variable = {
-						var = mys_mabel_money
-						value = 10
-					}
-					clamp_variable = {
-						var = mys_mabel_money
-						min = -50
-						max = 50
-					}
-				}
-			}		
+			}
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -331,70 +334,65 @@ MYS_boss_mabel = {
 
 		# EFFECTS OF THIS DECISION/MISSION
 		fixed_random_seed = no # So the answer could be different every time
-		complete_effect = {		
-			random_list = {
-				50 = { #gain money, gain moral
-					add_to_variable = {
-						var = mys_mabel_money
-						value = 10
+		complete_effect = {	
+			custom_effect_tooltip = "mabel_cash_2a"	
+			hidden_effect = {
+				random_list = {
+					50 = { #gain money
+						add_to_variable = {
+							var = mys_mabel_money
+							value = 10
+						}
+						clamp_variable = {
+							var = mys_mabel_money
+							min = -50
+							max = 50
+						}
+
 					}
-					add_to_variable = {
-						var = mys_mabel_moral
-						value = 10
+					20 = { #lots money, lots moral
+						add_to_variable = {
+							var = mys_mabel_money
+							value = 15
+						}
+						subtract_from_variable = {
+							var = mys_mabel_moral
+							value = 5
+						}
+						clamp_variable = {
+							var = mys_mabel_money
+							min = -50
+							max = 50
+						}
+						clamp_variable = {
+							var = mys_mabel_moral
+							min = 0
+							max = 100
+						}
 					}
-					clamp_variable = {
-						var = mys_mabel_money
-						min = -50
-						max = 50
+					30 = { #lose money, lose moral, lose extra PP
+						subtract_from_variable = {
+							var = mys_mabel_money
+							value = 5
+						}
+						subtract_from_variable = {
+							var = mys_mabel_moral
+							value = 5
+						}
+						clamp_variable = {
+							var = mys_mabel_money
+							min = -50
+							max = 50
+						}
+						clamp_variable = {
+							var = mys_mabel_moral
+							min = 0
+							max = 100
+						}
+						add_political_power = -40
 					}
-					clamp_variable = {
-						var = mys_mabel_moral
-						min = 0
-						max = 100
-					}
-				}
-				20 = { #lots money, lots moral
-					add_to_variable = {
-						var = mys_mabel_money
-						value = 15
-					}
-					add_to_variable = {
-						var = mys_mabel_moral
-						value = 15
-					}
-					clamp_variable = {
-						var = mys_mabel_money
-						min = -50
-						max = 50
-					}
-					clamp_variable = {
-						var = mys_mabel_moral
-						min = 0
-						max = 100
-					}
-				}
-				30 = { #lose money, lose moral, lose extra PP
-					subtract_from_variable = {
-						var = mys_mabel_money
-						value = 5
-					}
-					subtract_from_variable = {
-						var = mys_mabel_moral
-						value = 5
-					}
-					clamp_variable = {
-						var = mys_mabel_money
-						min = -50
-						max = 50
-					}
-					clamp_variable = {
-						var = mys_mabel_moral
-						min = 0
-						max = 100
-					}
-					add_political_power = -20
-				}
-			}		
+				}	
+			}
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -414,62 +412,65 @@ MYS_boss_mabel = {
 
 		# EFFECTS OF THIS DECISION/MISSION
 		fixed_random_seed = no # So the answer could be different every time
-		complete_effect = {		
-			random_list = {
-				20 = { #lose moral
-					subtract_from_variable = {
-						var = mys_mabel_moral
-						value = 15
+		complete_effect = {	
+			custom_effect_tooltip = "mabel_cash_3a"	
+			hidden_effect = {	
+				random_list = {
+					20 = { #lose moral
+						subtract_from_variable = {
+							var = mys_mabel_moral
+							value = 15
+						}
+						clamp_variable = {
+							var = mys_mabel_moral
+							min = 0
+							max = 100
+						}
 					}
-					clamp_variable = {
-						var = mys_mabel_moral
-						min = 0
-						max = 100
+					50 = { #gain money, lose moral
+						subtract_from_variable = {
+							var = mys_mabel_moral
+							value = 20
+						}
+						add_to_variable = {
+							var = mys_mabel_money
+							value = 20
+						}
+						clamp_variable = {
+							var = mys_mabel_money
+							min = -50
+							max = 50
+						}
+						clamp_variable = {
+							var = mys_mabel_moral
+							min = 0
+							max = 100
+						}
+						add_stability = 0.02
+					}
+					30 = { #gain money, gain moral
+						add_to_variable = {
+							var = mys_mabel_money
+							value = 10
+						}
+						add_to_variable = {
+							var = mys_mabel_moral
+							value = 10
+						}
+						clamp_variable = {
+							var = mys_mabel_money
+							min = -50
+							max = 50
+						}
+						clamp_variable = {
+							var = mys_mabel_moral
+							min = 0
+							max = 100
+						}
+						add_stability = -0.02
 					}
 				}
-				50 = { #gain money, lose moral
-					subtract_from_variable = {
-						var = mys_mabel_moral
-						value = 20
-					}
-					add_to_variable = {
-						var = mys_mabel_money
-						value = 20
-					}
-					clamp_variable = {
-						var = mys_mabel_money
-						min = -50
-						max = 50
-					}
-					clamp_variable = {
-						var = mys_mabel_moral
-						min = 0
-						max = 100
-					}
-					add_stability = 0.02
-				}
-				30 = { #gain money, gain moral
-					add_to_variable = {
-						var = mys_mabel_money
-						value = 10
-					}
-					add_to_variable = {
-						var = mys_mabel_moral
-						value = 10
-					}
-					clamp_variable = {
-						var = mys_mabel_money
-						min = -50
-						max = 50
-					}
-					clamp_variable = {
-						var = mys_mabel_moral
-						min = 0
-						max = 100
-					}
-					add_stability = -0.02
-				}
-			}		
+			}
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION

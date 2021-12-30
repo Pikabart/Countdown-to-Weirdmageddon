@@ -1,4 +1,19 @@
 #########################################
+# Update 12/29 B
+
+common/decisions
+common/nationa_focus
+
+events
+
+gfx/countries/mys
+gfx/interface
+
+interface
+
+loc/
+
+#########################################
 # Update 12/27
 
 history/countries
