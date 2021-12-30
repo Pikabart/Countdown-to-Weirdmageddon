@@ -409,13 +409,13 @@ country_event = { #Outside 51
 		name = stantastic_51.3.a
 		ai_chance = { factor = 50 }	# 100% AI choose this
 		country_event = { id = stantastic_51.4 days = 21 }	
-
+		custom_effect_tooltip = stantastic_51.3.aa
 	}
 	option = { 
 		name = stantastic_51.3.b
 		ai_chance = { factor = 50 }	# 100% AI choose this
 		country_event = { id = stantastic_51.8 days = 21 }	
-	
+		custom_effect_tooltip = stantastic_51.3.bb
 	}
 }
 ################ silent ######################

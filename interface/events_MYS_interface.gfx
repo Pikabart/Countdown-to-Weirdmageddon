@@ -206,6 +206,10 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MYS/report_event_gideon_rises.dds"
 	}
 	
+	spriteType = { #
+		name = "GFX_report_event_anti_mabel"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_anti_mabel.dds"
+	}
 	
    #############################################################
    #  Special GIF Evenrt image

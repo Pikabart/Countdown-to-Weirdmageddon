@@ -4,38 +4,51 @@
 #Descions LOCS
 ##########################################################################################
  MYS_boss_mabel:0 "§WI'm The Boss Now!§!"
- MYS_boss_mabel_desc:0 "§PIts time for changes! Now that I'm the Boss, we'll show Stan how to run a buisness!§!\n\n§LBelow, descisions are divided between Mabel trying to be the "#2 Boss" or resorting to Stan-like tactics to turn a profit, each adding to their respective counter. Each has tradeoffs to one another and has a chance to end badly for both.\nMabel may also directly gain (or lose) morals or cash, for a political cost§!\n\nMabel's Profit Margins = [?mys_mabel_money|+0]          Mabel's Moral Rating = [?mys_mabel_moral|+0]"
+ MYS_boss_mabel_desc:0 "§PIts time for changes! Now that I'm the Boss, we'll show Stan how to run a buisness!§!\n\n§LBelow, descisions are divided between Mabel trying to be the "#2 Boss" or resorting to Stan-like tactics to turn a profit, each adding to their respective counter. Each has tradeoffs to one another and has a chance to end badly for both.\nMabel may also directly gain (or lose) morals or cash, for a political cost.§!\n\nMabel's Profit Margins = [?mys_mabel_money|+0]          Mabel's Moral Rating = [?mys_mabel_moral|+0]"
  
  mabel_promice_1:0 "§CGood Customer Servivce§!"
+ mabel_promice_1_desc:0 "Good customer service is a big part of The Mabel's Promice. If we show kindness and compassion to our customers, how could that go wrong?"
  mabel_promice_1a:0 "§WOne of §Y3§! options will happen.§!\n§Y40%§! Chance of §CIncreace Morals§! \n§Y50%§! Chance of §YIncrease Morals; Decreace Profits§! \n§Y10%§! Chance of §RDecreace Profits§!\n"
  
  mabel_promice_2:0 "§CDipper's Real Mysteries§!"
+ mabel_promice_2_desc:0 "My brother knows of alot of weird and odd things, all of which is just outside the door! All he has to do is bring it inside and people will pay to see it"
  mabel_promice_2a:0 "§WOne of §Y3§! options will happen.§!\n§Y30%§! Chance of §CIncrease Morals; Increase Profits§! \n§Y40%§! Chance of §YGreatly Increase Morals; Increase Profits§! \n§Y20%§! Chance of §RDecrease Morals; Decrease Profits§!\n"
  
  mabel_promice_3:0 "§C#1 Employee!§!"
+ mabel_promice_3_desc:0 "Not only should we treat our customers right, but our employees as well. I may be the Number 2 Boss, but my team? They're Number 1!"
  mabel_promice_3a:0 "§WOne of §Y3§! options will happen.§!\n§Y10%§! Chance of §CIncrease Morals; Increase Profits§! \n§Y50%§! Chance of §YIncrease Morals; Decrease Profits§! \n§Y40%§! Chance of §RDecrease Profits§!\n"
 
+ #####################
+
  mabel_cash_1:0 "§RSqueez them Dry!§!"
- mabel_cash_1a:0 ""
+ mabel_cash_1_desc:0 "These suckers will pay for anything! Raise the prices and speed the line up. A quicker turn over is a quicker profit!"
+ mabel_cash_1a:0 "§WOne of §Y3§! options will happen.§!\n§Y40%§! Chance of §CIncreace Profits§! \n§Y50%§! Chance of §YIncrease Money, Decreace Morals§! \n§Y10%§! Chance of §RDecreace Profits§!\n"
  
  mabel_cash_2:0 "§RGet in the Suit!§!"
- mabel_cash_2a:0 ""
+ mabel_cash_2_desc:0 "People don't want real, Dipper. They want "real". Now get in that suit and stop complaining about the worms!"
+ mabel_cash_2a:0 "§WOne of §Y3§! options will happen.§!\n§Y30%§! Chance of §CIncrease Profits§! \n§Y40%§! Chance of §YGreatly Increase Profits; Decrease Morals§! \n§Y20%§! Chance of §RDecrease Profits; Decrease Morals; -40 Political Power§!\n"
  
  mabel_cash_3:0 "§RGet Back to Work§!"
- mabel_cash_3a:0 ""
+ mabel_cash_3_desc:0 "Soos, Wendy. See, look. Its very simple. Get back to work... or you're all FIRED!"
+ mabel_cash_3a:0 "§WOne of §Y3§! options will happen.§!\n§Y20%§! Chance of §CDecrease Morals§! \n§Y50%§! Chance of §YIncrease Profits; Decrease Morals§! \n§Y40%§! Chance of §RIncrease Profits; Increase Profits§!\n\nI'd fire Dipper too if I was actually paying him!\n"
  
+ #########################
  
  mabel_comprise_1:0 "§YThe Magic Word§!"
- mabel_comprise_1a:0 "§CWith the magic word, we can win over our customers and provide a great experience!§!\n"
+ mabel_comprise_1_desc:0 "With the magic word, we can win over our customers and provide a great experience!"
+ mabel_comprise_1a:0 "§CIncrease Morals§!\n"
  
  mabel_comprise_2:0 "§YGet rich Quick§!"
- mabel_comprise_2a:0 "§CI got a great plan to make money!§!\n"
+ mabel_comprise_2_desc:0 "I got a great plan to make money!"
+ mabel_comprise_2a:0 "§CIncrease Profits§!\n"
  
  mabel_comprise_3:0 "§YYell at the help§!"
- mabel_comprise_3a:0 "§RGet Back To Work!§!\n"
+ mabel_comprise_3_desc:0 "Get Back To Work!"
+ mabel_comprise_3a:0 "§RDecrease Morals§!\n"
  
  mabel_comprise_4:0 "§YGot to Spend Money to Make Money§!"
- mabel_comprise_4a:0 "§RSoos got the garbage disposal working. I know what to use to test it!§!\n"
+ mabel_comprise_4_desc:0 "Soos got the garbage disposal working. I know what to use to test it!"
+ mabel_comprise_4a:0 "§RDecrease Profits§!\n"
  
  #########################################
  
