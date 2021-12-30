@@ -183,7 +183,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 3801 # Cape of False Hope
+		location = 6345 # Neu PruBsen
 		division_template = "Warnicorn Brigade"
 		# = 0.001
 
@@ -195,7 +195,7 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 3801 # Cape of False Hope
+		location = 6345 # Neu PruBsen
 		division_template = "Warnicorn Brigade"
 		# = 0.001
 
@@ -207,7 +207,607 @@ units = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 3801 # Cape of False Hope
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}	
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}	
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}	
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}	
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}	
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}	
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}	
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}	
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
+		division_template = "Warnicorn Brigade"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 6345 # Neu PruBsen
 		division_template = "Warnicorn Brigade"
 		# = 0.001
 

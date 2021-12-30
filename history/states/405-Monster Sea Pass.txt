@@ -6,6 +6,7 @@ state={
 	history {
 		owner = MHC
 		add_core_of = MHC
+		add_core_of = JOH
 		buildings = {
 			arms_factory = 0
 			industrial_complex = 0

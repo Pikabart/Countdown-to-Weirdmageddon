@@ -7,8 +7,8 @@ state={
 		owner = HGH
 		add_core_of = HGH
 		buildings = {
-			arms_factory = 0
-			industrial_complex = 0
+			arms_factory = 2
+			industrial_complex = 3
 			
 			
 			infrastructure = 1
@@ -23,7 +23,11 @@ state={
 		1250 1446 4963 6484 7669 7703 
 	}
 	
-	manpower=4000
+	resources={
+		steel = 32
+	}
+	
+	manpower=1004000
 	
 	state_category=town
 }

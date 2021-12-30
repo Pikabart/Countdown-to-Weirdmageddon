@@ -6,6 +6,7 @@ state={
 	history {
 		owner = MHC
 		add_core_of = MHC
+		add_core_of = JOH
 		buildings = {
 			arms_factory = 0
 			industrial_complex = 0
@@ -20,6 +21,10 @@ state={
 	
 	provinces={
 		1963 2842 4768 7741 
+	}
+	
+	resources={
+		steel = 16
 	}
 	
 	manpower=3500

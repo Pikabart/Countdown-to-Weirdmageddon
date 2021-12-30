@@ -30,7 +30,52 @@ units = {
 		}
 		location = 5783 # Big Building in Neu Berlin
 		division_template = "PRUßENS GLORIAAAA"
+		start_equipment_factor = 0.5
+
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5783 # Big Building in Neu Berlin
+		division_template = "PRUßENS GLORIAAAA"
 		# = 0.9
+
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5783 # Big Building in Neu Berlin
+		division_template = "PRUßENS GLORIAAAA"
+		# = 0.9
+
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5783 # Big Building in Neu Berlin
+		division_template = "PRUßENS GLORIAAAA"
+		# = 0.9
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5783 # Big Building in Neu Berlin
+		division_template = "PRUßENS GLORIAAAA"
+		start_equipment_factor = 0.5
 
 
 	}

@@ -4,8 +4,8 @@ state={
 	local_supplies=0.0 
 	
 	history {
-		owner = UKN
-		add_core_of = UKN
+		owner = MW2
+		add_core_of = MW2
 		buildings = {
 			arms_factory = 0
 			industrial_complex = 0
@@ -23,7 +23,7 @@ state={
 		1090 1734 3119 7864 
 	}
 	
-	manpower=4000
+	manpower=654000
 	
 	state_category=town
 }

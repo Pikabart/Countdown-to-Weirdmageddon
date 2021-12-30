@@ -26,7 +26,7 @@
 				
 		bypass = {} 
 		
-		cost = 10
+		cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -48,7 +48,7 @@
 		y = 1
 		relative_position_id = TSR_start 
 		prerequisite = { focus = TSR_start }
-		cost = 10
+		cost = 5
 		mutually_exclusive = { focus = TSR_quantity_troop }
 	
 		available = {
@@ -76,7 +76,7 @@
 		y = 1
 		relative_position_id = TSR_start 
 		prerequisite = { focus = TSR_start }
-		cost = 10
+		cost = 5
 		mutually_exclusive = { focus = TSR_quality_troop }
 	
 		available = {
@@ -104,7 +104,7 @@
 		y = 1
 		relative_position_id = TSR_quantity_troop 
 		prerequisite = { focus = TSR_quantity_troop focus = TSR_quality_troop }
-		cost = 10
+		cost = 5
 		mutually_exclusive = { focus = TSR_military_production }
 	
 		available = {
@@ -132,7 +132,7 @@
 		y = 1
 		relative_position_id = TSR_quantity_troop 
 		prerequisite = { focus = TSR_quantity_troop focus = TSR_quality_troop }
-		cost = 10
+		cost = 5
 		mutually_exclusive = { focus = TSR_civilian_production }
 	
 		available = {
@@ -160,8 +160,8 @@
 		y = 1
 		relative_position_id = TSR_military_production 
 		prerequisite = { focus = TSR_military_production focus = TSR_civilian_production }
-		cost = 10
-		mutually_exclusive = { focus = TSR_civilian_production }
+		cost = 5
+		mutually_exclusive = { focus = TSR_modern_warfare_production }
 	
 		available = {
 		}
@@ -190,8 +190,8 @@
 		y = 1
 		relative_position_id = TSR_military_production 
 		prerequisite = { focus = TSR_military_production focus = TSR_civilian_production }
-		cost = 10
-		mutually_exclusive = { focus = TSR_civilian_production }
+		cost = 5
+		mutually_exclusive = { focus = TSR_modern_politics_production }
 	
 		available = {
 		}
@@ -210,6 +210,100 @@
 				category = land_doctrine
 			}
 			add_ideas = modern_warfare_generic_warlord
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = {
+		id = TSR_take_state
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = TSR_modern_warfare_production 
+		prerequisite = { focus = TSR_modern_warfare_production focus = TSR_modern_politics_production }
+		cost = 5
+	
+		available = {
+		}
+		bypass = { NOT = { 443 = { is_owned_by = MW1 } } }
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			declare_war_on = {
+				target = MW1
+				type = annex_everything
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = {
+		id = TSR_take_state_2
+		icon = a
+		x = -2
+		y = 1
+		relative_position_id = TSR_modern_warfare_production 
+		prerequisite = { focus = TSR_modern_warfare_production focus = TSR_modern_politics_production }
+		cost = 5
+	
+		available = {
+		}
+		bypass = { NOT = { 382 = { is_owned_by = MW2 } } } 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			declare_war_on = {
+				target = MW2
+				type = annex_everything
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = {
+		id = TSR_balance_of_power
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = TSR_take_state_2 
+		prerequisite = { focus = TSR_take_state }
+		prerequisite = { focus = TSR_take_state_2 }
+		cost = 5
+	
+		available = {
+			NOT = { 443 = { is_owned_by = MW1 } }
+			NOT = { 382 = { is_owned_by = MW2 } }
+			NOT = { 448 = { is_owned_by = MW3 } }
+			NOT = { 440 = { is_owned_by = MW4 } }
+			NOT = { 453 = { is_owned_by = MW5 } }
+			NOT = { 363 = { is_owned_by = MW6} }
+
+		}
+		bypass = { } 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
 		}
 		
 		ai_will_do = {

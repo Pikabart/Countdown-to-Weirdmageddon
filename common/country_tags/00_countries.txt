@@ -65,6 +65,12 @@ DTH = "countries/N-monst death cult.txt"
 HGH = "countries/N-monst forest high.txt"
 DRG = "countries/N-monst drug empire.txt"
 MHC = "countries/M-Magic High Commision Peacekeeping.txt"
+MW1 = "countries/N-monst 1.txt"
+MW2 = "countries/N-monst 2.txt"
+MW3 = "countries/N-monst 3.txt"
+MW4 = "countries/N-monst 4.txt"
+MW5 = "countries/N-monst 5.txt"
+MW6 = "countries/N-monst 6.txt"
 
 #US States
 ARZ = "countries/US-Arizona.txt"
