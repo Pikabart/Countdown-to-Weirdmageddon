@@ -224,7 +224,7 @@ country_event = { #
 	id = dipper_soos.2
 	title = dipper_soos.2.t 
 	desc = dipper_soos.2.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_dip_bot #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -242,7 +242,7 @@ country_event = { #
 	id = dipper_soos.3
 	title = dipper_soos.3.t 
 	desc = dipper_soos.3.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_mab_bot #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -268,7 +268,7 @@ country_event = { #
 	id = dipper_soos.4
 	title = dipper_soos.4.t 
 	desc = dipper_soos.4.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_mab_bot #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -342,7 +342,7 @@ country_event = { #
 	id = dipper_soos.5
 	title = dipper_soos.5.t 
 	desc = dipper_soos.5.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_dip_bot #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -366,7 +366,7 @@ country_event = { #
 	id = dipper_plaid.1
 	title = dipper_plaid.1.t 
 	desc = dipper_plaid.1.d  
-	picture = GFX_report_event_forest #  change this later
+	picture = GFX_report_event_plaidypus #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -477,7 +477,7 @@ country_event = { #
 		text = dipper_plaid.6.d_b
 		trigger = {has_country_flag = MYS_Robbie_Plaid}
 	}
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_plaidypus #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -593,7 +593,7 @@ country_event = { #
 	id = mabel_magnet.3
 	title = mabel_magnet.3.t 
 	desc = mabel_magnet.3.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_magnet_mabel #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -646,7 +646,7 @@ country_event = { #
 	id = mabel_magnet.4
 	title = mabel_magnet.4.t 
 	desc = mabel_magnet.4.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_microwave_mabel #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -665,7 +665,7 @@ country_event = { #
 	id = mabel_magnet.5
 	title = mabel_magnet.5.t 
 	desc = mabel_magnet.5.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_microwave_mabel #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -715,7 +715,7 @@ country_event = { #
 	id = mabel_magnet.6
 	title = mabel_magnet.6.t 
 	desc = mabel_magnet.6.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_stan_of_the_tiger #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again

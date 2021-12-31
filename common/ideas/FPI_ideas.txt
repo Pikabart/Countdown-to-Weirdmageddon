@@ -17,7 +17,8 @@ ideas = { #Entire file
 			allowed_civil_war = {always = no}
 			
 			modifier = {
-				
+				consumer_goods_factor = -0.2
+				stability_factor = -0.05
 			}
 		}
 	
@@ -29,7 +30,8 @@ ideas = { #Entire file
 			allowed_civil_war = {always = no}
 			
 			modifier = {
-				
+				stability_factor = -0.05
+				war_support_factor = 0.05
 			}
 		}
 		
@@ -42,7 +44,9 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-				
+				decryption_factor = -0.5
+				encryption_factor = -0.5
+				research_speed_factor = 0.1
 			}
 		}
 
@@ -55,7 +59,8 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-				
+				stability_factor = 0.1
+				war_support_factor = 0.1
 			}
 		}
 
