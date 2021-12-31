@@ -136,10 +136,7 @@ country_event = {
 	picture = GFX_report_event_solaria_legacy
 	hidden = yes
 		
-	trigger = {
-		original_tag = MEW
-		OST = { surrender_progress > 0.90 }
-	}
+	is_triggered_only = yes
 	
 	fire_only_once = yes
 	
