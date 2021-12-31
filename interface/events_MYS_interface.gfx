@@ -146,6 +146,35 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MYS/report_event_mailbox.dds"
 	}
 	
+	spriteType = { # 
+		name = "GFX_report_event_dip_bot"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_dip_bot.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_mab_bot"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_mab_bot.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_plaidypus"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_plaidypus.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_stan_of_the_tiger"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_stan_of_the_tiger.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_magnet_mabel"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_magnet_mabel.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_microwave_mabel"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_microwave_mabel.dds"
+	}
 	
 	#####################
 	

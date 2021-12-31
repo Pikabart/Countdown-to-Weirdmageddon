@@ -9,7 +9,7 @@ ideas = { #Entire file
 	country = {
 	
 		##############################
-		# Twins Relationship Rating IDeas
+		# Twins Relationship Rating Ideas
 		##############################
 		
 		MYS_Twins_1 = { # Togetehr Forever
@@ -22,7 +22,7 @@ ideas = { #Entire file
 			
 			modifier = {
 				political_power_factor = 0.2
-				stability_weekly_factor = 0.005 #gain .5% eveyr week
+				stability_weekly_factor = 0.002 #gain .5% eveyr week
 				consumer_goods_factor = -0.10
 			}
 		}
@@ -163,7 +163,7 @@ ideas = { #Entire file
 			}
 		}
 		
-		#######################
+		##############################################
 		
 		MYS_medical_bill = {
 		
