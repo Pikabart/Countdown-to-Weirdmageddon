@@ -489,6 +489,10 @@ news_event = { #Ludo Surrenders
 			remove_ideas = MEW_rapid_deployment_idea
 			remove_ideas = pull_all_strings_idea
 			remove_ideas = strike_first_idea
+			set_country_leader_portrait = {
+				ideology = oligarchism
+				portrait = gfx/leaders/MEW/hoi4_portrait_moon.dds
+			}
 		}
 		}
 	}
