@@ -453,7 +453,7 @@ MYS_boss_mabel = {
 							var = mys_mabel_money
 							value = 10
 						}
-						add_to_variable = {
+						subtract_from_variable = {
 							var = mys_mabel_moral
 							value = 10
 						}
