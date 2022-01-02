@@ -14,9 +14,25 @@ country_event = {
 	picture = GFX_report_event_chinese_soldiers_fighting
 	
 	is_triggered_only = yes
+	fire_only_once = yes
 	
 	option = { 
 		name = ORE_START.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+country_event = {
+	id = ORE_START.2
+	title = ORE_START.2.t
+	desc = ORE_START.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = ORE_START.2.a
+		load_oob = "ORE_2012"
 		ai_chance = { factor = 100 }	# 100% AI choose this
 	}
 }

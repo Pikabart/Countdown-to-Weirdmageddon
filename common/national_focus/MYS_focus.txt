@@ -177,6 +177,7 @@
 		}
 
 		completion_reward = {
+			custom_effect_tooltip = MYS_journal_3_effect
 			hidden_effect={
 				set_country_flag = mys_invest  #Change			
 				set_country_flag = mys_public_time 		#Change
@@ -1965,7 +1966,7 @@ focus = {
 			#country_event = mystery_shack.
 		}
 		
-		ai_will_do = {factor = 1}
+		ai_will_do = {factor = 400}
 }
 
 focus = { 

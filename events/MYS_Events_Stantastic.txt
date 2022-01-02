@@ -409,13 +409,13 @@ country_event = { #Outside 51
 		name = stantastic_51.3.a
 		ai_chance = { factor = 50 }	# 100% AI choose this
 		country_event = { id = stantastic_51.4 days = 21 }	
-
+		custom_effect_tooltip = stantastic_51.3.aa
 	}
 	option = { 
 		name = stantastic_51.3.b
 		ai_chance = { factor = 50 }	# 100% AI choose this
 		country_event = { id = stantastic_51.8 days = 21 }	
-	
+		custom_effect_tooltip = stantastic_51.3.bb
 	}
 }
 ################ silent ######################
@@ -505,7 +505,8 @@ country_event = {
 	option = { 
 		name = stantastic_51.7.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = stantastic_the_bet.1 days = 7 }
+		hidden_effect = {country_event = { id = stantastic_the_bet.1 days = 5 }}
+		set_country_flag = mys_please
 		custom_effect_tooltip = stantastic_51.7.tool
 	}
 }
@@ -573,7 +574,7 @@ country_event = {
 	option = { 
 		name = stantastic_51.10.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = stantastic_51.11 days = 7 }	
+		hidden_effect = {country_event = { id = stantastic_51.11 days = 7 }	}
 	}
 }
 
@@ -831,7 +832,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_flag = MYS_bet_win_4 }    # LPLM
 			add_timed_idea = { idea = MYS_bet_wrong  days = 90 }
-			country_event = stantastic_the_bet.4
+			hidden_effect = {country_event = stantastic_the_bet.4}
 			if = {
 					limit = { has_idea = MYS_NWHS_1 } 
 					swap_ideas = {
@@ -843,7 +844,7 @@ country_event = {
 					limit = { has_idea = MYS_NWHS_2 } 
 					swap_ideas = {
 						add_idea = MYS_NWHS_3
-						remove_idea = MYS_NWHS_2
+						remove_idea = MYS_NWHS_2 
 					}
 				}
 				else_if = {
@@ -866,7 +867,7 @@ country_event = {
 		else_if = {
 			limit = { has_country_flag = MYS_bet_lose_1 }
 			#add_timed_idea = { idea = MYS_bet_loser  days = 90 }
-			country_event = stantastic_the_bet.4
+			hidden_effect = {country_event = stantastic_the_bet.4}
 			if = {
 					limit = { has_idea = MYS_NWHS_5 } 
 					swap_ideas = {
@@ -900,12 +901,12 @@ country_event = {
 		else_if = {
 			limit = { has_country_flag = MYS_bet_lose_2 }
 			#add_timed_idea = { idea = MYS_bet_loser  days = 30 }
-			country_event = stantastic_the_bet.4
+			hidden_effect = {country_event = stantastic_the_bet.4}
 		}
 		else_if = {
 			limit = { has_country_flag = MYS_bet_lose_3 }
 			add_timed_idea = { idea = MYS_bet_loser  days = 180 }
-			country_event = stantastic_the_bet.4
+			hidden_effect = {country_event = stantastic_the_bet.4}
 			if = {
 					limit = { has_idea = MYS_NWHS_1 } 
 					swap_ideas = {

@@ -1,7 +1,0 @@
-1: Advisors are added in \common\ideas\zzz_generic.txt - This is where details and stats are
-
-2: Each advisor has a trait with thier boosts. This is in \common\country_leader\00_traits.txt
-
-3: For thier name and description loc, put in \localisation\advisor_l_english.yml
-
-4: Place advisor portrait in gfx\interface\advisor. Reference portrait in \interface\advisors.gfx and call in zzz_generic.txt
