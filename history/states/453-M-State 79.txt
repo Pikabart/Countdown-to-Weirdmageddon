@@ -21,6 +21,10 @@ state={
 		2280 3593 4589 4975 5521 7588 7589 7601 
 	}
 	
+	resources={
+		steel = 12
+	}
+	
 	manpower=654000
 	
 	state_category=town

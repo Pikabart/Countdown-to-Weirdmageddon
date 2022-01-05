@@ -11,17 +11,11 @@ on_actions = {
 			MYS = {
 				country_event = { id = mys_startup.1 } # Event code is in MYS_events
 			}
-			#effect = {
-				#if = {
-				#	limit = {
-				#		NOT = {
-				#			original_tag = MYS
-				#			original_tag = MEW
-				#		}
-				#	}
-				#ROOT = { country_event = { id = game_startup.1 } }# Event code is in news_events
-				#}
-			#}
+			MHC = {
+				give_resource_rights = { receiver = JOH state = 387 }
+				give_resource_rights = { receiver = JOH state = 406 }
+				give_resource_rights = { receiver = JAG state = 395 }
+			}
 		}	
 	}
 	
@@ -68,6 +62,72 @@ on_actions = {
 				}
 				FROM = {
 					country_event = ludo_win.1
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MW1
+						
+					}
+				}
+				FROM = {
+					transfer_state = 443
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MW2
+						
+					}
+				}
+				FROM = {
+					transfer_state = 382
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MW3
+						
+					}
+				}
+				FROM = {
+					transfer_state = 448
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MW4
+						
+					}
+				}
+				FROM = {
+					transfer_state = 440
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MW5
+						
+					}
+				}
+				FROM = {
+					transfer_state = 453
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MW6
+						
+					}
+				}
+				FROM = {
+					transfer_state = 363
 				}
 			}
 		}

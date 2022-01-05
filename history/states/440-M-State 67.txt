@@ -20,7 +20,11 @@ state={
 	provinces={
 		 2337 2747 6649 7657 
 	}
-	
+
+	resources={
+		oil = 12
+	}
+
 	manpower=654000
 	
 	state_category=town

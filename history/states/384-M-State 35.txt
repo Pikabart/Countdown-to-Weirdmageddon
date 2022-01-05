@@ -24,8 +24,8 @@ state={
 	}
 	
 	resources={
-		aluminium = 36
-		oil = 24
+		aluminium = 12
+		oil = 4
 	}
 	
 	manpower=1004000

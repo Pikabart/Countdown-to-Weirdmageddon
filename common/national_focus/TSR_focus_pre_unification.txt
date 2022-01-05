@@ -1,0 +1,428 @@
+﻿focus_tree = {
+
+	id = TSR_focus_pre_unification
+	
+	country = {
+		factor = 0		
+		modifier = {
+		#	add = 100
+		#	tag = TSR
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = { 
+		id = TSR_letter_to_neu_berlin
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = TSR_letter_to_mewni
+		icon = a
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = TSR_letter_to_neu_berlin }
+		relative_position_id = TSR_letter_to_neu_berlin 
+
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = TSR_letter_to_johansen_banks
+		icon = a
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = TSR_letter_to_neu_berlin }
+		relative_position_id = TSR_letter_to_neu_berlin 
+
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+	focus = { 
+		id = TSR_letter_to_officer_corps
+		icon = a
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = TSR_letter_to_mewni }
+		prerequisite = { focus = TSR_letter_to_johansen_banks }
+		relative_position_id = TSR_letter_to_mewni 
+
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+	focus = { 
+		id = TSR_new_weapon_schematics
+		icon = a
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = TSR_letter_to_officer_corps }
+		relative_position_id = TSR_letter_to_officer_corps 
+
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.75
+				uses = 3
+				category = infantry_weapons
+			}
+		
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = TSR_mewman_architechture
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_new_weapon_schematics }
+		relative_position_id = TSR_new_weapon_schematics 
+
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = TSR_factory_build_speed
+			378 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+			379 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+			443 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+			382 = {
+				if = {
+					limit = { is_controlled_by = ROOT }
+					add_building_construction = {
+						type = infrastructure
+						level = 3
+						instant_build = yes
+					}
+				}
+			}
+			
+		
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_industry_like_mewni
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_mewman_architechture }
+		relative_position_id = TSR_mewman_architechture 
+
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_strategy_books
+		icon = a
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = TSR_letter_to_officer_corps }
+		relative_position_id = TSR_letter_to_officer_corps 
+
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			army_experience = 15
+		
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_mewman_advisors
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_strategy_books }
+		relative_position_id = TSR_strategy_books 
+
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_army_like_mewni
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_mewman_advisors }
+		relative_position_id = TSR_mewman_advisors 
+
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 378 }
+				create_unit = {
+						division = "name = \"Pseudo-Mewman Calvary\" division_template = \"Cossack Horsemen\" start_experience_factor = 1"
+						owner = TSR
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_financial_report
+		icon = a
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = TSR_army_like_mewni }
+		prerequisite = { focus = TSR_industry_like_mewni }
+		relative_position_id = TSR_army_like_mewni 
+
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = TSR_change_focus_tree.2
+		
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+}		

@@ -1,0 +1,470 @@
+﻿focus_tree = {
+
+	id = TSR_focus_pre_unification_3
+	
+	country = {
+		factor = 0		
+		modifier = {
+		#	add = 100
+		#	tag = TSR
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = { 
+		id = TSR_break_protests
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.1
+		
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = TSR_vague_promises
+		icon = a
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = TSR_break_protests }
+		relative_position_id = TSR_break_protests 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = TSR_temp_stability_1
+				days = 365
+			}
+		
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_gaslight_the_people
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_vague_promises }
+		relative_position_id = TSR_vague_promises 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = TSR_temp_stability_2
+				days = 365
+			}
+		
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_poverty_requirements
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_gaslight_the_people }
+		relative_position_id = TSR_gaslight_the_people 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_straight_up_lie
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_poverty_requirements }
+		relative_position_id = TSR_poverty_requirements 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = TSR_consider_our_options
+		icon = a
+		x = 2
+		y = 1
+		
+		prerequisite = { focus = TSR_break_protests }
+		relative_position_id = TSR_break_protests 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_seize_horses
+		icon = a
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = TSR_consider_our_options }
+		relative_position_id = TSR_consider_our_options 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_steal_horse_from_neighbor
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_seize_horses }
+		relative_position_id = TSR_seize_horses 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 441
+					num_provinces = 3
+					on_win = TSR_steal_horse_neighbor.1
+					on_lose = TSR_steal_horse_neighbor.2
+					on_cancel = TSR_steal_horse_neighbor.3
+				}
+							
+				defender = {
+					state = 377
+					num_provinces = 3
+					on_win = KAI_TSR_steal_horse_neighbor.1
+					on_lose = KAI_TSR_steal_horse_neighbor.2
+					on_cancel = KAI_TSR_steal_horse_neighbor.3
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = TSR_tax_peasantry
+		icon = a
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = TSR_consider_our_options }
+		relative_position_id = TSR_consider_our_options 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = TSR_tax_peasants_idea
+				days = 365
+			
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_rev_up_the_money_printer
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_tax_peasantry }
+		relative_position_id = TSR_tax_peasantry 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = TSR_money_printer_idea
+				days = 365
+			
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_sell_artifacts
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_rev_up_the_money_printer }
+		relative_position_id = TSR_rev_up_the_money_printer 
+		mutually_exclusive = { focus = TSR_steal_johansen_horses }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = TSR_sell_artifacts_idea
+				days = 365
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_steal_johansen_horses
+		icon = a
+		x = -2
+		y = 1
+		
+		prerequisite = { focus = TSR_steal_horse_from_neighbor }
+		relative_position_id = TSR_rev_up_the_money_printer 
+		mutually_exclusive = { focus = TSR_sell_artifacts }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 378
+					num_provinces = 2
+					on_win = TSR_steal_horse_neighbor.1
+					on_lose = TSR_steal_horse_neighbor.2
+					on_cancel = TSR_steal_horse_neighbor.3
+				}
+							
+				defender = {
+					state = 339
+					num_provinces = 2
+					on_win = KAI_TSR_steal_horse_neighbor.1
+					on_lose = KAI_TSR_steal_horse_neighbor.2
+					on_cancel = KAI_TSR_steal_horse_neighbor.3
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_peace_money_stability
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_straight_up_lie }
+		prerequisite = { focus = TSR_steal_johansen_horses focus = TSR_sell_artifacts }
+		relative_position_id = TSR_steal_johansen_horses 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = TSR_calvary_debt
+				add_idea = TSR_calvary_debt_better
+				
+			}
+		
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+}		

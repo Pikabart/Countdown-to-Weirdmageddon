@@ -220,4 +220,40 @@ focus_tree = {
 		}
 		
 	}
+	
+	focus = {
+		id = MHC_balance_of_power
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = MHC_modern_warfare_production 
+		prerequisite = { focus = MHC_modern_warfare_production }
+		prerequisite = { focus = MHC_modern_politics_production }
+		cost = 5
+	
+		available = {
+			NOT = { 443 = { is_owned_by = MW1 } }
+			NOT = { 382 = { is_owned_by = MW2 } }
+			NOT = { 448 = { is_owned_by = MW3 } }
+			NOT = { 440 = { is_owned_by = MW4 } }
+			NOT = { 453 = { is_owned_by = MW5 } }
+			NOT = { 363 = { is_owned_by = MW6} }
+
+		}
+		bypass = { } 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
 }

@@ -1,0 +1,110 @@
+﻿###########################
+# Tsardom
+###########################
+
+add_namespace = TSR_change_focus_tree
+add_namespace = TSR_steal_horse_neighbor
+
+
+country_event = {
+	id = TSR_change_focus_tree.1
+	title = TSR_change_focus_tree.1.t
+	desc = TSR_change_focus_tree.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		hidden_effect = {
+			load_focus_tree = {
+				tree = TSR_focus_pre_unification
+				keep_completed = yes
+			}
+		}
+		name = TSR_change_focus_tree.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = TSR_change_focus_tree.2
+	title = TSR_change_focus_tree.2.t
+	desc = TSR_change_focus_tree.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		hidden_effect = {
+			load_focus_tree = {
+				tree = TSR_focus_pre_unification_2
+				keep_completed = yes
+			}
+		}
+		name = TSR_change_focus_tree.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = TSR_change_focus_tree.3
+	title = TSR_change_focus_tree.3.t
+	desc = TSR_change_focus_tree.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		hidden_effect = {
+			load_focus_tree = {
+				tree = TSR_focus_pre_unification_3
+				keep_completed = yes
+			}
+		}
+		name = TSR_change_focus_tree.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = TSR_steal_horse_neighbor.1
+	title = TSR_steal_horse_neighbor.1.t
+	desc = TSR_steal_horse_neighbor.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		add_stability = 0.05
+		name = TSR_steal_horse_neighbor.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+country_event = {
+	id = TSR_steal_horse_neighbor.2
+	title = TSR_steal_horse_neighbor.2.t
+	desc = TSR_steal_horse_neighbor.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		add_stability = -0.05
+		name = TSR_steal_horse_neighbor.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+country_event = {
+	id = TSR_steal_horse_neighbor.3
+	title = TSR_steal_horse_neighbor.3.t
+	desc = TSR_steal_horse_neighbor.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		add_stability = -0.05
+		name = TSR_steal_horse_neighbor.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}

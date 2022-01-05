@@ -1,0 +1,48 @@
+﻿###########################
+# Kaiserreich
+###########################
+
+add_namespace = KAI_TSR_steal_horse_neighbor
+
+country_event = {
+	id = KAI_TSR_steal_horse_neighbor.1
+	title = KAI_TSR_steal_horse_neighbor.1.t
+	desc = KAI_TSR_steal_horse_neighbor.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		add_stability = 0.05
+		name = KAI_TSR_steal_horse_neighbor.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+country_event = {
+	id = KAI_TSR_steal_horse_neighbor.2
+	title = KAI_TSR_steal_horse_neighbor.2.t
+	desc = KAI_TSR_steal_horse_neighbor.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		add_stability = -0.05
+		name = KAI_TSR_steal_horse_neighbor.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+country_event = {
+	id = KAI_TSR_steal_horse_neighbor.3
+	title = KAI_TSR_steal_horse_neighbor.3.t
+	desc = KAI_TSR_steal_horse_neighbor.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		add_stability = 0.05
+		name = KAI_TSR_steal_horse_neighbor.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
