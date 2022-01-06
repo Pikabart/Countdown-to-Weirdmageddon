@@ -16,6 +16,9 @@ state={
 			anti_air_building = 0
 			radar_station = 0
 
+			3114 = {
+				naval_base = 3
+			}
 		}
 
 	}

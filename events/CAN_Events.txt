@@ -23,7 +23,7 @@ country_event = {
 	}
 }
 ############################################################################################################
-country_event = { # Unknown at this time
+country_event = { # Swap Out Focus Tree for Generic, for now, and kefuffle the regular army
 	id = CAN_kerfuffle.1
 	title = CAN_kerfuffle.1.t
 	desc = CAN_kerfuffle.1.d
@@ -32,13 +32,23 @@ country_event = { # Unknown at this time
 	is_triggered_only = yes
 	fire_only_once = yes
 	
+	immediate = {
+		hidden_effect = {
+			CAN = { load_focus_tree = { tree = generic }}# Chnage Later in Canada Update
+			set_cosmetic_tag = CAN_KER
+			delete_unit_template_and_units = { division_template = "Canadian Elite Division" }
+			delete_unit_template_and_units = { division_template = "Canadian Mountie Force" }
+		}
+	}
+	
 	option = { 
 		name = CAN_kerfuffle.1.a
+		country_event = CAN_kerfuffle.2
 		ai_chance = { factor = 100 }	# 100% AI choose this
 	}
 }
 
-country_event = { # Kerfuffle Canandian Army
+country_event = { # Exile Canandian Army
 	id = CAN_kerfuffle.2
 	title = CAN_kerfuffle.2.t
 	desc = CAN_kerfuffle.2.d
@@ -47,10 +57,65 @@ country_event = { # Kerfuffle Canandian Army
 	is_triggered_only = yes
 	fire_only_once = yes
 	
+	immediate = {
+		hidden_effect = {
+			random_owned_controlled_state = {
+				prioritize = { 256}
+				create_unit = {
+						division = "name = \"Canadian Infantry Exiles\" division_template = \"Canadian Infantry Exiles\" start_experience_factor = 0.25"
+						owner = CAN
+				}
+				create_unit = {
+						division = "name = \"Canadian Infantry Exiles\" division_template = \"Canadian Infantry Exiles\" start_experience_factor = 0.25"
+						owner = CAN
+				}
+				create_unit = {
+						division = "name = \"Canadian Infantry Exiles\" division_template = \"Canadian Infantry Exiles\" start_experience_factor = 0.25"
+						owner = CAN
+				}
+				create_unit = {
+						division = "name = \"Canadian Motorized Exiles\" division_template = \"Canadian Motorized Exiles\" start_experience_factor = 0.5"
+						owner = CAN
+				}
+				create_unit = {
+						division = "name = \"Canadian Motorized Exiles\" division_template = \"Canadian Motorized Exiles\" start_experience_factor = 0.5"
+						owner = CAN
+				}
+				create_unit = {
+						division = "name = \"Canadian Mountie Exiles\" division_template = \"Canadian Mountie Exiles\" start_experience_factor = 1"
+						owner = CAN
+				}
+				create_unit = {
+						division = "name = \"Canadian Mountie Exiles\" division_template = \"Canadian Mountie Exiles\" start_experience_factor = 1"
+						owner = CAN
+				}
+				create_unit = {
+						division = "name = \"Canadian Mountie Exiles\" division_template = \"Canadian Mountie Exiles\" start_experience_factor = 1"
+						owner = CAN
+				}
+				create_unit = {
+						division = "name = \"Canadian Mountie Exiles\" division_template = \"Canadian Mountie Exiles\" start_experience_factor = 1"
+						owner = CAN
+				}
+			}
+			set_division_template_lock = {
+				division_template = "Canadian Infantry Exiles"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Canadian Motorized Exiles"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Canadian Mountie Exiles"
+				is_locked = no
+			}
+			delete_unit_template_and_units = { division_template = "Canadian Elite Division" }
+		}
+	}
+	
 	option = { 
-		name = CAN_kerfuffle.1.a
-		delete_unit_template_and_units = { division_template = "Canadian Elite Division" }
-		delete_unit_template_and_units = { division_template = "Canadian Mountie Force" }
+		name = CAN_kerfuffle.2.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 	}
 }
@@ -89,5 +154,7 @@ country_event = {  # All alone
 			long_name = CAN_democratic_party_kerfuffle
 		}
 	}
-
 }
+
+
+

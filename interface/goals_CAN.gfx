@@ -1,0 +1,87 @@
+spriteTypes = {	
+
+	#################
+	#### Generic continuous goal icons
+	#################
+
+	SpriteType = {
+	name = "GFX_goal_canada_liberate"
+	texturefile = "gfx/interface/goals/CAN/focus_canada_liberate.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_canada_common_disaster"
+	texturefile = "gfx/interface/goals/CAN/focus_canada_common_disaster.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_canada_common_fix"
+	texturefile = "gfx/interface/goals/CAN/focus_canada_common_fix.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_canada_aus"
+	texturefile = "gfx/interface/goals/CAN/focus_canada_common_aus.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_canada_ind"
+	texturefile = "gfx/interface/goals/CAN/focus_canada_common_ind.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_canada_jap"
+	texturefile = "gfx/interface/goals/CAN/focus_canada_common_jap.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_canada_bri"
+	texturefile = "gfx/interface/goals/CAN/focus_canada_common_bri.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_canada_zea"
+	texturefile = "gfx/interface/goals/CAN/focus_canada_common_zea.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_canada_oth"
+	texturefile = "gfx/interface/goals/CAN/focus_canada_common_other.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_canada_usa"
+	texturefile = "gfx/interface/goals/CAN/focus_canada_common_usa.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_canada_eur"
+	texturefile = "gfx/interface/goals/CAN/focus_canada_common_eur.dds"			
+	}
+	
+	#############
+	
+	SpriteType = {
+	name = "GFX_goal_canada_multiverse"
+	texturefile = "gfx/interface/goals/CAN/focus_canada_multiverse.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_canada_true_queen"
+	texturefile = "gfx/interface/goals/CAN/focus_canada_true_queen.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_canada_no_frogs"
+	texturefile = "gfx/interface/goals/CAN/focus_canada_no_frogs.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_canada_boiling_thunder"
+	texturefile = "gfx/interface/goals/CAN/focus_canada_boiling_thunder.dds"			
+	}
+	
+	
+	
+	
+}#################################

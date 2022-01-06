@@ -285,7 +285,7 @@ news_event = { # Norton found
 	
 	immediate = {
 		hidden_effect = {
-			news_event = { id = before_news.2 days = 10 }	
+	
 		}
 	}
 	
@@ -430,10 +430,6 @@ news_event = { # Pre-Kerfuffle
 	option = {
 		name = kerfuffle_news.1.b
 		trigger = {	TAG = CAN}
-		#hidden_effect = {
-			#Canada Will get their own version fo this event
-			#CAN = { news_event = { id = kerfuffle_news.5 days = 5 } }
-		#}
 	}
 }
 
@@ -460,10 +456,10 @@ news_event = { #The Kerfuffle, All Earth Except Canada
 	is_triggered_only = yes
 	
 	immediate = {
-		hidden_effect = {    #MOVE THIS TO A CANDAIN EVENT IN THE FUTURE
+		hidden_effect = {    
 			set_global_flag	= canada_kerfuffled
 			news_event = { id = kerfuffle_news.3 days = 5 }
-			CAN = { country_event = { id = CAN_kerfuffle.2 days = 1 } }
+			CAN = { country_event = { id = CAN_kerfuffle.1 days = 2 } }
 			add_political_power = -100
 			every_state = { 
 				limit = { is_owned_by = CAN is_claimed_by = KER}
@@ -629,7 +625,7 @@ news_event = { #
 	
 	immediate = {
 		hidden_effect = {
-			country_event = { id = BYE.1 days = 2 }
+			EUS = { country_event = { id = BYE.1 days = 2 } }
 		}
 	}
 	
@@ -662,9 +658,8 @@ news_event = { #
 		trigger = {	TAG = MEX}	
 	}
 	option = {
-		name = kerfuffle_news.4.f   # MOVE THIS TO A CANADA EVENT IN THE FUTURE
+		name = kerfuffle_news.4.f   
 		trigger = {	TAG = CAN}	
-		set_cosmetic_tag = CAN_KER
 	}
 }
 
