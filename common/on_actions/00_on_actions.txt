@@ -26,4 +26,52 @@ on_actions = {
 		}	
 	}
 	
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = {
+					ROOT = {
+						original_tag = OST
+					
+					}
+					FROM = {
+						original_tag = MEW
+					}
+				}
+				FROM = {
+					country_event = ost_mew_surrender.1
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = LUD
+					}
+					FROM = {
+						original_tag = MEW
+						has_country_flag = ludo_civil_war_start
+					}
+				}
+				FROM = {
+					country_event = ludo_surrender.1
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = JOH
+						
+					}
+					FROM = {
+						original_tag = LUD
+						has_country_flag = ludo_civil_war_start
+					}
+				}
+				FROM = {
+					country_event = ludo_win.1
+				}
+			}
+		}
+	}
+	
 } ## END OF FILE ##
