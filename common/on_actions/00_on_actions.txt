@@ -23,18 +23,6 @@ on_actions = {
 				country_event = { id = ORE_START.1 } # Event code is in ORE events
 			}
 			
-			#effect = {
-				#if = {
-				#	limit = {
-				#		NOT = {
-				#			original_tag = MYS
-				#			original_tag = MEW
-				#		}
-				#	}
-				#ROOT = { country_event = { id = game_startup.1 } }# Event code is in news_events
-				#}
-			#}
-			
 		}	
 	}
 	
