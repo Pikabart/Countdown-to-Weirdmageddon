@@ -1,0 +1,30 @@
+
+state={
+	id=146
+	name="STATE_146"
+	
+local_supplies=0.0 
+	
+	history={
+		owner = CAL
+		add_core_of = CAL
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+		victory_points = { 9524 10 }  #Santa Rosa
+		victory_points = { 273 10 }  #Fort Navarro
+	}
+	
+	provinces={
+		273 1621 3099 4952 5333 5390 5546 6196 6732 9420 9438 9476 9485 9508 9518 9524 9539 9557 
+	}
+	manpower=150000
+	
+	state_category=large_town
+}

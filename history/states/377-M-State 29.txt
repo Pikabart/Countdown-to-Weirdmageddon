@@ -1,0 +1,30 @@
+state={
+	id=377
+	name="STATE_377"	
+	local_supplies=0.0 
+	
+	history {
+		owner = KAI
+		add_core_of = KAI
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		
+		victory_points = { 5783 20 } 
+	}
+	
+	provinces={
+		835 1169 1396 2609 2787 5783 6069 7045 7795 7813 
+	}
+	
+	manpower=7000
+	
+	state_category=city
+}

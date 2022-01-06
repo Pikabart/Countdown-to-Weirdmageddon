@@ -1,0 +1,34 @@
+state={
+	id=345
+	name="STATE_345"
+	local_supplies=0.0 
+	
+	history {
+		owner = MEW
+		add_core_of = MEW	
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	
+		victory_points = { 117 5 }
+	}
+	
+	provinces={
+		117 807 2902 5247 5303 7799 7867 7884 
+	}
+	
+	resources={
+		steel=18
+	}
+	
+	manpower=4000
+	
+	state_category=town
+}

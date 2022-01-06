@@ -1,0 +1,27 @@
+state={
+	id=189
+	name="STATE_189"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = EUS
+		add_core_of = EUS
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+	}
+	
+	provinces={
+		314 354 537 774 848 1302 1632 1780 1953 2140 4468 4910 5849 6831 8249 8398 8549 8729 
+	}
+	manpower=10000
+	
+	state_category=rural
+}

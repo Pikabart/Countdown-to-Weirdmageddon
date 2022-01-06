@@ -1,0 +1,28 @@
+state={
+	id=138
+	name="STATE_138"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = CAL
+		add_core_of = CAL
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+
+	}
+	
+	provinces={
+		2297 3341 4357 5336 5939 6083 6220 6897 7106 9828 9841 9858 9871 9880 9886 9894 9902 
+	}
+	manpower=500000
+	
+	state_category=town
+}

@@ -1,0 +1,45 @@
+#####################################################################################################################
+# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
+# ID's must not include spaces!
+# Decisions MUST be visible for the AI to execute them, if in doubt, switch tag to the AI country and check if they can see/execute the mission.
+#####################################################################################################################
+ost_war_countdown_category = {		
+
+	ost_war_countdown = { 		
+		icon = GFX_decision_icon_default
+		fire_only_once = yes
+		allowed = { tag = MEW }
+		available = { has_country_flag = conquer_ost } #Needed to add "available" because otherwise the mission would just autocomplete on game start
+		visible = { has_country_flag = ost_war_starting }	
+		days_mission_timeout = 1106 #Times out on January 11th 2015, 7 days before the first episode of SVTFOE aired (Because the focus for Stars 14th birthday takes 7 days)
+		is_good = no
+		
+		complete_effect = {  }
+		
+		timeout_effect = {
+		custom_effect_tooltip = "ost_war_countdown_tooltip"
+		hidden_effect = {
+		IF = {
+			limit = { MEW = { has_war_with = OST} }
+				white_peace = {
+					tag = OST
+					message = "The war has developed into stalemate"
+				}
+				clr_country_flag = ost_war_starting
+				add_stability = -0.1
+				MEW = {
+					load_focus_tree = {
+					tree = mewni_focus_after_war
+					keep_completed = yes
+					}
+				}
+		}
+			else = {
+					add_stability = 0.01
+			}
+		}
+		}
+	}
+	
+	
+} ###end

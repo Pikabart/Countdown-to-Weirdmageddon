@@ -1,0 +1,33 @@
+state={
+	id=39
+	name="STATE_39"
+	
+	local_supplies=0.0 
+	
+	history = {
+		owner = GNM
+		add_core_of = GNM
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0		
+		}
+		victory_points = {
+			8376  30
+		}
+		victory_points = {
+			8424  10
+		}
+	}
+	
+	provinces={
+		1235 2873 3381 4956 7179 8352 8376 8416 8424 
+	}
+	manpower=4000
+	
+	state_category=city 
+}

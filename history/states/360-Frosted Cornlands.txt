@@ -1,0 +1,30 @@
+state={
+	id=360
+	name="STATE_360"
+	local_supplies=0.0 
+	
+	history {
+		owner = SPI
+		add_core_of = SPI	
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	
+		victory_points = { 1054 5 }
+	}
+	
+	provinces={
+		67 1054 2208 2991 3494 3988 4645 4673 6293 6520 6902 6943 7109 7130 7482 7500 7540 7600 
+	}
+	
+	manpower=6000
+	
+	state_category=town
+}

@@ -1,0 +1,80 @@
+spriteTypes = {	
+
+	####
+	# Ludo Focus
+	####
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ludo_youre_going_to_the_sky"
+	texturefile = "gfx/interface/goals/LUD/focus_ludo_youre_going_to_the_sky.dds"			
+	}	
+	SpriteType = {
+	name = "GFX_goal_focus_ludo_and_toffee"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_ludo_and_toffee.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_lud_moon_alive_question"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_lud_moon_alive_question.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_legit"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_legit.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_ludo_choir"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_ludo_choir.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_ludo_law_reform"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_ludo_law_reform.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_ludo_education"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_ludo_education.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_ludo_purple_reparations"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_ludo_purple_reparations.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_purple_benefits"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_purple_benefits.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_ludo_purple_mewmans_in_gov"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_ludo_purple_mewmans_in_gov.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_ludo_no_tolerance"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_ludo_no_tolerance.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_punish_civillians"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_punish_civillians.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_ludo_summer_camp"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_ludo_summer_camp.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_ludo_fate_of_loyalist_front"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_ludo_fate_of_loyalist_front.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_ludo_purple_support_spi"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_ludo_purple_support_spi.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_ludo_total_hegemon"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_ludo_total_hegemon.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_ludo"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_ludo.dds"			
+	}
+	SpriteType = {
+	name = "GFX_goal_focus_toffee"
+	texturefile = "gfx/interface/goals/LUD/post_BfM/focus_toffee.dds"			
+	}
+
+} ### End Bracket

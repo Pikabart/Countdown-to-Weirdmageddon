@@ -1,0 +1,30 @@
+state={
+	id=313
+	name="STATE_313"
+	local_supplies=0.0 
+	
+	history {
+		owner = LUC
+		add_core_of = LUC
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 2
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			3881 = {naval_base = 3}
+		}
+		victory_points = { 2884 20 }
+	}
+	
+	provinces={
+		507 2884 3423 3881 9186 
+	}
+	
+	manpower=20000
+	
+	state_category=megalopolis 
+}

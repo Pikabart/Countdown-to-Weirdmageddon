@@ -1,0 +1,39 @@
+
+state={
+	id=266
+	name="STATE_266"
+	
+	local_supplies=0.0 
+	
+	history {
+		owner = MEW
+		add_core_of = MEW
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 5
+			
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+
+			6524 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+				
+		}
+		
+		victory_points = { 8199 25 } 
+	
+	}
+	
+	provinces={
+		2790 5168 5206 5210 6437 6524 6699 6745 8136 8137 8146 8147 8155 8162 8163 8166 8168 8172 8178 8179 8185 8186 8191 8199 8202 8205 8219 8223 8225 
+	}
+	
+	manpower=25000000
+	
+	state_category=megalopolis 
+}

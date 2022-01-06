@@ -1,0 +1,38 @@
+state={
+	id=33
+	name="STATE_33"
+	
+	local_supplies=0.0 
+	
+	resources={
+		rubber = 24
+	}
+	resources={
+		oil = 24
+	}
+	
+	history={
+		owner = NRW
+		add_core_of = NRW
+		
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+			
+			infrastructure = 1
+			air_base = 2
+			anti_air_building = 1
+			radar_station = 0
+		}
+		
+		victory_points = { 5814 30 }
+	}
+	
+	provinces={
+		70 5814 10691 10695 
+	}
+	manpower=100
+	
+	state_category=large_city 
+	local_supplies=0.0 
+}

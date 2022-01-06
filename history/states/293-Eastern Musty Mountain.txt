@@ -1,0 +1,29 @@
+state={
+	id=293
+	name="STATE_293"
+	local_supplies=0.0 
+	
+	history {
+		owner = UKN
+		add_core_of = UKN
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		
+	}
+	
+	provinces={
+		657 2661 6706 7139 8923 
+	}
+	
+	manpower=3000
+	
+	state_category=town
+}

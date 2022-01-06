@@ -1,0 +1,30 @@
+state={
+	id=122
+	name="STATE_122"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = WAS
+		add_core_of = WAS
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+
+		victory_points = { 5936 50 }
+
+	}
+	
+	provinces={
+		3541 3796 4150 5026 5770 5778 5936 6224 6323 6691 7707 7714 7737 7745 7755 7770 
+	}
+	manpower=700000
+	
+	state_category=megalopolis 
+}

@@ -1,0 +1,19 @@
+﻿l_english:
+
+lud_start.1.t:0 "Welcome to Countdown to Weirdmaggedon: [Root.GetName]!"
+lud_start.1.d:0 "Welcome to our mod, we hope you enjoy!\n\n§RIMPORTANT NOTES:§! You are playing as Ludo, who does not have content until later in the game. You will get a thank you event once you've reached the end of the mod's current content. Events and scripted peaces about the end of wars will take a maximum of one months after the war to show up. Scripted peace is a possibility, but it is not game-ending if you get a manual peace confrence. Just annex everything."
+lud_start.1.a:0 "Alright, time to play!"
+
+lud_end.1.t:0 "End Of The Open Alpha"
+lud_end.1.d:0 "With the former Kingdom of Mewni under Ludo's control, it seems that everything is stabalizing. But the people still remember the Butterflys, and whispers are going around about where Moon is. The Battle for Mewni has not yet ended, it has only just begun.\n\nYou have reached the end of the Open Beta. We hope you enjoyed v0.1.0 of Countdown to Weirdmaggedon! You can follow development, ask questions, give feedback, or even sign up to join the dev team in our discord! (Link on the Steam Page)\n\nWe hope to see you there!"
+lud_end.1.a:0 "Aw that's it? I loved this mod!"
+
+toffee_end.1.t:0 "End Of The Open Alpha"
+toffee_end.1.d:0 "With the former Kingdom of Mewni under Ludo's control, it seems that everything is stabalizing. But behind Ludo lies a puppet master, and that puppet master sill soon reveal themselves to the world. And that's not mentioning the actual Mewman populace, still remembering the Butterfly dynasty. So yes, everything is stable for now. But it is just a facade. A facade which will last a few months, then all hell will break lose. For the Battle for Mewni has only just begun.\n\nYou have reached the end of the Open Beta. We hope you enjoyed v0.1.0 of Countdown to Weirdmaggedon! You can follow development, ask questions, give feedback, or even sign up to join the dev team in our discord! (Link on the Steam Page)\n\nWe hope to see you there!"
+toffee_end.1.a:0 "Aw that's it? I loved this mod!"
+
+lud_butterfly_memory_event.1.t:0 "Memory Of The Butterflys"
+lud_butterfly_memory_event.1.d:0 "What shall we do about the Butterfly conspiracy?"
+lud_butterfly_memory_event.1.a:0 "It's just a conspiracy, let it fizzle out naturally."
+lud_butterfly_memory_event.2.a:0 "Keep a close eye on it, assasinate the major figureheads, and discredit the conspiracists and lunatics."
+lud_butterfly_memory_event.3.a:0 "No tolerance! Kill all those who even mention the word "Butterfly!""

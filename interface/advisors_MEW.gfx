@@ -1,0 +1,36 @@
+### Advisors for MEW ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_idea_advisor_johansen"
+			texturefile = "gfx/interface/advisors/MEW/advisor_johansen.dds"
+		}
+	spriteType = {
+			name = "GFX_idea_advisor_mina"
+			texturefile = "gfx/interface/advisors/MEW/advisor_mina.dds"
+		}
+	
+	spriteType = {
+			name = "GFX_idea_advisor_drumpf_poe"
+			texturefile = "gfx/interface/advisors/MEW/advisor_drumpf_poe.dds"
+		}
+		
+	spriteType = {
+			name = "GFX_idea_advisor_whosits"
+			texturefile = "gfx/interface/advisors/MEW/advisor_whosits.dds"
+		}
+	spriteType = {
+			name = "GFX_idea_advisor_hitler"
+			texturefile = "gfx/interface/advisors/MEW/advisor_hitler.dds"
+		}
+		
+	spriteType = {
+			name = "GFX_idea_advisor_dashing"
+			texturefile = "gfx/interface/advisors/MEW/advisor_dashing.dds"
+		}
+		
+	spriteType = {
+			name = "GFX_idea_advisor_stabby"
+			texturefile = "gfx/interface/advisors/MEW/advisor_stabby.dds"
+		}
+}

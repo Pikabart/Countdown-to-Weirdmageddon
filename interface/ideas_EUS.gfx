@@ -1,0 +1,38 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_EUS_anti_military"
+		texturefile = "gfx/interface/ideas/eus/idea_anti_military.dds"			
+	}
+		
+	SpriteType = {
+		name = "GFX_idea_EUS_center"
+		texturefile = "gfx/interface/ideas/eus/idea_center_multiverse.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_EUS_NDR"
+		texturefile = "gfx/interface/ideas/eus/idea_NDR.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_EUS_SDI"
+		texturefile = "gfx/interface/ideas/eus/idea_SDI.dds"			
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}   #END OF FILE

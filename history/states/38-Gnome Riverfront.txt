@@ -1,0 +1,31 @@
+state={
+	id=38
+	name="STATE_38"
+	
+	local_supplies=0.0 
+	
+	history = {
+		owner = GNM
+		add_core_of = GNM
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 1
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+				
+		}
+		victory_points = {
+			6234  10
+		}
+	}
+	
+	provinces={
+		861 6234 8365 8390 
+	}
+	manpower=2000
+	
+	state_category=town
+}

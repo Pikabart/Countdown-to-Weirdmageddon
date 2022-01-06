@@ -1,0 +1,27 @@
+state={
+	id=177
+	name="STATE_177"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = SOC
+		add_core_of = SOC
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}	
+	}
+	
+	provinces={
+		3024 5531 10224 10238 
+	}
+	manpower=10000
+	
+	state_category=town
+}

@@ -1,0 +1,28 @@
+state={
+	id=230
+	name="STATE_230"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = EUS
+		add_core_of = EUS
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 1
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+		victory_points = { 7597 15 } #Command
+	}
+	
+	provinces={
+		2062 5633 7595 7597 7633 7647 7676 7682 9052 
+	}
+	manpower=1000000
+	
+	state_category=town
+}

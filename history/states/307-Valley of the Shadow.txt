@@ -1,0 +1,30 @@
+state={
+	id=307
+	name="STATE_307"
+	local_supplies=0.0 
+	
+	history {
+		owner = STI
+		add_core_of = STI
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	
+		victory_points = { 8898 5 }
+	}
+	
+	provinces={
+		902 3833 4165 8898 8951 
+	}
+	
+	manpower=5000
+	
+	state_category=town
+}

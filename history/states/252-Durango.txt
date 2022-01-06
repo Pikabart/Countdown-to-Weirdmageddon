@@ -1,0 +1,28 @@
+
+state={
+	id=252
+	name="STATE_252"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+	}
+	
+	provinces={
+		378 596 628 868 1604 2193 2773 3579 4719 5064 5610 5993 6319 6420 7197 10637 10654 10674 10681 
+	}
+	manpower=1800000
+	
+	state_category=town
+}

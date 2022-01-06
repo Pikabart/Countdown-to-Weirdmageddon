@@ -1,0 +1,31 @@
+state={
+	id=63
+	name="STATE_63"
+	
+	local_supplies=0.0 
+	
+	history = {
+		owner = YBL
+		add_core_of = YBL
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+				
+		}
+		victory_points = {
+			8478  10
+		}
+	}
+	
+	provinces={
+		922 1003 3130 4563 5239 6265 8430 8434 8478 8485 8497 8498 
+	}
+	manpower=1000
+	
+	state_category=town
+}

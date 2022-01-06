@@ -1,0 +1,61 @@
+﻿###########################
+# Mewni Events
+###########################
+
+add_namespace = lud_butterfly_memory_event
+
+country_event = {
+	id = lud_butterfly_memory_event.1
+	title = lud_butterfly_memory_event.1.t
+	desc = lud_butterfly_memory_event.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lud_butterfly_memory_event.1.a
+		ai_chance = { factor = 90 }
+		add_state_core = 456
+		add_stability = -0.1
+		custom_effect_tooltip = toffee_influence_tooltip
+		add_to_variable = {
+			var = toffee_influence
+			value = 1
+		}
+	}
+	option = {
+		name = lud_butterfly_memory_event.2.a
+		ai_chance = { factor = 90 }
+		add_state_core = 456
+		add_state_core = 348
+		add_state_core = 350
+		add_state_core = 459
+		add_state_core = 347
+		add_state_core = 346
+		add_state_core = 356
+		add_stability = -0.2
+	
+	}
+	option = {
+		name = lud_butterfly_memory_event.3.a
+		ai_chance = { factor = 90 }
+		add_state_core = 456
+		add_state_core = 348
+		add_state_core = 350
+		add_state_core = 459
+		add_state_core = 347
+		add_state_core = 346
+		add_state_core = 356
+		add_state_core = 344
+		add_state_core = 455
+		add_state_core = 454
+		add_state_core = 276
+		add_state_core = 270
+		add_stability = -0.3
+		custom_effect_tooltip = toffee_influence_tooltip_minus
+		add_to_variable = {
+			var = toffee_influence
+			value = -1
+		}
+	}
+}

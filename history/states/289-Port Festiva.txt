@@ -1,0 +1,36 @@
+state={
+	id=289
+	name="STATE_289"
+	local_supplies=0.0 
+	
+	history {
+		owner = MEW
+		add_core_of = MEW
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 2
+			
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			5966 = {naval_base = 2}
+		}
+		
+		victory_points = { 5966 30 }
+	}
+	
+	provinces={
+		5966 
+	}
+	
+	resources={
+		steel=8
+	}
+	
+	manpower=25000000
+	
+	state_category=metropolis  
+}

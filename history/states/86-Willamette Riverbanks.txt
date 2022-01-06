@@ -1,0 +1,30 @@
+state={
+	id=86
+	name="STATE_86"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = ORE
+		add_core_of = ORE
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+		
+		victory_points = { 1380 5 }
+	
+	}
+	
+	provinces={
+		1380 2809 4248 4710 6474 6808 8121 8148 8409 8451 
+	}
+	manpower=75000
+	
+	state_category=large_town 
+}

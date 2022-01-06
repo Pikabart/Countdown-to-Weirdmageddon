@@ -1,0 +1,30 @@
+state={
+	id=383
+	name="STATE_383"
+	local_supplies=0.0 
+	
+	history {
+		owner = SWP
+		add_core_of = SWP
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+			
+		victory_points = { 4217 20 } 
+	}
+	
+	provinces={
+		3548 3691 3928 4217 5298 5562 7738 
+	}
+	
+	manpower=5000
+	
+	state_category=town
+}

@@ -1,0 +1,30 @@
+state={
+	id=396
+	name="STATE_396"
+	local_supplies=0.0 
+	
+	history {
+		owner = JAG
+		add_core_of = JAG
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		victory_points = { 7487 5 } 
+
+	}
+	
+	provinces={
+		1767 3025 4051 4242 6600 7420 7436 7487 7512 7516 7522 
+	}
+	
+	manpower=4000
+	
+	state_category=town
+}

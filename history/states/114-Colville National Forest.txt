@@ -1,0 +1,28 @@
+state={
+	id=114
+	name="STATE_114"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = WAS
+		add_core_of = WAS
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+
+	}
+	
+	provinces={
+		1413 2577 4171 5842 6694 7615 7690 7718 
+	}
+	manpower=25000
+	
+	state_category=town
+}

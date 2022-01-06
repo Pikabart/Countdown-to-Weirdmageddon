@@ -1,0 +1,27 @@
+state={
+	id=199
+	name="STATE_199"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = EUS
+		add_core_of = EUS
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+	}
+	
+	provinces={
+		59 86 116 321 348 580 799 925 1087 1127 1195 1213 1217 1259 1288 1489 1521 1588 1643 1708 1814 2061 2396 2481 3328 3588 3628 3725 3838 3934 4053 4055 4798 5048 5215 5617 5812 6165 6366 6567 6621 6777 6815 9756 9807 9855 9917 9926 9977 
+	}
+	manpower=1000000
+	
+	state_category=town
+}

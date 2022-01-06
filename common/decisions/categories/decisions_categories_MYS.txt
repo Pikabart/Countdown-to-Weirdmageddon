@@ -1,0 +1,27 @@
+#####################################################################################################################
+# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
+# ID's must not include spaces!
+#####################################################################################################################
+
+MYS_boss_mabel = {
+	priority = 8
+	icon = GFX_category_icon
+	picture = GFX_decision_category_boss_mabel
+	
+	allowed = { always = yes }
+	visible = { has_country_flag = mys_the_bet_d }
+	
+	visible_when_empty = yes
+}
+
+MYS_dipper_clone = {
+	priority = 7
+	icon = GFX_category_icon
+	picture = GFX_decision_category_clones 
+	
+	allowed = { always = yes }
+	visible = { has_country_flag = mys_clone_dipper }
+	
+	visible_when_empty = yes
+}
+

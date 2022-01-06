@@ -1,0 +1,34 @@
+state={
+	id=338
+	name="STATE_338"
+	local_supplies=0.0 
+	
+	history {
+		owner = JOH
+		add_core_of = JOH
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	
+		victory_points = { 2978 5 }
+	}
+	
+	resources={
+		steel=16
+	}
+	
+	provinces={
+		1233 2386 2485 2635 2978 4977 5613 5689 6687 6705 7189 8192 8200 8260 
+	}
+	
+	manpower=1670000
+	
+	state_category=town
+}

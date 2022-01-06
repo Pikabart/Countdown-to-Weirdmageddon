@@ -1,0 +1,31 @@
+state={
+	id=43
+	name="STATE_43"
+	
+	local_supplies=0.0 
+	
+	history = {
+		owner = UFC
+		add_core_of = UFC
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+				
+		}
+		victory_points = {
+			4709  15
+		}
+	}
+	
+	provinces={
+		1827 4709 6401 8391 8403 8414 8426 8459 
+	}
+	manpower=1500
+	
+	state_category=town
+}

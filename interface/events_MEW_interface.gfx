@@ -1,0 +1,262 @@
+##########
+# MEW country event and decisions picture interface
+############
+spriteTypes = {
+
+	spriteType = { #Solaria old picture
+		name = "GFX_report_event_solaria_legacy"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_solaria_legacy.dds"
+	}
+	
+	spriteType = { #Jushtin
+		name = "GFX_report_event_jushtin"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_jushtin.dds"
+	}
+	
+	spriteType = { #Pilot Opening scene
+		name = "GFX_report_event_butterfly_family"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_butterfly_family.dds"
+	}
+	
+	spriteType = { #Star with wand scared
+		name = "GFX_report_event_star_with_wand"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_star_with_wand.dds"
+	}
+	
+	spriteType = { #Open mouth moon
+		name = "GFX_report_event_open_mouth_moon"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_open_mouth_moon.dds"
+	}
+	
+	spriteType = { #REC logo
+		name = "GFX_report_event_rec"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_rec.dds"
+	}
+	
+	spriteType = { #ARAT logo
+		name = "GFX_report_event_arat"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_arat.dds"
+	}
+	
+	spriteType = { #Mewman army
+		name = "GFX_report_event_mewman_army"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_mewman_army.dds"
+	}
+	
+	spriteType = { #armor under construction
+		name = "GFX_report_event_armor_under_construction"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_armor_under_construction.dds"
+	}
+
+	spriteType = { #broken wand
+		name = "GFX_report_event_broken_wand"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_broken_wand.dds"
+	}
+	
+	spriteType = { #moon kissing river
+		name = "GFX_report_event_moon_river"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_moon_river.dds"
+	}
+	
+	spriteType = { #worried ruberiot
+		name = "GFX_report_event_worried_ruberiot"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_worried_ruberiot.dds"
+	}
+	
+	spriteType = { #traditional song day
+		name = "GFX_report_event_songday_trad"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_songday_trad.dds"
+	}
+	
+	spriteType = { #embarrasing song day
+		name = "GFX_report_event_song_day_love"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_song_day_love.dds"
+	}
+	
+	spriteType = { #good song day
+		name = "GFX_report_event_song_day_good"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_song_day_good.dds"
+	}
+	
+	spriteType = { #magic sanctuary
+		name = "GFX_report_event_magic_sanctuary"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_magic_sanctuary.dds"
+	}
+	
+	spriteType = { #marco and river
+		name = "GFX_report_event_marco_and_river"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_marco_and_river.dds"
+	}
+	
+	spriteType = { #moon butterfly form
+		name = "GFX_report_event_moon_butterfly_form"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_moon_butterfly_form.dds"
+	}
+	
+	spriteType = { #moon broadcast
+		name = "GFX_report_event_broadcast"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_broadcast.dds"
+	}
+	
+	spriteType = { #angry spiderbites
+		name = "GFX_report_event_angry_spiderbites"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_angry_spiderbites.dds"
+	}
+
+	spriteType = { #River with a catapult
+		name = "GFX_report_event_river_corn"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_defend_corn.dds"
+	}
+
+	spriteType = { # The Commission
+		name = "GFX_report_event_commission"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_magic_commission.dds"
+	}
+
+	spriteType = { # The Boo Fly gang
+		name = "GFX_report_event_corn_crew"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_monster_corn.dds"
+	}
+	
+	spriteType = { # The Commision charge
+		name = "GFX_report_event_commission_charge"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_commission_charge.dds"
+	}
+	
+	spriteType = { # The Sanctuary
+		name = "GFX_report_event_sanctuary"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_sanctuary.dds"
+	}
+	
+	spriteType = { # Comission defeat
+		name = "GFX_report_event_commission_defeat"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_commission_defeat.dds"
+	}
+	
+	spriteType = { # Keep Calm
+		name = "GFX_report_event_keep_calm"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_mewni_keep_calm.dds"
+	}
+	
+	spriteType = { # Brudo and Moon
+		name = "GFX_report_event_brudo_moon"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_brudo_moon.dds"
+	}
+	
+	spriteType = { # Moon and Dennis
+		name = "GFX_report_event_moon_dennis"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_moon_dennis.dds"
+	}
+	
+	spriteType = { # Toffee Ludo
+		name = "GFX_report_event_toffee_ludo"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_toffee_ludo.dds"
+	}
+	
+	spriteType = { # Star x Tom
+		name = "GFX_report_event_star_x_tom"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_star_x_tom.dds"
+	}
+	
+	spriteType = { # Mina in formal wear, angry
+		name = "GFX_report_event_mina_formal_angry"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_mina_formal_angry.dds"
+	}
+	
+	spriteType = { # Star angry crying
+		name = "GFX_report_event_star_breakup"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_star_breakup.dds"
+	}
+	
+	spriteType = { # Young Star
+		name = "GFX_report_event_young_star"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_young_star.dds"
+	}
+	
+	spriteType = { # Flag
+		name = "GFX_report_event_mew_flag"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_mew_flag.dds"
+	}
+
+	spriteType = { # Marco and Resistance, chained
+		name = "GFX_report_event_marco_and_resistance"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_marco_and_resistance.dds"
+	}
+	
+	spriteType = { # Thumbnail
+		name = "GFX_report_event_thumbnail"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_thumbnail.dds"
+	}
+	
+	spriteType = { # Concerned Toffee
+		name = "GFX_report_event_toffee_concerned"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_toffee_concerned.dds"
+	}
+	
+	spriteType = { # Chained eclipsa
+		name = "GFX_report_event_eclipsa_chained"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_eclipsa_chained.dds"
+	}
+	
+	
+   #############################################################
+   #  Decisions
+   #############################################################
+	spriteType = { # Decisions REC
+		name = "GFX_decision_category_REC"
+		texturefile = "gfx/interface/decisions/decision_cat_REC.dds"
+	}
+	
+	spriteType = { # Decisions REC
+		name = "GFX_decision_category_ARAT"
+		texturefile = "gfx/interface/decisions/decision_cat_ARAT.dds"
+	}
+	
+   #############################################################
+   #  Special GIF Event image
+   #############################################################
+	
+	frameAnimatedSpriteType = {	#1
+    	name = "GFX_report_event_gimme"
+    	texturefile = "gfx/event_country_pictures/MEW/report_event_get_wand.dds"
+		
+    	noOfFrames = 20  	#total frames, must be exact or errors occures
+    	loadType = "INGAME"
+    	transparencecheck = no
+    	animation_rate_fps = 5  #frames per second, so if gif is several seconds, divide total frames accordingly 
+    	looping = yes
+    	play_on_show = yes
+    	pause_on_loop = 0.0
+	}
+	
+	frameAnimatedSpriteType = {	#2
+    	name = "GFX_report_event_not_ready"
+    	texturefile = "gfx/event_country_pictures/MEW/report_event_not_ready.dds"
+		
+    	noOfFrames = 20  	#total frames, must be exact or errors occures
+    	loadType = "INGAME"
+    	transparencecheck = no
+    	animation_rate_fps = 5  #frames per second, so if gif is several seconds, divide total frames accordingly 
+    	looping = yes
+    	play_on_show = yes
+    	pause_on_loop = 0.0
+	}
+	
+	frameAnimatedSpriteType = {	#3
+    	name = "GFX_report_event_another_dimension"
+    	texturefile = "gfx/event_country_pictures/MEW/report_event_another_dimension.dds"
+		
+    	noOfFrames = 28  	#total frames, must be exact or errors occures
+    	loadType = "INGAME"
+    	transparencecheck = no
+    	animation_rate_fps = 7  #frames per second, so if gif is several seconds, divide total frames accordingly 
+    	looping = yes
+    	play_on_show = yes
+    	pause_on_loop = 0.0
+	}
+	
+	
+	
+	
+	
+}

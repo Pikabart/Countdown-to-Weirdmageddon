@@ -1,0 +1,200 @@
+spriteTypes = {	
+
+	####
+	# Mewni Focus
+	####
+	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_the_butterfly_family"
+	texturefile = "gfx/interface/goals/MEW/focus_the_butterfly_family.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_foucs_legacy_of_solaria"
+	texturefile = "gfx/interface/goals/MEW/foucs_legacy_of_solaria.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_300_years_of_peace"
+	texturefile = "gfx/interface/goals/MEW/focus_300_years_of_peace.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_attack_ostritch"
+	texturefile = "gfx/interface/goals/MEW/pigeon_war/focus_attack_ostritch.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_mina_treatment"
+	texturefile = "gfx/interface/goals/MEW/pigeon_war/focus_mina_treatment.dds"			
+	}	
+	
+	####
+	# Mewni after pigeon war Focus
+	####
+	
+	SpriteType = {
+	name = "GFX_goal_focus_investigate_missing_corn_stocks"
+	texturefile = "gfx/interface/goals/MEW/focus_investigate_missing_corn_stocks.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_star_butterfly"
+	texturefile = "gfx/interface/goals/MEW/focus_star_butterfly.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_import_earth_machinery"
+	texturefile = "gfx/interface/goals/MEW/focus_import_earth_machinery.dds"			
+	}		
+
+	SpriteType = {
+	name = "GFX_goal_focus_assemble_royal_exterminators"
+	texturefile = "gfx/interface/goals/MEW/focus_assemble_royal_exterminators.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_double_down"
+	texturefile = "gfx/interface/goals/MEW/focus_double_down.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_desperate_measures"
+	texturefile = "gfx/interface/goals/MEW/focus_desperate_measures.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_utilize_the_army"
+	texturefile = "gfx/interface/goals/MEW/focus_utilize_the_army.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_why_corn"
+	texturefile = "gfx/interface/goals/MEW/focus_why_corn.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_crop_variation"
+	texturefile = "gfx/interface/goals/MEW/focus_crop_variation.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_foreign_economic_theory"
+	texturefile = "gfx/interface/goals/MEW/focus_foreign_economic_theory.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_form_the_arat"
+	texturefile = "gfx/interface/goals/MEW/focus_form_the_arat.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_the_magical_malfunction"
+	texturefile = "gfx/interface/goals/MEW/focus_the_magical_malfunction.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_theoretical_magical_mechanization"
+	texturefile = "gfx/interface/goals/MEW/focus_theoretical_magical_mechanization.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_brush_up_on_magical_combat"
+	texturefile = "gfx/interface/goals/MEW/focus_brush_up_on_magical_combat.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_visit_the_avarius_family"
+	texturefile = "gfx/interface/goals/MEW/focus_visit_the_avarius_family.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_ensure_support_from_the_mhc"
+	texturefile = "gfx/interface/goals/MEW/focus_ensure_support_from_the_mhc.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_stars_song_day"
+	texturefile = "gfx/interface/goals/MEW/focus_stars_song_day.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_confront_ludo"
+	texturefile = "gfx/interface/goals/MEW/focus_confront_ludo.dds"			
+	}
+	
+	##################
+	#civil war focues#
+	##################
+	
+	SpriteType = {
+	name = "GFX_goal_focus_bearings"
+	texturefile = "gfx/interface/goals/MEW/focus_bearings.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_butterfly_front"
+	texturefile = "gfx/interface/goals/MEW/focus_butterfly_front.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_mobilize_populace"
+	texturefile = "gfx/interface/goals/MEW/focus_mobilize_populace.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_emergency_conscription"
+	texturefile = "gfx/interface/goals/MEW/focus_emergency_conscription.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_pull_all_strings"
+	texturefile = "gfx/interface/goals/MEW/focus_pull_all_strings.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_foreign_advisors"
+	texturefile = "gfx/interface/goals/MEW/focus_foreign_advisors.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_emergency_equality"
+	texturefile = "gfx/interface/goals/MEW/focus_emergency_equality.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_california_embassy"
+	texturefile = "gfx/interface/goals/MEW/focus_california_embassy.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_victory_against_ludo"
+	texturefile = "gfx/interface/goals/MEW/post_ludo_war/focus_victory_against_ludo.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_post_war_admin"
+	texturefile = "gfx/interface/goals/MEW/post_ludo_war/focus_post_war_admin.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_corn_crisis_end"
+	texturefile = "gfx/interface/goals/MEW/post_ludo_war/focus_corn_crisis_end.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_butterfly_front_fate"
+	texturefile = "gfx/interface/goals/MEW/post_ludo_war/focus_butterfly_front_fate.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_kingdom_united"
+	texturefile = "gfx/interface/goals/MEW/post_ludo_war/focus_kingdom_united.dds"			
+	}
+
+
+
+
+
+} ### End Bracket

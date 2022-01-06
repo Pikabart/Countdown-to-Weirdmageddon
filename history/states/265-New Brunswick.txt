@@ -1,0 +1,29 @@
+state={
+	id=265
+	name="STATE_265"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = CAN
+		add_core_of = CAN
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+	
+		add_core_of = CAN	
+	}
+	
+	provinces={
+		581 1038 1113 2105 2471 2545 3384 3568 4755 6065 6211 7719 
+	}
+	manpower=750000
+	
+	state_category=large_city
+}

@@ -1,0 +1,30 @@
+state={
+	id=378
+	name="STATE_378"
+	local_supplies=0.0 
+	
+	history {
+		owner = TSR
+		add_core_of = TSR
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+			
+		victory_points = { 5991 20 } 
+	}
+	
+	provinces={
+		1015 3662 3909 4036 4687 5991 7003 7916 
+	}
+	
+	manpower=1200000
+	
+	state_category=large_town
+}

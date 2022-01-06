@@ -1,0 +1,29 @@
+
+state={
+	id=314
+	name="STATE_314"
+	
+	local_supplies=0.0 
+	
+	history {
+		owner = LUC
+		add_core_of = LUC
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}	
+	}
+	
+	provinces={
+		141 606 1001 1569 1703 2532 5899 8984 
+	}
+	manpower=3000
+	
+	state_category=town
+}

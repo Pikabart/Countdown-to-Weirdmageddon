@@ -1,0 +1,29 @@
+state={
+	id=372
+	name="STATE_372"
+	local_supplies=0.0 
+	
+	history {
+		owner = PNY
+		add_core_of = PNY	
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		victory_points = { 3633 10 }
+	}
+	
+	provinces={
+		474 1673 2550 2828 3273 3633 3745 4426 5051 5978 7127 7426 7444 7473 7492 7531 
+	}
+	
+	manpower=4000
+	
+	state_category=town
+}

@@ -1,0 +1,199 @@
+﻿division_template = {
+	name = "Demon Squad"
+	division_names_group = SPAN_INFB_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "Warnicorn Brigade"  
+	division_names_group = SPAN_CAVB_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Demon Squad"  
+	division_names_group = SPAN_CAVB_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+units = {
+	
+	##################
+	#Demon Squad#
+	##################
+	
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2884 # Lucitors Half Acre
+		division_template = "Demon Squad"
+		# = 0.9
+
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2884 # Lucitors Half Acre
+		division_template = "Demon Squad"
+		# = 0.9
+
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2884 # Lucitors Half Acre
+		division_template = "Demon Squad"
+		# = 0.9
+
+
+	}	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2884 # Lucitors Half Acre
+		division_template = "Demon Squad"
+		# = 0.9
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2884 # Lucitors Half Acre
+		division_template = "Demon Squad"
+		# = 0.9
+
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2884 # Lucitors Half Acre
+		division_template = "Demon Squad"
+		# = 0.9
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2884 # Lucitors Half Acre
+		division_template = "Demon Squad"
+		# = 0.9
+
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2884 # Lucitors Half Acre
+		division_template = "Demon Squad"
+		# = 0.9
+
+
+	}
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2884 # Lucitors Half Acre
+		division_template = "Demon Squad"
+		# = 0.9
+
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2884 # Lucitors Half Acre
+		division_template = "Demon Squad"
+		# = 0.9
+
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2884 # Lucitors Half Acre
+		division_template = "Demon Squad"
+		# = 0.9
+
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 2884 # Lucitors Half Acre
+		division_template = "Demon Squad"
+		# = 0.9
+
+
+	}
+
+}
+
+##### No Notable Air Forces #####
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "LUC"
+		}
+		requested_factories = 1
+		progress = 0.54
+		efficiency = 100
+	}
+}

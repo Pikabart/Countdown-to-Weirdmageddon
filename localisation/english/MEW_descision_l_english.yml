@@ -1,0 +1,211 @@
+﻿l_english:
+
+#################################
+
+#OST WAR#
+
+#################################
+
+ost_war_countdown_category:0 "Stalemate Countdown"
+ost_war_countdown_category_desc:0 "There is a certain point where war is just not worth it any more. This sounds like some sort of philisophical debate, but no we've actually calculated it with cold hard numbers. January 11th 2015 is the perfect point in which a war in the south will not be worth the investment. We must capitulate the Ostro-Starvarians before then."
+ost_war_countdown:0 "Days until January 11th 2015"
+conquer_ost:0 "Conquer the @OST§YOstro Starvarian Empire§!"
+ost_war_countdown_tooltip:0 "White Peace with @OST§YOstro Starvarian Empire§! Add stability §R-10%§!"
+
+supplyline_construction:0 "Supplyline Creation"
+supplyline_construction_desc:0 "We will employ foreign workers can companies to build modernized supply lines for our war."
+
+construct_supply_284:0 "Supplyline Construction: Itchy Clearing"
+construct_supply_463:0 "Supplyline Construction: West Emily River"
+construct_supply_464:0 "Supplyline Construction: East Emily River"
+construct_supply_281:0 "Supplyline Construction: Pigeon Lookout"
+construct_supply_282:0 "Supplyline Construction: Richie's Creek"
+construct_supply_285:0 "Supplyline Construction: Pigeon Fjord"
+construct_supply_283:0 "Supplyline Construction: M-State 3"
+construct_supply_277:0 "Supplyline Construction: Forest of Probable Itchyness"
+
+###################################################################################################
+########A-RAT DESCISIONS#########
+###################################################################################################
+
+mewni_arat:0 "The Anti-Rat Army and Technology Corps "
+mewni_arat_desc:0 "The Anti-Rat Army and Technology Corps or A-RAT Corps, shall be the main taskforce responsiable for dealing with the rat problem. We will need to ensure they have the proper funding and leadership for success. This job will not be easy and the risk can be costly.\n\nCorps Funding = [?mew_arat_funding|+0] Golden Sols\nCorps Strength = [?mew_arat_strength|+0]\n"
+ 
+### Mobilize and Fund ###
+
+A-RAT_mobilize:0 "§YMobilize the A-RAT Corps§ "
+A-RAT_mobilize_desc:0 "The A-RAT is still in it's infancy. In order to truly make it a rat hunting organization, it must mobilize into the field. (Unlocks another descision)"
+
+A-RAT_funding:0 "§GAllocate Resource§ "
+A-RAT_funding_desc:0 "Allocate war resource to the A-RAT Corps"
+A-RAT_funding_tt:0 "§GThe Kingdom will give the Corps 30 Golden Sols to fund operations§!\n\n"
+
+### Propaganda ### Will add 5% consumer
+
+A-RAT_parade:0 "§CMilitary Parade§ "
+A-RAT_parade_desc: "To boost public war support, we can hold a parade of the A-RAT's accomplishments. Even if they have't did anything, or what they did isn't something we should share we can spin it to our side.\n\n§RCost: 10 Golden Sols§!"
+A-RAT_parade_tt:0 "§CAh, a nice military parade! Send the lads over to march in formation. Nothing can go wrong there...§!\n"
+A-RAT_parade_1_tt:0 "§Ga nice simple parade.§!"
+#"§CA nice simple parade. Everyone is happy and we can get back to work§!\n\n"
+A-RAT_parade_2_tt:0 "§Can inspiring sight for many!§!"
+#"§CPatriotism sweep the streets as we marched. Many enlisted as we marched by and the higher ups are happy over that§!\n\n"
+A-RAT_parade_3_tt:0 "§Rsomehow bothcing it...§!"
+#"§CSo some people weren't happy with us. We yelled back, a fight broke out, and now we have lost some men. .. The queen won't be happy about that.§!\n\n"
+
+A-RAT_recruit:0 "§CRecruitment Drive§ "
+A-RAT_recruit_desc: "Fighting rats is nasty buisness. They eat anything, corn, each other, you. Some some losses were to be expected. But we can bring in more recruits from the Queen's Levy to bare. With a proper recuritment drive, we can easily replenish our main forces as well and then some.\n\n§RCost: 10 Golden Sols§!\n\nThe odds of botching this are low... hopefully."
+A-RAT_recruit_1_tt:0 "§Ga sucessful drive.§!"
+A-RAT_recruit_2_tt:0 "§Can extremely sucessful drive!§!"
+A-RAT_recruit_3_tt:0 "§Rgetting ignored...§!"
+
+
+### Supply ### Will take one mil factory
+
+A-RAT_arms:0 "§WGet More Arms§ "
+A-RAT_arms_desc: "Our stagnating military has left us with rusted spears and sowrds. We need new weaponary and more of it, now!\n\n§RCost: 10 Golden Sols§!\n§GGain: §!§R-5§!§G to +10 Corps Strength§!\n"
+A-RAT_arms_1_tt:0 "§Gnew shipment arrivals.§!"
+A-RAT_arms_2_tt:0 "§Chigh quality supplies!§!"
+A-RAT_arms_3_tt:0 "§Rshipment issues...§!"
+
+A-RAT_foods:0 "§WGet More Supplies§ "
+A-RAT_foods_desc: "Food rations are low, but our ARAT personell need three trapzoid meals a day if they are to beat the rats!\n\n§RCost: 10 Golden Sols§!\n§GGain: §!§R-5§!§G to +10 Corps Strength§!\n"
+A-RAT_foods_1_tt:0 "§Gsufficient rations.§!"
+A-RAT_foods_2_tt:0 "§Cobtaining the finest for our lads!§!"
+A-RAT_foods_3_tt:0 "§Rresorting to british cuisine...§!"
+
+### Operations ###
+
+A-RAT_operation:0 "§RAnti-Rat Operations: Level 1§! "
+A-RAT_operation_desc:0 "We found some places where the rats have been gathering up. Likely small outposts on the whole scale, but easy targets for both our operations and the propaganda value.\n\n§RCost: 10 Golden Sols§! and §R-5 Corps Strength§!\n"
+A-RAT_operation_1_1_tt:0 "§Gdoing it by the book.§!"
+A-RAT_operation_1_2_tt:0 "§Ca devestating blow to the enemy!§!"
+A-RAT_operation_1_3_tt:0 "§Ran absolute failure...§!"
+
+A-RAT_operation_2:0 "§RAnti-Rat Operations: Level 2§! "
+A-RAT_operation_2_desc:0 "Stratgetic bases of rat activity have been found. The risk are great, but if we strike and decisivley, we can secure a local regions food supply and push them out for good.\n\n§RCost: 10 Golden Sols§! and §R-5 Corps Strength§!\n"
+A-RAT_operation_2_1_tt:0 "§Gdoing it as planned out.§!"
+A-RAT_operation_2_2_tt:0 "§Ca best case scenario!§!"
+A-RAT_operation_2_3_tt:0 "§Ran absolute massacre...§!"
+A-RAT_upgrade:0 "We have regrouped our forces for more better efficency!"
+
+A-RAT_magic_operation:0 "§CExpiremental Magical Anti-Rat Operations§ "
+A-RAT_magic_operation_desc:0 "By utilizing magic weilders from Skywynne Institute in our Anti-Rat Operations, we can more effectivley obliterate the rat menace. Theoretically, of course. Magic can be a fickle mistress and these magic weilders are no trained Butterfly Royals...\n\n§RCost: 10 Golden Sols§! and §R-10 Corps Strength§!\n"
+A-RAT_magic_operation_1_tt:0 "§Gmaking the rats pay.§!"
+A-RAT_magic_operation_2_tt:0 "§Cabsolutley destroying the rats with facts and magic!§!"
+A-RAT_magic_operation_3_tt:0 "§Runreliable magic...§!"
+
+###################################################################################################
+########REC DESCISIONS#########
+###################################################################################################
+
+### Mobilize ####
+
+mewni_rec:0 "The Royal Extermination Company "
+mewni_rec_desc:0 "As the rat issue spill over into the everyday lives of the populace, we will need a way to combat them on the civilian front. With the funding of the main port cities and our best from Skywynne Institute, we will have this private group able to deal with the rats close to home and ensure they are both capable and well motivated.\n\nREC Investments = [?mew_rec_funding|+0]  Golden Sols\nREC Public Relationship = [?mew_rec_pr|+0]\n"
+
+REC_mobilize:0 "§YApprove the REC Charter§ "
+REC_mobilize_desc:0 "By her majesty's will, the company's charter shall be approved. In the quest for ridding the rat and the profit from doing so, they shall serve the kingdom."
+
+### Funding ###
+
+REC_funding_1:0 "§GBegin a round of investment§ "
+REC_funding_1_desc:0 "Relying on the private market, we can gather funding for more of our projects. Many would like thier buisness and assets assosaited with our Royal Charter. But such rounds take time and failures from previous ventures can weaken investor support."
+REC_funding_1_tt:0 "-Once our investment round is over, we shall gain §G25 Golden Sols§! if our PR is at 25 or higher\n-Our PR is lower than that however, we shall only gain §G10 Golden Sols§!\n"
+
+REC_funding_2:0 "§GRequest Government Stimulas§ "
+REC_funding_2_desc:0 "To speed up our efforts, we can file for government grants. If approved, funding comes quick and we can spend it with surpricing flexibility. If we don't produce results though, the Queen's court won't be eager to do so again."
+REC_funding_2_tt:0 "-With good PR of 40 to the people, we shall gain §G30 Golden Sols§! immedietly from the Crown.\n-If our PR is below that that however, we shall get §RNothing but Ridicule!§!\n"
+
+### Off source ###
+
+REC_bounty:0 "§CPost A Bounty Against The Rats§ "
+REC_bounty_desc:0 "We can incentivise the public and outsource some of our efforts to hunt rats by providing a monetary reward for every rat that comes in. 1 Silver Sol for males rats, 2 Silver Sol for females rats! Not only will this get rats off the streets, it will also distribute money into the economy! Though easy to do, success isn't assured and this can be easily abused as well.\n\n§RCost: 10 to 15 Golden Sols§!\n§GGain: §!§R-5§!§G to +15 Public Relationship Points§!\n"
+REC_bounty_1_tt:0 "§Ga modest result.§!"
+REC_bounty_2_tt:0 "§Ca great result!§!"
+REC_bounty_3_tt:0 "§Ra loophole being exploited...§!"
+
+REC_pamphlet:0 "§CDistribute Anti-Rat Pamphlets§ "
+REC_pamphlet_desc:0 "Distributing pamphlets detailing how to deal with rats to the populace can be work. Even if we don't remove them ourselves, we still would get credit if a town gets rid of thier rats. Hopefully, they actually take out just the rats and not anything rat-like.\n\n§RCost: 5 to 50 Golden Sols§!\n§GGain: §!§R-20§!§G to +30 Public Relationship Points§!\n"
+REC_pamphlet_1_tt:0 "§Graising awareness.§!"
+REC_pamphlet_2_tt:0 "§Cgreatly raising awareness!§!"
+REC_pamphlet_3_tt:0 "§Rthe peasants misintepreting us...§!"
+
+### Research and indutry bonus ###
+
+REC_research:0 "§WResearch Incentive§ "
+REC_research_desc:0 "Skywynne Institute is the main academic center of Mewni. Its the only academic center in Mewmni open to non-royalty. We could grant some funding to its minds there to gives us a boost in our technological development over the rats and more technologically advance dimesions.\n\n§RCost: 15 Golden Sols and 10 Public Relationship§!\n§GGain: A Tech Idea Bonus and maybe the people actually like doing this!§!\n"
+
+REC_industry:0 "§WIndustry Incentive§ "
+REC_industry_desc:0 "With the current fervor to shore up the kingdom's industrial base, we can help by spending some of our money to invest in new factories. Becuase this is only somewhat rat related and might violtate our charter, we can get in trouble. But think of the help we could give... and the money we make.\n\n§RCost: 15 Golden Sols and 10 Public Relationship§!\n§GGain: One random civilian or military factory and maybe even your Sols back!§!\n"
+
+### Worst case senarios ###
+
+REC_PR:0 "§RRegain the public grace§ "
+REC_PR_desc:0 "So some of our investments fell flat. Our image isn't particularly good. The royal court is angry we accidently burnt down a town after confusing a possum for a rat instead. Said possum was actually from Earth and now the humans are angry for burning thier beloved possum. But since everyone is glued to thier compact mirrors, we can just hire the best PR reps from Mewni and Earth and just blitz everyone about how we're the good guys! People will forget quickly enough.\n\n§RCost: 30 Golden Sols§!\n§GGain: Reset PR to 25§!\nTry not to be Public Enemy Number 1 again..."
+
+REC_NWB:0 "§RThe Northwest Bailout§ "
+REC_NWB_desc:0 "We are in the red! If we don't turn our financial situation around, the company will go under. Worse, because of our crown charter, a notable part of the Mewman Economy is tied to us. If we fall, the market might crash!\nNow, Mr. Birnbaum of Northwest Corporation of California has approched us with a bailout. Though more turbulant, the US Dollar is a very powerful currency in our part of the multi-verse. Better, we won't even have an interest to pay, as the bailout was already negotiated between the two countries.\n\n-§GThis bailout with grant us a whopping 100 Golden Sols§!\n-§YBut we must achieve at least 75 PR and a reserve of 30 Golden Sols in 120 Days§!\n§R-Or else Mr. Birnbaum will declare breach of contract and make us pay for our failure...§!"
+
+#################################
+
+#POST LUDO CIVIL WAR#
+
+#################################
+
+mew_trad_vs_prog_category:0 "Traditionalist/Progressive Divide"
+mew_trad_vs_prog_category_desc:0 "As the Mewman people recover from the civil war, there is one question on everyone's mind: How can we prevent another one? There are two schools of thought: Either we look towards the future, or we look towards the past.\n\n§YTraditionalist Opinion:§! [?mew_trad_opinion]\n\n§YProgressive Opinion:§! [?mew_prog_opinion]"
+mew_trad_opinion_increase_1:0 "Hold Speeches and Rallies"
+mew_prog_opinion_increase_1:0 "Employ Foreign Expertise"
+
+mew_post_ludo_reunification:0 "Reunification"
+mew_post_ludo_reunification_desc:0 ""
+mew_luc_force_ally:0 "Pressure the Lucitors"
+mew_pig_force_ally:0 "Pressure the Pigeons"
+mew_pny_force_ally:0 "Pressure the Ponyheads"
+mew_spi_force_ally:0 "Pressure the Spiderbites"
+mew_jag_force_ally:0 "Pressure the Jaggys"
+
+#################################
+
+#PEACEFUL SUPPRESSION DESCISIONS (UNUSED)#
+
+#################################
+
+mewni_suppression_peaceful:0 "Dissent Suppression (Peaceful)"
+mewni_suppression_peaceful_desc:0 "We must suppress unrest through peaceful means."
+
+mew_peaceful_suppression_propaganda:0 "Distribute Propaganda"
+mew_peaceful_suppression_propaganda_desc:0 "It seems that the Mewman people have forgotten exactly why they must work so hard. We must remind them that the country is in a crisis, and the only reason mewni has not fallen into anarchy is that the diligent mewman worker has kept it afloat!"
+
+mew_peaceful_suppression_legalize_unions:0 "Legalize Unions"
+mew_peaceful_suppression_legalize_unions_desc:0 "Unions have been illegal ever since the late Queen Solaria deemed them an obstacle to the state. However, with increasing worker unrest, we must revisit this policy."
+
+mew_peaceful_suppression_convene_with_unions:0 "Convene With The Unions"
+mew_peaceful_suppression_convene_with_unions_desc:0 "By hearing out the demands of the worker unions, we can see what we can do for them."
+
+mew_peaceful_suppression_integrate_a_union:0 "Integrate A Union"
+mew_peaceful_suppression_integrate_a_union_desc:0 "By integrating a union we can both eliminate that union as an advresary to the government, while also seeming peaceful and benevolent!"
+
+mew_peaceful_suppression_lower_work_days:0 "Lower Work Days"
+mew_peaceful_suppression_lower_work_days_desc:0 "We can temporarily give our people a day off from government mandated work."
+
+mew_peaceful_suppression_lower_work_hours:0 "Lower Work Hours"
+mew_peaceful_suppression_lower_work_hours_desc:0 "We can temprarily give our people lower working hours from government mandated work"
+
+##################################
+
+##HOSTILE SUPPRESSION DESCISIONS(UNUSED)##
+
+##################################
+
+mewni_suppression_hostile:0 "Dissent Suppression (Hostile)"
+mewni_suppression_hostile_desc:0 "The time for talk has past, the lord's work must be done."
+
+mew_hostile_suppression_propaganda:0 "Distribute Propaganda"
+mew_hostile_suppression_propaganda_desc:0 "It seems that the peasants have forgotten their place in the world. We will distribute information reminding them of the great mewman conquests under Solaria, and how she was only able to achive them because everybody knew their place in the great Mewman machine."
+
+mew_hostile_suppression_arrests:0 "Arrest Major Opposition Leaders"
+mew_hostile_suppression_arrests_desc:0 "By arresting major union leaders, political figures, critical celebrities, and more, we can cripple any chance at a unified political movement."
+
+mew_hostile_suppression_raids:0 "Raids"
+mew_hostile_suppression_raids_desc:0 "By arresting, tourtuting, and even executing dissenters from the general public, we can instill fear into the average civillian so that they would never dare to rise up."

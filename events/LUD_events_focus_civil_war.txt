@@ -1,0 +1,88 @@
+﻿###########################
+# Mewni Events
+###########################
+
+add_namespace = uneasy_peace_lud
+add_namespace = lud_focus_tree
+add_namespace = lud_spi_alliance_accepted
+add_namespace = lud_spi_alliance_rejected
+
+country_event = {
+	id = uneasy_peace_lud.1
+	title = uneasy_peace.1.t
+	desc = uneasy_peace.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uneasy_peace.1.a
+		ai_chance = { factor = 90 }
+		set_global_flag = spi_loyal
+	
+	}
+}
+
+country_event = {
+	id = lud_focus_tree.1
+	title = lud_focus_tree.1.t
+	desc = lud_focus_tree.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lud_focus_tree.1.a
+		ai_chance = { factor = 90 }
+		load_focus_tree = {
+			tree = ludo_civil_war_focus
+			keep_completed = yes
+			}
+	
+	}
+}
+
+country_event = {
+	id = lud_spi_alliance_rejected.1
+	title = lud_spi_alliance_rejected.1.t
+	desc = lud_spi_alliance_rejected.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lud_alliance_rejected.1.a
+		ai_chance = { factor = 90 }
+	
+	}
+}
+
+country_event = {
+	id = lud_spi_alliance_accepted.1
+	title = lud_spi_alliance_accepted.1.t
+	desc = lud_spi_alliance_accepted.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lud_spi_alliance_accepted.1.a
+		ai_chance = { factor = 90 }
+		create_faction = "Loyalist Front"
+		Add_to_faction = SPI
+		hidden_effect = {
+		news_event = { id = ludo_spider_alliance_news_event.1 days = 1 }
+		MEW = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		JOH = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		LUC = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		PIG = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		PNY = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		SPI = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		JAG = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		LUD = { news_event = { id = ludo_spider_alliance_news_event.1 days = 1 } }
+		set_global_flag = spi_unloyal
+		clr_global_flag = spi_loyal
+		}
+	
+	}
+}

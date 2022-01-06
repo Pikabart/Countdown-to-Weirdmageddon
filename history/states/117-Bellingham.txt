@@ -1,0 +1,28 @@
+state={
+	id=117
+	name="STATE_117"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = WAS
+		add_core_of = WAS
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+
+	}
+	
+	provinces={
+		2976 3751 4535 4659 5223 5359 5791 5807 6283 7022 7101 7554 7582 7592 7598 7616 7635 7671 7688 7689 7693 
+	}
+	manpower=100000
+	
+	state_category=city
+}

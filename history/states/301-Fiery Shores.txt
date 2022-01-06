@@ -1,0 +1,29 @@
+state={
+	id=301
+	name="STATE_301"
+
+	local_supplies=0.0 
+	
+	history {
+		owner = UKN
+		add_core_of = UKN
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}	
+	}
+	
+	provinces={
+		841 1873 2721 5696 5796 6125 9007 
+	}
+	
+	manpower=8000
+	
+	state_category=city
+}

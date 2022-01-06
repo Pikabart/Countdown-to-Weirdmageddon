@@ -1,0 +1,168 @@
+﻿###########################
+#  - Report Events MYS -
+###########################
+
+add_namespace = soos
+add_namespace = wendy
+
+
+country_event = {
+	id = soos.1
+	title = soos.1.t 
+	desc = soos.1.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes  
+	
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = soos.1.a
+		add_ideas = MYS_fixin_it_with_soos
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = soos.2
+	title = soos.2.t 
+	desc = soos.2.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes  
+	
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = soos.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+			27 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 1
+					instant_build = yes
+				}
+			}
+	}
+}
+
+country_event = {
+	id = soos.3
+	title = soos.3.t 
+	desc = soos.3.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes  
+	
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = soos.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = wendy.1
+	title = wendy.1.t 
+	desc = wendy.1.d  
+	picture = GFX_report_event_mystery_shack #  change this later
+	
+	is_triggered_only = yes  
+	
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = wendy.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = wendy.2
+	title = wendy.2.t 
+	desc = wendy.2.d  
+	picture = GFX_report_event_shock_dip #  change this later
+	
+	is_triggered_only = yes  
+	
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = wendy.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_ideas = MYS_cordoury_drip
+
+	}
+}
+
+country_event = {
+	id = wendy.3
+	title = wendy.3.t 
+	desc = wendy.3.d  
+	picture = GFX_report_event_wendy_cashier #  change this later
+	
+	is_triggered_only = yes  
+	
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = wendy.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_war_support = 0.05
+		if = {
+			limit = { has_idea = MYS_NWHS_1 } 
+			swap_ideas = {
+				add_idea = MYS_NWHS_2
+				remove_idea = MYS_NWHS_1
+			}
+		}
+		else_if = {
+			limit = { has_idea = MYS_NWHS_2 } 
+			swap_ideas = {
+				add_idea = MYS_NWHS_3
+				remove_idea = MYS_NWHS_2
+			}
+		}
+		else_if = {
+			limit = { has_idea = MYS_NWHS_3 } 
+			swap_ideas = {
+				add_idea = MYS_NWHS_4
+				remove_idea = MYS_NWHS_3
+			}
+		}
+		else_if = {
+			limit = { has_idea = MYS_NWHS_4 } 
+			swap_ideas = {
+				add_idea = MYS_NWHS_5
+				remove_idea = MYS_NWHS_4
+			}
+		}
+		else = {
+			swap_ideas = {
+				add_idea = MYS_NWHS_5
+				remove_idea = MYS_NWHS_5
+			}
+		}
+		
+		custom_effect_tooltip = wendy.3.aa
+	}
+}

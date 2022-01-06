@@ -1,0 +1,30 @@
+state={
+	id=431
+	name="STATE_431"
+	local_supplies=0.0 
+	
+	history {
+		owner = LUC
+		add_core_of = LUC
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		
+		victory_points = { 6156 5 }
+	}
+	
+	provinces={
+		3995 5903 6156 8768 
+	}
+	
+	manpower=3500
+	
+	state_category=town
+}

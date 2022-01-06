@@ -1,0 +1,40 @@
+state={
+	id=55
+	name="STATE_55"
+	
+	local_supplies=0.0 
+	
+	resources={
+		steel = 16
+	}
+	
+	history={
+		owner = GTF
+		add_core_of = GTF
+		
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+				
+		}
+		
+		victory_points = {
+			6685  10
+		}
+		victory_points = {
+			8727  25
+		}
+	}
+	
+	provinces={
+		2354 6350 6685 8685 8717 8727 8748 8749 8772 
+	}
+	manpower=1000
+	
+	state_category=rural
+}

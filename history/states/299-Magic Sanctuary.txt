@@ -1,0 +1,33 @@
+state={
+	id=299
+	name="STATE_299"
+	local_supplies=0.0 
+	
+	resources={
+		tungsten=64
+	}
+	
+	history {
+		owner = MEW
+		add_core_of = MEW
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		
+		victory_points = { 2548 5 }
+	}
+	
+	provinces={
+		2548 
+	}
+	
+	manpower=10
+	
+	state_category=tiny_island
+}

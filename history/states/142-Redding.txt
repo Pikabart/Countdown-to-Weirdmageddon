@@ -1,0 +1,28 @@
+state={
+	id=142
+	name="STATE_142"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = CAL
+		add_core_of = CAL
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 3
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+		victory_points = { 3304 10 }  #Redding
+	}
+	
+	provinces={
+		432 2959 3304 3609 6443 9192 9198 9217 9238 9247 9254 9255 9257 9269 
+	}
+	manpower=100000
+	
+	state_category=large_town
+}

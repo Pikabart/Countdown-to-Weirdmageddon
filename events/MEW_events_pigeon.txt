@@ -1,0 +1,190 @@
+﻿###########################
+# Mewni Events
+###########################
+
+add_namespace = mew_ost_situation
+add_namespace = mew_ost_trade
+add_namespace = mew_ost_diplo
+add_namespace = mew_ost_subjagation
+
+###############################################################################################################
+
+country_event = {
+	id = mew_ost_situation.1
+	title = mew_ost_situation.1.t
+	desc = mew_ost_situation.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mew_ost_situation.1.a
+		ai_chance = { factor = 90 }
+
+	}
+}
+
+country_event = {
+	id = mew_ost_trade.1
+	title = mew_ost_trade.1.t
+	desc = mew_ost_trade.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mew_ost_trade.1.a
+		ai_chance = { factor = 90 }
+		add_ideas = OST_hostile_mewman_trade
+
+	}
+}
+
+country_event = {
+	id = mew_ost_trade.2
+	title = mew_ost_trade.2.t
+	desc = mew_ost_trade.2.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mew_ost_trade.2.a
+		ai_chance = { factor = 90 }
+		swap_ideas = { 
+			remove_idea = OST_hostile_mewman_trade
+			add_idea = OST_hostile_mewman_trade_2
+
+		}
+
+	}
+}
+
+country_event = {
+	id = mew_ost_trade.3
+	title = mew_ost_trade.3.t
+	desc = mew_ost_trade.3.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mew_ost_trade.3.a
+		ai_chance = { factor = 90 }
+		swap_ideas = { 
+			remove_idea = OST_hostile_mewman_trade_2
+			add_idea = OST_hostile_mewman_trade_3
+		}
+		MEW = { country_event = { id = mew_ost_trade.4 days = 1 } }
+
+
+	}
+}
+
+country_event = {
+	id = mew_ost_trade.4
+	title = mew_ost_trade.4.t
+	desc = mew_ost_trade.4.d
+	picture = GFX_report_event_jushtin
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mew_ost_trade.4.a
+		ai_chance = { factor = 90 }
+		add_ideas = OST_hostile_mewman_trade_mew
+
+	}
+}
+
+country_event = {
+	id = mew_ost_diplo.1
+	title = mew_ost_diplo.1.t
+	desc = mew_ost_diplo.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mew_ost_diplo.1.a
+		ai_chance = { factor = 90 }
+		add_opinion_modifier = {
+			target = MEW
+			modifier = excessive_trolling
+		}
+
+	}
+}
+
+country_event = {
+	id = mew_ost_diplo.2
+	title = mew_ost_diplo.2.t
+	desc = mew_ost_diplo.2.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mew_ost_diplo.2.a
+		ai_chance = { factor = 90 }
+		MEW = { transfer_state = 463 }
+		MEW = { transfer_state = 464 }
+	}
+}
+
+country_event = {
+	id = mew_ost_diplo.3
+	title = mew_ost_diplo.3.t
+	desc = mew_ost_diplo.3.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mew_ost_diplo.3.a
+		ai_chance = { factor = 90 }
+		MEW = { transfer_state = 284 }
+
+	}
+}
+
+country_event = {
+	id = mew_ost_subjagation.1
+	title = mew_ost_subjagation.1.t
+	desc = mew_ost_subjagation.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mew_ost_subjagation.1.a
+		ai_chance = { factor = 100 }
+		add_stability = -0.15
+		MEW = { country_event = { id = mew_ost_subjagation.2 days = 1 } }
+
+	}
+	
+	option = {
+		name = mew_ost_subjagation.2.a
+		ai_chance = { factor = 0 }
+
+
+	}
+
+}
+
+country_event = {
+	id = mew_ost_subjagation.2
+	title = mew_ost_subjagation.2.t
+	desc = mew_ost_subjagation.2.d
+	picture = GFX_report_event_jushtin
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = mew_ost_subjagation.3.a
+		ai_chance = { factor = 100 }
+
+	}
+
+}

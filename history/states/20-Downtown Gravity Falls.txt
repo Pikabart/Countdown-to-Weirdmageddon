@@ -1,0 +1,33 @@
+state={
+	id=20
+	name="STATE_20"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = GTF
+		add_core_of = GTF	
+		
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 4
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			4780 = {bunker = 10}
+		}
+		
+		victory_points = {4780  50}
+	}
+	
+	provinces={
+		4780 5690 6645 6853 7218 8559 8586 8591 8622 
+	}
+	manpower=5000
+	
+	state_category=metropolis  
+	local_supplies=0.0 
+}

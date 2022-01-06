@@ -1,0 +1,476 @@
+focus_tree = {
+	id = mewni_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MEW
+		}
+	}
+	
+	default = no
+	reset_on_civilwar = no
+
+	continuous_focus_position = { x = 50 y = 250 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+#################################
+
+	focus = {
+		id = solaria_legacy
+		icon = GFX_goal_foucs_legacy_of_solaria
+		x = 9
+		y = 0
+		cost = 1
+		
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = mewni_solaria.1
+		}
+	}
+	
+	focus = {
+		id = 300_peace
+		icon = GFX_goal_focus_300_years_of_peace
+		x = 0
+		y = 1
+		relative_position_id = solaria_legacy 
+		prerequisite = { focus = solaria_legacy }
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		
+		cost = 1
+			
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = mewni_300_peace.1
+		}
+	}
+
+	focus = {
+		id = Butterfly_family
+		icon = GFX_goal_focus_the_butterfly_family
+		x = 0
+		y = 1
+		relative_position_id = 300_peace
+		prerequisite = { focus = 300_peace }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 1
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = butterfly_family.1
+		}
+	}
+
+	focus = {
+		id = Butterfly_prolouge_end
+		icon = GFX_goal_focus_star_butterfly
+		x = 0
+		y = 1
+		relative_position_id = Butterfly_family 
+		prerequisite = { focus = Butterfly_family }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 1
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			country_event = MEW_prolouge_end.1
+		}
+	}
+	
+	focus = {
+		id = situation_in_the_south
+		icon = GFX_goal_focus_attack_ostritch
+		x = 0
+		y = 1
+		relative_position_id = Butterfly_prolouge_end 
+		prerequisite = { focus = Butterfly_prolouge_end }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 1
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		country_event = mew_ost_situation.1
+		
+		}
+	}
+	
+	focus = {
+		id = import_tax
+		icon = GFX_goal_generic_neutrality_focus
+		x = -3
+		y = 1
+		relative_position_id = situation_in_the_south 
+		prerequisite = { focus = situation_in_the_south }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 1
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+			OST = { country_event = { id = mew_ost_trade.1 days = 1 } }
+		
+		}
+	}
+	
+	focus = {
+		id = mew_sanctions
+		icon = GFX_goal_generic_forceful_treaty
+		x = 0
+		y = 1
+		relative_position_id = import_tax 
+		prerequisite = { focus = import_tax }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 2
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			OST = { country_event = { id = mew_ost_trade.2 days = 1 } }
+
+
+		}
+	}
+	
+	focus = {
+		id = mew_tribute
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 1
+		relative_position_id = mew_sanctions 
+		prerequisite = { focus = mew_sanctions }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 4
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		OST = { country_event = { id = mew_ost_trade.3 days = 1 } }
+
+		}
+	}
+	
+	focus = {
+		id = mew_trolling
+		icon = GFX_goal_generic_propaganda
+		x = -1
+		y = 1
+		relative_position_id = situation_in_the_south 
+		prerequisite = { focus = situation_in_the_south }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 1
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		add_opinion_modifier = {
+			target = OST
+			modifier = excessive_trolling #localization for this in the focus loc file
+		}
+		OST = { country_event = { id = mew_ost_diplo.1 days = 1 } }
+		
+		}
+	}
+	
+	focus = {
+		id = mew_demand_state
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 1
+		relative_position_id = mew_trolling 
+		prerequisite = { focus = mew_trolling }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 2
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		OST = { country_event = { id = mew_ost_diplo.2 days = 1 } }
+		
+		}
+	}
+
+	focus = {
+		id = mew_demand_state_a
+		icon = GFX_goal_generic_political_pressure
+		x = 0
+		y = 1
+		relative_position_id = mew_demand_state 
+		prerequisite = { focus = mew_demand_state }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 4
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		OST = { country_event = { id = mew_ost_diplo.3 days = 1 } }
+
+		
+		}
+	}
+	
+	focus = {
+		id = mew_demand_subjagation
+		icon = GFX_goal_generic_secret_weapon
+		x = -1
+		y = 1
+		relative_position_id = mew_demand_state_a
+		prerequisite = { focus = mew_demand_state_a }
+		prerequisite = { focus = mew_tribute }
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		OST = { country_event = { id = mew_ost_subjagation.1 days = 1 } }
+
+		
+		}
+	}
+	
+	focus = {
+		id = mew_drill_border
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 2
+		y = 1
+		relative_position_id = situation_in_the_south 
+		prerequisite = { focus = situation_in_the_south }
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 1
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		army_experience = 5
+
+		}
+	}
+	
+	focus = {
+		id = mew_freinds_in_high_places
+		icon = GFX_goal_generic_wolf_pack
+		x = 0
+		y = 1
+		relative_position_id = mew_drill_border 
+		prerequisite = { focus = mew_drill_border }
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 2
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		OST = { add_stability = -0.15 }
+		
+		}
+	}
+
+	focus = {
+		id = mew_factory_overdrive
+		icon = GFX_goal_generic_construct_mil_factory
+		x = -1
+		y = 1
+		relative_position_id = mew_freinds_in_high_places 
+		prerequisite = { focus = mew_freinds_in_high_places }
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 4
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_offsite_building = {
+				type = arms_factory
+				level = 4
+			}
+		
+		}
+	}
+	
+	focus = {
+		id = mew_emily_railroad
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 1
+		y = 1
+		relative_position_id = mew_freinds_in_high_places 
+		prerequisite = { focus = mew_freinds_in_high_places }
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 4
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		287 = {
+			add_building_construction = {
+				type = supply_node
+				level = 1
+				province = 5224
+				instant_build = yes
+			}
+		}
+		273 = {
+			add_building_construction = {
+				type = supply_node
+				level = 1
+				province = 4749
+				instant_build = yes
+			}
+		}
+		
+		build_railway = {
+			path = { 3617 8242 5659 8154 1784 6539 3337 5729 4693 2419 7979 6135 1956 7902 5224 }
+		}
+
+		build_railway = {
+			path = { 2597 8392 3194 2570 4749 338 }
+		}
+		
+		458 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		
+		}
+		332 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		
+		}
+		333 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		
+		}
+		287 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		
+		}
+		273 = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		
+		}
+		
+		}
+	}
+
+	focus = {
+		id = mew_michael_bay
+		icon = GFX_goal_generic_air_naval_bomber
+		x = -1
+		y = 1
+		relative_position_id = mew_emily_railroad 
+		prerequisite = { focus = mew_emily_railroad }
+		prerequisite = { focus = mew_factory_overdrive }
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 5
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		add_war_support = 0.2
+		
+		}
+	}
+	
+	focus = {
+		id = mew_war_1
+		icon = GFX_goal_focus_attack_ostritch
+		x = -2
+		y = 1
+		relative_position_id = mew_michael_bay 
+		prerequisite = { focus = mew_michael_bay }
+		prerequisite = { focus = mew_demand_subjagation }
+
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		
+		cost = 5
+		
+		will_lead_to_war_with = OST
+		available_if_capitulated = yes
+
+		completion_reward = {
+		declare_war_on = {
+			target = OST
+			type = annex_everything
+		}
+		remove_ideas = OST_hostile_mewman_trade_mew
+		
+		}
+	}
+	
+	focus = {
+		id = mew_mina_treatment
+		icon = GFX_goal_focus_mina_treatment
+		x = 4
+		y = 1
+		relative_position_id = situation_in_the_south 
+		prerequisite = { focus = situation_in_the_south }
+		search_filters = {  FOCUS_FILTER_RESEARCH }
+		ai_will_do = {
+			factor = 10
+		}
+		
+		cost = 1
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			remove_advisor_role = {
+			  character = "MEW_mina_loveberry"
+			  slot = political_advisor
+			}
+		
+		}
+	}
+}

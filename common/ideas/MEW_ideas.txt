@@ -1,0 +1,760 @@
+##########IDEAS and ADVISORS for the MEW  ##############
+###NOTE: GFX calls tied to advisors_MYS.gfx and ideas_MYS.gfx ####
+
+ideas = {
+
+	######################################################
+	#National Spirits
+	######################################################
+	country = {
+
+		MEW_pre_industrial = {
+			picture = FRA_factory_strikes
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				research_speed_factor = -0.95
+				production_speed_buildings_factor = -0.8
+			}
+		}
+
+		MEW_300_years_of_peace = {
+			picture = MEW_peace
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = 0.4
+				war_support_factor = -0.6
+				recruitable_population_factor = -0.75
+				training_time_factor = 0.75
+			}
+		}
+		
+		MEW_vacant_heir = {
+			picture = MEW_star_single
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				political_power_gain = 0.2
+				stability_factor = -0.05
+			}
+		}
+		
+		MEW_heir_studying_overdimensions = {
+			picture = MEW_star_study
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = -0.05
+			}
+		}
+		
+		MEW_corn_theft = {     # This idea can be modified based on a MYS stantastic event
+			picture = MEW_corn_crisis
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = -0.5
+				consumer_goods_factor = 0.5
+
+			}
+		}
+		
+		MEW_merc_gangs = {
+			picture = MEW_corn_crisis
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+
+			}
+		}
+		MEW_emergency_economics_display = {
+			picture = MEW_emergency_economics
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+			#when at war
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}		
+			
+		MEW_emergency_economics_2_display = {
+			picture = MEW_emergency_economics
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				consumer_goods_factor = -0.2
+				stability_factor = -0.1
+			}
+		}	
+		
+		MEW_emergency_economics_3_display = {
+			picture = MEW_emergency_economics
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				consumer_goods_factor = -0.3
+				stability_factor = -0.2
+			}
+		}	
+		
+		MEW_forced_economics_display = {
+			picture = MEW_emergency_economics
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = -0.2
+				consumer_goods_factor = -0.4
+			}
+		}
+		
+		MEW_emergency_economics = {
+			picture = MEW_emergency_economics
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+			#when at war
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+				consumer_goods_factor = -0.1
+			}
+		}		
+			
+		MEW_emergency_economics_2 = {
+			picture = MEW_emergency_economics
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = -0.2
+				consumer_goods_factor = -0.2
+			}
+		}	
+		
+		MEW_emergency_economics_3 = {
+			picture = MEW_emergency_economics
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = -0.2
+				consumer_goods_factor = -0.3
+			}
+		}	
+		
+		MEW_forced_economics = {
+			picture = MEW_emergency_economics
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = -0.35
+				consumer_goods_factor = -0.4
+			}
+		}
+		
+		
+		MEW_public_works = {
+			picture = MEW_public_works_idea
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		
+		MEW_shame_of_foreign_aid = {
+			picture = MEW_shame
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.15
+			}
+		}
+		
+		MEW_rejected_foreign_aid = {
+			picture = MEW_pride
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		magic_fritz_idea = {
+			picture = MEW_magic_fritz
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.40
+			}
+		}
+		
+		mew_rapid_deployment_idea = {
+			picture = MEW_rapid_deployment_idea
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				training_time_factor = -0.5
+			}
+		}
+		
+		pull_all_strings_idea = {
+			picture = MEW_pull_all_strings_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_gain = 1
+				
+			}
+		}
+		
+		strike_first_idea = {
+			picture = MEW_strike_first_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				army_attack_factor = 0.15
+				army_defence_factor = 0.15
+				
+				
+				
+			}
+		}
+		
+		thankful_populace = {
+			picture = generic_victors_of_ww1
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = 0.15
+				
+			}
+		}
+		
+		post_ludo_war_economy_reform = {
+			picture = generic_production_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.10
+				production_speed_buildings_factor = 0.05
+				
+			}
+		}
+		
+
+		
+		post_ludo_war_westernization = {
+
+			picture = jap_duplicate_research
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.15
+				production_speed_buildings_factor = 0.05
+				research_speed_factor = 0.03
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		
+		recovering_from_civil_war = {
+			picture = generic_disjointed_gov
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_weekly = -0.02
+				
+			}
+		}
+		
+		payments_to_joh = {
+			picture = MEW_payment
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		
+		luc_concessions = {
+			picture = MEW_payment
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		
+		pig_concessions = {
+			picture = MEW_payment
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		
+		spi_concessions = {
+			picture = MEW_payment
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		
+		jag_concessions = {
+			picture = MEW_payment
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		
+		pny_concessions = {
+			picture = MEW_payment
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		
+		modernizing_education = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = 0.02
+				stability_factor = -0.05
+				
+			}
+		}
+	
+		skywynne_subsidies = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = 0.05
+				consumer_goods_factor = 0.02
+				
+			}
+		}
+		
+		new_mewni_idea = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = 0.05
+				production_speed_buildings_factor = 0.05
+				stability_factor = 0.05
+				
+			}
+		}
+		
+		mew_lud_pol_power = {
+			picture = HUN_treaty_of_triannon
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_gain = -0.2
+				
+			}
+		}
+		
+		mew_pig_pol_power = {
+			picture = HUN_treaty_of_triannon
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_gain = -0.2
+				
+			}
+		}
+		
+		mew_pny_pol_power = {
+			picture = HUN_treaty_of_triannon
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_gain = -0.2
+				
+			}
+		}
+		
+		mew_spi_pol_power = {
+			picture = HUN_treaty_of_triannon
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_gain = -0.2
+				
+			}
+		}
+		
+		mew_jag_pol_power = {
+			picture = HUN_treaty_of_triannon
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_gain = -0.2
+				
+			}
+		}
+		
+		mew_jag_volunteers = {
+			picture = tfv_can_conscription_crisis
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				send_volunteer_size = 5
+				consumer_goods_factor = -0.05
+				
+			}
+		}
+		
+		mew_hard_tacks = {
+			picture = GFX_idea_mew_hard_tacks
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				army_org_factor = 0.05
+				attrition = 0.01
+				no_supply_grace = 24
+				army_morale_factor = -0.05
+			}
+		}
+
+		###############################
+		#Special MYS event idea for MEW
+		MEW_stan_steal_corn_idea = {
+			picture = GFX_idea_MEW_stan_steal_corn_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = 0.01
+				stability_factor = -0.01			
+			}
+		}
+		MEW_stop_stan_steal_idea = {
+			picture = GFX_idea_MEW_stop_stan_steal_idea
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = -0.01
+				stability_factor = 0.01			
+			}
+		}
+		###############################
+		# Decision Ideas
+		#############################
+		MEW_tech_incentive = {
+			picture = GFX_idea_generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = 0.07		
+			}
+		}
+		MEW_northwest_bonus = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = 0.05
+				political_power_gain = 0.5
+				stability_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		MEW_northwest_pain = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = -0.05
+				political_power_gain = -0.5
+				stability_factor = -0.1
+				consumer_goods_factor = 0.05	
+			}
+		}
+		###############################
+
+
+
+	######################################################
+	#National Spirits Imposed on Others
+	######################################################
+	
+		MEW_scathing_parody = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				defence = -0.1
+				stability_factor = -0.1
+				war_support_factor = -0.15
+			}
+		}
+	
+		OST_hostile_mewman_trade = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.05
+				consumer_goods_factor = 0.05	
+			}
+		}
+		
+		OST_hostile_mewman_trade_2 = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.1
+				consumer_goods_factor = 0.1
+			}
+		}
+		
+		OST_hostile_mewman_trade_3 = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.15
+				consumer_goods_factor = 0.15
+			}
+		}
+		
+		OST_hostile_mewman_trade_mew = {
+			picture = FRA_factory_strikes
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		#################################
+		#STAR RELATIONSHIPS##############
+		#################################
+
+		MEW_star_x_tom_unofficial = {
+			picture = MEW_star_x_tom_idea
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				political_power_gain = 0.1
+			}
+		}		
+
+}
+
+	
+	high_command = {
+		
+		monster_staff = {
+			ledger = army
+			allowed = {
+				original_tag = MEW
+			}
+			available = {
+				has_global_flag = emergency_equality_flag
+			}
+
+					
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+		
+	}
+
+
+
+}

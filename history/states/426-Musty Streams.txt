@@ -1,0 +1,30 @@
+state={
+	id=426
+	name="STATE_426"
+	local_supplies=0.0 
+	
+	history {
+		owner = UKN
+		add_core_of = UKN
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		victory_points = { 4452 5 }
+	
+	}
+	
+	provinces={
+		822 1508 2784 4452 6112 
+	}
+	
+	manpower=6500
+	
+	state_category=large_town
+}
