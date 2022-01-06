@@ -1,9 +1,0 @@
-continents = {
-	earth
-	mewnie
-	amphibia
-	boiling_isles
-	realm_of_magic
-	asia
-	middle_east
-}
