@@ -1,0 +1,30 @@
+state={
+	id=191
+	name="STATE_191"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = SOC
+		add_core_of = SOC
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+		
+		#victory_points = { 10}
+		
+	}
+	
+	provinces={
+		1654 2636 6070 6441 10138 10180 10200 10211 10252 
+	}
+	manpower=10000
+	
+	state_category=rural
+}

@@ -1,0 +1,29 @@
+state={
+	id=133
+	name="STATE_133"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = EUS
+		add_core_of = EUS
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+		victory_points = { 4152 10 } #Reno
+		victory_points = { 7201 15 } #Carson
+	}
+	
+	provinces={
+		2442 2673 4152 6988 7201 9461 
+	}
+	manpower=500000
+	
+	state_category=city
+}

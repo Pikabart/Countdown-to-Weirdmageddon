@@ -1,0 +1,30 @@
+state={
+	id=380
+	name="STATE_380"
+	local_supplies=0.0 
+	
+	history {
+		owner = SWP
+		add_core_of = SWP
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+			
+		victory_points = { 7096 20 } 
+	}
+	
+	provinces={
+		2066 4810 6563 7096 7909 7926 
+	}
+	
+	manpower=5000
+	
+	state_category=town
+}

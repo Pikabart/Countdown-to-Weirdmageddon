@@ -1,0 +1,100 @@
+﻿l_english:
+
+lud_triumph_over_the_butterflys:0 "Triumph Over The Butterflys"
+lud_triumph_over_the_butterflys_desc:0 "Finally, after the bloody Battle For Mewni, I, the grand King Ludo, have come on top! The Butterfly dynasty has been thrown into their proper place: the dustbin of history!"
+
+lud_memory_of_the_butterflys:0 "Memory of the Butterflies"
+lud_memory_of_the_butterflys_desc:0 "Despite my greatness, there are still those who do not trust me. One of the biggest contributors to this is the delusion that the Butterflys are somehow still alive, hiding out in someplace called "Echo Creek." What Nonsense! The Butterflys are clearly dead, and it will be only a matter of time before their bodies are found. But in the meantime, the hope for a Butterfly return must be managed."
+
+lud_legit_regime:0 "Legitimizing the regime"
+lud_legit_regime_desc:0 "I am not an illegitimate warlord! I am a- no, THE King! This land is not the Butterfly Kingdom under foreign rule, it the MY Kingdom! Ludo's Kingdom! The Mewman people still do not accept me as their ruler, but this will change! This will very much change..."
+
+lud_national_anthem:0 "National Anthem"
+lud_national_anthem_desc:0 "Born To The Wild A Gift From Above\nA Story of Triumph A Story Of Love\nAn Army Of Rodents With He At The Helm\nHe Toppled The Old King Brought Peace To The Realm\nHandome And Fearless And Brilliant And Tall\nBeloved By Mewmans He Tends To Us All"
+
+lud_law_reform:0 "Law Overhaul"
+lud_law_reform_desc:0 "The image of the Butterflys still lingers in the laws that were ratified under their regime. Thus I will simply declare all previous laws null and then declare my own version of the laws valid. (My own verion being copied from the previous version and then all mention of the Butterflys deleted.) And while i'm going thorugh these laws, I might as well trim off the vestigial laws that are no longer relevant."
+
+lud_avarius_education:0 "Avarius Education"
+lud_avarius_education_desc:0 "Mewman education mainly consists of useless skills that most Mewmans will never use. Skills such as "Literacy" and "Basic Math" Must be taken out! The time has come for the education reforms and the teaching of the only truly important subject: How great I am!"
+
+lud_no_tolerance:0 "No Tolerance"
+lud_no_tolerance_desc:0 "The people are insane! I have conquered this land, and they have the audacity to resist!? I must strike first before they attempt a revolution. The Mewmans will obey, or perish!"
+
+lud_punish_sympathetic_civilians:0 "Punish Sympathizers"
+lud_punish_sympathetic_civilians_desc:0 "The sympathizers are a splinter who, although are obedient to Ludo, have sympathies for the Mewmans. Unacceptable! They will be punished in any way possible!"
+
+lud_summer_camps:0 "Ludo's Wild Summer Camps"
+lud_summer_camps_desc:0 "The sympathizers, rebels, and criminals will be "reformed" into suited and respectable individuals that will "gladly" and "happily" obey me."
+
+lud_reparations:0 "Reparations"
+lud_reparations_desc:0 "The people are... §Punhappy...§! and... §Pwe...§! must help them... §Prebuild.§!"
+
+lud_benefits:0 "Loyalist Benefits"
+lud_benefits_desc:0 "Fear is a... §Pbad motivator.§! Instead we will give the Mewmans §Pincentives§! to stay loyal to us."
+
+lud_reintroduce_mewmans_in_government:0 "Reintroduce Mewmans In Government"
+lud_reintroduce_mewmans_in_government_desc:0 "The Mewmans will feel better and be less rebellious if we let them §Prule themselves.§! We will give them small amount of §Pself government§! by letting Mewmans into small roles of administration. Of course, we will ensure that said Mewmans are loyal to us."
+
+lud_fate_of_loyalist_front:0 "Fate Of The Loyalist Front"
+lud_fate_of_loyalist_front_desc:0 ""
+
+lud_support_spi:0 "Support The Spiderbites"
+lud_support_spi_desc:0 "We §Pcannot§! just keep on conquering and conquering. Having allies is useful."
+
+lud_total_hegemon:0 "Total Hegemony"
+lud_total_hegemon_desc:0 "This is MY kingdom! MINE! And soon, the dimension will be mine too!"
+
+lud_look_outwards:0 "Look Outwards"
+lud_look_outwards_desc:0 ""
+
+lud_pig_conquer:0 "Conquer The Pigeons"
+lud_pig_conquer_desc:0 ""
+
+lud_pig_puppet:0 "Puppet The Pigeons"
+lud_pig_puppet_desc:0 ""
+
+lud_pny_conquer:0 "Conquer The Ponyheads"
+lud_pny_conquer_desc:0 ""
+
+lud_pny_puppet:0 "Puppet The Ponyheads"
+lud_pny_puppet_desc:0 ""
+
+lud_ludo_branch:0 "Triumph Over The Dimension!"
+lud_ludo_branch_desc:0 ""
+
+lud_toffee_branch:0 "Within The Crystal..."
+lud_toffee_branch_desc:0 "§PLudo is an incompetent, emotionally driven excuse of a leader. Now that I have sufficiently exerted my influence over him, I can finally exit his body.§!"
+
+toffee_influence_tooltip:0 "§PToffee's Influence Will Increase!§!"
+
+toffee_influence_tooltip_minus:0 "§PToffee's Influence Will Decrease!§!"
+
+
+###########
+
+#CIVIL WAR#
+
+###########
+get_our_bearings_lud:0 "Get Our Bearings"
+get_our_bearings_lud_desc:0 ""
+
+solidify_control:0 "Solidify Controll"
+
+local_recruitment:0 "Local Recruitment"
+
+loyalist_front:0 "Loyalist Front"
+
+more_rats:0 "Mobilize The Rats"
+
+even_more_rats:0 "Quantity"
+
+better_rats:0 "Quality"
+
+levitato:0 "Levitato"
+
+pol_power_lud_1:0 "More Levitato"
+
+pol_power_lud_2:0 "More Levitato"
+
+strike_first_lud:0 "Strike First!"

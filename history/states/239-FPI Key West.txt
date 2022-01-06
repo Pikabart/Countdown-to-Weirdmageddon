@@ -1,0 +1,30 @@
+state={
+	id=239
+	name="STATE_239"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = EPI
+		add_core_of = EPI
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 1
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+
+			2310 = {naval_base = 6}
+		}
+		victory_points = {2310  20}
+	}
+	
+	provinces={
+		2310 10707 10708 
+	}
+	manpower=1000
+	
+	state_category=large_city 
+}

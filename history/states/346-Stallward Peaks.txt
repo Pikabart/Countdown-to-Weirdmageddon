@@ -1,0 +1,28 @@
+state={
+	id=346
+	name="STATE_346"
+	local_supplies=0.0 
+	
+	history {
+		owner = MEW
+		add_core_of = MEW	
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	}
+	
+	provinces={
+		5458 7903 7934 
+	}
+	
+	manpower=1000
+	
+	state_category=rural
+}

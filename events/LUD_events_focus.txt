@@ -1,0 +1,52 @@
+﻿###########################
+# Mewni Events
+###########################
+
+add_namespace = lud_start
+add_namespace = lud_end
+add_namespace = toffee_end
+
+country_event = {
+	id = lud_start.1
+	title = lud_start.1.t
+	desc = lud_start.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lud_start.1.a
+		ai_chance = { factor = 90 }
+	
+	}
+}
+
+country_event = {
+	id = lud_end.1
+	title = lud_end.1.t
+	desc = lud_end.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lud_end.1.a
+		ai_chance = { factor = 90 }
+	
+	}
+}
+
+country_event = {
+	id = toffee_end.1
+	title = toffee_end.1.t
+	desc = toffee_end.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = toffee_end.1.a
+		ai_chance = { factor = 90 }
+	
+	}
+}

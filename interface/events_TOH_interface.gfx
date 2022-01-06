@@ -1,0 +1,13 @@
+##########
+# MEW country event picture interface
+############
+spriteTypes = {
+
+	spriteType = { #Owlbert stealing Luz's Book
+		name = "GFX_report_event_owlbert_steal"
+		texturefile = "gfx/event_country_pictures/TOH/report_event_owlbert_stealing.dds"
+	}
+
+	
+	
+}

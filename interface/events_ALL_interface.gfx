@@ -1,0 +1,12 @@
+##########
+# country event and decisions picture interface for country events that is used by all nations, normally
+############
+spriteTypes = {
+
+	spriteType = { # 
+		name = "GFX_report_event_CTW"
+		texturefile = "gfx/event_country_pictures/ALL/report_event_CTW.dds"
+	}
+	
+	
+}

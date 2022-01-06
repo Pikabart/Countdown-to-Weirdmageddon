@@ -1,0 +1,37 @@
+﻿l_english:
+
+get_our_bearings:0 "Get Our Bearings"
+get_our_bearings_desc:0 "What the heck is going on!?"
+
+butterfly_front:0 "Form The Butterfly Front"
+butterfly_front_desc:0 "The majority of our vassal states have abandoned us, and one of our only two supporters have collapsed. In order to not lose our only ally, we must give the Johansen kingdom more freedoms and privleges."
+
+ally_with_the_tsardom:0 "Historical Freinds"
+ally_with_the_tsardom_desc:0 "In the aftermath of the Kingdom's collapse, we have only a single ally remaining. Thus, we must seek out more allies. Luckily we have allied with the Tsarsvto Monstrov, a monster Kingdom in the north, in the past. Perhaps we can do so again in the present."
+
+california_embassy:0 "Californian Embassy"
+california_embassy_desc:0 "With our old allies betraying us, perhaps it is time to seek new ones from outside the dimension. We will allow the human Californians to build an embassy in Port Festivia so that we may negotiate their support. Namely, support in resources and trains."
+
+mobilize_populace:0 "Mobilize The Populace"
+mobilize_populace_desc:0 "This conflict endangers the future of the Butterfly dynasty, and by extention the whole dimension itself. We must rapidly deploy people into the field in order to gain any sort of advantage against the enemy."
+
+emergency_conscription:0 "Emergency Conscription"
+emergency_conscription_desc:0 "This conflict reqiures that everyone, from the lowest farmer to the highest of high courtiers, devote themselves to winning against the tyrant in the west. Thus, those who cannot contribute much mentally, must contribute their bodies and lives!"
+MEW_emergency_conscription_tooltip:0 "Gain 9 §YEmergency Conscript§  divisions"
+
+force_railroad:0 "Forceful Supply Line Construction"
+force_railroad_desc:0 "Our frontlines are lacking in supply. We must construct railways in order to supply our troops. These railways must be built through any means possible, as this may win us the war!"
+
+pull_all_strings:0 "Pull All Strings"
+pull_all_strings_desc:0 "The fate of the nation hangs in the balance! We must go through every measure in order to ensure victory the coming conflict!"
+
+emergency_visas:0 "Permit Foreigners In Government"
+emergency_visas_desc:0 "Now is not the time to let our pride overtake us! We will permit foreigner professionals in the government, using their expertise to help win us the war!"
+MEW_emergency_visas_tooltip:0 "§YForeigner advisors§, become available"
+
+emergency_equality:0 "Emergency Equality"
+emergency_equality_desc:0 "Now is no the time to let our prejudice overtake us! There are numerous promising Monster army officers, and by letting monsters into the military we can use their expertise to help us in the war!"
+MEW_emergency_equality_tooltip:0 "§YMonster advisors§, become available"
+
+strike_first:0 "Strike First!"
+strike_first_desc:0 "We must not be taken by surprise!\nWe must strike first!\n§CFor the Queen!§!"

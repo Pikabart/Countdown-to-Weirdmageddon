@@ -1,0 +1,30 @@
+state={
+	id=284
+	name="STATE_284"
+	local_supplies=0.0 
+	
+	history {
+		owner = OST
+		add_core_of = OST
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		
+		victory_points = { 8428 5 }
+	}
+	
+	provinces={
+		440 2207 2278 2650 3412 5668 5707 8428 8519 8539 8583 8600 
+	}
+	
+	manpower=1000
+	
+	state_category=rural
+}

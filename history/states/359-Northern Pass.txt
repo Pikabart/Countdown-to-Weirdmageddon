@@ -1,0 +1,30 @@
+state={
+	id=359
+	name="STATE_359"
+	local_supplies=0.0 
+	
+	history {
+		owner = SPI
+		add_core_of = SPI	
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	
+		victory_points = { 5519 5 }
+	}
+	
+	provinces={
+		623 742 857 958 1121 1728 2434 5515 5519 5603 5865 5918 7712 7730 7732 7736 7747 7779 
+	}
+	
+	manpower=5000
+	
+	state_category=town
+}

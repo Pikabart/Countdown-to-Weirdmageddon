@@ -1,0 +1,31 @@
+state={
+	id=44
+	name="STATE_44"
+	
+	local_supplies=0.0 
+	
+	history = {
+		owner = UFC
+		add_core_of = UFC
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+				
+		}
+		victory_points = {
+			8534  10
+		}
+	}
+	
+	provinces={
+		2709 7261 8469 8493 8534 8548 
+	}
+	manpower=500
+	
+	state_category=rural
+}

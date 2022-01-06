@@ -1,0 +1,30 @@
+state={
+	id=245
+	name="STATE_245"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = EPI
+		add_core_of = EPI
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			5700 = {naval_base = 2}
+		}
+		victory_points = {5700  50}
+	}
+	
+	provinces={
+		5270 5700 7723 
+	}
+	manpower=1000
+	
+	state_category=megalopolis  
+}

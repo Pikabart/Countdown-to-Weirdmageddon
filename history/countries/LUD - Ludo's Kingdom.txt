@@ -1,0 +1,62 @@
+﻿capital = 266
+
+set_research_slots = 2
+set_convoys = 10
+set_stability = 0.70
+set_war_support = 0.70
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1980.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+MEW_pre_industrial
+}
+
+set_popularities = {
+	neutrality = 80
+	communism = 10
+	fascism = 10
+}
+
+recruit_character = LUD_ludo
+recruit_character = LUD_blank
+
+create_field_marshal = {
+	name = "King Ludo of House Avarius"
+	picture = "hoi4_portrait_ludo.dds"
+	traits = {  trickster politically_connected }
+	skill = 5
+
+	attack_skill = 6
+	defense_skill = 4
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Spider"
+	picture = "hoi4_portrait_empty.dds"
+	traits = {  trickster politically_connected trait_reckless }
+	skill = 5
+
+	attack_skill = 5
+	defense_skill = 3
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Eagle"
+	picture = "hoi4_portrait_empty.dds"
+	traits = { war_hero old_guard }
+	skill = 5
+
+	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}

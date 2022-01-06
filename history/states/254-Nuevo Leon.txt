@@ -1,0 +1,28 @@
+state={
+	id=254
+	name="STATE_254"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = MEX
+		add_core_of = MEX
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+		victory_points = { 40 40 } #Monterrey, NL
+	}
+	
+	provinces={
+		40 155 809 1199 2007 2242 2818 3017 3324 3618 3720 4720 5098 5197 5266 6438 10664 10679 
+	}
+	manpower=5500000
+	
+	state_category=town
+}

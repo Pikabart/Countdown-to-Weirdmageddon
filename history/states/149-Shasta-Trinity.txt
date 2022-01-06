@@ -1,0 +1,28 @@
+state={
+	id=149
+	name="STATE_149"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = CAL
+		add_core_of = CAL
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+		victory_points = { 9067 5 }  #Yreka
+	}
+	
+	provinces={
+		4718 5380 5806 6302 6830 6929 9047 9067 9097 9170 9859 
+	}
+	manpower=5000
+	
+	state_category=rural
+}

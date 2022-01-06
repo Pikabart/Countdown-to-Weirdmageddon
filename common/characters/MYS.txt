@@ -1,0 +1,242 @@
+characters = {
+	MYS_stan_pines = {
+		name = "Stan Pines" 
+		
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MYS/Portrait_Stan_Pines.dds"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_STAN_PINES_DESC"
+			ideology = fascism_ideology
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			desc = "MILITARY_STAN_PINES_DESC"
+			traits = { harsh_leader trickster trait_reckless }
+			skill = 1
+
+			attack_skill = 1
+			defense_skill = 1		
+			planning_skill = 2
+			logistics_skill = 2
+		}	
+	}
+	
+	MYS_mabel_pines = {
+		name = "Mabel Pines" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MYS/Portrait_Mabel_Pines.dds"
+				small = "GFX_idea_mabel_1"
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = mabel_1
+			allowed = {
+				original_tag = MYS
+			}
+			available = {
+				has_completed_focus = MYS_the_pine_twins
+			}
+			traits = { 
+				multi-skilled_1 
+			}
+			ai_will_do = {
+				factor = 80
+			}
+		}
+	}
+	
+	MYS_wendy_corduroy = {
+		name = "Wendy Corduroy" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MYS/Portrait_Wendy_Corduroy.dds"
+				small = "GFX_idea_wendy_1"
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		corps_commander= {
+			traits = {  }
+			skill = 2
+			id = 8
+			
+			visible = {
+				has_completed_focus = MYS_wendy_1 
+			}
+
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = wendy_1
+			allowed = {
+				original_tag = MYS
+			}
+			available = {
+				has_completed_focus = MYS_wendy_1 
+			}
+			traits = { 
+				battle_cashier_1 
+			}
+			ai_will_do = {
+				factor = 40 
+			}
+		}
+	}
+	
+	MYS_soos_ramirez = {
+		name = "Soos Ramirez" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "GFX_idea_advisor_soos"
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_soos
+			allowed = {
+				original_tag = MYS
+			}
+			available = {	
+				has_completed_focus = MYS_soos_1 
+			}
+			traits = { handy_man } 
+			ai_will_do = {
+				factor = 40 
+			}
+		}
+	}
+	
+	MYS_dipper_pines = {
+		name = "Dipper Pines" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "GFX_idea_dipper_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_dipper_1
+			allowed = {
+				original_tag = MYS
+			}
+			available = {	
+				has_completed_focus = MYS_the_pine_twins 
+			}
+			traits = { explorer_1 } 
+			ai_will_do = {
+				factor = 40 
+			}
+		}
+	}
+	
+	MYS_gompers_goat = {
+		name = "Gompers the Goat" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "GFX_idea_gompers_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_gompers_1
+			allowed = {
+				original_tag = MYS
+			}
+			available = {
+				OR = {
+					has_intelligence_agency = yes			
+					has_completed_focus = MYS_investment
+				}
+			}
+			traits = { spy_goat_1 } 
+			ai_will_do = {
+				factor = 40
+				modifier = {
+					has_intelligence_agency = no
+					factor = 0
+				}
+			}
+		}
+	}
+	
+	MYS_wendy_annie_corduroy = {
+		name = "Annie Corduroy" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MYS/Portrait_Wendy_Annie_Corduroy.dds"
+			}
+		}
+		corps_commander= {
+			traits = {  }
+			skill = 2
+			id = 8
+			
+			visible = {
+				has_completed_focus = MYS_clones_3
+			}
+
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		
+		}
+	}
+	
+	MYS_tyrone_dipper = {
+		name = "Tyrone" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/MYS/Portrait_Tyrone.dds"
+			}
+		}
+		corps_commander= {
+			traits = {  }
+			skill = 1
+			id = 8
+			
+			visible = {
+				has_completed_focus = MYS_clones 
+			}
+
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+		
+		}
+	}
+
+}###########################################################
+	

@@ -1,0 +1,30 @@
+state={
+	id=352
+	name="STATE_352"
+	local_supplies=0.0 
+	
+	history {
+		owner = SPI
+		add_core_of = SPI	
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	
+		victory_points = { 5279 5 }
+	}
+	
+	provinces={
+		5279 7048 7235 7479 
+	}
+	
+	manpower=5000
+	
+	state_category=large_town
+}

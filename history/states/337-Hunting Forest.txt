@@ -1,0 +1,30 @@
+state={
+	id=337
+	name="STATE_337"
+	local_supplies=0.0 
+	
+	history {
+		owner = JOH
+		add_core_of = JOH
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	
+		victory_points = { 1838 5 }
+	}
+	
+	provinces={
+		1838 2807 4347 4515 5809 5944 8267 8395 8405 
+	}
+	
+	manpower=3440000
+	
+	state_category=town
+}

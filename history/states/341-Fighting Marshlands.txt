@@ -1,0 +1,30 @@
+state={
+	id=341
+	name="STATE_341"
+	local_supplies=0.0 
+	
+	history {
+		owner = JOH
+		add_core_of = JOH
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+	
+		victory_points = { 1511 5 }
+	}
+	
+	provinces={
+		1464 1511 1590 2839 4472 4866 6761 8073 8187 
+	}
+	
+	manpower=4000
+	
+	state_category=town
+}

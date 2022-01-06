@@ -1,0 +1,71 @@
+##########IDEAS and ADVISORS for the CAL  ##############
+###NOTE: GFX calls tied to advisors_MYS.gfx and ideas_MYS.gfx ####
+	
+ideas = { #Entire file
+
+	######################################################
+	#National Spirits
+	######################################################
+	country = {
+		##############
+		EUS_anti_military = {
+			picture = GFX_idea_EUS_anti_military # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				army_speed_factor = -0.1
+				army_morale_factor = -0.1
+				army_org_factor = -0.1
+				stability_factor = -0.05
+				war_support_factor = -0.05
+			}
+		}
+	
+		EUS_center = {
+			picture = GFX_idea_EUS_center #
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				decryption_factor = 0.5
+				encryption_factor = -0.5
+			}
+		}
+		
+		EUS_NDR = {
+			picture = GFX_idea_EUS_NDR # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+				stability_factor = -0.10
+				drift_defence_factor = 1
+			}
+		}
+
+		EUS_SDI = {
+			picture = GFX_idea_EUS_SDI # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+
+
+	
+	}
+}

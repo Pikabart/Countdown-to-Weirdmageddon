@@ -1,0 +1,31 @@
+state={
+	id=64
+	name="STATE_64"
+	
+	local_supplies=0.0 
+	
+	history = {
+		owner = LOG
+		add_core_of = LOG
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+				
+		}
+		victory_points = {
+			6863  10
+		}
+	}
+	
+	provinces={
+		3178 4697 5340 5670 6863 8281 
+	}
+	manpower=1000
+	
+	state_category=town
+}

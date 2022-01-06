@@ -1,0 +1,29 @@
+state={
+	id=323
+	name="STATE_323"
+	local_supplies=0.0 
+	
+	history {
+		owner = MEW
+		add_core_of = MEW
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		victory_points = { 2303 5 }
+	}
+	
+	provinces={
+		2303 5070 6412 
+	}
+	
+	manpower=5000
+	
+	state_category=large_town
+}

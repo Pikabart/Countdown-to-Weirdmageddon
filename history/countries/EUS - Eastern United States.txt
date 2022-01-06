@@ -1,0 +1,112 @@
+﻿capital = 223
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+	support_weapons = 1
+	gw_artillery = 1
+
+	#doctrines
+	air_superiority = 1
+	grand_battle_plan = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	battlefleet_concentration = 1
+	convoy_sailing = 1
+
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	construction1 = 1
+	construction2 = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+	
+	#air
+	early_fighter = 1
+	fighter1 = 1
+	CAS1 = 1
+	
+}
+
+#oob = "EUS_2012"
+
+add_ideas = {
+	EUS_anti_military
+	EUS_center
+	EUS_NDR
+	EUS_SDI
+}
+
+country_event = { id = EUS.1 hours = 2 } #Intro Event
+#news_event = { id = launcher_news.1 days = 40 } #Launch launcher for Kerfuffle
+#news_event = { id = launcher_news.6 days = 10 } #Launch launcher for State of union
+
+
+#country_event = { id = EUS.23 days = 76 } #St. Patrick's Day Floods
+#country_event = { id = EUS.22 days = 121 } #May Day Riots
+#country_event = { id = EUS.24 days = 181 } #Red Summer
+#country_event = { id = EUS.538 days = 185 } #Fourth of July
+
+
+set_convoys = 200
+
+complete_national_focus = army_effort
+complete_national_focus = equipment_effort
+complete_national_focus = motorization_effort
+complete_national_focus = aviation_effort
+complete_national_focus = naval_effort
+complete_national_focus = large_navy
+complete_national_focus = industrial_effort
+complete_national_focus = construction_effort
+complete_national_focus = production_effort
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "2008.11.1"
+	election_frequency = 48   #four months
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 60
+	communism = 10
+	fascism = 30
+}
+
+create_faction = "United States of America"
+add_to_faction = CAL
+add_to_faction = SOC
+add_to_faction = ORE
+add_to_faction = WAS
+add_to_faction = EPI
+
+create_country_leader = {
+	name = "Adrian Curtis"
+	desc = "POLITICS_CURTIS_DESC"
+	picture = "hoi4_portrait_curtis.dds"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Adrian Curtis"
+	desc = "POLITICS_CURTIS_F_DESC"
+	picture = "hoi4_portrait_curtis.dds"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}

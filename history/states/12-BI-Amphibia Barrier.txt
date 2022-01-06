@@ -1,0 +1,15 @@
+state={
+	id=12
+	name="STATE_12"
+	history {
+		owner = WAL
+		add_core_of = WAL
+	}
+	provinces={
+		111 1043 2036 2821 3094 5492 7216 9727 10155 
+	}
+	manpower=1000
+	
+	state_category=enclave
+	local_supplies=0.0 
+}

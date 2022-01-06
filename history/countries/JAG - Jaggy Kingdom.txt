@@ -1,0 +1,31 @@
+﻿capital = 367
+
+set_research_slots = 2
+set_convoys = 10
+set_stability = 0.70
+set_war_support = 0.70
+
+add_ideas = {
+MEW_pre_industrial
+}
+
+set_politics = {
+	ruling_party = neutrality
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 98
+	communism = 1
+	fascism = 1
+}
+
+oob = "JAG_2012"
+
+create_country_leader = {
+	name = "King Jags Jaggy"
+	desc = "placeholder"
+	picture = "hoi4_portrait_king_jags.dds"
+	ideology = oligarchism
+}

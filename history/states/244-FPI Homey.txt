@@ -1,0 +1,28 @@
+state={
+	id=244
+	name="STATE_244"
+	
+	local_supplies=0.0 
+	
+	history={
+		owner = EPI
+		add_core_of = EPI
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0	
+		}
+		victory_points = { 5209 25 } #Area 51/Homey AFB
+	}
+	
+	provinces={
+		528 1889 5209 5403 6637 9777 9789 
+	}
+	manpower=1000
+	
+	state_category=megalopolis  
+}

@@ -1,0 +1,29 @@
+### Advisors for MYS ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_idea_advisor_soos"
+			texturefile = "gfx/interface/advisors/MYS/advisor_soos.dds"
+		}
+	spriteType = {
+			name = "GFX_idea_wendy_1"
+			texturefile = "gfx/interface/advisors/MYS/advisor_wendy_1.dds"
+		}	
+	spriteType = {
+			name = "GFX_idea_wendy_2"
+			texturefile = "gfx/interface/advisors/MYS/advisor_wendy_2.dds"
+		}	
+	spriteType = {
+			name = "GFX_idea_dipper_1"
+			texturefile = "gfx/interface/advisors/MYS/advisor_dipper_1.dds"
+		}	
+	spriteType = {
+			name = "GFX_idea_mabel_1"
+			texturefile = "gfx/interface/advisors/MYS/advisor_mabel_1.dds"
+		}
+	spriteType = {
+			name = "GFX_idea_gompers_1"
+			texturefile = "gfx/interface/advisors/MYS/advisor_gompers_1.dds"
+		}	
+	
+}

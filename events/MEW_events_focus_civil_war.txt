@@ -1,0 +1,252 @@
+﻿###########################
+# Mewni Events
+###########################
+
+add_namespace = tsr_alliance_proposal
+add_namespace = tsr_accepts
+add_namespace = tsr_rejects
+add_namespace = tsr_wants_land
+add_namespace = tsr_wants_land_joh
+add_namespace = tsr_land_alliance_accepted
+add_namespace = tsr_land_alliance_accepted_mew
+add_namespace = tsr_land_alliance_accepted_joh
+add_namespace = tsr_land_alliance_rejected
+add_namespace = tsr_land_alliance_rejected_joh
+add_namespace = tsr_land_alliance_rejected_mew
+add_namespace = uneasy_peace
+add_namespace = import_airplanes_event
+add_namespace = ludo_defeated
+add_namespace = alpha_end
+
+
+country_event = {
+	id = tsr_alliance_proposal.1
+	title = tsr_alliance_proposal.1.t
+	desc = tsr_alliance_proposal.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tsr_alliance_proposal.1.a
+		ai_chance = { factor = 5 }
+		add_war_support = 0.1
+		MEW = { country_event = { id = tsr_accepts.1 days = 7 } }
+		
+	}
+	
+	option = {
+		name = tsr_alliance_proposal.2.a
+		ai_chance = { factor = 5 }
+		MEW = { country_event = { id = tsr_rejects.1 days = 7 } }
+	
+	}
+	
+	option = {
+		name = tsr_alliance_proposal.3.a
+		ai_chance = { factor = 90 }
+		MEW = { country_event = { id = tsr_wants_land.1 days = 7 } }
+	
+	}	
+
+}
+
+country_event = {
+	id = uneasy_peace.1
+	title = uneasy_peace.1.t
+	desc = uneasy_peace.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = uneasy_peace.1.a
+		ai_chance = { factor = 90 }
+	
+	}
+}
+
+country_event = {
+	id = import_airplanes_event.1
+	title = import_airplanes_event.1.t
+	desc = import_airplanes_event.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = import_airplanes_event.1.a
+		ai_chance = { factor = 90 }
+		add_tech_bonus = {
+			name = air_bonus
+			bonus = 1.0
+			uses = 2
+			technology = early_fighter
+			technology = fighter1 
+			technology = fighter2
+			technology = CAS1
+		}
+		
+	}
+}
+
+country_event = {
+	id = tsr_accepts.1
+	title = tsr_accepts.1.t
+	desc = tsr_accepts.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tsr_accepts.1.a
+		ai_chance = { factor = 90 }
+		add_war_support = 0.1
+		add_to_faction = TSR
+	
+	}
+}
+
+country_event = {
+	id = tsr_rejects.1
+	title = tsr_rejects.1.t
+	desc = tsr_rejects.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tsr_rejects.1.a
+		ai_chance = { factor = 90 }
+	
+	}
+}
+
+country_event = {
+	id = tsr_wants_land.1
+	title = tsr_wants_land.1.t
+	desc = tsr_wants_land.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tsr_wants_land.1.a
+		ai_chance = { factor = 90 }
+		MEW = { country_event = { id = tsr_land_alliance_accepted_mew.1 days = 7 } }
+		TSR = { country_event = { id = tsr_land_alliance_accepted.1 days = 7 } }
+		JOH = { country_event = { id = tsr_land_alliance_accepted_joh.1 days = 7 } }
+
+	}
+
+	option = {
+		name = tsr_wants_land.2.a
+		ai_chance = { factor = 10 }
+		MEW = { country_event = { id = tsr_land_alliance_rejected_mew.1 days = 7 } }
+		TSR = { country_event = { id = tsr_land_alliance_rejected.1 days = 7 } }
+		JOH = { country_event = { id = tsr_land_alliance_rejected_joh.1 days = 7 } }
+
+	}
+}
+
+country_event = {
+	id = tsr_land_alliance_accepted.1
+	title = tsr_land_alliance_accepted.1.t
+	desc = tsr_land_alliance_accepted.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tsr_land_alliance_accepted.1.a
+		TSR = { transfer_state = 339 }
+		TSR = { transfer_state = 342 }
+	
+	}
+}
+
+country_event = {
+	id = tsr_land_alliance_accepted_mew.1
+	title = tsr_land_alliance_accepted_mew.1.t
+	desc = tsr_land_alliance_accepted_mew.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tsr_land_alliance_accepted_mew.1.a
+		ai_chance = { factor = 90 }
+		add_to_faction = TSR
+		hidden_effect = {
+				news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 }
+				JOH = { news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 } }
+				LUC = { news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 } }
+				PIG = { news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 } }
+				PNY = { news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 } }
+				SPI = { news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 } }
+				JAG = { news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 } }
+				LUD = { news_event = { id = mewni_tsardom_join_bf_news_event.1 days = 1 } }
+			
+			}
+		
+
+	}
+}
+
+country_event = {
+	id = tsr_land_alliance_accepted_joh.1
+	title = tsr_land_alliance_accepted_joh.1.t
+	desc = tsr_land_alliance_accepted_joh.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tsr_land_alliance_accepted_joh.1.a
+	
+	}
+}
+
+country_event = {
+	id = tsr_land_alliance_rejected.1
+	title = tsr_land_alliance_rejected.1.t
+	desc = tsr_land_alliance_rejected.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tsr_land_alliance_rejected.1.a
+		ai_chance = { factor = 90 }
+	
+	}
+}
+country_event = {
+	id = tsr_land_alliance_rejected_mew.1
+	title = tsr_land_alliance_rejected_mew.1.t
+	desc = tsr_land_alliance_rejected_mew.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tsr_land_alliance_rejected_mew.1.a
+		ai_chance = { factor = 90 }
+
+	}
+}
+
+country_event = {
+	id = tsr_land_alliance_rejected_joh.1
+	title = tsr_land_alliance_rejected_joh.1.t
+	desc = tsr_land_alliance_rejected_joh.1.d
+	picture = GFX_report_event_solaria_legacy
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tsr_land_alliance_rejected_joh.1.a
+		ai_chance = { factor = 90 }
+
+	}
+}

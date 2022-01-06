@@ -1,0 +1,33 @@
+state={
+	id=276
+	name="STATE_276"
+
+	local_supplies=0.0 
+	
+	history {
+		owner = MEW
+		add_core_of = MEW
+		buildings = {
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		victory_points = { 8296 5 }
+	}
+	
+	provinces={
+		260 2456 7035 8203 8296 8388 8393 
+	}
+	resources={
+		aluminium=12
+	}
+	
+	manpower=8000000
+	
+	state_category=town
+}

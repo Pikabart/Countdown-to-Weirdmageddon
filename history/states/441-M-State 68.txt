@@ -1,0 +1,32 @@
+state={
+	id=441
+	name="STATE_441"
+	local_supplies=0.0 
+	
+	history {
+		owner = TSR
+		add_core_of = TSR
+		buildings = {
+			arms_factory = 5
+			industrial_complex = 3
+			
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+		}
+		victory_points = { 7843 5 }
+	}
+	
+	provinces={
+		3482 3967 5512 5665 7843 
+	}
+	
+	resources={
+		steel=21
+	}
+	
+	manpower=1400000
+	
+	state_category=town
+}

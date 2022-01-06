@@ -1,0 +1,93 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_MEW_peace"
+		texturefile = "gfx/interface/ideas/mew/MEW_peace.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_idea_MEW_star_study"
+		texturefile = "gfx/interface/ideas/mew/MEW_star_study.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MEW_star_single"
+		texturefile = "gfx/interface/ideas/mew/MEW_star_single.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MEW_corn_crisis"
+		texturefile = "gfx/interface/ideas/mew/MEW_corn_crisis.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MEW_emergency_economics"
+		texturefile = "gfx/interface/ideas/mew/MEW_emergency_economics.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MEW_public_works_idea"
+		texturefile = "gfx/interface/ideas/mew/MEW_public_works_idea.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MEW_shame"
+		texturefile = "gfx/interface/ideas/mew/MEW_shame.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MEW_pride"
+		texturefile = "gfx/interface/ideas/mew/MEW_pride.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MEW_magic_fritz"
+		texturefile = "gfx/interface/ideas/mew/MEW_magic_fritz.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MEW_pull_all_strings_idea"
+		texturefile = "gfx/interface/ideas/mew/MEW_pull_all_strings_idea.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MEW_rapid_deployment_idea"
+		texturefile = "gfx/interface/ideas/mew/MEW_rapid_deployment_idea.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MEW_strike_first_idea"
+		texturefile = "gfx/interface/ideas/mew/MEW_strike_first_idea.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MEW_stan_steal_corn_idea"
+		texturefile = "gfx/interface/ideas/mew/MEW_stan_steal_corn_idea.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MEW_stop_stan_steal_idea"
+		texturefile = "gfx/interface/ideas/mew/MEW_stop_stan_steal_idea.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MEW_payment"
+		texturefile = "gfx/interface/ideas/mew/MEW_payment.dds"			
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_mew_hard_tacks"
+		texturefile = "gfx/interface/ideas/mew/MEW_hard_tacks_idea.dds"			
+	}
+
+	############
+	#STAR SHIPS#
+	############
+	
+	SpriteType = {
+		name = "GFX_idea_MEW_star_x_tom_idea"
+		texturefile = "gfx/interface/ideas/mew/MEW_star_x_tom_idea.dds"			
+	}
+
+	
+}
