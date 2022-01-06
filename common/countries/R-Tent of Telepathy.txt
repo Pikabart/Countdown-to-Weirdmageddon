@@ -1,6 +1,0 @@
-#Mystery Shack MYS
-
-graphical_culture = GER
-graphical_culture_2d = GER
-
-color = { 72  73  126 }

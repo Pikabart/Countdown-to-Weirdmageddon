@@ -1,2 +1,0 @@
-1: Backgrounds using colormap_water_0 requires user to have reflection enabled in options/video of game menu. It wil not show up otherwise.
-2: Borrowed from "Non Reflective Water" by wildw1ng, the new reflection file will remove clouds from the map when in-game.

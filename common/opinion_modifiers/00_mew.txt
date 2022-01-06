@@ -1,7 +1,0 @@
-opinion_modifiers = {
-
-	excessive_trolling = {
-		value = -50
-	}
-
-}
