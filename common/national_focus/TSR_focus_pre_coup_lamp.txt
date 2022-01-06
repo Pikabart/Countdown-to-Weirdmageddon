@@ -1,6 +1,6 @@
 focus_tree = {
 
-	id = TSR_focus_pre_unification_4
+	id = TSR_focus_pre_coup_lampist
 	
 	country = {
 		factor = 0		
@@ -10,10 +10,9 @@ focus_tree = {
 		}
 	}
 	
-	default = no # This is not a default generic tree
+	default = no 
 	
 	continuous_focus_position = { x = 50 y = 1000 } 
-	# Change as needed as more focus are added - orginally {x=50 y=1000}
 
 	focus = { 
 		id = TSR_patriarch_people
