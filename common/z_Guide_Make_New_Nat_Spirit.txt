@@ -1,0 +1,24 @@
+#Set up a new National Spirit Idea in mod folders - ITGUY042
+
+#1.	Go to or create a an ideas.txt in common/ideas. This can house all ideas, such as NS, advisors, staff and manufactors, or be just for a certain nation. 
+
+#2.	In ideas = {country = {} }, use the format of others to add your NS. Be careful and aware of the naming, such as germany's sore_loser and so on. EX: MYS_NWHS_1 for the Mystery Shack
+
+#3.	Go to localization folder and add to or create a ideas_I_english.yml. This can house just the particular nations locs for NS or all of them.
+
+#4.	In this Loc file, each NS would entry be 
+#	EX: MYS_NWHS_1:0 "NAME"
+#		MYS_NWHS_1_desc:0 "DESC"
+
+#5.	Go to or create interface/ideas. Here we would set up an image for the NS to appear in game or bookmark.
+
+#6.	It is critical the name below is type as
+#	GFX_idea_*exact_spirit_name*
+#	This is how the game knows what image goes to what spirit, it can not be direct coded to the NS like other entries.
+#	SpriteType = {
+#		name = "GFX_idea_MYS_NWHS_1"
+#		texturefile = "gfx/interface/ideas/NWHS_1.dds"			
+#	}
+
+#7.	Use template or other ideas images to make own. They must be DSS and be 60x68 pixels in size. Be default, place all images in gfx/interface/ideas
+

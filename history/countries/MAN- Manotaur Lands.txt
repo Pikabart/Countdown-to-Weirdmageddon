@@ -36,7 +36,6 @@ set_technology = {
 
 set_convoys = 200
 
-oob = "MAN_2012"
 
 set_politics = {
 	ruling_party = fascism

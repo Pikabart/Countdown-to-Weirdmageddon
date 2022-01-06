@@ -202,7 +202,7 @@ news_event = { # Launch The Wester Allaince is formed!
 	}
 }
 
-news_event = { # Norton Found
+news_event = { # Launch The Wester Allaince is formed!
 	id = launcher_news.6
 	title = launcher_news.6.t
 	desc = launcher_news.6.d
@@ -236,39 +236,6 @@ news_event = { # Norton Found
 	}
 }
 
-news_event = { # State of the Union
-	id = launcher_news.7
-	title = launcher_news.7.t
-	desc = launcher_news.7.d
-	picture = GFX_news_peace_arc_kerfuffle
-	
-	major = yes
-	hidden = yes
-	is_triggered_only = yes
-	timeout_days = 1
-	
-	immediate = {
-		hidden_effect = {	
-			CAL = { news_event = { id = before_news.2 days = 1 } }
-			WAS = { news_event = { id = before_news.2 days = 1 } }
-			ORE = { news_event = { id = before_news.2 days = 1 } }
-			SOC = { news_event = { id = before_news.2 days = 1 } }
-			EUS = { news_event = { id = before_news.2 days = 1 } }
-			EPI = { news_event = { id = before_news.2 days = 1 } }
-			CAN = { news_event = { id = before_news.2 days = 1 } }
-			MEX = { news_event = { id = before_news.2 days = 1 } }
-			GTF = { news_event = { id = before_news.2 days = 1 } }
-			MYS = { news_event = { id = before_news.2 days = 1 } }
-			NRW = { news_event = { id = before_news.2 days = 1 } }
-			MYM = { news_event = { id = before_news.2 days = 1 } }
-		}
-	}
-	
-	option = {
-		name = launcher_news.7.a
-		ai_chance = { factor = 100 }		
-	}
-}
 
 ##############################################################################################
 ##############################################################################################
@@ -372,7 +339,7 @@ news_event = { # State of Union
 	}
 }
 
-##### KERFUFFLE #######################################################################################
+
 
 news_event = { # Pre-Kerfuffle
 	id = kerfuffle_news.1
@@ -463,7 +430,6 @@ news_event = { #The Kerfuffle, All Earth Except Canada
 		hidden_effect = {    #MOVE THIS TO A CANDAIN EVENT IN THE FUTURE
 			set_global_flag	= canada_kerfuffled
 			news_event = { id = kerfuffle_news.3 days = 5 }
-			CAN = { country_event = { id = CAN_kerfuffle.2 days = 1 } }
 			add_political_power = -100
 			every_state = { 
 				limit = { is_owned_by = CAN is_claimed_by = KER}
@@ -517,11 +483,7 @@ news_event = { # Cold War
 	is_triggered_only = yes
 	
 	immediate = {
-		hidden_effect = {
-			news_event = { id = kerfuffle_news.4 days = 5 }
-			ORE = { country_event = { id = ORE_START.2 days = 1 } }
-			CAL = { country_event = { id = CAL_START.2 days = 1 } }
-			WAS = { country_event = { id = WAS_START.2 days = 1 } }
+		hidden_effect = {news_event = { id = kerfuffle_news.4 days = 5 }
 			NEV = { 
 				add_state_claim = 133
 				add_state_claim = 181
@@ -635,7 +597,18 @@ news_event = { #
 	
 	option = {
 		name = kerfuffle_news.4.a
-		trigger = {	TAG = EUS}    
+		trigger = {	TAG = EUS}    # MOVE THIS TO A EUS EVENT IN THE FUTUE
+			remove_from_faction = CAL
+			remove_from_faction = ORE
+			remove_from_faction = WAS
+			add_popularity ={
+				ideology = fascism
+				popularity = 0.40
+			}
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
 	}
 	option = {
 		name = kerfuffle_news.4.b
