@@ -70,9 +70,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Kaiser Joeseph of House Mama"
+	name = "Kaiser Wen-Dietz of House Nuts"
 	desc = ""
-	picture = "hoi4_portrait_river_butterfly2.dds"
+	picture = "kaiser_portrait.dds"
 	ideology = oligarchism
 	traits = {
 		#

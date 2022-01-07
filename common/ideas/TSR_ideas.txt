@@ -49,6 +49,66 @@ ideas = {
 				stability_factor = -0.25
 			}
 		}
+		TSR_sabotage_plans = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		TSR_conversion_benefits_idea = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		TSR_universal_education_idea = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = 0.15
+				consumer_goods_factor = 0.1
+				research_speed_factor = 0.05
+			}
+		}
+		TSR_charity_state_idea = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = 0.20
+				consumer_goods_factor = 0.15
+				research_speed_factor = 0.05
+			}
+		}
 		TSR_temp_stability_1 = {
 			picture =
 			

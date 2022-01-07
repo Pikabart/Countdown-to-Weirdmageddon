@@ -174,7 +174,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-		
+			country_event = TSR_change_focus_tree_lamp.1
 		}
 		
 		ai_will_do = {
