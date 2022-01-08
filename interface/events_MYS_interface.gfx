@@ -146,6 +146,62 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MYS/report_event_mailbox.dds"
 	}
 	
+	spriteType = { # 
+		name = "GFX_report_event_dip_bot"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_dip_bot.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_mab_bot"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_mab_bot.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_plaidypus"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_plaidypus.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_stan_of_the_tiger"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_stan_of_the_tiger.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_magnet_mabel"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_magnet_mabel.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_microwave_mabel"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_microwave_mabel.dds"
+	}
+	
+	#####################
+	
+	spriteType = { # 
+		name = "GFX_report_event_the_fair"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_the_fair.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_dunk_the_grunkle"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_dunk_the_grunkle.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_cant_go_wrong"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_cant_go_wrong.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_blendin"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_blendin.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_chicken_pacifica"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_chicken_pacifica.dds"
+	}
 	
 	#####################
 	
@@ -167,6 +223,33 @@ spriteTypes = {
 	spriteType = { # The Staff!
 		name = "GFX_report_event_the_staff"
 		texturefile = "gfx/event_country_pictures/MYS/report_event_the_staff.dds"
+	}
+	
+	###############
+	
+	spriteType = { #
+		name = "GFX_report_event_gideon_notice"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_gideon_notice.dds"
+	}
+	
+	spriteType = { #
+		name = "GFX_report_event_bezazzled"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_bezazzled.dds"
+	}
+	
+	spriteType = { #
+		name = "GFX_report_event_all_below_us"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_all_below_us.dds"
+	}
+	
+	spriteType = { #
+		name = "GFX_report_event_mlady"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_mlady.dds"
+	}
+	
+	spriteType = { #
+		name = "GFX_report_event_resturant"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_resturant.dds"
 	}
 	
 	###############
@@ -206,6 +289,25 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MYS/report_event_gideon_rises.dds"
 	}
 	
+	spriteType = { #
+		name = "GFX_report_event_told_you_so"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_told_you_so.dds"
+	}
+	
+	spriteType = { #
+		name = "GFX_report_event_mabel_gone"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_mabel_gone.dds"
+	}
+	
+	spriteType = { #
+		name = "GFX_report_event_each_other"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_each_other.dds"
+	}
+	
+	spriteType = { #
+		name = "GFX_report_event_anti_mabel"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_anti_mabel.dds"
+	}
 	
    #############################################################
    #  Special GIF Evenrt image

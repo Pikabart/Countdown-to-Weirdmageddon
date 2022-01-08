@@ -9,10 +9,10 @@ ideas = { #Entire file
 	country = {
 	
 		##############################
-		# Twins Relationship Rating IDeas
+		# Twins Relationship Rating Ideas
 		##############################
 		
-		MYS_Twins_1 = { # Togetehr Forever
+		MYS_Twins_1 = { # Together Forever
 			picture = GFX_idea_MYS_Twins_1 
 			
 			allowed = {tag = MYS}
@@ -22,7 +22,7 @@ ideas = { #Entire file
 			
 			modifier = {
 				political_power_factor = 0.2
-				stability_weekly_factor = 0.005 #gain .5% eveyr week
+				stability_weekly_factor = 0.002 #gain .5% eveyr week
 				consumer_goods_factor = -0.10
 			}
 		}
@@ -163,7 +163,7 @@ ideas = { #Entire file
 			}
 		}
 		
-		#######################
+		##############################################
 		
 		MYS_medical_bill = {
 		
@@ -259,7 +259,8 @@ ideas = { #Entire file
 			allowed_civil_war = {always = no}
 			
 			modifier = {
-				industry_repair_factor = 0.02
+				industry_repair_factor = 0.05
+				consumer_goods_factor = -0.05
 			}
 		}
 		###############
@@ -272,8 +273,9 @@ ideas = { #Entire file
 			allowed_civil_war = {always = no}
 			
 			modifier = {
-				recruitable_population_factor = 0.02
-				industry_repair_factor = -0.02
+				recruitable_population_factor = 0.05
+				industry_repair_factor = -0.05
+				consumer_goods_factor = 0.05
 			}
 		}
 		###############

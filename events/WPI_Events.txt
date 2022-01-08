@@ -122,6 +122,8 @@ country_event = { #Bunker down
 			ORE = { remove_state_core = 98 }
 			ORE = { remove_state_core = 99 }
 			ORE = { remove_state_core = 102 }
+			
+			load_oob = "WPI_2012"
 		}
 	}
 	

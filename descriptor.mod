@@ -1,5 +1,5 @@
 version="0.1.1"
-name="Countdown to Weirdmageddon"
+name="CtW_minor_update"
 tags={
 	"Alternative History"
 	"Map"
@@ -39,5 +39,5 @@ replace_path="portraits"
 replace_path="country_leader"
 picture="thumbnail.png"
 supported_version="1.11.4"
-path="C:/Users/ian/Documents/Paradox Interactive/Hearts of Iron IV/mod/Countdown to Weirdmageddon"
+path="C:/Users/Admin/Documents/Paradox Interactive/Hearts of Iron IV/mod/CtW_minor_update"
 remote_file_id="2689567884"
