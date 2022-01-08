@@ -205,7 +205,7 @@ spriteTypes = {
 	
 	#####################
 	
-	spriteType = { # 
+		spriteType = { # 
 		name = "GFX_report_event_the_fair"
 		texturefile = "gfx/event_country_pictures/MYS/report_event_the_fair.dds"
 	}
@@ -231,6 +231,7 @@ spriteTypes = {
 	}
 	
 	#####################
+	
 	
 	spriteType = { # Our Man Stan
 		name = "GFX_report_event_our_man_stan"

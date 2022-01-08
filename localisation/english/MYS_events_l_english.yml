@@ -335,14 +335,18 @@
     mystery_shack_war.3.t:0 "Hidden Event for White Peace in the Gleeful War"
     mystery_shack_war.3.d:0 "If you see this, Bill messed up our code!"
     mystery_shack_war.3.a:0 "The Gleeful War is Over!\n\nGideon Gleeful has been exposed as the\n(more criminal) fraudster that he is!"
-
+    
+    mystery_shack_war.4.t:0 "Victory for the Mystery Shack"
+    mystery_shack_war.4.d:0 "Againts all odds, the Mystery Shack has emerged victorious in the so called "Gleeful War".\n\nAs battalions of clone Dippers secure the Tent of Telepathy and Gleeful's Auto Sales, the town gathered at the destoryed remains of Gideon's robot.\n\nThere, Stan exposed the fraud that Gideon was and all the surveillance equipment he was using to spy on the town. Rallied to Stan's cause, the Mayor had Gideon quickly arrested as the town cheered on Stan and the twins."
+    mystery_shack_war.4.a:0 "Take that you little twerp!"
+    
     mystery_shack_war.5.t:0 "Gravity Falls Withdraws"
     mystery_shack_war.5.d:0 "Gravity Falls withdraws from the fight. The Town is no match for Stan's Legion of Dippers."
     mystery_shack_war.5.a:0 "I am the Man!"
     
+    
     mystery_shack_war.7.t:0 "Finally... I have all three!\n§REnd of Alpha 0.1.2§!"
     mystery_shack_war.7.d:0 "Stan stared at the cover of Journal 2 and 3.\n\n"To think that little brat Gideon had a Journal this whole time. I wished mine had some tricks to con people more easily. And Dipper, finding the third one just a month ago? He really does remind me of old sixer..."\n\nHe opened up the three journals and laid them out on the table. Heading to the special pages in each one, he turned to the console and inputted the final coordinates and settings into the computer. A quiet moment passed, then the control room came alive. Once dormant or half power machines came to life with the electric humming of 80s circuitry as Stan watched in disbelief. He turned around to see as the portal activated. He rushed out and approached the portal. Open, it was only the second time he had ever seen the portal in this new state. Bright, intense, surging with energy. All the indicators to the side indicated full operational status. He looked on as he felt a gust flow through the room.\n\n“Thirty long years, and it’s all led up to this. My greatest achievement!”\n\n------------------------------------------------------------------------------------------------------------------------------\n\nThank you everyone for playing through the first alpha of Countdown to Weirdmageddon. Making this mod has been an experience. It's an honor to have you all playing this and rest assured, more content is on the way as we explore what happens next. With the portal truly operational, a whole new series of events awaits for Stan and the Mystery Twins. But wherever they may go, things will always come back to the center of it all.\n\nThat sleepy little town in Oregon."
-
     mystery_shack_war.7.a:0 "§R"Probably should have worn pants..."§!"
     
     
