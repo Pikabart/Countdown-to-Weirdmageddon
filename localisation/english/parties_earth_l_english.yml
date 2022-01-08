@@ -32,8 +32,8 @@
  CAL_fascism_party:0 "Imperial State"
  CAL_communism_party:0 "California Socialist Party"
  CAL_democratic_party:0 "NorCal New Democratic-Republicans"
- CAL_democratic_party_norton:0 "NorCal National Eccentric Party"
- CAL_neutrality_party:0 "Norton Loyalist"
+ CAL_democratic_party_norton:0 "Imperial Democratic-Republicans"
+ CAL_neutrality_party:0 "SoCal New Democratic-Republicans"
  
  SOC_fascism_party:0 "Orange League"
  SOC_communism_party:0 "California Socialist Party"

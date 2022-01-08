@@ -384,6 +384,9 @@ country_event = {    # Mayor
 			add_core_of = MYS 
 			remove_core_of = GTF
 		}
+		build_railway = {
+			path = { 10618 8542 8523 8505 }
+		}
 	}
 }
 
@@ -490,7 +493,7 @@ country_event = {    # Fair
 	id = mystery_shack_mystery_fair.1
 	title = mystery_shack_mystery_fair.1.t 
 	desc = mystery_shack_mystery_fair.1.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_the_fair #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -506,7 +509,7 @@ country_event = {    # Fair
 	id = mystery_shack_mystery_fair.2
 	title = mystery_shack_mystery_fair.2.t 
 	desc = mystery_shack_mystery_fair.2.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_the_fair #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -538,7 +541,7 @@ country_event = {    # Fair
 	id = mystery_shack_mystery_fair.4
 	title = mystery_shack_mystery_fair.4.t 
 	desc = mystery_shack_mystery_fair.4.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_cant_go_wrong #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -554,7 +557,7 @@ country_event = {    # Fair
 	id = mystery_shack_mystery_fair.5
 	title = mystery_shack_mystery_fair.5.t 
 	desc = mystery_shack_mystery_fair.5.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_the_fair #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -570,7 +573,7 @@ country_event = {    # Fair
 	id = mystery_shack_mystery_fair.6
 	title = mystery_shack_mystery_fair.6.t 
 	desc = mystery_shack_mystery_fair.6.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_the_fair #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -586,7 +589,7 @@ country_event = {    # Fair
 	id = mystery_shack_mystery_fair.7
 	title = mystery_shack_mystery_fair.7.t 
 	desc = mystery_shack_mystery_fair.7.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_blendin #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -602,7 +605,7 @@ country_event = {    # Fair
 	id = mystery_shack_mystery_fair.8
 	title = mystery_shack_mystery_fair.8.t 
 	desc = mystery_shack_mystery_fair.8.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_dunk_the_grunkle #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -620,7 +623,7 @@ country_event = {    # Fair
 	id = mystery_shack_mystery_fair.9
 	title = mystery_shack_mystery_fair.9.t 
 	desc = mystery_shack_mystery_fair.9.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_the_fair #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -722,7 +725,7 @@ country_event = {    # STARTINFG EVENT
 	id = mystery_shack_rock_the_mabel.1
 	title = mystery_shack_rock_the_mabel.1.t 
 	desc = mystery_shack_rock_the_mabel.1.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_gideon_notice
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -747,7 +750,7 @@ country_event = {    # Bedezzle
 	id = mystery_shack_rock_the_mabel.2
 	title = mystery_shack_rock_the_mabel.2.t 
 	desc = mystery_shack_rock_the_mabel.2.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_bezazzled 
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -787,7 +790,7 @@ country_event = {    # Looking down from the factory
 	id = mystery_shack_rock_the_mabel.3
 	title = mystery_shack_rock_the_mabel.3.t 
 	desc = mystery_shack_rock_the_mabel.3.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_all_below_us 
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -839,7 +842,7 @@ country_event = {    # Pick you up at 7
 	id = mystery_shack_rock_the_mabel.4
 	title = mystery_shack_rock_the_mabel.4.t 
 	desc = mystery_shack_rock_the_mabel.4.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_mlady 
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -891,7 +894,7 @@ country_event = {    # Keeping it going
 	id = mystery_shack_rock_the_mabel.5
 	title = mystery_shack_rock_the_mabel.5.t 
 	desc = mystery_shack_rock_the_mabel.5.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_resturant 
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -947,7 +950,7 @@ country_event = {    #Gideon End 1
 	id = mystery_shack_ship_end.1
 	title = mystery_shack_ship_end.1.t 
 	desc = mystery_shack_ship_end.1.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_mabel_gone 
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -966,7 +969,7 @@ country_event = {    #Gideon End 2
 	id = mystery_shack_ship_end.2
 	title = mystery_shack_ship_end.2.t 
 	desc = mystery_shack_ship_end.2.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_each_other
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -1282,30 +1285,27 @@ country_event = {    # Does GF get involve
 	}
 }
 
-country_event = {    # POST WAR Check after war had ended
+country_event = {    # White Peace Surrender through ON_ACTION!
 	id = mystery_shack_war.3
 	title = mystery_shack_war.3.t 
 	desc = mystery_shack_war.3.d  
 	picture = GFX_report_event_mystery_shack #  change this later
 	
-	# is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
+	hidden = yes
+	is_triggered_only = yes 
+	fire_only_once = yes  
 	
-	trigger = {  
-			has_country_flag = MYS_begun_gleeful_war
-			OR = {
-				NOT = { country_exists = GID } 
-				GID = {is_subject = yes}
-			}
-	}
-	
-	option = { 
-		name = mystery_shack_war.3.a
-		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = mystery_shack_war.7 days = 5 }	
-		complete_national_focus = MYS_pine_7
-		add_state_core = 25
-		transfer_state = 25
+	immediate = {
+		
+		white_peace = {
+			tag = GID
+			message = mystery_shack_war.3.a
+		}
+		
+		MYS = {
+			add_state_core = 25
+			transfer_state = 25
+		}
 		GTF = {
 			add_state_core = 24
 			transfer_state = 24
@@ -1320,14 +1320,42 @@ country_event = {    # POST WAR Check after war had ended
 			remove_state_core = 25
 			remove_state_core = 26
 		}
-	}
+		MYS = { country_event = { id = mystery_shack_war.4 days = 2 }}
+	}	
+	
+
 }
 
-country_event = {    # GF war with MYS, losing white peace
+country_event = {    # Event for the war ending; all effects moved to onaction event in mystery_shack_war.3
 	id = mystery_shack_war.4
 	title = mystery_shack_war.4.t 
 	desc = mystery_shack_war.4.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_told_you_so #  change this later
+	
+	is_triggered_only = yes 
+	#fire_only_once = yes  
+	
+	#trigger = {  
+	#		has_country_flag = MYS_begun_gleeful_war
+	#		OR = {
+	#			NOT = { country_exists = GID } 
+	#			GID = {is_subject = yes}
+	#		}
+	#}
+	
+	option = { 
+		name = mystery_shack_war.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = mystery_shack_war.7	
+		complete_national_focus = MYS_pine_7	
+	}
+}
+
+country_event = {    # GF war with MYS, losing white peace with with Shack
+	id = mystery_shack_war.5
+	title = mystery_shack_war.5.t 
+	desc = mystery_shack_war.5.d  
+	picture = GFX_report_event_mystery_shack 
 	
 	#is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -1348,7 +1376,7 @@ country_event = {    # GF war with MYS, losing white peace
 	}
 	
 	option = { 
-		name = mystery_shack_war.4.a
+		name = mystery_shack_war.5.a
 		ai_chance = { factor = 100 }	# 100% AI choose this		
 	}
 }
@@ -1363,7 +1391,7 @@ country_event = {    # END OF ALPHA FOR MYS VICTORY
 	picture = GFX_report_event_mystery_shack #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
+	#fire_only_once = yes     #Can't happen again
 	
 	option = { 
 		name = mystery_shack_war.7.a
@@ -1371,34 +1399,7 @@ country_event = {    # END OF ALPHA FOR MYS VICTORY
 	}
 }
 
-#country_event = {
-#	id = mystery_shack_pine.3
-#	title = mystery_shack_pine.3.t
-#	desc = mystery_shack_pine.3.d
-#	picture = GFX_report_event_solaria_legacy
-#	hidden = yes
-#		
-#	trigger = {
-#		original_tag = MYS
-#		GID = { surrender_progress > 0.60 }
-#	}
-#	
-#	fire_only_once = yes
-#		
-#	immediate = {
-#		name = mystery_shack_pine.3.a
-#		white_peace = {
-#			tag = GID
-#			message = "Gideon Has Been Defeated!"
-#		}
-#		MYS = { transfer_state = 25 }
-#		GTF = { transfer_state = 26 }
-#		GTF = { transfer_state = 23 }
-#		MYS = { add_state_core = 25 }
-#		GTF = { add_state_core = 26 }
-#		GTF = { add_state_core = 23 }
-#	}
-#}
+
 
 ##############################################################################################################################
 ##############################################################################################################################

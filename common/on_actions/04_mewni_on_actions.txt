@@ -1,33 +1,7 @@
 on_actions = {
-
-	on_startup = {
-		effect = {
-			MEW = {
-				country_event = { id = mewni_startup.1 } # Event code is in MEW_events_focus
-			}
-			LUD = {
-				country_event = { id = lud_start.1 }
-			}
-			MYS = {
-				country_event = { id = mys_startup.1 } # Event code is in MYS_events
-			}
-			#effect = {
-				#if = {
-				#	limit = {
-				#		NOT = {
-				#			original_tag = MYS
-				#			original_tag = MEW
-				#		}
-				#	}
-				#ROOT = { country_event = { id = game_startup.1 } }# Event code is in news_events
-				#}
-			#}
-		}	
-	}
 	
-
+	#Mewni Early War and First Civil War
 	on_capitulation = {
-		#ROOT = Loser FROM = Winner
 		effect = {
 			if = {
 				limit = {
