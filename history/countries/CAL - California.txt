@@ -1,6 +1,6 @@
 ﻿capital = 152
 
-
+#news_event = { id = world_news.1 days = 10 } #The Kerfuffle
 
 # Starting tech
 set_technology = {
@@ -41,8 +41,6 @@ add_ideas = {
 	CAL_golden
 	CAL_northwest
 }
-
-#oob = "CAL_2012"
 
 set_convoys = 200
 

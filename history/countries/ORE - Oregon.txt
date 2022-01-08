@@ -36,11 +36,11 @@ set_technology = {
 	
 }
 
-#oob = "ORE_2012"
-
 add_ideas = {
+
 	ORE_own_wings
 	ORE_northwest
+
 }
 
 set_convoys = 200

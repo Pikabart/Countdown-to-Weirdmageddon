@@ -16,10 +16,6 @@ state={
 			air_base = 0
 			anti_air_building = 0
 			radar_station = 0	
-			
-			3291 = {
-				naval_base = 3
-			}
 		}
 		victory_points = { 3291 30 } #NY
 	}

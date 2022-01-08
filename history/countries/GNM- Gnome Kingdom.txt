@@ -36,8 +36,6 @@ set_technology = {
 
 set_convoys = 200
 
-oob = "GNM_2012"
-
 set_politics = {
 	ruling_party = neutrality
 	last_election = "2012.1.1"

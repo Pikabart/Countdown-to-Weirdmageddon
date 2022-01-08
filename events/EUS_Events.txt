@@ -1,5 +1,5 @@
 ﻿###########################
-# Eastern US Events
+# Mewni Events
 ###########################
 
 add_namespace = EUS
@@ -12,7 +12,6 @@ country_event = {
 	picture = GFX_report_event_chinese_soldiers_fighting
 	
 	is_triggered_only = yes
-	fire_only_once = yes
 	
 	option = { 
 		name = EUS.1.a
@@ -28,7 +27,6 @@ country_event = {
 	picture = GFX_report_event_chinese_soldiers_fighting
 	
 	is_triggered_only = yes
-	fire_only_once = yes
 	
 	option = { 
 		name = EUS.2.a
@@ -44,7 +42,6 @@ country_event = {
 	picture = GFX_report_event_chinese_soldiers_fighting
 	
 	is_triggered_only = yes
-	fire_only_once = yes
 	
 	option = { 
 		name = EUS.3.a
@@ -60,7 +57,6 @@ country_event = {
 	picture = GFX_report_event_chinese_soldiers_fighting
 	
 	is_triggered_only = yes
-	fire_only_once = yes
 	
 	immediate = {
 		hidden_effect = {dismantle_faction = yes}
@@ -71,18 +67,7 @@ country_event = {
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		create_faction = "The Curtis Administration"
 		add_to_faction = EPI
-		remove_from_faction = CAL
-		remove_from_faction = ORE
-		remove_from_faction = WAS
-		add_popularity ={
-			ideology = fascism
-			popularity = 0.40
-		}
-		set_politics = {
-			ruling_party = fascism
-			elections_allowed = no
-		}
-		load_oob = "EUS_2012"
+		#country_event = { id = EUS.1 days = 2 }
 	}
 }
 
@@ -100,7 +85,6 @@ country_event = {
 	is_triggered_only = yes
 	timeout_days = 1
 	hidden = yes
-	fire_only_once = yes
 	
 	immediate = {
 		hidden_effect = {
@@ -138,7 +122,6 @@ country_event = {
 	is_triggered_only = yes
 	timeout_days = 1
 	hidden = yes
-	fire_only_once = yes
 	
 	immediate = {
 		hidden_effect = {
@@ -176,7 +159,6 @@ country_event = {
 	is_triggered_only = yes
 	timeout_days = 1
 	hidden = yes
-	fire_only_once = yes
 	
 	immediate = {
 		hidden_effect = {
@@ -219,7 +201,6 @@ country_event = {
 	is_triggered_only = yes
 	timeout_days = 1
 	hidden = yes
-	fire_only_once = yes
 	
 	immediate = {
 		hidden_effect = {

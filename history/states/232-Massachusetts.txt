@@ -14,12 +14,7 @@ state={
 			infrastructure = 1
 			air_base = 0
 			anti_air_building = 0
-			radar_station = 0
-
-
-			6872 = {
-				naval_base = 3
-			}
+			radar_station = 0	
 		}
 	}
 	

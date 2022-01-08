@@ -958,7 +958,7 @@ country_event = {    #Gideon End 1
 		name = mystery_shack_ship_end.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		country_event = { id = mystery_shack_ship_end.3 days = 4 }
-		#set_country_flag = MYS_mabel_gone # Done in Focus
+		#set_country_flag = MYS_mabel_gone
 	}
 }
 
@@ -976,18 +976,32 @@ country_event = {    #Gideon End 2
 	option = { 
 		name = mystery_shack_ship_end.2.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = mystery_shack_ship_end.4 days = 4 }
-		#set_country_flag = MYS_still_twins  # Done in Focus
+		country_event = { id = mystery_shack_ship_end.3 days = 4 }
+		#set_country_flag = MYS_still_twins
 	}
 }
 
-country_event = {    #Gideon Alpha End # Mabel Gone
+country_event = {    #Gideon Alpha End
 	id = mystery_shack_ship_end.3
+	title = {
+		text = mystery_shack_ship_end.3.t_a
+		trigger = {has_country_flag = MYS_mabel_gone}
+	}
+	title = {
+		text = mystery_shack_ship_end.3.t_b
+		trigger = {has_country_flag = MYS_still_twins}
+	}
+	desc = {
+		text = mystery_shack_ship_end.3.d_a
+		trigger = {has_country_flag = MYS_mabel_gone}
+	}
+	desc = {
+		text = mystery_shack_ship_end.3.d_b
+		trigger = {has_country_flag = MYS_still_twins} 
+	}
 	
-	title =  mystery_shack_ship_end.3.t	
-	desc = mystery_shack_ship_end.3.d
-
-	picture = GFX_report_event_anti_mabel
+	
+	picture = GFX_report_event_mystery_shack #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -1000,24 +1014,6 @@ country_event = {    #Gideon Alpha End # Mabel Gone
 	}
 }
 
-country_event = {    #Gideon Alpha End # Mabel and Dipper
-	id = mystery_shack_ship_end.4
-
-	title = mystery_shack_ship_end.4.t
-	desc = mystery_shack_ship_end.4.d
-	
-	picture = GFX_report_event_gideon_rises
-	
-	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
-	
-	immediate = { hidden_effect = {} }
-	
-	option = { 
-		name = mystery_shack_ship_end.4.a
-		ai_chance = { factor = 100 }	# 100% AI choose this
-	}
-}
 
 #######################################################################################################################
 # Pining for Time
@@ -1364,7 +1360,7 @@ country_event = {    # END OF ALPHA FOR MYS VICTORY
 	id = mystery_shack_war.7
 	title = mystery_shack_war.7.t 
 	desc = mystery_shack_war.7.d  
-	picture = GFX_report_event_stan_portal #  change this later
+	picture = GFX_report_event_mystery_shack #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
