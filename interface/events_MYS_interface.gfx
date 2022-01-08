@@ -205,6 +205,34 @@ spriteTypes = {
 	
 	#####################
 	
+		spriteType = { # 
+		name = "GFX_report_event_the_fair"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_the_fair.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_dunk_the_grunkle"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_dunk_the_grunkle.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_cant_go_wrong"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_cant_go_wrong.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_blendin"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_blendin.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_chicken_pacifica"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_chicken_pacifica.dds"
+	}
+	
+	#####################
+	
+	
 	spriteType = { # Our Man Stan
 		name = "GFX_report_event_our_man_stan"
 		texturefile = "gfx/event_country_pictures/MYS/report_event_our_man_stan.dds"
