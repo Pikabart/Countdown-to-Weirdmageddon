@@ -1,0 +1,71 @@
+on_actions = {
+	
+	#The Gleeful Wars
+	on_capitulation = {
+		effect = {
+			if = {
+				limit = { # The Shack Wins
+					ROOT = {
+						original_tag = GID
+					
+					}
+					FROM = {
+						original_tag = MYS
+						has_country_flag = MYS_begun_gleeful_war
+					}
+				}
+				FROM = {
+					MYS = { 
+						country_event = mystery_shack_war.3 
+					}
+				}
+			}
+			else_if = {
+				limit = { # The Shack Wins
+					ROOT = {
+						original_tag = GID
+					
+					}
+					FROM = {
+						original_tag = GTF
+						MYS = { has_country_flag = MYS_begun_gleeful_war }
+					}
+				}
+				FROM = {
+					MYS = { 
+						country_event = mystery_shack_war.3 
+					}
+				}
+			}
+			else_if = {
+				limit = { # The Tent Wins
+					ROOT = {
+						original_tag = MYS
+					}
+					FROM = {
+						original_tag = GID
+						MYS = { has_country_flag = MYS_begun_gleeful_war }
+					}
+				}
+				FROM = {
+					MYS = { country_event = mystery_shack_ship_end.2 }
+				}
+			}
+			else_if = {
+				limit = { # The Tent Wins
+					ROOT = {
+						original_tag = MYS
+					}
+					FROM = {
+						original_tag = GTF
+						MYS = { has_country_flag = MYS_begun_gleeful_war }
+					}
+				}
+				FROM = {
+					MYS = { country_event = mystery_shack_ship_end.2 }
+				}
+			}
+		}
+	}
+	
+} ## END OF FILE ##

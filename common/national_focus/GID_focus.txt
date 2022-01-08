@@ -34,6 +34,9 @@
 
 		completion_reward = {
 			add_political_power = 300
+			build_railway = {
+					path = { 8506 8486 8492 894 }
+			}
 		}
 		
 		ai_will_do = {

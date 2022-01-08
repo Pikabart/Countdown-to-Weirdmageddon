@@ -25,11 +25,11 @@
  #5
  MYS_journal_3:0 "Uncovering Old Secrets"
  MYS_journal_3_desc:0 "Againts my own wishes, Mom and Dad insisted that me and Mabel spend the summer with our Great Uncle Stanford. Dad talked about all the time he and auntie Emily had fun in Gravity Falls. I wonder where's the fun in working at the shack and putting up signs in the woods...\n\n- §CDipper Pines§! -"
- MYS_journal_3_effect:0 ""
+ MYS_journal_3_effect:0 "Wait... is this tree hollow?\n*Knock* *Knock*"
  
  MYS_stantastic:0 "The Stan-Tastic Adventures!"
  MYS_stantastic_desc:0 "As the twins go about their way, going on adventures, threading the line between life and death in the great outback of Gravity Falls, I'll continues on my work to repair the portal fully and bring this all to an end.\n\n- §RStan Pines§! -"
- MYS_stantastic_effect:0 "§YLet's see here on the ol'list.§!\n-Find new attractions\n-Get money back from Birdperson\n-Refill the energy reactor..."
+ MYS_stantastic_effect:0 "§YLet's see here on the ol'list.§!\n-Find new attractions\n-Refill the energy reactor\n-Get money back from Glossaryck\n-Get money back from Birdperson"
  
  MYS_stantastic_1:0 "Going On A Grocery Run"
  MYS_stantastic_1_desc:0 "It's the perfect attraction. A unicorn made of corn! And there's even a sale at the supermarket! I'll just head on down to town and grab some corn and glue. I better also make sure to store it away from the food black hole that Mabel calls a 'pet'."
@@ -59,7 +59,7 @@
  
  MYS_awaits:0 "What Awaits In Gravity Falls"
  MYS_awaits_desc:0 "Gnomes, Lake Monsters, Convenience Store Ghost!\nLiving wax, Time Travel,\nand the Eight and a Half President!\n\nDipper's right! What eles awaits in Gravity Falls?\n- §YMabel Pines§! -"
- MYS_awaits_effect:0""
+ MYS_awaits_effect:0 ""
  
  ###################################################### 
  #6

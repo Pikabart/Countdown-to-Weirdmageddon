@@ -1,0 +1,36 @@
+﻿###########################
+# Washington Events
+###########################
+
+add_namespace = WAS_START
+
+############################################################################################################
+country_event = {
+	id = WAS_START.1
+	title = WAS_START.1.t
+	desc = WAS_START.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = WAS_START.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+country_event = {
+	id = WAS_START.2
+	title = WAS_START.2.t
+	desc = WAS_START.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = WAS_START.2.a
+		load_oob = "WAS_2012"
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}

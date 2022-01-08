@@ -127,5 +127,42 @@ country_event = {
 	option = { 
 		name = wendy.3.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_war_support = 0.05
+		if = {
+			limit = { has_idea = MYS_NWHS_1 } 
+			swap_ideas = {
+				add_idea = MYS_NWHS_2
+				remove_idea = MYS_NWHS_1
+			}
+		}
+		else_if = {
+			limit = { has_idea = MYS_NWHS_2 } 
+			swap_ideas = {
+				add_idea = MYS_NWHS_3
+				remove_idea = MYS_NWHS_2
+			}
+		}
+		else_if = {
+			limit = { has_idea = MYS_NWHS_3 } 
+			swap_ideas = {
+				add_idea = MYS_NWHS_4
+				remove_idea = MYS_NWHS_3
+			}
+		}
+		else_if = {
+			limit = { has_idea = MYS_NWHS_4 } 
+			swap_ideas = {
+				add_idea = MYS_NWHS_5
+				remove_idea = MYS_NWHS_4
+			}
+		}
+		else = {
+			swap_ideas = {
+				add_idea = MYS_NWHS_5
+				remove_idea = MYS_NWHS_5
+			}
+		}
+		
+		custom_effect_tooltip = wendy.3.aa
 	}
 }

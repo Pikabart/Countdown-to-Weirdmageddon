@@ -1,9 +1,0 @@
-Top Bar:
-
-This contains certain locations and key debug and regular programingmessages as game loads things.
-File: core_l_english.yml
-
-Bottom Bar: 
-
-This contains dedicated tips for players. Can be changed to show quotes, other dumb things
-File: loading_tips_l_english.yml
