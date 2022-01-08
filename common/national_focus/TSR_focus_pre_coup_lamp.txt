@@ -1,0 +1,268 @@
+focus_tree = {
+
+	id = TSR_focus_pre_coup_lampist
+	
+	country = {
+		factor = 0		
+		modifier = {
+		#	add = 100
+		#	tag = TSR
+		}
+	}
+	
+	default = no 
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+
+	focus = { 
+		id = TSR_patriarch_people
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = TSR_illuminate_misdoings
+		icon = a
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = TSR_patriarch_people }
+		relative_position_id = TSR_patriarch_people 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+  
+        focus = {
+  		id = TSR_enshrine_patriarch
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_illuminate_misdoings }
+		relative_position_id = TSR_illuminate_misdoings 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+  
+        focus = {
+  		id = TSR_demonize_tsar
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_enshrine_patriarch }
+		relative_position_id = TSR_enshrine_patriarch 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+  
+        focus = {
+  		id = TSR_sabotage_plans_lampist
+		icon = a
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = TSR_patriarch_people }
+		relative_position_id = TSR_patriarch_people 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = TSR_sabotage_plans
+				days = 365
+			
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+  
+        focus = {
+  		id = TSR_repurpose_buildings
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_sabotage_plans_lampist }
+		relative_position_id = TSR_sabotage_plans_lampist 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+  
+        focus = {
+  		id = TSR_recruit_peasantry
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_repurpose_buildings }
+		relative_position_id = TSR_repurpose_buildings 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.1
+            add_manpower = 20000
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+  
+        focus = {
+  		id = TSR_peoples_coup
+		icon = a
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = TSR_demonize_tsar }
+                prerequisite = { focus = TSR_recruit_peasantry }
+		relative_position_id = TSR_recruit_peasantry
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = TSR_change_focus_tree_lamp.2
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+  
+}		

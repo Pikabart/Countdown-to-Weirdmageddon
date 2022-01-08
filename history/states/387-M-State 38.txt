@@ -4,8 +4,9 @@ state={
 	local_supplies=0.0 
 	
 	history {
-		owner = UKN
-		add_core_of = UKN
+		owner = MHC
+		add_core_of = MHC
+		add_core_of = JOH
 		buildings = {
 			arms_factory = 0
 			industrial_complex = 0
@@ -21,6 +22,10 @@ state={
 	
 	provinces={
 		729 2281 3675 6367 7556 7590 
+	}
+	
+	resources={
+		steel = 16
 	}
 	
 	manpower=4000

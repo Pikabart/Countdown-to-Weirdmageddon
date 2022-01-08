@@ -4,11 +4,12 @@ state={
 	local_supplies=0.0 
 	
 	history {
-		owner = UKN
-		add_core_of = UKN
+		owner = MHC
+		add_core_of = MHC
+		add_core_of = JAG
 		buildings = {
-			arms_factory = 0
-			industrial_complex = 0
+			arms_factory = 2
+			industrial_complex = 3
 			
 			infrastructure = 1
 			air_base = 0
@@ -21,7 +22,11 @@ state={
 		1768 2539 5667 7091 7560 
 	}
 	
-	manpower=4000
+	resources={
+		oil = 11
+	}
+	
+	manpower=1004000
 	
 	state_category=town
 }

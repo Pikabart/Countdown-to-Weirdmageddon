@@ -4,11 +4,11 @@ state={
 	local_supplies=0.0 
 	
 	history {
-		owner = UKN
-		add_core_of = UKN
+		owner = DTH
+		add_core_of = DTH
 		buildings = {
-			arms_factory = 0
-			industrial_complex = 0
+			arms_factory = 2
+			industrial_complex = 3
 			
 			infrastructure = 1
 			air_base = 0
@@ -21,7 +21,7 @@ state={
 		4046 5387 5867 7805 
 	}
 	
-	manpower=4000
+	manpower=1004000
 	
 	state_category=town
 }

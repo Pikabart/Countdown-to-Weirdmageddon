@@ -7,8 +7,8 @@ state={
 		owner = SWP
 		add_core_of = SWP
 		buildings = {
-			arms_factory = 0
-			industrial_complex = 0
+			arms_factory = 2
+			industrial_complex = 3
 			
 			
 			infrastructure = 1
@@ -24,7 +24,11 @@ state={
 		2066 4810 6563 7096 7909 7926 
 	}
 	
-	manpower=5000
+	resources={
+		steel = 16
+	}
+	
+	manpower=1005000
 	
 	state_category=town
 }

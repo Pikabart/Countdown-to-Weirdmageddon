@@ -250,6 +250,15 @@ bookmarks = {
 			}
 		}
 		
+		"TSR"={
+			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			minor = yes
+		}
+		"KAI"={
+			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			minor = yes
+		}
+		
 		"---"={
 			history = "OTHER_ANOTHER_DIMENSION_DESC"
 		}

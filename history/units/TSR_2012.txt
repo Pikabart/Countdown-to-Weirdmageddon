@@ -54,6 +54,54 @@ units = {
 
 
 	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5991 # Capital of tsr
+		division_template = "Cossack Horsemen"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5991 # Capital of tsr
+		division_template = "Cossack Horsemen"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5991 # Capital of tsr
+		division_template = "Cossack Horsemen"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 5991 # Capital of tsr
+		division_template = "Cossack Horsemen"
+		# = 0.001
+
+
+	}
 
 	##### No Notable Naval Forces #####
 }

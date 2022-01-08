@@ -1,0 +1,120 @@
+﻿division_template = {
+	name = "Horsemen"  
+	division_names_group = SPAN_CAVB_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+	}
+}
+
+
+units = {
+	
+	##################
+	#Horsemen#
+	##################
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 7765 # Swamp Springs
+		division_template = "Horsemen"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 7765 # Swamp Springs
+		division_template = "Horsemen"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 7765 # Swamp Springs
+		division_template = "Horsemen"
+		# = 0.001
+
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 7765 # Swamp Springs
+		division_template = "Horsemen"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 7765 # Swamp Springs
+		division_template = "Horsemen"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 7765 # Swamp Springs
+		division_template = "Horsemen"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 7765 # Swamp Springs
+		division_template = "Horsemen"
+		# = 0.001
+
+
+	}
+
+	##### No Notable Naval Forces #####
+}
+
+##### No Notable Air Forces #####
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "CUB"
+		}
+		requested_factories = 1
+		progress = 0.54
+		efficiency = 100
+	}
+}

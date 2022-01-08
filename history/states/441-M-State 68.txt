@@ -7,7 +7,7 @@ state={
 		owner = TSR
 		add_core_of = TSR
 		buildings = {
-			arms_factory = 5
+			arms_factory = 2
 			industrial_complex = 3
 			
 			infrastructure = 1

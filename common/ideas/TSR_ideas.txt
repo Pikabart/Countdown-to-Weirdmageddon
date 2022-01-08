@@ -1,0 +1,182 @@
+##########IDEAS and ADVISORS for the MEW  ##############
+###NOTE: GFX calls tied to advisors_MYS.gfx and ideas_MYS.gfx ####
+
+ideas = {
+
+	######################################################
+	#National Spirits
+	######################################################
+	country = {
+
+		TSR_factory_build_speed = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		TSR_calvary_debt = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.35
+				stability_factor = -0.45
+			}
+		}
+		TSR_calvary_debt_better = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.20
+				stability_factor = -0.25
+			}
+		}
+		TSR_sabotage_plans = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		TSR_conversion_benefits_idea = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = 0.05
+				
+			}
+		}
+		TSR_universal_education_idea = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = 0.15
+				consumer_goods_factor = 0.1
+				research_speed_factor = 0.05
+			}
+		}
+		TSR_charity_state_idea = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = 0.20
+				consumer_goods_factor = 0.15
+				research_speed_factor = 0.05
+			}
+		}
+		TSR_temp_stability_1 = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		TSR_temp_stability_2 = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		TSR_tax_peasants_idea = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.10
+			}
+		}	
+		TSR_money_printer_idea = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.05
+			}
+		}		
+		TSR_sell_artifacts_idea = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.05
+			}
+		}	
+
+	}
+}

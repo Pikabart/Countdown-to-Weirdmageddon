@@ -4,8 +4,8 @@ state={
 	local_supplies=0.0 
 	
 	history {
-		owner = UKN
-		add_core_of = UKN
+		owner = MW4
+		add_core_of = MW4
 		buildings = {
 			arms_factory = 0
 			industrial_complex = 0
@@ -20,8 +20,12 @@ state={
 	provinces={
 		 2337 2747 6649 7657 
 	}
-	
-	manpower=4000
+
+	resources={
+		oil = 12
+	}
+
+	manpower=654000
 	
 	state_category=town
 }

@@ -38,6 +38,7 @@ add_to_faction = PIG
 add_to_faction = PNY
 add_to_faction = SPI
 add_to_faction = JAG
+add_to_faction = MHC
 
 recruit_character = MEW_moon_butterfly
 recruit_character = MEW_ludo

@@ -52,27 +52,28 @@ MEW_pre_industrial
 oob = "KAI_2012"
 set_research_slots = 3
 set_convoys = 50
-set_stability = 0.70
-set_war_support = 0.70
+set_stability = 0.40
+set_war_support = 0.30
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2000.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 90
+	democratic = 5
+	neutrality = 85
 	communism = 5
 	fascism = 5
 }
 
 create_country_leader = {
-	name = "Kaiser Joeseph of House Mama"
+	name = "Kaiser Wen-Dietz of House Nuts"
 	desc = ""
-	picture = "hoi4_portrait_river_butterfly2.dds"
-	ideology = conservatism
+	picture = "kaiser_portrait.dds"
+	ideology = oligarchism
 	traits = {
 		#
 	}

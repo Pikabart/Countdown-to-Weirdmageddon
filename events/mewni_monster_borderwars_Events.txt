@@ -1,0 +1,82 @@
+﻿###########################
+# Monster Warlord Border Wars
+###########################
+
+add_namespace = border_war_test
+
+
+
+############################################################################################################
+country_event = {
+	id = border_war_test.1
+	title = border_war_test.1.t
+	desc = border_war_test.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = border_war_test.1.a
+		ai_chance = { factor = 100 }
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 287
+					num_provinces = 1
+					on_win = border_war_test.2
+					on_lose = border_war_test.3
+					on_cancel = border_war_test.4
+				}
+				
+				defender = {
+					state = 464
+					num_provinces = 1
+					on_win = border_war_test.2
+					on_lose = border_war_test.3
+					on_cancel = border_war_test.4
+				}
+			}
+	}
+}
+
+country_event = {
+	id = border_war_test.2
+	title = border_war_test.2.t
+	desc = border_war_test.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = border_war_test.2.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = border_war_test.3
+	title = border_war_test.3.t
+	desc = border_war_test.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = border_war_test.3.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = border_war_test.4
+	title = border_war_test.4.t
+	desc = border_war_test.4.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = border_war_test.4.a
+		ai_chance = { factor = 100 }
+	}
+}

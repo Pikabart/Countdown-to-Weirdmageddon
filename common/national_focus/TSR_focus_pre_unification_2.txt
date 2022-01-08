@@ -1,0 +1,186 @@
+﻿focus_tree = {
+
+	id = TSR_focus_pre_unification_2
+	
+	country = {
+		factor = 0		
+		modifier = {
+		#	add = 100
+		#	tag = TSR
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = { 
+		id = TSR_not_stonks
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = TSR_calvary_debt
+				days = 1095
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = TSR_chaos_in_the_kremlin
+		icon = a
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = TSR_not_stonks }
+		relative_position_id = TSR_not_stonks 
+		mutually_exclusive = { focus = TSR_queen_and_the_people }
+		mutually_exclusive = { focus = TSR_secret_military_meeting }
+		mutually_exclusive = { focus = TSR_light_for_people }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = TSR_change_focus_tree.3
+		
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = TSR_queen_and_the_people
+		icon = a
+		x = -3
+		y = 1
+		
+		prerequisite = { focus = TSR_not_stonks }
+		relative_position_id = TSR_not_stonks 
+		mutually_exclusive = { focus = TSR_chaos_in_the_kremlin }
+		mutually_exclusive = { focus = TSR_secret_military_meeting }
+		mutually_exclusive = { focus = TSR_light_for_people }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = TSR_secret_military_meeting
+		icon = a
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = TSR_not_stonks }
+		relative_position_id = TSR_not_stonks 
+		
+		mutually_exclusive = { focus = TSR_chaos_in_the_kremlin }
+		mutually_exclusive = { focus = TSR_queen_and_the_people }
+		mutually_exclusive = { focus = TSR_light_for_people }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_light_for_people
+		icon = a
+		x = 3
+		y = 1
+		
+		prerequisite = { focus = TSR_not_stonks }
+		relative_position_id = TSR_not_stonks 
+		mutually_exclusive = { focus = TSR_chaos_in_the_kremlin }
+		mutually_exclusive = { focus = TSR_queen_and_the_people }
+		mutually_exclusive = { focus = TSR_secret_military_meeting }
+		
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = TSR_change_focus_tree_lamp.1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+}		

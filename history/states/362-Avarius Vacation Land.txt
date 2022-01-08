@@ -7,8 +7,8 @@ state={
 		owner = AVA
 		add_core_of = AVA	
 		buildings = {
-			arms_factory = 1
-			industrial_complex = 1
+			arms_factory = 2
+			industrial_complex = 3
 			
 			
 			infrastructure = 1
@@ -24,7 +24,7 @@ state={
 		875 2851 4045 
 	}
 	
-	manpower=12500
+	manpower=1012500
 	
 	state_category=city
 }

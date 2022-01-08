@@ -7,8 +7,8 @@ state={
 		owner = KAI
 		add_core_of = KAI
 		buildings = {
-			arms_factory = 0
-			industrial_complex = 0
+			arms_factory = 2
+			industrial_complex = 3
 			
 			
 			infrastructure = 1
@@ -24,7 +24,7 @@ state={
 		835 1169 1396 2609 2787 5783 6069 7045 7795 7813 
 	}
 	
-	manpower=7000
+	manpower=1007000
 	
 	state_category=city
 }

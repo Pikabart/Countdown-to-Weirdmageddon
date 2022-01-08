@@ -50,6 +50,11 @@ MEW_pre_industrial
 
 }
 
+set_autonomy = {
+	target = AIR
+	autonomous_state =  autonomy_puppet
+}
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "2000.1.1"
