@@ -5,6 +5,8 @@
 add_namespace = TSR_change_focus_tree
 add_namespace = TSR_steal_horse_neighbor
 add_namespace = TSR_change_focus_tree_lamp
+add_namespace = TSR_change_focus_tree_queen
+add_namespace = TSR_change_focus_tree_military
 
 country_event = {
 	id = TSR_change_focus_tree.1
@@ -102,6 +104,86 @@ country_event = {
 			}
 		}
 		name = TSR_change_focus_tree_lamp.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = TSR_change_focus_tree_queen.1
+	title = TSR_change_focus_tree_queen.1.t
+	desc = TSR_change_focus_tree_queen.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		hidden_effect = {
+			load_focus_tree = {
+				tree = TSR_focus_pre_coup_queen
+				keep_completed = yes
+			}
+		}
+		name = TSR_change_focus_tree_queen.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = TSR_change_focus_tree_queen.2
+	title = TSR_change_focus_tree_queen.2.t
+	desc = TSR_change_focus_tree_queen.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		hidden_effect = {
+			load_focus_tree = {
+				tree = TSR_focus_post_coup_queen
+				keep_completed = yes
+			}
+		}
+		name = TSR_change_focus_tree_queen.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = TSR_change_focus_tree_military.1
+	title = TSR_change_focus_tree_military.1.t
+	desc = TSR_change_focus_tree_military.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		hidden_effect = {
+			load_focus_tree = {
+				tree = TSR_focus_pre_coup_military
+				keep_completed = yes
+			}
+		}
+		name = TSR_change_focus_tree_military.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = TSR_change_focus_tree_military.2
+	title = TSR_change_focus_tree_military.2.t
+	desc = TSR_change_focus_tree_military.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		hidden_effect = {
+			load_focus_tree = {
+				tree = TSR_focus_post_coup_military
+				keep_completed = yes
+			}
+		}
+		name = TSR_change_focus_tree_military.2.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 	}
 }
