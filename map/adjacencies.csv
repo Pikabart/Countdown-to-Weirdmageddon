@@ -364,6 +364,69 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 686;8901;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
 686;1529;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
 686;8939;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+686;1569;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
+
+
+#North Monster Mountain Range
+729;2488;impassable;-1;-1;-1;-1;-1;;Far Northern Johansen Mines
+7556;2488;impassable;-1;-1;-1;-1;-1;;Far Northern Johansen Mines
+7556;7515;impassable;-1;-1;-1;-1;-1;;Far Northern Johansen Mines
+7590;2488;impassable;-1;-1;-1;-1;-1;;Far Northern Johansen Mines
+7590;7091;impassable;-1;-1;-1;-1;-1;;Far Northern Johansen Mines
+7590;7515;impassable;-1;-1;-1;-1;-1;;Far Northern Johansen Mines
+7590;3548;impassable;-1;-1;-1;-1;-1;;Far Northern Johansen Mines
+3675;3548;impassable;-1;-1;-1;-1;-1;;Far Northern Johansen Mines
+4768;3548;impassable;-1;-1;-1;-1;-1;;Northern Johansen Mines
+4768;4217;impassable;-1;-1;-1;-1;-1;;Northern Johansen Mines
+4768;5562;impassable;-1;-1;-1;-1;-1;;Northern Johansen Mines
+2842;5562;impassable;-1;-1;-1;-1;-1;;Northern Johansen Mines
+2842;2785;impassable;-1;-1;-1;-1;-1;;Northern Johansen Mines
+6683;5929;impassable;-1;-1;-1;-1;-1;;State 404
+6683;2756;impassable;-1;-1;-1;-1;-1;;State 404
+7882;2756;impassable;-1;-1;-1;-1;-1;;State 404
+7882;2066;impassable;-1;-1;-1;-1;-1;;State 404
+7882;7909;impassable;-1;-1;-1;-1;-1;;State 404
+7939;7909;impassable;-1;-1;-1;-1;-1;;State 403
+5749;7909;impassable;-1;-1;-1;-1;-1;;State 403
+5749;6563;impassable;-1;-1;-1;-1;-1;;State 403
+1198;6563;impassable;-1;-1;-1;-1;-1;;State 403
+7991;6563;impassable;-1;-1;-1;-1;-1;;State 403
+3478;7926;impassable;-1;-1;-1;-1;-1;;State 403
+4789;7926;impassable;-1;-1;-1;-1;-1;;State 402
+4789;7096;impassable;-1;-1;-1;-1;-1;;State 402
+4789;5991;impassable;-1;-1;-1;-1;-1;;State 402
+2450;5991;impassable;-1;-1;-1;-1;-1;;State 402
+5760;5991;impassable;-1;-1;-1;-1;-1;;State 402
+5760;3909;impassable;-1;-1;-1;-1;-1;;State 402
+5760;1015;impassable;-1;-1;-1;-1;-1;;State 402
+5760;7997;impassable;-1;-1;-1;-1;-1;;State 402
+3621;6195;impassable;-1;-1;-1;-1;-1;;State 402
+3621;3391;impassable;-1;-1;-1;-1;-1;;State 402
+1313;3391;impassable;-1;-1;-1;-1;-1;;State 403
+1313;5855;impassable;-1;-1;-1;-1;-1;;State 403
+8021;2839;impassable;-1;-1;-1;-1;-1;;State 403
+8021;1511;impassable;-1;-1;-1;-1;-1;;State 403
+7980;1511;impassable;-1;-1;-1;-1;-1;;State 403
+7980;4472;impassable;-1;-1;-1;-1;-1;;State 403
+2892;4472;impassable;-1;-1;-1;-1;-1;;State 403
+2892;8003;impassable;-1;-1;-1;-1;-1;;State 403
+2892;4871;impassable;-1;-1;-1;-1;-1;;State 403
+1496;4871;impassable;-1;-1;-1;-1;-1;;State 404
+1496;7904;impassable;-1;-1;-1;-1;-1;;State 404
+7888;7904;impassable;-1;-1;-1;-1;-1;;State 404
+7888;3396;impassable;-1;-1;-1;-1;-1;;State 404
+7888;7841;impassable;-1;-1;-1;-1;-1;;State 404
+3644;7841;impassable;-1;-1;-1;-1;-1;;State 404
+3644;5774;impassable;-1;-1;-1;-1;-1;;State 404
+6941;5774;impassable;-1;-1;-1;-1;-1;;State 404
+6941;4531;impassable;-1;-1;-1;-1;-1;;State 404
+7741;4196;impassable;-1;-1;-1;-1;-1;;Northern Johansen Mines
+1963;4196;impassable;-1;-1;-1;-1;-1;;Northern Johansen Mines
+1963;3430;impassable;-1;-1;-1;-1;-1;;Northern Johansen Mines
+6367;3430;impassable;-1;-1;-1;-1;-1;;Far Northern Johansen Mines
+6367;430;impassable;-1;-1;-1;-1;-1;;Far Northern Johansen Mines
+2281;3430;impassable;-1;-1;-1;-1;-1;;Far Northern Johansen Mines
+2281;7609;impassable;-1;-1;-1;-1;-1;;Far Northern Johansen Mines
 
 # Lower Ridge
 141;5860;impassable;-1;-1;-1;-1;-1;;Underworld Cieling
