@@ -1,0 +1,264 @@
+focus_tree = {
+
+	id = TSR_focus_post_coup_military
+	
+	country = {
+		factor = 0		
+		modifier = {
+		#	add = 100
+		#	tag = TSR
+		}
+	}
+	
+	default = no 
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+	
+	focus = { 
+		id = TSR_MIL_daggers_with_the_people
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_MIL_police_corps
+		icon = a
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = TSR_MIL_daggers_with_the_people }
+		relative_position_id = TSR_MIL_daggers_with_the_people 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = TSR_MIL_police
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_MIL_judge_jury_exec
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_MIL_police_corps }
+		relative_position_id = TSR_MIL_police_corps 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = TSR_MIL_police
+				add_idea = TSR_MIL_police_2
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = TSR_MIL_loyalty_or_death
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_MIL_judge_jury_exec }
+		relative_position_id = TSR_MIL_judge_jury_exec 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = TSR_MIL_police_2
+				add_idea = TSR_MIL_police_3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_MIL_military_above_all
+		icon = a
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = TSR_MIL_daggers_with_the_people }
+		relative_position_id = TSR_MIL_daggers_with_the_people 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.10
+			add_ideas = closed_economy
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+	focus = { 
+		id = TSR_MIL_all_serve_the_military
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_MIL_military_above_all }
+		relative_position_id = TSR_MIL_military_above_all 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+			add_ideas = all_adults_serve
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_MIL_culture_serve_military
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_MIL_all_serve_the_military }
+		relative_position_id = TSR_MIL_all_serve_the_military 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = TSR_MIL_artificial_culture
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = TSR_MIL_society_under_the_jackboot
+		icon = a
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = TSR_MIL_culture_serve_military }
+		prerequisite = { focus = TSR_MIL_loyalty_or_death }
+		relative_position_id = TSR_MIL_culture_serve_military 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+}		

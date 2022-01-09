@@ -1,0 +1,286 @@
+focus_tree = {
+
+	id = TSR_focus_pre_coup_military
+	
+	country = {
+		factor = 0		
+		modifier = {
+		#	add = 100
+		#	tag = TSR
+		}
+	}
+	
+	default = no 
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+
+	focus = { 
+		id = TSR_MIL_plan
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = TSR_MIL_loyalists
+		icon = a
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = TSR_MIL_plan }
+		relative_position_id = TSR_MIL_plan 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_MIL_bribery_blackmail
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_MIL_loyalists }
+		relative_position_id = TSR_MIL_loyalists 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_MIL_flex
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_MIL_bribery_blackmail }
+		relative_position_id = TSR_MIL_bribery_blackmail 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_MIL_sabatoge
+		icon = a
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = TSR_MIL_plan }
+		relative_position_id = TSR_MIL_plan 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = TSR_sabotage_plans
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_MIL_manipulate_schedule
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_MIL_sabatoge }
+		relative_position_id = TSR_MIL_sabatoge 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_MIL_roadblocks
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_MIL_manipulate_schedule }
+		relative_position_id = TSR_MIL_manipulate_schedule 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_MIL_coup
+		icon = a
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = TSR_MIL_roadblocks }
+		prerequisite = { focus = TSR_MIL_flex }
+		relative_position_id = TSR_MIL_roadblocks 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = -0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = TSR_MIL_parade
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = TSR_MIL_coup }
+		relative_position_id = TSR_MIL_coup 
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = TSR_change_focus_tree_military.2
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+}		
