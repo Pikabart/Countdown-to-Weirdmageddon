@@ -1,7 +1,6 @@
 state={
-	id=287
-	name="STATE_287"
-	local_supplies=0.0 
+	id=470
+	name="STATE_470"
 	
 	history {
 		owner = MEW
@@ -16,17 +15,17 @@ state={
 			anti_air_building = 0
 			radar_station = 0
 			
-			5224 = {naval_base = 4}
+			7763 = {naval_base = 2}
 		}
 		
-		victory_points = { 5224 40 }
+		victory_points = { 7763 30 }
 	}
 	
 	provinces={
-		5224 
+		2558 5386 7763 
 	}
-	
 	manpower=5000
-	
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
 	state_category=city 
 }
