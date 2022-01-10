@@ -46,6 +46,78 @@ on_actions = {
 					country_event = ludo_win.1
 				}
 			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MW1
+						
+					}
+				}
+				FROM = {
+					transfer_state = 443
+					add_state_core = 443
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MW2
+						
+					}
+				}
+				FROM = {
+					transfer_state = 382
+					add_state_core = 382
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MW3
+						
+					}
+				}
+				FROM = {
+					transfer_state = 448
+					add_state_core = 448
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MW4
+						
+					}
+				}
+				FROM = {
+					transfer_state = 440
+					add_state_core = 440
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MW5
+						
+					}
+				}
+				FROM = {
+					transfer_state = 453
+					add_state_core = 453
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MW6
+						
+					}
+				}
+				FROM = {
+					transfer_state = 363
+					add_state_core = 363
+				}
+			}
 		}
 	}
 	

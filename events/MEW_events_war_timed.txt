@@ -4,6 +4,7 @@
 
 add_namespace = star_tom_start
 add_namespace = star_tom_start_decision
+add_namespace = old_discoveries
 add_namespace = mina_return
 add_namespace = ost_mew_surrender
 add_namespace = ludo_surrender
@@ -37,6 +38,26 @@ country_event = {
 		}	
 	}
 	
+}
+
+country_event = {
+	id = old_discoveries.1
+	title = old_discoveries.1.t
+	desc = old_discoveries.1.d
+	picture = GFX_report_event_toffee_concerned
+		
+	trigger = {
+		original_tag = MEW
+		OST = { surrender_progress > 0.1 }
+	}	
+	fire_only_once = yes	
+	
+	option = {
+		name = old_discoveries.1.a
+		custom_effect_tooltip = old_discoveries.1.c
+		ai_chance = { factor = 100 }	
+		add_political_power = -25
+	}	
 }
 
 country_event = {
@@ -74,6 +95,37 @@ country_event = {
 }
 
 country_event = {
+	id = old_discoveries.2
+	title = old_discoveries.2.t
+	desc = old_discoveries.2.d
+	picture = GFX_report_event_horseless_carriage
+		
+	trigger = {
+		original_tag = MEW
+		OST = { surrender_progress > 0.35 }
+	}	
+	fire_only_once = yes	
+	
+	option = {
+		name = old_discoveries.2.a
+		custom_effect_tooltip = old_discoveries.2.c
+		ai_chance = { factor = 100 }	
+		add_tech_bonus = {
+			name = train_tech_bonus
+			bonus = 0.25
+			uses = 1
+			category = train_tech
+		}
+		add_tech_bonus = {
+			name = motorized_equipment_bonus
+			bonus = 0.25
+			uses = 1
+			category = motorized_equipment
+		}
+	}	
+}
+
+country_event = {
 	id = star_tom_start_decision.2
 	title = star_tom_start_decision.2.t
 	desc = star_tom_start_decision.2.d
@@ -88,7 +140,7 @@ country_event = {
 	
 	option = {
 		name = star_tom_start_decision.2.a
-		ai_chance = { factor = 90 }
+		ai_chance = { factor = 95 }
 		hidden_effect = {
 			MEW = { country_event = { id = star_tom_start.3 days = 1 } }
 		}
@@ -96,7 +148,7 @@ country_event = {
 	
 	option = {
 		name = star_tom_start_decision.2.b
-		ai_chance = { factor = 90 }
+		ai_chance = { factor = 5 }
 
 	}
 	
