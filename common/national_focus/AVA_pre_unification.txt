@@ -1,0 +1,923 @@
+focus_tree = {
+
+	id = AVA_pre_unification
+	
+	country = {
+		factor = 0		
+		modifier = {
+			add = 100 # 100% AVA get focus, 0% everyone else, so basicly gurrenteed
+			tag = AVA
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = { 
+		id = AVA_eyes_on_the_castle
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AVA_resettle_magic_streams
+		icon = a
+		x = -2
+		y = 1
+		
+		prerequisite = { focus = AVA_eyes_on_the_castle }
+		relative_position_id = AVA_eyes_on_the_castle
+		
+		available = {
+		}
+				
+		bypass = {
+			440 = { NOT = { owned_by = AVA } }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			440 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AVA_magic_streams_extraction
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_resettle_magic_streams }
+		prerequisite = { focus = AVA_build_up_exile }
+		prerequisite = { focus = AVA_resettle_avarius_mines }
+		relative_position_id = AVA_resettle_magic_streams
+		
+		available = {
+		}
+				
+		bypass = {
+			440 = { NOT = { owned_by = AVA } }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_resource = {
+				type = oil
+				amount = 12
+				state = 440
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AVA_enchant_kappa
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_magic_streams_extraction }
+		prerequisite = { focus = AVA_build_bureaucracy }
+		prerequisite = { focus = AVA_avarius_mines_extraction }
+		relative_position_id = AVA_magic_streams_extraction
+		
+		available = {
+		}
+				
+		bypass = {
+			440 = { NOT = { owned_by = AVA } }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_resource = {
+				type = oil
+				amount = 12
+				state = 439
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = AVA_resettle_avarius_mines
+		icon = a
+		x = 2
+		y = 1
+		
+		prerequisite = { focus = AVA_eyes_on_the_castle }
+		relative_position_id = AVA_eyes_on_the_castle
+		
+		available = {
+		}
+				
+		bypass = {
+			453 = { NOT = { owned_by = AVA } }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			453 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AVA_avarius_mines_extraction
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_resettle_avarius_mines }
+		prerequisite = { focus = AVA_resettle_magic_streams }
+		prerequisite = { focus = AVA_build_up_exile }
+		relative_position_id = AVA_resettle_avarius_mines
+		
+		available = {
+		}
+				
+		bypass = {
+			453 = { NOT = { owned_by = AVA } }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 12
+				state = 453
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AVA_break_into_stallward
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_build_bureaucracy }
+		prerequisite = { focus = AVA_magic_streams_extraction }
+		prerequisite = { focus = AVA_avarius_mines_extraction }
+		relative_position_id = AVA_avarius_mines_extraction
+		
+		available = {
+		}
+				
+		bypass = {
+			453 = { NOT = { owned_by = AVA } }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = excavation_tech
+			}
+		
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AVA_build_up_exile
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_eyes_on_the_castle }
+		relative_position_id = AVA_eyes_on_the_castle
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			362 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AVA_build_bureaucracy
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_build_up_exile }
+		prerequisite = { focus = AVA_resettle_avarius_mines }
+		prerequisite = { focus = AVA_resettle_magic_streams }
+		relative_position_id = AVA_build_up_exile
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = AVA_build_advice_council
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_build_bureaucracy }
+		prerequisite = { focus = AVA_magic_streams_extraction }
+		prerequisite = { focus = AVA_avarius_mines_extraction }
+		relative_position_id = AVA_build_bureaucracy
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AVA_active_exile
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_build_advice_council }
+		prerequisite = { focus = AVA_enchant_kappa }
+		prerequisite = { focus = AVA_break_into_stallward }
+		relative_position_id = AVA_build_advice_council
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = AVA_paralyzed_exile
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AVA_civ_factory_1
+		icon = a
+		x = -2
+		y = 1
+		
+		prerequisite = { focus = AVA_active_exile }
+		relative_position_id = AVA_active_exile
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = AVA_civ_factory_2
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_civ_factory_1 }
+		relative_position_id = AVA_civ_factory_1
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AVA_civ_factory_3
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_civ_factory_2 }
+		relative_position_id = AVA_civ_factory_2
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AVA_mil_factory_1
+		icon = a
+		x = 2
+		y = 1
+		
+		prerequisite = { focus = AVA_active_exile }
+		relative_position_id = AVA_active_exile
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = AVA_mil_factory_2
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_mil_factory_1 }
+		relative_position_id = AVA_mil_factory_1
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AVA_mil_factory_3
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_mil_factory_2 }
+		relative_position_id = AVA_mil_factory_2
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = AVA_mil_to_take_back_castle
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_active_exile }
+		relative_position_id = AVA_active_exile
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_manpower = 25000
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = AVA_freikorps
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_mil_to_take_back_castle }
+		relative_position_id = AVA_mil_to_take_back_castle
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 362 }
+				create_unit = {
+						division = "name = \"FreiKorps Kavalry\" division_template = \"Warnicorn Brigade\" start_experience_factor = 1"
+						owner = AVA
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AVA_eyes_on_the_drug_empire
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_freikorps }
+		relative_position_id = AVA_freikorps
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = AVA_drg_bonus
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AVA_fortify_headquarters
+		icon = a
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = AVA_eyes_on_the_drug_empire }
+		prerequisite = { focus = AVA_mil_factory_3 }
+		relative_position_id = AVA_eyes_on_the_drug_empire
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 4045
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = AVA_fortify_surroundings
+		icon = a
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = AVA_eyes_on_the_drug_empire }
+		prerequisite = { focus = AVA_civ_factory_3 }
+		relative_position_id = AVA_eyes_on_the_drug_empire
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 794
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 2851
+			}
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 875
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = AVA_fort_avarius
+		icon = a
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = AVA_fortify_surroundings }
+		prerequisite = { focus = AVA_fortify_headquarters }
+		relative_position_id = AVA_fortify_surroundings
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 4045
+			}
+			set_province_name = {
+				id = 4045
+				name = Fortvarius
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+
+}

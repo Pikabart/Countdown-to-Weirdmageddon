@@ -1,0 +1,72 @@
+characters = {
+	TSR_tsar = {
+		name = "Tsar Deez of House Nuts" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/TSR/hoi4_portrait_moth.dds"
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+	TSR_tsar_wife = {
+		name = "Tsarina Katerina of House Nuts" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+	}
+	TSR_grand_marshal = {
+		name = "Petyr Grozsny"
+		desc = ""
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		field_marshal= {
+		traits = { politically_connected career_officer old_guard }
+			skill = 2
+
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+		
+		}
+	}
+	TSR_young_marshal = {
+		name = "David Tuschelsk"
+		desc = ""
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		corps_commander= {
+		traits = { career_officer }
+			skill = 1
+
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		
+		}
+	}
+	TSR_mewman_advisor = {
+		name = "Asty Something Something"
+		desc = ""
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+	}
+}	

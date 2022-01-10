@@ -159,8 +159,6 @@ country_event = {
 			MEW = { transfer_state = 296 }
 			OST = { transfer_state = 277 }
 			OST = { transfer_state = 291 }
-			OST = { transfer_state = 278 }
-			OST = { transfer_state = 427 }
 			MEW = { country_event = { id = ost_mew_surrender.2 days = 7 }}
 			clr_country_flag = ost_war_starting
 			set_country_flag = conquer_ost
@@ -185,14 +183,28 @@ country_event = {
 		hidden_effect = {
 			PIG = { transfer_state = 285 }
 			PIG = { transfer_state = 281 }
-			PIG = { transfer_state = 286 }
 			PIG = { transfer_state = 282 }
 			PIG = { transfer_state = 283 }
 			PIG = { transfer_state = 298 }
-			PIG = { transfer_state = 297 }
-			PIG = { transfer_state = 295 }
 			PIG = { transfer_state = 279 }
 			PIG = { transfer_state = 296 }
+			OST = {
+				set_autonomy = {
+					target = AIR
+					autonomy_state = autonomy_free
+					end_wars = yes
+					end_civil_wars = no
+				}
+			}
+			PIG = {
+				set_autonomy = {
+					target = AIR
+					autonomy_state = autonomy_puppet
+					end_wars = yes
+					end_civil_wars = no
+				}
+			}
+			AIR = { set_cosmetic_tag = AIR_MEW }
 		
 		MEW = {
 			load_focus_tree = {

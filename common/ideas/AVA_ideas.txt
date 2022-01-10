@@ -1,0 +1,37 @@
+##########GENERIC IDEAS and ADVISORS for MONSTER WARLORDS  ##############
+
+ideas = {
+
+	######################################################
+	#National Spirits
+	######################################################
+	country = {
+		AVA_paralyzed_exile = {
+			picture = FRA_factory_strikes
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = 0.15
+				war_support_factor = -0.35
+				training_time_factor = 2
+				
+			}
+		}
+		AVA_drg_bonus = {
+			picture = FRA_factory_strikes
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			targeted_modifier = {	
+				tag = DRG
+				attack_bonus_against = 0.05
+			}
+		}
+
+	}
+}

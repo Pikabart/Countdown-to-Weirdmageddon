@@ -6,6 +6,7 @@ state={
 	history {
 		owner = OST
 		add_core_of = OST
+		add_core_of = PIG
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 1
@@ -16,7 +17,7 @@ state={
 			anti_air_building = 0
 			radar_station = 0
 		}
-		victory_points = { 8064 5 }	
+		victory_points = { 8064 20 }	
 		victory_points = { 2974 5 }
 	}
 	

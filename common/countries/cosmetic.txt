@@ -8,6 +8,11 @@ MEW = {
  color_ui = rgb { 101 255 255 }
 }
 
+AIR_MEW = {
+ color = rgb { 101 255 255 }
+ color_ui = rgb { 101 255 255 }
+}
+
 #####After Breakup of the Kingdom of Mewni
 #------------------------------------
 LUC_IND = {
