@@ -1,0 +1,25 @@
+﻿###########################
+# Kaiserreich
+###########################
+
+add_namespace = AVA_change_tree
+
+country_event = {
+	id = AVA_change_tree.1
+	title = AVA_change_tree.1.t
+	desc = AVA_change_tree.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = AVA_change_tree.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			load_focus_tree = {
+				tree = AVA_pre_unification
+				keep_completed = yes
+			}
+		}
+	}
+}

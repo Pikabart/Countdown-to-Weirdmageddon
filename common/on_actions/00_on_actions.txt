@@ -81,6 +81,7 @@ on_actions = {
 				}
 				FROM = {
 					transfer_state = 443
+					add_state_core = 443
 				}
 			}
 			else_if = {
@@ -92,6 +93,7 @@ on_actions = {
 				}
 				FROM = {
 					transfer_state = 382
+					add_state_core = 382
 				}
 			}
 			else_if = {
@@ -103,6 +105,7 @@ on_actions = {
 				}
 				FROM = {
 					transfer_state = 448
+					add_state_core = 448
 				}
 			}
 			else_if = {
@@ -114,6 +117,7 @@ on_actions = {
 				}
 				FROM = {
 					transfer_state = 440
+					add_state_core = 440
 				}
 			}
 			else_if = {
@@ -125,6 +129,7 @@ on_actions = {
 				}
 				FROM = {
 					transfer_state = 453
+					add_state_core = 453
 				}
 			}
 			else_if = {
@@ -136,6 +141,7 @@ on_actions = {
 				}
 				FROM = {
 					transfer_state = 363
+					add_state_core = 363
 				}
 			}
 		}
