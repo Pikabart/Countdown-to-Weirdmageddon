@@ -198,6 +198,16 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MEW/report_event_eclipsa_chained.dds"
 	}
 	
+	spriteType = { # Old Trains
+		name = "GFX_report_event_old_trains"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_old_trains.dds"
+	}
+	
+	spriteType = { # Horseless Carriages
+		name = "GFX_report_event_horseless_carriage"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_horseless_carriage.dds"
+	}
+	
 	
    #############################################################
    #  Decisions

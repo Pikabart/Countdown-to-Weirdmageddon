@@ -1,5 +1,5 @@
 on_actions = {
-	
+
 	#Mewni Early War and First Civil War
 	on_capitulation = {
 		effect = {

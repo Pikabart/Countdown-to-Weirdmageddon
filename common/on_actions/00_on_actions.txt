@@ -22,7 +22,6 @@ on_actions = {
 			ORE = {
 				country_event = { id = ORE_START.1 } # Event code is in ORE events
 			}
-			
 		}	
 	}
 	
