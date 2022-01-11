@@ -15,15 +15,17 @@ state={
 			air_base = 0
 			anti_air_building = 0
 			radar_station = 0
+			
+			3111 = {naval_base = 1}
 		}
-		victory_points = { 7972 5 }
+		victory_points = { 3111 25 }
 	}
 	
 	provinces={
-		7721 7972 
+		7721 7972 1059 3111 2568
 	}
 	
 	manpower=500
 	
-	state_category=small_island
+	state_category=town
 }

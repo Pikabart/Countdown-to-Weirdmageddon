@@ -14,7 +14,7 @@
  VICTORY_POINTS_7828:0 "Lower Miner Quarters"
  VICTORY_POINTS_7984:0 "Skywynne Institute"
  VICTORY_POINTS_1274:0 "Skywynne Student Quarters"
- VICTORY_POINTS_6724:0 "Comet's Gate"
+ VICTORY_POINTS_4401:0 "Comet's Gate"
  VICTORY_POINTS_8091:0 "Comet's Tulips"
  VICTORY_POINTS_6980:0 "Komet's Kush"
  VICTORY_POINTS_2057:0 "Stallward Gift Shop"
@@ -40,3 +40,17 @@
 
  #Tsardom VPs
  VICTORY_POINTS_5991:0 "Mothscow"
+ 
+ #Port Cities CPs
+ VICTORY_POINTS_5966:0 "Port Festiva"
+ VICTORY_POINTS_5224:0 "Port Emily"
+ VICTORY_POINTS_7942:0 "Port Dove"
+ VICTORY_POINTS_7763:0 "Port Zhong"
+ VICTORY_POINTS_1909:0 "Port Malavita"
+ VICTORY_POINTS_3111:0 "Luna Sorting Dock"
+ 
+ #Pie Folk VPs
+ VICTORY_POINTS_8615:0 "Pie Town"
+  
+ #Ostro Starvarian
+ VICTORY_POINTS_8064:0 "Pigeon Nest"

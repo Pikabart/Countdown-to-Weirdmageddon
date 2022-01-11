@@ -1,3 +1,40 @@
+############################ ITGUY 01/09/22
+
+common/on_actions
+
+events
+
+gfx/models/supply
+gfx/interface/
+gfx/interface/buildings
+
+history/states
+
+localization
+
+map
+
+############################ ITGUY 01/09/22
+
+common/on_actions
+
+events
+
+gfx/events_countries/MEW
+
+interface
+
+localization
+
+############################ ITGUY 01/06/22
+history/states
+
+localization/eng/state_names_mewni
+localization/eng/VP_points_mewni
+
+map/airports,buildings,rocketsites
+map/startegic_region 39,45, 51, 52, 54
+
 ############################ ITGUY 01/06/22
 common/ideas
 common/national_focus
