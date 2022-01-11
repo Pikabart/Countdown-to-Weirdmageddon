@@ -4,6 +4,22 @@ common/on_actions
 
 events
 
+gfx/models/supply
+gfx/interface/
+gfx/interface/buildings
+
+history/states
+
+localization
+
+map
+
+############################ ITGUY 01/09/22
+
+common/on_actions
+
+events
+
 gfx/events_countries/MEW
 
 interface
