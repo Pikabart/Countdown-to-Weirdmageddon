@@ -6,7 +6,6 @@ state={
 	history {
 		owner = OST
 		add_core_of = OST
-		add_core_of = PIG
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 1

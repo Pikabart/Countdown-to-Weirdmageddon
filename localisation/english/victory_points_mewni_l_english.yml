@@ -14,7 +14,7 @@
  VICTORY_POINTS_7828:0 "Lower Miner Quarters"
  VICTORY_POINTS_7984:0 "Skywynne Institute"
  VICTORY_POINTS_1274:0 "Skywynne Student Quarters"
- VICTORY_POINTS_6724:0 "Comet's Gate"
+ VICTORY_POINTS_4401:0 "Comet's Gate"
  VICTORY_POINTS_8091:0 "Comet's Tulips"
  VICTORY_POINTS_6980:0 "Komet's Kush"
  VICTORY_POINTS_2057:0 "Stallward Gift Shop"
@@ -51,6 +51,6 @@
  
  #Pie Folk VPs
  VICTORY_POINTS_8615:0 "Pie Town"
- 
+  
  #Ostro Starvarian
  VICTORY_POINTS_8064:0 "Pigeon Nest"
