@@ -1,0 +1,101 @@
+focus_tree = {
+
+	id = KAI_focus_junta_victory
+	
+	country = {
+		factor = 0		
+		modifier = {
+			add = 100 
+			tag = KAI
+		}
+	}
+	
+	default = no 
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+	
+
+	focus = { 
+		id = KAI_cold_embrace
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+        focus = { 
+ 		id = KAI_infernal_heat
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_cold_embrace }
+ 		relative_position_id = KAI_cold_embrace
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_blood_iron
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_infernal_heat }
+ 		relative_position_id = KAI_infernal_heat
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
