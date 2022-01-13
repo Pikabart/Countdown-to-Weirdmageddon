@@ -1,0 +1,20 @@
+### Leaders and such for GTF ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_leaders_GTF_stan_pines"
+			texturefile = "gfx/leaders/GTF/Portrait_Falls_Stan_Pines.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_huckabone"
+			texturefile = "gfx/leaders/GTF/Portrait_Falls_Mayor_Befufftlefumpter.dds"
+		}	
+	spriteType = {
+			name = "GFX_leaders_blubs"
+			texturefile = "gfx/leaders/GTF/Portrait_Falls_Sheriff_Blubs.dds"
+		}	
+	spriteType = {
+			name = "GFX_leaders_durland"
+			texturefile = "gfx/leaders/GTF/Portrait_Falls_Deputy_Durland.dds"
+		}	
+}

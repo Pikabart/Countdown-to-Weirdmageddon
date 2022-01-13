@@ -1,0 +1,29 @@
+### Leaders and such for GTF ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_leaders_darlene"
+			texturefile = "gfx/leaders/TRAP/Portrait_Spider_Darlene.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_darlene_spider"
+			texturefile = "gfx/leaders/TRAP/Portrait_Spider_Darlene_Spider.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_corn_man"
+			texturefile = "gfx/leaders/TRAP/Portrait_Spider_Corn_Man.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_granny_yarn"
+			texturefile = "gfx/leaders/TRAP/Portrait_Spider_Granny_Yarn.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_log_lady"
+			texturefile = "gfx/leaders/TRAP/Portrait_Spider_Log_Lady.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_upside_down_man"
+			texturefile = "gfx/leaders/TRAP/Portrait_Spider_Upside.dds"
+		}	
+	
+}

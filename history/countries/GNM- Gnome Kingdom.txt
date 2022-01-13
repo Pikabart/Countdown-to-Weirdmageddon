@@ -52,22 +52,14 @@ set_popularities = {
 	neutrality = 80
 }
 
-create_country_leader = {
-	name = "Jeff Little-Legs"
-	desc = "POLITICS_JEFF_DESC"
-	picture = "hoi4_portrait_Jeff_Gnome.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
+recruit_character = GNM_jeff
 
-create_country_leader = {
-	name = "Shmebulysses Q. Locke III"
-	desc = "POLITICS_SHMEBULOCK_DESC"
-	picture = ""
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	name = "Shmebulysses Q. Locke III"
+#	desc = "POLITICS_SHMEBULOCK_DESC"
+#	picture = ""
+#	ideology = liberalism
+#	traits = {
+#		#
+#	}
+#}

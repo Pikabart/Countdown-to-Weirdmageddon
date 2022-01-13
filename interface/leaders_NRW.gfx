@@ -1,0 +1,13 @@
+### Leaders and such for GTF ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_leaders_preston_northwest"
+			texturefile = "gfx/leaders/NRW/Portrait_Manor_Preston_Northwest.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_pacifica_northwest"
+			texturefile = "gfx/leaders/NRW/Portrait_Manor_Pacifica_Northwest.dds"
+		}	
+	
+}

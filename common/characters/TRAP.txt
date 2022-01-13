@@ -1,0 +1,100 @@
+characters = {###########################################################
+	
+	MYM_darlene = {
+		name = "Darlene" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_darlene"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+		}	
+	}
+	
+	MYM_darlene_spider = {
+		name = "Darlene The Spider" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_darlene_spider"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = fascism_ideology
+			expire = "2040.1.1.1"
+			id = -1
+		}	
+	}
+	
+	COR_corn_man = {
+		name = "Corn Man" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_corn_man"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+		}	
+	}
+	
+	YBL_granny_sweetkin = {
+		name = "Granny Sweetkin" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_granny_yarn"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+		}	
+	}
+	
+	LOG_log_lady = {
+		name = "Log Lady" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_log_lady"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+		}	
+	}
+	
+	UPD_boss = {
+		name = "Upside-Down Town boss" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_upside_down_man"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+		}	
+	}
+
+}###########################################################
+	

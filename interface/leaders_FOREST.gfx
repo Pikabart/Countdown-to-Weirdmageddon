@@ -1,0 +1,25 @@
+### Leaders and such for GTF ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_leaders_jeff_little-legs"
+			texturefile = "gfx/leaders/FOREST/Portrait_Forest_Jeff_Little-Legs.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_leaderaur"
+			texturefile = "gfx/leaders/FOREST/Portrait_Forest_Leaderaur.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_multi_corn"
+			texturefile = "gfx/leaders/FOREST/Portrait_Forest_Multi_Corn.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_celestabellebethabelle"
+			texturefile = "gfx/leaders/FOREST/Portrait_Forest_Celestabellebethabelle.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_john_multibear"
+			texturefile = "gfx/leaders/FOREST/Portrait_Forest_John_Multibear.dds"
+		}
+	
+}

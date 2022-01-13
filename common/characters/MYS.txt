@@ -4,7 +4,7 @@ characters = {
 		
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MYS/Portrait_Stan_Pines.dds"
+				large = "GFX_leaders_stan_pines"
 			}
 		}
 		country_leader = {
@@ -30,7 +30,7 @@ characters = {
 		desc = ""
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MYS/Portrait_Mabel_Pines.dds"
+				large = "GFX_leaders_mabel_pines"
 				small = "GFX_idea_mabel_1"
 			}
 		}
@@ -62,7 +62,7 @@ characters = {
 		desc = ""
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MYS/Portrait_Wendy_Corduroy.dds"
+				large = "GFX_leaders_wendy_corduroy"
 				small = "GFX_idea_wendy_1"
 			}
 		}
@@ -109,6 +109,7 @@ characters = {
 		desc = ""
 		portraits = {
 			civilian = {
+				large = "GFX_leaders_soos_rameriz"
 				small = "GFX_idea_advisor_soos"
 			}
 		}
@@ -126,10 +127,19 @@ characters = {
 			available = {	
 				has_completed_focus = MYS_soos_1 
 			}
-			traits = { handy_man } 
+			traits = { handy_man }
 			ai_will_do = {
 				factor = 40 
 			}
+		}
+		navy_leader = {
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 1
+			maneuvering_skill = 5
+			coordination_skill = 1
+			visible = { has_completed_focus = MYS_soos_1 }
 		}
 	}
 	
@@ -193,7 +203,7 @@ characters = {
 		desc = ""
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MYS/Portrait_Wendy_Annie_Corduroy.dds"
+				large = "GFX_leaders_wendy_annie_corduroy"
 			}
 		}
 		corps_commander= {
@@ -218,7 +228,7 @@ characters = {
 		desc = ""
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/MYS/Portrait_Tyrone.dds"
+				large = "GFX_leaders_tyrone_pines"
 			}
 		}
 		corps_commander= {

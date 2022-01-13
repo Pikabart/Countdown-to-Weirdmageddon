@@ -67,22 +67,5 @@ add_to_faction = UPD
 add_to_faction = LOG
 add_to_faction = COR
 
-create_country_leader = {
-	name = "Darlene"
-	desc = "Oh, honey. You're so funny."
-	picture = "hoi4_portrait_darlene_human.dds"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Darlene"
-	desc = "You're so funny, I could eat you up!"
-	picture = "hoi4_portrait_darlene_spider.dds"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
+recruit_character = MYM_darlene
+recruit_character = MYM_darlene_spider
