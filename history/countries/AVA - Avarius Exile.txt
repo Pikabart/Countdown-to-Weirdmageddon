@@ -37,7 +37,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Lord Brudo of House Avarius"
 	desc = ""
-	picture = "hoi4_portrait_river_butterfly2.dds"
+	picture = "hoi4_portrait_brudo.dds"
 	ideology = oligarchism
 	traits = {
 		#
