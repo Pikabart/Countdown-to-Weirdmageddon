@@ -192,7 +192,7 @@ ideas = { #Entire file
 		##############
 		
 		MYS_bet_wrong = { # Twin Division
-			picture = ""
+			picture = MYS_journal_3
 			
 			allowed = {tag = MYS}
 			available = {}#Until Ford returns
@@ -207,7 +207,7 @@ ideas = { #Entire file
 		}
 		
 		MYS_bet_loser = { # Twin Division
-			picture = ""
+			picture = MYS_journal_3
 			
 			allowed = {tag = MYS}
 			available = {}#Until Ford returns
@@ -239,7 +239,8 @@ ideas = { #Entire file
 		###############
 		
 		MYS_fixin_it_with_soos = {
-		
+			picture = MYS_journal_3
+			
 			allowed = {tag = MYS}
 			available = {}
 			cancel = {}
@@ -252,7 +253,8 @@ ideas = { #Entire file
 		###############
 		
 		MYS_janky_building = {
-		
+			picture = MYS_journal_3
+			
 			allowed = {tag = MYS}
 			available = {}
 			cancel = {}

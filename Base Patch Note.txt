@@ -1,3 +1,45 @@
+############################ ITGUY 01/12/22
+
+common/characters - FOREST, GTF, MYS, NRW, TRAP
+common/ideas
+
+gfx/interface/ideas/mys
+
+gfx/leaders/ FOREST, GTF, MYS, NRW, TRAP, EUS
+
+history/countries
+
+interface/Leaders_FOREST, GTF, MYS, NRW, TRAP, EUS
+
+
+############################ ITGUY 01/09/22
+
+common/on_actions
+
+events
+
+gfx/models/supply
+gfx/interface/
+gfx/interface/buildings
+
+history/states
+
+localization
+
+map
+
+############################ ITGUY 01/09/22
+
+common/on_actions
+
+events
+
+gfx/events_countries/MEW
+
+interface
+
+localization
+
 ############################ ITGUY 01/06/22
 history/states
 

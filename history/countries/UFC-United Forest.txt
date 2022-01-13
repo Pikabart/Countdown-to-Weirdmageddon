@@ -52,29 +52,6 @@ set_popularities = {
 	neutrality = 5
 }
 
-create_country_leader = {
-	name = "Dual Prime Ministership"
-	desc = "POLITICS_MULTIBEAR_DESC"
-	picture = "Portrait_Dual_PM.dds"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Multi-Bear"
-	desc = "POLITICS_MULTIBEAR_DESC"
-	picture = "Portrait_Multi-bear.dds"
-	ideology = moderatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Celestabellebethabelle"
-	desc = "POLITICS_CELESTA_DESC"
-	picture = ""
-	ideology = fascism_ideology
-}
+recruit_character = UFC_multi_corn
+recruit_character = UFC_multi_bear
+recruit_character = UFC_unicorn
