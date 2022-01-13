@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-			add = 100 # 100% AVA get focus, 0% everyone else, so basicly gurrenteed
-			tag = AVA
+		#	add = 100 # 100% AVA get focus, 0% everyone else, so basicly gurrenteed
+		#	tag = AVA
 		}
 	}
 	
@@ -54,7 +54,7 @@ focus_tree = {
 		}
 				
 		bypass = {
-			440 = { NOT = { owned_by = AVA } }
+			440 = { NOT = { is_owned_by = AVA } }
 		} 
 		
 		cost = 5
@@ -95,7 +95,7 @@ focus_tree = {
 		}
 				
 		bypass = {
-			440 = { NOT = { owned_by = AVA } }
+			440 = { NOT = { is_owned_by = AVA } }
 		} 
 		
 		cost = 5
@@ -133,7 +133,7 @@ focus_tree = {
 		}
 				
 		bypass = {
-			440 = { NOT = { owned_by = AVA } }
+			440 = { NOT = { is_owned_by = AVA } }
 		} 
 		
 		cost = 5
@@ -170,7 +170,7 @@ focus_tree = {
 		}
 				
 		bypass = {
-			453 = { NOT = { owned_by = AVA } }
+			453 = { NOT = { is_owned_by = AVA } }
 		} 
 		
 		cost = 5
@@ -211,7 +211,7 @@ focus_tree = {
 		}
 				
 		bypass = {
-			453 = { NOT = { owned_by = AVA } }
+			453 = { NOT = { is_owned_by = AVA } }
 		} 
 		
 		cost = 5
@@ -249,7 +249,7 @@ focus_tree = {
 		}
 				
 		bypass = {
-			453 = { NOT = { owned_by = AVA } }
+			453 = { NOT = { is_owned_by = AVA } }
 		} 
 		
 		cost = 5

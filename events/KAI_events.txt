@@ -2,7 +2,67 @@
 # Kaiserreich
 ###########################
 
+add_namespace = KAI_change_focus_tree
 add_namespace = KAI_TSR_steal_horse_neighbor
+
+country_event = {
+	id = KAI_change_focus_tree.1
+	title = KAI_change_focus_tree.1.t
+	desc = KAI_change_focus_tree.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_change_focus_tree.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			load_focus_tree = {
+				tree = KAI_focus_season_one
+				keep_completed = yes
+			}
+		}
+	}
+}
+
+country_event = {
+	id = KAI_change_focus_tree.2
+	title = KAI_change_focus_tree.2.t
+	desc = KAI_change_focus_tree.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_change_focus_tree.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			load_focus_tree = {
+				tree = KAI_focus_junta_victory
+				keep_completed = yes
+			}
+		}
+	}
+}
+country_event = {
+	id = KAI_change_focus_tree.3
+	title = KAI_change_focus_tree.3.t
+	desc = KAI_change_focus_tree.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_change_focus_tree.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			load_focus_tree = {
+				tree = KAI_focus_prince_victory
+				keep_completed = yes
+			}
+		}
+	}
+}
 
 country_event = {
 	id = KAI_TSR_steal_horse_neighbor.1

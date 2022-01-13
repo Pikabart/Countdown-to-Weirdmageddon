@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100 # 100% AVA get focus, 0% everyone else, so basicly gurrenteed
-		#	tag = AVA
+			add = 100 # 100% AVA get focus, 0% everyone else, so basicly gurrenteed
+			tag = AVA
 		}
 	}
 	

@@ -1,0 +1,102 @@
+focus_tree = {
+
+	id = KAI_focus_prince_victory
+	
+	country = {
+		factor = 0		
+		modifier = {
+		#	add = 100 
+		#	tag = KAI
+		}
+	}
+	
+	default = no 
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+	
+
+	focus = { 
+		id = KAI_cloud_break
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+        focus = { 
+ 		id = KAI_parade_party
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_cloud_break }
+ 		relative_position_id = KAI_cloud_break
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_sky_limit
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_parade_party }
+ 		relative_position_id = KAI_parade_party
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+}

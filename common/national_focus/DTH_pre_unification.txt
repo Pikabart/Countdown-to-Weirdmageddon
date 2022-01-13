@@ -1,0 +1,873 @@
+focus_tree = {
+
+	id = DTH_pre_unification
+	
+	country = {
+		factor = 0		
+		modifier = {
+		#	add = 100
+		#	tag = DTH
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+
+	focus = { 
+		id = DTH_our_new_lands
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_convert_krasnok_mines
+		icon = a
+		x = -2
+		y = 1
+		
+		prerequisite = { focus = DTH_our_new_lands }
+		relative_position_id = DTH_our_new_lands
+		
+		available = {
+		}
+				
+		bypass = {
+			443 = { NOT = { is_owned_by = DTH } }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			443 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_extraction_krasnok_mines
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = DTH_convert_neu_pruben }
+		prerequisite = { focus = DTH_convert_krasnok_mines }
+		prerequisite = { focus = DTH_convert_neu_silesia }
+		relative_position_id = DTH_convert_krasnok_mines
+		
+		available = {
+		}
+				
+		bypass = {
+			443 = { NOT = { is_owned_by = DTH } }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 12
+				state = 443
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_development_krasnok_mines
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = DTH_extraction_neu_pruben }
+		prerequisite = { focus = DTH_extraction_krasnok_mines }
+		prerequisite = { focus = DTH_extraction_neu_silesia }
+		relative_position_id = DTH_extraction_krasnok_mines
+		
+		available = {
+		}
+				
+		bypass = {
+			443 = { NOT = { is_owned_by = DTH } }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 12
+				state = 447
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_convert_neu_silesia
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = DTH_our_new_lands }
+		relative_position_id = DTH_our_new_lands
+		
+		available = {
+		}
+				
+		bypass = {
+			382 = { NOT = { is_owned_by = DTH } }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			382 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_extraction_neu_silesia
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = DTH_convert_neu_pruben }
+		prerequisite = { focus = DTH_convert_krasnok_mines }
+		prerequisite = { focus = DTH_convert_neu_silesia }
+		relative_position_id = DTH_convert_neu_silesia
+		
+		available = {
+		}
+				
+		bypass = {
+			382 = { NOT = { is_owned_by = DTH } }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 12
+				state = 382
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_development_neu_silesia
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = DTH_extraction_neu_pruben }
+		prerequisite = { focus = DTH_extraction_krasnok_mines }
+		prerequisite = { focus = DTH_extraction_neu_silesia }
+		relative_position_id = DTH_extraction_neu_silesia
+		
+		available = {
+		}
+				
+		bypass = {
+			382 = { NOT = { is_owned_by = DTH } }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 12
+				state = 447
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_convert_neu_pruben
+		icon = a
+		x = 2
+		y = 1
+		
+		prerequisite = { focus = DTH_our_new_lands }
+		relative_position_id = DTH_our_new_lands
+		
+		available = {
+		}
+				
+		bypass = {
+			448 = { NOT = { is_owned_by = DTH } }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			448 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_extraction_neu_pruben
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = DTH_convert_neu_pruben }
+		prerequisite = { focus = DTH_convert_krasnok_mines }
+		prerequisite = { focus = DTH_convert_neu_silesia }
+		relative_position_id = DTH_convert_neu_pruben
+		
+		available = {
+		}
+				
+		bypass = {
+			448 = { NOT = { is_owned_by = DTH } }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_resource = {
+				type = aluminium
+				amount = 12
+				state = 448
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_development_neu_pruben
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = DTH_extraction_neu_pruben }
+		prerequisite = { focus = DTH_extraction_krasnok_mines }
+		prerequisite = { focus = DTH_extraction_neu_silesia }
+		relative_position_id = DTH_extraction_neu_pruben
+		
+		available = {
+		}
+				
+		bypass = {
+			448 = { NOT = { is_owned_by = DTH } }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_resource = {
+				type = aluminium
+				amount = 12
+				state = 442
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_determine_doctrine
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = DTH_development_neu_pruben }
+		prerequisite = { focus = DTH_development_krasnok_mines }
+		prerequisite = { focus = DTH_development_neu_silesia }
+		relative_position_id = DTH_development_neu_silesia
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_janna_bannana
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = DTH_determine_doctrine }
+		relative_position_id = DTH_determine_doctrine
+		mutually_exclusive = { focus = DTH_death_cult }
+		mutually_exclusive = { focus = DTH_nature_worship }
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_nature_worship
+		icon = a
+		x = -2
+		y = 1
+		
+		prerequisite = { focus = DTH_determine_doctrine }
+		relative_position_id = DTH_determine_doctrine
+		mutually_exclusive = { focus = DTH_death_cult }
+		mutually_exclusive = { focus = DTH_janna_bannana }
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_death_cult
+		icon = a
+		x = 2
+		y = 1
+		
+		prerequisite = { focus = DTH_determine_doctrine }
+		relative_position_id = DTH_determine_doctrine
+		mutually_exclusive = { focus = DTH_nature_worship }
+		mutually_exclusive = { focus = DTH_janna_bannana }
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_mil_factory_1
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = DTH_death_cult focus = DTH_janna_bannana focus = DTH_nature_worship }
+		relative_position_id = DTH_death_cult
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_mil_factory_2
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = DTH_mil_factory_1 }
+		relative_position_id = DTH_mil_factory_1
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_civ_factory_1
+		icon = a
+		x = -4
+		y = 1
+		
+		prerequisite = { focus = DTH_death_cult focus = DTH_janna_bannana focus = DTH_nature_worship }
+		relative_position_id = DTH_death_cult
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_civ_factory_2
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = DTH_civ_factory_1 }
+		relative_position_id = DTH_civ_factory_1
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_peoples_fanatacisim
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = DTH_death_cult focus = DTH_janna_bannana focus = DTH_nature_worship }
+		relative_position_id = DTH_janna_bannana
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_manpower = 25000
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_army_fanatacisim
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = DTH_peoples_fanatacisim }
+		relative_position_id = DTH_peoples_fanatacisim
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				prioritize = { 442 }
+				create_unit = {
+						division = "name = \"Fanatic Mob\" division_template = \"Horsemen\" start_experience_factor = 1"
+						owner = DTH
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_proper_temple
+		icon = a
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = DTH_army_fanatacisim }
+		prerequisite = { focus = DTH_mil_factory_2 }
+		prerequisite = { focus = DTH_civ_factory_2 }
+		relative_position_id = DTH_army_fanatacisim
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_building_construction = {
+				type = bunker
+				level = 1
+				instant_build = yes
+				province = 4046
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_proper_doctrine
+		icon = a
+		x = -1
+		y = 1
+		
+		prerequisite = { focus = DTH_army_fanatacisim }
+		prerequisite = { focus = DTH_mil_factory_2 }
+		prerequisite = { focus = DTH_civ_factory_2 }
+		relative_position_id = DTH_army_fanatacisim
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = DTH_look_outwards
+		icon = a
+		x = 1
+		y = 1
+		
+		prerequisite = { focus = DTH_proper_doctrine }
+		prerequisite = { focus = DTH_proper_temple }
+		relative_position_id = DTH_proper_doctrine
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+}
