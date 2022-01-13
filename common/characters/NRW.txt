@@ -1,0 +1,35 @@
+characters = {
+	NRW_preston_northwest = {
+		name = "Preston Northwest" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_preston_northwest"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_PRESTON_DESC"
+			ideology = despotism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+	
+	NRW_pacifica_northwest = {
+		name = "Pacifica Northwest" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_pacifica_northwest"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+
+}###########################################################
+	

@@ -58,8 +58,8 @@ complete_national_focus = production_effort
 set_politics = {
 	ruling_party = democratic
 	last_election = "1912.1.1"
-	election_frequency = 48
-	elections_allowed = yes
+	#election_frequency = 48
+	elections_allowed = no
 }
 
 set_popularities = {
@@ -68,61 +68,10 @@ set_popularities = {
 	fascism = 5
 }
 
-create_country_leader = {
-	name = "E. Befufftlefumpter"
-	desc = "POLITICS_HUCKABONE_DESC"
-	picture = "hoi4_portrait_Mayor_Befuff.dds"
-	ideology = conservatism
-	traits = {}
-}
-
-create_country_leader = {
-	name = "Bud Gleeful"
-	desc = ""
-	picture = ""
-	ideology = fascism_ideology
-
-}
-
-create_country_leader = {
-	name = "Robbie Valentine"
-	desc = ""
-	picture = ""
-	ideology = anarchist_communism
-
-}
-
-create_country_leader = {
-	name = "Daryl Blubs"
-	desc = ""
-	picture = ""
-	ideology = moderatism
-}
-
-create_field_marshal = {# Daryl Blubs
-	name = "Daryl Blubs"
-	desc = ""
-	portrait_path = "gfx\\leaders\\GTF\\Portrait_Daryl_Blubs.dds"
-	traits = {
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 1
-	id = 3
-}
-
-create_corps_commander = {# Edwin Durland
-	name = "Edwin Durland"
-	desc = ""
-	portrait_path = "gfx\\leaders\\GTF\\Portrait_Edwin_Durland.dds"
-	traits = {
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-	id = 4
-}
+recruit_character = GTF_stan_pines
+recruit_character = GTF_huckabone
+recruit_character = GTF_bud_gleeful
+recruit_character = GTF_robbie_valentine
+recruit_character = GTF_tod_strange
+recruit_character = GTF_daryl_blubs
+recruit_character = GTF_edwin_durland

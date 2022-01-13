@@ -1,0 +1,29 @@
+### Leaders, Generals, Admirals for MYS ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_leaders_stan_pines"
+			texturefile = "gfx/leaders/MYS/Portrait_Shack_Stan_Pines.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_mabel_pines"
+			texturefile = "gfx/leaders/MYS/Portrait_Shack_Mabel_Pines.dds"
+		}	
+	spriteType = {
+			name = "GFX_leaders_wendy_corduroy"
+			texturefile = "gfx/leaders/MYS/Portrait_Shack_Wendy_Corduroy.dds"
+		}	
+	spriteType = {
+			name = "GFX_leaders_soos_rameriz"
+			texturefile = "gfx/leaders/MYS/Portrait_Shack_Soos_Rameriz.dds"
+		}	
+	spriteType = {
+			name = "GFX_leaders_tyrone_pines"
+			texturefile = "gfx/leaders/MYS/Portrait_Shack_Tyrone_Pines.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_wendy_annie_corduroy"
+			texturefile = "gfx/leaders/MYS/Portrait_Shack_Wendy_Annie_Corduroy.dds"
+		}	
+	
+}

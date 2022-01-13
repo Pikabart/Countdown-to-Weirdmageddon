@@ -67,36 +67,5 @@ set_popularities = {
 	neutrality = 70
 }
 
-create_country_leader = {
-	name = "Preston Northwest"
-	desc = "POLITICS_PRESTON_DESC"
-	picture = "hoi4_portrait_Preston_Northwest.dds"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Pacifica Northwest"
-	desc = "POLITICS_PACIFICA_DESC"
-	picture = "hoi4_portrait_Pacifica_Northwest.dds"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Union Council"
-	desc = ""
-	picture = ""
-	ideology = anarchist_communism
-}
-
-create_country_leader = {
-	name = "Parson Northwest"
-	desc = "POLITICS_PARSON_DESC"
-	picture = ""
-	ideology = fascism_ideology
-}
+recruit_character = NRW_preston_northwest
+recruit_character = NRW_pacifica_northwest
