@@ -1,0 +1,1122 @@
+focus_tree = {
+
+	id = KAI_focus_season_one
+	
+	country = {
+		factor = 0		
+		modifier = {
+			add = 100 
+			tag = KAI
+		}
+	}
+	
+	default = no 
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+	
+
+	focus = { 
+		id = KAI_return_prince
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+        focus = { 
+ 		id = KAI_every_corner
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_return_prince }
+ 		relative_position_id = KAI_return_prince
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_sky_friend
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_every_corner }
+ 		relative_position_id = KAI_every_corner
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_childish_plot
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_sky_friend }
+ 		relative_position_id = KAI_sky_friend
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_friends_closer
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_childish_plot }
+ 		relative_position_id = KAI_childish_plot
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_friend_one
+ 		icon = a
+ 		x = -3
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_friends_closer }
+ 		relative_position_id = KAI_friends_closer
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_tournament_grounds
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_friend_one }
+ 		relative_position_id = KAI_friend_one
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_armory_antics
+ 		icon = a
+ 		x = -1
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_tournament_grounds }
+ 		relative_position_id = KAI_tournament_grounds
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_stables_stunt
+ 		icon = a
+ 		x = 1
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_tournament_grounds }
+ 		relative_position_id = KAI_tournament_grounds
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_duel_destiny
+ 		icon = a
+ 		x = -1
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_stables_stunt }
+                prerequisite = { focus = KAI_armory_antics }
+ 		relative_position_id = KAI_stables_stunt
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_shame_defeat
+ 		icon = a
+ 		x = -1
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_duel_destiny }
+ 		relative_position_id = KAI_duel_destiny
+		mutually_exclusive = { focus = KAI_guilty_victory}
+
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_walking_tightrope
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_shame_defeat }
+ 		relative_position_id = KAI_shame_defeat
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_with_you
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_walking_tightrope }
+ 		relative_position_id = KAI_walking_tightrope
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_guilty_victory
+ 		icon = a
+ 		x = 1
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_duel_destiny }
+ 		relative_position_id = KAI_duel_destiny
+		mutually_exclusive = { focus = KAI_shame_defeat}
+
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_make_right
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_guilty_victory }
+ 		relative_position_id = KAI_guilty_victory
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_tender_moment
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_make_right }
+ 		relative_position_id = KAI_make_right
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_first_flight
+ 		icon = a
+ 		x = -1
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_tender_moment focus = KAI_with_you }
+ 		relative_position_id = KAI_tender_moment
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_back_back
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_first_flight }
+ 		relative_position_id = KAI_first_flight
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_friend_two
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_friends_closer }
+ 		relative_position_id = KAI_friends_closer
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_throne_room
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_friend_two }
+ 		relative_position_id = KAI_friend_two
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_long_shadow
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_throne_room }
+ 		relative_position_id = KAI_throne_room
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_creeping_maelstrom
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_long_shadow }
+ 		relative_position_id = KAI_long_shadow
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_tied_mast
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_creeping_maelstrom }
+ 		relative_position_id = KAI_creeping_maelstrom
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_light_darkness
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_tied_mast }
+ 		relative_position_id = KAI_tied_mast
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_confronting_fear
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_light_darkness }
+ 		relative_position_id = KAI_light_darkness
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_together
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_confronting_fear }
+ 		relative_position_id = KAI_confronting_fear
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_rick_roll
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_together }
+ 		relative_position_id = KAI_together
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_eye_storm
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_rick_roll }
+ 		relative_position_id = KAI_rick_roll
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_friend_three
+ 		icon = a
+ 		x = 3
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_friends_closer }
+ 		relative_position_id = KAI_friends_closer
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_library
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_friend_three }
+ 		relative_position_id = KAI_friend_three
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_labyrinth_knowledge
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_library }
+ 		relative_position_id = KAI_library
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_planetarium_pondering
+ 		icon = a
+ 		x = -1
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_labyrinth_knowledge }
+ 		relative_position_id = KAI_labyrinth_knowledge
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_game_goofing
+ 		icon = a
+ 		x = 1
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_labyrinth_knowledge }
+ 		relative_position_id = KAI_labyrinth_knowledge
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_study_secrets
+ 		icon = a
+ 		x = -1
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_game_goofing }
+                prerequisite = { focus = KAI_planetarium_pondering }
+ 		relative_position_id = KAI_game_goofing
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_study_sorcery
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_study_secrets }
+ 		relative_position_id = KAI_study_secrets
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_arcane_adventures
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_study_sorcery }
+ 		relative_position_id = KAI_study_sorcery
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_delving_deep
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_arcane_adventures }
+ 		relative_position_id = KAI_arcane_adventures
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
+        focus = { 
+ 		id = KAI_partners_crime
+ 		icon = a
+ 		x = 0
+ 		y = 1
+
+ 		prerequisite = { focus = KAI_delving_deep }
+ 		relative_position_id = KAI_delving_deep
+
+ 		available = {
+ 		}
+
+ 		bypass = {} 
+
+ 		cost = 5
+
+ 		cancel_if_invalid = yes
+ 		continue_if_invalid = no
+ 		available_if_capitulated = no
+
+ 		completion_reward = {
+ 		}
+
+ 		ai_will_do = {
+ 			factor = 400
+ 			#modifier = {}
+ 		}
+
+ 	}
