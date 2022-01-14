@@ -860,6 +860,13 @@ country_event = { #
 	
 	option = { 
 		name = mabel_dino.5.a
+		add_war_support = 0.1
+		36 ={
+			damage_building = {
+				type = industrial_complex 
+				damage = 1
+			}
+		}
 		custom_effect_tooltip = mabel_dino.5.c
 		ai_chance = { factor = 100 }	# 100% AI choose this	
 	}
@@ -879,6 +886,11 @@ country_event = { #
 	
 	option = { 
 		name = mabel_dino.6.a
+		add_stability = 0.05
+		add_political_power = 100
+		NRW = {
+			add_stability = 0.10
+		}
 		ai_chance = { factor = 100 }	# 100% AI choose this	
 	}
 }
