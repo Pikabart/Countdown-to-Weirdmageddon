@@ -4,7 +4,23 @@ on_actions = {
 		effect = {
 		
 			CAL = {
+				#country_event = { id = CAL_START.1 } # Event code is in CAL events
 				news_event = { id = launcher_news.6 days = 10 }  # Norton Found, and State of the Union
+				every_owned_state = {
+					damage_building = {
+						type = rail_way
+						damage = 2
+					}
+				}
+			}
+			SOC = {
+				#country_event = { id = SOC_START.1 } # Event code is in SOC events
+				every_owned_state = {
+					damage_building = {
+						type = rail_way
+						damage = 2
+					}
+				}
 			}
 			EUS = {
 				news_event = { id = launcher_news.7 days = 15 }  #Launch launcher for Kerfuffle
@@ -19,15 +35,14 @@ on_actions = {
 			MYS = {
 				country_event = { id = mys_startup.1 } # Event code is in MYS_events
 			}
-			MHC = {
-				give_resource_rights = { receiver = JOH state = 387 }
-				give_resource_rights = { receiver = JOH state = 406 }
-				give_resource_rights = { receiver = JAG state = 395 }
-			}
 			ORE = {
 				country_event = { id = ORE_START.1 } # Event code is in ORE events
 			}
 		}	
 	}
+	
+	
+	
+	
 	
 } ## END OF FILE ##

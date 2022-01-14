@@ -109,7 +109,7 @@ REC_mobilize_desc:0 "By her majesty's will, the company's charter shall be appro
 ### Funding ###
 
 REC_funding_1:0 "§GBegin a round of investment§ "
-REC_funding_1_desc:0 "Relying on the private market, we can gather funding for more of our projects. Many would like thier buisness and assets assosaited with our Royal Charter. But such rounds take time and failures from previous ventures can weaken investor support."
+REC_funding_1_desc:0 "Relying on the private market, we can gather funding for more of our projects. Many would like their buisness and assets assosaited with our Royal Charter. But such rounds take time and failures from previous ventures can weaken investor support."
 REC_funding_1_tt:0 "-Once our investment round is over, we shall gain §G25 Golden Sols§! if our PR is at 25 or higher\n-Our PR is lower than that however, we shall only gain §G10 Golden Sols§!\n"
 
 REC_funding_2:0 "§GRequest Government Stimulas§ "
@@ -125,7 +125,7 @@ REC_bounty_2_tt:0 "§Ca great result!§!"
 REC_bounty_3_tt:0 "§Ra loophole being exploited...§!"
 
 REC_pamphlet:0 "§CDistribute Anti-Rat Pamphlets§ "
-REC_pamphlet_desc:0 "Distributing pamphlets detailing how to deal with rats to the populace can be work. Even if we don't remove them ourselves, we still would get credit if a town gets rid of thier rats. Hopefully, they actually take out just the rats and not anything rat-like.\n\n§RCost: 5 to 50 Golden Sols§!\n§GGain: §!§R-20§!§G to +30 Public Relationship Points§!\n"
+REC_pamphlet_desc:0 "Distributing pamphlets detailing how to deal with rats to the populace can be work. Even if we don't remove them ourselves, we still would get credit if a town gets rid of their rats. Hopefully, they actually take out just the rats and not anything rat-like.\n\n§RCost: 5 to 50 Golden Sols§!\n§GGain: §!§R-20§!§G to +30 Public Relationship Points§!\n"
 REC_pamphlet_1_tt:0 "§Graising awareness.§!"
 REC_pamphlet_2_tt:0 "§Cgreatly raising awareness!§!"
 REC_pamphlet_3_tt:0 "§Rthe peasants misintepreting us...§!"
@@ -141,7 +141,7 @@ REC_industry_desc:0 "With the current fervor to shore up the kingdom's industria
 ### Worst case senarios ###
 
 REC_PR:0 "§RRegain the public grace§ "
-REC_PR_desc:0 "So some of our investments fell flat. Our image isn't particularly good. The royal court is angry we accidently burnt down a town after confusing a possum for a rat instead. Said possum was actually from Earth and now the humans are angry for burning thier beloved possum. But since everyone is glued to thier compact mirrors, we can just hire the best PR reps from Mewni and Earth and just blitz everyone about how we're the good guys! People will forget quickly enough.\n\n§RCost: 30 Golden Sols§!\n§GGain: Reset PR to 25§!\nTry not to be Public Enemy Number 1 again..."
+REC_PR_desc:0 "So some of our investments fell flat. Our image isn't particularly good. The royal court is angry we accidently burnt down a town after confusing a possum for a rat instead. Said possum was actually from Earth and now the humans are angry for burning their beloved possum. But since everyone is glued to their compact mirrors, we can just hire the best PR reps from Mewni and Earth and just blitz everyone about how we're the good guys! People will forget quickly enough.\n\n§RCost: 30 Golden Sols§!\n§GGain: Reset PR to 25§!\nTry not to be Public Enemy Number 1 again..."
 
 REC_NWB:0 "§RThe Northwest Bailout§ "
 REC_NWB_desc:0 "We are in the red! If we don't turn our financial situation around, the company will go under. Worse, because of our crown charter, a notable part of the Mewman Economy is tied to us. If we fall, the market might crash!\nNow, Mr. Birnbaum of Northwest Corporation of California has approched us with a bailout. Though more turbulant, the US Dollar is a very powerful currency in our part of the multi-verse. Better, we won't even have an interest to pay, as the bailout was already negotiated between the two countries.\n\n-§GThis bailout with grant us a whopping 100 Golden Sols§!\n-§YBut we must achieve at least 75 PR and a reserve of 30 Golden Sols in 120 Days§!\n§R-Or else Mr. Birnbaum will declare breach of contract and make us pay for our failure...§!"

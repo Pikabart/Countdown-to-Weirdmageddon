@@ -1,5 +1,18 @@
 ############################ ITGUY 01/12/22
 
+common/on_actions
+common/national_focus
+
+gfx/events_countries/MYS
+gfx/interface/goals/mys
+gfx/maparrows
+
+interface/
+
+localization
+
+############################ ITGUY 01/12/22
+
 common/characters - FOREST, GTF, MYS, NRW, TRAP
 common/ideas
 

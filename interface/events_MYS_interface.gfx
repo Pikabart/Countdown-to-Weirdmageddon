@@ -176,6 +176,31 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MYS/report_event_microwave_mabel.dds"
 	}
 	
+	spriteType = { # 
+		name = "GFX_report_event_compy_egg"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_compy_egg.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_compy_1"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_compy_1.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_compy_2"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_compy_2.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_compy_Sprout"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_compy_Sprout.dds"
+	}
+	
+	spriteType = { # 
+		name = "GFX_report_event_compy_Northwest"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_compy_Northwest.dds"
+	}
+	
 	#####################
 	
 	spriteType = { # 
@@ -205,7 +230,7 @@ spriteTypes = {
 	
 	#####################
 	
-		spriteType = { # 
+	spriteType = { # 
 		name = "GFX_report_event_the_fair"
 		texturefile = "gfx/event_country_pictures/MYS/report_event_the_fair.dds"
 	}
@@ -281,6 +306,11 @@ spriteTypes = {
 	}
 	
 	###############
+	
+	spriteType = { #
+		name = "GFX_report_event_dipper_clones"
+		texturefile = "gfx/event_country_pictures/MYS/report_event_dipper_clones.dds"
+	}
 	
 	spriteType = { #
 		name = "GFX_report_event_reading_journal"

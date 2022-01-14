@@ -116,6 +116,21 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/MYS/focus_mabelwaves.dds"			
 	}
 	
+	SpriteType = {
+	name = "GFX_goal_focus_dinosaur_egg"
+	texturefile = "gfx/interface/goals/MYS/focus_dinosaur_egg.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_compy"
+	texturefile = "gfx/interface/goals/MYS/focus_compy.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_compy_fate"
+	texturefile = "gfx/interface/goals/MYS/focus_compy_fate.dds"			
+	}
+	
 	##################################################################
 	
 	SpriteType = {

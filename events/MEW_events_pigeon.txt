@@ -127,6 +127,7 @@ country_event = {
 	option = {
 		name = mew_ost_diplo.2.a
 		ai_chance = { factor = 90 }
+		MEW = { transfer_state = 285 }
 		MEW = { transfer_state = 463 }
 		MEW = { transfer_state = 464 }
 	}
