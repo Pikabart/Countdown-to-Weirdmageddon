@@ -33,7 +33,7 @@
  
  MYS_stantastic_1:0 "Going On A Grocery Run"
  MYS_stantastic_1_desc:0 "It's the perfect attraction. A unicorn made of corn! And there's even a sale at the supermarket! I'll just head on down to town and grab some corn and glue. I better also make sure to store it away from the food black hole that Mabel calls a 'pet'."
- MYS_stantastic_1_effect:0 "Making a unicorn is easy. I've been attack by them so many times."
+ MYS_stantastic_1_effect:0 "Making a unicorn is easy. I've been attack by them so many times.\n§RStan's Corn Escapades will Begin§!"
  
  MYS_stantastic_3:0 "From Mewni, With Corn"
  MYS_stantastic_3_desc:0 "'There are simple ways to get corn', is what my brother would say. But there are also fun and illegal ways to get corn and I think I'll go for that instead. Time to give the old land of magic and enchantment a visit."
@@ -78,7 +78,7 @@
  
  MYS_dipper_s1_5:0 "Awaking From Mega-Sleep"
  MYS_dipper_s1_5_desc:0 "Having worn our robot costumes, placed a fake Rip van Winkle beard on Soos, and turned the living room into a futuristic lab, I think it’s time we revive Soos from “Mega-Sleep”"
- MYS_dipper_s1_5_effect:0 "Welcome to the World of Tomorrow!\n\nNow Time Baby Free!"
+ MYS_dipper_s1_5_effect:0 "Welcome to the World of Tomorrow!\n\nNow "Time-Baby" Free!"
  
  MYS_dipper_s1_2:0 "Majestic Oddities"
  MYS_dipper_s1_2_desc:0 "The Author mentions finding an animal with a duck beak, web feet, and a beaver tail...\n\nIt's also plaid! That's the real mystery to explore!"
@@ -96,20 +96,20 @@
  #7
  
  MYS_mabel_s1:0 "Mabel's Guide To Life"
- MYS_mabel_s1_desc:0 "Life here in the Cascades is quite and simple...\nFortunatley, thats where I come in. With my guides, I'll make all of your lives better, louder, and more complicated!\n\n- §YMabel Pines§! -"
- MYS_mabel_s1_effect:0""
+ MYS_mabel_s1_desc:0 "Life here in the Cascades is quite and simple...\nFortunatley, thats where I come in. With my guides, I'll make all of your lives better, louder, and more complicated!\n\n- §PMabel Pines§! -"
+ MYS_mabel_s1_effect:0 ""
  
  MYS_mabel_s1_2:0 "Grand Theft Dino"
- MYS_mabel_s1_2_desc:0 "Saving Waddles was very heroic of Grunkle Stan. But you can't take the theif out of the hero. We now have a dinosaur egg!\n\nAs long as this one doesn't try to eat Waddles this time, I see no problem with that."
- MYS_mabel_s1_2_effect:0""
+ MYS_mabel_s1_2_desc:0 "Saving Waddles was very heroic of Grunkle Stan. But you can't take the thief out of the hero. We now have a dinosaur egg!\n\nAs long as this one doesn't try to eat Waddles this time, I see no problem with that."
+ MYS_mabel_s1_2_effect:0 "Now than. How are we going to warm this egg up?"
  
  MYS_mabel_s1_4:0 "Pig In A Blanket"
- MYS_mabel_s1_4_desc:0 ""Mama Stan" got himself a baby Compo-Compso, uh... oh, Compsognathus.\nDumb science words.\nAnyway, Compy is so cute, Dipper thinks its very start, and its follows Grunkle Stan whereever he goes! Waddles' not a fan, but he's all safe with Mama Mabel's Pig in a Blanket!"
- MYS_mabel_s1_4_effect:0""
+ MYS_mabel_s1_4_desc:0 ""Mama Stan" got himself a baby Compo-Compso, uh... oh, Compsognathus.\nDumb science words.\nAnyway, Compy is so cute, Dipper thinks its very smart, and its follows Grunkle Stan whereever he goes! Waddles' not a fan, but he's all safe with as Mama Mabel's Pig in a Blanket!"
+ MYS_mabel_s1_4_effect:0 "That sure is a fast little chicken dinosaur."
  
  MYS_mabel_s1_6:0 "Nature, uh, Finds A Way"
- MYS_mabel_s1_6_desc:0 "So Compy might not work out for us. We can't have two greedy creatures under the Shack roof.\n\nThe Question now is, what do we do with Compy?"
- MYS_mabel_s1_6_effect:0 ""
+ MYS_mabel_s1_6_desc:0 "So Compy might not work out for us. We can't have two greedy creatures under the Shack roof.\n\nThe Question now is,\nwhat do we do with Compy?"
+ MYS_mabel_s1_6_effect:0 "§R"I say we dump mini-me with that crazy farmer." - Stan Pines§!\n§C"Nah, give Compy to Pacifica. I'm sure she'll like her new "pet"." - Dipper Pines§!"
  
  MYS_mabel_s1_1:0 "She Blinded Me With Science!"
  MYS_mabel_s1_1_desc:0 "Thanks to me, Stan saw the Rainbow. Unfortunatley, it turned into more of a Painbow.\n\nBut don't worry, on my next guide, I'll show you all how to apologies and make up to your grunkle after causing retinal damage!\nHooray!"
@@ -229,7 +229,7 @@
  
  MYS_PR_1:0 "Stan And Gravity Falls"
  MYS_PR_1_desc:0 "Stanford Pines had lived in Gravity Falls for over 30 years. A visiting researcher turn permanent fixture of the town, one would presume Stan had made many contacts within the town. His Mystery Shack is a staple of the tourism in Roadkill County and many of its residents had grown up with the Shack as a fixture of their lives, from their own time spent there to the role it played in the local town economy."
- MYS_PR_1_effect:0 "Surely Stan would have become a staple of the town itself..."
+ MYS_PR_1_effect:0 "§YYour decisions in the next two focuses will determine how Stan will want to approching his "PR" image.§!"
  
  MYS_PR_2:0 "The Roadkill County Business Council"
  MYS_PR_2_desc:0 "The Roadkill County Business Council is a private group of the business owners in the county. Its leaders represent the different sectors of the economy: Lazy Susuan for the Service Industry, Farmer Sprott of the Primary Industry, and even Preston Northwest, personally representing the Manufacturing Industry in the county. That was actually expected as he owns all the factories in Roadkill County."
@@ -269,7 +269,7 @@
  MYS_PR_9_effect:0 "Just don't mention World War 1, just don't mention World War 1!"
 
  MYS_PR_16:0 "Our Man Stan!"
- MYS_PR_16_desc:0 "I didn't think it would ever happen, with my past, and the plans I had for my future, I doubted that this town would ever like me. But here I am. Their Man, Stan! My pollings even put me ahead of that smug little Gideon! Beisdies ithe increace tourism, I wonder if I could use this popularity in the future?"
+ MYS_PR_16_desc:0 "I didn't think it would ever happen, with my past, and the plans I had for my future, I doubted that this town would ever like me. But here I am. Their Man, Stan! My polling even put me ahead of that smug little Gideon! Besides the increased tourism, §RI wonder if I could use this popularity in the future?§!"
  MYS_PR_16_effect:0 "I mean, what other uses does having the love of the town give besides making money, anyway?" 
  
  ################################

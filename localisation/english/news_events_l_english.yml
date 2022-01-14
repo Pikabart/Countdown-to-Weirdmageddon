@@ -2,7 +2,7 @@
  #MINIMIZE_EVENT:0 "§GClick§! to Minimize. Event will be placed in the Event Queue under §HEvents and Decisions§!."
  
  game_startup.1.t:0 "The Countdown to Weirdmageddon!"
- game_startup.1.d:0 "Welcome! And thank you for playing "Countdown to Wierdmageddon", the HoI4 total conversion mod set in the Multiverse intersecting Gravity Falls, Star vs The Forces of Evil, Amphibia, and The Owl House.\n\nWe are proud to release our Alpha 0.01 version for all of you to play as we contninue working on expanding this unique world of Earth 42'\\ and the dimensions around it!\n\nSo If you're reading this particular event, the country you choosen haven't been really developed yet. But if you want, feel free to do whatever with it. Never know what you might encounter..."
+ game_startup.1.d:0 "Welcome! And thank you for playing "Countdown to Wierdmageddon", the HoI4 total conversion mod set in the Multiverse intersecting Gravity Falls, Star vs The Forces of Evil, Amphibia, and The Owl House.\n\nWe are proud to release our Alpha 0.1.3 version for all of you to play as we contninue working on expanding this unique world of Earth 42'\\ and the dimensions around it!\n\nSo If you're reading this particular event, the country you choosen haven't been really developed yet. But if you want, feel free to do whatever with it. Never know what you might encounter..."
  game_startup.1.a:0 "But if you see a floating triangle, please step away"
  
  before_news.1.t:0 "Man frozen in Peanut Brittle!"
@@ -54,7 +54,7 @@
  kerfuffle_news.4.a:0 "First we will crush the Euros, then we'll deal with the Traitors!"
  kerfuffle_news.4.b:0 "Hey, where did the Deputy Director run off to?"
  kerfuffle_news.4.c:0 "We won't let the East kerfuffle the West as well!"
- kerfuffle_news.4.e:0 "Dumb Americanos. We should probably build a wall to keep thier mess out!"
+ kerfuffle_news.4.e:0 "Dumb Americanos. We should probably build a wall to keep their mess out!"
  kerfuffle_news.4.f:0 "Hello? We are still here! Someone help us!"
 
 #####################################################################################################################
@@ -109,9 +109,9 @@
  west_election_news.4.i:0 ""
  
  multiverse_news.1.t:0 "Our Man, The Man\nStanford Pines!"
- multiverse_news.1.d:0 "\nGotta love him, the adorable old scampe!"
+ multiverse_news.1.d:0 "\nThere is no better place to spend a summer's day in Oregon than checking out Gravity Fall's own Mystery Shack!\n\nOwned and run by Mr. Man of Mystery, Stanford Pines, be amazed by the odd and weird things on exhibit inside the Shack. From Jack-O-Lopes to Cornicorns, you never know what awaits inside the Shack. When done inside, take in that sweet cascadian air and do a tour guide through Gravity Forest as Mr. Myserty show you the natural wonders and weirdness of the Oregon Outback.\n\nVisit Today!"
  multiverse_news.1.a:0 "Now thats what this place needed."
- multiverse_news.1.b:0 "Huh, Stan and the Myserty Shack? Sounds Good."
+ multiverse_news.1.b:0 "Huh, Stan and the Mystery Shack? Sounds Good."
  multiverse_news.1.c:0 "Who dare bring this fake news to me!"
  multiverse_news.1.e:0 "Don't know. Don't Care..."
  
