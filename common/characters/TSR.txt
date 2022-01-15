@@ -27,7 +27,7 @@ characters = {
 		desc = ""
 		portraits = {
 			civilian = {
-				large = ""
+				large = "GFX_hoi4_portrait_grand_marshall"
 			}
 		}
 		field_marshal= {
@@ -46,7 +46,7 @@ characters = {
 		desc = ""
 		portraits = {
 			civilian = {
-				large = ""
+				large = "GFX_hoi4_portrait_young_officer"
 			}
 		}
 		corps_commander= {
@@ -57,6 +57,32 @@ characters = {
 			defense_skill = 2
 			planning_skill = 1
 			logistics_skill = 1
+		
+		}
+	}
+	TSR_patriarch = {
+		name = "Barth Gesenkyie"
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "hoi4_portrait_patriarch"
+				small = "GFX_idea_advisor_patriarch"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = patriarch_advisor
+			allowed = {
+				original_tag = TSR
+			}
+			available = {
+			}
+			
+			traits = { popular_figurehead }
+
+			ai_will_do = {
+				factor = 0.5
+			}
 		
 		}
 	}

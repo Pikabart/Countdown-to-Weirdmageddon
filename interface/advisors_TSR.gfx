@@ -1,0 +1,8 @@
+### Advisors for MEW ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_idea_advisor_patriarch"
+			texturefile = "gfx/interface/advisors/TSR/advisor_patriarch.dds"
+		}
+}
