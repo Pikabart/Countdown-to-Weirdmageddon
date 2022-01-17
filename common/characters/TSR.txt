@@ -28,6 +28,7 @@ characters = {
 		portraits = {
 			civilian = {
 				large = "GFX_hoi4_portrait_grand_marshall"
+				small = "GFX_idea_advisor_marshal"
 			}
 		}
 		field_marshal= {
@@ -39,6 +40,19 @@ characters = {
 			planning_skill = 2
 			logistics_skill = 2
 		
+		}
+		advisor = {
+			slot = high_command
+			idea_token = TSR_grand_marshal_chief_idea
+			allowed = {
+					original_tag = TSR
+				}
+				traits = {
+					army_entrenchment_1
+				}
+				ai_will_do = {
+					factor = 1.000
+				}
 		}
 	}
 	TSR_young_marshal = {
@@ -87,12 +101,29 @@ characters = {
 		}
 	}
 	TSR_mewman_advisor = {
-		name = "Asty Something Something"
+		name = "Asty Andersen"
 		desc = ""
 		portraits = {
 			civilian = {
-				large = ""
+				large = "GFX_hoi4_portrait_mewman_advisor"
+				small = "GFX_idea_advisor_mewman"
 			}
+		}
+		advisor = {
+			slot = high_command
+			idea_token = TSR_mewman_high_command
+			allowed = {
+				original_tag = TSR
+			}
+			available = {
+			}
+								
+			traits = { army_cavalry_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		
 		}
 	}
 }	
