@@ -7,6 +7,23 @@ add_namespace = TSR_steal_horse_neighbor
 add_namespace = TSR_change_focus_tree_lamp
 add_namespace = TSR_change_focus_tree_queen
 add_namespace = TSR_change_focus_tree_military
+add_namespace = TSR_mewman_advisors_event
+
+country_event = {
+	id = TSR_mewman_advisors_event.1
+	title = TSR_mewman_advisors_event.1.t
+	desc = TSR_mewman_advisors_event.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TSR_mewman_advisors_event.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		recruit_character = TSR_mewman_advisor
+		
+	}
+}
 
 country_event = {
 	id = TSR_change_focus_tree.1

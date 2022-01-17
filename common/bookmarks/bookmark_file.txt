@@ -258,6 +258,30 @@ bookmarks = {
 			history = "OTHER_ANOTHER_DIMENSION_DESC"
 			minor = yes
 		}
+		"SWP"={
+			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			minor = yes
+		}
+		"DTH"={
+			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			minor = yes
+		}
+		"AVA"={
+			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			minor = yes
+		}
+		"DRG"={
+			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			minor = yes
+		}
+		"HGH"={
+			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			minor = yes
+		}
+		"MHC"={
+			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			minor = yes
+		}
 		
 		"---"={
 			history = "OTHER_ANOTHER_DIMENSION_DESC"

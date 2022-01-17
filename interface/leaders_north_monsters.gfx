@@ -1,0 +1,17 @@
+### Leaders and such for North Monsters ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_hoi4_portrait_grand_marshall"
+			texturefile = "gfx/leaders/TSR/hoi4_portrait_grand_marshall.dds"
+		}
+	spriteType = {
+			name = "GFX_hoi4_portrait_young_officer"
+			texturefile = "gfx/leaders/TSR/hoi4_portrait_young_officer.dds"
+		}
+	spriteType = {
+			name = "GFX_hoi4_portrait_mewman_advisor"
+			texturefile = "gfx/leaders/TSR/hoi4_portrait_mewman_advisor.dds"
+		}
+	
+}

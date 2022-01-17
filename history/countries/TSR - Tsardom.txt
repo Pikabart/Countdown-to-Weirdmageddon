@@ -36,4 +36,4 @@ recruit_character = TSR_tsar
 recruit_character = TSR_tsar_wife
 recruit_character = TSR_grand_marshal
 recruit_character = TSR_young_marshal
-recruit_character = TSR_mewman_advisor
+recruit_character = TSR_patriarch

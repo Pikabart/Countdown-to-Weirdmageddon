@@ -1,0 +1,16 @@
+### Advisors for TSR ###
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_idea_advisor_marshal"
+		texturefile = "gfx/interface/advisors/TSR/advisor_marshal.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_advisor_patriarch"
+		texturefile = "gfx/interface/advisors/TSR/advisor_patriarch.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_advisor_mewman"
+		texturefile = "gfx/interface/advisors/TSR/advisor_mewman.dds"
+	}
+}
