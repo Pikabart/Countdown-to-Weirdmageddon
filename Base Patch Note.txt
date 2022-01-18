@@ -1,3 +1,14 @@
+############################ ITGUY 01/12/22 84-85 files edited
+
+common/on_actions
+
+history/states
+
+localization
+
+map/<all files>
+map/startegic_region
+
 ############################ ITGUY 01/12/22
 
 common/on_actions

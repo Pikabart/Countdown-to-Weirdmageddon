@@ -1845,7 +1845,8 @@
  RAILWAY_UPGRADE:0 "§GClick§! to upgrade"
  RAILWAY_CANCEL_UPGRADE:0 "§GRight Click§! to cancel upgrade"
  ##########################################################################################################
- TRAINS:0 "Trains"  # TRAINS:0 "Trains"
+ TRAINS:0 "Trains"  
+ # TRAINS:0 "Trains"
  ##########################################################################################################
  TRAINS_COLON:0 "$TRAINS$:"
  TRUCKS:0 "Trucks"

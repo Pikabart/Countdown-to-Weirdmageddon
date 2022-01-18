@@ -18,7 +18,34 @@
  PERMISSION_BLOCKED:0 "Permission blocked.\n"
  PERMISSION_DESC:0 " - Armies can pass: $ARMY$\n - Navies can pass: $NAVY$\n - Submarines can pass: $SUBMARINES$\n - Trade can pass: $TRADE$"
  SUEZ_CANAL:0 "Suez Canal"
+ 
  Earth_Mewni_Portal:0 "Earth-Mewni Naval Portal"
+ BI_Mewni_Portal:0 "Boiling-Mewni Naval Portal"
+ Earth_Amphibia_Portal:0 "Earth-Amphibia Naval Portal"
+ BI_Amphibia_Portal:0 "Boiling-Amphibia Naval Portal"
+ 
+ ROM_Mewni_Portal:0 "Earth-ROM Naval Portal"
+ ROM_Earth_Portal:0 "Mewni-ROM Naval Portal"
+ ROM_Amphibia_Portal:0 "Amphibia-ROM Naval Portal"
+ ROM_Boiling_Portal:0 "Boiling-ROM Naval Portal"
+ 
+ American_BI_Portal:0 "Boiling-American Naval Portal"
+ Canadian_BI_Portal:0 "Boiling-Canadian Naval Portal"
+ 
+ Mexican_Canal:0 "Mexican Canal"
+ Golden_Gate_Strait:0 "Golden Gate Bridge"
+ Astoria_Strait:0 "Astoria-Meglar Bridge"
+ Salish_Strait:0 "Salish Strait"
+ Umpqua_Strait:0 "Umpqua River"
+ Georgia_Strait:0 "Strait of Georgia"
+ Colorado_Strait:0 "Colorado River"
+ Mississippi_Strait:0 "Mississippi River"
+ 
+ St_Marys_Canal:0 "St Marys River"
+ Detroit_Canal:0 "Detroit River"
+ Welland_Canal:0 "Welland Canal"
+ Saint_Croix_Canal:0 "Saint Croix Canal"
+ 
  GIBRALTAR_STRAIT:0 "Gibraltar Strait"
  DANISH_BELTS_STRAIT:0 "The Danish Belts"
  PANAMA_CANAL:0 "Panama Canal"

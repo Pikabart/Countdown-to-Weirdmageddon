@@ -1,6 +1,6 @@
 ﻿l_english:
  STATE_1:0 "Northern Dimensional Barrier"
- STATE_2:0 "Earth-BI Portal"
+ STATE_2:0 "Boiling-American Portal"
  STATE_3:0 "Earth-RoM Portal"
  STATE_4:0 "Earth-Mewni Portal"
  STATE_5:1 "Earth-Amphibia Portal"
@@ -470,8 +470,8 @@
  STATE_469:0 "Dove Rock Point"
  STATE_470:0 "Aleström"
  STATE_471:0 "Eerie Calm Shores"
- STATE_472:0 "Northern Canada"
- STATE_473:0 "British Columbia"
+ STATE_472:0 "Boiling-Canadian Portal"
+ STATE_473:0 "Middle Barrier"
  STATE_474:0 "Yucatan"
  STATE_475:0 "Chiapas"
  STATE_476:0 "Oaxaca"
