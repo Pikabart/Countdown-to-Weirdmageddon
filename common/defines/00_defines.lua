@@ -3426,7 +3426,7 @@ NSupply = {
 	NODE_FLOW_BONUS_PER_RAIL_LEVEL = 0.34,
 
 	-- rivers will transfer in between nodes as if they were this level
-	RIVER_RAILWAY_LEVEL = 1,
+	RIVER_RAILWAY_LEVEL = 2,
 
 	-- defines that are used for supply reach for floating harbors
 	FLOATING_HARBOR_INITIAL_SUPPLY_FLOW = 2.6,
