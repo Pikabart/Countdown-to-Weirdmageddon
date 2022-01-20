@@ -1,8 +1,20 @@
-﻿#From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
-#-1;-1;;-1;-1;-1;-1;-1;-1
+# Adjacency rules determine if an army, navy or trade can pass through the adjacency (e.g. a canal or strait).
+#
+# If two countries at war control provinces in the adjacency it is considered contested.
+# The optional triggers is_enemy, is_friend and is_neutral are evaluated in order and if one evaluates to true the corresponding rule is used.
+# If is_enemy and is_friend evaluates to false the neutral rule is used. In this case the is_neutral trigger will not be evaluated at all.
+# If is_friend and is_neutral evaluates to false the enemy rule is used.
+# If is_enemy and is_neutral evaluates to false the friend rule is used.
+# If any adjacency province controller is at war with the country the enemy rule is used, unless is_enemy evaluates to false, then the neutral rule is used.
+# If any adjacency province controller is an ally of is giving military access to the country the friend rule is used, unless is_friend evaluates to false, then the neutral rule is used.
+# Otherwise the neutral rule is used, unless is_neutral evaluates to false, then the enemy rule is used.
+#
+# The 'name' property is how you refer to the rule in adjacencies.csv
+# MAKE SURE THIS FILE AND OTHERS ARE IN "UTF-8", NOT THE LOCALISATION FILE TYPE "UTF-8-BOM"
 
+#################################################################
 #Earth Mewni Portal
-adjacency_rule = 
+adjacency_rule =
 {
 	name = "Earth_Mewni_Portal"
 
@@ -31,11 +43,11 @@ adjacency_rule =
 	{
 		army = no
 		navy = no
-		submarine = yes
-		trade = no
+		submarine = no
+		trade = yes
 	}
 	
-	required_provinces = { 7943 }
+	required_provinces = { 7943 2765 }
 
 	is_disabled = {
 		OR = {
@@ -46,23 +58,583 @@ adjacency_rule =
 	}
 		
 	icon = 7943
-	offset = { 0 0 0 }
+	offset = { 0 0 -18 }
+}
+
+#BI-Mewni Portal
+adjacency_rule =
+{
+	name = "BI_Mewni_Portal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 5384 3437 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = BI_Mewni_Portal_Portal_BLOCKED
+			has_country_flag = BI_Mewni_Portal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 5384
+	offset = { 0 0 -20 }
+}
+
+#################################################################
+#Earth_Amphibia_Portal
+adjacency_rule =
+{
+	name = "Earth_Amphibia_Portal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 5269 1831 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = Earth_Amphibia_Portal_BLOCKED
+			has_country_flag = Earth_Amphibia_Portal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 5269
+	offset = { 0 0 -20 }
+}
+
+#BI_Amphibia_Portal
+adjacency_rule =
+{
+	name = "BI_Amphibia_Portal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 1733 856 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = BI_Amphibia_Portal_BLOCKED
+			has_country_flag = BI_Amphibia_Portal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 1733
+	offset = { 0 0 -20 }
+}
+
+#################################################################
+#ROM_Mewni_Portal
+adjacency_rule =
+{
+	name = "ROM_Mewni_Portal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 2509 1034 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = ROM_Mewni_Portal_Portal_BLOCKED
+			has_country_flag = ROM_Mewni_Portal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 2509
+	offset = { 18 0 0 }
+}
+
+#ROM_Earth_Portal
+adjacency_rule =
+{
+	name = "ROM_Earth_Portal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 2987 6703 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = ROM_Earth_Portal_BLOCKED
+			has_country_flag = ROM_Earth_Portal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 2987
+	offset = { 0 0 -20 }
+}
+
+####################
+#ROM_Amphibia_Portal
+adjacency_rule =
+{
+	name = "ROM_Amphibia_Portal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 6337 3792 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = ROM_Amphibia_Portal_BLOCKED
+			has_country_flag = ROM_Amphibia_Portal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 6337
+	offset = { 18 0 0 }
+}
+
+#ROM_Boiling_Portal
+adjacency_rule =
+{
+	name = "ROM_Boiling_Portal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 4968 2455 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = ROM_Boiling_Portal_BLOCKED
+			has_country_flag = ROM_Boiling_Portal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 4968
+	offset = { 0 0 -20 }
 }
 
 
-#8857;2284;sea;7617;1560;1009;1556;1016;PANAMA_CANAL;Panama
-#2729;2408;sea;6257;2949;1598;2962;1612;KIEL_CANAL;Kiel
-#5388;803;sea;1155;-1;-1;-1;-1;SUEZ_CANAL;Suez
-#5407;5382;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar North
-#5407;2400;;-1;-1;-1;-1;-1;GIBRALTAR_STRAIT;Gibraltar South
-#2455;2506;;-1;-1;-1;-1;-1;DANISH_BELTS_STRAIT;Ã˜resund
-#5412;7678;;-1;-1;-1;-1;-1;BOSPHORUS_STRAIT;Bosphorus
-
-
-#Gibraltar Strait
-adjacency_rule
+#################################################################
+#American_BI_Portal
+adjacency_rule =
 {
-	name = "GIBRALTAR_STRAIT"
+	name = "American_BI_Portal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 3976 3797 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = American_BI_Portal_BLOCKED
+			has_country_flag = American_BI_Portal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 3976
+	offset = { 0 0 -20 }
+}
+
+
+#Canadian_BI_Portal
+adjacency_rule =
+{
+	name = "Canadian_BI_Portal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = no
+		navy = no
+		submarine = no
+		trade = yes
+	}
+	
+	required_provinces = { 2929 2287 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = Canadian_BI_Portal_BLOCKED
+			has_country_flag = Canadian_BI_Portal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 2929
+	offset = { 0 0 -10 }
+}
+
+#################################################################
+#################################################################
+#################################################################
+
+#Mexican Canal
+adjacency_rule =
+{
+	name = "Mexican_Canal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 4374 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = Mexican_Canal_BLOCKED
+			has_country_flag = Mexican_Canal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 4374
+	offset = { 0 0 0 }
+}
+
+#Golden_Gate_Strait
+adjacency_rule =
+{
+	name = "Golden_Gate_Strait"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 5246 6627 }
+	
+	icon = 11402	
+	offset = { -12 0 -5 }
+}
+
+#Astoria_Strait
+adjacency_rule =
+{
+	name = "Astoria_Strait"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 6446 }
+	
+	icon = 11093	
+	offset = { 0 0 4 }
+}
+
+#Salish_Strait
+adjacency_rule =
+{
+	name = "Salish_Strait"
 
 	contested =
 	{
@@ -96,5 +668,361 @@ adjacency_rule
 	required_provinces = { 7670 }
 	
 	icon = 7670	
-	offset = { -1 10 1 } # X Z Y
+	offset = { 0 0 -13 }
 }
+
+#Umpqua_Strait
+adjacency_rule =
+{
+	name = "Umpqua_Strait"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 5472 }
+	
+	icon = 5472	
+	offset = { 0 0 7 }
+}
+
+#Georgia_Strait
+adjacency_rule =
+{
+	name = "Georgia_Strait"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 7292 }
+	
+	icon = 7292	
+	offset = { 0 0 10 }
+}
+
+#Colorado_Strait
+adjacency_rule =
+{
+	name = "Colorado_Strait"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 10330 }
+	
+	icon = 10330	
+	offset = { 10 0 0 }
+}
+
+#Mississippi_Strait
+adjacency_rule =
+{
+	name = "Mississippi_Strait"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 5331 }
+	
+	icon = 5331	
+	offset = { 25 0 -40 }
+}
+
+#############################
+
+#Welland_Canal
+adjacency_rule =
+{
+	name = "Welland_Canal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 6630 2187 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = Welland_Canal_BLOCKED
+			has_country_flag = Welland_Canal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 6630
+	offset = { 10 0 0 }
+}
+
+#Detroit_Canal
+adjacency_rule =
+{
+	name = "Detroit_Canal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 736 94 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = Detroit_Canal_Canal_BLOCKED
+			has_country_flag = Detroit_Canal_Canal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 736
+	offset = { 20 0 0 }
+}
+
+#St_Marys_Canal
+adjacency_rule =
+{
+	name = "St_Marys_Canal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 5323 426 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = St_Marys_Canal_BLOCKED
+			has_country_flag = St_Marys_Canal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 5323
+	offset = { 0 0 0 }
+}
+
+#Saint_Croix_Canal
+adjacency_rule =
+{
+	name = "Saint_Croix_Canal"
+
+	contested =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy =
+	{
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral =
+	{
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	
+	required_provinces = { 14 96 }
+
+	is_disabled = {
+		OR = {
+			has_global_flag = Saint_Croix_Canal_BLOCKED
+			has_country_flag = Saint_Croix_Canal_BLOCKED_FOR_COUNTRY
+		}
+		tooltip = disable_canal_tt
+	}
+		
+	icon = 14
+	offset = { -15 0 0 }
+}
+
+##########################################################

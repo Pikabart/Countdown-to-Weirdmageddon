@@ -135,6 +135,7 @@
  VICTORY_POINTS_2187:0 "Buffalo"
  VICTORY_POINTS_3043:0 "Copper Harbor"
  VICTORY_POINTS_3109:0 "Shawnee"
+ VICTORY_POINTS_3647:0 "Brighton"
  
  
  ################################################
@@ -155,6 +156,12 @@
  VICTORY_POINTS_7526:0 "One Eyed Jacks"
  VICTORY_POINTS_5768:0 "Vancouver"
  VICTORY_POINTS_7670:0 "Victoria"
+ 
+ VICTORY_POINTS_1688:0 "Montreal"
+ VICTORY_POINTS_1919:0 "Quebec"
+ VICTORY_POINTS_811:0 "Toronto"
+ VICTORY_POINTS_6630:0 "Niagara Falls"
+ VICTORY_POINTS_581:0 "Saint John"
  
  ################################################
  #Mexican VPs

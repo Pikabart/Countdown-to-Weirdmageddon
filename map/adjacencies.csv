@@ -1,20 +1,79 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 
-#Portals (canals and strights)
-11078;10766;;7943;-1;-1;-1;-1;Earth_Mewni_Portal;suez
- 
+#The Multiverse Barriers
 
+# Earth Mewni Portal
+7943;2222;impassable;-1;-1;-1;-1;-1;;Earth Mewni Portal
+2765;2943;impassable;-1;-1;-1;-1;-1;;Earth Mewni Portal
+
+# Earth Amphibia Portal
+5269;6218;impassable;-1;-1;-1;-1;-1;;Earth Amphibia Portal
+3169;1831;impassable;-1;-1;-1;-1;-1;;Earth Amphibia Portal
+
+# BI Mewni Portal
+5384;7966;impassable;-1;-1;-1;-1;-1;;BI Mewni Portal
+3437;4722;impassable;-1;-1;-1;-1;-1;;BI Mewni Portal
+
+# BI Amphibia Portal
+1733;2821;impassable;-1;-1;-1;-1;-1;;BI Amphibia Portal
+6811;856;impassable;-1;-1;-1;-1;-1;;BI Amphibia Portal
+
+# BI Earth Portal
+3976;4082;impassable;-1;-1;-1;-1;-1;;BI Earth Portal
+3797;489;impassable;-1;-1;-1;-1;-1;;BI Earth Portal
+
+# BI Earth Portal
+2929;448;impassable;-1;-1;-1;-1;-1;;BI Earth Portal
+2287;7655;impassable;-1;-1;-1;-1;-1;;BI Earth Portal
+
+# Barriers
+3524;7268;impassable;-1;-1;-1;-1;-1;;
+7270;2411;impassable;-1;-1;-1;-1;-1;;
+7270;2685;impassable;-1;-1;-1;-1;-1;;
+7270;3975;impassable;-1;-1;-1;-1;-1;;
+1800;802;impassable;-1;-1;-1;-1;-1;;
+1800;652;impassable;-1;-1;-1;-1;-1;;
+1800;2586;impassable;-1;-1;-1;-1;-1;;
+10682;923;impassable;-1;-1;-1;-1;-1;;
+10682;4194;impassable;-1;-1;-1;-1;-1;;
+10682;3567;impassable;-1;-1;-1;-1;-1;;
+
+
+#ROM
+# BI
+4968;4435;impassable;-1;-1;-1;-1;-1;;BI  Portal
+4968;1024;impassable;-1;-1;-1;-1;-1;;BI  Portal
+2455;4495;impassable;-1;-1;-1;-1;-1;;BI  Portal
+2455;1043;impassable;-1;-1;-1;-1;-1;;BI  Portal
+1043;4495;impassable;-1;-1;-1;-1;-1;;BI  Portal
+4435;1024;impassable;-1;-1;-1;-1;-1;;BI  Portal
+
+# Earth
+2987;1760;impassable;-1;-1;-1;-1;-1;;Earth  Portal
+2987;6239;impassable;-1;-1;-1;-1;-1;;Earth  Portal
+6703;224;impassable;-1;-1;-1;-1;-1;;Earth  Portal
+6703;5564;impassable;-1;-1;-1;-1;-1;;Earth  Portal
+5564;224;impassable;-1;-1;-1;-1;-1;;Earth  Portal
+1760;6239;impassable;-1;-1;-1;-1;-1;;Earth  Portal
+
+# Amphibia
+6337;149;impassable;-1;-1;-1;-1;-1;;Amphibia  Portal
+3792;938;impassable;-1;-1;-1;-1;-1;;Amphibia  Portal
+
+# Mewni
+2509;9419;impassable;-1;-1;-1;-1;-1;;Mewni  Portal
+1034;5284;impassable;-1;-1;-1;-1;-1;;Mewni  Portal
 
 
 #Earth ###########################################
 # Arizona Adjacencies
-3402;1887;;11413;-1;-1;-1;-1;; Upper Grand Canyon
-997;9742;;11413;-1;-1;-1;-1;;
-434;2155;;11412;-1;-1;-1;-1;; Hoover Dam
-434;9883;;11412;-1;-1;-1;-1;;
-434;9913;;11412;-1;-1;-1;-1;;
-1659;10022;;11412;-1;-1;-1;-1;; route 66
-1659;6252;;11412;-1;-1;-1;-1;; route 66
+3402;1887;sea;11413;-1;-1;-1;-1;; Upper Grand Canyon
+997;9742;sea;11413;-1;-1;-1;-1;;
+434;2155;sea;11412;-1;-1;-1;-1;; Hoover Dam
+434;9883;sea;11412;-1;-1;-1;-1;;
+434;9913;sea;11412;-1;-1;-1;-1;;
+1659;10022;sea;11412;-1;-1;-1;-1;; route 66
+1659;6252;sea;11412;-1;-1;-1;-1;; route 66
 
 # East US Adjacencies
 10435;253;;11439;-1;-1;-1;-1;;New Orelans
@@ -36,6 +95,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6415;5768;;10792;-1;-1;-1;-1;;Island
 6172;7670;;11044;-1;-1;-1;-1;;Island
 7029;7670;;11044;-1;-1;-1;-1;;Island
+1688;2876;;11491;-1;-1;-1;-1;;Montreal
+1919;7285;;11492;-1;-1;-1;-1;;Quebec
+689;6032;;11492;-1;-1;-1;-1;;Quebec
 
 # Mexico Adjacencies
 947;10321;;11416;-1;-1;-1;-1;;Baja
@@ -473,6 +535,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 
 #Moat
 4506;6524;sea;11485;-1;-1;-1;-1;;Moat
+4506;2814;sea;11452;-1;-1;-1;-1;;Moat
 
 #Half Acre
 3472;2884;sea;11187;-1;-1;-1;-1;;Half Acre
@@ -481,6 +544,77 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 #Dry Harvest
 9298;5479;sea;10983;-1;-1;-1;-1;;Harvest
 82;9230;sea;11457;-1;-1;-1;-1;;Harvest
+
+
+
+
+
+
+# Amphibia ###########################################
+
+#Wartwood
+127;4840;sea;11465;-1;-1;-1;-1;;Wartwood
+
+
+
+
+
+
+
+#################################################################################
+#Portals (canals and strights)
+
+#Mewni
+11078;10766;;7943;-1;-1;-1;-1;Earth_Mewni_Portal;
+10985;11010;;5384;-1;-1;-1;-1;BI_Mewni_Portal;
+
+
+#Amphibia
+10923;11182;;5269;-1;-1;-1;-1;Earth_Amphibia_Portal;
+11144;11050;;1733;-1;-1;-1;-1;BI_Amphibia_Portal;
+
+#ROM
+11096;11005;;2509;-1;-1;-1;-1;ROM_Mewni_Portal;
+10965;11292;;2987;-1;-1;-1;-1;ROM_Earth_Portal;
+11096;11130;;6337;-1;-1;-1;-1;ROM_Amphibia_Portal;
+11085;11029;;4968;-1;-1;-1;-1;ROM_Boiling_Portal;
+
+#BI
+11266;11295;;3976;-1;-1;-1;-1;American_BI_Portal;
+10948;11493;;2929;-1;-1;-1;-1;Canadian_BI_Portal;
+
+
+#AMERICA! GONNA SAVE THE MOTHERF-ING DAY YEAH!
+11062;11102;;4374;-1;-1;-1;-1;Mexican_Canal;
+10787;11402;;-1;-1;-1;-1;-1;Golden_Gate_Strait;
+11093;11421;;-1;-1;-1;-1;-1;Astoria_Strait;
+11044;11099;;-1;-1;-1;-1;-1;Salish_Strait;
+11418;11154;;-1;-1;-1;-1;-1;Umpqua_Strait;
+10961;11169;;-1;-1;-1;-1;-1;Georgia_Strait;
+11416;10943;;-1;-1;-1;-1;-1;Colorado_Strait;
+10834;11439;;-1;-1;-1;-1;-1;Mississippi_Strait;
+
+11371;11350;;2187;-1;-1;-1;-1;Welland_Canal;
+11357;11374;;736;-1;-1;-1;-1;Detroit_Canal;
+11379;11353;;5323;-1;-1;-1;-1;St_Marys_Canal;
+11356;11444;;14;-1;-1;-1;-1;Saint_Croix_Canal;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

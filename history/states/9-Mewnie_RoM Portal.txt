@@ -13,7 +13,9 @@ state={
 				naval_base = 2
 				coastal_bunker = 2
 			}	
+			
 		}
+		victory_points = { 2509 10 }
 	}
 	provinces={
 		1034 2509 

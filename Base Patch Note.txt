@@ -1,3 +1,14 @@
+############################ ITGUY 01/12/22 85-86 files edited
+
+common/defines/00_defines.lau
+
+history/states
+
+localization
+
+map/<all files>
+map/startegic_region
+
 ############################ ITGUY 01/12/22
 
 common/on_actions

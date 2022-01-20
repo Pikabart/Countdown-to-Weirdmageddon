@@ -8,16 +8,21 @@ state={
 		owner = CAN
 		add_core_of = CAN
 		buildings = {
-			arms_factory = 0
-			industrial_complex = 0
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 2
 			
-			infrastructure = 1
-			air_base = 0
-			anti_air_building = 0
-			radar_station = 0	
+			infrastructure = 5
+			air_base = 10
+			anti_air_building = 5
+			radar_station = 5
+			
+			1688 = { naval_base = 2 }
+			1919 = { naval_base = 2 }
 		}
 	
-		add_core_of = CAN	
+		victory_points = { 1688 20 }
+		victory_points = { 1919 20 }
 	}
 	
 	provinces={
@@ -25,5 +30,5 @@ state={
 	}
 	manpower=8000000
 	
-	state_category=large_city
+	state_category=megalopolis 
 }
