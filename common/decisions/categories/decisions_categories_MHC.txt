@@ -1,0 +1,37 @@
+########################################################################################################
+#  REBELS AND CULTURE
+#############################
+
+MHC_rebels = {
+	priority = 9
+	icon = GFX_category_icon	
+	picture = 
+	
+	allowed = {
+		has_country_flag = culture_and_rebels_flag
+	}
+	visible = {
+		tag = MHC
+		has_country_flag = culture_and_rebels_flag
+
+	}
+	
+	visible_when_empty = yes
+}
+
+MHC_culture = {
+	priority = 8
+	icon = GFX_category_icon	
+	picture = 
+	
+	allowed = {
+		has_country_flag = culture_and_rebels_flag
+	}
+	visible = {
+		tag = MHC
+		has_country_flag = culture_and_rebels_flag
+
+	}
+	
+	visible_when_empty = yes
+}

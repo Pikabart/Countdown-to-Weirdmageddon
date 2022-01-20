@@ -1,0 +1,322 @@
+#####################################################################################################################
+# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
+# ID's must not include spaces!
+# Decisions MUST be visible for the AI to execute them, if in doubt, switch tag to the AI country and check if they can see/execute the mission.
+#####################################################################################################################
+MHC_rebels = {		
+	
+	MHC_rebels_allocate_manpower = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = no		
+		available = { has_manpower > 1500 }	
+		visible = {	}		
+
+		cost = 25
+		days_remove = 7
+		days_re_enable = 14
+		complete_effect = {
+			add_manpower = -1500
+		}
+		remove_effect = {
+			custom_effect_tooltip = "raise_mil_initiative_tooltip"
+			add_to_variable = {
+				var = monster_rebels_currency
+				value = 1
+			}
+		}
+		ai_will_do = {	
+			factor = 1
+		}
+	}
+	MHC_rebels_allocate_guns = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = no		
+		available = { 
+			has_equipment = {
+				infantry_equipment > 499
+			}
+		}	
+		visible = {	}		
+
+		cost = 25
+		days_remove = 7
+		days_re_enable = 14
+		complete_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -500
+				producer = MHC
+			}
+		}
+		remove_effect = {
+			custom_effect_tooltip = "raise_mil_initiative_tooltip"
+			add_to_variable = {
+				var = monster_rebels_currency
+				value = 1
+			}
+		}
+		ai_will_do = {	
+			factor = 1
+		}
+	}
+	MHC_rebels_suppresion = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = no		
+		available = { 
+			check_variable = {
+				var = monster_rebels_currency
+				value = 1
+				compare = greater_than_or_equals
+			}
+		}	
+		visible = {	}		
+
+		cost = 25
+		days_remove = 7
+		days_re_enable = 14
+		complete_effect = {
+			add_to_variable = {
+				var = monster_rebels_currency
+				value = -1
+			}
+			custom_effect_tooltip = "spend_1_mil_initiative_tooltip"
+
+		}
+		remove_effect = {
+			custom_effect_tooltip = "decrease_monster_rebel"
+			add_to_variable = {
+				var = monster_rebels
+				value = -1
+			}
+		}
+		ai_will_do = {	
+			factor = 1
+		}
+	}
+	MHC_local_recruitment = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = no		
+		available = { 
+			has_country_flag = rebels_options_1
+			check_variable = {
+				var = monster_rebels_currency
+				value = 1
+				compare = greater_than_or_equals
+			}
+		}	
+		visible = {	
+			has_country_flag = rebels_options_1
+		}		
+
+		cost = 25
+		days_remove = 7
+		days_re_enable = 14
+		complete_effect = {
+			custom_effect_tooltip = "spend_1_mil_initiative_tooltip"
+			add_to_variable = {
+				var = monster_rebels_currency
+				value = -1
+			}
+		}
+		remove_effect = {
+			add_manpower = 750
+		}
+		ai_will_do = {	
+			factor = 1
+		}
+	}
+	MHC_public_pow_purge = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = no		
+		available = {
+			has_country_flag = rebels_options_2
+		}	
+		visible = {
+			has_country_flag = rebels_options_2
+		}		
+
+		cost = 25
+		days_remove = 7
+		days_re_enable = 14
+		remove_effect = {
+			custom_effect_tooltip = "decrease_monster_rebel"
+			add_stability = -0.05
+			add_to_variable = {
+				var = monster_rebels
+				value = -1
+			}
+		}
+		ai_will_do = {	
+			factor = 1
+		}
+	}
+	MHC_info_for_immunity = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = no		
+		available = {
+		}	
+		visible = { has_country_flag = rebels_options_3 }		
+
+		cost = 25
+		days_remove = 7
+		days_re_enable = 14	
+		remove_effect = {
+			custom_effect_tooltip = "increase_monster_rebel"
+			custom_effect_tooltip = "raise_mil_initiative_2_tooltip"
+			add_to_variable = {
+				var = monster_rebels
+				value = 1
+			}
+			add_to_variable = {
+				var = monster_rebels_currency
+				value = 2
+			}
+		}
+		ai_will_do = {	
+			factor = 1
+		}
+	}
+	MHC_info_for_money = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = no		
+		available = {
+		}	
+		visible = { has_country_flag = rebels_options_4	}		
+
+		cost = 75
+		days_remove = 7
+		days_re_enable = 14
+		remove_effect = {
+			custom_effect_tooltip = "raise_mil_initiative_tooltip"
+			add_to_variable = {
+				var = monster_rebels_currency
+				value = 1
+			}
+		}
+		ai_will_do = {	
+			factor = 1
+		}
+	}
+
+}
+
+MHC_culture = {
+	MHC_art_showcase = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = no		
+		available = {	}	
+		visible = {	}		
+
+		cost = 50
+		days_remove = 7
+		days_re_enable = 14
+		remove_effect = {
+			custom_effect_tooltip = "add_culture_tooltip"
+			add_to_variable = {
+				var = monster_culture
+				value = 1
+			}
+		}
+		ai_will_do = {	
+			factor = 1
+		}
+	}
+	MHC_concert = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = no		
+		available = {	}	
+		visible = {	}		
+
+		cost = 50
+		days_remove = 7
+		days_re_enable = 14
+		remove_effect = {
+			custom_effect_tooltip = "add_culture_tooltip"
+			add_to_variable = {
+				var = monster_culture
+				value = 1
+			}
+		}
+		ai_will_do = {	
+			factor = 1
+		}
+	}
+	MHC_translators = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = no		
+		available = { has_country_flag = MHC_more_culture_options }	
+		visible = { has_country_flag = MHC_more_culture_options }		
+
+		cost = 25
+		days_remove = 14
+		days_re_enable = 28
+		remove_effect = {
+		}
+		remove_effect = {
+			custom_effect_tooltip = "add_culture_tooltip"
+			add_to_variable = {
+				var = monster_culture
+				value = 1
+			}
+		}
+		ai_will_do = {	
+			factor = 1
+		}
+	}
+	MHC_test_propaganda = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = no		
+		available = { has_country_flag = MHC_more_culture_options_2 }	
+		visible = { has_country_flag = MHC_more_culture_options_2 }		
+
+		cost = 25
+		days_remove = 7
+		days_re_enable = 14
+		remove_effect = {
+		}
+		remove_effect = {
+			custom_effect_tooltip = "propaganda_tooltip"
+			hidden_effect = {
+				random_list = {
+					50 = {
+						add_to_variable = {
+							var = monster_culture
+							value = 1
+						}
+					}
+					50 = {
+						add_to_variable = {
+							var = monster_culture
+							value = -1
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {	
+			factor = 1
+		}
+	}
+	MHC_mewman_parade = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = no		
+		available = { has_country_flag = MHC_more_culture_options_3 }	
+		visible = { has_country_flag = MHC_more_culture_options_3 }		
+
+		cost = 25
+		days_remove = 7
+		days_re_enable = 14
+		remove_effect = {
+		}
+		remove_effect = {
+			custom_effect_tooltip = "add_culture_tooltip"
+			add_to_variable = {
+				var = monster_culture
+				value = 1
+			}
+		}
+		ai_will_do = {	
+			factor = 1
+		}
+	}
+}
