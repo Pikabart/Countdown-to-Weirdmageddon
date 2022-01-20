@@ -1,5 +1,24 @@
 on_actions = {
 	
+	on_startup = {
+		effect = {
+			MHC = {
+				set_variable  = {
+					var = monster_rebels
+					value = 99
+				}
+				set_variable  = {
+					var = monster_rebels_currency
+					value = 0
+				}
+				set_variable  = {
+					var = monster_culture
+					value = 1
+				}
+				set_country_flag = culture_and_rebels_flag
+			}
+		}
+	}
 	#Mewni Early War and First Civil War
 	on_capitulation = {
 		effect = {

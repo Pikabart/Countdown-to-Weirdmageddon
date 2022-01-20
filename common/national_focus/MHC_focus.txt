@@ -5,7 +5,7 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-			add = 100 # 100% MHC get focus, 0% everyone else, so basicly gurrenteed
+			add = 100
 			tag = MHC
 		}
 	}
@@ -16,7 +16,7 @@ focus_tree = {
 	# Change as needed as more focus are added - orginally {x=50 y=1000}
 
 	focus = { 
-		id = MHC_start
+		id = MHC_bigger_ambitions
 		icon = a
 		x = 14
 		y = 1
@@ -26,7 +26,7 @@ focus_tree = {
 				
 		bypass = {} 
 		
-		cost = 5
+		cost = 10
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -42,16 +42,20 @@ focus_tree = {
 		
 	}
 	focus = { 
-		id = MHC_quality_troop
+		id = MHC_monster_translation
 		icon = a
-		x = -1
+		x = -3
 		y = 1
-		relative_position_id = MHC_start 
-		prerequisite = { focus = MHC_start }
-		cost = 5
-		mutually_exclusive = { focus = MHC_quantity_troop }
+		relative_position_id = MHC_bigger_ambitions 
+		prerequisite = { focus = MHC_bigger_ambitions }
+		cost = 10
 	
 		available = {
+			check_variable = {
+				var = monster_culture
+				value = 4
+				compare = greater_than_or_equals
+			}
 		}
 		bypass = {} 
 
@@ -60,7 +64,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = quality_troops_generic_warlord
+			set_country_flag = MHC_more_culture_options
+			custom_effect_tooltip = culture_requirement_4_tooltip
+			custom_effect_tooltip = culture_unlock_more_tooltip
 		}
 		
 		ai_will_do = {
@@ -69,15 +75,806 @@ focus_tree = {
 		}
 		
 	}
-	focus = {
-		id = MHC_quantity_troop
+	focus = { 
+		id = MHC_propaganda_experimentation
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_monster_translation 
+		prerequisite = { focus = MHC_monster_translation }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_culture
+				value = 8
+				compare = greater_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_country_flag = MHC_more_culture_options_2
+			custom_effect_tooltip = culture_requirement_8_tooltip
+			custom_effect_tooltip = culture_unlock_more_tooltip
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_phase_out_inferior_tongue 
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_propaganda_experimentation 
+		prerequisite = { focus = MHC_propaganda_experimentation }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_culture
+				value = 12
+				compare = greater_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = culture_requirement_12_tooltip
+			swap_ideas = {
+				remove_idea = MHC_unrecognizable_culture
+				add_idea = MHC_slight_mewman_culture
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_free_language_courses
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_phase_out_inferior_tongue 
+		prerequisite = { focus = MHC_phase_out_inferior_tongue }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_culture
+				value = 24
+				compare = greater_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = culture_requirement_24_tooltip
+			add_ideas = MHC_free_courses
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_start_them_young
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_free_language_courses 
+		prerequisite = { focus = MHC_free_language_courses }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_culture
+				value = 36
+				compare = greater_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = culture_requirement_36_tooltip
+			swap_ideas = {
+				remove_idea = MHC_free_courses
+				add_idea = MHC_free_courses_2
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_ban_the_previous_language
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_start_them_young 
+		prerequisite = { focus = MHC_start_them_young }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_culture
+				value = 56
+				compare = greater_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = culture_requirement_56_tooltip
+			swap_ideas = {
+				remove_idea = MHC_slight_mewman_culture
+				add_idea = MHC_medium_mewman_culture
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_introduce_mewman_celebrations
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_ban_the_previous_language 
+		prerequisite = { focus = MHC_ban_the_previous_language }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_culture
+				value = 64
+				compare = greater_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = culture_requirement_64_tooltip
+			custom_effect_tooltip = culture_unlock_more_tooltip
+			set_country_flag = MHC_more_culture_options_3
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_encourage_corn_growth
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_introduce_mewman_celebrations 
+		prerequisite = { focus = MHC_introduce_mewman_celebrations }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_culture
+				value = 72
+				compare = greater_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = culture_requirement_72_tooltip
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_ban_unmewman_foods
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_encourage_corn_growth 
+		prerequisite = { focus = MHC_encourage_corn_growth }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_culture
+				value = 80
+				compare = greater_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = culture_requirement_80_tooltip
+			swap_ideas = {
+				remove_idea = MHC_medium_mewman_culture
+				add_idea = MHC_major_mewman_culture
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_still_not_mewman_enough
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_ban_unmewman_foods 
+		prerequisite = { focus = MHC_ban_unmewman_foods }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_culture
+				value = 88
+				compare = greater_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = culture_requirement_88_tooltip
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_add_onto_mewman_culture
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_still_not_mewman_enough 
+		prerequisite = { focus = MHC_still_not_mewman_enough }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_culture
+				value = 96
+				compare = greater_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = culture_requirement_96_tooltip
+			add_stability = 0.02
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_ministry_of_culture
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_add_onto_mewman_culture 
+		prerequisite = { focus = MHC_add_onto_mewman_culture }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_culture
+				value = 104
+				compare = greater_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = culture_requirement_104_tooltip
+			add_stability = 0.05
+			390 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 4958
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_local_recruitment
+		icon = a
+		x = 3
+		y = 1
+		relative_position_id = MHC_bigger_ambitions 
+		prerequisite = { focus = MHC_bigger_ambitions }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_rebels
+				value = 98
+				compare = lesser_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = rebels_unlock_more_tooltip
+			set_country_flag = rebels_options_1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_no_mercy
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_local_recruitment 
+		prerequisite = { focus = MHC_local_recruitment }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_rebels
+				value = 92
+				compare = lesser_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = rebels_unlock_more_tooltip
+			set_country_flag = rebels_options_2
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_path_to_forgivness
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_no_mercy 
+		prerequisite = { focus = MHC_no_mercy }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_rebels
+				value = 84
+				compare = lesser_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = MHC_merciless_rebels
+				add_idea = MHC_radical_rebels
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_info_for_immunity
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_path_to_forgivness 
+		prerequisite = { focus = MHC_path_to_forgivness }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_rebels
+				value = 72
+				compare = lesser_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_country_flag = rebels_options_3
+			custom_effect_tooltip = rebels_unlock_more_tooltip
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_info_for_money
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_info_for_immunity 
+		prerequisite = { focus = MHC_info_for_immunity }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_rebels
+				value = 60
+				compare = lesser_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_country_flag = rebels_options_4
+			custom_effect_tooltip = rebels_unlock_more_tooltip
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_seize_arms
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_info_for_money 
+		prerequisite = { focus = MHC_info_for_money }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_rebels
+				value = 48
+				compare = lesser_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = MHC_radical_rebels
+				add_idea = MHC_rioting_rebels
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_riot_suppression
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_seize_arms 
+		prerequisite = { focus = MHC_seize_arms }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_rebels
+				value = 36
+				compare = lesser_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 1
+				category = military_police_tech
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_monitor_purchases
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_riot_suppression 
+		prerequisite = { focus = MHC_riot_suppression }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_rebels
+				value = 24
+				compare = lesser_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = MHC_monitored_market
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_throughly_disarmed_monsters
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_monitor_purchases 
+		prerequisite = { focus = MHC_monitor_purchases }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_rebels
+				value = 12
+				compare = lesser_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = MHC_rioting_rebels
+				add_idea = MHC_protesting_rebels
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_counter_protests
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_throughly_disarmed_monsters 
+		prerequisite = { focus = MHC_throughly_disarmed_monsters }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_rebels
+				value = 8
+				compare = lesser_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_to_variable = {
+				var = monster_rebels_currency
+				value = 4
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_snuff_them_out
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_counter_protests 
+		prerequisite = { focus = MHC_counter_protests }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_rebels
+				value = 2
+				compare = lesser_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_snuff_them_out
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_snuff_them_out 
+		prerequisite = { focus = MHC_snuff_them_out }
+		cost = 10
+	
+		available = {
+			check_variable = {
+				var = monster_rebels
+				value = 1
+				compare = lesser_than_or_equals
+			}
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = MHC_protesting_rebels
+				add_idea = MHC_dead_rebel_movement
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_civ_factory
 		icon = a
 		x = 1
 		y = 1
-		relative_position_id = MHC_start 
-		prerequisite = { focus = MHC_start }
-		cost = 5
-		mutually_exclusive = { focus = MHC_quality_troop }
+		relative_position_id = MHC_bigger_ambitions 
+		prerequisite = { focus = MHC_bigger_ambitions }
+		cost = 10
 	
 		available = {
 		}
@@ -88,130 +885,21 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = quantity_troops_generic_warlord
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-		
-	}
-	focus = {
-		id = MHC_civilian_production
-		icon = a
-		x = -2
-		y = 1
-		relative_position_id = MHC_quantity_troop 
-		prerequisite = { focus = MHC_quantity_troop focus = MHC_quality_troop }
-		cost = 5
-		mutually_exclusive = { focus = MHC_military_production }
-	
-		available = {
-		}
-		bypass = {} 
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_ideas = priority_civillian_generic_warlord
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-		
-	}
-	focus = {
-		id = MHC_military_production
-		icon = a
-		x = 0
-		y = 1
-		relative_position_id = MHC_quantity_troop 
-		prerequisite = { focus = MHC_quantity_troop focus = MHC_quality_troop }
-		cost = 5
-		mutually_exclusive = { focus = MHC_civilian_production }
-	
-		available = {
-		}
-		bypass = {} 
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_ideas = priority_military_generic_warlord
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-		
-	}
-	focus = {
-		id = MHC_modern_politics_production
-		icon = a
-		x = -2
-		y = 1
-		relative_position_id = MHC_military_production 
-		prerequisite = { focus = MHC_military_production focus = MHC_civilian_production }
-
-		cost = 5
-		mutually_exclusive = { focus = MHC_modern_warfare_production }
-	
-		available = {
-		}
-		bypass = {} 
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_political_power = 150
-			add_stability = 0.1
-			add_ideas = modern_politics_generic_warlord
-		}
-		
-		ai_will_do = {
-			factor = 400
-			#modifier = {}
-		}
-		
-	}
-	focus = {
-		id = MHC_modern_warfare_production
-		icon = a
-		x = 0
-		y = 1
-		relative_position_id = MHC_military_production 
-		prerequisite = { focus = MHC_military_production focus = MHC_civilian_production }
-
-		cost = 5
-		mutually_exclusive = { focus = MHC_modern_politics_production }
-	
-		available = {
-		}
-		bypass = {} 
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-			add_war_support = 0.1
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.1
-				uses = 25
-				category = land_doctrine
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
 			}
-			add_ideas = modern_warfare_generic_warlord
 		}
 		
 		ai_will_do = {
@@ -220,33 +908,943 @@ focus_tree = {
 		}
 		
 	}
+	focus = { 
+		id = MHC_handouts
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_civ_factory 
+		prerequisite = { focus = MHC_civ_factory }
+		cost = 10
 	
-	focus = {
-		id = MHC_balance_of_power
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_civ_factory_2
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_handouts 
+		prerequisite = { focus = MHC_handouts }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_research_anomalies
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_civ_factory_2 
+		prerequisite = { focus = MHC_civ_factory_2 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = MHC_dimensional_instability
+				add_idea = MHC_dimensional_instability_2
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_civ_factory_3
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_research_anomalies 
+		prerequisite = { focus = MHC_research_anomalies }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_civ_factory_4
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_civ_factory_3 
+		prerequisite = { focus = MHC_civ_factory_3 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_civ_factory_5
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_civ_factory_4 
+		prerequisite = { focus = MHC_civ_factory_4 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_civ_factory_6
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_civ_factory_5 
+		prerequisite = { focus = MHC_civ_factory_5 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_civ_factory_7
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_civ_factory_6 
+		prerequisite = { focus = MHC_civ_factory_6 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_civ_factory_8
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_civ_factory_7 
+		prerequisite = { focus = MHC_civ_factory_7 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_civ_factory_9
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_civ_factory_8 
+		prerequisite = { focus = MHC_civ_factory_8 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_civ_factory_10
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_civ_factory_9 
+		prerequisite = { focus = MHC_civ_factory_9 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_mil_factory
 		icon = a
 		x = -1
 		y = 1
-		relative_position_id = MHC_modern_warfare_production 
-		prerequisite = { focus = MHC_modern_warfare_production }
-		prerequisite = { focus = MHC_modern_politics_production }
-		cost = 5
+		relative_position_id = MHC_bigger_ambitions 
+		prerequisite = { focus = MHC_bigger_ambitions }
+		cost = 10
 	
 		available = {
-			NOT = { 443 = { is_owned_by = MW1 } }
-			NOT = { 382 = { is_owned_by = MW2 } }
-			NOT = { 448 = { is_owned_by = MW3 } }
-			NOT = { 440 = { is_owned_by = MW4 } }
-			NOT = { 453 = { is_owned_by = MW5 } }
-			NOT = { 363 = { is_owned_by = MW6} }
-
 		}
-		bypass = { } 
+		bypass = {} 
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
 
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_keeping_an_eye_on_ludo
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_mil_factory 
+		prerequisite = { focus = MHC_mil_factory }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = recon_tech
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_mil_factory_2
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_keeping_an_eye_on_ludo 
+		prerequisite = { focus = MHC_keeping_an_eye_on_ludo }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_forward_operating_bases
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_mil_factory_2 
+		prerequisite = { focus = MHC_mil_factory_2 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			451 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 2539
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 1768
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 7560
+				}
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 7091
+				}
+			}
+			452 = {
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 4602
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 7455
+				}
+				add_building_construction = {
+					type = bunker
+					level = 1
+					instant_build = yes
+					province = 1794
+				}
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 7474
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_mil_factory_3
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_forward_operating_bases 
+		prerequisite = { focus = MHC_forward_operating_bases }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_mil_factory_4
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_mil_factory_3 
+		prerequisite = { focus = MHC_mil_factory_3 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_mil_factory_5
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_mil_factory_4 
+		prerequisite = { focus = MHC_mil_factory_4 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_mil_factory_6
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_mil_factory_5 
+		prerequisite = { focus = MHC_mil_factory_5 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_mil_factory_7
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_mil_factory_6 
+		prerequisite = { focus = MHC_mil_factory_6 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_mil_factory_8
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_mil_factory_7 
+		prerequisite = { focus = MHC_mil_factory_7 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_mil_factory_9
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_mil_factory_8 
+		prerequisite = { focus = MHC_mil_factory_8 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = MHC_mil_factory_10
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = MHC_mil_factory_9 
+		prerequisite = { focus = MHC_mil_factory_9 }
+		cost = 10
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		
 		ai_will_do = {

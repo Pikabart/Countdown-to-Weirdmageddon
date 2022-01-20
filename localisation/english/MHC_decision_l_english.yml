@@ -1,0 +1,34 @@
+﻿l_english:
+
+MHC_rebels:0 "Monster Rebels"
+MHC_rebels_desc:0 "Placeholder\n\n§YNumber of Monster Rebels:§! [?monster_rebels] Hundred Thousand\n\n§YMilitary Initiative:§! [?monster_rebels_currency]"
+
+raise_mil_initiative_tooltip:0 "Raise §YMilitary Initiative§! By §Y1§!"
+raise_mil_initiative_2_tooltip:0 "Raise §YMilitary Initiative§! By §Y2§!"
+spend_1_mil_initiative_tooltip:0 "Spend §Y1 Military Initiative§!"
+decrease_monster_rebel:0 "Decrease §YNumber of Monster Rebels§! by §Y1 Hundred Thousand§!"
+increase_monster_rebel:0 "Increase §YNumber of Monster Rebels§! by §Y1 Hundred Thousand§!"
+
+
+
+MHC_culture:0 "Cultural Integration"
+MHC_culture_desc:0 "Placeholder \n\n§YNumber of Monsters Adopting Mewman Culture:§! [?monster_culture] Hundred Thousand"
+
+add_culture_tooltip:0 "Raise Number of Monsters Adopting Mewman Culture by §Y1 Hundred Thousand§!"
+propaganda_tooltip:0 "§Y50/50 Chance§! of Either §YRaising§! or §YLowering§! Number of Monsters Adopting Mewman Culture by §Y1 Hundred Thousand§!"
+
+culture_unlock_more_tooltip:0 "§YUnlocks More Decisions for Cultural Integration§!"
+rebels_unlock_more_tooltip:0 "§YUnlocks More Decisions for Monster Rebels§!"
+
+culture_requirement_4_tooltip:0 "§Y4 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_8_tooltip:0 "§Y8 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_12_tooltip:0 "§Y12 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_24_tooltip:0 "§Y24 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_36_tooltip:0 "§Y36 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_56_tooltip:0 "§Y56 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_64_tooltip:0 "§Y64 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_72_tooltip:0 "§Y72 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_80_tooltip:0 "§Y80 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_88_tooltip:0 "§Y88 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_96_tooltip:0 "§Y96 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_104_tooltip:0 "§Y104 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
