@@ -27,6 +27,10 @@
 			add = 100 # Classified Maps
 			tag = ZZZ
 		}
+		modifier = {
+			add = 100 # Southern California, for now
+			tag = SOC
+		}
 	}
 	
 	default = no

@@ -200,6 +200,11 @@ bookmarks = {
 				
 			}
 		}
+		
+		"SOC"={
+			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			minor = yes
+		}
 	
 		"---"={
 			history = "OTHER_WILD_WEST_DESC"

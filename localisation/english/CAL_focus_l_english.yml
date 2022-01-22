@@ -1,0 +1,586 @@
+﻿l_english:
+
+ #For California Focus Tree
+ 
+ #1
+ #CAL_start.1:0 ""
+ #CAL_start.1_desc:0 ""
+ #CAL_start.1.t:0 ""
+
+ CAL_start.0:0 "The Golden State"
+ CAL_start.0_desc:0 "saaa"
+ CAL_start.0.t:0 "Eurkea!"
+
+ CAL_start.1:0 "Preferred State Contractors"
+ CAL_start.1_desc:0 ""
+ CAL_start.1.t:0 ""
+ 
+ CAL_start.2:0 "Combating Global Cooling"
+ CAL_start.2_desc:0 ""
+ CAL_start.2.t:0 ""
+ 
+ CAL_start.3:0 "Evaluate The National Guard"
+ CAL_start.3_desc:0 ""
+ CAL_start.3.t:0 ""
+ 
+ CAL_start.4:0 "Expand State Services"
+ CAL_start.4_desc:0 ""
+ CAL_start.4.t:0 ""
+ 
+ CAL_start.5:0 "Golden Potholes"
+ CAL_start.5_desc:0 ""
+ CAL_start.5.t:0 ""
+ 
+ CAL_start.6:0 "The Long Summer"
+ CAL_start.6_desc:0 ""
+ CAL_start.6.t:0 ""
+ 
+ CAL_start.7:0 "The April Gubernatorial Election"
+ CAL_start.7_desc:0 ""
+ CAL_start.7.t:0 ""
+ 
+ CAL_start.8:0 "The Imperial Governor"
+ CAL_start.8_desc:0 ""
+ CAL_start.8.t:0 ""
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+ #2
+ CAL_assembly.0:0 "The Bear Goes Forth"
+ CAL_assembly.0_desc:0 ""
+ CAL_assembly.0.t:0 ""
+ 
+ CAL_assembly.1:0 "Convene The State Assembley"
+ CAL_assembly.1_desc:0 ""
+ CAL_assembly.1.t:0 ""
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+ 
+ CAL_domestic.0:0 "Norton's Domestic Agenda"
+ CAL_domestic.0_desc:0 ""
+ CAL_domestic.0.t:0 ""
+ 
+ CAL_domestic.1:0 "Ensure Progress"
+ CAL_domestic.1_desc:0 ""
+ CAL_domestic.1.t:0 ""
+ 
+ CAL_domestic.2:0 "Uphold Tradition"
+ CAL_domestic.2_desc:0 ""
+ CAL_domestic.2.t:0 ""
+ 
+ CAL_domestic.3:0 "Aid Urban Outreach"
+ CAL_domestic.3_desc:0 ""
+ CAL_domestic.3.t:0 ""
+ 
+ CAL_domestic.4:0 "New Infrastructure Bill"
+ CAL_domestic.4_desc:0 ""
+ CAL_domestic.4.t:0 ""
+ 
+ CAL_domestic.5:0 "Develop Rural Areas"
+ CAL_domestic.5_desc:0 ""
+ CAL_domestic.5.t:0 ""
+ 
+ CAL_domestic.6:0 "Pass Norton Care"
+ CAL_domestic.6_desc:0 ""
+ CAL_domestic.6.t:0 ""
+ 
+ CAL_domestic.7:0 "Redo Tax Rates"
+ CAL_domestic.7_desc:0 ""
+ CAL_domestic.7.t:0 ""
+ 
+ CAL_domestic.8:0 "A New America"
+ CAL_domestic.8_desc:0 ""
+ CAL_domestic.8.t:0 ""
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+ #3
+ 
+ CAL_evertt.0:0 "Lady Everett's Plan"
+ CAL_evertt.0_desc:0 ""
+ CAL_evertt.0.t:0 ""
+ 
+ CAL_evertt.1:0 "Patrol The Majove"
+ CAL_evertt.1_desc:0 ""
+ CAL_evertt.1.t:0 ""
+ 
+ CAL_evertt.2:0 "Leverage Our Economy"
+ CAL_evertt.2_desc:0 ""
+ CAL_evertt.2.t:0 ""
+ 
+ CAL_evertt.3:0 "Securing The Western Sky"
+ CAL_evertt.3_desc:0 ""
+ CAL_evertt.3.t:0 ""
+ 
+ CAL_evertt.4:0 "Through The Rocky"
+ CAL_evertt.4_desc:0 ""
+ CAL_evertt.4.t:0 ""
+ 
+ CAL_evertt.5:0 "East On 66"
+ CAL_evertt.5_desc:0 ""
+ CAL_evertt.5.t:0 ""
+ 
+ CAL_evertt.6:0 "Tame The Colorado"
+ CAL_evertt.6_desc:0 ""
+ CAL_evertt.6.t:0 ""
+ 
+ CAL_evertt.7:0 "Secure Texas"
+ CAL_evertt.7_desc:0 ""
+ CAL_evertt.7.t:0 ""
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+ #4
+ 
+ CAL_birnbaum.0:0 "Lord Birnbum's Plan"
+ CAL_birnbaum.0_desc:0 ""
+ CAL_birnbaum.0.t:0 ""
+ 
+ CAL_birnbaum.1:0 "New Trade Routes"
+ CAL_birnbaum.1_desc:0 ""
+ CAL_birnbaum.1.t:0 ""
+ 
+ CAL_birnbaum.2:0 "Wonder Of The Western Sky"
+ CAL_birnbaum.2_desc:0 ""
+ CAL_birnbaum.2.t:0 ""
+ 
+ CAL_birnbaum.3:0 "On Guard In The Rocky"
+ CAL_birnbaum.3_desc:0 ""
+ CAL_birnbaum.3.t:0 ""
+ 
+ CAL_birnbaum.4:0 "Strengthen Ties Along The Colorado"
+ CAL_birnbaum.4_desc:0 ""
+ CAL_birnbaum.4.t:0 ""
+ 
+ CAL_birnbaum.5:0 "A New Golden Spike"
+ CAL_birnbaum.5_desc:0 ""
+ CAL_birnbaum.5.t:0 ""
+ 
+ CAL_birnbaum.6:0 "Mexico, New and Old"
+ CAL_birnbaum.6_desc:0 ""
+ CAL_birnbaum.6.t:0 ""
+ 
+ CAL_birnbaum.7:0 "Defend Mexico"
+ CAL_birnbaum.7_desc:0 ""
+ CAL_birnbaum.7.t:0 ""
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+ #5
+ 
+ CAL_shermie.0:0 "Sherman Filbrick Pines"
+ CAL_shermie.0_desc:0 ""
+ CAL_shermie.0.t:0 ""
+ 
+ CAL_shermie.1:0 "Rally To The West"
+ CAL_shermie.1_desc:0 ""
+ CAL_shermie.1.t:0 ""
+ 
+ CAL_shermie.2:0 "Re-Open Fort Navarro"
+ CAL_shermie.2_desc:0 ""
+ CAL_shermie.2.t:0 ""
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+ #5
+ 
+ CAL_complex.0:0 "Northwest Industrial Complex"
+ CAL_complex.0_desc:0 ""
+ CAL_complex.0.t:0 ""
+ 
+ CAL_complex.1:0 "Fuel For The West"
+ CAL_complex.1_desc:0 ""
+ CAL_complex.1.t:0 ""
+ 
+ CAL_complex.2:0 "New Factories "
+ CAL_complex.2_desc:0 ""
+ CAL_complex.2.t:0 ""
+ 
+ CAL_complex.3:0 "Private Security"
+ CAL_complex.3_desc:0 ""
+ CAL_complex.3.t:0 ""
+ 
+ CAL_complex.4:0 "Research and Development"
+ CAL_complex.4_desc:0 ""
+ CAL_complex.4.t:0 ""
+ 
+ CAL_complex.5:0 "Fierro en Guerra"
+ CAL_complex.5_desc:0 ""
+ CAL_complex.5.t:0 ""
+ 
+ CAL_complex.6:0 "The City of Angels"
+ CAL_complex.6_desc:0 ""
+ CAL_complex.6.t:0 ""
+ 
+ CAL_complex.7:0 "The Golden Industry"
+ CAL_complex.7_desc:0 ""
+ CAL_complex.7.t:0 ""
+ 
+ ##################################################################################################################
+ 
+ CAL_pacific.0:0 "The Pacific Comes To Us"
+ CAL_pacific.0_desc:0 ""
+ CAL_pacific.0.t:0 ""
+ 
+ CAL_pacific.1:0 "Emily's Water Bears"
+ CAL_pacific.1_desc:0 ""
+ CAL_pacific.1.t:0 ""
+ 
+ CAL_pacific.2:0 "Contact the US Pacific Fleet"
+ CAL_pacific.2_desc:0 ""
+ CAL_pacific.2.t:0 ""
+ 
+ CAL_pacific.3:0 "New Coastal Management"
+ CAL_pacific.3_desc:0 ""
+ CAL_pacific.3.t:0 ""
+ 
+ CAL_pacific.4:0 "New Logistic Routes"
+ CAL_pacific.4_desc:0 ""
+ CAL_pacific.4.t:0 ""
+ 
+ CAL_pacific.5:0 "Securing Our Shores"
+ CAL_pacific.5_desc:0 ""
+ CAL_pacific.5.t:0 ""
+ 
+ CAL_pacific.6:0 "Safe Harbors"
+ CAL_pacific.6_desc:0 ""
+ CAL_pacific.6.t:0 ""
+ 
+ CAL_pacific.7:0 "From The Far East To The Wild West"
+ CAL_pacific.7_desc:0 ""
+ CAL_pacific.7.t:0 ""
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+ #6 
+ 
+ CAL_army.0:0 "The Army Of The West"
+ CAL_army.0_desc:0 ""
+ CAL_army.0.t:0 ""
+ 
+ CAL_army.1:0 "Adopt the M-5 "Magika""
+ CAL_army.1_desc:0 ""
+ CAL_army.1.t:0 ""
+ 
+ CAL_army.2:0 "Integrate Loyal Forces"
+ CAL_army.2_desc:0 ""
+ CAL_army.2.t:0 ""
+ 
+ CAL_army.3:0 "The Sierra Army Depot"
+ CAL_army.3_desc:0 ""
+ CAL_army.3.t:0 ""
+ 
+ CAL_army.4:0 "Logistics First"
+ CAL_army.4_desc:0 ""
+ CAL_army.4.t:0 ""
+ 
+ CAL_army.5:0 "Edwards And Mojave Air"
+ CAL_army.5_desc:0 ""
+ CAL_army.5.t:0 ""
+ 
+ CAL_army.6:0 "Lessons From The 90s"
+ CAL_army.6_desc:0 ""
+ CAL_army.6.t:0 ""
+ 
+ CAL_army.7:0 "Over There!"
+ CAL_army.7_desc:0 ""
+ CAL_army.7.t:0 ""
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+ 
+ CAL_hector.0:0 "Hector Santa Anna Diaz-Guzman"
+ CAL_hector.0_desc:0 ""
+ CAL_hector.0.t:0 ""
+ 
+ CAL_division.0:0 "The Two-Headed Bear"
+ CAL_division.0_desc:0 ""
+ CAL_division.0.t:0 ""
+ 
+ CAL_division.1:0 "Mend NDR-IDR Divisions"
+ CAL_division.1_desc:0 ""
+ CAL_division.1.t:0 ""
+ 
+ CAL_division.2:0 "Joint Town Hall Meeting"
+ CAL_division.2_desc:0 ""
+ CAL_division.2.t:0 ""
+ 
+ CAL_division.3:0 "Strengthen the Imperial Congress"
+ CAL_division.3_desc:0 ""
+ CAL_division.3.t:0 ""
+ 
+ CAL_division.4:0 "Rezone Water Reserves"
+ CAL_division.4_desc:0 ""
+ CAL_division.4.t:0 ""
+ 
+ CAL_division.5:0 "Arrange New Political Deals"
+ CAL_division.5_desc:0 ""
+ CAL_division.5.t:0 ""
+ 
+ CAL_division.6:0 "One Government"
+ CAL_division.6_desc:0 ""
+ CAL_division.6.t:0 ""
+ 
+ CAL_division.7:0 "One California"
+ CAL_division.7_desc:0 ""
+ CAL_division.7.t:0 ""
+ 
+ CAL_division.8:0 "A Day At The Ball Park"
+ CAL_division.8_desc:0 ""
+ CAL_division.8.t:0 ""
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+ 
+ CAL_IBI.0:0 "Counter The Western FPI"
+ CAL_IBI.0_desc:0 ""
+ CAL_IBI.0.t:0 ""
+ 
+ CAL_IBI.1:0 "Call Andrew Chiu"
+ CAL_IBI.1_desc:0 ""
+ CAL_IBI.1.t:0 ""
+ 
+ CAL_IBI.2:0 "Call In Mr. X"
+ CAL_IBI.2_desc:0 ""
+ CAL_IBI.2.t:0 ""
+ 
+ CAL_IBI.3:0 "Your Friends Close..."
+ CAL_IBI.3_desc:0 ""
+ CAL_IBI.3.t:0 ""
+ 
+ CAL_IBI.4:0 "Office Supplies..."
+ CAL_IBI.4_desc:0 ""
+ CAL_IBI.4.t:0 ""
+ 
+ CAL_IBI.5:0 "Solve An Easy Case"
+ CAL_IBI.5_desc:0 ""
+ CAL_IBI.5.t:0 ""
+ 
+ CAL_IBI.6:0 "Your Enemy Closer"
+ CAL_IBI.6_desc:0 ""
+ CAL_IBI.6.t:0 ""
+ 
+ CAL_IBI.7:0 "Revaluate The St. James Dissaperence"
+ CAL_IBI.7_desc:0 ""
+ CAL_IBI.7.t:0 ""
+ 
+ CAL_IBI.8:0 "A Chat With Shroud"
+ CAL_IBI.8_desc:0 ""
+ CAL_IBI.8.t:0 ""
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+ 
+ CAL_For_Emperor.0:0 "For The Emperor And The Republic!"
+ CAL_For_Emperor.0_desc:0 ""
+ CAL_For_Emperor.0.t:0 ""
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+ 
+ CAL_mewni.0:0 "Imperial Speech"
+ CAL_mewni.0_desc:0 ""
+ CAL_mewni.0.t:0 ""
+ 
+ CAL_mewni.1:0 "First Contact"
+ CAL_mewni.1_desc:0 ""
+ CAL_mewni.1.t:0 ""
+ 
+ CAL_mewni.2:0 "The Pivot To Mewni"
+ CAL_mewni.2_desc:0 ""
+ CAL_mewni.2.t:0 ""
+ 
+ CAL_mewni.3:0 "The Rodent Problem..."
+ CAL_mewni.3_desc:0 ""
+ CAL_mewni.3.t:0 ""
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+ 
+ CAL_magic.0:0 "Imported Magic"
+ CAL_magic.0_desc:0 ""
+ CAL_magic.0.t:0 ""
+ 
+ CAL_magic.1:0 "The Emperor's New Portal"
+ CAL_magic.1_desc:0 ""
+ CAL_magic.1.t:0 ""
+ 
+ CAL_magic.2:0 "The California Magic Ranger Corp"
+ CAL_magic.2_desc:0 ""
+ CAL_magic.2.t:0 ""
+ 
+ CAL_magic.3:0 "New Power Infrastructure"
+ CAL_magic.3_desc:0 ""
+ CAL_magic.3.t:0 ""
+ 
+ CAL_magic.4:0 "Cut Ourselves A Shortcut"
+ CAL_magic.4_desc:0 ""
+ CAL_magic.4.t:0 ""
+ 
+ CAL_magic.5:0 "Infiltrate Skywynne Institute"
+ CAL_magic.5_desc:0 ""
+ CAL_magic.5.t:0 ""
+ 
+ CAL_magic.6:0 "Begin Testing"
+ CAL_magic.6_desc:0 ""
+ CAL_magic.6.t:0 ""
+ 
+ CAL_magic.7:0 "The Golden Gate"
+ CAL_magic.7_desc:0 ""
+ CAL_magic.7.t:0 ""
+ 
+ CAL_magic.8:0 "The Princesses Of California"
+ CAL_magic.8_desc:0 ""
+ CAL_magic.8.t:0 ""
+ 
+ CAL_magic.9:0 "We Stand On Our Own"
+ CAL_magic.9_desc:0 ""
+ CAL_magic.9.t:0 ""
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+ 
+ CAL_force.0:0 "Form the Expeditionary Force"
+ CAL_force.0_desc:0 ""
+ CAL_force.0.t:0 ""
+ 
+ CAL_force.1:0 "Reinforce Fort Norton"
+ CAL_force.1_desc:0 ""
+ CAL_force.1.t:0 ""
+ 
+ CAL_force.2:0 "Portal Drop More Supplies"
+ CAL_force.2_desc:0 ""
+ CAL_force.2.t:0 ""
+ 
+ CAL_force.3:0 "Send Advisors To The Mewman Army"
+ CAL_force.3_desc:0 ""
+ CAL_force.3.t:0 ""
+ 
+ CAL_force.4:0 "All Roads Lead To Port Festiva"
+ CAL_force.4_desc:0 ""
+ CAL_force.4.t:0 ""
+ 
+ CAL_force.5:0 "Form The Californian Foreign Legion"
+ CAL_force.5_desc:0 ""
+ CAL_force.5.t:0 ""
+ 
+ CAL_force.6:0 "Self Dependent"
+ CAL_force.6_desc:0 ""
+ CAL_force.6.t:0 ""
+ 
+ CAL_force.7:0 "Ensure Trade"
+ CAL_force.7_desc:0 ""
+ CAL_force.7.t:0 ""
+ 
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+ 
+ CAL_butterfly_aid.0:0 "Assist The Butterfly Kingdom"
+ CAL_butterfly_aid.0_desc:0 ""
+ CAL_butterfly_aid.0.t:0 ""
+ 
+ CAL_butterfly_aid.1:0 "Export Food"
+ CAL_butterfly_aid.1_desc:0 ""
+ CAL_butterfly_aid.1.t:0 ""
+ 
+ CAL_butterfly_aid.2:0 "Our Own Interest"
+ CAL_butterfly_aid.2_desc:0 ""
+ CAL_butterfly_aid.2.t:0 ""
+ 
+ CAL_butterfly_aid.3:0 "Arrange Financial Assistance"
+ CAL_butterfly_aid.3_desc:0 ""
+ CAL_butterfly_aid.3.t:0 ""
+ 
+ CAL_butterfly_aid.4:0 "Dive In Mewman History"
+ CAL_butterfly_aid.4_desc:0 ""
+ CAL_butterfly_aid.4.t:0 ""
+ 
+ CAL_butterfly_aid.5:0 "Expand the Trade Port Cities"
+ CAL_butterfly_aid.5_desc:0 ""
+ CAL_butterfly_aid.5.t:0 ""
+ 
+ CAL_butterfly_aid.6:0 "Norton's Past"
+ CAL_butterfly_aid.6_desc:0 ""
+ CAL_butterfly_aid.6.t:0 ""
+ 
+ CAL_butterfly_aid.7:0 "Who is Festiva?"
+ CAL_butterfly_aid.7_desc:0 ""
+ CAL_butterfly_aid.7.t:0 ""
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+ 
+ CAL_disaster.0:0 "Fall Back!"
+ CAL_disaster.0_desc:0 ""
+ CAL_disaster.0.t:0 ""
+ 
+ CAL_disaster.1:0 "Rat Over Bear"
+ CAL_disaster.1_desc:0 ""
+ CAL_disaster.1.t:0 ""
+ 
+ CAL_disaster.2:0 "The Failure Of The CEF"
+ CAL_disaster.2_desc:0 ""
+ CAL_disaster.2.t:0 ""
+ 
+ ######################################################
+ 
+ CAL_civil_war.1:0 "Stand With Governor Norton"
+ CAL_civil_war.1_desc:0 ""
+ CAL_civil_war.1.t:0 ""
+ 
+ CAL_civil_war.2:0 "Stand With Lt. Governor Diaz-Guzman"
+ CAL_civil_war.2_desc:0 ""
+ CAL_civil_war.2.t:0 ""
+ 
+ CAL_civil_war.3:0 "Fortify Salianas"
+ CAL_civil_war.3_desc:0 ""
+ CAL_civil_war.3.t:0 ""
+ 
+ CAL_civil_war.4:0 "Amass In Fresno"
+ CAL_civil_war.4_desc:0 ""
+ CAL_civil_war.4.t:0 ""
+ 
+ CAL_civil_war.5:0 "Secure Night City"
+ CAL_civil_war.5_desc:0 ""
+ CAL_civil_war.5.t:0 ""
+ 
+ CAL_civil_war.6:0 "Invest In Bakersfieldville"
+ CAL_civil_war.6_desc:0 ""
+ CAL_civil_war.6.t:0 ""
+ 
+ CAL_civil_war.7:0 "Lockdown The Sierra Nevada"
+ CAL_civil_war.7_desc:0 ""
+ CAL_civil_war.7.t:0 ""
+ 
+ CAL_civil_war.8:0 "Reinforce Las Vegas"
+ CAL_civil_war.8_desc:0 ""
+ CAL_civil_war.8.t:0 ""
+ 
+ CAL_civil_war.9:0 "Secure 5!"
+ CAL_civil_war.9_desc:0 ""
+ CAL_civil_war.9.t:0 ""
+ 
+ CAL_civil_war.10:0 "Secure The 5!"
+ CAL_civil_war.10_desc:0 ""
+ CAL_civil_war.10.t:0 ""
+ 
+ CAL_civil_war.11:0 "Governor Green's Nightmare"
+ CAL_civil_war.11_desc:0 "Never had anyone thought that the great state of California would be pushed to the brink of total collapse. With the forces of the Norton and Diaz-Guzman rallied from the coastline to the Sierra Nevada, its now clear. The California Civil War had begun."
+ CAL_civil_war.11.t:0 "§YCalifornia§! declares war on §GSouthern California§!"

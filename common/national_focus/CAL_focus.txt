@@ -1,0 +1,2925 @@
+﻿focus_tree = {
+	id = california_start_focus
+	
+	country = {
+		factor = 0	
+		modifier = {
+			add = 100 
+			tag = CAL
+		} 
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 1000 y = 250 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	##################################################################################################################
+	##################################################################################################################
+	##################################################################################################################
+	
+	focus = {
+		id = CAL_start.0 
+		icon = GFX_goal_california
+		x = 32
+		y = 1
+		cost = 1
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_start.0.t"
+		}
+	}
+
+	focus = {
+		id = CAL_start.1
+		icon = GFX_goal_california
+		x = -3
+		y = 1
+		relative_position_id = CAL_start.0
+		prerequisite = { focus = CAL_start.0 }
+		cost = 1
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_start.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_start.2
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_start.0
+		prerequisite = { focus = CAL_start.0 }
+		cost = 1
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_start.2.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_start.3
+		icon = GFX_goal_california
+		x = 3
+		y = 1
+		relative_position_id = CAL_start.0
+		prerequisite = { focus = CAL_start.0 }
+		cost = 1
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_start.3.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_start.4
+		icon = GFX_goal_california
+		x = -2
+		y = 2
+		relative_position_id = CAL_start.0
+		prerequisite = { focus = CAL_start.1 }
+		prerequisite = { focus = CAL_start.2 }
+		cost = 1
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_start.4.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_start.5
+		icon = GFX_goal_california
+		x = 2
+		y = 2
+		relative_position_id = CAL_start.0
+		prerequisite = { focus = CAL_start.2 }
+		prerequisite = { focus = CAL_start.3 }
+		cost = 1
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_start.5.t"
+		}
+	}
+
+	####################################
+	
+	focus = {
+		id = CAL_start.6
+		icon = GFX_goal_california
+		x = 0
+		y = 3
+		relative_position_id = CAL_start.0
+		prerequisite = { focus = CAL_start.4 }
+		prerequisite = { focus = CAL_start.5 }
+		cost = 4
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_start.6.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_start.7
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_start.6
+		prerequisite = { focus = CAL_start.6 }
+		cost = 4
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_start.7.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_start.8
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_start.7
+		prerequisite = { focus = CAL_start.7 }
+		cost = 4
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_start.8.t"
+		}
+	}
+
+	##################################################################################################################
+	##################################################################################################################
+	##################################################################################################################
+ 
+	focus = {
+		id = CAL_assembly.0
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_start.8
+		prerequisite = { focus = CAL_start.8 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_assembly.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_assembly.1
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_assembly.0
+		prerequisite = { focus = CAL_assembly.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_assembly.1.t"
+		}
+	}
+	
+	####################################
+	
+	focus = {
+		id = CAL_domestic.0
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_assembly.1
+		prerequisite = { focus = CAL_assembly.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_domestic.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_domestic.1
+		icon = GFX_goal_california
+		x = -2
+		y = 1
+		relative_position_id = CAL_domestic.0
+		prerequisite = { focus = CAL_domestic.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_domestic.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_domestic.2
+		icon = GFX_goal_california
+		x = 2
+		y = 1
+		relative_position_id = CAL_domestic.0
+		prerequisite = { focus = CAL_domestic.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_domestic.2.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_domestic.3
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_domestic.1
+		prerequisite = { focus = CAL_domestic.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_domestic.3.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_domestic.4
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_domestic.0
+		prerequisite = { 
+			focus = CAL_domestic.1 
+			focus = CAL_domestic.2 
+		}
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_domestic.4.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_domestic.5
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_domestic.2
+		prerequisite = { focus = CAL_domestic.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_domestic.5.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_domestic.6
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_domestic.3
+		prerequisite = { focus = CAL_domestic.3 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_domestic.6.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_domestic.7
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_domestic.5
+		prerequisite = { focus = CAL_domestic.5 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_domestic.7.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_domestic.8
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_domestic.4
+		prerequisite = { focus = CAL_domestic.4 }
+		prerequisite = { focus = CAL_domestic.6 }
+		prerequisite = { focus = CAL_domestic.7 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_domestic.8.t"
+		}
+	}
+	
+	####################################
+	
+	focus = {
+		id = CAL_evertt.0
+		icon = GFX_goal_california
+		x = -8
+		y = 1
+		relative_position_id = CAL_assembly.1
+		prerequisite = { focus = CAL_assembly.1 }
+		mutually_exclusive = { focus = CAL_birnbaum.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_evertt.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_evertt.1
+		icon = GFX_goal_california
+		x = -3
+		y = 1
+		relative_position_id = CAL_evertt.0
+		prerequisite = { focus = CAL_evertt.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_evertt.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_evertt.2
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_evertt.0
+		prerequisite = { focus = CAL_evertt.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_evertt.2.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_evertt.3
+		icon = GFX_goal_california
+		x = 3
+		y = 1
+		relative_position_id = CAL_evertt.0
+		prerequisite = { focus = CAL_evertt.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_evertt.3.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_evertt.4
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_evertt.1
+		prerequisite = { focus = CAL_evertt.1 }
+		prerequisite = { focus = CAL_evertt.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_evertt.4.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_evertt.5
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_evertt.3
+		prerequisite = { focus = CAL_evertt.2 }
+		prerequisite = { focus = CAL_evertt.3 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_evertt.5.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_evertt.6
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_evertt.2
+		prerequisite = { focus = CAL_evertt.4 }
+		prerequisite = { focus = CAL_evertt.5 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_evertt.6.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_evertt.7
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_evertt.6
+		prerequisite = { focus = CAL_evertt.6 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_evertt.7.t"
+		}
+	}
+	
+	####################################
+	
+	focus = {
+		id = CAL_birnbaum.0
+		icon = GFX_goal_california
+		x = 8
+		y = 1
+		relative_position_id = CAL_assembly.1
+		prerequisite = { focus = CAL_assembly.1 }
+		mutually_exclusive = { focus = CAL_evertt.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_domestic.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_birnbaum.1
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_birnbaum.0
+		prerequisite = { focus = CAL_birnbaum.0 }
+		cost = 8
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_birnbaum.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_birnbaum.2
+		icon = GFX_goal_california
+		x = -2
+		y = 1
+		relative_position_id = CAL_birnbaum.1
+		prerequisite = { focus = CAL_birnbaum.1 }
+		cost = 8
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_birnbaum.2.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_birnbaum.3
+		icon = GFX_goal_california
+		x = 2
+		y = 1
+		relative_position_id = CAL_birnbaum.1
+		prerequisite = { focus = CAL_birnbaum.1 }
+		cost = 8
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_birnbaum.3.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_birnbaum.4
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_birnbaum.2
+		prerequisite = { focus = CAL_birnbaum.2 }
+		cost = 8
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_birnbaum.4.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_birnbaum.5
+		icon = GFX_goal_california
+		x = -2
+		y = 1
+		relative_position_id = CAL_birnbaum.3
+		prerequisite = { focus = CAL_birnbaum.2 }
+		prerequisite = { focus = CAL_birnbaum.3 }
+		cost = 8
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_birnbaum.5.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_birnbaum.6
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_birnbaum.3
+		prerequisite = { focus = CAL_birnbaum.3 }
+		cost = 8
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_birnbaum.6.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_birnbaum.7
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_birnbaum.5
+		prerequisite = { focus = CAL_birnbaum.4 }
+		prerequisite = { focus = CAL_birnbaum.5 }
+		prerequisite = { focus = CAL_birnbaum.6 }
+		cost = 8
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_birnbaum.7.t"
+		}
+	}
+	
+	##################################################################################################################
+	##################################################################################################################
+	##################################################################################################################
+	
+	focus = {
+		id = CAL_shermie.0
+		icon = GFX_goal_california
+		x = -21
+		y = 1
+		relative_position_id = CAL_start.8
+		prerequisite = { focus = CAL_start.8 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_shermie.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_shermie.1
+		icon = GFX_goal_california
+		x = -2
+		y = 1
+		relative_position_id = CAL_shermie.0
+		prerequisite = { focus = CAL_shermie.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_shermie.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_shermie.2
+		icon = GFX_goal_california
+		x = 2
+		y = 1
+		relative_position_id = CAL_shermie.0
+		prerequisite = { focus = CAL_shermie.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_shermie.2.t"
+		} 
+	}
+	
+	####################################
+	
+	focus = {
+		id = CAL_complex.0
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_shermie.0
+		prerequisite = { focus = CAL_shermie.1 }
+		prerequisite = { focus = CAL_shermie.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_complex.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_complex.1
+		icon = GFX_goal_california
+		x = -2
+		y = 1
+		relative_position_id = CAL_complex.0
+		prerequisite = { focus = CAL_complex.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_complex.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_complex.2
+		icon = GFX_goal_california
+		x = 2
+		y = 1
+		relative_position_id = CAL_complex.0
+		prerequisite = { focus = CAL_complex.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_complex.2.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_complex.3
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_complex.1
+		prerequisite = { focus = CAL_complex.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_complex.3.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_complex.4
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_complex.2
+		prerequisite = { focus = CAL_complex.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_complex.4.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_complex.5
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_complex.3
+		prerequisite = { focus = CAL_complex.3 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_complex.5.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_complex.6
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_complex.4
+		prerequisite = { focus = CAL_complex.4 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_complex.6.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_complex.7
+		icon = GFX_goal_california
+		x = 0
+		y = 5
+		relative_position_id = CAL_complex.0
+		prerequisite = { focus = CAL_complex.5 }
+		prerequisite = { focus = CAL_complex.6 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_complex.7.t"
+		}
+	}
+	
+	####################################
+	
+	focus = {
+		id = CAL_pacific.0
+		icon = GFX_goal_california
+		x = -6
+		y = 2
+		relative_position_id = CAL_shermie.0
+		prerequisite = { focus = CAL_shermie.1 }
+		prerequisite = { focus = CAL_shermie.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_pacific.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_pacific.1
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_pacific.0
+		prerequisite = { focus = CAL_pacific.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_pacific.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_pacific.2
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_pacific.0
+		prerequisite = { focus = CAL_pacific.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_pacific.2.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_pacific.3
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_pacific.1
+		prerequisite = { focus = CAL_pacific.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_pacific.3.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_pacific.4
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_pacific.2
+		prerequisite = { focus = CAL_pacific.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_pacific.4.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_pacific.5
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_pacific.3
+		prerequisite = { focus = CAL_pacific.3 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_pacific.5.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_pacific.6
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_pacific.4
+		prerequisite = { focus = CAL_pacific.4 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_pacific.6.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_pacific.7
+		icon = GFX_goal_california
+		x = 0
+		y = 5
+		relative_position_id = CAL_pacific.0
+		prerequisite = { focus = CAL_pacific.5 }
+		prerequisite = { focus = CAL_pacific.6 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_pacific.7.t"
+		}
+	}
+	
+	####################################
+	
+	focus = {
+		id = CAL_army.0
+		icon = GFX_goal_california
+		x = 6
+		y = 2
+		relative_position_id = CAL_shermie.0
+		prerequisite = { focus = CAL_shermie.1 }
+		prerequisite = { focus = CAL_shermie.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_army.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_army.1
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_army.0
+		prerequisite = { focus = CAL_army.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_army.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_army.2
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_army.0
+		prerequisite = { focus = CAL_army.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_army.2.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_army.3
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_army.1
+		prerequisite = { focus = CAL_army.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_army.3.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_army.4
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_army.2
+		prerequisite = { focus = CAL_army.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_army.4.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_army.5
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_army.3
+		prerequisite = { focus = CAL_army.3 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_army.5.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_army.6
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_army.4
+		prerequisite = { focus = CAL_army.4 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_army.6.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_army.7
+		icon = GFX_goal_california
+		x = 0
+		y = 5
+		relative_position_id = CAL_army.0
+		prerequisite = { focus = CAL_army.5 }
+		prerequisite = { focus = CAL_army.6 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_army.7.t"
+		}
+	}
+	
+	##################################################################################################################
+	##################################################################################################################
+	##################################################################################################################
+	
+	focus = {
+		id = CAL_hector.0
+		icon = GFX_goal_california
+		x = 21
+		y = 1
+		relative_position_id = CAL_start.8
+		prerequisite = { focus = CAL_start.8 }
+		cost = 4
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_unite.0.t"
+		}
+	}
+	
+	####################################
+	
+	focus = {
+		id = CAL_IBI.0
+		icon = GFX_goal_california
+		x = 4
+		y = 2
+		relative_position_id = CAL_hector.0
+		prerequisite = { focus = CAL_hector.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_IBI.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_IBI.1
+		icon = GFX_goal_california
+		x = -2
+		y = 1
+		relative_position_id = CAL_IBI.0
+		prerequisite = { focus = CAL_IBI.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_IBI.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_IBI.2
+		icon = GFX_goal_california
+		x = 2
+		y = 1
+		relative_position_id = CAL_IBI.0
+		prerequisite = { focus = CAL_IBI.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_IBI.2.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_IBI.3
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_IBI.1
+		prerequisite = { focus = CAL_IBI.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_IBI.3.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_IBI.4
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_IBI.0
+		prerequisite = { 
+			focus = CAL_IBI.1 
+			focus = CAL_IBI.2 
+		}
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_IBI.4.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_IBI.5
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_IBI.2
+		prerequisite = { focus = CAL_IBI.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_IBI.5.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_IBI.6
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_IBI.3
+		prerequisite = { focus = CAL_IBI.3 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_IBI.6.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_IBI.7
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_IBI.5
+		prerequisite = { focus = CAL_IBI.5 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_IBI.7.t"
+		}
+	}
+	
+	focus = { 
+		id = CAL_IBI.8
+		icon = GFX_goal_california
+		x = 0
+		y = 3
+		relative_position_id = CAL_IBI.4
+		prerequisite = { focus = CAL_IBI.4 }
+		prerequisite = { focus = CAL_IBI.6 }
+		prerequisite = { focus = CAL_IBI.7 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_IBI.8.t"
+		}
+	}
+	
+	####################################
+	
+	focus = {
+		id = CAL_division.0
+		icon = GFX_goal_california
+		x = -4
+		y = 2
+		relative_position_id = CAL_hector.0
+		prerequisite = { focus = CAL_hector.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_division.1
+		icon = GFX_goal_california
+		x = -2
+		y = 1
+		relative_position_id = CAL_division.0
+		prerequisite = { focus = CAL_division.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_division.2
+		icon = GFX_goal_california
+		x = 2
+		y = 1
+		relative_position_id = CAL_division.0
+		prerequisite = { focus = CAL_division.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.2.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_division.3
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_division.1
+		prerequisite = { focus = CAL_division.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.3.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_division.4
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_division.0
+		prerequisite = { 
+			focus = CAL_division.1 
+			focus = CAL_division.2 
+		}
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.4.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_division.5
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_division.2
+		prerequisite = { focus = CAL_division.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.5.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_division.6
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_division.3
+		prerequisite = { focus = CAL_division.3 }
+		prerequisite = { focus = CAL_division.4 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.6.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_division.7
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_division.5
+		prerequisite = { focus = CAL_division.4 }
+		prerequisite = { focus = CAL_division.5 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.7.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_division.8
+		icon = GFX_goal_california
+		x = 0
+		y = 3
+		relative_position_id = CAL_division.4
+		prerequisite = { focus = CAL_division.6 }
+		prerequisite = { focus = CAL_division.7 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.8.t"
+		}
+	}
+	
+	####################################
+	
+	focus = {
+		id = CAL_For_Emperor.0
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_domestic.8
+		prerequisite = { 
+			focus = CAL_pacific.7 
+			focus = CAL_complex.7 
+			focus = CAL_army.7 
+		}
+		prerequisite = { 
+			focus = CAL_evertt.7 
+			focus = CAL_birnbaum.7 
+		}
+		prerequisite = { focus = CAL_domestic.8 }
+		prerequisite = { focus = CAL_division.8 }
+		prerequisite = { focus = CAL_IBI.8 }
+		
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_For_Emperor.0.t"
+		}  
+	}
+	
+	##################################################################################################################
+	##################################################################################################################
+	##################################################################################################################
+	##################################################################################################################
+	
+	focus = {
+		id = CAL_mewni.0
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_For_Emperor.0
+		#prerequisite = { focus = CAL_divide.0 }
+		cost = 1
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_mewni.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_mewni.1
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_mewni.0
+		prerequisite = { focus = CAL_mewni.0 }
+		cost = 1
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_mewni.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_mewni.2
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_mewni.1
+		prerequisite = { focus = CAL_mewni.1 }
+		cost = 1
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_mewni.2.t"
+		}
+	}
+	
+	####################################
+	
+	focus = {
+		id = CAL_magic.0
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_mewni.2
+		prerequisite = { focus = CAL_mewni.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_magic.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_magic.1
+		icon = GFX_goal_california
+		x = -2
+		y = 1
+		relative_position_id = CAL_magic.0
+		prerequisite = { focus = CAL_magic.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_magic.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_magic.2
+		icon = GFX_goal_california
+		x = 2
+		y = 1
+		relative_position_id = CAL_magic.0
+		prerequisite = { focus = CAL_magic.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_magic.2.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_magic.3
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_magic.1
+		prerequisite = { focus = CAL_magic.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_magic.3.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_magic.4
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_magic.1
+		prerequisite = { focus = CAL_magic.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_magic.4.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_magic.5
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_magic.2
+		prerequisite = { focus = CAL_magic.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_magic.5.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_magic.6
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_magic.2
+		prerequisite = { focus = CAL_magic.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_magic.6.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_magic.7
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_magic.1
+		prerequisite = { focus = CAL_magic.3 }
+		prerequisite = { focus = CAL_magic.4 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_magic.7.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_magic.8
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_magic.2
+		prerequisite = { focus = CAL_magic.5 }
+		prerequisite = { focus = CAL_magic.6 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_magic.8.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_magic.9
+		icon = GFX_goal_california
+		x = 2
+		y = 1
+		relative_position_id = CAL_magic.7
+		prerequisite = { focus = CAL_magic.7 }
+		prerequisite = { focus = CAL_magic.8 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_magic.9.t"
+		} 
+	} 
+	
+	####################################
+	####################################
+	
+	focus = {
+		id = CAL_butterfly_aid.0
+		icon = GFX_goal_california
+		x = 8
+		y = 1
+		relative_position_id = CAL_mewni.2
+		prerequisite = { focus = CAL_mewni.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {
+			custom_effect_tooltip = "CAL_butterfly_aid.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_butterfly_aid.1
+		icon = GFX_goal_california
+		x = -2
+		y = 1
+		relative_position_id = CAL_butterfly_aid.0
+		prerequisite = { focus = CAL_butterfly_aid.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_butterfly_aid.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_butterfly_aid.2
+		icon = GFX_goal_california
+		x = 2
+		y = 1
+		relative_position_id = CAL_butterfly_aid.0
+		prerequisite = { focus = CAL_butterfly_aid.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_butterfly_aid.2.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_butterfly_aid.3
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_butterfly_aid.1
+		prerequisite = { focus = CAL_butterfly_aid.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_butterfly_aid.3.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_butterfly_aid.4
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_butterfly_aid.2
+		prerequisite = { focus = CAL_butterfly_aid.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_butterfly_aid.4.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_butterfly_aid.5
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_butterfly_aid.3
+		prerequisite = { focus = CAL_butterfly_aid.3 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_butterfly_aid.5.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_butterfly_aid.6
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_butterfly_aid.4
+		prerequisite = { focus = CAL_butterfly_aid.4 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_butterfly_aid.6.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_butterfly_aid.7
+		icon = GFX_goal_california
+		x = 0
+		y = 5
+		relative_position_id = CAL_butterfly_aid.0
+		prerequisite = { focus = CAL_butterfly_aid.5 }
+		prerequisite = { focus = CAL_butterfly_aid.6 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_butterfly_aid.7.t"
+		}
+	}
+	
+	####################################
+	
+	focus = {
+		id = CAL_force.0
+		icon = GFX_goal_california
+		x = -8
+		y = 1
+		relative_position_id = CAL_mewni.2
+		prerequisite = { focus = CAL_mewni.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_force.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_force.1
+		icon = GFX_goal_california
+		x = -2
+		y = 1
+		relative_position_id = CAL_force.0
+		prerequisite = { focus = CAL_force.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_force.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_force.2
+		icon = GFX_goal_california
+		x = 2
+		y = 1
+		relative_position_id = CAL_force.0
+		prerequisite = { focus = CAL_force.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_force.2.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_force.3
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_force.1
+		prerequisite = { focus = CAL_force.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_force.3.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_force.4
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_force.2
+		prerequisite = { focus = CAL_force.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_force.4.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_force.5
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_force.3
+		prerequisite = { focus = CAL_force.3 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_force.5.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_force.6
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_force.4
+		prerequisite = { focus = CAL_force.4 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_force.6.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_force.7
+		icon = GFX_goal_california
+		x = 0 
+		y = 5
+		relative_position_id = CAL_force.0
+		prerequisite = { focus = CAL_force.5 }
+		prerequisite = { focus = CAL_force.6 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_force.7.t"
+		}
+	}
+	
+	######################################################
+	
+	focus = {
+		id = CAL_mewni.3
+		icon = GFX_goal_california
+		x = 0
+		y = 3
+		relative_position_id = CAL_magic.9
+		prerequisite = { focus = CAL_force.7 }
+		prerequisite = { focus = CAL_butterfly_aid.7 }
+		prerequisite = { focus = CAL_magic.9 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_force.7.t"
+		}
+	}
+	
+	##################################################################################################################
+	##################################################################################################################
+	##################################################################################################################
+
+	focus = {
+		id = CAL_disaster.0
+		icon = GFX_goal_california
+		x = -20
+		y = 0
+		relative_position_id = CAL_mewni.0
+		#prerequisite = { focus = CAL_divide.0 }
+		cost = 1
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_disaster.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_disaster.1
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_disaster.0
+		prerequisite = { focus = CAL_disaster.0 }
+		cost = 1
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_disaster.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_disaster.2 
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_disaster.1
+		prerequisite = { focus = CAL_disaster.1 }
+		cost = 1
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_disaster.2.t"
+		}
+	}  
+	
+	##################################################### 
+
+	focus = {
+		id = CAL_civil_war.1
+		icon = GFX_goal_california
+		x = -2
+		y = 1
+		relative_position_id = CAL_disaster.2
+		prerequisite = { focus = CAL_disaster.2 }
+		mutually_exclusive = { focus = CAL_civil_war.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_civil_war.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_civil_war.2
+		icon = GFX_goal_california
+		x = 2
+		y = 1
+		relative_position_id = CAL_disaster.2
+		prerequisite = { focus = CAL_disaster.2 }
+		mutually_exclusive = { focus = CAL_civil_war.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_civil_war.2.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_civil_war.3
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_civil_war.1
+		prerequisite = { focus = CAL_civil_war.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_civil_war.3.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_civil_war.4
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_civil_war.1
+		prerequisite = { focus = CAL_civil_war.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_civil_war.4.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_civil_war.5
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_civil_war.2
+		prerequisite = { focus = CAL_civil_war.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_civil_war.5.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_civil_war.6
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_civil_war.2
+		prerequisite = { focus = CAL_civil_war.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_civil_war.6.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_civil_war.7
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_civil_war.1
+		prerequisite = { focus = CAL_civil_war.3 }
+		prerequisite = { focus = CAL_civil_war.4 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_civil_war.7.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_civil_war.8
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_civil_war.2
+		prerequisite = { focus = CAL_civil_war.5 }
+		prerequisite = { focus = CAL_civil_war.6 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_civil_war.8.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_civil_war.9
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_civil_war.7
+		prerequisite = { focus = CAL_civil_war.7 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_civil_war.9.t"
+		} 
+	}
+	
+	focus = {
+		id = CAL_civil_war.10
+		icon = GFX_goal_california
+		x = 0
+		y = 1
+		relative_position_id = CAL_civil_war.8
+		prerequisite = { focus = CAL_civil_war.8 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_civil_war.10.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_civil_war.11
+		icon = GFX_goal_california
+		x = 2
+		y = 1
+		relative_position_id = CAL_civil_war.9
+		prerequisite = { 
+			focus = CAL_civil_war.9 
+			focus = CAL_civil_war.10 
+		}
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_civil_war.11.t"
+		} 
+	}
+
+
+} ####
