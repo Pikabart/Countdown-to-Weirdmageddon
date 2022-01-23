@@ -1,0 +1,214 @@
+focus_tree = {
+
+	id = HGH_focus_2
+	
+	country = {
+		factor = 0		
+		modifier = {
+		#	add = 100 # 100% HGH get focus, 0% everyone else, so basicly gurrenteed
+		#	tag = HGH
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = { 
+		id = HGH_power_vaccum
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = HGH_power_vaccum
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = HGH_model_council
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = HGH_power_vaccum 
+		prerequisite = { focus = HGH_power_vaccum }
+		cost = 5
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = HGH_change_focus_tree.3
+			set_country_flag = model_un
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = HGH_onto_world_stage
+		icon = a
+		x = -3
+		y = 1
+		relative_position_id = HGH_power_vaccum 
+		prerequisite = { focus = HGH_power_vaccum }
+		cost = 5
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = HGH_change_focus_tree.3
+			set_country_flag = drama_kids
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = HGH_symphony_of_power
+		icon = a
+		x = -5
+		y = 1
+		relative_position_id = HGH_power_vaccum 
+		prerequisite = { focus = HGH_power_vaccum }
+		cost = 5
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = HGH_change_focus_tree.3
+			set_country_flag = band_kids
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = HGH_strong_collective
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = HGH_power_vaccum 
+		prerequisite = { focus = HGH_power_vaccum }
+		cost = 5
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = HGH_change_focus_tree.3
+			set_country_flag = gym_bros
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = HGH_fire_and_photography
+		icon = a
+		x = 3
+		y = 1
+		relative_position_id = HGH_power_vaccum 
+		prerequisite = { focus = HGH_power_vaccum }
+		cost = 5
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = HGH_change_focus_tree.3
+			set_country_flag = yearbook_club
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = HGH_wolf_takes
+		icon = a
+		x = 5
+		y = 1
+		relative_position_id = HGH_power_vaccum 
+		prerequisite = { focus = HGH_power_vaccum }
+		cost = 5
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = HGH_change_focus_tree.3
+			set_country_flag = nazi_kids
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+}
