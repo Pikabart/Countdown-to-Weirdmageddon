@@ -1,3 +1,20 @@
+############################ ITGUY 01/24/22 
+
+common/decisions
+common/decisions/catalog
+common/intelligence agency
+common/scipted_effects
+common/scipted_gui
+common/scipted_trigger
+
+events
+
+gfx/interface/decisions
+
+interface
+
+localization
+
 ############################ ITGUY 01/21/22 
 
 common/bookmark

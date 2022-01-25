@@ -1,0 +1,146 @@
+﻿l_english:
+
+    #:0 "A"
+    #_desc:0 "A"
+
+##########################################################################################
+#Descions LOCS
+##########################################################################################
+    #Flags
+    cal_California_United:0 "California is united once more!"
+    cal_NorSo_relationship:0 "California is divided!"
+
+    ### Mending the Californian Divide ###
+
+    CAL_catagory_NorCal_SoCal:0 "Mending the Californian Divide"
+    CAL_catagory_NorCal_SoCal_desc:0 "As California shifts from basicly being its own nation to actually being its own nation, so has the political structure of the state change as well. Along with the increased §YNorthern§! and §GSouthern§! divisions, the Californian §1New Democratic-Republican Party§! is also divided. Managing both regional and party divisions will be Norton's (and his staff) greatest challange towards achieveing a better California."
+    
+    #"\n\nNorton's §YNorthern Approval Rating§! = [?cal_norton_norcal|+0]\n\nNorton's §GSouthern Approval Rating§! = [?cal_norton_socal|+0]\n\n§4Progressive Imperial Democratic-Republican Support§! = [?cal_pIDR|+0]\n\n§RTraditional Imperial Democratic-Republican Support§! = [?cal_tIDR|+0]\n\n§8Moderate New Democratic-Republican Support§! = [?cal_hectorNDR|+0]\n§8Level of Moderate Support§! = [?cal_compromise_NDR|+0]§8 of 3§!"
+    
+    cal_decision_relationship_checkup:0 "Update Regional Polls"
+    cal_decision_relationship_checkup_desc:0 "New polls will tell us our standing in California and the effects of that scoring."
+    cal_decision_party_checkup:0 "Reevaluate Political Standing"
+    cal_decision_party_checkup_desc:0 "New reports will tell us our standing in the Party and the effects of that scoring."
+    
+    cal_norton_north_approval:0 "Norton's §YNorthern Approval Rating§! = [?cal_norton_norcal|+0]"
+    cal_norton_south_approval:0 "Norton's §GSouthern Approval Rating§! = [?cal_norton_socal|+0]"
+    cal_party_PIDR:0 "§4Progressive Imperial Democratic-Republican Support§! = [?cal_pIDR|+0]"
+    cal_party_TIDR:0 "§RTraditional Imperial Democratic-Republican Support§! = [?cal_tIDR|+0]"
+    cal_party_MNDR:0 "§8Moderate New Democratic-Republican Support§! = [?cal_hectorNDR|+0]\n§8Level of Moderate Support§! = [?cal_compromise_NDR|+0] of §Y3§!"
+    
+    cal_norton_north_approval_tt:0 "§YNorthern California§! is home to the upper 48 counties of the state of California. Key area include the San Francisco Bay Area, the Central Valley, and the Sierra Nevada. Being also home to the capital of Sacremento, the North has always dominated state politics. To many, the north represents modern technological breakthrough and the heart of the old Wild West."
+    cal_norton_south_approval_tt:0 "§GSouthern California§! is home to the southern ten counties of the state of California. With great urban sprawls and open deserts, the south is home to a majority of California and more critically, the entertainment capital of the World. To all, the image of palm trees, movie stars, and the entails of modern living is embodied in the south."
+    cal_party_PIDR_tt:0 "The §4Progressive Imperial Democratic-Republicans§! consist primarily of the liberal wing of the NorCal NDR. Making up the Bay Area and the Sacremento Valley and thus the majority of NorCal's population, they control the high sectors of the economy. The Progressives rally to Norton on his (by 19th century standrds) progressive view. Appealing to them will ensure overall stability, manpower, and economic support to the state."
+    cal_party_TIDR_tt:0 "The §RTraditional Imperial Democratic-Republicans§! consist primarily of the conservative branch of the NorCal NDR. Consisting of the rural parts of Northern California, they make up for lower numbers in thier access to the key resources the state needs now that the US has collapsed. The Traditionalist rally to Norton on his anti-Trembley stance and his Imperial Presitge of a better America. Appealing to them will ensure overall war support, resource collection, and regional security from the likes of the Western FPI or Oregon."
+    cal_party_MNDR_tt:0 "The §8Moderate New Democratic-Republicans§! consist of the Southern NDR party. Though just as divided as their northern counterparts, they are kept together by Lieutenant Governor Diaz-Guzman. Many are openly concerned of the election upset and though they are upset the north voted in Norton by a massive margin, Norton did also win SoCal by a slim margin. As Southern California has a larger population and sends more representatives, gaining thier support will mend the NorCal/SoCal divide and ensure overall stability and fuction of California in the long run."
+    
+    
+    ################
+    
+    cal_decision_northern_rally:0 "A Rally in §YSan Francisco§!"
+    cal_decision_northern_rally_desc:0 "We'll hold a rally in home city of Emperor Norton himself. Support is assured, but the overt nature of the rally will rub some SoCals the wrong way."
+    
+    cal_decision_southern_rally:0 "A Rally in §GLos Angeles§!"
+    cal_decision_southern_rally_desc:0 "We can set up a rally for support for Emperor Norton in Los Angeles. While we have plenty of supporters in southern California, mnay are spectical of a man from the 19th Century and we can expect direct protest that can nullify the gains from the rally."
+    
+    cal_decision_meet_hector:0 "Sit Down with §8Lt. Governor Diaz-Guzman§!"
+    cal_decision_meet_hector_desc:0 "Lieutenant Governor Hector Diaz-Guzman has a strong support base in Southern California. Though sceptical of Norton, he is more than willing to join us in a rally to promote full state unity and support for the current governor.\n\nIf decision is taken, the next SoCal Rally will always end well."
+    
+    ################
+
+    cal_decision_progressive_bill_large:0 "Support a Major §4Progressive§! Bill"
+    cal_decision_progressive_bill_large_desc:0 "We can throw our support for this large Bill by the progressive bloc. Doing so will give us large support from them, but will deeply anger the traditionalist and quite possibly the Moderates."
+    
+    cal_decision_traditional_bill_large:0 "Support a Major §RTraditionalist§! Bill"
+    cal_decision_traditional_bill_large_desc:0 "We can throw our support for this large Bill by the traditionalist bloc. Doing so will give us large support from them, but will deeply anger the Progressivist and quite possibly the Moderates."
+    
+    cal_decision_progressive_bill_small:0 "Support a Minor §4Progressive§! Bill"
+    cal_decision_progressive_bill_small_desc:0 "By giving support to this smaller bill, we can support the Progressivist while keeping Traditionalist anger minimal. While the renewed support from the Progressivist would be lower, we could also gain some support from the Moderates as well."
+    
+    cal_decision_traditional_bill_small:0 "Support a Minor §RTraditionalist§! Bill"
+    cal_decision_traditional_bill_small_desc:0 "By giving support to this smaller bill, we can support the Traditionalist while keeping Progressivist anger minimal. While the renewed support from the Traditionalist would be lower, we could also gain some support from the Moderates as well."
+    
+    cal_decision_moderate_compromise:0 "Compromise with the Southern §8Moderates§!"
+    cal_decision_moderate_compromise_desc:0 "By reaching out through Lt. Governor D.G. and the moderates, we can make sure the next Northern Bill would have Moderate NDR Support. With enough support, we could also work on something bigger with them."
+    
+    cal_decision_moderate_bill_large:0 "Support a Major §8Moderate§! Bill"
+    cal_decision_moderate_bill_large_desc:0 "With enough comproises between the IDR and NDR, we can pass a major Moderate Bill through the Imperial Californian Assembley. Most of the compromises will make sure everyone's base will be happy about it."
+
+##########################################################################################
+##########################################################################################
+    #:0 "A"
+    #_desc:0 "A"
+
+##########################################################################################
+    CAL_catagory_everett_pressure:0 "Lady Everett's Diplomatic Corp"
+    CAL_catagory_everett_pressure_desc:0 "A"
+ 
+    cal_decision_pressure_utah:0 "Pressure Utah"
+    cal_decision_pressure_utah_desc:0 "A"
+##########################################################################################
+    CAL_catagory_sierra_depot:0 "The Sierra Army Depot"
+    CAL_catagory_sierra_depot_desc:0 "A"
+    
+    cal_decision_open_depot:0 "Prepare an Inventory Report"
+    cal_decision_open_depot_desc:0 "A"
+
+##########################################################################################     
+    CAL_catagory_pacific_fleet:0 "The U.S. Pacific Fleet"
+    CAL_catagory_pacific_fleet_desc:0 "A"
+    
+    cal_decision_send_supplies:0 "Send Supplies"
+    cal_decision_send_supplies_desc:0 "A"
+
+########################################################################################## 
+##########################################################################################
+##########################################################################################   
+    CAL_catagory_roads:0 "The Golden Road"
+    CAL_catagory_roads_desc:0 "California's Highways have been in a state of decay for decades. Most of our funding for them has been either to fill in potholes years after they form or perform half-measured earthquake retrofits. As Governor Green's last major bill before leaving office, the "The Golden Road" initivative will ensure funding and willpower to repair our roads."
+    
+    cal_decision_send_norcal_team:0 "Deploy Repair Crews in Northern California"
+    cal_decision_send_norcal_team_desc:0 "A"
+    
+    cal_decision_send_socal_team:0 "Deploy Repair Crews in Southern California"
+    cal_decision_send_socal_team_desc:0 "A"
+    
+    cal_decision_road_survey:0 "New Road Survey Updates"
+    cal_decision_road_survey_desc:0 "A new survey of the raods will be made, including the effects of our actions and what new damaged roads have appeared during that time."
+    
+    cal_decision_rebuilt_five_1:0 "Rebuild Interstate 5: Phase 1"
+    cal_decision_rebuilt_five_1_desc:0 "A"
+    
+    cal_decision_rebuilt_five_2:0 "Rebuild Interstate 5: Phase 2"
+    cal_decision_rebuilt_five_2_desc:0 "A"
+    
+    cal_decision_rebuilt_five_3:0 "Rebuild Interstate 5: Phase 3"
+    cal_decision_rebuilt_five_3_desc:0 "A"
+    
+    cal_decision_rebuilt_five_4:0 "Rebuild Interstate 5: Phase 4"
+    cal_decision_rebuilt_five_4_desc:0 "A"
+    
+    cal_decision_rebuilt_five_5:0 "Rebuild Interstate 5: Phase 5"
+    cal_decision_rebuilt_five_5_desc:0 "A""
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
