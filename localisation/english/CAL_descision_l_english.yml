@@ -30,9 +30,9 @@
     
     cal_norton_north_approval_tt:0 "§YNorthern California§! is home to the upper 48 counties of the state of California. Key area include the San Francisco Bay Area, the Central Valley, and the Sierra Nevada. Being also home to the capital of Sacremento, the North has always dominated state politics. To many, the north represents modern technological breakthrough and the heart of the old Wild West."
     cal_norton_south_approval_tt:0 "§GSouthern California§! is home to the southern ten counties of the state of California. With great urban sprawls and open deserts, the south is home to a majority of California and more critically, the entertainment capital of the World. To all, the image of palm trees, movie stars, and the entails of modern living is embodied in the south."
-    cal_party_PIDR_tt:0 "The §4Progressive Imperial Democratic-Republicans§! consist primarily of the liberal wing of the NorCal NDR. Making up the Bay Area and the Sacremento Valley and thus the majority of NorCal's population, they control the high sectors of the economy. The Progressives rally to Norton on his (by 19th century standrds) progressive view. Appealing to them will ensure overall stability, manpower, and economic support to the state."
-    cal_party_TIDR_tt:0 "The §RTraditional Imperial Democratic-Republicans§! consist primarily of the conservative branch of the NorCal NDR. Consisting of the rural parts of Northern California, they make up for lower numbers in thier access to the key resources the state needs now that the US has collapsed. The Traditionalist rally to Norton on his anti-Trembley stance and his Imperial Presitge of a better America. Appealing to them will ensure overall war support, resource collection, and regional security from the likes of the Western FPI or Oregon."
-    cal_party_MNDR_tt:0 "The §8Moderate New Democratic-Republicans§! consist of the Southern NDR party. Though just as divided as their northern counterparts, they are kept together by Lieutenant Governor Diaz-Guzman. Many are openly concerned of the election upset and though they are upset the north voted in Norton by a massive margin, Norton did also win SoCal by a slim margin. As Southern California has a larger population and sends more representatives, gaining thier support will mend the NorCal/SoCal divide and ensure overall stability and fuction of California in the long run."
+    cal_party_PIDR_tt:0 "The §4Progressive Imperial Democratic-Republicans§! consist primarily of the liberal wing of the NorCal NDR. Making up the Bay Area and the Sacremento Valley, and thus the majority of NorCal's population, they control the high sectors of the economy. The Progressives rally to Norton on his (by 19th century standrds) progressive view. Appealing to them will ensure overall stability, manpower, and economic support to the state."
+    cal_party_TIDR_tt:0 "The §RTraditional Imperial Democratic-Republicans§! consist primarily of the conservative branch of the NorCal NDR. Consisting of the rural parts of Northern California, they make up for lower numbers in thier access to the key resources the state needs now that interstate commerce has collapsed. The Traditionalist rally to Norton on his anti-Trembley stance and his Imperial Presitge of a better America. Appealing to them will ensure overall war support, resource collection, and regional security from the likes of the Western FPI or Oregon."
+    cal_party_MNDR_tt:0 "The §8Moderate New Democratic-Republicans§! consist of the SoCal NDR party. Though just as divided as their northern counterparts, they are kept together by Lieutenant Governor Diaz-Guzman. Many are openly concerned of the election upset and though they are upset the north voted in Norton by a massive margin, Norton did also win SoCal by a slim margin. As Southern California has a larger population and sends more representatives, gaining thier support will mend the NorCal/SoCal divide and ensure overall stability and fuction of California in the long run."
     
     
     ################
@@ -49,22 +49,22 @@
     ################
 
     cal_decision_progressive_bill_large:0 "Support a Major §4Progressive§! Bill"
-    cal_decision_progressive_bill_large_desc:0 "We can throw our support for this large Bill by the progressive bloc. Doing so will give us large support from them, but will deeply anger the traditionalist and quite possibly the Moderates."
+    cal_decision_progressive_bill_large_desc:0 "We can throw our support for this large Bill by the progressive bloc. Doing so will give us large support from them, but will deeply anger the traditionalist and quite possibly the Moderates.\n\nTwo Compromise Points from the Moderate NDR will ensure the moderates approve of the Progressive bill."
     
     cal_decision_traditional_bill_large:0 "Support a Major §RTraditionalist§! Bill"
-    cal_decision_traditional_bill_large_desc:0 "We can throw our support for this large Bill by the traditionalist bloc. Doing so will give us large support from them, but will deeply anger the Progressivist and quite possibly the Moderates."
+    cal_decision_traditional_bill_large_desc:0 "We can throw our support for this large Bill by the traditionalist bloc. Doing so will give us large support from them, but will deeply anger the Progressives and quite possibly the Moderates.\n\nTwo Compromise Points from the Moderate NDR will ensure the moderates approve of the Traditionalist bill."
     
     cal_decision_progressive_bill_small:0 "Support a Minor §4Progressive§! Bill"
-    cal_decision_progressive_bill_small_desc:0 "By giving support to this smaller bill, we can support the Progressivist while keeping Traditionalist anger minimal. While the renewed support from the Progressivist would be lower, we could also gain some support from the Moderates as well."
+    cal_decision_progressive_bill_small_desc:0 "By giving support to this smaller bill, we can support the Progressives while keeping Traditionalist anger minimal. While the renewed support from the Progressives would be lower, we could also gain some support from the Moderates as well.\n\nOne Compromise Points from the Moderate NDR will ensure the moderates approve of the Progressive bill."
     
     cal_decision_traditional_bill_small:0 "Support a Minor §RTraditionalist§! Bill"
-    cal_decision_traditional_bill_small_desc:0 "By giving support to this smaller bill, we can support the Traditionalist while keeping Progressivist anger minimal. While the renewed support from the Traditionalist would be lower, we could also gain some support from the Moderates as well."
+    cal_decision_traditional_bill_small_desc:0 "By giving support to this smaller bill, we can support the Traditionalist while keeping Progressives anger minimal. While the renewed support from the Traditionalist would be lower, we could also gain some support from the Moderates as well.\n\nOne Compromise Points from the Moderate NDR will ensure the moderates approve of the Traditionalist bill."
     
     cal_decision_moderate_compromise:0 "Compromise with the Southern §8Moderates§!"
     cal_decision_moderate_compromise_desc:0 "By reaching out through Lt. Governor D.G. and the moderates, we can make sure the next Northern Bill would have Moderate NDR Support. With enough support, we could also work on something bigger with them."
     
     cal_decision_moderate_bill_large:0 "Support a Major §8Moderate§! Bill"
-    cal_decision_moderate_bill_large_desc:0 "With enough comproises between the IDR and NDR, we can pass a major Moderate Bill through the Imperial Californian Assembley. Most of the compromises will make sure everyone's base will be happy about it."
+    cal_decision_moderate_bill_large_desc:0 "With enough compromises and negotiations between the IDR and NDR, we can pass a major Moderate Bill through the Imperial Californian Assembley.\n\nHaving Compromise Points from the Moderate NDR will ensure that all factions of the Imperial and New Democratic-Republican will approve and support the bill.
 
 ##########################################################################################
 ##########################################################################################
@@ -94,32 +94,35 @@
 ########################################################################################## 
 ##########################################################################################
 ##########################################################################################   
-    CAL_catagory_roads:0 "The Golden Road"
-    CAL_catagory_roads_desc:0 "California's Highways have been in a state of decay for decades. Most of our funding for them has been either to fill in potholes years after they form or perform half-measured earthquake retrofits. As Governor Green's last major bill before leaving office, the "The Golden Road" initivative will ensure funding and willpower to repair our roads."
+    CAL_catagory_roads:0 "Follow the Golden Road"
+    CAL_catagory_roads_desc:0 "California's Highways have been in a state of decay for decades. Most of our funding for them has been either to fill in potholes years after they form or perform earthquake retrofits, usually after an earthquake hits. As Governor Green's last major bill before leaving office, the "The Golden Road" initiative will ensure funding and support to repair our roads."
+    
+    #Flags
+    cal_interstate_5_repaired:0 "Interstate 5 has been repaired!"
     
     cal_decision_send_norcal_team:0 "Deploy Repair Crews in Northern California"
-    cal_decision_send_norcal_team_desc:0 "A"
+    cal_decision_send_norcal_team_desc:0 "Several teams of repair crew are deployed across Northern California to coordinate the speedup of repairs in the road system."
     
     cal_decision_send_socal_team:0 "Deploy Repair Crews in Southern California"
-    cal_decision_send_socal_team_desc:0 "A"
+    cal_decision_send_socal_team_desc:0 "Several teams of repair crew are deployed across Southern California to coordinate the speedup of repairs in the road system. SoCal's road issues are vast, but doing so will increase good will with the southern populace."
     
     cal_decision_road_survey:0 "New Road Survey Updates"
-    cal_decision_road_survey_desc:0 "A new survey of the raods will be made, including the effects of our actions and what new damaged roads have appeared during that time."
+    cal_decision_road_survey_desc:0 "A new survey of the roads will be made, including the effects of our actions and what new damaged roads have appeared during that time."
     
     cal_decision_rebuilt_five_1:0 "Rebuild Interstate 5: Phase 1"
-    cal_decision_rebuilt_five_1_desc:0 "A"
+    cal_decision_rebuilt_five_1_desc:0 "The first phase, starting in the south, will expand not just Interstate 5, but all the major highways in the greater Los Angeles and San Diego Area. This will relieve traffic on the main 5 between LA and SD and hopefully make commute times in SoCal shorter."
     
     cal_decision_rebuilt_five_2:0 "Rebuild Interstate 5: Phase 2"
-    cal_decision_rebuilt_five_2_desc:0 "A"
+    cal_decision_rebuilt_five_2_desc:0 "Along with the next stage from Burbank to Bakersfieldville, Route 55 to Barstow and the 15 to Las Vegas has been long overdue for expansion. Connecting them will increase traffic flow and surely improve Southern Californians' mood thanks to having an easier route to gambling."
     
     cal_decision_rebuilt_five_3:0 "Rebuild Interstate 5: Phase 3"
-    cal_decision_rebuilt_five_3_desc:0 "A"
+    cal_decision_rebuilt_five_3_desc:0 "The section of Interstate 5 spanning most of the central valley have been in disrepair since the Santa Clara Earthquake, and the increased traffic on 99 and 101 has deteriorated both highways. Repairing these three major roads will strengthen the main arteries of heartland California."
     
     cal_decision_rebuilt_five_4:0 "Rebuild Interstate 5: Phase 4"
-    cal_decision_rebuilt_five_4_desc:0 "A"
+    cal_decision_rebuilt_five_4_desc:0 "With recent re-armament, we must improve the roads in the Bay Area and Sacremento leading to the reactivated Fort Navarro. This will allow quick redeployment of troops and further increase economic flow from the Port of Oakland to the rest of Northern California."
     
     cal_decision_rebuilt_five_5:0 "Rebuild Interstate 5: Phase 5"
-    cal_decision_rebuilt_five_5_desc:0 "A""
+    cal_decision_rebuilt_five_5_desc:0 "With the possibility of conflict with Oregon or the Western FPI, we must reinforce our northern border. Whether it be from the Coast, the Valley, or the Sierra, we will make sure our supply lines get from point A to Point B."
     
     
     

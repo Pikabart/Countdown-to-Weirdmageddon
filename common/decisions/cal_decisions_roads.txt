@@ -20,7 +20,8 @@ CAL_catagory_roads = {
 		    has_country_flag = cal_interstate_5_repaired 
 		}
         activation = {                          
-            #has_country_flag = cal_NorSo_relationship 
+            has_country_flag = cal_the_golden_road
+			NOT = {has_country_flag = cal_interstate_5_repaired}
         }
            
         timeout_effect = {   
@@ -48,21 +49,16 @@ CAL_catagory_roads = {
 		available = {}
 		fire_only_once = no		
 		days_re_enable = 0
-		days_remove = 6
+		days_remove = 30
 		visible = {	}
 		
 		priority = 9
-		cost = 10		
-
+		cost = 10	
+		
 		fixed_random_seed = no 
 		complete_effect = {		
 			#custom_effect_tooltip = ""
-			#CALI_convert_axes_values_to_frames = yes
-			hidden_effect = {	
-				random_list = {
-					100 = {}
-				}
-			}
+			add_timed_idea = { idea = CAL_repair_crew  days = 30 }
 		} 
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -76,20 +72,26 @@ CAL_catagory_roads = {
 		available = {}
 		fire_only_once = no		
 		days_re_enable = 0
-		days_remove = 6
+		days_remove = 30
 		visible = {	}		
 
 		priority = 9
 		cost = 10			
 
+
 		fixed_random_seed = no 
 		complete_effect = {		
 			#custom_effect_tooltip = ""
-			#CALI_convert_axes_values_to_frames = yes
-			hidden_effect = {	
-				random_list = {
-					100 = {}
-				}
+			SOC = {add_timed_idea = { idea = CAL_repair_crew  days = 30 }}
+			add_to_variable = {
+				var = cal_norton_socal
+				value = 5
+			}
+			##################
+			clamp_variable = {
+				var = cal_norton_socal
+				min = 0
+				max = 100
 			}
 		}
 		
@@ -106,21 +108,31 @@ CAL_catagory_roads = {
 		available = {}
 		fire_only_once = no		
 		days_re_enable = 0
-		days_remove = 6
-		visible = {	}		
+		days_remove = 1
+		visible = { NOT = { has_country_flag = cal_interstate_5_1}	}		
 
 		priority = 9
 		cost = 10			
 
 		fixed_random_seed = no 
-		complete_effect = {		
+		remove_effect = {		
 			#custom_effect_tooltip = ""
 			#CALI_convert_axes_values_to_frames = yes
-			hidden_effect = {	
-				random_list = {
-					100 = {}
+			#hidden_effect = {	
+				set_country_flag = cal_interstate_5_1
+				build_railway = {
+					level = 5
+					build_only_on_allied = yes
+					fallback = yes
+					path = { 10229 5840 3406 10189 2121 }
 				}
-			}
+				build_railway = {
+					level = 5
+					build_only_on_allied = yes
+					fallback = yes
+					path = { 102 3729 10105 10112 10113 10124 3454 10154 2121 }
+				}
+			#}
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -134,21 +146,58 @@ CAL_catagory_roads = {
 		available = {}
 		fire_only_once = no		
 		days_re_enable = 0
-		days_remove = 6
-		visible = {	}		
+		days_remove = 1
+		visible = {	
+			
+				NOT = { has_country_flag = cal_interstate_5_2}	
+				has_country_flag = cal_interstate_5_1
+			
+		}		
 
 		priority = 9
 		cost = 10			
 
 		fixed_random_seed = no 
-		complete_effect = {		
+		remove_effect = {		
 			#custom_effect_tooltip = ""
 			#CALI_convert_axes_values_to_frames = yes
-			hidden_effect = {	
-				random_list = {
-					100 = {}
+			#hidden_effect = {	
+				set_country_flag = cal_interstate_5_2
+				build_railway = {
+					level = 5
+					build_only_on_allied = yes
+					fallback = yes
+					path = { 102 10095 10090 10099 10075 10060 6355 10026 164 9990 5295 9955 9943 6843 }
 				}
-			}
+				166 = {
+					add_building_construction = {
+						type = supply_node
+						level = 1
+						province = 10026
+						instant_build = yes
+					}
+				}
+				build_railway = {
+					level = 1
+					build_only_on_allied = yes
+					fallback = yes
+					path = { 5295 9968 9979 9991 4534 6190 6851 3940 5577 5355 574 10029 2555 }
+				}
+				build_railway = {
+					level = 2
+					build_only_on_allied = yes
+					fallback = yes
+					path = { 2555 6198 4189 10003 5306 9967 }
+				}
+				164 = {
+					add_building_construction = {
+						type = supply_node
+						level = 1
+						province = 2555
+						instant_build = yes
+					}
+				}
+			#}
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -162,21 +211,60 @@ CAL_catagory_roads = {
 		available = {}
 		fire_only_once = no		
 		days_re_enable = 0
-		days_remove = 6
-		visible = {	}		
+		days_remove = 1
+		visible = {	
+			
+				NOT = { has_country_flag = cal_interstate_5_3}	
+				has_country_flag = cal_interstate_5_2
+			
+		}		
 
 		priority = 9
 		cost = 10			
 
 		fixed_random_seed = no 
-		complete_effect = {		
+		remove_effect = {		
 			#custom_effect_tooltip = ""
 			#CALI_convert_axes_values_to_frames = yes
-			hidden_effect = {	
-				random_list = {
-					100 = {}
+			#hidden_effect = {	
+				set_country_flag = cal_interstate_5_3
+				build_railway = {
+					level = 2
+					build_only_on_allied = yes
+					fallback = yes
+					start_state = 161
+					target_state = 152
 				}
-			}
+				build_railway = {
+					level = 5
+					build_only_on_allied = yes
+					fallback = yes
+					path = { 6843 5510 5702 9893 4010 4642 6510 9806 5316 5817 9758 9740 2688 6300 9679 1576 5545 9603 9573 9554 }
+				}
+				build_railway = {
+					level = 3
+					build_only_on_allied = yes
+					fallback = yes
+					start_state = 160
+					target_state = 134
+				}
+				137 = {
+					add_building_construction = {
+						type = supply_node
+						level = 1
+						province = 9740
+						instant_build = yes
+					}
+				}
+				138 = {
+					add_building_construction = {
+						type = supply_node
+						level = 1
+						province = 9828
+						instant_build = yes
+					}
+				}
+			#}
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -190,21 +278,49 @@ CAL_catagory_roads = {
 		available = {}
 		fire_only_once = no		
 		days_re_enable = 0
-		days_remove = 6
-		visible = {	}		
+		days_remove = 1
+		visible = {	
+			
+				NOT = { has_country_flag = cal_interstate_5_4}	
+				has_country_flag = cal_interstate_5_3
+			
+		}		
 
 		priority = 9
 		cost = 10			
 
 		fixed_random_seed = no 
-		complete_effect = {		
+		remove_effect = {		
 			#custom_effect_tooltip = ""
 			#CALI_convert_axes_values_to_frames = yes
-			hidden_effect = {	
-				random_list = {
-					100 = {}
+			#hidden_effect = {	
+				set_country_flag = cal_interstate_5_4
+				build_railway = {
+					level = 5
+					build_only_on_allied = yes
+					fallback = yes
+					path = { 9694 9713 5752 6615 5246 6627 6820 5126 9553 3099 9524 5546 6196 273 }
 				}
-			}
+				build_railway = {
+					level = 5
+					build_only_on_allied = yes
+					fallback = yes
+					path = { 9694 3574 5680 1289 4843 9600 5353 6343 9554 }
+				}
+				build_railway = {
+					level = 5
+					build_only_on_allied = yes
+					fallback = yes
+					path = { 5353 9568 9553 }
+				}
+				build_railway = {
+					level = 1
+					build_only_on_allied = yes
+					fallback = yes
+					path = { 1289 9652 5545 9629 3284 }
+				}
+				
+			#}
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -218,21 +334,68 @@ CAL_catagory_roads = {
 		available = {}
 		fire_only_once = no		
 		days_re_enable = 0
-		days_remove = 6
-		visible = {	}		
+		days_remove = 1
+		visible = {	
+		
+				NOT = { has_country_flag = cal_interstate_5_5}	
+				has_country_flag = cal_interstate_5_4
+			
+		}		
 
 		priority = 9
 		cost = 10			
 
 		fixed_random_seed = no 
-		complete_effect = {		
+		remove_effect = {		
 			#custom_effect_tooltip = ""
 			#CALI_convert_axes_values_to_frames = yes
-			hidden_effect = {	
-				random_list = {
-					100 = {}
+			#hidden_effect = {	
+				set_country_flag = cal_interstate_5_5
+				set_country_flag = cal_interstate_5_repaired
+				build_railway = {
+					level = 1
+					build_only_on_allied = yes
+					fallback = yes
+					start_state = 146
+					target_state = 147
 				}
-			}
+				build_railway = {
+					level = 2
+					build_only_on_allied = yes
+					fallback = yes
+					path = { 3071 9188 4469 4778 1742 7098 9066 9050 5516 }
+				}
+				build_railway = {
+					level = 3
+					build_only_on_allied = yes
+					fallback = yes
+					start_state = 140
+					target_state = 149
+				}
+				build_railway = {
+					level = 3
+					build_only_on_allied = yes
+					fallback = yes
+					start_state = 152
+					target_state = 142
+				}
+				build_railway = {
+					level = 1
+					build_only_on_allied = yes
+					fallback = yes
+					start_state = 152
+					target_state = 132
+				}
+				147 = {
+					add_building_construction = {
+						type = naval_base
+						level = 2
+						province = 3071
+						instant_build = yes
+					}
+				}
+				
+			#}
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION

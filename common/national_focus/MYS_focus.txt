@@ -2260,8 +2260,7 @@ focus = {
 	
 	prerequisite = { focus = MYS_stantastic_5 }
 	prerequisite = { focus = MYS_stantastic_6 }
-	prerequisite = { focus = MYS_awaits_5 }
-	prerequisite = { focus = MYS_awaits_6 }
+	
 	available = {always = no}	
 	allow_branch = { always = false }
 	cost = 5

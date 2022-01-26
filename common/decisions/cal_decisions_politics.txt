@@ -18,7 +18,8 @@ CAL_catagory_NorCal_SoCal = {
 		    has_country_flag = cal_California_United 
 		}
         activation = {                          
-            #has_country_flag = cal_NorSo_relationship 
+            has_country_flag = cal_NorSo_relationship
+			NOT = {has_country_flag = cal_California_United}
         }
            
         timeout_effect = {   
@@ -57,7 +58,8 @@ CAL_catagory_NorCal_SoCal = {
 		    has_country_flag = cal_California_United 
 		}
         activation = {                          
-            #has_country_flag = cal_NorSo_relationship 
+            has_country_flag = cal_NorSo_relationship
+			NOT = {has_country_flag = cal_California_United}
         }
           
         timeout_effect = {   
@@ -231,7 +233,7 @@ CAL_catagory_NorCal_SoCal = {
 		fire_only_once = no		
 		days_re_enable = 0
 		days_remove = 6
-		visible = {	}		
+		visible = {	has_country_flag = cal_small_bills }		
 
 		priority = 7
 		cost = 10			
@@ -259,7 +261,7 @@ CAL_catagory_NorCal_SoCal = {
 		fire_only_once = no		
 		days_re_enable = 0
 		days_remove = 6
-		visible = {	}		
+		visible = { has_country_flag = cal_small_bills	}		
 
 		priority = 7
 		cost = 10			

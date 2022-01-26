@@ -9,8 +9,11 @@ CAL_catagory_roads = {
 	
 	picture = GFX_decision_category_roads
 	
-	allowed = { always = yes }  
-	#visible = { has_country_flag = cal_NorSo_relationship }
+	allowed = { tag = CAL }  
+	visible = { 
+		has_country_flag = cal_the_golden_road
+		#NOT = {has_country_flag = cal_interstate_5_repaired}
+	}
 	
 	visible_when_empty = yes
 	
@@ -23,8 +26,11 @@ CAL_catagory_NorCal_SoCal = {
 	
 	scripted_gui = cal_decision_politics_ui
 	
-	allowed = { always = yes }
-	#visible = { has_country_flag = cal_NorSo_relationship }
+	allowed = { tag = CAL }
+	visible = { 
+		has_country_flag = cal_NorSo_relationship
+		NOT = {has_country_flag = cal_California_United}
+	}
 	
 	visible_when_empty = yes
 	
@@ -35,8 +41,10 @@ CAL_catagory_everett_pressure = {
 	icon = GFX_category_icon
 	picture = GFX_decision_category_everett_expansion 
 	
-	allowed = { always = yes }
-	#visible = { has_country_flag = cal_everett_plan }
+	allowed = { tag = CAL }
+	visible = { 
+		has_country_flag = cal_everett_plan 
+	}
 	
 	visible_when_empty = yes
 }
@@ -46,8 +54,10 @@ CAL_catagory_sierra_depot = {
 	icon = GFX_category_icon
 	picture = GFX_decision_category_sierra_depot 
 	
-	allowed = { always = yes }
-	#visible = { has_country_flag = cal_sierra_depot } 
+	allowed = { tag = CAL }
+	visible = { 
+		has_country_flag = cal_sierra_depot 
+	} 
 	
 	visible_when_empty = yes
 }
@@ -57,8 +67,10 @@ CAL_catagory_pacific_fleet = {
 	icon = GFX_category_icon
 	picture = GFX_decision_category_pacific_fleet 
 	
-	allowed = { always = yes }
-	#visible = { has_country_flag = cal_pacific_fleet }
+	allowed = { tag = CAL }
+	visible = { 
+		has_country_flag = cal_pacific_fleet 
+	}
 	
 	visible_when_empty = yes
 }
