@@ -1,0 +1,15 @@
+
+
+CALI_convert_axes_values_to_frames = {
+	# Computes the frame values for each of the radar graph progress bars, based on these inputs
+
+	set_variable = { CALI_radar_display_0 = cal_norton_norcal }
+
+	set_variable = { CALI_radar_display_1 = cal_norton_socal  }
+
+	set_variable = { CALI_radar_display_2 = cal_pIDR }
+
+	set_variable = { CALI_radar_display_3 = cal_tIDR }
+
+	set_variable = { CALI_radar_display_4 = cal_hectorNDR }
+}

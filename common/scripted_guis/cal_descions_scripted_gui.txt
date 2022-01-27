@@ -1,0 +1,10 @@
+scripted_gui = {
+
+	cal_decision_politics_ui = {
+		context_type = decision_category
+		window_name = "cal_decision_politics_ui_window"
+		properties = {}
+	}
+	
+}
+

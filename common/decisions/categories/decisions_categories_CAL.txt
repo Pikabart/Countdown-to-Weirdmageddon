@@ -1,48 +1,78 @@
 #####################################################################################################################
 # COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
-# ID's must not include spaces!
+# ID's must not include spaces! 
 #####################################################################################################################
-
-CAL_NorCal_SoCal = {
-	priority = 10
+  
+CAL_catagory_roads = {    
+	priority = 10  
 	icon = GFX_category_icon
-	#picture = GFX_decision_category_boss_mabel
 	
-	allowed = { always = yes }
-	visible = { has_country_flag = cal_NorSo_relationship }
+	picture = GFX_decision_category_roads
+	
+	allowed = { tag = CAL }  
+	visible = { 
+		has_country_flag = cal_the_golden_road
+		#NOT = {has_country_flag = cal_interstate_5_repaired}
+	}
 	
 	visible_when_empty = yes
-}
-
-CAL_everett_pressure = {
-	priority = 9
-	icon = GFX_category_icon
-	picture = GFX_decision_category_clones 
 	
-	allowed = { always = yes }
-	visible = { has_country_flag = cal_everett_plan }
+} 
+
+CAL_catagory_NorCal_SoCal = { 
+	priority = 9  
+	icon = GFX_category_icon
+	picture = GFX_decision_category_nor_so_division
+	
+	scripted_gui = cal_decision_politics_ui
+	
+	allowed = { tag = CAL }
+	visible = { 
+		has_country_flag = cal_NorSo_relationship
+		NOT = {has_country_flag = cal_California_United}
+	}
 	
 	visible_when_empty = yes
+	
 }
 
-CAL_sierra_depot = {
+CAL_catagory_everett_pressure = {
 	priority = 8
 	icon = GFX_category_icon
-	picture = GFX_decision_category_clones 
+	picture = GFX_decision_category_everett_expansion 
 	
-	allowed = { always = yes }
-	visible = { has_country_flag = cal_sierra_depot }
+	allowed = { tag = CAL }
+	visible = { 
+		has_country_flag = cal_everett_plan 
+	}
 	
 	visible_when_empty = yes
 }
 
-CAL_pacific_fleet = {
-	priority = 8
+CAL_catagory_sierra_depot = {
+	priority = 5
 	icon = GFX_category_icon
-	picture = GFX_decision_category_clones 
+	picture = GFX_decision_category_sierra_depot 
 	
-	allowed = { always = yes }
-	visible = { has_country_flag = cal_pacific_fleet }
+	allowed = { tag = CAL }
+	visible = { 
+		has_country_flag = cal_sierra_depot 
+	} 
 	
 	visible_when_empty = yes
 }
+
+CAL_catagory_pacific_fleet = {
+	priority = 5
+	icon = GFX_category_icon
+	picture = GFX_decision_category_pacific_fleet 
+	
+	allowed = { tag = CAL }
+	visible = { 
+		has_country_flag = cal_pacific_fleet 
+	}
+	
+	visible_when_empty = yes
+}
+
+###############

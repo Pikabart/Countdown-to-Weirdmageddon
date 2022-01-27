@@ -1,0 +1,40 @@
+scripted_gui = {
+	radar_graph_california_scripted_gui = {
+		window_name = "radar_graph_california_gui_window"
+		context_type = decision_category
+
+		properties = {
+			radar_0 = {
+				frame = CALI_radar_display_0
+			}
+			radar_1 = {
+				frame = CALI_radar_display_1
+			}
+			radar_2 = {
+				frame = CALI_radar_display_2
+			}
+			radar_3 = {
+				frame = CALI_radar_display_3
+			}
+			radar_4 = {
+				frame = CALI_radar_display_4
+			}
+
+			flag_0 = {
+				image = [USA.GetFlag]
+			}
+			flag_1 = {
+				image = [JAP.GetFlag]
+			}
+			flag_2 = {
+				image = [GER.GetFlag]
+			}
+			flag_3 = {
+				image = [ENG.GetFlag]
+			}
+			flag_4 = {
+				image = [SOV.GetFlag]
+			}
+		}
+	}
+}

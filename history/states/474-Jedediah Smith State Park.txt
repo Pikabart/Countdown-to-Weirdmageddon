@@ -1,8 +1,9 @@
-
 state={
-	id=148
-	name="STATE_148"
-
+	id=474
+	name="STATE_474"
+	provinces={
+		5147 5173 5213 5516 6525 7098 7123 9025 9043 9050 9055 9066 9069 9077 9078 9131 
+	}
 	history={
 		owner = CAL
 		add_core_of = CAL
@@ -10,18 +11,25 @@ state={
 			arms_factory = 0
 			industrial_complex = 0
 			infrastructure = 1
-			
 			air_base = 0
 			anti_air_building = 0
 			radar_station = 0
-		}
-	}
+			5516 = {
+				naval_base = 1
 
-	provinces={
-		664 4696 4895 6404 7041 7726 9031 9037 9053 
+			}
+
+		}
+		victory_points = {
+			5516 5 
+		}
+		victory_points = {
+			7098 5 
+		}
+
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=large_town
 	local_supplies=0.000
 }
