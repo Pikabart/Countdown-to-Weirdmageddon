@@ -120,6 +120,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 # California  Adjacencies
 5545;9629;;11405;-1;-1;-1;-1;;Stockton
 9554;9526;;11404;-1;-1;-1;-1;;Sacramento
+3309;9603;;11404;-1;-1;-1;-1;;Sacramento
+9603;9573;;11404;-1;-1;-1;-1;;Sacramento
+3309;9573;;11404;-1;-1;-1;-1;;Sacramento
 5246;6627;;11402;-1;-1;-1;-1;;Golden Gate
 5246;1289;;11402;-1;-1;-1;-1;;Norton Bridge
 9600;5353;;11403;-1;-1;-1;-1;;Vallejo Bridge
@@ -246,7 +249,17 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 
 
 
+########################################################
+#California
 
+#Mendocino
+6672;6525;impassable;-1;-1;-1;-1;-1;; Mendocino
+6672;9131;impassable;-1;-1;-1;-1;-1;; Mendocino
+5169;9131;impassable;-1;-1;-1;-1;-1;; Mendocino
+9180;9131;impassable;-1;-1;-1;-1;-1;; Mendocino
+9180;7014;impassable;-1;-1;-1;-1;-1;; Mendocino
+9180;5790;impassable;-1;-1;-1;-1;-1;; Mendocino
+9180;4865;impassable;-1;-1;-1;-1;-1;; Mendocino
 
 
 
