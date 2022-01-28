@@ -1,5 +1,15 @@
 ############################ ITGUY 01/12/22 84-85 files edited
 
+descriptor.mod
+patch_notes
+
+gfx/interface/alpha_stamp
+
+map/rails
+map/supply_nodes
+
+############################ ITGUY 01/12/22 84-85 files edited
+
 common/on_actions
 
 history/states
