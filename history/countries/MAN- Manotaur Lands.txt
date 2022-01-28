@@ -52,27 +52,5 @@ set_popularities = {
 	neutrality = 5
 }
 
-create_country_leader = {
-	name = "Leaderaur"
-	desc = "POLITICS_LEADERAUR_DESC"
-	picture = "Portrait_Leaderaur.dds"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Womantaur"
-	desc = "POLITICS_WOMANTAUR_DESC"
-	picture = ""
-	ideology = moderatism
-}
-
-
-create_country_leader = {
-	name = "Chutzpar"
-	desc = "POLITICS_CHUTZPAR_DESC"
-	picture = ""
-	ideology = liberalism
+recruit_character = MAN_leaderaur
 

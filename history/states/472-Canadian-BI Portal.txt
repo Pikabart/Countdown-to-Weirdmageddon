@@ -1,0 +1,27 @@
+state={
+	id=472
+	name="STATE_472"
+	history {
+		owner = WAL
+		add_core_of = WAL
+		buildings = {
+			2287 = {
+				naval_base = 2
+				coastal_bunker = 2
+			}
+			2929 = {
+				naval_base = 2
+				coastal_bunker = 2
+			}	
+			
+		}
+		victory_points = { 2929 10 }
+	}
+	provinces={
+		2287 2929 
+	}
+	manpower=1000
+	
+	state_category=enclave
+	local_supplies=0.0 
+}

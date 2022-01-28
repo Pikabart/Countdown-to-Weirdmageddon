@@ -1,0 +1,156 @@
+characters = {
+	GTF_huckabone = {
+		name = "E. Befufftlefumpter" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_huckabone"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HUCKABONE_DESC"
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+	
+	GTF_stan_pines = {
+		name = "Stan Pines" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_GTF_stan_pines"
+			}
+		}
+		country_leader = {
+			desc = "liberalism"
+			ideology = l
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+	
+	GTF_bud_gleeful = {
+		name = "Bud Gleeful" 
+		desc = ""
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/MYS/Portrait_Mabel_Pines.dds"
+				#small = ""
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = bug_gleeful_1
+			allowed = {
+				original_tag = GTF
+			}
+			available = {
+				
+			}
+			traits = { 
+				
+			}
+			ai_will_do = {
+				factor = 80
+			}
+		}
+	}
+	
+	GTF_robbie_valentine = {
+		name = "Robbie Valentine" 
+		desc = ""
+		portraits = {
+			civilian = {
+				#large = "gfx/leaders/MYS/Portrait_Wendy_Corduroy.dds"
+				#small = "GFX_idea_wendy_1"
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+	
+	GTF_tod_strange = {
+		name = "Tod Strange" 
+		desc = ""
+		portraits = {
+			civilian = {
+				#large = ""
+				#small = "GFX_idea_advisor_soos"
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+	
+	GTF_daryl_blubs = {
+		name = "Daryl Blubs" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_blubs"
+				#small = "GFX_idea_dipper_1"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_dipper_1
+			allowed = {
+				original_tag = MYS
+			}
+			available = {	
+				has_completed_focus = MYS_the_pine_twins 
+			}
+			traits = { explorer_1 } 
+			ai_will_do = {
+				factor = 40 
+			}
+		}
+		field_marshal = {
+			desc = ""
+			traits = { trait_reckless }
+			skill = 2
+
+			attack_skill = 2
+			defense_skill = 2		
+			planning_skill = 2
+			logistics_skill = 2
+		}
+	}
+	
+	GTF_edwin_durland = {
+		name = "Edwin Durland" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_durland"
+			}
+		}
+		corps_commander= {
+			traits = {  }
+			skill = 1
+			
+			visible = {}
+
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+	}
+	
+
+}###########################################################
+	

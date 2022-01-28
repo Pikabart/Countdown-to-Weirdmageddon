@@ -59,13 +59,6 @@ set_popularities = {
 	neutrality = 5
 }
 
-create_country_leader = {
-	name = "Log Man"
-	desc = ""
-	picture = ""
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
+recruit_character = LOG_log_lady
+
 

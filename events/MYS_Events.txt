@@ -1064,7 +1064,7 @@ country_event = {   # The New Tyrone
 	id = mystery_shack_pining.3
 	title = mystery_shack_pining.3.t 
 	desc = mystery_shack_pining.3.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_dipper_clones #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -1080,7 +1080,7 @@ country_event = {   #
 	id = mystery_shack_pining.4
 	title = mystery_shack_pining.4.t 
 	desc = mystery_shack_pining.4.d  
-	picture = GFX_report_event_mystery_shack #  change this later
+	picture = GFX_report_event_dipper_clones #  change this later
 	
 	is_triggered_only = yes 
 	fire_only_once = yes     #Can't happen again
@@ -1089,6 +1089,22 @@ country_event = {   #
 		name = mystery_shack_pining.4.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		add_war_support = -0.05
+	}
+}
+
+country_event = {   # 
+	id = mystery_shack_pining.5
+	title = mystery_shack_pining.5.t 
+	desc = mystery_shack_pining.5.d  
+	picture = GFX_report_event_dipper_clones #  change this later
+	
+	is_triggered_only = yes 
+	fire_only_once = yes     #Can't happen again
+	
+	option = { 
+		name = mystery_shack_pining.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_war_support = 0.10
 	}
 }
 

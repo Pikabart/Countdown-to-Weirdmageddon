@@ -1,6 +1,11 @@
 spriteTypes = {	
 
 	SpriteType = {
+		name = "GFX_idea_MYS_journal_3"
+		texturefile = "gfx/interface/ideas/mys/idea_journal_3.dds"			
+	}
+
+	SpriteType = {
 		name = "GFX_idea_MYS_NWHS_1"
 		texturefile = "gfx/interface/ideas/mys/NWHS_1.dds"			
 	}
@@ -38,6 +43,21 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_MYS_Twins_1"
 		texturefile = "gfx/interface/ideas/mys/idea_twins.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MYS_Twins_2"
+		texturefile = "gfx/interface/ideas/mys/idea_twins_2.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MYS_Twins_3"
+		texturefile = "gfx/interface/ideas/mys/idea_twins_3.dds"	
+	}
+	
+	SpriteType = {
+		name = "GFX_idea_MYS_Twins_4"
+		texturefile = "gfx/interface/ideas/mys/idea_twins_4.dds"	
 	}
 	
 	#######################

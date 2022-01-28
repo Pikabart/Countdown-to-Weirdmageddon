@@ -744,12 +744,11 @@
 	
 	focus = { #15
 		id = MYS_mabel_s1_2
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_dinosaur_egg
 		x = 1
 		y = 1
 		prerequisite = { focus = MYS_mabel_s1 }
 		relative_position_id = MYS_mabel_s1
-		allow_branch = { has_country_flag = mys_mabel }
 		available = {has_country_flag = MYS_crawlspace}		
 		bypass = {}
 		cost = 4 # (#)x7days 
@@ -758,8 +757,12 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
+		select_effect = { 
+			country_event = { id = mabel_dino.1 days = 8 }
+		}
+
 		completion_reward = {
-			#country_event = mystery_shack.
+			custom_effect_tooltip = MYS_mabel_s1_2_effect
 		}
 		
 		ai_will_do = {
@@ -769,7 +772,7 @@
 	
 	focus = { #17
 		id = MYS_mabel_s1_4
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_compy
 		x = 0
 		y = 1
 		prerequisite = { focus = MYS_mabel_s1_2 }
@@ -783,8 +786,12 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
+		select_effect = { 
+			country_event = { id = mabel_dino.3 days = 8 }
+		}
+
 		completion_reward = {
-			#country_event = mystery_shack.
+			custom_effect_tooltip = MYS_mabel_s1_4_effect
 		}
 		
 		ai_will_do = {
@@ -794,7 +801,7 @@
 	
 	focus = { #19
 		id = MYS_mabel_s1_6
-		icon = GFX_goal_generic_major_war
+		icon = GFX_goal_focus_compy_fate
 		x = 0
 		y = 1
 		prerequisite = { focus = MYS_mabel_s1_4 }
@@ -808,8 +815,33 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
+		select_effect = { 
+			if = {
+				limit = { has_country_flag = mabel_dino_5 }
+				#country_event = { id = mabel_dino.5 days = 8 }	
+			}
+			else_if = {
+				limit = { has_country_flag = mabel_dino_6 }
+				#country_event = { id = mabel_dino.6 days = 8 }	
+			}
+			else = {
+			}
+		}
+
 		completion_reward = {
-			#country_event = mystery_shack.
+			custom_effect_tooltip = MYS_mabel_s1_6_effect
+			hidden_effect = {
+				if = {
+					limit = { has_country_flag = mabel_dino_5 }
+					country_event = mabel_dino.5
+				}
+				else_if = {
+					limit = { has_country_flag = mabel_dino_6 }
+					country_event = mabel_dino.6
+				}
+				else = {
+				}
+			}
 		}
 		
 		ai_will_do = {
@@ -1393,6 +1425,7 @@
 		cost = 3 # (#)x7days 
 
 		completion_reward = {
+			country_event = mystery_shack_pining.5
 			swap_ideas = {
 				add_idea = MYS_GTF_clones_exceptional
 				remove_idea = MYS_GTF_clones_shiny
@@ -1862,6 +1895,8 @@ focus = {
 		prerequisite = { focus = MYS_stantastic_5 }
 		prerequisite = { focus = MYS_stantastic_6 }
 		prerequisite = { focus = MYS_mabel_s1_5 }
+		prerequisite = { focus = MYS_mabel_s1_6 }
+		prerequisite = { focus = MYS_dipper_s1_5 }
 		prerequisite = { focus = MYS_dipper_s1_6 }
 		#available = { has_country_flag = mys_rock_the_mabel } # {always = no}	
 		#allow_branch = { has_country_flag = mys_rock_the_mabel }

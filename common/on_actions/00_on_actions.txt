@@ -4,7 +4,23 @@ on_actions = {
 		effect = {
 		
 			CAL = {
+				#country_event = { id = CAL_START.1 } # Event code is in CAL events
 				news_event = { id = launcher_news.6 days = 10 }  # Norton Found, and State of the Union
+				every_owned_state = {
+					damage_building = {
+						type = rail_way
+						damage = 2
+					}
+				}
+			}
+			SOC = {
+				#country_event = { id = SOC_START.1 } # Event code is in SOC events
+				every_owned_state = {
+					damage_building = {
+						type = rail_way
+						damage = 2
+					}
+				}
 			}
 			EUS = {
 				news_event = { id = launcher_news.7 days = 15 }  #Launch launcher for Kerfuffle

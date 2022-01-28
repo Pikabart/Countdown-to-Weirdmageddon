@@ -59,13 +59,6 @@ set_popularities = {
 	neutrality = 5
 }
 
-create_country_leader = {
-	name = "Town Boss"
-	desc = ""
-	picture = ""
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
+recruit_character = UPD_boss
+
 

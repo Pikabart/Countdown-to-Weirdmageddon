@@ -4,6 +4,8 @@ state={
 	history {
 		owner = WAL
 		add_core_of = WAL
+		
+		victory_points = { 856 10 }
 	}
 	provinces={
 		856 1733 
