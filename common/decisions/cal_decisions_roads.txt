@@ -9,7 +9,7 @@ CAL_catagory_roads = {
           
 		icon = GFX_decision_icon_default
 		allowed = { tag = CAL }
-        days_mission_timeout = 30 
+        days_mission_timeout = 3 
 	    days_remove = 0
 		fire_only_once = no
 		is_good = yes                           
@@ -25,21 +25,35 @@ CAL_catagory_roads = {
         }
            
         timeout_effect = {   
-				#custom_effect_tooltip = stantastic_51.11.tool
+				#custom_effect_tooltip = cal_decision_road_survey.tool
 				if = {
-					limit = {check_variable = { cal_norton_socal < 40 }}
-					            
+					limit = {
+						has_country_flag = cal_norcal_crew_deployed
+						has_country_flag = cal_socal_crew_deployed
+					}
+
+					country_event = CAL_ROADS.1 
+					
 				}  
 				else_if = {
-					limit = {check_variable = { cal_norton_socal > 60 }}
-					             
+					limit = { 
+						has_country_flag = cal_norcal_crew_deployed
+						NOT = { has_country_flag = cal_socal_crew_deployed}
+					}
+					country_event = CAL_ROADS.2            
 				} 
 				else_if = { 
-					limit = {}
-				
-				}	
+					limit = { 
+						has_country_flag = cal_socal_crew_deployed
+						NOT = { has_country_flag = cal_norcal_crew_deployed}
+					}
+					country_event = CAL_ROADS.3
+				}
+				else = {country_event = CAL_ROADS.4 }
+				clr_country_flag = cal_norcal_crew_deployed
+				clr_country_flag = cal_socal_crew_deployed				
 		}
-		  
+		
     }
 	
 	
@@ -49,7 +63,7 @@ CAL_catagory_roads = {
 		available = {}
 		fire_only_once = no		
 		days_re_enable = 0
-		days_remove = 30
+		days_remove = 1
 		visible = {	}
 		
 		priority = 9
@@ -58,7 +72,8 @@ CAL_catagory_roads = {
 		fixed_random_seed = no 
 		complete_effect = {		
 			#custom_effect_tooltip = ""
-			add_timed_idea = { idea = CAL_repair_crew  days = 30 }
+			add_timed_idea = { idea = CAL_repair_crew  days = 15 }
+			set_country_flag = cal_norcal_crew_deployed
 		} 
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -72,7 +87,7 @@ CAL_catagory_roads = {
 		available = {}
 		fire_only_once = no		
 		days_re_enable = 0
-		days_remove = 30
+		days_remove = 1
 		visible = {	}		
 
 		priority = 9
@@ -83,6 +98,7 @@ CAL_catagory_roads = {
 		complete_effect = {		
 			#custom_effect_tooltip = ""
 			SOC = {add_timed_idea = { idea = CAL_repair_crew  days = 30 }}
+			set_country_flag = cal_socal_crew_deployed
 			add_to_variable = {
 				var = cal_norton_socal
 				value = 5
