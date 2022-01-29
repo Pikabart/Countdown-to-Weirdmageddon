@@ -9,25 +9,7 @@ add_namespace = CAL_TWOWORLDS
 
 add_namespace = CAL_NWB
 
-country_event = {
-	id = CAL_START.42
-	title = CAL_START.42.t
-	desc = CAL_START.42.d
-	
-	picture = GFX_report_event_generic_factory
 
-	is_triggered_only = yes
-
-
-	immediate = {
-		create_intelligence_agency = yes
-		upgrade_intelligence_agency = upgrade_form_department
-	}
-
-	option = {
-		name = excellent
-	}
-}
 
 country_event = {
 	id = CAL_TWOWORLDS.1

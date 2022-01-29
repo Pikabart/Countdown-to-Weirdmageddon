@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-			add = 100 # 100% SWP get focus, 0% everyone else, so basicly gurrenteed
-			tag = SWP
+		#	add = 100 # 100% SWP get focus, 0% everyone else, so basicly gurrenteed
+		#	tag = SWP
 		}
 	}
 	

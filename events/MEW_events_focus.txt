@@ -49,8 +49,35 @@ add_namespace = trade_ports
 add_namespace = remove_commander
 add_namespace = remove_mina
 add_namespace = test_civil_war
+add_namespace = test_array
 
 ###############################################################################################################
+
+country_event = {
+	id = test_array.1
+	title = test_array.1.t
+	desc = test_array.1.d
+	picture = GFX_report_event_gimme
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = test_array.1.a
+		ai_chance = { factor = 90 }
+		every_country = {
+			limit = {
+				is_in_array = {
+					array = GLOBAL.mewni_dimension_countries
+					value = THIS.id
+				}
+			}
+			start_civil_war = {
+				ideology = communism
+				size = 0.5
+			}
+		}
+	}
+}
 
 country_event = {
 	id = mewni_startup.1
@@ -221,13 +248,15 @@ country_event = {
 		name = corn_theft.1.a
 		ai_chance = { factor = 90 }
 		hidden_effect = {
-		news_event = { id = mewni_corn_crisis_news_event.1 days = 1 }
-		JOH = { news_event = { id = mewni_corn_crisis_news_event.1 days = 1 } }
-		LUC = { news_event = { id = mewni_corn_crisis_news_event.1 days = 1 } }
-		PIG = { news_event = { id = mewni_corn_crisis_news_event.1 days = 1 } }
-		PNY = { news_event = { id = mewni_corn_crisis_news_event.1 days = 1 } }
-		SPI = { news_event = { id = mewni_corn_crisis_news_event.1 days = 1 } }
-		JAG = { news_event = { id = mewni_corn_crisis_news_event.1 days = 1 } }
+		every_country = {
+			limit = {
+				is_in_array = {
+					array = GLOBAL.mewni_dimension_countries
+					value = THIS.id
+				}
+			}
+			news_event = { id = mewni_corn_crisis_news_event.1 days = 1 }
+		}
 		
 		}
 	}
@@ -1024,14 +1053,15 @@ country_event = {
 			
 			hidden_effect = {
 				country_event = { id = ludo_confront_4.1 days = 20 }
-				news_event = { id = mewni_ludo_coup_news_event.1 days = 1 }
-				JOH = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
-				LUC = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
-				PIG = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
-				PNY = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
-				SPI = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
-				JAG = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
-				LUD = { news_event = { id = mewni_ludo_coup_news_event.1 days = 1 } }
+				every_country = {
+					limit = {
+						is_in_array = {
+							array = GLOBAL.mewni_dimension_countries
+							value = THIS.id
+						}
+					}
+					news_event = { id = mewni_ludo_coup_news_event.1 days = 1 }
+				}
 		
 			}		
 		}
@@ -1069,14 +1099,15 @@ country_event = {
 			
 			hidden_effect = {
 				country_event = { id = ludo_confront_6.1 days = 6 }
-				news_event = { id = mewni_kingdom_split_news_event.1 days = 1 }
-				JOH = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
-				LUC = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
-				PIG = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
-				PNY = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
-				SPI = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
-				JAG = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
-				LUD = { news_event = { id = mewni_kingdom_split_news_event.1 days = 1 } }
+				every_country = {
+					limit = {
+						is_in_array = {
+							array = GLOBAL.mewni_dimension_countries
+							value = THIS.id
+						}
+					}
+					news_event = { id = mewni_kingdom_split_news_event.1 days = 1 }
+				}
 			}
 		}
 }  
@@ -1093,30 +1124,35 @@ country_event = {
 			name = ludo_confront_6.1.a
 			ai_chance = { factor = 90 }
 			hidden_effect = {
-				news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }
 				country_event = { id = rescue_art.1 days = 28 }
-				JOH = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } }
+				every_country = {
+					limit = {
+						is_in_array = {
+							array = GLOBAL.mewni_dimension_countries
+							value = THIS.id
+						}
+					}
+					news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }
+				}
 				if = {
 					limit = {
 						MEW = { has_idea = MEW_vacant_heir }
 					}
-					LUC = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } 
+					LUC = {
 						set_cosmetic_tag = LUC_IND
 					}
 				}
-				PIG = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }
+				PIG = { 
 					set_cosmetic_tag = PIG_IND
 				}
-				PNY = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } 
+				PNY = { 
 					set_cosmetic_tag = PNY_IND
 				}
-				SPI = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 } 
+				SPI = {
 					set_cosmetic_tag = SPI_IND
 				}
 				AIR = { set_cosmetic_tag = PIG_IND }
 				STI = { set_cosmetic_tag = LUC_IND }
-				JAG = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }}
-				LUD = { news_event = { id = mewni_kingdom_collapse_news_event.1 days = 1 }}
 				JAG = { country_event = { id = jaggy_collapse.1 days = 7 } }			 
 		
 				clr_country_flag = A-RAT_founded_flag   #Disbale ARAT and REC
@@ -1212,14 +1248,15 @@ country_event = {
 				ideology = communism
 				size = 0.5
 				}
-				MEW = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
-				JOH = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
-				LUC = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
-				PIG = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
-				PNY = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
-				SPI = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
-				JAG = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
-				LUD = { news_event = { id = jaggy_collapse_news_event.1 days = 1 } }
+			every_country = {
+				limit = {
+					is_in_array = {
+						array = GLOBAL.mewni_dimension_countries
+						value = THIS.id
+					}
+				}
+				news_event = { id = jaggy_collapse_news_event.1 days = 1 }
+			}
 			
 		}
 }

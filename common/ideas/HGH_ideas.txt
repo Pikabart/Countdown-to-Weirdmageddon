@@ -1,0 +1,25 @@
+##########IDEAS and ADVISORS for the MEW  ##############
+###NOTE: GFX calls tied to advisors_MYS.gfx and ideas_MYS.gfx ####
+
+ideas = {
+
+	######################################################
+	#National Spirits
+	######################################################
+	country = {
+
+		HGH_power_vaccum = {
+			picture =
+			
+			allowed = {original_tag = HGH }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = -0.2
+			}
+		}
+	}
+}

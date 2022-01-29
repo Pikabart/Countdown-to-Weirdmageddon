@@ -5,7 +5,7 @@ on_actions = {
 		
 			CAL = {
 				#country_event = { id = CAL_START.1 } # Event code is in CAL events
-				#news_event = { id = launcher_news.6 days = 10 }  # Norton Found,  - Now in CAL Focus 1
+				news_event = { id = launcher_news.6 days = 10 }  # Norton Found, and State of the Union
 				every_owned_state = {
 					damage_building = {
 						type = rail_way
@@ -23,7 +23,7 @@ on_actions = {
 				}
 			}
 			EUS = {
-				news_event = { id = launcher_news.7 days = 15 }  #Launch launcher for State of the Union
+				news_event = { id = launcher_news.7 days = 15 }  #Launch launcher for Kerfuffle
 				news_event = { id = launcher_news.1 days = 40 }  #Launch launcher for Kerfuffle
 			}
 			MEW = {

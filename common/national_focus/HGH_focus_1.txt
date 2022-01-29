@@ -1,0 +1,177 @@
+focus_tree = {
+
+	id = HGH_focus_1
+	
+	country = {
+		factor = 0		
+		modifier = {
+		#	add = 100 # 100% HGH get focus, 0% everyone else, so basicly gurrenteed
+		#	tag = HGH
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = { 
+		id = HGH_staff_meeting
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = HGH_change_focus_tree.2
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = HGH_look_towards_future
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = HGH_staff_meeting 
+		prerequisite = { focus = HGH_staff_meeting }
+		cost = 5
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = HGH_hire_model_un
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = HGH_look_towards_future 
+		prerequisite = { focus = HGH_look_towards_future }
+		cost = 5
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = HGH_power_to_principal
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = HGH_staff_meeting 
+		prerequisite = { focus = HGH_staff_meeting }
+		cost = 5
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = HGH_hire_history_kids
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = HGH_power_to_principal 
+		prerequisite = { focus = HGH_power_to_principal }
+		cost = 5
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = HGH_look_outwards_fake
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = HGH_hire_history_kids 
+		prerequisite = { focus = HGH_hire_history_kids }
+		prerequisite = { focus = HGH_hire_model_un }
+		cost = 5
+	
+		available = {
+		}
+		bypass = {} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+}

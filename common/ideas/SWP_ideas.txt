@@ -1,0 +1,63 @@
+##########IDEAS and ADVISORS for the MEW  ##############
+###NOTE: GFX calls tied to advisors_MYS.gfx and ideas_MYS.gfx ####
+
+ideas = {
+
+	######################################################
+	#National Spirits
+	######################################################
+	country = {
+
+		SWP_decentralized_government = {
+			picture =
+			
+			allowed = {original_tag = SWP }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = 0.2
+				consumer_goods_factor = 0.35
+				war_support_factor = -0.2
+				political_power_factor = -0.25
+				
+			}
+		}
+		
+		SWP_decentralized_government_2 = {
+			picture =
+			
+			allowed = {original_tag = SWP }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = 0.25
+				war_support_factor = -0.15
+				political_power_factor = -0.15
+				
+			}
+		}
+		SWP_decentralized_government_3 = {
+			picture =
+			
+			allowed = {original_tag = SWP }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+				war_support_factor = -0.05
+				political_power_factor = -0.05
+				
+			}
+		}
+	}
+}

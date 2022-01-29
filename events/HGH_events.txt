@@ -1,0 +1,65 @@
+﻿###########################
+# High School
+###########################
+
+add_namespace = HGH_change_focus_tree
+
+country_event = {
+	id = HGH_change_focus_tree.1
+	title = HGH_change_focus_tree.1.t
+	desc = HGH_change_focus_tree.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		hidden_effect = {
+			load_focus_tree = {
+				tree = HGH_focus_1
+				keep_completed = yes
+			}
+		}
+		name = HGH_change_focus_tree.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = HGH_change_focus_tree.2
+	title = HGH_change_focus_tree.2.t
+	desc = HGH_change_focus_tree.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		hidden_effect = {
+			load_focus_tree = {
+				tree = HGH_focus_2
+				keep_completed = yes
+			}
+		}
+		name = HGH_change_focus_tree.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = HGH_change_focus_tree.3
+	title = HGH_change_focus_tree.3.t
+	desc = HGH_change_focus_tree.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		hidden_effect = {
+			load_focus_tree = {
+				tree = HGH_focus_3
+				keep_completed = yes
+			}
+		}
+		name = HGH_change_focus_tree.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
