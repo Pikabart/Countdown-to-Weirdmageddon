@@ -335,13 +335,15 @@ country_event = {
 	
 	option = {
 		name = jaggy_hidden.1.a
-		MEW = { news_event = { id = jaggy_loyal_victory_news_event.1 days = 1 } }
-		LUC = { news_event = { id = jaggy_loyal_victory_news_event.1 days = 1 } }
-		PIG = { news_event = { id = jaggy_loyal_victory_news_event.1 days = 1 } }
-		JOH = { news_event = { id = jaggy_loyal_victory_news_event.1 days = 1 } }
-		SPI = { news_event = { id = jaggy_loyal_victory_news_event.1 days = 1 } }
-		PNY = { news_event = { id = jaggy_loyal_victory_news_event.1 days = 1 } }
-		JAG = { news_event = { id = jaggy_loyal_victory_news_event.1 days = 1 } }
+		every_country = {
+			limit = {
+				is_in_array = {
+					array = GLOBAL.mewni_dimension_countries
+					value = THIS.id
+				}
+			}
+			news_event = { id = jaggy_loyal_victory_news_event.1 days = 1 }
+		}
 	}
 
 }
@@ -361,13 +363,15 @@ country_event = {
 	
 	option = {
 		name = jaggy_hidden.2.a
-		MEW = { news_event = { id = jaggy_rebel_victory_news_event.1 days = 1 } }
-		LUC = { news_event = { id = jaggy_rebel_victory_news_event.1 days = 1 } }
-		PIG = { news_event = { id = jaggy_rebel_victory_news_event.1 days = 1 } }
-		JOH = { news_event = { id = jaggy_rebel_victory_news_event.1 days = 1 } }
-		SPI = { news_event = { id = jaggy_rebel_victory_news_event.1 days = 1 } }
-		PNY = { news_event = { id = jaggy_rebel_victory_news_event.1 days = 1 } }
-		JAG = { news_event = { id = jaggy_rebel_victory_news_event.1 days = 1 } }
+		every_country = {
+			limit = {
+				is_in_array = {
+					array = GLOBAL.mewni_dimension_countries
+					value = THIS.id
+				}
+			}
+			news_event = { id = jaggy_rebel_victory_news_event.1 days = 1 }
+		}
 		
 	}
 

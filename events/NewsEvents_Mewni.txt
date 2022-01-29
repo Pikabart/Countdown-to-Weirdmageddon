@@ -14,6 +14,7 @@ add_namespace = jaggy_collapse_news_event
 add_namespace = jaggy_rebel_victory_news_event
 add_namespace = jaggy_loyal_victory_news_event
 add_namespace = ludo_surrender_news_event
+add_namespace = SWP_MHC_road_collab_news_event
 
 news_event = { #The Corn Crisis
 	id = mewni_corn_crisis_news_event.1
@@ -498,6 +499,37 @@ news_event = { #Ludo Surrenders
 	}
 	option = {
 		name = mewni_corn_crisis_news_event.1.c
+		trigger = {NOT={TAG = MEW}} #not mewni
+	}
+
+}
+
+###############
+#MONSTER STUFF#
+###############
+
+news_event = {
+	id = SWP_MHC_road_collab_news_event.1
+	title = SWP_MHC_road_collab_news_event.1.t
+	desc = {
+		text = SWP_MHC_road_collab_news_event.1.d
+	}
+	
+	picture = GFX_news_event_kingdom_collapse
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = SWP_MHC_road_collab_news_event.1.c
+		trigger = {TAG = MEW} #mewni
+	}
+	
+	option = {
+		name = SWP_MHC_road_collab_news_event.2.c
 		trigger = {NOT={TAG = MEW}} #not mewni
 	}
 

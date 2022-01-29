@@ -2,6 +2,118 @@ on_actions = {
 	
 	on_startup = {
 		effect = {
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = MEW.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = JOH.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = LUC.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = SPI.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = PNY.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = JAG.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = MHC.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = OST.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = AVA.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = KAI.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = TSR.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = SWP.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = DTH.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = HGH.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = DRG.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = LUD.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = AIR.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = MMG.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = JUN.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = HKM.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = REP.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = REP.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = STI.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = MER.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = SOL.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = SIG.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = SCU.id
+			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = PIE.id
+			}
 			MHC = {
 				set_variable  = {
 					var = monster_rebels

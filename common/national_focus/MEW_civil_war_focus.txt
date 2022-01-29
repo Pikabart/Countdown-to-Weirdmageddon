@@ -50,14 +50,15 @@
 		completion_reward = {
 			set_faction_name = "Butterfly Front"
 			hidden_effect = {
-				news_event = { id = mewni_butterfly_front_news_event.1 days = 1 }
-				JOH = { news_event = { id = mewni_butterfly_front_news_event.1 days = 1 } }
-				LUC = { news_event = { id = mewni_butterfly_front_news_event.1 days = 1 } }
-				PIG = { news_event = { id = mewni_butterfly_front_news_event.1 days = 1 } }
-				PNY = { news_event = { id = mewni_butterfly_front_news_event.1 days = 1 } }
-				SPI = { news_event = { id = mewni_butterfly_front_news_event.1 days = 1 } }
-				JAG = { news_event = { id = mewni_butterfly_front_news_event.1 days = 1 } }
-				LUD = { news_event = { id = mewni_butterfly_front_news_event.1 days = 1 } }
+				every_country = {
+					limit = {
+						is_in_array = {
+							array = GLOBAL.mewni_dimension_countries
+							value = THIS.id
+						}
+					}
+					news_event = { id = mewni_butterfly_front_news_event.1 days = 1 }
+				}
 			
 			}
 		}
@@ -441,14 +442,15 @@
 		add_ideas = strike_first_idea
 		declare_war_on = { type = annex_everything    target = LUD }
 		hidden_effect = {
-				news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 }
-				JOH = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
-				LUC = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
-				PIG = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
-				PNY = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
-				SPI = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
-				JAG = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
-				LUD = { news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 } }
+				every_country = {
+					limit = {
+						is_in_array = {
+							array = GLOBAL.mewni_dimension_countries
+							value = THIS.id
+						}
+					}
+					news_event = { id = mewni_ludo_war_start_news_event.1 days = 1 }
+				}
 			
 			}
 

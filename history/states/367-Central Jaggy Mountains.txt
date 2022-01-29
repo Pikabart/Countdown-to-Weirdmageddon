@@ -23,7 +23,7 @@ state={
 		371 703 2447 2541 2631 5639 6693 6962 7324 7357 7445 
 	}
 	
-	manpower=9000
+	manpower=1900000
 	
 	state_category=large_city
 }

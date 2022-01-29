@@ -1,0 +1,132 @@
+characters = {
+	AVA_generic_monster_advisor_1 = {
+		name = "AVA_generic_monster_advisor_1" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "picture.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AVA_generic_monster_advisor_1_idea
+			allowed = {
+			}
+			available = {
+			}
+			ai_will_do = {
+				factor = 30.000
+			}
+			traits = {
+				silent_workhorse 
+			}
+		}
+	}
+	AVA_generic_monster_advisor_2 = {
+		name = "AVA_generic_monster_advisor_2" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "picture.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AVA_generic_monster_advisor_2_idea
+			allowed = {
+			}
+			available = {
+			}
+			ai_will_do = {
+				factor = 30.000
+			}
+			traits = {
+				captain_of_industry 
+			}
+		}
+	}
+	AVA_generic_monster_advisor_3 = {
+		name = "AVA_generic_monster_advisor_3" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "picture.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AVA_generic_monster_advisor_3_idea
+			allowed = {
+			}
+			available = {
+			}
+			ai_will_do = {
+				factor = 30.000
+			}
+			traits = {
+				war_industrialist 
+			}
+		}
+	}
+	AVA_generic_monster_advisor_4 = {
+		name = "AVA_generic_monster_advisor_4" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "picture.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = AVA_generic_monster_advisor_4_idea
+			allowed = {
+			}
+			available = {
+			}
+			ai_will_do = {
+				factor = 30.000
+			}
+			traits = {
+				financial_expert
+			}
+		}
+	}
+	AVA_generic_general_1 = {
+		name = "AVA_generic_general_1" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "picture.dds"
+			}
+		}
+		corps_commander= {
+		traits = { career_officer }
+			skill = 1
+
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		
+		}
+	}
+	AVA_generic_general_2 = {
+		name = "AVA_generic_general_2" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "picture.dds"
+			}
+		}
+		corps_commander= {
+		traits = { career_officer }
+			skill = 1
+
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		
+		}
+	}
+}	

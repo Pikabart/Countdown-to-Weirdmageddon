@@ -1,0 +1,104 @@
+﻿###########################
+# Tsardom
+###########################
+
+add_namespace = SWP_flavor
+add_namespace = SWP_election
+add_namespace = SWP_mewman_road_project
+add_namespace = SWP_mewman_road_project_rejection
+
+country_event = {
+	id = SWP_flavor.1
+	title = SWP_flavor.1.t
+	desc = SWP_flavor.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = SWP_flavor.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = SWP_election.1
+	title = SWP_election.1.t
+	desc = SWP_election.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		set_country_flag = bypass_blow_mewman_roads
+		name = SWP_election.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+	option = { 
+		set_country_flag = bypass_blow_mewman_roads
+		name = SWP_election.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+	option = { 
+		set_country_flag = bypass_blow_mewman_roads
+		set_country_flag = bypass_basic_economics
+		name = SWP_election.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+	option = { 
+		set_country_flag = bypass_road_project
+		set_country_flag = bypass_basic_economics
+		name = SWP_election.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = SWP_mewman_road_project.1
+	title = SWP_mewman_road_project.1.t
+	desc = SWP_mewman_road_project.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = SWP_mewman_road_project.1.a
+		ai_chance = { factor = 100 }
+		build_railway = {
+		  level = 1
+		  path = { 7870 1810 2785 7768 4852 4196 7739 2532 5386 7763 }
+		}
+		every_country = {
+			limit = {
+				is_in_array = {
+					array = GLOBAL.mewni_dimension_countries
+					value = THIS.id
+				}
+			}
+			news_event = { id = SWP_MHC_road_collab_news_event.1 days = 1 }
+		}
+	}
+	option = { 
+		name = SWP_mewman_road_project.2.a
+		ai_chance = { factor = 100 }
+		SWP = {
+			country_event = SWP_mewman_road_project_rejection.1
+		}
+	}
+
+}
+
+country_event = {
+	id = SWP_mewman_road_project_rejection.1
+	title = SWP_mewman_road_project_rejection.1.t
+	desc = SWP_mewman_road_project_rejection.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = SWP_mewman_road_project_rejection.1.a
+		ai_chance = { factor = 100 }
+	}
+
+}
