@@ -129,26 +129,26 @@ on_actions = {
 				}
 				set_country_flag = culture_and_rebels_flag
 			}
-			JUN = {
-				declare_war_on = {
-					target = HKM
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = REP
-					type = annex_everything
-				}
-			}
-			HKM = {
-				declare_war_on = {
-					target = JUN
-					type = annex_everything
-				}
-				declare_war_on = {
-					target = REP
-					type = annex_everything
-				}
-			}
+			#JUN = {
+			#	declare_war_on = {
+			#		target = HKM
+			#		type = annex_everything
+			#	}
+			#	declare_war_on = {
+			#		target = REP
+			#		type = annex_everything
+			#	}
+			#}
+			#HKM = {
+			#	declare_war_on = {
+			#		target = JUN
+			#		type = annex_everything
+			#	}
+			#	declare_war_on = {
+			#		target = REP
+			#		type = annex_everything
+			#	}
+			#}
 		}
 	}
 	#Mewni Early War and First Civil War

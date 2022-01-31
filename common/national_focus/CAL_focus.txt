@@ -38,6 +38,9 @@
 			hidden_effect = {
 				news_event = { id = launcher_news.6 days = 2 }  # Norton Found, and State of the Union
 			}
+			CAL = {
+				add_ideas = CAL_golden
+			}
 		}
 	}
 
@@ -60,6 +63,9 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_start.1.t"
+			CAL = {
+				add_ideas = CAL_northwest
+			}
 		}
 	}
 	
@@ -82,6 +88,16 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_start.2.t"
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = industry
+			}
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = cat_synth_oil
+			}
 		}
 	}
 	
@@ -104,6 +120,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_start.3.t"
+			army_experience = 50
 		}
 	}
 	
@@ -127,6 +144,11 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_start.4.t"
+			add_political_power = 100
+			add_stability = 0.1
+			add_dynamic_modifier = {
+				modifier = dyn_mod_cal_social_services_expansion 
+			}
 		}
 	}
 	
@@ -917,7 +939,7 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_domestic.0.t"
+			custom_effect_tooltip = "CAL_birnbaum.0.t"
 		}
 	}
 	
@@ -946,7 +968,7 @@
 	focus = {
 		id = CAL_birnbaum.2
 		icon = GFX_goal_california
-		x = -2
+		x = -2 
 		y = 1
 		relative_position_id = CAL_birnbaum.1
 		prerequisite = { focus = CAL_birnbaum.1 }
@@ -958,7 +980,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = {}  
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_birnbaum.2.t"
@@ -1927,7 +1949,7 @@
 	####################################
 	
 	focus = {
-		id = CAL_IBI.0
+		id = CAL_IBI.0 
 		icon = GFX_goal_california
 		x = -4
 		y = 2
@@ -1937,7 +1959,7 @@
 		
 		available_if_capitulated = yes
 		
-		cancel_if_invalid = yes
+		cancel_if_invalid = yes 
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
@@ -1945,6 +1967,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_IBI.0.t"
+			country_event = CAL_IPD.1
 		}
 	}
 	

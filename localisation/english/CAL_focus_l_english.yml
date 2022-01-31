@@ -146,35 +146,35 @@
  
  CAL_everett.0:0 "Lady Everett's Plan"
  CAL_everett.0_desc:0 ""
- CAL_everett.0.t:0 ""
+ CAL_everett.0.t:0 "Enable the "§RDiplomatic Corp§!" desicions to start reuniting the Rocky Mountain States under California Control through "peaceful" means.\n\nThe Californian people will not be happy if we resort to force to reunite out americans to the east."
  
  CAL_everett.1:0 "Patrol The Majove"
- CAL_everett.1_desc:0 ""
- CAL_everett.1.t:0 ""
+ CAL_everett.1_desc:0 "The collapse of the Federal Government has also collapsed the National Aqueduct System. As we hold Nevada to control our half of the Hoover Dan, it's time we ensure our contorl the downstream of the Colorado River's Water and protect our water supplies."
+ CAL_everett.1.t:0 "Contruct new fortifications and radar stations along the crossing points over the Colorado River."
  
  CAL_everett.2:0 "Leverage Our Economy"
  CAL_everett.2_desc:0 ""
- CAL_everett.2.t:0 ""
+ CAL_everett.2.t:0 "Weaken the economies of the States of the Four Corners and make it easier to make them join."
  
  CAL_everett.3:0 "Securing The Western Sky"
- CAL_everett.3_desc:0 ""
- CAL_everett.3.t:0 ""
+ CAL_everett.3_desc:0 "When the Sun sets\nWe rise!\n\nLet all of the West know the Imperial California Republic controls the Western Skies!"
+ CAL_everett.3.t:0 "New Airbases and Anti-Air defenses are constructed in Southern California and Nevada."
  
  CAL_everett.4:0 "Through The Rocky"
  CAL_everett.4_desc:0 ""
- CAL_everett.4.t:0 ""
+ CAL_everett.4.t:0 "The efforts of the §RDiplomatic Corp§! will determine how Utah responds to our demands."
  
  CAL_everett.5:0 "East On 66"
  CAL_everett.5_desc:0 ""
- CAL_everett.5.t:0 ""
+ CAL_everett.5.t:0 "The efforts of the §RDiplomatic Corp§! will determine how Arizona asnd New Mexico responds to our demands"
  
  CAL_everett.6:0 "Tame The Colorado"
  CAL_everett.6_desc:0 ""
- CAL_everett.6.t:0 ""
+ CAL_everett.6.t:0 "The efforts of the §RDiplomatic Corp§! will determine how Colorado responds to our demands."
  
  CAL_everett.7:0 "Secure Texas"
- CAL_everett.7_desc:0 ""
- CAL_everett.7.t:0 ""
+ CAL_everett.7_desc:0 "The Texans continue to provoke Mexico over access to the Rio Grande. As the Protector of Mexico, our Emperor is duty bound to save the mexicans and the polls confirm that Californians will honor it.\nIts time we finally liberate Texas once and for all!"
+ CAL_everett.7.t:0 "Sacremento will send an Ultimatium to Austin. Let's see if we can bait the §RLone Star§! to challangin the might of the §YImperial Republic!§!"
  
  ##################################################################################################################
  ##################################################################################################################
@@ -183,35 +183,35 @@
  
  CAL_birnbaum.0:0 "Lord Birnbaum's Plan"
  CAL_birnbaum.0_desc:0 ""
- CAL_birnbaum.0.t:0 ""
+ CAL_birnbaum.0.t:0 "The following focuses will enable an ensured peaceful means to reunite the states of the Rocky Mountains. But these efforts will be time consuming and will force us to compromise with the other states."
  
- CAL_birnbaum.1:0 "New Trade Routes"
+ CAL_birnbaum.1:0 "Strengthen Ties Along The Colorado"
  CAL_birnbaum.1_desc:0 ""
- CAL_birnbaum.1.t:0 ""
+ CAL_birnbaum.1.t:0 "Increase Diplomatic Relationships with the States of the Four Corners."
  
- CAL_birnbaum.2:0 "Wonder Of The Western Sky"
+ CAL_birnbaum.2:0 "New Trade Routes"
  CAL_birnbaum.2_desc:0 ""
- CAL_birnbaum.2.t:0 ""
+ CAL_birnbaum.2.t:0 "Increase Trade Relationships and Resource Extractions with the States of the Four Corners."
  
  CAL_birnbaum.3:0 "On Guard In The Rocky"
  CAL_birnbaum.3_desc:0 ""
- CAL_birnbaum.3.t:0 ""
+ CAL_birnbaum.3.t:0 "Utah joins the §YImperial California Republic§!."
  
- CAL_birnbaum.4:0 "Strengthen Ties Along The Colorado"
+ CAL_birnbaum.4:0 "Wonder Of The Western Sky"
  CAL_birnbaum.4_desc:0 ""
- CAL_birnbaum.4.t:0 ""
+ CAL_birnbaum.4.t:0 "Arizona joins the §YImperial California Republic§!."
  
  CAL_birnbaum.5:0 "A New Golden Spike"
  CAL_birnbaum.5_desc:0 ""
- CAL_birnbaum.5.t:0 ""
+ CAL_birnbaum.5.t:0 "Colorado joins the §YImperial California Republic§!."
  
  CAL_birnbaum.6:0 "Mexico, New and Old"
  CAL_birnbaum.6_desc:0 ""
- CAL_birnbaum.6.t:0 ""
+ CAL_birnbaum.6.t:0 "New Mexico joins the §YImperial California Republic§!. Increase relationship with §GThe United Mexican States§!."
  
  CAL_birnbaum.7:0 "Defend Mexico"
- CAL_birnbaum.7_desc:0 ""
- CAL_birnbaum.7.t:0 ""
+ CAL_birnbaum.7_desc:0 "Weakening Relationships between §GMexico§! and §YTexas§! can destablize the entire South-West. But our direct intervesion can force all the sides to the table.\n\nThe time has come the Imperial Governor to reinstate his old title."
+ CAL_birnbaum.7.t:0 "Emperor Norton re-instates his title as the §GProtector of Mexico§!.\nWe will have to wait and see how Texas responds to this..."
  
  ##################################################################################################################
  ##################################################################################################################
@@ -354,8 +354,8 @@
  ##################################################################################################################
  #################################################################################################################
  
- CAL_IBI.0:0 "Form The Imperial Paranormal Division"
- CAL_IBI.0_desc:0 ""
+ CAL_IBI.0:0 "The Imperial Bureau of Investigation"
+ CAL_IBI.0_desc:0 "In response to the initial collapse of the US and an increace of crime across the state gave Lt. Governor Diaz-Guzman the political clout to form the IBI.\nUnofficially, with the FPI in the North and the paranormal nature of the St. James Disappearance in the South, the IBI will see Hector's return to secret paranormal world."
  CAL_IBI.0.t:0 ""
  
  CAL_IBI.1:0 "Call In Mr. X"

@@ -516,7 +516,7 @@ news_event = { # Cold War
 		hidden_effect = {
 			news_event = { id = kerfuffle_news.4 days = 5 }
 			ORE = { country_event = { id = ORE_START.2 days = 1 } }
-			CAL = { country_event = { id = CAL_START.2 days = 1 } }
+			CAL = { country_event = { id = CAL_STARTER.2 days = 1 } }
 			WAS = { country_event = { id = WAS_START.2 days = 1 } }
 			NEV = { 
 				add_state_claim = 133

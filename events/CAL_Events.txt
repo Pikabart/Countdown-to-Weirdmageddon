@@ -2,32 +2,45 @@
 # California
 ###########################
 
-add_namespace = CAL_START
+add_namespace = CAL_STARTER
 add_namespace = CAL_TREMBLEY
 add_namespace = CAL_ELECTION
 add_namespace = CAL_TWOWORLDS
-add_namespace = CAL_ROADS
+add_namespace = CAL_JANNA
 add_namespace = CAL_GUSTAV
-
 add_namespace = CAL_NWB
+add_namespace = CAL_IPD
+
+
 
 country_event = {
-	id = CAL_START.42
-	title = CAL_START.42.t
-	desc = CAL_START.42.d
+	id = CAL_STARTER.1
+	title = CAL_STARTER.1.t
+	desc = CAL_STARTER.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
 	
-	picture = GFX_report_event_generic_factory
-
 	is_triggered_only = yes
-
-
-	immediate = {
-		create_intelligence_agency = yes
-		upgrade_intelligence_agency = upgrade_form_department
+	fire_only_once = yes
+	
+	option = { 
+		name = CAL_STARTER.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
 	}
-
-	option = {
-		name = excellent
+}
+country_event = {
+	id = CAL_STARTER.2
+	title = CAL_STARTER.2.t
+	desc = CAL_STARTER.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = CAL_STARTER.2.a
+		load_oob = "CAL_2012"
+		SOC = {load_oob = "SOC_2012"}
+		ai_chance = { factor = 100 }	# 100% AI choose this
 	}
 }
 
@@ -45,36 +58,6 @@ country_event = {
 	}
 }
 ############################################################################################################
-country_event = {
-	id = CAL_START.1
-	title = CAL_START.1.t
-	desc = CAL_START.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
-	
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = { 
-		name = CAL_START.1.a
-		ai_chance = { factor = 100 }	# 100% AI choose this
-	}
-}
-country_event = {
-	id = CAL_START.2
-	title = CAL_START.2.t
-	desc = CAL_START.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
-	
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	option = { 
-		name = CAL_START.2.a
-		load_oob = "CAL_2012"
-		SOC = {load_oob = "SOC_2012"}
-		ai_chance = { factor = 100 }	# 100% AI choose this
-	}
-}
 ############################################################################################################
 country_event = { # What the heck is going on up there?
 	id = CAL_TREMBLEY.1
@@ -249,274 +232,19 @@ country_event = { # California chooses Olson for Governor
 
 ########################################################################################################
 
-country_event = {
-	id = CAL_ROADS.1
-	title = CAL_ROADS.1.t
-	desc = CAL_ROADS.1.d
+country_event = {  # 
+	id = CAL_JANNA.1
+	title = CAL_JANNA.1.t
+	desc = CAL_JANNA.1.d
+	picture = GFX_report_event_janna_marco_info
 	
-	picture = GFX_report_event_generic_factory
-
 	is_triggered_only = yes
-
-
-	immediate = {
-		random_owned_state = {
-			damage_building = {
-				type = rail_way
-				damage = 2
-			}
-		}
-		random_owned_state = {
-			damage_building = {
-				type = rail_way
-				damage = 2
-			}
-		}
-		SOC = {
-			random_owned_state = {
-				damage_building = {
-					type = rail_way
-					damage = 2
-				}
-			}
-		}
-		SOC = {
-			random_owned_state = {
-				damage_building = {
-					type = rail_way
-					damage = 2
-				}
-			}
-		}
-		clr_country_flag = cal_norcal_crew_deployed
-		clr_country_flag = cal_socal_crew_deployed
-	}
-
-	option = {
-		name = CAL_ROADS.1.a
+	
+	option = { 
+		name = CAL_JANNA.1.a
+		ai_chance = { factor = 0 }	# 0% AI choose this
 	}
 }
-
-country_event = {
-	id = CAL_ROADS.2
-	title = CAL_ROADS.2.t
-	desc = CAL_ROADS.2.d
-	
-	picture = GFX_report_event_generic_factory
-
-	is_triggered_only = yes
-
-
-	immediate = {
-		random_owned_state = {
-			damage_building = {
-				type = rail_way
-				damage = 2
-			}
-		}
-		random_owned_state = {
-			damage_building = {
-				type = rail_way
-				damage = 2
-			}
-		}
-		SOC = {
-			random_owned_state = {
-				damage_building = {
-					type = rail_way
-					damage = 4
-				}
-			}
-		}
-		SOC = {
-			random_owned_state = {
-				damage_building = {
-					type = rail_way
-					damage = 4
-				}
-			}
-		}
-		SOC = {
-			random_owned_state = {
-				damage_building = {
-					type = rail_way
-					damage = 4
-				}
-			}
-		}
-		subtract_from_variable = {
-			var = cal_norton_socal
-			value = 5
-		}
-		##################
-		clamp_variable = {
-			var = cal_norton_socal
-			min = 0
-			max = 100
-		}
-		clr_country_flag = cal_norcal_crew_deployed
-		clr_country_flag = cal_socal_crew_deployed
-	}
-
-	option = {
-		name = CAL_ROADS.2.a
-	}
-}
-
-country_event = {
-	id = CAL_ROADS.3
-	title = CAL_ROADS.3.t
-	desc = CAL_ROADS.3.d
-	
-	picture = GFX_report_event_generic_factory
-
-	is_triggered_only = yes
-
-
-	immediate = {
-		random_owned_state = {
-			damage_building = {
-				type = rail_way
-				damage = 3
-			}
-		}
-		random_owned_state = {
-			damage_building = {
-				type = rail_way
-				damage = 3
-			}
-		}
-		random_owned_state = {
-			damage_building = {
-				type = rail_way
-				damage = 3
-			}
-		}
-		SOC = {
-			random_owned_state = {
-				damage_building = {
-					type = rail_way
-					damage = 2
-				}
-			}
-		}
-		add_to_variable = {
-			var = cal_norton_socal
-			value = 5
-		}
-		##################
-		clamp_variable = {
-			var = cal_norton_socal
-			min = 0
-			max = 100
-		}
-		clr_country_flag = cal_norcal_crew_deployed
-		clr_country_flag = cal_socal_crew_deployed
-	}
-
-	option = {
-		name = CAL_ROADS.3.a
-	}
-}
-
-country_event = {
-	id = CAL_ROADS.4
-	title = CAL_ROADS.4.t
-	desc = CAL_ROADS.4.d
-	
-	picture = GFX_report_event_generic_factory
-
-	is_triggered_only = yes
-
-
-	immediate = {
-		random_owned_state = {
-			damage_building = {
-				type = rail_way
-				damage = 3
-			}
-		}
-		random_owned_state = {
-			damage_building = {
-				type = rail_way
-				damage = 3
-			}
-		}
-		random_owned_state = {
-			damage_building = {
-				type = rail_way
-				damage = 3
-			}
-		}
-		random_owned_state = {
-			damage_building = {
-				type = rail_way
-				damage = 3
-			}
-		}
-		SOC = {
-			random_owned_state = {
-				damage_building = {
-					type = rail_way
-					damage = 3
-				}
-			}
-		}
-		SOC = {
-			random_owned_state = {
-				damage_building = {
-					type = rail_way
-					damage = 3
-				}
-			}
-		}
-		SOC = {
-			random_owned_state = {
-				damage_building = {
-					type = rail_way
-					damage = 3
-				}
-			}
-		}
-		SOC = {
-			random_owned_state = {
-				damage_building = {
-					type = rail_way
-					damage = 3
-				}
-			}
-		}
-		
-		subtract_from_variable = {
-			var = cal_norton_norcal
-			value = 5
-		}
-		##################
-		clamp_variable = {
-			var = cal_norton_norcal
-			min = 0
-			max = 100
-		}
-		######################################################
-		subtract_from_variable = {
-			var = cal_norton_socal
-			value = 10
-		}
-		##################
-		clamp_variable = {
-			var = cal_norton_socal
-			min = 0
-			max = 100
-		}
-		clr_country_flag = cal_norcal_crew_deployed
-		clr_country_flag = cal_socal_crew_deployed
-	}
-
-	option = {
-		name = CAL_ROADS.4.a
-	}
-}
-
 
 ########################################################################################################
 
@@ -524,7 +252,7 @@ country_event = {  #
 	id = CAL_GUSTAV.1
 	title = CAL_GUSTAV.1.t
 	desc = CAL_GUSTAV.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_gustav
 	
 	is_triggered_only = yes
 	
@@ -532,19 +260,27 @@ country_event = {  #
 		name = CAL_GUSTAV.1.a
 		ai_chance = { factor = 0 }	# 0% AI choose this
 	}
-	option = { 
-		name = CAL_GUSTAV.1.b
-		ai_chance = { factor = 100 }	# 100% AI choose this
-	}
 }
 
-
+country_event = {  # 
+	id = CAL_GUSTAV.2
+	title = CAL_GUSTAV.2.t
+	desc = CAL_GUSTAV.2.d
+	picture = GFX_report_event_star_uninpressed
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_GUSTAV.2.a
+		ai_chance = { factor = 0 }	# 0% AI choose this
+	}
+}
 
 country_event = {  # 
 	id = CAL_GUSTAV.3
 	title = CAL_GUSTAV.3.t
 	desc = CAL_GUSTAV.3.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_star_spying
 	
 	is_triggered_only = yes
 	
@@ -555,6 +291,31 @@ country_event = {  #
 	option = { 
 		name = CAL_GUSTAV.3.b
 		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+########################################################################################################
+
+country_event = {
+	id = CAL_IPD.1
+	title = CAL_IPD.1.t
+	desc = CAL_IPD.1.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {
+		create_intelligence_agency = yes
+		upgrade_intelligence_agency = upgrade_form_department
+		load_oob = "CAL_2012"
+		SOC = {load_oob = "SOC_2012"}
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+
+	option = {
+		name = CAL_IPD.1.a
 	}
 }
 

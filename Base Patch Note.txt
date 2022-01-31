@@ -1,3 +1,23 @@
+############################ ITGUY 01/30/22 
+
+common/dynamic_modifer
+common/intelligence_agency
+common/national_focus
+common/on_actions
+
+events
+
+gfx/events_countries/CAL
+gfx/interface/alpha_stamp
+
+history/countries
+
+interface
+
+localization
+
+maps/airports,buildings,rocketsites
+
 ############################ ITGUY 01/26/22 
 
 common/decisions

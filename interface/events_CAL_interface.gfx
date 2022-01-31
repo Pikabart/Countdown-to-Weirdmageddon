@@ -3,9 +3,21 @@
 ############
 spriteTypes = {
 
-	spriteType = { # DIPPY ZOG
-		name = "GFX_report_event_dippy_zog"
-		texturefile = "gfx/event_country_pictures/MYS/report_event_dippy_zog.dds"
+	spriteType = { # 
+		name = "GFX_report_event_gustav"
+		texturefile = "gfx/event_country_pictures/CAL/report_event_gustav.dds"
+	}
+	spriteType = { # 
+		name = "GFX_report_event_star_uninpressed"
+		texturefile = "gfx/event_country_pictures/CAL/report_event_star_uninpressed.dds"
+	}
+	spriteType = { # 
+		name = "GFX_report_event_star_spying"
+		texturefile = "gfx/event_country_pictures/CAL/report_event_star_spying.dds"
+	}
+	spriteType = { # 
+		name = "GFX_report_event_janna_marco_info"
+		texturefile = "gfx/event_country_pictures/CAL/report_event_janna_marco_info.dds"
 	}
 
 	
