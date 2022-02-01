@@ -27,9 +27,9 @@
  CAL_start.4_desc:0 ""
  CAL_start.4.t:0 ""
  
- CAL_start.5:0 "Golden Potholes"
+ CAL_start.5:0 "Sign Bill MB-1108: The Golden Road Initiative"
  CAL_start.5_desc:0 ""
- CAL_start.5.t:0 ""
+ CAL_start.5.t:0 "Enable the "§YFollow the Golden Road§!" desicions to start repairing and improving California's Highways and Interstates"
  
  CAL_start.6:0 "The Long Summer"
  CAL_start.6_desc:0 ""
@@ -51,17 +51,19 @@
  CAL_assembly.0_desc:0 ""
  CAL_assembly.0.t:0 ""
  
- CAL_assembly.1:0 "Convene The State Assembley"
+ CAL_assembly.1:0 "Norton and California"
  CAL_assembly.1_desc:0 ""
  CAL_assembly.1.t:0 ""
  
+ CAL_assembly.2:0 "A Day At The Ballpark"
+ CAL_assembly.2_desc:0 "The MLB season was cancelled due to the collapse of the U.S.\nHowever, the §OSan Francisco Giants§! and the §4Los Angeles Dodgers§! have arranged a game later this summer to boost moral and state unity.\nBut with the tense relationship between the §GNorth§! and §YSouth§!, this game could very well cause the opposite."
+ CAL_assembly.2.t:0 "Depending on how we handle §GNorCal§!/§YSoCal§! relationship, the fate of California would be decided by this game.\n\n\n\n\n\nI don't even watch Baseball..."
+ 
  ##################################################################################################################
  ##################################################################################################################
  ##################################################################################################################
  
- CAL_domestic.0:0 "Norton's Domestic Agenda"
- CAL_domestic.0_desc:0 ""
- CAL_domestic.0.t:0 ""
+ 
  
  CAL_domestic.1:0 "Ensure Progress"
  CAL_domestic.1_desc:0 ""
@@ -71,103 +73,145 @@
  CAL_domestic.2_desc:0 ""
  CAL_domestic.2.t:0 ""
  
- CAL_domestic.3:0 "Aid Urban Outreach"
+ CAL_domestic.3:0 "Implement UBI"
  CAL_domestic.3_desc:0 ""
  CAL_domestic.3.t:0 ""
  
- CAL_domestic.4:0 "New Infrastructure Bill"
+ CAL_domestic.4:0 "Uphold Social Security"
  CAL_domestic.4_desc:0 ""
  CAL_domestic.4.t:0 ""
  
- CAL_domestic.5:0 "Develop Rural Areas"
+ CAL_domestic.5:0 "Aid Small Businesses"
  CAL_domestic.5_desc:0 ""
  CAL_domestic.5.t:0 ""
  
- CAL_domestic.6:0 "Pass Norton Care"
+ CAL_domestic.6:0 "Remove Enviromental Restrictions"
  CAL_domestic.6_desc:0 ""
  CAL_domestic.6.t:0 ""
  
- CAL_domestic.7:0 "Redo Tax Rates"
+ CAL_domestic.7:0 "Pass Norton Care"
  CAL_domestic.7_desc:0 ""
  CAL_domestic.7.t:0 ""
  
- CAL_domestic.8:0 "A New America"
+ CAL_domestic.8:0 "New Tax Codes"
  CAL_domestic.8_desc:0 ""
  CAL_domestic.8.t:0 ""
+ 
+ CAL_domestic.9:0 "Change Assembley Procedures"
+ CAL_domestic.9_desc:0 "These major wide changing law proposals by the two blocs of the Northern IDR is making appeasing both sides difficult. But by altering the Assembly Rules on on Bill Introduction, we can force the break down of these large bill into smaller ones. Not only would some bills get approval from both sides, but the Moderate NDRs are more likely to support the bill."
+ CAL_domestic.9.t:0 ""
+ 
+ ##################################################################################################################
+ ##################################################################################################################
+ ##################################################################################################################
+
+ 
+ CAL_division.1:0 "Mend NDR-IDR Divisions"
+ CAL_division.1_desc:0 ""
+ CAL_division.1.t:0 ""
+ 
+ CAL_division.2:0 "Tour Southern California"
+ CAL_division.2_desc:0 ""
+ CAL_division.2.t:0 ""
+ 
+ CAL_division.3:0 "Diversify the Cabinet"
+ CAL_division.3_desc:0 ""
+ CAL_division.3.t:0 ""
+ 
+ CAL_division.4:0 "Strengthen The Imperial Congress"
+ CAL_division.4_desc:0 ""
+ CAL_division.4.t:0 ""
+ 
+ CAL_division.5:0 "Strengthen The Imperial Governor"
+ CAL_division.5_desc:0 ""
+ CAL_division.5.t:0 ""
+ 
+ CAL_division.6:0 "The Question of Bakersfieldville"
+ CAL_division.6_desc:0 ""
+ CAL_division.6.t:0 ""
+ 
+ CAL_division.7:0 "One Government"
+ CAL_division.7_desc:0 ""
+ CAL_division.7.t:0 ""
+ 
+ CAL_division.8:0 "One California"
+ CAL_division.8_desc:0 ""
+ CAL_division.8.t:0 ""
+ 
  
  ##################################################################################################################
  ##################################################################################################################
  ##################################################################################################################
  #3
  
- CAL_evertt.0:0 "Lady Everett's Plan"
- CAL_evertt.0_desc:0 ""
- CAL_evertt.0.t:0 ""
+ CAL_everett.0:0 "Lady Everett's Plan"
+ CAL_everett.0_desc:0 ""
+ CAL_everett.0.t:0 "Enable the "§RDiplomatic Corp§!" desicions to start reuniting the Rocky Mountain States under California Control through "peaceful" means.\n\nThe Californian people will not be happy if we resort to force to reunite out americans to the east."
  
- CAL_evertt.1:0 "Patrol The Majove"
- CAL_evertt.1_desc:0 ""
- CAL_evertt.1.t:0 ""
+ CAL_everett.1:0 "Patrol The Majove"
+ CAL_everett.1_desc:0 "The collapse of the Federal Government has also collapsed the National Aqueduct System. As we hold Nevada to control our half of the Hoover Dan, it's time we ensure our contorl the downstream of the Colorado River's Water and protect our water supplies."
+ CAL_everett.1.t:0 "Contruct new fortifications and radar stations along the crossing points over the Colorado River."
  
- CAL_evertt.2:0 "Leverage Our Economy"
- CAL_evertt.2_desc:0 ""
- CAL_evertt.2.t:0 ""
+ CAL_everett.2:0 "Leverage Our Economy"
+ CAL_everett.2_desc:0 ""
+ CAL_everett.2.t:0 "Weaken the economies of the States of the Four Corners and make it easier to make them join."
  
- CAL_evertt.3:0 "Securing The Western Sky"
- CAL_evertt.3_desc:0 ""
- CAL_evertt.3.t:0 ""
+ CAL_everett.3:0 "Securing The Western Sky"
+ CAL_everett.3_desc:0 "When the Sun sets\nWe rise!\n\nLet all of the West know the Imperial California Republic controls the Western Skies!"
+ CAL_everett.3.t:0 "New Airbases and Anti-Air defenses are constructed in Southern California and Nevada."
  
- CAL_evertt.4:0 "Through The Rocky"
- CAL_evertt.4_desc:0 ""
- CAL_evertt.4.t:0 ""
+ CAL_everett.4:0 "Through The Rocky"
+ CAL_everett.4_desc:0 ""
+ CAL_everett.4.t:0 "The efforts of the §RDiplomatic Corp§! will determine how Utah responds to our demands."
  
- CAL_evertt.5:0 "East On 66"
- CAL_evertt.5_desc:0 ""
- CAL_evertt.5.t:0 ""
+ CAL_everett.5:0 "East On 66"
+ CAL_everett.5_desc:0 ""
+ CAL_everett.5.t:0 "The efforts of the §RDiplomatic Corp§! will determine how Arizona asnd New Mexico responds to our demands"
  
- CAL_evertt.6:0 "Tame The Colorado"
- CAL_evertt.6_desc:0 ""
- CAL_evertt.6.t:0 ""
+ CAL_everett.6:0 "Tame The Colorado"
+ CAL_everett.6_desc:0 ""
+ CAL_everett.6.t:0 "The efforts of the §RDiplomatic Corp§! will determine how Colorado responds to our demands."
  
- CAL_evertt.7:0 "Secure Texas"
- CAL_evertt.7_desc:0 ""
- CAL_evertt.7.t:0 ""
+ CAL_everett.7:0 "Secure Texas"
+ CAL_everett.7_desc:0 "The Texans continue to provoke Mexico over access to the Rio Grande. As the Protector of Mexico, our Emperor is duty bound to save the mexicans and the polls confirm that Californians will honor it.\nIts time we finally liberate Texas once and for all!"
+ CAL_everett.7.t:0 "Sacremento will send an Ultimatium to Austin. Let's see if we can bait the §RLone Star§! to challangin the might of the §YImperial Republic!§!"
  
  ##################################################################################################################
  ##################################################################################################################
  ##################################################################################################################
  #4
  
- CAL_birnbaum.0:0 "Lord Birnbum's Plan"
+ CAL_birnbaum.0:0 "Lord Birnbaum's Plan"
  CAL_birnbaum.0_desc:0 ""
- CAL_birnbaum.0.t:0 ""
+ CAL_birnbaum.0.t:0 "The following focuses will enable an ensured peaceful means to reunite the states of the Rocky Mountains. But these efforts will be time consuming and will force us to compromise with the other states."
  
- CAL_birnbaum.1:0 "New Trade Routes"
+ CAL_birnbaum.1:0 "Strengthen Ties Along The Colorado"
  CAL_birnbaum.1_desc:0 ""
- CAL_birnbaum.1.t:0 ""
+ CAL_birnbaum.1.t:0 "Increase Diplomatic Relationships with the States of the Four Corners."
  
- CAL_birnbaum.2:0 "Wonder Of The Western Sky"
+ CAL_birnbaum.2:0 "New Trade Routes"
  CAL_birnbaum.2_desc:0 ""
- CAL_birnbaum.2.t:0 ""
+ CAL_birnbaum.2.t:0 "Increase Trade Relationships and Resource Extractions with the States of the Four Corners."
  
  CAL_birnbaum.3:0 "On Guard In The Rocky"
  CAL_birnbaum.3_desc:0 ""
- CAL_birnbaum.3.t:0 ""
+ CAL_birnbaum.3.t:0 "Utah joins the §YImperial California Republic§!."
  
- CAL_birnbaum.4:0 "Strengthen Ties Along The Colorado"
+ CAL_birnbaum.4:0 "Wonder Of The Western Sky"
  CAL_birnbaum.4_desc:0 ""
- CAL_birnbaum.4.t:0 ""
+ CAL_birnbaum.4.t:0 "Arizona joins the §YImperial California Republic§!."
  
  CAL_birnbaum.5:0 "A New Golden Spike"
  CAL_birnbaum.5_desc:0 ""
- CAL_birnbaum.5.t:0 ""
+ CAL_birnbaum.5.t:0 "Colorado joins the §YImperial California Republic§!."
  
  CAL_birnbaum.6:0 "Mexico, New and Old"
  CAL_birnbaum.6_desc:0 ""
- CAL_birnbaum.6.t:0 ""
+ CAL_birnbaum.6.t:0 "New Mexico joins the §YImperial California Republic§!. Increase relationship with §GThe United Mexican States§!."
  
  CAL_birnbaum.7:0 "Defend Mexico"
- CAL_birnbaum.7_desc:0 ""
- CAL_birnbaum.7.t:0 ""
+ CAL_birnbaum.7_desc:0 "Weakening Relationships between §GMexico§! and §YTexas§! can destablize the entire South-West. But our direct intervesion can force all the sides to the table.\n\nThe time has come the Imperial Governor to reinstate his old title."
+ CAL_birnbaum.7.t:0 "Emperor Norton re-instates his title as the §GProtector of Mexico§!.\nWe will have to wait and see how Texas responds to this..."
  
  ##################################################################################################################
  ##################################################################################################################
@@ -302,59 +346,27 @@
  CAL_hector.0_desc:0 ""
  CAL_hector.0.t:0 ""
  
- CAL_division.0:0 "The Two-Headed Bear"
- CAL_division.0_desc:0 ""
- CAL_division.0.t:0 ""
- 
- CAL_division.1:0 "Mend NDR-IDR Divisions"
- CAL_division.1_desc:0 ""
- CAL_division.1.t:0 ""
- 
- CAL_division.2:0 "Joint Town Hall Meeting"
- CAL_division.2_desc:0 ""
- CAL_division.2.t:0 ""
- 
- CAL_division.3:0 "Strengthen the Imperial Congress"
- CAL_division.3_desc:0 ""
- CAL_division.3.t:0 ""
- 
- CAL_division.4:0 "Rezone Water Reserves"
- CAL_division.4_desc:0 ""
- CAL_division.4.t:0 ""
- 
- CAL_division.5:0 "Arrange New Political Deals"
- CAL_division.5_desc:0 ""
- CAL_division.5.t:0 ""
- 
- CAL_division.6:0 "One Government"
- CAL_division.6_desc:0 ""
- CAL_division.6.t:0 ""
- 
- CAL_division.7:0 "One California"
- CAL_division.7_desc:0 ""
- CAL_division.7.t:0 ""
- 
- CAL_division.8:0 "A Day At The Ball Park"
- CAL_division.8_desc:0 ""
- CAL_division.8.t:0 ""
+ CAL_hector.1:0 "A Chat With Shroud"
+ CAL_hector.1_desc:0 ""
+ CAL_hector.1.t:0 ""
  
  ##################################################################################################################
  ##################################################################################################################
- ##################################################################################################################
+ #################################################################################################################
  
- CAL_IBI.0:0 "Counter The Western FPI"
- CAL_IBI.0_desc:0 ""
+ CAL_IBI.0:0 "The Imperial Bureau of Investigation"
+ CAL_IBI.0_desc:0 "In response to the initial collapse of the US and an increace of crime across the state gave Lt. Governor Diaz-Guzman the political clout to form the IBI.\nUnofficially, with the FPI in the North and the paranormal nature of the St. James Disappearance in the South, the IBI will see Hector's return to secret paranormal world."
  CAL_IBI.0.t:0 ""
  
- CAL_IBI.1:0 "Call Andrew Chiu"
+ CAL_IBI.1:0 "Call In Mr. X"
  CAL_IBI.1_desc:0 ""
  CAL_IBI.1.t:0 ""
  
- CAL_IBI.2:0 "Call In Mr. X"
+ CAL_IBI.2:0 "Absorb Loyal FBI And CIA Assests"
  CAL_IBI.2_desc:0 ""
  CAL_IBI.2.t:0 ""
  
- CAL_IBI.3:0 "Your Friends Close..."
+ CAL_IBI.3:0 "Lead And Silicon"
  CAL_IBI.3_desc:0 ""
  CAL_IBI.3.t:0 ""
  
@@ -362,21 +374,49 @@
  CAL_IBI.4_desc:0 ""
  CAL_IBI.4.t:0 ""
  
- CAL_IBI.5:0 "Solve An Easy Case"
+ CAL_IBI.5:0 "New Agents"
  CAL_IBI.5_desc:0 ""
  CAL_IBI.5.t:0 ""
  
- CAL_IBI.6:0 "Your Enemy Closer"
+ CAL_IBI.6:0 "Investigate The St. James Dissaperence"
  CAL_IBI.6_desc:0 ""
  CAL_IBI.6.t:0 ""
  
- CAL_IBI.7:0 "Revaluate The St. James Dissaperence"
+ CAL_IBI.7:0 "Contact Old Protegee"
  CAL_IBI.7_desc:0 ""
  CAL_IBI.7.t:0 ""
  
- CAL_IBI.8:0 "A Chat With Shroud"
- CAL_IBI.8_desc:0 ""
- CAL_IBI.8.t:0 ""
+ CAL_BIB.0:0 "Counter The Western FPI"
+ CAL_BIB.0_desc:0 ""
+ CAL_BIB.0.t:0 ""
+ 
+ CAL_BIB.1:0 "Your Friends Close..."
+ CAL_BIB.1_desc:0 ""
+ CAL_BIB.1.t:0 ""
+ 
+ CAL_BIB.2:0 "Send A Proxy To Sacremento"
+ CAL_BIB.2_desc:0 ""
+ CAL_BIB.2.t:0 ""
+ 
+ CAL_BIB.3:0 "...Your Enemies Closer"
+ CAL_BIB.3_desc:0 ""
+ CAL_BIB.3.t:0 ""
+ 
+ CAL_BIB.4:0 "Indistinguishable From Magic"
+ CAL_BIB.4_desc:0 ""
+ CAL_BIB.4.t:0 ""
+ 
+ CAL_BIB.5:0 "Begin Training Secessions"
+ CAL_BIB.5_desc:0 ""
+ CAL_BIB.5.t:0 ""
+ 
+ CAL_BIB.6:0 "Call "Old Partner""
+ CAL_BIB.6_desc:0 ""
+ CAL_BIB.6.t:0 ""
+ 
+ CAL_BIB.7:0 "Back In Black"
+ CAL_BIB.7_desc:0 ""
+ CAL_BIB.7.t:0 ""
  
  ##################################################################################################################
  ##################################################################################################################

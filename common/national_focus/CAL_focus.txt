@@ -35,6 +35,12 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_start.0.t"
+			hidden_effect = {
+				news_event = { id = launcher_news.6 days = 2 }  # Norton Found, and State of the Union
+			}
+			CAL = {
+				add_ideas = CAL_golden
+			}
 		}
 	}
 
@@ -57,6 +63,9 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_start.1.t"
+			CAL = {
+				add_ideas = CAL_northwest
+			}
 		}
 	}
 	
@@ -79,6 +88,16 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_start.2.t"
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = industry
+			}
+			add_tech_bonus = {
+				bonus = 0.25
+				uses = 1
+				category = cat_synth_oil
+			}
 		}
 	}
 	
@@ -101,6 +120,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_start.3.t"
+			army_experience = 50
 		}
 	}
 	
@@ -124,6 +144,11 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_start.4.t"
+			add_political_power = 100
+			add_stability = 0.1
+			add_dynamic_modifier = {
+				modifier = dyn_mod_cal_social_services_expansion 
+			}
 		}
 	}
 	
@@ -147,6 +172,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_start.5.t"
+			set_country_flag = cal_the_golden_road  # Enables the desicions to start repairing the roads of California
 		}
 	}
 
@@ -216,6 +242,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_start.8.t"
+			set_country_flag = cal_NorSo_relationship # Enable Decisions for NorCal SoCal Relationship
 		}
 	}
 
@@ -227,7 +254,7 @@
 		id = CAL_assembly.0
 		icon = GFX_goal_california
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = CAL_start.8
 		prerequisite = { focus = CAL_start.8 }
 		cost = 3
@@ -249,7 +276,7 @@
 		id = CAL_assembly.1
 		icon = GFX_goal_california
 		x = 0
-		y = 1
+		y = 2
 		relative_position_id = CAL_assembly.0
 		prerequisite = { focus = CAL_assembly.0 }
 		cost = 3
@@ -267,37 +294,17 @@
 		}
 	}
 	
-	####################################
 	
-	focus = {
-		id = CAL_domestic.0
-		icon = GFX_goal_california
-		x = 0
-		y = 2
-		relative_position_id = CAL_assembly.1
-		prerequisite = { focus = CAL_assembly.1 }
-		cost = 3
-		
-		available_if_capitulated = yes
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		available = {}
-		bypass = {} 
-		
-		completion_reward = {	
-			custom_effect_tooltip = "CAL_domestic.0.t"
-		}
-	}
+	
+	####################################
 	
 	focus = {
 		id = CAL_domestic.1
 		icon = GFX_goal_california
-		x = -2
+		x = -6
 		y = 1
-		relative_position_id = CAL_domestic.0
-		prerequisite = { focus = CAL_domestic.0 }
+		relative_position_id = CAL_assembly.1
+		prerequisite = { focus = CAL_assembly.1 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -316,10 +323,10 @@
 	focus = {
 		id = CAL_domestic.2
 		icon = GFX_goal_california
-		x = 2
+		x = -2
 		y = 1
-		relative_position_id = CAL_domestic.0
-		prerequisite = { focus = CAL_domestic.0 }
+		relative_position_id = CAL_assembly.1
+		prerequisite = { focus = CAL_assembly.1 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -341,7 +348,9 @@
 		x = -1
 		y = 1
 		relative_position_id = CAL_domestic.1
+		mutually_exclusive = { focus = CAL_domestic.4 }
 		prerequisite = { focus = CAL_domestic.1 }
+		prerequisite = { focus = CAL_domestic.2 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -360,13 +369,12 @@
 	focus = {
 		id = CAL_domestic.4
 		icon = GFX_goal_california
-		x = 0
-		y = 2
-		relative_position_id = CAL_domestic.0
-		prerequisite = { 
-			focus = CAL_domestic.1 
-			focus = CAL_domestic.2 
-		}
+		x = 1
+		y = 1
+		relative_position_id = CAL_domestic.1
+		mutually_exclusive = { focus = CAL_domestic.3 }
+		prerequisite = { focus = CAL_domestic.1 }
+		prerequisite = { focus = CAL_domestic.2 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -378,16 +386,19 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_domestic.4.t"
+			custom_effect_tooltip = "CAL_domestic.4.t" 
+			
 		}
 	}
 	
 	focus = {
 		id = CAL_domestic.5
 		icon = GFX_goal_california
-		x = 1
+		x = -1
 		y = 1
 		relative_position_id = CAL_domestic.2
+		mutually_exclusive = { focus = CAL_domestic.6 }
+		prerequisite = { focus = CAL_domestic.1 }
 		prerequisite = { focus = CAL_domestic.2 }
 		cost = 3
 		
@@ -409,8 +420,10 @@
 		icon = GFX_goal_california
 		x = 1
 		y = 1
-		relative_position_id = CAL_domestic.3
-		prerequisite = { focus = CAL_domestic.3 }
+		relative_position_id = CAL_domestic.2
+		mutually_exclusive = { focus = CAL_domestic.5 }
+		prerequisite = { focus = CAL_domestic.1 }
+		prerequisite = { focus = CAL_domestic.2 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -429,10 +442,13 @@
 	focus = {
 		id = CAL_domestic.7
 		icon = GFX_goal_california
-		x = -1
-		y = 1
-		relative_position_id = CAL_domestic.5
-		prerequisite = { focus = CAL_domestic.5 }
+		x = 0
+		y = 2
+		relative_position_id = CAL_domestic.1
+		prerequisite = { 
+			focus = CAL_domestic.3 
+			focus = CAL_domestic.4 
+		}
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -453,10 +469,12 @@
 		icon = GFX_goal_california
 		x = 0
 		y = 2
-		relative_position_id = CAL_domestic.4
-		prerequisite = { focus = CAL_domestic.4 }
-		prerequisite = { focus = CAL_domestic.6 }
-		prerequisite = { focus = CAL_domestic.7 }
+		relative_position_id = CAL_domestic.2
+		prerequisite = { 
+			focus = CAL_domestic.5 
+			focus = CAL_domestic.6 
+		}
+		
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -472,15 +490,260 @@
 		}
 	}
 	
-	####################################
+	focus = {
+		id = CAL_domestic.9
+		icon = GFX_goal_california
+		x = 2
+		y = 2
+		relative_position_id = CAL_domestic.1
+		prerequisite = { focus = CAL_domestic.1 }
+		prerequisite = { focus = CAL_domestic.2 }
+		
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_domestic.9.t"
+			set_country_flag = cal_small_bills # Enable small bill desicions in NorCAl and SoCal
+		}
+	}
+	######################################################
+	
+	
 	
 	focus = {
-		id = CAL_evertt.0
+		id = CAL_division.1
 		icon = GFX_goal_california
-		x = -8
+		x = 2
 		y = 1
 		relative_position_id = CAL_assembly.1
 		prerequisite = { focus = CAL_assembly.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_division.2
+		icon = GFX_goal_california
+		x = 6
+		y = 1
+		relative_position_id = CAL_assembly.1
+		prerequisite = { focus = CAL_assembly.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.2.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_division.3
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_division.1
+		prerequisite = { focus = CAL_division.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.3.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_division.4
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_division.1
+		mutually_exclusive = { focus = CAL_division.5 }
+		prerequisite = { 
+			focus = CAL_division.1 
+			focus = CAL_division.2 
+		}
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.4.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_division.5
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_division.2
+		mutually_exclusive = { focus = CAL_division.4 }
+		prerequisite = { 
+			focus = CAL_division.1 
+			focus = CAL_division.2 
+		}
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.5.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_division.6
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_division.2
+		prerequisite = { focus = CAL_division.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.6.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_division.7
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_division.3
+		prerequisite = { 
+			focus = CAL_division.4 
+			focus = CAL_division.5 
+		}
+		prerequisite = { focus = CAL_division.3 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.7.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_division.8
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_division.5
+		prerequisite = { 
+			focus = CAL_division.4 
+			focus = CAL_division.5 
+		}
+		prerequisite = { focus = CAL_division.6 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_division.8.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_assembly.2
+		icon = GFX_goal_california
+		x = 0
+		y = 4
+		relative_position_id = CAL_assembly.1
+		prerequisite = { focus = CAL_domestic.7 }
+		prerequisite = { focus = CAL_domestic.8 }
+		prerequisite = { focus = CAL_division.7 }
+		prerequisite = { focus = CAL_division.8 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_assembly.2.t"
+		}
+	}
+	
+	####################################
+	
+	focus = {
+		id = CAL_everett.0
+		icon = GFX_goal_california
+		x = -12
+		y = 1
+		relative_position_id = CAL_assembly.0
+		prerequisite = { focus = CAL_assembly.0 }
 		mutually_exclusive = { focus = CAL_birnbaum.0 }
 		cost = 3
 		
@@ -493,17 +756,18 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_evertt.0.t"
+			custom_effect_tooltip = "CAL_everett.0.t"
+			set_country_flag = cal_everett_plan # enable decision for Evertt's Diplomatic pressure
 		}
 	}
 	
 	focus = {
-		id = CAL_evertt.1
+		id = CAL_everett.1
 		icon = GFX_goal_california
 		x = -3
 		y = 1
-		relative_position_id = CAL_evertt.0
-		prerequisite = { focus = CAL_evertt.0 }
+		relative_position_id = CAL_everett.0
+		prerequisite = { focus = CAL_everett.0 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -515,17 +779,17 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_evertt.1.t"
+			custom_effect_tooltip = "CAL_everett.1.t"
 		}
 	}
 	
 	focus = {
-		id = CAL_evertt.2
+		id = CAL_everett.2
 		icon = GFX_goal_california
 		x = 0
 		y = 1
-		relative_position_id = CAL_evertt.0
-		prerequisite = { focus = CAL_evertt.0 }
+		relative_position_id = CAL_everett.0
+		prerequisite = { focus = CAL_everett.0 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -537,17 +801,17 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_evertt.2.t"
+			custom_effect_tooltip = "CAL_everett.2.t"
 		}
 	}
 	
 	focus = {
-		id = CAL_evertt.3
+		id = CAL_everett.3
 		icon = GFX_goal_california
 		x = 3
 		y = 1
-		relative_position_id = CAL_evertt.0
-		prerequisite = { focus = CAL_evertt.0 }
+		relative_position_id = CAL_everett.0
+		prerequisite = { focus = CAL_everett.0 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -559,18 +823,18 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_evertt.3.t"
+			custom_effect_tooltip = "CAL_everett.3.t"
 		}
 	}
 	
 	focus = {
-		id = CAL_evertt.4
+		id = CAL_everett.4
 		icon = GFX_goal_california
 		x = 1
 		y = 1
-		relative_position_id = CAL_evertt.1
-		prerequisite = { focus = CAL_evertt.1 }
-		prerequisite = { focus = CAL_evertt.2 }
+		relative_position_id = CAL_everett.1
+		prerequisite = { focus = CAL_everett.1 }
+		prerequisite = { focus = CAL_everett.2 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -582,18 +846,18 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_evertt.4.t"
+			custom_effect_tooltip = "CAL_everett.4.t"
 		}
 	}
 	
 	focus = {
-		id = CAL_evertt.5
+		id = CAL_everett.5
 		icon = GFX_goal_california
 		x = -1
 		y = 1
-		relative_position_id = CAL_evertt.3
-		prerequisite = { focus = CAL_evertt.2 }
-		prerequisite = { focus = CAL_evertt.3 }
+		relative_position_id = CAL_everett.3
+		prerequisite = { focus = CAL_everett.2 }
+		prerequisite = { focus = CAL_everett.3 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -605,18 +869,18 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_evertt.5.t"
+			custom_effect_tooltip = "CAL_everett.5.t"
 		}
 	}
 	
 	focus = {
-		id = CAL_evertt.6
+		id = CAL_everett.6
 		icon = GFX_goal_california
 		x = 0
 		y = 2
-		relative_position_id = CAL_evertt.2
-		prerequisite = { focus = CAL_evertt.4 }
-		prerequisite = { focus = CAL_evertt.5 }
+		relative_position_id = CAL_everett.2
+		prerequisite = { focus = CAL_everett.4 }
+		prerequisite = { focus = CAL_everett.5 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -628,17 +892,17 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_evertt.6.t"
+			custom_effect_tooltip = "CAL_everett.6.t"
 		}
 	}
 	
 	focus = {
-		id = CAL_evertt.7
+		id = CAL_everett.7
 		icon = GFX_goal_california
 		x = 0
 		y = 2
-		relative_position_id = CAL_evertt.6
-		prerequisite = { focus = CAL_evertt.6 }
+		relative_position_id = CAL_everett.6
+		prerequisite = { focus = CAL_everett.6 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -650,7 +914,7 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_evertt.7.t"
+			custom_effect_tooltip = "CAL_everett.7.t"
 		}
 	}
 	
@@ -659,11 +923,11 @@
 	focus = {
 		id = CAL_birnbaum.0
 		icon = GFX_goal_california
-		x = 8
+		x = 12
 		y = 1
-		relative_position_id = CAL_assembly.1
-		prerequisite = { focus = CAL_assembly.1 }
-		mutually_exclusive = { focus = CAL_evertt.0 }
+		relative_position_id = CAL_assembly.0
+		prerequisite = { focus = CAL_assembly.0 }
+		mutually_exclusive = { focus = CAL_everett.0 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -675,7 +939,7 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_domestic.0.t"
+			custom_effect_tooltip = "CAL_birnbaum.0.t"
 		}
 	}
 	
@@ -704,7 +968,7 @@
 	focus = {
 		id = CAL_birnbaum.2
 		icon = GFX_goal_california
-		x = -2
+		x = -2 
 		y = 1
 		relative_position_id = CAL_birnbaum.1
 		prerequisite = { focus = CAL_birnbaum.1 }
@@ -716,7 +980,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = {}  
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_birnbaum.2.t"
@@ -843,7 +1107,7 @@
 	focus = {
 		id = CAL_shermie.0
 		icon = GFX_goal_california
-		x = -21
+		x = -25
 		y = 1
 		relative_position_id = CAL_start.8
 		prerequisite = { focus = CAL_start.8 }
@@ -1152,6 +1416,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_pacific.2.t"
+			set_country_flag = cal_pacific_fleet
 		}
 	}
 	
@@ -1354,6 +1619,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_army.3.t"
+			set_country_flag = cal_sierra_depot
 		}
 	}
 	
@@ -1453,7 +1719,7 @@
 	focus = {
 		id = CAL_hector.0
 		icon = GFX_goal_california
-		x = 21
+		x = 25
 		y = 1
 		relative_position_id = CAL_start.8
 		prerequisite = { focus = CAL_start.8 }
@@ -1475,7 +1741,7 @@
 	####################################
 	
 	focus = {
-		id = CAL_IBI.0
+		id = CAL_BIB.0
 		icon = GFX_goal_california
 		x = 4
 		y = 2
@@ -1492,7 +1758,216 @@
 		bypass = {} 
 		
 		completion_reward = {	
+			custom_effect_tooltip = "CAL_BIB.0.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_BIB.1
+		icon = GFX_goal_california
+		x = -2
+		y = 1
+		relative_position_id = CAL_BIB.0
+		prerequisite = { focus = CAL_BIB.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_BIB.1.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_BIB.2
+		icon = GFX_goal_california
+		x = 2
+		y = 1
+		relative_position_id = CAL_BIB.0
+		prerequisite = { focus = CAL_BIB.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_BIB.2.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_BIB.3
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_BIB.1
+		prerequisite = { focus = CAL_BIB.1 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_BIB.3.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_BIB.4
+		icon = GFX_goal_california
+		x = 0
+		y = 2
+		relative_position_id = CAL_BIB.0
+		prerequisite = { 
+			focus = CAL_BIB.1 
+			focus = CAL_BIB.2 
+		}
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_BIB.4.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_BIB.5
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_BIB.2
+		prerequisite = { focus = CAL_BIB.2 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_BIB.5.t"
+		}
+	}
+	
+	focus = {
+		id = CAL_BIB.6
+		icon = GFX_goal_california
+		x = 1
+		y = 1
+		relative_position_id = CAL_BIB.3
+		prerequisite = { focus = CAL_BIB.4 }
+		prerequisite = { focus = CAL_BIB.3 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_BIB.6.t"
+		}
+	}
+	
+	focus = { 
+		id = CAL_BIB.7 
+		icon = GFX_goal_california
+		x = -1
+		y = 1
+		relative_position_id = CAL_BIB.5
+		prerequisite = { focus = CAL_BIB.4 }
+		prerequisite = { focus = CAL_BIB.5 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_BIB.7.t"
+		}
+	}
+	
+	focus = { 
+		id = CAL_hector.1 
+		icon = GFX_goal_california
+		x = 0
+		y = 7
+		relative_position_id = CAL_hector.0
+		prerequisite = { focus = CAL_BIB.6 }
+		prerequisite = { focus = CAL_BIB.7 }
+		prerequisite = { focus = CAL_IBI.6 }
+		prerequisite = { focus = CAL_IBI.7 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "CAL_hector.1.t"
+		}
+	}
+	
+	####################################
+	
+	focus = {
+		id = CAL_IBI.0 
+		icon = GFX_goal_california
+		x = -4
+		y = 2
+		relative_position_id = CAL_hector.0
+		prerequisite = { focus = CAL_hector.0 }
+		cost = 3
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes 
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
 			custom_effect_tooltip = "CAL_IBI.0.t"
+			country_event = CAL_IPD.1
 		}
 	}
 	
@@ -1616,6 +2091,7 @@
 		y = 1
 		relative_position_id = CAL_IBI.3
 		prerequisite = { focus = CAL_IBI.3 }
+		prerequisite = { focus = CAL_IBI.4 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -1637,6 +2113,7 @@
 		x = -1
 		y = 1
 		relative_position_id = CAL_IBI.5
+		prerequisite = { focus = CAL_IBI.4 }
 		prerequisite = { focus = CAL_IBI.5 }
 		cost = 3
 		
@@ -1653,235 +2130,6 @@
 		}
 	}
 	
-	focus = { 
-		id = CAL_IBI.8
-		icon = GFX_goal_california
-		x = 0
-		y = 3
-		relative_position_id = CAL_IBI.4
-		prerequisite = { focus = CAL_IBI.4 }
-		prerequisite = { focus = CAL_IBI.6 }
-		prerequisite = { focus = CAL_IBI.7 }
-		cost = 3
-		
-		available_if_capitulated = yes
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		available = {}
-		bypass = {} 
-		
-		completion_reward = {	
-			custom_effect_tooltip = "CAL_IBI.8.t"
-		}
-	}
-	
-	####################################
-	
-	focus = {
-		id = CAL_division.0
-		icon = GFX_goal_california
-		x = -4
-		y = 2
-		relative_position_id = CAL_hector.0
-		prerequisite = { focus = CAL_hector.0 }
-		cost = 3
-		
-		available_if_capitulated = yes
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		available = {}
-		bypass = {} 
-		
-		completion_reward = {	
-			custom_effect_tooltip = "CAL_division.0.t"
-		}
-	}
-	
-	focus = {
-		id = CAL_division.1
-		icon = GFX_goal_california
-		x = -2
-		y = 1
-		relative_position_id = CAL_division.0
-		prerequisite = { focus = CAL_division.0 }
-		cost = 3
-		
-		available_if_capitulated = yes
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		available = {}
-		bypass = {} 
-		
-		completion_reward = {	
-			custom_effect_tooltip = "CAL_division.1.t"
-		}
-	}
-	
-	focus = {
-		id = CAL_division.2
-		icon = GFX_goal_california
-		x = 2
-		y = 1
-		relative_position_id = CAL_division.0
-		prerequisite = { focus = CAL_division.0 }
-		cost = 3
-		
-		available_if_capitulated = yes
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		available = {}
-		bypass = {} 
-		
-		completion_reward = {	
-			custom_effect_tooltip = "CAL_division.2.t"
-		}
-	}
-	
-	focus = {
-		id = CAL_division.3
-		icon = GFX_goal_california
-		x = -1
-		y = 1
-		relative_position_id = CAL_division.1
-		prerequisite = { focus = CAL_division.1 }
-		cost = 3
-		
-		available_if_capitulated = yes
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		available = {}
-		bypass = {} 
-		
-		completion_reward = {	
-			custom_effect_tooltip = "CAL_division.3.t"
-		}
-	}
-	
-	focus = {
-		id = CAL_division.4
-		icon = GFX_goal_california
-		x = 0
-		y = 2
-		relative_position_id = CAL_division.0
-		prerequisite = { 
-			focus = CAL_division.1 
-			focus = CAL_division.2 
-		}
-		cost = 3
-		
-		available_if_capitulated = yes
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		available = {}
-		bypass = {} 
-		
-		completion_reward = {	
-			custom_effect_tooltip = "CAL_division.4.t"
-		}
-	}
-	
-	focus = {
-		id = CAL_division.5
-		icon = GFX_goal_california
-		x = 1
-		y = 1
-		relative_position_id = CAL_division.2
-		prerequisite = { focus = CAL_division.2 }
-		cost = 3
-		
-		available_if_capitulated = yes
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		available = {}
-		bypass = {} 
-		
-		completion_reward = {	
-			custom_effect_tooltip = "CAL_division.5.t"
-		}
-	}
-	
-	focus = {
-		id = CAL_division.6
-		icon = GFX_goal_california
-		x = 1
-		y = 1
-		relative_position_id = CAL_division.3
-		prerequisite = { focus = CAL_division.3 }
-		prerequisite = { focus = CAL_division.4 }
-		cost = 3
-		
-		available_if_capitulated = yes
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		available = {}
-		bypass = {} 
-		
-		completion_reward = {	
-			custom_effect_tooltip = "CAL_division.6.t"
-		}
-	}
-	
-	focus = {
-		id = CAL_division.7
-		icon = GFX_goal_california
-		x = -1
-		y = 1
-		relative_position_id = CAL_division.5
-		prerequisite = { focus = CAL_division.4 }
-		prerequisite = { focus = CAL_division.5 }
-		cost = 3
-		
-		available_if_capitulated = yes
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		available = {}
-		bypass = {} 
-		
-		completion_reward = {	
-			custom_effect_tooltip = "CAL_division.7.t"
-		}
-	}
-	
-	focus = {
-		id = CAL_division.8
-		icon = GFX_goal_california
-		x = 0
-		y = 3
-		relative_position_id = CAL_division.4
-		prerequisite = { focus = CAL_division.6 }
-		prerequisite = { focus = CAL_division.7 }
-		cost = 3
-		
-		available_if_capitulated = yes
-		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-		available = {}
-		bypass = {} 
-		
-		completion_reward = {	
-			custom_effect_tooltip = "CAL_division.8.t"
-		}
-	}
 	
 	####################################
 	
@@ -1889,20 +2137,19 @@
 		id = CAL_For_Emperor.0
 		icon = GFX_goal_california
 		x = 0
-		y = 2
-		relative_position_id = CAL_domestic.8
+		y = 6
+		relative_position_id = CAL_assembly.1
 		prerequisite = { 
 			focus = CAL_pacific.7 
 			focus = CAL_complex.7 
 			focus = CAL_army.7 
 		}
 		prerequisite = { 
-			focus = CAL_evertt.7 
+			focus = CAL_everett.7 
 			focus = CAL_birnbaum.7 
 		}
-		prerequisite = { focus = CAL_domestic.8 }
-		prerequisite = { focus = CAL_division.8 }
-		prerequisite = { focus = CAL_IBI.8 }
+		prerequisite = { focus = CAL_assembly.2 }
+		prerequisite = { focus = CAL_hector.1 }
 		
 		cost = 3
 		

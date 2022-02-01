@@ -38,8 +38,8 @@ set_technology = {
 }
 
 add_ideas = {
-	CAL_golden
-	CAL_northwest
+	#CAL_golden
+	#CAL_northwest
 }
 
 #oob = "CAL_2012"

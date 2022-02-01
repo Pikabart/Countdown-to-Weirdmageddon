@@ -1,0 +1,166 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = EUS.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = ORE.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = CAL.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = SOC.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = WAS.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = EPI.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = MEX.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = CAN.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = EUR.id
+			}
+			##############################
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = ARZ.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = NEV.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = UTH.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = CRD.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = NMX.id
+			}
+			#############################
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = IDH.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = WYM.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = MIN.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = KAN.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = TEX.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = OKL.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = ARK.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = LOU.id
+			}
+			#############################
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = GTF.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = MYS.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = NRW.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = GID.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = GNM.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = UFC.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = MAN.id
+			}
+			#############################
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = MYM.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = YBL.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = LOG.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = UPD.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = COR.id
+			}
+		}
+	}
+	
+	
+	
+	
+	
+} ## END OF FILE ##
+
+
+
+###example in use
+
+#every_country = {
+#	limit = {
+#		is_in_array = {
+#			array = GLOBAL.some_array
+#			value = THIS.id #THIS.id reference the ids in array?
+#		}
+#	}
+#	news_event = { id = newsevent.1 days = 1 }
+#}
