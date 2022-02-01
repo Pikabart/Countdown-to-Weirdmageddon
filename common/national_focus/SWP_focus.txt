@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100 # 100% SWP get focus, 0% everyone else, so basicly gurrenteed
-		#	tag = SWP
+			add = 100 # 100% SWP get focus, 0% everyone else, so basicly gurrenteed
+			tag = SWP
 		}
 	}
 	
@@ -239,9 +239,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			declare_war_on = {
-				target = MW1
-				type = annex_everything
+			custom_effect_tooltip = "generic_north_monster_take_state_443_tooltip"
+			hidden_effect = {
+				declare_war_on = {
+					target = MW1
+					type = annex_everything
+				}
 			}
 		}
 		

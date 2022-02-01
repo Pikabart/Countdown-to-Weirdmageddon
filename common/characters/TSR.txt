@@ -18,7 +18,7 @@ characters = {
 		desc = ""
 		portraits = {
 			civilian = {
-				large = ""
+				large = "GFX_hoi4_portrait_tsar_wife"
 			}
 		}
 	}

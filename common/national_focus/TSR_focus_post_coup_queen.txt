@@ -33,7 +33,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_stability = -0.05
+			add_timed_idea = {
+				idea = TSR_QUEEN_purge
+				days = 720
+			}
 		}
 		
 		ai_will_do = {

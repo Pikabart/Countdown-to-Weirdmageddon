@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-			add = 100
-			tag = SWP
+		#	add = 100
+		#	tag = SWP
 		}
 	}
 	
@@ -310,7 +310,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			
+			SWP = {
+				recruit_character = SWP_generic_monster_advisor_1
+				recruit_character = SWP_generic_monster_advisor_2
+				recruit_character = SWP_generic_monster_advisor_3
+				recruit_character = SWP_generic_monster_advisor_4
+			}
 		}
 		
 		ai_will_do = {
@@ -337,6 +342,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			SWP = {
+				recruit_character = SWP_generic_general_2
+			}
 		}
 		
 		ai_will_do = {
@@ -544,7 +552,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			MHC = { country_event = SWP_mewman_road_project.1 }
+			MHC = { country_event = { id = SWP_mewman_road_project.1 days = 2 } }
 		}
 		
 		ai_will_do = {

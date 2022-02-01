@@ -43,9 +43,4 @@ create_country_leader = {
 	}
 }
 
-recruit_character = SWP_generic_monster_advisor_1
-recruit_character = SWP_generic_monster_advisor_2
-recruit_character = SWP_generic_monster_advisor_3
-recruit_character = SWP_generic_monster_advisor_4
 recruit_character = SWP_generic_general_1
-recruit_character = SWP_generic_general_2

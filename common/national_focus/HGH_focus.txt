@@ -239,9 +239,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			declare_war_on = {
-				target = MW3
-				type = annex_everything
+			custom_effect_tooltip = "generic_north_monster_take_state_448_tooltip"
+			hidden_effect = {
+				declare_war_on = {
+					target = MW3
+					type = annex_everything
+				}
 			}
 		}
 		
@@ -269,9 +272,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			declare_war_on = {
-				target = MW4
-				type = annex_everything
+			custom_effect_tooltip = "generic_north_monster_take_state_440_tooltip"
+			hidden_effect = {
+				declare_war_on = {
+					target = MW4
+					type = annex_everything
+				}
 			}
 		}
 		
@@ -299,9 +305,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			declare_war_on = {
-				target = MW5
-				type = annex_everything
+			custom_effect_tooltip = "generic_north_monster_take_state_453_tooltip"
+			hidden_effect = {
+				declare_war_on = {
+					target = MW5
+					type = annex_everything
+				}
 			}
 		}
 		
