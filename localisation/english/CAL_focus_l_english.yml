@@ -75,19 +75,19 @@
  
  CAL_domestic.3:0 "Implement UBI"
  CAL_domestic.3_desc:0 ""
- CAL_domestic.3.t:0 ""
+ CAL_domestic.3.t:0 "This §CRadical Solution§! will greatly improve Emperor Norton's approval among the Progressive IDR and decrease the rate of support decay every polling session. However, the Traditionalist IDR will strongly disapprove this, and their support decay will increase unless we satisfy them with something on their agenda."
  
  CAL_domestic.4:0 "Uphold Social Security"
  CAL_domestic.4_desc:0 ""
- CAL_domestic.4.t:0 ""
+ CAL_domestic.4.t:0 "A §8Moderate Solution§!. This Act will still have some support from the Progressive IDR Support as well as from the Moderate NDR. Reaction from the Traditionalist will be minor, but this won’t placate Progressives if we had supported a major Traditionalist Agenda. "
  
  CAL_domestic.5:0 "Aid Small Businesses"
  CAL_domestic.5_desc:0 ""
- CAL_domestic.5.t:0 ""
+ CAL_domestic.5.t:0 "A §8Moderate Solution§!. This Act will still have some support from the Traditionalist IDR Support as well as from the Moderate NDR. Reaction from the Progressives will be minor, but this won’t placate Traditionalist if we had supported a major Progressive Agenda. "
  
  CAL_domestic.6:0 "Remove Enviromental Restrictions"
  CAL_domestic.6_desc:0 ""
- CAL_domestic.6.t:0 ""
+ CAL_domestic.6.t:0 "This §RReactionary Solution§! will greatly improve Emperor Norton's approval among the Traditionalist IDR and decrease the rate of support decay every polling session. However, the Progressive IDR will strongly disapprove this, and their support decay will increase unless we satisfy them with something on their agenda."
  
  CAL_domestic.7:0 "Pass Norton Care"
  CAL_domestic.7_desc:0 ""
@@ -98,8 +98,8 @@
  CAL_domestic.8.t:0 ""
  
  CAL_domestic.9:0 "Change Assembley Procedures"
- CAL_domestic.9_desc:0 "These major wide changing law proposals by the two blocs of the Northern IDR is making appeasing both sides difficult. But by altering the Assembly Rules on on Bill Introduction, we can force the break down of these large bill into smaller ones. Not only would some bills get approval from both sides, but the Moderate NDRs are more likely to support the bill."
- CAL_domestic.9.t:0 ""
+ CAL_domestic.9_desc:0 "These major, wide changing law being introduced by the two blocs of the Northern IDR is making appeasing both sides difficult. But by altering the Assembly Rules on Bill Introduction, we can force the break down of these large bill into smaller ones. Not only would some bills get approval from both sides, but the Moderate NDRs are more likely to support the bill in general."
+ CAL_domestic.9.t:0 "This will unlock additional decisions to gaining support between the three political blocs."
  
  ##################################################################################################################
  ##################################################################################################################

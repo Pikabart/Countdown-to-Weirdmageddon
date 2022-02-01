@@ -363,6 +363,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_domestic.3.t"
+			set_country_flag = cal_UBI
 		}
 	}
 	
@@ -387,7 +388,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_domestic.4.t" 
-			
+			set_country_flag = cal_social_security
 		}
 	}
 	
@@ -411,7 +412,8 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_domestic.5.t"
+			custom_effect_tooltip = "CAL_domestic.5.t" 
+			set_country_flag = cal_aid_small_business
 		}
 	}
 	
@@ -436,6 +438,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_domestic.6.t"
+			set_country_flag = cal_remove_restrictions
 		}
 	}
 	
@@ -490,7 +493,7 @@
 		}
 	}
 	
-	focus = {
+	focus = { 
 		id = CAL_domestic.9
 		icon = GFX_goal_california
 		x = 2

@@ -1,5 +1,12 @@
 ############################ ITGUY 01/30/22 
 
+common/decisions
+common/national_focus
+
+localization
+
+############################ ITGUY 01/30/22 
+
 common/dynamic_modifer
 common/intelligence_agency
 common/national_focus

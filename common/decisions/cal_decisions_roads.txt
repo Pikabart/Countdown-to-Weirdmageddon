@@ -9,7 +9,7 @@ CAL_catagory_roads = {
           
 		icon = GFX_decision_icon_default
 		allowed = { tag = CAL }
-        days_mission_timeout = 3 
+        days_mission_timeout = 90 
 	    days_remove = 0
 		fire_only_once = no
 		is_good = yes                           
@@ -63,7 +63,7 @@ CAL_catagory_roads = {
 		available = {}
 		fire_only_once = no		
 		days_re_enable = 0
-		days_remove = 1
+		days_remove = 30
 		visible = {	}
 		
 		priority = 9
@@ -78,7 +78,7 @@ CAL_catagory_roads = {
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 80			
 		}
 	}
 	
@@ -87,11 +87,11 @@ CAL_catagory_roads = {
 		available = {}
 		fire_only_once = no		
 		days_re_enable = 0
-		days_remove = 1
+		days_remove = 30
 		visible = {	}		
 
 		priority = 9
-		cost = 10			
+		cost = 20			
 
 
 		fixed_random_seed = no 
@@ -113,7 +113,7 @@ CAL_catagory_roads = {
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 40	
 		}
 	}
 	
@@ -122,13 +122,13 @@ CAL_catagory_roads = {
 	cal_decision_rebuilt_five_1 = { #
 		icon = GFX_decision_icon_default		
 		available = {}
-		fire_only_once = no		
+		fire_only_once = yes		
 		days_re_enable = 0
-		days_remove = 1
+		days_remove = 90
 		visible = { NOT = { has_country_flag = cal_interstate_5_1}	}		
 
 		priority = 9
-		cost = 10			
+		cost = 100			
 
 		fixed_random_seed = no 
 		remove_effect = {		
@@ -153,16 +153,16 @@ CAL_catagory_roads = {
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 100			
 		}
 	}
 	
 	cal_decision_rebuilt_five_2 = { #
 		icon = GFX_decision_icon_default		
 		available = {}
-		fire_only_once = no		
+		fire_only_once = yes		
 		days_re_enable = 0
-		days_remove = 1
+		days_remove = 180
 		visible = {	
 			
 				NOT = { has_country_flag = cal_interstate_5_2}	
@@ -171,7 +171,7 @@ CAL_catagory_roads = {
 		}		
 
 		priority = 9
-		cost = 10			
+		cost = 100			
 
 		fixed_random_seed = no 
 		remove_effect = {		
@@ -225,9 +225,9 @@ CAL_catagory_roads = {
 	cal_decision_rebuilt_five_3 = { #
 		icon = GFX_decision_icon_default		
 		available = {}
-		fire_only_once = no		
+		fire_only_once = yes		
 		days_re_enable = 0
-		days_remove = 1
+		days_remove = 90
 		visible = {	
 			
 				NOT = { has_country_flag = cal_interstate_5_3}	
@@ -236,7 +236,7 @@ CAL_catagory_roads = {
 		}		
 
 		priority = 9
-		cost = 10			
+		cost = 100			
 
 		fixed_random_seed = no 
 		remove_effect = {		
@@ -292,9 +292,9 @@ CAL_catagory_roads = {
 	cal_decision_rebuilt_five_4 = { #
 		icon = GFX_decision_icon_default		
 		available = {}
-		fire_only_once = no		
+		fire_only_once = yes		
 		days_re_enable = 0
-		days_remove = 1
+		days_remove = 120
 		visible = {	
 			
 				NOT = { has_country_flag = cal_interstate_5_4}	
@@ -303,7 +303,7 @@ CAL_catagory_roads = {
 		}		
 
 		priority = 9
-		cost = 10			
+		cost = 100			
 
 		fixed_random_seed = no 
 		remove_effect = {		
@@ -348,9 +348,9 @@ CAL_catagory_roads = {
 	cal_decision_rebuilt_five_5 = { #
 		icon = GFX_decision_icon_default		
 		available = {}
-		fire_only_once = no		
+		fire_only_once = yes		
 		days_re_enable = 0
-		days_remove = 1
+		days_remove = 90
 		visible = {	
 		
 				NOT = { has_country_flag = cal_interstate_5_5}	
@@ -359,11 +359,11 @@ CAL_catagory_roads = {
 		}		
 
 		priority = 9
-		cost = 10			
+		cost = 100			
 
 		fixed_random_seed = no 
 		remove_effect = {		
-			#custom_effect_tooltip = ""
+			custom_effect_tooltip = "cal_decision_rebuilt_five_5_t"
 			#CALI_convert_axes_values_to_frames = yes
 			#hidden_effect = {	
 				set_country_flag = cal_interstate_5_5
