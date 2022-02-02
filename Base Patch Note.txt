@@ -1,3 +1,13 @@
+############################ ITGUY 02/01/22 
+ # For TSR Patriarch event
+events
+
+gfx/event_country
+
+interface
+
+localization
+
 ############################ ITGUY 01/30/22 
 
 common/decisions
