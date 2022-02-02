@@ -1,3 +1,20 @@
+############################ ITGUY 02/01/22 
+ # For TSR Patriarch event
+events
+
+gfx/event_country
+
+interface
+
+localization
+
+############################ ITGUY 01/30/22 
+
+common/decisions
+common/national_focus
+
+localization
+
 ############################ ITGUY 01/30/22 
 
 common/dynamic_modifer
