@@ -1,0 +1,34 @@
+﻿l_english:
+
+DTH_start:0 "A Faith in it's Infancy"
+DTH_start_desc:0 "Our organization's main goal is to take the various tales and local myths of the Forest of Certain Death and organize them into a solid doctrine. Progress is... slow, to say the least."
+
+DTH_quality_troop:0 "Quality of our Troops"
+DTH_quality_troop_desc:0 "Our troop's best attribute will be their extensive training and impressive quality."
+
+DTH_quantity_troop:0 "Quantity of our Troops"
+DTH_quantity_troop_desc:0 "Our army's best attribute will be it's grand numbers."
+
+DTH_civilian_production:0 "Civil Economics"
+DTH_civilian_production_desc:0 "An industrial base must built to benefit the people and, by extension, the government."
+
+DTH_military_production:0 "Military Economics"
+DTH_military_production_desc:0 "An industrial base must built to benefit the government and, by extension, the people."
+
+DTH_modern_politics_production:0 "Flexibility of Politics"
+DTH_modern_politics_production_desc:0 "The monster reigons are a tumultuous place. Our political practices and theorems must always stay flexible in the face of such a situation."
+
+DTH_modern_warfare_production:0 "Advancement of Warfare"
+DTH_modern_warfare_production_desc:0 "The monster reigons are a tumultuous place. Our military practices and theorems must always stay flexible in the face of such a situation."
+
+DTH_take_state:0 "Settle Neu ßileßia"
+DTH_take_state_desc:0 "The reigon of Neu ßileßia is not settled by any organized force. We must take it before anybody else does."
+
+DTH_take_state_2:0 "Settle Neu Prußen"
+DTH_take_state_2_desc:0 "The reigon of Neu Prußen is not settled by any organized force. We must take it before anybody else does."
+
+DTH_take_state_3:0 "Settle the Kransok Mines"
+DTH_take_state_3_desc:0 "The reigon of the Kransok Mines is not settled by any organized force. We must take it before anybody else does."
+
+DTH_balance_of_power:0 "The Balance of Power"
+DTH_balance_of_power_desc:0 "The reigon is stabalizing from the chaos that was the settlement of unorganized territories. It is time to look inwards."

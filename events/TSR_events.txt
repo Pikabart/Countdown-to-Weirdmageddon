@@ -8,6 +8,164 @@ add_namespace = TSR_change_focus_tree_lamp
 add_namespace = TSR_change_focus_tree_queen
 add_namespace = TSR_change_focus_tree_military
 add_namespace = TSR_mewman_advisors_event
+add_namespace = TSR_flavor
+
+country_event = {
+	id = TSR_flavor.1
+	title = TSR_flavor.1.t
+	desc = TSR_flavor.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TSR_flavor.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this		
+	}
+}
+country_event = {
+	id = TSR_flavor.2
+	title = TSR_flavor.2.t
+	desc = TSR_flavor.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TSR_flavor.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this		
+		KAI = { country_event = { id = TSR_flavor.6 days = 7 } }
+	}
+}
+
+country_event = {
+	id = TSR_flavor.3
+	title = TSR_flavor.3.t
+	desc = TSR_flavor.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TSR_flavor.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this		
+		MEW = { country_event = { id = TSR_flavor.7 days = 7 } }
+
+	}
+}
+
+country_event = {
+	id = TSR_flavor.4
+	title = TSR_flavor.4.t
+	desc = TSR_flavor.4.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TSR_flavor.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this		
+		JOH = { country_event = { id = TSR_flavor.8 days = 7 } }
+	}
+}
+
+country_event = {
+	id = TSR_flavor.5
+	title = TSR_flavor.5.t
+	desc = TSR_flavor.5.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TSR_flavor.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this		
+	}
+}
+
+country_event = {
+	id = TSR_flavor.6
+	title = TSR_flavor.6.t
+	desc = TSR_flavor.6.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TSR_flavor.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this		
+	}
+}
+
+country_event = {
+	id = TSR_flavor.7
+	title = TSR_flavor.7.t
+	desc = TSR_flavor.7.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TSR_flavor.7.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = TSR_flavor.8
+	title = TSR_flavor.4.t
+	desc = TSR_flavor.4.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TSR_flavor.8.a
+		ai_chance = { factor = 100 }	# 100% AI choose this		
+	}
+}
+
+country_event = {
+	id = TSR_flavor.9
+	title = TSR_flavor.9.t
+	desc = TSR_flavor.9.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TSR_flavor.9.a
+		ai_chance = { factor = 100 }	# 100% AI choose this		
+	}
+}
+
+country_event = {
+	id = TSR_flavor.10
+	title = TSR_flavor.10.t
+	desc = TSR_flavor.10.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TSR_flavor.10.a
+		ai_chance = { factor = 100 }	# 100% AI choose this		
+	}
+}
+
+country_event = {
+	id = TSR_flavor.11
+	title = TSR_flavor.11.t
+	desc = TSR_flavor.11.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = TSR_flavor.11.a
+		ai_chance = { factor = 100 }	# 100% AI choose this		
+	}
+}
 
 country_event = {
 	id = TSR_mewman_advisors_event.1
@@ -21,6 +179,19 @@ country_event = {
 		name = TSR_mewman_advisors_event.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		recruit_character = TSR_mewman_advisor
+		add_advisor_role = {
+		  Character = TSR_mewman_advisor
+		  advisor = {
+			slot = high_command
+			idea_token = TSR_mewman_advisor_high_command_idea
+			traits = {
+				army_cavalry_1
+			}
+			allowed = {
+				always = yes
+			}
+		  }
+		}
 		
 	}
 }
@@ -34,6 +205,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = { 
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_pre_unification
@@ -54,6 +226,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = { 
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_pre_unification_2
@@ -75,6 +248,7 @@ country_event = {
 	
 	option = { 
 		hidden_effect = {
+			custom_effect_tooltip = "new_focus_tree_tooltip"
 			load_focus_tree = {
 				tree = TSR_focus_pre_unification_3
 				keep_completed = yes
@@ -94,6 +268,17 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = { 
+		retire_character = TSR_tsar
+		add_country_leader_role = {
+			Character = TSR_patriarch
+			Promote_leader = yes
+			country_leader = {
+				ideology = oligarchism
+				expire = "2040.1.1.1"
+				id = -1
+			}
+		}
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_pre_coup_lampist
@@ -114,6 +299,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = { 
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_post_coup_lampist
@@ -133,7 +319,8 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { 
+	option = {	
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_pre_coup_queen
@@ -154,6 +341,17 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = { 
+		retire_character = TSR_tsar
+		add_country_leader_role = {
+			Character = TSR_tsar_wife
+			Promote_leader = yes
+			country_leader = {
+				ideology = oligarchism
+				expire = "2040.1.1.1"
+				id = -1
+			}
+		}
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_post_coup_queen
@@ -173,7 +371,8 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = { 
+	option = {	
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_pre_coup_military
@@ -194,6 +393,17 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = { 
+		retire_character = TSR_grand_marshal
+		add_country_leader_role = {
+			Character = TSR_young_marshal
+			Promote_leader = yes
+			country_leader = {
+				ideology = oligarchism
+				expire = "2040.1.1.1"
+				id = -1
+			}
+		}
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_post_coup_military

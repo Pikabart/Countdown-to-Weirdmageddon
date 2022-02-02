@@ -1,0 +1,28 @@
+﻿l_english:
+
+SWP_start:0 "A Coalition of Villages"
+SWP_start_desc:0 "The unique way this nation formed has resulted in one of the most stable places a monster can live in."
+
+SWP_quality_troop:0 "Quality of our Troops"
+SWP_quality_troop_desc:0 "Our troop's best attribute will be their extensive training and impressive quality."
+
+SWP_quantity_troop:0 "Quantity of our Troops"
+SWP_quantity_troop_desc:0 "Our army's best attribute will be it's grand numbers."
+
+SWP_civilian_production:0 "Civil Economics"
+SWP_civilian_production_desc:0 "An industrial base must built to benefit the people and, by extension, the government."
+
+SWP_military_production:0 "Military Economics"
+SWP_military_production_desc:0 "An industrial base must built to benefit the government and, by extension, the people."
+
+SWP_modern_politics_production:0 "Flexibility of Politics"
+SWP_modern_politics_production_desc:0 "The monster reigons are a tumultuous place. Our political practices and theorems must always stay flexible in the face of such a situation."
+
+SWP_modern_warfare_production:0 "Advancement of Warfare"
+SWP_modern_warfare_production_desc:0 "The monster reigons are a tumultuous place. Our military practices and theorems must always stay flexible in the face of such a situation."
+
+SWP_take_state:0 "Settle the Kransok Mines"
+SWP_take_state_desc:0 "The reigon of the Kransok Mines is not settled by any organized force. We must take it before anybody else does."
+
+SWP_balance_of_power:0 "The Balance of Power"
+SWP_balance_of_power_desc:0 "The reigon is stabalizing from the chaos that was the settlement of unorganized territories. It is time to look inwards."

@@ -1,0 +1,31 @@
+﻿l_english:
+
+DRG_start:0 "Placeholder"
+DRG_start_desc:0 "Plceaholder Description"
+
+DRG_quality_troop:0 "Quality of our Troops"
+DRG_quality_troop_desc:0 "Our troop's best attribute will be their extensive training and impressive quality."
+
+DRG_quantity_troop:0 "Quantity of our Troops"
+DRG_quantity_troop_desc:0 "Our army's best attribute will be it's grand numbers."
+
+DRG_civilian_production:0 "Civil Economics"
+DRG_civilian_production_desc:0 "An industrial base must built to benefit the people and, by extension, the government."
+
+DRG_military_production:0 "Military Economics"
+DRG_military_production_desc:0 "An industrial base must built to benefit the government and, by extension, the people."
+
+DRG_modern_politics_production:0 "Flexibility of Politics"
+DRG_modern_politics_production_desc:0 "The monster reigons are a tumultuous place. Our political practices and theorems must always stay flexible in the face of such a situation."
+
+DRG_modern_warfare_production:0 "Advancement of Warfare"
+DRG_modern_warfare_production_desc:0 "The monster reigons are a tumultuous place. Our military practices and theorems must always stay flexible in the face of such a situation."
+
+DRG_take_state:0 "Settle the Worthless Dump"
+DRG_take_state_desc:0 "The reigon of the wothless Dump is not settled by any organized force. I guess we could take it..."
+
+DRG_take_state_2:0 "Settle the Avarius Mines"
+DRG_take_state_2_desc:0 "The reigon of the Avarius Mines is not settled by any organized force. We must take it before anybody else does."
+
+DRG_balance_of_power:0 "The Balance of Power"
+DRG_balance_of_power_desc:0 "The reigon is stabalizing from the chaos that was the settlement of unorganized territories. It is time to look inwards."

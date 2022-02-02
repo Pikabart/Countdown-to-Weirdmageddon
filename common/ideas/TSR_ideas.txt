@@ -103,6 +103,7 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.15
+				stability_weekly = 0.002
 				consumer_goods_factor = 0.05
 			}
 		}
@@ -117,6 +118,21 @@ ideas = {
 			
 			modifier = {
 				stability_factor = 0.05
+			}
+		}
+		TSR_QUEEN_purge = {
+			picture =
+			
+			allowed = {original_tag = TSR }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				stability_factor = 0.1
+				offence = -0.08
+				defence = -0.08
 			}
 		}
 		TSR_QUEEN_benefits_idea = {

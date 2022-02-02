@@ -6,6 +6,10 @@ spriteTypes = {
 			texturefile = "gfx/leaders/TSR/hoi4_portrait_grand_marshall.dds"
 		}
 	spriteType = {
+			name = "GFX_hoi4_portrait_tsar_wife"
+			texturefile = "gfx/leaders/TSR/hoi4_portrait_tsar_wife.dds"
+		}
+	spriteType = {
 			name = "GFX_hoi4_portrait_young_officer"
 			texturefile = "gfx/leaders/TSR/hoi4_portrait_young_officer.dds"
 		}

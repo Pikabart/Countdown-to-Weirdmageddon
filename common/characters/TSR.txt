@@ -18,7 +18,7 @@ characters = {
 		desc = ""
 		portraits = {
 			civilian = {
-				large = ""
+				large = "GFX_hoi4_portrait_tsar_wife"
 			}
 		}
 	}
@@ -108,22 +108,6 @@ characters = {
 				large = "GFX_hoi4_portrait_mewman_advisor"
 				small = "GFX_idea_advisor_mewman"
 			}
-		}
-		advisor = {
-			slot = high_command
-			idea_token = TSR_mewman_high_command
-			allowed = {
-				original_tag = TSR
-			}
-			available = {
-			}
-								
-			traits = { army_cavalry_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		
 		}
 	}
 	TSR_generic_monster_advisor_1 = {

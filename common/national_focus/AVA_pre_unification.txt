@@ -376,6 +376,12 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			AVA = {
+				recruit_character = AVA_generic_monster_advisor_1
+				recruit_character = AVA_generic_monster_advisor_2
+				recruit_character = AVA_generic_monster_advisor_3
+				recruit_character = AVA_generic_monster_advisor_4
+			}
 		}
 		
 		ai_will_do = {

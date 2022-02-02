@@ -194,6 +194,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = TSR_flavor.10
 			add_stability = 0.05
 		}
 		
@@ -356,6 +357,7 @@
 		y = 1
 		
 		prerequisite = { focus = TSR_rev_up_the_money_printer }
+		prerequisite = { focus = TSR_steal_horse_from_neighbor }
 		relative_position_id = TSR_rev_up_the_money_printer 
 		mutually_exclusive = { focus = TSR_steal_johansen_horses }
 		
@@ -390,6 +392,7 @@
 		y = 1
 		
 		prerequisite = { focus = TSR_steal_horse_from_neighbor }
+		prerequisite = { focus = TSR_rev_up_the_money_printer }
 		relative_position_id = TSR_rev_up_the_money_printer 
 		mutually_exclusive = { focus = TSR_sell_artifacts }
 		
