@@ -25,20 +25,38 @@ CAL_catagory_NorCal_SoCal = {
         timeout_effect = {   
 				#custom_effect_tooltip = stantastic_51.11.tool
 				if = {
-					limit = {check_variable = { cal_norton_socal < 40 }}
-					add_political_power = -50            
+					limit = {check_variable = { cal_norton_norcal < 40 }}
+					add_political_power = -30            
 				}  
 				else_if = {
-					limit = {check_variable = { cal_norton_socal > 60 }}
-					add_political_power = 20             
+					limit = {check_variable = { cal_norton_norcal > 60 }}
+					add_political_power = 60             
 				} 
 				else_if = { 
+					limit = {
+						check_variable = { cal_norton_norcal > 40 }
+						check_variable = { cal_norton_norcal < 60 }
+					}
+					add_political_power = 0
+				}
+				
+				if = {
+					limit = {check_variable = { cal_norton_socal < 40 }}
+					add_political_power = -50            
+				} 
+				else_if = {
+					limit = {check_variable = { cal_norton_socal > 60 }}
+					add_political_power = 30             
+				}
+				else_if = {
 					limit = {
 						check_variable = { cal_norton_socal > 40 }
 						check_variable = { cal_norton_socal < 60 }
 					}
 					add_political_power = -20
-				}	
+				}
+				
+				
 		}
 		  
     }
@@ -65,23 +83,260 @@ CAL_catagory_NorCal_SoCal = {
         timeout_effect = {   
 				#custom_effect_tooltip = stantastic_51.11.tool
 				if = {
-					limit = {check_variable = { cal_norton_socal < 40 }}
-					add_political_power = -50            
+					limit = {
+						check_variable = { cal_pIDR < 50 }
+						check_variable = { cal_tIDR < 50 }
+					}
+					add_political_power = -50 
+					add_stability = -0.05
+					add_war_support = -0.05
 				} 
 				else_if = {
-					limit = {check_variable = { cal_norton_socal > 60 }}
-					add_political_power = 20             
+					limit = {
+						check_variable = { cal_pIDR < 50 }
+						check_variable = { cal_tIDR > 49 }
+					}
+					add_political_power = -10
+					add_stability = -0.05
+					add_war_support = 0.05					
 				}
 				else_if = {
 					limit = {
-						check_variable = { cal_norton_socal > 40 }
-						check_variable = { cal_norton_socal < 60 }
+						check_variable = { cal_pIDR > 49 }
+						check_variable = { cal_tIDR < 50 }
 					}
-					add_political_power = -20
+					add_political_power = -5
+					add_stability = 0.05
+					add_war_support = -0.05
+				}	
+				else_if = {
+					limit = {
+						check_variable = { cal_pIDR > 49 }
+						check_variable = { cal_tIDR > 49 }
+					}
+					add_political_power = 50
+					add_stability = 0.10
+					add_war_support = 0.10
+				}
+				#######################################################
+				if = {
+					limit = { # Did UBI, not Remove Eviro
+						has_country_flag = cal_UBI
+						NOT = {has_country_flag = cal_remove_restrictions}
+					}
+					subtract_from_variable = {
+						var = cal_pIDR
+						value = 5
+					} 
+					##################
+					clamp_variable = {
+						var = cal_pIDR
+						min = 20
+						max = 120
+					}
+					#add_political_power = 1 
+				} 
+				else_if = {
+					limit = { # Did Social Security, not Remove Eviro
+						has_country_flag = cal_social_security
+						NOT = {has_country_flag = cal_remove_restrictions}
+					}
+					subtract_from_variable = {
+						var = cal_pIDR
+						value = 10
+					} 
+					##################
+					clamp_variable = {
+						var = cal_pIDR
+						min = 5
+						max = 100
+					}
+					#add_political_power = 2 					
+				}
+				else_if = {
+					limit = { # Did neither or Social Sec, did Remove Eviro
+						NOT = {has_country_flag = cal_UBI}
+						has_country_flag = cal_remove_restrictions
+					}
+					subtract_from_variable = {
+						var = cal_pIDR
+						value = 15
+					} 
+					##################
+					clamp_variable = {
+						var = cal_pIDR
+						min = -20
+						max = 90
+					}
+					#add_political_power = 3 
+				}	
+				else_if = {
+					limit = { #Did Both Extremes
+						has_country_flag = cal_UBI
+						has_country_flag = cal_remove_restrictions
+					}
+					subtract_from_variable = {
+						var = cal_pIDR
+						value = 10
+					} 
+					##################
+					clamp_variable = {
+						var = cal_pIDR
+						min = 0
+						max = 100
+					}
+					#add_political_power = 4 
+				}
+				else = {  #Did Nothing at all yet
+					subtract_from_variable = {
+						var = cal_pIDR
+						value = 10
+					} 
+					##################
+					clamp_variable = {
+						var = cal_pIDR
+						min = 0
+						max = 100
+					}
+					#add_political_power = 5 
+				}
+				#######################################################
+				if = {
+					limit = { # Did Remove Eviro, not UBI
+						has_country_flag = cal_remove_restrictions
+						NOT = {has_country_flag = cal_UBI}
+					}
+					subtract_from_variable = {
+						var = cal_tIDR
+						value = 5
+					} 
+					##################
+					clamp_variable = {
+						var = cal_tIDR
+						min = 20
+						max = 120
+					}
+					#add_political_power = 1 
+				} 
+				else_if = {
+					limit = { # Did Small Buisness, not UBI
+						has_country_flag = cal_aid_small_business
+						NOT = {has_country_flag = cal_UBI}
+					}
+					subtract_from_variable = {
+						var = cal_tIDR
+						value = 10
+					} 
+					##################
+					clamp_variable = {
+						var = cal_tIDR
+						min = 5
+						max = 100
+					}	
+					#add_political_power = 2 				
+				}
+				else_if = {
+					limit = { # Did neither or Aid Small Busi, did UBI
+						NOT = {has_country_flag = cal_remove_restrictions}
+						has_country_flag = cal_UBI
+					}
+					subtract_from_variable = {
+						var = cal_tIDR
+						value = 15
+					} 
+					##################
+					clamp_variable = {
+						var = cal_tIDR
+						min = -20
+						max = 90
+					}
+					#add_political_power = 3 
+				}	
+				else_if = {
+					limit = { #Did Both Extremes
+						has_country_flag = cal_remove_restrictions
+						has_country_flag = cal_UBI
+					}
+					subtract_from_variable = {
+						var = cal_tIDR
+						value = 10
+					} 
+					##################
+					clamp_variable = {
+						var = cal_tIDR
+						min = 0
+						max = 100
+					}
+					#add_political_power = 4
+				}
+				else = {  #Did Nothing at all yet
+					subtract_from_variable = {
+						var = cal_tIDR
+						value = 10
+					} 
+					##################
+					clamp_variable = {
+						var = cal_tIDR
+						min = 0
+						max = 100
+					}
+					#add_political_power = 5 
+				}
+				#######################################################
+				if = {
+					limit = { # Social and Aid
+						has_country_flag = cal_social_security
+						has_country_flag = cal_aid_small_business
+					}
+					subtract_from_variable = {
+						var = cal_hectorNDR
+						value = 5
+					} 
+					##################
+					clamp_variable = {
+						var = cal_hectorNDR
+						min = 20
+						max = 120
+					}
+					#add_political_power = 1 
+				} 
+				else_if = {   #one or the other
+					limit = { # Social and Aid
+						OR = {
+							has_country_flag = cal_social_security
+							has_country_flag = cal_aid_small_business
+						}
+					}
+					subtract_from_variable = {
+						var = cal_hectorNDR
+						value = 10
+					} 
+					##################
+					clamp_variable = {
+						var = cal_hectorNDR
+						min = 10
+						max = 100
+					}	
+					#add_political_power = 2 				
+				}
+				else = { # Normal Decay
+					subtract_from_variable = {
+						var = cal_hectorNDR
+						value = 15
+					} 
+					##################
+					clamp_variable = {
+						var = cal_hectorNDR
+						min = 0
+						max = 100
+					}
+					#add_political_power = 3 
 				}	
 		}
 		  
     } 
+	
+	##############################################################
 	
 	cal_decision_northern_rally = { #
 		icon = GFX_decision_icon_default		
@@ -99,10 +354,76 @@ CAL_catagory_NorCal_SoCal = {
 			#custom_effect_tooltip = ""
 			CALI_convert_axes_values_to_frames = yes
 			hidden_effect = {	
-				random_list = {
-					100 = {}
+				if = {
+					limit = { has_country_flag = cal_sit_down_with_guzman }
+					add_to_variable = {
+						var = cal_norton_norcal
+						value = 15
+					}
+					add_to_variable = {
+						var = cal_norton_socal
+						value = 5
+					}
+					###################
+					clamp_variable = {
+						var = cal_norton_norcal
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = cal_norton_socal
+						min = 0
+						max = 100
+					}
+				}
+				else =  {
+					random_list = {
+						70 = {
+							add_to_variable = {
+								var = cal_norton_norcal
+								value = 15
+							}
+							subtract_from_variable = {
+								var = cal_norton_socal
+								value = 10
+							}
+							###################
+							clamp_variable = {
+								var = cal_norton_norcal
+								min = 0
+								max = 100
+							}
+							clamp_variable = {
+								var = cal_norton_socal
+								min = 0
+								max = 100
+							}
+						}
+						30 = {
+							add_to_variable = {
+								var = cal_norton_norcal
+								value = 10
+							}
+							subtract_from_variable = {
+								var = cal_norton_socal
+								value = 15
+							}
+							###################
+							clamp_variable = {
+								var = cal_norton_norcal
+								min = 0
+								max = 100
+							}
+							clamp_variable = {
+								var = cal_norton_socal
+								min = 0
+								max = 100
+							}		
+						}	
+					}
 				}
 			}
+			clr_country_flag = cal_sit_down_with_guzman
 		} 
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -127,10 +448,97 @@ CAL_catagory_NorCal_SoCal = {
 			#custom_effect_tooltip = ""
 			CALI_convert_axes_values_to_frames = yes
 			hidden_effect = {	
-				random_list = {
-					100 = {}
+				if = {
+					limit = { has_country_flag = cal_sit_down_with_guzman }
+					add_to_variable = {
+						var = cal_norton_norcal
+						value = 10
+					}
+					add_to_variable = {
+						var = cal_norton_socal
+						value = 20
+					}
+					###################
+					clamp_variable = {
+						var = cal_norton_norcal
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = cal_norton_socal
+						min = 0
+						max = 100
+					}
+				}
+				else =  {
+					random_list = {
+						40 = {
+							add_to_variable = {
+								var = cal_norton_norcal
+								value = 5
+							}
+							add_to_variable = {
+								var = cal_norton_socal
+								value = 10
+							}
+							###################
+							clamp_variable = {
+								var = cal_norton_norcal
+								min = 0
+								max = 100
+							}
+							clamp_variable = {
+								var = cal_norton_socal
+								min = 0
+								max = 100
+							}
+						}
+						30 = {
+							add_to_variable = {
+								var = cal_norton_norcal
+								value = 5
+							}
+							subtract_from_variable = {
+								var = cal_norton_socal
+								value = 10
+							}
+							###################
+							clamp_variable = {
+								var = cal_norton_norcal
+								min = 0
+								max = 100
+							}
+							clamp_variable = {
+								var = cal_norton_socal
+								min = 0
+								max = 100
+							}		
+						}	
+						30 = {
+							subtract_from_variable = {
+								var = cal_norton_norcal
+								value = 10
+							}
+							subtract_from_variable = {
+								var = cal_norton_socal
+								value = 10
+							}
+							###################
+							clamp_variable = {
+								var = cal_norton_norcal
+								min = 0
+								max = 100
+							}
+							clamp_variable = {
+								var = cal_norton_socal
+								min = 0
+								max = 100
+							}		
+						}
+					}
 				}
 			}
+			clr_country_flag = cal_sit_down_with_guzman
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
@@ -141,23 +549,21 @@ CAL_catagory_NorCal_SoCal = {
 	
 	cal_decision_meet_hector = { #
 		icon = GFX_decision_icon_default		
-		available = {}
+		available = { NOT = {has_country_flag = cal_sit_down_with_guzman}}
 		fire_only_once = no		
 		days_re_enable = 0
 		days_remove = 6
 		visible = {	}		
 
 		priority = 9
-		cost = 10			
+		cost = 25			
 
 		fixed_random_seed = no 
 		complete_effect = {		
 			#custom_effect_tooltip = ""
 			CALI_convert_axes_values_to_frames = yes
 			hidden_effect = {	
-				random_list = {
-					100 = {}
-				}
+				set_country_flag = cal_sit_down_with_guzman
 			}
 		}
 		
@@ -185,10 +591,108 @@ CAL_catagory_NorCal_SoCal = {
 		fixed_random_seed = no 
 		complete_effect = {		
 			#custom_effect_tooltip = ""
-			CALI_convert_axes_values_to_frames = yes
-			hidden_effect = {	
-				random_list = {
-					100 = {}
+			hidden_effect = {
+				if = {
+					limit = { 
+						check_variable = {
+							var =  cal_compromise_NDR 
+							value = 2
+							compare = greater_than_or_equals
+						}
+					}			
+					add_to_variable = {
+						var = cal_pIDR
+						value = 15
+					}
+					subtract_from_variable = {
+						var = cal_tIDR
+						value = 5
+					}
+					add_to_variable = {
+						var = cal_hectorNDR
+						value = 10
+					}
+					subtract_from_variable = {
+						var = cal_compromise_NDR
+						value = 2
+					}
+					###################
+					clamp_variable = {
+						var = cal_pIDR
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = cal_tIDR
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = cal_hectorNDR
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = cal_compromise_NDR
+						min = 0
+						max = 5
+					}
+				
+				}
+				else = {	
+					random_list = {
+						60 = {
+						add_to_variable = {
+								var = cal_pIDR
+								value = 15
+							}
+							subtract_from_variable = {
+								var = cal_tIDR
+								value = 10
+							}
+							###################
+							clamp_variable = {
+								var = cal_pIDR
+								min = 0
+								max = 100
+							}
+							clamp_variable = {
+								var = cal_tIDR
+								min = 0
+								max = 100
+							}
+						}
+						40 = {
+							add_to_variable = {
+								var = cal_pIDR
+								value = 10
+							}
+							subtract_from_variable = {
+								var = cal_tIDR
+								value = 10
+							}
+							subtract_from_variable = {
+								var = cal_hectorNDR
+								value = 5
+							}
+							###################
+							clamp_variable = {
+								var = cal_pIDR
+								min = 0
+								max = 100
+							}
+							clamp_variable = {
+								var = cal_tIDR
+								min = 0
+								max = 100
+							}
+							clamp_variable = {
+								var = cal_hectorNDR
+								min = 0
+								max = 100
+							}
+						}	
+					}
 				}
 			}
 		} 
@@ -213,11 +717,110 @@ CAL_catagory_NorCal_SoCal = {
 		fixed_random_seed = no 
 		complete_effect = {		
 			#custom_effect_tooltip = ""
-			CALI_convert_axes_values_to_frames = yes
 			hidden_effect = {	
-				random_list = {
-					100 = {}
+				if = {
+					limit = { 
+						check_variable = {
+							var =  cal_compromise_NDR 
+							value = 2
+							compare = greater_than_or_equals
+						}
+					}			
+					add_to_variable = {
+						var = cal_tIDR
+						value = 15
+					}
+					subtract_from_variable = {
+						var = cal_pIDR
+						value = 5
+					}
+					add_to_variable = {
+						var = cal_hectorNDR
+						value = 10
+					}
+					subtract_from_variable = {
+						var = cal_compromise_NDR
+						value = 2
+					}
+					###################
+					clamp_variable = {
+						var = cal_tIDR
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = cal_pIDR
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = cal_hectorNDR
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = cal_compromise_NDR
+						min = 0
+						max = 5
+					}
+				
 				}
+				else = {	
+					random_list = {
+						60 = {
+						add_to_variable = {
+								var = cal_tIDR
+								value = 15
+							}
+							subtract_from_variable = {
+								var = cal_pIDR
+								value = 10
+							}
+							###################
+							clamp_variable = {
+								var = cal_tIDR
+								min = 0
+								max = 100
+							}
+							clamp_variable = {
+								var = cal_pIDR
+								min = 0
+								max = 100
+							}
+						}
+						40 = {
+							add_to_variable = {
+								var = cal_tIDR
+								value = 10
+							}
+							subtract_from_variable = {
+								var = cal_pIDR
+								value = 10
+							}
+							subtract_from_variable = {
+								var = cal_hectorNDR
+								value = 5
+							}
+							###################
+							clamp_variable = {
+								var = cal_tIDR
+								min = 0
+								max = 100
+							}
+							clamp_variable = {
+								var = cal_pIDR
+								min = 0
+								max = 100
+							}
+							clamp_variable = {
+								var = cal_hectorNDR
+								min = 0
+								max = 100
+							}
+						}	
+					}
+				}
+
 			}
 		}
 		
@@ -241,10 +844,90 @@ CAL_catagory_NorCal_SoCal = {
 		fixed_random_seed = no 
 		complete_effect = {		
 			#custom_effect_tooltip = ""
-			CALI_convert_axes_values_to_frames = yes
 			hidden_effect = {	
-				random_list = {
-					100 = {}
+				if = {
+					limit = { 
+						check_variable = {
+							var =  cal_compromise_NDR 
+							value = 1
+							compare = greater_than_or_equals
+						}
+					}			
+					add_to_variable = {
+						var = cal_pIDR
+						value = 10
+					}
+					add_to_variable = {
+						var = cal_hectorNDR
+						value = 10
+					}
+					subtract_from_variable = {
+						var = cal_compromise_NDR
+						value = 1
+					}
+					###################
+					clamp_variable = {
+						var = cal_pIDR
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = cal_hectorNDR
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = cal_compromise_NDR
+						min = 0
+						max = 5
+					}
+				
+				}
+				else = {	
+					random_list = {
+						60 = {
+							add_to_variable = {
+								var = cal_pIDR
+								value = 10
+							}
+							subtract_from_variable = {
+								var = cal_tIDR
+								value = 5
+							}
+							###################
+							clamp_variable = {
+								var = cal_pIDR
+								min = 0
+								max = 100
+							}
+							clamp_variable = {
+								var = cal_tIDR
+								min = 0
+								max = 100
+							}
+						}
+						40 = {
+							add_to_variable = {
+								var = cal_pIDR
+								value = 10
+							}
+							add_to_variable = {
+								var = cal_hectorNDR
+								value = 5
+							}
+							###################
+							clamp_variable = {
+								var = cal_pIDR
+								min = 0
+								max = 100
+							}
+							clamp_variable = {
+								var = cal_hectorNDR
+								min = 0
+								max = 100
+							}
+						}	
+					}
 				}
 			}
 		} 
@@ -271,8 +954,89 @@ CAL_catagory_NorCal_SoCal = {
 			#custom_effect_tooltip = ""
 			CALI_convert_axes_values_to_frames = yes
 			hidden_effect = {	
-				random_list = {
-					100 = {}
+				if = {
+					limit = { 
+						check_variable = {
+							var =  cal_compromise_NDR 
+							value = 1
+							compare = greater_than_or_equals
+						}
+					}			
+					add_to_variable = {
+						var = cal_tIDR
+						value = 10
+					}
+					add_to_variable = {
+						var = cal_hectorNDR
+						value = 10
+					}
+					subtract_from_variable = {
+						var = cal_compromise_NDR
+						value = 1
+					}
+					###################
+					clamp_variable = {
+						var = cal_tIDR
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = cal_hectorNDR
+						min = 0
+						max = 100
+					}
+					clamp_variable = {
+						var = cal_compromise_NDR
+						min = 0
+						max = 5
+					}
+				
+				}
+				else = {	
+					random_list = {
+						60 = {
+							add_to_variable = {
+								var = cal_tIDR
+								value = 10
+							}
+							subtract_from_variable = {
+								var = cal_pIDR
+								value = 5
+							}
+							###################
+							clamp_variable = {
+								var = cal_tIDR
+								min = 0
+								max = 100
+							}
+							clamp_variable = {
+								var = cal_pIDR
+								min = 0
+								max = 100
+							}
+						}
+						40 = {
+							add_to_variable = {
+								var = cal_tIDR
+								value = 10
+							}
+							add_to_variable = {
+								var = cal_hectorNDR
+								value = 5
+							}
+							###################
+							clamp_variable = {
+								var = cal_tIDR
+								min = 0
+								max = 100
+							}
+							clamp_variable = {
+								var = cal_hectorNDR
+								min = 0
+								max = 100
+							}
+						}	
+					}
 				}
 			}
 		}
@@ -282,6 +1046,8 @@ CAL_catagory_NorCal_SoCal = {
 			factor = 1			
 		}
 	}
+	
+	#################################################################################
 	
 	cal_decision_moderate_compromise = { #
 		icon = GFX_decision_icon_default		
@@ -295,13 +1061,17 @@ CAL_catagory_NorCal_SoCal = {
 		cost = 10			
 
 		fixed_random_seed = no 
-		complete_effect = {		
+		remove_effect  = {		
 			#custom_effect_tooltip = ""
-			CALI_convert_axes_values_to_frames = yes
-			hidden_effect = {	
-				random_list = {
-					100 = {}
-				}
+			add_to_variable = {
+				var = cal_compromise_NDR
+				value = 1
+			} 
+			##################
+			clamp_variable = {
+				var = cal_compromise_NDR
+				min = 0
+				max = 5
 			}
 		}
 		
@@ -313,7 +1083,6 @@ CAL_catagory_NorCal_SoCal = {
 	
 	cal_decision_moderate_bill_large = { #
 		icon = GFX_decision_icon_default		
-		available = {}
 		fire_only_once = no		
 		days_re_enable = 0
 		days_remove = 6
@@ -321,72 +1090,54 @@ CAL_catagory_NorCal_SoCal = {
 
 		priority = 7
 		cost = 10			
-
-		fixed_random_seed = no 
-		complete_effect = {		
-			#custom_effect_tooltip = ""
-			CALI_convert_axes_values_to_frames = yes
-			hidden_effect = {	
-				random_list = {
-					100 = {}
-				}
+		
+		available = { 
+			check_variable = {
+				cal_compromise_NDR > 2
 			}
 		}
 		
-		# AI LOGIC FOR THIS DECISION/MISSION
-		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
-		}
-	}
-	
-	cal_decision_moderate_bill_large = { #
-		icon = GFX_decision_icon_default		
-		available = {}
-		fire_only_once = no		
-		days_re_enable = 0
-		days_remove = 6
-		visible = {	}		
-
-		priority = 7
-		cost = 10			
-
 		fixed_random_seed = no 
-		complete_effect = {		
+		remove_effect  = {		
 			#custom_effect_tooltip = ""
-			CALI_convert_axes_values_to_frames = yes
-			hidden_effect = {	
-				random_list = {
-					100 = {}
-				}
+			add_to_variable = {
+				var = cal_tIDR
+				value = 15
 			}
-		}
-		
-		# AI LOGIC FOR THIS DECISION/MISSION
-		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
-		}
-	}
-	
-	cal_decision_moderate_bill_large = { #
-		icon = GFX_decision_icon_default		
-		available = {}
-		fire_only_once = no		
-		days_re_enable = 0
-		days_remove = 6
-		visible = {	}		
-
-		priority = 7
-		cost = 10			
-
-		fixed_random_seed = no 
-		complete_effect = {		
-			#custom_effect_tooltip = ""
-			CALI_convert_axes_values_to_frames = yes
-			hidden_effect = {	
-				random_list = {
-					100 = {}
-				}
+			add_to_variable = {
+				var = cal_pIDR
+				value = 15
 			}
+			add_to_variable = {
+				var = cal_hectorNDR
+				value = 25
+			}
+			subtract_from_variable = {
+				var = cal_compromise_NDR
+				value = 3
+			}
+			###################
+			clamp_variable = {
+				var = cal_tIDR
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = cal_pIDR
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = cal_hectorNDR
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = cal_compromise_NDR
+				min = 0
+				max = 5
+			}
+
 		}
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
