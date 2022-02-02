@@ -179,6 +179,19 @@ country_event = {
 		name = TSR_mewman_advisors_event.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		recruit_character = TSR_mewman_advisor
+		add_advisor_role = {
+		  Character = TSR_mewman_advisor
+		  advisor = {
+			slot = high_command
+			idea_token = TSR_mewman_advisor_high_command_idea
+			traits = {
+				army_cavalry_1
+			}
+			allowed = {
+				always = yes
+			}
+		  }
+		}
 		
 	}
 }
@@ -192,6 +205,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = { 
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_pre_unification
@@ -212,6 +226,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = { 
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_pre_unification_2
@@ -233,6 +248,7 @@ country_event = {
 	
 	option = { 
 		hidden_effect = {
+			custom_effect_tooltip = "new_focus_tree_tooltip"
 			load_focus_tree = {
 				tree = TSR_focus_pre_unification_3
 				keep_completed = yes
@@ -262,6 +278,7 @@ country_event = {
 				id = -1
 			}
 		}
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_pre_coup_lampist
@@ -282,6 +299,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = { 
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_post_coup_lampist
@@ -302,6 +320,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {	
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_pre_coup_queen
@@ -332,6 +351,7 @@ country_event = {
 				id = -1
 			}
 		}
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_post_coup_queen
@@ -351,17 +371,8 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	option = {
-		retire_character = TSR_tsar
-		add_country_leader_role = {
-			Character = TSR_young_marshal
-			Promote_leader = yes
-			country_leader = {
-				ideology = oligarchism
-				expire = "2040.1.1.1"
-				id = -1
-			}
-		}	
+	option = {	
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_pre_coup_military
@@ -382,6 +393,17 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = { 
+		retire_character = TSR_grand_marshal
+		add_country_leader_role = {
+			Character = TSR_young_marshal
+			Promote_leader = yes
+			country_leader = {
+				ideology = oligarchism
+				expire = "2040.1.1.1"
+				id = -1
+			}
+		}
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = TSR_focus_post_coup_military

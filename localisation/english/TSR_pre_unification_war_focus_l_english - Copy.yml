@@ -155,28 +155,52 @@ TSR_QUEEN_mewmans_march:0 "The Mewmans March Forever Onwards!"
 TSR_QUEEN_mewmans_march_desc:0 ""Monster politics is easy to understand. 300 years ago, working with the Mewmans made the Tsardom prosper. The previous Tsar tried copy Mewmans, failing. Only Mewmans can produce a prosperous result. And in the end, the Mewmans march forever onwards!"\n\n-Tsarina Katerina"
 
 TSR_MIL_plan:0 "Plan it Out"
-TSR_MIL_plan_desc:0 ""
+TSR_MIL_plan_desc:0 "Cohesion is a big part in any large group project. We will set up regular times to meet, wherin we will plan our next moves."
 
 TSR_MIL_loyalists:0 "Establish Loyalists"
-TSR_MIL_loyalists_desc:0 ""
+TSR_MIL_loyalists_desc:0 "We may have hegemony in the military, but we have almost no influence in the court. We must remedy this."
 
 TSR_MIL_bribery_blackmail:0 "Bribery and Blackmail"
-TSR_MIL_bribery_blackmail_desc:0 ""
+TSR_MIL_bribery_blackmail_desc:0 "Who could resist a fat nut?"
 
-TSR_MIL_flex:0 "Tell the Tsar Just to Flex"
-TSR_MIL_flex_desc:0 ""
+TSR_MIL_flex:0 "Flex Our Muscles"
+TSR_MIL_flex_desc:0 "We will make shows of force and cement the idea that the military is superior into the minds of the courtiers."
 
 TSR_MIL_sabatoge:0 "Sabatoge Finances"
-TSR_MIL_sabatoge_desc:0 ""
+TSR_MIL_sabatoge_desc:0 "We will sabatoge the Tsar's plans to remedy the financial situation."
 
 TSR_MIL_manipulate_schedule:0 "Manipulate the Tsar's Schedule"
-TSR_MIL_manipulate_schedule_desc:0 ""
+TSR_MIL_manipulate_schedule_desc:0 "We will change the Tsar's schedules to fit better with our plans. This will of course result in some neglected problems."
 
 TSR_MIL_roadblocks:0 "Roadblocks and Checkpoints"
-TSR_MIL_roadblocks_desc:0 ""
+TSR_MIL_roadblocks_desc:0 "We will extract information and... resources... from the civilian population."
 
 TSR_MIL_coup:0 "An Easy Coup"
-TSR_MIL_coup_desc:0 ""
+TSR_MIL_coup_desc:0 "Everything is in place, the military and court are on our side. No one can possibly oppose us!"
 
 TSR_MIL_parade:0 "Victory Parade!"
-TSR_MIL_parade_desc:0 ""
+TSR_MIL_parade_desc:0 "The coup has happened with no casulaties! (Save for the Tsar's family, of course.) It's time to celebrate!\n\nI'm sure the people will love us!"
+
+TSR_MIL_daggers_with_the_people:0 "Daggers with the People"
+TSR_MIL_daggers_with_the_people_desc:0 "Surprisingly, it is the people themselves who are efficiently resisting our rule. Despite the army and the court being on our side, there is still work to be done."
+
+TSR_MIL_police_corps:0 "Form a Police Corps"
+TSR_MIL_police_corps_desc:0 "We will form a specialized Corps of the military to deal with domestic crimes and unrest."
+
+TSR_MIL_judge_jury_exec:0 "Judge, Jury, and Executioner"
+TSR_MIL_judge_jury_exec_desc:0 "Tradition states that in order to punish a domestic civilian they need to go through a trial first. This old, outdated notion must be done away with to preserve the nation."
+
+TSR_MIL_loyalty_or_death:0 "Loyalty or Death"
+TSR_MIL_loyalty_or_death_desc:0 "Fear is not an effective motivator. But it is an effective deterrent. To deter people from opposing our rule, fear of death shall be employed."
+
+TSR_MIL_military_above_all:0 "Military Above All"
+TSR_MIL_military_above_all_desc:0 "We will cripple the civilian economy to better allocate resources to war production."
+
+TSR_MIL_all_serve_the_military:0 "All Serve the Military"
+TSR_MIL_all_serve_the_military_desc:0 "If one does not serve the military, they are a detriment to our society and will be shot. Don't worry, the children can fill the factories.\n\nThat is, until they're qualified for training."
+
+TSR_MIL_culture_serve_military:0 "Culture Serves the Military"
+TSR_MIL_culture_serve_military_desc:0 "The people are still not completley devoted to us. Requests for days off during holidays, rations being prepared in inefficient ways, etc. We will erase these notions so that the only foods are the cheap ones, the only holidays will celebrate the military, the only social structure will be the chain of command, and the only feelings towards the past are to be pride for our people and hatred for the Simp Deez Nuts."
+
+TSR_MIL_society_under_the_jackboot:0 "A Society Under the Jackboot"
+TSR_MIL_society_under_the_jackboot_desc:0 "§CThe year is [GetYear], and Mothscow rests under the jackboot.§! The Tsar incinerated our old order, but out of it's ashes rises the Mothscow phoenix. We will trample our enemies under our march, and we will extinguish the fire that is the Mewman hegemony.\n\nHail to the Marshal. Hail to his... New Order."

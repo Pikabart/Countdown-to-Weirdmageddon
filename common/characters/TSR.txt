@@ -109,22 +109,6 @@ characters = {
 				small = "GFX_idea_advisor_mewman"
 			}
 		}
-		advisor = {
-			slot = high_command
-			idea_token = TSR_mewman_high_command
-			allowed = {
-				original_tag = TSR
-			}
-			available = {
-			}
-								
-			traits = { army_cavalry_1 }
-			
-			ai_will_do = {
-				factor = 1
-			}
-		
-		}
 	}
 	TSR_generic_monster_advisor_1 = {
 		name = "TSR_generic_monster_advisor_1" 
