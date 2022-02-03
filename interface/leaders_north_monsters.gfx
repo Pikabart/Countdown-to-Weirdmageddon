@@ -17,5 +17,9 @@ spriteTypes = {
 			name = "GFX_hoi4_portrait_mewman_advisor"
 			texturefile = "gfx/leaders/TSR/hoi4_portrait_mewman_advisor.dds"
 		}
+	spriteType = {
+			name = "GFX_hoi4_portrait_patriarch"
+			texturefile = "gfx/leaders/TSR/hoi4_portrait_patriarch.dds"
+		}
 	
 }

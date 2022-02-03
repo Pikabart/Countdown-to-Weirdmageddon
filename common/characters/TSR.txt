@@ -75,11 +75,11 @@ characters = {
 		}
 	}
 	TSR_patriarch = {
-		name = "Barth Gesenkyie"
+		name = "Holy Patriarch Barth Gesenkyie"
 		desc = ""
 		portraits = {
 			civilian = {
-				large = "hoi4_portrait_patriarch"
+				large = "GFX_hoi4_portrait_patriarch"
 				small = "GFX_idea_advisor_patriarch"
 			}
 		}

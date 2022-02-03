@@ -32,6 +32,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = TSR_flavor.13
 		}
 		
 		ai_will_do = {
@@ -253,6 +254,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			set_cosmetic_tag = TSR_MIL_TAG
 		}
 		
 		ai_will_do = {
