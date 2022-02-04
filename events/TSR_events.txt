@@ -429,7 +429,7 @@ country_event = {
 			Character = TSR_young_marshal
 			Promote_leader = yes
 			country_leader = {
-				ideology = oligarchism
+				ideology = nazism
 				expire = "2040.1.1.1"
 				id = -1
 			}

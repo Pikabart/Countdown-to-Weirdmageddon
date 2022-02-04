@@ -1,0 +1,254 @@
+﻿l_english:
+
+TSR_letter_to_neu_berlin:0 "A Letter to Neu Berlin"
+TSR_letter_to_neu_berlin_desc:0 "Through dark channels and quiet infiltrations, a letter makes it's way into Neu Berlin."
+
+TSR_letter_to_mewni:0 "A Letter to Butterfly Castle"
+TSR_letter_to_mewni_desc:0 "Across the Mewman countryside, a letter makes it's way to Butterfly Castle."
+
+TSR_letter_to_johansen_banks:0 "A Letter to the Johansen Banks"
+TSR_letter_to_johansen_banks_desc:0 "Across the swamps of Boggabah, a letter makes it's way to the Johansen Banks."
+
+TSR_letter_to_officer_corps:0 "A Letter to the Officer Corps"
+TSR_letter_to_officer_corps_desc:0 "Walking into his office, Field Marshal Petyr Grozsny notices a letter on his desk."
+
+TSR_new_weapon_schematics:0 "New Weapon Schematics"
+TSR_new_weapon_schematics_desc:0 "In order to make the Cavalry corps, Tsar Deez will order a shipment of weapons sourced interdimensionally. The hope is that we may reverse engineer them."
+
+TSR_mewman_architechture:0 "Mewman Inspired Architecture"
+TSR_mewman_architechture_desc:0 "The Tsar has ordered the construction of Mewman style buildings. While admittedly they are cheaper to construct, the Tsar ordered the construction because he believes they are "Aesthetically and practically superior to our current buildings.""
+
+TSR_industry_like_mewni:0 "An Economy Like Mewni's"
+TSR_industry_like_mewni_desc:0 "The Tsar has ordered the application of Mewman economics to the Tsardom."
+
+TSR_strategy_books:0 "Mewman Strategy Books"
+TSR_strategy_books_desc:0 "The Tsar will order a shipment of Mewman books about strategy and history."
+
+TSR_mewman_advisors:0 "Mewman Advisors"
+TSR_mewman_advisors_desc:0 "The Tsar will ask the Kingdom of Mewni for advisors to become part of the high command and help in the development of the Cavalry Corps."
+
+TSR_army_like_mewni:0 "An Army Like Mewni's"
+TSR_army_like_mewni_desc:0 "Before we can fully convert to Mewman Cavalry, a small test army shall be organized."
+
+TSR_financial_report:0 "Financial Report"
+TSR_financial_report_desc:0 "The Tsar's attempt at reforming the army's Cavalry Units is not free. A financial report will come in soon, and we will have to balance the budget if we are to continue this endeavor.\n\nIt's probably nothing too bad though."
+
+#############
+#SECOND TREE#
+#############
+
+TSR_not_stonks:0 "§RNOT STONKS§!"
+TSR_not_stonks_desc:0 "THE PEASANTS ARE RIOTING OUTSIDE THE TSAR'S VACATION HOME IN THE CREAMLIN. HE'S TRAPPED IN THERE. THEY'RE DEMANDING HIS ABDICATION.\n§RAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAH§!"
+
+TSR_chaos_in_the_kremlin:0 "Chaos in the Creamlin"
+TSR_chaos_in_the_kremlin_desc:0 "As the peasants riot outside the Tsar's vacation home in the Creamlin, the Tsar has his hands on something new. A telephone."
+
+TSR_queen_and_the_people:0 "The Queen and the People"
+TSR_queen_and_the_people_desc:0 "As the peasants riot outside the Tsar's vacation home in the Creamlin, the Tsarina considers her options."
+
+TSR_secret_military_meeting:0 "A Secret Military Meeting"
+TSR_secret_military_meeting_desc:0 "As the peasants riot outside the Tsar's vacation home in the Creamlin, the military holds a meeting in back in Mothscow."
+
+TSR_light_for_people:0 "A Light for the People"
+TSR_light_for_people_desc:0 "As the peasants riot outside the Tsar's vacation home in the Creamlin, the Lampist Patriarch speaks to the people."
+
+TSR_break_protests:0 "Break The Protests"
+TSR_break_protests_desc:0 "More forces have arrived but they are only holding the protesters back. The Tsar will call his personal guards from Mothscow to break up the riot."
+
+TSR_vague_promises:0 "Vague Promises"
+TSR_vague_promises_desc:0 "The Tsar will make vague promises to placate the peasants. Of course these promises will be quickly forgotten in the long term so we won't have to deliver on them."
+
+TSR_gaslight_the_people:0 "Gaslight The People"
+TSR_gaslight_the_people_desc:0 "What? You think the Tsar is badmouthing his own people? Why the heck would he do that? No, I've never heard him talk about "Mewman supremacy." Must be a dream you had."
+
+TSR_poverty_requirements:0 "Lower Poverty Specifications"
+TSR_poverty_requirements_desc:0 "We will lower the amount of money one must have in order to be considered "In Poverty." This will improve outsider's perception of us and foreign businesses will be more confident in us."
+
+TSR_straight_up_lie:0 "Straight Up Lie"
+TSR_straight_up_lie_desc:0 ""NOOO thats wrong! Are you actually just lying to your people?"\n\n"Yes""
+
+TSR_consider_our_options:0 "Consider Our Options"
+TSR_consider_our_options_desc:0 "The dust is settling, it is time to slowly and calmly collect ourselves."
+
+TSR_seize_horses:0 "Seize Horses From The People"
+TSR_seize_horses_desc:0 "We will seize what few horses our people have and enter them into the Cavalry program. Better to have them in there than in our people's bellies."
+
+TSR_steal_horse_from_neighbor:0 "Seize horses from the Kaiserreich"
+TSR_steal_horse_from_neighbor_desc:0 "We will take a force and raid the neighboring "Kaiserreich" for horses."
+
+TSR_tax_peasantry:0 "Tax the Peasantry"
+TSR_tax_peasantry_desc:0 "There is a simple solution to getting more money: Taxing the poor!"
+
+TSR_rev_up_the_money_printer:0 "Rev up the Money Printer"
+TSR_rev_up_the_money_printer_desc:0 "Altough our currency is based on gold, we can create a sort of certificate of ownership for them. Thus we can make more money without having the gold to make more."
+
+TSR_sell_artifacts:0 "Sell of Artifacts"
+TSR_sell_artifacts_desc:0 "The Tsardom is very old. Mewman collectors will pay very much for some of our things."
+
+TSR_steal_johansen_horses:0 "Steal Johansen Horses"
+TSR_steal_johansen_horses_desc:0 "The neighboring Johansen Kingdom, which is part of the Kingdom of Mewni, has alot of horses which we can... borrow."
+
+TSR_peace_money_stability:0 "Peace, Money, Stability"
+TSR_peace_money_stability_desc:0 "Altough the effects of the Tsar's cavalry project debtcan still be felt, it has been partly remedied. The people are calm, the Tsar only speaks of Mewman supremacy in private, and the court is hopeful."
+
+TSR_QUEEN_communicate_with_the_people:0 "Establish Communications"
+TSR_QUEEN_communicate_with_the_people_desc:0 "The people cannot be put down by force. Instead, the Tsarina will create lines of communications to hear out the people and negotiate with them."
+
+TSR_QUEEN_peoples_discontent:0 "Understand the People"
+TSR_QUEEN_peoples_discontent_desc:0 "The Tsarina will go to the protests in person, conversing with leaders and living amongnst them for a while in order to understand their plight."
+
+TSR_QUEEN_agitate_people:0 "Agitate the People"
+TSR_QUEEN_agitate_people_desc:0 "The Tsarina will make some statements about the Tsar, some of which may or may not be true, in order to get the people angry."
+
+TSR_QUEEN_org_people:0 "Organize the People"
+TSR_QUEEN_org_people_desc:0 "The Tsarina will work with the peasant leaders to better integrate the peasants into her plans."
+
+TSR_QUEEN_establish_loyalists:0 "Establish Political Loyalists"
+TSR_QUEEN_establish_loyalists_desc:0 "Although the Tsarina is popular with the people, she has little sway in the court. The solution is to put freinds of the Tsarina in positions of power.\n\nIn fact, the Tsarina has someone particular in mind..."
+
+TSR_QUEEN_sabatoge:0 "Sabatoge Finances"
+TSR_QUEEN_sabatoge_desc:0 "The main reason the peasants got out of control is that the Tsardom's finances tanked and the Tsar could not afford to put down the protests. We will exemplify this."
+
+TSR_QUEEN_plan:0 "Integration of Plans"
+TSR_QUEEN_plan_desc:0 "The Tsarina's plans and the peasant's plans shall be intertwined, and they will not take any unessecary actions."
+
+TSR_QUEEN_mewman_coup:0 "A Mewman Coup"
+TSR_QUEEN_mewman_coup_desc:0 "It is time."
+
+TSR_QUEEN_daggers_in_every_corner:0 "Total Purge"
+TSR_QUEEN_daggers_in_every_corner_desc:0 "Although the Tsarina is loved by the people, politicians and courtiers hate her. Daggers are in every corner of the court. The Tsarina has resolved to enact a total purge."
+
+TSR_QUEEN_mass_conscription:0 "Mass conscription"
+TSR_QUEEN_mass_conscription_desc:0 "By conscripting mass amounts of people into the army the old soldiers will be outnumbered and silenced by the new soldiers."
+
+TSR_QUEEN_universal_education:0 "Universal Education"
+TSR_QUEEN_universal_education_desc:0 "At this moment, education is a luxury. Only the rich, or those living under Forest High, can have it. By making education not only accsesible but mandatory, the people will be more thankful towards the Tsarina."
+
+TSR_QUEEN_poverty_relief:0 "Poverty Relief"
+TSR_QUEEN_poverty_relief_desc:0 "Most people measure Golden Nuts by fractions. Every person living in poverty, (That is, 95% of the populace,) will recieve one Golden Nut each month."
+
+TSR_QUEEN_loyalty_benefits:0 "Loyalty Benefits"
+TSR_QUEEN_loyalty_benefits_desc:0 "The people are loving the poverty relief! But most are not vocal about it. We will give more Golden Nuts to those who actively voice their approval of the system."
+
+TSR_QUEEN_monster_path:0 "Replace the Purged with Monster Loyalists"
+TSR_QUEEN_monster_path_desc:0 "Only Monsters can, in good faith, govern Monsters."
+
+TSR_QUEEN_monster_path_2:0 "Enshrine then Adopt the Old Legacy"
+TSR_QUEEN_monster_path_2_desc:0 "Even though Tsarina Katerina is a Mewman, most people don't know that. Thus, she will make an effort to adopt the Monster culture and find her own place within the history of Tsars."
+
+TSR_QUEEN_monster_path_3:0 "Power to the People"
+TSR_QUEEN_monster_path_3_desc:0 "The people will be given some limited power. Democracies on the rural village scale, companies being given more rights, etc."
+
+TSR_QUEEN_mewman_path:0 "Replace the Purged with Mewmans"
+TSR_QUEEN_mewman_path_desc:0  "Only Mewmans can, effectivley, govern Monsters."
+
+TSR_QUEEN_mewman_path_2:0 "Defame then Erase the Old Legacy"
+TSR_QUEEN_mewman_path_2_desc:0 "Tsarina Katerina is a Mewman. This fact is becoming more and more known, and it is only a matter of time before people start getting upset about it. The solution is to make the previous monster regime look worse in comparison. After that, we will make the the people forget the previous regime altogether."
+
+TSR_QUEEN_mewman_path_3:0 "Empower Mewmans"
+TSR_QUEEN_mewman_path_3_desc:0 "Mewmans will be given special privileges, and monsters will be given... less privileges."
+
+TSR_QUEEN_enlighten_people:0 "To Enlighten a People"
+TSR_QUEEN_enlighten_people_desc:0 ""The people are becoming richer and richer. Children and adults alike are getting their education. When I appear before them, they cheer despite me being a Mewman. To enlighten a people, it is a beautiful thing."\n\n-Tsarina Katerina"
+
+TSR_QUEEN_mewmans_march:0 "The Mewmans March Forever Onwards!"
+TSR_QUEEN_mewmans_march_desc:0 ""Monster politics is easy to understand. 300 years ago, working with the Mewmans made the Tsardom prosper. The previous Tsar tried copy Mewmans, failing. Only Mewmans can produce a prosperous result. And in the end, the Mewmans march forever onwards!"\n\n-Tsarina Katerina"
+
+TSR_MIL_plan:0 "Plan it Out"
+TSR_MIL_plan_desc:0 "Cohesion is a big part in any large group project. We will set up regular times to meet, wherin we will plan our next moves."
+
+TSR_MIL_loyalists:0 "Establish Loyalists"
+TSR_MIL_loyalists_desc:0 "We may have hegemony in the military, but we have almost no influence in the court. We must remedy this."
+
+TSR_MIL_bribery_blackmail:0 "Bribery and Blackmail"
+TSR_MIL_bribery_blackmail_desc:0 "Who could resist a fat nut?"
+
+TSR_MIL_flex:0 "Flex Our Muscles"
+TSR_MIL_flex_desc:0 "We will make shows of force and cement the idea that the military is superior into the minds of the courtiers."
+
+TSR_MIL_sabatoge:0 "Sabatoge Finances"
+TSR_MIL_sabatoge_desc:0 "We will sabatoge the Tsar's plans to remedy the financial situation."
+
+TSR_MIL_manipulate_schedule:0 "Manipulate the Tsar's Schedule"
+TSR_MIL_manipulate_schedule_desc:0 "We will change the Tsar's schedules to fit better with our plans. This will of course result in some neglected problems."
+
+TSR_MIL_roadblocks:0 "Roadblocks and Checkpoints"
+TSR_MIL_roadblocks_desc:0 "We will extract information and... resources... from the civilian population."
+
+TSR_MIL_coup:0 "An Easy Coup"
+TSR_MIL_coup_desc:0 "Everything is in place, the military and court are on our side. No one can possibly oppose us!"
+
+TSR_MIL_parade:0 "Victory Parade!"
+TSR_MIL_parade_desc:0 "The coup has happened with no casulaties! (Save for the Tsar's family, of course.) It's time to celebrate!\n\nI'm sure the people will love us!"
+
+TSR_MIL_daggers_with_the_people:0 "Daggers with the People"
+TSR_MIL_daggers_with_the_people_desc:0 "Surprisingly, it is the people themselves who are efficiently resisting our rule. Despite the army and the court being on our side, [root.getleader] still has alot of work ahead of him."
+
+TSR_MIL_police_corps:0 "Form a Police Corps"
+TSR_MIL_police_corps_desc:0 "We will form a specialized Corps of the military to deal with domestic crimes and unrest."
+
+TSR_MIL_judge_jury_exec:0 "Judge, Jury, and Executioner"
+TSR_MIL_judge_jury_exec_desc:0 "Tradition states that in order to punish a domestic civilian they need to go through a trial first. This old, outdated notion must be done away with to preserve the nation."
+
+TSR_MIL_loyalty_or_death:0 "Loyalty or Death"
+TSR_MIL_loyalty_or_death_desc:0 "Fear is not an effective motivator. But it is an effective deterrent. To deter people from opposing our rule, fear of death shall be employed."
+
+TSR_MIL_military_above_all:0 "Military Above All"
+TSR_MIL_military_above_all_desc:0 "We will cripple the civilian economy to better allocate resources to war production."
+
+TSR_MIL_all_serve_the_military:0 "All Serve the Military"
+TSR_MIL_all_serve_the_military_desc:0 "If one does not serve the military, they are a detriment to our society and will be shot. Don't worry, the children can fill the factories.\n\nThat is, until they're qualified for training."
+
+TSR_MIL_culture_serve_military:0 "Culture Serves the Military"
+TSR_MIL_culture_serve_military_desc:0 "The people are still not completley devoted to us. Requests for days off during holidays, rations being prepared in inefficient ways, etc. We will erase these notions so that the only foods are the cheap ones, the only holidays will celebrate the military, the only social structure will be the chain of command, and the only feelings towards the past are to be pride for our people and hatred for the Simp Deez Nuts."
+
+TSR_MIL_society_under_the_jackboot:0 "A Society Under the Jackboot"
+TSR_MIL_society_under_the_jackboot_desc:0 "§CThe year is [GetYear], and Mothscow rests under the jackboot.§! The Tsar incinerated our old order, but out of it's ashes rises the Mothscow phoenix. We will trample our enemies under our march, not even the Mewman hegemony can extinguish our flame.\n\nHail to the Marshal. Hail to his... New Order."
+
+TSR_patriarch_people:0 "A Patriarch for the People"
+TSR_patriarch_people_desc:0 "The Tsar cannot rule his people. If he is allowed to continue to rule, he will lead our people to either ruin or Mewman subjagation. In the name of the lamp, with it's holiness and light behind us, we must restore holiness to government."
+
+TSR_illuminate_misdoings:0 "Illuminate the Tsar's Misdoings."
+TSR_illuminate_misdoings_desc:0 "The Tsar's simping isn't the only bad thing he's done. Mismanagement of funds, taking out large loans with no plan on how to pay them back, and more."
+
+TSR_enshrine_patriarch:0 "Enshrine the Patriarch"
+TSR_enshrine_patriarch_desc:0 "There are some rumors regarding the Patriarch. We must dispell them while at the same time lifting him up to be a larger-than-life figure."
+
+TSR_demonize_tsar:0 "Demonize the Tsar"
+TSR_demonize_tsar_desc:0 "It is not enough that the Tsar be shown to the world for what he is. His reputation must be dragged through the mud and left before the people. For the greater good of course."
+
+TSR_sabotage_plans_lampist:0 "Sabotoge the Tsar's Financial Plans"
+TSR_sabotage_plans_lampist_desc:0 "We will sabatoge the Tsar's plans to remedy the financial situation."
+
+TSR_repurpose_buildings:0 "Seize Buildings"
+TSR_repurpose_buildings_desc:0 "Buildings will be seized and repruposed into churches."
+
+TSR_recruit_peasantry:0 "Recruit Peasantry"
+TSR_recruit_peasantry_desc:0 "The peasantry are a holy people. They will voluntarily give themselves to the church, we just need to let them."
+
+TSR_peoples_coup:0 "The People's Holy Coup"
+TSR_peoples_coup_desc:0 "The Patriarch will give the go-ahead, as long as nobody gets hurt. Things will be unpredictable though, and some collateral damage is to be expected."
+
+TSR_entering_palace:0 "Entering the Palace"
+TSR_entering_palace_desc:0 "It is done. The Tsar is dead, may he rest in peace. But long live the Patriarch!"
+
+TSR_conversion_benefits:0 "Conversion Benefits"
+TSR_conversion_benefits_desc:0 "There are those who are too preoccupied with trying to survive to care about being bapitzed. Not to worry, we will give them some money as a reward for turning to the true faith and practicing it regularly. Even those who use this system purely for material gain will eventually start beleiving!"
+
+TSR_universal_education:0 "Universal Education"
+TSR_universal_education_desc:0 "Unfourunately, most of our followers cannot read the holy texts. We will fix this, and maybe teach them some other things along the way."
+
+TSR_charity_state:0 "The Charity State"
+TSR_charity_state_desc:0 ""The state serves it's people, no?"\n\n-Holy Patriarch Barth Gesenkiye"
+
+TSR_religious_law:0 "Religous Law"
+TSR_religious_law_desc:0 "The current system of law is based on dozens of Tsars' insterests compounding ontop of one another. Instead of this we will use the one true leader's word as law!"
+
+TSR_religious_items:0 "Unrestricted Manufacture"
+TSR_religious_items_desc:0 "Under the Tsar's rule, manufacture of religous items was restricted. Now without the Tsar, we can make whatever we want without any taxes! Even weapons!"
+
+TSR_obliterate_dissents:0 "State Sponsored Immigration."
+TSR_obliterate_dissents_desc:0 ""You hate our rule? You want to leave? Then i'll make a caravan for you, as long as you stop talking about us."\n\n-Holy Patriarch Barth Gesenkiye"
+
+TSR_holy_kingdom:0 "A Holy Kingdom"
+TSR_holy_kingdom_desc:0 ""From Mothscow to Key-ev, a light has graced the land. The Patriarch, he had given the spark. But we, we are the flame."-Anonymous Letter Writer"

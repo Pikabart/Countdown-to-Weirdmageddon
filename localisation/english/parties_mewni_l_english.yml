@@ -9,7 +9,12 @@
  LUD_fascism_party:0 "Will of Toffee"
  LUD_communism_party:0 "Monster's Revolt"
  LUD_democratic_party:0 "Monster Council"
- LUD_neutrality_party:0 "House Averius-Ludo"
+ LUD_neutrality_party:0 "House Avarius-Ludo"
+ 
+ TSR_fascism_party:0 "Military Influence"
+ TSR_communism_party:0 "Peasant's Radical Resistance"
+ TSR_democratic_party:0 "Peasant's Moderate Resistance"
+ TSR_neutrality_party:0 "House Nuts"
  
  
  
