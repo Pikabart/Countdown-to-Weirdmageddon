@@ -37,3 +37,8 @@ PIG_IND = {
 color = rgb { 150 150 150 }
 color_ui = rgb { 150 150 150 }
 }
+
+TSR_HOLY = {
+ color = rgb { 162 8 67 }
+ color_ui = rgb { 162 8 67 }
+}

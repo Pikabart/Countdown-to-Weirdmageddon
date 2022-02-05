@@ -1,0 +1,13 @@
+﻿l_english:
+
+AVA_flavor.1.t:0 "The Runt of the Litter"
+AVA_flavor.1.d:0 "Some years ago, our kingdom was great. It stretched from the Kappa Streams to the Avarius High Grounds. Then Ludo, the little brat, the smallest runt of the litter, kicked us out of our own castle with his hoodlum goons! We would have kicked him right back out and taken it back within a few months, if it had not been for the [DRG.getname]'s uprising!\n\nNow we are here. Far away from our castle, hiding our vacation home, riding out a storm which won't end anytime soon."
+AVA_flavor.1.a:0 "We will take it back!"
+
+AVA_flavor.2.t:0 "Looking to the East"
+AVA_flavor.2.d:0 "Lord Brudo Avarius trudged through the moist undergrowth of the Forest of Certain Death. He would’ve gotten a horse, but for some reason all the horses had gotten weaker and they collapsed under his weight. "They don't make them like they used to..." Brudo sighed.\n\nEventually he reached the edge of the forest. Outside the forest was a cold, windy, and desolate place. But Brudo knew what was out there. He took in the cold plain air as he remembered what was out there. If he kept going he would hit the Avarius Mines. Going further he would hit the Monster Hills, now home to the organization of [DRG.getname]. Then after that, would be the castle. Home sweet home.\n\nFor now though, his kingdom had to gather strength. And so he took one last look at the east, turned back around, and headed to the vacation home."
+AVA_flavor.2.a:0 ""I’ll get that castle back. I swear it.""
+
+AVA_change_tree.1.t:0 "Packing Bags"
+AVA_change_tree.1.d:0 ""I’m heading out." Lord Brudo Avarius was carrying a bulging bag. "I left hotdogs defrosting in the sink."\n\n"Ach, like you make food in this place anyway!" Lady Avarius said while holding a baby. The kids were playing around the house, doing their best to ignore their argument. "So what, you decide that you have the dignity to tell your family that you're leaving them, but not the dignity to leave any money?"\n\n"I’m not leaving this family! Not yet, anyway." Brudo opened the door. "I’m taking a vacation. Unfortunately it’s only for the day. I’ll still have to return to this dump at night. At least then you’ll be sleeping and stop nagging!" He stepped outside.\n\n"I stay up till 11:00pm doing chores around this house! You never notice how long I stay up!?"\n\n"Yes, because this place looks like an abandoned detroit shopping mall anyway!""
+AVA_change_tree.1.a:0 "He slammed the door and began his journey."

@@ -268,14 +268,12 @@ focus_tree = {
 		completion_reward = {
 			add_stability = -0.05
 			retire_character = TSR_tsar
-			add_country_leader_role = {
-				Character = TSR_grand_marshal
-				Promote_leader = yes
-				country_leader = {
-					ideology = oligarchism
-					expire = "2040.1.1.1"
-					id = -1
-				}
+			set_politics = {
+				ruling_party = fascism
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.5
 			}
 		}
 		

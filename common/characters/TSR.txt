@@ -54,6 +54,11 @@ characters = {
 					factor = 1.000
 				}
 		}
+		country_leader = {
+			ideology = nazism
+			expire = "2040.1.1.1"
+			id = -1
+		}
 	}
 	TSR_young_marshal = {
 		name = "David Tuschelsk"
@@ -75,11 +80,11 @@ characters = {
 		}
 	}
 	TSR_patriarch = {
-		name = "Barth Gesenkyie"
+		name = "Holy Patriarch Barth Gesenkyie"
 		desc = ""
 		portraits = {
 			civilian = {
-				large = "hoi4_portrait_patriarch"
+				large = "GFX_hoi4_portrait_patriarch"
 				small = "GFX_idea_advisor_patriarch"
 			}
 		}

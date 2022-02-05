@@ -194,6 +194,7 @@ ideas = {
 				local_manpower = 0.1
 				research_speed_factor = 0.05
 				consumer_goods_factor = 0.1
+				stability_weekly = 0.004
 			}
 		}
 		TSR_QUEEN_pro_monster = {
@@ -317,6 +318,7 @@ ideas = {
 				stability_factor = 0.20
 				consumer_goods_factor = 0.15
 				research_speed_factor = 0.05
+				stability_weekly = 0.002
 			}
 		}
 		TSR_temp_stability_1 = {

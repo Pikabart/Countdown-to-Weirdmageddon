@@ -3,6 +3,35 @@
 ###########################
 
 add_namespace = AVA_change_tree
+add_namespace = AVA_flavor
+
+country_event = {
+	id = AVA_flavor.1
+	title = AVA_flavor.1.t
+	desc = AVA_flavor.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = AVA_flavor.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = AVA_flavor.2
+	title = AVA_flavor.2.t
+	desc = AVA_flavor.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = AVA_flavor.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
 
 country_event = {
 	id = AVA_change_tree.1

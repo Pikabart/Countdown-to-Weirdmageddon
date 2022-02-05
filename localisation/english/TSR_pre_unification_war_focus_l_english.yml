@@ -182,7 +182,7 @@ TSR_MIL_parade:0 "Victory Parade!"
 TSR_MIL_parade_desc:0 "The coup has happened with no casulaties! (Save for the Tsar's family, of course.) It's time to celebrate!\n\nI'm sure the people will love us!"
 
 TSR_MIL_daggers_with_the_people:0 "Daggers with the People"
-TSR_MIL_daggers_with_the_people_desc:0 "Surprisingly, it is the people themselves who are efficiently resisting our rule. Despite the army and the court being on our side, there is still work to be done."
+TSR_MIL_daggers_with_the_people_desc:0 "Surprisingly, it is the people themselves who are efficiently resisting our rule. Despite the army and the court being on our side, [root.getleader] still has alot of work ahead of him."
 
 TSR_MIL_police_corps:0 "Form a Police Corps"
 TSR_MIL_police_corps_desc:0 "We will form a specialized Corps of the military to deal with domestic crimes and unrest."
@@ -203,4 +203,52 @@ TSR_MIL_culture_serve_military:0 "Culture Serves the Military"
 TSR_MIL_culture_serve_military_desc:0 "The people are still not completley devoted to us. Requests for days off during holidays, rations being prepared in inefficient ways, etc. We will erase these notions so that the only foods are the cheap ones, the only holidays will celebrate the military, the only social structure will be the chain of command, and the only feelings towards the past are to be pride for our people and hatred for the Simp Deez Nuts."
 
 TSR_MIL_society_under_the_jackboot:0 "A Society Under the Jackboot"
-TSR_MIL_society_under_the_jackboot_desc:0 "§CThe year is [GetYear], and Mothscow rests under the jackboot.§! The Tsar incinerated our old order, but out of it's ashes rises the Mothscow phoenix. We will trample our enemies under our march, and we will extinguish the fire that is the Mewman hegemony.\n\nHail to the Marshal. Hail to his... New Order."
+TSR_MIL_society_under_the_jackboot_desc:0 "§CThe year is [GetYear], and Mothscow rests under the jackboot.§! The Tsar incinerated our old order, but out of it's ashes rises the Mothscow phoenix. We will trample our enemies under our march, not even the Mewman hegemony can extinguish our flame.\n\nHail to the Marshal. Hail to his... New Order."
+
+TSR_patriarch_people:0 "A Patriarch for the People"
+TSR_patriarch_people_desc:0 "The Tsar cannot rule his people. If he is allowed to continue to rule, he will lead our people to either ruin or Mewman subjagation. In the name of the lamp, with it's holiness and light behind us, we must restore holiness to government."
+
+TSR_illuminate_misdoings:0 "Illuminate the Tsar's Misdoings."
+TSR_illuminate_misdoings_desc:0 "The Tsar's simping isn't the only bad thing he's done. Mismanagement of funds, taking out large loans with no plan on how to pay them back, and more."
+
+TSR_enshrine_patriarch:0 "Enshrine the Patriarch"
+TSR_enshrine_patriarch_desc:0 "There are some rumors regarding the Patriarch. We must dispell them while at the same time lifting him up to be a larger-than-life figure."
+
+TSR_demonize_tsar:0 "Demonize the Tsar"
+TSR_demonize_tsar_desc:0 "It is not enough that the Tsar be shown to the world for what he is. His reputation must be dragged through the mud and left before the people. For the greater good of course."
+
+TSR_sabotage_plans_lampist:0 "Sabotoge the Tsar's Financial Plans"
+TSR_sabotage_plans_lampist_desc:0 "We will sabatoge the Tsar's plans to remedy the financial situation."
+
+TSR_repurpose_buildings:0 "Seize Buildings"
+TSR_repurpose_buildings_desc:0 "Buildings will be seized and repruposed into churches."
+
+TSR_recruit_peasantry:0 "Recruit Peasantry"
+TSR_recruit_peasantry_desc:0 "The peasantry are a holy people. They will voluntarily give themselves to the church, we just need to let them."
+
+TSR_peoples_coup:0 "The People's Holy Coup"
+TSR_peoples_coup_desc:0 "The Patriarch will give the go-ahead, as long as nobody gets hurt. Things will be unpredictable though, and some collateral damage is to be expected."
+
+TSR_entering_palace:0 "Entering the Palace"
+TSR_entering_palace_desc:0 "It is done. The Tsar is dead, may he rest in peace. But long live the Patriarch!"
+
+TSR_conversion_benefits:0 "Conversion Benefits"
+TSR_conversion_benefits_desc:0 "There are those who are too preoccupied with trying to survive to care about being bapitzed. Not to worry, we will give them some money as a reward for turning to the true faith and practicing it regularly. Even those who use this system purely for material gain will eventually start beleiving!"
+
+TSR_universal_education:0 "Universal Education"
+TSR_universal_education_desc:0 "Unfourunately, most of our followers cannot read the holy texts. We will fix this, and maybe teach them some other things along the way."
+
+TSR_charity_state:0 "The Charity State"
+TSR_charity_state_desc:0 ""The state serves it's people, no?"\n\n-Holy Patriarch Barth Gesenkiye"
+
+TSR_religious_law:0 "Religous Law"
+TSR_religious_law_desc:0 "The current system of law is based on dozens of Tsars' insterests compounding ontop of one another. Instead of this we will use the one true leader's word as law!"
+
+TSR_religious_items:0 "Unrestricted Manufacture"
+TSR_religious_items_desc:0 "Under the Tsar's rule, manufacture of religous items was restricted. Now without the Tsar, we can make whatever we want without any taxes! Even weapons!"
+
+TSR_obliterate_dissents:0 "State Sponsored Immigration."
+TSR_obliterate_dissents_desc:0 ""You hate our rule? You want to leave? Then i'll make a caravan for you, as long as you stop talking about us."\n\n-Holy Patriarch Barth Gesenkiye"
+
+TSR_holy_kingdom:0 "A Holy Kingdom"
+TSR_holy_kingdom_desc:0 ""From Mothscow to Key-ev, a light has graced the land. The Patriarch, he had given the spark. But we, we are the flame."-Anonymous Letter Writer"
