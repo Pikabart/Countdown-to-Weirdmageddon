@@ -1,0 +1,33 @@
+### Leaders, Generals, Admirals for CAL ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_leaders_gerald_green"
+			texturefile = "gfx/leaders/CAL/hoi4_portrait_FPI_HOLDER.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_shermie_pines"
+			texturefile = "gfx/leaders/CAL/hoi4_portrait_FPI_HOLDER.dds"
+		}	
+		spriteType = {
+			name = "GFX_leaders_emily_pines"
+			texturefile = "gfx/leaders/CAL/hoi4_portrait_FPI_HOLDER.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_joshua_norton_v1"
+			texturefile = "gfx/leaders/CAL/hoi4_portrait_norton_v1.dds"
+		}	
+	spriteType = {
+			name = "GFX_leaders_joshua_norton_v2"
+			texturefile = "gfx/leaders/CAL/hoi4_portrait_FPI_HOLDER.dds"
+		}	
+	spriteType = {
+			name = "GFX_leaders_hector_diaz_north"
+			texturefile = "gfx/leaders/CAL/hoi4_portrait_FPI_HOLDER.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_carman_evertt"
+			texturefile = "gfx/leaders/CAL/hoi4_portrait_FPI_HOLDER.dds"
+		}	
+	
+}

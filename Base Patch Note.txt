@@ -1,3 +1,17 @@
+############################ ITGUY 02/04/22 
+
+common/characters
+common/defines
+common/national_focus
+
+events
+
+history/countries
+
+interface
+
+localization
+
 ############################ ITGUY 02/01/22 
  # For TSR Patriarch event
 events

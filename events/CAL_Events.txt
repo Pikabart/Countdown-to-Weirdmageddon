@@ -160,12 +160,7 @@ country_event = { # California chooses Norton for Governor
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Joshua Norton"
-			desc = "POLITICS_NORTON_DESC"
-			picture = "hoi4_portrait_norton_v1.dds"
-			ideology = liberalism #conservatism
-		}
+		
 		hidden_effect={
 			add_popularity = {
 				ideology = democratic

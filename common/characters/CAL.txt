@@ -1,0 +1,225 @@
+############################################################################
+### California Characters
+############################################################################
+characters = {
+	CAL_gerald_green = {
+		name = "Gerald Green" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_gerald_green"
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_GREEN_DESC"
+			ideology = liberalism
+			expire = "2040.1.1.1"
+			id = -1
+		}	
+	}
+	
+	CAL_joshua_norton_v1 = {
+		name = "Joshua Norton" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_joshua_norton_v1"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			desc = "MILITARY_JOSHUA_NORTON_v1_DESC"
+			traits = { inspirational_leader }
+			skill = 2
+			visible = {
+				always = false 
+			}
+
+			attack_skill = 2
+			defense_skill = 2		
+			planning_skill = 2
+			logistics_skill = 2
+		}	
+		
+	}
+	
+	CAL_joshua_norton_v2 = {
+		name = "Joshua Norton" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_joshua_norton_v2"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			desc = "MILITARY_JOSHUA_NORTON_v2_DESC"
+			traits = { infantry_expert inspirational_leader thorough_planner expert_delegator}
+			skill = 4
+			visible = {
+				always = false
+			}
+
+			attack_skill = 4
+			defense_skill = 4		
+			planning_skill = 4
+			logistics_skill = 4
+		}	
+		
+	}
+	
+		CAL_shermie_pines = {
+		name = "Sherman Pines" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_shermie_pines"
+			}
+		}
+
+		field_marshal = {
+			desc = "MILITARY_SHERMIE_PINES_DESC"
+			traits = { war_hero logistics_wizard fast_planner organisational_leader }
+			skill = 5
+			visible = {
+				has_completed_focus = CAL_shermie.0 
+			}
+
+			attack_skill = 2
+			defense_skill = 2		
+			planning_skill = 6
+			logistics_skill = 6
+		}	
+	}
+	
+	CAL_emily_pines = {
+		name = "Emily Pines" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_emily_pines"
+				small = ""
+			}
+		}
+		corps_commander= {
+			traits = { engineer_officer fortress_buster invader_ii }
+			skill = 3
+			id = 8
+			
+			visible = {
+				has_completed_focus = CAL_pacific.1 
+			}
+
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 4
+		
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = emily_1
+			allowed = {
+				original_tag = CAL
+			}
+			available = {
+				has_completed_focus = CAL_pacific.1 
+			}
+			traits = { 
+				multi-skilled_1 
+			}
+			ai_will_do = {
+				factor = 80
+			}
+		}
+	}
+	
+	CAL_hector_diaz_north = {
+		name = "Hector Diaz-Guzman" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_hector_diaz_north"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		corps_commander= {
+			traits = { commando trickster}
+			skill = 3
+			id = 8
+			
+			visible = {
+				has_completed_focus = CAL_pacific.1 
+			}
+
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+		
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = advisor_gompers_1
+			available = {
+				OR = {
+					has_intelligence_agency = yes			
+					has_completed_focus = CAL_IBI.0 
+				}
+			}
+			traits = {  } 
+			ai_will_do = {
+				factor = 40
+				modifier = {
+					has_intelligence_agency = no
+					factor = 0
+				}
+			}
+		}
+	}
+	
+	CAL_carman_evertt_social = {
+		name = "Carman Evertt" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_carman_evertt"
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+	
+	CAL_carman_evertt_auto = {
+		name = "Carman Evertt" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_carman_evertt"
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+
+}###########################################################
+	
