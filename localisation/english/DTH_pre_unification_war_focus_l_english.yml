@@ -1,0 +1,88 @@
+﻿l_english:
+
+DTH_our_new_lands:0 "Our Lands"
+DTH_our_new_lands_desc:0 "Our lands will be inspected to by our leader. Mainly just to get Eugene outdoors."
+
+DTH_convert_krasnok_mines:0 "Conversion of the Krasnok Mines"
+DTH_convert_krasnok_mines_desc:0 "The people of the Krasnok Mines shall be converted and the foundations for build up shall be put in place."
+
+DTH_extraction_krasnok_mines:0 "Krasnok Mines Resource Extraction"
+DTH_extraction_krasnok_mines_desc:0 "More resources shall be extracted from the Krasnok Mines."
+
+DTH_development_krasnok_mines:0 "Break Open Closer Mines"
+DTH_development_krasnok_mines_desc:0 "We shall employ Krasnok Miners to find metal deposits closer to home."
+
+DTH_convert_neu_silesia:0 "Conversion of Neu ßileßia"
+DTH_convert_neu_silesia_desc:0 "The people of Neu ßileßia shall be converted and the foundations for build up shall be put in place."
+
+DTH_extraction_neu_silesia:0 "Neu ßileßia Resource Extraction"
+DTH_extraction_neu_silesia_desc:0 "More resources shall be extracted from Neu ßileßia."
+
+DTH_development_neu_silesia:0 "Break Open Closer Mines"
+DTH_development_neu_silesia_desc:0 "We shall employ Neu ßileßian Miners to find metal deposits closer to home."
+
+DTH_convert_neu_pruben:0 "Conversion of Neu Prußen"
+DTH_convert_neu_pruben_desc:0 "The people of Neu Prußen shall be converted and the foundations for build up shall be put in place."
+
+DTH_extraction_neu_pruben:0 "Neu Prußen Resource Extraction"
+DTH_extraction_neu_pruben_desc:0 "More resources shall be extracted from Neu Prußen."
+
+DTH_development_neu_pruben:0 "Neu Prußen Farming Expertise"
+DTH_development_neu_pruben_desc:0 "We shall employ Neu Prußen farmers to help develop farms closer to home."
+
+DTH_determine_doctrine:0 "Determine Our Doctrine"
+DTH_determine_doctrine_desc:0 "The big day is coming in which our leader must leave. Before he does so he must decide his succsesor."
+
+DTH_janna_bannana:0 "The Bannana"
+DTH_janna_bannana_desc:0 "Leader Eugene has chosen Janna Ordonia to be his succsesor! Hail to Leader Janna!"
+janna_leader_flag:0 "§YJanna Ordonia§! was chosen as succsesor"
+
+DTH_nature_worship:0 "The Ethereal Gardener"
+DTH_nature_worship_desc:0 "Leader Eugene has chosen J-Frog to be our leader! Hail to J-Frog!"
+hippie_leader_flag:0 "§YJ-Frog§! was chosen as succsesor"
+
+DTH_death_cult:0 "The Practical Darkness"
+DTH_death_cult_desc:0 "Leader Eugene has chosen Ozzie Zipp to be our leader! Hail to Ozzie!"
+death_cult_leader_flag:0 "§YOzzie Zipp§! was chosen as succsesor"
+
+DTH_mil_factory_1:0 "Military Factory"
+DTH_mil_factory_1_desc:0 ""
+
+DTH_mil_factory_2:0 "Military Factory"
+DTH_mil_factory_2_desc:0 ""
+
+DTH_civ_factory_1:0 "Civilian Factory"
+DTH_civ_factory_1_desc:0 ""
+
+DTH_civ_factory_2:0 "Civilian Factory"
+DTH_civ_factory_2_desc:0 ""
+
+DTH_peoples_fanatacisim:0 "The People's Fanatacisim"
+DTH_peoples_fanatacisim_desc:0 "[root.peoples_fanatacisim_scripted_loc]"
+peoples_fanatacisim_scripted_loc_death_cult:0 "The people under our control shall be sent into a mad frenzy of fanaticisim! So mad in fact, they won't notice a few people missing. They're so distracted, after all..."
+peoples_fanatacisim_scripted_loc_hippie_leader:0 "Our guys ahould be like... passionate about their faiths and stuff."
+peoples_fanatacisim_scripted_loc_janna_leader:0 "The council has decided to spur the people into action and fanaticism."
+peoples_fanatacisim_scripted_loc_generic:0 "This'll be left to whoever becomes leader after me."
+
+DTH_army_fanatacisim:0 "Fanatic Combat"
+DTH_army_fanatacisim_desc:0 "[root.army_fanatacisim_scripted_loc]"
+army_fanatacisim_scripted_loc_death_cult:0 "Hm yes... our previous project was a great succses... let's translate this passion into the army."
+army_fanatacisim_scripted_loc_hippie_leader:0 "Yo dude, making people passionate about their religon went great! A mob formed and joined our army!"
+army_fanatacisim_scripted_loc_janna_leader:0 "The people's fanatacicism is great! We shall channel this fanatacisim into our army."
+
+DTH_proper_temple:0 "A Proper Temple"
+DTH_proper_temple_desc:0 "[root.proper_temple_scripted_loc]"
+proper_temple_scripted_loc_death_cult:0 "It's time we built a real building to center ourselves around. There will of course, be a few secret rooms. For... private reasons."
+proper_temple_scripted_loc_hippie_leader:0 "Although this tent situation is kumbaya and all, having an actual building will be a sign of strength and cooperation to my dudes."
+proper_temple_scripted_loc_janna_leader:0 "The council has decided that there must be permanent buildings instead of tents for our administrative center."
+proper_temple_scripted_loc_generic:0 "I always wanted replace the camp with a real, permanent complex. Oh well, I guess my succsesor will have that honor."
+
+DTH_proper_doctrine:0 "Proper, Unified Doctrine"
+DTH_proper_doctrine_desc:0 "[root.proper_doctrine_scripted_loc]"
+proper_doctrine_scripted_loc_death_cult:0 "Our faith and doctrine is always rapidly changing. We need a solid, slow-changing doctrine in order to make stronger moral stands. This will also designate some as religous criminals. I'll handle some of them personally."
+proper_doctrine_scripted_loc_hippie_leader:0 "I'll put it into writing, that all beleifs are welcomed and will be added to the canon. Dudes who do not follow this rule are totes lame."
+proper_doctrine_scripted_loc_janna_leader:0 "The council has decided to create an unchanging holy text to abide by and not compromise on."
+proper_doctrine_scripted_loc_generic:0 "I never made a proper, solid doctrine to stand by and not comprimise on. There was just too many risks with stifling the cult's growth. I guess I never will make one."
+
+DTH_look_outwards:0 "Look Outwards"
+DTH_look_outwards_desc:0 "(Script Localization)"

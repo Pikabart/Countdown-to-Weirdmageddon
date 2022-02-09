@@ -44,6 +44,7 @@ country_event = {
 	option = { 
 		name = AVA_change_tree.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = AVA_pre_unification

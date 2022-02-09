@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-			add = 100 # 100% DTH get focus, 0% everyone else, so basicly gurrenteed
-			tag = DTH
+		#		add = 100
+		#	tag = DTH
 		}
 	}
 	
@@ -33,6 +33,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = DTH_flavor.1
 		}
 		
 		ai_will_do = {

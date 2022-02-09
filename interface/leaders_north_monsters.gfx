@@ -1,6 +1,10 @@
 ### Leaders and such for North Monsters ###
 spriteTypes = {
 
+	#####
+	#TSR#
+	#####
+
 	spriteType = {
 			name = "GFX_hoi4_portrait_grand_marshall"
 			texturefile = "gfx/leaders/TSR/hoi4_portrait_grand_marshall.dds"
@@ -22,4 +26,23 @@ spriteTypes = {
 			texturefile = "gfx/leaders/TSR/hoi4_portrait_patriarch.dds"
 		}
 	
+	#####
+	#DTH#
+	#####
+	spriteType = {
+		name = "GFX_hoi4_portrait_DTH_initial_leader"
+		texturefile = "gfx/leaders/DTH/hoi4_portrait_DTH_initial_leader.dds"
+	}
+	spriteType = {
+		name = "GFX_hoi4_portrait_death_cultist"
+		texturefile = "gfx/leaders/DTH/hoi4_portrait_death_cultist.dds"
+	}
+	spriteType = {
+		name = "GFX_hoi4_portrait_jannas_council"
+		texturefile = "gfx/leaders/DTH/hoi4_portrait_jannas_council.dds"
+	}
+	spriteType = {
+		name = "GFX_hoi4_portrait_hippie"
+		texturefile = "gfx/leaders/DTH/hoi4_portrait_hippie.dds"
+	}
 }

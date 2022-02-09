@@ -11,6 +11,9 @@ characters = {
 			ideology = oligarchism
 			expire = "2040.1.1.1"
 			id = -1
+			traits = {
+				mewman_simp
+			}
 		}
 	}
 	TSR_tsar_wife = {
