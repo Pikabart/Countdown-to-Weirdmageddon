@@ -1,4 +1,50 @@
 characters = {
+	DTH_initial_leader = {
+		name = "Eugene Alisach" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_DTH_initial_leader"
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire = "2040.1.1.1"
+			id = -1
+			traits = {
+				unenthusiastic_ruler
+				nerd
+				lucky
+			}
+		}
+	}
+	DTH_death_cultist = {
+		name = "Ozzie Zipp" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_death_cultist"
+			}
+		}
+	}
+	DTH_janna_ordonia_council = {
+		name = "Janna Ordonia's Council" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_jannas_council"
+			}
+		}
+	}
+	DTH_hippie_character = {
+		name = "Jonas 'J-Frog' Jackson" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_hippie"
+			}
+		}
+	}
 	DTH_generic_monster_advisor_1 = {
 		name = "DTH_generic_monster_advisor_1" 
 		desc = ""

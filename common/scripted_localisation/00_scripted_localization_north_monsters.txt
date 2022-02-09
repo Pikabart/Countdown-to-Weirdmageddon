@@ -1,0 +1,111 @@
+defined_text = {
+	name = peoples_fanatacisim_scripted_loc
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = death_cult_leader_flag
+		}
+		localization_key = peoples_fanatacisim_scripted_loc_death_cult
+	}
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = hippie_leader_flag
+		}
+		localization_key = peoples_fanatacisim_scripted_loc_hippie_leader
+	}
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = janna_leader_flag
+		}
+		localization_key = peoples_fanatacisim_scripted_loc_janna_leader
+	}
+	text = {
+		localization_key = peoples_fanatacisim_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = army_fanatacisim_scripted_loc
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = death_cult_leader_flag
+		}
+		localization_key = army_fanatacisim_scripted_loc_death_cult
+	}
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = hippie_leader_flag
+		}
+		localization_key = army_fanatacisim_scripted_loc_hippie_leader
+	}
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = janna_leader_flag
+		}
+		localization_key = army_fanatacisim_scripted_loc_janna_leader
+	}
+	text = {
+		localization_key = peoples_fanatacisim_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = proper_temple_scripted_loc
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = death_cult_leader_flag
+		}
+		localization_key = proper_temple_scripted_loc_death_cult
+	}
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = hippie_leader_flag
+		}
+		localization_key = proper_temple_scripted_loc_hippie_leader
+	}
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = janna_leader_flag
+		}
+		localization_key = proper_temple_scripted_loc_janna_leader
+	}
+	text = {
+		localization_key = proper_temple_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = proper_doctrine_scripted_loc
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = death_cult_leader_flag
+		}
+		localization_key = proper_doctrine_scripted_loc_death_cult
+	}
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = hippie_leader_flag
+		}
+		localization_key = proper_doctrine_scripted_loc_hippie_leader
+	}
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = janna_leader_flag
+		}
+		localization_key = proper_doctrine_scripted_loc_janna_leader
+	}
+	text = {
+		localization_key = proper_doctrine_scripted_loc_generic
+	}
+}

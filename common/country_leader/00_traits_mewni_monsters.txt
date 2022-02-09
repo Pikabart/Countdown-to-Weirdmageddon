@@ -1,0 +1,78 @@
+leader_traits = {
+
+##############################################################################
+	### IDEA TRAITS ###
+	
+	# drift is a percent applied weekly, ex: 0.1 = .1% weekly
+	
+	################
+	#Advisor Traits#
+	################
+	
+	unenthusiastic_ruler = {
+		random = no
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		stability_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	nerd = {
+		random = no
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		stability_factor = -0.05
+		research_speed_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	lucky = {
+		random = no
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		stability_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	unstable = {
+		random = no
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		stability_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	death_cultist = {
+		random = no
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		stability_factor = -0.05
+		offence = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	mewman_simp = {
+		random = no
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		stability_factor = -0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	absent_ruler = {
+		random = no
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		stability_factor = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

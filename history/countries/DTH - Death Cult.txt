@@ -29,46 +29,16 @@ set_popularities = {
 	fascism = 85
 }
 
-create_country_leader = {
-	name = "Death Cult Leader"
-	desc = ""
-	picture = ""
-	ideology = nazism
-	traits = {
-		#
-	}
-}
+recruit_character = DTH_initial_leader
 
 add_ideas = {
 MEW_pre_industrial
 }
 
-#create_field_marshal = {#
-#	name = ""
-#	desc = ""
-#	portrait_path = ""
-#	traits = {}
-#	skill = 2
-#	attack_skill = 2
-#	defense_skill = 2
-#	planning_skill = 2
-#	logistics_skill = 2
-#	id = 3
-#}
-
-#create_corps_commander = {#
-#	name = ""
-#	desc = ""
-#	portrait_path = ""
-#	traits = {}
-#	skill = 1
-#	attack_skill = 1
-#	defense_skill = 1
-#	planning_skill = 1
-#	logistics_skill = 1
-#	id = 4
-#}
-
+recruit_character = DTH_initial_leader
+recruit_character = DTH_death_cultist
+recruit_character = DTH_janna_ordonia_council
+recruit_character = DTH_hippie_character
 recruit_character = DTH_generic_monster_advisor_1
 recruit_character = DTH_generic_monster_advisor_2
 recruit_character = DTH_generic_monster_advisor_3

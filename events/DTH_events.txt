@@ -1,8 +1,172 @@
 ﻿###########################
-# Kaiserreich
+# Death Cult
 ###########################
 
 add_namespace = DTH_change_tree
+add_namespace = DTH_flavor
+
+country_event = {
+	id = DTH_flavor.1
+	title = DTH_flavor.1.t
+	desc = DTH_flavor.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = DTH_flavor.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = DTH_flavor.2
+	title = DTH_flavor.2.t
+	desc = DTH_flavor.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = DTH_flavor.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = DTH_flavor.7
+	}
+}
+
+country_event = {
+	id = DTH_flavor.3
+	title = DTH_flavor.3.t
+	desc = DTH_flavor.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = DTH_flavor.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_flag = death_cult_leader_flag
+	}
+	option = { 
+		name = DTH_flavor.3.b
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_flag = hippie_leader_flag
+	}
+	option = { 
+		name = DTH_flavor.3.c
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_flag = janna_leader_flag
+	}
+}
+
+country_event = {
+	id = DTH_flavor.4
+	title = DTH_flavor.4.t
+	desc = DTH_flavor.4.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = DTH_flavor.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		retire_character = DTH_initial_leader
+		add_country_leader_role = {
+			Character = DTH_janna_ordonia_council
+			promote_leader = yes
+			Country_leader = {
+				ideology = nazism
+				expire = “2040.1.1.1”
+				traits = {
+					absent_ruler
+				}
+			}
+		}
+		
+	}
+}
+
+country_event = {
+	id = DTH_flavor.5
+	title = DTH_flavor.5.t
+	desc = DTH_flavor.5.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = DTH_flavor.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		retire_character = DTH_initial_leader
+		add_country_leader_role = {
+			Character = DTH_hippie_character
+			promote_leader = yes
+			Country_leader = {
+				ideology = nazism
+				expire = “2040.1.1.1”
+				traits = {
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = DTH_flavor.6
+	title = DTH_flavor.6.t
+	desc = DTH_flavor.6.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = DTH_flavor.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		retire_character = DTH_initial_leader
+		add_country_leader_role = {
+			Character = DTH_death_cultist
+			promote_leader = yes
+			Country_leader = {
+				ideology = nazism
+				expire = “2040.1.1.1”
+				traits = {
+					unstable
+					death_cultist
+				}
+			}
+		}
+		add_manpower = -1
+	}
+}
+
+country_event = {
+	id = DTH_flavor.7
+	title = DTH_flavor.7.t
+	desc = DTH_flavor.7.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = DTH_flavor.7.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = DTH_flavor.8
+	}
+}
+
+country_event = {
+	id = DTH_flavor.8
+	title = DTH_flavor.8.t
+	desc = DTH_flavor.8.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = DTH_flavor.8.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
 
 country_event = {
 	id = DTH_change_tree.1
@@ -15,6 +179,7 @@ country_event = {
 	option = { 
 		name = DTH_change_tree.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = DTH_pre_unification

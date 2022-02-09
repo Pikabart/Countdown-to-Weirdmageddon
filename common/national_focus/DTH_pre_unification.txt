@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100
-		#	tag = DTH
+			add = 100
+			tag = DTH
 		}
 	}
 	
@@ -32,6 +32,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = DTH_flavor.2
 		}
 		
 		ai_will_do = {
@@ -410,6 +411,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = 0.05
+			country_event = DTH_flavor.3
 		}
 		
 		ai_will_do = {
@@ -430,6 +432,7 @@ focus_tree = {
 		mutually_exclusive = { focus = DTH_nature_worship }
 		
 		available = {
+			has_country_flag = janna_leader_flag
 		}
 				
 		bypass = {
@@ -442,7 +445,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_stability = 0.05
+			country_event = DTH_flavor.4
 		}
 		
 		ai_will_do = {
@@ -463,6 +466,7 @@ focus_tree = {
 		mutually_exclusive = { focus = DTH_janna_bannana }
 		
 		available = {
+			has_country_flag = hippie_leader_flag
 		}
 				
 		bypass = {
@@ -475,7 +479,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_stability = 0.05
+			country_event = DTH_flavor.5
 		}
 		
 		ai_will_do = {
@@ -496,6 +500,7 @@ focus_tree = {
 		mutually_exclusive = { focus = DTH_janna_bannana }
 		
 		available = {
+			has_country_flag = death_cult_leader_flag
 		}
 				
 		bypass = {
@@ -508,7 +513,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_stability = 0.05
+			country_event = DTH_flavor.6
 		}
 		
 		ai_will_do = {
