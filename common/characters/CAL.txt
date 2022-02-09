@@ -142,7 +142,7 @@ characters = {
 		}
 	}
 	
-	CAL_hector_diaz_north = {
+	CAL_hector_diaz_north = { 
 		name = "Hector Diaz-Guzman" 
 		desc = ""
 		portraits = {
@@ -162,7 +162,7 @@ characters = {
 			id = 8
 			
 			visible = {
-				has_completed_focus = CAL_pacific.1 
+				has_completed_focus = CAL_BIB.7 
 			}
 
 			attack_skill = 3
@@ -174,12 +174,7 @@ characters = {
 		advisor={
 			slot = political_advisor
 			idea_token = advisor_gompers_1
-			available = {
-				OR = {
-					has_intelligence_agency = yes			
-					has_completed_focus = CAL_IBI.0 
-				}
-			}
+			available = { has_completed_focus = CAL_hector.0 }
 			traits = {  } 
 			ai_will_do = {
 				factor = 40

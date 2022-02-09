@@ -1,7 +1,77 @@
 #####################################################################################################################
 #California Decisions 
 #####################################################################################################################
-CAL_catagory_NorCal_SoCal = {    
+CAL_catagory_NorCal_SoCal = {
+
+	cal_decision_relationship_baseball = { 		
+		icon = GFX_decision_icon_default
+		fire_only_once = yes
+		allowed = { tag = CAL }
+		available = { has_country_flag = cal_California_United } 
+		visible = { has_completed_focus = CAL_start.8 }
+		activation = {                          
+            has_country_flag = cal_NorSo_relationship
+			NOT = {has_country_flag = cal_California_United}
+        }
+		days_mission_timeout = 700 #Times out on sometime in July 2014
+		is_good = no
+		priority = 10
+		
+		complete_effect = {  }
+		
+		timeout_effect = {
+			custom_effect_tooltip = ""
+			complete_national_focus = CAL_assembly.2
+			#hidden_effect = {
+				if = { #event for bitter civil war
+					limit = {
+							check_variable = { cal_norton_norcal < 30 }
+							check_variable = { cal_norton_socal < 30 }
+					}
+					add_stability = -1
+				}
+				else_if = { #event for NorCal lead civil war
+					limit = {
+							check_variable = { cal_norton_norcal < 30 }
+							NOT = { check_variable = { cal_norton_socal < 30 }}
+					}
+					add_stability = -0.20
+				}
+				else_if = { #event for SocCal lead civil war
+					limit = {
+							NOT = { check_variable = { cal_norton_norcal < 30 } }
+							check_variable = { cal_norton_socal < 30 }
+					}
+					add_stability = -0.15
+				}
+				else_if = { #Nothing Changes
+					limit = {
+							NOT = { check_variable = { cal_norton_norcal < 30 }}
+							NOT = { check_variable = { cal_norton_socal < 30 }}
+							OR = {
+								check_variable = { cal_norton_norcal < 70 }
+								check_variable = { cal_norton_socal < 70 }
+							}
+					}
+					add_stability = -0.10
+				}	
+				else_if = { #Reunification
+					limit = {
+								check_variable = { cal_norton_norcal > 70 }
+								check_variable = { cal_norton_socal > 70 }
+					}
+					add_stability = 0.10
+				}
+				
+				
+				else = {
+					add_stability = 0.10
+				}
+			#}
+		}
+	}
+
+ 
 	
 	cal_decision_relationship_checkup = {   
           

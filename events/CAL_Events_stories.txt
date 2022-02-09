@@ -1,0 +1,290 @@
+﻿###########################
+# California stroy events
+###########################
+
+add_namespace = CAL_TWOWORLDS
+add_namespace = CAL_JANNA
+add_namespace = CAL_GUSTAV
+
+############################################################################################################
+
+country_event = {
+	id = CAL_TWOWORLDS.1
+	title = CAL_TWOWORLDS.1.t
+	desc = CAL_TWOWORLDS.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_TWOWORLDS.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+############################################################################################################
+
+########################################################################################################
+
+country_event = {  # 
+	id = CAL_JANNA.1
+	title = CAL_JANNA.1.t
+	desc = CAL_JANNA.1.d 
+	picture = GFX_report_event_janna_marco_info
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_JANNA.1.a
+		ai_chance = { factor = 0 }	# 0% AI choose this
+	}
+}
+##########################################
+country_event = {  # Investigating St James Focus
+	id = CAL_JANNA.2
+	title = CAL_JANNA.2.t
+	desc = CAL_JANNA.2.d
+	picture = GFX_report_event_janna_marco_info
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_JANNA.2.a
+		ai_chance = { factor = 0 }	# 0% AI choose this
+		country_event = CAL_JANNA.3
+	}
+}
+##############
+country_event = {  # 
+	id = CAL_JANNA.3
+	title = CAL_JANNA.3.t
+	desc = CAL_JANNA.3.d
+	picture = GFX_report_event_janna_marco_info
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_JANNA.3.a
+		ai_chance = { factor = 0 }	# 0% AI choose this
+		country_event = CAL_JANNA.4
+	}
+}
+##############
+country_event = {  # 
+	id = CAL_JANNA.4
+	title = CAL_JANNA.4.t
+	desc = CAL_JANNA.4.d
+	picture = GFX_report_event_janna_marco_info
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_JANNA.4.a
+		ai_chance = { factor = 0 }	# 0% AI choose this
+	}
+}
+##########################################
+country_event = {  # Contact Old Prtoegee
+	id = CAL_JANNA.5
+	title = CAL_JANNA.5.t
+	desc = CAL_JANNA.5.d
+	picture = GFX_report_event_janna_marco_info
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_JANNA.3.a
+		ai_chance = { factor = 0 }	# 0% AI choose this
+		country_event = CAL_JANNA.6
+	}
+}
+##############
+country_event = {  # 
+	id = CAL_JANNA.6
+	title = CAL_JANNA.6.t
+	desc = CAL_JANNA.6.d
+	picture = GFX_report_event_janna_marco_info
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_JANNA.6.a
+		ai_chance = { factor = 0 }	# 0% AI choose this
+	}
+}
+##########################################
+
+
+country_event = {  # 
+	id = CAL_JANNA.11
+	title = CAL_JANNA.11.t
+	desc = CAL_JANNA.11.d
+	picture = GFX_report_event_janna_marco_info
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_JANNA.11.a
+		ai_chance = { factor = 0 }	# 0% AI choose this
+	}
+}
+
+########################################################################################################
+
+country_event = {  # 
+	id = CAL_GUSTAV.1
+	title = CAL_GUSTAV.1.t
+	desc = CAL_GUSTAV.1.d
+	picture = GFX_report_event_gustav
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_GUSTAV.1.a
+		country_event = { id = CAL_GUSTAV.2 days = 3}
+		ai_chance = { factor = 0 }	# 0% AI choose this
+	}
+}
+
+country_event = {  # 
+	id = CAL_GUSTAV.2
+	title = CAL_GUSTAV.2.t
+	desc = CAL_GUSTAV.2.d
+	picture = GFX_report_event_star_uninpressed
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_GUSTAV.2.a
+		country_event = { id = CAL_GUSTAV.3 days = 3}
+		ai_chance = { factor = 0 }	# 0% AI choose this
+	}
+}
+
+country_event = {  # 
+	id = CAL_GUSTAV.3
+	title = CAL_GUSTAV.3.t
+	desc = CAL_GUSTAV.3.d
+	picture = GFX_report_event_star_spying
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_GUSTAV.3.a
+		ai_chance = { factor = 0 }	# 0% AI choose this
+	}
+	option = { 
+		name = CAL_GUSTAV.3.b
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = CAL_GUSTAV.4 days = 21}
+	}
+}
+
+country_event = {  # 
+	id = CAL_GUSTAV.4
+	title = CAL_GUSTAV.4.t
+	desc = CAL_GUSTAV.4.d
+	picture = GFX_report_event_star_spying
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_GUSTAV.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = CAL_GUSTAV.5 days = 21}
+	}
+}
+
+country_event = {  # 
+	id = CAL_GUSTAV.5
+	title = CAL_GUSTAV.5.t
+	desc = CAL_GUSTAV.5.d
+	picture = GFX_report_event_star_spying
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_GUSTAV.5.a
+		ai_chance = { factor = 90 }	# 100% AI choose this
+		country_event = { id = CAL_GUSTAV.6 days = 21}
+	}
+	option = { 
+		name = CAL_GUSTAV.5.b
+		ai_chance = { factor = 10 }	# 100% AI choose this
+		country_event = { id = CAL_GUSTAV.7 days = 21}
+	}
+}
+
+country_event = {  # 
+	id = CAL_GUSTAV.6
+	title = CAL_GUSTAV.6.t
+	desc = CAL_GUSTAV.6.d
+	picture = GFX_report_event_star_spying
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_GUSTAV.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {  # 
+	id = CAL_GUSTAV.7
+	title = CAL_GUSTAV.7.t
+	desc = CAL_GUSTAV.7.d
+	picture = GFX_report_event_star_spying
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_GUSTAV.7.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+########################################################################################################
+
+country_event = {
+	id = CAL_IPD.1
+	title = CAL_IPD.1.t
+	desc = CAL_IPD.1.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {
+		create_intelligence_agency = yes
+		upgrade_intelligence_agency = upgrade_form_department
+		load_oob = "CAL_2012"
+		SOC = {load_oob = "SOC_2012"}
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+
+	option = {
+		name = CAL_IPD.1.a
+	}
+}
+
+########################################################################################################
+
+country_event = {  # If Mewni REC fails to pay loan
+	id = CAL_NWB.1
+	title = CAL_NWB.1.t
+	desc = CAL_NWB.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_NWB.1.a
+		ai_chance = { factor = 0 }	# 0% AI choose this
+	}
+	option = { 
+		name = CAL_NWB.1.b
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		MEW = { remove_ideas = MEW_northwest_pain }
+	}
+}

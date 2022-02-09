@@ -1,3 +1,19 @@
+############################ ITGUY 02/08/22 
+
+common/characters
+common/decisions
+common/ideas
+common/national_focus
+
+events
+
+gfx/flags
+
+interface
+
+localization
+
+map/rails and supplu hubs
 ############################ ITGUY 02/04/22 
 
 common/characters

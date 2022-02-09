@@ -4,7 +4,7 @@
     #_desc:0 "A"
 
 ##########################################################################################
-#Descions LOCS
+#Descions LOCS 
 ##########################################################################################
     #Flags
     cal_California_United:0 "California is united once more!"
@@ -17,6 +17,8 @@
     
     #"\n\nNorton's §YNorthern Approval Rating§! = [?cal_norton_norcal|+0]\n\nNorton's §GSouthern Approval Rating§! = [?cal_norton_socal|+0]\n\n§4Progressive Imperial Democratic-Republican Support§! = [?cal_pIDR|+0]\n\n§RTraditional Imperial Democratic-Republican Support§! = [?cal_tIDR|+0]\n\n§8Moderate New Democratic-Republican Support§! = [?cal_hectorNDR|+0]\n§8Level of Moderate Support§! = [?cal_compromise_NDR|+0]§8 of 3§!"
     
+    cal_decision_relationship_baseball:0 "The Big Baseball Game is approching."
+    cal_decision_relationship_baseball_desc:0 "The Giants-Dodgers baseball game is fast approching. This rivalary could be the straw that brakes the camel's back in terms of NorCal/SoCal Relationship. We must mend this rift by getting high support from both sides for Imperial Governor Norton. if the Emperor can't unite California, we face civil war!"
     cal_decision_relationship_checkup:0 "Update Regional Polls"
     cal_decision_relationship_checkup_desc:0 "New polls will tell us our standing in California and the effects of that scoring."
     cal_decision_party_checkup:0 "Reevaluate Political Standing"

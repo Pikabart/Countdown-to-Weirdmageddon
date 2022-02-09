@@ -87,7 +87,7 @@ ideas = { #Entire file
 				trade_opinion_factor = 0.10
 			}
 		}
-		##############
+		########################################################
 		CAL_repair_crew = {
 			picture = GFX_idea_CAL_northwest # 
 			
@@ -101,9 +101,294 @@ ideas = { #Entire file
 			   industry_repair_factor = 0.30
 			}
 		}
-		
-		
-
-	
+		########################################################
+		CAL_imp_congress = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+              
+			}
+		}
+		CAL_imp_governor = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+               
+			}
+		}
+		########################################################
+		CAL_prog_UBI = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+              
+			}
+		}
+		CAL_moderate_socsec = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+               
+			}
+		}
+		CAL_moderate_smallbiz = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+               
+			}
+		}
+		CAL_trad_remove = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+               
+			}
+		}
+		########################################################
+		CAL_norton_care = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+              
+			}
+		}
+		CAL_tax_codes = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+               
+			}
+		}
+		########################################################
+		########################################################
+		CAL_private_security = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+               
+			}
+		}
+		########################################################
+		CAL_over_there_0 = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+               
+			}
+		}
+		CAL_over_there_1 = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+               
+			}
+		}
+		CAL_logistics_first = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+               
+			}
+		}
+		########################################################
+		CAL_golden_industry = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+               
+			}
+		}
+		CAL_fareast_wildwest = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+              
+			}
+		}
+		CAL_over_there_2 = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+               
+			}
+		}
+		########################################################
+		########################################################
+		########################################################
+		CAL_no_la_resistance_BIB = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+              
+			}
+		}
+		CAL_no_la_resistance_mrX = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+              
+			}
+		}
+		CAL_no_la_resistance_janna = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+              
+			}
+		}
+		CAL_no_la_resistance_0 = {   # In Event
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {} 
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+              
+			}
+		}
+		CAL_no_la_resistance_1 = {   # In Focus
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+              
+			}
+		}
+		CAL_no_la_resistance_2 = {   # In Focus
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+              
+			}
+		}
+		CAL_no_la_resistance_3 = {   # In Focus
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+              
+			}
+		}
+		CAL_no_la_resistance_4 = {   # In Focus
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+              
+			}
+		}
+		########################################################
+		########################################################
+		########################################################
 	}
 }

@@ -49,7 +49,7 @@
  #2
  CAL_assembly.0:0 "The Bear Goes Forth"
  CAL_assembly.0_desc:0 "California will not stand idly by. We must act fast in our new domestic and foreign affairs if California is to survive and restore the United States."
- CAL_assembly.0.t:0 ""
+ CAL_assembly.0.t:0 "Grant +§G20§! Support from §1All Factions§! in California."
  
  CAL_assembly.1:0 "Norton and California"
  CAL_assembly.1_desc:0 "Norton’s election has divided California and the Californian New Democratic-Republican Party between the Pro-Norton North and Anti-Norton South. We must begin the repair of relationships between the two regions and party blocs if California is to reunite the rest of the United States."
@@ -67,11 +67,11 @@
  
  CAL_domestic.1:0 "Ensure Progress"
  CAL_domestic.1_desc:0 "For a man of the 19th Century, and even today really, Joshua Norton is viewed by many as a progressive man, with talks of equal rights and the fair treatment of one another. We can use this to keep California's Progressives in line with us." 
- CAL_domestic.1.t:0 ""
+ CAL_domestic.1.t:0 "Grant +§G20§! Support from the §CProgressive Branch§! of the IDR."
  
  CAL_domestic.2:0 "Uphold Tradition"
  CAL_domestic.2_desc:0 "The 20th Century saw America replace the old world as the new global empire. Even fractured, the EU and IC won't dare attack us. With Norton's return, America finally has her new Emperor, and we can use this to keep the Traditionalist on our side."
- CAL_domestic.2.t:0 ""
+ CAL_domestic.2.t:0 "Grant +§G20§! Support from the §RTraditionalist Branch§! of the IDR."
  
  CAL_domestic.3:0 "Implement UBI"
  CAL_domestic.3_desc:0 "The fall of the US placed many of our most vulnerable populace without the means to support ourselves and our current system can barely help them. With a catch-all system like Universal Basic Income, we can support them and boost the economy... in the long run."
@@ -91,15 +91,15 @@
  
  CAL_domestic.7:0 "Pass Norton Care"
  CAL_domestic.7_desc:0 "We can't have people dying from simply diseases because the doctor was too expensive. It was embarrassing when the US let it happen and more so for California. Damn the cost, we need ensure healthcare for all!\nThe Emperor will see to it!"
- CAL_domestic.7.t:0 "People dropping dead is also expensive. We'll write Norton Care off as a long term investment."
+ CAL_domestic.7.t:0 "Grant +§G20§! Support from the §CProgressive Branch§! of the IDR.\nPeople dropping dead is also expensive. We'll write Norton Care off as a long term investment."
  
  CAL_domestic.8:0 "New Tax Codes"
  CAL_domestic.8_desc:0 "California Tax Code and Collection System is as archaic as the old Federal Government. And the rates keep going up with little to show for it. The Emperor will not rob his citizens. By having a full revamp of the tax code from fund allocation to collection, we can lower taxes for most Californians and ensure our funding is stable and well spent."
- CAL_domestic.8.t:0 "We’re still taxing Birnbuam and the rich through the nose though. Just easier now with less paperwork."
+ CAL_domestic.8.t:0 "Grant +§G20§! Support from the §RTraditionalist Branch§! of the IDR.\nWe’re still taxing Birnbaum and the rich through the nose though. Just easier now with less paperwork."
  
  CAL_domestic.9:0 "Change Assembley Procedures"
  CAL_domestic.9_desc:0 "These major, wide changing bills being introduced by the two blocs of the Northern IDR is making appeasing both sides difficult. But by altering the Assembly Rules on Bill Introduction, we can force the break down of these large bills into smaller ones. Not only would some bills get approval from both sides, but the Moderate NDRs are more likely to support the bill in general."
- CAL_domestic.9.t:0 "This will unlock additional decisions to gaining support between the three political blocs."
+ CAL_domestic.9.t:0 "Grant +§G25§! Support from the §8Moderate NDR§!.\nThis will unlock §Yadditional decisions§! to gaining support between the three political blocs."
  
  ##################################################################################################################
  ##################################################################################################################
@@ -108,15 +108,15 @@
  
  CAL_division.1:0 "Mend NDR-IDR Divisions"
  CAL_division.1_desc:0 "The New and Imperial branches of the Californian NDR make up nearly 90% of the political landscape in California. With proper negotiations, new deals, and political maneuvering, we can restore unity within the greater party."
- CAL_division.1.t:0 ""
+ CAL_division.1.t:0 "Grant +§G15§! Support from §1All of California§!.\nGrant +§G10§! Support from the §8Moderate NDR§!."
  
  CAL_division.2:0 "Tour Southern California"
  CAL_division.2_desc:0 "While Northern California swept Norton into office, Southern California had far less enthusiasm for him and are themselves divided about him. A tour of the south can help start a campaign of unification and trust building between Norton and the South."
- CAL_division.2.t:0 ""
+ CAL_division.2.t:0 "Grant +§G20§! Support from §GSouthern California.§!"
  
  CAL_division.3:0 "Diversify the Cabinet"
  CAL_division.3_desc:0 "Lumeta has been running around finding politicians to fill Norton's cabinet. Along with clear choices like US Senator Everett as Secretary of State, we can look to Lt. Governor Diaz-Guzman and the south to diversify the cabinet and ensure a balance of political power between the north and south."
- CAL_division.3.t:0 "Giving them meaningless titles like “Lord” and “Lady” will also help make them invested in Norton's Administration."
+ CAL_division.3.t:0 "Grant +§G20§! Support from §GSouthern California§! and the §8Moderate NDR§!.\nGiving them meaningless titles like “Lord” and “Lady” will also help make them invested in Norton's Administration."
  
  CAL_division.4:0 "Strengthen The Imperial Congress"
  CAL_division.4_desc:0 "A new congress has been assembled between California align states. But the old system of using our old federal representatives mean we outnumber everyone else combine. Redividing representatives within the Imperial House and empowering the Imperial Senate will aid our legitimacy and ensure the other states stand with us."
@@ -128,7 +128,7 @@
  
  CAL_division.6:0 "The Question of Bakersfieldville"
  CAL_division.6_desc:0 "To distract the populace from more critical issues, someone in the State Assembly brought up the city of Bakersfieldville in the Central Valley. This ended badly as Northern and Southern Assembly Members broke into fierce arguing about which part of the state the city is considered part of. No one wanted the sad, depressing place to be part of their half of the state and now Norton must address it."
- CAL_division.6.t:0 "Oh dear God, why did someone even mention that place?"
+ CAL_division.6.t:0 "Oh dear God, why did someone even mention that place?\nGrant -§R10§! Support from §1All Factions§! in California."
  
  CAL_division.7:0 "One Government"
  CAL_division.7_desc:0 "With the new Imperial Congress established, we now stand ready to assert ourselves as a legitimate continuation of the American government. Let the world know that our imperial republic shall spread the glory of Norton from sea to shining sea."
@@ -220,15 +220,15 @@
  
  CAL_shermie.0:0 "Sherman Filbrick Pines"
  CAL_shermie.0_desc:0 ""Sherman Pines served a long and illustrious career in the US Army. For his thanks, he is viewed with either total admiration or disgust by many Americans. When drummed out of the Army, he initially left behind an unusual legacy. Now though, the time has come for General Pines to forge a new legacy in the Long Summer."\n- §GGovernor Gerald Green§! -"
- CAL_shermie.0.t:0 ""
+ CAL_shermie.0.t:0 "§CSherman "Shermie" Pines§! becomes an available Field Marhsall."
  
  CAL_shermie.1:0 "Rally To The West"
  CAL_shermie.1_desc:0 ""For all the enemies I seemingly made, I have many friends across the US who swore they would still stand by me as they have done in battles from Vietnam to Washington D.C.. Let us see if they shall stand by me and by California during this great Kerfuffle.”\n\n- §CICR Field Marshall Sherman Pines§! -"
- CAL_shermie.1.t:0 ""
+ CAL_shermie.1.t:0 "A group of §CLoyal Officers§! joins §YCalifornia§!"
  
  CAL_shermie.2:0 "Re-Open Fort Navarro"
  CAL_shermie.2_desc:0 ""Fort Navarro has a controversial, but secret history. Its most infamous legacy was being a secret base for the Gang of Four, who plotted to coup President Reagen and take over the country, until the FPI took them out. Officially closed, its still functional equipment would make an ideal location for a Central Command."\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
- CAL_shermie.2.t:0 "Add bunkers, sea forts, and additional infrastructure in the state of §YSanta Rosa§!.\n\n"When some documents leaked about Fort Navarro, the FPI funded the creation of Fallout 2 to cover it back up. Sergeant Dornan was my drill instructor in the academy... the tightass."- §YDiaz-Guzman§!"
+ CAL_shermie.2.t:0 "Add bunkers, sea forts, and additional infrastructure in the state of §YSanta Rosa§!.\n\n"When some documents leaked about Fort Navarro, the FPI funded the creation of Fallout 2 to cover it back up. Sergeant Dornan was actually my drill instructor in the academy... the tightass."- §YDiaz-Guzman§!"
  
  ##################################################################################################################
  ##################################################################################################################
@@ -249,18 +249,18 @@
  
  CAL_complex.3:0 "Private Security"
  CAL_complex.3_desc:0 "Two of the largest Private Military Contractors, Mil-Tech and Arisaka, have minor contracts to operate in the state. As we need to focus most of our troops on the borders and other dimensions, we'll need to hand out new contracts to help secure the interior.\nIf we don't implement this correctly, just about everyone is going to be mad about this."
- CAL_complex.3.t:0 "All of the Dystopia; None of the Cool Neon tech!"
+ CAL_complex.3.t:0 "All of the Dystopia; None of the Cool Neon Tech!"
  
  CAL_complex.4:0 "Research and Development"
- CAL_complex.4_desc:0 "Silicon Valley is the home to the tech capital of the world and our universities our the finest in the country. It’s time we put that to use for the good of California."
+ CAL_complex.4_desc:0 "Silicon Valley is the home to the tech capital of the world and our universities are the finest in the country. It’s time we put that to use for the good of California."
  CAL_complex.4.t:0 "The Long Summer is upon us, but you can kiss your Summer Vacation goodbye."
  
  CAL_complex.5:0 "Fierro en Guerra"
- CAL_complex.5_desc:0 "In Peace, San Francisco is the City of Gold. From the Golden Gate Bridge opens the full awe the Paris of the West.\nBut we are at the verge of war and with that, San Francisco shall be hardened as Iron, and so will our resolve. At the Golden Gate, we shall defend California and America. "
+ CAL_complex.5_desc:0 ""In Peace, San Francisco is the City of Gold.\nFrom the Golden Gate Bridge beckons the Paris of the West.\nBut we are at the verge of war and with that. San Francisco shall be hardened as Iron and our resolve must follow suit.\nAt the Golden Gate, we shall defend California and America."\n- §RImperial Secretary of State Lady Carman Everett§! -"
  CAL_complex.5.t:0 ""
  
  CAL_complex.6:0 "The City of Angeles"
- CAL_complex.6_desc:0 "Spin the reels, cast the projectors, and fill the airwaves. Let the multiverse know that we are heading over, over there!\nHere in the City of Angels, the multiverse will know our might.\nAnd her factories, shipyards, and millions in arms will show that our might isn’t movie magic."
+ CAL_complex.6_desc:0 ""Spin the reels, cast the projectors, and fill the airwaves. Let the multiverse know that we are heading over, over there!\nHere in the City of Angels, the multiverse will know our might.\nAnd her factories, shipyards, and millions in arms will show that our might isn’t movie magic."\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
  CAL_complex.6.t:0 ""
  
  CAL_complex.7:0 "The Golden Industry"
@@ -279,15 +279,15 @@
  
  CAL_pacific.2:0 "Contact the US Pacific Fleet"
  CAL_pacific.2_desc:0 "“I have some friends among the Pacific Fleet Admiralty. Let’s see if I can make contact with someone at our bases in Hong Kong or Vladivostok.”\n\n- §CICR Field Marshall Sherman Pines§! -"
- CAL_pacific.2.t:0 ""
+ CAL_pacific.2.t:0 "Unlock the §YPacific Fleet Decisions§! to start bringing ships back home or send supplies to Asia."
  
  CAL_pacific.3:0 "New Coastal Management"
  CAL_pacific.3_desc:0 "When Federal Authority collapsed in the west, it was natural that the Coast Guard joined with Governor Green during the initial days of the Kerfuffle. But we had to dock them as naval logistics was beyond our control.\nNow the time has come to set sail once more."
- CAL_pacific.3.t:0 ""
+ CAL_pacific.3.t:0 "Deploy the §YCoast Guard§! Naval Force."
  
  CAL_pacific.4:0 "New Logistic Routes"
  CAL_pacific.4_desc:0 "Our Oriental States do not have the ability to support the size of a naval force like the US Pacific Fleet. Even with most of their ships docked, food and fuel are still used. If we can set up new logistic lines across the Pacific, the Fleet can help prevent a war in Asia and some ships might even decide to join our forces."
- CAL_pacific.4.t:0 ""
+ CAL_pacific.4.t:0 "Unlock additional §YPacific Fleet Decisions§!"
  
  CAL_pacific.5:0 "Pacific Sailing"
  CAL_pacific.5_desc:0 "With our own little Navy, we must task our officers to study what kind of doctrine and strategy we should use. As our needs change from coastal patrol to multiversal power projection, we’ll need to learn and relearn many important lessons as we sail the oceans of the multiverse."
@@ -295,7 +295,7 @@
  
  CAL_pacific.6:0 "Safe Harbors"
  CAL_pacific.6_desc:0 "Some captains in Asia have grown tired wasting away in port. Many are willing to light their ship’s plants and set sail to San Diego and some flotilla admirals are willing to turn a blind eye and let them ‘go AWOL’. But we must expand our ports in Oakland and San Diego if we are to have somewhere to house them."
- CAL_pacific.6.t:0 ""
+ CAL_pacific.6.t:0 "Increace the likelyhood of a ship setting sail for our ports."
  
  CAL_pacific.7:0 "From The Far East To The Wild West"
  CAL_pacific.7_desc:0 "It’s a balancing act. If we try to recall ships back home, the remains of the fleet might not be able to prevent a war and we lose our oriental states from Singapore to Vladivostok. But we will need our navy when sailing the oceans of Mewni, Amphibia, and the Boiling Isles. Our interests are as wide as the Pacific itself."
@@ -319,7 +319,7 @@
  CAL_army.2.t:0 ""
  
  CAL_army.3:0 "The Sierra Army Depot"
- CAL_army.3_desc:0 "Many military hardware was put into storage at the Sierra Army Depot as the US demolished during the late 90s. Recently refurbished in anticipation for a war during the 2005 Financial Crisis, the depot is perfect for equipping a brand new army for California."
+ CAL_army.3_desc:0 "Many military hardware was put into storage at the Sierra Army Depot as the US demobilized during the late 90s. Recently refurbished in anticipation for a war during the 2005 Financial Crisis, the depot is perfect for equipping a brand new army for California."
  CAL_army.3.t:0 ""
  
  CAL_army.4:0 "Logistics First"
@@ -344,7 +344,7 @@
  
  CAL_hector.0:0 "Hector Santa Anna Diaz-Guzman"
  CAL_hector.0_desc:0 "“I do not know who I fear more. This 19th Century Relic who managed to get himself elected the new Governor of California, or my SoCal colleague, Lieutenant Governor Hector Santa Anna Diaz-Guzman.”\n\n- §GGovernor Gerald Green§! -"
- CAL_hector.0.t:0 ""
+ CAL_hector.0.t:0 "§YHector Diaz-Guzman§! becomes an advisor." 
  
  CAL_hector.1:0 "A Chat With Shroud"
  CAL_hector.1_desc:0 "No... Elin Shroud would not be so foolish as to openly leverage the resource of the FPI. Chiu thought her better. She’s here to find something... And with the information I got from the St. James Disappearance, I think I have what she came here for.\n\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
@@ -354,37 +354,37 @@
  ##################################################################################################################
  #################################################################################################################
  
- CAL_IBI.0:0 "The Imperial Bureau of Investigation"
- CAL_IBI.0_desc:0 "In response to the initial collapse of the US and an increase of crime across the state, Lt. Governor Diaz-Guzman now has the political clout to form the Imperial Bureau of Investigation.\nUnofficially, with the FPI in the North and the paranormal nature of the St. James Disappearance in the South, the IBI will see Hector's return to the secret paranormal world."
- CAL_IBI.0.t:0 ""
+ CAL_IBI_focus.0:0 "The Imperial Bureau of Investigation"
+ CAL_IBI_focus.0_desc:0 "In response to the initial collapse of the US and an increase of crime across the state, Lt. Governor Diaz-Guzman now has the political clout to form the Imperial Bureau of Investigation.\nUnofficially, with the FPI in the North and the paranormal nature of the St. James Disappearance in the South, the IBI will see Hector's return to the secret paranormal world."
+ CAL_IBI_focus.0.t:0 "Etsablish the Imperial Bureau of Investigation"
  
- CAL_IBI.1:0 "Call In Mr. X"
- CAL_IBI.1_desc:0 "The FBI have been trying to push into FPI jurisdiction since even before the Secret Civil War. They even maintain a small division of agents meant for paranormal investigation, with surprising success. As we are in need of skilled and capable agents, I could use someone of the likes of Mr. X in our new ranks.\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
- CAL_IBI.1.t:0 ""
+ CAL_IBI_focus.1:0 "Call In Mr. X"
+ CAL_IBI_focus.1_desc:0 "The FBI have been trying to push into FPI jurisdiction since even before the Secret Civil War. They even maintain a small division of agents meant for paranormal investigation, with surprising success. As we are in need of skilled and capable agents, I could use someone of the likes of Mr. X in our new ranks.\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
+ CAL_IBI_focus.1.t:0 ""
  
- CAL_IBI.2:0 "Absorb Loyal FBI And CIA Assests"
- CAL_IBI.2_desc:0 "Many CIA and FBI agents went deep into hiding when California broke of from the Eastern Federal government. It only took Diaz-Guzman’s loyal FPI agents all but five minutes to quickly raid their safehouses. With some heavy handed persuasion, they now serve the IBI."
- CAL_IBI.2.t:0 ""
+ CAL_IBI_focus.2:0 "Absorb Loyal FBI And CIA Assests"
+ CAL_IBI_focus.2_desc:0 "Many CIA and FBI agents went deep into hiding when California broke of from the Eastern Federal government. It only took Diaz-Guzman’s loyal FPI agents all but five minutes to quickly raid their safehouses. With some heavy handed persuasion, they now serve the IBI."
+ CAL_IBI_focus.2.t:0 ""
  
- CAL_IBI.3:0 "Lead And Silicon"
- CAL_IBI.3_desc:0 "“A younger me would be more concern of weapon handling and how much lead I can put downrange. With age comes wisdom and the realization the game may have the same rules, but the battleground have change...”\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
- CAL_IBI.3.t:0 "Hacking with a smartphone is cool, but I like to see a computer outsmart a bullet."
+ CAL_IBI_focus.3:0 "Lead And Silicon"
+ CAL_IBI_focus.3_desc:0 "“A younger me would be more concern of weapon handling and how much lead I can put downrange. With age comes wisdom and the realization the game may have the same rules, but the battleground have change...”\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
+ CAL_IBI_focus.3.t:0 "Hacking with a smartphone is cool, but I like to see a computer outsmart a bullet."
  
- CAL_IBI.4:0 "Office Supplies..."
- CAL_IBI.4_desc:0 "Created by a forward-thinking PR agent, Area 51 was devised as a decoy for the media. When we have weird paranormal stuff that the public got wind of, we used Area 51 to distract them from our actual secret labs. The SCP also throws great summer BBQs there. In recent years though, it’s been an over-glorified supply hub. But with supplies that we can still make use of."
- CAL_IBI.4.t:0 ""
+ CAL_IBI_focus.4:0 "Stealing Office Supplies"
+ CAL_IBI_focus.4_desc:0 "Created by a forward-thinking PR agent, Area 51 was devised as a decoy for the media. When we have weird paranormal stuff that the public got wind of, we used Area 51 to distract them from our actual secret labs. The SCP also throws great summer BBQs there. In recent years though, it’s been an over-glorified supply hub. But with supplies that we can still make use of."
+ CAL_IBI_focus.4.t:0 ""
  
- CAL_IBI.5:0 "New Agents"
- CAL_IBI.5_desc:0 ""With some old friends leading our new academy and the future agents of an eventually reunited FPI, I think its time for my new protegee to join our ranks as well."\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
- CAL_IBI.5.t:0 "Giving a fifteen year old girl a Five-Seven is fine, right? Good thing I didn't campaign on gun control."
+ CAL_IBI_focus.5:0 "New Agents"
+ CAL_IBI_focus.5_desc:0 ""With some old friends leading our new academy and the future agents of an eventually reunited FPI, I think its time for my new protegee to join our ranks as well."\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
+ CAL_IBI_focus.5.t:0 "Giving a fifteen year old girl a Five-Seven is fine, right? Good thing I didn't campaign on gun control."
  
- CAL_IBI.6:0 "Investigate The St. James Dissaperence"
- CAL_IBI.6_desc:0 ""When the St. James Disappearance rocked the state, I looked Mrs. Boonchoy in the eyes and told her I would put the full effort of my office to finding her daughter and friends.\nI shouldn't have been surprised at where this ended up leading to..."\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
- CAL_IBI.6.t:0 ""
+ CAL_IBI_focus.6:0 "Investigate The St. James Disappearance"
+ CAL_IBI_focus.6_desc:0 ""When the St. James Disappearance rocked the state, I looked Mrs. Boonchoy in the eyes and told her I would put the full effort of my office to finding her daughter and friends.\nI shouldn't have been surprised at where this ended up leading to..."\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
+ CAL_IBI_focus.6.t:0 ""
  
- CAL_IBI.7:0 "Contact Old Protegee"
- CAL_IBI.7_desc:0 "”I still remember the first day I met her. I told her to get me a coffee and today’s newspaper. Now she’s the Director to the most powerful, unaccountable intelligence agency in our dimension...\nWow, Romero is right. It’s a good thing we didn’t adopt.”\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! –"
- CAL_IBI.7.t:0 ""
+ CAL_IBI_focus.7:0 "Contact "Old Protege""
+ CAL_IBI_focus.7_desc:0 "”I still remember the first day I met her. I told her to get me a coffee and today’s newspaper. Now she’s the Director to the most powerful, unaccountable intelligence agency in our dimension...\nWow, Romero is right. It’s a good thing we didn’t adopt.”\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! –"
+ CAL_IBI_focus.7.t:0 ""
  
  CAL_BIB.0:0 "Counter The Western FPI"
  CAL_BIB.0_desc:0 "Using the Northwest Coverup to invade Oregon? Deputy Director Shroud may be rash and aggressive at time, but she wouldn't do this on such a flimsy pretext. Especially when she isn't working with Command from Raven Rock. What is she doing here then?\n\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! –"
@@ -406,7 +406,7 @@
  CAL_BIB.4_desc:0 "If there was one thing Andrew and I could agree on, it was that the magic we were working with only stayed as magic with our current level of understanding. When you dive need into the study of the wand or a witch's vile sack, you can truly learn more of the universe unknown to most humans... besides the Europeans, who had magic for a while now.\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! –"
  CAL_BIB.4.t:0 ""
  
- CAL_BIB.5:0 "Begin Training Secessions"
+ CAL_BIB.5:0 "Begin Training Sessions"
  CAL_BIB.5_desc:0 "¡Dios mío!\n\nI *deep breath* am out of shape. No way I’d pass those old fitness exams in this sad state.\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! –"
  CAL_BIB.5.t:0 ""What you need is a montage, DeeGee”- §5Janna§!"
  
@@ -416,7 +416,7 @@
  
  CAL_BIB.7:0 "Back In Black"
  CAL_BIB.7_desc:0 "“Last time I felt this good, I- wait, that’s classified. Still, time to get back in the game!”\n\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! –"
- CAL_BIB.7.t:0 ""
+ CAL_BIB.7.t:0 "§YHector Diaz-Guzman§! becomes a general."
  
  ##################################################################################################################
  ##################################################################################################################
@@ -455,7 +455,7 @@
  CAL_magic.0.t:0 ""
  
  CAL_magic.1:0 "The Emperor's New Portal"
- CAL_magic.1_desc:0 "All interdimensional travel is controlled by the Butterfly Kingdom and their High Magic Commission. For what leverage we gain, we can't press too hard or risk losing access to Mewni. Fortunately, Professor Dixon has come to us with a solution."
+ CAL_magic.1_desc:0 "All interdimensional travel is controlled by the Butterfly Kingdom and their High Magic Commission. For what leverage we gain, we can't press too hard or risk losing access to Mewni. Fortunately, Professor Emma-May Dixon has come to us with a solution."
  CAL_magic.1.t:0 ""
  
  CAL_magic.2:0 "The California Magic Ranger Corp"
@@ -479,7 +479,7 @@
  CAL_magic.6.t:0 ""
  
  CAL_magic.7:0 "The Golden Gate"
- CAL_magic.7_desc:0 "§YProject Golden Gate§! will be a testament to the technological supremacy of California. While the world descends into to chaos from the Kerfuffle, we amazed the world with open First Contact with another dimension. But now they will see us revolutionize mankind with our own means of interdimensional travel!"
+ CAL_magic.7_desc:0 "§YProject Golden Gate§! will be a testament to the technological supremacy of California. While the world descends into chaos from the Kerfuffle, we amazed the world with open First Contact with another dimension. But now they will see us revolutionize mankind with our own means of interdimensional travel!"
  CAL_magic.7.t:0 ""
  
  CAL_magic.8:0 "The Princesses Of California"
@@ -487,7 +487,7 @@
  CAL_magic.8.t:0 ""
  
  CAL_magic.9:0 "Into the Multiverse"
- CAL_magic.9_desc:0 "With our own means of dimensional travel and an elite corps of magic wielders, California is able to stand on its own in infinite expanse of realities."
+ CAL_magic.9_desc:0 "With our own means of dimensional travel and an elite corps of magic wielders, California is able to stand on its own in the infinite expanse of realities."
  CAL_magic.9.t:0 ""
  
  ##################################################################################################################
@@ -495,7 +495,7 @@
  ##################################################################################################################
  
  CAL_force.0:0 "The Magic Must Flow!"
- CAL_force.0_desc:0 "Mewni is technologically behind us in nearly every area, expect social media oddly enough. But their key resource of Magical Water from the Realm of Magic, which they are dimensional closer to than Earth, is vital to supporting the Californian Economy back on Earth.\nThe Magic Must Flow!"
+ CAL_force.0_desc:0 "Mewni is technologically behind us in nearly every area, expect social media oddly enough. But their key resource of Magical Water from the Realm of Magic, which they are dimensionally closer to than Earth, is vital to supporting the Californian Economy back on Earth.\nThe Magic Must Flow!"
  CAL_force.0.t:0 ""
  
  CAL_force.1:0 "Establish Fort Norton"
@@ -549,7 +549,7 @@
  
  CAL_butterfly_aid.4:0 "Dive In Mewman History"
  CAL_butterfly_aid.4_desc:0 "For what little access to the Royal Archives that was given to us, there are a lot of books and scrolls of the reign of Solaria. One bit that caught our interest is a man that seemed to have single handily jump started an early industrial revolution, only for him and his work to be forgotten after his “death”."
- CAL_butterfly_aid.4.t:0 ""
+ CAL_butterfly_aid.4.t:0 "Getting some "Californian Yankee in Queen Solaria's Court" vibes."
  
  CAL_butterfly_aid.5:0 "Expand the Trade Port Cities"
  CAL_butterfly_aid.5_desc:0 "The Port Cities are a critical part of the mewman economy. Unlike the interior of the kingdom, there is a feel of vibrant energy and progress in the ports, with even early signs of industrialization and modern economic theory in play. To expand this would only benefit us... and the mewmans as well, why not?\n- §RImperial Secretary of State Lady Carman Everett§! -"
@@ -560,7 +560,7 @@
  CAL_butterfly_aid.6.t:0 ""
  
  CAL_butterfly_aid.7:0 "Who is Festiva?"
- CAL_butterfly_aid.7_desc:0 "“Some of these records do not appear to match properly. After this Queen Eclipsa, dates, sequence of events, they all don’t line up fully.\nWho is Queen Festiva anyway?”\n\n§gEmperor of the United States and Imperial Governor of California\nJoshua Norton§!"
+ CAL_butterfly_aid.7_desc:0 "“Some of these records do not appear to match properly. After this Queen Eclipsa, who I could swear I just know, dates, sequence of events, they all don’t line up fully.\nWho is Queen Festiva anyway?”\n§gEmperor of the United States and Imperial Governor of California\nJoshua Norton§!"
  CAL_butterfly_aid.7.t:0 ""
  
  ##################################################################################################################

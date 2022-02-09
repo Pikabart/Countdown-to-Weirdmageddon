@@ -34,7 +34,7 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_start.0.t"
+			#custom_effect_tooltip = "CAL_start.0.t"
 			hidden_effect = {
 				news_event = { id = launcher_news.6 days = 2 }  # Norton Found, and State of the Union
 			}
@@ -149,6 +149,7 @@
 			add_dynamic_modifier = {
 				modifier = dyn_mod_cal_social_services_expansion 
 			}
+			country_event = CAL_JANNA.1
 		}
 	}
 	
@@ -249,6 +250,11 @@
 			set_variable = { cal_tIDR = 65 }
 			set_variable = { cal_hectorNDR = 35 }
 			set_variable = { cal_compromise_NDR = 0 }
+			
+			hidden_effect = {
+				country_event = { id = CAL_GUSTAV.1 days = 5}
+			
+			}
 		}
 	}
 
@@ -323,6 +329,16 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_domestic.1.t"
+			add_to_variable = {
+				var = cal_pIDR
+				value = 20
+			}
+			###################
+			clamp_variable = {
+				var = cal_pIDR
+				min = 0
+				max = 100
+			}
 		}
 	}
 	
@@ -345,6 +361,16 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_domestic.2.t"
+			add_to_variable = {
+				var = cal_tIDR
+				value = 20
+			}
+			###################
+			clamp_variable = {
+				var = cal_tIDR
+				min = 0
+				max = 100
+			}
 		}
 	}
 	
@@ -370,6 +396,7 @@
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_domestic.3.t"
 			set_country_flag = cal_UBI
+			add_ideas = CAL_prog_UBI
 		}
 	}
 	
@@ -395,6 +422,7 @@
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_domestic.4.t" 
 			set_country_flag = cal_social_security
+			add_ideas = CAL_moderate_socsec
 		}
 	}
 	
@@ -420,6 +448,7 @@
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_domestic.5.t" 
 			set_country_flag = cal_aid_small_business
+			add_ideas = CAL_moderate_smallbiz
 		}
 	}
 	
@@ -445,6 +474,7 @@
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_domestic.6.t"
 			set_country_flag = cal_remove_restrictions
+			add_ideas = CAL_trad_remove
 		}
 	}
 	
@@ -470,6 +500,17 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_domestic.7.t"
+			add_ideas = CAL_norton_care
+			add_to_variable = {
+				var = cal_pIDR
+				value = 20
+			}
+			###################
+			clamp_variable = {
+				var = cal_pIDR
+				min = 0
+				max = 100
+			}
 		}
 	}
 	
@@ -496,6 +537,17 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_domestic.8.t"
+			add_ideas = CAL_tax_codes
+			add_to_variable = {
+				var = cal_tIDR
+				value = 20
+			}
+			###################
+			clamp_variable = {
+				var = cal_tIDR
+				min = 0
+				max = 100
+			}
 		}
 	}
 	
@@ -521,6 +573,16 @@
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_domestic.9.t"
 			set_country_flag = cal_small_bills # Enable small bill desicions in NorCAl and SoCal
+			add_to_variable = {
+				var = cal_hectorNDR
+				value = 25
+			}
+			###################
+			clamp_variable = {
+				var = cal_hectorNDR
+				min = 0
+				max = 100
+			}
 		}
 	}
 	######################################################
@@ -546,6 +608,37 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_division.1.t"
+			add_political_power = 50
+			add_to_variable = {
+				var = cal_norton_norcal
+				value = 15
+			}
+			###################
+			clamp_variable = {
+				var = cal_norton_norcal
+				min = 0
+				max = 100
+			}
+			add_to_variable = {
+				var = cal_norton_socal
+				value = 15
+			}
+			###################
+			clamp_variable = {
+				var = cal_norton_socal
+				min = 0
+				max = 100
+			}
+			add_to_variable = {
+				var = cal_hectorNDR
+				value = 10
+			}
+			###################
+			clamp_variable = {
+				var = cal_hectorNDR
+				min = 0
+				max = 100
+			}
 		}
 	}
 	
@@ -568,6 +661,17 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_division.2.t"
+			add_stability = 0.05
+			add_to_variable = {
+				var = cal_norton_socal
+				value = 20
+			}
+			###################
+			clamp_variable = {
+				var = cal_norton_socal
+				min = 0
+				max = 100
+			}
 		}
 	}
 	
@@ -590,6 +694,27 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_division.3.t"
+			add_political_power = 100
+			add_to_variable = {
+				var = cal_norton_socal
+				value = 20
+			}
+			###################
+			clamp_variable = {
+				var = cal_norton_socal
+				min = 0
+				max = 100
+			}
+			add_to_variable = {
+				var = cal_hectorNDR
+				value = 20
+			}
+			###################
+			clamp_variable = {
+				var = cal_hectorNDR
+				min = 0
+				max = 100
+			}
 		}
 	}
 	
@@ -616,6 +741,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_division.4.t"
+			add_ideas = CAL_imp_congress
 		}
 	}
 	
@@ -642,6 +768,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_division.5.t"
+			add_ideas = CAL_imp_governor
 		}
 	}
 	
@@ -664,6 +791,36 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_division.6.t"
+			subtract_from_variable = {
+				var = cal_norton_norcal
+				value = 10
+			}
+			###################
+			clamp_variable = {
+				var = cal_norton_norcal
+				min = 0
+				max = 100
+			}
+			subtract_from_variable = {
+				var = cal_norton_socal
+				value = 10
+			}
+			###################
+			clamp_variable = {
+				var = cal_norton_socal
+				min = 0
+				max = 100
+			}
+			subtract_from_variable = {
+				var = cal_hectorNDR
+				value = 10
+			}
+			###################
+			clamp_variable = {
+				var = cal_hectorNDR
+				min = 0
+				max = 100
+			}
 		}
 	}
 	
@@ -690,6 +847,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_division.7.t"
+			add_political_power = 200
 		}
 	}
 	
@@ -716,11 +874,13 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_division.8.t"
+			add_stability = 0.05
+			add_war_support = 0.05
 		}
 	}
 	
 	focus = {
-		id = CAL_assembly.2
+		id = CAL_assembly.2 
 		icon = GFX_goal_california
 		x = 0
 		y = 4
@@ -736,7 +896,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = { always = false }
 		bypass = {} 
 		
 		completion_reward = {	
@@ -1201,6 +1361,8 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_complex.0.t"
+			add_offsite_building = { type = arms_factory level = 1 }
+			add_offsite_building = { type = industrial_complex level = 1 }
 		}
 	}
 	
@@ -1223,6 +1385,9 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_complex.1.t"
+			add_offsite_building = { type = synthetic_refinery level = 1 }
+			add_offsite_building = { type = fuel_silo level = 2 }
+			add_fuel = 1000
 		}
 	}
 	
@@ -1245,6 +1410,32 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_complex.2.t"
+			156 = {
+				add_extra_state_shared_building_slots = 2 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			160 = {
+				add_extra_state_shared_building_slots = 2 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -1267,6 +1458,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_complex.3.t"
+			country_event = CAL_MILITARY.1
 		}
 	}
 	
@@ -1289,6 +1481,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_complex.4.t"
+			add_research_slot = 3
 		}
 	}
 	
@@ -1311,6 +1504,44 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_complex.5.t"
+			add_stability = 0.05
+			add_war_support = 0.05
+			134 = {
+				add_extra_state_shared_building_slots = 4 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard 
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base     
+					level = 2
+					instant_build = yes
+					province = 5246
+				}
+				add_building_construction = {
+					type = coastal_bunker      
+					level = 2
+					instant_build = yes
+					province = 5246
+				}
+				add_building_construction = {
+					type = coastal_bunker      
+					level = 2
+					instant_build = yes
+					province = 1289
+				}
+			}
 		}
 	}
 	
@@ -1333,6 +1564,55 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_complex.6.t"
+			add_manpower = 100000
+			169 = {
+				add_extra_state_shared_building_slots = 6 
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard 
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker      
+					level = 2
+					instant_build = yes
+					province = 5902
+				}
+				add_building_construction = {
+					type = coastal_bunker      
+					level = 2
+					instant_build = yes
+					province = 10153
+				}
+				add_building_construction = {
+					type = coastal_bunker      
+					level = 2
+					instant_build = yes
+					province = 10157
+				}
+				add_building_construction = {
+					type = coastal_bunker      
+					level = 2
+					instant_build = yes
+					province = 10143
+				}
+				add_building_construction = {
+					type = coastal_bunker      
+					level = 2
+					instant_build = yes
+					province = 6407
+				}
+			}
 		}
 	}
 	
@@ -1356,6 +1636,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_complex.7.t"
+			add_ideas = CAL_golden_industry
 		}
 	}
 	
@@ -1381,6 +1662,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_pacific.0.t"
+			navy_experience = 100
 		}
 	}
 	
@@ -1403,6 +1685,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_pacific.1.t"
+			country_event = CAL_MILITARY.2
 		}
 	}
 	
@@ -1448,6 +1731,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_pacific.3.t"
+			#load_obb = 
 		}
 	}
 	
@@ -1470,6 +1754,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_pacific.4.t"
+			#set_country_flag = 
 		}
 	}
 	
@@ -1492,6 +1777,11 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_pacific.5.t"
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 3
+				category = naval_doctrine
+			}
 		}
 	}
 	
@@ -1514,6 +1804,80 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_pacific.6.t"
+			174 = {
+				add_extra_state_shared_building_slots = 4 
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = dockyard 
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker      
+					level = 2
+					instant_build = yes
+					province = 10237
+				}
+				add_building_construction = {
+					type = coastal_bunker      
+					level = 2
+					instant_build = yes
+					province = 10256
+				}
+				add_building_construction = {
+					type = coastal_bunker      
+					level = 2
+					instant_build = yes
+					province = 5307
+				}
+				add_building_construction = {
+					type = bunker               
+					level = 2
+					instant_build = yes
+					province = 5307
+				}
+				add_building_construction = {
+					type = bunker      
+					level = 2
+					instant_build = yes
+					province = 4916
+				}
+			}
+			134 = {
+				add_extra_state_shared_building_slots = 2 
+				add_building_construction = {
+					type = dockyard 
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base     
+					level = 4
+					instant_build = yes
+					province = 1289
+				}
+				add_building_construction = {
+					type = coastal_bunker      
+					level = 2
+					instant_build = yes
+					province = 1289
+				}
+				add_building_construction = {
+					type = bunker      
+					level = 2
+					instant_build = yes
+					province = 1289
+				}
+			}
 		}
 	}
 	
@@ -1537,6 +1901,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_pacific.7.t"
+			add_ideas = CAL_fareast_wildwest
 		}
 	}
 	
@@ -1562,6 +1927,8 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_army.0.t"
+			army_experience = 100
+			add_ideas = CAL_over_there_0
 		}
 	}
 	
@@ -1584,6 +1951,9 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_army.1.t"
+			set_technology = {
+				improved_infantry_weapons = 1
+			}
 		}
 	}
 	
@@ -1606,6 +1976,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_army.2.t"
+			add_ideas = CAL_over_there_1
 		}
 	}
 	
@@ -1628,7 +1999,8 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_army.3.t"
-			set_country_flag = cal_sierra_depot
+			#set_country_flag = cal_sierra_depot
+			country_event = CAL_MILITARY.3
 		}
 	}
 	
@@ -1651,6 +2023,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_army.4.t"
+			add_ideas = CAL_logistics_first
 		}
 	}
 	
@@ -1673,6 +2046,14 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_army.5.t"
+			set_technology = {
+				early_fighter = 1
+			}
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = 100
+				producer = EUS
+			}
 		}
 	}
 	
@@ -1695,6 +2076,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_army.6.t"
+			country_event = CAL_MILITARY.4
 		}
 	}
 	
@@ -1716,8 +2098,9 @@
 		available = {}
 		bypass = {} 
 		
-		completion_reward = {	
+		completion_reward = {	  
 			custom_effect_tooltip = "CAL_army.7.t"
+			add_ideas = CAL_over_there_2
 		}
 	}
 	
@@ -1768,6 +2151,52 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_BIB.0.t"
+			144 = {
+				add_building_construction = {
+					type = bunker               
+					level = 1
+					instant_build = yes
+					province = 9121
+				}
+				add_building_construction = {
+					type = bunker               
+					level = 1
+					instant_build = yes
+					province = 9104
+				}
+				add_building_construction = {
+					type = bunker      
+					level = 1
+					instant_build = yes
+					province = 5780
+				}
+				add_building_construction = {
+					type = bunker      
+					level = 1
+					instant_build = yes
+					province = 9111
+				}
+			}
+			142 = {
+				add_building_construction = {
+					type = naval_base               
+					level = 2
+					instant_build = yes
+					province = 3304
+				}
+				add_building_construction = {
+					type = bunker      
+					level = 1
+					instant_build = yes
+					province = 3304
+				}
+				add_building_construction = {
+					type = coastal_bunker      
+					level = 1
+					instant_build = yes
+					province = 3304
+				}
+			}
 		}
 	}
 	
@@ -1790,6 +2219,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_BIB.1.t"
+			country_event = CAL_IBI.2 
 		}
 	}
 	
@@ -1812,6 +2242,11 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_BIB.2.t"
+			if = {
+				limit = {has_dlc = "La Resistance"}
+				upgrade_intelligence_agency = upgrade_diplo_training
+			}
+			else = { add_political_power = 200}
 		}
 	}
 	
@@ -1834,6 +2269,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_BIB.3.t"
+			country_event = CAL_IBI.3 
 		}
 	}
 	
@@ -1859,6 +2295,27 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_BIB.4.t"
+			if = {
+				limit = {has_dlc = "La Resistance"}
+				upgrade_intelligence_agency = upgrade_blueprint_stealing
+			}
+			else = { 
+				add_tech_bonus = {
+					bonus = 0.25
+					uses = 1
+					category = mountaineers_tech
+				} 
+				add_tech_bonus = {
+					bonus = 0.25
+					uses = 1
+					category = marine_tech
+				} 
+				add_tech_bonus = {
+					bonus = 0.25
+					uses = 1
+					category = air_equipment
+				}
+			}
 		}
 	}
 	
@@ -1881,6 +2338,11 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_BIB.5.t"
+			if = {
+				limit = {has_dlc = "La Resistance"}
+				upgrade_intelligence_agency = upgrade_commando_training
+			}
+			else = { army_experience = 100}
 		}
 	}
 	
@@ -1904,11 +2366,12 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_BIB.6.t"
+			country_event = CAL_IBI.4 
 		}
 	}
 	
 	focus = { 
-		id = CAL_BIB.7 
+		id = CAL_BIB.7  
 		icon = GFX_goal_california
 		x = -1
 		y = 1
@@ -1927,6 +2390,22 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_BIB.7.t"
+			if = {
+				limit = { has_dlc = "La Resistance" }
+				create_operative_leader = {
+					name = "Hector Diaz-Guzman"
+					#GFX = # 
+					traits = {
+						operative_master_interrogator
+						operative_well_groomed
+						operative_natural_orator
+					}
+					bypass_recruitment = yes
+					available_to_spy_master = yes
+					nationalities = { CAL EUS MEX EPI }
+				}
+			}
+			else = { add_ideas = CAL_no_la_resistance_BIB}
 		}
 	}
 	
@@ -1938,8 +2417,8 @@
 		relative_position_id = CAL_hector.0
 		prerequisite = { focus = CAL_BIB.6 }
 		prerequisite = { focus = CAL_BIB.7 }
-		prerequisite = { focus = CAL_IBI.6 }
-		prerequisite = { focus = CAL_IBI.7 }
+		prerequisite = { focus = CAL_IBI_focus.6 }
+		prerequisite = { focus = CAL_IBI_focus.7 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -1952,13 +2431,14 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_hector.1.t"
+			country_event = CAL_IBI.5
 		}
 	}
 	
 	####################################
 	
 	focus = {
-		id = CAL_IBI.0 
+		id = CAL_IBI_focus.0 
 		icon = GFX_goal_california
 		x = -4
 		y = 2
@@ -1975,18 +2455,18 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_IBI.0.t"
-			country_event = CAL_IPD.1
+			custom_effect_tooltip = "CAL_IBI_focus.0.t"
+			country_event = CAL_IBI.1
 		}
 	}
 	
 	focus = {
-		id = CAL_IBI.1
+		id = CAL_IBI_focus.1
 		icon = GFX_goal_california
 		x = -2
 		y = 1
-		relative_position_id = CAL_IBI.0
-		prerequisite = { focus = CAL_IBI.0 }
+		relative_position_id = CAL_IBI_focus.0
+		prerequisite = { focus = CAL_IBI_focus.0 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -1998,17 +2478,33 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_IBI.1.t"
+			custom_effect_tooltip = "CAL_IBI_focus.1.t"
+			if = {
+				limit = { has_dlc = "La Resistance" }
+				create_operative_leader = {
+					name = "Mr. X"
+					#GFX = #
+					traits = {
+						operative_linguist
+						operative_seducer
+						operative_well_groomed
+					}
+					bypass_recruitment = yes
+					available_to_spy_master = yes
+					nationalities = { CAL EUS EPI }
+				}
+			}
+			else = { add_ideas = CAL_no_la_resistance_mrX}
 		}
 	}
 	
 	focus = {
-		id = CAL_IBI.2
+		id = CAL_IBI_focus.2
 		icon = GFX_goal_california
 		x = 2
 		y = 1
-		relative_position_id = CAL_IBI.0
-		prerequisite = { focus = CAL_IBI.0 }
+		relative_position_id = CAL_IBI_focus.0
+		prerequisite = { focus = CAL_IBI_focus.0 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -2020,17 +2516,29 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_IBI.2.t"
+			custom_effect_tooltip = "CAL_IBI_focus.2.t"
+			if = {
+				limit = { has_dlc = "La Resistance" }
+				upgrade_intelligence_agency = upgrade_training_centers
+			}
+			else_if = { 
+				limit = { has_idea = CAL_no_la_resistance_0 }
+				swap_ideas = {
+					remove_idea = CAL_no_la_resistance_0
+					add_idea = CAL_no_la_resistance_1
+				}
+			}
+			else = {}
 		}
 	}
 	
 	focus = {
-		id = CAL_IBI.3
+		id = CAL_IBI_focus.3
 		icon = GFX_goal_california
 		x = -1
 		y = 1
-		relative_position_id = CAL_IBI.1
-		prerequisite = { focus = CAL_IBI.1 }
+		relative_position_id = CAL_IBI_focus.1
+		prerequisite = { focus = CAL_IBI_focus.1 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -2042,19 +2550,39 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_IBI.3.t"
+			custom_effect_tooltip = "CAL_IBI_focus.3.t"
+			if = {
+				limit = {has_dlc = "La Resistance"}
+				upgrade_intelligence_agency = upgrade_decryption_boost_2
+				upgrade_intelligence_agency = upgrade_crypto_strength_2
+			}
+			else_if = { 
+				limit = { has_idea = CAL_no_la_resistance_1 }
+				swap_ideas = {
+					remove_idea = CAL_no_la_resistance_1
+					add_idea = CAL_no_la_resistance_2
+				}
+			}
+			else_if = { 
+				limit = { has_idea = CAL_no_la_resistance_3 }
+				swap_ideas = {
+					remove_idea = CAL_no_la_resistance_3
+					add_idea = CAL_no_la_resistance_4
+				}
+			}
+			else = { }
 		}
 	}
 	
 	focus = {
-		id = CAL_IBI.4
+		id = CAL_IBI_focus.4
 		icon = GFX_goal_california
 		x = 0
 		y = 2
-		relative_position_id = CAL_IBI.0
+		relative_position_id = CAL_IBI_focus.0
 		prerequisite = { 
-			focus = CAL_IBI.1 
-			focus = CAL_IBI.2 
+			focus = CAL_IBI_focus.1 
+			focus = CAL_IBI_focus.2 
 		}
 		cost = 3
 		
@@ -2067,17 +2595,39 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_IBI.4.t"
+			custom_effect_tooltip = "CAL_IBI_focus.4.t"
+			if = {
+				limit = {has_dlc = "La Resistance"}
+				upgrade_intelligence_agency = upgrade_economy_civilian
+				upgrade_intelligence_agency = upgrade_army_department
+				upgrade_intelligence_agency = upgrade_naval_department
+				upgrade_intelligence_agency = upgrade_airforce_department
+			}
+			else_if = { 
+				limit = { has_idea = CAL_no_la_resistance_1 }
+				swap_ideas = {
+					remove_idea = CAL_no_la_resistance_1
+					add_idea = CAL_no_la_resistance_3
+				}
+			}
+			else_if = { 
+				limit = { has_idea = CAL_no_la_resistance_2 }
+				swap_ideas = {
+					remove_idea = CAL_no_la_resistance_2
+					add_idea = CAL_no_la_resistance_4
+				}
+			}
+			else = { }
 		}
 	}
 	
 	focus = {
-		id = CAL_IBI.5
+		id = CAL_IBI_focus.5
 		icon = GFX_goal_california
 		x = 1
 		y = 1
-		relative_position_id = CAL_IBI.2
-		prerequisite = { focus = CAL_IBI.2 }
+		relative_position_id = CAL_IBI_focus.2
+		prerequisite = { focus = CAL_IBI_focus.2 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -2089,18 +2639,34 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_IBI.5.t"
+			custom_effect_tooltip = "CAL_IBI_focus.5.t"
+			if = {
+				limit = { has_dlc = "La Resistance" }
+				create_operative_leader = {
+					name = "Janna Ordonia"
+					#GFX = #
+					traits = {
+						operative_infiltrator
+						operative_safe_cracker
+						operative_escape_artist
+					}
+					bypass_recruitment = yes
+					available_to_spy_master = yes
+					nationalities = { CAL EUS }
+				}
+			}
+			else = { add_ideas = CAL_no_la_resistance_janna}
 		}
 	}
 	
 	focus = {
-		id = CAL_IBI.6
+		id = CAL_IBI_focus.6
 		icon = GFX_goal_california
 		x = 1
 		y = 1
-		relative_position_id = CAL_IBI.3
-		prerequisite = { focus = CAL_IBI.3 }
-		prerequisite = { focus = CAL_IBI.4 }
+		relative_position_id = CAL_IBI_focus.3
+		prerequisite = { focus = CAL_IBI_focus.3 }
+		prerequisite = { focus = CAL_IBI_focus.4 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -2112,18 +2678,19 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_IBI.6.t"
+			custom_effect_tooltip = "CAL_IBI_focus.6.t"
+			country_event = CAL_JANNA.2
 		}
 	}
 	
 	focus = {
-		id = CAL_IBI.7
+		id = CAL_IBI_focus.7
 		icon = GFX_goal_california
 		x = -1
 		y = 1
-		relative_position_id = CAL_IBI.5
-		prerequisite = { focus = CAL_IBI.4 }
-		prerequisite = { focus = CAL_IBI.5 }
+		relative_position_id = CAL_IBI_focus.5
+		prerequisite = { focus = CAL_IBI_focus.4 }
+		prerequisite = { focus = CAL_IBI_focus.5 }
 		cost = 3
 		
 		available_if_capitulated = yes
@@ -2135,7 +2702,8 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_IBI.7.t"
+			custom_effect_tooltip = "CAL_IBI_focus.7.t"
+			country_event = CAL_JANNA.5
 		}
 	}
 	

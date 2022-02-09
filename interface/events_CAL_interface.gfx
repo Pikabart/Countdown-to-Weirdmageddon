@@ -19,6 +19,10 @@ spriteTypes = {
 		name = "GFX_report_event_janna_marco_info"
 		texturefile = "gfx/event_country_pictures/CAL/report_event_janna_marco_info.dds"
 	}
+	spriteType = { # 
+		name = "GFX_report_event_janna_marco_info"
+		texturefile = "gfx/event_country_pictures/CAL/report_event_janna_death_cult_1.dds" 
+	}
 
 	
 	
