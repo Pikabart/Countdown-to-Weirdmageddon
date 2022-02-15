@@ -3,12 +3,13 @@ characters = {
 		name = "Queen Moon Butterfly" 
 		desc = "POLITICS_QUEEN_MOON_DESC"
 		portraits = {
-			civilian = {
+			civilian = { 
 				large = "gfx/leaders/MEW/hoi4_portrait_moon.dds"
 			}
 		}
 		country_leader = {
 			ideology = oligarchism
+			traits = { mew_the_undaunted }
 			expire = "2040.1.1.1"
 			id = -1
 		}

@@ -1,0 +1,1713 @@
+﻿focus_tree = {
+	id = oregon_start_focus
+	
+	country = {
+		factor = 0	
+		modifier = {
+			add = 100 
+			tag = ORE
+		} 
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 1000 y = 250 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	##################################################################################################################
+	##################################################################################################################
+	##################################################################################################################
+	
+	focus = {
+		id = ORE_start_focus.0 
+		icon = GFX_goal_oregon_start
+		x = 32
+		y = 1
+		cost = 1
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_start_focus.0.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_start_focus.1 
+		icon = GFX_goal_oregon_start
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_start_focus.0
+		prerequisite = { focus = ORE_start_focus.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_start_focus.1.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_start_focus.2 
+		icon = GFX_goal_oregon_start
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_start_focus.1
+		prerequisite = { focus = ORE_start_focus.1 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_start_focus.2.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_start_focus.3 
+		icon = GFX_goal_oregon_start
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_start_focus.2
+		prerequisite = { focus = ORE_start_focus.2 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_start_focus.3.t"
+			hidden_effect = {}
+		}
+	}
+	
+	#################################################################################
+	
+	focus = {
+		id = ORE_trembley_focus.0 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 2
+		cost = 1
+		relative_position_id = ORE_start_focus.3
+		prerequisite = { focus = ORE_start_focus.3 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_trembley_focus.0.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_trembley_focus.1 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 2
+		cost = 1
+		relative_position_id = ORE_trembley_focus.0
+		prerequisite = { focus = ORE_trembley_focus.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_trembley_focus.1.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_trembley_focus.2 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 2
+		cost = 1
+		relative_position_id = ORE_trembley_focus.1
+		prerequisite = { focus = ORE_trembley_focus.1 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_trembley_focus.2.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_trembley_focus.3 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 2
+		cost = 1
+		relative_position_id = ORE_trembley_focus.2
+		prerequisite = { focus = ORE_trembley_focus.2 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_trembley_focus.3.t"
+			hidden_effect = {}
+		}
+	}
+	
+	#################################################################################
+	# The Kerfuffled Economy  #################################################################################
+	#################################################################################
+	
+	focus = {
+		id = ORE_economy_focus.0 
+		icon = GFX_goal_new_oregon
+		x = -8
+		y = 2
+		cost = 1
+		relative_position_id = ORE_start_focus.3
+		prerequisite = { focus = ORE_start_focus.3 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_economy_focus.0.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_willamette.0
+		icon = GFX_goal_new_oregon
+		x = -3
+		y = 1
+		cost = 1
+		relative_position_id = ORE_economy_focus.0
+		prerequisite = { focus = ORE_economy_focus.0 }
+		mutually_exclusive = { focus = ORE_cascadia_focus.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_economy_focus.2.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_cascadia_focus.0 
+		icon = GFX_goal_new_oregon
+		x = 3
+		y = 1
+		cost = 1
+		relative_position_id = ORE_economy_focus.0
+		prerequisite = { focus = ORE_economy_focus.0 }
+		mutually_exclusive = { focus = ORE_willamette.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cascadia_focus.0.t"
+			hidden_effect = {}
+		}
+	}
+	#################################################################################
+	# The New Economy
+	
+	focus = {
+		id = ORE_economy_focus.1 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 2
+		cost = 1
+		relative_position_id = ORE_economy_focus.0
+		prerequisite = { 
+			focus = ORE_willamette.0
+			focus = ORE_cascadia_focus.0
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_economy_focus.1.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_economy_focus.2 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_economy_focus.1
+		prerequisite = { focus = ORE_economy_focus.1 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_economy_focus.2.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_economy_focus.3 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_economy_focus.2
+		prerequisite = { focus = ORE_economy_focus.2 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_economy_focus.3.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_economy_focus.4 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_economy_focus.3
+		prerequisite = { focus = ORE_economy_focus.3 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_economy_focus.4.t"
+			hidden_effect = {}
+		}
+	}
+	#################################################################################
+	# At Home in Willimette
+	
+	focus = {
+		id = ORE_willamette.1 
+		icon = GFX_goal_new_oregon
+		x = -2
+		y = 1
+		cost = 1
+		relative_position_id = ORE_willamette.0
+		prerequisite = { focus = ORE_willamette.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_willamette.1.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_willamette.2 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_willamette.0
+		prerequisite = { focus = ORE_willamette.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_willamette.2.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_willamette.3 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_willamette.1
+		prerequisite = { focus = ORE_willamette.1 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_willamette.3.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_willamette.4 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_willamette.2
+		prerequisite = { focus = ORE_willamette.2 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_willamette.4.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_willamette.5 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_willamette.3
+		prerequisite = { focus = ORE_willamette.3 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_willamette.5.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_willamette.6 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_willamette.4
+		prerequisite = { focus = ORE_willamette.4 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_willamette.6.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_willamette.7 
+		icon = GFX_goal_new_oregon
+		x = -1
+		y = 1
+		cost = 1
+		relative_position_id = ORE_willamette.6
+		prerequisite = { focus = ORE_willamette.5 }
+		prerequisite = { focus = ORE_willamette.6 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_willamette.7.t"
+			hidden_effect = {}
+		}
+	}
+	#################################################################################
+	# At Home in Willimette
+	
+	focus = {
+		id = ORE_cascadia_focus.1 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_cascadia_focus.0
+		prerequisite = { focus = ORE_cascadia_focus.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cascadia_focus.1.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_cascadia_focus.2 
+		icon = GFX_goal_new_oregon
+		x = 2
+		y = 1
+		cost = 1
+		relative_position_id = ORE_cascadia_focus.0
+		prerequisite = { focus = ORE_cascadia_focus.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cascadia_focus.2.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_cascadia_focus.3 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_cascadia_focus.1
+		prerequisite = { focus = ORE_cascadia_focus.1 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cascadia_focus.3.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_cascadia_focus.4 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_cascadia_focus.2
+		prerequisite = { focus = ORE_cascadia_focus.2 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cascadia_focus.4.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_cascadia_focus.5 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_cascadia_focus.3
+		prerequisite = { focus = ORE_cascadia_focus.3 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cascadia_focus.5.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_cascadia_focus.6 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_cascadia_focus.4
+		prerequisite = { focus = ORE_cascadia_focus.4 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cascadia_focus.6.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_cascadia_focus.7 
+		icon = GFX_goal_new_oregon
+		x = -1
+		y = 1
+		cost = 1
+		relative_position_id = ORE_cascadia_focus.6
+		prerequisite = { focus = ORE_cascadia_focus.5 }
+		prerequisite = { focus = ORE_cascadia_focus.6 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cascadia_focus.7.t"
+			hidden_effect = {}
+		}
+	}
+	
+	#################################################################################
+	# Head East, Old Man   #################################################################################
+	#################################################################################
+	
+	focus = {
+		id = ORE_head_east_focus.0 
+		icon = GFX_goal_new_oregon
+		x = 8
+		y = 2
+		cost = 1
+		relative_position_id = ORE_start_focus.3
+		prerequisite = { focus = ORE_start_focus.3 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_head_east_focus.0.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_cross_rockies.0 
+		icon = GFX_goal_new_oregon
+		x = -3
+		y = 1
+		cost = 1
+		relative_position_id = ORE_head_east_focus.0
+		prerequisite = { focus = ORE_head_east_focus.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cross_rockies.0.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_oregon_trail_focus.0 
+		icon = GFX_goal_new_oregon
+		x = 3
+		y = 1
+		cost = 1
+		relative_position_id = ORE_head_east_focus.0
+		prerequisite = { focus = ORE_head_east_focus.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_oregon_trail_focus.0.t"
+			hidden_effect = {}
+		}
+	}
+
+	#################################################################################
+
+	focus = {
+		id = ORE_head_east_focus.1 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 3
+		cost = 1
+		relative_position_id = ORE_head_east_focus.0
+		prerequisite = { 
+			focus = ORE_cross_rockies.2 
+			focus = ORE_oregon_trail_focus.1 
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_head_east_focus.1.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_head_east_focus.2 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 2
+		cost = 1
+		relative_position_id = ORE_head_east_focus.1
+		prerequisite = { 
+			focus = ORE_cross_rockies.6 
+			focus = ORE_oregon_trail_focus.5 
+		}
+		prerequisite = { 
+			focus = ORE_head_east_focus.1 
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_head_east_focus.2.t"
+			hidden_effect = {}
+		}
+	}
+	
+	#################################################################################
+	# Crossing the Rockies
+	
+	focus = {
+		id = ORE_cross_rockies.1 
+		icon = GFX_goal_new_oregon
+		x = -2
+		y = 1
+		cost = 1
+		relative_position_id = ORE_cross_rockies.0
+		prerequisite = { focus = ORE_cross_rockies.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cross_rockies.1.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_cross_rockies.2 
+		icon = GFX_goal_new_oregon
+		x = 1
+		y = 1
+		cost = 1
+		relative_position_id = ORE_cross_rockies.0
+		prerequisite = { focus = ORE_cross_rockies.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cross_rockies.2.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_cross_rockies.3 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_cross_rockies.1
+		prerequisite = { focus = ORE_cross_rockies.1 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cross_rockies.3.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_cross_rockies.4 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_cross_rockies.2
+		prerequisite = { focus = ORE_cross_rockies.2 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cross_rockies.4.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_cross_rockies.5 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_cross_rockies.3
+		prerequisite = { focus = ORE_cross_rockies.3 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cross_rockies.5.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_cross_rockies.6 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_cross_rockies.4
+		prerequisite = { focus = ORE_cross_rockies.4 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cross_rockies.6.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_cross_rockies.7 
+		icon = GFX_goal_new_oregon
+		x = -2
+		y = 1
+		cost = 1
+		relative_position_id = ORE_cross_rockies.6
+		prerequisite = { focus = ORE_cross_rockies.5 }
+		prerequisite = { focus = ORE_cross_rockies.6 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_cross_rockies.7.t"
+			hidden_effect = {}
+		}
+	}
+	#################################################################################
+	# The Oregon Trail
+	
+	focus = {
+		id = ORE_oregon_trail_focus.1 
+		icon = GFX_goal_new_oregon
+		x = -1
+		y = 1
+		cost = 1
+		relative_position_id = ORE_oregon_trail_focus.0
+		prerequisite = { focus = ORE_oregon_trail_focus.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_oregon_trail_focus.1.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_oregon_trail_focus.2 
+		icon = GFX_goal_new_oregon
+		x = 2
+		y = 1
+		cost = 1
+		relative_position_id = ORE_oregon_trail_focus.0
+		prerequisite = { focus = ORE_oregon_trail_focus.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_oregon_trail_focus.2.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_oregon_trail_focus.3 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_oregon_trail_focus.1
+		prerequisite = { focus = ORE_oregon_trail_focus.1 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_oregon_trail_focus.3.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_oregon_trail_focus.4 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_oregon_trail_focus.2
+		prerequisite = { focus = ORE_oregon_trail_focus.2 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_oregon_trail_focus.4.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_oregon_trail_focus.5 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_oregon_trail_focus.3
+		prerequisite = { focus = ORE_oregon_trail_focus.3 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_oregon_trail_focus.5.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_oregon_trail_focus.6 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_oregon_trail_focus.4
+		prerequisite = { focus = ORE_oregon_trail_focus.4 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_oregon_trail_focus.6.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_oregon_trail_focus.7 
+		icon = GFX_goal_new_oregon
+		x = -1
+		y = 1
+		cost = 1
+		relative_position_id = ORE_oregon_trail_focus.6
+		prerequisite = { focus = ORE_oregon_trail_focus.5 }
+		prerequisite = { focus = ORE_oregon_trail_focus.6 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_oregon_trail_focus.7.t"
+			hidden_effect = {}
+		}
+	}
+	
+	#################################################################################
+	# The Army of the Frontier  #################################################################################
+	#################################################################################
+	
+	focus = {
+		id = ORE_frontier_focus.0 
+		icon = GFX_goal_new_oregon
+		x = 26
+		y = 2
+		cost = 1
+		relative_position_id = ORE_start_focus.3
+		#prerequisite = { focus = ORE_start_focus.3 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_focus.0.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_focus.1 
+		icon = GFX_goal_new_oregon
+		x = -5
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_focus.0
+		prerequisite = { focus = ORE_frontier_focus.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_focus.1.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_focus.2 
+		icon = GFX_goal_new_oregon
+		x = 5
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_focus.0
+		prerequisite = { focus = ORE_frontier_focus.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_focus.2.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_focus.3 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_focus.0
+		prerequisite = { focus = ORE_frontier_focus.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_focus.3.t"
+			hidden_effect = {}
+		}
+	}
+	
+	#################################################################################
+	# Three Doctrine ARMY
+	
+	focus = {
+		id = ORE_frontier_doctrine.0 
+		icon = GFX_goal_new_oregon
+		x = -3
+		y = 2
+		cost = 1
+		relative_position_id = ORE_frontier_focus.0
+		prerequisite = { 
+			focus = ORE_frontier_focus.1
+			focus = ORE_frontier_focus.2
+			focus = ORE_frontier_focus.3
+		}
+		mutually_exclusive = { 
+			focus = ORE_frontier_doctrine.1  
+			focus = ORE_frontier_doctrine.2
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_doctrine.0.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_doctrine.1 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 2
+		cost = 1
+		relative_position_id = ORE_frontier_focus.0
+		prerequisite = { 
+			focus = ORE_frontier_focus.1
+			focus = ORE_frontier_focus.2
+			focus = ORE_frontier_focus.3
+		}
+		mutually_exclusive = { 
+			focus = ORE_frontier_doctrine.0  
+			focus = ORE_frontier_doctrine.2
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_doctrine.1.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_doctrine.2 
+		icon = GFX_goal_new_oregon
+		x = 3
+		y = 2
+		cost = 1
+		relative_position_id = ORE_frontier_focus.0
+		prerequisite = { 
+			focus = ORE_frontier_focus.1
+			focus = ORE_frontier_focus.2
+			focus = ORE_frontier_focus.3
+		}
+		mutually_exclusive = { 
+			focus = ORE_frontier_doctrine.0  
+			focus = ORE_frontier_doctrine.1
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_doctrine.2.t"
+			hidden_effect = {}
+		}
+	}
+	#################################################################################
+	# Three Doctrine NAVY
+	
+	focus = {
+		id = ORE_frontier_doctrine.3 
+		icon = GFX_goal_new_oregon
+		x = -3
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_doctrine.1
+		prerequisite = { 
+			focus = ORE_frontier_doctrine.0
+			focus = ORE_frontier_doctrine.1
+			focus = ORE_frontier_doctrine.2
+		}
+		mutually_exclusive = { 
+			focus = ORE_frontier_doctrine.4  
+			focus = ORE_frontier_doctrine.5
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_doctrine.3.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_doctrine.4 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_doctrine.1
+		prerequisite = { 
+			focus = ORE_frontier_doctrine.0
+			focus = ORE_frontier_doctrine.1
+			focus = ORE_frontier_doctrine.2
+		}
+		mutually_exclusive = { 
+			focus = ORE_frontier_doctrine.3  
+			focus = ORE_frontier_doctrine.5
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_doctrine.4.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_doctrine.5 
+		icon = GFX_goal_new_oregon
+		x = 3
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_doctrine.1
+		prerequisite = { 
+			focus = ORE_frontier_doctrine.0
+			focus = ORE_frontier_doctrine.1
+			focus = ORE_frontier_doctrine.2
+		}
+		mutually_exclusive = { 
+			focus = ORE_frontier_doctrine.3  
+			focus = ORE_frontier_doctrine.4
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_doctrine.5.t"
+			hidden_effect = {}
+		}
+	}
+	#################################################################################
+	# Three Doctrine AIR
+	
+	focus = {
+		id = ORE_frontier_doctrine.6 
+		icon = GFX_goal_new_oregon
+		x = -3
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_doctrine.4
+		prerequisite = { 
+			focus = ORE_frontier_doctrine.3
+			focus = ORE_frontier_doctrine.4
+			focus = ORE_frontier_doctrine.5
+		}
+		mutually_exclusive = { 
+			focus = ORE_frontier_doctrine.7  
+			focus = ORE_frontier_doctrine.8
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_doctrine.6.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_doctrine.7 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_doctrine.4
+		prerequisite = { 
+			focus = ORE_frontier_doctrine.3
+			focus = ORE_frontier_doctrine.4
+			focus = ORE_frontier_doctrine.5
+		}
+		mutually_exclusive = { 
+			focus = ORE_frontier_doctrine.6  
+			focus = ORE_frontier_doctrine.8
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_doctrine.7.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_doctrine.8 
+		icon = GFX_goal_new_oregon
+		x = 3
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_doctrine.4
+		prerequisite = { 
+			focus = ORE_frontier_doctrine.3
+			focus = ORE_frontier_doctrine.4
+			focus = ORE_frontier_doctrine.5
+		}
+		mutually_exclusive = { 
+			focus = ORE_frontier_doctrine.6  
+			focus = ORE_frontier_doctrine.7
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_doctrine.8.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_doctrine.9 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_doctrine.7
+		prerequisite = { 
+			focus = ORE_frontier_doctrine.6
+			focus = ORE_frontier_doctrine.7
+			focus = ORE_frontier_doctrine.8
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_doctrine.9.t"
+			hidden_effect = {}
+		}
+	}
+	#################################################################################
+	focus = {
+		id = ORE_frontier_focus.4 
+		icon = GFX_goal_new_oregon
+		x = -1
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_focus.1
+		prerequisite = { focus = ORE_frontier_focus.1 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_focus.4.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_focus.5 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_focus.4
+		prerequisite = { focus = ORE_frontier_focus.4 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_focus.5.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_focus.6 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_focus.5
+		prerequisite = { focus = ORE_frontier_focus.5 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_focus.6.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_focus.7 
+		icon = GFX_goal_new_oregon
+		x = 1
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_focus.6
+		prerequisite = { focus = ORE_frontier_focus.6 }
+		prerequisite = { 
+			focus = ORE_frontier_doctrine.6
+			focus = ORE_frontier_doctrine.7
+			focus = ORE_frontier_doctrine.8
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_focus.7.t"
+			hidden_effect = {}
+		}
+	}
+	#################################################################################
+	focus = {
+		id = ORE_frontier_focus.8 
+		icon = GFX_goal_new_oregon
+		x = 1
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_focus.2
+		prerequisite = { focus = ORE_frontier_focus.2 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_focus.8.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_focus.9 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_focus.8
+		prerequisite = { focus = ORE_frontier_focus.8 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_focus.9.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_focus.10 
+		icon = GFX_goal_new_oregon
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_focus.9
+		prerequisite = { focus = ORE_frontier_focus.9 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_focus.10.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = ORE_frontier_focus.11 
+		icon = GFX_goal_new_oregon
+		x = -1
+		y = 1
+		cost = 1
+		relative_position_id = ORE_frontier_focus.10
+		prerequisite = { focus = ORE_frontier_focus.10 }
+		prerequisite = { 
+			focus = ORE_frontier_doctrine.6
+			focus = ORE_frontier_doctrine.7
+			focus = ORE_frontier_doctrine.8
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "ORE_frontier_focus.1.t"
+			hidden_effect = {}
+		}
+	}
+	
+}###############

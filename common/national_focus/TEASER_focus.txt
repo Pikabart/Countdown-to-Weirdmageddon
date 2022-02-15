@@ -1,0 +1,323 @@
+﻿focus_tree = {
+	id = teaseer_0.2.0_start_focus
+	
+	country = {
+		factor = 0	
+		modifier = {
+			add = 100 
+			tag = WAS
+		} 
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 1500 y = 250 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	##################################################################################################################
+	################################################################################################################## 
+	##################################################################################################################
+	
+	focus = {
+		id = TEASER_0_2_0.0 
+		icon = GFX_goal_imperial_governor
+		x = 4
+		y = 1
+		cost = 1
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "TEASER_0_2_0.0.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = TEASER_0_2_0.1 
+		icon = GFX_goal_california_divided
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = TEASER_0_2_0.0
+		prerequisite = { focus = TEASER_0_2_0.0 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "TEASER_0_2_0.1.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = TEASER_0_2_0.2 
+		icon = GFX_goal_california_and_mewni
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = TEASER_0_2_0.1
+		prerequisite = { focus = TEASER_0_2_0.1 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "TEASER_0_2_0.2.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = TEASER_0_2_0.3 
+		icon = GFX_goal_golden_gate
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = TEASER_0_2_0.2
+		prerequisite = { focus = TEASER_0_2_0.2 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "TEASER_0_2_0.3.t"
+			hidden_effect = {}
+		}
+	}
+	
+	#################################################################################
+	
+	focus = {
+		id = TEASER_0_2_0.4 
+		icon = GFX_goal_eight_half
+		x = 8
+		y = 1
+		cost = 1
+
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "TEASER_0_2_0.4.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = TEASER_0_2_0.5 
+		icon = GFX_goal_the_pinch
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = TEASER_0_2_0.4
+		prerequisite = { focus = TEASER_0_2_0.4 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "TEASER_0_2_0.5.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = TEASER_0_2_0.6 
+		icon = GFX_goal_wicked_chiu
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = TEASER_0_2_0.5
+		prerequisite = { focus = TEASER_0_2_0.5 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "TEASER_0_2_0.6.t"
+			hidden_effect = {}
+		}
+	}
+	focus = {
+		id = TEASER_0_2_0.7 
+		icon = GFX_goal_oregon_and_mewni
+		x = 0
+		y = 1
+		cost = 1
+		relative_position_id = TEASER_0_2_0.6
+		prerequisite = { focus = TEASER_0_2_0.6 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			#custom_effect_tooltip = "TEASER_0_2_0.7.t"
+			hidden_effect = {}
+		}
+	}
+	
+	
+	focus = {
+		id = TEASER_0_2_0.8 
+		icon = GFX_goal_whispering_croaks
+		x = -1
+		y = 1
+		cost = 6
+		relative_position_id = TEASER_0_2_0.7
+		prerequisite = { 
+			focus = TEASER_0_2_0.7 
+			focus = TEASER_0_2_0.3 
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "TEASER_0_2_0.8.t"
+			hidden_effect = {}
+		}
+	}
+	
+	focus = {
+		id = TEASER_0_2_0.9 
+		icon = GFX_goal_protector_of_mexico_v2
+		x = -2
+		y = 1
+		cost = 6
+		relative_position_id = TEASER_0_2_0.1
+		prerequisite = { focus = TEASER_0_2_0.1 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "TEASER_0_2_0.9.t"
+			hidden_effect = {}
+		}
+	}
+	
+	focus = {
+		id = TEASER_0_2_0.10 
+		icon = GFX_goal_trembley_alamo
+		x = 2
+		y = 1
+		cost = 6
+		relative_position_id = TEASER_0_2_0.5
+		prerequisite = { focus = TEASER_0_2_0.5 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "TEASER_0_2_0.10.t"
+			hidden_effect = {}
+		}
+	}
+	
+	focus = {
+		id = TEASER_0_2_0.11 
+		icon = GFX_goal_battle_for_the_west
+		x = 1
+		y = 1
+		cost = 6
+		relative_position_id = TEASER_0_2_0.3
+		prerequisite = { 
+			focus = TEASER_0_2_0.7 
+			focus = TEASER_0_2_0.3 
+		}
+		mutually_exclusive = { focus = TEASER_0_2_0.8 }
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "TEASER_0_2_0.11.t"
+			hidden_effect = {}
+		}
+	}
+	
+	focus = {
+		id = TEASER_0_2_0.12 
+		icon = GFX_goal_charge_east
+		x = 1
+		y = 1
+		cost = 6
+		relative_position_id = TEASER_0_2_0.11
+		prerequisite = { 
+			focus = TEASER_0_2_0.8 
+			focus = TEASER_0_2_0.11 
+		}
+		
+		available_if_capitulated = yes
+		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		available = {}
+		bypass = {} 
+		
+		completion_reward = {	
+			custom_effect_tooltip = "TEASER_0_2_0.12.t"
+			hidden_effect = {}
+		}
+	}
+	
+}###############

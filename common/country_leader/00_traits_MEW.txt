@@ -1,4 +1,4 @@
-#MYS Leader and Advisor Specific Traits
+#MEW Leader and Advisor Specific Traits
 
 leader_traits = {
 
@@ -10,6 +10,19 @@ leader_traits = {
 	################
 	#Advisor Traits#
 	################
+	
+	mew_the_undaunted = {
+		random = no
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		stability_factor = 0.1
+		war_support_factor = 0.1
+		surrender_limit = 0.1
+		decryption_factor = -0.3
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 	imperial_ties = {  #Custom Trait Johansen
 		random = no

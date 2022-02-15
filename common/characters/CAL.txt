@@ -13,6 +13,7 @@ characters = {
 		country_leader = {
 			desc = "POLITICS_GREEN_DESC"
 			ideology = liberalism
+			traits = { cal_longtime_governor }
 			expire = "2040.1.1.1"
 			id = -1
 		}	
@@ -28,6 +29,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = conservatism
+			traits = { cal_imperial_governor_1 }
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -57,6 +59,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = conservatism
+			#traits = { cal_imperial_governor_2 }
 			expire = "2040.1.1.1"
 			id = -1
 		}
@@ -114,7 +117,7 @@ characters = {
 			skill = 3
 			id = 8
 			
-			visible = {
+			visible = { 
 				has_completed_focus = CAL_pacific.1 
 			}
 
@@ -153,6 +156,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = centrism
+			traits = { cal_southern_governor }
 			expire = "2040.1.1.1"
 			id = -1
 		}

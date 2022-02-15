@@ -65,13 +65,5 @@ set_popularities = {
 }
 
 
-create_country_leader = {
-	name = "Hector Diaz-Guzman"
-	desc = "POLITICS_HECTOR_DESC"
-	picture = "gfx/leaders/EPI/hoi4_portrait_FPI_HOLDER.dds"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
+recruit_character = CAL_hector_diaz_south
 
