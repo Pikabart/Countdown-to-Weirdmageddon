@@ -1,0 +1,32 @@
+spriteTypes = {	
+
+	#######
+	# TSR #
+	#######
+
+	SpriteType = {
+	name = "GFX_goal_focus_not_stonks_icon"
+	texturefile = "gfx/interface/goals/TSR/focus_not_stonks_icon.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_chaos_in_the_creamlin"
+	texturefile = "gfx/interface/goals/TSR/focus_chaos_in_the_creamlin.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_secret_military_meeting"
+	texturefile = "gfx/interface/goals/TSR/focus_secret_military_meeting.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_queen_and_the_people"
+	texturefile = "gfx/interface/goals/TSR/focus_queen_and_the_people.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_light_for_the_people"
+	texturefile = "gfx/interface/goals/TSR/focus_light_for_the_people.dds"			
+	}
+
+} ### End Bracket

@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100 # 100% HGH get focus, 0% everyone else, so basicly gurrenteed
-		#	tag = HGH
+			add = 100 
+			tag = HGH
 		}
 	}
 	
@@ -60,6 +60,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_tech_bonus = {
+				bonus = 3
+				uses = 5
+				category = electronics
+			}
 		}
 		
 		ai_will_do = {
@@ -86,6 +91,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = 450
 		}
 		
 		ai_will_do = {
@@ -112,6 +118,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = "HGH_power_to_principal_tooltip"
 		}
 		
 		ai_will_do = {
@@ -138,6 +145,11 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+		add_doctrine_cost_reduction = {
+                cost_reduction = 0.5
+                uses = 3
+                category = land_doctrine
+            }
 		}
 		
 		ai_will_do = {

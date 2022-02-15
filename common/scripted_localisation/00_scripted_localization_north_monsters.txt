@@ -109,3 +109,1526 @@ defined_text = {
 		localization_key = proper_doctrine_scripted_loc_generic
 	}
 }
+
+#####
+#HGH#
+#####
+
+defined_text = {
+	name = change_focus_tree_3_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = change_focus_tree_3_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = change_focus_tree_3_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = change_focus_tree_3_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = change_focus_tree_3_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = change_focus_tree_3_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = change_focus_tree_3_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = change_focus_tree_3_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_restablish_safety_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_restablish_safety_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_restablish_safety_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_restablish_safety_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_restablish_safety_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_restablish_safety_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_restablish_safety_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = HGH_restablish_safety_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_restablish_safety_scripted_loc_desc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_restablish_safety_scripted_loc_model_un_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_restablish_safety_scripted_loc_drama_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_restablish_safety_scripted_loc_band_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_restablish_safety_scripted_loc_gym_bros_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_restablish_safety_scripted_loc_yearbook_club_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_restablish_safety_scripted_loc_wolf_takes_desc
+	}
+	text = {
+		localization_key = HGH_restablish_safety_scripted_loc_generic_desc
+	}
+}
+
+defined_text = {
+	name = HGH_build_unity_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_unity_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_unity_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_unity_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_unity_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_unity_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_unity_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = HGH_build_unity_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_build_unity_scripted_loc_desc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_unity_scripted_loc_model_un_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_unity_scripted_loc_drama_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_unity_scripted_loc_band_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_unity_scripted_loc_gym_bros_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_unity_scripted_loc_yearbook_club_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_unity_scripted_loc_wolf_takes_desc
+	}
+	text = {
+		localization_key = HGH_build_unity_scripted_loc_generic_desc
+	}
+}
+
+defined_text = {
+	name = HGH_build_identity_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_identity_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_identity_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_identity_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_identity_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_identity_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_identity_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = HGH_build_identity_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_build_identity_scripted_loc_desc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_identity_scripted_loc_model_un_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_identity_scripted_loc_drama_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_identity_scripted_loc_band_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_identity_scripted_loc_gym_bros_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_identity_scripted_loc_yearbook_club_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_identity_scripted_loc_wolf_takes_desc
+	}
+	text = {
+		localization_key = HGH_build_identity_scripted_loc_generic_desc
+	}
+}
+
+defined_text = {
+	name = HGH_warsupport_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_warsupport_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_warsupport_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_warsupport_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_warsupport_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_warsupport_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_warsupport_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = HGH_warsupport_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_warsupport_scripted_loc_desc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_warsupport_scripted_loc_model_un_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_warsupport_scripted_loc_drama_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_warsupport_scripted_loc_band_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_warsupport_scripted_loc_gym_bros_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_warsupport_scripted_loc_yearbook_club_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_warsupport_scripted_loc_wolf_takes_desc
+	}
+	text = {
+		localization_key = HGH_warsupport_scripted_loc_generic_desc
+	}
+}
+
+defined_text = {
+	name = HGH_central_infrastructure_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_central_infrastructure_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_central_infrastructure_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_central_infrastructure_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_central_infrastructure_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_central_infrastructure_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_central_infrastructure_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = HGH_central_infrastructure_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_central_infrastructure_scripted_loc_desc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_central_infrastructure_scripted_loc_model_un_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_central_infrastructure_scripted_loc_drama_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_central_infrastructure_scripted_loc_band_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_central_infrastructure_scripted_loc_gym_bros_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_central_infrastructure_scripted_loc_yearbook_club_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_central_infrastructure_scripted_loc_wolf_takes_desc
+	}
+	text = {
+		localization_key = HGH_central_infrastructure_scripted_loc_generic_desc
+	}
+}
+
+defined_text = {
+	name = HGH_roads_and_supply_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_roads_and_supply_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_roads_and_supply_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_roads_and_supply_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_roads_and_supply_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_roads_and_supply_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_roads_and_supply_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = HGH_roads_and_supply_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_roads_and_supply_scripted_loc_desc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_roads_and_supply_scripted_loc_model_un_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_roads_and_supply_scripted_loc_drama_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_roads_and_supply_scripted_loc_band_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_roads_and_supply_scripted_loc_gym_bros_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_roads_and_supply_scripted_loc_yearbook_club_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_roads_and_supply_scripted_loc_wolf_takes_desc
+	}
+	text = {
+		localization_key = HGH_roads_and_supply_scripted_loc_generic_desc
+	}
+}
+
+defined_text = {
+	name = HGH_school_radio_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_school_radio_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_school_radio_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_school_radio_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_school_radio_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_school_radio_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_school_radio_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = HGH_school_radio_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_school_radio_scripted_loc_desc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_school_radio_scripted_loc_model_un_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_school_radio_scripted_loc_drama_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_school_radio_scripted_loc_band_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_school_radio_scripted_loc_gym_bros_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_school_radio_scripted_loc_yearbook_club_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_school_radio_scripted_loc_wolf_takes_desc
+	}
+	text = {
+		localization_key = HGH_school_radio_scripted_loc_generic_desc
+	}
+}
+
+defined_text = {
+	name = HGH_proper_administration_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_proper_administration_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_proper_administration_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_proper_administration_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_proper_administration_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_proper_administration_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_proper_administration_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = HGH_proper_administration_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_proper_administration_scripted_loc_desc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_proper_administration_scripted_loc_model_un_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_proper_administration_scripted_loc_drama_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_proper_administration_scripted_loc_band_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_proper_administration_scripted_loc_gym_bros_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_proper_administration_scripted_loc_yearbook_club_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_proper_administration_scripted_loc_wolf_takes_desc
+	}
+	text = {
+		localization_key = HGH_proper_administration_scripted_loc_generic_desc
+	}
+}
+
+defined_text = {
+	name = HGH_build_magic_education_1_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_magic_education_1_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_magic_education_1_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_magic_education_1_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_magic_education_1_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_magic_education_1_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_magic_education_1_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = HGH_build_magic_education_1_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_build_magic_education_1_scripted_loc_desc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_magic_education_1_scripted_loc_model_un_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_magic_education_1_scripted_loc_drama_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_magic_education_1_scripted_loc_band_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_magic_education_1_scripted_loc_gym_bros_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_magic_education_1_scripted_loc_yearbook_club_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_magic_education_1_scripted_loc_wolf_takes_desc
+	}
+	text = {
+		localization_key = HGH_build_magic_education_1_scripted_loc_generic_desc
+	}
+}
+
+defined_text = {
+	name = HGH_build_magic_education_2_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_magic_education_2_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_magic_education_2_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_magic_education_2_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_magic_education_2_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_magic_education_2_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_magic_education_2_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = HGH_build_magic_education_2_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_build_magic_education_2_scripted_loc_desc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_magic_education_2_scripted_loc_model_un_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_magic_education_2_scripted_loc_drama_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_magic_education_2_scripted_loc_band_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_magic_education_2_scripted_loc_gym_bros_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_magic_education_2_scripted_loc_yearbook_club_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_magic_education_2_scripted_loc_wolf_takes_desc
+	}
+	text = {
+		localization_key = HGH_build_magic_education_2_scripted_loc_generic_desc
+	}
+}
+
+defined_text = {
+	name = HGH_build_magic_education_3_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_magic_education_3_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_magic_education_3_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_magic_education_3_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_magic_education_3_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_magic_education_3_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_magic_education_3_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = HGH_build_magic_education_3_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_build_magic_education_3_scripted_loc_desc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_magic_education_3_scripted_loc_model_un_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_magic_education_3_scripted_loc_drama_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_magic_education_3_scripted_loc_band_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_magic_education_3_scripted_loc_gym_bros_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_magic_education_3_scripted_loc_yearbook_club_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_magic_education_3_scripted_loc_wolf_takes_desc
+	}
+	text = {
+		localization_key = HGH_build_magic_education_3_scripted_loc_generic_desc
+	}
+}
+
+defined_text = {
+	name = HGH_build_agriculture_education_1_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_agriculture_education_1_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_agriculture_education_1_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_agriculture_education_1_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_agriculture_education_1_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_agriculture_education_1_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_agriculture_education_1_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = HGH_build_agriculture_education_1_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_build_agriculture_education_1_scripted_loc_desc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_agriculture_education_1_scripted_loc_model_un_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_agriculture_education_1_scripted_loc_drama_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_agriculture_education_1_scripted_loc_band_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_agriculture_education_1_scripted_loc_gym_bros_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_agriculture_education_1_scripted_loc_yearbook_club_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_agriculture_education_1_scripted_loc_wolf_takes_desc
+	}
+	text = {
+		localization_key = HGH_build_agriculture_education_1_scripted_loc_generic_desc
+	}
+}
+
+defined_text = {
+	name = HGH_build_agriculture_education_2_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_agriculture_education_2_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_agriculture_education_2_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_agriculture_education_2_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_agriculture_education_2_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_agriculture_education_2_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_agriculture_education_2_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = HGH_build_agriculture_education_2_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_build_agriculture_education_2_scripted_loc_desc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_agriculture_education_2_scripted_loc_model_un_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_agriculture_education_2_scripted_loc_drama_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_agriculture_education_2_scripted_loc_band_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_agriculture_education_2_scripted_loc_gym_bros_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_agriculture_education_2_scripted_loc_yearbook_club_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_agriculture_education_2_scripted_loc_wolf_takes_desc
+	}
+	text = {
+		localization_key = HGH_build_agriculture_education_2_scripted_loc_generic_desc
+	}
+}
+
+defined_text = {
+	name = HGH_build_agriculture_education_3_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_agriculture_education_3_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_agriculture_education_3_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_agriculture_education_3_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_agriculture_education_3_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_agriculture_education_3_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_agriculture_education_3_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = HGH_build_agriculture_education_3_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_build_agriculture_education_3_scripted_loc_desc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_build_agriculture_education_3_scripted_loc_model_un_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_build_agriculture_education_3_scripted_loc_drama_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_build_agriculture_education_3_scripted_loc_band_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_build_agriculture_education_3_scripted_loc_gym_bros_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_build_agriculture_education_3_scripted_loc_yearbook_club_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_build_agriculture_education_3_scripted_loc_wolf_takes_desc
+	}
+	text = {
+		localization_key = HGH_build_agriculture_education_3_scripted_loc_generic_desc
+	}
+}
+
+defined_text = {
+	name = HGH_look_outwards_scripted_loc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_look_outwards_scripted_loc_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_look_outwards_scripted_loc_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_look_outwards_scripted_loc_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_look_outwards_scripted_loc_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_look_outwards_scripted_loc_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_look_outwards_scripted_loc_wolf_takes
+	}
+	text = {
+		localization_key = HGH_look_outwards_scripted_loc_generic
+	}
+}
+
+defined_text = {
+	name = HGH_look_outwards_scripted_loc_desc
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = HGH_look_outwards_scripted_loc_model_un_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = HGH_look_outwards_scripted_loc_drama_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = HGH_look_outwards_scripted_loc_band_kids_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = HGH_look_outwards_scripted_loc_gym_bros_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = HGH_look_outwards_scripted_loc_yearbook_club_desc
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = HGH_look_outwards_scripted_loc_wolf_takes_desc
+	}
+	text = {
+		localization_key = HGH_look_outwards_scripted_loc_generic_desc
+	}
+}

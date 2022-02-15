@@ -3,6 +3,21 @@
 ###########################
 
 add_namespace = HGH_change_focus_tree
+add_namespace = HGH_flavor
+
+country_event = {
+	id = HGH_flavor.1
+	title = HGH_flavor.1.t
+	desc = HGH_flavor.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = HGH_flavor.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
 
 country_event = {
 	id = HGH_change_focus_tree.1
@@ -13,6 +28,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = { 
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = HGH_focus_1
@@ -33,6 +49,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = { 
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = HGH_focus_2
@@ -53,6 +70,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = { 
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			load_focus_tree = {
 				tree = HGH_focus_3
