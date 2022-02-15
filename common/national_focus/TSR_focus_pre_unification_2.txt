@@ -5,8 +5,8 @@
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100
-		#	tag = TSR
+			add = 100
+			tag = TSR
 		}
 	}
 	
@@ -17,7 +17,7 @@
 
 	focus = { 
 		id = TSR_not_stonks
-		icon = a
+		icon = GFX_goal_focus_not_stonks_icon
 		x = 14
 		y = 1
 		
@@ -48,7 +48,7 @@
 	
 	focus = { 
 		id = TSR_chaos_in_the_kremlin
-		icon = a
+		icon = GFX_goal_focus_chaos_in_the_creamlin
 		x = -1
 		y = 1
 		
@@ -83,7 +83,7 @@
 	
 	focus = { 
 		id = TSR_queen_and_the_people
-		icon = a
+		icon = GFX_goal_focus_queen_and_the_people
 		x = -3
 		y = 1
 		
@@ -117,7 +117,7 @@
 	
 	focus = { 
 		id = TSR_secret_military_meeting
-		icon = a
+		icon = GFX_goal_focus_secret_military_meeting
 		x = 1
 		y = 1
 		
@@ -151,7 +151,7 @@
 	}
 	focus = { 
 		id = TSR_light_for_people
-		icon = a
+		icon = GFX_goal_focus_light_for_the_people
 		x = 3
 		y = 1
 		

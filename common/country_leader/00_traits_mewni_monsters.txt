@@ -74,5 +74,33 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	disconnected_ruler = {
+		random = no
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		stability_factor = 0.15
+		political_power_factor = -0.85
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	student_leader = {
+		random = no
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		stability_factor = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ironic_government = {
+		random = no
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		stability_factor = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	
 }

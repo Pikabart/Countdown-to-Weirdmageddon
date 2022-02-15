@@ -5,7 +5,7 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100 # 100% HGH get focus, 0% everyone else, so basicly gurrenteed
+		#	add = 100
 		#	tag = HGH
 		}
 	}
@@ -49,6 +49,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HGH_power_vaccum 
 		prerequisite = { focus = HGH_power_vaccum }
+		mutually_exclusive = { focus = HGH_onto_world_stage focus = HGH_symphony_of_power focus = HGH_strong_collective focus = HGH_fire_and_photography focus = HGH_wolf_takes }
 		cost = 5
 	
 		available = {
@@ -60,8 +61,21 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			country_event = HGH_change_focus_tree.3
 			set_country_flag = model_un
+			country_event = HGH_change_focus_tree.3
+			hidden_effect = {
+				add_country_leader_role = {
+					Character = HGH_model_un_character
+					Promote_leader = yes
+					Country_leader = {
+						ideology = nazism
+						expire = "2040.1.1.1"
+						traits = {
+							student_leader
+						}
+					}
+				}
+			}
 		}
 		
 		ai_will_do = {
@@ -77,6 +91,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HGH_power_vaccum 
 		prerequisite = { focus = HGH_power_vaccum }
+		mutually_exclusive = { focus = HGH_model_council focus = HGH_symphony_of_power focus = HGH_strong_collective focus = HGH_fire_and_photography focus = HGH_wolf_takes }
 		cost = 5
 	
 		available = {
@@ -88,8 +103,21 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			country_event = HGH_change_focus_tree.3
 			set_country_flag = drama_kids
+			country_event = HGH_change_focus_tree.3
+			hidden_effect = {
+				add_country_leader_role = {
+					Character = HGH_arsty_kid_character
+					Promote_leader = yes
+					Country_leader = {
+						ideology = nazism
+						expire = "2040.1.1.1"
+						traits = {
+							student_leader
+						}
+					}
+				}
+			}
 		}
 		
 		ai_will_do = {
@@ -105,6 +133,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HGH_power_vaccum 
 		prerequisite = { focus = HGH_power_vaccum }
+		mutually_exclusive = { focus = HGH_model_council focus = HGH_onto_world_stage focus = HGH_strong_collective focus = HGH_fire_and_photography focus = HGH_wolf_takes }
 		cost = 5
 	
 		available = {
@@ -116,8 +145,22 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			country_event = HGH_change_focus_tree.3
 			set_country_flag = band_kids
+			country_event = HGH_change_focus_tree.3
+			hidden_effect = {
+				add_country_leader_role = {
+					Character = HGH_reddit_council_character
+					Promote_leader = yes
+					Country_leader = {
+						ideology = nazism
+						expire = "2040.1.1.1"
+						traits = {
+							student_leader
+							ironic_government
+						}
+					}
+				}
+			}
 		}
 		
 		ai_will_do = {
@@ -133,6 +176,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HGH_power_vaccum 
 		prerequisite = { focus = HGH_power_vaccum }
+		mutually_exclusive = { focus = HGH_model_council focus = HGH_onto_world_stage focus = HGH_symphony_of_power focus = HGH_fire_and_photography focus = HGH_wolf_takes }
 		cost = 5
 	
 		available = {
@@ -144,8 +188,21 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			country_event = HGH_change_focus_tree.3
 			set_country_flag = gym_bros
+			country_event = HGH_change_focus_tree.3
+			hidden_effect = {
+				add_country_leader_role = {
+					Character = HGH_sportsy_kid_character
+					Promote_leader = yes
+					Country_leader = {
+						ideology = nazism
+						expire = "2040.1.1.1"
+						traits = {
+							student_leader
+						}
+					}
+				}
+			}
 		}
 		
 		ai_will_do = {
@@ -161,6 +218,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HGH_power_vaccum 
 		prerequisite = { focus = HGH_power_vaccum }
+		mutually_exclusive = { focus = HGH_model_council focus = HGH_onto_world_stage focus = HGH_symphony_of_power focus = HGH_strong_collective focus = HGH_wolf_takes }
 		cost = 5
 	
 		available = {
@@ -172,8 +230,21 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			country_event = HGH_change_focus_tree.3
 			set_country_flag = yearbook_club
+			country_event = HGH_change_focus_tree.3
+			hidden_effect = {
+				add_country_leader_role = {
+					Character = HGH_snake_character
+					Promote_leader = yes
+					Country_leader = {
+						ideology = nazism
+						expire = "2040.1.1.1"
+						traits = {
+							student_leader
+						}
+					}
+				}
+			}
 		}
 		
 		ai_will_do = {
@@ -189,6 +260,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HGH_power_vaccum 
 		prerequisite = { focus = HGH_power_vaccum }
+		mutually_exclusive = { focus = HGH_model_council focus = HGH_onto_world_stage focus = HGH_symphony_of_power focus = HGH_strong_collective focus = HGH_fire_and_photography }
 		cost = 5
 	
 		available = {
@@ -200,8 +272,21 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			country_event = HGH_change_focus_tree.3
 			set_country_flag = nazi_kids
+			country_event = HGH_change_focus_tree.3
+			hidden_effect = {
+				add_country_leader_role = {
+					Character = HGH_edgy_character
+					Promote_leader = yes
+					Country_leader = {
+						ideology = nazism
+						expire = "2040.1.1.1"
+						traits = {
+							student_leader
+						}
+					}
+				}
+			}
 		}
 		
 		ai_will_do = {

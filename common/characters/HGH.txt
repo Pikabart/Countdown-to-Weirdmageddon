@@ -1,4 +1,75 @@
 characters = {
+	HGH_principal = {
+		name = "Principal Terrance Terhalis" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_principal"
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire = "2040.1.1.1"
+			id = -1
+			traits = {
+				disconnected_ruler
+			}
+		}
+	}
+	HGH_edgy_character = {
+		name = "Shadow Hedgeblade" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_edgy"
+			}
+		}
+	}
+	HGH_arsty_kid_character = {
+		name = "Neville Knickerton" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_artsy_kid"
+			}
+		}
+	}
+	HGH_sportsy_kid_character = {
+		name = "J.J. Jackson" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_sportsy_kid"
+			}
+		}
+	}
+	HGH_reddit_council_character = {
+		name = "The Council" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_reddit_council"
+			}
+		}
+	}
+	HGH_model_un_character = {
+		name = "Emmie Ester" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_model_un_kid"
+			}
+		}
+	}
+	HGH_snake_character = {
+		name = "Candice Sneki" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_snake_hgh"
+			}
+		}
+	}
 	HGH_generic_monster_advisor_1 = {
 		name = "HGH_generic_monster_advisor_1" 
 		desc = ""

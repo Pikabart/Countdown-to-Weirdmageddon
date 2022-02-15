@@ -45,4 +45,37 @@ spriteTypes = {
 		name = "GFX_hoi4_portrait_hippie"
 		texturefile = "gfx/leaders/DTH/hoi4_portrait_hippie.dds"
 	}
+	
+	#####
+	#HGH#
+	#####
+	spriteType = {
+		name = "GFX_hoi4_portrait_principal"
+		texturefile = "gfx/leaders/HGH/hoi4_portrait_principal.dds"
+	}
+	spriteType = {
+		name = "GFX_hoi4_portrait_edgy"
+		texturefile = "gfx/leaders/HGH/hoi4_portrait_edgy.dds"
+	}
+	spriteType = {
+		name = "GFX_hoi4_portrait_artsy_kid"
+		texturefile = "gfx/leaders/HGH/hoi4_portrait_artsy_kid.dds"
+	}
+	spriteType = {
+		name = "GFX_hoi4_portrait_sportsy_kid"
+		texturefile = "gfx/leaders/HGH/hoi4_portrait_sportsy_kid.dds"
+	}
+	spriteType = {
+		name = "GFX_hoi4_portrait_reddit_council"
+		texturefile = "gfx/leaders/HGH/hoi4_portrait_reddit_council.dds"
+	}
+	spriteType = {
+		name = "GFX_hoi4_portrait_snake_hgh"
+		texturefile = "gfx/leaders/HGH/hoi4_portrait_snake_hgh.dds"
+	}
+	spriteType = {
+		name = "GFX_hoi4_portrait_model_un_kid"
+		texturefile = "gfx/leaders/HGH/hoi4_portrait_model_un_kid.dds"
+	}
+
 }
