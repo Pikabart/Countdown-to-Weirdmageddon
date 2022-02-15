@@ -1,3 +1,18 @@
+############################ ITGUY 02/14/22 
+
+common/characters
+common/country_leaders
+common/national_focus
+
+gfx/interface/goals/cal
+gfx/interface/goals/ore
+
+history/countries
+
+interface
+
+localization
+
 ############################ ITGUY 02/08/22 
 
 common/characters

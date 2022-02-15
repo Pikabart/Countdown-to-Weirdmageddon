@@ -9,9 +9,49 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/CAL/focus_california.dds"			
 	}
 	
+	SpriteType = {
+	name = "GFX_goal_imperial_governor"
+	texturefile = "gfx/interface/goals/CAL/focus_california_imperial_governor.dds"			
+	}
 	
+	SpriteType = {
+	name = "GFX_goal_california_northwest"
+	texturefile = "gfx/interface/goals/CAL/focus_california_northwest.dds"			
+	}
 	
+	SpriteType = {
+	name = "GFX_goal_secure_texas"
+	texturefile = "gfx/interface/goals/CAL/focus_secure_texas.dds"			
+	}
 	
+	SpriteType = {
+	name = "GFX_goal_california_and_mewni"
+	texturefile = "gfx/interface/goals/CAL/focus_california_and_mewni.dds"			
+	}
 	
+	SpriteType = {
+	name = "GFX_goal_golden_gate"
+	texturefile = "gfx/interface/goals/CAL/focus_golden_gate.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_california_divided"
+	texturefile = "gfx/interface/goals/CAL/focus_california_divided.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_protector_of_mexico"
+	texturefile = "gfx/interface/goals/CAL/focus_secure_texas_with_mexico.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_protector_of_mexico_v2"
+	texturefile = "gfx/interface/goals/CAL/focus_secure_texas_with_mexico_v2.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_battle_for_the_west"
+	texturefile = "gfx/interface/goals/CAL/focus_battle_for_the_west.dds"			
+	}
 	
 }#################################

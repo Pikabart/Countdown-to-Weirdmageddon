@@ -1,0 +1,40 @@
+############################################################################
+### California Characters
+############################################################################
+characters = {
+	
+	CAL_hector_diaz_south = { 
+		name = "Hector Diaz-Guzman"  
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_hector_diaz_north"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = { cal_southern_governor }
+			expire = "2040.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = advisor_gompers_1
+			available = { has_completed_focus = CAL_hector.0 }
+			traits = {  } 
+			ai_will_do = {
+				factor = 40
+				modifier = {
+					has_intelligence_agency = no
+					factor = 0
+				}
+			}
+		}
+	}
+	
+	
+
+}###########################################################
+	

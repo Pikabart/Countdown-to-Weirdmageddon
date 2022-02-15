@@ -1,0 +1,53 @@
+spriteTypes = {	
+
+	#################
+	#### Generic continuous goal icons
+	#################
+
+	SpriteType = {
+	name = "GFX_goal_oregon_start"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_start.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_new_oregon"
+	texturefile = "gfx/interface/goals/ORE/focus_new_oregon.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_eight_half"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_trembley.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_the_pinch"
+	texturefile = "gfx/interface/goals/ORE/focus_the_pinch.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_and_mewni"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_and_mewni.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_wicked_chiu"
+	texturefile = "gfx/interface/goals/ORE/focus_wicked_chiu.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_whispering_croaks"
+	texturefile = "gfx/interface/goals/ORE/focus_whispering_croaks.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_trembley_alamo"
+	texturefile = "gfx/interface/goals/ORE/focus_trembley_alamo.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_charge_east"
+	texturefile = "gfx/interface/goals/ORE/focus_charge_east.dds"			
+	}
+	
+	
+}#################################

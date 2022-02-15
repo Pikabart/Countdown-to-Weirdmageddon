@@ -1,0 +1,57 @@
+leader_traits = {
+
+##############################################################################
+	### Leader TRAITS ###
+	
+	################
+	#Leader Traits#
+	################
+	
+	cal_longtime_governor = {
+		random = no
+		
+		stability_factor = +0.05
+		political_power_gain = +0.05
+
+	}
+	cal_imperial_governor_1 = {
+		random = no
+		
+		stability_factor = -0.05
+		political_power_gain = -0.05
+		war_support_factor = 0.05
+		recruitable_population_factor = 0.05
+	}
+	cal_southern_governor = {
+		random = no
+
+		political_power_gain = 0.1
+		war_support_factor = -0.05
+		recruitable_population_factor = 0.1
+		resistance_growth = -0.1
+		compliance_growth = 0.1
+	}
+	
+	ore_unpopular_governor = {
+		random = no
+
+		political_power_gain = -0.1
+	}
+	
+	ore_eight_half = {
+		random = no
+		
+		stability_factor = -0.1
+		political_power_gain = 0.1
+	}
+	
+	was_headstrong_governor = {
+		random = no
+
+		political_power_gain = -0.1
+		stability_factor = 0.1
+		war_support_factor = 0.1
+		surrender_limit = 0.1
+	}
+	
+}

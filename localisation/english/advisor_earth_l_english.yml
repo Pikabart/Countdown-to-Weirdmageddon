@@ -27,5 +27,20 @@
  spy_goat_1:0 "Background Goat"
  spy_goat_1_desc:0 "Its amazing how people will tell their most deepest and imtimate secrets to this thing. Tape a microphone here... and done, a spy!"
  
+ 
+ 
+ ############# Custom for each nation: WEST COAST ###########
+ 
+ cal_longtime_governor:0 "Long Time Governor"
+ cal_imperial_governor_1:0 "Imperial Governor"
+ cal_imperial_governor_1:0 "Emperor of the U.S."
+ cal_southern_governor:0 "The Southern Governor"
+ 
+ ore_unpopular_governor:0 "Unpopular Governor"
+ ore_eight_half:0 "The Eight and a Half President"
+ 
+ was_headstrong_governor:0 "Defender of Normalcy"
+ 
+ 
  ############# Defaults
  
