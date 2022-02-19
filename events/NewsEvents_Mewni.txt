@@ -525,12 +525,27 @@ news_event = {
 	
 	option = {
 		name = SWP_MHC_road_collab_news_event.1.c
-		trigger = {TAG = MEW} #mewni
+		trigger = {TAG = MEW}
+		add_stability = -0.03
 	}
 	
 	option = {
 		name = SWP_MHC_road_collab_news_event.2.c
-		trigger = {NOT={TAG = MEW}} #not mewni
+		trigger = {TAG = SWP}
+		add_stability = 0.03
+	}
+
+	option = {
+		name = SWP_MHC_road_collab_news_event.3.c
+		trigger = {TAG = MHC}
+		add_stability = -0.03
+	}
+	
+	option = {
+		name = SWP_MHC_road_collab_news_event.4.c
+		trigger = {NOT = {TAG = MEW }}
+		trigger = {NOT = {TAG = SWP }}
+		trigger = {NOT = {TAG = MHC }}
 	}
 
 }

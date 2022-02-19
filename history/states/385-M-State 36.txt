@@ -7,8 +7,8 @@ state={
 		owner = HGH
 		add_core_of = HGH
 		buildings = {
-			arms_factory = 2
-			industrial_complex = 3
+			arms_factory = 1
+			industrial_complex = 2
 			
 			
 			infrastructure = 1

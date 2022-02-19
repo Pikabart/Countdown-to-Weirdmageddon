@@ -77,5 +77,25 @@ spriteTypes = {
 		name = "GFX_hoi4_portrait_model_un_kid"
 		texturefile = "gfx/leaders/HGH/hoi4_portrait_model_un_kid.dds"
 	}
-
+	
+	#####
+	#SWP#
+	#####
+	
+	spriteType = {
+		name = "GFX_hoi4_portrait_village_elder"
+		texturefile = "gfx/leaders/SWP/hoi4_portrait_village_elder.dds"
+	}
+	spriteType = {
+		name = "GFX_hoi4_portrait_republican"
+		texturefile = "gfx/leaders/SWP/hoi4_portrait_republican.dds"
+	}
+	spriteType = {
+		name = "GFX_hoi4_portrait_swp_militarist"
+		texturefile = "gfx/leaders/SWP/hoi4_portrait_swp_militarist.dds"
+	}
+	spriteType = {
+		name = "GFX_hoi4_portrait_swp_commie"
+		texturefile = "gfx/leaders/SWP/hoi4_portrait_swp_commie.dds"
+	}
 }
