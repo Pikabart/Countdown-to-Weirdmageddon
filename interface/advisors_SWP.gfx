@@ -1,0 +1,8 @@
+### Advisors for SWP ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_idea_advisor_elder"
+			texturefile = "gfx/interface/advisors/SWP/advisor_elder.dds"
+		}
+}

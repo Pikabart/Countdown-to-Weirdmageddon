@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = SWP_flavor
+add_namespace = SWP_change_focus
 add_namespace = SWP_election
 add_namespace = SWP_mewman_road_project
 add_namespace = SWP_mewman_road_project_rejection
@@ -22,6 +23,42 @@ country_event = {
 }
 
 country_event = {
+	id = SWP_flavor.2
+	title = SWP_flavor.2.t
+	desc = SWP_flavor.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = SWP_flavor.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_political_power = 10
+	}
+}
+
+country_event = {
+	id = SWP_change_focus.1
+	title = SWP_change_focus.1.t
+	desc = SWP_change_focus.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = SWP_change_focus.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		custom_effect_tooltip = "new_focus_tree_tooltip"
+		hidden_effect = {
+			load_focus_tree = {
+				tree = SWP_focus_2
+				keep_completed = yes
+			}
+		}
+	}
+}
+
+country_event = {
 	id = SWP_election.1
 	title = SWP_election.1.t
 	desc = SWP_election.1.d
@@ -30,24 +67,82 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = { 
+		#council stays
 		set_country_flag = bypass_blow_mewman_roads
+		set_country_flag = SWP_council
+		add_stability = 0.05
 		name = SWP_election.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 	}
 	option = { 
+		#democracy
 		set_country_flag = bypass_blow_mewman_roads
+		set_country_flag = SWP_democracy
+		remove_ideas = SWP_decentralized_government_2
+		add_country_leader_role = {
+			Character = SWP_republican
+			Promote_leader = yes
+			Country_leader = {
+				ideology = liberalism
+				expire = "2040.1.1.1"
+				traits = {
+				}
+			}
+		}
 		name = SWP_election.2.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 	}
 	option = { 
+		#communists
 		set_country_flag = bypass_blow_mewman_roads
 		set_country_flag = bypass_basic_economics
+		set_country_flag = SWP_communists
+		remove_ideas = SWP_decentralized_government_2
+		set_politics = {
+			ruling_party = communism
+			elections_allowed = no
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.6
+		}
+		add_country_leader_role = {
+			Character = SWP_commie
+			Promote_leader = yes
+			Country_leader = {
+				ideology = marxism
+				expire = "2040.1.1.1"
+				traits = {
+				}
+			}
+		}
 		name = SWP_election.3.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 	}
 	option = { 
+		#military
 		set_country_flag = bypass_road_project
 		set_country_flag = bypass_basic_economics
+		set_country_flag = SWP_military
+		remove_ideas = SWP_decentralized_government_2
+		set_politics = {
+			ruling_party = fascism
+				elections_allowed = no
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.6
+		}
+		add_country_leader_role = {
+			Character = SWP_militarist_character
+			Promote_leader = yes
+			Country_leader = {
+				ideology = fascism_ideology
+				expire = "2040.1.1.1"
+				traits = {
+				}
+			}
+		}
 		name = SWP_election.4.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 	}

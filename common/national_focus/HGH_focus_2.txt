@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100
-		#	tag = HGH
+			add = 100
+			tag = HGH
 		}
 	}
 	
@@ -64,11 +64,19 @@ focus_tree = {
 			set_country_flag = model_un
 			country_event = HGH_change_focus_tree.3
 			hidden_effect = {
+				set_politics = {
+					ruling_party = democratic
+						elections_allowed = no
+				}
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.6
+				}
 				add_country_leader_role = {
 					Character = HGH_model_un_character
 					Promote_leader = yes
 					Country_leader = {
-						ideology = nazism
+						ideology = liberalism
 						expire = "2040.1.1.1"
 						traits = {
 							student_leader
@@ -106,11 +114,19 @@ focus_tree = {
 			set_country_flag = drama_kids
 			country_event = HGH_change_focus_tree.3
 			hidden_effect = {
+				set_politics = {
+					ruling_party = democratic
+						elections_allowed = no
+				}
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.6
+				}
 				add_country_leader_role = {
 					Character = HGH_arsty_kid_character
 					Promote_leader = yes
 					Country_leader = {
-						ideology = nazism
+						ideology = liberalism
 						expire = "2040.1.1.1"
 						traits = {
 							student_leader
@@ -148,11 +164,19 @@ focus_tree = {
 			set_country_flag = band_kids
 			country_event = HGH_change_focus_tree.3
 			hidden_effect = {
+				set_politics = {
+					ruling_party = communism
+						elections_allowed = no
+				}
+				add_popularity = {
+					ideology = communism
+					popularity = 0.6
+				}
 				add_country_leader_role = {
 					Character = HGH_reddit_council_character
 					Promote_leader = yes
 					Country_leader = {
-						ideology = nazism
+						ideology = anarchist_communism
 						expire = "2040.1.1.1"
 						traits = {
 							student_leader
@@ -233,11 +257,19 @@ focus_tree = {
 			set_country_flag = yearbook_club
 			country_event = HGH_change_focus_tree.3
 			hidden_effect = {
+				set_politics = {
+					ruling_party = neutrality
+						elections_allowed = no
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.6
+				}
 				add_country_leader_role = {
 					Character = HGH_snake_character
 					Promote_leader = yes
 					Country_leader = {
-						ideology = nazism
+						ideology = despotism
 						expire = "2040.1.1.1"
 						traits = {
 							student_leader

@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-			add = 100 # 100% SWP get focus, 0% everyone else, so basicly gurrenteed
-			tag = SWP
+		#	add = 100
+		#	tag = SWP
 		}
 	}
 	
@@ -33,6 +33,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = SWP_flavor.1
 		}
 		
 		ai_will_do = {
@@ -279,6 +280,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = SWP_change_focus.1
 		}
 		
 		ai_will_do = {

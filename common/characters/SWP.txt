@@ -1,4 +1,62 @@
 characters = {
+	SWP_tribe_elder = {
+		name = "Rohzdo Vohzdo" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_village_elder"
+				small = "GFX_idea_advisor_elder"
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+			traits = {
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = SWP_generic_monster_advisor_1_idea
+			allowed = {
+			}
+			available = {
+			}
+			ai_will_do = {
+				factor = 30.000
+			}
+			traits = {
+				popular_figurehead 
+			}
+		}
+	}
+	SWP_republican = {
+		name = "Georg Wishwashton" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_republican"
+			}
+		}
+	}
+	SWP_militarist_character = {
+		name = "Dmitry Dagestov" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_swp_militarist"
+			}
+		}
+	}
+	SWP_commie = {
+		name = "Venin Laush" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_swp_commie"
+			}
+		}
+	}
 	SWP_generic_monster_advisor_1 = {
 		name = "SWP_generic_monster_advisor_1" 
 		desc = ""

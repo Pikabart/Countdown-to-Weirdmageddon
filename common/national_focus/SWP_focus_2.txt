@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100
-		#	tag = SWP
+			add = 100
+			tag = SWP
 		}
 	}
 	
@@ -34,6 +34,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = 75
 		}
 		
 		ai_will_do = {
@@ -60,7 +61,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			country_event = SWP_flavor.1
+			country_event = SWP_flavor.2
 		}
 		
 		ai_will_do = {
@@ -311,8 +312,6 @@ focus_tree = {
 
 		completion_reward = {
 			SWP = {
-				recruit_character = SWP_generic_monster_advisor_1
-				recruit_character = SWP_generic_monster_advisor_2
 				recruit_character = SWP_generic_monster_advisor_3
 				recruit_character = SWP_generic_monster_advisor_4
 			}
@@ -427,7 +426,7 @@ focus_tree = {
 	
 		available = {
 		}
-		bypass = {  } 
+		bypass = { NOT = { has_country_flag = SWP_council } } 
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

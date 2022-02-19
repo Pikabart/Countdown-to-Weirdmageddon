@@ -7,8 +7,8 @@ state={
 		owner = SWP
 		add_core_of = SWP
 		buildings = {
-			arms_factory = 2
-			industrial_complex = 3
+			arms_factory = 1
+			industrial_complex = 1
 			
 			infrastructure = 1
 			air_base = 0

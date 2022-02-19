@@ -1,0 +1,29 @@
+﻿l_english:
+
+SWP_flavor.1.t:0 "The Coalition"
+SWP_flavor.1.d:0 "Our nation did not start in any traditional way. Heck, it arguably didn’t start at all. The Coalition is, technically, just a set of villages who have agreed to enter military and economic alliances with each other. This has led to a great deal of freedom in the coalition.\n\nHowever, this freedom comes with its downsides. Organized crime, although being worked on, is a problem. Plus, due to the large amount of autonomy in the nation, radical groups are not cracked down upon. This has led to 3 factions to vy for power: The Republicans, the Kommunists, and the anti-Mewman Militarists. \n\nStill, the Coalition is arguably the best place to live in all of the Forest of Certain Death."
+SWP_flavor.1.a:0 "Okay"
+
+SWP_flavor.2.t:0 "Monthly Meeting"
+SWP_flavor.2.d:0 "Many years ago, when the southern villages were early recruits in the Coalition, there were concerns of cultural tensions starting between the traditional swamps of the north. Thus a monthly meeting between representatives of both cultures was set up. Admittedly there were some bumps in the road, but these days both cultures accept each other and interbreeding is common.\n\nThe monthly meetings have evolved into parties in which anybody is invited. Southern Borscht is drunk with Roasted Northern Cattails. Truly a sign that, no matter what happens to the coalition, the north and the south will never be separated."
+SWP_flavor.2.a:0 "It's good fun, too!"
+
+SWP_change_focus.1.t:0 "Moderate Solution to the Radicals"
+SWP_change_focus.1.d:0 "The Coalition Council convened once a week, as they have always done for generations. The eldest one there, Rohzdo Vohzdo, was born in Savinka Village before it was a part of the Coalition. He was the main driving force in getting the village to join them so many years ago. Now, people see him as the closest thing they have to a leader. A Figurehead, so to speak.\n\nBut of course, times change. Some people are not content to live under an old, decentralized system. They want to live in a real state with real ideology, with real government, and with real identity. Their numbers are steadily growing. Vohzdo knows this, and he has devised a plan: An election. By beating the radicals in an election, he keeps the Coalition’s legitimacy and puts down the radicals without bloodshed.\n\nOf course, there is the possibility of one of the radicals winning. If that happens, then the council will step aside and let them take over. It is the people’s will, after all."
+SWP_change_focus.1.a:0 "But for now, it's time to work like we always have."
+
+SWP_election.1.t:0 "The Election"
+SWP_election.1.d:0 "It is time for the election. Who will lead the country?"
+SWP_election.1.a:0 "Status Quo and tradition prevails! The council stays!"
+SWP_election.2.a:0 "The Coalition changes into a more evolved form: Democracy prevails!"
+SWP_election.3.a:0 "A Coalition for all! Kommunisim prevails!"
+SWP_election.4.a:0 "The monster must never be stomped on again! The militarists win!"
+
+SWP_mewman_road_project.1.t:0 "Proposal From the Coalition."
+SWP_mewman_road_project.1.d:0 "A delegation from the "[SWP.getname]," a monster nation, has arrived in Sveg. They are proposing an upgrade of roads in our lands in order to better facilitate trade.\n\nHow should we respond?"
+SWP_mewman_road_project.1.a:0 "Seems like a good deal from the monsters. We accept!"
+SWP_mewman_road_project.2.a:0 "Cooperate? With monsters? Ew, no!"
+
+SWP_mewman_road_project_rejection.1.t:0 "Our proposal was rejected!"
+SWP_mewman_road_project_rejection.1.d:0 "Our proposal was rejected by the Mewmans."
+SWP_mewman_road_project_rejection.1.a:0 "Unfourtunate..."

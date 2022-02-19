@@ -11,7 +11,7 @@ set_technology = {
 
 add_ideas = {
 MEW_pre_industrial
-TSR_decentralized_government
+SWP_decentralized_government
 }
 
 oob = "SWP_2012"
@@ -33,14 +33,10 @@ set_popularities = {
 	fascism = 5
 }
 
-create_country_leader = {
-	name = "Swamp Council"
-	desc = ""
-	picture = ""
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
+recruit_character = SWP_tribe_elder
+recruit_character = SWP_republican
+recruit_character = SWP_militarist_character
+recruit_character = SWP_commie
+recruit_character = SWP_generic_monster_advisor_1
+recruit_character = SWP_generic_monster_advisor_2
 recruit_character = SWP_generic_general_1
