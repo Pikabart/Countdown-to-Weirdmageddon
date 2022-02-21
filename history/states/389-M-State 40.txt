@@ -6,6 +6,7 @@ state={
 	history {
 		owner = MHC
 		add_core_of = MHC
+		add_core_of = JOH
 		buildings = {
 			arms_factory = 0
 			industrial_complex = 0
@@ -23,7 +24,7 @@ state={
 		2532 2736 3167 3430 4196 4531 5698 5899 7739 7787 
 	}
 	
-	manpower=4000
+	manpower=1000000
 	
 	state_category=town
 }

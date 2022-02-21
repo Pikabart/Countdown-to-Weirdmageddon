@@ -1,4 +1,20 @@
 characters = {
+	MHC_general_leader = {
+		name = "Governor General Jenny of House Cosmia" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_mhc_general_pre_uni_pre_break_away"
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			expire = "2040.1.1.1"
+			id = -1
+			traits = {
+			}
+		}
+	}
 	MHC_generic_monster_advisor_1 = {
 		name = "MHC_generic_monster_advisor_1" 
 		desc = ""

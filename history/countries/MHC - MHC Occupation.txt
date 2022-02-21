@@ -38,42 +38,7 @@ MHC_merciless_rebels
 MHC_unrecognizable_culture
 }
 
-create_country_leader = {
-	name = "MHC Occupation Council"
-	desc = ""
-	picture = ""
-	ideology = oligarchism
-	traits = {
-		#
-	}
-}
-
-#create_field_marshal = {#
-#	name = ""
-#	desc = ""
-#	portrait_path = ""
-#	traits = {}
-#	skill = 2
-#	attack_skill = 2
-#	defense_skill = 2
-#	planning_skill = 2
-#	logistics_skill = 2
-#	id = 3
-#}
-
-#create_corps_commander = {#
-#	name = ""
-#	desc = ""
-#	portrait_path = ""
-#	traits = {}
-#	skill = 1
-#	attack_skill = 1
-#	defense_skill = 1
-#	planning_skill = 1
-#	logistics_skill = 1
-#	id = 4
-#}
-
+recruit_character = MHC_general_leader
 recruit_character = MHC_generic_monster_advisor_1
 recruit_character = MHC_generic_monster_advisor_2
 recruit_character = MHC_generic_monster_advisor_3

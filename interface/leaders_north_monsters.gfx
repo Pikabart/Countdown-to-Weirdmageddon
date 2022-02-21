@@ -98,4 +98,16 @@ spriteTypes = {
 		name = "GFX_hoi4_portrait_swp_commie"
 		texturefile = "gfx/leaders/SWP/hoi4_portrait_swp_commie.dds"
 	}
+	
+	#####
+	#MHC#
+	#####
+	spriteType = {
+		name = "GFX_hoi4_portrait_mhc_general_pre_uni_pre_break_away"
+		texturefile = "gfx/leaders/MHC/hoi4_portrait_mhc_general_pre_uni_pre_break_away.dds"
+	}
+	spriteType = {
+		name = "GFX_hoi4_portrait_mhc_general_pre_uni_post_break_away"
+		texturefile = "gfx/leaders/MHC/hoi4_portrait_mhc_general_pre_uni_post_break_away.dds"
+	}
 }

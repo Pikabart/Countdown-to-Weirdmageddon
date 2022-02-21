@@ -1,0 +1,154 @@
+﻿###########################
+# Mewman Occupation
+###########################
+
+add_namespace = MHC_flavor
+add_namespace = MHC_change_focus_tree
+add_namespace = MHC_BfM_seizing
+
+country_event = {
+	id = MHC_flavor.1
+	title = MHC_flavor.1.t
+	desc = MHC_flavor.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MHC_flavor.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = MHC_flavor.4 days = 30 }
+	}
+}
+
+country_event = {
+	id = MHC_flavor.2
+	title = MHC_flavor.2.t
+	desc = MHC_flavor.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MHC_flavor.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+	option = { 
+		name = MHC_flavor.2.b
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = MHC_flavor.3 days = 1 }
+	}
+}
+
+country_event = {
+	id = MHC_flavor.3
+	title = MHC_flavor.3.t
+	desc = MHC_flavor.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MHC_flavor.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = MHC_flavor.4
+	title = MHC_flavor.4.t
+	desc = MHC_flavor.4.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MHC_flavor.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = MHC_change_focus_tree.1
+	title = MHC_change_focus_tree.1.t
+	desc = MHC_change_focus_tree.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MHC_change_focus_tree.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_country_leader_portrait = {
+			portrait = GFX_hoi4_portrait_mhc_general_pre_uni_post_break_away
+		}
+		hidden_effect = {
+			country_event = { id = MHC_BfM_seizing.1 days = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = MHC_BfM_seizing.1
+	title = MHC_BfM_seizing.1.t
+	desc = MHC_BfM_seizing.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MHC_BfM_seizing.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		JOH = { remove_resource_rights = 406 }
+		JOH = { remove_resource_rights = 387 }
+		JAG = { remove_resource_rights = 395 }
+		JAG = { remove_resource_rights = 451 }
+		JAG = { remove_resource_rights = 452 }
+		JOH = { country_event = { id = MHC_BfM_seizing.3 days = 1 } }
+		JAG = { country_event = { id = MHC_BfM_seizing.3 days = 1 } }
+		hidden_effect = {
+			country_event = { id = MHC_BfM_seizing.2 days = 28 }
+		}
+	}
+}
+
+country_event = {
+	id = MHC_BfM_seizing.3
+	title = MHC_BfM_seizing.3.t
+	desc = MHC_BfM_seizing.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MHC_BfM_seizing.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = MHC_BfM_seizing.2
+	title = MHC_BfM_seizing.2.t
+	desc = MHC_BfM_seizing.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MHC_BfM_seizing.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		transfer_state = 470
+		transfer_state = 393
+		hidden_effect = {
+			every_country = {
+				limit = {
+					is_in_array = {
+						array = GLOBAL.mewni_dimension_countries
+						value = THIS.id
+					}
+				}
+				news_event = { id = MHC_seizing_news.1 days = 1 }
+			}
+		}
+	}
+}
