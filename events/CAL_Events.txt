@@ -9,7 +9,7 @@ add_namespace = CAL_NWB
 add_namespace = CAL_MILITARY
 add_namespace = CAL_IBI
 
-
+add_namespace = CAL_TEST
 
 
 country_event = {
@@ -46,7 +46,7 @@ country_event = {
 ############################################################################################################
 ############################################################################################################
 
-country_event = { # What the heck is going on up there?
+country_event = { # What the heck is going on up there? 
 	id = CAL_TREMBLEY.1
 	title = CAL_TREMBLEY.1.t
 	desc = CAL_TREMBLEY.1.d
@@ -415,5 +415,29 @@ country_event = {  # If Mewni REC fails to pay loan
 		name = CAL_NWB.1.b
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		MEW = { remove_ideas = MEW_northwest_pain }
+	}
+}
+
+
+
+country_event = {  # If Mewni REC fails to pay loan
+	id = CAL_TEST.1 
+	title = CAL_TEST.1.t
+	desc = CAL_TEST.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_TEST.1.a
+		ai_chance = { factor = 0 }	# 0% AI choose this
+	}
+	option = { 
+		name = CAL_TEST.1.b
+		ai_chance = { factor = 0 }	# 0% AI choose this
+	}
+	option = { 
+		name = CAL_TEST.1.c
+		ai_chance = { factor = 100 }	# 100% AI choose this
 	}
 }

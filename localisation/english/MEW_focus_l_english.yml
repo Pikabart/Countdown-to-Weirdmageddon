@@ -12,6 +12,10 @@ Butterfly_family_desc:0 "The royal family that lead our kingdom though good and 
 Butterfly_prolouge_end:0 "Star Butterfly"
 Butterfly_prolouge_end_desc:0 "The children are the future, the inheritors to the world. And the future of the royal family, and by extension of all of Mewni, rests on the royal heir. Star Butterfly."
 
+G_FLAG_MEW_CURRENT_DAY:0 "Star has come to Earth!"
+G_FLAG_MEW_LUDO_VICTORIOUS:0 "Ludo has won the Battle For Mewni!"
+G_FLAG_MEW_MOON_VICTORIOUS:0 "Moon has won the Battle For Mewni!"
+
 #############################################################################################
 
 situation_in_the_south:0 "Situation in the South"

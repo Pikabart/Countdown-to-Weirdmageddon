@@ -37,7 +37,7 @@ country_event = {
 	}
 }
 ############################################################################################################
-country_event = { # Trembley shows up
+country_event = { # Trembley shows up 
 	id = ORE_TREMBLEY.1
 	title = ORE_TREMBLEY.1.t
 	desc = ORE_TREMBLEY.1.d
@@ -62,16 +62,16 @@ country_event = { # Trembley shows up
 			news_event = { id = launcher_news.2 days = 1 } # Launch event to launch world news event for Earth
 		}
 	}
-	option = {   # For players only to switch Nations to the West FPI 
-		name = ORE_TREMBLEY.1.b
-		ai_chance = { factor = 0 }	# 00% AI choose this
-		hidden_effect = { 
-			country_event = { id = ORE_TREMBLEY.2 days = 3 } 
-			news_event = { id = launcher_news.2 days = 1 } # Launch event to launch world news event for Earth
-			WPI = { country_event = { id = WPI_TREMBLEY.1 days = 2 } }
-		}
-		WPI = { change_tag_from = ROOT} # Switch player nation to WPI
-	}
+	#option = {   # For players only to switch Nations to the West FPI 
+	#	name = ORE_TREMBLEY.1.b
+	#	ai_chance = { factor = 0 }	# 00% AI choose this
+	#	hidden_effect = { 
+	#		country_event = { id = ORE_TREMBLEY.2 days = 3 } 
+	#		news_event = { id = launcher_news.2 days = 1 } # Launch event to launch world news event for Earth
+	#		WPI = { country_event = { id = WPI_TREMBLEY.1 days = 2 } }
+	#	}
+	#	WPI = { change_tag_from = ROOT} # Switch player nation to WPI
+	#}
 }
 
 country_event = { #Interviewing Trembley
@@ -134,12 +134,12 @@ country_event = { #Onyx Descision
 		country_event = { id = ORE_TREMBLEY.6 days = 3 }            # Go to event 6
 		WPI = { country_event = { id = WPI_TREMBLEY.4 days = 3 } }
 	}
-	option = { 
-		name = ORE_TREMBLEY.5.b
-		ai_chance = { factor = 0 }	# 100% AI choose this
-		country_event = { id = ORE_TREMBLEY.7 days = 3 }			# Go to event 7
-		WPI = { country_event = { id = WPI_TREMBLEY.5 days = 3 } }
-	}
+	#option = { 
+	#	name = ORE_TREMBLEY.5.b
+	#	ai_chance = { factor = 0 }	# 100% AI choose this
+	#	country_event = { id = ORE_TREMBLEY.7 days = 3 }			# Go to event 7
+	#	WPI = { country_event = { id = WPI_TREMBLEY.5 days = 3 } }
+	#}
 }
 
 country_event = { # Trembley declares Rival government
