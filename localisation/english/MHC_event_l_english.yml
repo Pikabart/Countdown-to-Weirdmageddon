@@ -1,0 +1,36 @@
+﻿l_english:
+
+MHC_flavor.1.t:0 "The Occupation"
+MHC_flavor.1.d:0 "We, the Mewman Occupation, were established a few years ago by from the lands of the Johansen and Jaggy Kingdoms. We were created to fulfill three missions: To resolve of the monster terrorist problem present mainly in the south, to stop the dimensional instability present in the north, and to keep an eye on Ludo Avarius to the west. If the first two goals were to be achieved, then the occupation would be disbanded and the lands would be returned to their respective previous owners.\n\nOfficially, the MHC controls the occupation. However, they have decided not to do it directly and appoint someone else to deal with the occupation for them. Jenny Cosmia was appointed governer general of the occupation since it's inception, and throughout the years she has obeyed the MHC. She keeps her head down, maintains an orderly court, and generaly acts like the model Mewman aristocrat.\n\nHowever, beneath that pampered face is a cold, calculating mind. She obeys the MHC because they can replace her at a moment's notice. She keeps up her appearance because she spends most of her time in her royal court, where looks matter. If any of that stopped bringing her benefit, she'll abandon it in favor of more practical habits. This is all for one reason:\n\nJenny Cosmia doesn't just want to rule a psudeo-state for a couple years. She has..."
+MHC_flavor.1.a:0 "...bigger ambitions."
+
+MHC_flavor.2.t:0 "Dimensional Patrol"
+MHC_flavor.2.d:0 "In the North Observation post, a Mewman guard was patrolling outside with their sword on their hip. It was a normal, routine patrol until a ball of light suddenly appeared in front of him. He grasped his sword handle, and stared at the ball for a few seconds.\n\nThe ball grew into a portal shape, great and vile screeching could be heard coming from the other side. Whatever was coming out, it wasn't gonna be pretty.\n\nA bead of sweat ran down the side of the guard's face as his hand grew more and more shaky. His heart beat out of his chest, and his breathing became irregular. The screams of the portal became louder, piercing the guard's ears. The air of the other side came pouring in, stinging the guard's eyes.\n\nThen he saw it. An arm, clad in cloth and plate armor of unknown material. The guard unsheathed his blade, and..."
+MHC_flavor.2.a:0 "Attacked it, pushing whatever hell spawn it was back into it's realm."
+MHC_flavor.2.b:0 "Stood ready to defend his home once it came out."
+
+MHC_flavor.3.t:0 "The Interrogation"
+MHC_flavor.3.d:0 "Two people sat at the opposite ends of a table. One, a Mewman interrogator, clad in knightly armor. The other, an interdimensional mystery, clad in what he calls "Flak" Armor.\n\n"Who are you?" The interrogator demanded.\n\n"Titus Quintarius. Guardsman of the Clovis Regiment."\n\nThe interrogator wrote on his notepad. "Guardman. A soldier. From what organization?"\n\n"Organization? The Imperial Guard. Astra Militarum, sir. Imperium of Man... ever heard of it? Literally the only nation us humans have lived under for over 10,000 years?"\n\nThe interrogator sighed. "No. You come from a dimension unknown to us."\n\n"I'm... in a different dimension? Oh emperor... this isn't the warp is it?"\n\n"You'll get your answers eventually. Another question; the guard who first encountered you on our dimension said there were screams coming from your side. What was that?"\n\n"Well... I was in the midst of a battle, sir. I swear they were... Daemons. Daemons of Chaos." The guardsman shuddered. "It... it was horrifying. But then I saw this... portal. A portal of light. So I ran into it, praying to the emperor that it held my salvation, and that it was not some sort of gateway to the Warp." He smiled..."
+MHC_flavor.3.a:0 ""Looks like the emperor granted me my wish.""
+
+MHC_flavor.4.t:0 "Cosmia's Petal Wishes"
+MHC_flavor.4.d:0 "Jenny Cosmia sat in the Up-dog Central Administration's flower garden. The Central Administration was officially just an office in which the occupation would be managed from, but Jenny had turned it into a proper palace in all but name.\n\nShe wasn't here to smell and gawk at the flowers, she was here to look pretty. That was it, to keep up appearances. A large number of courtiers and workers passed through the nearby halls at this hour, and they could all see her through the windows. She pretended to be oblivious to their presence.\n\nShe picked a small, insignificant flower, and started picking it's petals. She whispered something under her breath as she did so, sparking a quiet commotion among the courtiers: Does Jenny have a crush on someone? She was obviously doing the "He loves me, he loves me not." thing with the flower.\n\nAs people blushed at the thought of Jenny having a crush, Jenny got more and more excited at what she was whispering. "I'll conquer, I'll conquer not. I'll conquer, I'll conquer not." Then she was left with the last two petals. Calmly, she picked both of them at once."
+MHC_flavor.4.a:0 ""I'll conquer.""
+
+MHC_change_focus_tree.1.t:0 "The Time is Now!"
+MHC_change_focus_tree.1.d:0 "The Kingdom of Mewni has collapsed! The MHC has been dissolved! It is now time to realize our true potential!"
+MHC_change_focus_tree.1.a:0 "For the Governor General!"
+
+MHC_BfM_seizing.1.t:0 "Seizing Resources"
+MHC_BfM_seizing.1.d:0 "The resources under our jurisdiction always go to the Johansens and the Jaggy Kingdom. These are OUR resources, and we will use them as we see fit!"
+MHC_BfM_seizing.1.a:0 "Cut them off!"
+
+MHC_BfM_seizing.2.t:0 "Seize Port Aleström"
+MHC_BfM_seizing.2.d:0 "Port Aleström is cut off from the rest of the [MEW.getfactionname]! It is ours for the taking! The Avarius High Grounds as well, it's empty! OURS FOR THE TAKING!"
+MHC_BfM_seizing.2.a:0 "YES!"
+
+MHC_BfM_seizing.3.t:0 "The Mewman Occupation has Seized our Resources!"
+MHC_BfM_seizing.3.d:0 "The Mewman Occupation has seized our resource sources that were under their jurisdiction!"
+MHC_BfM_seizing.3.a:0 "Traitors!"
+
+

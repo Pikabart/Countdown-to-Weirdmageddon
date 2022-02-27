@@ -1,0 +1,181 @@
+﻿l_english:
+
+
+culture_unlock_more_tooltip:0 "§YUnlocks More Decisions for Cultural Integration§!"
+rebels_unlock_more_tooltip:0 "§YUnlocks More Decisions for Monster Rebels§!"
+
+raise_mil_initiative_4_tooltip:0 "Raise §YMilitary Initiative§! By §Y4§!"
+
+culture_requirement_4_tooltip:0 "§Y4 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_8_tooltip:0 "§Y8 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_12_tooltip:0 "§Y12 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_24_tooltip:0 "§Y24 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_36_tooltip:0 "§Y36 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_56_tooltip:0 "§Y56 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_64_tooltip:0 "§Y64 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_72_tooltip:0 "§Y72 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_80_tooltip:0 "§Y80 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_88_tooltip:0 "§Y88 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_96_tooltip:0 "§Y96 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+culture_requirement_104_tooltip:0 "§Y104 Hundred Thousand§! Monsters Must be Adopting Mewman Culture"
+
+rebel_requirement_98_tooltip:0 "Requires less than or equal to §Y98 Hundred Thousand§! Monster Rebels"
+rebel_requirement_92_tooltip:0 "Requires less than or equal to §Y92 Hundred Thousand§! Monster Rebels"
+rebel_requirement_84_tooltip:0 "Requires less than or equal to §Y84 Hundred Thousand§! Monster Rebels"
+rebel_requirement_72_tooltip:0 "Requires less than or equal to §Y72 Hundred Thousand§! Monster Rebels"
+rebel_requirement_60_tooltip:0 "Requires less than or equal to §Y60 Hundred Thousand§! Monster Rebels"
+rebel_requirement_48_tooltip:0 "Requires less than or equal to §Y48 Hundred Thousand§! Monster Rebels"
+rebel_requirement_36_tooltip:0 "Requires less than or equal to §Y36 Hundred Thousand§! Monster Rebels"
+rebel_requirement_24_tooltip:0 "Requires less than or equal to §Y24 Hundred Thousand§! Monster Rebels"
+rebel_requirement_12_tooltip:0 "Requires less than or equal to §Y12 Hundred Thousand§! Monster Rebels"
+rebel_requirement_8_tooltip:0 "Requires less than or equal to §Y8 Hundred Thousand§! Monster Rebels"
+rebel_requirement_2_tooltip:0 "Requires less than or equal to §Y2 Hundred Thousand§! Monster Rebels"
+rebel_requirement_1_tooltip:0 "Requires less than or equal to §Y1 Hundred Thousand§! Monster Rebels"
+
+MHC_bigger_ambitions:0 "Bigger Ambitions"
+MHC_bigger_ambitions_desc:0 "Our administration, although not officially a nation, effectively is one. We were etablished with an express, temporary purpose. But Jenny Cosmia has bigger ambitions."
+
+MHC_monster_translation:0 "Monster Translation"
+MHC_monster_translation_desc:0 "We will start translating the Monster tounge so that we can understand them and, more importantly, the monsters can understand us. If they can even comprehend higher thought..."
+
+MHC_propaganda_experimentation:0 "Propaganda Expirementation"
+MHC_propaganda_experimentation_desc:0 "The Butterflies have deemed us a testing ground for new propaganda expirements."
+
+MHC_phase_out_inferior_tongue:0 "Phasing Out the Inferior Tongue"
+MHC_phase_out_inferior_tongue_desc:0 "We will start making the Mewman language more and more favorable to speak. Writing law only in mewman, making mewman the official language, etc."
+
+MHC_free_language_courses:0 "Free Language Courses"
+MHC_free_language_courses_desc:0 "There are monsters who wish to speak Mewman, but are unable to do so because they dont know how. We will provide them with classes on Mewman, free of charge. Don't think of it as us bending the knee and accomadating them, think of it as brining civilization to these savages!"
+
+MHC_start_them_young:0 "Start them Young"
+MHC_start_them_young_desc:0 "By making monster children learn Mewman at a young age, their knoledge of the language will develop faster and be far more long lasting."
+
+MHC_ban_the_previous_language:0 "Ban the Monster Language"
+MHC_ban_the_previous_language_desc:0 "Monsters now have a path to learning Mewman. It is time to outlaw their old language in public. Sure, some monsters will still speak it at the mud huts they call a home, but over time the Mewman tounge will come naturally to them."
+
+MHC_introduce_mewman_celebrations:0 "Introduce Mewman Celebrations"
+MHC_introduce_mewman_celebrations_desc:0 "These monsters dont even celebrate Stump Day! We must bring proper, Mewman joy into monster life."
+
+MHC_encourage_corn_growth:0 "Encourage Corn Consumption"
+MHC_encourage_corn_growth_desc:0 "Corn is the greatest Mewman export and is a mainstay of Mewman culture. We will impose corn onto the monsters through reduced corn taxes and giving out corn as food relief."
+
+MHC_ban_unmewman_foods:0 "Ban Unmewman Food"
+MHC_ban_unmewman_foods_desc:0 ""Roasted Cattails!?" "Baked Swampfish!?" "Borscht!?" These uncouth, disgusting sounds are actually what the Monsters call food! We must ban it!"
+
+MHC_still_not_mewman_enough:0 "Still not Mewman Enough!"
+MHC_still_not_mewman_enough_desc:0 "The Monsters have adopted all they can from Mewman society, and yet it isn't enough! The way the move, the way they make gestures, its all too monstery!"
+
+MHC_add_onto_mewman_culture:0 "Add Onto Mewman Culture"
+MHC_add_onto_mewman_culture_desc:0 "We will start adding onto the Mewman culture the Monsters have to adopt. We will start small, like having a "Mewman Greeting." And a "Mewman Dance.""
+
+MHC_ministry_of_culture:0 "Ministry of Culture"
+MHC_ministry_of_culture_desc:0 "We will establish a special organization to add onto the unique Mewman culture that the Monsters will have to adopt."
+
+MHC_local_recruitment:0 "Local Recruitment"
+MHC_local_recruitment_desc:0 "Some monsters are willing to collaborate with us in supressing themselves. Lets make use of them."
+
+MHC_no_mercy:0 "No Mercy"
+MHC_no_mercy_desc:0 "These terrorist savages only understand one thing; Violence! Thus, we will have to show them what we Mewmans want, through violence!"
+
+MHC_path_to_forgivness:0 "Path to Forgiveness"
+MHC_path_to_forgivness_desc:0 "It seems that the monsters have gotten our message. Now we will provide them a path to forgiveness, so that any monster who wants to quit the terrorist movement or even defect can do so without fear of the apex Mewman hunting them down."
+
+MHC_info_for_immunity:0 "Info for Immunity"
+MHC_info_for_immunity_desc:0 "Knowing is half the battle. We will give former terrorists immunity if they tell us everything they know about the rebel organization."
+
+MHC_info_for_money:0 "Info for Money"
+MHC_info_for_money_desc:0 "Knowing is half the battle. We will give anybody money if they tell us "interesting" things about the rebel organization."
+
+MHC_seize_arms:0 "Seize all Arms"
+MHC_seize_arms_desc:0 "We will take all weapons from the populace so that they may not be used by the monster terrorists."
+
+MHC_riot_suppression:0 "Riot Supression"
+MHC_riot_suppression_desc:0 ""
+
+MHC_monitor_purchases:0 "Monitor the Market"
+MHC_monitor_purchases_desc:0 "We will monitor all purchases in and out of our nation to ensure no weapons are getting into the hands of monster terrorists."
+
+MHC_throughly_disarmed_monsters:0 "Throughly Disarmed Monsters"
+MHC_throughly_disarmed_monsters_desc:0 ""
+
+MHC_counter_protests:0 "Counter Protests"
+MHC_counter_protests_desc:0 ""
+
+MHC_snuff_them_out:0 "Snuff the Out"
+MHC_snuff_them_out_desc:0 ""
+
+MHC_succssfully_supressed:0 "Succsesful Supression"
+MHC_succssfully_supressed_desc:0 ""
+
+MHC_civ_factory:0 "Civilian Factory"
+MHC_civ_factory_desc:0 ""
+
+MHC_handouts:0 "Handouts"
+MHC_handouts_desc:0 ""
+
+MHC_civ_factory_2:0 "Civilian Factory"
+MHC_civ_factory_2_desc:0 ""
+
+MHC_research_anomalies:0 "Research the Dimensional Anomalies"
+MHC_research_anomalies_desc:0 "There are dimesnional anomalies in the northern reigons of our administration. We have been tasked to research these, so research them we shall."
+
+MHC_civ_factory_3:0 "Civilian Factory"
+MHC_civ_factory_3_desc:0 ""
+
+MHC_civ_factory_4:0 "Civilian Factory"
+MHC_civ_factory_4_desc:0 ""
+
+MHC_civ_factory_5:0 "Civilian Factory"
+MHC_civ_factory_5_desc:0 ""
+
+MHC_civ_factory_6:0 "Civilian Factory"
+MHC_civ_factory_6_desc:0 ""
+
+MHC_civ_factory_7:0 "Civilian Factory"
+MHC_civ_factory_7_desc:0 ""
+
+MHC_civ_factory_8:0 "Civilian Factory"
+MHC_civ_factory_8_desc:0 ""
+
+MHC_civ_factory_9:0 "Civilian Factory"
+MHC_civ_factory_9_desc:0 ""
+
+MHC_civ_factory_10:0 "Civilian Factory"
+MHC_civ_factory_10_desc:0 ""
+
+MHC_mil_factory:0 "Military Factory"
+MHC_mil_factory_desc:0 ""
+
+MHC_keeping_an_eye_on_ludo:0 "Keeping an Eye on Ludo"
+MHC_keeping_an_eye_on_ludo_desc:0 ""
+
+MHC_mil_factory_2:0 "Military Factory"
+MHC_mil_factory_2_desc:0 ""
+
+MHC_forward_operating_bases:0 "Forward Operating Bases"
+MHC_forward_operating_bases_desc:0 ""
+
+MHC_mil_factory_3:0 "Military Factory"
+MHC_mil_factory_3_desc:0 ""
+
+MHC_mil_factory_4:0 "Military Factory"
+MHC_mil_factory_4_desc:0 ""
+
+MHC_mil_factory_5:0 "Military Factory"
+MHC_mil_factory_5_desc:0 ""
+
+MHC_mil_factory_6:0 "Military Factory"
+MHC_mil_factory_6_desc:0 ""
+
+MHC_mil_factory_7:0 "Military Factory"
+MHC_mil_factory_7_desc:0 ""
+
+MHC_mil_factory_8:0 "Military Factory"
+MHC_mil_factory_8_desc:0 ""
+
+MHC_mil_factory_9:0 "Military Factory"
+MHC_mil_factory_9_desc:0 ""
+
+MHC_mil_factory_10:0 "Military Factory"
+MHC_mil_factory_10_desc:0 ""
+

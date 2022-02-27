@@ -87,3 +87,9 @@ SWP_MHC_road_collab_news_event.1.c:0 "Wait, did they even get approval from the 
 SWP_MHC_road_collab_news_event.2.c:0 "A step forwards in Monster-Mewman relations!"
 SWP_MHC_road_collab_news_event.3.c:0 "We didn't think this would cause such a ruckus..."
 SWP_MHC_road_collab_news_event.4.c:0 "Surprising!"
+
+MHC_seizing_news.1.t:0 "The Seizing of Port Aleström"
+MHC_seizing_news.1.d:0 "Port Aleström, a far north eastern port of the Butterfly Kingdom, has been taken by the [MHC.getname]! In the current confusion and state of emergency in the Kingdom of Mewni, nothing can currently be done about it!"
+MHC_seizing_news.1.c:0 "Traitors!"
+MHC_seizing_news.2.c:0 "Seize the port, seize the day!"
+MHC_seizing_news.3.c:0 "Interesting"

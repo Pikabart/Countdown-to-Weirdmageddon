@@ -127,6 +127,11 @@ on_actions = {
 					var = monster_culture
 					value = 1
 				}
+				give_resource_rights = { receiver = JOH state = 406 }
+				give_resource_rights = { receiver = JOH state = 387 }
+				give_resource_rights = { receiver = JAG state = 395 }
+				give_resource_rights = { receiver = JAG state = 451 }
+				give_resource_rights = { receiver = JAG state = 452 }
 				set_country_flag = culture_and_rebels_flag
 			}
 			#JUN = {

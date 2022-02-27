@@ -15,6 +15,7 @@ add_namespace = jaggy_rebel_victory_news_event
 add_namespace = jaggy_loyal_victory_news_event
 add_namespace = ludo_surrender_news_event
 add_namespace = SWP_MHC_road_collab_news_event
+add_namespace = MHC_seizing_news
 
 news_event = { #The Corn Crisis
 	id = mewni_corn_crisis_news_event.1
@@ -171,6 +172,7 @@ news_event = { #The Collapse of Mewni
 		remove_from_faction = PIG
 		remove_from_faction = PNY
 		remove_from_faction = SPI
+		remove_from_faction = MHC
 		if = {
 			limit = {
 				MEW = { has_idea = MEW_vacant_heir }
@@ -178,8 +180,6 @@ news_event = { #The Collapse of Mewni
 			remove_from_faction = LUC
 		}
 		custom_effect_tooltip = "new_focus_tree_tooltip"
-
-		
 			hidden_effect = {
 				MEW = {
 					load_focus_tree = {
@@ -189,7 +189,9 @@ news_event = { #The Collapse of Mewni
 				}
 				LUD = {
 					country_event = lud_focus_tree.1
-				
+				}
+				MHC = {
+					country_event = MHC_change_focus_tree.1
 				}
 		}
 	}
@@ -545,6 +547,40 @@ news_event = {
 		name = SWP_MHC_road_collab_news_event.4.c
 		trigger = {NOT = {TAG = MEW }}
 		trigger = {NOT = {TAG = SWP }}
+		trigger = {NOT = {TAG = MHC }}
+	}
+
+}
+
+news_event = {
+	id = MHC_seizing_news.1
+	title = MHC_seizing_news.1.t
+	desc = {
+		text = MHC_seizing_news.1.d
+	}
+	
+	picture = GFX_news_event_kingdom_collapse
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = MHC_seizing_news.1.c
+		trigger = { TAG = MEW }
+		add_stability = -0.03
+	}
+	
+	option = {
+		name = MHC_seizing_news.2.c
+		trigger = { TAG = MHC }
+	}
+	
+	option = {
+		name = MHC_seizing_news.3.c
+		trigger = {NOT = {TAG = MEW }}
 		trigger = {NOT = {TAG = MHC }}
 	}
 

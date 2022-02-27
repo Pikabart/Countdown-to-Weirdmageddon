@@ -33,6 +33,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = MHC_flavor.1
 		}
 		
 		ai_will_do = {
@@ -377,6 +378,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = culture_requirement_88_tooltip
+			add_stability = -0.05
 		}
 		
 		ai_will_do = {
@@ -482,6 +484,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = rebel_requirement_98_tooltip
 			custom_effect_tooltip = rebels_unlock_more_tooltip
 			set_country_flag = rebels_options_1
 		}
@@ -515,6 +518,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = rebel_requirement_92_tooltip
 			custom_effect_tooltip = rebels_unlock_more_tooltip
 			set_country_flag = rebels_options_2
 		}
@@ -548,6 +552,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = rebel_requirement_84_tooltip
 			swap_ideas = {
 				remove_idea = MHC_merciless_rebels
 				add_idea = MHC_radical_rebels
@@ -583,6 +588,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = rebel_requirement_72_tooltip
 			set_country_flag = rebels_options_3
 			custom_effect_tooltip = rebels_unlock_more_tooltip
 		}
@@ -616,6 +622,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = rebel_requirement_60_tooltip
 			set_country_flag = rebels_options_4
 			custom_effect_tooltip = rebels_unlock_more_tooltip
 		}
@@ -649,6 +656,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = rebel_requirement_48_tooltip
 			swap_ideas = {
 				remove_idea = MHC_radical_rebels
 				add_idea = MHC_rioting_rebels
@@ -684,6 +692,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = rebel_requirement_36_tooltip
 			add_tech_bonus = {
 				bonus = 1
 				uses = 1
@@ -720,6 +729,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = rebel_requirement_24_tooltip
 			add_ideas = MHC_monitored_market
 		}
 		
@@ -752,6 +762,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = rebel_requirement_12_tooltip
 			swap_ideas = {
 				remove_idea = MHC_rioting_rebels
 				add_idea = MHC_protesting_rebels
@@ -787,6 +798,8 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = rebel_requirement_8_tooltip
+			custom_effect_tooltip = raise_mil_initiative_4_tooltip
 			add_to_variable = {
 				var = monster_rebels_currency
 				value = 4
@@ -823,6 +836,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = rebel_requirement_2_tooltip
 			add_stability = 0.05
 		}
 		
@@ -833,7 +847,7 @@ focus_tree = {
 		
 	}
 	focus = { 
-		id = MHC_snuff_them_out
+		id = MHC_succssfully_supressed
 		icon = a
 		x = 0
 		y = 1
@@ -855,6 +869,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = rebel_requirement_1_tooltip
 			swap_ideas = {
 				remove_idea = MHC_protesting_rebels
 				add_idea = MHC_dead_rebel_movement
@@ -997,6 +1012,9 @@ focus_tree = {
 			swap_ideas = {
 				remove_idea = MHC_dimensional_instability
 				add_idea = MHC_dimensional_instability_2
+			}
+			hidden_effect = {
+				country_event = { id = MHC_flavor.2 days = 14 }
 			}
 		}
 		
