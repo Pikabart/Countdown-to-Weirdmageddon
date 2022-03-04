@@ -3,7 +3,8 @@
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-
+	mounted_infantry = 1
+	
 	#industry
 	basic_machine_tools = 1
 	
@@ -12,7 +13,7 @@ set_technology = {
 oob = "TSR_2012"
 set_research_slots = 3
 set_convoys = 50
-set_stability = 0.40
+set_stability = 0.70
 set_war_support = 0.30
 
 add_ideas = {

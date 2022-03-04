@@ -459,8 +459,11 @@
 			swap_ideas = {
 				remove_idea = TSR_calvary_debt
 				add_idea = TSR_calvary_debt_better
-				
 			}
+			hidden_effect = {
+				country_event = north_monster_war_tree_event.1
+			}
+			custom_effect_tooltip = "new_focus_tree_tooltip"
 		
 		}
 		

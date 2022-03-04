@@ -82,7 +82,7 @@ jaggy_rebel_victory_news_event.1.a:0 "Drat!"
 jaggy_rebel_victory_news_event.1.c:0 "Interesting"
 
 SWP_MHC_road_collab_news_event.1.t:0 "Mewman-Monster Road Project"
-SWP_MHC_road_collab_news_event.1.d:0 "An announcement has been made in the northern reigons of the Kingdom of Mewni that the [SWP.getname] and the [MHC.getname] are working togather on a road project!\n\nThis road project, which will upgrade the roads going between the Monsters and Port Aleström, has many opponents in the Mewman political sphere. But things have already been set in motion, and those with the power to stop it have just decided to wait for the whole controversy to blow over."
+SWP_MHC_road_collab_news_event.1.d:0 "An announcement has been made in the northern reigons of the Kingdom of Mewni that the [SWP.getname] and the [MHC.getname] will work together on a road project!\n\nThis road project, which will upgrade the roads going between the Monsters and Port Aleström, has many opponents in the Mewman political sphere. But things have already been set in motion, and those with the power to stop it have just decided to wait for the whole controversy to blow over."
 SWP_MHC_road_collab_news_event.1.c:0 "Wait, did they even get approval from the MHC!?"
 SWP_MHC_road_collab_news_event.2.c:0 "A step forwards in Monster-Mewman relations!"
 SWP_MHC_road_collab_news_event.3.c:0 "We didn't think this would cause such a ruckus..."

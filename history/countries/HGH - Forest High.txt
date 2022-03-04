@@ -7,6 +7,8 @@ set_technology = {
 	#industry
 	basic_machine_tools = 1
 	
+	mounted_infantry = 1
+	
 }
 
 oob = "HGH_2012"

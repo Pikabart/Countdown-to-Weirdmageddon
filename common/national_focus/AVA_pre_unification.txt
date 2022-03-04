@@ -931,6 +931,41 @@ focus_tree = {
 		}
 		
 	}
+	
+	focus = { 
+		id = AVA_look_outwards
+		icon = a
+		x = 0
+		y = 1
+		
+		prerequisite = { focus = AVA_fort_avarius }
+		relative_position_id = AVA_fort_avarius
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			hidden_effect = {
+				country_event = north_monster_war_tree_event.1
+			}
+			custom_effect_tooltip = "new_focus_tree_tooltip"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
 
 
 }

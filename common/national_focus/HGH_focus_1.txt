@@ -177,6 +177,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			hidden_effect = {
+				country_event = north_monster_war_tree_event.1
+			}
+			custom_effect_tooltip = "new_focus_tree_tooltip"
 		}
 		
 		ai_will_do = {

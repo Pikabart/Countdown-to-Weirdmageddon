@@ -109,6 +109,33 @@ defined_text = {
 		localization_key = proper_doctrine_scripted_loc_generic
 	}
 }
+defined_text = {
+	name = look_outwards_scripted_loc
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = death_cult_leader_flag
+		}
+		localization_key = look_outwards_scripted_loc_death_cult
+	}
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = hippie_leader_flag
+		}
+		localization_key = look_outwards_scripted_loc_hippie_leader
+	}
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = janna_leader_flag
+		}
+		localization_key = look_outwards_scripted_loc_janna_leader
+	}
+	text = {
+		localization_key = look_outwards_scripted_loc_generic
+	}
+}
 
 #####
 #HGH#
@@ -1485,7 +1512,6 @@ defined_text = {
 		localization_key = HGH_build_agriculture_education_3_scripted_loc_generic
 	}
 }
-
 defined_text = {
 	name = HGH_build_agriculture_education_3_scripted_loc_desc
 	text = {
@@ -1534,7 +1560,6 @@ defined_text = {
 		localization_key = HGH_build_agriculture_education_3_scripted_loc_generic_desc
 	}
 }
-
 defined_text = {
 	name = HGH_look_outwards_scripted_loc
 	text = {
@@ -1583,7 +1608,6 @@ defined_text = {
 		localization_key = HGH_look_outwards_scripted_loc_generic
 	}
 }
-
 defined_text = {
 	name = HGH_look_outwards_scripted_loc_desc
 	text = {
@@ -1630,5 +1654,156 @@ defined_text = {
 	}
 	text = {
 		localization_key = HGH_look_outwards_scripted_loc_generic_desc
+	}
+}
+#!!!GENERIC TREE!!!#
+defined_text = {
+	name = generic_north_monster_uni_war_start_desc
+	text = {
+		trigger = {
+			original_tag = AVA
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_AVA
+	}
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = janna_leader_flag
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_DTH_janna_leader_flag
+	}
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = hippie_leader_flag
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_DTH_hippie_leader_flag
+	}
+	text = {
+		trigger = {
+			original_tag = DTH
+			has_country_flag = death_cult_leader_flag
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_DTH_death_cult_leader_flag
+	}
+	text = {
+		trigger = {
+			original_tag = KAI
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_KAI
+	}
+	text = {
+		trigger = {
+			original_tag = MHC
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_MHC
+	}
+	text = {
+		trigger = {
+			original_tag = SWP
+			has_country_flag = SWP_council
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_SWP_SWP_council
+	}
+	text = {
+		trigger = {
+			original_tag = SWP
+			has_country_flag = SWP_communists
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_SWP_SWP_communists
+	}
+	text = {
+		trigger = {
+			original_tag = SWP
+			has_country_flag = SWP_military
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_SWP_SWP_military
+	}
+	text = {
+		trigger = {
+			original_tag = SWP
+			has_country_flag = SWP_democracy
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_SWP_SWP_democracy
+	}
+	text = {
+		trigger = {
+			original_tag = TSR
+			has_country_flag = flag_TSR_tsar_remains
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_TSR_flag_TSR_tsar_remains
+	}
+	text = {
+		trigger = {
+			original_tag = TSR
+			has_country_flag = flag_TSR_lamp
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_TSR_flag_TSR_lamp
+	}
+	text = {
+		trigger = {
+			original_tag = TSR
+			has_country_flag = flag_TSR_queen_mewman
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_TSR_flag_TSR_queen_mewman
+	}
+	text = {
+		trigger = {
+			original_tag = TSR
+			has_country_flag = flag_TSR_queen_monster
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_TSR_flag_TSR_queen_monster
+	}
+	text = {
+		trigger = {
+			original_tag = TSR
+			has_country_flag = flag_TSR_military
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_TSR_flag_TSR_military
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = model_un
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_HGH_model_un
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = drama_kids
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_HGH_drama_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = band_kids
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_HGH_band_kids
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = gym_bros
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_HGH_gym_bros
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = yearbook_club
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_HGH_yearbook_club
+	}
+	text = {
+		trigger = {
+			original_tag = HGH
+			has_country_flag = nazi_kids
+		}
+		localization_key = generic_north_monster_uni_war_start_desc_HGH_nazi_kids
+	}
+	text = {
+		localization_key = generic_north_monster_uni_war_start_desc_GEN
 	}
 }

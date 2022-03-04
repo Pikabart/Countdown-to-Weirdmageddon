@@ -44,17 +44,17 @@ country_event = {
 	
 	option = { 
 		name = DTH_flavor.3.a
-		ai_chance = { factor = 100 }	# 100% AI choose this
+		ai_chance = { factor = 100 }
 		set_country_flag = death_cult_leader_flag
 	}
 	option = { 
 		name = DTH_flavor.3.b
-		ai_chance = { factor = 100 }	# 100% AI choose this
+		ai_chance = { factor = 100 }
 		set_country_flag = hippie_leader_flag
 	}
 	option = { 
 		name = DTH_flavor.3.c
-		ai_chance = { factor = 100 }	# 100% AI choose this
+		ai_chance = { factor = 100 }
 		set_country_flag = janna_leader_flag
 	}
 }

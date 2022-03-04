@@ -474,7 +474,7 @@ focus_tree = {
 			check_variable = {
 				var = monster_rebels
 				value = 98
-				compare = lesser_than_or_equals
+				compare = less_than_or_equals
 			}
 		}
 		bypass = {} 
@@ -508,7 +508,7 @@ focus_tree = {
 			check_variable = {
 				var = monster_rebels
 				value = 92
-				compare = lesser_than_or_equals
+				compare = less_than_or_equals
 			}
 		}
 		bypass = {} 
@@ -542,7 +542,7 @@ focus_tree = {
 			check_variable = {
 				var = monster_rebels
 				value = 84
-				compare = lesser_than_or_equals
+				compare = less_than_or_equals
 			}
 		}
 		bypass = {} 
@@ -578,7 +578,7 @@ focus_tree = {
 			check_variable = {
 				var = monster_rebels
 				value = 72
-				compare = lesser_than_or_equals
+				compare = less_than_or_equals
 			}
 		}
 		bypass = {} 
@@ -612,7 +612,7 @@ focus_tree = {
 			check_variable = {
 				var = monster_rebels
 				value = 60
-				compare = lesser_than_or_equals
+				compare = less_than_or_equals
 			}
 		}
 		bypass = {} 
@@ -646,7 +646,7 @@ focus_tree = {
 			check_variable = {
 				var = monster_rebels
 				value = 48
-				compare = lesser_than_or_equals
+				compare = less_than_or_equals
 			}
 		}
 		bypass = {} 
@@ -682,7 +682,7 @@ focus_tree = {
 			check_variable = {
 				var = monster_rebels
 				value = 36
-				compare = lesser_than_or_equals
+				compare = less_than_or_equals
 			}
 		}
 		bypass = {} 
@@ -719,7 +719,7 @@ focus_tree = {
 			check_variable = {
 				var = monster_rebels
 				value = 24
-				compare = lesser_than_or_equals
+				compare = less_than_or_equals
 			}
 		}
 		bypass = {} 
@@ -752,7 +752,7 @@ focus_tree = {
 			check_variable = {
 				var = monster_rebels
 				value = 12
-				compare = lesser_than_or_equals
+				compare = less_than_or_equals
 			}
 		}
 		bypass = {} 
@@ -788,7 +788,7 @@ focus_tree = {
 			check_variable = {
 				var = monster_rebels
 				value = 8
-				compare = lesser_than_or_equals
+				compare = less_than_or_equals
 			}
 		}
 		bypass = {} 
@@ -826,7 +826,7 @@ focus_tree = {
 			check_variable = {
 				var = monster_rebels
 				value = 2
-				compare = lesser_than_or_equals
+				compare = less_than_or_equals
 			}
 		}
 		bypass = {} 
@@ -859,7 +859,7 @@ focus_tree = {
 			check_variable = {
 				var = monster_rebels
 				value = 1
-				compare = lesser_than_or_equals
+				compare = less_than_or_equals
 			}
 		}
 		bypass = {} 

@@ -156,7 +156,7 @@ on_actions = {
 			#}
 		}
 	}
-	#Mewni Early War and First Civil War
+	#Wars
 	on_capitulation = {
 		effect = {
 			if = {
@@ -272,6 +272,150 @@ on_actions = {
 				FROM = {
 					transfer_state = 363
 					add_state_core = 363
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = AVA
+						
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = AVA
+						message = AVA_conquered
+					}
+					annex_country = {
+						target = AVA
+						transfer_troops = no
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = KAI
+						
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = KAI
+						message = KAI_conquered
+					}
+					annex_country = {
+						target = KAI
+						transfer_troops = no
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = HGH
+						
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = HGH
+						message = HGH_conquered
+					}
+					annex_country = {
+						target = HGH
+						transfer_troops = no
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = SWP
+						
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = SWP
+						message = SWP_conquered
+					}
+					annex_country = {
+						target = SWP
+						transfer_troops = no
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = DTH
+						
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = DTH
+						message = DTH_conquered
+					}
+					annex_country = {
+						target = DTH
+						transfer_troops = no
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = DRG
+						
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = DRG
+						message = DRG_conquered
+					}
+					annex_country = {
+						target = DRG
+						transfer_troops = no
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = TSR
+						
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = TSR
+						message = TSR_conquered
+					}
+					annex_country = {
+						target = TSR
+						transfer_troops = no
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					ROOT = {
+						original_tag = MHC
+						
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = MHC
+						message = MHC_conquered
+					}
+					annex_country = {
+						target = MHC
+						transfer_troops = no
+					}
 				}
 			}
 		}

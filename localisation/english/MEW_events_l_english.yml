@@ -264,7 +264,7 @@ ludo_confront_5.1.a:0 ""We have the will to do what is right.""
 ludo_confront_6.1.t:0 ""Just a Formality""
 ludo_confront_6.1.d:0 "After a few days of organization and consolidation, the Butterfly Kingdom has sent delegations to the other vassal kingdoms. It was just a formality, as the vassal kingdoms have always helped the Butterflys in crises like these. However, almost all of them did the unexpectable: most of them have declined to help us."
 ludo_confront_6.1.a:0 "Wait, what? You can't just-"
-new_focus_tree_tooltip:0 "§CNew Focus Tree Unlocked!§!"
+new_focus_tree_tooltip:0 "§CNew Focus Tree Unlocks!§!"
 
 
 ################
