@@ -26,6 +26,10 @@
 		
 		cost = 1
 		
+		select_effect = {
+			set_global_flag = G_FLAG_MEW_CURRENT_DAY # This GLOBAL FLAG is for EARTH Nations
+		}
+		
 		available_if_capitulated = yes
 		
 		completion_reward = {

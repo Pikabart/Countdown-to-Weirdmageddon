@@ -108,7 +108,7 @@
  
  CAL_division.1:0 "Mend NDR-IDR Divisions"
  CAL_division.1_desc:0 "The New and Imperial branches of the Californian NDR make up nearly 90% of the political landscape in California. With proper negotiations, new deals, and political maneuvering, we can restore unity within the greater party."
- CAL_division.1.t:0 "Grant +§G15§! Support from §1All of California§!.\nGrant +§G10§! Support from the §8Moderate NDR§!."
+ CAL_division.1.t:0 "Grant +§G15§! Support from §1All of California§!."
  
  CAL_division.2:0 "Tour Southern California"
  CAL_division.2_desc:0 "While Northern California swept Norton into office, Southern California had far less enthusiasm for him and are themselves divided about him. A tour of the south can help start a campaign of unification and trust building between Norton and the South."
@@ -450,16 +450,16 @@
  ##################################################################################################################
  ##################################################################################################################
  
- CAL_magic.0:0 "Imported Magic"
- CAL_magic.0_desc:0 "Basic books and scrolls on the nature of magic on Mewni have been provided to us. The mere thought of reverse engineering magic is crazy, but the orders are clear. Study, determine, and Acquire their magic for the Imperial Republic."
+ CAL_magic.0:0 "The "Fritz""
+ CAL_magic.0_desc:0 "Our intelligence network both in the Port Cities and in the Royal Court are indicating that there is a "Magical Fritz" on Mewni. With the need for magical water and President Trembley ordering the formation of an Oregon Magical Force, it's now critical we get ahead of this. From interdimensional travel to Magical Soldiers, California will be ready!"
  CAL_magic.0.t:0 ""
  
- CAL_magic.1:0 "The Emperor's New Portal"
+ CAL_magic.1:0 "The Golden Gate"
  CAL_magic.1_desc:0 "All interdimensional travel is controlled by the Butterfly Kingdom and their High Magic Commission. For what leverage we gain, we can't press too hard or risk losing access to Mewni. Fortunately, Professor Emma-May Dixon has come to us with a solution."
  CAL_magic.1.t:0 ""
  
  CAL_magic.2:0 "The California Magic Ranger Corp"
- CAL_magic.2_desc:0 "Besides the royal family, certain mewmans also have magic abilities. While our knowledge on this form of magic is limited, we were able to quickly device a theory of what gives these individuals magic abilities. It’s in the water! Magical Water!"
+ CAL_magic.2_desc:0 ""If the mewmans can yield magic, why can't humanity? While our knowledge on this form of magic is limited, and these Mewmans may be technologically inferior, their understanding of magic shall be the basis for our Magic Ranger Corps!\nProject Mariposa is a go!\n- §CDixon Technologies Head Engineer Eugene Pines§! -"
  CAL_magic.2.t:0 ""
  
  CAL_magic.3:0 "New Power Infrastructure"
@@ -470,20 +470,20 @@
  CAL_magic.4_desc:0 "Further refinements require an active portal for observation and radiation testing. A tear from a pair of magical scissors would do. But we'll need to get a hold of one."
  CAL_magic.4.t:0 ""
  
- CAL_magic.5:0 "Infiltrate Skywynne Institute"
- CAL_magic.5_desc:0 "Skywynne Institute for Unmagical but Somewhat Gifted Children is the premier academy for both non-magical and magic users on Mewni. Her archives are bound to contain far more detailed notes on how mewmans gained magical powers and how to train them to use it. If they don't want to share, then we'll apply some aggressive 'trading' practices to get those records ourselves."
+ CAL_magic.5:0 "Begin Testing"
+ CAL_magic.5_desc:0 ""Even though my brother and Professor Dixon were the ones who formulated this plan, I’m confident the new test would make me the first human able to wield and use Mewni Based Magical Powers.\n\nI can’t wait to show Mabel when the Long Summer is over."\n- §CICR Marine Major Emily Pines§! -"
  CAL_magic.5.t:0 ""
- 
- CAL_magic.6:0 "Begin Testing"
- CAL_magic.6_desc:0 ""Even though my brother and Professor Dixon were the ones who formulated this plan, I’m confident the new test would make me the first human able to wield and use Mewni Based Magical Powers.\n\nI can’t wait to show Mabel when the Long Summer is over."\n- §CICR Marine Major Emily Pines§! -"
+
+ CAL_magic.6:0 "Magic Force Projection"
+ CAL_magic.6_desc:0 "Even if we inject special magical water mixures into our rangers, they still don't have a means of channeling their magic.\n\nBut we have noticed that the Crown Princess of Mewni uses her "wand" to conjure magic. Prehaps our rangers should do the same?"
  CAL_magic.6.t:0 ""
  
- CAL_magic.7:0 "The Golden Gate"
- CAL_magic.7_desc:0 "§YProject Golden Gate§! will be a testament to the technological supremacy of California. While the world descends into chaos from the Kerfuffle, we amazed the world with open First Contact with another dimension. But now they will see us revolutionize mankind with our own means of interdimensional travel!"
+ CAL_magic.7:0 "The Emperor's New Portal"
+ CAL_magic.7_desc:0 "§YProject Golden Gate§! will be a testament to the technological supremacy of California. While the world descends into chaos from the Kerfuffle, we amazed the world with open First Contact with another dimension. But now they will see us revolutionize mankind with our own means of interdimensional travel!\n For the Emperor and the Republic!"
  CAL_magic.7.t:0 ""
  
  CAL_magic.8:0 "The Princesses Of California"
- CAL_magic.8_desc:0 "Project Mariposa has been a success... of sorts. While we had thousands of volunteers, only a fraction seemed able to wield any form of magical abilities as detailed in the mewman records. In hindsight, the fact a vast majority of those who can use magic are woman should have been foreseen. That explains their matriarchically society. None the less, these “Princess” of California are her pride and joy."
+ CAL_magic.8_desc:0 "Project Mariposa has been a success... of sorts. While we had thousands of volunteers, only a fraction seemed able to wield any form of magical abilities as detailed in the mewman records. In hindsight, the fact a vast majority of those who can use magic are woman should have been foreseen. That explains their matriarchically society. None the less, these “Princesses” of California are her pride and joy."
  CAL_magic.8.t:0 ""
  
  CAL_magic.9:0 "Into the Multiverse"
@@ -539,29 +539,41 @@
  CAL_butterfly_aid.1_desc:0 "Mewmans eat almost nothing but corn-based foods and meat. We have shipments of wheat, lettuce, carrots, garlic, and turnips ready to go for aid and trade. But finding a taker is harder than we thought."
  CAL_butterfly_aid.1.t:0 ""
  
- CAL_butterfly_aid.2:0 "Our Own Interest"
- CAL_butterfly_aid.2_desc:0 ""Norton has an almost intimate reserve of knowledge of Mewni and the Royal Family leading up to Queen Solaria. But how can this man from 150 years ago have knowledge of Mewni from over 300 years ago? For Mewni and California’s sake, we must find out!"\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! –"
+ CAL_butterfly_aid.2:0 "Arrange Financial Assistance"
+ CAL_butterfly_aid.2_desc:0 "Some of the richest nations in the world were poor, almost medieval kingdoms a hundred years ago. If I can invest NoC resource in Mewni, with all the exclusive rights that go with it, Northwest, California, and eventually the US would have exclusive access to the next China or Korea in just a few short years.\n- §7Northwest of California CEO Lord Timothy Birnbaum§! -"
  CAL_butterfly_aid.2.t:0 ""
  
- CAL_butterfly_aid.3:0 "Arrange Financial Assistance"
- CAL_butterfly_aid.3_desc:0 "Some of the richest nations in the world were poor, almost medieval kingdoms a hundred years ago. If I can invest NoC resource in Mewni, with all the exclusive rights that go with it, Northwest, California, and eventually the US would have exclusive access to the next China or Korea in just a few short years.\n- §7Northwest of California CEO Lord Timothy Birnbaum§! -"
+ CAL_butterfly_aid.3:0 "New Farming Methods"
+ CAL_butterfly_aid.3_desc:0 ""
  CAL_butterfly_aid.3.t:0 ""
  
- CAL_butterfly_aid.4:0 "Dive In Mewman History"
- CAL_butterfly_aid.4_desc:0 "For what little access to the Royal Archives that was given to us, there are a lot of books and scrolls of the reign of Solaria. One bit that caught our interest is a man that seemed to have single handily jump started an early industrial revolution, only for him and his work to be forgotten after his “death”."
- CAL_butterfly_aid.4.t:0 "Getting some "Californian Yankee in Queen Solaria's Court" vibes."
+ CAL_butterfly_aid.4:0 "The New Industrial Revolution"
+ CAL_butterfly_aid.4_desc:0 "If Mewni is to thrive, they must modernize! New Factories, Stock Exchanges, detailed Infrastructure. Sure, this can cause massive enviromental destruction. but they don't enviromental laws."
+ CAL_butterfly_aid.3.t:0 "I'm sure magic can fix thier ozone"
  
- CAL_butterfly_aid.5:0 "Expand the Trade Port Cities"
- CAL_butterfly_aid.5_desc:0 "The Port Cities are a critical part of the mewman economy. Unlike the interior of the kingdom, there is a feel of vibrant energy and progress in the ports, with even early signs of industrialization and modern economic theory in play. To expand this would only benefit us... and the mewmans as well, why not?\n- §RImperial Secretary of State Lady Carman Everett§! -"
+ CAL_butterfly_aid.5:0 "Advance Food Destribution"
+ CAL_butterfly_aid.5_desc:0 ""
  CAL_butterfly_aid.5.t:0 ""
  
- CAL_butterfly_aid.6:0 "Norton's Past"
- CAL_butterfly_aid.6_desc:0 "I always wondered how the FPI ever got involved with Mewni. Now I know, this man was the key. From my great grandmother to me; From Queen Solaria to Queen Comet; the Past and now the Present; it all started with Norton.\nThe ever famous Worthy of Mewni and he doesn’t even know... yet.\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! –"
+ CAL_butterfly_aid.6:0 "Center of the Mewni Universe"
+ CAL_butterfly_aid.6_desc:0 "A long time ago, New York was a small trade city. Now it is the most important city in our dimesion, home to major economic, political, and stratyegic centers. With out efforts, Port Festiva shall be the same."
  CAL_butterfly_aid.6.t:0 ""
  
- CAL_butterfly_aid.7:0 "Who is Festiva?"
- CAL_butterfly_aid.7_desc:0 "“Some of these records do not appear to match properly. After this Queen Eclipsa, who I could swear I just know, dates, sequence of events, they all don’t line up fully.\nWho is Queen Festiva anyway?”\n§gEmperor of the United States and Imperial Governor of California\nJoshua Norton§!"
+ CAL_butterfly_aid.7:0 "The Magic Must Flow"
+ CAL_butterfly_aid.7_desc:0 "Mewni is technologically behind us in nearly every area, expect social media oddly enough. But their key resource of Magical Water from the Realm of Magic, which they are dimensionally closer to than Earth, is vital to supporting the Californian Economy back on Earth.\nThe Magic Must Flow!"
  CAL_butterfly_aid.7.t:0 ""
+ 
+ CAL_butterfly_aid.8:0 "Heavy Magic Water Extraction"
+ CAL_butterfly_aid.8_desc:0 ""
+ CAL_butterfly_aid.8.t:0 ""
+ 
+ CAL_butterfly_aid.9:0 "Early Magic Refinement"
+ CAL_butterfly_aid.9_desc:0 "According to FPI documents discovered in Area 51, there is a super potent form of magical water that exist in the multiverse. A single drop can power entire cities... or maybe, our own Interdimensional Portals? We can solve the energy crisis and accelerate Project Golden Gate's development.\nWe must figure out how to make this "Titan's Blood"!"
+ CAL_butterfly_aid.9.t:0 ""
+ 
+ CAL_butterfly_aid.10:0 "Expand the Trade Port Cities"
+ CAL_butterfly_aid.10_desc:0 "The Port Cities are a critical part of the mewman economy. Unlike the interior of the kingdom, there is a feel of vibrant energy and progress in the ports, with even early signs of industrialization and modern economic theory in play. To expand this would only benefit us... and the mewmans as well, why not?\n- §RImperial Secretary of State Lady Carman Everett§! -"
+ CAL_butterfly_aid.10.t:0 ""
  
  ##################################################################################################################
  ##################################################################################################################
