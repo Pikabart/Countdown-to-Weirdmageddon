@@ -82,8 +82,10 @@ country_event = {
 		set_country_leader_portrait = {
 			portrait = GFX_hoi4_portrait_mhc_general_pre_uni_post_break_away
 		}
+		custom_effect_tooltip = "new_focus_tree_tooltip"
 		hidden_effect = {
 			country_event = { id = MHC_BfM_seizing.1 days = 1 }
+			country_event = north_monster_war_tree_event.1
 		}
 	}
 }

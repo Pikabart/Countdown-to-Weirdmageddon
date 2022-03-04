@@ -44,3 +44,8 @@ TSR_HOLY = {
  color = rgb { 162 8 67 }
  color_ui = rgb { 162 8 67 }
 }
+
+TSR_MIL_TAG = {
+ color = rgb { 162 8 67 }
+ color_ui = rgb { 162 8 67 }
+}

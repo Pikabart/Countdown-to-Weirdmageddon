@@ -8,14 +8,14 @@ MHC_rebels = {
 	MHC_rebels_allocate_manpower = {
 		icon = GFX_decision_icon_default		
 		fire_only_once = no		
-		available = { has_manpower > 1500 }	
+		available = { has_manpower > 500 }	
 		visible = {	}		
 
-		cost = 25
+		cost = 15
 		days_remove = 7
 		days_re_enable = 14
 		complete_effect = {
-			add_manpower = -1500
+			add_manpower = -500
 		}
 		remove_effect = {
 			custom_effect_tooltip = "raise_mil_initiative_tooltip"
@@ -25,7 +25,7 @@ MHC_rebels = {
 			}
 		}
 		ai_will_do = {	
-			factor = 1
+			factor = 100
 		}
 	}
 	MHC_rebels_allocate_guns = {
@@ -38,7 +38,7 @@ MHC_rebels = {
 		}	
 		visible = {	}		
 
-		cost = 25
+		cost = 15
 		days_remove = 7
 		days_re_enable = 14
 		complete_effect = {
@@ -56,7 +56,7 @@ MHC_rebels = {
 			}
 		}
 		ai_will_do = {	
-			factor = 1
+			factor = 100
 		}
 	}
 	MHC_rebels_suppresion = {
@@ -71,7 +71,7 @@ MHC_rebels = {
 		}	
 		visible = {	}		
 
-		cost = 25
+		cost = 15
 		days_remove = 7
 		days_re_enable = 14
 		complete_effect = {
@@ -90,7 +90,7 @@ MHC_rebels = {
 			}
 		}
 		ai_will_do = {	
-			factor = 1
+			factor = 100
 		}
 	}
 	MHC_local_recruitment = {
@@ -108,7 +108,7 @@ MHC_rebels = {
 			has_country_flag = rebels_options_1
 		}		
 
-		cost = 25
+		cost = 15
 		days_remove = 7
 		days_re_enable = 14
 		complete_effect = {
@@ -119,10 +119,10 @@ MHC_rebels = {
 			}
 		}
 		remove_effect = {
-			add_manpower = 750
+			add_manpower = 300
 		}
 		ai_will_do = {	
-			factor = 1
+			factor = 100
 		}
 	}
 	MHC_public_pow_purge = {
@@ -135,7 +135,7 @@ MHC_rebels = {
 			has_country_flag = rebels_options_2
 		}		
 
-		cost = 25
+		cost = 15
 		days_remove = 7
 		days_re_enable = 14
 		remove_effect = {
@@ -147,7 +147,7 @@ MHC_rebels = {
 			}
 		}
 		ai_will_do = {	
-			factor = 1
+			factor = 100
 		}
 	}
 	MHC_info_for_immunity = {
@@ -157,7 +157,7 @@ MHC_rebels = {
 		}	
 		visible = { has_country_flag = rebels_options_3 }		
 
-		cost = 25
+		cost = 15
 		days_remove = 7
 		days_re_enable = 14	
 		remove_effect = {
@@ -173,7 +173,7 @@ MHC_rebels = {
 			}
 		}
 		ai_will_do = {	
-			factor = 1
+			factor = 100
 		}
 	}
 	MHC_info_for_money = {
@@ -183,7 +183,7 @@ MHC_rebels = {
 		}	
 		visible = { has_country_flag = rebels_options_4	}		
 
-		cost = 75
+		cost = 50
 		days_remove = 7
 		days_re_enable = 14
 		remove_effect = {
@@ -194,7 +194,7 @@ MHC_rebels = {
 			}
 		}
 		ai_will_do = {	
-			factor = 1
+			factor = 100
 		}
 	}
 
@@ -207,7 +207,7 @@ MHC_culture = {
 		available = {	}	
 		visible = {	}		
 
-		cost = 50
+		cost = 25
 		days_remove = 7
 		days_re_enable = 14
 		remove_effect = {
@@ -218,7 +218,7 @@ MHC_culture = {
 			}
 		}
 		ai_will_do = {	
-			factor = 1
+			factor = 100
 		}
 	}
 	MHC_concert = {
@@ -227,7 +227,7 @@ MHC_culture = {
 		available = {	}	
 		visible = {	}		
 
-		cost = 50
+		cost = 25
 		days_remove = 7
 		days_re_enable = 14
 		remove_effect = {
@@ -238,7 +238,7 @@ MHC_culture = {
 			}
 		}
 		ai_will_do = {	
-			factor = 1
+			factor = 100
 		}
 	}
 	MHC_translators = {
@@ -247,7 +247,7 @@ MHC_culture = {
 		available = { has_country_flag = MHC_more_culture_options }	
 		visible = { has_country_flag = MHC_more_culture_options }		
 
-		cost = 25
+		cost = 15
 		days_remove = 14
 		days_re_enable = 28
 		remove_effect = {
@@ -260,7 +260,7 @@ MHC_culture = {
 			}
 		}
 		ai_will_do = {	
-			factor = 1
+			factor = 100
 		}
 	}
 	MHC_test_propaganda = {
@@ -269,7 +269,7 @@ MHC_culture = {
 		available = { has_country_flag = MHC_more_culture_options_2 }	
 		visible = { has_country_flag = MHC_more_culture_options_2 }		
 
-		cost = 25
+		cost = 15
 		days_remove = 7
 		days_re_enable = 14
 		remove_effect = {
@@ -294,7 +294,7 @@ MHC_culture = {
 			}
 		}
 		ai_will_do = {	
-			factor = 1
+			factor = 100
 		}
 	}
 	MHC_mewman_parade = {
@@ -303,7 +303,7 @@ MHC_culture = {
 		available = { has_country_flag = MHC_more_culture_options_3 }	
 		visible = { has_country_flag = MHC_more_culture_options_3 }		
 
-		cost = 25
+		cost = 50
 		days_remove = 7
 		days_re_enable = 14
 		remove_effect = {
@@ -316,7 +316,7 @@ MHC_culture = {
 			}
 		}
 		ai_will_do = {	
-			factor = 1
+			factor = 100
 		}
 	}
 }

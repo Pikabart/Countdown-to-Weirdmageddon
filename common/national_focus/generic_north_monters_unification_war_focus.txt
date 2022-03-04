@@ -1,0 +1,433 @@
+﻿focus_tree = {
+
+	id = generic_north_monters_unification_war_focus
+	
+	country = {
+		factor = 0		
+		modifier = {
+		#	add = 100
+		#	tag = TSR
+		}
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = { 
+		id = war_tree_start
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.15
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = declare_on_KAI
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = war_tree_start 
+		prerequisite = { focus = war_tree_start }
+		cost = 10
+	
+		available = {
+			has_war = no
+			any_neighbor_country = {
+				tag = KAI
+			}
+		}
+		bypass = {
+			OR = {
+				TAG = KAI
+				NOT = {
+					country_exists = KAI
+				}
+			}
+		} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			declare_war_on = {
+				target = KAI
+				type = annex_everything
+			}
+		}
+		will_lead_to_war_with = KAI
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = declare_on_HGH
+		icon = a
+		x = -3
+		y = 1
+		relative_position_id = war_tree_start 
+		prerequisite = { focus = war_tree_start }
+		cost = 10
+	
+		available = {
+			has_war = no
+			any_neighbor_country = {
+				tag = HGH
+			}
+		}
+		bypass = {
+			OR = {
+				TAG = HGH
+				NOT = {
+					country_exists = HGH
+				}
+			}
+		} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			declare_war_on = {
+				target = HGH
+				type = annex_everything
+			}
+		}
+		
+		will_lead_to_war_with = HGH
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+	focus = { 
+		id = declare_on_SWP
+		icon = a
+		x = -5
+		y = 1
+		relative_position_id = war_tree_start 
+		prerequisite = { focus = war_tree_start }
+		cost = 10
+	
+		available = {
+			has_war = no
+			any_neighbor_country = {
+				tag = SWP
+			}
+		}
+		bypass = {
+			OR = {
+				TAG = SWP
+				NOT = {
+					country_exists = SWP
+				}
+			}
+		} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			declare_war_on = {
+				target = SWP
+				type = annex_everything
+			}
+		}
+		
+		will_lead_to_war_with = SWP
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = declare_on_DTH
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = war_tree_start 
+		prerequisite = { focus = war_tree_start }
+		cost = 10
+	
+		available = {
+			has_war = no
+			any_neighbor_country = {
+				tag = DTH
+			}
+		}
+		bypass = {
+			OR = {
+				TAG = DTH
+				NOT = {
+					country_exists = DTH
+				}
+			}
+		} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			declare_war_on = {
+				target = DTH
+				type = annex_everything
+			}
+		}
+		
+		will_lead_to_war_with = DTH
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = declare_on_AVA
+		icon = a
+		x = 3
+		y = 1
+		relative_position_id = war_tree_start 
+		prerequisite = { focus = war_tree_start }
+		cost = 10
+	
+		available = {
+			has_war = no
+			any_neighbor_country = {
+				tag = AVA
+			}
+		}
+		bypass = {
+			OR = {
+				TAG = AVA
+				NOT = {
+					country_exists = AVA
+				}
+			}
+		} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			declare_war_on = {
+				target = AVA
+				type = annex_everything
+			}
+		}
+		
+		will_lead_to_war_with = AVA
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = declare_on_DRG
+		icon = a
+		x = 5
+		y = 1
+		relative_position_id = war_tree_start 
+		prerequisite = { focus = war_tree_start }
+		cost = 10
+	
+		available = {
+			has_war = no
+			any_neighbor_country = {
+				tag = DRG
+			}
+		}
+		bypass = {
+			OR = {
+				TAG = DRG
+				NOT = {
+					country_exists = DRG
+				}
+			}
+		} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			declare_war_on = {
+				target = DRG
+				type = annex_everything
+			}
+		}
+		
+		will_lead_to_war_with = DRG
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = declare_on_TSR
+		icon = a
+		x = 7
+		y = 1
+		relative_position_id = war_tree_start 
+		prerequisite = { focus = war_tree_start }
+		cost = 10
+	
+		available = {
+			has_war = no
+			any_neighbor_country = {
+				tag = TSR
+			}
+		}
+		bypass = {
+			OR = {
+				TAG = TSR
+				NOT = {
+					country_exists = TSR
+				}
+			}
+		} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			declare_war_on = {
+				target = TSR
+				type = annex_everything
+			}
+		}
+		
+		will_lead_to_war_with = TSR
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = declare_on_MHC
+		icon = a
+		x = -7
+		y = 1
+		relative_position_id = war_tree_start 
+		prerequisite = { focus = war_tree_start }
+		cost = 10
+	
+		available = {
+			has_war = no
+			any_neighbor_country = {
+				tag = MHC
+			}
+			MHC = {
+				is_in_faction = no
+			}
+		}
+		bypass = {
+			OR = {
+				TAG = MHC
+				NOT = {
+					country_exists = MHC
+				}
+			}
+		} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			declare_war_on = {
+				target = MHC
+				type = annex_everything
+			}
+		}
+		
+		will_lead_to_war_with = MHC
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	focus = { 
+		id = war_tree_finish
+		icon = a
+		x = 0
+		y = 2
+		relative_position_id = war_tree_start 
+		prerequisite = { focus = declare_on_MHC }
+		prerequisite = { focus = declare_on_DRG }
+		prerequisite = { focus = declare_on_SWP }
+		prerequisite = { focus = declare_on_HGH }
+		prerequisite = { focus = declare_on_KAI }
+		prerequisite = { focus = declare_on_DTH }
+		prerequisite = { focus = declare_on_AVA }
+		prerequisite = { focus = declare_on_TSR }
+		cost = 10
+	
+		available = {
+			has_war = no
+		}
+		bypass = {
+		} 
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+}

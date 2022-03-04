@@ -284,6 +284,7 @@ country_event = {
 				tree = TSR_focus_pre_unification_3
 				keep_completed = yes
 			}
+			set_country_flag = flag_TSR_tsar_remains
 		}
 		name = TSR_change_focus_tree.3.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
@@ -305,6 +306,7 @@ country_event = {
 				tree = TSR_focus_pre_coup_lampist
 				keep_completed = yes
 			}
+			set_country_flag = flag_TSR_lamp
 		}
 		name = TSR_change_focus_tree_lamp.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
@@ -357,6 +359,7 @@ country_event = {
 				tree = TSR_focus_pre_coup_queen
 				keep_completed = yes
 			}
+			set_country_flag = flag_TSR_queen
 		}
 		name = TSR_change_focus_tree_queen.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
@@ -409,6 +412,7 @@ country_event = {
 				tree = TSR_focus_pre_coup_military
 				keep_completed = yes
 			}
+			set_country_flag = flag_TSR_military
 		}
 		name = TSR_change_focus_tree_military.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this

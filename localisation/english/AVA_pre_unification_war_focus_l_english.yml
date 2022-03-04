@@ -68,3 +68,6 @@ AVA_fortify_surroundings_desc:0 "A line of defensive positions will be made from
 
 AVA_fort_avarius:0 "Fortvarius"
 AVA_fort_avarius_desc:0 "The vacation home is no longer just a vacation home. It is the center of a state, headquarters of an army, and more. It is time for a name change."
+
+AVA_look_outwards:0 "Look Outwards"
+AVA_look_outwards_desc:0 ""

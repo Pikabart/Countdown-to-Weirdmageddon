@@ -5,8 +5,8 @@
 	country = {
 		factor = 0		
 		modifier = {
-			add = 100
-			tag = TSR
+		#	add = 100
+		#	tag = TSR
 		}
 	}
 	
@@ -36,6 +36,14 @@
 			add_timed_idea = {
 				idea = TSR_calvary_debt
 				days = 1095
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.20
 			}
 		}
 		

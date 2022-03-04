@@ -85,4 +85,8 @@ proper_doctrine_scripted_loc_janna_leader:0 "The council has decided to create a
 proper_doctrine_scripted_loc_generic:0 "I never made a proper, solid doctrine to stand by and not comprimise on. There was just too many risks with stifling the cult's growth. I guess I never will make one."
 
 DTH_look_outwards:0 "Look Outwards"
-DTH_look_outwards_desc:0 "(Script Localization)"
+DTH_look_outwards_desc:0 "[root.look_outwards_scripted_loc]"
+look_outwards_scripted_loc_janna_leader:0 ""Orders? Oh, right, i'm your guys' leader. Uhm... spread the religon, I guess? Look, I'm kind of in a rush here, I need some occult ingredients so if you could get me an eye of a spider that would be great."\n\n-Janna Ordonia."
+look_outwards_scripted_loc_death_cult:0 "People are starting to notice how many people are going missing around the camp. I'm gonna have to provide a distraction..."
+hippie_leader_flag:0 "People are sayin that we need to expand the faith. While I do think they need to take a chill pill, they're right."
+look_outwards_scripted_loc_generic:0 ""

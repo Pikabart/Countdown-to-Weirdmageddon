@@ -32,7 +32,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_stability = -0.05
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
 		}
 		
 		ai_will_do = {
@@ -63,7 +66,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_stability = -0.05
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.15
+			}
 			add_corps_commander_role = {
 			  Character = TSR_mewman_advisor
 			  skill = 1
@@ -115,7 +121,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_stability = -0.05
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.1
+			}
 		}
 		
 		ai_will_do = {
@@ -145,7 +154,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_stability = -0.05
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
 		}
 		
 		ai_will_do = {
@@ -176,6 +188,10 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = TSR_sabotage_plans
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
 		}
 		
 		ai_will_do = {
@@ -205,7 +221,10 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_stability = -0.05
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
 		}
 		
 		ai_will_do = {
@@ -236,6 +255,10 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = -0.05
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
 		}
 		
 		ai_will_do = {
@@ -267,13 +290,8 @@ focus_tree = {
 
 		completion_reward = {
 			add_stability = -0.05
-			retire_character = TSR_tsar
 			set_politics = {
 				ruling_party = fascism
-			}
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.5
 			}
 		}
 		

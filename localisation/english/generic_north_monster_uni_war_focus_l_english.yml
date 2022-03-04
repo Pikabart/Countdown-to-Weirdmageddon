@@ -1,0 +1,53 @@
+﻿l_english:
+
+war_tree_start:0 "Our Right to Conquer"
+war_tree_start_desc:0 "[root.generic_north_monster_uni_war_start_desc]"
+generic_north_monster_uni_war_start_desc_AVA:0 "If we are to take back our castle, we must strike out with force!"
+generic_north_monster_uni_war_start_desc_DTH_janna_leader_flag:0 "Leader Janna has told us to spread our religon. We must obey her command."
+generic_north_monster_uni_war_start_desc_DTH_hippie_leader_flag:0 "Look, im all for peace and stuff, but that's boring!"
+generic_north_monster_uni_war_start_desc_DTH_death_cult_leader_flag:0 "Yes... wars of conquest! People will assume the missing are casulaties of war, and I get to have the spoils of conquest! Mainly, more exotic... delicacies..."
+generic_north_monster_uni_war_start_desc_KAI:0 "KAI not yet realized"
+generic_north_monster_uni_war_start_desc_MHC:0 "Finally, it's time to spread influence! The inferior monsters stand no chance!"
+generic_north_monster_uni_war_start_desc_SWP_SWP_council:0 "If we are to protect our coalition, we must strike out and eliminate threats before they eliminate us!"
+generic_north_monster_uni_war_start_desc_SWP_SWP_communists:0 "We must spread the revolution to all monster kind!"
+generic_north_monster_uni_war_start_desc_SWP_SWP_military:0 "The monsters must be united in order to protect ourselves form Mewmans! We will show them our defensive ways, by force!"
+generic_north_monster_uni_war_start_desc_SWP_SWP_democracy:0 "Democracy is non negotiable! We must spread it so that all monsters have a say in how their lives and country is run!"
+generic_north_monster_uni_war_start_desc_TSR_flag_TSR_tsar_remains:0 "The Mewmans waged wars of conquest and agression. Thus, we must also do so to emulate their succses."
+generic_north_monster_uni_war_start_desc_TSR_flag_TSR_lamp:0 "Lampisim is the one true religon. We must spread it and unite the monsters under the light of the lamp."
+generic_north_monster_uni_war_start_desc_TSR_flag_TSR_queen_mewman:0 "The Mewman's natural position is above the monster's. It is not right that the monsters have nations of their own right outside our doorstep."
+generic_north_monster_uni_war_start_desc_TSR_flag_TSR_queen_monster:0 "The Mewmans and monsters live with each other in harmony in the Tsardom. Some monsters wish to destroy this harmony. We must destroy them first!"
+generic_north_monster_uni_war_start_desc_TSR_flag_TSR_military:0 "The Order of Mothscow is a stake. Dangerous information funnels in and out of our territory. If we are to stop this, then the other monster nations must fall!"
+generic_north_monster_uni_war_start_desc_HGH_model_un:0 "The UN council has decided that we must spread peace to the rest of the monsters!"
+generic_north_monster_uni_war_start_desc_HGH_drama_kids:0 "It is only logical to share art. Even if we have to shove it down the uncultured's throats."
+generic_north_monster_uni_war_start_desc_HGH_band_kids:0 "All will submit to us, if not through T-pose then through force!"
+generic_north_monster_uni_war_start_desc_HGH_gym_bros:0 "Aye. Yuh. Other nations got stuff that we want. Lets take 'em."
+generic_north_monster_uni_war_start_desc_HGH_yearbook_club:0 "The Gang's gotta grow somehow! And the spoils of war are a great income source!"
+generic_north_monster_uni_war_start_desc_HGH_nazi_kids:0 "The Reich will rise! To last a thousand years! We must obtain Lebensraum, so that our race will spread!\n\nMaybe once we conquer all this land, we can find some trad-wives to actually do the racial spreading, cuz god knows we aren't doing so well right now..."
+generic_north_monster_uni_war_start_desc_GEN:0 "SEEING THIS DESCRIPTION IS A BUG. NOTIFY MOD TEAM!"
+
+declare_on_KAI:0 "War With the [KAI.getname]"
+declare_on_KAI_desc:0 ""
+
+declare_on_HGH:0 "War With the [HGH.getname]"
+declare_on_HGH_desc:0 ""
+
+declare_on_SWP:0 "War With the [SWP.getname]"
+declare_on_SWP_desc:0 ""
+
+declare_on_DTH:0 "War With the [DTH.getname]"
+declare_on_DTH_desc:0 ""
+
+declare_on_AVA:0 "War With the [AVA.getname]"
+declare_on_AVA_desc:0 ""
+
+declare_on_DRG:0 "War With the [DRG.getname]"
+declare_on_DRG_desc:0 ""
+
+declare_on_TSR:0 "War With the [TSR.getname]"
+declare_on_TSR_desc:0 ""
+
+declare_on_MHC:0 "War With the [MHC.getname]"
+declare_on_MHC_desc:0 ""
+
+war_tree_finish:0 "The North United!"
+war_tree_finish_desc:0 "It is done! From the Forests and Swamps of Certain Death, to Port Aleström to Fortvarius, it has all been united under one banner!"
