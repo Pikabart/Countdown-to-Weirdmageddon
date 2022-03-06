@@ -429,6 +429,7 @@ country_event = {
 	
 	option = { 
 		retire_character = TSR_grand_marshal
+		set_country_flag = anti_mewmans_in_power
 		add_country_leader_role = {
 			Character = TSR_young_marshal
 			Promote_leader = yes

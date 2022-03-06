@@ -54,20 +54,354 @@ units = {
 
 
 	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3298 # Monster Coast Pass
+		division_template = "Mewman Patrols"
+		# = 0.001
+
+
+	}
 
 	##### No Notable Naval Forces #####
-}
-
-##### No Notable Air Forces #####
-
-instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_0
-			creator = "CUB"
-		}
-		requested_factories = 1
-		progress = 0.54
-		efficiency = 100
-	}
 }

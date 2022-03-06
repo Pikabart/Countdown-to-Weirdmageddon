@@ -467,6 +467,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1198;6563;impassable;-1;-1;-1;-1;-1;;State 403
 7991;6563;impassable;-1;-1;-1;-1;-1;;State 403
 3478;7926;impassable;-1;-1;-1;-1;-1;;State 403
+3478;6563;impassable;-1;-1;-1;-1;-1;;State 403
 4789;7926;impassable;-1;-1;-1;-1;-1;;State 402
 4789;7096;impassable;-1;-1;-1;-1;-1;;State 402
 4789;5991;impassable;-1;-1;-1;-1;-1;;State 402
