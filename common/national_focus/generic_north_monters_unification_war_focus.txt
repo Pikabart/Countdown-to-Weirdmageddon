@@ -5,8 +5,6 @@
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100
-		#	tag = TSR
 		}
 	}
 	
@@ -422,6 +420,66 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+			every_owned_state = { 
+				add_core_of = ROOT 
+			}
+			IF = {
+				limit = {
+					TAG = HGH
+					has_country_flag = model_un
+				}
+				country_event = HGH_unification_model_un.1
+			}
+			ELSE_IF = {
+				limit = {
+					TAG = HGH
+					has_country_flag = band_kids
+				}
+				country_event = HGH_unification_band_kids.1
+			}
+			ELSE_IF = {
+				limit = {
+					TAG = HGH
+					has_country_flag = nazi_kids
+				}
+				country_event = HGH_unification_nazi_kids.1
+			}
+			ELSE_IF = {
+				limit = {
+					TAG = AVA
+				}
+				country_event = AVA_unification.1
+			}
+			ELSE_IF = {
+				limit = {
+					TAG = MHC
+				}
+				country_event = MHC_unification.1
+			}
+			ELSE_IF = {
+				limit = {
+					TAG = SWP
+					has_country_flag = SWP_communists
+				}
+				country_event = SWP_communists_unification.1
+			}
+			ELSE_IF = {
+				limit = {
+					TAG = SWP
+					has_country_flag = SWP_military
+				}
+				country_event = SWP_military_cos_unification.1
+			}
+			ELSE_IF = {
+				limit = {
+					TAG = SWP
+					has_country_flag = SWP_democracy
+				}
+				country_event = SWP_republic_unification.1
+			}
+			ELSE = {
+				country_event = generic_unification.1
+			}
 		}
 		
 		ai_will_do = {

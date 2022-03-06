@@ -16,7 +16,22 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.15
+				stability_factor = -0.10
+			}
+		}
+		MHC_anti_monster_ambitions = {
+			picture = 
+			
+			allowed = {original_tag = MHC }
+			available = {}
+			cancel = {
+			}
+			
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.1
+				offence = 0.2
+				defence = 0.2
 			}
 		}
 		MHC_dimensional_instability_2 = {
@@ -28,7 +43,7 @@ ideas = {
 			}
 			
 			modifier = {
-				stability_factor = -0.15
+				stability_factor = -0.05
 				research_speed_factor = 0.05
 			}
 		}

@@ -18,8 +18,8 @@ ideas = {
 			}
 			
 			modifier = {
-				research_speed_factor = -0.95
-				production_speed_buildings_factor = -0.8
+				research_speed_factor = -0.25
+				production_speed_buildings_factor = -0.35
 			}
 		}
 

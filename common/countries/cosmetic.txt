@@ -49,3 +49,33 @@ TSR_MIL_TAG = {
  color = rgb { 162 8 67 }
  color_ui = rgb { 162 8 67 }
 }
+
+HGH_UN = {
+ color = rgb { 4 54 209 }
+ color_ui = rgb { 4 54 209 }
+}
+
+HGH_reddit = {
+ color = rgb { 255 79 0 }
+ color_ui = rgb { 255 79 0 }
+}
+
+HGH_nazi = {
+ color = rgb { 106 119 89 }
+ color_ui = rgb { 76 97 121 }
+}
+
+MHC_2 = {
+ color = rgb { 0 147 148 }
+ color_ui = rgb { 0 147 148 }
+}
+
+MHC_3 = {
+ color = rgb { 0 147 148 }
+ color_ui = rgb { 0 147 148 }
+}
+
+SWP_communists = {
+ color = rgb { 125  13  24 }
+ color_ui = rgb { 125  13  24 }
+}

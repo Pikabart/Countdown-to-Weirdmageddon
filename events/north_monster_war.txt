@@ -1,0 +1,159 @@
+﻿add_namespace = north_monster_war_tree_event
+add_namespace = generic_unification
+add_namespace = HGH_unification_model_un
+add_namespace = HGH_unification_band_kids
+add_namespace = HGH_unification_nazi_kids
+add_namespace = AVA_unification
+add_namespace = MHC_unification
+add_namespace = MHC_unification_test
+add_namespace = SWP_communists_unification
+add_namespace = SWP_military_cos_unification
+add_namespace = SWP_republic_unification
+
+country_event = {
+	id = north_monster_war_tree_event.1
+	title = north_monster_war_tree_event.1.t
+	desc = north_monster_war_tree_event.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	hidden = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		load_focus_tree = {
+			tree = generic_north_monters_unification_war_focus
+			keep_completed = no
+		}
+	}
+	option = {
+		name = north_monster_war_tree_event.1.a
+	}
+}
+
+country_event = {
+	id = generic_unification.1
+	title = generic_unification.1.t
+	desc = generic_unification.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	
+	option = {
+		name = generic_unification.1.a
+	}
+}
+
+country_event = {
+	id = HGH_unification_model_un.1
+	title = HGH_unification_model_un.1.t
+	desc = HGH_unification_model_un.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	
+	option = {
+		name = HGH_unification_model_un.1.a
+		set_cosmetic_tag = HGH_UN
+	}
+}
+
+country_event = {
+	id = HGH_unification_band_kids.1
+	title = HGH_unification_band_kids.1.t
+	desc = HGH_unification_band_kids.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	
+	option = {
+		name = HGH_unification_band_kids.1.a
+		set_cosmetic_tag = HGH_reddit
+	}
+}
+
+country_event = {
+	id = HGH_unification_nazi_kids.1
+	title = HGH_unification_nazi_kids.1.t
+	desc = HGH_unification_nazi_kids.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	
+	option = {
+		name = HGH_unification_nazi_kids.1.a
+		set_cosmetic_tag = HGH_nazi
+	}
+}
+
+country_event = {
+	id = AVA_unification.1
+	title = AVA_unification.1.t
+	desc = AVA_unification.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	
+	option = {
+		name = AVA_unification.1.a
+		set_cosmetic_tag = AVA_2
+	}
+}
+
+country_event = {
+	id = MHC_unification.1
+	title = MHC_unification.1.t
+	desc = MHC_unification.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	
+	option = {
+		name = MHC_unification.1.a
+		set_cosmetic_tag = MHC_3
+	}
+}
+
+country_event = {
+	id = MHC_unification_test.2
+	title = MHC_unification_test.2.t
+	desc = MHC_unification_test.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	
+	option = {
+		name = MHC_unification_test.2.a
+		set_cosmetic_tag = MHC_2
+	}
+}
+
+country_event = {
+	id = SWP_communists_unification.1
+	title = SWP_communists_unification.1.t
+	desc = SWP_communists_unification.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	
+	option = {
+		name = SWP_communists_unification.1.a
+		set_cosmetic_tag = SWP_communists
+	}
+}
+
+country_event = {
+	id = SWP_military_cos_unification.1
+	title = SWP_military_cos_unification.1.t
+	desc = SWP_military_cos_unification.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	
+	option = {
+		name = SWP_military_cos_unification.1.a
+		set_cosmetic_tag = SWP_military_cos
+	}
+}
+
+country_event = {
+	id = SWP_republic_unification.1
+	title = SWP_republic_unification.1.t
+	desc = SWP_republic_unification.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	
+	option = {
+		name = SWP_republic_unification.1.a
+		set_cosmetic_tag = SWP_republic
+	}
+}
