@@ -5,6 +5,41 @@ spriteTypes = {
 	#######
 
 	SpriteType = {
+	name = "GFX_goal_focus_letter_to_neu_berlin"
+	texturefile = "gfx/interface/goals/TSR/focus_letter_to_neu_berlin.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_letter_to_butterfly_castle"
+	texturefile = "gfx/interface/goals/TSR/focus_letter_to_butterfly_castle.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_letter_to_johansen_banks"
+	texturefile = "gfx/interface/goals/TSR/focus_letter_to_johansen_banks.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_letter_to_officer_corps"
+	texturefile = "gfx/interface/goals/TSR/focus_letter_to_officer_corps.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_mewman_strategy"
+	texturefile = "gfx/interface/goals/TSR/focus_mewman_strategy.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_army_like_mewni"
+	texturefile = "gfx/interface/goals/TSR/focus_army_like_mewni.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_financial_report"
+	texturefile = "gfx/interface/goals/TSR/focus_financial_report.dds"			
+	}
+
+	SpriteType = {
 	name = "GFX_goal_focus_not_stonks_icon"
 	texturefile = "gfx/interface/goals/TSR/focus_not_stonks_icon.dds"			
 	}
@@ -27,6 +62,11 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_goal_focus_light_for_the_people"
 	texturefile = "gfx/interface/goals/TSR/focus_light_for_the_people.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_people_communications"
+	texturefile = "gfx/interface/goals/TSR/focus_people_communications.dds"			
 	}
 
 } ### End Bracket

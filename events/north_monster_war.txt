@@ -103,6 +103,10 @@ country_event = {
 	option = {
 		name = MHC_unification.1.a
 		set_cosmetic_tag = MHC_3
+		remove_ideas = MHC_anti_monster_ambitions
+		set_country_leader_portrait = {
+			portrait = GFX_hoi4_portrait_mhc_general_post_uni
+		}
 	}
 }
 

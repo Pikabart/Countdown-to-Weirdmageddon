@@ -5,6 +5,8 @@
 	country = {
 		factor = 0		
 		modifier = {
+		#	add = 100
+		#	tag = AVA
 		}
 	}
 	
@@ -15,7 +17,7 @@
 
 	focus = { 
 		id = war_tree_start
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 14
 		y = 1
 		
@@ -42,7 +44,7 @@
 	}
 	focus = { 
 		id = declare_on_KAI
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = -1
 		y = 1
 		relative_position_id = war_tree_start 
@@ -85,7 +87,7 @@
 	
 	focus = { 
 		id = declare_on_HGH
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = -3
 		y = 1
 		relative_position_id = war_tree_start 
@@ -129,7 +131,7 @@
 
 	focus = { 
 		id = declare_on_SWP
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = -5
 		y = 1
 		relative_position_id = war_tree_start 
@@ -173,7 +175,7 @@
 	
 	focus = { 
 		id = declare_on_DTH
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 1
 		y = 1
 		relative_position_id = war_tree_start 
@@ -217,7 +219,7 @@
 	
 	focus = { 
 		id = declare_on_AVA
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 3
 		y = 1
 		relative_position_id = war_tree_start 
@@ -261,7 +263,7 @@
 	
 	focus = { 
 		id = declare_on_DRG
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 5
 		y = 1
 		relative_position_id = war_tree_start 
@@ -305,7 +307,7 @@
 	
 	focus = { 
 		id = declare_on_TSR
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 7
 		y = 1
 		relative_position_id = war_tree_start 
@@ -349,7 +351,7 @@
 	
 	focus = { 
 		id = declare_on_MHC
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = -7
 		y = 1
 		relative_position_id = war_tree_start 
@@ -395,7 +397,7 @@
 	}
 	focus = { 
 		id = war_tree_finish
-		icon = a
+		icon = GFX_goal_generic_demand_territory
 		x = 0
 		y = 2
 		relative_position_id = war_tree_start 
