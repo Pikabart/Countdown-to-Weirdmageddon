@@ -26,7 +26,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -38,7 +38,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -50,7 +50,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -62,7 +62,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -74,7 +74,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -86,7 +86,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -98,7 +98,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -110,7 +110,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -122,7 +122,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -134,7 +134,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -146,7 +146,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -158,7 +158,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -170,7 +170,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -182,7 +182,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -194,7 +194,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -206,7 +206,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -218,7 +218,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -230,7 +230,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -242,7 +242,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -254,7 +254,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -266,7 +266,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -278,7 +278,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -290,7 +290,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -302,7 +302,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -314,7 +314,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -326,7 +326,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -338,7 +338,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -350,7 +350,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -362,7 +362,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -374,7 +374,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -386,7 +386,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}
@@ -398,7 +398,7 @@ units = {
 		}
 		location = 3298 # Monster Coast Pass
 		division_template = "Mewman Patrols"
-		# = 0.001
+		start_experience_factor  = 1
 
 
 	}

@@ -97,6 +97,7 @@
 		prerequisite = { focus = butterfly_front }
 		available = { has_war = no }
 		available = { country_exists = LUD }
+		available = { country_exists = TSR }
 		available = { TSR = { NOT = { has_country_flag = anti_mewmans_in_power } } }
 
 	

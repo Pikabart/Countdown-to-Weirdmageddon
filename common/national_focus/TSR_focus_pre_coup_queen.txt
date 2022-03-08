@@ -5,8 +5,8 @@
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100
-		#	tag = TSR
+			add = 100
+			tag = TSR
 		}
 	}
 	
@@ -17,7 +17,7 @@
 
 	focus = {
 		id = TSR_QUEEN_communicate_with_the_people
-		icon = a
+		icon = GFX_goal_focus_people_communications
 		x = 14
 		y = 1
 		

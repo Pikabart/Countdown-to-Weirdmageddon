@@ -1,0 +1,42 @@
+spriteTypes = {	
+
+	#######
+	# AVA #
+	#######
+
+	SpriteType = {
+	name = "GFX_goal_focus_legacy_of_ludo"
+	texturefile = "gfx/interface/goals/AVA/focus_legacy_of_ludo.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_eyes_on_the_castle"
+	texturefile = "gfx/interface/goals/AVA/focus_eyes_on_the_castle.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_build_up_exiled_state"
+	texturefile = "gfx/interface/goals/AVA/focus_build_up_exiled_state.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_build_bureaucracy"
+	texturefile = "gfx/interface/goals/AVA/focus_build_bureaucracy.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_active_exile"
+	texturefile = "gfx/interface/goals/AVA/focus_active_exile.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_to_take_back_the_castle"
+	texturefile = "gfx/interface/goals/AVA/focus_to_take_back_the_castle.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_freikorps"
+	texturefile = "gfx/interface/goals/AVA/focus_freikorps.dds"			
+	}
+
+} ### End Bracket

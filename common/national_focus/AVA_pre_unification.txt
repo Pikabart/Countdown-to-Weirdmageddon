@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = { 
 		id = AVA_eyes_on_the_castle
-		icon = a
+		icon = GFX_goal_focus_eyes_on_the_castle
 		x = 14
 		y = 1
 		
@@ -44,7 +44,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = AVA_resettle_magic_streams
-		icon = a
+		icon = GFX_goal_generic_construct_infrastructure
 		x = -2
 		y = 1
 		
@@ -83,7 +83,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = AVA_magic_streams_extraction
-		icon = a
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 0
 		y = 1
 		
@@ -121,7 +121,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = AVA_enchant_kappa
-		icon = a
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 0
 		y = 1
 		
@@ -160,7 +160,7 @@ focus_tree = {
 	
 	focus = { 
 		id = AVA_resettle_avarius_mines
-		icon = a
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 2
 		y = 1
 		
@@ -199,7 +199,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = AVA_avarius_mines_extraction
-		icon = a
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 0
 		y = 1
 		
@@ -237,7 +237,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = AVA_break_into_stallward
-		icon = a
+		icon = GFX_goal_generic_scientific_exchange
 		x = 0
 		y = 1
 		
@@ -276,7 +276,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = AVA_build_up_exile
-		icon = a
+		icon = GFX_goal_focus_build_up_exiled_state
 		x = 0
 		y = 1
 		
@@ -320,7 +320,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = AVA_build_bureaucracy
-		icon = a
+		icon = GFX_goal_focus_build_bureaucracy
 		x = 0
 		y = 1
 		
@@ -355,7 +355,7 @@ focus_tree = {
 	
 	focus = { 
 		id = AVA_build_advice_council
-		icon = a
+		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 1
 		
@@ -393,7 +393,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = AVA_active_exile
-		icon = a
+		icon = GFX_goal_focus_active_exile
 		x = 0
 		y = 1
 		
@@ -426,7 +426,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = AVA_civ_factory_1
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = -2
 		y = 1
 		
@@ -472,7 +472,7 @@ focus_tree = {
 	
 	focus = { 
 		id = AVA_civ_factory_2
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		
@@ -517,7 +517,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = AVA_civ_factory_3
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		
@@ -562,7 +562,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = AVA_mil_factory_1
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 2
 		y = 1
 		
@@ -608,7 +608,7 @@ focus_tree = {
 	
 	focus = { 
 		id = AVA_mil_factory_2
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		
@@ -653,7 +653,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = AVA_mil_factory_3
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		
@@ -699,7 +699,7 @@ focus_tree = {
 	
 	focus = { 
 		id = AVA_mil_to_take_back_castle
-		icon = a
+		icon = GFX_goal_focus_to_take_back_the_castle
 		x = 0
 		y = 1
 		
@@ -731,7 +731,7 @@ focus_tree = {
 	
 	focus = { 
 		id = AVA_freikorps
-		icon = a
+		icon = GFX_goal_focus_freikorps
 		x = 0
 		y = 1
 		
@@ -768,7 +768,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = AVA_eyes_on_the_drug_empire
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 0
 		y = 1
 		
@@ -799,7 +799,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = AVA_fortify_headquarters
-		icon = a
+		icon = GFX_goal_generic_fortify_city
 		x = 1
 		y = 1
 		
@@ -838,7 +838,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = AVA_fortify_surroundings
-		icon = a
+		icon = GFX_goal_generic_fortify_city
 		x = -1
 		y = 1
 		
@@ -892,7 +892,7 @@ focus_tree = {
 	
 	focus = { 
 		id = AVA_fort_avarius
-		icon = a
+		icon = GFX_goal_generic_fortify_city
 		x = 1
 		y = 1
 		
@@ -934,7 +934,7 @@ focus_tree = {
 	
 	focus = { 
 		id = AVA_look_outwards
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 0
 		y = 1
 		

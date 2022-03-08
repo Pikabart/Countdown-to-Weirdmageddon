@@ -110,4 +110,8 @@ spriteTypes = {
 		name = "GFX_hoi4_portrait_mhc_general_pre_uni_post_break_away"
 		texturefile = "gfx/leaders/MHC/hoi4_portrait_mhc_general_pre_uni_post_break_away.dds"
 	}
+	spriteType = {
+		name = "GFX_hoi4_portrait_mhc_general_post_uni"
+		texturefile = "gfx/leaders/MHC/hoi4_portrait_mhc_general_post_uni.dds"
+	}
 }

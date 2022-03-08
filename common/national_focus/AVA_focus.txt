@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = { 
 		id = AVA_start
-		icon = a
+		icon = GFX_goal_focus_legacy_of_ludo
 		x = 14
 		y = 1
 		

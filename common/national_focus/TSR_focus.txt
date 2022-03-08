@@ -5,8 +5,8 @@
 	country = {
 		factor = 0		
 		modifier = {
-			add = 100
-			tag = TSR
+		#	add = 100
+		#	tag = TSR
 		}
 	}
 	
@@ -17,7 +17,7 @@
 
 	focus = { 
 		id = TSR_start
-		icon = a
+		icon = GFX_goal_foucs_legacy_of_solaria
 		x = 14
 		y = 1
 		
@@ -44,7 +44,7 @@
 	}
 	focus = { 
 		id = TSR_quality_troop
-		icon = a
+		icon = GFX_goal_generic_small_arms
 		x = -1
 		y = 1
 		relative_position_id = TSR_start 
@@ -72,7 +72,7 @@
 	}
 	focus = {
 		id = TSR_quantity_troop
-		icon = a
+		icon = GFX_goal_generic_allies_build_infantry
 		x = 1
 		y = 1
 		relative_position_id = TSR_start 
@@ -100,7 +100,7 @@
 	}
 	focus = {
 		id = TSR_civilian_production
-		icon = a
+		icon = GFX_goal_generic_production
 		x = -2
 		y = 1
 		relative_position_id = TSR_quantity_troop 
@@ -128,7 +128,7 @@
 	}
 	focus = {
 		id = TSR_military_production
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = TSR_quantity_troop 
@@ -156,7 +156,7 @@
 	}
 	focus = {
 		id = TSR_modern_politics_production
-		icon = a
+		icon = GFX_goal_generic_neutrality_focus
 		x = -2
 		y = 1
 		relative_position_id = TSR_military_production 
@@ -186,7 +186,7 @@
 	}
 	focus = {
 		id = TSR_modern_warfare_production
-		icon = a
+		icon = GFX_goal_generic_army_doctrines
 		x = 0
 		y = 1
 		relative_position_id = TSR_military_production 
@@ -221,7 +221,7 @@
 	}
 	focus = {
 		id = TSR_take_state
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 0
 		y = 1
 		relative_position_id = TSR_modern_warfare_production 
@@ -254,7 +254,7 @@
 	}
 	focus = {
 		id = TSR_take_state_2
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = -2
 		y = 1
 		relative_position_id = TSR_modern_warfare_production 
@@ -287,7 +287,7 @@
 	}
 	focus = {
 		id = TSR_balance_of_power
-		icon = a
+		icon = GFX_goal_generic_neutrality_focus
 		x = 1
 		y = 1
 		relative_position_id = TSR_take_state_2 

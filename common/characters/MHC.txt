@@ -1,6 +1,6 @@
 characters = {
 	MHC_general_leader = {
-		name = "Governor General Jenny of House Cosmia" 
+		name = "Governor General Jenny Cosmia" 
 		desc = ""
 		portraits = {
 			civilian = {
