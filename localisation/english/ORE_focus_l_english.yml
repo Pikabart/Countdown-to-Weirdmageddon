@@ -1,0 +1,749 @@
+﻿l_english:
+
+ #For Oregon Focus Tree
+ 
+ #1 §G §! §
+ #ORE_start_focus.1:0 ""
+ #ORE_start_focus.1_desc:0 ""
+ #ORE_start_focus.1.t:0 ""
+
+ ORE_start_focus.0:0 "Hitting the Campaign Trail"
+ ORE_start_focus.0_desc:0 ""With the 2012 Election, it's time for me to hit the campaign trail for reelection as Governor of Oregon. Given the tough election back in 2008, it's critical I quickly gain support in both my home region of Willamette Valley and the outback of Oregon."\n\n- §GGovernor Amelia Onyx§! -"
+ ORE_start_focus.0.t:0 ""
+
+ ORE_start_focus.1:0 "The Northwest Connection"
+ ORE_start_focus.1_desc:0 ""Oregon is home to the Northwest Corporation and its President and CEO, Preston Northwest. As they are a major contractor for the state, my assignment as the Commander of the Oregon National Guard was in the hopes of better deals with Northwest. I sincerely doubt that has happen, especially since I’m back in Oregon."\n- §YColonel Parson Northwest§! -"
+ ORE_start_focus.1.t:0 ""
+ 
+ ORE_start_focus.2:0 "Our Friends Up North"
+ ORE_start_focus.2_desc:0 ""Canada and the Province of British Columbia is a major international trading partner with Oregon. Naturally, it’s good to have the Premier of B.C. as a, very rare, close colleague from my previous occupation."\n\n- §1Secretary of State Andrew Chiu§! -"
+ ORE_start_focus.2.t:0 ""
+ 
+ ORE_start_focus.4:0 "The Long Summer"
+ ORE_start_focus.4_desc:0 ""
+ ORE_start_focus.4.t:0 ""
+ 
+ ORE_start_focus.3:0 "Eight And A Half President"
+ ORE_start_focus.3_desc:0 ""
+ ORE_start_focus.3.t:0 ""
+ 
+ ######################################################################
+ ######################################################################
+ 
+ ORE_trembley_focus.0:0 "The Truth Ninth"
+ ORE_trembley_focus.0_desc:0 ""
+ ORE_trembley_focus.0.t:0 ""
+ 
+ ORE_trembley_focus.1:0 "The Head of Government"
+ ORE_trembley_focus.1_desc:0 ""
+ ORE_trembley_focus.1.t:0 ""
+ 
+ ORE_trembley_focus.2:0 "The 46th President"
+ ORE_trembley_focus.2_desc:0 ""
+ ORE_trembley_focus.2.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_trembley_crazy.1:0 "Insanity Through The Strom"
+ ORE_trembley_crazy.1_desc:0 ""
+ ORE_trembley_crazy.1.t:0 ""
+ 
+ ORE_trembley_crazy.2:0 "Break the Belts!"
+ ORE_trembley_crazy.2_desc:0 ""
+ ORE_trembley_crazy.2.t:0 ""
+ 
+ ORE_trembley_crazy.3:0 "The War On Pancakes"
+ ORE_trembley_crazy.3_desc:0 ""
+ ORE_trembley_crazy.3.t:0 ""
+ 
+ ORE_trembley_crazy.4:0 "Peak Freedom"
+ ORE_trembley_crazy.4_desc:0 ""
+ ORE_trembley_crazy.4.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_trembley_line.1:0 "The Fine Line"
+ ORE_trembley_line.1_desc:0 ""
+ ORE_trembley_line.1.t:0 ""
+ 
+ ORE_trembley_line.2:0 "The New Secretary Of Defense"
+ ORE_trembley_line.2_desc:0 ""
+ ORE_trembley_line.2.t:0 ""
+ 
+ ORE_trembley_line.3:0 "Silly Political Games"
+ ORE_trembley_line.3_desc:0 ""
+ ORE_trembley_line.3.t:0 ""
+ 
+ ORE_trembley_line.4:0 "Our Flipping Father"
+ ORE_trembley_line.4_desc:0 ""
+ ORE_trembley_line.4.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_trembley_pants.1:0 "Mental Pants"
+ ORE_trembley_pants.1_desc:0 ""
+ ORE_trembley_pants.1.t:0 ""
+ 
+ ORE_trembley_pants.2:0 "Stack The Court"
+ ORE_trembley_pants.2_desc:0 ""
+ ORE_trembley_pants.2.t:0 ""
+ 
+ ORE_trembley_pants.3:0 "Counter-Concussion"
+ ORE_trembley_pants.3_desc:0 ""
+ ORE_trembley_pants.3.t:0 ""
+ 
+ ORE_trembley_pants.4:0 "The Oddity of Sanity"
+ ORE_trembley_pants.4_desc:0 ""
+ ORE_trembley_pants.4.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_trembley_chief.1:0 "Hail To The Chief"
+ ORE_trembley_chief.1_desc:0 ""
+ ORE_trembley_chief.1.t:0 ""
+ 
+ ORE_trembley_chief.2:0 "Executive Erraticity"
+ ORE_trembley_chief.2_desc:0 ""
+ ORE_trembley_chief.2.t:0 ""
+ 
+ ORE_trembley_chief.3:0 "Trembling Trembley"
+ ORE_trembley_chief.3_desc:0 ""
+ ORE_trembley_chief.3.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_trembley_veep.1:0 "VEEP"
+ ORE_trembley_veep.1_desc:0 ""
+ ORE_trembley_veep.1.t:0 ""
+ 
+ ORE_trembley_veep.2:0 "Politically Onyx"
+ ORE_trembley_veep.2_desc:0 ""
+ ORE_trembley_veep.2.t:0 ""
+ 
+ ORE_trembley_veep.3:0 "Backup Puppet Master"
+ ORE_trembley_veep.3_desc:0 ""
+ ORE_trembley_veep.3.t:0 ""
+ 
+ ######################################################################
+ ######################################################################
+ ######################################################################
+ 
+ ORE_economy_focus.0:0 "Kerfuffled Economy"
+ ORE_economy_focus.0_desc:0 ""
+ ORE_economy_focus.0.t:0 ""
+ 
+ ORE_economy_focus.1:0 "The New Economy"
+ ORE_economy_focus.1_desc:0 ""
+ ORE_economy_focus.1.t:0 ""
+ 
+ ORE_economy_focus.2:0 "Turn To The Northwest"
+ ORE_economy_focus.2_desc:0 ""
+ ORE_economy_focus.2.t:0 ""
+ 
+ ORE_economy_focus.3:0 "Pardon Nathanial Northwest"
+ ORE_economy_focus.3_desc:0 ""
+ ORE_economy_focus.3.t:0 ""
+ 
+ ORE_economy_focus.4:0 "North By Northwest"
+ ORE_economy_focus.4_desc:0 ""
+ ORE_economy_focus.4.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_willamette.0:0 "At Home in Willamette Valley"
+ ORE_willamette.0_desc:0 ""
+ ORE_willamette.0.t:0 ""
+ 
+ ORE_willamette.1:0 "Concentrate Industry"
+ ORE_willamette.1_desc:0 ""
+ ORE_willamette.1.t:0 ""
+ 
+ ORE_willamette.2:0 "New Farming Insentives"
+ ORE_willamette.2_desc:0 ""
+ ORE_willamette.2.t:0 ""
+ 
+ ORE_willamette.3:0 "Develop Portlandia"
+ ORE_willamette.3_desc:0 ""
+ ORE_willamette.3.t:0 ""
+ 
+ ORE_willamette.4:0 "What's Packing Under the Hood"
+ ORE_willamette.4_desc:0 ""
+ ORE_willamette.4.t:0 ""
+ 
+ ORE_willamette.5:0 "Reopen Sea Routes"
+ ORE_willamette.5_desc:0 ""
+ ORE_willamette.5.t:0 ""
+ 
+ ORE_willamette.6:0 "Expand Spore Refinement"
+ ORE_willamette.6_desc:0 ""
+ ORE_willamette.6.t:0 ""
+ 
+ ORE_willamette.7:0 "The Beating Heart Of Oregon"
+ ORE_willamette.7_desc:0 ""
+ ORE_willamette.7.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_cascadia_focus.0:0 "Across Cascadia"
+ ORE_cascadia_focus.0_desc:0 ""
+ ORE_cascadia_focus.0.t:0 ""
+ 
+ ORE_cascadia_focus.1:0 "Expand the Coastal Regions"
+ ORE_cascadia_focus.1_desc:0 ""
+ ORE_cascadia_focus.1.t:0 ""
+ 
+ ORE_cascadia_focus.2:0 "Chemult Crossroads"
+ ORE_cascadia_focus.2_desc:0 ""
+ ORE_cascadia_focus.2.t:0 ""
+ 
+ ORE_cascadia_focus.3:0 "Crossing the Deschutes"
+ ORE_cascadia_focus.3_desc:0 ""
+ ORE_cascadia_focus.3.t:0 ""
+ 
+ ORE_cascadia_focus.4:0 "The Redwood Highway"
+ ORE_cascadia_focus.4_desc:0 ""
+ ORE_cascadia_focus.4.t:0 ""
+ 
+ ORE_cascadia_focus.5:0 "The Snake of Columbia"
+ ORE_cascadia_focus.5_desc:0 ""
+ ORE_cascadia_focus.5.t:0 ""
+ 
+ ORE_cascadia_focus.6:0 "The Outbacks"
+ ORE_cascadia_focus.6_desc:0 ""
+ ORE_cascadia_focus.6.t:0 ""
+ 
+ ORE_cascadia_focus.7:0 "Columbian Economics"
+ ORE_cascadia_focus.7_desc:0 ""
+ ORE_cascadia_focus.7.t:0 ""
+ 
+ ######################################################################
+ ######################################################################
+ 
+ ORE_head_east_focus.0:0 "Head East, Old Man"
+ ORE_focus.0_desc:0 ""
+ ORE_focus.0.t:0 ""
+ 
+ ORE_head_east_focus.1:0 "The Erratic East"
+ ORE_head_east_focus.1_desc:0 ""
+ ORE_head_east_focus.1.t:0 ""
+ 
+ ORE_head_east_focus.2:0 "Union Forever"
+ ORE_head_east_focus.2_desc:0 ""
+ ORE_head_east_focus.2.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_cross_rockies.0:0 "Crossing the Rockies"
+ ORE_cross_rockies.0_desc:0 ""
+ ORE_cross_rockies.0.t:0 ""
+ 
+ ORE_cross_rockies.1:0 "East of Weird"
+ ORE_cross_rockies.1_desc:0 ""
+ ORE_cross_rockies.1.t:0 ""
+ 
+ ORE_cross_rockies.2:0 "Old Faithful"
+ ORE_cross_rockies.2_desc:0 ""
+ ORE_cross_rockies.2.t:0 ""
+ 
+ ORE_cross_rockies.3:0 "Mount Rushmore"
+ ORE_cross_rockies.3_desc:0 ""
+ ORE_cross_rockies.3.t:0 ""
+ 
+ ORE_cross_rockies.4:0 "The New Heartlands"
+ ORE_cross_rockies.4_desc:0 ""
+ ORE_cross_rockies.4.t:0 ""
+ 
+ ORE_cross_rockies.5:0 "Great Lakes"
+ ORE_cross_rockies.5_desc:0 ""
+ ORE_cross_rockies.5.t:0 ""
+ 
+ ORE_cross_rockies.6:0 "Trembley and the Alamo"
+ ORE_cross_rockies.6_desc:0 ""
+ ORE_cross_rockies.6.t:0 ""
+ 
+ ORE_cross_rockies.7:0 "The New Federal Government"
+ ORE_cross_rockies.7_desc:0 ""
+ ORE_cross_rockies.7.t:0 ""
+ ######################################################################
+ 
+ ORE_oregon_trail_focus.0:0 "The Oregon Trail"
+ ORE_oregon_trail_focus.0_desc:0 ""
+ ORE_oregon_trail_focus.0.t:0 ""
+ 
+ ORE_oregon_trail_focus.1:0 "Snaking Through Idaho"
+ ORE_oregon_trail_focus.1_desc:0 ""
+ ORE_oregon_trail_focus.1.t:0 ""
+ 
+ ORE_oregon_trail_focus.2:0 "Rushing Down the Mountain"
+ ORE_oregon_trail_focus.2_desc:0 ""
+ ORE_oregon_trail_focus.2.t:0 ""
+ 
+ ORE_oregon_trail_focus.3:0 "Land of a Thousand Lakes"
+ ORE_oregon_trail_focus.3_desc:0 ""
+ ORE_oregon_trail_focus.3.t:0 ""
+ 
+ ORE_oregon_trail_focus.4:0 "Returning to our Independence"
+ ORE_oregon_trail_focus.4_desc:0 ""
+ ORE_oregon_trail_focus.4.t:0 ""
+ 
+ ORE_oregon_trail_focus.5:0 "Down the Ol'Missy"
+ ORE_oregon_trail_focus.5_desc:0 ""
+ ORE_oregon_trail_focus.5.t:0 ""
+ 
+ ORE_oregon_trail_focus.6:0 "Mile High"
+ ORE_oregon_trail_focus.6_desc:0 ""
+ ORE_oregon_trail_focus.6.t:0 ""
+ 
+ ORE_oregon_trail_focus.7:0 "The Trembley Highway"
+ ORE_oregon_trail_focus.7_desc:0 ""
+ ORE_oregon_trail_focus.7.t:0 ""
+ 
+ ######################################################################
+ ######################################################################
+ 
+ ORE_frontier_focus.0:0 "The Army Of The Frontier"
+ ORE_frontier_focus.0_desc:0 ""
+ ORE_frontier_focus.0.t:0 ""
+ 
+ ORE_frontier_focus.1:0 "Rally To The West"
+ ORE_frontier_focus.1_desc:0 ""
+ ORE_frontier_focus.1.t:0 ""
+ 
+ ORE_frontier_focus.2:0 "Frontier Spirit"
+ ORE_frontier_focus.2_desc:0 ""
+ ORE_frontier_focus.2.t:0 ""
+ 
+ ORE_frontier_focus.3:0 "The Other Hero Of Mesopotamia"
+ ORE_frontier_focus.3_desc:0 ""
+ ORE_frontier_focus.3.t:0 ""
+ 
+ ORE_frontier_focus.4:0 "Cascadia Command"
+ ORE_frontier_focus.4_desc:0 ""
+ ORE_frontier_focus.4.t:0 ""
+ 
+ ORE_frontier_focus.5:0 "Pool Our Experiences"
+ ORE_frontier_focus.5_desc:0 ""
+ ORE_frontier_focus.5.t:0 ""
+ 
+ ORE_frontier_focus.6:0 "The New Westpoint"
+ ORE_frontier_focus.6_desc:0 ""
+ ORE_frontier_focus.6.t:0 ""
+ 
+ ORE_frontier_focus.7:0 "The General Of The Army"
+ ORE_frontier_focus.7_desc:0 ""
+ ORE_frontier_focus.7.t:0 ""
+ 
+ ORE_frontier_focus.8:0 "Trekking The Rockies"
+ ORE_frontier_focus.8_desc:0 ""
+ ORE_frontier_focus.8.t:0 ""
+ 
+ ORE_frontier_focus.9:0 ""Fight For A New America!""
+ ORE_frontier_focus.9_desc:0 ""
+ ORE_frontier_focus.9.t:0 ""
+ 
+ ORE_frontier_focus.10:0 "At Home In Cascadia"
+ ORE_frontier_focus.10_desc:0 ""
+ ORE_frontier_focus.10.t:0 ""
+ 
+ ORE_frontier_focus.11:0 "Together For Victory"
+ ORE_frontier_focus.11_desc:0 ""
+ ORE_frontier_focus.11.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_frontier_doctrine.0:0 "The New Federal Army"
+ ORE_frontier_doctrine.0_desc:0 ""
+ ORE_frontier_doctrine.0.t:0 ""
+ 
+ ORE_frontier_doctrine.1:0 "Re-Organize The National Guard"
+ ORE_frontier_doctrine.1_desc:0 ""
+ ORE_frontier_doctrine.1.t:0 ""
+ 
+ ORE_frontier_doctrine.2:0 "The Western Minutemen"
+ ORE_frontier_doctrine.2_desc:0 ""
+ ORE_frontier_doctrine.2.t:0 ""
+ 
+ ORE_frontier_doctrine.3:0 "Towards the Pacific"
+ ORE_frontier_doctrine.3_desc:0 ""
+ ORE_frontier_doctrine.3.t:0 ""
+ 
+ ORE_frontier_doctrine.4:0 "Secure Our Shores"
+ ORE_frontier_doctrine.4_desc:0 ""
+ ORE_frontier_doctrine.4.t:0 ""
+ 
+ ORE_frontier_doctrine.5:0 "Protect Our River"
+ ORE_frontier_doctrine.5_desc:0 ""
+ ORE_frontier_doctrine.5.t:0 ""
+ 
+ ORE_frontier_doctrine.6:0 "The Skies Of America"
+ ORE_frontier_doctrine.6_desc:0 ""
+ ORE_frontier_doctrine.6.t:0 ""
+ 
+ ORE_frontier_doctrine.7:0 "The Western Skies"
+ ORE_frontier_doctrine.7_desc:0 ""
+ ORE_frontier_doctrine.7.t:0 ""
+ 
+ ORE_frontier_doctrine.8:0 "The Northern Skies"
+ ORE_frontier_doctrine.8_desc:0 ""
+ ORE_frontier_doctrine.8.t:0 ""
+ 
+ ORE_frontier_doctrine.9:0 "The Commander-In-Chief"
+ ORE_frontier_doctrine.9_desc:0 ""
+ ORE_frontier_doctrine.9.t:0 ""
+ 
+ ######################################################################
+ ######################################################################
+ 
+ ORE_wicked_focus.0:0 "Wicked Chiu Of The West"
+ ORE_wicked_focus.0_desc:0 ""
+ ORE_wicked_focus.0.t:0 ""
+ 
+ ORE_wicked_focus.1:0 "Elemental Basics"
+ ORE_wicked_focus.1_desc:0 ""
+ ORE_wicked_focus.1.t:0 ""
+ 
+ ORE_wicked_focus.2:0 "Portable Magic"
+ ORE_wicked_focus.2_desc:0 ""
+ ORE_wicked_focus.2.t:0 ""
+ 
+ ORE_wicked_focus.3:0 "Magic Theory"
+ ORE_wicked_focus.3_desc:0 ""
+ ORE_wicked_focus.3.t:0 ""
+ 
+ ORE_wicked_focus.4:0 "The Magic Of Cascadia"
+ ORE_wicked_focus.4_desc:0 ""
+ ORE_wicked_focus.4.t:0 ""
+ 
+ ORE_wicked_focus.5:0 "Vile Substitutes"
+ ORE_wicked_focus.5_desc:0 ""
+ ORE_wicked_focus.5.t:0 ""
+ 
+ ORE_wicked_focus.6:0 "Modern Witchcraft Equipment"
+ ORE_wicked_focus.6_desc:0 ""
+ ORE_wicked_focus.6.t:0 ""
+ 
+ ORE_wicked_focus.7:0 "Indistinguishable From Science"
+ ORE_wicked_focus.7_desc:0 ""
+ ORE_wicked_focus.7.t:0 ""
+ 
+ ORE_wicked_focus.8:0 "The Will Of The Beaver"
+ ORE_wicked_focus.8_desc:0 ""
+ ORE_wicked_focus.8.t:0 ""
+ 
+ ORE_wicked_focus.9:0 "History Rhymes"
+ ORE_wicked_focus.9_desc:0 ""
+ ORE_wicked_focus.9.t:0 ""
+ ######################################################################
+ 
+ ORE_wicked_diverse.1:0 "Diverse Training"
+ ORE_wicked_diverse.1_desc:0 ""
+ ORE_wicked_diverse.1.t:0 ""
+ 
+ ORE_wicked_diverse.2:0 "Titan Of All Trades"
+ ORE_wicked_diverse.2_desc:0 ""
+ ORE_wicked_diverse.2.t:0 ""
+ 
+ ORE_wicked_coven.1:0 "Magic Track Disciplines"
+ ORE_wicked_coven.1_desc:0 ""
+ ORE_wicked_coven.1.t:0 ""
+ 
+ ORE_wicked_coven.2:0 "The President's Coven"
+ ORE_wicked_coven.2_desc:0 ""
+ ORE_wicked_coven.2.t:0 ""
+ ######################################################################
+ ######################################################################
+ ######################################################################
+ 
+ ORE_the_pinch.0:0 "Breakout From the Pinch"
+ ORE_the_pinch.0_desc:0 ""
+ ORE_the_pinch.0.t:0 ""
+ 
+ ORE_the_pinch.1:0 "A Day In Washington"
+ ORE_the_pinch.1_desc:0 ""
+ ORE_the_pinch.1.t:0 "" 
+ ######################################################################
+ 
+ ORE_compromised.0:0 "Compromised Lieutenant"
+ ORE_compromised.0_desc:0 ""
+ ORE_compromised.0.t:0 ""
+ 
+ ORE_compromised.1:0 "Undermine Olympia"
+ ORE_compromised.1_desc:0 ""
+ ORE_compromised.1.t:0 "" 
+ 
+ ORE_washington_daybreak.0:0 "Daybreak"
+ ORE_washington_daybreak.0_desc:0 ""
+ ORE_washington_daybreak.0.t:0 ""
+ 
+ ORE_washington_daybreak.1:0 "Reinforce Fort Vancouver"
+ ORE_washington_daybreak.1_desc:0 ""
+ ORE_washington_daybreak.1.t:0 ""
+ 
+ ORE_washington_daybreak.2:0 "Giving Washington A Spanking!"
+ ORE_washington_daybreak.2_desc:0 ""
+ ORE_washington_daybreak.2.t:0 ""
+ 
+ ORE_washington_daybreak.3:0 "Force Canadian Withdrawl"
+ ORE_washington_daybreak.3_desc:0 ""
+ ORE_washington_daybreak.3.t:0 ""
+ 
+ ORE_washington_daybreak.4:0 "Infiltrate Fort Teller"
+ ORE_washington_daybreak.4_desc:0 ""
+ ORE_washington_daybreak.4.t:0 ""
+ 
+ ORE_washington_daybreak.5:0 "Crossing The Columbia"
+ ORE_washington_daybreak.5_desc:0 ""
+ ORE_washington_daybreak.5.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_washington_twinpeak.0:0 "Nightfall In Twin Peaks"
+ ORE_washington_twinpeak.0_desc:0 ""
+ ORE_washington_twinpeak.0.t:0 ""
+ 
+ ORE_washington_twinpeak.1:0 "Undermine The UIU"
+ ORE_washington_twinpeak.1_desc:0 ""
+ ORE_washington_twinpeak.1.t:0 ""
+ 
+ ORE_washington_twinpeak.2:0 "Secure. Contain. Unleash!"
+ ORE_washington_twinpeak.2_desc:0 ""
+ ORE_washington_twinpeak.2.t:0 ""
+ 
+ ORE_washington_twinpeak.3:0 "Renting Out The Black Lodge"
+ ORE_washington_twinpeak.3_desc:0 ""
+ ORE_washington_twinpeak.3.t:0 ""
+ 
+ ORE_washington_twinpeak.4:0 "At Day's End"
+ ORE_washington_twinpeak.4_desc:0 ""
+ ORE_washington_twinpeak.4.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_spiders.0:0 "The Arachnid Scare"
+ ORE_spiders.0_desc:0 ""
+ ORE_spiders.0.t:0 ""
+ 
+ ORE_spider_peace.0:0 "Peace With Spider Kind?"
+ ORE_spider_peace.0_desc:0 ""
+ ORE_spider_peace.0.t:0 ""
+ 
+ ORE_spider_peace.1:0 "Substitute Nourishment"
+ ORE_spider_peace.1_desc:0 ""
+ ORE_spider_peace.1.t:0 ""
+ 
+ ORE_spider_peace.2:0 "Subsidize the Tourist Industry"
+ ORE_spider_peace.2_desc:0 ""
+ ORE_spider_peace.2.t:0 ""
+ 
+ ORE_spider_peace.3:0 "A Nation For All"
+ ORE_spider_peace.3_desc:0 ""
+ ORE_spider_peace.3.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_spider_war.0:0 "Nothing to fear..."
+ ORE_spider_war.0_desc:0 ""
+ ORE_spider_war.0.t:0 ""
+ 
+ ORE_spider_war.1:0 "Burn It With Fire!"
+ ORE_spider_war.1_desc:0 ""
+ ORE_spider_war.1.t:0 ""
+ 
+ ORE_spider_war.2:0 "Purge The Government"
+ ORE_spider_war.2_desc:0 ""
+ ORE_spider_war.2.t:0 ""
+ 
+ ORE_spider_war.3:0 "Human-Americans First"
+ ORE_spider_war.3_desc:0 ""
+ ORE_spider_war.3.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_FPI.0:0 "Crush The FPI"
+ ORE_FPI.0_desc:0 ""
+ ORE_FPI.0.t:0 ""
+ 
+ ORE_FPI.1:0 "Slow And Steady"
+ ORE_FPI.1_desc:0 ""
+ ORE_FPI.1.t:0 ""
+ 
+ ORE_FPI.2:0 "Backs To The Wall"
+ ORE_FPI.2_desc:0 ""
+ ORE_FPI.2.t:0 ""
+ 
+ ORE_FPI.3:0 "Reclaim Klamath and Chemult"
+ ORE_FPI.3_desc:0 ""
+ ORE_FPI.3.t:0 ""
+ 
+ ORE_FPI.4:0 "Broker With The IBI"
+ ORE_FPI.4_desc:0 ""
+ ORE_FPI.4.t:0 ""
+ 
+ ORE_FPI.5:0 "Sabotage Coordination"
+ ORE_FPI.5_desc:0 ""
+ ORE_FPI.5.t:0 ""
+ 
+ ORE_FPI.6:0 "Infiltrate Rosenburg"
+ ORE_FPI.6_desc:0 ""
+ ORE_FPI.6.t:0 ""
+ 
+ ORE_FPI.7:0 "Rally On Medford"
+ ORE_FPI.7_desc:0 ""
+ ORE_FPI.7.t:0 ""
+  
+ ORE_FPI.8:0 "The Facts Among Truths"
+ ORE_FPI.8_desc:0 ""
+ ORE_FPI.8.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_onward_focus.0:0 "The True Interdimensional Superpower"
+ ORE_onward_focus.0_desc:0 ""
+ ORE_onward_focus.0.t:0 ""
+ 
+ ORE_onward_focus.1:0 "Opening New Diplomatic Ties"
+ ORE_onward_focus.1_desc:0 ""
+ ORE_onward_focus.1.t:0 ""
+ 
+ ORE_onward_focus.2:0 "Secure New Trade Deals"
+ ORE_onward_focus.2_desc:0 ""
+ ORE_onward_focus.2.t:0 ""
+ 
+ ORE_onward_focus.3:0 "A Seat on the Port Council"
+ ORE_onward_focus.3_desc:0 ""
+ ORE_onward_focus.3.t:0 ""
+ 
+ ORE_onward_focus.4:0 "Cheaper Food Exports"
+ ORE_onward_focus.4_desc:0 ""
+ ORE_onward_focus.4.t:0 ""
+ 
+ ORE_onward_focus.5:0 "Restrain The Southern Northwest"
+ ORE_onward_focus.5_desc:0 ""
+ ORE_onward_focus.5.t:0 ""
+ 
+ ORE_onward_focus.6:0 "Begin Magical Water Bid Wars"
+ ORE_onward_focus.6_desc:0 ""
+ ORE_onward_focus.6.t:0 ""
+ 
+ ORE_onward_focus.7:0 "A Better Trading Partner"
+ ORE_onward_focus.7_desc:0 ""
+ ORE_onward_focus.7.t:0 ""
+  
+ ORE_onward_focus.8:0 "Preserve The Status Quo"
+ ORE_onward_focus.8_desc:0 ""
+ ORE_onward_focus.8.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_cali_peace.1:0 "Peace In The West"
+ ORE_cali_peace.1_desc:0 ""
+ ORE_cali_peace.1.t:0 ""
+ 
+ ORE_cali_peace.2:0 "Croaking Echoes"
+ ORE_cali_peace.2_desc:0 ""
+ ORE_cali_peace.2.t:0 ""
+ 
+ ORE_cali_peace.3:0 "New Political Pressures"
+ ORE_cali_peace.3_desc:0 ""
+ ORE_cali_peace.3.t:0 ""
+ 
+ ORE_cali_peace.4:0 "The Next War"
+ ORE_cali_peace.4_desc:0 ""
+ ORE_cali_peace.4.t:0 ""
+ 
+ ORE_cali_peace.5:0 "Formalized Back Doors"
+ ORE_cali_peace.5_desc:0 ""
+ ORE_cali_peace.5.t:0 ""
+ 
+ ORE_cali_peace.6:0 "Reach Out To Victoria"
+ ORE_cali_peace.6_desc:0 ""
+ ORE_cali_peace.6.t:0 ""
+ 
+ ######################################################################
+ 
+ ORE_cali_war.1:0 "The True Republic"
+ ORE_cali_war.1_desc:0 ""
+ ORE_cali_war.1.t:0 ""
+ 
+ ORE_cali_war.2:0 "Fear No Frog"
+ ORE_cali_war.2_desc:0 ""
+ ORE_cali_war.2.t:0 ""
+ 
+ ORE_cali_war.3:0 "Secure the Pacific Coast"
+ ORE_cali_war.3_desc:0 ""
+ ORE_cali_war.3.t:0 ""
+ 
+ ORE_cali_war.4:0 "Reunite The West"
+ ORE_cali_war.4_desc:0 ""
+ ORE_cali_war.4.t:0 ""
+ 
+ ORE_cali_war.5:0 "Overthrow The Emperor"
+ ORE_cali_war.5_desc:0 ""
+ ORE_cali_war.5.t:0 ""
+ 
+ ORE_cali_war.6:0 "March South"
+ ORE_cali_war.6_desc:0 ""
+ ORE_cali_war.6.t:0 ""
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ######################################################################
+ ######################################################################
+ ######################################################################
+ 
+ ORE_focus.0:0 ""
+ ORE_focus.0_desc:0 ""
+ ORE_focus.0.t:0 ""
+ 
+ ORE_focus.1:0 ""
+ ORE_focus.1_desc:0 ""
+ ORE_focus.1.t:0 ""
+ 
+ ORE_focus.2:0 ""
+ ORE_focus.2_desc:0 ""
+ ORE_focus.2.t:0 ""
+ 
+ ORE_focus.3:0 ""
+ ORE_focus.3_desc:0 ""
+ ORE_focus.3.t:0 ""
+ 
+ ORE_focus.4:0 ""
+ ORE_focus.4_desc:0 ""
+ ORE_focus.4.t:0 ""
+ 
+ ORE_focus.5:0 ""
+ ORE_focus.5_desc:0 ""
+ ORE_focus.5.t:0 ""
+ 
+ ORE_focus.6:0 ""
+ ORE_focus.6_desc:0 ""
+ ORE_focus.6.t:0 ""
+ 
+ ORE_focus.7:0 ""
+ ORE_focus.7_desc:0 ""
+ ORE_focus.7.t:0 ""
+  
+ ORE_focus.8:0 ""
+ ORE_focus.8_desc:0 ""
+ ORE_focus.8.t:0 ""
+ 
+ ORE_focus.9:0 ""
+ ORE_focus.9_desc:0 ""
+ ORE_focus.9.t:0 ""

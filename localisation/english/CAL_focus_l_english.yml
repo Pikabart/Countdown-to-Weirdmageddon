@@ -576,6 +576,158 @@
  CAL_butterfly_aid.10.t:0 ""
  
  ##################################################################################################################
+ 
+ CAL_victory.0:0 "Victory In Mewni!"
+ CAL_victory.0_desc:0 ""
+ CAL_victory.0.t:0 ""
+ 
+ CAL_victory.1:0 "The Glory Of California"
+ CAL_victory.1_desc:0 ""
+ CAL_victory.1.t:0 ""
+ 
+ ##################################################################################################################
+ 
+ CAL_norton_mind.0:0 "Evaluating Norton's State of Mind"
+ CAL_norton_mind.0_desc:0 ""
+ CAL_norton_mind.0.t:0 ""
+ 
+ CAL_norton_mind.1:0 "Rediscover The Past"
+ CAL_norton_mind.1_desc:0 ""
+ CAL_norton_mind.1.t:0 ""
+ 
+ CAL_norton_mind.2:0 "Bisabuela's Diary"
+ CAL_norton_mind.2_desc:0 ""
+ CAL_norton_mind.2.t:0 ""
+ 
+ CAL_norton_mind.3:0 "Norton's Turnabout!"
+ CAL_norton_mind.3_desc:0 ""
+ CAL_norton_mind.3.t:0 ""
+ ##################################################################################################################
+ 
+ CAL_oregon_standoff.0:0 "We Look North"
+ CAL_oregon_standoff.0_desc:0 ""
+ CAL_oregon_standoff.0.t:0 ""
+ 
+ CAL_oregon_unite.1:0 "The Cost of Victory"
+ CAL_oregon_unite.1_desc:0 ""
+ CAL_oregon_unite.1.t:0 ""
+ 
+ CAL_oregon_unite.2:0 "Croaking Echoes"
+ CAL_oregon_unite.2_desc:0 ""
+ CAL_oregon_unite.2.t:0 ""
+ 
+ CAL_oregon_unite.3:0 "New Political Pressures"
+ CAL_oregon_unite.3_desc:0 ""
+ CAL_oregon_unite.3.t:0 ""
+ 
+ CAL_oregon_unite.4:0 "The Next War"
+ CAL_oregon_unite.4_desc:0 ""
+ CAL_oregon_unite.4.t:0 ""
+ 
+ CAL_oregon_unite.5:0 "Formalized Back Doors"
+ CAL_oregon_unite.5_desc:0 ""
+ CAL_oregon_unite.5.t:0 ""
+ 
+ CAL_oregon_unite.6:0 "Reach Out To Victoria"
+ CAL_oregon_unite.6_desc:0 ""
+ CAL_oregon_unite.6.t:0 ""
+ 
+ ##############################
+ 
+ CAL_oregon_war.1:0 "Proclaim The New America"
+ CAL_oregon_war.1_desc:0 ""
+ CAL_oregon_war.1.t:0 ""
+ 
+ CAL_oregon_war.2:0 "Fear No Frog"
+ CAL_oregon_war.2_desc:0 ""
+ CAL_oregon_war.2.t:0 ""
+ 
+ CAL_oregon_war.3:0 "Reunite The West"
+ CAL_oregon_war.3_desc:0 ""
+ CAL_oregon_war.3.t:0 ""
+ 
+ CAL_oregon_war.4:0 "Through The Realm of Magic"
+ CAL_oregon_war.4_desc:0 ""
+ CAL_oregon_war.4.t:0 ""
+ 
+ CAL_oregon_war.5:0 "Bring The Rogue Lord In"
+ CAL_oregon_war.5_desc:0 ""
+ CAL_oregon_war.5.t:0 ""
+ 
+ CAL_oregon_war.6:0 "March North"
+ CAL_oregon_war.6_desc:0 ""
+ CAL_oregon_war.6.t:0 ""
+ 
+ ##############################
+ 
+ CAL_port_city.0:0 "Unfinished Business"
+ CAL_port_city.0_desc:0 ""
+ CAL_port_city.0.t:0 ""
+ 
+ CAL_port_city.1:0 "Empower the Port Council"
+ CAL_port_city.1_desc:0 ""
+ CAL_port_city.1.t:0 ""
+ 
+ CAL_port_city.2:0 "Secure Supply Lines"
+ CAL_port_city.2_desc:0 ""
+ CAL_port_city.2.t:0 ""
+ 
+ CAL_port_city.3:0 "Finance Post-War Aid"
+ CAL_port_city.3_desc:0 ""
+ CAL_port_city.3.t:0 ""
+ 
+ CAL_port_city.4:0 "Evaluate The New Problems"
+ CAL_port_city.4_desc:0 ""
+ CAL_port_city.4.t:0 ""
+ 
+ CAL_port_city.5:0 "The Pines Plan"
+ CAL_port_city.5_desc:0 ""
+ CAL_port_city.5.t:0 ""
+ 
+ CAL_port_city.6:0 "The Bear and the Unicorn"
+ CAL_port_city.6_desc:0 ""
+ CAL_port_city.6.t:0 ""
+ ##################################################################################################################
+ 
+ CAL_focus.0:0 ""
+ CAL_focus.0_desc:0 ""
+ CAL_focus.0.t:0 ""
+ 
+ CAL_focus.1:0 ""
+ CAL_focus.1_desc:0 ""
+ CAL_focus.1.t:0 ""
+ 
+ CAL_focus.2:0 ""
+ CAL_focus.2_desc:0 ""
+ CAL_focus.2.t:0 ""
+ 
+ CAL_focus.3:0 ""
+ CAL_focus.3_desc:0 ""
+ CAL_focus.3.t:0 ""
+ 
+ CAL_focus.4:0 ""
+ CAL_focus.4_desc:0 ""
+ CAL_focus.4.t:0 ""
+ 
+ CAL_focus.5:0 ""
+ CAL_focus.5_desc:0 ""
+ CAL_focus.5.t:0 ""
+ 
+ CAL_focus.6:0 ""
+ CAL_focus.6_desc:0 ""
+ CAL_focus.6.t:0 ""
+ 
+ CAL_focus.7:0 ""
+ CAL_focus.7_desc:0 ""
+ CAL_focus.7.t:0 ""
+  
+ CAL_focus.8:0 ""
+ CAL_focus.8_desc:0 ""
+ CAL_focus.8.t:0 ""
+ 
+ CAL_focus.9:0 ""
+ CAL_focus.9_desc:0 ""
+ CAL_focus.9.t:0 ""
  ##################################################################################################################
  ##################################################################################################################
  
