@@ -1,0 +1,3 @@
+# This folder contains the specs of each unit in the game.
+# New subunits and support companies can be added here.
+# Must go to loc or interface to change name and images for unit in game, except 3D model which is done here.

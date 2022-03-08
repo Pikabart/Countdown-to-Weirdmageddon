@@ -1,0 +1,151 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_industrial_progress_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_modern_progress_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+	}
+
+	#######################################################################################
+	### generic equipment archetypes ###
+	
+	SpriteType = {
+		name = "GFX_archetype_infantry_equipment_medium"
+		texturefile = "gfx/interface/archetypes/archetype_infantry_equipment.dds"
+	}
+	
+	### generic equipment tech ####
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons_medium"
+		texturefile = "gfx/interface/technologies/ren_infantry_weapon_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons1_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons2_medium"
+		texturefile = "gfx/interface/technologies/ren_infantry_weapon_2.dds"
+	}	
+
+	SpriteType = {
+		name = "GFX_infantry_weapons3_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+	}	
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons4_medium"
+		texturefile = "gfx/interface/technologies/ren_infantry_weapon_3.dds"
+	}
+	
+	###
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons5_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons6_medium"
+		texturefile = "gfx/interface/technologies/ind_infantry_weapon_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons7_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons8_medium"
+		texturefile = "gfx/interface/technologies/ind_infantry_weapon_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons9_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons10_medium"
+		texturefile = "gfx/interface/technologies/mod_infantry_weapon_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons11_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons12_medium"
+		texturefile = "gfx/interface/technologies/mod_infantry_weapon_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons13_medium"
+		texturefile = "gfx/interface/technologies/infantry_weapons3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_weapons14_medium"
+		texturefile = "gfx/interface/technologies/mod_infantry_weapon_3.dds"
+	}
+	
+	########################
+	
+	SpriteType = {
+		name = "GFX_mounted_infantry_medium"
+		texturefile = "gfx/interface/technologies/calvary_base.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mounted_carriages1_medium"
+		texturefile = "gfx/interface/technologies/calvary_cargo.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mounted_carriages2_medium"
+		texturefile = "gfx/interface/technologies/calvary_carrier.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mounted_infantry_upgrade1_medium"
+		texturefile = "gfx/interface/technologies/calvary_pure.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mounted_infantry_upgrade2_medium"
+		texturefile = "gfx/interface/technologies/calvary_combat.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mounted_infantry_upgrade3_medium"
+		texturefile = "gfx/interface/technologies/calvary_close_quarter.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mounted_infantry_upgrade4_medium"
+		texturefile = "gfx/interface/technologies/calvary_modern.dds"
+	}
+	
+	########################
+	
+	SpriteType = {
+		name = "GFX_USA_infantry_weapons12_medium"
+		texturefile = "gfx/interface/technologies/mod_infantry_weapon_2.dds"
+	}
+	
+	########################
+	
+	SpriteType = {
+		name = "GFX_basic_roads_medium"
+		texturefile = "gfx/interface/technologies/basic_roads.dds"
+	}
+	
+} ### END OF FILE ###
