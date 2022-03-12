@@ -10,6 +10,11 @@
 		infantry = { x = 2 y = 0 }
 		infantry = { x = 2 y = 1 }
 	}
+	
+	support = {
+		magic_support = { x = 0 y = 0 }
+	}
+	
 }
 division_template = {
 	name = "Warnicorn Brigade"  
@@ -23,6 +28,11 @@ division_template = {
 		cavalry = { x = 2 y = 0 }
 		cavalry = { x = 2 y = 1 }
 	}
+	
+	support = {
+		magic_support = { x = 0 y = 0 }
+	}
+	
 }
 
 division_template = {
