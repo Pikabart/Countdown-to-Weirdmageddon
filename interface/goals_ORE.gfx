@@ -10,6 +10,33 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+	name = "GFX_goal_oregon_election"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_campaign.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_northwest"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_northwest.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_canada_ties"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_canada_ties.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_long_summer"
+	texturefile = "gfx/interface/goals/ORE/focus_ore_long_summer.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_trembley_eight_half"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_trembley_eight_half.dds"			
+	}
+	
+	#############
+	
+	SpriteType = {
 	name = "GFX_goal_new_oregon"
 	texturefile = "gfx/interface/goals/ORE/focus_new_oregon.dds"			
 	}

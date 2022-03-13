@@ -51,7 +51,7 @@
 
 	focus = {
 		id = CAL_start.1
-		icon = GFX_goal_california
+		icon = GFX_goal_cal_contractor
 		x = -3
 		y = 1
 		relative_position_id = CAL_start.0
@@ -81,7 +81,7 @@
 	
 	focus = {
 		id = CAL_start.2
-		icon = GFX_goal_california
+		icon = GFX_goal_cal_global_cooling
 		x = 0
 		y = 1
 		relative_position_id = CAL_start.0
@@ -118,7 +118,7 @@
 	
 	focus = {
 		id = CAL_start.3
-		icon = GFX_goal_california
+		icon = GFX_goal_cal_national_guard
 		x = 3
 		y = 1
 		relative_position_id = CAL_start.0
@@ -146,7 +146,7 @@
 	
 	focus = {
 		id = CAL_start.4
-		icon = GFX_goal_california
+		icon = GFX_goal_cal_expanded_service
 		x = -2
 		y = 2
 		relative_position_id = CAL_start.0
@@ -180,7 +180,7 @@
 	
 	focus = {
 		id = CAL_start.5
-		icon = GFX_goal_california
+		icon = GFX_goal_cal_golden_road
 		x = 2
 		y = 2
 		relative_position_id = CAL_start.0
@@ -211,7 +211,7 @@
 	
 	focus = {
 		id = CAL_start.6
-		icon = GFX_goal_california
+		icon = GFX_goal_cal_long_summer
 		x = 0
 		y = 3
 		relative_position_id = CAL_start.0
@@ -239,7 +239,7 @@
 	
 	focus = {
 		id = CAL_start.7
-		icon = GFX_goal_california
+		icon = GFX_goal_cal_voting
 		x = 0
 		y = 1
 		relative_position_id = CAL_start.6
@@ -1233,7 +1233,7 @@
 	
 	focus = {
 		id = CAL_everett.7
-		icon = GFX_goal_secure_texas
+		icon = GFX_goal_protector_of_mexico
 		x = 0
 		y = 2
 		relative_position_id = CAL_everett.6

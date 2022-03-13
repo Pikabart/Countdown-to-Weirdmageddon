@@ -1,0 +1,17 @@
+### Leaders, Generals, Admirals for ORE ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_leaders_amelia_onyx"
+			texturefile = "gfx/leaders/ORE/Portrait_ORE_Onyx.dds"
+	}
+	spriteType = {
+			name = "GFX_leaders_quentin_trembley"
+			texturefile = "gfx/leaders/ORE/Portrait_ORE_Trembley.dds"
+	}	
+	spriteType = {
+			name = "GFX_leaders_andrew_chiu"
+			texturefile = "gfx/leaders/ORE/Portrait_ORE_Chiu.dds"
+	}	
+	
+}

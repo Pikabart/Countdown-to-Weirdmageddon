@@ -20,44 +20,44 @@
  ORE_start_focus.2.t:0 ""
  
  ORE_start_focus.4:0 "The Long Summer"
- ORE_start_focus.4_desc:0 ""
+ ORE_start_focus.4_desc:0 ""Canada is gone!\nAnd so has any sense of sanity in the world it appears. President Curtis has overthrown the Congress and the US is facing a war with the EU. Governor Green of California has arranged a meeting in Portland with me and Governor Day of Washington. The West must stand united!"\n- §GGovernor Amelia Onyx§!"
  ORE_start_focus.4.t:0 ""
  
  ORE_start_focus.3:0 "Eight And A Half President"
- ORE_start_focus.3_desc:0 ""
+ ORE_start_focus.3_desc:0 ""The return of Trembley was a surprise to my ailing heart and vile sack. But I assured the governor. This man was the real deal. We do this right and we can use Trembley to rally the west around Oregon and the true President of the United States.\nEven if its bound to spur a response from the FPI as well..."\n- §1Secretary of State Andrew Chiu§! -""
  ORE_start_focus.3.t:0 ""
  
  ######################################################################
  ######################################################################
  
  ORE_trembley_focus.0:0 "The Truth Ninth"
- ORE_trembley_focus.0_desc:0 ""
+ ORE_trembley_focus.0_desc:0 "Oregon and her allies look to "The True Ninth" to lead America. But is having an insane man as President in our best interest to lead and oppose Washington, California, and the FPI? Perhaps we should really define Trembley’s "Executive Privileges"."
  ORE_trembley_focus.0.t:0 ""
  
  ORE_trembley_focus.1:0 "The Head of Government"
- ORE_trembley_focus.1_desc:0 ""
+ ORE_trembley_focus.1_desc:0 "With the issue of Trembley’s mental state put to rest, the path is, more or less, clear on how we handle the distribution of executive power.\n\nAfter all, do we Hail to the Chief, or Hail to the Veep?"
  ORE_trembley_focus.1.t:0 ""
  
  ORE_trembley_focus.2:0 "The 46th President"
- ORE_trembley_focus.2_desc:0 ""
+ ORE_trembley_focus.2_desc:0 "With his return from lost history, President Quentin Trembley, more than anything else, is a symbol of unity for the American People. While Curtis invalidated his presidency in the East and California turning to an emperor to the South, the True America is still alive and well in the True West."
  ORE_trembley_focus.2.t:0 ""
  
  ######################################################################
  
  ORE_trembley_crazy.1:0 "Insanity Through The Strom"
- ORE_trembley_crazy.1_desc:0 ""
+ ORE_trembley_crazy.1_desc:0 "We call the president back east a madman. But with the overt power the executive office had and the 47th amendment he sighted to disband congress, any President would have done that.\nSanity destroyed America.\nBut Trembley?\nHis insanity will save us all!"
  ORE_trembley_crazy.1.t:0 ""
  
  ORE_trembley_crazy.2:0 "Break the Belts!"
- ORE_trembley_crazy.2_desc:0 ""
- ORE_trembley_crazy.2.t:0 ""
+ ORE_trembley_crazy.2_desc:0 "Trembley believes in Freedom, Liberty, and the Pursuit of Happiness.\nSo much in fact he emancipated us from the shackles of pants! How foolish we were to force our blue jeans onto the world.\n\nIt's time We Break the Belts!"
+ ORE_trembley_crazy.2.t:0 "Also, ignore his 1837 Compromise to make slaves worth .667 of a person."
  
  ORE_trembley_crazy.3:0 "The War On Pancakes"
- ORE_trembley_crazy.3_desc:0 ""
+ ORE_trembley_crazy.3_desc:0 "President Tremlbely has declared a War on Pancakes!\nPancakes have proven to be high in carbs and bad for your health, or so our lobbyists and their cash keep telling us. With Trembley leading the way, we will defeat pancakes, find their weapons of mass digestion, and secure our limited supply of Canadian Maple Syrup."
  ORE_trembley_crazy.3.t:0 ""
  
- ORE_trembley_crazy.4:0 "Peak Freedom"
- ORE_trembley_crazy.4_desc:0 ""
+ ORE_trembley_crazy.4:0 "American Madman"
+ ORE_trembley_crazy.4_desc:0 "Curtis, Day, Norton. How are they madmen? Because sanity is anything but. For Trembley, insanity breeds creativity, maneuverability, capability. It will take a true madman, a true oddity of reality to restore the United States.\n\nAnd through the storm, The True Ninth shall do just that."
  ORE_trembley_crazy.4.t:0 ""
  
  ######################################################################
@@ -140,7 +140,7 @@
  ORE_economy_focus.2_desc:0 ""
  ORE_economy_focus.2.t:0 ""
  
- ORE_economy_focus.3:0 "Pardon Nathanial Northwest"
+ ORE_economy_focus.3:0 "Pardon Nathaniel Northwest"
  ORE_economy_focus.3_desc:0 ""
  ORE_economy_focus.3.t:0 ""
  

@@ -4,17 +4,32 @@ characters = {
 		
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/EPI/hoi4_portrait_FPI_HOLDER.dds"
+				large = "GFX_leaders_amelia_onyx"
 			}
 		}
 		country_leader = {
-			desc = "POLITICS_STAN_PINES_DESC"
-			ideology = fascism_ideology
+			desc = ""
+			ideology = liberalism
 			expire = "2040.1.1.1"
 			id = -1
 		}
 	}
 	
+	ORE_andrew_chiu = {
+		name = "Andrew Chiu" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_andrew_chiu"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
 	
 
 }###########################################################

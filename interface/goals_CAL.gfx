@@ -10,9 +10,46 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+	name = "GFX_goal_cal_contractor"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_contractor.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_global_cooling"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_global_cooling.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_national_guard"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_national_guard.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_expanded_service"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_expanded_service.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_golden_road"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_golden_road.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_long_summer"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_long_summer.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_voting"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_voting.dds"			
+	}
+	
+	SpriteType = {
 	name = "GFX_goal_imperial_governor"
 	texturefile = "gfx/interface/goals/CAL/focus_california_imperial_governor.dds"			
 	}
+	
+	#################
 	
 	SpriteType = {
 	name = "GFX_goal_california_northwest"
