@@ -69,20 +69,5 @@ set_popularities = {
 	fascism = 5
 }
 
-create_country_leader = {
-	name = "Amelia Onyx"
-	desc = "POLITICS_ONYX_DESC"
-	picture = "gfx/leaders/EPI/hoi4_portrait_FPI_HOLDER.dds"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Andrew Chiu"
-	desc = "POLITICS_CHIU_DESC"
-	picture = "leader_unknown.dds"
-	ideology = moderatism
-
-}
+recruit_character = ORE_amelia_onyx
+recruit_character = ORE_andrew_chiu

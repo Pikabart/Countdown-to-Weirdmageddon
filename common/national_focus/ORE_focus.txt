@@ -20,7 +20,7 @@
 	
 	focus = {
 		id = ORE_start_focus.0 
-		icon = GFX_goal_oregon_start
+		icon = GFX_goal_oregon_election
 		x = 40
 		y = 1
 		cost = 1
@@ -40,7 +40,7 @@
 	}
 	focus = {
 		id = ORE_start_focus.1 
-		icon = GFX_goal_oregon_start
+		icon = GFX_goal_oregon_northwest
 		x = -2
 		y = 1
 		cost = 1
@@ -62,7 +62,7 @@
 	}
 	focus = {
 		id = ORE_start_focus.2 
-		icon = GFX_goal_oregon_start
+		icon = GFX_goal_oregon_canada_ties
 		x = 2
 		y = 1
 		cost = 1
@@ -85,7 +85,7 @@
 	
 	focus = {
 		id = ORE_start_focus.4 
-		icon = GFX_goal_oregon_start
+		icon = GFX_goal_oregon_long_summer
 		x = 0
 		y = 2
 		cost = 1
@@ -109,7 +109,7 @@
 	
 	focus = {
 		id = ORE_start_focus.3 
-		icon = GFX_goal_oregon_start
+		icon = GFX_goal_oregon_trembley_eight_half
 		x = 0
 		y = 1
 		cost = 1
@@ -232,7 +232,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = {} 
 		bypass = {} 
 		
 		completion_reward = {	
@@ -259,7 +259,7 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_trembley_crazy.2.t"
+			custom_effect_tooltip = "ORE_trembley_crazy.2.t"
 			hidden_effect = {}
 		}
 	}
