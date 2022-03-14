@@ -148,4 +148,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/basic_roads.dds"
 	}
 	
+	########################
+	#MAGIC#
+	########################
+	
+	SpriteType = {
+		name = "GFX_tech_magic_forces_medium"
+		texturefile = "gfx/interface/technologies/tech_magic_forces.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_magic_forces_1_medium"
+		texturefile = "gfx/interface/technologies/tech_magic_forces_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mewni_magic_forces_medium"
+		texturefile = "gfx/interface/technologies/mewni_magic_forces.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mewni_magic_forces_1_medium"
+		texturefile = "gfx/interface/technologies/mewni_magic_forces_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mewni_magic_forces_2_medium"
+		texturefile = "gfx/interface/technologies/mewni_magic_forces_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_mewni_magic_forces_3_medium"
+		texturefile = "gfx/interface/technologies/mewni_magic_forces_3.dds"
+	}
+	
+	
 } ### END OF FILE ###
