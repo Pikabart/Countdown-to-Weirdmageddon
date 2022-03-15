@@ -2,12 +2,12 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_industrial_progress_medium"
-		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+		texturefile = "gfx/interface/technologies/industry_progress.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_modern_progress_medium"
-		texturefile = "gfx/interface/technologies/infantry_weapons.dds"
+		texturefile = "gfx/interface/technologies/modern_progress.dds"
 	}
 
 	#######################################################################################
@@ -181,6 +181,100 @@ spriteTypes = {
 		name = "GFX_mewni_magic_forces_3_medium"
 		texturefile = "gfx/interface/technologies/mewni_magic_forces_3.dds"
 	}
+	
+	########################
+	#Tech Ops#
+	########################
+	
+	SpriteType = {
+		name = "GFX_tech_special_operation_medium"
+		texturefile = "gfx/interface/technologies/tech_spec_ops_0.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_special_operation_1_medium"
+		texturefile = "gfx/interface/technologies/tech_spec_ops_1.dds"
+	}
+	
+	########
+	
+	SpriteType = {
+		name = "GFX_tech_special_operation_2_medium"
+		texturefile = "gfx/interface/technologies/tech_spec_ops_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_special_operation_3_medium"
+		texturefile = "gfx/interface/technologies/tech_spec_ops_3.dds"
+	}
+	
+	########
+	
+	SpriteType = {
+		name = "GFX_tech_special_operation_4_medium"
+		texturefile = "gfx/interface/technologies/tech_spec_ops_4.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_special_operation_5_medium"
+		texturefile = "gfx/interface/technologies/tech_spec_ops_5.dds"
+	}
+	
+	########
+	
+	SpriteType = {
+		name = "GFX_tech_special_operation_6_medium"
+		texturefile = "gfx/interface/technologies/tech_spec_ops_6.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_special_operation_7_medium"
+		texturefile = "gfx/interface/technologies/tech_spec_ops_7.dds"
+	}
+	
+	########
+	
+	SpriteType = {
+		name = "GFX_tech_special_operation_8_medium"
+		texturefile = "gfx/interface/technologies/tech_spec_ops_8.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_special_operation_9_medium"
+		texturefile = "gfx/interface/technologies/tech_spec_ops_9.dds"
+	}
+	
+	########
+	
+	SpriteType = {
+		name = "GFX_tech_special_operation_10_medium"
+		texturefile = "gfx/interface/technologies/tech_spec_ops_10.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_special_operation_11_medium"
+		texturefile = "gfx/interface/technologies/tech_spec_ops_11.dds"
+	}
+	
+	########
+	
+	SpriteType = {
+		name = "GFX_tech_special_operation_12_medium"
+		#texturefile = "gfx/interface/technologies/.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_tech_special_operation_13_medium"
+		#texturefile = "gfx/interface/technologies/.dds"
+	}
+	
+	########
+	
+	SpriteType = {
+		name = "GFX_tech_special_operation_14_medium"
+		texturefile = "gfx/interface/technologies/tech_spec_ops_14.dds"
+	}
+	
 	
 	
 } ### END OF FILE ###

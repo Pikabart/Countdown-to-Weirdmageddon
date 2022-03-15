@@ -1,0 +1,63 @@
+guiTypes = { ######## THE DESCRIPTION AND THE TITLE ARE IN THE LOCALISATION FILE ##########
+############### THIS FILE DEFINES THE SHAPE, FORM, AND TEXT OF THE GUI FOR THE SUPEREVENT
+	
+	containerWindowType = {
+		name = "BIG_START_CREDIT_CUSTOM_window"
+		size = { width = 720 height = 401 }
+		position = { x=0 y=0 }
+		Orientation = center
+		Origo = center
+		clipping = no
+		show_sound = test_sound_bigevent 
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_start_mewni"
+		}
+		
+		buttonType = {
+			name = "Option"
+			text = "CLOSE"  ############## OPTION BUTTON
+			shortcut = "ESCAPE"
+			position = { x = -185 y = 265 }
+			quadTextureSprite ="GFX_start_mewni_button"
+			buttonFont = "hoi_24header"
+			Orientation = center
+		}
+		
+		iconType = {
+			name ="underlay"
+			spriteType = "GFX_start_credit_underlayer"
+			position = { x= 90 y = -70 }
+			Orientation = lower_left
+			alwaystransparent = yes
+		}
+
+		instantTextBoxType = {
+			name = "start credit title mewni"
+			position = {  x= 205 y = 335}
+			font = "hoi_20header"
+			text = "start_credit_title_mewni" ######## HERE GOES THE DESCRIPTION ###########
+			maxWidth = 510
+			maxHeight = 30
+			fixedsize = yes
+			format = left
+			Orientation = upper_left
+		}
+		
+		instantTextBoxType = {
+			name = "start credit desc mewni"
+			position = {  x= 100 y = 360}
+			font = "hoi_20header"
+			text = "start_credit_desc_mewni" ######## HERE GOES THE DESCRIPTION ###########
+			maxWidth = 510
+			maxHeight = 130
+			fixedsize = yes
+			format = center
+			Orientation = upper_left
+		}
+
+	}
+
+	
+}

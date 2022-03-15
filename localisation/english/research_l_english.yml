@@ -34,19 +34,19 @@
  #########
  
  ren_infantry_equipment_0:0 "Swords and Spears"
- ren_infantry_equipment_0_desc:0 "The primary weapons of basic soldiers, often associated with the Terran Pre-Industrial Age. "
+ ren_infantry_equipment_0_desc:0 "The primary weapons of soldiers, often associated with the Terran Pre-Industrial Age. "
  
  ren_infantry_equipment_1:0 "Arquebus"
- ren_infantry_equipment_1_desc:0 "An early firearm technology using a stable explosive powder to propel a projectile at deadly speeds. Often use range support in conjuction with primary melee weaponary."
+ ren_infantry_equipment_1_desc:0 "An early firearm technology using a stable explosive powder to propel a projectile at deadly velocity. Often use as range support in conjuction with primary melee weaponary."
  
  ren_infantry_equipment_2:0 "Muskets"
  ren_infantry_equipment_2_desc:0 "A refined early firearm, either muzzled loaded then breached loaded, which allows foot soldiers to engage in range attack. Can be produced in large numbers to make them the main weaponary of most soldiers in any army."
  
  ind_infantry_equipment_1:0 "Repeating Weapons"
- ind_infantry_equipment_1_desc:0 "Early Industrial Era weapons with a spiral barrel for increased projectile accuracy and capable of storing several metallic cartridges for quick and repeated fire of projectiles at a target before reloading."
+ ind_infantry_equipment_1_desc:0 "Early Industrial Era weapons with a rifled barrel for increased projectile range and accuracy. These weapons are capable of storing several metallic cartridges to allow quick and repeated fire of projectiles at a target before reloading."
  
  ind_infantry_equipment_2:0 "Automatic Weapons"
- ind_infantry_equipment_2_desc:0 "Late Industrial Era weapons capable of placing continuous and automatic fire, increacing overall firepower of the regular soldier."
+ ind_infantry_equipment_2_desc:0 "Late Industrial Era weapons with either semi-automatic or automatic fire and higher capacity rounds. They are capable of allowing continuous and automatic fire, increasing the overall firepower of the regular soldier."
 
  mod_infantry_equipment_1:0 "Assault Rifles"
  mod_infantry_equipment_1_desc:0 "Early Modern Rifles design to incorporate the automatic fire of sub-machine guns, and the range and lethality of ranged rifles through the use of intermediate rounds for the perfect balance in infantry weaponry."
@@ -117,7 +117,7 @@
  tech_special_operation_6:0 "Rural Combat Training"
  tech_special_operation_6_desc:0 ""
  
- tech_special_operation_7:0 "Rural Specialization"
+ tech_special_operation_7:0 "Deep Strike Force"
  tech_special_operation_7_desc:0 ""
  
  #
@@ -146,7 +146,7 @@
  
  #
  
- tech_special_operation_14:0 "Advance Special Forces"
+ tech_special_operation_14:0 "The Finest In The Multiverse"
  tech_special_operation_14_desc:0 ""
  
  tech_special_operation_15:0 "The Finest In The Multiverse"

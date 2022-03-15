@@ -377,14 +377,40 @@ KAN = {
 	color = rgb { 204 255 204 }
 	color_ui = rgb { 204 255 204 }
 }
+MIS = { 
+	color = rgb { 204 255 204 }
+	color_ui = rgb { 204 255 204 }
+}
+NEB = { 
+	color = rgb { 204 255 204 }
+	color_ui = rgb { 204 255 204 }
+}
+IWA = { 
+	color = rgb { 204 255 204 }
+	color_ui = rgb { 204 255 204 }
+}
+#-------------------------------
 MIN = { 
 	color = rgb { 204 229 255 }
 	color_ui = rgb { 204 229 255 }
 }
-#MON = { 
-#	color = rgb { 150 102 50 }
-#	color_ui = rgb { 150 102 50 }
-#}
+NDK = { 
+	color = rgb { 204 229 255 }
+	color_ui = rgb { 204 229 255 }
+}
+SDK = { 
+	color = rgb { 204 229 255 }
+	color_ui = rgb { 204 229 255 }
+}
+#-------------------------------
+MON = { 
+	color = rgb { 150 102 50 }
+	color_ui = rgb { 150 102 50 }
+}
+WYM = { 
+	color = rgb { 150 102 50 }
+	color_ui = rgb { 150 102 50 }
+}
 
 
 #Dimensional Barriers

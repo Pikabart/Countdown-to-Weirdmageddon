@@ -224,21 +224,35 @@ news_event = { # Cold War
 			OKL = { 
 				add_state_claim = 199
 			}
-			
+			#######
 			KAN = { 
 				add_state_claim = 200
+			}
+			MIS = { 
 				add_state_claim = 206
+			}
+			NEB = { 
 				add_state_claim = 201
+			}
+			IWA = { 
 				add_state_claim = 205
 			}
+			########
 			MIN = { 
 				add_state_claim = 204
+			}
+			NDK = { 
 				add_state_claim = 202
+			}
+			SDK = { 
 				add_state_claim = 203
 			}
+			###########
 			WYM = { 
-				add_state_claim = 193
 				add_state_claim = 192
+			}
+			MON = { 
+				add_state_claim = 193
 			}
 			
 		}

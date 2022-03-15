@@ -229,8 +229,61 @@ country_event = {
 				EUS = { remove_state_core = PREV}	
 			}
 			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = MIS}
+				MIS = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}
+			}
+			every_state = { 	
 				limit = { is_owned_by = EUS is_claimed_by = MIN}
 				MIN = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}
+			}
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = NEB}
+				NEB = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}
+			}
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = IWA}
+				IWA = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}
+			}
+		}
+	}
+	
+	option = { 
+		name = BYE.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = BYE.5 days = 2 }
+	}
+}
+
+country_event = {
+	id = BYE.5
+	title = BYE.5.t
+	desc = BYE.5.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	timeout_days = 1
+	hidden = yes
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = MON}
+				MON = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}	
+			}
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = SDK}
+				SDK = { transfer_state = PREV add_state_core = PREV}
+				EUS = { remove_state_core = PREV}
+			}
+			every_state = { 	
+				limit = { is_owned_by = EUS is_claimed_by = NDK}
+				NDK = { transfer_state = PREV add_state_core = PREV}
 				EUS = { remove_state_core = PREV}
 			}
 			every_state = { 	
@@ -242,7 +295,7 @@ country_event = {
 	}
 	
 	option = { 
-		name = BYE.3.a
+		name = BYE.5.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 		EUS = {country_event = { id = EUS.4 days = 2 }}
 	}

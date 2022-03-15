@@ -1,0 +1,18 @@
+spriteTypes = { ##### THIS FILE DEFINES THE PICTURE FOR EACH SUPER EVENT - THIS INCLUDES THE INTERFACE DDS IMAGES AS WELL
+
+	spriteType = { 
+		name = "GFX_start_mewni"
+		textureFile = "gfx\\interface\\custom_gfx\\GFX_start_mewni.dds"
+	} 
+	
+	spriteType = {
+		name = "GFX_start_credit_underlayer"
+		textureFile = "gfx\\interface\\custom_gfx\\GFX_underlayer_transparent.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_start_mewni_button"
+		textureFile = "gfx\\interface\\custom_gfx\\event_option_entry_mewni.dds"
+	}
+	
+}

@@ -27,10 +27,10 @@ on_actions = {
 				news_event = { id = launcher_news.1 days = 40 }  #Launch launcher for Kerfuffle
 			}
 			MEW = {
-				country_event = { id = mewni_startup.1 } # Event code is in MEW_events_focus
+				country_event = { id = mewni_startup.1 days = 2 } # Event code is in MEW_events_focus
 			}
 			LUD = {
-				country_event = { id = lud_start.1 }
+				country_event = { id = lud_start.1 days = 2 }
 			}
 			MYS = {
 				country_event = { id = mys_startup.1 } # Event code is in MYS_events

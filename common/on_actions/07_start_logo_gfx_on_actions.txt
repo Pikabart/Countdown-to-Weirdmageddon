@@ -1,0 +1,21 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					is_in_array = {
+						array = GLOBAL.mewni_dimension_countries
+						value = THIS.id
+					}
+				}
+				set_country_flag = GAME_BIG_START_CREDIT_CUSTOM
+			}
+		}	
+	}
+	
+	
+	
+	
+	
+} ## END OF FILE ##
