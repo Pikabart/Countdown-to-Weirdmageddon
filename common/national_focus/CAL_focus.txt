@@ -3260,6 +3260,13 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_magic.8.t"
+			hidden_effect = {
+				set_technology = {
+					tech_magic_forces_check = 1
+					tech_magic_forces = 1
+					mewni_magic_forces = 1
+				}
+			}
 		}
 	}
 	

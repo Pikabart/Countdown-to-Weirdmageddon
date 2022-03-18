@@ -2036,8 +2036,12 @@ technologies = {
 		on_research_complete_limit = {
 
 		}
+		
 		on_research_complete = {
-
+			hidden_effect = {
+				load_oob = "unlock_tech_ops"
+			}			
+			custom_effect_tooltip = UNLOCK_DIVISION_TEMPLATE
 		}
 
 		path = {
@@ -2053,7 +2057,7 @@ technologies = {
 		}
 		
 		categories = {
-			marine_tech
+			cat_techno_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2112,7 +2116,7 @@ technologies = {
 		}
 		
 		categories = {
-			marine_tech
+			cat_techno_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2152,7 +2156,7 @@ technologies = {
 		}
 		
 		categories = {
-			marine_tech
+			cat_techno_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2199,7 +2203,7 @@ technologies = {
 		}
 		
 		categories = {
-			marine_tech
+			cat_techno_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2239,7 +2243,7 @@ technologies = {
 		}
 		
 		categories = {
-			marine_tech
+			cat_techno_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2280,7 +2284,7 @@ technologies = {
 		}
 		
 		categories = {
-			marine_tech
+			cat_techno_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2321,7 +2325,7 @@ technologies = {
 		}
 		
 		categories = {
-			marine_tech
+			cat_techno_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2362,7 +2366,7 @@ technologies = {
 		}
 		
 		categories = {
-			marine_tech
+			cat_techno_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2403,7 +2407,7 @@ technologies = {
 		}
 		
 		categories = {
-			marine_tech
+			cat_techno_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2444,7 +2448,7 @@ technologies = {
 		}
 		
 		categories = {
-			marine_tech
+			cat_techno_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2493,7 +2497,7 @@ technologies = {
 		}
 		
 		categories = {
-			marine_tech
+			cat_techno_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2534,7 +2538,7 @@ technologies = {
 		}
 		
 		categories = {
-			marine_tech
+			cat_techno_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2554,7 +2558,17 @@ technologies = {
 	
 	#################
 	
+	tech_special_operation_12_check = {
+		allow = { always = no }
+		research_cost = 1
+		start_year = 1936
+	}
+	
 	tech_special_operation_12 = {
+	
+		dependencies = {
+			tech_special_operation_12_check = 1
+		}
 
 		xor={
 			tech_special_operation_10
@@ -2583,7 +2597,7 @@ technologies = {
 		}
 		
 		categories = {
-			marine_tech
+			cat_techno_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2620,7 +2634,7 @@ technologies = {
 		}
 		
 		categories = {
-			marine_tech
+			cat_techno_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2656,7 +2670,7 @@ technologies = {
 		}
 		
 		categories = {
-			marine_tech
+			cat_techno_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2677,15 +2691,18 @@ technologies = {
 	######################################################
 	######################################################
 	######################################################
+	
+	tech_magic_forces_check = {
+		allow = { always = no }
+		research_cost = 1
+		start_year = 1936
+	}
 
 	tech_magic_forces = {
-	
-		### UNLOCK ONLY BY FOCUS
-		allow = {
-			always = no
-		}
-		### UNLOCK ONLY BY FOCUS
 		
+		dependencies = {
+			tech_magic_forces_check = 1
+		}
 		
 		enable_subunits = {
 			magic_main
@@ -2711,7 +2728,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2
+		research_cost = 3
 		start_year = 1938
 		folder = {
 			name = infantry_folder
@@ -2719,10 +2736,9 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			cat_magic_spec_ops
 		}
+
 		
 		ai_will_do = {
 			factor = 0.7
@@ -2766,7 +2782,7 @@ technologies = {
 		
 		categories = {
 			support_tech
-			magic_support
+			cat_magic_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2808,9 +2824,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			cat_magic_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2844,9 +2858,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			cat_magic_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2881,9 +2893,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			cat_magic_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2919,9 +2929,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			cat_magic_spec_ops
 		}
 		
 		ai_will_do = {
@@ -2963,9 +2971,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			cat_magic_spec_ops
 		}
 		
 		ai_will_do = {
@@ -3004,9 +3010,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			cat_magic_spec_ops
 		}
 		
 		ai_will_do = {
@@ -3045,9 +3049,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			cat_magic_spec_ops
 		}
 		
 		ai_will_do = {
@@ -3082,9 +3084,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			cat_magic_spec_ops
 		}
 		
 		ai_will_do = {
@@ -3120,9 +3120,8 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			support_tech
+			cat_magic_spec_ops
 		}
 		
 		ai_will_do = {
@@ -3135,7 +3134,7 @@ technologies = {
 
 		category_special_forces = {
 			max_organisation = 10
-			attack_factor = 0.05
+			army_attack_factor = 0.05
 		}
 
 		special_forces_training_time_factor = 0.05
@@ -3153,9 +3152,8 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			support_tech
+			cat_magic_spec_ops
 		}
 		
 		ai_will_do = {
@@ -3165,10 +3163,9 @@ technologies = {
 	
 	general_magic_improvement_3 = {
 
-
 		category_special_forces = {
 			max_organisation = 10
-			attack_factor = 0.05
+			army_attack_factor = 0.05
 		}
 
 		special_forces_training_time_factor = 0.05
@@ -3186,9 +3183,8 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			support_tech
+			cat_magic_spec_ops
 		}
 		
 		ai_will_do = {
@@ -3221,9 +3217,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			cat_magic_spec_ops
 		}
 		
 		ai_will_do = {
@@ -3250,9 +3244,7 @@ technologies = {
 		}
 		
 		categories = {
-			mountaineers_tech
-			marine_tech
-			para_tech
+			cat_magic_spec_ops
 		}
 		
 		ai_will_do = {

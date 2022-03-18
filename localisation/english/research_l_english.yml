@@ -137,6 +137,7 @@
  tech_special_operation_11_desc:0 ""
  
  #
+ tech_special_operation_12_check:0 "Condition: Chemical Stimulas Authorized"
  
  tech_special_operation_12:0 "Enhanced Combat Stimulas"
  tech_special_operation_12_desc:0 ""
@@ -153,6 +154,8 @@
  tech_special_operation_15_desc:0 ""
  
  ##########################################################
+ 
+ tech_magic_forces_check:0 "Condition: Can use Applied Magic"
  
  tech_magic_forces:0 "Military Application of Magic"
  tech_magic_forces_desc:0 "Magic's potential as a weapon has made it's military application a common occurence throughout the multiverse, often being developed independently before interdimensional contact. (Unlocked through Event or National Focus)"
@@ -1084,7 +1087,7 @@
  motorized_rocket_unit:0 "Motorized Rocket Artillery"
  mot_rockets_research:3 "Motorized Rocket Artillery Research Speed"
  UNLOCK_DIVISION_TEMPLATE:0 "Unlocks a free §HDivision Template§!"
- INFANTRY_TITLE_WEAPONS:0 "WEAPONS & EQUIPMENT"
+ INFANTRY_TITLE_WEAPONS:0 "WEAPONS & EQUIPMENT" 
  INFANTRY_TITLE_SPECIAL:0 "SPECIAL FORCES"
  INFANTRY_TITLE_MOTORISED:1 "MOBILE INFANTRY"
  ARMOUR_TITLE:0 "ARMOR"
