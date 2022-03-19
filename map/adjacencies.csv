@@ -64,8 +64,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2509;9419;impassable;-1;-1;-1;-1;-1;;Mewni  Portal
 1034;5284;impassable;-1;-1;-1;-1;-1;;Mewni  Portal
 
-
+###########################################
 #Earth ###########################################
+###########################################
+
 # Arizona Adjacencies
 3402;1887;sea;11413;-1;-1;-1;-1;; Upper Grand Canyon
 997;9742;sea;11413;-1;-1;-1;-1;;
@@ -160,12 +162,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 5721;6269;;11435;-1;-1;-1;-1;;Boise-RedwoodHighway
 8008;4247;;11434;-1;-1;-1;-1;;Near Walla walla
 
-
-
 # GF Adjacencies
 8460;8458;;2967;-1;-1;-1;-1;;Cliff Bridge
 8548;8587;;11437;-1;-1;-1;-1;;Lake GF Ford
 
+# OREGON ###########################################
 # GF Cliffs
 8463;2873;impassable;-1;-1;-1;-1;-1;; GF Cliffs
 8463;8424;impassable;-1;-1;-1;-1;-1;; GF Cliffs
@@ -239,30 +240,458 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 8462;8443;impassable;-1;-1;-1;-1;-1;; GF Hills
 
 #Redwood-Forest
+8424;8443;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8424;8419;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+7179;8419;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+7179;4519;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+3381;4519;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+3381;8364;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+3381;8348;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+853;8348;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+853;7108;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+853;6807;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8322;6807;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8322;8290;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8298;8290;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+###
+8213;8239;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8213;8174;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8182;8174;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8182;5641;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8157;5641;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8157;8124;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8126;8124;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8126;4271;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+3622;4271;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+3622;6039;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8077;6039;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8057;6039;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+###
+8057;8045;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8057;5044;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8059;5044;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8059;8047;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8062;8047;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+8062;5182;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+4006;5182;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
+4006;8040;impassable;-1;-1;-1;-1;-1;; GF Forest/ Redwood Highway
 
+#Greyback Mountain
+9008;8950;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+9008;9018;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+9008;8965;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+9008;3196;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+9008;8771;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+9008;9014;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+9008;5784;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+9008;7726;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+9008;4895;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+9008;9031;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+6087;8950;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+6087;8961;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+6087;8985;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+6087;3404;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+6087;9025;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+6087;5173;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+6087;9043;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+6087;9037;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
+6087;9031;impassable;-1;-1;-1;-1;-1;; Greyback Mountain
 
+#Southern Oregon Hills
+8784;3348;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+8784;8769;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+8784;8757;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+8784;8791;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+3386;8791;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+3386;3348;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+3386;5118;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+3386;5290;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+3386;5765;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+3339;5290;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+3339;5765;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+3339;4462;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+4874;5290;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+4874;8862;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+8884;8862;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+8884;8883;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+8884;8911;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+4236;8911;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+4236;1628;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+4236;8961;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+8908;8961;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+8908;8950;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+8909;8950;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+8909;3195;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+8909;6005;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+5170;6005;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+5170;4462;impassable;-1;-1;-1;-1;-1;; Oregon Hills
+8849;4462;impassable;-1;-1;-1;-1;-1;; Oregon Hills
 
+#McLoughlin
+5155;8836;impassable;-1;-1;-1;-1;-1;; McLoughlin
+5155;8833;impassable;-1;-1;-1;-1;-1;; McLoughlin
+5155;8850;impassable;-1;-1;-1;-1;-1;; McLoughlin
+5155;8887;impassable;-1;-1;-1;-1;-1;; McLoughlin
+1022;8887;impassable;-1;-1;-1;-1;-1;; McLoughlin
+1022;8836;impassable;-1;-1;-1;-1;-1;; McLoughlin
+1022;6833;impassable;-1;-1;-1;-1;-1;; McLoughlin
+1022;8868;impassable;-1;-1;-1;-1;-1;; McLoughlin
+8878;8887;impassable;-1;-1;-1;-1;-1;; McLoughlin
+8878;6964;impassable;-1;-1;-1;-1;-1;; McLoughlin
+8878;8934;impassable;-1;-1;-1;-1;-1;; McLoughlin
+8878;8868;impassable;-1;-1;-1;-1;-1;; McLoughlin
+6785;8934;impassable;-1;-1;-1;-1;-1;; McLoughlin
+6785;7262;impassable;-1;-1;-1;-1;-1;; McLoughlin
+6785;8988;impassable;-1;-1;-1;-1;-1;; McLoughlin
+4925;8988;impassable;-1;-1;-1;-1;-1;; McLoughlin
+4925;9005;impassable;-1;-1;-1;-1;-1;; McLoughlin
+8986;9005;impassable;-1;-1;-1;-1;-1;; McLoughlin
+8986;9000;impassable;-1;-1;-1;-1;-1;; McLoughlin
+8986;6042;impassable;-1;-1;-1;-1;-1;; McLoughlin
+8973;6042;impassable;-1;-1;-1;-1;-1;; McLoughlin
+8973;9015;impassable;-1;-1;-1;-1;-1;; McLoughlin
+8973;6164;impassable;-1;-1;-1;-1;-1;; McLoughlin
+8973;6868;impassable;-1;-1;-1;-1;-1;; McLoughlin
+5466;6868;impassable;-1;-1;-1;-1;-1;; McLoughlin
+5466;1306;impassable;-1;-1;-1;-1;-1;; McLoughlin
+5466;4966;impassable;-1;-1;-1;-1;-1;; McLoughlin
+5466;3325;impassable;-1;-1;-1;-1;-1;; McLoughlin
+5466;8868;impassable;-1;-1;-1;-1;-1;; McLoughlin
 
-
-
-
-
-
+#Klamath and Modoc Forests
+5704;7195;impassable;-1;-1;-1;-1;-1;; K and M
+5704;6164;impassable;-1;-1;-1;-1;-1;; K and M
+5704;6042;impassable;-1;-1;-1;-1;-1;; K and M
+5704;4718;impassable;-1;-1;-1;-1;-1;; K and M
+6313;4718;impassable;-1;-1;-1;-1;-1;; K and M
+6313;9059;impassable;-1;-1;-1;-1;-1;; K and M
+6313;9068;impassable;-1;-1;-1;-1;-1;; K and M
+6313;6586;impassable;-1;-1;-1;-1;-1;; K and M
+9041;6586;impassable;-1;-1;-1;-1;-1;; K and M
+9041;4245;impassable;-1;-1;-1;-1;-1;; K and M
+6827;4245;impassable;-1;-1;-1;-1;-1;; K and M
+6827;1261;impassable;-1;-1;-1;-1;-1;; K and M
+6827;9058;impassable;-1;-1;-1;-1;-1;; K and M
+9042;9058;impassable;-1;-1;-1;-1;-1;; K and M
+2733;6352;impassable;-1;-1;-1;-1;-1;; K and M
+2733;9058;impassable;-1;-1;-1;-1;-1;; K and M
+2733;6487;impassable;-1;-1;-1;-1;-1;; K and M
+5724;6487;impassable;-1;-1;-1;-1;-1;; K and M
+5724;8980;impassable;-1;-1;-1;-1;-1;; K and M
+6200;8980;impassable;-1;-1;-1;-1;-1;; K and M
+6200;1855;impassable;-1;-1;-1;-1;-1;; K and M
+8966;1855;impassable;-1;-1;-1;-1;-1;; K and M
+8966;8941;impassable;-1;-1;-1;-1;-1;; K and M
+8966;8954;impassable;-1;-1;-1;-1;-1;; K and M
+8976;8954;impassable;-1;-1;-1;-1;-1;; K and M
+8976;8978;impassable;-1;-1;-1;-1;-1;; K and M
+9003;8978;impassable;-1;-1;-1;-1;-1;; K and M
+9003;7195;impassable;-1;-1;-1;-1;-1;; K and M
 
 ########################################################
 #California
 
+
+#Northern Sierra
+6232;5845;impassable;-1;-1;-1;-1;-1;; N Sierra
+6232;9260;impassable;-1;-1;-1;-1;-1;; N Sierra
+2064;9260;impassable;-1;-1;-1;-1;-1;; N Sierra
+2064;9111;impassable;-1;-1;-1;-1;-1;; N Sierra
+2064;9132;impassable;-1;-1;-1;-1;-1;; N Sierra
+2064;4658;impassable;-1;-1;-1;-1;-1;; N Sierra
+2064;7094;impassable;-1;-1;-1;-1;-1;; N Sierra
+2064;9198;impassable;-1;-1;-1;-1;-1;; N Sierra
+2064;6443;impassable;-1;-1;-1;-1;-1;; N Sierra
+2064;2959;impassable;-1;-1;-1;-1;-1;; N Sierra
+2064;9255;impassable;-1;-1;-1;-1;-1;; N Sierra
+4186;9255;impassable;-1;-1;-1;-1;-1;; N Sierra
+4186;9279;impassable;-1;-1;-1;-1;-1;; N Sierra
+4186;6429;impassable;-1;-1;-1;-1;-1;; N Sierra
+4186;9336;impassable;-1;-1;-1;-1;-1;; N Sierra
+4186;698;impassable;-1;-1;-1;-1;-1;; N Sierra
+4186;5801;impassable;-1;-1;-1;-1;-1;; N Sierra
+4186;9400;impassable;-1;-1;-1;-1;-1;; N Sierra
+4186;9431;impassable;-1;-1;-1;-1;-1;; N Sierra
+4186;4332;impassable;-1;-1;-1;-1;-1;; N Sierra
+7140;4332;impassable;-1;-1;-1;-1;-1;; N Sierra
+7140;9356;impassable;-1;-1;-1;-1;-1;; N Sierra
+7140;351;impassable;-1;-1;-1;-1;-1;; N Sierra
+7140;9274;impassable;-1;-1;-1;-1;-1;; N Sierra
+7140;9243;impassable;-1;-1;-1;-1;-1;; N Sierra
+5586;9243;impassable;-1;-1;-1;-1;-1;; N Sierra
+5586;6411;impassable;-1;-1;-1;-1;-1;; N Sierra
+5586;9377;impassable;-1;-1;-1;-1;-1;; N Sierra
+5586;9151;impassable;-1;-1;-1;-1;-1;; N Sierra
+5586;5845;impassable;-1;-1;-1;-1;-1;; N Sierra
+
+#Southern Sierra
+5261;3442;impassable;-1;-1;-1;-1;-1;; S Sierra
+5261;4031;impassable;-1;-1;-1;-1;-1;; S Sierra
+5261;1122;impassable;-1;-1;-1;-1;-1;; S Sierra
+5261;5657;impassable;-1;-1;-1;-1;-1;; S Sierra
+9525;5657;impassable;-1;-1;-1;-1;-1;; S Sierra
+9525;9558;impassable;-1;-1;-1;-1;-1;; S Sierra
+9540;9558;impassable;-1;-1;-1;-1;-1;; S Sierra
+9540;1795;impassable;-1;-1;-1;-1;-1;; S Sierra
+6698;1795;impassable;-1;-1;-1;-1;-1;; S Sierra
+6698;9596;impassable;-1;-1;-1;-1;-1;; S Sierra
+6698;9589;impassable;-1;-1;-1;-1;-1;; S Sierra
+3019;9589;impassable;-1;-1;-1;-1;-1;; S Sierra
+9562;9589;impassable;-1;-1;-1;-1;-1;; S Sierra
+9562;5975;impassable;-1;-1;-1;-1;-1;; S Sierra
+9609;5975;impassable;-1;-1;-1;-1;-1;; S Sierra
+9609;5287;impassable;-1;-1;-1;-1;-1;; S Sierra
+3092;5287;impassable;-1;-1;-1;-1;-1;; S Sierra
+9655;5287;impassable;-1;-1;-1;-1;-1;; S Sierra
+9655;3104;impassable;-1;-1;-1;-1;-1;; S Sierra
+9655;9680;impassable;-1;-1;-1;-1;-1;; S Sierra
+9655;5989;impassable;-1;-1;-1;-1;-1;; S Sierra
+9681;5989;impassable;-1;-1;-1;-1;-1;; S Sierra
+9681;9710;impassable;-1;-1;-1;-1;-1;; S Sierra
+9681;4421;impassable;-1;-1;-1;-1;-1;; S Sierra
+9681;322;impassable;-1;-1;-1;-1;-1;; S Sierra
+9698;322;impassable;-1;-1;-1;-1;-1;; S Sierra
+5368;322;impassable;-1;-1;-1;-1;-1;; S Sierra
+5368;2344;impassable;-1;-1;-1;-1;-1;; S Sierra
+9681;2344;impassable;-1;-1;-1;-1;-1;; S Sierra
+9716;2344;impassable;-1;-1;-1;-1;-1;; S Sierra
+9716;4918;impassable;-1;-1;-1;-1;-1;; S Sierra
+25;4918;impassable;-1;-1;-1;-1;-1;; S Sierra
+25;9762;impassable;-1;-1;-1;-1;-1;; S Sierra
+9735;9762;impassable;-1;-1;-1;-1;-1;; S Sierra
+9735;5591;impassable;-1;-1;-1;-1;-1;; S Sierra
+9735;3027;impassable;-1;-1;-1;-1;-1;; S Sierra
+9735;5656;impassable;-1;-1;-1;-1;-1;; S Sierra
+25;5656;impassable;-1;-1;-1;-1;-1;; S Sierra
+4842;5656;impassable;-1;-1;-1;-1;-1;; S Sierra
+4842;1536;impassable;-1;-1;-1;-1;-1;; S Sierra
+9673;1536;impassable;-1;-1;-1;-1;-1;; S Sierra
+9673;9634;impassable;-1;-1;-1;-1;-1;; S Sierra
+4862;9634;impassable;-1;-1;-1;-1;-1;; S Sierra
+4862;9602;impassable;-1;-1;-1;-1;-1;; S Sierra
+3239;9602;impassable;-1;-1;-1;-1;-1;; S Sierra
+3239;6495;impassable;-1;-1;-1;-1;-1;; S Sierra
+3239;3668;impassable;-1;-1;-1;-1;-1;; S Sierra
+9585;3668;impassable;-1;-1;-1;-1;-1;; S Sierra
+9562;3668;impassable;-1;-1;-1;-1;-1;; S Sierra
+3918;3668;impassable;-1;-1;-1;-1;-1;; S Sierra
+3918;9519;impassable;-1;-1;-1;-1;-1;; S Sierra
+3918;1681;impassable;-1;-1;-1;-1;-1;; S Sierra
+3918;2673;impassable;-1;-1;-1;-1;-1;; S Sierra
+5264;2673;impassable;-1;-1;-1;-1;-1;; S Sierra
+5264;7201;impassable;-1;-1;-1;-1;-1;; S Sierra
+5264;3442;impassable;-1;-1;-1;-1;-1;; S Sierra
+2336;3442;impassable;-1;-1;-1;-1;-1;; S Sierra
+#############################################
+2958;4334;impassable;-1;-1;-1;-1;-1;; S Sierra
+2958;9835;impassable;-1;-1;-1;-1;-1;; S Sierra
+2958;9853;impassable;-1;-1;-1;-1;-1;; S Sierra
+2958;3467;impassable;-1;-1;-1;-1;-1;; S Sierra
+9874;3467;impassable;-1;-1;-1;-1;-1;; S Sierra
+9874;3208;impassable;-1;-1;-1;-1;-1;; S Sierra
+9890;3208;impassable;-1;-1;-1;-1;-1;; S Sierra
+9890;9901;impassable;-1;-1;-1;-1;-1;; S Sierra
+4649;9901;impassable;-1;-1;-1;-1;-1;; S Sierra
+4649;7074;impassable;-1;-1;-1;-1;-1;; S Sierra
+4043;7074;impassable;-1;-1;-1;-1;-1;; S Sierra
+4043;820;impassable;-1;-1;-1;-1;-1;; S Sierra
+4043;5722;impassable;-1;-1;-1;-1;-1;; S Sierra
+9951;5722;impassable;-1;-1;-1;-1;-1;; S Sierra
+9951;9965;impassable;-1;-1;-1;-1;-1;; S Sierra
+5396;9965;impassable;-1;-1;-1;-1;-1;; S Sierra
+5396;6517;impassable;-1;-1;-1;-1;-1;; S Sierra
+672;6517;impassable;-1;-1;-1;-1;-1;; S Sierra
+672;9947;impassable;-1;-1;-1;-1;-1;; S Sierra
+672;1156;impassable;-1;-1;-1;-1;-1;; S Sierra
+9899;1156;impassable;-1;-1;-1;-1;-1;; S Sierra
+9899;9908;impassable;-1;-1;-1;-1;-1;; S Sierra
+9899;9882;impassable;-1;-1;-1;-1;-1;; S Sierra
+4572;9882;impassable;-1;-1;-1;-1;-1;; S Sierra
+4572;4225;impassable;-1;-1;-1;-1;-1;; S Sierra
+3935;4225;impassable;-1;-1;-1;-1;-1;; S Sierra
+3935;9830;impassable;-1;-1;-1;-1;-1;; S Sierra
+3935;2980;impassable;-1;-1;-1;-1;-1;; S Sierra
+3935;6264;impassable;-1;-1;-1;-1;-1;; S Sierra
+9852;6264;impassable;-1;-1;-1;-1;-1;; S Sierra
+9852;4334;impassable;-1;-1;-1;-1;-1;; S Sierra
+
+5112;4365;impassable;-1;-1;-1;-1;-1;; S Sierra
+9800;4365;impassable;-1;-1;-1;-1;-1;; S Sierra
+9800;9818;impassable;-1;-1;-1;-1;-1;; S Sierra
+6912;9818;impassable;-1;-1;-1;-1;-1;; S Sierra
+9854;9818;impassable;-1;-1;-1;-1;-1;; S Sierra
+9854;6092;impassable;-1;-1;-1;-1;-1;; S Sierra
+6410;6092;impassable;-1;-1;-1;-1;-1;; S Sierra
+6410;6353;impassable;-1;-1;-1;-1;-1;; S Sierra
+6410;9897;impassable;-1;-1;-1;-1;-1;; S Sierra
+
+9909;9920;impassable;-1;-1;-1;-1;-1;; S Sierra
+9909;6657;impassable;-1;-1;-1;-1;-1;; S Sierra
+6657;9897;impassable;-1;-1;-1;-1;-1;; S Sierra
+6657;9921;impassable;-1;-1;-1;-1;-1;; S Sierra
+6657;5595;impassable;-1;-1;-1;-1;-1;; S Sierra
+9969;5595;impassable;-1;-1;-1;-1;-1;; S Sierra
+9969;5669;impassable;-1;-1;-1;-1;-1;; S Sierra
+
+#Cal/Nev
+3837;9352;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+3837;6697;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+3837;1149;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+3837;6812;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+3837;2595;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+3837;5736;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+3837;1555;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+3837;6428;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+3837;4721;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+3837;2416;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+6610;2416;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+6610;2651;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+6610;9127;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+6610;5736;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+6610;9193;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+6610;137;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+6610;6303;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+9105;6303;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+9105;4221;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+9105;3031;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+9105;9127;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+9105;4960;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+9105;9001;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+9105;9011;impassable;-1;-1;-1;-1;-1;; Cal/Nev
+
 #Mendocino
 6672;6525;impassable;-1;-1;-1;-1;-1;; Mendocino
 6672;9131;impassable;-1;-1;-1;-1;-1;; Mendocino
+6672;9078;impassable;-1;-1;-1;-1;-1;; Mendocino
+6672;9859;impassable;-1;-1;-1;-1;-1;; Mendocino
+6672;9097;impassable;-1;-1;-1;-1;-1;; Mendocino
+6672;9170;impassable;-1;-1;-1;-1;-1;; Mendocino
+6672;6929;impassable;-1;-1;-1;-1;-1;; Mendocino
+6672;9121;impassable;-1;-1;-1;-1;-1;; Mendocino
 5169;9131;impassable;-1;-1;-1;-1;-1;; Mendocino
 9180;9131;impassable;-1;-1;-1;-1;-1;; Mendocino
 9180;7014;impassable;-1;-1;-1;-1;-1;; Mendocino
 9180;5790;impassable;-1;-1;-1;-1;-1;; Mendocino
 9180;4865;impassable;-1;-1;-1;-1;-1;; Mendocino
+9180;1752;impassable;-1;-1;-1;-1;-1;; Mendocino
+9180;9251;impassable;-1;-1;-1;-1;-1;; Mendocino
+9180;7046;impassable;-1;-1;-1;-1;-1;; Mendocino
+9180;9309;impassable;-1;-1;-1;-1;-1;; Mendocino
+9180;9322;impassable;-1;-1;-1;-1;-1;; Mendocino
+9180;1383;impassable;-1;-1;-1;-1;-1;; Mendocino
+9180;1204;impassable;-1;-1;-1;-1;-1;; Mendocino
+9180;6681;impassable;-1;-1;-1;-1;-1;; Mendocino
+2507;6681;impassable;-1;-1;-1;-1;-1;; Mendocino
+2507;5981;impassable;-1;-1;-1;-1;-1;; Mendocino
+2507;9323;impassable;-1;-1;-1;-1;-1;; Mendocino
+2507;6571;impassable;-1;-1;-1;-1;-1;; Mendocino
+2507;9281;impassable;-1;-1;-1;-1;-1;; Mendocino
+2507;9238;impassable;-1;-1;-1;-1;-1;; Mendocino
+2507;9217;impassable;-1;-1;-1;-1;-1;; Mendocino
+2507;3609;impassable;-1;-1;-1;-1;-1;; Mendocino
+2507;9176;impassable;-1;-1;-1;-1;-1;; Mendocino
+2507;3542;impassable;-1;-1;-1;-1;-1;; Mendocino
+2507;3038;impassable;-1;-1;-1;-1;-1;; Mendocino
+2507;9121;impassable;-1;-1;-1;-1;-1;; Mendocino
+9411;6681;impassable;-1;-1;-1;-1;-1;; Mendocino
+9411;1204;impassable;-1;-1;-1;-1;-1;; Mendocino
+9411;9393;impassable;-1;-1;-1;-1;-1;; Mendocino
+9411;9420;impassable;-1;-1;-1;-1;-1;; Mendocino
+9411;1621;impassable;-1;-1;-1;-1;-1;; Mendocino
+9411;4952;impassable;-1;-1;-1;-1;-1;; Mendocino
+9411;9476;impassable;-1;-1;-1;-1;-1;; Mendocino
+9411;5546;impassable;-1;-1;-1;-1;-1;; Mendocino
+9411;9508;impassable;-1;-1;-1;-1;-1;; Mendocino
+9411;3099;impassable;-1;-1;-1;-1;-1;; Mendocino
+9411;9553;impassable;-1;-1;-1;-1;-1;; Mendocino
+9411;9568;impassable;-1;-1;-1;-1;-1;; Mendocino
+9480;9568;impassable;-1;-1;-1;-1;-1;; Mendocino
+9480;5353;impassable;-1;-1;-1;-1;-1;; Mendocino
+9480;6343;impassable;-1;-1;-1;-1;-1;; Mendocino
+9480;9514;impassable;-1;-1;-1;-1;-1;; Mendocino
+9480;9486;impassable;-1;-1;-1;-1;-1;; Mendocino
+9480;9462;impassable;-1;-1;-1;-1;-1;; Mendocino
+9480;6339;impassable;-1;-1;-1;-1;-1;; Mendocino
+9480;2993;impassable;-1;-1;-1;-1;-1;; Mendocino
+9480;9430;impassable;-1;-1;-1;-1;-1;; Mendocino
+9480;2716;impassable;-1;-1;-1;-1;-1;; Mendocino
+9480;5745;impassable;-1;-1;-1;-1;-1;; Mendocino
+9480;6681;impassable;-1;-1;-1;-1;-1;; Mendocino
 
+# Diablo Range
+9907;5329;impassable;-1;-1;-1;-1;-1;; Diablo Range
+9875;5329;impassable;-1;-1;-1;-1;-1;; Diablo Range
+9875;7053;impassable;-1;-1;-1;-1;-1;; Diablo Range
+9866;7053;impassable;-1;-1;-1;-1;-1;; Diablo Range
+9866;7099;impassable;-1;-1;-1;-1;-1;; Diablo Range
+6081;7099;impassable;-1;-1;-1;-1;-1;; Diablo Range
+6081;9834;impassable;-1;-1;-1;-1;-1;; Diablo Range
+9812;9834;impassable;-1;-1;-1;-1;-1;; Diablo Range
+9812;2358;impassable;-1;-1;-1;-1;-1;; Diablo Range
+5646;2358;impassable;-1;-1;-1;-1;-1;; Diablo Range
+4901;5687;impassable;-1;-1;-1;-1;-1;; Diablo Range
+4901;2801;impassable;-1;-1;-1;-1;-1;; Diablo Range
+5646;5687;impassable;-1;-1;-1;-1;-1;; Diablo Range
+2801;5687;impassable;-1;-1;-1;-1;-1;; Diablo Range
+2801;9738;impassable;-1;-1;-1;-1;-1;; Diablo Range
+5686;9738;impassable;-1;-1;-1;-1;-1;; Diablo Range
+6561;9738;impassable;-1;-1;-1;-1;-1;; Diablo Range
+6561;3667;impassable;-1;-1;-1;-1;-1;; Diablo Range
+6561;6743;impassable;-1;-1;-1;-1;-1;; Diablo Range
+9709;6743;impassable;-1;-1;-1;-1;-1;; Diablo Range
+9694;6743;impassable;-1;-1;-1;-1;-1;; Diablo Range
+3574;6743;impassable;-1;-1;-1;-1;-1;; Diablo Range
+5775;6743;impassable;-1;-1;-1;-1;-1;; Diablo Range
+################################################
+2999;6588;impassable;-1;-1;-1;-1;-1;; Diablo Range
+9964;6588;impassable;-1;-1;-1;-1;-1;; Diablo Range
+9964;4338;impassable;-1;-1;-1;-1;-1;; Diablo Range
+9993;4338;impassable;-1;-1;-1;-1;-1;; Diablo Range
+9998;4338;impassable;-1;-1;-1;-1;-1;; Diablo Range
+9998;9989;impassable;-1;-1;-1;-1;-1;; Diablo Range
+9998;3008;impassable;-1;-1;-1;-1;-1;; Diablo Range
+6913;3008;impassable;-1;-1;-1;-1;-1;; Diablo Range
+6913;6928;impassable;-1;-1;-1;-1;-1;; Diablo Range
+10035;6928;impassable;-1;-1;-1;-1;-1;; Diablo Range
+10054;6928;impassable;-1;-1;-1;-1;-1;; Diablo Range
 
+# San Gab
+3416;10091;impassable;-1;-1;-1;-1;-1;; San Gab
+5779;10091;impassable;-1;-1;-1;-1;-1;; San Gab
+5779;10089;impassable;-1;-1;-1;-1;-1;; San Gab
+10096;10089;impassable;-1;-1;-1;-1;-1;; San Gab
+3742;10089;impassable;-1;-1;-1;-1;-1;; San Gab
+3742;10080;impassable;-1;-1;-1;-1;-1;; San Gab
+4869;10080;impassable;-1;-1;-1;-1;-1;; San Gab
+5312;10080;impassable;-1;-1;-1;-1;-1;; San Gab
+5312;10064;impassable;-1;-1;-1;-1;-1;; San Gab
+10037;10064;impassable;-1;-1;-1;-1;-1;; San Gab
+10037;3234;impassable;-1;-1;-1;-1;-1;; San Gab
+10063;3234;impassable;-1;-1;-1;-1;-1;; San Gab
+10051;3234;impassable;-1;-1;-1;-1;-1;; San Gab
+10051;1915;impassable;-1;-1;-1;-1;-1;; San Gab
+10036;1915;impassable;-1;-1;-1;-1;-1;; San Gab
+10036;4063;impassable;-1;-1;-1;-1;-1;; San Gab
+################################################
+6153;6252;impassable;-1;-1;-1;-1;-1;;Joshua
+6153;5597;impassable;-1;-1;-1;-1;-1;;Joshua
+6124;5597;impassable;-1;-1;-1;-1;-1;;Joshua
+6124;1505;impassable;-1;-1;-1;-1;-1;;Joshua
+10108;1505;impassable;-1;-1;-1;-1;-1;;Joshua
+3155;1505;impassable;-1;-1;-1;-1;-1;;Joshua
+3155;10065;impassable;-1;-1;-1;-1;-1;;Joshua
+3155;931;impassable;-1;-1;-1;-1;-1;;Joshua
+3155;4944;impassable;-1;-1;-1;-1;-1;;Joshua
 
+# Echo Creek
+10197;10209;impassable;-1;-1;-1;-1;-1;; Echo Creek
+10197;10212;impassable;-1;-1;-1;-1;-1;; Echo Creek
+10197;3053;impassable;-1;-1;-1;-1;-1;; Echo Creek
+5725;3053;impassable;-1;-1;-1;-1;-1;; Echo Creek
+5725;10164;impassable;-1;-1;-1;-1;-1;; Echo Creek
+6935;10164;impassable;-1;-1;-1;-1;-1;; Echo Creek
+6935;5906;impassable;-1;-1;-1;-1;-1;; Echo Creek
+6935;10145;impassable;-1;-1;-1;-1;-1;; Echo Creek
 
 
 

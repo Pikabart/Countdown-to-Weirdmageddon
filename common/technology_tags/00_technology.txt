@@ -94,6 +94,8 @@ technology_categories = {
 	cat_synth_oil
 	
 	cat_era_stage
+	cat_magic_spec_ops
+	cat_techno_spec_ops
 }
 
 technology_folders = {

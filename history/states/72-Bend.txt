@@ -1,28 +1,28 @@
+
 state={
 	id=72
 	name="STATE_72"
-	
-	local_supplies=0.0 
-	
+
 	history={
 		owner = ORE
 		add_core_of = ORE
 		buildings = {
 			arms_factory = 0
 			industrial_complex = 0
-			
 			infrastructure = 1
 			air_base = 0
 			anti_air_building = 0
-			radar_station = 0	
+			radar_station = 0
+
 		}
 
 	}
-	
+
 	provinces={
-		3263 3330 3493 5469 7119 8407 8441 8533 8556 
+		3263 3330 3493 7119 8407 8441 8533 
 	}
 	manpower=10000
-	
-	state_category=large_town 
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
 }
