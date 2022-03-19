@@ -22,6 +22,7 @@ sub_units = {
 			category_all_infantry
 			category_army
 			category_special_forces
+			category_tech_forces
 		}
 		
 		combat_width = 2
@@ -69,6 +70,7 @@ sub_units = {
 			category_support_battalions
 			category_army
 			category_special_forces 
+			category_tech_forces
 		}
 		
 		combat_width = 0
@@ -121,6 +123,7 @@ sub_units = {
 			category_light_infantry
 			category_all_infantry
 			category_army
+			category_special_forces
 			category_magic_forces
 		}
 		
@@ -169,6 +172,7 @@ sub_units = {
 		categories = {
 			category_support_battalions
 			category_army
+			category_special_forces
 			category_magic_forces
 		}
 

@@ -5,8 +5,14 @@
  magic_support:0 "Magic Inspirational Support"
  magic_support_desc:0 "Magic Inspirational Support Desc"
  
- special_operation_main:0 "Special Forces"
- special_operation_main_desc:0 "Special Forces"
+ special_operation_main:0 "Tech Special Forces"
+ special_operation_main_desc:0 "Tech Special Forces"
  
  special_operation_company:0 "Spec Ops Integration"
  special_operation_company_desc:0 "Spec. Ops. Integration"
+ 
+ category_tech_forces:0 "Tech Special Forces"
+ #category_tech_forces:0 ""
+ 
+ category_magic_forces:0 "Magic Special Forces"
+ #category_magic_forces:0 ""

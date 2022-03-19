@@ -1,0 +1,30 @@
+
+state={
+	id=267
+	name="STATE_267"
+
+	history={
+		owner = ZZZ
+		add_core_of = ZZZ
+		buildings = {
+			10135 = {
+				naval_base = 2
+				coastal_bunker = 2
+
+			}
+
+		}
+		victory_points = {
+			11482 50 
+		}
+
+	}
+
+	provinces={
+		1553 10135 11482 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

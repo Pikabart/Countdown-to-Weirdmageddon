@@ -193,14 +193,14 @@
  
  ###
  
- general_magic_improvement_1:0 "1"
- general_magic_improvement_desc_1:0 ""
+ general_magic_improvement_1:0 "Magical Logistics"
+ general_magic_improvement_1_desc:0 "In theory, magic can ease up the burdun of logistics. In reality, the art of magical logistics is a science onto itself"
  
- general_magic_improvement_2:0 "2"
- general_magic_improvement_desc_2:0 ""
+ general_magic_improvement_2:0 "Protective Aurora"
+ general_magic_improvement_2_desc:0 "Through Magical Trooper integration, a passive protetive aurora can be cast otno all our troops, protetiveing them at critical moments."
  
- general_magic_improvement_3:0 "3"
- general_magic_improvement_desc_3:0 ""
+ general_magic_improvement_3:0 "Technological Clash"
+ general_magic_improvement_3_desc:0 "As technology advances pass Magic, magic must adapt to fighting the tools of the industrial and modern world. Two intertwined rules of the multiverse, locked in battle for an unachievable surpremacy."
  
  ###
 

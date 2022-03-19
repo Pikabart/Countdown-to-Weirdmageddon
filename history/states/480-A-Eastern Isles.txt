@@ -1,0 +1,16 @@
+state={
+	id=480
+	name="STATE_480"
+	history={
+		owner = ZZZ
+		add_core_of = ZZZ
+
+	}
+	provinces={
+		85 164 415 2305 2613 2734 2890 4161 4395 4523 4758 4770 5537 10293 10303 10317 10322 10339 10377 10705 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

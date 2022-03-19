@@ -182,6 +182,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/mewni_magic_forces_3.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_bi_magic_forces_medium"
+		texturefile = "gfx/interface/technologies/bi_magic_forces.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_bi_magic_forces_1_medium"
+		texturefile = "gfx/interface/technologies/bi_magic_forces_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_bi_magic_forces_2_medium"
+		texturefile = "gfx/interface/technologies/bi_magic_forces_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_bi_magic_forces_3_medium"
+		texturefile = "gfx/interface/technologies/bi_magic_forces_3.dds"
+	}
+	
 	########################
 	#Tech Ops#
 	########################
