@@ -1,0 +1,15 @@
+state={
+	id=500
+	name="STATE_500"
+	provinces={
+		26 88 157 633 891 924 1494 1984 2245 2265 2346 2698 2868 3006 3413 3973 4018 4109 4761 6373 6795 
+	}
+	history={
+		owner = ZZZ
+		add_core_of = ZZZ
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

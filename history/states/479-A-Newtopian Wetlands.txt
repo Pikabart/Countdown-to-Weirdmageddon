@@ -1,0 +1,19 @@
+
+state={
+	id=479
+	name="STATE_479"
+
+	history={
+		owner = ZZZ
+		add_core_of = ZZZ
+
+	}
+
+	provinces={
+		383 704 1325 1532 1908 2255 2364 2796 3484 3939 3989 4086 4294 4346 4636 4995 5452 6161 6389 6531 6640 10021 10038 10046 10048 10069 10072 10119 10152 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

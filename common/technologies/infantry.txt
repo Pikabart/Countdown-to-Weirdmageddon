@@ -2062,16 +2062,7 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 0.7
-			
-			modifier = {
-				factor = 3
-				tag = USA
-			}
-			
-			modifier = {
-				factor = 3
-				tag = JAP
-			}
+		
 		}
 	}
 	
@@ -2948,11 +2939,13 @@ technologies = {
 			industrial_progress = 1
 		}
 
-		special_forces_cap = 0.15
-		special_forces_training_time_factor = -0.10
 		magic_main = {
 			soft_attack = 0.05
+			defense = 0.05
 		}
+
+		special_forces_cap = 0.15
+		special_forces_training_time_factor = -0.10
 		path = {
 			leads_to_tech = bi_magic_forces_1
 			research_cost_coeff = 1
@@ -2961,7 +2954,6 @@ technologies = {
 			leads_to_tech = bi_magic_forces_2
 			research_cost_coeff = 1
 		}
-
 
 		research_cost = 2
 		start_year = 1940
@@ -2984,18 +2976,19 @@ technologies = {
 		xor={
 			bi_magic_forces_2
 		}
-
+		
+		magic_main = {
+			combat_width = -0.4
+			max_strength = 0.5
+			initiative = 0.3
+			experience_loss_factor = 0.3 
+			breakthrough = 0.2
+		}
+		
 		category_special_forces = {
 			acclimatization_hot_climate_gain_factor = 0.05
 			acclimatization_cold_climate_gain_factor = 0.05
 		}
-		
-		magic_main = {
-			combat_width = -0.4
-		}
-		
-		special_forces_cap = 0.20
-		special_forces_training_time_factor = -0.15
 		
 		path = {
 			leads_to_tech = bi_magic_forces_3
@@ -3023,18 +3016,17 @@ technologies = {
 		xor={
 			bi_magic_forces_1
 		}
-
-		category_special_forces = {
-			acclimatization_hot_climate_gain_factor = 0.05
-			acclimatization_cold_climate_gain_factor = 0.05
-		}
-		
-		magic_main = {
-			combat_width = -0.4
-		}
 		
 		special_forces_cap = 0.20
 		special_forces_training_time_factor = -0.15
+		
+		magic_main = {
+			combat_width = -0.4
+			max_organisation = 15
+			soft_attack = 0.15
+			hard_attack = 0.15
+			defense = 0.2
+		}
 		
 		path = {
 			leads_to_tech = bi_magic_forces_3
@@ -3066,6 +3058,7 @@ technologies = {
 		
 		magic_main = {
 			combat_width = -0.4
+			suppression_factor = 1
 		}
 		
 		special_forces_cap = 0.20
@@ -3102,7 +3095,7 @@ technologies = {
 
 		category_special_forces = {
 			max_organisation = 5
-			defense = 0.05
+			reliability_factor = 0.05
 		}
 
 		special_forces_training_time_factor = 0.05
@@ -3134,7 +3127,8 @@ technologies = {
 
 		category_special_forces = {
 			max_organisation = 10
-			army_attack_factor = 0.05
+			defense = 0.05
+			casualty_trickleback = 0.1
 		}
 
 		special_forces_training_time_factor = 0.05
@@ -3165,7 +3159,7 @@ technologies = {
 
 		category_special_forces = {
 			max_organisation = 10
-			army_attack_factor = 0.05
+			soft_attack = 0.1 
 		}
 
 		special_forces_training_time_factor = 0.05

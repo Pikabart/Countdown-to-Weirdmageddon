@@ -1,0 +1,15 @@
+state={
+	id=495
+	name="STATE_495"
+	provinces={
+		3457 4200 4743 
+	}
+	history={
+		owner = ZZZ
+		add_core_of = ZZZ
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}
