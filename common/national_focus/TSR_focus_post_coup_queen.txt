@@ -5,8 +5,8 @@
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100
-		#	tag = TSR
+			add = 100
+			tag = TSR
 		}
 	}
 	
@@ -17,7 +17,7 @@
 
 	focus = {
 		id = TSR_QUEEN_daggers_in_every_corner
-		icon = a
+		icon = GFX_goal_focus_queen_purge
 		x = 14
 		y = 1
 		
@@ -33,6 +33,7 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+			retire_character = TSR_grand_marshal
 			add_timed_idea = {
 				idea = TSR_QUEEN_purge
 				days = 720
@@ -48,7 +49,7 @@
 	
 	focus = { 
 		id = TSR_QUEEN_mass_conscription
-		icon = a
+		icon = GFX_goal_generic_allies_build_infantry
 		x = 0
 		y = 2
 		
@@ -81,7 +82,7 @@
 	
 	focus = { 
 		id = TSR_QUEEN_universal_education
-		icon = a
+		icon = GFX_focus_research
 		x = 0
 		y = 1
 		
@@ -116,7 +117,7 @@
 	}
 	focus = { 
 		id = TSR_QUEEN_poverty_relief
-		icon = a
+		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 1
 		
@@ -151,7 +152,7 @@
 	}
 	focus = { 
 		id = TSR_QUEEN_loyalty_benefits
-		icon = a
+		icon = GFX_goal_generic_propaganda
 		x = 0
 		y = 1
 		
@@ -186,7 +187,7 @@
 	}
 	focus = { 
 		id = TSR_QUEEN_monster_path
-		icon = a
+		icon = GFX_goal_focus_queen_replace_with_monsters
 		x = -1
 		y = 1
 		
@@ -218,7 +219,7 @@
 	}
 	focus = { 
 		id = TSR_QUEEN_monster_path_2
-		icon = a
+		icon = GFX_goal_focus_queen_monsters_2
 		x = -1
 		y = 1
 		
@@ -252,7 +253,7 @@
 	}
 	focus = { 
 		id = TSR_QUEEN_monster_path_3
-		icon = a
+		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 1
 		
@@ -287,7 +288,7 @@
 	}
 	focus = { 
 		id = TSR_QUEEN_mewman_path
-		icon = a
+		icon = GFX_goal_focus_queen_replace_with_mewmans
 		x = 1
 		y = 1
 		
@@ -322,7 +323,7 @@
 	
 	focus = { 
 		id = TSR_QUEEN_mewman_path_2
-		icon = a
+		icon = GFX_goal_focus_queen_mewmans_2
 		x = 1
 		y = 1
 		
@@ -358,7 +359,7 @@
 	
 	focus = { 
 		id = TSR_QUEEN_mewman_path_3
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		
@@ -392,7 +393,7 @@
 	}
 	focus = { 
 		id = TSR_QUEEN_enlighten_people
-		icon = a
+		icon = GFX_goal_focus_queen_enlighten
 		x = 1
 		y = 3
 		
@@ -427,7 +428,7 @@
 	}
 	focus = { 
 		id = TSR_QUEEN_mewmans_march
-		icon = a
+		icon = GFX_goal_focus_queen_mewmans_march
 		x = -1
 		y = 3
 		

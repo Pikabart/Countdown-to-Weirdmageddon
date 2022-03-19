@@ -68,5 +68,50 @@ spriteTypes = {
 	name = "GFX_goal_focus_people_communications"
 	texturefile = "gfx/interface/goals/TSR/focus_people_communications.dds"			
 	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_queen_organize"
+	texturefile = "gfx/interface/goals/TSR/focus_queen_organize.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_queen_establish_loyalists"
+	texturefile = "gfx/interface/goals/TSR/focus_queen_establish_loyalists.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_queen_replace_with_mewmans"
+	texturefile = "gfx/interface/goals/TSR/focus_queen_replace_with_mewmans.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_queen_replace_with_monsters"
+	texturefile = "gfx/interface/goals/TSR/focus_queen_replace_with_monsters.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_queen_monsters_2"
+	texturefile = "gfx/interface/goals/TSR/focus_queen_monsters_2.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_queen_mewmans_2"
+	texturefile = "gfx/interface/goals/TSR/focus_queen_mewmans_2.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_queen_mewmans_march"
+	texturefile = "gfx/interface/goals/TSR/focus_queen_mewmans_march.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_queen_enlighten"
+	texturefile = "gfx/interface/goals/TSR/focus_queen_enlighten.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_queen_purge"
+	texturefile = "gfx/interface/goals/TSR/focus_queen_purge.dds"			
+	}
 
 } ### End Bracket
