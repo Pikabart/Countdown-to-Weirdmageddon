@@ -276,16 +276,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/tech_spec_ops_11.dds"
 	}
 	
-	########
-	
 	SpriteType = {
 		name = "GFX_tech_special_operation_12_medium"
-		#texturefile = "gfx/interface/technologies/.dds"
+		texturefile = "gfx/interface/technologies/tech_spec_ops_12.dds"
 	}
 	
 	SpriteType = {
 		name = "GFX_tech_special_operation_13_medium"
-		#texturefile = "gfx/interface/technologies/.dds"
+		texturefile = "gfx/interface/technologies/tech_spec_ops_13.dds"
 	}
 	
 	########
