@@ -17,7 +17,7 @@
 
 	focus = { 
 		id = TSR_break_protests
-		icon = a
+		icon = GFX_goal_focus_break_protests
 		x = 14
 		y = 1
 		
@@ -46,7 +46,7 @@
 	
 	focus = { 
 		id = TSR_vague_promises
-		icon = a
+		icon = GFX_goal_generic_national_unity
 		x = -1
 		y = 1
 		
@@ -80,7 +80,7 @@
 	}
 	focus = { 
 		id = TSR_gaslight_the_people
-		icon = a
+		icon = GFX_goal_generic_propaganda
 		x = 0
 		y = 1
 		
@@ -114,7 +114,7 @@
 	}
 	focus = { 
 		id = TSR_poverty_requirements
-		icon = a
+		icon = GFX_goal_generic_neutrality_focus
 		x = 0
 		y = 1
 		
@@ -144,7 +144,7 @@
 	}
 	focus = { 
 		id = TSR_straight_up_lie
-		icon = a
+		icon = GFX_goal_generic_propaganda
 		x = 0
 		y = 1
 		
@@ -175,7 +175,7 @@
 	
 	focus = { 
 		id = TSR_consider_our_options
-		icon = a
+		icon = GFX_goal_generic_forceful_treaty
 		x = 2
 		y = 1
 		
@@ -206,7 +206,7 @@
 	}
 	focus = { 
 		id = TSR_seize_horses
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = -1
 		y = 1
 		
@@ -236,7 +236,7 @@
 	}
 	focus = { 
 		id = TSR_steal_horse_from_neighbor
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 0
 		y = 1
 		
@@ -284,7 +284,7 @@
 	
 	focus = { 
 		id = TSR_tax_peasantry
-		icon = a
+		icon = GFX_goal_generic_neutrality_focus
 		x = 1
 		y = 1
 		
@@ -318,7 +318,7 @@
 	}
 	focus = { 
 		id = TSR_rev_up_the_money_printer
-		icon = a
+		icon = GFX_goal_generic_propaganda
 		x = 0
 		y = 1
 		
@@ -352,7 +352,7 @@
 	}
 	focus = { 
 		id = TSR_sell_artifacts
-		icon = a
+		icon = GFX_goal_focus_sell_off_artifacts
 		x = 0
 		y = 1
 		
@@ -387,7 +387,7 @@
 	}
 	focus = { 
 		id = TSR_steal_johansen_horses
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = -2
 		y = 1
 		
@@ -436,7 +436,7 @@
 	}
 	focus = { 
 		id = TSR_peace_money_stability
-		icon = a
+		icon = GFX_goal_generic_demand_territory
 		x = 0
 		y = 1
 		

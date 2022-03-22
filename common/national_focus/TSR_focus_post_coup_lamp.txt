@@ -16,7 +16,7 @@ focus_tree = {
 
  	focus = { 
  		id = TSR_entering_palace
- 		icon = a
+ 		icon = GFX_goal_focus_patriarch_people
  		x = 14
  		y = 1
 
@@ -44,7 +44,7 @@ focus_tree = {
 
  	focus = { 
  		id = TSR_conversion_benefits
- 		icon = a
+ 		icon = GFX_goal_generic_propaganda
  		x = -1
  		y = 1
 
@@ -75,7 +75,7 @@ focus_tree = {
 
     focus = {
    		id = TSR_universal_education
- 		icon = a
+ 		icon = GFX_focus_research
  		x = 0
  		y = 1
 
@@ -109,7 +109,7 @@ focus_tree = {
 
     focus = {
    		id = TSR_charity_state
- 		icon = a
+ 		icon = GFX_goal_generic_national_unity
  		x = 0
  		y = 1
 
@@ -142,7 +142,7 @@ focus_tree = {
 	}
         focus = {
    		id = TSR_religious_law
- 		icon = a
+ 		icon = GFX_goal_generic_neutrality_focus
  		x = 1
  		y = 1
 
@@ -173,7 +173,7 @@ focus_tree = {
 
         focus = {
    		id = TSR_religious_items
- 		icon = a
+ 		icon = GFX_goal_generic_production
  		x = 0
  		y = 1
 
@@ -210,7 +210,7 @@ focus_tree = {
 
          focus = {
    		id = TSR_obliterate_dissents
- 		icon = a
+ 		icon = GFX_goal_focus_recruit_peasantry_lamp
  		x = 0
  		y = 1
 
@@ -242,7 +242,7 @@ focus_tree = {
 
          focus = {
    		id = TSR_holy_kingdom
- 		icon = a
+ 		icon = GFX_goal_focus_patriarch_people
  		x = -1
  		y = 1
 
