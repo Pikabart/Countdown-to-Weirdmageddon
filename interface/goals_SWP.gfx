@@ -1,0 +1,18 @@
+spriteTypes = {	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_coalition_of_the_swamp"
+	texturefile = "gfx/interface/goals/SWP/focus_coalition_of_the_swamp.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_SWP_election"
+	texturefile = "gfx/interface/goals/SWP/focus_SWP_election.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_blow_mewman_roads"
+	texturefile = "gfx/interface/goals/SWP/focus_blow_mewman_roads.dds"			
+	}
+
+} ### End Bracket

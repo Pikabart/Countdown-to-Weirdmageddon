@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = { 
 		id = DTH_our_new_lands
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 14
 		y = 1
 		
@@ -43,7 +43,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_convert_krasnok_mines
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = -2
 		y = 1
 		
@@ -82,7 +82,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_extraction_krasnok_mines
-		icon = a
+		icon = GFX_goal_generic_construct_civilian
 		x = 0
 		y = 1
 		
@@ -120,7 +120,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_development_krasnok_mines
-		icon = a
+		icon = GFX_goal_generic_construct_civilian
 		x = 0
 		y = 1
 		
@@ -158,7 +158,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_convert_neu_silesia
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		
@@ -197,7 +197,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_extraction_neu_silesia
-		icon = a
+		icon = GFX_goal_generic_construct_civilian
 		x = 0
 		y = 1
 		
@@ -235,7 +235,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_development_neu_silesia
-		icon = a
+		icon = GFX_goal_generic_construct_civilian
 		x = 0
 		y = 1
 		
@@ -273,7 +273,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_convert_neu_pruben
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 2
 		y = 1
 		
@@ -312,7 +312,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_extraction_neu_pruben
-		icon = a
+		icon = GFX_goal_generic_construct_civilian
 		x = 0
 		y = 1
 		
@@ -350,7 +350,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_development_neu_pruben
-		icon = a
+		icon = GFX_goal_generic_construct_civilian
 		x = 0
 		y = 1
 		
@@ -388,7 +388,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_determine_doctrine
-		icon = a
+		icon = GFX_goal_generic_dangerous_deal
 		x = 0
 		y = 1
 		
@@ -422,7 +422,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_janna_bannana
-		icon = a
+		icon = GFX_goal_focus_DTH_janna_bannana
 		x = 0
 		y = 1
 		
@@ -456,7 +456,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_nature_worship
-		icon = a
+		icon = GFX_goal_focus_DTH_ethereal_gardener
 		x = -2
 		y = 1
 		
@@ -490,7 +490,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_death_cult
-		icon = a
+		icon = GFX_goal_focus_DTH_practical_darkness
 		x = 2
 		y = 1
 		
@@ -524,7 +524,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_mil_factory_1
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		
@@ -569,7 +569,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_mil_factory_2
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		
@@ -614,7 +614,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_civ_factory_1
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = -4
 		y = 1
 		
@@ -659,7 +659,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_civ_factory_2
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		
@@ -704,7 +704,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_peoples_fanatacisim
-		icon = a
+		icon = GFX_goal_generic_allies_build_infantry
 		x = 0
 		y = 1
 		
@@ -735,7 +735,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_army_fanatacisim
-		icon = a
+		icon = GFX_goal_generic_secret_weapon
 		x = 0
 		y = 1
 		
@@ -772,7 +772,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_proper_temple
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 1
 		y = 1
 		
@@ -810,7 +810,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_proper_doctrine
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = -1
 		y = 1
 		
@@ -844,7 +844,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DTH_look_outwards
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 1
 		y = 1
 		

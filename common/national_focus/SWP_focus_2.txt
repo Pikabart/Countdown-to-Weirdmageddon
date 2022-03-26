@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100
-		#	tag = SWP
+			add = 100
+			tag = SWP
 		}
 	}
 	
@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = { 
 		id = SWP_management_of_the_nation
-		icon = a
+		icon = GFX_goal_generic_neutrality_focus
 		x = 14
 		y = 1
 		
@@ -45,7 +45,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_cultural_negotiation
-		icon = a
+		icon = GFX_goal_generic_propaganda
 		x = -2
 		y = 1
 		relative_position_id = SWP_management_of_the_nation 
@@ -72,7 +72,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_equal_representation
-		icon = a
+		icon = GFX_goal_generic_propaganda
 		x = 0
 		y = 1
 		relative_position_id = SWP_cultural_negotiation 
@@ -99,7 +99,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_connecting_the_country
-		icon = a
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 0
 		y = 1
 		relative_position_id = SWP_management_of_the_nation
@@ -157,7 +157,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_centralize_government_1
-		icon = a
+		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 1
 		relative_position_id = SWP_connecting_the_country
@@ -212,7 +212,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_incorporate_criminals
-		icon = a
+		icon = GFX_goal_generic_dangerous_deal
 		x = 2
 		y = 1
 		relative_position_id = SWP_management_of_the_nation
@@ -239,7 +239,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_sponsor_criminals
-		icon = a
+		icon = GFX_goal_generic_dangerous_deal
 		x = 0
 		y = 1
 		relative_position_id = SWP_incorporate_criminals
@@ -266,7 +266,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_the_election
-		icon = a
+		icon = GFX_goal_focus_SWP_election
 		x = -2
 		y = 1
 		relative_position_id = SWP_sponsor_criminals
@@ -295,7 +295,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_advisor_recruitment
-		icon = a
+		icon = GFX_goal_generic_allies_build_infantry
 		x = -1
 		y = 1
 		relative_position_id = SWP_the_election
@@ -325,7 +325,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_generals
-		icon = a
+		icon = GFX_goal_generic_allies_build_infantry
 		x = 0
 		y = 1
 		relative_position_id = SWP_advisor_recruitment
@@ -354,7 +354,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_basic_economics
-		icon = a
+		icon = GFX_goal_generic_propaganda
 		x = -3
 		y = 1
 		relative_position_id = SWP_the_election
@@ -381,7 +381,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_stock_exchange
-		icon = a
+		icon = GFX_goal_generic_propaganda
 		x = 0
 		y = 1
 		relative_position_id = SWP_basic_economics
@@ -416,7 +416,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_centralize_government_2
-		icon = a
+		icon = GFX_goal_generic_neutrality_focus
 		x = 1
 		y = 1
 		relative_position_id = SWP_stock_exchange
@@ -447,7 +447,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_blow_the_mewman_road
-		icon = a
+		icon = GFX_goal_focus_blow_mewman_roads
 		x = 1
 		y = 1
 		relative_position_id = SWP_the_election
@@ -479,7 +479,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_internal_development
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = SWP_blow_the_mewman_road
@@ -535,7 +535,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_road_project_with_mewmans
-		icon = a
+		icon = GFX_goal_generic_dangerous_deal
 		x = 3
 		y = 1
 		relative_position_id = SWP_the_election
@@ -562,7 +562,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_connecting_the_country_2
-		icon = a
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 0
 		y = 1
 		relative_position_id = SWP_road_project_with_mewmans
@@ -627,7 +627,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_running_water
-		icon = a
+		icon = GFX_goal_generic_construct_infrastructure
 		x = -1
 		y = 1
 		relative_position_id = SWP_connecting_the_country_2
@@ -668,7 +668,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_look_outwards
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 2
 		y = 1
 		relative_position_id = SWP_centralize_government_2

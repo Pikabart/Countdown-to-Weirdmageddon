@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-			add = 100
-			tag = SWP
+		#	add = 100
+		#	tag = SWP
 		}
 	}
 	
@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = { 
 		id = SWP_start
-		icon = a
+		icon = GFX_goal_focus_coalition_of_the_swamp
 		x = 14
 		y = 1
 		
@@ -44,7 +44,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = SWP_quality_troop
-		icon = a
+		icon = GFX_goal_generic_small_arms
 		x = -1
 		y = 1
 		relative_position_id = SWP_start 
@@ -72,7 +72,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SWP_quantity_troop
-		icon = a
+		icon = GFX_goal_generic_allies_build_infantry
 		x = 1
 		y = 1
 		relative_position_id = SWP_start 
@@ -100,7 +100,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SWP_civilian_production
-		icon = a
+		icon = GFX_goal_generic_production
 		x = -2
 		y = 1
 		relative_position_id = SWP_quantity_troop 
@@ -128,7 +128,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SWP_military_production
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = SWP_quantity_troop 
@@ -156,7 +156,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SWP_modern_politics_production
-		icon = a
+		icon = GFX_goal_generic_neutrality_focus
 		x = -2
 		y = 1
 		relative_position_id = SWP_military_production 
@@ -187,7 +187,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SWP_modern_warfare_production
-		icon = a
+		icon = GFX_goal_generic_army_doctrines
 		x = 0
 		y = 1
 		relative_position_id = SWP_military_production 
@@ -224,7 +224,7 @@ focus_tree = {
 
 	focus = {
 		id = SWP_take_state
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = -1
 		y = 1
 		relative_position_id = SWP_modern_warfare_production 
@@ -257,7 +257,7 @@ focus_tree = {
 	}
 	focus = {
 		id = SWP_balance_of_power
-		icon = a
+		icon = GFX_goal_generic_neutrality_focus
 		x = 0
 		y = 1
 		relative_position_id = SWP_take_state
