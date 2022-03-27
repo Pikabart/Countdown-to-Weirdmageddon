@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = { 
 		id = TSR_patriarch_people
-		icon = a
+		icon = GFX_goal_focus_patriarch_people
 		x = 14
 		y = 1
 		
@@ -44,7 +44,7 @@ focus_tree = {
 	
 	focus = { 
 		id = TSR_illuminate_misdoings
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = -1
 		y = 1
 		
@@ -75,7 +75,7 @@ focus_tree = {
   
         focus = {
   		id = TSR_enshrine_patriarch
-		icon = a
+		icon = GFX_goal_generic_demand_territory
 		x = 0
 		y = 1
 		
@@ -106,7 +106,7 @@ focus_tree = {
   
         focus = {
   		id = TSR_demonize_tsar
-		icon = a
+		icon = GFX_goal_generic_secret_weapon
 		x = 0
 		y = 1
 		
@@ -137,7 +137,7 @@ focus_tree = {
   
         focus = {
   		id = TSR_sabotage_plans_lampist
-		icon = a
+		icon = GFX_goal_generic_forceful_treaty
 		x = 1
 		y = 1
 		
@@ -172,7 +172,7 @@ focus_tree = {
   
         focus = {
   		id = TSR_repurpose_buildings
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		
@@ -218,7 +218,7 @@ focus_tree = {
   
         focus = {
   		id = TSR_recruit_peasantry
-		icon = a
+		icon = GFX_goal_focus_recruit_peasantry_lamp
 		x = 0
 		y = 1
 		
@@ -250,7 +250,7 @@ focus_tree = {
   
         focus = {
   		id = TSR_peoples_coup
-		icon = a
+		icon = GFX_goal_generic_propaganda
 		x = -1
 		y = 1
 		

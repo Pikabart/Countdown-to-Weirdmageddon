@@ -16,7 +16,7 @@ focus_tree = {
 	
 	focus = { 
 		id = TSR_MIL_daggers_with_the_people
-		icon = a
+		icon = GFX_goal_generic_secret_weapon
 		x = 14
 		y = 1
 		
@@ -43,7 +43,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = TSR_MIL_police_corps
-		icon = a
+		icon = GFX_goal_generic_build_tank
 		x = -1
 		y = 1
 		
@@ -73,7 +73,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = TSR_MIL_judge_jury_exec
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		
@@ -107,7 +107,7 @@ focus_tree = {
 	
 	focus = { 
 		id = TSR_MIL_loyalty_or_death
-		icon = a
+		icon = GFX_goal_generic_allies_build_infantry
 		x = 0
 		y = 1
 		
@@ -140,7 +140,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = TSR_MIL_military_above_all
-		icon = a
+		icon = GFX_goal_generic_army_doctrines
 		x = 1
 		y = 1
 		
@@ -172,7 +172,7 @@ focus_tree = {
 
 	focus = { 
 		id = TSR_MIL_all_serve_the_military
-		icon = a
+		icon = GFX_goal_generic_small_arms
 		x = 0
 		y = 1
 		
@@ -203,7 +203,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = TSR_MIL_culture_serve_military
-		icon = a
+		icon = GFX_goal_generic_propaganda
 		x = 0
 		y = 1
 		
@@ -234,7 +234,7 @@ focus_tree = {
 	
 	focus = { 
 		id = TSR_MIL_society_under_the_jackboot
-		icon = a
+		icon = GFX_goal_focus_under_the_jackboot
 		x = -1
 		y = 1
 		

@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = { 
 		id = TSR_MIL_plan
-		icon = a
+		icon = GFX_goal_generic_forceful_treaty
 		x = 14
 		y = 1
 		
@@ -47,7 +47,7 @@ focus_tree = {
 	
 	focus = { 
 		id = TSR_MIL_loyalists
-		icon = a
+		icon = GFX_goal_generic_allies_build_infantry
 		x = -1
 		y = 1
 		
@@ -102,7 +102,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = TSR_MIL_bribery_blackmail
-		icon = a
+		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 1
 		
@@ -135,7 +135,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = TSR_MIL_flex
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		
@@ -168,7 +168,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = TSR_MIL_sabatoge
-		icon = a
+		icon = GFX_goal_generic_forceful_treaty
 		x = 1
 		y = 1
 		
@@ -202,7 +202,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = TSR_MIL_manipulate_schedule
-		icon = a
+		icon = GFX_goal_generic_forceful_treaty
 		x = 0
 		y = 1
 		
@@ -235,7 +235,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = TSR_MIL_roadblocks
-		icon = a
+		icon = GFX_goal_generic_defence
 		x = 0
 		y = 1
 		
@@ -269,7 +269,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = TSR_MIL_coup
-		icon = a
+		icon = GFX_goal_generic_demand_territory
 		x = -1
 		y = 1
 		
@@ -303,7 +303,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = TSR_MIL_parade
-		icon = a
+		icon = GFX_goal_focus_victory_parade
 		x = 0
 		y = 1
 		

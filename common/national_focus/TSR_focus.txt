@@ -5,8 +5,8 @@
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100
-		#	tag = TSR
+			add = 100
+			tag = TSR
 		}
 	}
 	

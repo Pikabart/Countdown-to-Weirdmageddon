@@ -113,5 +113,35 @@ spriteTypes = {
 	name = "GFX_goal_focus_queen_purge"
 	texturefile = "gfx/interface/goals/TSR/focus_queen_purge.dds"			
 	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_victory_parade"
+	texturefile = "gfx/interface/goals/TSR/focus_victory_parade.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_under_the_jackboot"
+	texturefile = "gfx/interface/goals/TSR/focus_under_the_jackboot.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_patriarch_people"
+	texturefile = "gfx/interface/goals/TSR/focus_patriarch_people.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_recruit_peasantry_lamp"
+	texturefile = "gfx/interface/goals/TSR/focus_recruit_peasantry_lamp.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_break_protests"
+	texturefile = "gfx/interface/goals/TSR/focus_break_protests.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_sell_off_artifacts"
+	texturefile = "gfx/interface/goals/TSR/focus_sell_off_artifacts.dds"			
+	}
 
 } ### End Bracket
