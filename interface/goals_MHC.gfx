@@ -1,0 +1,8 @@
+spriteTypes = {	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_cosmia"
+	texturefile = "gfx/interface/goals/MHC/focus_cosmia.dds"			
+	}
+
+} ### End Bracket

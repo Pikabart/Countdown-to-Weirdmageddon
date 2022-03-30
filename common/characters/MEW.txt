@@ -273,6 +273,33 @@ characters = {
 		
 	}
 	
+	MEW_jelly_goodwell = {
+		name = "Dr. Jelly Goodwell" 
+		desc = ""
+		portraits = {
+			civilian={
+				large = "gfx/leaders/MEW/hoi4_portrait_goodwell.dds"
+				small= "GFX_idea_advisor_goodwell"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = MEW
+			}
+			available = {
+			}
+								
+			traits = { monster_researcher }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		
+		}
+		
+	}
+	
 	MEW_adolf = {
 		name = "Señor Adolfus Hitos" 
 		desc = ""
@@ -302,7 +329,7 @@ characters = {
 	}
 	
 	MEW_poe = {
-		name = "Elspeth "PoetryAreWe" Poe" 
+		name = "Elspeth 'PoetryAreWe' Poe" 
 		desc = ""
 		portraits = {
 			civilian={

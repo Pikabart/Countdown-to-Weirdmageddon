@@ -33,7 +33,7 @@ rebel_requirement_2_tooltip:0 "Requires less than or equal to §Y2 Hundred Thous
 rebel_requirement_1_tooltip:0 "Requires less than or equal to §Y1 Hundred Thousand§! Monster Rebels"
 
 MHC_bigger_ambitions:0 "Bigger Ambitions"
-MHC_bigger_ambitions_desc:0 "Our administration, although not officially a nation, effectively is one. We were etablished with an express, temporary purpose. But Jenny Cosmia has bigger ambitions."
+MHC_bigger_ambitions_desc:0 "Our administration, although not de jure a nation, de facto is one. We were etablished with an express, temporary purpose. But Jenny Cosmia has bigger ambitions."
 
 MHC_monster_translation:0 "Monster Translation"
 MHC_monster_translation_desc:0 "We will start translating the Monster tounge so that we can understand them and, more importantly, the monsters can understand us. If they can even comprehend higher thought..."
@@ -42,7 +42,7 @@ MHC_propaganda_experimentation:0 "Propaganda Expirementation"
 MHC_propaganda_experimentation_desc:0 "The Butterflies have deemed us a testing ground for new propaganda expirements."
 
 MHC_phase_out_inferior_tongue:0 "Phasing Out the Inferior Tongue"
-MHC_phase_out_inferior_tongue_desc:0 "We will start making the Mewman language more and more favorable to speak. Writing law only in mewman, making mewman the official language, etc."
+MHC_phase_out_inferior_tongue_desc:0 "We will start making the Mewman language more and more favorable to speak. Writing law only in Mewman, conducting business only in Mewman, etc."
 
 MHC_free_language_courses:0 "Free Language Courses"
 MHC_free_language_courses_desc:0 "There are monsters who wish to speak Mewman, but are unable to do so because they dont know how. We will provide them with classes on Mewman, free of charge. Don't think of it as us bending the knee and accomadating them, think of it as brining civilization to these savages!"
@@ -66,7 +66,7 @@ MHC_still_not_mewman_enough:0 "Still not Mewman Enough!"
 MHC_still_not_mewman_enough_desc:0 "The Monsters have adopted all they can from Mewman society, and yet it isn't enough! The way the move, the way they make gestures, its all too monstery!"
 
 MHC_add_onto_mewman_culture:0 "Add Onto Mewman Culture"
-MHC_add_onto_mewman_culture_desc:0 "We will start adding onto the Mewman culture the Monsters have to adopt. We will start small, like having a "Mewman Greeting." And a "Mewman Dance.""
+MHC_add_onto_mewman_culture_desc:0 "We will start adding new things onto Mewman culture so the Monsters have to adopt it. We will start small, like having a unique "Mewman Greeting." And a unique "Mewman Dance.""
 
 MHC_ministry_of_culture:0 "Ministry of Culture"
 MHC_ministry_of_culture_desc:0 "We will establish a special organization to add onto the unique Mewman culture that the Monsters will have to adopt."

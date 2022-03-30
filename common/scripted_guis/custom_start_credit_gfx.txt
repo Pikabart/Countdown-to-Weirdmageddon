@@ -14,6 +14,17 @@ scripted_gui = {
 				clr_country_flag = GAME_BIG_START_CREDIT_CUSTOM ### this disables the country flag #that fires the superevent (so the superevent actually goes away)
 			}
 		}
+		ai_enabled = {
+			always = yes
+		}
+		
+		ai_weights = {
+			Option_click = {
+				ai_will_do = {
+					base = 100
+				}
+			}
+		}
 		
 	}
 	

@@ -17,7 +17,9 @@ country_event = {
 	option = { 
 		name = MHC_flavor.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = MHC_flavor.4 days = 30 }
+		hidden_effect = {
+			country_event = { id = MHC_flavor.4 days = 30 }
+		}
 	}
 }
 

@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = { 
 		id = MHC_bigger_ambitions
-		icon = a
+		icon = GFX_goal_focus_cosmia
 		x = 14
 		y = 1
 		
@@ -44,7 +44,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_monster_translation
-		icon = a
+		icon = GFX_goal_generic_dangerous_deal
 		x = -3
 		y = 1
 		relative_position_id = MHC_bigger_ambitions 
@@ -78,7 +78,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_propaganda_experimentation
-		icon = a
+		icon = GFX_goal_generic_propaganda
 		x = 0
 		y = 1
 		relative_position_id = MHC_monster_translation 
@@ -112,7 +112,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_phase_out_inferior_tongue 
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		relative_position_id = MHC_propaganda_experimentation 
@@ -148,7 +148,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_free_language_courses
-		icon = a
+		icon = GFX_goal_generic_neutrality_focus
 		x = 0
 		y = 1
 		relative_position_id = MHC_phase_out_inferior_tongue 
@@ -181,7 +181,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_start_them_young
-		icon = a
+		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 1
 		relative_position_id = MHC_free_language_courses 
@@ -217,7 +217,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_ban_the_previous_language
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		relative_position_id = MHC_start_them_young 
@@ -253,7 +253,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_introduce_mewman_celebrations
-		icon = a
+		icon = GFX_goal_generic_propaganda
 		x = 0
 		y = 1
 		relative_position_id = MHC_ban_the_previous_language 
@@ -287,7 +287,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_encourage_corn_growth
-		icon = a
+		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 1
 		relative_position_id = MHC_introduce_mewman_celebrations 
@@ -320,7 +320,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_ban_unmewman_foods
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		relative_position_id = MHC_encourage_corn_growth 
@@ -356,7 +356,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_still_not_mewman_enough
-		icon = a
+		icon = GFX_goal_generic_demand_territory
 		x = 0
 		y = 1
 		relative_position_id = MHC_ban_unmewman_foods 
@@ -389,7 +389,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_add_onto_mewman_culture
-		icon = a
+		icon = GFX_goal_generic_propaganda
 		x = 0
 		y = 1
 		relative_position_id = MHC_still_not_mewman_enough 
@@ -422,7 +422,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_ministry_of_culture
-		icon = a
+		icon = GFX_goal_generic_fortify_city
 		x = 0
 		y = 1
 		relative_position_id = MHC_add_onto_mewman_culture 
@@ -463,7 +463,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_local_recruitment
-		icon = a
+		icon = GFX_goal_generic_forceful_treaty
 		x = 3
 		y = 1
 		relative_position_id = MHC_bigger_ambitions 
@@ -497,7 +497,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_no_mercy
-		icon = a
+		icon = GFX_goal_generic_secret_weapon
 		x = 0
 		y = 1
 		relative_position_id = MHC_local_recruitment 
@@ -531,7 +531,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_path_to_forgivness
-		icon = a
+		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 1
 		relative_position_id = MHC_no_mercy 
@@ -567,7 +567,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_info_for_immunity
-		icon = a
+		icon = GFX_goal_generic_dangerous_deal
 		x = 0
 		y = 1
 		relative_position_id = MHC_path_to_forgivness 
@@ -601,7 +601,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_info_for_money
-		icon = a
+		icon = GFX_goal_generic_dangerous_deal
 		x = 0
 		y = 1
 		relative_position_id = MHC_info_for_immunity 
@@ -635,7 +635,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_seize_arms
-		icon = a
+		icon = GFX_goal_generic_small_arms
 		x = 0
 		y = 1
 		relative_position_id = MHC_info_for_money 
@@ -671,7 +671,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_riot_suppression
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		relative_position_id = MHC_seize_arms 
@@ -708,7 +708,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_monitor_purchases
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		relative_position_id = MHC_riot_suppression 
@@ -741,7 +741,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_throughly_disarmed_monsters
-		icon = a
+		icon = GFX_goal_generic_small_arms
 		x = 0
 		y = 1
 		relative_position_id = MHC_monitor_purchases 
@@ -777,7 +777,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_counter_protests
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		relative_position_id = MHC_throughly_disarmed_monsters 
@@ -815,7 +815,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_snuff_them_out
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		relative_position_id = MHC_counter_protests 
@@ -848,7 +848,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_succssfully_supressed
-		icon = a
+		icon = GFX_goal_generic_demand_territory
 		x = 0
 		y = 1
 		relative_position_id = MHC_snuff_them_out 
@@ -884,7 +884,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_civ_factory
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 1
 		y = 1
 		relative_position_id = MHC_bigger_ambitions 
@@ -925,7 +925,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_handouts
-		icon = a
+		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 1
 		relative_position_id = MHC_civ_factory 
@@ -952,7 +952,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_civ_factory_2
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_handouts 
@@ -993,7 +993,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_research_anomalies
-		icon = a
+		icon = GFX_focus_research
 		x = 0
 		y = 1
 		relative_position_id = MHC_civ_factory_2 
@@ -1026,7 +1026,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_civ_factory_3
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_research_anomalies 
@@ -1067,7 +1067,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_civ_factory_4
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_civ_factory_3 
@@ -1108,7 +1108,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_civ_factory_5
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_civ_factory_4 
@@ -1149,7 +1149,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_civ_factory_6
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_civ_factory_5 
@@ -1190,7 +1190,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_civ_factory_7
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_civ_factory_6 
@@ -1231,7 +1231,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_civ_factory_8
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_civ_factory_7 
@@ -1272,7 +1272,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_civ_factory_9
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_civ_factory_8 
@@ -1313,7 +1313,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_civ_factory_10
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_civ_factory_9 
@@ -1354,7 +1354,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_mil_factory
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = -1
 		y = 1
 		relative_position_id = MHC_bigger_ambitions 
@@ -1395,7 +1395,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_keeping_an_eye_on_ludo
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
 		relative_position_id = MHC_mil_factory 
@@ -1426,7 +1426,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_mil_factory_2
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_keeping_an_eye_on_ludo 
@@ -1467,7 +1467,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_forward_operating_bases
-		icon = a
+		icon = GFX_goal_generic_fortify_city
 		x = 0
 		y = 1
 		relative_position_id = MHC_mil_factory_2 
@@ -1545,7 +1545,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_mil_factory_3
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_forward_operating_bases 
@@ -1586,7 +1586,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_mil_factory_4
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_mil_factory_3 
@@ -1627,7 +1627,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_mil_factory_5
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_mil_factory_4 
@@ -1668,7 +1668,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_mil_factory_6
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_mil_factory_5 
@@ -1709,7 +1709,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_mil_factory_7
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_mil_factory_6 
@@ -1750,7 +1750,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_mil_factory_8
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_mil_factory_7 
@@ -1791,7 +1791,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_mil_factory_9
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_mil_factory_8 
@@ -1832,7 +1832,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = MHC_mil_factory_10
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = MHC_mil_factory_9 

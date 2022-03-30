@@ -33,4 +33,9 @@ spriteTypes = {
 			name = "GFX_idea_advisor_stabby"
 			texturefile = "gfx/interface/advisors/MEW/advisor_stabby.dds"
 		}
+	
+	spriteType = {
+			name = "GFX_idea_advisor_goodwell"
+			texturefile = "gfx/interface/advisors/MEW/advisor_goodwell.dds"
+		}
 }
