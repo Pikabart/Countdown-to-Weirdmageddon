@@ -1,0 +1,9 @@
+### Leaders, Generals, Admirals for ORE ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_leaders_CLASSIFIED"
+			texturefile = "gfx/leaders/EPI/hoi4_portrait_FPI_HOLDER.dds"
+	}
+	
+}

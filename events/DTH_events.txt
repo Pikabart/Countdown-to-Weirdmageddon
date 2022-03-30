@@ -76,7 +76,7 @@ country_event = {
 			promote_leader = yes
 			Country_leader = {
 				ideology = nazism
-				expire = “2040.1.1.1”
+				expire = "2040.01.01.01"
 				traits = {
 					absent_ruler
 				}
@@ -103,7 +103,7 @@ country_event = {
 			promote_leader = yes
 			Country_leader = {
 				ideology = nazism
-				expire = “2040.1.1.1”
+				expire = "2040.01.01.01"
 				traits = {
 				}
 			}
@@ -128,7 +128,7 @@ country_event = {
 			promote_leader = yes
 			Country_leader = {
 				ideology = nazism
-				expire = “2040.1.1.1”
+				expire = "2040.01.01.01"
 				traits = {
 					unstable
 					death_cultist

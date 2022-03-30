@@ -5,6 +5,7 @@
 add_namespace = CAL_TWOWORLDS
 add_namespace = CAL_JANNA
 add_namespace = CAL_GUSTAV
+add_namespace = CAL_IPD
 
 ############################################################################################################
 
@@ -199,27 +200,29 @@ country_event = {  #
 	id = CAL_GUSTAV.5
 	title = CAL_GUSTAV.5.t
 	desc = CAL_GUSTAV.5.d
-	picture = GFX_report_event_star_spying
+	picture = GFX_report_event_bakersfieldville
 	
 	is_triggered_only = yes
 	
 	option = { 
-		name = CAL_GUSTAV.5.a
+		name = CAL_GUSTAV.5.a  # Calls him out
 		ai_chance = { factor = 90 }	# 100% AI choose this
 		country_event = { id = CAL_GUSTAV.6 days = 21}
+		set_country_flag = cal_gustav_home
 	}
 	option = { 
-		name = CAL_GUSTAV.5.b
+		name = CAL_GUSTAV.5.b  # Goes with it
 		ai_chance = { factor = 10 }	# 100% AI choose this
 		country_event = { id = CAL_GUSTAV.7 days = 21}
+		set_country_flag = cal_gustav_echo
 	}
 }
 
-country_event = {  # 
+country_event = {  # Bakersfieldville known
 	id = CAL_GUSTAV.6
 	title = CAL_GUSTAV.6.t
 	desc = CAL_GUSTAV.6.d
-	picture = GFX_report_event_star_spying
+	picture = GFX_report_event_bakersfieldville_happy
 	
 	is_triggered_only = yes
 	
@@ -229,16 +232,149 @@ country_event = {  #
 	}
 }
 
-country_event = {  # 
+country_event = {  # Bakersfieldville ignored
 	id = CAL_GUSTAV.7
 	title = CAL_GUSTAV.7.t
 	desc = CAL_GUSTAV.7.d
-	picture = GFX_report_event_star_spying
+	picture = GFX_report_event_gustav
 	
 	is_triggered_only = yes
 	
 	option = { 
 		name = CAL_GUSTAV.7.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {  # Bakersfieldville becomes the capital
+	id = CAL_GUSTAV.8
+	title = CAL_GUSTAV.8.t
+	desc = CAL_GUSTAV.8.d
+	picture = GFX_report_event_bakersfieldville_happy
+	
+	is_triggered_only = yes
+	#immediate = {}
+	
+	option = { 
+		name = CAL_GUSTAV.8.a
+		custom_effect_tooltip = CAL_GUSTAV.8.tt
+		add_political_power = -200
+		161 = { 
+			add_core_of = CAL
+			remove_core_of = SOC
+		}
+		transfer_state = 161
+		set_capital = {state = 161}
+		
+		add_to_variable = {
+			var = cal_norton_norcal
+			value = 50
+		}
+		###################
+		clamp_variable = {
+			var = cal_norton_norcal
+			min = 0
+			max = 100
+		}
+		add_to_variable = {
+			var = cal_norton_socal
+			value = 50
+		}
+		###################
+		clamp_variable = {
+			var = cal_norton_socal
+			min = 0
+			max = 100
+		}
+		###################
+		###################
+		###################
+		add_to_variable = {
+			var = cal_pIDR
+			value = -20
+		}
+		###################
+		clamp_variable = {
+			var = cal_pIDR
+			min = 0
+			max = 100
+		}
+		add_to_variable = {
+			var = cal_tIDR
+			value = -20
+		} 
+		###################
+		clamp_variable = {
+			var = cal_tIDR
+			min = 0
+			max = 100
+		}
+		add_to_variable = {
+			var = cal_hectorNDR
+			value = -20
+		}
+		###################
+		clamp_variable = {
+			var = cal_hectorNDR
+			min = 0
+			max = 100
+		}
+		
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		
+	}
+}
+
+country_event = {  # Bakersfieldville forever ignored
+	id = CAL_GUSTAV.9
+	title = CAL_GUSTAV.9.t
+	desc = CAL_GUSTAV.9.d
+	picture = GFX_report_event_gustav
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_GUSTAV.9.a
+		custom_effect_tooltip = CAL_GUSTAV.9.tt
+		add_political_power = 100
+		161 = { 
+			add_core_of = MCA
+			remove_core_of = SOC
+		}
+		MCA = {
+			transfer_state = 161
+		}
+		puppet = MCA
+		add_to_variable = {
+			var = cal_pIDR
+			value = 20
+		}
+		###################
+		clamp_variable = {
+			var = cal_pIDR
+			min = 0
+			max = 100
+		}
+		add_to_variable = {
+			var = cal_tIDR
+			value = 20
+		}
+		###################
+		clamp_variable = {
+			var = cal_tIDR
+			min = 0
+			max = 100
+		}
+		add_to_variable = {
+			var = cal_hectorNDR
+			value = 20
+		}
+		###################
+		clamp_variable = {
+			var = cal_hectorNDR
+			min = 0
+			max = 100
+		}
 		ai_chance = { factor = 100 }	# 100% AI choose this
 	}
 }
@@ -270,21 +406,3 @@ country_event = {
 
 ########################################################################################################
 
-country_event = {  # If Mewni REC fails to pay loan
-	id = CAL_NWB.1
-	title = CAL_NWB.1.t
-	desc = CAL_NWB.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
-	
-	is_triggered_only = yes
-	
-	option = { 
-		name = CAL_NWB.1.a
-		ai_chance = { factor = 0 }	# 0% AI choose this
-	}
-	option = { 
-		name = CAL_NWB.1.b
-		ai_chance = { factor = 100 }	# 100% AI choose this
-		MEW = { remove_ideas = MEW_northwest_pain }
-	}
-}

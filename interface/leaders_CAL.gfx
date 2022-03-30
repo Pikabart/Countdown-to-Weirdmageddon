@@ -29,5 +29,9 @@ spriteTypes = {
 			name = "GFX_leaders_carman_evertt"
 			texturefile = "gfx/leaders/CAL/hoi4_portrait_FPI_HOLDER.dds"
 	}	
+	spriteType = {
+			name = "GFX_leaders_sad_man" 
+			texturefile = "gfx/leaders/CAL/Portrait_CAL_Sad_Man.dds"
+	}	
 	
 }

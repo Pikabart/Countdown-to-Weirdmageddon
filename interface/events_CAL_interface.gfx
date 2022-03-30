@@ -4,8 +4,20 @@
 spriteTypes = {
 
 	spriteType = { # 
+		name = "GFX_report_event_california_flag"
+		texturefile = "gfx/event_country_pictures/CAL/report_event_california_flag.dds"
+	}
+	spriteType = { # 
 		name = "GFX_report_event_gustav"
 		texturefile = "gfx/event_country_pictures/CAL/report_event_gustav.dds"
+	}
+	spriteType = { # 
+		name = "GFX_report_event_bakersfieldville"
+		texturefile = "gfx/event_country_pictures/CAL/report_event_bakersfieldville.dds"
+	}
+	spriteType = { #  
+		name = "GFX_report_event_bakersfieldville_happy"
+		texturefile = "gfx/event_country_pictures/CAL/report_event_bakersfieldville_happy.dds"
 	}
 	spriteType = { # 
 		name = "GFX_report_event_star_uninpressed"
@@ -19,10 +31,10 @@ spriteTypes = {
 		name = "GFX_report_event_janna_marco_info"
 		texturefile = "gfx/event_country_pictures/CAL/report_event_janna_marco_info.dds"
 	}
-	#spriteType = { # 
-	#	name = "GFX_report_event_janna_marco_info"
-	#	texturefile = "gfx/event_country_pictures/CAL/report_event_janna_death_cult_1.dds" 
-	#}
+	spriteType = { # 
+		name = "GFX_report_event_janna_cult"
+		texturefile = "gfx/event_country_pictures/CAL/report_event_janna_death_cult_1.dds" 
+	}
 
 	
 	

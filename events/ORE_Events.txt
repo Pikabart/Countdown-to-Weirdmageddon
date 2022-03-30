@@ -171,12 +171,7 @@ country_event = { # Trembley declares Rival government
 		ai_chance = { factor = 99 }	# 95% AI choose this
 		
 		retire_country_leader = yes
-		create_country_leader = {
-			name = "Quentin Trembley"
-			desc = "POLITICS_TREMBLEY_DESC"
-			picture = "hoi4_portrait_trembley.dds"
-			ideology = liberalism #conservatism
-		}
+		
 		hidden_effect={
 			add_popularity = {
 				ideology = democratic

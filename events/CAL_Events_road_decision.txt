@@ -149,7 +149,7 @@ country_event = {
 				type = rail_way
 				damage = 3
 			}
-		}
+		} 
 		SOC = {
 			random_owned_state = {
 				damage_building = {

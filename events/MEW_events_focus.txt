@@ -424,7 +424,7 @@ country_event = {
 				Promote_leader = yes
 				Country_leader = {
 					ideology = oligarchism
-					expire = “2040.1.1.1”
+					expire = "2040.01.01.01"
 				}
 			}
 			MEW = { country_event = { id = controlled_burning.3 days = 28 } }

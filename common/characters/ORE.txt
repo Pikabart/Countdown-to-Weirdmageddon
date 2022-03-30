@@ -15,14 +15,15 @@ characters = {
 		}
 	}
 	
-	ORE_andrew_chiu = {
-		name = "Andrew Chiu" 
+	ORE_quentin_trembley = {
+		name = "Quentin Trembley" 
 		
 		portraits = {
 			civilian = {
-				large = "GFX_leaders_andrew_chiu"
+				large = "GFX_leaders_quentin_trembley"
 			}
 		}
+		
 		country_leader = {
 			desc = ""
 			ideology = conservatism
@@ -31,6 +32,45 @@ characters = {
 		}
 	}
 	
+	ORE_andrew_chiu = {
+		name = "Andrew Chiu" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_andrew_chiu"
+			}
+		}
+
+		country_leader = {
+			desc = ""
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+	
+	ORE_parson_northwest = {
+		name = "Parson Northwest" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_andrew_chiu"
+			}
+		}
+		
+		field_marshal = {
+			desc = "MILITARY_PARSON_NORTHWEST_DESC"
+			traits = { career_officer commando inspirational_leader }
+			skill = 5
+			
+
+			attack_skill = 2
+			defense_skill = 2		
+			planning_skill = 6
+			logistics_skill = 6
+		}
+		
+	}
 
 }###########################################################
 	

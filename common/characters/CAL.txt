@@ -161,7 +161,7 @@ characters = {
 			id = -1
 		}
 		corps_commander= {
-			traits = { commando trickster}
+			traits = { old_guard commando trickster}
 			skill = 3
 			id = 8
 			

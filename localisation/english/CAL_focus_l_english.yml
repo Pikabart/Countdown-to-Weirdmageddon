@@ -51,7 +51,7 @@
  CAL_assembly.0_desc:0 "California will not stand idly by. We must act fast in our new domestic and foreign affairs if California is to survive and restore the United States."
  CAL_assembly.0.t:0 "Grant +§G20§! Support from §1All Factions§! in California."
  
- CAL_assembly.1:0 "Norton and California"
+ CAL_assembly.1:0 "Norton And California"
  CAL_assembly.1_desc:0 "Norton’s election has divided California and the Californian New Democratic-Republican Party between the Pro-Norton North and Anti-Norton South. We must begin the repair of relationships between the two regions and party blocs if California is to reunite the rest of the United States."
  CAL_assembly.1.t:0 ""
  
@@ -85,8 +85,8 @@
  CAL_domestic.5_desc:0 "As our own nation, its time we put our title as the fifth largest GDP in the world, behind the US, the EU, the IC, and SEATO, to the test. And to do so, we must start from the bottom and support our small businesses. The Mom-and-Pop Shop of today is the Mega-Corp of tomorrow!"
  CAL_domestic.5.t:0 "A §8Moderate Solution§!. This Act will still have some support from the Traditionalist IDR Support as well as from the Moderate NDR. Reaction from the Progressives will be minor, but this won’t placate Traditionalist if we had supported a major Progressive Agenda. "
  
- CAL_domestic.6:0 "Remove Regulations and Restrictions"
- CAL_domestic.6_desc:0 "California still enforcing such bothersome regulations and restrictions, preventing the market from expanding with the US gone. We must be competitive in what still remains of the global market (Which is mostly South America at this point)! Its time to make the Market Free."
+ CAL_domestic.6:0 "Undo Regulations And Reforms"
+ CAL_domestic.6_desc:0 "In this emergency, California is still enforcing such bothersome regulations and needless social reforms. With the US gone, we most stand on our own and preserve our wealth and values.\nRepeal Them All!\nSet the Markets Free and Protect our Traditional Value."
  CAL_domestic.6.t:0 "This §RReactionary Solution§! will greatly improve Emperor Norton's approval among the Traditionalist IDR and decrease the rate of support decay every polling session. However, the Progressive IDR will strongly disapprove this, and their support decay will increase unless we satisfy them with something on their agenda."
  
  CAL_domestic.7:0 "Pass Norton Care"
@@ -114,7 +114,7 @@
  CAL_division.2_desc:0 "While Northern California swept Norton into office, Southern California had far less enthusiasm for him and are themselves divided about him. A tour of the south can help start a campaign of unification and trust building between Norton and the South."
  CAL_division.2.t:0 "Grant +§G20§! Support from §GSouthern California.§!"
  
- CAL_division.3:0 "Diversify the Cabinet"
+ CAL_division.3:0 "Diversify The Cabinet" 
  CAL_division.3_desc:0 "Lumeta has been running around finding politicians to fill Norton's cabinet. Along with clear choices like US Senator Everett as Secretary of State, we can look to Lt. Governor Diaz-Guzman and the south to diversify the cabinet and ensure a balance of political power between the north and south."
  CAL_division.3.t:0 "Grant +§G20§! Support from §GSouthern California§! and the §8Moderate NDR§!.\nGiving them meaningless titles like “Lord” and “Lady” will also help make them invested in Norton's Administration."
  
@@ -126,7 +126,7 @@
  CAL_division.5_desc:0 "It’s becoming abundantly clear that the new congress has no idea how to run a rival government to the eastern US. Even the one in Oregon is more competent than ours. With a loyal and competent cabinet court, its time the Emperor takes direct control of the matters at hand."
  CAL_division.5.t:0 "Norton is the House and the Senate! I like to see someone else be as bicameral as him... the Lieutenant Governor doesn't count."
  
- CAL_division.6:0 "The Question of Bakersfieldville"
+ CAL_division.6:0 "The Question Of Bakersfieldville"
  CAL_division.6_desc:0 "To distract the populace from more critical issues, someone in the State Assembly brought up the city of Bakersfieldville in the Central Valley. This ended badly as Northern and Southern Assembly Members broke into fierce arguing about which part of the state the city is considered part of. No one wanted the sad, depressing place to be part of their half of the state and now Norton must address it."
  CAL_division.6.t:0 "Oh dear God, why did someone even mention that place?\nGrant -§R10§! Support from §1All Factions§! in California."
  

@@ -70,6 +70,10 @@ ORE = {
 	color_ui = rgb { 252  156  12 }
 }
 #------------------------------------
+SOC={ # Middle Cali
+	color = rgb { 232 228 201 }
+	color_ui = rgb { 232 228 201 }
+}
 SOC={ # Southern Cali
 	color = rgb { 204  255  153 }
 	color_ui = rgb { 204  255  153 }

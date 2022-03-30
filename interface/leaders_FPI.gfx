@@ -1,0 +1,19 @@
+### Leaders, Generals, Admirals for ORE ###
+spriteTypes = {
+
+	spriteType = {
+			name = "GFX_leaders_CLASSIFIED"
+			texturefile = "gfx/leaders/EPI/hoi4_portrait_FPI_HOLDER.dds"
+	}
+	
+	spriteType = {
+			name = "GFX_leaders_beth_amarin"
+			texturefile = "gfx/leaders/EPI/Portrait_FPI_Amarin.dds"
+	}
+	
+	spriteType = {
+			name = "GFX_leaders_elin_shroud" 
+			texturefile = "gfx/leaders/WPI/Portrait_FPI_Shroud.dds"
+	}
+	
+}

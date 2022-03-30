@@ -184,7 +184,7 @@ country_event = { # California chooses Olson for Governor
 	immediate = {
 		hidden_effect = {	
 		}
-	}
+	} 
 	
 	option = { 
 		name = CAL_ELECTION.3.a
@@ -302,14 +302,38 @@ country_event = {
 		}
 	}
 }
+country_event = {
+	id = CAL_MILITARY.5
+	title = CAL_MILITARY.5.t
+	desc = CAL_MILITARY.5.d
+	
+	picture = GFX_report_event_generic_factory
 
+	is_triggered_only = yes
+
+
+	immediate = {}
+
+	option = {
+		name = CAL_MILITARY.5.a	
+	}
+	option = {
+		name = CAL_MILITARY.5.b	
+	}
+	option = {
+		name = CAL_MILITARY.5.c	
+	}
+	option = {
+		name = CAL_MILITARY.5.e	
+	}
+}
 ########################################################################################################
 ########################################################################################################
 
 country_event = {
-	id = CAL_IBI.1 
-	title = CAL_IBI.1.t
-	desc = CAL_IBI.1.d
+	id = CAL_IBI.0 
+	title = CAL_IBI.0.t
+	desc = CAL_IBI.0.d
 	
 	picture = GFX_report_event_generic_factory
 
@@ -324,6 +348,23 @@ country_event = {
 		}
 		else = { add_ideas = CAL_no_la_resistance_0}
 	}
+
+	option = {
+		name = CAL_IBI.0.a
+	}
+}
+###################################
+country_event = {
+	id = CAL_IBI.1 
+	title = CAL_IBI.1.t
+	desc = CAL_IBI.1.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {}
 
 	option = {
 		name = CAL_IBI.1.a
@@ -346,6 +387,7 @@ country_event = {
 		name = CAL_IBI.2.a
 	}
 }
+###################################
 country_event = {
 	id = CAL_IBI.3 
 	title = CAL_IBI.3.t
@@ -360,9 +402,9 @@ country_event = {
 
 	option = {
 		name = CAL_IBI.3.a
+		country_event = CAL_IBI.4
 	}
 }
-###################################
 country_event = {
 	id = CAL_IBI.4 
 	title = CAL_IBI.4.t
@@ -377,9 +419,9 @@ country_event = {
 
 	option = {
 		name = CAL_IBI.4.a
+		country_event = CAL_IBI.5
 	}
 }
-###################################
 country_event = {
 	id = CAL_IBI.5 
 	title = CAL_IBI.5.t
@@ -394,6 +436,112 @@ country_event = {
 
 	option = {
 		name = CAL_IBI.5.a
+	}
+}
+###################################
+country_event = {
+	id = CAL_IBI.6 
+	title = CAL_IBI.6.t
+	desc = CAL_IBI.6.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {}
+
+	option = {
+		name = CAL_IBI.6.a
+	}
+}
+###################################
+country_event = {
+	id = CAL_IBI.7 
+	title = CAL_IBI.7.t
+	desc = CAL_IBI.7.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {}
+
+	option = {
+		name = CAL_IBI.7.a
+	}
+}
+###################################
+country_event = {
+	id = CAL_IBI.8 
+	title = CAL_IBI.8.t
+	desc = CAL_IBI.8.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {}
+
+	option = {
+		name = CAL_IBI.8.a
+	}
+}
+
+###################################
+###################################
+###################################
+
+country_event = {
+	id = CAL_BIB_event.1 
+	title = CAL_BIB_event.1.t
+	desc = CAL_BIB_event.1.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {}
+
+	option = {
+		name = CAL_BIB_event.2.a
+	}
+}
+
+country_event = {
+	id = CAL_BIB_event.2 
+	title = CAL_BIB_event.2.t
+	desc = CAL_BIB_event.2.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {}
+
+	option = {
+		name = CAL_BIB_event.2.a
+	}
+}
+
+country_event = {
+	id = CAL_BIB_event.3 
+	title = CAL_BIB_event.3.t
+	desc = CAL_BIB_event.3.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {}
+
+	option = {
+		name = CAL_BIB_event.3.a
 	}
 }
 
@@ -420,7 +568,7 @@ country_event = {  # If Mewni REC fails to pay loan
 
 
 
-country_event = {  # If Mewni REC fails to pay loan
+country_event = {  #
 	id = CAL_TEST.1 
 	title = CAL_TEST.1.t
 	desc = CAL_TEST.1.d
