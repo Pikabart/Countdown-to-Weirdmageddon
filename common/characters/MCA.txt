@@ -1,0 +1,27 @@
+############################################################################
+### SoCal Characters
+############################################################################
+characters = {
+	
+	MCA_sad_man = { 
+		name = "Mayor of Bakersfieldville"
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_sad_man"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			desc = "POLITICS_SAD_MAN_DESC"
+			traits = {  }
+			expire = "2040.1.1.1"
+			id = -1
+		}
+
+	}
+	
+	
+
+}###########################################################
+	

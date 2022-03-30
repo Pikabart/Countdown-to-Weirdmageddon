@@ -52,6 +52,98 @@ spriteTypes = {
 	#################
 	
 	SpriteType = {
+	name = "GFX_goal_procedure_change"
+	texturefile = "gfx/interface/goals/CAL/focus_hol_the_foundations_of_defense.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_california_left_IDR"
+	texturefile = "gfx/interface/goals/CAL/focus_california_left_IDR.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_california_right_IDR"
+	texturefile = "gfx/interface/goals/CAL/focus_california_right_IDR.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_mending"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_mending.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_socal_tour"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_socal_tour.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_UBI"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_UBI.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_social_security"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_social_security.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_small_business"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_small_business.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_repeal_reform"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_repeal_reform.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_cabinet_court"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_cabinet_court.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_congress"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_congress.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_governor_over_congress"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_governor_over_congress.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_backersfieldville"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_backersfieldville.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_california_norton_care" 
+	texturefile = "gfx/interface/goals/CAL/focus_california_norton_care.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_cut_taxes"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_cut_taxes.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_one_government"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_one_government.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_one_california"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_one_california.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_cal_big_game"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_big_game.dds"		
+	}
+	
+	#################
+	
+	SpriteType = {
 	name = "GFX_goal_california_northwest"
 	texturefile = "gfx/interface/goals/CAL/focus_california_northwest.dds"			
 	}

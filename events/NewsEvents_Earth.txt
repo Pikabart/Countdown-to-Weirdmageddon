@@ -2,14 +2,15 @@
 # News Events
 ###########################
 
+add_namespace = launcher_news
+
 add_namespace = multiverse_news
 add_namespace = before_news
 add_namespace = west_election_news
-add_namespace = launcher_news
-
 add_namespace = game_startup
+add_namespace = euro_news
 
-country_event = { #1
+country_event = { # NOT USED
 	id = game_startup.1
 	title = game_startup.1.t 
 	desc = game_startup.1.d  
@@ -210,7 +211,54 @@ news_event = { # State of the Union
 				}
 				news_event = { id = before_news.2 days = 1 }		
 			}
-			#CAL = { news_event = { id = before_news.2 days = 1 } }
+		}
+	}
+	
+	option = {
+		name = launcher_news.7.a
+		ai_chance = { factor = 100 }		
+	}
+}
+
+news_event = { # Euro News Chain - Odds for united euro, even for divided euro
+	id = launcher_news.8
+	title = launcher_news.8.t
+	desc = launcher_news.8.d
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = yes
+	hidden = yes
+	is_triggered_only = yes
+	timeout_days = 1
+	
+	immediate = {
+		hidden_effect = {
+			random_list = {
+				75 = {
+					set_global_flag = GLOBAL_FLAG_euro_united
+					every_country = {
+						limit = {
+							is_in_array = {
+								array = GLOBAL.earth_dimension_countries
+								value = THIS.id
+							}
+						}
+						news_event = { id = euro_news.1 days = 1 }		
+					}
+				}
+				 25 = {
+					set_global_flag = GLOBAL_FLAG_euro_divided
+					every_country = {
+						limit = {
+							is_in_array = {
+								array = GLOBAL.earth_dimension_countries
+								value = THIS.id
+							}
+						}
+						news_event = { id = euro_news.2 days = 1 }		
+					}
+				}
+			}
 		}
 	}
 	
@@ -581,24 +629,247 @@ news_event = { #
 			}
 		}
 	}
-	
-	
+		
 }
 
+###############################################################################
+###############################################################################
 
+country_event = { # EU still united
+	id = euro_news.1
+	title = euro_news.1.t 
+	desc = euro_news.1.d  
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {}
+	
+	option = { 
+		name = euro_news.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
 
+country_event = { # EU backed Levant
+	id = euro_news.2
+	title = euro_news.2.t 
+	desc = euro_news.2.d  
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {}
+	
+	option = { 
+		name = euro_news.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
 
+country_event = { # EU Ramstein Airbase supports the Western US
+	id = euro_news.3
+	title = euro_news.3.t 
+	desc = euro_news.3.d  
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {}
+	
+	option = { 
+		name = euro_news.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
 
+country_event = { # EU GB forced back to port
+	id = euro_news.4
+	title = euro_news.4.t 
+	desc = euro_news.4.d  
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {}
+	
+	option = { 
+		name = euro_news.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
 
+#####################
 
+country_event = { # EU divided
+	id = euro_news.5
+	title = euro_news.5.t 
+	desc = euro_news.5.d  
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {}
+	
+	option = { 
+		name = euro_news.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
 
+country_event = { # EU mediterranean contested
+	id = euro_news.6
+	title = euro_news.6.t 
+	desc = euro_news.6.d  
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {}
+	
+	option = { 
+		name = euro_news.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
 
+country_event = { # EU US-CATO forces allies with Europe
+	id = euro_news.7
+	title = euro_news.7.t 
+	desc = euro_news.7.d  
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {}
+	
+	option = { 
+		name = euro_news.7.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
 
+country_event = { # EU EU-GB naval standoff
+	id = euro_news.8
+	title = euro_news.8.t 
+	desc = euro_news.8.d  
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {}
+	
+	option = { 
+		name = euro_news.8.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
 
+#################################
 
+country_event = { # EU Clashoff Imminent 
+	id = euro_news.9
+	title = euro_news.9.t 
+	desc = euro_news.9.d  
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	fire_only_once = yes     #Can't happen again
 
+	immediate = {
+		random_list = {
+			60 = {set_global_flag = GLOBAL_FLAG_atlantic_no_fight}
+			20 = {set_global_flag = GLOBAL_FLAG_atlantic_usa_victory}
+			20 = {set_global_flag = GLOBAL_FLAG_atlantic_euro_victory}
+		}
+	}
+	
+	option = { 
+		name = euro_news.7.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
 
+country_event = { # EU concedes the Atlantic
+	id = euro_news.10
+	title = euro_news.10.t 
+	desc = euro_news.10.d  
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {}
+	
+	option = { 
+		name = euro_news.10.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
 
+################################# 
+
+country_event = { # Euro Tie-Standdown ALL
+	id = euro_news.11
+	title = euro_news.11.t 
+	desc = euro_news.11.d 
+ 
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {}
+	
+	option = { 
+		name = euro_news.11.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = { # USA Victory
+	id = euro_news.12
+	title = euro_news.12.t 
+	desc = euro_news.12.d 
+ 
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {}
+	
+	option = { 
+		name = euro_news.12.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = { # Euro Victory
+	id = euro_news.13
+	title = euro_news.13.t 
+	desc = euro_news.13.d 
+ 
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {}
+	
+	option = { 
+		name = euro_news.13.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
 
 
 

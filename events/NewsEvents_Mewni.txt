@@ -293,7 +293,7 @@ news_event = { #The Ludo Coup
 			Promote_leader = yes
 			Country_leader = {
 				ideology = oligarchism
-				expire = “2040.1.1.1”
+				expire = "2040.01.01.01"
 			traits = {}
 			}
 		}

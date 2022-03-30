@@ -29,8 +29,8 @@
     cal_norton_north_approval:0 "Norton's §YNorthern Approval Rating§! = [?cal_norton_norcal|+0]"
     cal_norton_south_approval:0 "Norton's §GSouthern Approval Rating§! = [?cal_norton_socal|+0]"
     cal_party_PIDR:0 "§4Progressive Imperial Democratic-Republican Support§! = [?cal_pIDR|+0]"
-    cal_party_TIDR:0 "§RTraditional Imperial Democratic-Republican Support§! = [?cal_tIDR|+0]"
-    cal_party_MNDR:0 "§8Moderate New Democratic-Republican Support§! = [?cal_hectorNDR|+0]\n§8Level of Moderate Support§! = [?cal_compromise_NDR|+0] of §Y5§!"
+    cal_party_TIDR:0 "§RTraditional Imperial Democratic-Republican Support§! = [?cal_tIDR|+0]" 
+    cal_party_MNDR:0 "§8Moderate New Democratic-Republican Support§! = [?cal_hectorNDR|+0]\n§8Level of Moderate Compromise Points§! = [?cal_compromise_NDR|+0] of §Y5§!"
     
     cal_norton_north_approval_tt:0 "§YNorthern California§! is home to the upper 48 counties of the state of California. Key area include the San Francisco Bay Area, the Central Valley, and the Sierra Nevada. Being also home to the capital of Sacremento, the North has always dominated state politics. To many, the north represents modern technological breakthrough and the heart of the old Wild West."
     cal_norton_south_approval_tt:0 "§GSouthern California§! is home to the southern ten counties of the state of California. With great urban sprawls and open deserts, the south is home to a majority of California and more critically, the entertainment capital of the World. To all, the image of palm trees, movie stars, and the entails of modern living is embodied in the south."

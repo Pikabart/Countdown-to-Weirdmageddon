@@ -1,11 +1,10 @@
 ############################################################################
-### California Characters
+### SoCal Characters
 ############################################################################
 characters = {
 	
 	CAL_hector_diaz_south = { 
-		name = "Hector Diaz-Guzman"  
-		desc = ""
+		name = "Hector Diaz-Guzman"
 		portraits = {
 			civilian = {
 				large = "GFX_leaders_hector_diaz_north"
@@ -14,6 +13,7 @@ characters = {
 		}
 		country_leader = {
 			ideology = liberalism
+			desc = "POLITICS_HECTOR_DESC"
 			traits = { cal_southern_governor }
 			expire = "2040.1.1.1"
 			id = -1

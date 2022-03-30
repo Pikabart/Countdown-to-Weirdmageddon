@@ -80,7 +80,7 @@
  west_election_news.2.g:0 "MEX"
  west_election_news.2.h:0 "SOC"
  west_election_news.2.i:0 "CAN"
- west_election_news.2.j:0 "Will this raise my taxes?"
+ west_election_news.2.j:0 "Will this raise my taxes?" # MYS
  
  west_election_news.3.t:0 ""Emperor" Joshua Norton elected Governor!"
  west_election_news.3.d:0 "In an electoral upset, Joshua Norton has won the election for the Governorship of California. The self-proclaimed "Emperor" of the Unites States entered the race just weeks left with the intent to stop the "Rogue" Lord Trembley. Frighten by the Kerfuffle and Oregon's Trembley, Californians voted for him with an overall 58-point lead over San Francisco Mayor Travis Olson. Already, the office of Lieutenant Governor Hector Diaz-Guzman has issued a generic message of congratulations and support for the new governor. But while many SoCal legislators have expressed concerns, their NorCal counterparts have all but sworn fidelity to Norton. One thing is certain; the world watches if this new Imperial California Republic can save the United States."
@@ -108,6 +108,8 @@
  west_election_news.4.h:0 ""
  west_election_news.4.i:0 ""
  
+ #########################################################
+ 
  multiverse_news.1.t:0 "Our Man, The Man\nStanford Pines!"
  multiverse_news.1.d:0 "\nThere is no better place to spend a summer's day in Oregon than checking out Gravity Fall's own Mystery Shack!\n\nOwned and run by Mr. Man of Mystery, Stanford Pines, be amazed by the odd and weird things on exhibit inside the Shack. From Jack-O-Lopes to Cornicorns, you never know what awaits inside the Shack. When done inside, take in that sweet cascadian air and do a tour guide through Gravity Forest as Mr. Myserty show you the natural wonders and weirdness of the Oregon Outback.\n\nVisit Today!"
  multiverse_news.1.a:0 "Now thats what this place needed."
@@ -115,15 +117,59 @@
  multiverse_news.1.c:0 "Who dare bring this fake news to me!"
  multiverse_news.1.e:0 "Don't know. Don't Care..."
  
+ #########################################################
  
+ euro_news.1.t:0 "Europe United"
+ euro_news.1.d:0 ""
+ euro_news.1.a:0 ""
  
+ euro_news.2.t:0 "EU-Backed Republic of The Levant declared"
+ euro_news.2.d:0 ""
+ euro_news.2.a:0 ""
  
+ euro_news.3.t:0 "Joint Base Ramstein aliagns with the Western US"
+ euro_news.3.d:0 ""
+ euro_news.3.a:0 ""
  
+ euro_news.4.t:0 "Great Britian backs off from the North Sea"
+ euro_news.4.d:0 ""
+ euro_news.4.a:0 ""
  
+ euro_news.5.t:0 "Turmoil in Europe" 
+ euro_news.5.d:0 ""
+ euro_news.5.a:0 ""
  
+ euro_news.6.t:0 "The Mediterranean Sea still contested"
+ euro_news.6.d:0 ""
+ euro_news.6.a:0 ""
  
+ euro_news.7.t:0 "US-CATO forces deployed to Eastern Europe"
+ euro_news.7.d:0 ""
+ euro_news.7.a:0 ""
  
+ euro_news.8.t:0 "Great Britian joins US-EU Atlantic Standoff"
+ euro_news.8.d:0 ""
+ euro_news.8.a:0 ""
  
+ euro_news.9.t:0 "US-EU Naval Clash Imminent"
+ euro_news.9.d:0 ""
+ euro_news.9.a:0 ""
+ 
+ euro_news.10.t:0 "EU Fleet returns to port"
+ euro_news.10.d:0 ""
+ euro_news.10.a:0 ""
+ 
+ euro_news.11.t:0 "Last Minute Talks Succeeds!"
+ euro_news.11.d:0 ""
+ euro_news.11.a:0 ""
+ 
+ euro_news.12.t:0 "US Atlantic Fleet Victorious!"
+ euro_news.12.d:0 ""
+ euro_news.12.a:0 ""
+ 
+ euro_news.13.t:0 "Euro-Fleet Victorious!"
+ euro_news.13.d:0 ""
+ euro_news.13.a:0 ""
  
  
  

@@ -53,7 +53,7 @@ guiTypes = {
 		}
 
 		instantTextBoxType = {
-			name ="cal_party_MNDR"
+			name ="cal_party_MNDR" 
 			position = { x = 55 y = 140 }
 			font = "hoi_18mbs"
 			text = "cal_party_MNDR"

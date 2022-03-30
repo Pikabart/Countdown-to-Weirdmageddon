@@ -1,0 +1,100 @@
+############################################################################
+### FPI Characters
+############################################################################
+characters = {
+	
+	EPI_beth_amarin = { 
+		name = "Beth Amarin"
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_beth_amarin"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			desc = "POLITICS_A_DESC"
+			traits = {  }
+			expire = "2040.1.1.1"
+			id = 1
+		}
+		field_marshal = {
+			desc = ""
+			traits = { organisational_leader }
+			skill = 3
+
+
+			attack_skill = 2
+			defense_skill = 4		
+			planning_skill = 4
+			logistics_skill = 2
+		}
+	}
+	
+	WPI_elin_shroud_start = { 
+		name = "Elin Shroud"
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_elin_shroud"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			desc = "POLITICS_S_DESC"
+			traits = {  }
+			expire = "2040.1.1.1"
+			id = 1
+		}
+
+	}
+	
+	WPI_elin_shroud_autocrat = { 
+		name = "Elin Shroud"
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_elin_shroud"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			desc = "POLITICS_S_DESC"
+			traits = {  }
+			expire = "2040.1.1.1"
+			id = 1
+		}
+		field_marshal = {
+			desc = ""
+			traits = { organisational_leader }
+			skill = 3
+			visible = {
+				
+			}
+
+			attack_skill = 4
+			defense_skill = 4		
+			planning_skill = 3
+			logistics_skill = 1
+		}
+	}
+	
+	EPI_elin_shroud_autocrat = { 
+		name = "Elin Shroud"
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_elin_shroud"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			desc = "POLITICS_S_DESC"
+			traits = {  }
+			expire = "2040.1.1.1"
+			id = 1
+		}
+	}
+
+}###########################################################
+	
