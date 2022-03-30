@@ -1,16 +1,17 @@
 ﻿l_english:
 
 MHC_rebels:0 "Monster Rebels"
-MHC_rebels_desc:0 "Placeholder\n\n§YNumber of Monster Rebels:§! [?monster_rebels] Hundred Thousand\n\n§YMilitary Initiative:§! [?monster_rebels_currency]"
+MHC_rebels_desc:0 "The lands we control have violent monster rebels that conspire against the Mewman race. Our state was created mainly to suppress these rebels, and so supress them we shall. And since these monsters are commiting violent crimes, we can unleash the full force of Mewman power on them.\n\n§YNumber of Monster Rebels:§! [?monster_rebels] Hundred Thousand\n\n§YMilitary Initiative:§! [?monster_rebels_currency]"
 
-raise_mil_initiative_tooltip:0 "Raise §YMilitary Initiative§! By §Y1§!"
-raise_mil_initiative_2_tooltip:0 "Raise §YMilitary Initiative§! By §Y2§!"
-spend_1_mil_initiative_tooltip:0 "Spend §Y1 Military Initiative§!"
-decrease_monster_rebel:0 "Decrease §YNumber of Monster Rebels§! by §Y1 Hundred Thousand§!"
-increase_monster_rebel:0 "Increase §YNumber of Monster Rebels§! by §Y1 Hundred Thousand§!"
+raise_mil_initiative_tooltip:0 "§GRaise§! §YMilitary Initiative§! By §Y1§!"
+raise_mil_initiative_3_tooltip:0 "§GRaise§! §YMilitary Initiative§! By §Y3§!"
+spend_1_mil_initiative_tooltip:0 "§RSpend§! §Y1 Military Initiative§!"
+decrease_monster_rebel:0 "§GDecrease§! §YNumber of Monster Rebels§! by §Y1 Hundred Thousand§!"
+decrease_monster_rebel_5:0 "§GDecrease§! §YNumber of Monster Rebels§! by §C5§! §YHundred Thousand§!"
+increase_monster_rebel:0 "§RIncrease§! §YNumber of Monster Rebels§! by §Y1 Hundred Thousand§!"
 
 MHC_culture:0 "Cultural Integration"
-MHC_culture_desc:0 "Placeholder \n\n§YNumber of Monsters Adopting Mewman Culture:§! [?monster_culture] Hundred Thousand"
+MHC_culture_desc:0 "The lands we control have monsters who refuse to leave the territory out of pride, spite, or most likley not having the funds to move. We must integreate these monsters into Mewman culture so that we may govern them with better understanding, and  also so that eventually the monsters will be outbred by Mewmans overtime. And as we Mewmans are civilized rulers, we cannot use violence to further this goal. (And also using violence in this sort of thing usually backfires)\n\n§YNumber of Monsters Adopting Mewman Culture:§! [?monster_culture] Hundred Thousand"
 
 add_culture_tooltip:0 "Raise Number of Monsters Adopting Mewman Culture by §Y1 Hundred Thousand§!"
-propaganda_tooltip:0 "§Y50/50 Chance§! of Either §YRaising§! or §YLowering§! Number of Monsters Adopting Mewman Culture by §Y1 Hundred Thousand§!"
+propaganda_tooltip:0 "§Y50/50 Chance§! of Either §GRaising§! or §YLowering§! Stability and Number of Monsters Adopting Mewman Culture by §Y1 Hundred Thousand§!"

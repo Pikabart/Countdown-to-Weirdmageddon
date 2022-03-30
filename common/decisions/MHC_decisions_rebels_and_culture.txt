@@ -138,16 +138,18 @@ MHC_rebels = {
 		cost = 15
 		days_remove = 7
 		days_re_enable = 14
+		complete_effect = {
+			add_stability = -0.03
+		}
 		remove_effect = {
-			custom_effect_tooltip = "decrease_monster_rebel"
-			add_stability = -0.05
+			custom_effect_tooltip = "decrease_monster_rebel_5"
 			add_to_variable = {
 				var = monster_rebels
-				value = -1
+				value = -5
 			}
 		}
 		ai_will_do = {	
-			factor = 100
+			factor = 15
 		}
 	}
 	MHC_info_for_immunity = {
@@ -162,14 +164,14 @@ MHC_rebels = {
 		days_re_enable = 14	
 		remove_effect = {
 			custom_effect_tooltip = "increase_monster_rebel"
-			custom_effect_tooltip = "raise_mil_initiative_2_tooltip"
+			custom_effect_tooltip = "raise_mil_initiative_3_tooltip"
 			add_to_variable = {
 				var = monster_rebels
 				value = 1
 			}
 			add_to_variable = {
 				var = monster_rebels_currency
-				value = 2
+				value = 3
 			}
 		}
 		ai_will_do = {	
@@ -283,12 +285,14 @@ MHC_culture = {
 							var = monster_culture
 							value = 1
 						}
+						add_stability = 0.05
 					}
 					50 = {
 						add_to_variable = {
 							var = monster_culture
 							value = -1
 						}
+						add_stability = -0.05
 					}
 				}
 			}

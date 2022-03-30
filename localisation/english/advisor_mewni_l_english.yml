@@ -8,11 +8,12 @@
  mina_advisor:0 "Mina Loveberry"
  
  ############# Custom for each nation: MEW ###########
- mew_the_undaunted:0 "The Undaunted Queen"
+ mew_the_undaunted:0 "34th Queen of Mewni"
  imperial_ties:0 "Imperial Connections"
  foreigner:0 "Foreigner"
  monster:0 "Monster"
  insane:0 "Insane"
+ monster_researcher:0 "Monster Researcher"
  
  # Monster Leaders
  unenthusiastic_ruler:0 "Unenthusiastic Ruler"
@@ -22,16 +23,4 @@
  death_cultist:0 "Death Cultist"
  mewman_simp:0 "Mewman Lover"
  absent_ruler:0 "Absent Ruler"
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- ############# Defaults
  

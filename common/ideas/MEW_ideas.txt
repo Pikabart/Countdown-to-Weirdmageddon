@@ -8,6 +8,19 @@ ideas = {
 	######################################################
 	country = {
 
+		skywynne_institute = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = MEW }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				research_speed_factor = 0.10
+				
+			}
+		}
+
 		MEW_pre_industrial = {
 			picture = FRA_factory_strikes
 			
@@ -18,7 +31,7 @@ ideas = {
 			}
 			
 			modifier = {
-				research_speed_factor = -0.25
+				research_speed_factor = -0.45
 				production_speed_buildings_factor = -0.35
 			}
 		}
