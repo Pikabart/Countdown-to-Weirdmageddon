@@ -1,0 +1,18 @@
+﻿l_english:
+
+###########################################################
+#
+ BOI_fascism:0 "Emperor's Coven"
+ BOI_fascism_DEF:0 "Emperor's Coven"
+ BOI_democratic:0 "Emperor's Coven"
+ BOI_democratic_DEF:0 "Emperor's Coven"
+ BOI_neutrality:1 "Emperor's Coven"
+ BOI_neutrality_DEF:1 "Emperor's Coven"
+ BOI_communism:0 "Emperor's Coven"
+ BOI_communism_DEF:0 "Emperor's Coven"
+ BOI_fascism_ADJ:0 "Emperor's Coven"
+ BOI_democratic_ADJ:0 "Emperor's Coven"
+ BOI_neutrality_ADJ:0 "Emperor's Coven"
+ BOI_communism_ADJ:0 "Emperor's Coven"
+ 
+ 

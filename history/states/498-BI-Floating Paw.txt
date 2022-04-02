@@ -5,8 +5,8 @@ state={
 		298 1161 1189 2125 2622 3214 4485 5557 10492 10526 10706 
 	}
 	history={
-		owner = ZZZ
-		add_core_of = ZZZ
+		owner = BOI
+		add_core_of = BOI
 	}
 	manpower=1000
 	buildings_max_level_factor=1.000

@@ -102,7 +102,7 @@
  LUC_communism:0 "Lucitor Kingdom"
  LUC_communism_DEF:0 "Lucitor Kingdom"
  LUC_fascism_ADJ:0 "Lucitor Kingdom"
- LUC_democratic_ADJ:0 "Lucitor Kingdom"
+ LUC_democratic_ADJ:0 "Lucitor Kingdom" 
  LUC_neutrality_ADJ:0 "Lucitor Kingdom"
  LUC_communism_ADJ:0 "Lucitor Kingdom"
  
@@ -131,6 +131,19 @@
  PIE_democratic_ADJ:0 "Pie Folk"
  PIE_neutrality_ADJ:0 "Pie Folk"
  PIE_communism_ADJ:0 "Pie Folk"
+ 
+ CEF_fascism:0 "California Expeditionary Force"
+ CEF_fascism_DEF:0 "California Expeditionary Force"
+ CEF_democratic:0 "California Expeditionary Force"
+ CEF_democratic_DEF:0 "California Expeditionary Force"
+ CEF_neutrality:1 "California Expeditionary Force"
+ CEF_neutrality_DEF:1 "California Expeditionary Force"
+ CEF_communism:0 "California Expeditionary Force"
+ CEF_communism_DEF:0 "California Expeditionary Force"
+ CEF_fascism_ADJ:0 "California Expeditionary Force"
+ CEF_democratic_ADJ:0 "California Expeditionary Force"
+ CEF_neutrality_ADJ:0 "California Expeditionary Force"
+ CEF_communism_ADJ:0 "California Expeditionary Force"
  
  #Mewni Cosmetic
  

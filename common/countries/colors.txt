@@ -416,6 +416,18 @@ WYM = {
 	color_ui = rgb { 150 102 50 }
 }
 
+#Amphibia
+AMP = { 
+	color = rgb { 0 130 127 }
+	color_ui = rgb { 0 130 127 }
+}
+
+#Boiling Isles
+BOI = { 
+	color = rgb { 176 143 38 }
+	color_ui = rgb { 176 143 38 }
+}
+
 
 #Dimensional Barriers
 ROM = { 

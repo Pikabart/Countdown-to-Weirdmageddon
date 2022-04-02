@@ -1,0 +1,25 @@
+############################################################################
+### BOI Characters
+############################################################################
+characters = {
+	
+	BOI_belos = {
+		name = "Emperor Belos" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_CLASSIFIED"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {}
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+
+
+}###########################################################
+	

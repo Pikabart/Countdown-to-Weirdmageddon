@@ -1,5 +1,5 @@
 ﻿l_english:
- #VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
+ #VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!" 
   #START
  #OF
  #MEWNI
@@ -31,6 +31,8 @@
  VICTORY_POINTS_2882:0 "Forest Center"
  VICTORY_POINTS_217:0 "Jaggy Embassy"
  VICTORY_POINTS_2570:0 "Waterway Purification Center"
+ 
+ VICTORY_POINTS_2616:0 "Monster Temple" 
  
  #Jaggy Kingdom VPs
  VICTORY_POINTS_7487:0 "Jaggi-vostok"

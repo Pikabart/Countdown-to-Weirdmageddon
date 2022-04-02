@@ -1,0 +1,18 @@
+﻿l_english:
+
+###########################################################
+#
+ AMP_fascism:0 "Kingdom of Amphibia" 
+ AMP_fascism_DEF:0 "Kingdom of Amphibia"
+ AMP_democratic:0 "Kingdom of Amphibia"
+ AMP_democratic_DEF:0 "Kingdom of Amphibia"
+ AMP_neutrality:1 "Kingdom of Amphibia"
+ AMP_neutrality_DEF:1 "Kingdom of Amphibia"
+ AMP_communism:0 "Kingdom of Amphibia"
+ AMP_communism_DEF:0 "Kingdom of Amphibia"
+ AMP_fascism_ADJ:0 "Kingdom of Amphibia"
+ AMP_democratic_ADJ:0 "Kingdom of Amphibia"
+ AMP_neutrality_ADJ:0 "Kingdom of Amphibia"
+ AMP_communism_ADJ:0 "Kingdom of Amphibia"
+ 
+ 

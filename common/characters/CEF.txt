@@ -1,0 +1,25 @@
+############################################################################
+### CEF Characters
+############################################################################
+characters = {
+	
+	CEF_emily_pines = {
+		name = "Emily Pines" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_emily_pines"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			traits = {}
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+
+
+}###########################################################
+	

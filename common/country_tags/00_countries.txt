@@ -39,7 +39,7 @@ LUC = "countries/M-Lucitor Kingdom.txt"
 JAG = "countries/M-Jaggy Kingdom.txt"
 PIE = "countries/M-Pie Folk.txt"
 LUD = "countries/M-Ludo's Kingdom.txt"
-
+CEF = "countries/EM-CEF_PORT.txt"
 
 #Mewni_Monsters
 OST = "countries/Monst-ostritch-starvary.txt"
@@ -93,6 +93,12 @@ SDK = "countries/US-South Dakota.txt"
 TEX = "countries/US-Texas.txt"
 UTH = "countries/US-Utah.txt"
 WYM = "countries/US-Wyoming.txt"
+
+#Amphibia
+AMP = "countries/A-Amphibia.txt"
+
+#Boiling Isles
+BOI = "countries/BI-Emperor Coven.txt"
 
 #Dimensional Barriers
 ROM = "countries/D-Barrier.txt"
