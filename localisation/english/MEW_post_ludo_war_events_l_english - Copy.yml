@@ -17,6 +17,7 @@ corn_crisis_end.1.d:0 "Our corn stocks are returning to normal, but the emergenc
 corn_crisis_end.1.a:0 "We should go back to our previous status quo"
 corn_crisis_end.2.a:0 "We must reform our economy in order to be stronger!"
 corn_crisis_end.3.a:0 "We must reform our entire society in order to be stronger!"
+industrial_tech_available:0 "§CIndustrial Advancement can be researched!§!"
 
 fate_of_butterfly_front_event.1.t:0 "Fate Of The Butterfly Front"
 fate_of_butterfly_front_event.1.d:0 "We must decide what the Butterfly Front's fate will be in the future."

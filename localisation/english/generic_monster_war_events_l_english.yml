@@ -1,0 +1,38 @@
+﻿l_english:
+
+generic_unification.1.t:0 "Thank You for Playing CtW: [root.getname]!"
+generic_unification.1.d:0 "From the Kappa Stream to Aleström, from Mothscow Central to the Northern Avarius Lowlands, the monsters of northern Mewni have finally been united under one banner! The banner of the [root.getname]! The near future will be a period of gathering strength, and perhaps we shall even strike at the Mewmans if the proper opportunity presents itself...\n\nThank you for downloading our mod and playing the [root.getname]! We would appreciate it if you gave us a thumbs up on the steam workshop page! If you would like to follow development, talk about the mod, report a bug, or anything else, join our discord! (Link in the mod’s workshop page)"
+generic_unification.1.a:0 "I love this mod!"
+generic_unification.1.b:0 "§RNO! I HATE THIS MOD!§!"
+
+HGH_unification_model_un.1.t:0 "Unification of the North"
+HGH_unification_model_un.1.d:0 "The sun rises from the east as the newest delegation is concluded. We have finally achieved unification of the monster region. The council has been proven as a capable governing body, to lead the nation to flourish and thrive!"
+HGH_unification_model_un.1.a:0 "Democracy has Triumphed"
+
+HGH_unification_band_kids.1.t:0 "Unification of the North"
+HGH_unification_band_kids.1.d:0 "We have successfully asserted dominance by unifying our region. Audio of text to speech meme compilations blasts out across the nation as we grow more and more powerful."
+HGH_unification_band_kids.1.a:0 "Truly, Reddit has done their thing."
+
+HGH_unification_nazi_kids.1.t:0 "Unification of the North"
+HGH_unification_nazi_kids.1.d:0 "A new dawn is rising over the land of Mewni. Our Reich and it's Soldats stand victorious over the ruins of our degenerate enemies. Today, a new era begins for the monsters of the north! A strong Monster people, a people united through race and nation!"
+HGH_unification_nazi_kids.1.a:0 "To last a thousand years!"
+
+AVA_unification.1.t:0 "Unification of the North"
+AVA_unification.1.d:0 "A new dawn rises over the Avarius castle. The crown has finally reclaimed its birthright. After struggles and bloodshed the family is finally able to move back into the castle. Now the king shall rule like he is supposed to!"
+AVA_unification.1.a:0 "Hail to the King!"
+
+MHC_unification.1.t:0 "Unification of the North"
+MHC_unification.1.d:0 "Mewman superiority is once again proven with our conquest of the monsters. Cosmia has carved out her own little nation for herself, and yet she thirsts for more... for now though, it is time for the nation to recover and reform into a proper government. We will start by renaming ourselves, cutting the ties of our subjugated past."
+MHC_unification.1.a:0 "We should also change Cosmia's official portrait, che's changed alot..."
+
+SWP_communists_unification.1.t:0 "Unification of the North"
+SWP_communists_unification.1.d:0 "The sun rises over a red land. The rivers thicken with the blood of Capitalists, and the streets are filled with the cheers of the proletariat. Only our leader could have made the future this bright. Now, the spirit of communism must spread beyond our borders! Glory to the Revolution!"
+SWP_communists_unification.1.a:0 "Glory to the Union!"
+
+SWP_military_cos_unification.1.t:0 "Unification of the North"
+SWP_military_cos_unification.1.d:0 "The military stands supreme over the entire north. With our guiding hand we have brought discipline and strength over the entire region. Once we are done, the Mewmans dare not touch us ever again!"
+SWP_military_cos_unification.1.a:0 "Hail to the General!"
+
+SWP_republic_unification.1.t:0 "Unification of the North"
+SWP_republic_unification.1.d:0 "Yesterday the sun set over a broken land, but today it rises over a new one. A land united through equality, where everyone has a say. Together through democracy we have paved the road to the future!"
+SWP_republic_unification.1.a:0 "The Republic Triumphant"

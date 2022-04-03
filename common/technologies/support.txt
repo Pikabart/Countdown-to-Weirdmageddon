@@ -1429,6 +1429,7 @@ technologies = {
 
 		enable_building = {
 			building = rail_way
+			level = 5
 		}
 
 		research_cost = 1.75
@@ -1447,7 +1448,7 @@ technologies = {
 			train_tech
 		}
 		
-		ai_will_do = { factor = 1 }
+		ai_will_do = { factor = 1000 }
 		
 	}
 
@@ -1473,25 +1474,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				num_of_factories > 25
-				factor = 100 #might wanna get on that
-			}
-			modifier = {
-				factor = 1.2
-				date > "1936.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1937.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1938.1.1"
-			}
+			factor = 1000
 		}
 	}
 

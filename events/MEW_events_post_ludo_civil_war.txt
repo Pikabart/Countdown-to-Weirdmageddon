@@ -150,11 +150,17 @@ country_event = {
 
 			}
 			add_ideas = post_ludo_war_westernization
+			hidden_effect = {
+				set_technology = {
+					industrial_progress_check = 1
+				}
+			}
 			set_country_flag = westernization
 			add_to_variable = {
 				var = mew_prog_opinion
 				value = 1
 			}
+			custom_effect_tooltip = "industrial_tech_available"
 			custom_effect_tooltip = "prog_opinion_up"
 	
 	}
