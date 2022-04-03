@@ -3017,6 +3017,20 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_mewni.1.t"
+			country_event = CAL_CEF.0
+			MEW = {country_event = CAL_CEF.0}
+			hidden_effect = {
+				add_opinion_modifier = { target = MEW modifier = CAL_aid_from_california }
+				MEW = {
+					give_military_access = CAL
+					diplomatic_relation = {
+						country = CAL
+						relation = docking_rights
+						active = yes
+					}
+					add_opinion_modifier = { target = CAL modifier = MEW_aid_from_california }
+				}
+			}
 		}
 		
 		ai_will_do = {
@@ -3044,6 +3058,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_mewni.2.t"
+			country_event = CAL_CEF.1 
 		}
 		
 		ai_will_do = {

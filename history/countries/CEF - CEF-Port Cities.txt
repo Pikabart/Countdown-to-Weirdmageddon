@@ -1,17 +1,13 @@
-﻿capital = 288
+﻿capital = 430
+
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
-	infantry_weapons1 = 1
 	tech_support = 1
 	tech_recon = 1
 	support_weapons = 1
 	gw_artillery = 1
-	
-	#airplanes
-	early_fighter = 1
-	early_bomber = 1
 
 	#doctrines
 	air_superiority = 1
@@ -39,11 +35,7 @@ set_technology = {
 	
 }
 
-#oob = "GTF_2012"
-set_research_slots = 2
-set_convoys = 50
-set_stability = 0.70
-set_war_support = 0.70 
+set_convoys = 100 
 
 complete_national_focus = army_effort
 complete_national_focus = equipment_effort
@@ -56,23 +48,18 @@ complete_national_focus = construction_effort
 complete_national_focus = production_effort
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1990.1.1"
-	election_frequency = 48
+	ruling_party = democratic
+	last_election = "2008.1.1"
+	election_frequency = 60   #four months
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 40
-	neutrality = 60
+	democratic = 100
+	communism = 0
+	fascism = 0
 }
 
-create_country_leader = {
-	name = "Pie King"
-	desc = ""
-	picture = ""
-	ideology = oligarchism
-	traits = {
-		#
-	}
-}
+
+recruit_character = CEF_emily_pines
+

@@ -1261,7 +1261,7 @@ country_event = {
 		}
 }
 
-###############################################################################################################
+#######################################################################################################
 
 	country_event = {
 		id = trade_ports.1
@@ -1271,7 +1271,7 @@ country_event = {
 	
 		is_triggered_only = yes
 	
-		option = {
+		option = { 
 			name = trade_ports.1.a
 			ai_chance = { factor = 99 }
 			add_political_power = -100
@@ -1290,31 +1290,41 @@ country_event = {
 						type = oil
 						amount = 16
 					}
+					add_resource = {
+						type = aluminium
+						amount = 16
+					}
 				}
 				add_equipment_to_stockpile = {
-					type = train_equipment
+					type = train_equipment_1
 					amount = 15
 					producer = CAL
 				}
 			}
-			CAL = {
+			CEF = {
 				transfer_state = 273
 				add_state_core = 273
+				set_capital = {state = 273}
 			}
 			set_province_name = { id = 338 name = "Fort Norton"}
 			custom_effect_tooltip = "trade_ports_1_tooltip"
 			hidden_effect = {
 				MEW = { country_event = { id = trade_ports.2 days = 192 } }
+				CAL = { country_event = { id = CAL_CEF.2 days = 1 } }
+				CEF = { country_event = { id = CAL_CEF.2 days = 1 } }
 			}
+			CAL = {add_opinion_modifier = { target = MEW modifier = CAL_granted_solaria_folly }}
+			CEF = {add_opinion_modifier = { target = MEW modifier = CAL_granted_solaria_folly }}
 
 		}
 		
 		option = {
 			name = trade_ports.1.b
-			ai_chance = { factor = 99 }
+			ai_chance = { factor = 1 }
 			add_political_power = 150
 			add_stability = 0.05
-			
+			CAL = {add_opinion_modifier = { target = MEW modifier = CAL_refused_solaria_folly }}
+			CEF = {add_opinion_modifier = { target = MEW modifier = CAL_refused_solaria_folly }}
 		}
 
 	}
@@ -1370,6 +1380,8 @@ country_event = {
 
 		}
 }
+
+#######################################################################################################
 
 	country_event = {
 		id = remove_commander.1

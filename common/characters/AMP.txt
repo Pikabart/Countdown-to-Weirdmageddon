@@ -1,0 +1,25 @@
+############################################################################
+### AMP Characters
+############################################################################
+characters = {
+	
+	AMP_andrias = {
+		name = "Andrias Leviathan" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_CLASSIFIED"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = centrism
+			traits = {}
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+
+
+}###########################################################
+	

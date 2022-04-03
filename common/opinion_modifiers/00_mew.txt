@@ -3,5 +3,14 @@ opinion_modifiers = {
 	excessive_trolling = {
 		value = -50
 	}
+	
+	MEW_aid_from_california = { value = 20 }
+	CAL_aid_from_california = { value = 20 }
+	MEW_CEF_assistance = { value = 5 }
+	
+	CAL_refused_solaria_folly = { value = -10 }
+	CAL_granted_solaria_folly = { value = +20 }
+	
+	
 
 }

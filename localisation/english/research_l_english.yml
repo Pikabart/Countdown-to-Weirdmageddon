@@ -200,7 +200,7 @@
  bi_magic_forces_desc_2:0 ""
  
  bi_magic_forces_3:0 "Law and Paranormal Order"
- bi_magic_forces_desc_3:0 ""
+ bi_magic_forces_desc_3:0 "" 
  
  ###
  
@@ -212,15 +212,6 @@
  
  general_magic_improvement_3:0 "Technological Clash"
  general_magic_improvement_3_desc:0 "As technology advances pass Magic, magic must adapt to fighting the tools of the industrial and modern world. Two intertwined rules of the multiverse, locked in battle for an unachievable surpremacy."
- 
- ###
-
- #chosen_few:0 "The Chosen Few"
- #chosen_few_desc:0 "Elite magic users hold themselves with honor and pride. This translates onto the battlefield, where their immense will and loyalty combined with their magical powers enables them to fight longer in even the harshest of conditions." 
-
- #survival_training:0 "Magical Mass Devotion"
- #survival_training_desc:0 "Even novice magic users feel a sense of duty as a protector, and their communities hold them in high regard. This translates to more people wishing to become magic users, and magic users tolerating less than ideal conditions."
-
 
  magiography:0 "Magigraphic Inspiration"
  magiography_desc:0 "Giant, "magigraphic" images raise troop morale. These images can range from national symbols blocking out the skies to mythical dragons lighting the ground aflame. The possibilities are endless."
@@ -228,6 +219,13 @@
  magic_unleashed:0 "Magical Golden Age"
  magic_unleashed_desc:0 "Many dimensions experience technological golden ages, but few dimensions experience a magical golden age. At this stage, spells are no longer discovered; they are invented."
  
+ ###
+ 
+ basic_roads:0 "Basic Road Construction"
+ basic_roads_desc:0 "Allows the construction of roads of different designs and advancements."
+ 
+ train_equipment_0:0 "Pre-Industrial Caravan"
+ train_equipment_0_desc:0 ""
  #################################################################################################################################
  ### Base Game Locs ###
  RESEARCH_BONUSES_TOOLTIP:0 "Limited technology bonuses we have:"

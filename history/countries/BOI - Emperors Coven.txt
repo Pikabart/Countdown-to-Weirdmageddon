@@ -1,4 +1,4 @@
-﻿capital = 288
+﻿capital = 268
 
 # Starting tech
 set_technology = {
@@ -39,11 +39,10 @@ set_technology = {
 	
 }
 
-#oob = "GTF_2012"
 set_research_slots = 2
 set_convoys = 50
 set_stability = 0.70
-set_war_support = 0.70 
+set_war_support = 0.70
 
 complete_national_focus = army_effort
 complete_national_focus = equipment_effort
@@ -56,23 +55,15 @@ complete_national_focus = construction_effort
 complete_national_focus = production_effort
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1990.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	fascism = 40
-	neutrality = 60
+	fascism = 80
+	neutrality = 20
 }
 
-create_country_leader = {
-	name = "Pie King"
-	desc = ""
-	picture = ""
-	ideology = oligarchism
-	traits = {
-		#
-	}
-}
+recruit_character = BOI_belos
