@@ -13,7 +13,19 @@ technologies = {
 	@1946 = 30
 	
 	###############################################
+	
+	industrial_progress_check = {
+		allow = { always = no }
+		research_cost = 1
+		start_year = 1936
+	}
+	
 	industrial_progress = {
+	
+		dependencies = {
+			industrial_progress_check = 1
+		}
+		
 		research_cost = 3
 		
 		start_year = 1800
@@ -37,10 +49,17 @@ technologies = {
 		}
 	}
 	
+	modern_progress_check = {
+		allow = { always = no }
+		research_cost = 1
+		start_year = 1936
+	}
+	
 	modern_progress = {
 	
 		dependencies = {
 			industrial_progress = 1
+			modern_progress_check = 1
 		}
 		
 		research_cost = 6

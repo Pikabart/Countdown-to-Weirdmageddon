@@ -7,7 +7,6 @@ equipments = {
 		is_buildable = no
 		active = no
 		type = train
-		picture = archetype_train
 		group_by = archetype
 		sprite = train
 
@@ -23,6 +22,7 @@ equipments = {
 	# regular trains
 	train_equipment_0 = {
 		year = 1910
+		picture = GFX_basic_wagon_medium
 
 		archetype = train_equipment
 		type = {
@@ -41,7 +41,8 @@ equipments = {
 	
 	train_equipment_1 = {
 		year = 1910
-
+		picture = archetype_train
+		parent = train_equipment_0
 		archetype = train_equipment
 		type = {
 			train
@@ -62,6 +63,7 @@ equipments = {
 
 		archetype = train_equipment
 		parent = train_equipment_1
+		picture = archetype_train
 		type = {
 			train
 		}
@@ -79,6 +81,7 @@ equipments = {
 		year = 1936
 		archetype = train_equipment
 		parent = train_equipment_1
+		picture = archetype_train
 		type = {
 			train
 		}

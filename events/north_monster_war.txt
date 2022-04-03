@@ -38,6 +38,29 @@ country_event = {
 	
 	option = {
 		name = generic_unification.1.a
+		ai_will_do = {
+			base = 100
+		}
+	}
+	option = {
+		name = generic_unification.1.b
+		hidden_effect = {
+			every_country = {
+				limit = {
+					is_in_array = {
+						array = GLOBAL.mewni_dimension_countries
+						value = THIS.id
+					}
+				}
+				declare_war_on = {
+					target = ROOT
+					type = annex_everything
+				}
+			}
+		}
+		ai_will_do = {
+			base = 0
+		}
 	}
 }
 
@@ -51,6 +74,8 @@ country_event = {
 	option = {
 		name = HGH_unification_model_un.1.a
 		set_cosmetic_tag = HGH_UN
+		country_event = generic_unification.1
+		
 	}
 }
 
@@ -64,6 +89,7 @@ country_event = {
 	option = {
 		name = HGH_unification_band_kids.1.a
 		set_cosmetic_tag = HGH_reddit
+		country_event = generic_unification.1
 	}
 }
 
@@ -77,6 +103,7 @@ country_event = {
 	option = {
 		name = HGH_unification_nazi_kids.1.a
 		set_cosmetic_tag = HGH_nazi
+		country_event = generic_unification.1
 	}
 }
 
@@ -90,6 +117,7 @@ country_event = {
 	option = {
 		name = AVA_unification.1.a
 		set_cosmetic_tag = AVA_2
+		country_event = generic_unification.1
 	}
 }
 
@@ -107,6 +135,7 @@ country_event = {
 		set_country_leader_portrait = {
 			portrait = GFX_hoi4_portrait_mhc_general_post_uni
 		}
+		country_event = generic_unification.1
 	}
 }
 
@@ -120,6 +149,7 @@ country_event = {
 	option = {
 		name = MHC_unification_test.2.a
 		set_cosmetic_tag = MHC_2
+		country_event = generic_unification.1
 	}
 }
 
@@ -133,6 +163,7 @@ country_event = {
 	option = {
 		name = SWP_communists_unification.1.a
 		set_cosmetic_tag = SWP_communists
+		country_event = generic_unification.1
 	}
 }
 
@@ -146,6 +177,7 @@ country_event = {
 	option = {
 		name = SWP_military_cos_unification.1.a
 		set_cosmetic_tag = SWP_military_cos
+		country_event = generic_unification.1
 	}
 }
 
@@ -159,5 +191,6 @@ country_event = {
 	option = {
 		name = SWP_republic_unification.1.a
 		set_cosmetic_tag = SWP_republic
-	}
+		country_event = generic_unification.1
+	}	
 }

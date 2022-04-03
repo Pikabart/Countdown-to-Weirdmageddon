@@ -147,6 +147,11 @@ spriteTypes = {
 		name = "GFX_basic_roads_medium"
 		texturefile = "gfx/interface/technologies/basic_roads.dds"
 	}
+
+	SpriteType = {
+		name = "GFX_basic_wagon_medium"
+		texturefile = "gfx/interface/technologies/basic_wagon.dds"
+	}
 	
 	########################
 	#MAGIC#

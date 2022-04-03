@@ -153,6 +153,17 @@
  tech_special_operation_15:0 "The Finest In The Multiverse"
  tech_special_operation_15_desc:0 ""
  
+ #######################
+ 
+ basic_roads:0 "Government Roadworks"
+ basic_roads_desc:0 "Typically, roads are made naturally in high foot traffic paths. However, the government can deliberately pave high quality roads to boost supply flow."
+ 
+ train_equipment_0:0 "Supply Wagons"
+ train_equipment_0_desc:0 "Supply Wagons transport food and equipment to the frontlines."
+ 
+ basic_wagon:0 "Supply Wagons"
+ basic_wagon_desc:0 ""
+ 
  ##########################################################
  
  tech_magic_forces_check:0 "Condition: Can use Applied Magic"
@@ -169,13 +180,13 @@
  mewni_magic_forces_desc:0 "Magic is a powerful tool which many cannot master to it's fullest extent. Often, it is those who have a long familial tradition and history of magic use who can unlock the true potential in magic."
 
  mewni_magic_forces_1:0 "Area of Effect"
- mewni_magic_forces_desc_1:0 ""
+ mewni_magic_forces_1_desc:0 "Area of Effect attacks can throw large amounts of unarmoured attackers into disarray"
  
  mewni_magic_forces_2:0 "Precise Strike"
- mewni_magic_forces_desc_2:0 ""
+ mewni_magic_forces_2_desc:0 "Precise Strike attacks can deal massive amounts of damage to strong, armoured enemies."
  
  mewni_magic_forces_3:0 "The Magical Few"
- mewni_magic_forces_desc_3:0 ""
+ mewni_magic_forces_3_desc:0 "Those with the privlege to use magic always feel a sense of strength with it, and this strength translates into iron will and duty for the vast majority of people."
 
  ###
 
