@@ -415,6 +415,19 @@ WYM = {
 	color = rgb { 150 102 50 }
 	color_ui = rgb { 150 102 50 }
 }
+#-------------------------------
+CIA = { 
+	color = rgb { 60 60 60 }
+	color_ui = rgb { 60 60 60 }
+}
+COG = { 
+	color = rgb { 230 230 230 }
+	color_ui = rgb { 230 230 230 }
+}
+
+
+
+
 
 #Amphibia
 AMP = { 

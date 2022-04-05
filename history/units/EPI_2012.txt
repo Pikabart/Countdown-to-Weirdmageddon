@@ -29,8 +29,10 @@ division_template = {
 	#division_names_group = SPAN_CAVB_01
 
 	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
+		special_operation_main = { x = 0 y = 0 }
+		special_operation_main = { x = 0 y = 1 }
+		special_operation_main = { x = 1 y = 0 }
+		special_operation_main = { x = 1 y = 1 }
 	}
 }
 
@@ -39,8 +41,10 @@ division_template = {
 	#division_names_group = SPAN_CAVB_01
 
 	regiments = {
-		marine = { x = 0 y = 0 }
-		marine = { x = 0 y = 1 }
+		special_operation_main = { x = 0 y = 0 }
+		special_operation_main = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
 	}
 }
 

@@ -1,0 +1,184 @@
+﻿l_english:
+
+ #For CTW's Generic Focus Tree
+ 
+ #1
+ #:0 ""
+ #_desc:0 ""
+ #.t:0 ""
+
+ 1_summers_start:0 "At Summer's Start"
+ 1_summers_start_desc:0 ""
+ 1_summers_start.t:0 ""
+ 
+ 2_look_to_the_world:0 "How We View The World"
+ 2_look_to_the_world_desc:0 ""
+ 2_look_to_the_world.t:0 ""
+ 
+ ##########################
+ 
+ revolutionary_0:0 "The Great Call For Revolution"
+ revolutionary_0_desc:0 ""
+ revolutionary_0.t:0 ""
+ 
+ revolutionary_1:0 "Spirit Of The Revolution"
+ revolutionary_1_desc:0 ""
+ revolutionary_1.t:0 ""
+ 
+ revolutionary_2:0 "Ideals Of The Revolution"
+ revolutionary_2_desc:0 ""
+ revolutionary_2.t:0 ""
+ 
+ revolutionary_3:0 "Spread The Revolution"
+ revolutionary_3_desc:0 ""
+ revolutionary_3.t:0 ""
+ 
+ revolutionary_4:0 "Secure Our Own Revolution"
+ revolutionary_4_desc:0 ""
+ revolutionary_4.t:0 ""
+ 
+ revolutionary_5:0 "Strenghtening New Communes"
+ revolutionary_5_desc:0 ""
+ revolutionary_5.t:0 ""
+ 
+ revolutionary_6:0 "Wealth And Welfare"
+ revolutionary_6_desc:0 ""
+ revolutionary_6.t:0 ""
+ 
+ revolutionary_7:0 "The Revolution Realized!"
+ revolutionary_7_desc:0 ""
+ revolutionary_7.t:0 ""
+ 
+ ##########################
+ 
+ democracy_0:0 "We Stand With The People"
+ democracy_0_desc:0 ""
+ democracy_0.t:0 ""
+ 
+ democracy_1:0 "Will Of The People "
+ democracy_1_desc:0 ""
+ democracy_1.t:0 ""
+ 
+ democracy_2:0 "The Constitution"
+ democracy_2_desc:0 ""
+ democracy_2.t:0 ""
+ 
+ democracy_3:0 "A Leader Who Leads"
+ democracy_3_desc:0 ""
+ democracy_3.t:0 ""
+ 
+ democracy_4:0 "Figurehead Leader"
+ democracy_4_desc:0 ""
+ democracy_4.t:0 ""
+ 
+ democracy_5:0 "The Bright Light Of Democracy"
+ democracy_5_desc:0 ""
+ democracy_5.t:0 ""
+ 
+ democracy_6:0 "Form The Parliament"
+ democracy_6_desc:0 ""
+ democracy_6.t:0 ""
+ 
+ democracy_7:0 "Democracy Endures"
+ democracy_7_desc:0 ""
+ democracy_7.t:0 ""
+ 
+ ##########################
+ 
+ oligarchy_0:0 "The Will Of The Few"
+ oligarchy_0_desc:0 ""
+ oligarchy_0.t:0 ""
+ 
+ oligarchy_1:0 "Organize Influencers "
+ oligarchy_1_desc:0 ""
+ oligarchy_1.t:0 ""
+ 
+ oligarchy_2:0 "Organize The Corporate Leaders"
+ oligarchy_2_desc:0 ""
+ oligarchy_2.t:0 ""
+ 
+ oligarchy_3:0 "Rally The Plebeians"
+ oligarchy_3_desc:0 ""
+ oligarchy_3.t:0 ""
+ 
+ oligarchy_4:0 "Suppresse The Plebeians"
+ oligarchy_4_desc:0 ""
+ oligarchy_4.t:0 ""
+ 
+ oligarchy_5:0 "Bread and Circuses"
+ oligarchy_5_desc:0 ""
+ oligarchy_5.t:0 ""
+ 
+ oligarchy_6:0 "Corporate Unification"
+ oligarchy_6_desc:0 ""
+ oligarchy_6.t:0 ""
+ 
+ oligarchy_7:0 "The Destined Few"
+ oligarchy_7_desc:0 ""
+ oligarchy_7.t:0 ""
+ 
+ ##########################
+ 
+ autocracy_0:0 "The Authority Of The Leader"
+ autocracy_0_desc:0 ""
+ autocracy_0.t:0 ""
+ 
+ autocracy_1:0 "Cult Of Personality"
+ autocracy_1_desc:0 ""
+ autocracy_1.t:0 ""
+ 
+ autocracy_2:0 "Will Of The State"
+ autocracy_2_desc:0 ""
+ autocracy_2.t:0 ""
+ 
+ autocracy_3:0 "Autarky"
+ autocracy_3_desc:0 ""
+ autocracy_3.t:0 ""
+ 
+ autocracy_4:0 "Spread Our Will"
+ autocracy_4_desc:0 ""
+ autocracy_4.t:0 ""
+ 
+ autocracy_5:0 "Perfection Of The State"
+ autocracy_5_desc:0 ""
+ autocracy_5.t:0 ""
+ 
+ autocracy_6:0 "Strengthen Our Grasp"
+ autocracy_6_desc:0 ""
+ autocracy_6.t:0 ""
+ 
+ autocracy_7:0 "One To Lead Us All"
+ autocracy_7_desc:0 ""
+ autocracy_7.t:0 ""
+ 
+ ##########################
+ 
+ future_1:0 "A Progressive Future"
+ future_1_desc:0 ""
+ future_1.t:0 ""
+ 
+ future_2:0 "A Stable Future"
+ future_2_desc:0 ""
+ future_2.t:0 ""
+ 
+ future_3:0 "A Strong Future"
+ future_3_desc:0 ""
+ future_3.t:0 ""
+ 
+ ##########################
+ 
+ 1_vast_multiverse:0 "The Vast Multiverse"
+ 1_vast_multiverse_desc:0 ""
+ 1_vast_multiverse.t:0 ""
+ 
+ 2_vast_multiverse:0 "Our Little Corner Of Infinity"
+ 2_vast_multiverse_desc:0 ""
+ 2_vast_multiverse.t:0 ""
+ 
+ 3_vast_multiverse:0 "Onwards To The Great Expanse"
+ 3_vast_multiverse_desc:0 ""
+ 3_vast_multiverse.t:0 ""
+
+################################################
+################################################
+################################################

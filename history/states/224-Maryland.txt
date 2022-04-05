@@ -20,7 +20,7 @@ state={
 				naval_base = 3
 			}
 		}
-
+		victory_points = { 3114 30 } #Baltimore
 	}
 
 	provinces={

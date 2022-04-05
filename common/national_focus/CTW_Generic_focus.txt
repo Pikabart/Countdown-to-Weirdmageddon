@@ -1,0 +1,1271 @@
+﻿search_filter_prios = {
+	FOCUS_FILTER_POLITICAL = 1010	
+	FOCUS_FILTER_RESEARCH = 522
+	FOCUS_FILTER_INDUSTRY = 509
+}
+
+focus_tree = {
+	id = generic_focus
+	
+	country = {
+		factor = 1
+	}
+	
+	default = yes
+	reset_on_civilwar = no
+
+	initial_show_position = {
+		focus = industrial_effort
+	}
+	
+	##################################################
+	##################################################
+	##################################################
+
+	focus = {
+		id = 1_summers_start
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 15
+		y = 0
+		cost = 10
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+		
+		}
+	}
+
+	focus = {
+		id = 2_look_to_the_world
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = 1_summers_start }
+		x = 0
+		y = 1
+		relative_position_id = 1_summers_start
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	##################################################
+	##################################################
+
+	focus = {
+		id = revolutionary_0
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = 2_look_to_the_world }
+		x = -6
+		y = 1
+		mutually_exclusive = { focus = democracy_0 }
+		mutually_exclusive = { focus = oligarchy_0 }
+		mutually_exclusive = { focus = autocracy_0 }
+		relative_position_id = 2_look_to_the_world
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = revolutionary_1
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = revolutionary_0 }
+		x = -1
+		y = 1
+		relative_position_id = revolutionary_0
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = revolutionary_2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = revolutionary_0 }
+		x = 1
+		y = 1
+		relative_position_id = revolutionary_0
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = revolutionary_3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = revolutionary_1 
+			focus = revolutionary_2 
+		}
+		mutually_exclusive = { focus = revolutionary_4 }
+		x = 0
+		y = 1
+		relative_position_id = revolutionary_1
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = revolutionary_4
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = revolutionary_1 
+			focus = revolutionary_2 
+		}
+		mutually_exclusive = { focus = revolutionary_3 }
+		x = 0
+		y = 1
+		relative_position_id = revolutionary_2
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 0 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = revolutionary_5
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = revolutionary_3 
+			focus = revolutionary_4 
+		}
+		x = 0
+		y = 1
+		relative_position_id = revolutionary_3
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = revolutionary_6
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = revolutionary_3 
+			focus = revolutionary_4 
+		}
+		x = 0
+		y = 1
+		relative_position_id = revolutionary_4
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = revolutionary_7
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = revolutionary_5 }
+		prerequisite = { focus = revolutionary_6 }
+		x = 1
+		y = 1
+		relative_position_id = revolutionary_5
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	##################################################
+	##################################################
+
+	focus = {
+		id = democracy_0
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = 2_look_to_the_world }
+		x = -2
+		y = 1
+		mutually_exclusive = { focus = revolutionary_0 }
+		mutually_exclusive = { focus = oligarchy_0 }
+		mutually_exclusive = { focus = autocracy_0 }
+		relative_position_id = 2_look_to_the_world
+		cost = 5
+
+		search_filters = {   }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = democracy_1
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = democracy_0 }
+		x = -1
+		y = 1
+		relative_position_id = democracy_0
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = democracy_2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = democracy_0 }
+		x = 1
+		y = 1
+		relative_position_id = democracy_0
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = democracy_3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = democracy_1 
+			focus = democracy_2 
+		}
+		mutually_exclusive = { focus = democracy_4 }
+		x = 0
+		y = 1
+		relative_position_id = democracy_1
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = democracy_4
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = democracy_1 
+			focus = democracy_2 
+		}
+		mutually_exclusive = { focus = democracy_3 }
+		x = 0
+		y = 1
+		relative_position_id = democracy_2
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 0 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = democracy_5
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = democracy_3 
+			focus = democracy_4 
+		}
+		x = 0
+		y = 1
+		relative_position_id = democracy_3
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = democracy_6
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = democracy_3 
+			focus = democracy_4 
+		}
+		x = 0
+		y = 1
+		relative_position_id = democracy_4
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = democracy_7
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = democracy_5 }
+		prerequisite = { focus = democracy_6 }
+		x = 1
+		y = 1
+		relative_position_id = democracy_5
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	##################################################
+	##################################################
+	
+	focus = {
+		id = oligarchy_0
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = 2_look_to_the_world }
+		x = 2
+		y = 1
+		mutually_exclusive = { focus = revolutionary_0 }
+		mutually_exclusive = { focus = democracy_0 }
+		mutually_exclusive = { focus = autocracy_0 }
+		relative_position_id = 2_look_to_the_world
+		cost = 5
+
+		search_filters = {   }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = oligarchy_1
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = oligarchy_0 }
+		x = -1
+		y = 1
+		relative_position_id = oligarchy_0
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = oligarchy_2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = oligarchy_0 }
+		x = 1
+		y = 1
+		relative_position_id = oligarchy_0
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = oligarchy_3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = oligarchy_1 
+			focus = oligarchy_2 
+		}
+		mutually_exclusive = { focus = oligarchy_4 }
+		x = 0
+		y = 1
+		relative_position_id = oligarchy_1
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = oligarchy_4
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = oligarchy_1 
+			focus = oligarchy_2 
+		}
+		mutually_exclusive = { focus = oligarchy_3 }
+		x = 0
+		y = 1
+		relative_position_id = oligarchy_2
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 0 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = oligarchy_5
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = oligarchy_3 
+			focus = oligarchy_4 
+		}
+		x = 0
+		y = 1
+		relative_position_id = oligarchy_3
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = oligarchy_6
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = oligarchy_3 
+			focus = oligarchy_4 
+		}
+		x = 0
+		y = 1
+		relative_position_id = oligarchy_4
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = oligarchy_7
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = oligarchy_5 }
+		prerequisite = { focus = oligarchy_6 }
+		x = 1
+		y = 1
+		relative_position_id = oligarchy_5
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	##################################################
+	##################################################
+	
+	focus = {
+		id = autocracy_0
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = 2_look_to_the_world }
+		x = 6
+		y = 1
+		mutually_exclusive = { focus = revolutionary_0 }
+		mutually_exclusive = { focus = democracy_0 }
+		mutually_exclusive = { focus = oligarchy_0 }
+		relative_position_id = 2_look_to_the_world
+		cost = 5
+
+		search_filters = {   }
+		
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = autocracy_1
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = autocracy_0 }
+		x = -1
+		y = 1
+		relative_position_id = autocracy_0
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = autocracy_2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = autocracy_0 }
+		x = 1
+		y = 1
+		relative_position_id = autocracy_0
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = autocracy_3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = autocracy_1 
+			focus = autocracy_2 
+		}
+		mutually_exclusive = { focus = autocracy_4 }
+		x = 0
+		y = 1
+		relative_position_id = autocracy_1
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = autocracy_4
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = autocracy_1 
+			focus = autocracy_2 
+		}
+		mutually_exclusive = { focus = autocracy_3 }
+		x = 0
+		y = 1
+		relative_position_id = autocracy_2
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 0 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = autocracy_5
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = autocracy_3 
+			focus = autocracy_4 
+		}
+		x = 0
+		y = 1
+		relative_position_id = autocracy_3
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = autocracy_6
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = autocracy_3 
+			focus = autocracy_4 
+		}
+		x = 0
+		y = 1
+		relative_position_id = autocracy_4
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = autocracy_7
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = autocracy_5 }
+		prerequisite = { focus = autocracy_6 }
+		x = 1
+		y = 1
+		relative_position_id = autocracy_5
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	##################################################
+	##################################################
+	
+	focus = {
+		id = future_1
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = revolutionary_7
+			focus = democracy_7 
+		}
+		mutually_exclusive = { focus = future_2 }
+		mutually_exclusive = { focus = future_3 }
+		x = -4
+		y = 7
+		relative_position_id = 2_look_to_the_world
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = future_2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = democracy_7 
+			focus = oligarchy_7
+		}
+		mutually_exclusive = { focus = future_1 }
+		mutually_exclusive = { focus = future_3 }
+		x = 0
+		y = 7
+		relative_position_id = 2_look_to_the_world
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = future_3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = oligarchy_7 
+			focus = autocracy_7 
+		}
+		mutually_exclusive = { focus = future_1 }
+		mutually_exclusive = { focus = future_2 }
+		x = 4
+		y = 7
+		relative_position_id = 2_look_to_the_world
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	##################################################
+	##################################################
+	
+	focus = {
+		id = 1_vast_multiverse
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = future_1
+			focus = future_2 
+			focus = future_3 
+		}
+
+		x = 0
+		y = 1
+		relative_position_id = future_2
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = 2_vast_multiverse
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = 1_vast_multiverse
+		}
+		mutually_exclusive = { focus = 3_vast_multiverse }
+		x = -6
+		y = 2
+		relative_position_id = 1_vast_multiverse
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = 3_vast_multiverse
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = 1_vast_multiverse
+		}
+		mutually_exclusive = { focus = 2_vast_multiverse }
+		x = 6
+		y = 2
+		relative_position_id = 1_vast_multiverse
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 0 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	##################################################
+	##################################################
+	
+	focus = {
+		id = corner_1
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = 2_vast_multiverse }
+		x = -2
+		y = 1
+		relative_position_id = 2_vast_multiverse
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = corner_2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = 2_vast_multiverse }
+		x = 2
+		y = 1
+		relative_position_id = 2_vast_multiverse
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = corner_3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = corner_1 
+		}
+		x = -3
+		y = 2
+		relative_position_id = 2_vast_multiverse
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = corner_4
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = corner_1 
+			focus = corner_2 
+		}
+		x = 0
+		y = 2
+		relative_position_id = 2_vast_multiverse
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 0 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = corner_5
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = corner_2 
+		}
+		x = 3
+		y = 2
+		relative_position_id = 2_vast_multiverse
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 0 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = corner_6
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = corner_3 
+			focus = corner_4 
+		}
+		x = 1
+		y = 1
+		relative_position_id = corner_3
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = corner_7
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = corner_4 
+			focus = corner_5 
+		}
+		x = -1
+		y = 1
+		relative_position_id = corner_5
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = corner_8
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = corner_6 }
+		prerequisite = { focus = corner_7 }
+		x = 2
+		y = 1
+		relative_position_id = corner_6
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	##################################################
+	##################################################
+	
+	focus = {
+		id = onward_1
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = 3_vast_multiverse }
+		x = -2
+		y = 1
+		relative_position_id = 3_vast_multiverse
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = onward_2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = 3_vast_multiverse }
+		x = 2
+		y = 1
+		relative_position_id = 3_vast_multiverse
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = onward_3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = onward_1 
+		}
+		x = -3
+		y = 2
+		relative_position_id = 3_vast_multiverse
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = onward_4
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = onward_1 
+			focus = onward_2 
+		}
+		x = 0
+		y = 2
+		relative_position_id = 3_vast_multiverse
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 0 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = onward_5
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = onward_2 
+		}
+		x = 3
+		y = 2
+		relative_position_id = 3_vast_multiverse
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 0 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = onward_6
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = onward_3 
+			focus = onward_4 
+		}
+		x = 1
+		y = 1
+		relative_position_id = onward_3
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = onward_7
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = onward_4 
+			focus = onward_5 
+		}
+		x = -1
+		y = 1
+		relative_position_id = onward_5
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = onward_8
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = onward_6 }
+		prerequisite = { focus = onward_7 }
+		x = 2
+		y = 1
+		relative_position_id = onward_6
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+	##################################################
+	##################################################
+	
+	focus = {
+		id = adapt_1
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = 2_vast_multiverse
+			focus = 3_vast_multiverse
+		}
+		mutually_exclusive = { focus = adapt_2 }
+		x = -2
+		y = 3
+		relative_position_id = 1_vast_multiverse
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = adapt_2
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = 2_vast_multiverse
+			focus = 3_vast_multiverse
+		}
+		mutually_exclusive = { focus = adapt_1 }
+		x = 2
+		y = 3
+		relative_position_id = 1_vast_multiverse
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = adapt_3
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = adapt_1
+			focus = adapt_2
+		}
+		mutually_exclusive = { focus = adapt_4 }
+		x = 0
+		y = 2
+		relative_position_id = adapt_1
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = adapt_4
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { 
+			focus = adapt_1
+			focus = adapt_2
+		}
+		mutually_exclusive = { focus = adapt_3 }
+		x = 0
+		y = 2
+		relative_position_id = adapt_2
+		cost = 5
+
+		search_filters = {   }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			
+		}
+	}
+
+} ##########################################################

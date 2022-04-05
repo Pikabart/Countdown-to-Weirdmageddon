@@ -1,0 +1,397 @@
+﻿###########################
+# Eastern US Civil War Events
+###########################
+
+add_namespace = east_cw_event
+add_namespace = east_cw_unit_event
+
+country_event = {
+	id = east_cw_event.1
+	title = east_cw_event.1.t
+	desc = east_cw_event.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = east_cw_event.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = east_cw_event.2 days = 2 }
+	}
+}
+
+country_event = {
+	id = east_cw_event.2
+	title = east_cw_event.2.t
+	desc = east_cw_event.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = east_cw_event.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = east_cw_event.3 days = 2 }
+	}
+	option = { 
+		name = east_cw_event.2.b
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = east_cw_event.4 days = 2 }
+		EUS = { change_tag_from = ROOT} # Switch player nation to Eastern US
+	}
+	option = { 
+		name = east_cw_event.2.c
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = east_cw_event.5 days = 2 }
+		CIA = { change_tag_from = ROOT} # Switch player nation to CIA lead Gang of Four
+	}
+	option = { 
+		name = east_cw_event.2.e
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = { id = east_cw_event.6 days = 2 }
+		COG = { change_tag_from = ROOT} # Switch player nation to CIA lead Gang of Four
+	}
+}
+
+###########################################
+
+country_event = {
+	id = east_cw_event.3
+	title = east_cw_event.3.t
+	desc = east_cw_event.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {	
+			country_event = east_cw_unit_event.1
+		}	
+	}
+	
+	option = { 
+		name = east_cw_event.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		#country_event = { id = east_cw_event.1 days = 2 }
+	}
+}
+
+country_event = {
+	id = east_cw_event.4
+	title = east_cw_event.4.t
+	desc = east_cw_event.4.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = east_cw_event.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		#country_event = { id = east_cw_event.1 days = 2 }
+	}
+}
+
+country_event = {
+	id = east_cw_event.5
+	title = east_cw_event.5.t
+	desc = east_cw_event.5.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = east_cw_event.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		#country_event = { id = east_cw_event.1 days = 2 }
+	}
+}
+
+country_event = {
+	id = east_cw_event.6
+	title = east_cw_event.6.t
+	desc = east_cw_event.6.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = { 
+		name = east_cw_event.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		#country_event = { id = east_cw_event.1 days = 2 }
+	}
+}
+
+##############################################
+#
+#############################################
+
+country_event = {
+	id = east_cw_unit_event.1
+	title = east_cw_event.1.t
+	desc = east_cw_event.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {	
+			EPI = { transfer_state = 235 add_state_core = 235 }
+			EPI = { transfer_state = 234 add_state_core = 234 }
+			EPI = { transfer_state = 233 add_state_core = 233 }
+			EPI = { transfer_state = 232 add_state_core = 232 }
+			EPI = { transfer_state = 231 add_state_core = 231 }
+			EPI = { transfer_state = 230 add_state_core = 230 }
+			EPI = { transfer_state = 229 add_state_core = 229 }
+			EPI = { transfer_state = 210 add_state_core = 210 }
+			EPI = { transfer_state = 209 add_state_core = 209 }
+			EPI = { transfer_state = 218 add_state_core = 218 }
+			EPI = { transfer_state = 223 add_state_core = 223 }
+			random_owned_controlled_state = {
+				prioritize = { 229 }
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 210 }
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 209 }
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 218 }
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+				create_unit = {
+						division = "name = \"FPI Security Team\" division_template = \"FPI Security Team\" start_experience_factor = 1"
+						owner = EPI
+				}
+			}
+
+			###
+			CIA = { transfer_state = 221 add_state_core = 221 }
+			CIA = { transfer_state = 222 add_state_core = 222 }
+			CIA = { transfer_state = 224 add_state_core = 224 }
+			CIA = { transfer_state = 225 add_state_core = 225 }
+			CIA = { transfer_state = 226 add_state_core = 226 }
+			CIA = { transfer_state = 227 add_state_core = 227 }
+			CIA = { transfer_state = 228 add_state_core = 228 }
+			CIA = { transfer_state = 211 add_state_core = 211 }
+			CIA = { transfer_state = 212 add_state_core = 212 }
+			CIA = { transfer_state = 213 add_state_core = 213 }
+			CIA = { transfer_state = 214 add_state_core = 214 }
+			CIA = { transfer_state = 215 add_state_core = 215 }
+			CIA = { transfer_state = 216 add_state_core = 216 }
+			CIA = { transfer_state = 217 add_state_core = 217 }
+			CIA = { transfer_state = 219 add_state_core = 219 }
+			CIA = { transfer_state = 220 add_state_core = 220 }
+			CIA = {load_oob = "CIA_2012"}
+			random_owned_controlled_state = {
+				prioritize = { 227 }
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 228 }
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 212 }
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+			}
+			random_owned_controlled_state = {
+				prioritize = { 217 }
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+				create_unit = {
+						division = "name = \"CIA Security Team\" division_template = \"CIA Security Team\" start_experience_factor = 1"
+						owner = CIA
+				}
+			}
+			CIA = {
+				declare_war_on = {
+					target = EPI
+					type = annex_everything
+				}			
+			}
+		}
+	}
+	
+	option = { 
+		name = east_cw_event.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		#country_event = { id = east_cw_event.1 days = 2 }
+	}
+}
