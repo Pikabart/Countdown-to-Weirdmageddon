@@ -27,7 +27,7 @@ state={
 		2548 
 	}
 	
-	manpower=10
+	manpower=1
 	
 	state_category=tiny_island
 }

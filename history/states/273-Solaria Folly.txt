@@ -27,7 +27,7 @@ state={
 		338 4749 8657 
 	}
 	
-	manpower=500
+	manpower=65100
 	
 	state_category=enclave
 }

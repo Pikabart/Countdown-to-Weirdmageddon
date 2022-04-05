@@ -27,7 +27,7 @@ state={
 		steel=21
 	}
 	
-	manpower=1005500
+	manpower=95400
 	
 	state_category=large_town
 }

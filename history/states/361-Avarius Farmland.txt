@@ -27,7 +27,7 @@ state={
 		aluminium = 11
 	}
 	
-	manpower=1005000
+	manpower=95400
 	
 	state_category=town
 }

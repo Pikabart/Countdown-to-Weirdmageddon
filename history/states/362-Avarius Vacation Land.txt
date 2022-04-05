@@ -24,7 +24,7 @@ state={
 		875 2851 4045 
 	}
 	
-	manpower=1012500
+	manpower=95400
 	
 	state_category=city
 }

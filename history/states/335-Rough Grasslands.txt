@@ -28,7 +28,7 @@ state={
 		302 1268 3728 4052 4517 5278 5954 6108 6821 8306 8326 8375 
 	}
 	
-	manpower=2415500
+	manpower=24150
 	
 	state_category=town
 }
