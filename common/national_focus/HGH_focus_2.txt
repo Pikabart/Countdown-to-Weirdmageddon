@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100
-		#	tag = HGH
+			add = 100
+			tag = HGH
 		}
 	}
 	
@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = { 
 		id = HGH_power_vaccum
-		icon = a
+		icon = GFX_goal_generic_attack_allies
 		x = 14
 		y = 1
 		
@@ -44,7 +44,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = HGH_model_council
-		icon = a
+		icon = GFX_focus_generic_the_giant_wakes
 		x = -1
 		y = 1
 		relative_position_id = HGH_power_vaccum 
@@ -94,7 +94,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = HGH_onto_world_stage
-		icon = a
+		icon = GFX_focus_generic_self_management
 		x = -3
 		y = 1
 		relative_position_id = HGH_power_vaccum 
@@ -144,7 +144,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = HGH_symphony_of_power
-		icon = a
+		icon = GFX_focus_SOV_stalins_cult_of_personality
 		x = -5
 		y = 1
 		relative_position_id = HGH_power_vaccum 
@@ -195,7 +195,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = HGH_strong_collective
-		icon = a
+		icon = GFX_focus_generic_support_the_left_right
 		x = 1
 		y = 1
 		relative_position_id = HGH_power_vaccum 
@@ -237,7 +237,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = HGH_fire_and_photography
-		icon = a
+		icon = GFX_focus_generic_strike_at_democracy3
 		x = 3
 		y = 1
 		relative_position_id = HGH_power_vaccum 
@@ -287,7 +287,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = HGH_wolf_takes
-		icon = a
+		icon = GFX_goal_generic_wolf_pack
 		x = 5
 		y = 1
 		relative_position_id = HGH_power_vaccum 

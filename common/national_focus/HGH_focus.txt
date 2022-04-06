@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = { 
 		id = HGH_start
-		icon = a
+		icon = GFX_focus_ger_reichskommisariats
 		x = 14
 		y = 1
 		
@@ -44,7 +44,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = HGH_quality_troop
-		icon = a
+		icon = GFX_focus_generic_military_mission
 		x = -1
 		y = 1
 		relative_position_id = HGH_start 
@@ -72,7 +72,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HGH_quantity_troop
-		icon = a
+		icon = GFX_focus_generic_little_entente
 		x = 1
 		y = 1
 		relative_position_id = HGH_start 
@@ -100,7 +100,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HGH_civilian_production
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = -2
 		y = 1
 		relative_position_id = HGH_quantity_troop 
@@ -128,7 +128,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HGH_military_production
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = HGH_quantity_troop 
@@ -156,7 +156,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HGH_modern_politics_production
-		icon = a
+		icon = GFX_focus_generic_treaty
 		x = -2
 		y = 1
 		relative_position_id = HGH_military_production 
@@ -187,7 +187,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HGH_modern_warfare_production
-		icon = a
+		icon = GFX_focus_generic_combined_arms
 		x = 0
 		y = 1
 		relative_position_id = HGH_military_production 
@@ -224,7 +224,7 @@ focus_tree = {
 
 	focus = {
 		id = HGH_take_state
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 1
 		y = 1
 		relative_position_id = HGH_modern_warfare_production 
@@ -257,7 +257,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HGH_take_state_2
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = -1
 		y = 1
 		relative_position_id = HGH_modern_warfare_production 
@@ -290,7 +290,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HGH_take_state_3
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = -3
 		y = 1
 		relative_position_id = HGH_modern_warfare_production 
@@ -323,7 +323,7 @@ focus_tree = {
 	}
 	focus = {
 		id = HGH_balance_of_power
-		icon = a
+		icon = GFX_goal_generic_neutrality_focus
 		x = 0
 		y = 1
 		relative_position_id = HGH_take_state_2 
