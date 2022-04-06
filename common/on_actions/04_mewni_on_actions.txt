@@ -134,26 +134,19 @@ on_actions = {
 				give_resource_rights = { receiver = JAG state = 452 }
 				set_country_flag = culture_and_rebels_flag
 			}
-			#JUN = {
-			#	declare_war_on = {
-			#		target = HKM
-			#		type = annex_everything
-			#	}
-			#	declare_war_on = {
-			#		target = REP
-			#		type = annex_everything
-			#	}
-			#}
-			#HKM = {
-			#	declare_war_on = {
-			#		target = JUN
-			#		type = annex_everything
-			#	}
-			#	declare_war_on = {
-			#		target = REP
-			#		type = annex_everything
-			#	}
-			#}
+			every_country = {
+				limit = {
+					is_in_array = {
+						array = GLOBAL.mewni_dimension_countries
+						value = THIS.id
+					}
+				}
+				news_event = { id = monster_expansion_news_event.1 days = 175 }
+				set_variable = {
+					var = north_monster_war_news
+					value = 0
+				}
+			}
 		}
 	}
 	#Wars

@@ -23,7 +23,7 @@ state={
 		1891 2355 3755 4449 4566 4600 5150 5243 6864 8471 8480 8514 
 	}
 	
-	manpower=700000
+	manpower=7000
 	
 	state_category=large_town
 }

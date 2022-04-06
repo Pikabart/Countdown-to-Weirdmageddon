@@ -156,6 +156,31 @@ spriteTypes = {
 	########################
 	#MAGIC#
 	########################
+
+	SpriteType = {
+		name = "GFX_general_magic_improvement_1_medium"
+		texturefile = "gfx/interface/technologies/general_magic_improvement_1.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_general_magic_improvement_2_medium"
+		texturefile = "gfx/interface/technologies/general_magic_improvement_2.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_general_magic_improvement_3_medium"
+		texturefile = "gfx/interface/technologies/general_magic_improvement_3.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_magiography_medium"
+		texturefile = "gfx/interface/technologies/magiography.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_magic_unleashed_medium"
+		texturefile = "gfx/interface/technologies/magic_unleashed.dds"
+	}
 	
 	SpriteType = {
 		name = "GFX_tech_magic_forces_medium"

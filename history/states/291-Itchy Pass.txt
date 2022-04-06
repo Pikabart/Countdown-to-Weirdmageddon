@@ -23,7 +23,7 @@ state={
 		105 2793 5792 8687 8688 
 	}
 	
-	manpower=900000
+	manpower=9000
 	
 	state_category=town
 }

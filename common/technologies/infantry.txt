@@ -2760,13 +2760,9 @@ technologies = {
 			magic_support
 		}
 		
-		#dependencies = {
-		#	OR = {
-		#		marines = 1
-		#		paratrooper = 1
-		#		mountaineer = 1
-		#	}
-		#}
+		dependencies = {
+			tech_support = 1
+		}
 
 		path = {
 			leads_to_tech = mewni_magic_forces
@@ -3115,6 +3111,7 @@ technologies = {
 		category_special_forces = {
 			max_organisation = 5
 			reliability_factor = 0.05
+			supply_consumption = -0.05
 		}
 
 		special_forces_training_time_factor = 0.05
