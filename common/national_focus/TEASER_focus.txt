@@ -3,10 +3,7 @@
 	
 	country = {
 		factor = 0	
-		modifier = {
-			add = 100 
-			tag = WAS
-		} 
+
 	}
 	
 	default = no # This is not a default generic tree

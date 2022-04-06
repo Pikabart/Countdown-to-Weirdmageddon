@@ -159,7 +159,7 @@
 	
 	focus = {
 		id = ORE_trembley_focus.1 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_head_government_v2
 		x = 0
 		y = 4
 		cost = 1
@@ -187,7 +187,7 @@
 	
 	focus = {
 		id = ORE_trembley_focus.2 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_trembley_eight_half
 		x = 0
 		y = 3
 		cost = 1
@@ -218,7 +218,7 @@
 	
 	focus = {
 		id = ORE_trembley_crazy.1 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_insanity_throughthe_storm
 		x = -5
 		y = 1
 		cost = 1
@@ -243,7 +243,7 @@
 	
 	focus = {
 		id = ORE_trembley_crazy.2 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_break_the_belts
 		x = -1
 		y = 1
 		cost = 1
@@ -266,7 +266,7 @@
 	
 	focus = {
 		id = ORE_trembley_crazy.3 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_war_on_pancakes
 		x = 1
 		y = 1
 		cost = 1
@@ -289,7 +289,7 @@
 	
 	focus = {
 		id = ORE_trembley_crazy.4 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_american_madman
 		x = -1
 		y = 1
 		cost = 1
@@ -315,7 +315,7 @@
 	
 	focus = {
 		id = ORE_trembley_line.1 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_the_fine_line
 		x = 0
 		y = 1
 		cost = 1
@@ -340,7 +340,7 @@
 	
 	focus = {
 		id = ORE_trembley_line.2 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_new_SOD
 		x = -1
 		y = 1
 		cost = 1
@@ -363,7 +363,7 @@
 	
 	focus = {
 		id = ORE_trembley_line.3 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_silly_political_games
 		x = 1
 		y = 1
 		cost = 1
@@ -386,7 +386,7 @@
 	
 	focus = {
 		id = ORE_trembley_line.4 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_flippin_fathers
 		x = -1
 		y = 1
 		cost = 1
@@ -412,7 +412,7 @@
 	
 	focus = {
 		id = ORE_trembley_pants.1 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_mental_pants
 		x = 5
 		y = 1
 		cost = 1
@@ -437,7 +437,7 @@
 	
 	focus = {
 		id = ORE_trembley_pants.2 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_stack_courts
 		x = -1
 		y = 1
 		cost = 1
@@ -460,7 +460,7 @@
 	
 	focus = {
 		id = ORE_trembley_pants.3 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_counter_concussion
 		x = 1
 		y = 1
 		cost = 1
@@ -483,7 +483,7 @@
 	
 	focus = {
 		id = ORE_trembley_pants.4 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_oddity_sanity
 		x = -1
 		y = 1
 		cost = 1
@@ -509,7 +509,7 @@
 	
 	focus = {
 		id = ORE_trembley_chief.1 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_hail_chief
 		x = -2
 		y = 1
 		cost = 1
@@ -533,7 +533,7 @@
 	
 	focus = {
 		id = ORE_trembley_chief.2 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_executive_erraticity
 		x = -1
 		y = 1
 		cost = 1
@@ -556,7 +556,7 @@
 	
 	focus = {
 		id = ORE_trembley_chief.3 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_trembling_trembley
 		x = 1
 		y = 1
 		cost = 1
@@ -581,7 +581,7 @@
 	
 	focus = {
 		id = ORE_trembley_veep.1 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_VEEP
 		x = 2
 		y = 1
 		cost = 1
@@ -605,7 +605,7 @@
 	
 	focus = {
 		id = ORE_trembley_veep.2 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_politically_onyx
 		x = -1
 		y = 1
 		cost = 1
@@ -628,7 +628,7 @@
 	
 	focus = {
 		id = ORE_trembley_veep.3 
-		icon = GFX_goal_new_oregon
+		icon = GFX_goal_oregon_backup_puppetmaster
 		x = 1
 		y = 1
 		cost = 1

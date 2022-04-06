@@ -1,0 +1,30 @@
+characters = {
+	PIE_pie_king = {
+		name = "Pie King" 
+		desc = "POLITICS_PIE_KING_DESC"
+		portraits = {
+			civilian = { 
+				large = gfx/leaders/PIE/Portrait_MEWNI_Pie_King.dds
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			traits = {  }
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		corps_commander = {
+		traits = { politically_connected trickster }
+		skill = 1
+
+		attack_skill = 1
+		defense_skill = 1		
+		planning_skill = 1
+		logistics_skill = 1
+		}
+		
+	}
+	
+
+}
+	

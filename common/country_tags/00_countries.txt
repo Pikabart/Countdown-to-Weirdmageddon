@@ -93,6 +93,8 @@ SDK = "countries/US-South Dakota.txt"
 TEX = "countries/US-Texas.txt"
 UTH = "countries/US-Utah.txt"
 WYM = "countries/US-Wyoming.txt"
+CIA = "countries/E-Gang of Four.txt"
+COG = "countries/E-Cognito Inc.txt"
 
 #Amphibia
 AMP = "countries/A-Amphibia.txt"

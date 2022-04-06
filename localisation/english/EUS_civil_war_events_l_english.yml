@@ -1,0 +1,49 @@
+﻿l_english:    
+    #################################################
+    
+    east_cw_event.1.t:0 "The Not-So-Secret Civil War"
+    east_cw_event.1.d:0 ""
+    east_cw_event.1.a:0 "Mobilize the entire agency!"
+    
+    east_cw_event.2.t:0 "The Fate of the "Madman" President"
+    east_cw_event.2.d:0 ""
+    east_cw_event.2.a:0 "Save the President! (FPI Path)"
+    east_cw_event.2.b:0 ""I'm the God-Damn President!" (Curtis Path)"
+    east_cw_event.2.c:0 "We had enough practice with South American Presidents\n(CIA Path)"
+    east_cw_event.2.e:0 "Extract the President (Cognito Inc Path)"
+    
+    east_cw_event.3.t:0 "The Not-So-Secret Civil War: The FPI"
+    east_cw_event.3.d:0 ""
+    east_cw_event.3.a:0 "Saving America... Again"
+    
+    east_cw_event.4.t:0 "The Not-So-Secret Civil War: President Curtis"
+    east_cw_event.4.d:0 ""
+    east_cw_event.4.a:0 "Semper Fi, you son of a-"
+    
+    east_cw_event.5.t:0 "The Not-So-Secret Civil War: The Gang Of Four"
+    east_cw_event.5.d:0 ""
+    east_cw_event.5.a:0 "A Stronger America Awaits"
+    
+    east_cw_event.6.t:0 "The Not-So-Secret Civil War: The Deep State"
+    east_cw_event.6.d:0 ""
+    east_cw_event.6.a:0 "Time to get rid of these idiots"
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

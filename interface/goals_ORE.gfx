@@ -35,6 +35,110 @@ spriteTypes = {
 	}
 	
 	#############
+	#############
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_insanity_throughthe_storm"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_insanity_throughthe_storm.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_the_fine_line"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_the_fine_line.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_mental_pants"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_mental_pants.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_break_the_belts"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_break_the_belts.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_war_on_pancakes"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_war_on_pancakes.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_new_SOD"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_new_SOD.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_silly_political_games"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_silly_political_games.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_stack_courts"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_stack_courts.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_counter_concussion"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_counter_concussion.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_american_madman"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_american_madman.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_flippin_fathers"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_flippin_fathers.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_oddity_sanity"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_oddity_sanity.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_head_government_v2"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_head_government_v2.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_oregon_hail_chief"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_hail_chief.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_oregon_VEEP"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_VEEP.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_oregon_executive_erraticity"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_executive_erraticity.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_oregon_trembling_trembley"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_trembling_trembley.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_oregon_politically_onyx"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_politically_onyx.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_oregon_backup_puppetmaster"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_backup_puppetmaster.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_backup_puppetmaster_v2"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_backup_puppetmaster_v2.dds"			
+	}	
+	
+	#############
+	#############
 	
 	SpriteType = {
 	name = "GFX_goal_new_oregon"
