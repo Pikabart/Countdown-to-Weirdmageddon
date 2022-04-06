@@ -5,8 +5,6 @@
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100
-		#	tag = AVA
 		}
 	}
 	
@@ -34,14 +32,37 @@
 
 		completion_reward = {
 			add_war_support = 0.15
+			hidden_effect = {
+				IF = {
+					limit = {
+						check_variable = {
+							var = north_monster_war_news
+							value = 1
+							compare = less_than
+						}
+					}
+					every_country = {
+						limit = {
+							is_in_array = {
+								array = GLOBAL.mewni_dimension_countries
+								value = THIS.id
+							}
+						}
+						add_to_variable = {
+							var = north_monster_war_news
+							value = 1
+						}
+						news_event = monster_expansion_news_event.2
+					}
+				}
+			}
 		}
-		
 		ai_will_do = {
 			factor = 400
 			#modifier = {}
 		}
-		
 	}
+		
 	focus = { 
 		id = declare_on_KAI
 		icon = GFX_goal_generic_political_pressure

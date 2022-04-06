@@ -93,3 +93,13 @@ MHC_seizing_news.1.d:0 "Port Aleström, a far north eastern port of the Butterfl
 MHC_seizing_news.1.c:0 "Traitors!"
 MHC_seizing_news.2.c:0 "Seize the port, seize the day!"
 MHC_seizing_news.3.c:0 "Interesting"
+
+monster_expansion_news_event.1.d:0 "For the past few years in the Forest of Certain Death, there have been splotches of land not claimed by any major monster nation. However, this will soon no longer be the case. The various monster warlords of the north have called up thier militaries and are moving into these lands to claim for themselves.\n\nTensions are rising with monster nations trying to claim the same piece of land, and many are wondering whether or not this will lead to another period of bloodshed in the north."
+monster_expansion_news_event.1.t:0 "Monster Movement in the Forest of Certain Death"
+monster_expansion_news_event.1.a:0 "Tension between monsters, this is nothing new"
+monster_expansion_news_event.1.b:0 "Tensions are rising in the North..."
+
+monster_expansion_news_event.2.t:0 "War in the Forest of Certain Death?"
+monster_expansion_news_event.2.d:0 "Ever since the first movements a few years ago, the various monsters of the Forest of Certain Death have been eyeing each other with hungry eyes. The recent days have seen have seen major shifts in Monster troop movements, and, although minor for now, observers say that these movements are indicative of future conflict. There is an almost 100% consensus among experts that that the reigon will soon be embroiled in what can be called a "Battle Royale.""
+monster_expansion_news_event.2.a:0 "Monsters tearing each other apart, what else is new?"
+monster_expansion_news_event.2.b:0 "Bloodshed in the North..."
