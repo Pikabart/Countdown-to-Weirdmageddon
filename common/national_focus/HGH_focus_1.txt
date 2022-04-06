@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = { 
 		id = HGH_staff_meeting
-		icon = a
+		icon = GFX_focus_generic_military_academy
 		x = 14
 		y = 1
 		
@@ -44,7 +44,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = HGH_look_towards_future
-		icon = a
+		icon = GFX_goal_tfv_generic_tech_sharing
 		x = -1
 		y = 1
 		relative_position_id = HGH_staff_meeting 
@@ -75,7 +75,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = HGH_hire_model_un
-		icon = a
+		icon = GFX_goal_molotov_ribbentrop_pact
 		x = 0
 		y = 1
 		relative_position_id = HGH_look_towards_future 
@@ -102,7 +102,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = HGH_power_to_principal
-		icon = a
+		icon = GFX_focus_generic_military_dictatorship
 		x = 1
 		y = 1
 		relative_position_id = HGH_staff_meeting 
@@ -129,7 +129,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = HGH_hire_history_kids
-		icon = a
+		icon = GFX_focus_generic_manpower
 		x = 0
 		y = 1
 		relative_position_id = HGH_power_to_principal 
@@ -160,7 +160,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = HGH_look_outwards_fake
-		icon = a
+		icon = GFX_goal_generic_territory_or_war
 		x = -1
 		y = 1
 		relative_position_id = HGH_hire_history_kids 
