@@ -1,0 +1,23 @@
+ideas = {
+
+	######################################################
+	#National Spirits
+	######################################################
+	country = {
+		GNM_no_bitches = {
+			picture = GFX_idea_GNM_no_bitches
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.05
+				war_support_factor = 0.1
+				training_time_factor = -0.15
+				
+			}
+		}
+
+	}
+}
