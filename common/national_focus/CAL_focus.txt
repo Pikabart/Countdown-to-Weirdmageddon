@@ -291,6 +291,13 @@
 			set_variable = { cal_hectorNDR = 35 }
 			set_variable = { cal_compromise_NDR = 0 }
 			
+			set_country_flag = cal_pacific_fleet # Enable Decisions for Pacific Fleet, show only
+			set_variable = { usa_pacific_fleet_value = 100 }
+			set_variable = { usa_pacific_fleet_ships = 300 }
+			set_variable = { usa_oriental_turmoil_value = 1 }
+			set_variable = { cal_prepared_convoy_value = 0 }
+			set_variable = { cal_deployed_convoy_value = 0 }
+			
 			hidden_effect = {
 				country_event = { id = CAL_GUSTAV.1 days = 5}
 			
@@ -1856,8 +1863,14 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_pacific.0.t"
+			#custom_effect_tooltip = "CAL_pacific.0.t"
+			custom_effect_tooltip = "CAL_pacific.2.t"
 			navy_experience = 100
+			
+			hidden_effect = {#
+				
+			}#
+			
 		}
 		
 		ai_will_do = {
@@ -1912,7 +1925,7 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			custom_effect_tooltip = "CAL_pacific.2.t"
+			custom_effect_tooltip = "CAL_pacific.4.t"
 			set_country_flag = cal_pacific_fleet
 		}
 	}

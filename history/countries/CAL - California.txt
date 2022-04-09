@@ -3,43 +3,11 @@
 
 
 # Starting tech
-set_technology = {
-	infantry_weapons = 1
-	tech_support = 1
-	tech_recon = 1
-	support_weapons = 1
-	gw_artillery = 1
-	basic_train = 1
 
-	#doctrines
-	air_superiority = 1
-	grand_battle_plan = 1
-	trench_warfare = 1
-	fleet_in_being = 1
-	battlefleet_concentration = 1
-	convoy_sailing = 1
-
-	#electronics
-	electronic_mechanical_engineering = 1
-	radio = 1
-	radio_detection = 1
-	mechanical_computing = 1
-	computing_machine = 1
-
-	#industry
-	basic_machine_tools = 1
-	improved_machine_tools = 1
-	advanced_machine_tools = 1
-	construction1 = 1
-	construction2 = 1
-	dispersed_industry = 1
-	dispersed_industry2 = 1
-	
-}
 
 add_ideas = {
-	#CAL_golden
-	#CAL_northwest
+	state_national_guard
+	state_interstate_gone
 }
 
 #oob = "CAL_2012"
@@ -85,4 +53,187 @@ recruit_character = CAL_hector_diaz_north
 recruit_character = CAL_carman_evertt_social
 recruit_character = CAL_carman_evertt_auto
 
+#################################################
+#################################################
+#################################################
 
+set_technology = {
+	
+	industrial_progress = 1
+	modern_progress = 1
+	
+	#infantry folder
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	infantry_weapons3 = 1
+	infantry_weapons4 = 1
+	infantry_at = 1
+
+	infantry_weapons10 = 1
+
+	night_vision = 1 
+	support_weapons = 1
+
+	#
+	mounted_infantry = 1
+	mounted_carriages1 = 1
+	mounted_carriages2 = 1
+	motorised_infantry = 1
+	#
+
+	#Support
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_military_police = 1
+	tech_field_hospital = 1
+
+	basic_roads = 1
+	wartime_train = 1
+	
+	#Artillery
+	gw_artillery = 1
+	interwar_artillery = 1
+	artillery1 = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+
+	#Aircraft
+	early_fighter = 1
+	cv_early_fighter = 1
+	fighter1 = 1
+	cv_fighter1 = 1
+	CAS1 = 1
+
+	early_bomber = 1
+
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+
+	#industry
+	basic_machine_tools = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	construction1 = 1
+	construction2 = 1
+	excavation1 = 1
+	excavation2 = 1
+
+	
+}
+
+if = {
+	limit = {
+		has_dlc = "Death or Dishonor"
+	}
+	set_technology = {
+
+	}
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "La Resistance" }
+	}
+	set_technology = {
+		basic_encryption = 1
+		basic_decryption = 1
+
+	}
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1		
+		main_battle_tank = 1
+
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		main_battle_tank_chassis = 1
+		
+	}
+	add_ideas = bureau_of_ordnance_spirit
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		
+		early_destroyer = 1
+		
+		early_light_cruiser = 1
+		
+		early_heavy_cruiser = 1
+		
+		early_battleship = 1
+		
+		early_battlecruiser = 1
+		
+		early_carrier = 1
+
+		
+		transport = 1
+
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		smoke_generator = 1
+		sonar = 1
+		basic_depth_charges = 1
+
+		early_ship_hull_light = 1
+		
+		early_ship_hull_submarine = 1
+		
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		improved_ship_hull_cruiser = 1
+		
+		early_ship_hull_heavy = 1
+		
+		early_ship_hull_carrier = 1
+
+		basic_torpedo = 1
+		
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+
+		basic_secondary_battery = 1		
+		
+		damage_control_1 = 1
+		fire_control_methods_1 = 1
+		
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		
+		mtg_transport = 1
+
+	}
+}
+
+#################################################
+#################################################
+#################################################

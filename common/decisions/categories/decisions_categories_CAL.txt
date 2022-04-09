@@ -36,43 +36,22 @@ CAL_catagory_NorCal_SoCal = {
 	
 }
 
-CAL_catagory_everett_pressure = {
-	priority = 8
-	icon = GFX_category_icon
-	picture = GFX_decision_category_everett_expansion 
-	
-	allowed = { tag = CAL }
-	visible = { 
-		has_country_flag = cal_everett_plan 
-	}
-	
-	visible_when_empty = yes
-}
-
-CAL_catagory_sierra_depot = {
-	priority = 5
-	icon = GFX_category_icon
-	picture = GFX_decision_category_sierra_depot 
-	
-	allowed = { tag = CAL }
-	visible = { 
-		has_country_flag = cal_sierra_depot 
-	} 
-	
-	visible_when_empty = yes
-}
-
 CAL_catagory_pacific_fleet = {
 	priority = 5
 	icon = GFX_category_icon
 	picture = GFX_decision_category_pacific_fleet 
 	
+	scripted_gui = cal_decision_navy_ui
+	
 	allowed = { tag = CAL }
 	visible = { 
-		has_country_flag = cal_pacific_fleet 
+		has_country_flag = cal_pacific_fleet
+		NOT = { has_global_flag = GLOBAL_AMERICA_UNITED }
+		NOT = { has_global_flag = GLOBAL_ASIA_FELL }
 	}
 	
 	visible_when_empty = yes
 }
+
 
 ###############

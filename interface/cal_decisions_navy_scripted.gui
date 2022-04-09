@@ -1,0 +1,105 @@
+@FACTION_TEXT_X = 55
+@LOYALTY_TEXT_X = 240
+@POPULARITY_TEXT_X = 380
+@FACTION_ICONS_X = 10
+@FACTION_NAMES_X = 55
+@HEADERS_Y = 0
+guiTypes = {
+
+	containerWindowType = {
+		name = "cal_decision_navy_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 175 }
+
+
+		instantTextBoxType = {
+			name ="cal_PACIFIC_FLEET_STRENGTH"
+			position = { x = 55 y = 10 }
+			font = "hoi_18mbs"
+			text = "cal_PACIFIC_FLEET_STRENGTH"
+			format = left
+			maxHeight = 24
+			maxwidth = 500
+		}
+
+		instantTextBoxType = {
+			name ="cal_PACIFIC_FLEET_SHIP"
+			position = { x = 55 y = 45 }
+			font = "hoi_18mbs"
+			text = "cal_PACIFIC_FLEET_SHIP"
+			format = left
+			maxHeight = 24
+			maxwidth = 500
+		}
+		
+		instantTextBoxType = {
+			name ="cal_ORIENTAL_TURMOIL"
+			position = { x = 55 y = 80 }
+			font = "hoi_18mbs"
+			text = "cal_ORIENTAL_TURMOIL"
+			format = left
+			maxHeight = 24
+			maxwidth = 500
+		}
+
+		instantTextBoxType = {
+			name ="cal_PREPARED_CONVOY"
+			position = { x = 55 y = 115 }
+			font = "hoi_18mbs"
+			text = "cal_PREPARED_CONVOY"
+			format = left
+			maxHeight = 24
+			maxwidth = 500
+		}
+
+		instantTextBoxType = {
+			name ="cal_DEPLOYED_CONVOY"
+			position = { x = 55 y = 150 }
+			font = "hoi_18mbs"
+			text = "cal_DEPLOYED_CONVOY"
+			format = left
+			maxHeight = 24
+			maxwidth = 500
+		}
+
+		############# Tooltip #############
+		
+		#Tooltip
+		instantTextBoxType = {
+			name ="cal_PACIFIC_FLEET_tooltip"
+			position = { x = 55 y = 10 }
+			maxwidth = 400
+			maxHeight = 24
+			pdx_tooltip = cal_PACIFIC_FLEET_tt
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="cal_ORIENTAL_TURMOIL_tooltip"
+			position = { x = 55 y = 45 }
+			maxwidth = 400
+			maxHeight = 24
+			pdx_tooltip = cal_ORIENTAL_TURMOIL_tt
+		}
+
+		#Tooltip
+		instantTextBoxType = {
+			name ="cal_PREPARED_CONVOY_tooltip"
+			position = { x = 55 y = 100 }
+			maxwidth = 400
+			maxHeight = 24
+			pdx_tooltip = cal_PREPARED_CONVOY_tt
+		}
+		
+		#Tooltip
+		instantTextBoxType = {
+			name ="cal_DEPLOYED_CONVOY_tooltip"
+			position = { x = 55 y = 100 }
+			maxwidth = 400
+			maxHeight = 24
+			pdx_tooltip = cal_DEPLOYED_CONVOY_tt
+		}
+
+	}
+	
+}
