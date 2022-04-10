@@ -71,7 +71,15 @@ focus_tree = {
 		cost = 5
 
 		search_filters = {   }
-		ai_will_do = { factor = 1 }
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				NOT = {
+					has_government = communism
+				}
+				factor = 0
+			}
+		}
 		available_if_capitulated = yes
 
 		completion_reward = {
@@ -304,7 +312,17 @@ focus_tree = {
 		search_filters = {   }
 		
 		available_if_capitulated = yes
-
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				NOT = {
+					has_government = democratic
+				}
+				factor = 0
+			}
+		}
+		
 		completion_reward = {
 			IF = {
 				limit = {
@@ -482,6 +500,16 @@ focus_tree = {
 		mutually_exclusive = { focus = autocracy_0 }
 		relative_position_id = 2_look_to_the_world
 		cost = 5
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				NOT = {
+					has_government = neutrality
+				}
+				factor = 0
+			}
+		}
 
 		search_filters = {   }
 		
@@ -752,6 +780,16 @@ focus_tree = {
 		mutually_exclusive = { focus = oligarchy_0 }
 		relative_position_id = 2_look_to_the_world
 		cost = 5
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				NOT = {
+					has_government = fascism
+				}
+				factor = 0
+			}
+		}
 
 		search_filters = {   }
 		
@@ -1059,7 +1097,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_political_power = 150
 		}
 	}
 	
@@ -1080,7 +1118,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = inward_focus_1
 		}
 	}
 	
@@ -1101,7 +1139,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = outward_focus_1
 		}
 	}
 	
@@ -1122,7 +1160,36 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -1140,7 +1207,36 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -1160,7 +1256,93 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -1181,7 +1363,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = inward_focus_1
+				add_idea = inward_focus_2
+			}
 		}
 	}
 	
@@ -1201,7 +1386,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_research_slot = 1
 		}
 	}
 	
@@ -1210,6 +1395,8 @@ focus_tree = {
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { 
 			focus = corner_3 
+		}
+		prerequisite = {
 			focus = corner_4 
 		}
 		x = 1
@@ -1222,7 +1409,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = inward_focus_2
+				add_idea = inward_focus_3
+			}
 		}
 	}
 	
@@ -1243,7 +1433,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			set_country_flag = CtW_generic_inward_flag
+			custom_effect_tooltip = new_decisions_tooltip
 		}
 	}
 	
@@ -1262,7 +1453,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = inward_focus_3
+				add_idea = inward_focus_4
+			}
 		}
 	}
 
@@ -1283,7 +1477,35 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -1301,7 +1523,35 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 	
@@ -1321,7 +1571,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = outward_focus_1
+				add_idea = outward_focus_2
+			}
 		}
 	}
 	
@@ -1342,7 +1595,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = outward_focus_justification
 		}
 	}
 	
@@ -1362,15 +1615,21 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
+			}
 		}
 	}
 	
 	focus = {
 		id = onward_6
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { 
+		prerequisite = {
 			focus = onward_3 
+		}
+		prerequisite = { 
 			focus = onward_4 
 		}
 		x = 1
@@ -1383,7 +1642,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = outward_focus_2
+				add_idea = outward_focus_3
+			}
 		}
 	}
 	
@@ -1404,7 +1666,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			set_country_flag = CtW_generic_outward_flag
+			custom_effect_tooltip = new_decisions_tooltip
 		}
 	}
 	
@@ -1423,7 +1686,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			swap_ideas = {
+				remove_idea = outward_focus_3
+				add_idea = outward_focus_4
+			}
 		}
 	}
 
@@ -1437,6 +1703,9 @@ focus_tree = {
 			focus = 2_vast_multiverse
 			focus = 3_vast_multiverse
 		}
+		available = {
+			has_war = yes
+		}
 		mutually_exclusive = { focus = adapt_2 }
 		x = -2
 		y = 3
@@ -1448,7 +1717,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_timed_idea = {
+				idea = generic_railroad_speed
+				days = 365
+			}
 		}
 	}
 	
@@ -1458,6 +1730,9 @@ focus_tree = {
 		prerequisite = { 
 			focus = 2_vast_multiverse
 			focus = 3_vast_multiverse
+		}
+		available = {
+			has_war = yes
 		}
 		mutually_exclusive = { focus = adapt_1 }
 		x = 2
@@ -1470,7 +1745,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_timed_idea = {
+				idea = generic_defense_buildings_speed
+				days = 365
+			}
 		}
 	}
 	
@@ -1480,6 +1758,10 @@ focus_tree = {
 		prerequisite = { 
 			focus = adapt_1
 			focus = adapt_2
+		}
+		available = {
+			has_war = yes
+			surrender_progress > 0.4
 		}
 		mutually_exclusive = { focus = adapt_4 }
 		x = 0
@@ -1492,7 +1774,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_ideas = closed_economy
+			add_timed_idea = {
+				idea = now_or_never_idea
+				days = 365
+			}
+			set_rule = { can_use_kamikaze_pilots = yes }
 		}
 	}
 	
@@ -1502,6 +1789,10 @@ focus_tree = {
 		prerequisite = { 
 			focus = adapt_1
 			focus = adapt_2
+		}
+		available = {
+			has_war = yes
+			surrender_progress > 0.75
 		}
 		mutually_exclusive = { focus = adapt_3 }
 		x = 0
@@ -1514,7 +1805,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			
+			add_timed_idea = {
+				idea = desperate_defense_idea_ctw
+				days = 365
+			}
 		}
 	}
 

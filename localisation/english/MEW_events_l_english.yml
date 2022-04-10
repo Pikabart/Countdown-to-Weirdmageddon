@@ -5,7 +5,7 @@
 #######
 
 mewni_startup.1.t:0 "Welcome to Countdown to Weirdmaggedon: [Root.GetName]!"
-mewni_startup.1.d:0 "Welcome to our mod, we hope you enjoy!\n\n§RIMPORTANT NOTES:§! You will get a thank you event once you've reached the end of the mod's current content. Events and scripted peaces about the end of wars will take a maximum of one months after the war to show up. Scripted peace is a possibility, but it is not game-ending if you get a manual peace confrence. Just annex everything."
+mewni_startup.1.d:0 "Welcome to our mod, we hope you enjoy!\n\n§RIMPORTANT NOTES:§! You will get a thank you event once you've reached the end of the mod's current content. Manpower has been reworked, you need less than you do in vanilla. Roads (Railroads in vanilla) and Supply wagons (the first train) are researchable in the support tab, you should probably research those ASAP to actually have supply."
 mewni_startup.1.a:0 "Alright, time to play!"
 
 mewni_solaria.1.t:0 "The Legacy of Queen Solaria"
