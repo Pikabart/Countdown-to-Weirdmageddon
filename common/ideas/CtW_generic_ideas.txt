@@ -1,0 +1,93 @@
+ideas = {
+	country = {
+		generic_revolution_realized = {
+			picture = generic_communism_drift_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = -0.05
+			}
+		}
+
+		generic_democracy_endures = {
+			picture = generic_democratic_drift_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = 0.05
+			}
+		}
+		
+		generic_destined_few = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = -0.1
+			}
+		}
+		
+		generic_one_to_lead_us = {
+			picture = generic_fascism_drift_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				war_support_factor = 0.15
+			}
+		}
+		
+		generic_progressive_future = {
+			picture = generic_democratic_drift_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = 0.15
+				consumer_goods_factor = -0.1
+			}
+		}
+		
+		generic_strong_future = {
+			picture = generic_fascism_drift_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				war_support_factor = 0.15
+				offence = 0.1
+			}
+		}
+		
+		generic_stable_future = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				war_support_factor = 0.05
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+
+	}
+}

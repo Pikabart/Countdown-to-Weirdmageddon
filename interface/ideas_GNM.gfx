@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_GNM_no_bitches"
+		texturefile = "gfx/interface/ideas/gnm/idea_GNM_no_bitches.dds"
+	}
+
+}   #END OF FILE
