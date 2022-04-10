@@ -74,9 +74,12 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_amphibious_light_armor_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_light_amphibious_tank_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_amphibious_medium_armor_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_medium_amphibious_tank_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_amphibious_heavy_armor_icon_medium"							textureFile = "gfx/interface/counters/divisions_large/unit_heavy_amphibious_tank_icon.dds" noOfFrames = 2 }
+	
 	spriteType = { name = "GFX_unit_magic_main_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/magic_main_icon.dds" noOfFrames = 2 }	
 	spriteType = { name = "GFX_unit_magic_support_icon_medium"							texturefile = "gfx/interface/counters/divisions_large/support_unit_magic_support_icon.dds" noOfFrames = 2}
 	
+	spriteType = { name = "GFX_unit_special_operation_main_icon_medium"									textureFile = "gfx/interface/counters/divisions_large/unit_spec_ops_icon.dds" noOfFrames = 2 }	
+	spriteType = { name = "GFX_unit_special_operation_company_icon_medium"							texturefile = "gfx/interface/counters/divisions_large/unit_spec_ops_company_icon.dds" noOfFrames = 2}
 	
 	####################################################
 	### Small images for DIVISIONS (On-map-counters) ###

@@ -70,8 +70,6 @@ CAL_catagory_NorCal_SoCal = {
 			#}
 		}
 	}
-
- 
 	
 	cal_decision_relationship_checkup = {   
           
@@ -85,7 +83,7 @@ CAL_catagory_NorCal_SoCal = {
 		priority = 10
 		
 		available = {		#THIS IS THE GOAL. So if true, it "fails"
-		    has_country_flag = cal_California_United 
+		    has_country_flag = cal_California_United
 		}
         activation = {                          
             has_country_flag = cal_NorSo_relationship

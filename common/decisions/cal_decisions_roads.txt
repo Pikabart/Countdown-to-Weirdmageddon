@@ -3,8 +3,6 @@
 #####################################################################################################################
 CAL_catagory_roads = {    
 	
-	
-	
 	cal_decision_road_survey = {   
           
 		icon = GFX_decision_icon_default
@@ -128,7 +126,7 @@ CAL_catagory_roads = {
 		visible = { NOT = { has_country_flag = cal_interstate_5_1}	}		
 
 		priority = 9
-		cost = 100			
+		cost = 25			
 
 		fixed_random_seed = no 
 		remove_effect = {		

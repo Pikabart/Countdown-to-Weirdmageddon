@@ -1,0 +1,27 @@
+﻿
+units = {
+	
+	#### Navy 5
+	
+	
+	fleet = {
+        name = "Pacific Fleet Returner" # Name 1
+        naval_base = 5246
+        task_force = {
+            name = "Taskforce 5" # Name 2
+            location = 5246
+            ship = { name = "USS Adrian Levi Curtis" pride_of_the_fleet = yes definition = carrier start_experience_factor = 0.25 equipment = { ship_hull_carrier_3 = { amount = 1 owner = EUS version_name = "Curtis Class" } } 
+				air_wings = {
+					cv_fighter_equipment_0 =  { owner = "EUS" amount = 20 } # 
+					cv_CAS_equipment_1 =  { owner = "EUS" amount = 10 } #
+					cv_nav_bomber_equipment_1 =  { owner = "EUS" amount = 10 } # 
+				}
+			}	
+        }
+
+	}
+}
+
+##### No Notable Air Forces #####
+
+### Other ###
