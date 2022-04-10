@@ -14,7 +14,7 @@ intelligence_agency = {
 intelligence_agency = {
 
 	picture = GFX_intelligence_agency_logo_usa
-	names = { "Mystery Inc" }
+	names = { "Mystery Shack Inc" }
 	
 	default = { tag = MYS }
 	available = { original_tag = MYS }
@@ -31,8 +31,8 @@ intelligence_agency = {
 
 intelligence_agency = {
 
-	picture = GFX_intelligence_agency_logo_sov
-	names = { "Imperial Bureau of Investigation" }
+	picture = GFX_intelligence_agency_logo_cal
+	names = { "Imperial Bureau Of Investigation" }
 	
 	default = { tag = CAL }
 	available = { original_tag = CAL }
