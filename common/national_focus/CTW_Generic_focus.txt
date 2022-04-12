@@ -18,14 +18,604 @@ focus_tree = {
 		focus = industrial_effort
 	}
 	
+	continuous_focus_position = { x = 0 y = 2000 } 
+	
 	##################################################
 	##################################################
 	##################################################
 
 	focus = {
+		id = armed_forces
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 6
+		y = 0
+		cost = 10
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 5
+			air_experience = 5
+			navy_experience = 5
+		}
+	}
+	
+	focus = {
+		id = generic_army
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -6
+		y = 1
+		prerequisite = { focus = armed_forces }
+		relative_position_id = armed_forces
+		cost = 10
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 15
+		}
+	}
+	
+	focus = {
+		id = generic_army_2
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -1
+		y = 1
+		prerequisite = { focus = generic_army }
+		relative_position_id = generic_army
+		cost = 5
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_army_3
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 1
+		prerequisite = { focus = generic_army }
+		relative_position_id = generic_army
+		cost = 5
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = motorized_equipment
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_army_4
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = generic_army_2
+			focus = generic_army_3
+		}
+		mutually_exclusive = { focus = generic_army_5 }
+		relative_position_id = generic_army_2
+		cost = 10
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_mass_assault
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_superior_firepower
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_army_5
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = generic_army_2
+			focus = generic_army_3
+		}
+		mutually_exclusive = { focus = generic_army_4 }
+		relative_position_id = generic_army_3
+		cost = 5
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_mobile_warfare
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_grand_battle_plan
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_army_6
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = generic_army_4
+			focus = generic_army_5
+		}
+		relative_position_id = generic_army_5
+		cost = 5
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 50
+		}
+	}
+	
+################################################
+
+	focus = {
+		id = generic_army_navy
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 3
+		y = 1
+		prerequisite = {
+			focus = generic_army
+			focus = generic_airforce
+		}
+		relative_position_id = generic_army
+		cost = 10
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = cas_bomber
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_army_navy_2
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = generic_army_navy
+		}
+		relative_position_id = generic_army_navy
+		cost = 10
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = light_fighter
+			}
+		}
+	}
+	
+###################################################
+	
+	focus = {
+		id = generic_airforce
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		prerequisite = { focus = armed_forces }
+		relative_position_id = armed_forces
+		cost = 10
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 15
+		}
+	}
+	
+	focus = {
+		id = generic_airforce_2
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -1
+		y = 1
+		prerequisite = { focus = generic_airforce }
+		relative_position_id = generic_airforce
+		cost = 5
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = light_fighter
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_airforce_3
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 1
+		prerequisite = { focus = generic_airforce }
+		relative_position_id = generic_airforce
+		cost = 5
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = naval_bomber
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_airforce_4
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = generic_airforce_2
+			focus = generic_airforce_3
+		}
+		mutually_exclusive = { focus = generic_airforce_5 }
+		relative_position_id = generic_airforce_2
+		cost = 10
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_strategic_destruction
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_battlefield_support
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_airforce_5
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = generic_airforce_2
+			focus = generic_airforce_3
+		}
+		mutually_exclusive = { focus = generic_airforce_4 }
+		relative_position_id = generic_airforce_3
+		cost = 5
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_operational_integrity
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_airforce_6
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = generic_airforce_4
+			focus = generic_airforce_5
+		}
+		relative_position_id = generic_airforce_5
+		cost = 5
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			air_experience = 50
+		}
+	}
+	
+###################################################
+
+	focus = {
+		id = generic_airforce_navy
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -3
+		y = 1
+		prerequisite = {
+			focus = generic_airforce
+			focus = generic_navy
+		}
+		relative_position_id = generic_navy
+		cost = 10
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = naval_air
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_airforce_navy_2
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = generic_airforce_navy
+		}
+		relative_position_id = generic_airforce_navy
+		cost = 10
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 1
+				category = naval_bomber
+			}
+		}
+	}
+
+###################################################
+	
+	focus = {
+		id = generic_navy
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 6
+		y = 1
+		prerequisite = { focus = armed_forces }
+		relative_position_id = armed_forces
+		cost = 10
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 15
+		}
+	}
+	
+	focus = {
+		id = generic_navy_2
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -1
+		y = 1
+		prerequisite = { focus = generic_navy }
+		relative_position_id = generic_navy
+		cost = 5
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1.5
+				uses = 2
+				category = ss_tech
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_navy_3
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 1
+		y = 1
+		prerequisite = { focus = generic_navy }
+		relative_position_id = generic_navy
+		cost = 5
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 6
+				category = naval_equipment
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_navy_4
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = generic_navy_2
+			focus = generic_navy_3
+		}
+		mutually_exclusive = { focus = generic_navy_5 }
+		relative_position_id = generic_navy_2
+		cost = 10
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_trade_interdiction
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_fleet_in_being
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_navy_5
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 0
+		y = 1
+		prerequisite = {
+			focus = generic_navy_2
+			focus = generic_navy_3
+		}
+		mutually_exclusive = { focus = generic_navy_4 }
+		relative_position_id = generic_navy_3
+		cost = 5
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_base_strike
+			}
+		}
+	}
+	
+	focus = {
+		id = generic_navy_6
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -1
+		y = 1
+		prerequisite = {
+			focus = generic_navy_4
+			focus = generic_navy_5
+		}
+		relative_position_id = generic_navy_5
+		cost = 5
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			navy_experience = 50
+		}
+	}
+	
+#######################################
+
+	focus = {
+		id = generic_magic
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 3
+		y = 1
+		prerequisite = { focus = generic_navy_6 }
+		prerequisite = { focus = generic_airforce_6 }
+		prerequisite = { focus = generic_army_6 }
+		mutually_exclusive = { focus = generic_tech_special_forces }
+		relative_position_id = generic_army_6
+		cost = 10
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			set_technology = {
+				tech_magic_forces_check = 1
+			}
+		}
+	}
+
+##########################################
+
+	focus = {
+		id = generic_tech_special_forces
+		icon = GFX_goal_generic_allies_build_infantry
+		x = -3
+		y = 1
+		prerequisite = { focus = generic_navy_6 }
+		prerequisite = { focus = generic_airforce_6 }
+		prerequisite = { focus = generic_army_6 }
+		mutually_exclusive = { focus = generic_magic }
+		relative_position_id = generic_navy_6
+		cost = 5
+		search_filters = {  }
+		ai_will_do = { factor = 1 }
+		available_if_capitulated = yes
+
+		completion_reward = {
+			IF = {
+				limit = {
+					has_tech = tech_special_operation
+				}
+				add_tech_bonus = {
+					bonus = 0.5
+					uses = 3
+					category = cat_techno_spec_ops
+				}
+			}
+			ELSE = {
+				set_technology = {
+					tech_special_operation = 1
+				}
+			}
+		}
+	}
+	
+##########################################
+
+	focus = {
 		id = 1_summers_start
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 15
+		x = 22
 		y = 0
 		cost = 10
 		search_filters = {  }
@@ -143,10 +733,8 @@ focus_tree = {
 	focus = {
 		id = revolutionary_3
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { 
-			focus = revolutionary_1 
-			focus = revolutionary_2 
-		}
+		prerequisite = { focus = revolutionary_1 }
+		prerequisite = { focus = revolutionary_2 }
 		mutually_exclusive = { focus = revolutionary_4 }
 		x = 0
 		y = 1
@@ -172,10 +760,8 @@ focus_tree = {
 	focus = {
 		id = revolutionary_4
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { 
-			focus = revolutionary_1 
-			focus = revolutionary_2 
-		}
+		prerequisite = { focus = revolutionary_1 }
+		prerequisite = { focus = revolutionary_2 }
 		mutually_exclusive = { focus = revolutionary_3 }
 		x = 0
 		y = 1
@@ -278,8 +864,10 @@ focus_tree = {
 	focus = {
 		id = revolutionary_7
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = revolutionary_5 }
-		prerequisite = { focus = revolutionary_6 }
+		prerequisite = {
+			focus = revolutionary_5
+			focus = revolutionary_6
+		}
 		x = 1
 		y = 1
 		relative_position_id = revolutionary_5
@@ -384,10 +972,8 @@ focus_tree = {
 	focus = {
 		id = democracy_3
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { 
-			focus = democracy_1 
-			focus = democracy_2 
-		}
+		prerequisite = { focus = democracy_1 }
+		prerequisite = { focus = democracy_2 }
 		mutually_exclusive = { focus = democracy_4 }
 		x = 0
 		y = 1
@@ -406,10 +992,8 @@ focus_tree = {
 	focus = {
 		id = democracy_4
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { 
-			focus = democracy_1 
-			focus = democracy_2 
-		}
+		prerequisite = { focus = democracy_1 }
+		prerequisite = { focus = democracy_2 }
 		mutually_exclusive = { focus = democracy_3 }
 		x = 0
 		y = 1
@@ -470,8 +1054,10 @@ focus_tree = {
 	focus = {
 		id = democracy_7
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = democracy_5 }
-		prerequisite = { focus = democracy_6 }
+		prerequisite = {
+			focus = democracy_5
+			focus = democracy_6
+		}
 		x = 1
 		y = 1
 		relative_position_id = democracy_5
@@ -605,10 +1191,8 @@ focus_tree = {
 	focus = {
 		id = oligarchy_3
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { 
-			focus = oligarchy_1 
-			focus = oligarchy_2 
-		}
+		prerequisite = { focus = oligarchy_1 }
+		prerequisite = { focus = oligarchy_2 }
 		mutually_exclusive = { focus = oligarchy_4 }
 		x = 0
 		y = 1
@@ -627,10 +1211,8 @@ focus_tree = {
 	focus = {
 		id = oligarchy_4
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { 
-			focus = oligarchy_1 
-			focus = oligarchy_2 
-		}
+		prerequisite = { focus = oligarchy_1 }
+		prerequisite = { focus = oligarchy_2 }
 		mutually_exclusive = { focus = oligarchy_3 }
 		x = 0
 		y = 1
@@ -750,8 +1332,10 @@ focus_tree = {
 	focus = {
 		id = oligarchy_7
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = oligarchy_5 }
-		prerequisite = { focus = oligarchy_6 }
+		prerequisite = {
+			focus = oligarchy_5
+			focus = oligarchy_6
+		}
 		x = 1
 		y = 1
 		relative_position_id = oligarchy_5
@@ -856,10 +1440,8 @@ focus_tree = {
 	focus = {
 		id = autocracy_3
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { 
-			focus = autocracy_1 
-			focus = autocracy_2 
-		}
+		prerequisite = { focus = autocracy_1 }
+		prerequisite = { focus = autocracy_2 }
 		mutually_exclusive = { focus = autocracy_4 }
 		x = 0
 		y = 1
@@ -909,10 +1491,8 @@ focus_tree = {
 	focus = {
 		id = autocracy_4
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { 
-			focus = autocracy_1 
-			focus = autocracy_2 
-		}
+		prerequisite = { focus = autocracy_1 }
+		prerequisite = { focus = autocracy_2 }
 		mutually_exclusive = { focus = autocracy_3 }
 		x = 0
 		y = 1
@@ -987,8 +1567,10 @@ focus_tree = {
 	focus = {
 		id = autocracy_7
 		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = autocracy_5 }
-		prerequisite = { focus = autocracy_6 }
+		prerequisite = {
+			focus = autocracy_5
+			focus = autocracy_6
+		}
 		x = 1
 		y = 1
 		relative_position_id = autocracy_5
@@ -1571,9 +2153,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = outward_focus_1
-				add_idea = outward_focus_2
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = land_doctrine
 			}
 		}
 	}
@@ -1615,10 +2198,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_doctrine_cost_reduction = {
-				cost_reduction = 0.5
-				uses = 2
-				category = land_doctrine
+			swap_ideas = {
+				remove_idea = outward_focus_1
+				add_idea = outward_focus_2
 			}
 		}
 	}
@@ -1627,9 +2209,7 @@ focus_tree = {
 		id = onward_6
 		icon = GFX_goal_generic_small_arms
 		prerequisite = {
-			focus = onward_3 
-		}
-		prerequisite = { 
+			focus = onward_3
 			focus = onward_4 
 		}
 		x = 1
@@ -1642,10 +2222,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			swap_ideas = {
-				remove_idea = outward_focus_2
-				add_idea = outward_focus_3
-			}
+			set_country_flag = CtW_generic_outward_flag
+			custom_effect_tooltip = new_decisions_tooltip
 		}
 	}
 	
@@ -1654,6 +2232,8 @@ focus_tree = {
 		icon = GFX_goal_generic_small_arms
 		prerequisite = { 
 			focus = onward_4 
+		}
+		prerequisite = {
 			focus = onward_5 
 		}
 		x = -1
@@ -1666,8 +2246,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			set_country_flag = CtW_generic_outward_flag
-			custom_effect_tooltip = new_decisions_tooltip
+			swap_ideas = {
+				remove_idea = outward_focus_2
+				add_idea = outward_focus_3
+			}
 		}
 	}
 	
@@ -1767,7 +2349,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = adapt_1
-		cost = 5
+		cost = 2
 
 		search_filters = {   }
 		ai_will_do = { factor = 1 }
@@ -1798,7 +2380,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = adapt_2
-		cost = 5
+		cost = 2
 
 		search_filters = {   }
 		ai_will_do = { factor = 1 }
