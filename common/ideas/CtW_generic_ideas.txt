@@ -88,6 +88,186 @@ ideas = {
 				consumer_goods_factor = -0.05
 			}
 		}
+		
+		inward_focus_1 = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		
+		inward_focus_2 = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = 0.20
+				justify_war_goal_time = 0.45
+				war_support_factor = -0.30
+			}
+		}
+		
+		inward_focus_3 = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = 0.20
+				production_speed_industrial_complex_factor = 0.15
+				justify_war_goal_time = 0.45
+				war_support_factor = -0.30
+			}
+		}
+		
+		inward_focus_4 = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = 0.20
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_buildings_factor = 0.15
+				justify_war_goal_time = 0.45
+				war_support_factor = -0.30
+			}
+		}
+
+		outward_focus_1 = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				war_support_factor = 0.05
+			}
+		}
+		
+		outward_focus_2 = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				war_support_factor = 0.05
+				experience_gain_army_factor = 0.1
+			}
+		}
+		
+		outward_focus_3 = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				war_support_factor = 0.05
+				experience_gain_army_factor = 0.1
+				production_speed_arms_factory_factor = 0.15
+			}
+		}
+		
+		outward_focus_4 = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				war_support_factor = 0.05
+				experience_gain_army_factor = 0.1
+				production_speed_arms_factory_factor = 0.15
+				offence = 0.15
+				defence = 0.10
+			}
+		}
+		
+		outward_focus_justification = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				justify_war_goal_time = -0.5
+			}
+		}
+		
+		generic_railroad_speed = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.35
+				production_speed_rail_way_factor = 0.45
+				production_speed_supply_node_factor = 2
+			}
+		}
+		
+		generic_defense_buildings_speed = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				production_speed_anti_air_building_factor = 0.35
+				production_speed_bunker_factor = 0.35
+			}
+		}
+		
+		now_or_never_idea = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.15
+				stability_factor = -0.1
+				local_manpower = 0.1
+			}
+		}
+		
+		desperate_defense_idea_ctw = {
+			picture = generic_pp_unity_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				army_core_defence_factor = 0.35
+				stability_factor = -0.35
+				local_manpower = 0.35
+			}
+		}
 
 	}
 }

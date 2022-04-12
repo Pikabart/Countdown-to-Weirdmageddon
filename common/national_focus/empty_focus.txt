@@ -1,0 +1,16 @@
+focus_tree = {
+
+	id = empty_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+#			add = 100
+#			tag = LUC
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+}

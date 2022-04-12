@@ -1,0 +1,50 @@
+#####################################################################################################################
+# COMMENTS HAVE BEEN INCLUDED FOR SAKE OF EXPLANATION, CAN BE REMOVED #
+# ID's must not include spaces!
+#####################################################################################################################
+
+simple_category = {		#ID of category 
+	priority = 10		#Determines the order of display in the decisions tab, the higher the number, the higher it will show up.
+	icon = GFX_category_icon	#Icon to be used for the category, defined in decisions_graphics.gfx or other .gfx file you create
+	picture = GFX_category_image_template 
+	
+	allowed = {
+		always = no
+	}
+	
+	#Determines what makes this category visible, if a category is invisible decisions under that category also will not be visible to the AI/player.
+	visible = {		
+		#has_global_flag = a_global_flag
+	}	
+	visible_when_empty = no
+}
+
+CtW_generic_inward_category = {
+	priority = 9	
+	icon = GFX_category_icon	
+	picture = 
+	
+	allowed = {
+		has_country_flag = CtW_generic_inward_flag
+	}
+	visible = {
+		has_country_flag = CtW_generic_inward_flag
+	}
+	
+	visible_when_empty = no
+}
+
+CtW_generic_outward_category = {
+	priority = 9	
+	icon = GFX_category_icon	
+	picture = 
+	
+	allowed = {
+		has_country_flag = CtW_generic_outward_flag
+	}
+	visible = {
+		has_country_flag = CtW_generic_outward_flag
+	}
+	
+	visible_when_empty = no
+}

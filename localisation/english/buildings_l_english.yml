@@ -28,6 +28,7 @@
  anti_air_building_desc:0 "This building provides the state with protection from enemy bombers and ability to fire at attacking aircraft."
  synthetic_refinery:0 "Synthetic Refinery"
  synthetic_refinery_plural:0 "Synthetic Refineries"
+ rail_way:0 "Roads"
  #synthetic_refinery_desc:0 "This building provides the state with +1 £resources_strip|3 and +2 £resources_strip|1."
  synthetic_refinery_desc:0 "This building provides the state with"
  synthetic_refinery_amount:0 "$VALUE|Y0=$"
