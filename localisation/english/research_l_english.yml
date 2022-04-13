@@ -91,7 +91,7 @@
  #########
 
  tech_special_operation:0 "Special Operation Forces"
- tech_special_operation_desc:0 "Special Operation Forces consist of the finest soldiers in any army. Their formations come as a natural need for elite units as the indutrial age begins and warfare becomes more complex."
+ tech_special_operation_desc:0 "Special Operation Forces consist of the finest soldiers in any army. Their formations come as a natural need for elite units as the Industrial Age begins and warfare becomes more complex. (Unlocked once Industrial Advancement is Complete)"
  
  tech_special_operation_1:0 "Special Operation Integration"
  tech_special_operation_1_desc:0 "The officers of our special op forces are often both well trained and skilled in both tactical and strategic deployment. By attaching a small contingent of them with our main forces, our frontline commanders would have both greater firepower and expertise at their disposal. They may also advice regular field commanders to improve our main force's capabilities."
