@@ -33,15 +33,16 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_ideas = KAI_prince_state_idea_002
+			add_political_power = 100
 		}
 		
 		ai_will_do = {
 			factor = 400
 			#modifier = {}
-		}
-		
+		}	
 	}
-        focus = { 
+	focus = { 
  		id = KAI_every_corner
  		icon = a
  		x = 0
@@ -62,15 +63,22 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+			hidden_effect = {
+ 				add_to_variable = {
+					var = kai_military
+					value = 10
+				}
+			}
+			custom_effect_tooltip = kai_military_12_tt 
+			country_event = KAI_friends.1
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+ 	focus = { 
  		id = KAI_sky_friend
  		icon = a
  		x = 0
@@ -91,15 +99,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			# unlock advisor "Colonel Manfred" [+10% air research speed, +10% pp]
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+	focus = { 
  		id = KAI_childish_plot
  		icon = a
  		x = 0
@@ -120,15 +128,23 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+			hidden_effect = {
+ 				add_to_variable = {
+					var = kai_military
+					value = -5
+				}
+			}
+ 			custom_effect_tooltip = kai_military_01_tt
+ 			add_political_power = -50
+ 			country_event = KAI_friends.1
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
- 	}
-        focus = { 
+ 	}	
+ 	focus = { 
  		id = KAI_friends_closer
  		icon = a
  		x = 0
@@ -149,16 +165,16 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.2
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
- 		id = KAI_friend_one
+ 	focus = { 
+ 		id = KAI_karol
  		icon = a
  		x = -3
  		y = 1
@@ -178,22 +194,22 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.3
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+ 	focus = { 
  		id = KAI_tournament_grounds
  		icon = a
  		x = 0
  		y = 1
 
- 		prerequisite = { focus = KAI_friend_one }
- 		relative_position_id = KAI_friend_one
+ 		prerequisite = { focus = KAI_karol }
+ 		relative_position_id = KAI_karol
 
  		available = {
  		}
@@ -207,15 +223,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.4
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+ 	focus = { 
  		id = KAI_armory_antics
  		icon = a
  		x = -1
@@ -236,15 +252,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.5
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+ 	focus = { 
  		id = KAI_stables_stunt
  		icon = a
  		x = 1
@@ -265,15 +281,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.6
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_duel_destiny
  		icon = a
  		x = -1
@@ -295,15 +311,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.7
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_shame_defeat
  		icon = a
  		x = -1
@@ -326,15 +342,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.11
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_walking_tightrope
  		icon = a
  		x = 0
@@ -355,15 +371,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.12
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_with_you
  		icon = a
  		x = 0
@@ -384,15 +400,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.13
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_guilty_victory
  		icon = a
  		x = 1
@@ -415,15 +431,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.14
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_make_right
  		icon = a
  		x = 0
@@ -433,6 +449,7 @@ focus_tree = {
  		relative_position_id = KAI_guilty_victory
 
  		available = {
+ 			country_event = KAI_friends.15
  		}
 
  		bypass = {} 
@@ -450,9 +467,8 @@ focus_tree = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_tender_moment
  		icon = a
  		x = 0
@@ -462,6 +478,7 @@ focus_tree = {
  		relative_position_id = KAI_make_right
 
  		available = {
+ 			country_event = KAI_friends.16
  		}
 
  		bypass = {} 
@@ -479,9 +496,8 @@ focus_tree = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_first_flight
  		icon = a
  		x = -1
@@ -502,15 +518,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.17
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_back_back
  		icon = a
  		x = 0
@@ -531,16 +547,78 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			# unlock advisor "Karol" [+10% stability, +10% war support]
+ 			if = {
+           		limit = { has_idea = prince_state_idea_008 }
+           		swap_ideas = { 
+                	remove_idea = prince_state_idea_008
+                	add_idea = prince_state_idea_007
+        		}
+    		}
+    		else_if = {
+        	   	limit = { has_idea = prince_state_idea_007 }
+        	  	swap_ideas = { 
+            	    remove_idea = prince_state_idea_007
+                	add_idea = prince_state_idea_006
+            	}
+       		}
+	    	else_if = {
+    	       	limit = { has_idea = prince_state_idea_006 }
+        	   	swap_ideas = { 
+    	            remove_idea = prince_state_idea_006
+    	            add_idea = prince_state_idea_005
+    	        }
+    	   	}
+   		    else_if = {
+ 		       	limit = { has_idea = prince_state_idea_005 }
+      		   	swap_ideas = { 
+       	    	    remove_idea = prince_state_idea_005
+       		        add_idea = prince_state_idea_004
+       	    	}
+       		}
+       		else_if = {
+        	   	limit = { has_idea = prince_state_idea_004 }
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_004
+        	        add_idea = prince_state_idea_003
+        	    }
+       		}
+       		else_if = {
+        	   	limit = { has_idea = prince_state_idea_003 }
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_003
+        	        add_idea = prince_state_idea_002
+        	    }
+       		}
+       		else_if = {
+        	   	limit = { has_idea = prince_state_idea_002 }
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_002
+        	        add_idea = prince_state_idea_001
+        	    }
+       		}
+       		else_if = {
+        	   	limit = { has_idea = prince_state_idea_001 }
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_001
+        	        add_idea = prince_state_idea_000
+        	    }
+       		}
+       		else = {
+           		swap_ideas = { 
+                	remove_idea = prince_state_idea_000
+                	add_idea = prince_state_idea_101
+       			}
+   			}
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
- 		id = KAI_friend_two
+    focus = { 
+ 		id = KAI_luke
  		icon = a
  		x = 0
  		y = 1
@@ -560,22 +638,22 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.18
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_throne_room
  		icon = a
  		x = 0
  		y = 1
 
- 		prerequisite = { focus = KAI_friend_two }
- 		relative_position_id = KAI_friend_two
+ 		prerequisite = { focus = KAI_luke }
+ 		relative_position_id = KAI_luke
 
  		available = {
  		}
@@ -589,15 +667,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.19
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_long_shadow
  		icon = a
  		x = 0
@@ -618,15 +696,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.20
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_creeping_maelstrom
  		icon = a
  		x = 0
@@ -647,15 +725,83 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			hidden_effect = {
+				add_to_variable = {
+					var = kai_military
+					value = -5
+				}
+			}
+			custom_effect_tooltip = kai_luke_01_tt
+ 			if = {
+        		limit = { has_idea = prince_state_idea_005 }
+           		swap_ideas = { 
+       	    		remove_idea = prince_state_idea_005
+            	  	add_idea = prince_state_idea_007
+       				}
+   				}
+   				else_if = {
+       			limit = { has_idea = prince_state_idea_004 }
+       			swap_ideas = { 
+          		    remove_idea = prince_state_idea_004
+           		    add_idea = prince_state_idea_006
+           		}
+   			}
+    		else_if = {
+        		limit = { has_idea = prince_state_idea_003 }
+       			swap_ideas = { 
+          		    remove_idea = prince_state_idea_003
+           		    add_idea = prince_state_idea_005
+           		}
+   			}
+      		else_if = {
+       	   		limit = { has_idea = prince_state_idea_002 }
+       	  		swap_ideas = { 
+       	    	    remove_idea = prince_state_idea_002
+       	    	    add_idea = prince_state_idea_004
+           		}
+   			}
+   			else_if = {
+      	   		limit = { has_idea = prince_state_idea_001 }
+       	   		swap_ideas = { 
+       	    	    remove_idea = prince_state_idea_001
+       	    	    add_idea = prince_state_idea_003
+       	    	}
+   			}
+       		else_if = {
+           		limit = { has_idea = prince_state_idea_000 }
+           		swap_ideas = { 
+            	    remove_idea = prince_state_idea_000
+            	    add_idea = prince_state_idea_002
+            	}
+       		}
+       		else_if = {
+           		limit = { has_idea = prince_state_idea_101 }
+           		swap_ideas = { 
+            	    remove_idea = prince_state_idea_101
+           		    add_idea = prince_state_idea_001
+        	   	}
+   			}
+       		else_if = {
+        	  	limit = { has_idea = prince_state_idea_102 }
+       			swap_ideas = { 
+        	   	    remove_idea = prince_state_idea_102
+        	   	    add_idea = prince_state_idea_000
+        	   	}
+   			}
+   			else = {
+       		   	swap_ideas = { 
+       		        remove_idea = prince_state_idea_103
+       		        add_idea = prince_state_idea_101
+  				}
+   			}
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_tied_mast
  		icon = a
  		x = 0
@@ -676,15 +822,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.21
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_light_darkness
  		icon = a
  		x = 0
@@ -705,16 +851,16 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.22
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
- 		id = KAI_confronting_fear
+    focus = { 
+ 		id = KAI_confronting_fear # will prepares to stand up during budget meeting
  		icon = a
  		x = 0
  		y = 1
@@ -734,15 +880,83 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			hidden_effect = {
+				add_to_variable = {
+					var = kai_military
+					value = -10
+				}
+			}
+			custom_effect_tooltip = kai_military_02_tt
+			if = {
+        		limit = { has_idea = prince_state_idea_008 }
+           		swap_ideas = { 
+       	    		remove_idea = prince_state_idea_008
+              		add_idea = prince_state_idea_007
+       			}
+   			}
+   			else_if = {
+       			limit = { has_idea = prince_state_idea_007 }
+       			swap_ideas = { 
+        	  	    remove_idea = prince_state_idea_007
+        	   	    add_idea = prince_state_idea_006
+        	   	}
+   			}
+    		else_if = {
+        		limit = { has_idea = prince_state_idea_006 }
+       			swap_ideas = { 
+        	  	    remove_idea = prince_state_idea_006
+        	   	    add_idea = prince_state_idea_005
+        	   	}
+   			}
+      		else_if = {
+       		   	limit = { has_idea = prince_state_idea_005 }
+       		  	swap_ideas = { 
+       		        remove_idea = prince_state_idea_005
+       		        add_idea = prince_state_idea_004
+       	    	}
+   			}
+   			else_if = {
+      		   	limit = { has_idea = prince_state_idea_004 }
+       	   		swap_ideas = { 
+       		        remove_idea = prince_state_idea_004
+       		        add_idea = prince_state_idea_003
+       		    }
+   			}
+       		else_if = {
+        	   	limit = { has_idea = prince_state_idea_003 }
+        	   	swap_ideas = { 
+       	        	remove_idea = prince_state_idea_003
+        	        add_idea = prince_state_idea_002
+            	}
+       		}
+       		else_if = {
+        	   	limit = { has_idea = prince_state_idea_002 }
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_002
+        	   	    add_idea = prince_state_idea_001
+        	   	}
+   			}
+       		else_if = {
+        	  	limit = { has_idea = prince_state_idea_001 }
+       			swap_ideas = { 
+        	   	    remove_idea = prince_state_idea_001
+        	   	    add_idea = prince_state_idea_000
+        	   	}
+   			}
+   			else = {
+       		   	swap_ideas = { 
+       		        remove_idea = prince_state_idea_000
+       		        add_idea = prince_state_idea_101
+  				}
+   			}
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_together
  		icon = a
  		x = 0
@@ -763,15 +977,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.23
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_rick_roll
  		icon = a
  		x = 0
@@ -792,15 +1006,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.24
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_eye_storm
  		icon = a
  		x = 0
@@ -821,16 +1035,78 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			# unlock advisor "Lukas" [+15% pp gain]
+ 			if = {
+        	   	limit = { has_idea = prince_state_idea_005 }
+           		swap_ideas = { 
+           	    	remove_idea = prince_state_idea_005
+                	add_idea = prince_state_idea_004
+        		}
+    		}
+    		else_if = {
+           		limit = { has_idea = prince_state_idea_004 }
+          		swap_ideas = { 
+            	    remove_idea = prince_state_idea_004
+            	    add_idea = prince_state_idea_003
+            	}
+       		}
+    		else_if = {
+           		limit = { has_idea = prince_state_idea_003 }
+           		swap_ideas = { 
+            	    remove_idea = prince_state_idea_003
+            	    add_idea = prince_state_idea_002
+            	}
+       		}
+        	else_if = {
+        	   	limit = { has_idea = prince_state_idea_002 }
+        	  	swap_ideas = { 
+        	        remove_idea = prince_state_idea_002
+        	        add_idea = prince_state_idea_001
+            	}
+       		}
+       		else_if = {
+        	   	limit = { has_idea = prince_state_idea_001 }
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_001
+        	        add_idea = prince_state_idea_000
+        	    }
+       		}
+       		else_if = {
+        	   	limit = { has_idea = prince_state_idea_000 }
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_000
+        	        add_idea = prince_state_idea_101
+        	    }
+       		}
+       		else_if = {
+        	   	limit = { has_idea = prince_state_idea_101 }
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_101
+            	    add_idea = prince_state_idea_102
+            	}
+       		}
+       		else_if = {
+           		limit = { has_idea = prince_state_idea_102 }
+           		swap_ideas = { 
+            	    remove_idea = prince_state_idea_102
+            	    add_idea = prince_state_idea_103
+            	}
+       		}
+       		else = {
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_103
+        	        add_idea = prince_state_idea_104
+       			}
+   			}
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
- 		id = KAI_friend_three
+    focus = { 
+ 		id = KAI_maggie
  		icon = a
  		x = 3
  		y = 1
@@ -850,22 +1126,22 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.25
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_library
  		icon = a
  		x = 0
  		y = 1
 
- 		prerequisite = { focus = KAI_friend_three }
- 		relative_position_id = KAI_friend_three
+ 		prerequisite = { focus = KAI_maggie }
+ 		relative_position_id = KAI_maggie
 
  		available = {
  		}
@@ -879,15 +1155,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.26
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_labyrinth_knowledge
  		icon = a
  		x = 0
@@ -908,15 +1184,80 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			swap_ideas = { 
+            	remove_idea = KAI_personal_studies_idea_1
+            	add_idea = KAI_personal_studies_idea_2
+    		}
+ 			if = {
+        	   	limit = { has_idea = prince_state_idea_009 }
+           		swap_ideas = { 
+           	    	remove_idea = prince_state_idea_009
+                	add_idea = prince_state_idea_008
+        		}
+    		}
+    		else_if = {
+           		limit = { has_idea = prince_state_idea_008 }
+          		swap_ideas = { 
+            	    remove_idea = prince_state_idea_008
+            	    add_idea = prince_state_idea_007
+            	}
+       		}
+    		else_if = {
+           		limit = { has_idea = prince_state_idea_007 }
+           		swap_ideas = { 
+            	    remove_idea = prince_state_idea_007
+            	    add_idea = prince_state_idea_006
+            	}
+       		}
+        	else_if = {
+        	   	limit = { has_idea = prince_state_idea_006 }
+        	  	swap_ideas = { 
+        	        remove_idea = prince_state_idea_006
+        	        add_idea = prince_state_idea_005
+            	}
+       		}
+       		else_if = {
+        	   	limit = { has_idea = prince_state_idea_005 }
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_005
+        	        add_idea = prince_state_idea_004
+        	    }
+       		}
+       		else_if = {
+        	   	limit = { has_idea = prince_state_idea_004 }
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_004
+        	        add_idea = prince_state_idea_003
+        	    }
+       		}
+       		else_if = {
+        	   	limit = { has_idea = prince_state_idea_003 }
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_003
+            	    add_idea = prince_state_idea_002
+            	}
+       		}
+       		else_if = {
+           		limit = { has_idea = prince_state_idea_002 }
+           		swap_ideas = { 
+            	    remove_idea = prince_state_idea_002
+            	    add_idea = prince_state_idea_001
+            	}
+       		}
+       		else = {
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_001
+        	        add_idea = prince_state_idea_000
+       			}
+   			}
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_planetarium_pondering
  		icon = a
  		x = -1
@@ -937,15 +1278,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.27
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_game_goofing
  		icon = a
  		x = 1
@@ -966,22 +1307,22 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.28
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_study_secrets
  		icon = a
  		x = -1
  		y = 1
 
  		prerequisite = { focus = KAI_game_goofing }
-                prerequisite = { focus = KAI_planetarium_pondering }
+        prerequisite = { focus = KAI_planetarium_pondering }
  		relative_position_id = KAI_game_goofing
 
  		available = {
@@ -996,15 +1337,15 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.29
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_study_sorcery
  		icon = a
  		x = 0
@@ -1025,15 +1366,18 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			swap_ideas = { 
+            	remove_idea = KAI_personal_studies_idea_2
+            	add_idea = KAI_eldritch_studies_idea
+    		}
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
-        focus = { 
+    focus = { 
  		id = KAI_arcane_adventures
  		icon = a
  		x = 0
@@ -1054,13 +1398,13 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.31
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
 	focus = { 
  		id = KAI_delving_deep
@@ -1083,13 +1427,13 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
+ 			country_event = KAI_friends.32
  		}
 
  		ai_will_do = {
  			factor = 400
  			#modifier = {}
  		}
-
  	}
     focus = { 
  		id = KAI_partners_crime
@@ -1112,8 +1456,9 @@ focus_tree = {
  		available_if_capitulated = no
 
  		completion_reward = {
-			country_event = KAI_change_focus_tree.2
-			country_event = KAI_change_focus_tree.3
+ 			# unlock advisor "Maggie" [+10% research speed]
+			country_event = KAI_change_focus_tree.2 # the focus tree change will be time set on
+			country_event = KAI_change_focus_tree.3 # final release, current location placeholder
  		}
 
  		ai_will_do = {
