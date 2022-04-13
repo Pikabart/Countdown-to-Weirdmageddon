@@ -1,0 +1,285 @@
+ideas = {
+
+	country = {
+
+		KAI_prince_public_idea_004 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+			}
+		}
+		KAI_prince_public_idea_003 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.15
+			}
+		}
+		KAI_prince_public_idea_002 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+			}
+		}
+		KAI_prince_public_idea_001 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.05
+			}
+		}
+		KAI_prince_state_idea_014 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = -0.7
+			}
+		}
+		KAI_prince_state_idea_013 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = -0.65
+			}
+		}
+		KAI_prince_state_idea_012 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = -0.6
+			}
+		}
+		KAI_prince_state_idea_011 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = -0.55
+			}
+		}
+		KAI_prince_state_idea_010 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = -0.5
+			}
+		}
+		KAI_prince_state_idea_009 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = -0.45
+			}
+		}
+		KAI_prince_state_idea_008 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = -0.4
+			}
+		}
+		KAI_prince_state_idea_007 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = -0.35
+			}
+		}
+		KAI_prince_state_idea_006 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = -0.3
+			}
+		}
+		KAI_prince_state_idea_005 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = -0.25
+			}
+		}
+		KAI_prince_state_idea_004 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = -0.2
+			}
+		}
+		KAI_prince_state_idea_003 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = -0.15
+			}
+		}
+		KAI_prince_state_idea_002 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = -0.1
+			}
+		}
+		KAI_prince_state_idea_001 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = -0.05
+			}
+		}
+		KAI_prince_state_idea_000 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = 0.00
+			}
+		}
+		KAI_prince_state_idea_101 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = 0.05
+			}
+		}
+		KAI_prince_state_idea_102 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = 0.1
+			}
+		}
+		KAI_prince_state_idea_103 = {
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				political_power_factor = 0.15
+			}
+		}
+		KAI_personal_studies_idea_1
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				research_speed_factor = 0.05
+			}
+		}
+		KAI_personal_studies_idea_2
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				research_speed_factor = 0.1
+			}
+		}
+		KAI_eldritch_studies_idea
+			picture =
+			
+			allowed = {original_tag = KAI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				research_speed_factor = 0.15
+			}
+		}
+	}
+}
