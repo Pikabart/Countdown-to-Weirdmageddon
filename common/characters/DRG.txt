@@ -1,0 +1,159 @@
+characters = {
+	DRG_sustavo_cring = {
+		name = "Sustavo Cring" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_hoi4_portrait_sustavo"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = nazism
+			expire = "2040.1.1.1"
+			id = -1
+			traits = {
+			}
+		}
+	}
+	DRG_schrodinger = {
+		name = "Schrödinger" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = ""
+				small = "GFX_idea_advisor_schrodinger"
+			}
+		}
+	}
+	DRG_generic_monster_advisor_1 = {
+		name = "DRG_generic_monster_advisor_1" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "picture.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = DRG_generic_monster_advisor_1_idea
+			allowed = {
+			}
+			available = {
+			}
+			ai_will_do = {
+				factor = 30.000
+			}
+			traits = {
+				silent_workhorse 
+			}
+		}
+	}
+	DRG_generic_monster_advisor_2 = {
+		name = "DRG_generic_monster_advisor_2" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "picture.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = DRG_generic_monster_advisor_2_idea
+			allowed = {
+			}
+			available = {
+			}
+			ai_will_do = {
+				factor = 30.000
+			}
+			traits = {
+				captain_of_industry 
+			}
+		}
+	}
+	DRG_generic_monster_advisor_3 = {
+		name = "DRG_generic_monster_advisor_3" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "picture.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = DRG_generic_monster_advisor_3_idea
+			allowed = {
+			}
+			available = {
+			}
+			ai_will_do = {
+				factor = 30.000
+			}
+			traits = {
+				war_industrialist 
+			}
+		}
+	}
+	DRG_generic_monster_advisor_4 = {
+		name = "DRG_generic_monster_advisor_4" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "picture.dds"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = DRG_generic_monster_advisor_4_idea
+			allowed = {
+			}
+			available = {
+			}
+			ai_will_do = {
+				factor = 30.000
+			}
+			traits = {
+				financial_expert
+			}
+		}
+	}
+	DRG_generic_general_1 = {
+		name = "DRG_generic_general_1" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "picture.dds"
+			}
+		}
+		corps_commander= {
+		traits = { career_officer }
+			skill = 1
+
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+		
+		}
+	}
+	DRG_generic_general_2 = {
+		name = "DRG_generic_general_2" 
+		desc = ""
+		portraits = {
+			civilian = {
+				small = "picture.dds"
+			}
+		}
+		corps_commander= {
+		traits = { career_officer }
+			skill = 1
+
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+		
+		}
+	}
+}	

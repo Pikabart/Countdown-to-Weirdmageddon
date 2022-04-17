@@ -248,7 +248,7 @@ ideas = {
 				political_power_factor = 0.15
 			}
 		}
-		KAI_personal_studies_idea_1
+		KAI_personal_studies_idea_1 = {
 			picture =
 			
 			allowed = {original_tag = KAI }
@@ -259,7 +259,8 @@ ideas = {
 				research_speed_factor = 0.05
 			}
 		}
-		KAI_personal_studies_idea_2
+		
+		KAI_personal_studies_idea_2 = {
 			picture =
 			
 			allowed = {original_tag = KAI }
@@ -270,7 +271,7 @@ ideas = {
 				research_speed_factor = 0.1
 			}
 		}
-		KAI_eldritch_studies_idea
+		KAI_eldritch_studies_idea = {
 			picture =
 			
 			allowed = {original_tag = KAI }

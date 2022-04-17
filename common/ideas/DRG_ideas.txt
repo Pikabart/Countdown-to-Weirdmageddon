@@ -1,0 +1,68 @@
+ideas = {
+
+	######################################################
+	#National Spirits
+	######################################################
+	country = {
+
+		DRG_wholesome_ingredients_idea = {
+			picture =
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				political_power_factor = 0.1
+			}
+		}
+		
+		DRG_fast_cheap_questionable_idea = {
+			picture =
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.05
+				monthly_population = 0.1
+				stability_factor = -0.08
+			}
+		}
+		
+		DRG_innovation_and_class_idea = {
+			picture =
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				research_speed_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+		
+		DRG_external_invsetments_idea = {
+			picture =
+			
+			allowed = {original_tag = MEW}
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}	
+
+	}
+}
