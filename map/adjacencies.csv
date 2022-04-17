@@ -76,6 +76,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 434;9913;sea;11412;-1;-1;-1;-1;;
 1659;10022;sea;11412;-1;-1;-1;-1;; route 66
 1659;6252;sea;11412;-1;-1;-1;-1;; route 66
+4902;2936;sea;11411;-1;-1;-1;-1;; 310 to Yuma
+3149;2832;sea;11411;-1;-1;-1;-1;; 310 to Yuma
 
 # East US Adjacencies
 10435;253;;11439;-1;-1;-1;-1;;New Orelans

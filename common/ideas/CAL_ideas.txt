@@ -200,8 +200,9 @@ ideas = { #Entire file
                
 			}
 		}
-		########################################################
-		########################################################
+		#########################################################################
+		#########################################################################
+		#########################################################################
 		CAL_private_security = {
 			picture = GFX_idea_CAL_northwest # 
 			
@@ -390,5 +391,34 @@ ideas = { #Entire file
 		########################################################
 		########################################################
 		########################################################
+		CAL_pays_texas = {   # For CAL_birnbaum_event.7, BIG economic penelty
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+              
+			}
+		}
+		CAL_texas_blinks = {   # For CAL_birnbaum_event.11 , bonus
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+              
+			}
+		}
+		
+		
+		
+		
 	}
+	
 }

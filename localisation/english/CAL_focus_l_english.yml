@@ -146,7 +146,7 @@
  
  CAL_everett.0:0 "Lady Everett's Plan"
  CAL_everett.0_desc:0 ""Emperor Norton. The path forward is simple. The states east of the Colorado are weak. I should know, their senators were once under my control. To preserve America and prevent the rogue Lord Trembley from surrounding us, we must bring them into our new union.\nBy any means necessary."\n- §RImperial Secretary of State Lady Carman Everett§! -"
- CAL_everett.0.t:0 "Enable the "§RDiplomatic Corp§!" desicions to start reuniting the Rocky Mountain States under California Control through "peaceful" means.\n\nThe Californian people will not be happy if we resort to force to reunite our americans to the east."
+ CAL_everett.0.t:0 "The Californian Diplomatic Corps will start their attempt to reunite the Rocky Mountain States under California.\n\nThis may not end well and the Californian people will be mad if we have resort to force to reunite our fellow Americans to the east."
  
  CAL_everett.1:0 "Patrol The Majove"
  CAL_everett.1_desc:0 "The collapse of the Federal Government has also collapsed the National Aqueduct System. As we hold Nevada to control our half of the Hoover Dam, it's time we ensure our control of the downstream of the Colorado River and protect our water supplies."
@@ -154,7 +154,7 @@
  
  CAL_everett.2:0 "Leverage Our Economy"
  CAL_everett.2_desc:0 "With the Texans locking down their border, the Trembley-Align States unable to meet demands, and Mexico building a Wall, the Four Corners only option for trade is through us. "
- CAL_everett.2.t:0 "Weaken the economies of the States of the Four Corners and make it easier to make them join."
+ CAL_everett.2.t:0 "Weaken the economies of the States of the Four Corners and make it easier to make them join. Some Californians will not be happy about economic straggling though."
  
  CAL_everett.3:0 "Securing The Western Sky"
  CAL_everett.3_desc:0 "When the Sun sets\nWe rise!\n\nLet all of the West know the Imperial California Republic controls the Western Skies!"
@@ -172,13 +172,13 @@
  CAL_everett.6_desc:0 ""Colorado is a "City upon a Hill" for the other states of the Rockies and Mid-West, but can it really survive for as long as you have now. Join us and we’ll make sure you stay as the great beacon of the Rockies."\n\n- §7Northwest of California CEO Lord Timothy Birnbaum§! -"
  CAL_everett.6.t:0 "The efforts of the §RDiplomatic Corp§! will determine how Colorado responds to our demands."
  
- CAL_everett.7:0 "Secure Texas"
+ CAL_everett.7:0 "Liberate Texas"
  CAL_everett.7_desc:0 "The Texans continue to provoke Mexico over access to the Rio Grande. As the Protector of Mexico, our Emperor is duty bound to save the mexicans and the polls confirm that Californians will honor it.\nIt's time we finally liberate Texas! For Emperor and the Republic!\n\n- §RImperial Secretary of State Lady Carman Everett§! -"
- CAL_everett.7.t:0 "Emperor Norton re-instates his title as the §GProtector of Mexico§!.\nSacremento will send an Ultimatium to Austin. Let's see if we can bait the §RLone Star§! to challangin the might of the §YImperial Republic!§!"
+ CAL_everett.7.t:0 "Emperor Norton re-instates his title as the §GProtector of Mexico§!.\nSacremento will send an Ultimatium to Austin. Let's see if we can bait the §RLone Star§! to challanging the might of the §YImperial Bear!§!"
  
  ##################################################################################################################
  ##################################################################################################################
- ##################################################################################################################
+ ################################################################################################################## 
  #4
  
  CAL_birnbaum.0:0 "Lord Birnbaum's Plan"
@@ -190,15 +190,15 @@
  CAL_birnbaum.1.t:0 "Increase Diplomatic Relationships with the States of the Four Corners."
  
  CAL_birnbaum.2:0 "New Trade Routes"
- CAL_birnbaum.2_desc:0 ""California still remains a prosperous market. We have needs and you have them. Let’s see if we can invest in new trade routes and vital areas of your economy, no?"\n\n- §7Northwest of California CEO Lord Timothy Birnbaum§! -"
+ CAL_birnbaum.2_desc:0 ""California still remains a prosperous market. We have needs and our neighbors have them. Let’s see if we can invest in new trade routes and vital areas of your economy, no?"\n\n- §7Northwest of California CEO Lord Timothy Birnbaum§! -"
  CAL_birnbaum.2.t:0 "Increase Trade Relationships and Resource Extractions with the States of the Four Corners."
  
  CAL_birnbaum.3:0 "On Guard In The Rocky"
- CAL_birnbaum.3_desc:0 ""As Detailed in Article 1, Section 5. We, California, will not infringe on your religious rights until the unification of the continental US, assume all duty and cost for all military protection of the border, and end all interstate tax for the duration of the emergency that is the Long Summer. You’re not getting a better deal than that."\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
+ CAL_birnbaum.3_desc:0 ""Some of the more influential Utah politicials think that if they join California, we'll take away their rights and freedom of worship.\n\nWhat paranoia! We would never do that... tax it, maybe? But not take away American rights!"\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
  CAL_birnbaum.3.t:0 "Utah joins the §YImperial California Republic§!."
  
  CAL_birnbaum.4:0 "Wonder Of The Western Sky"
- CAL_birnbaum.4_desc:0 "Our Prosperity is Arizona's Prosperity. They but only need to ask...\n\n\n\n\nAnd pay taxes."
+ CAL_birnbaum.4_desc:0 "Arizona is the gateway to the Southwest. Our Prosperity is their Prosperity. They but only need to ask..."
  CAL_birnbaum.4.t:0 "Arizona joins the §YImperial California Republic§!."
  
  CAL_birnbaum.5:0 "A New Golden Spike"
@@ -209,7 +209,7 @@
  CAL_birnbaum.6_desc:0 "Just as we protect the Colorado, we can do the same for the Rio Grande. Let the Texans know that Mexico, New and Old, will have nothing to fear from them!"
  CAL_birnbaum.6.t:0 "New Mexico joins the §YImperial California Republic§!. Increase relationship with §GThe United Mexican States§!."
  
- CAL_birnbaum.7:0 "Defend Mexico"
+ CAL_birnbaum.7:0 "Protect Mexico"
  CAL_birnbaum.7_desc:0 "Weakening Relationships between §GMexico§! and §YTexas§! can destablize the entire South-West. But our direct intervesion can force all the sides to the table.\n\nThe time has come the Imperial Governor to reinstate his old title.\n- §7Northwest of California CEO Lord Timothy Birnbaum§! -"
  CAL_birnbaum.7.t:0 "Emperor Norton re-instates his title as the §GProtector of Mexico§!.\nWe will have to wait and see how Texas responds to this..."
  
