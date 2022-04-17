@@ -1,0 +1,848 @@
+focus_tree = {
+
+	id = DRG_focus_pre_war
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 100
+			tag = DRG
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = {
+		id = DRG_brick_and_mortar
+		icon = a
+		x = 14
+		y = 1
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 50
+		}
+		
+		ai_will_do = {
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_wholesome_ingredients
+		icon = a
+		x = -2
+		y = 1
+		relative_position_id = DRG_brick_and_mortar
+		prerequisite = { focus = DRG_brick_and_mortar }
+		mutually_exclusive = { focus = DRG_fast_cheap_questionable }
+		mutually_exclusive = { focus = DRG_innovation_and_class }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas= DRG_wholesome_ingredients_idea
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_fast_cheap_questionable
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = DRG_brick_and_mortar
+		prerequisite = { focus = DRG_brick_and_mortar }
+		mutually_exclusive = { focus = DRG_wholesome_ingredients }
+		mutually_exclusive = { focus = DRG_innovation_and_class }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = DRG_fast_cheap_questionable_idea
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_innovation_and_class
+		icon = a
+		x = 2
+		y = 1
+		relative_position_id = DRG_brick_and_mortar
+		prerequisite = { focus = DRG_brick_and_mortar }
+		mutually_exclusive = { focus = DRG_wholesome_ingredients }
+		mutually_exclusive = { focus = DRG_fast_cheap_questionable }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = DRG_innovation_and_class_idea
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_path_of_the_business
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = DRG_fast_cheap_questionable
+		prerequisite = {
+			focus = DRG_innovation_and_class
+			focus = DRG_fast_cheap_questionable
+			focus = DRG_wholesome_ingredients
+		}
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 25
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_unflinching_tradition
+		icon = a
+		x = -4
+		y = 1
+		relative_position_id = DRG_path_of_the_business
+		prerequisite = { focus = DRG_path_of_the_business }
+		mutually_exclusive = { focus = DRG_alternative_goods }
+		mutually_exclusive = { focus = DRG_investigating_ehmerican_food }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_time_honored_traditions
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = DRG_unflinching_tradition
+		prerequisite = { focus = DRG_unflinching_tradition }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_a_symbol_of_monster_pride
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = DRG_unflinching_tradition
+		prerequisite = { focus = DRG_unflinching_tradition }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_a_cyan_skied_day
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = DRG_a_symbol_of_monster_pride
+		prerequisite = { focus = DRG_a_symbol_of_monster_pride }
+		prerequisite = { focus = DRG_time_honored_traditions }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_monsters_only
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = DRG_a_cyan_skied_day
+		prerequisite = { focus = DRG_a_cyan_skied_day }
+		mutually_exclusive = { focus = DRG_include_mewmans }
+		
+		available = {
+			always = no
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.20
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_include_mewmans
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = DRG_a_cyan_skied_day
+		prerequisite = { focus = DRG_a_cyan_skied_day }
+		mutually_exclusive = { focus = DRG_monsters_only }
+		
+		available = {
+			always = no
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.15
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_prevailing_against_time
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = DRG_monsters_only
+		prerequisite = {
+			focus = DRG_monsters_only
+			focus = DRG_include_mewmans
+		}
+		
+		available = {}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			hidden_effect = {
+				country_event = north_monster_war_tree_event.1
+			}
+			custom_effect_tooltip = "new_focus_tree_tooltip"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_alternative_goods
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = DRG_path_of_the_business
+		prerequisite = { focus = DRG_path_of_the_business }
+		mutually_exclusive = { focus = DRG_unflinching_tradition }
+		mutually_exclusive = { focus = DRG_investigating_ehmerican_food }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_external_invsetments
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = DRG_alternative_goods
+		prerequisite = { focus = DRG_alternative_goods }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = DRG_external_invsetments_idea
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_repurposing_the_supply_chain
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = DRG_alternative_goods
+		prerequisite = { focus = DRG_alternative_goods }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_a_master_chef
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = DRG_repurposing_the_supply_chain
+		prerequisite = { focus = DRG_repurposing_the_supply_chain }
+		prerequisite = { focus = DRG_external_invsetments }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			recruit_character = DRG_schrodinger
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_equal_partnership
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = DRG_a_master_chef
+		prerequisite = { focus = DRG_a_master_chef }
+		mutually_exclusive = { focus = DRG_diversify_your_portfolio }
+		
+		available = {
+			always = no
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.05
+			add_advisor_role = {
+			  Character = DRG_schrodinger
+			  advisor = {
+				slot = political_advisor
+				idea_token = DRG_schrodinger_idea
+				traits = {
+					master_cook
+				}
+				allowed = {
+					always = yes
+				}
+			  }
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_diversify_your_portfolio
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = DRG_a_master_chef
+		prerequisite = { focus = DRG_a_master_chef }
+		mutually_exclusive = { focus = DRG_equal_partnership }
+		
+		available = {
+			always = no
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_professional_distribution
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = DRG_equal_partnership
+		prerequisite = {
+			focus = DRG_diversify_your_portfolio
+			focus = DRG_equal_partnership
+		}
+		
+		available = {}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			hidden_effect = {
+				country_event = north_monster_war_tree_event.1
+			}
+			custom_effect_tooltip = "new_focus_tree_tooltip"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_investigating_ehmerican_food
+		icon = a
+		x = 4
+		y = 1
+		relative_position_id = DRG_path_of_the_business
+		prerequisite = { focus = DRG_path_of_the_business }
+		mutually_exclusive = { focus = DRG_unflinching_tradition }
+		mutually_exclusive = { focus = DRG_alternative_goods }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_mixing_pot_philosophy
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = DRG_investigating_ehmerican_food
+		prerequisite = { focus = DRG_investigating_ehmerican_food }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_two_breads_of_the_gods
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = DRG_investigating_ehmerican_food
+		prerequisite = { focus = DRG_investigating_ehmerican_food }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 10
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_culinary_expedition
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = DRG_two_breads_of_the_gods
+		prerequisite = { focus = DRG_two_breads_of_the_gods }
+		prerequisite = { focus = DRG_mixing_pot_philosophy }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_fauxmerican
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = DRG_culinary_expedition
+		prerequisite = { focus = DRG_culinary_expedition }
+		mutually_exclusive = { focus = DRG_good_ol_usa }
+		
+		available = {
+			always = no
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_good_ol_usa
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = DRG_culinary_expedition
+		prerequisite = { focus = DRG_culinary_expedition }
+		mutually_exclusive = { focus = DRG_fauxmerican }
+		
+		available = {
+			always = no
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_war_support = 0.1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = DRG_a_little_slice_of_usa
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = DRG_fauxmerican
+		prerequisite = {
+			focus = DRG_good_ol_usa
+			focus = DRG_fauxmerican
+		}
+		
+		available = {}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			hidden_effect = {
+				country_event = north_monster_war_tree_event.1
+			}
+			custom_effect_tooltip = "new_focus_tree_tooltip"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+}

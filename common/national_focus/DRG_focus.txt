@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-			add = 100 # 100% DRG get focus, 0% everyone else, so basicly gurrenteed
-			tag = DRG
+		#	add = 100
+		#	tag = DRG
 		}
 	}
 	
@@ -46,7 +46,7 @@ focus_tree = {
 		icon = a
 		x = -1
 		y = 1
-		relative_position_id = DRG_start 
+		relative_position_id = DRG_start
 		prerequisite = { focus = DRG_start }
 		cost = 5
 		mutually_exclusive = { focus = DRG_quantity_troop }
