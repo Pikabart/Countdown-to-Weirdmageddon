@@ -1,0 +1,71 @@
+﻿# California Marines
+
+division_template = {
+	name = "Californian Marines"  
+	#division_names_group = SPAN_CAVB_01
+
+	regiments = {
+		special_operation_main = { x = 0 y = 0 }
+		special_operation_main = { x = 0 y = 1 }
+		special_operation_main = { x = 0 y = 2 }
+	}
+	
+	support = {
+		special_operation_company = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
+
+
+units = {
+	
+	#### Marines
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 10701 # 
+		division_template = "Californian Marines"
+		start_experience_factor = 1.0
+		start_equipment_factor = 1.0
+
+	}
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 1289 # 
+		division_template = "Californian Marines"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 10256 # 
+		division_template = "Californian Marines"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	
+	division= {
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 4206 # 
+		division_template = "Californian Marines"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+
+	}
+	
+}

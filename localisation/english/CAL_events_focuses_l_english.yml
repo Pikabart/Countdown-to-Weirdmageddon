@@ -32,7 +32,7 @@
  
  CAL_GUSTAV.2.t:0 "Permanent Exchange Student"
  CAL_GUSTAV.2.d:0 "“And there I was, swimming across the Atlantic with a baby seal on my back. I crossed the finish line, set a new world record as fastest swimmer across the Atlantic and reunited that seal with its mother,” he began to shed a tear, Star rolling her eyes, “That was when I heard my beloved homeland of Scandinavia was swept away by the Kerfuffle. The EU Ambassador told me I was the last Scandinavian left on Earth...” He paused as everyone but Star at the dinner table looked on in sadness. He continued, “So I traveled here, to my favorite American Family. I couldn’t even return to Europe. What with, as the Franco-Germans call it, the Third Weltkrieg about to occur and all.”\n\n“You’re safe here with us, Gustav. Mi Casa es Su Casa!” said Rafael.\n\n“And you can rest assured, Gustav,” said Marco’s granduncle Hector as he shoved another meatball into his mouth, “Until the end of the Canadian and Scandinavian Kerfuffle, you are welcome here in the great state of California.”\n\n“Si!” Rafael ate another meatball.\n\n“Oh Diazs, your hospitality warms my cold scandinavian heart!”\n\nStar scoffed at his comment as she poked her meatball, “Yeah, scandinavian...”\n\nHector finished his plate, “I’m going to grab some fresh air. Rafael.”\n\n“Tio Hector.”\n\nThe Lieutenant Governor walked out the back door and leaned against the wall. He took out an e-cigarette and took a puff before taking out his phone. “Now, let’s see what's the status of Project Golden-”"
- CAL_GUSTAV.2.a:0 "Hector!"
+ CAL_GUSTAV.2.a:0 "Hector!" 
  
  CAL_GUSTAV.3.t:0 "A Smoke and Meatballs"
  CAL_GUSTAV.3.d:0 "Hector dropped his phone and cigarette and scrambled to pick it up. He turned to see Star outside with him. “Star, you startled me. Was there something you needed?”\n\n“You used to be a secret spy, right?”\n\n“What I did is classified. You can't prove anything.”\n\n“What? No, I don't care about that. It's about Gustav. I know something Marco and his parents don’t know.”\n\nHector sighed in relief, “Oh that. You realized the twerp isn’t from Scandinavia?”\n\nStar looked at him in bewilderment, “You knew?”\n\n“I don’t need to be a spy to know that. The kid has Bakersfieldville written over him the moment I met him,” he took another puff, “But dang, doesn’t he make a mean meatball? Besides, he’s harmless.”\n\n“But Marco and Mr. and Mrs. Diaz?”\n\n“Rafael and Angie are not... the most observant people. For Marco, I am a bit disappointed in him for not seeing through the Gustav shtick. His grandfather Jaun had a keen eye.”\n\nMarco walked out the door with the trash, “What are you two talking about?”\n\nHector suddenly panicked, “Huh, just diplomatic stuff. Corn trades with Mewni and all.”\n\nStar turned to Hector, “Yeah, uh... Would You Be Interested In A Trade Agreement With Mewni?”\n\nMarco shrugged, tossed the trash and walked back inside. Hector turned to Star, “Leave it alone, Star. If there's one thing Californians can agree on, besides those dang Texans, is that acknowledging Bakersfieldville only leads to trouble...” As he went back inside, he noticed Star’s wand and the split star on it, “Is your wand okay?”\n\n“What, this,” she smiled and nervously laughed it off, “That’s just the newest style. Broken and internally scared,” She then dabbed with her wand and shouted out random pop cultural phrases.\n\nHe continued inside, confused as he rubbed the left forearm of his coat, “I am old...”\n\nOutside, Star contemplated on what to do with “Gustav”."
@@ -131,8 +131,9 @@
  CAL_MILITARY.2.a:0 ""
  
  CAL_MILITARY.3.t:0 "The Sierra Army Depot"
- CAL_MILITARY.3.d:0 ""
- CAL_MILITARY.3.a:0 ""
+ CAL_MILITARY.3.d:0 "NSB"
+ CAL_MILITARY.3.b:0 "NO NSB"
+ CAL_MILITARY.3.a:0 "tanks!"
  
  CAL_MILITARY.4.t:0 "What have we learned?"
  CAL_MILITARY.4.d:0 ""
@@ -143,14 +144,25 @@
  CAL_MILITARY.5.t:0 "Private Security Contracts"
  CAL_MILITARY.5.d:0 ""
  CAL_MILITARY.5.a:0 "Stick with California's favority contractor"
- CAL_MILITARY.5.b:0 "The best stuff comes form Japan"
- CAL_MILITARY.5.c:0 "Contract both of them."
+ CAL_MILITARY.5.b:0 "The best stuff comes from Japan"
+ CAL_MILITARY.5.c:0 "Contract both of them (And pit them againts each other!)"
  CAL_MILITARY.5.e:0 "Keep suppression nationalized"
  
  #CAL_MILITARY.6.t:0 ""
  #CAL_MILITARY.6.d:0 ""
  #CAL_MILITARY.6.a:0 ""
  
+ CAL_fleet_event.1.t:0 "Trans-Pacific Trade"
+ CAL_fleet_event.1.d:0 "Surprisingly, the Pacific Fleet is holding out better than we expected. The fleet has been able to hold off against aggression from China, Japan, India, and Australia. They even successfully integrated with the Canadian Pacific Flotilla after they escaped Canadian Okinawa when the Japanese Imperial Defense Fleet took it back. Still, the situation in Asia is tense and the Admiralty made it clear to General Pines that if the Fleet leaves, our ten states from Chukotka to South Vietnam will quickly fall to Russian, SEATO, or former Commonwealth forces.\n\nStill, supplies are tight. Besides burning dirty fuel from reactivated refineries from Alaska, the fleet needs food and supplies, which we have. Keeping things unofficial, Admiral Park is willing to “look the other way” and let some ships go AWOL and sail for California. We would in turn send rations and ordinance. Here is a list of what ships the Pacific Fleet “can do without.”"
+ CAL_fleet_event.1.a:0 "Some patrol ships for the Coast Guard"
+ CAL_fleet_event.1.b:0 "A couple of Ticonderoga would be nice"
+ CAL_fleet_event.1.c:0 "A South Korea Class Battleship from North Korea would be useful."
+ CAL_fleet_event.1.e:0 "Whats the condition of our dear "President"?"
+ 
+ CAL_fleet_event.2.t:0 "Adrian Levi Curtis' Pride"
+ CAL_fleet_event.2.d:0 "The newest aircraft carrier in the US Navy, the USS Adrian Levi Curtis was originally a "gift" from Congress when everyone thought President Curtis succeeded in getting the Philippines to vote for Union Admission. (They voted 89% against, with many poll takers having promptly disappeared since then). Though more advance than the old and famed Halsey Class Aircraft Carrier, the ship needs new parts to maintain, and all of those parts were stored and shipped from the East Coast.\n\nBut it was Northwest of California that designed her and could build new parts. For a big trade, we could take the ship off their hands and run it ourselves. The massive shipment in food, fuel, and munitions will keep the fleet secure for weeks to come. Hopefully, the situation in the United States would have changed for the better."
+ CAL_fleet_event.2.a:0 "Having this ship is a blow to Curtis and Trembley"
+ CAL_fleet_event.2.b:0 "Let's keep our options on such a commitment."
  
  ######################################################
  ######################################################

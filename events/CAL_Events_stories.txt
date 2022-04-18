@@ -1,5 +1,5 @@
 ﻿###########################
-# California stroy events
+# California story events
 ###########################
 
 add_namespace = CAL_TWOWORLDS
@@ -171,13 +171,14 @@ country_event = {  #
 	is_triggered_only = yes
 	
 	option = { 
-		name = CAL_GUSTAV.3.a
+		name = CAL_GUSTAV.3.a # End of story line
 		ai_chance = { factor = 0 }	# 0% AI choose this
+		#country_event = { id = CAL_GUSTAV.7 days = 21}
 	}
 	option = { 
 		name = CAL_GUSTAV.3.b
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = CAL_GUSTAV.4 days = 21}
+		country_event = { id = CAL_GUSTAV.4 days = 7}
 	}
 }
 
@@ -192,7 +193,7 @@ country_event = {  #
 	option = { 
 		name = CAL_GUSTAV.4.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = CAL_GUSTAV.5 days = 21}
+		country_event = { id = CAL_GUSTAV.5 days = 7}
 	}
 }
 
@@ -207,14 +208,14 @@ country_event = {  #
 	option = { 
 		name = CAL_GUSTAV.5.a  # Calls him out
 		ai_chance = { factor = 90 }	# 100% AI choose this
-		country_event = { id = CAL_GUSTAV.6 days = 21}
-		set_country_flag = cal_gustav_home
+		country_event = { id = CAL_GUSTAV.6 days = 7}
+		set_country_flag = cal_gustav_home # will make BKFV new capitol later on
 	}
 	option = { 
 		name = CAL_GUSTAV.5.b  # Goes with it
 		ai_chance = { factor = 10 }	# 100% AI choose this
-		country_event = { id = CAL_GUSTAV.7 days = 21}
-		set_country_flag = cal_gustav_echo
+		country_event = { id = CAL_GUSTAV.7 days = 7}
+		set_country_flag = cal_gustav_echo # does nothing right now, I think
 	}
 }
 
@@ -229,6 +230,8 @@ country_event = {  # Bakersfieldville known
 	option = { 
 		name = CAL_GUSTAV.6.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_political_power = -100
+		add_stability = 0.05
 	}
 }
 
@@ -243,6 +246,7 @@ country_event = {  # Bakersfieldville ignored
 	option = { 
 		name = CAL_GUSTAV.7.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_political_power = 100
 	}
 }
 
@@ -255,7 +259,7 @@ country_event = {  # Bakersfieldville becomes the capital
 	is_triggered_only = yes
 	#immediate = {}
 	
-	option = { 
+	option = {  
 		name = CAL_GUSTAV.8.a
 		custom_effect_tooltip = CAL_GUSTAV.8.tt
 		add_political_power = -200

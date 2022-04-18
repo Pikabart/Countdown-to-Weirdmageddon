@@ -10,7 +10,7 @@ units = {
         task_force = {
             name = "Taskforce 3" # Name 2
             location = 5246
-            ship = { name = "South Korea Class" definition = battleship start_experience_factor = 0.25 equipment = { battleship_1 = { amount = 1 owner = EUS version_name = "South Korea Class" } } }	
+            ship = { name = "USS Park Jae-sang" definition = battleship start_experience_factor = 0.25 equipment = { battleship_1 = { amount = 1 owner = EUS version_name = "South Korea Class" } } }	
         }
 
 	}

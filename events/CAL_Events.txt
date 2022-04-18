@@ -5,11 +5,14 @@
 add_namespace = CAL_STARTER
 add_namespace = CAL_TREMBLEY
 add_namespace = CAL_ELECTION
-add_namespace = CAL_NWB
 add_namespace = CAL_MILITARY
 add_namespace = CAL_IBI
+add_namespace = CAL_BIB_event
+###
 add_namespace = CAL_CEF
-
+add_namespace = CAL_FRITZ
+###
+add_namespace = CAL_NWB
 add_namespace = CAL_TEST
 
 
@@ -215,7 +218,7 @@ country_event = { # California chooses Olson for Governor
 ########################################################################################################
 ########################################################################################################
 
-country_event = {
+country_event = { # Shermie Returns to Service
 	id = CAL_MILITARY.1
 	title = CAL_MILITARY.1.t
 	desc = CAL_MILITARY.1.d
@@ -229,10 +232,9 @@ country_event = {
 
 	option = {
 		name = CAL_MILITARY.1.a
-		add_ideas = CAL_private_security
 	}
 }
-country_event = {
+country_event = { # Emily's Marines
 	id = CAL_MILITARY.2
 	title = CAL_MILITARY.2.t
 	desc = CAL_MILITARY.2.d
@@ -246,27 +248,57 @@ country_event = {
 
 	option = {
 		name = CAL_MILITARY.2.a
-		
+		load_oob = CAL_Emily_Marines
 	}
 }
 country_event = {
-	id = CAL_MILITARY.3
+	id = CAL_MILITARY.3 #The Sierra Army Depot 
 	title = CAL_MILITARY.3.t
-	desc = CAL_MILITARY.3.d
+	desc = {
+		text = CAL_MILITARY.3.d
+		trigger = { has_dlc = "No Step Back" }
+	}
+	desc = {
+		text = CAL_MILITARY.3.b
+		trigger = { NOT = { has_dlc = "No Step Back" } }
+	}
 	
 	picture = GFX_report_event_generic_factory
 
 	is_triggered_only = yes
 
 
-	immediate = {}
+	immediate = {
+	}
 
 	option = {
 		name = CAL_MILITARY.3.a
-		
+		if = {
+			limit = { has_dlc = "No Step Back" }  
+			add_political_power = 10
+			CAL = {	
+				set_technology = { amphibious_tank_chassis = 1 }
+				set_technology = { armor_tech_1 = 1 }
+				set_technology = { armor_tech_2 = 1 }
+				set_technology = { engine_tech_1 = 1 }
+				set_technology = { engine_tech_2 = 1 }
+				set_technology = { basic_light_tank_chassis = 1 }
+				set_technology = { basic_medium_tank_chassis = 1 }
+				set_technology = { basic_heavy_tank_chassis = 1 }
+			}
+		}
+		else = {
+			CAL = {	
+				add_equipment_to_stockpile = {
+					type = modern_tank_equipment_1
+					amount = 100
+					producer = EUS
+				}
+			}
+		}
 	}
 }
-country_event = {
+country_event = { # WHAT HAVE WE LEARNED Focus
 	id = CAL_MILITARY.4
 	title = CAL_MILITARY.4.t
 	desc = CAL_MILITARY.4.d
@@ -304,7 +336,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = CAL_MILITARY.5
+	id = CAL_MILITARY.5 # Private Security focus
 	title = CAL_MILITARY.5.t
 	desc = CAL_MILITARY.5.d
 	
@@ -317,6 +349,7 @@ country_event = {
 
 	option = {
 		name = CAL_MILITARY.5.a	
+		add_ideas = CAL_private_security
 	}
 	option = {
 		name = CAL_MILITARY.5.b	
@@ -342,16 +375,17 @@ country_event = {
 
 
 	immediate = {
+		
+	}
+
+	option = {
+		name = CAL_IBI.0.a
 		if = {
 			limit = {has_dlc = "La Resistance"}
 			create_intelligence_agency = yes
 			upgrade_intelligence_agency = upgrade_form_department
 		}
 		else = { add_ideas = CAL_no_la_resistance_0}
-	}
-
-	option = {
-		name = CAL_IBI.0.a
 	}
 }
 ###################################
@@ -547,6 +581,7 @@ country_event = {
 }
 
 ########################################################################################################
+########################################################################################################
 country_event = {
 	id = CAL_CEF.0 
 	title = CAL_CEF.0.t
@@ -619,6 +654,96 @@ country_event = {
 
 	option = {
 		name = CAL_CEF.2.a
+		add_political_power = 150
+	}
+}
+
+########################################################################################################
+country_event = {  # For Focus CAL_magic.0
+	id = CAL_FRITZ.0 
+	title = CAL_FRITZ.0.t
+	desc = CAL_FRITZ.0.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+
+	immediate = {}
+
+	option = {
+		name = CAL_FRITZ.1.a
+		add_political_power = -50
+	}
+}
+
+country_event = { # For Focus CAL_magic.3 # Dr. Frakes
+	id = CAL_FRITZ.1 
+	title = CAL_FRITZ.1.t
+	desc = CAL_FRITZ.1.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+
+	immediate = {}
+
+	option = {
+		name = CAL_FRITZ.1.a
+		add_political_power = 50
+		add_stability = -0.10
+	}
+	option = {
+		name = CAL_FRITZ.1.b
+		add_political_power = -50
+		random_owned_controlled_state = { 
+			limit = { arms_factory > 0 }
+			remove_building = { type = arms_factory  level = 1 }				
+		} 
+		random_owned_controlled_state = { 
+			limit = { industrial_complex > 1 }
+			remove_building = { type = industrial_complex  level = 2 }				
+		}
+	}
+}
+
+country_event = { # For Focus CAL_magic.4 Steal Scissors
+	id = CAL_FRITZ.2 
+	title = CAL_FRITZ.2.t
+	desc = CAL_FRITZ.2.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+
+	immediate = {}
+
+	option = {
+		name = CAL_FRITZ.2.a
+		add_political_power = -50
+		add_war_support = 0.05
+	}
+}
+
+country_event = { # For Focus CAL_magic.5 # Emily's transformation
+	id = CAL_FRITZ.3 
+	title = CAL_FRITZ.3.t
+	desc = CAL_FRITZ.3.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+
+	immediate = {}
+
+	option = {
+		name = CAL_FRITZ.3.a
+		add_political_power = 150
+	}
+}
+
+country_event = { # For Focus CAL_magic.6 # Borrow Star's wand
+	id = CAL_FRITZ.4 
+	title = CAL_FRITZ.4.t
+	desc = CAL_FRITZ.4.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+
+	immediate = {}
+
+	option = {
+		name = CAL_FRITZ.4.a
 		add_political_power = 150
 	}
 }

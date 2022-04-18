@@ -91,9 +91,20 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9177;7676;;11008;-1;-1;-1;-1;;Long Island
 5323;1763;;11379;-1;-1;-1;-1;;Lake
 2128;1763;;11379;-1;-1;-1;-1;;Lake
+5073;7075;;10894;-1;-1;-1;-1;;Norfolk
+
+# Iowa Adjacencies
+2593;9137;;11443;-1;-1;-1;-1;; Iowa
+2593;627;;11443;-1;-1;-1;-1;; Iowa
+2593;3536;;11443;-1;-1;-1;-1;; Iowa
+2593;3843;;11443;-1;-1;-1;-1;; Iowa
 
 # Utah Adjacencies
 9714;1249;;11414;-1;-1;-1;-1;; Utah
+
+# Colorado Adjacencies
+9453;3254;;11415;-1;-1;-1;-1;; Colorado
+9453;2751;;11414;-1;-1;-1;-1;; Colorado Utah
 
 # Canada Adjacencies
 6415;5768;;10792;-1;-1;-1;-1;;Island
@@ -154,6 +165,9 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7967;6446;;11093;-1;-1;-1;-1;;Wash-Ore
 6933;8120;;11426;-1;-1;-1;-1;;Wash-Ore
 8092;8120;;11426;-1;-1;-1;-1;;Wash-Ore
+8339;5340;;11424;-1;-1;-1;-1;;Tourist
+2700;5340;;11424;-1;-1;-1;-1;;Tourist
+8355;5340;;11424;-1;-1;-1;-1;;Tourist
 
 # Idaho  Adjacencies
 8653;8665;;11438;-1;-1;-1;-1;;Idaho Falls

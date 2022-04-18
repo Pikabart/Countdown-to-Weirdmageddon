@@ -7,7 +7,7 @@ add_namespace = CAL_ROADS
 
 ########################################################################################################
 
-country_event = {
+country_event = { 
 	id = CAL_ROADS.1
 	title = CAL_ROADS.1.t
 	desc = CAL_ROADS.1.d

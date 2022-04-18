@@ -14,8 +14,18 @@ state={
 			infrastructure = 1
 			air_base = 0
 			anti_air_building = 0
-			radar_station = 0	
+			radar_station = 0
+
+			6527 = {naval_base = 2}
 		}
+		
+		victory_points = { 3565 50 }
+		victory_points = { 7047 30 }
+		victory_points = { 1876 30 }
+		victory_points = { 3232 20 }
+		victory_points = { 532 20 }
+		victory_points = { 4020 10 }
+		victory_points = { 6527 10 }
 	}
 	
 	provinces={

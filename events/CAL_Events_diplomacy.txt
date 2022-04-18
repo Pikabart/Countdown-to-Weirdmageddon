@@ -7,7 +7,7 @@ add_namespace = CAL_birnbaum_event
 
 
 ########################################################################################################
-
+ 
 country_event = { # snubbed, prepare for war
 	id = CAL_everett_event.1
 	title = CAL_everett_event.1.t

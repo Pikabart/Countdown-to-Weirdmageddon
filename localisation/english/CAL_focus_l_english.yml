@@ -279,15 +279,15 @@
  
  CAL_pacific.2:0 "Contact the US Pacific Fleet"
  CAL_pacific.2_desc:0 "“I have some friends among the Pacific Fleet Admiralty. Let’s see if I can make contact with someone at our bases in Hong Kong or Vladivostok.”\n\n- §CICR Field Marshall Sherman Pines§! -"
- CAL_pacific.2.t:0 "Unlock the §YPacific Fleet Decisions§! to start bringing ships back home or send supplies to Asia."
+ #CAL_pacific.2.t:0 "Unlock the §YPacific Fleet Decisions§! to start bringing ships back home or send supplies to Asia."
  
  CAL_pacific.3:0 "New Coastal Management"
  CAL_pacific.3_desc:0 "When Federal Authority collapsed in the west, it was natural that the Coast Guard joined with Governor Green during the initial days of the Kerfuffle. But we had to dock them as naval logistics was beyond our control.\nNow the time has come to set sail once more."
  CAL_pacific.3.t:0 "Deploy the §YCoast Guard§! Naval Force."
  
  CAL_pacific.4:0 "New Logistic Routes"
- CAL_pacific.4_desc:0 "Our Oriental States do not have the ability to support the size of a naval force like the US Pacific Fleet. Even with most of their ships docked, food and fuel are still used. If we can set up new logistic lines across the Pacific, the Fleet can help prevent a war in Asia and some ships might even decide to join our forces."
- CAL_pacific.4.t:0 "Unlock additional §YPacific Fleet Decisions§!"
+ CAL_pacific.4_desc:0 "With our large water ways, natural ports, and the calm Pacific next to us, we can relay on ocean convoys to keep supplies flowing across the state."
+ CAL_pacific.4.t:0 ""
  
  CAL_pacific.5:0 "Pacific Sailing"
  CAL_pacific.5_desc:0 "With our own little Navy, we must task our officers to study what kind of doctrine and strategy we should use. As our needs change from coastal patrol to multiversal power projection, we’ll need to learn and relearn many important lessons as we sail the oceans of the multiverse."
@@ -295,7 +295,7 @@
  
  CAL_pacific.6:0 "Safe Harbors"
  CAL_pacific.6_desc:0 "Some captains in Asia have grown tired wasting away in port. Many are willing to light their ship’s plants and set sail to San Diego and some flotilla admirals are willing to turn a blind eye and let them ‘go AWOL’. But we must expand our ports in Oakland and San Diego if we are to have somewhere to house them."
- CAL_pacific.6.t:0 "Increace the likelyhood of a ship setting sail for our ports."
+ CAL_pacific.6.t:0 ""
  
  CAL_pacific.7:0 "From The Far East To The Wild West"
  CAL_pacific.7_desc:0 "It’s a balancing act. If we try to recall ships back home, the remains of the fleet might not be able to prevent a war and we lose our oriental states from Singapore to Vladivostok. But we will need our navy when sailing the oceans of Mewni, Amphibia, and the Boiling Isles. Our interests are as wide as the Pacific itself."
@@ -356,14 +356,14 @@
  
  CAL_IBI_focus.0:0 "The Imperial Bureau of Investigation"
  CAL_IBI_focus.0_desc:0 "In response to the initial collapse of the US and an increase of crime across the state, Lt. Governor Diaz-Guzman now has the political clout to form the Imperial Bureau of Investigation.\nUnofficially, with the FPI in the North and the paranormal nature of the St. James Disappearance in the South, the IBI will see Hector's return to the secret paranormal world."
- CAL_IBI_focus.0.t:0 "Etsablish the Imperial Bureau of Investigation"
+ CAL_IBI_focus.0.t:0 "Establish the Imperial Bureau of Investigation"
  
  CAL_IBI_focus.1:0 "Call In Mr. X"
  CAL_IBI_focus.1_desc:0 "The FBI have been trying to push into FPI jurisdiction since even before the Secret Civil War. They even maintain a small division of agents meant for paranormal investigation, with surprising success. As we are in need of skilled and capable agents, I could use someone of the likes of Mr. X in our new ranks.\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
  CAL_IBI_focus.1.t:0 ""
  
- CAL_IBI_focus.2:0 "Absorb Loyal FBI And CIA Assests"
- CAL_IBI_focus.2_desc:0 "Many CIA and FBI agents went deep into hiding when California broke of from the Eastern Federal government. It only took Diaz-Guzman’s loyal FPI agents all but five minutes to quickly raid their safehouses. With some heavy handed persuasion, they now serve the IBI."
+ CAL_IBI_focus.2:0 "Absorb Loyal Intelligence Assets"
+ CAL_IBI_focus.2_desc:0 "Many CIA, UIU, FPI, SCP, and Cognito agents were caught by surprise when Canada disappeared and America fractured. It was only natural that Hector Diaz-Guzman, the former Deputy Director of the FPI and natural strong man, would bring these divided and occasionally opposing units together. Whether for the Imperial Republic, pragmatism, or respect for Hector, they now serve the IBI."
  CAL_IBI_focus.2.t:0 ""
  
  CAL_IBI_focus.3:0 "Lead And Silicon"
@@ -375,16 +375,18 @@
  CAL_IBI_focus.4.t:0 ""
  
  CAL_IBI_focus.5:0 "New Agents"
- CAL_IBI_focus.5_desc:0 ""With some old friends leading our new academy and the future agents of an eventually reunited FPI, I think its time for my new protegee to join our ranks as well."\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
+ CAL_IBI_focus.5_desc:0 ""I now remember what I missed from my old job. Then again, it's not much different from politics. Still, this sort of thing is a game for the young, not an old vejete like me.\nI think its time for my new protegee to join our ranks as well.\nShe'll be the next Director in no time."\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
  CAL_IBI_focus.5.t:0 "Giving a fifteen year old girl a Five-Seven is fine, right? Good thing I didn't campaign on gun control."
  
  CAL_IBI_focus.6:0 "Investigate The St. James Disappearance"
- CAL_IBI_focus.6_desc:0 ""When the St. James Disappearance rocked the state, I looked Mrs. Boonchoy in the eyes and told her I would put the full effort of my office to finding her daughter and friends.\nI shouldn't have been surprised at where this ended up leading to..."\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
+ CAL_IBI_focus.6_desc:0 ""When the St. James Disappearance rocked the state, I looked Mrs. Boonchoy in the eyes and told her I would put the full effort of my office to finding her daughter and friends.\n\nAs a politician, you'd think I know better than that?"\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
  CAL_IBI_focus.6.t:0 ""
  
  CAL_IBI_focus.7:0 "Contact "Old Protege""
  CAL_IBI_focus.7_desc:0 "”I still remember the first day I met her. I told her to get me a coffee and today’s newspaper. Now she’s the Director to the most powerful, unaccountable intelligence agency in our dimension...\nWow, Romero is right. It’s a good thing we didn’t adopt.”\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! –"
  CAL_IBI_focus.7.t:0 ""
+ 
+ ####################
  
  CAL_BIB.0:0 "Counter The Western FPI"
  CAL_BIB.0_desc:0 "Using the Northwest Coverup to invade Oregon? Deputy Director Shroud may be rash and aggressive at time, but she wouldn't do this on such a flimsy pretext. Especially when she isn't working with Command from Raven Rock. What is she doing here then?\n\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! –"
@@ -455,12 +457,12 @@
  CAL_magic.0.t:0 ""
  
  CAL_magic.1:0 "The Golden Gate"
- CAL_magic.1_desc:0 "All interdimensional travel is controlled by the Butterfly Kingdom and their High Magic Commission. For what leverage we gain, we can't press too hard or risk losing access to Mewni. Fortunately, Professor Emma-May Dixon has come to us with a solution."
- CAL_magic.1.t:0 ""
+ CAL_magic.1_desc:0 "All interdimensional travel is controlled by the Butterfly Kingdom and their High Magic Commission. For what leverage we gain, we can't press too hard or risk losing access to Mewni. Fortunately, famed UC Emeryville Professor Emma-May Dixon has come to us with a solution.\n\n§YProject Golden Gate§!!"
+ CAL_magic.1.t:0 "Begin construction of the §GHumanity's First§! (§Rpublic§!) §GInterdimensional Portal§!!"
  
  CAL_magic.2:0 "The California Magic Ranger Corp"
- CAL_magic.2_desc:0 ""If the mewmans can yield magic, why can't humanity? While our knowledge on this form of magic is limited, and these Mewmans may be technologically inferior, their understanding of magic shall be the basis for our Magic Ranger Corps!\nProject Mariposa is a go!\n- §CDixon Technologies Head Engineer Eugene Pines§! -"
- CAL_magic.2.t:0 ""
+ CAL_magic.2_desc:0 ""If the mewmans can yield magic, why can't humanity? While our knowledge on this form of magic is limited, and these Mewmans may be technologically inferior, their understanding of magic shall be the basis for our Magic Ranger Corps!\n§PProject Mariposa§! is a go!\n- §YDixon Technologies Head Engineer Eugene Pines§! -"
+ CAL_magic.2.t:0 "Begin the develmopment and reverse engineering of §PMewman Magic§!!"
  
  CAL_magic.3:0 "New Power Infrastructure"
  CAL_magic.3_desc:0 "Professor Dixon has revised the original power draw of her machine from several thousand terawatts down to a few hundred megawatts. That is still consist of large portion of the state's actively generated power. With promises that once it’s running it can be revised even further, we'll need to set up new power lines to channel most of the state’s power towards one location."
@@ -480,22 +482,22 @@
  
  CAL_magic.7:0 "The Emperor's New Portal"
  CAL_magic.7_desc:0 "§YProject Golden Gate§! will be a testament to the technological supremacy of California. While the world descends into chaos from the Kerfuffle, we amazed the world with open First Contact with another dimension. But now they will see us revolutionize mankind with our own means of interdimensional travel!\n For the Emperor and the Republic!"
- CAL_magic.7.t:0 ""
+ CAL_magic.7.t:0 "§GMewni Today, the Multiverse Tomorrow!§!"
  
  CAL_magic.8:0 "The Princesses Of California"
- CAL_magic.8_desc:0 "Project Mariposa has been a success... of sorts. While we had thousands of volunteers, only a fraction seemed able to wield any form of magical abilities as detailed in the mewman records. In hindsight, the fact a vast majority of those who can use magic are woman should have been foreseen. That explains their matriarchically society. None the less, these “Princesses” of California are her pride and joy."
- CAL_magic.8.t:0 "California can now deploy §CMewni-Based§! Magic Special Forces."
+ CAL_magic.8_desc:0 "§PProject Mariposa§! has been a success... of sorts. While we had thousands of volunteers, only a fraction seemed able to wield any form of magical abilities as detailed in the mewman records. In hindsight, the fact a vast majority of those who can use magic are woman should have been foreseen. That explains their matriarchically society. None the less, these “Princesses” of California are her pride and joy."
+ CAL_magic.8.t:0 "California can now deploy §PMewni-Based§! Magic Special Forces."
  
  CAL_magic.9:0 "Into the Multiverse"
  CAL_magic.9_desc:0 "With our own means of dimensional travel and an elite corps of magic wielders, California is able to stand on its own in the infinite expanse of realities."
  CAL_magic.9.t:0 ""
  
  ##################################################################################################################
- ##################################################################################################################
+ #######       NOT USED ANYMORE  VVV
  ##################################################################################################################
  
  CAL_force.0:0 "The Magic Must Flow!"
- CAL_force.0_desc:0 "Mewni is technologically behind us in nearly every area, expect social media oddly enough. But their key resource of Magical Water from the Realm of Magic, which they are dimensionally closer to than Earth, is vital to supporting the Californian Economy back on Earth.\nThe Magic Must Flow!"
+ CAL_force.0_desc:0 "Mewni is technologically behind us in nearly every area, expect §PSocial Media§! oddly enough. But their key resource of Magical Water from the Realm of Magic, which they are dimensionally closer to than Earth, is vital to supporting the Californian Economy back on Earth.\nThe Magic Must Flow!"
  CAL_force.0.t:0 ""
  
  CAL_force.1:0 "Establish Fort Norton"
@@ -560,8 +562,8 @@
  CAL_butterfly_aid.6.t:0 ""
  
  CAL_butterfly_aid.7:0 "The Magic Must Flow"
- CAL_butterfly_aid.7_desc:0 "Mewni is technologically behind us in nearly every area, expect social media oddly enough. But their key resource of Magical Water from the Realm of Magic, which they are dimensionally closer to than Earth, is vital to supporting the Californian Economy back on Earth.\nThe Magic Must Flow!"
- CAL_butterfly_aid.7.t:0 ""
+ CAL_butterfly_aid.7_desc:0 "Mewni is technologically behind us in nearly every area, expect §PSocial Media§! oddly enough. But their key resource of Magical Water from the Realm of Magic, which they are dimensionally closer to than Earth, is vital to supporting the Californian Economy back on Earth.\nThe Magic Must Flow!"
+ CAL_butterfly_aid.7.t:0 "§PSocial Media§! is probably why they're a backward feudal society."
  
  CAL_butterfly_aid.8:0 "Heavy Magic Water Extraction"
  CAL_butterfly_aid.8_desc:0 ""

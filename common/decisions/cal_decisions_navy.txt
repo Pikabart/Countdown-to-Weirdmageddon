@@ -624,7 +624,7 @@ CAL_catagory_pacific_fleet = {
 		}
 	}
 	
-	cal_decision_convoy_1 = { #
+	cal_decision_convoy_1 = { # 
 		icon = GFX_decision_icon_default		
 		fire_only_once = no		
 		days_re_enable = 0

@@ -22,6 +22,55 @@
  CAL_northwest_desc:0 "The largest single entity of the greater Northwest Corporation, Northwest of California (NoC) is the largest government contractor in the state. Headquartered in Echo Creek, close to its rival Arisaka in Night City, its CEO Timothy Birnbaum is one of the richest men on Earth and a close friend of Lieutenant Governor Hector Diaz-Guzman. For the richest state in the Union, NoC is the contractor that never fails. California can pay, NoC can deliver."
 
 #################################
+#Division Focus Tree Ideas
+
+CAL_repair_crew:0 "California Road Repair Crew"
+
+CAL_imp_congress:0 "The Imperial Congress"
+CAL_imp_governor:0 "Emperor and Governor"
+
+CAL_prog_UBI:0 "Imperial Income For All"
+CAL_moderate_socsec:0 "Social Security Upheld"
+CAL_moderate_smallbiz:0 "Small Business Subsidized"
+CAL_trad_remove:0 "Imperial Tradition Preserved"
+
+CAL_norton_care:0 "Norton Care"
+CAL_tax_codes:0 "Revised Tax Codes" 
+
+#################################
+#Expansion Focus Tree Ideas
+
+CAL_resort_to_war:0 "Unpopular "Liberation""
+
+CAL_pays_texas:0 "Texas Bribed"
+CAL_texas_blinks:0 "Texas Blinked!"
+
+#################################
+#Shermie Focus Tree Ideas
+
+CAL_private_security:0 "The Homefront, Privatized"
+
+CAL_over_there_0:0 "The Army Of The West"
+CAL_over_there_1:0 "Gathering in the West"
+CAL_logistics_first:0 "Logistics First and Always"
+CAL_over_there_2:0 "Over There!"
+
+CAL_golden_industry:0 "The Golden Industry"
+CAL_fareast_wildwest:0 "Far East to the Wild West"
+
+#################################
+#Hector Focus Tree Ideas
+
+CAL_no_la_resistance_BIB:0 "Back In Black"
+CAL_no_la_resistance_mrX:0 "Mr.X and the UIU"
+CAL_no_la_resistance_janna:0 "The Future FPI Director"
+CAL_no_la_resistance_0:0 "The Imperial Bureau of Investigation"
+CAL_no_la_resistance_1:0 "IBI: Level 1"
+CAL_no_la_resistance_2:0 "IBI: Level 2"
+CAL_no_la_resistance_3:0 "IBI: Level 3"
+CAL_no_la_resistance_4:0 "IBI: Level 4"
+
+#################################
 
  CAL_tank_manufacturer:0 "Northwest: Miltech"
  CAL_motorized_equipment_manufacturer:0 "Tesla"
