@@ -1,0 +1,112 @@
+﻿###########################
+# California road decisions EVENTS
+###########################
+
+add_namespace = CAL_civil_war_events
+
+
+########################################################################################################
+ 
+country_event = { # California Progressive civil war
+	id = CAL_civil_war_events.1
+	title = CAL_civil_war_events.1.t
+	desc = CAL_civil_war_events.1.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {
+		CAL = {
+			start_civil_war = {
+				ruling_party = communism
+				ideology = ROOT
+				size = 0.3
+				only_own_territory = no
+				capital = 134
+				states = { 134 135 136 137 138 139 140 146 }
+				keep_political_leader = yes
+				keep_political_party_members = yes
+			}
+		}
+	}
+
+	option = {
+		name = CAL_civil_war_events.1.a
+		add_political_power = -500
+	}
+}
+
+country_event = { # California Traditional civil war
+	id = CAL_civil_war_events.2
+	title = CAL_civil_war_events.2.t
+	desc = CAL_civil_war_events.2.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {
+		CAL = {
+			start_civil_war = {
+				ruling_party = fascism
+				ideology = ROOT
+				size = 0.5
+				only_own_territory = no
+				capital = 142
+				states = { 131 132 141 142 143 144 145 150 151 154 153 }
+				keep_political_leader = yes
+				keep_political_party_members = yes
+			}
+		}
+	}
+
+	option = {
+		name = CAL_civil_war_events.2.a
+		add_political_power = -500
+	}
+}
+
+country_event = { # California Nor/So civil war
+	id = CAL_civil_war_events.3
+	title = CAL_civil_war_events.3.t
+	desc = CAL_civil_war_events.3.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {
+		end_puppet = SOC
+	}
+
+	option = {
+		name = CAL_civil_war_events.3.a
+		add_political_power = -
+		SOC = { 
+			add_political_power = 500 
+			declare_war_on = {
+				target = CAL
+				type = annex_everything
+			}
+			ai_chance = { factor = 100 }	# 100% AI choose this
+		}
+	}
+	option = {
+		name = CAL_civil_war_events.3.b
+		add_political_power = -500
+		SOC = { 
+			hange_tag_from = CAL
+			add_political_power = 500 
+			declare_war_on = {
+				target = CAL
+				type = annex_everything
+			}
+			ai_chance = { factor = 0 }	# 0% AI choose this
+		}
+		
+	}
+}
