@@ -4,7 +4,8 @@ state={
 	local_supplies=0.0 
 	
 	history {
-		owner = OST
+		owner = PIG
+		add_core_of = PIG
 		add_core_of = OST
 		buildings = {
 			arms_factory = 0

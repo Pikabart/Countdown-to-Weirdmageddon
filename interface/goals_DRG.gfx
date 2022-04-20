@@ -1,0 +1,8 @@
+spriteTypes = {	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_DRG_start"
+	texturefile = "gfx/interface/goals/DRG/focus_DRG_start.dds"			
+	}	
+
+} ### End Bracket

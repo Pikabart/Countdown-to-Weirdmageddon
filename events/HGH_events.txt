@@ -29,6 +29,12 @@ country_event = {
 	
 	option = { 
 		custom_effect_tooltip = "new_focus_tree_tooltip"
+		recruit_character = HGH_edgy_character
+		recruit_character = HGH_arsty_kid_character
+		recruit_character = HGH_sportsy_kid_character
+		recruit_character = HGH_reddit_council_character
+		recruit_character = HGH_snake_character
+		recruit_character = HGH_model_un_character
 		hidden_effect = {
 			load_focus_tree = {
 				tree = HGH_focus_1
