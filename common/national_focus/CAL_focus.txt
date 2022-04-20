@@ -300,7 +300,12 @@
 			#set_variable = { cal_deployed_convoy_value = 0 }
 			
 			hidden_effect = {
-				country_event = { id = CAL_GUSTAV.1 days = 5}		
+				country_event = { id = CAL_GUSTAV.1 days = 5}	
+				UTH={load_oob=US_NATGUARD}
+				CRD={load_oob=US_NATGUARD}
+				ARZ={load_oob=US_NATGUARD}
+				NMX={load_oob=US_NATGUARD}
+				country_event = CAL_rocky_guard.1
 			}
 		}
 		
@@ -1477,8 +1482,8 @@
 		}
 	}
 	
-	focus = {
-		id = CAL_birnbaum.3
+	focus = { # Add Utah
+		id = CAL_birnbaum.3 
 		icon = GFX_goal_california
 		x = 2
 		y = 1
@@ -1500,7 +1505,7 @@
 		}
 	}
 	
-	focus = {
+	focus = { # Add Arizona
 		id = CAL_birnbaum.4
 		icon = GFX_goal_california
 		x = -1
@@ -1523,7 +1528,7 @@
 		}
 	}
 	
-	focus = {
+	focus = { # Add Colorado
 		id = CAL_birnbaum.5
 		icon = GFX_goal_california
 		x = -2
@@ -1547,7 +1552,7 @@
 		}
 	}
 	
-	focus = {
+	focus = { # Add New Mexico
 		id = CAL_birnbaum.6
 		icon = GFX_goal_california
 		x = 1
