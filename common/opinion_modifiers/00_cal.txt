@@ -1,0 +1,5 @@
+opinion_modifiers = {
+	
+	CAL_strengthen_ties = { value = 10 }
+
+}

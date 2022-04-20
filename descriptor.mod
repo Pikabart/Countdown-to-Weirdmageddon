@@ -1,4 +1,4 @@
-version="0.1.1"
+version="0.2.0"
 name="Countdown to Weirdmageddon"
 tags={
 	"Alternative History"
@@ -8,6 +8,7 @@ tags={
 	"Events"
 	"Gameplay"
 	"Graphics"
+	"Technologies"
 }
 replace_path="history/general"
 replace_path="history/states"
@@ -38,6 +39,6 @@ replace_path="events"
 replace_path="portraits"
 replace_path="country_leader"
 picture="thumbnail.png"
-supported_version="1.11.4"
+supported_version="1.11.*"
 path="C:/Users/ian/Documents/Paradox Interactive/Hearts of Iron IV/mod/Countdown to Weirdmageddon"
 remote_file_id="2689567884"

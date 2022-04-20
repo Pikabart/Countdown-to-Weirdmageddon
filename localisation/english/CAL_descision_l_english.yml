@@ -25,6 +25,10 @@
     cal_decision_relationship_checkup_desc:0 "New polls will tell us our standing in California and the effects of that scoring."
     cal_decision_party_checkup:0 "Reevaluate Political Standing"
     cal_decision_party_checkup_desc:0 "New reports will tell us our standing in the Party and the effects of that scoring."
+    cal_decision_party_progressive_alert:0 "The §4Progressive IDRs§! are §RAngry§!!"
+    cal_decision_party_progressive_alert_tt:0 "The Progressive IDR is angry at Emperor Norton. They believe he had betrayed the progressive values that he had championed. If nothing is done to mend ties, our critical coastal cities may rebel."
+    cal_decision_party_traditional_alert:0 "The §RTraditional IDRs§! are §RAngry§!!"
+    cal_decision_party_traditional_alert_tt:0 "The Traditional IDR is angry at Emperor Norton. They believe he had disgraced the Imperial Presitge of America he is suppose to project. If nothing is done to mend ties, our resource-rich rural lands may rebel."
     
     cal_sit_down_with_guzman:0 "We have sat down with §GLt. Governor Diaz-Guzman§!."
     
