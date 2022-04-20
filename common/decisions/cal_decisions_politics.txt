@@ -411,20 +411,21 @@ CAL_catagory_NorCal_SoCal = {
         days_mission_timeout = 90
 	    days_remove = 0
 		fire_only_once = no
-		is_good = yes                           
+		is_good = no                           
         selectable_mission = no              
 		priority = 10
 		
-		available = { #"available" THIS IS THE GOAL. So if true, it "fails", ending immedetly
-		   has_country_flag = cal_California_United 
-		   cal_pIDR > 20
+		available = { #"available" THIS IS THE GOAL. So if true, it "fails", ending immedetly	 
+		   check_variable = { cal_pIDR < 20 }
 		}
-        activation = {                          
-            has_country_flag = cal_NorSo_relationship
-			NOT = {has_country_flag = cal_California_United}
-			cal_pIDR < 21
+        activation = {  
+			AND = {
+				has_country_flag = cal_NorSo_relationship
+				NOT = {has_country_flag = cal_California_United}
+				check_variable = { cal_pIDR < 20 }
+			}
         }
-		visible = { usa_pacific_fleet_value < 25 }	
+		visible = { cal_pIDR < 20 }	
 		timeout_effect = {   
 			custom_effect_tooltip = cal_decision_party_progressive_alert_tt
 			country_event = CAL_civil_war_events.1 #something for Progressive Civil War
@@ -438,20 +439,21 @@ CAL_catagory_NorCal_SoCal = {
         days_mission_timeout = 90
 	    days_remove = 0
 		fire_only_once = no
-		is_good = yes                           
+		is_good = no                           
         selectable_mission = no              
 		priority = 10
 		
 		available = { #"available" THIS IS THE GOAL. So if true, it "fails", ending immedetly
-		   has_country_flag = cal_California_United 
-		   cal_tIDR > 20
+		   check_variable = { cal_tIDR < 20 }
 		}
         activation = {                          
-            has_country_flag = cal_NorSo_relationship
-			NOT = {has_country_flag = cal_California_United}
-			cal_tIDR < 21
+            AND = {
+				has_country_flag = cal_NorSo_relationship
+				NOT = {has_country_flag = cal_California_United}
+				check_variable = { cal_tIDR < 20 }
+			}
         }
-		visible = { usa_pacific_fleet_value < 25 }	
+		visible = { cal_tIDR < 20 }	
 		timeout_effect = {   
 			custom_effect_tooltip = cal_decision_party_traditional_alert_tt
 			country_event = CAL_civil_war_events.2

@@ -20,7 +20,7 @@
  ######################################################
  #2
  CAL_TREMBLEY.2.t:0 "The Cascadian Standoff!"
- CAL_TREMBLEY.2.d:0 ""
+ CAL_TREMBLEY.2.d:0 "The FPI moved in"
  CAL_TREMBLEY.2.a:0 "Rush troops in, we must protect Northern California!"
  
  ######################################################
@@ -33,10 +33,6 @@
  CAL_ELECTION.2.t:0 "Imperial Governor"
  CAL_ELECTION.2.d:0 ""
  CAL_ELECTION.2.a:0 "God Save Norton and the California Republic!"
- 
- CAL_ELECTION.2.t:0 ""
- CAL_ELECTION.2.d:0 ""
- CAL_ELECTION.2.a:0 ""
  
  ######################################################
  ######################################################
