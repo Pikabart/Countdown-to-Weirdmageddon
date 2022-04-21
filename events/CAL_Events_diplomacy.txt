@@ -8,156 +8,6 @@ add_namespace = CAL_birnbaum_event
 
 
 ########################################################################################################
-
-country_event = { # snubbed, prepare for war
-	id = CAL_rocky_guard.1
-	title = CAL_rocky_guard.1.t
-	desc = CAL_rocky_guard.1.d
-	
-	picture = GFX_report_event_generic_factory
-	hidden = yes
-	is_triggered_only = yes
-
-
-	immediate = {
-		add_political_power = 100
-		UTH={
-			random_owned_controlled_state = {
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-			}
-		}
-		CRD={
-			random_owned_controlled_state = {
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-			}
-		}
-		ARZ={
-			random_owned_controlled_state = {
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-			}
-		}
-		NMX={
-			random_owned_controlled_state = {
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-				create_unit = {
-						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
-						owner = UTH
-				}
-			}
-		}
-	
-	
-	
-	}
-
-	option = {
-		name = CAL_rocky_guard.1.a
-	}
-}
  
 country_event = { # snubbed, prepare for war
 	id = CAL_everett_event.1
@@ -191,6 +41,13 @@ country_event = { # become hostile, california considered aggressor still
 	option = {
 		name = CAL_everett_event.2.a
 		declare_war_on = { target = UTH type = annex_everything }
+		NEV = {
+			add_to_war = { 
+				targeted_alliance = PREV 
+				enemy = UTH 
+				hostility_reason = asked_to_join
+			}
+		}
 	}
 }
 country_event = { # they submit
@@ -245,6 +102,18 @@ country_event = { # become hostile, california considered aggressor still
 		name = CAL_everett_event.5.a
 		declare_war_on = { target = ARZ type = annex_everything }
 		declare_war_on = { target = NMX type = annex_everything }
+		NEV = {
+			add_to_war = { 
+				targeted_alliance = PREV 
+				enemy = ARZ 
+				hostility_reason = asked_to_join
+			}
+			add_to_war = { 
+				targeted_alliance = PREV 
+				enemy = NMX 
+				hostility_reason = asked_to_join
+			}
+		}
 	}
 }
 country_event = { # they submit
@@ -298,6 +167,13 @@ country_event = { # become hostile, california considered aggressor still
 	option = {
 		name = CAL_everett_event.8.a
 		declare_war_on = { target = CRD type = annex_everything }
+		NEV = {
+			add_to_war = { 
+				targeted_alliance = PREV 
+				enemy = CRD 
+				hostility_reason = asked_to_join
+			}
+		}
 	}
 }
 country_event = { # they submit
@@ -733,3 +609,156 @@ country_event = {
 }
 
 
+##################################################
+##################################################
+##################################################
+
+country_event = { # 
+	id = CAL_rocky_guard.1
+	title = CAL_rocky_guard.1.t
+	desc = CAL_rocky_guard.1.d
+	
+	picture = GFX_report_event_generic_factory
+	hidden = yes
+	is_triggered_only = yes
+
+
+	immediate = {
+		add_political_power = 100
+		UTH={
+			random_owned_controlled_state = {
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = UTH
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = UTH
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = UTH
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = UTH
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = UTH
+				}
+				create_unit = {
+						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
+						owner = UTH
+				}
+				create_unit = {
+						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
+						owner = UTH
+				}
+			}
+		}
+		CRD={
+			random_owned_controlled_state = {
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = CRD
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = CRD
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = CRD
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = CRD
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = CRD
+				}
+				create_unit = {
+						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
+						owner = CRD
+				}
+				create_unit = {
+						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
+						owner = CRD
+				}
+			}
+		}
+		ARZ={
+			random_owned_controlled_state = {
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = ARZ
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = ARZ
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = ARZ
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = ARZ
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = ARZ
+				}
+				create_unit = {
+						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
+						owner = ARZ
+				}
+				create_unit = {
+						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
+						owner = ARZ
+				}
+			}
+		}
+		NMX={
+			random_owned_controlled_state = {
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+			}
+		}
+	
+	
+	
+	}
+
+	option = {
+		name = CAL_rocky_guard.1.a
+	}
+}

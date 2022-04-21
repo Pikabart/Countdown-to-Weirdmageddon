@@ -3930,7 +3930,7 @@
 	focus = {
 		id = CAL_oregon_standoff.0
 		icon = GFX_goal_california
-		x = -5
+		x = 0
 		y = 1
 		relative_position_id = CAL_victory.1
 		prerequisite = { focus = CAL_victory.1 }
@@ -3954,7 +3954,7 @@
 	focus = {
 		id = CAL_oregon_unite.1
 		icon = GFX_goal_california
-		x = -2
+		x = -4
 		y = 1
 		relative_position_id = CAL_oregon_standoff.0
 		prerequisite = { focus = CAL_oregon_standoff.0 }
@@ -4092,7 +4092,7 @@
 	focus = {
 		id = CAL_oregon_war.1
 		icon = GFX_goal_california
-		x = 2
+		x = 4
 		y = 1
 		relative_position_id = CAL_oregon_standoff.0
 		prerequisite = { focus = CAL_oregon_standoff.0 }
@@ -4232,9 +4232,9 @@
 		id = CAL_norton_mind.0
 		icon = GFX_goal_california
 		x = 0
-		y = 1
-		relative_position_id = CAL_victory.1
-		prerequisite = { focus = CAL_victory.1 }
+		y = 2
+		relative_position_id = CAL_oregon_standoff.0
+		prerequisite = { focus = CAL_oregon_standoff.0 }
 		cost = 1
 		
 		available_if_capitulated = yes
@@ -4254,7 +4254,7 @@
 		id = CAL_norton_mind.1
 		icon = GFX_goal_california
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = CAL_norton_mind.0
 		prerequisite = { focus = CAL_norton_mind.0 }
 		cost = 1
@@ -4309,6 +4309,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = { }
+		allow_branch  = {has_country_flag = CAL_LATER_UPDATE_DISABLE_FLAG} ### DISABLE BRANCH FOR LATER USE
 		bypass = {} 
 		
 		completion_reward = {	
@@ -4333,6 +4334,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = { }
+		allow_branch  = {has_country_flag = CAL_LATER_UPDATE_DISABLE_FLAG} ### DISABLE BRANCH FOR LATER USE
 		bypass = {} 
 		
 		completion_reward = {	
@@ -4514,6 +4516,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = { has_global_flag = G_FLAG_MEW_LUDO_VICTORIOUS}
+		allow_branch  = {has_global_flag = G_FLAG_MEW_LUDO_VICTORIOUS}
 		bypass = {} 
 		
 		completion_reward = {	

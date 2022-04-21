@@ -415,13 +415,13 @@ CAL_catagory_NorCal_SoCal = {
         selectable_mission = no              
 		priority = 10
 		
-		available = { #"available" THIS IS THE GOAL. So if true, it "fails", ending immedetly	 
-		   check_variable = { cal_pIDR < 20 }
+		available = { #  	 
+		   check_variable = { cal_pIDR > 20 }
 		}
         activation = {  
 			AND = {
-				has_country_flag = cal_NorSo_relationship
-				NOT = {has_country_flag = cal_California_United}
+				#has_country_flag = cal_NorSo_relationship
+				#NOT = {has_country_flag = cal_California_United}
 				check_variable = { cal_pIDR < 20 }
 			}
         }
@@ -443,13 +443,13 @@ CAL_catagory_NorCal_SoCal = {
         selectable_mission = no              
 		priority = 10
 		
-		available = { #"available" THIS IS THE GOAL. So if true, it "fails", ending immedetly
-		   check_variable = { cal_tIDR < 20 }
+		available = { # THE GOAL, so if true, is copmpleted, not failed (time out)
+		   check_variable = { cal_tIDR > 20 }
 		}
         activation = {                          
             AND = {
-				has_country_flag = cal_NorSo_relationship
-				NOT = {has_country_flag = cal_California_United}
+				#has_country_flag = cal_NorSo_relationship
+				#NOT = {has_country_flag = cal_California_United}
 				check_variable = { cal_tIDR < 20 }
 			}
         }
