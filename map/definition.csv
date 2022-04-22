@@ -6967,7 +6967,7 @@
 6966;166;104;236;land;false;jungle;3
 6967;168;235;202;land;false;mountain;1
 6968;231;248;154;land;false;mountain;4
-6969;74;202;234;land;false;plains;1
+6969;74;202;234;lake;false;lakes;0
 6970;115;251;253;land;false;plains;1
 6971;196;234;173;land;true;marsh;3
 6972;227;239;178;land;false;plains;1
