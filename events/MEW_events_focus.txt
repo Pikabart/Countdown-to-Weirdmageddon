@@ -1304,7 +1304,6 @@ country_event = {
 			CEF = {
 				transfer_state = 273
 				add_state_core = 273
-				set_capital = {state = 273}
 			}
 			set_province_name = { id = 338 name = "Fort Norton"}
 			custom_effect_tooltip = "trade_ports_1_tooltip"

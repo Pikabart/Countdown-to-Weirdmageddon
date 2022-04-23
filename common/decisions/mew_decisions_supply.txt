@@ -10,7 +10,10 @@ supplyline_construction = {
 		fire_only_once = yes		
 		available = { 
 			284 = {
-				is_fully_controlled_by = MEW
+				OR = {
+					is_fully_controlled_by = MEW
+					is_fully_controlled_by = PIG
+				}
 			}
 
 		}	
@@ -57,7 +60,10 @@ supplyline_construction = {
 		fire_only_once = yes		
 		available = { 
 			463 = {
-				is_fully_controlled_by = MEW
+				OR = {
+					is_fully_controlled_by = MEW
+					is_fully_controlled_by = PIG
+				}
 			}
 
 		}	
@@ -92,7 +98,10 @@ supplyline_construction = {
 		fire_only_once = yes		
 		available = { 
 			464 = {
-				is_fully_controlled_by = MEW
+				OR = {
+					is_fully_controlled_by = MEW
+					is_fully_controlled_by = PIG
+				}
 			}
 
 		}	
@@ -127,7 +136,10 @@ supplyline_construction = {
 		fire_only_once = yes		
 		available = { 
 			281 = {
-				is_fully_controlled_by = MEW
+				OR = {
+					is_fully_controlled_by = MEW
+					is_fully_controlled_by = PIG
+				}
 			}
 
 		}	
@@ -173,7 +185,10 @@ supplyline_construction = {
 		fire_only_once = yes		
 		available = { 
 			282 = {
-				is_fully_controlled_by = MEW
+				OR = {
+					is_fully_controlled_by = MEW
+					is_fully_controlled_by = PIG
+				}
 			}
 
 		}	
@@ -220,7 +235,10 @@ supplyline_construction = {
 		fire_only_once = yes		
 		available = { 
 			285 = {
-				is_fully_controlled_by = MEW
+				OR = {
+					is_fully_controlled_by = MEW
+					is_fully_controlled_by = PIG
+				}
 			}
 
 		}	
@@ -256,7 +274,10 @@ supplyline_construction = {
 		fire_only_once = yes		
 		available = { 
 			283 = {
-				is_fully_controlled_by = MEW
+				OR = {
+					is_fully_controlled_by = MEW
+					is_fully_controlled_by = PIG
+				}
 			}
 
 		}	
@@ -303,7 +324,10 @@ supplyline_construction = {
 		fire_only_once = yes		
 		available = { 
 			277 = {
-				is_fully_controlled_by = MEW
+				OR = {
+					is_fully_controlled_by = MEW
+					is_fully_controlled_by = PIG
+				}
 			}
 
 		}	

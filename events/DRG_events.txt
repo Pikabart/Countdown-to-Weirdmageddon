@@ -1,0 +1,23 @@
+﻿add_namespace = DRG_flavor
+add_namespace = DRG_change_tree
+
+country_event = {
+	id = DRG_change_tree.1
+	title = DRG_change_tree.1.t
+	desc = DRG_change_tree.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = DRG_change_tree.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		custom_effect_tooltip = "new_focus_tree_tooltip"
+		hidden_effect = {
+			load_focus_tree = {
+				tree = DRG_focus_pre_war
+				keep_completed = yes
+			}
+		}
+	}
+}

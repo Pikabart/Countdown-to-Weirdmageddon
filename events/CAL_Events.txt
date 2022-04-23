@@ -594,15 +594,18 @@ country_event = {
 	option = {
 		trigger = {tag = CAL}
 		name = CAL_CEF.0.a
+		MEW = { country_event = { id = CAL_CEF.1 days = 1 } }
+		ai_chance = { factor = 10 }
 	}
 	option = {
-		trigger = {tag = MEW}
+		trigger = {tag = CAL}
 		name = CAL_CEF.0.b
+		ai_chance = { factor = 0 }
 	}
 }
 
 country_event = {
-	id = CAL_CEF.1 
+	id = CAL_CEF.1
 	title = CAL_CEF.1.t
 	desc = CAL_CEF.1.d
 	picture = GFX_report_event_generic_factory
@@ -612,35 +615,30 @@ country_event = {
 
 	option = {
 		name = CAL_CEF.1.a
-		430 = { 
-			add_core_of = CEF
+		set_country_flag = cali_aid_1
+		custom_effect_tooltip = CAL_CEF.1.tooltip_2
+		add_to_array = {
+			array = GLOBAL.mewni_dimension_countries
+			value = CAL.id
+		}
+		CAL = {
+			add_opinion_modifier = { target = MEW modifier = CAL_aid_from_california }
+			complete_national_focus = CAL_mewni.1
+		}
+		MEW = { add_opinion_modifier = { target = CAL modifier = MEW_aid_from_california } }
+		430 = {
+			add_core_of = CAL
 			remove_core_of = MEW
+			CAL = {
+				transfer_state = 430
+			}
 		}
-		322 = {  
-			add_core_of = CEF
-			remove_core_of = LUC
-		}
-		431 = { 
-			add_core_of = CEF
-			remove_core_of = LUC
-		}
-		432 = { 
-			add_core_of = CEF
-			remove_core_of = LUC
-		}
-		CEF = {
-			transfer_state = 430
-			transfer_state = 322
-			transfer_state = 431
-			transfer_state = 432
-			load_oob = "CEF_2012"
-		}
-		CAL = { puppet = CEF }
-		MEW = {country_event = {id = trade_ports.1 days = 4}}
-		hidden_effect = {
-			CEF = { give_military_access = MEW }
-			MEW = { give_military_access = CEF }
-		}
+		ai_chance = { factor = 10 }
+	}
+	option = {
+		name = CAL_CEF.1.b
+		ai_chance = { factor = 0 }
+		custom_effect_tooltip = CAL_CEF.1.tooltip
 	}
 }
 country_event = {

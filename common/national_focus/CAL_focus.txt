@@ -3201,25 +3201,11 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = { always = no }
 		bypass = {} 
 		
-		completion_reward = {	
+		completion_reward = {
 			custom_effect_tooltip = "CAL_mewni.1.t"
-			country_event = CAL_CEF.0
-			MEW = {country_event = CAL_CEF.0}
-			hidden_effect = {
-				add_opinion_modifier = { target = MEW modifier = CAL_aid_from_california }
-				MEW = {
-					give_military_access = CAL
-					diplomatic_relation = {
-						country = CAL
-						relation = docking_rights
-						active = yes
-					}
-					add_opinion_modifier = { target = CAL modifier = MEW_aid_from_california }
-				}
-			}
 		}
 		
 		ai_will_do = {
@@ -3245,9 +3231,23 @@
 		available = {}
 		bypass = {} 
 		
-		completion_reward = {	
-			custom_effect_tooltip = "CAL_mewni.2.t"
-			country_event = CAL_CEF.1 
+		completion_reward = {
+			430 = {
+				add_core_of = CEF
+				remove_core_of = CAL
+				CEF = {
+					transfer_state = 430
+					load_oob = "CEF_2012"
+				}
+				CAL = {
+					puppet = CEF
+				}
+				set_province_name = { id = 1258 name = "Port Norton"}
+				hidden_effect = {
+					CEF = { give_military_access = MEW }
+					MEW = { give_military_access = CEF }
+				}
+			}
 		}
 		
 		ai_will_do = {
