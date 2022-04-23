@@ -437,11 +437,11 @@
  CAL_mewni.0.t:0 ""
  
  CAL_mewni.1:0 "The Pivot To Mewni"
- CAL_mewni.1_desc:0 "With the diplomatic contact established, our diplomats were able to do a quick assessment of the Butterfly Kingdom’s status. With their need for food and technology, we could trade our supplies and knowledge for key magic based knowledge that they have."
+ CAL_mewni.1_desc:0 "Now that we are an interdimensional state, we must shift some of our attention away from our home dimension."
  CAL_mewni.1.t:0 ""
  
  CAL_mewni.2:0 "Form the Expeditionary Force"
- CAL_mewni.2_desc:0 "With the continuing destabilization on Mewni, we have obtain permission from Queen Moon to move our armed forces into key area to help maintain order. While some are concern of sending away troops to another dimension, the leverage it gives us in trade and the enhancement in prestige in becoming an interdimensional power is worthwhile."
+ CAL_mewni.2_desc:0 "With a part of our land in a completley diffrent dimension, it makes no logistical sense to govern it the same way we govern the areas of our state in our home dimension. Thus a new governing body, the §Y[CEF.getname]§!, shall be formed on our Mewni territories."
  CAL_mewni.2.t:0 ""
  
  CAL_mewni.3:0 "The Rodent Problem..."

@@ -114,6 +114,10 @@ on_actions = {
 				array = GLOBAL.mewni_dimension_countries
 				value = PIE.id
 			}
+			add_to_array = {
+				array = GLOBAL.mewni_dimension_countries
+				value = CEF.id
+			}
 			MHC = {
 				set_variable  = {
 					var = monster_rebels

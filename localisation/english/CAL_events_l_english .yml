@@ -164,3 +164,19 @@
  CAL_TEST.1.b:0 ""We must bide our time. No need to fight a stranger's war.""
  CAL_TEST.1.c:0 ""Norton stood with Mewni, so shall we stand with Northern California!""
  
+ #####################################################
+ #####################################################
+ 
+ CAL_CEF.0.t:0 "The Mewmans Request Economic Aid"
+ CAL_CEF.0.d:0 ""
+ CAL_CEF.0.a:0 "We'll do it! For a price..."
+ CAL_CEF.0.a:0 "Meh... we really don't need to get involved Extradimensionally..."
+ 
+ 
+ CAL_CEF.1.t:0 "Californians Want Territory as Payment!"
+ CAL_CEF.1.d:0 ""
+ CAL_CEF.1.a:0 "Sounds Like a Good Deal!"
+ CAL_CEF.1.b:0 "No."
+ CAL_CEF.1.tooltip:0 "§YThe§! §CCalifornians§! §Ywont be involved in Mewni...§!"
+ CAL_CEF.1.tooltip_2:0 "§CFocus§! §YWhy Corn?§! §CIs Unlocked!§!"
+ 

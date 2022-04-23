@@ -129,7 +129,6 @@ country_event = {
 		ai_chance = { factor = 90 }
 		MEW = { transfer_state = 285 }
 		MEW = { transfer_state = 463 }
-		MEW = { transfer_state = 464 }
 	}
 }
 

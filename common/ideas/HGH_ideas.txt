@@ -19,6 +19,21 @@ ideas = {
 			
 			modifier = {
 				stability_factor = -0.2
+				stability_weekly = -0.04
+			}
+		}
+		
+		HGH_nerds = {
+			picture =
+			
+			allowed = {original_tag = HGH }
+			available = {}
+			cancel = {
+				#when at war
+			}
+			
+			modifier = {
+				research_speed_factor = 0.05
 			}
 		}
 	}

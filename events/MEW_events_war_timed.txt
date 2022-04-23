@@ -34,7 +34,9 @@ country_event = {
 		swap_ideas = {
 		remove_idea = MEW_vacant_heir
 		add_idea = MEW_star_x_tom_unofficial
-		
+		hidden_effect = {
+			country_event = { id = star_tom_start_decision.2 days = 180 }
+		}
 		}	
 	}
 	
@@ -100,10 +102,8 @@ country_event = {
 	desc = old_discoveries.2.d
 	picture = GFX_report_event_horseless_carriage
 		
-	trigger = {
-		original_tag = MEW
-		OST = { surrender_progress > 0.35 }
-	}	
+	is_triggered_only = yes
+
 	fire_only_once = yes	
 	
 	option = {
@@ -132,8 +132,6 @@ country_event = {
 	picture = GFX_report_event_open_mouth_moon
 		
 	trigger = {
-		original_tag = MEW
-		OST = { surrender_progress > 0.5 }
 	}
 	
 	fire_only_once = yes
@@ -200,10 +198,7 @@ country_event = {
 			message = "The Ostro Starvarians have Surrendered"
 		}
 			MEW = { transfer_state = 285 }
-			MEW = { transfer_state = 281 }
 			MEW = { transfer_state = 286 }
-			MEW = { transfer_state = 282 }
-			MEW = { transfer_state = 283 }
 			MEW = { transfer_state = 298 }
 			MEW = { transfer_state = 297 }
 			MEW = { transfer_state = 295 }
@@ -211,8 +206,7 @@ country_event = {
 			MEW = { transfer_state = 296 }
 			OST = { transfer_state = 277 }
 			OST = { transfer_state = 291 }
-			OST = { transfer_state = 278 }
-			OST = { transfer_state = 427 }
+			AIR = { transfer_state = 278 }
 			MEW = { country_event = { id = ost_mew_surrender.2 days = 7 }}
 			clr_country_flag = ost_war_starting
 			set_country_flag = conquer_ost
@@ -245,6 +239,8 @@ country_event = {
 			PIG = { transfer_state = 295 }
 			PIG = { transfer_state = 279 }
 			PIG = { transfer_state = 296 }
+			PIG = { transfer_state = 463 }
+			PIG = { transfer_state = 464 }
 			
 			set_global_flag = G_FLAG_MEW_CURRENT_DAY # This GLOBAL FLAG is for EARTH Nations on Mew Victory
 			MEW = {

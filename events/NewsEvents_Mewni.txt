@@ -8,6 +8,7 @@ add_namespace = mewni_kingdom_split_news_event
 add_namespace = mewni_butterfly_front_news_event
 add_namespace = mewni_ludo_coup_news_event
 add_namespace = mewni_ludo_war_start_news_event
+add_namespace = mewni_pigeon_war_start_news_event
 add_namespace = mewni_tsardom_join_bf_news_event
 add_namespace = ludo_spider_alliance_news_event
 add_namespace = jaggy_collapse_news_event
@@ -457,6 +458,42 @@ news_event = { #The War Starts
 		name = mewni_ludo_war_start_news_event.1.c
 		trigger = {NOT={TAG = MEW}} #not mewni
 		trigger = {NOT={TAG = LUD}} #not ludo
+	}
+
+}
+
+news_event = {
+	id = mewni_pigeon_war_start_news_event.1
+	title = mewni_pigeon_war_start_news_event.1.t
+	desc = {
+		text = mewni_pigeon_war_start_news_event.1.d
+	}
+	
+	picture = GFX_news_event_start_of_civil_war
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = mewni_pigeon_war_start_news_event.1.a
+		trigger = {
+			OR = {
+				tag = MEW
+				is_ally_with = MEW
+			}
+		}
+	}
+	
+	option = {
+		name = mewni_pigeon_war_start_news_event.1.b
+		trigger = {
+			NOT = {
+				is_ally_with = MEW
+			}
+		}
 	}
 
 }

@@ -4,7 +4,7 @@ state={
 	local_supplies=0.0 
 	
 	history {
-		owner = OST
+		owner = PIG
 		add_core_of = OST
 		add_core_of = PIG
 		buildings = {

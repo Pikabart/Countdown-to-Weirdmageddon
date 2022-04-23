@@ -48,6 +48,11 @@ mewni_ludo_war_start_news_event.1.a:0 "We will reclaim the Mewman homelands from
 mewni_ludo_war_start_news_event.1.b:0 "We will take what we have worked so hard for! Charge!"
 mewni_ludo_war_start_news_event.1.c:0 "It has begun"
 
+mewni_pigeon_war_start_news_event.1.t:0 "$WAR_NAME_MEW_OST$ Begins!"
+mewni_pigeon_war_start_news_event.1.d:0 "Following a series of diplomatic pressures, the Kingdom of Mewni has declared war against the [OST.getname]!\n\nThe Mewman's objective is to expand the Pigeon Kingdom, a kingdom under the Butterfly Kingdom. This will ultimately spread Mewman influence and push the monsters even further south.\n\nMost experts predict that the Mewmans will succeed, but in the unlikley event that the Mewmans fail, the worst that people predict is a stain on Mewman pride."
+mewni_pigeon_war_start_news_event.1.a:0 "Mewman Hegemony will spread!"
+mewni_pigeon_war_start_news_event.1.b:0 "Memories of Solaria come to mind..."
+
 mewni_tsardom_join_bf_news_event.1.t:0 "The Tsardom Joins The Butterfly Front!"
 mewni_tsardom_join_bf_news_event.1.d:0 "In a turn of events, a monster warlord in the Forest of Certain Death has joined the Butterfly Front!\n\nCalling themselves the "Tsarstvo Monstrov," or "Tsardom of Monsters," they have pledged their support to Queen Moon in the upcoming conflict between her and Ludo!"
 mewni_tsardom_join_bf_news_event.1.a:0 "Welcome to the Front!"

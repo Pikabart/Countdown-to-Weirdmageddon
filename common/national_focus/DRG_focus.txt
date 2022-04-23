@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-		#	add = 100
-		#	tag = DRG
+			add = 100
+			tag = DRG
 		}
 	}
 	
@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = { 
 		id = DRG_start
-		icon = a
+		icon = GFX_goal_focus_DRG_start
 		x = 14
 		y = 1
 		
@@ -43,7 +43,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = DRG_quality_troop
-		icon = a
+		icon = GFX_goal_generic_small_arms
 		x = -1
 		y = 1
 		relative_position_id = DRG_start
@@ -71,7 +71,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRG_quantity_troop
-		icon = a
+		icon = GFX_goal_generic_allies_build_infantry
 		x = 1
 		y = 1
 		relative_position_id = DRG_start 
@@ -99,7 +99,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRG_civilian_production
-		icon = a
+		icon = GFX_goal_generic_production
 		x = -2
 		y = 1
 		relative_position_id = DRG_quantity_troop 
@@ -127,7 +127,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRG_military_production
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = DRG_quantity_troop 
@@ -155,7 +155,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRG_modern_politics_production
-		icon = a
+		icon = GFX_goal_generic_neutrality_focus
 		x = -2
 		y = 1
 		relative_position_id = DRG_military_production 
@@ -186,7 +186,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRG_modern_warfare_production
-		icon = a
+		icon = GFX_goal_generic_army_doctrines
 		x = 0
 		y = 1
 		relative_position_id = DRG_military_production 
@@ -224,7 +224,7 @@ focus_tree = {
 	
 	focus = {
 		id = DRG_take_state
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 0
 		y = 1
 		relative_position_id = DRG_modern_warfare_production 
@@ -257,7 +257,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRG_take_state_2
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = -2
 		y = 1
 		relative_position_id = DRG_modern_warfare_production 
@@ -290,7 +290,7 @@ focus_tree = {
 	}
 	focus = {
 		id = DRG_balance_of_power
-		icon = a
+		icon = GFX_goal_generic_neutrality_focus
 		x = 1
 		y = 1
 		relative_position_id = DRG_take_state_2 
@@ -314,6 +314,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = DRG_change_tree.1
 		}
 		
 		ai_will_do = {
