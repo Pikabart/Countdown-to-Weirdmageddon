@@ -20,7 +20,7 @@
  ######################################################
  #2
  CAL_TREMBLEY.2.t:0 "The Cascadian Standoff!"
- CAL_TREMBLEY.2.d:0 ""
+ CAL_TREMBLEY.2.d:0 "The FPI moved in"
  CAL_TREMBLEY.2.a:0 "Rush troops in, we must protect Northern California!"
  
  ######################################################
@@ -34,10 +34,6 @@
  CAL_ELECTION.2.d:0 ""
  CAL_ELECTION.2.a:0 "God Save Norton and the California Republic!"
  
- CAL_ELECTION.2.t:0 ""
- CAL_ELECTION.2.d:0 ""
- CAL_ELECTION.2.a:0 ""
- 
  ######################################################
  ######################################################
 
@@ -45,7 +41,7 @@
  CAL_everett_event.1.d:0 ""
  CAL_everett_event.1.a:0 "They'll pay for their insolence"
  
- CAL_everett_event.2.t:0 "The Utahn Fight Back"
+ CAL_everett_event.2.t:0 "The Utahns Fight Back"
  CAL_everett_event.2.d:0 ""
  CAL_everett_event.2.a:0 ""
  
@@ -93,15 +89,59 @@
  ######################################################
  ######################################################
 
+ CAL_birnbaum_event.1.t:0 "Utah Joines the Imperial Republic!"
+ CAL_birnbaum_event.1.d:0 "As we finish up negotiations with the State of Utah to join our Imperial United States, the governor of Utah has revealed that they have access to a special well with holy properties. To our amazement, the Great Salt Lake is home to an inter-dimensional well to the Realm of Magic, a special interconnecting dimension to everywhere else in our plan of reality! More importantly, it gives us access to that rare Magical Water, normally found only on Mewni.\n\nA deal has been proposed, separate of the main negotiations. If we invest into Utah, they’ll be willing to let us trade for it. But if we invest a large amount of capital both financial and political right now, they’ll exclusivity sell to us. We need access to the water for sure, but should we secure it now or worry of trade later?"
+ CAL_birnbaum_event.1.a:0 "They have a Deal!"
+ CAL_birnbaum_event.1.b:0 "Just make sure we can come back to this later..."
+ 
+ CAL_birnbaum_event.2.t:0 "Arizona Joines the Imperial Republic!"
+ CAL_birnbaum_event.2.d:0 "Arizona is asking the Imperial Government for help. There is currently a migrant crisis at the border with Mexico. We had assume its those fleeing South America in the wake of the now global kerfuffle, but that part of the world has been unusually stable and quiet. Actually, we have no idea what’s happening in South America. The people trying to cross over are actually Americans from the East Coast, fleeing President Curtis!\n\nOddly enough, none of them wanted to flee to California’s relativity open border, choosing Arizona instead. Arizona now ask we take custody of them and house them in California. But since Curtis won the Eastern States by a massive margin last election, many Californians are not so charitable to their eastern brethren. Arizona does promise close cooperation with the Imperial Government if we help, and the opposite if they don’t."
+ CAL_birnbaum_event.2.a:0 "Send to them to California"
+ CAL_birnbaum_event.2.b:0 "Sends some fund to keep them in Arizona"
+ 
+ CAL_birnbaum_event.3.t:0 "Colorado Joines the Imperial Republic!"
+ CAL_birnbaum_event.3.d:0 "With the Rocky Mountain cutting right through the middle of the state, Colorado is both the Gateway to the West and a fortress anyone east must take to enter it. With potentially hostile states from the Eastern Government and the Trembley Government bordering it, Colorado is asking California to defend the front line of a divided America.\n\nWe can invest resources to fortify the state, with the goal of eventually using it as a staging ground to one day march East towards the Mississippi. While popular, that would be expensive. We could just set up some light defenses, but neither our or their populace will like this."
+ CAL_birnbaum_event.3.a:0 "Like Hannibal before, Norton will one day ride down the Rockies!"
+ CAL_birnbaum_event.3.b:0 "Just shore up some defenses there."
+ 
+ CAL_birnbaum_event.4.t:0 "New Mexico Joines the Imperial Republic!"
+ CAL_birnbaum_event.4.d:0 "New Mexico is home to the original site of Los Alamos, where the first atomic bomb was developed. As SDI, EuroNet, and the Northern Lights systems render nuclear warfare as a whole impossible (on Earth), the site is still an active facility into both peaceful and non-peaceful research into the atom. One we could make good use of, in case something in the multiverse needs a nuke up the butt. Some one also mentioned Roswell and aliens, but Lieutenant Governor Diaz-Guzman laughed it off, citing the teenage alien joyriders that crashed there are either long dead or too high up in the old Federal Government to be touched.\n\nFor a lump sum payment, New Mexico will gladly hand the facilities to the Imperial Government and even wave the cost they incurred keeping it from irradiating the entire South West. We could also just take it, as we are the successor government to the old Federal Government, but they won’t be happy about that and the scientist will be less enthusiastic to work for us."
+ CAL_birnbaum_event.4.a:0 "A fair enough deal."
+ CAL_birnbaum_event.4.b:0 "Give us back rightful Imperial Property!"
+ 
+ CAL_birnbaum_event.5.t:0 "Protector Of Mexico"
+ CAL_birnbaum_event.5.d:0 "Similar to Arizona, there has been a refugee crisis of Eastern Americans heading to Mexico by sailing from Florida, then traveling up to the border. Apparently the Texan-Federal Border is that well guarded. This has cause major issues with the independent Republic of Texas and the United Mexican States. We can’t risk a war occurring in the Southwest when we need troops either in the Northwest or Mewni, so we have offered to intervene. With it, Emperor Norton has declared he will reinstate is old title of “The Protector of Mexico”, one he initially relinquished after France invaded Mexico centuries ago.\n\nThe Texans are not friendly to us Californians, but they are a rational folk. We can send Birnbaum in to use Northwest of Texas to open negotiations and find a solution to this crisis. Or we can outright demand they back off, as the might of California and its allied states can take on Texas.\n\nSome politicians think this is a bad mistake all around, but if we back off now, we will look weak to the entire country and disgrace Norton a second time around!"
+ CAL_birnbaum_event.5.a:0 "California Bows to No One!"
+ CAL_birnbaum_event.5.b:0 "Send Birnbaum In!"
+ CAL_birnbaum_event.5.c:0 "We can't help..."
+ 
+ CAL_birnbaum_event.6.t:0 "Let's Make a Deal!"
+ CAL_birnbaum_event.6.d:0 ""
+ CAL_birnbaum_event.6.a:0 "Accept the Deal"
+ CAL_birnbaum_event.6.b:0 "Renegotiate Better Terms"
+ CAL_birnbaum_event.6.c:0 "We Refuse!"
+ CAL_birnbaum_event.6.e:0 "We're over our head on this..."
+ 
+ CAL_birnbaum_event.7.t:0 "The Price of the Imperial Republic"
+ CAL_birnbaum_event.7.d:0 ""
+ CAL_birnbaum_event.7.a:0 "This is the price for a united America!"
+ 
+ CAL_birnbaum_event.8.t:0 "No Deal"
+ CAL_birnbaum_event.8.d:0 ""
+ CAL_birnbaum_event.8.a:0 "One more obstacle to Unity!"
+ 
+ CAL_birnbaum_event.9.t:0 "Betrayal on the Rio Grande"
+ CAL_birnbaum_event.9.d:0 ""
+ CAL_birnbaum_event.9.a:0 ""
+ 
+ CAL_birnbaum_event.10.t:0 "A Fair Deal"
+ CAL_birnbaum_event.10.d:0 ""
+ CAL_birnbaum_event.10.a:0 "Fine, we accept"
+ CAL_birnbaum_event.10.b:0 "To Heck with all this!"
 
-
-
-
-
-
-
-
-
+ CAL_birnbaum_event.11.t:0 "California Prevails!"
+ CAL_birnbaum_event.11.d:0 ""
+ CAL_birnbaum_event.11.a:0 ""
 
 
 

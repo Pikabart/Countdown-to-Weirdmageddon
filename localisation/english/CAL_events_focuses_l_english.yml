@@ -58,7 +58,7 @@
  CAL_GUSTAV.8.tt:0 "Grant +§G50§! Support from §CAll Californians§!\nLose -§R20§! Support from the §1Entire Democratic-Republican Party§!\n"
  
  CAL_GUSTAV.9.t:0 "An Easy Political Bargain"
- CAL_GUSTAV.9.d:0 "A bill was placed on Norton's desk.\n\n"What is this?" asked Norton to his chief of staff Lumeta.\n\n"The legislation has passed a bill to rezone some areas in the southern central valley."\n\nNorton gave it a quick skim, "I am not sure about some of the language in here."\n\n"I recommend you sign it. We have many politicians form all three sides of the party ready to give you support on other measuers, as long as you sign this bill."\n\nHe nodded, "I suppose so. How odd, all thios fuss over this 'Bakersfieldville'...""
+ CAL_GUSTAV.9.d:0 "A bill was placed on Norton's desk.\n\n"What is this?" asked Norton to his chief of staff Lumeta.\n\n"The legislation has passed a bill to rezone some areas in the southern central valley."\n\nNorton gave it a quick skim, "I am not sure about some of the language in here."\n\n"I recommend you sign it. We have many politicians from all three sides of the party ready to give you support on other measuers, as long as you sign this bill."\n\nHe nodded, "I suppose so. How odd, all this fuss over this 'Bakersfieldville'...""
  CAL_GUSTAV.9.a:0 "The party gives thanks to their emperor"
  CAL_GUSTAV.9.tt:0 "Grant +§G50§! Support from the §1Entire Democratic-Republican Party§!\n"
  
@@ -131,20 +131,20 @@
  CAL_MILITARY.2.a:0 ""
  
  CAL_MILITARY.3.t:0 "The Sierra Army Depot"
- CAL_MILITARY.3.d:0 "NSB"
+ CAL_MILITARY.3.d:0 "tanks!"
+ CAL_MILITARY.3.a:0 "NBB"
  CAL_MILITARY.3.b:0 "NO NSB"
- CAL_MILITARY.3.a:0 "tanks!"
  
  CAL_MILITARY.4.t:0 "What have we learned?"
  CAL_MILITARY.4.d:0 ""
  CAL_MILITARY.4.a:0 "Be prepared and always have a plan!"
- CAL_MILITARY.4.b:0 "Strike Fast, Stike Hard, and Keep Striking"
- CAL_MILITARY.4.c:0 "Rain hell on our enemies and keep on raining"
+ CAL_MILITARY.4.b:0 "Strike Fast, Stike Hard, and Keep Striking!"
+ CAL_MILITARY.4.c:0 "Rain hell on our enemies and keep on Raining!"
  
  CAL_MILITARY.5.t:0 "Private Security Contracts"
  CAL_MILITARY.5.d:0 ""
  CAL_MILITARY.5.a:0 "Stick with California's favority contractor"
- CAL_MILITARY.5.b:0 "The best stuff comes from Japan"
+ CAL_MILITARY.5.b:0 "You, know, the best stuff comes from Japan"
  CAL_MILITARY.5.c:0 "Contract both of them (And pit them againts each other!)"
  CAL_MILITARY.5.e:0 "Keep suppression nationalized"
  
@@ -153,7 +153,7 @@
  #CAL_MILITARY.6.a:0 ""
  
  CAL_fleet_event.1.t:0 "Trans-Pacific Trade"
- CAL_fleet_event.1.d:0 "Surprisingly, the Pacific Fleet is holding out better than we expected. The fleet has been able to hold off against aggression from China, Japan, India, and Australia. They even successfully integrated with the Canadian Pacific Flotilla after they escaped Canadian Okinawa when the Japanese Imperial Defense Fleet took it back. Still, the situation in Asia is tense and the Admiralty made it clear to General Pines that if the Fleet leaves, our ten states from Chukotka to South Vietnam will quickly fall to Russian, SEATO, or former Commonwealth forces.\n\nStill, supplies are tight. Besides burning dirty fuel from reactivated refineries from Alaska, the fleet needs food and supplies, which we have. Keeping things unofficial, Admiral Park is willing to “look the other way” and let some ships go AWOL and sail for California. We would in turn send rations and ordinance. Here is a list of what ships the Pacific Fleet “can do without.”"
+ CAL_fleet_event.1.d:0 "Surprisingly, the Pacific Fleet is holding out better than we expected. The fleet has been able to hold off against aggression from China, Japan, India, and Australia. They even successfully integrated with the Canadian Pacific Flotilla after they escaped Canadian Okinawa when the Japanese Imperial Defense Fleet took it back. Still, the situation in Asia is tense and the Admiralty made it clear to General Pines that if the Fleet leaves, our states from Chukotka to South Vietnam will quickly fall to Russian, SEATO, or former Commonwealth forces.\n\nStill, supplies are tight. Besides burning dirty fuel from reactivated refineries from Alaska, the fleet needs food and supplies, which we have. Keeping things unofficial, Admiral Park is willing to “look the other way” and let some ships go AWOL and sail for California. We would in turn send rations and ordinance. Here is a list of what ships the Pacific Fleet “can do without.”"
  CAL_fleet_event.1.a:0 "Some patrol ships for the Coast Guard"
  CAL_fleet_event.1.b:0 "A couple of Ticonderoga would be nice"
  CAL_fleet_event.1.c:0 "A South Korea Class Battleship from North Korea would be useful."

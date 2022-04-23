@@ -300,7 +300,12 @@
 			#set_variable = { cal_deployed_convoy_value = 0 }
 			
 			hidden_effect = {
-				country_event = { id = CAL_GUSTAV.1 days = 5}		
+				country_event = { id = CAL_GUSTAV.1 days = 5}	
+				UTH={load_oob=US_NATGUARD}
+				CRD={load_oob=US_NATGUARD}
+				ARZ={load_oob=US_NATGUARD}
+				NMX={load_oob=US_NATGUARD}
+				country_event = CAL_rocky_guard.1
 			}
 		}
 		
@@ -1477,8 +1482,8 @@
 		}
 	}
 	
-	focus = {
-		id = CAL_birnbaum.3
+	focus = { # Add Utah
+		id = CAL_birnbaum.3 
 		icon = GFX_goal_california
 		x = 2
 		y = 1
@@ -1500,7 +1505,7 @@
 		}
 	}
 	
-	focus = {
+	focus = { # Add Arizona
 		id = CAL_birnbaum.4
 		icon = GFX_goal_california
 		x = -1
@@ -1523,7 +1528,7 @@
 		}
 	}
 	
-	focus = {
+	focus = { # Add Colorado
 		id = CAL_birnbaum.5
 		icon = GFX_goal_california
 		x = -2
@@ -1547,7 +1552,7 @@
 		}
 	}
 	
-	focus = {
+	focus = { # Add New Mexico
 		id = CAL_birnbaum.6
 		icon = GFX_goal_california
 		x = 1
@@ -3925,7 +3930,7 @@
 	focus = {
 		id = CAL_oregon_standoff.0
 		icon = GFX_goal_california
-		x = -5
+		x = 0
 		y = 1
 		relative_position_id = CAL_victory.1
 		prerequisite = { focus = CAL_victory.1 }
@@ -3949,7 +3954,7 @@
 	focus = {
 		id = CAL_oregon_unite.1
 		icon = GFX_goal_california
-		x = -2
+		x = -4
 		y = 1
 		relative_position_id = CAL_oregon_standoff.0
 		prerequisite = { focus = CAL_oregon_standoff.0 }
@@ -4087,7 +4092,7 @@
 	focus = {
 		id = CAL_oregon_war.1
 		icon = GFX_goal_california
-		x = 2
+		x = 4
 		y = 1
 		relative_position_id = CAL_oregon_standoff.0
 		prerequisite = { focus = CAL_oregon_standoff.0 }
@@ -4227,9 +4232,9 @@
 		id = CAL_norton_mind.0
 		icon = GFX_goal_california
 		x = 0
-		y = 1
-		relative_position_id = CAL_victory.1
-		prerequisite = { focus = CAL_victory.1 }
+		y = 2
+		relative_position_id = CAL_oregon_standoff.0
+		prerequisite = { focus = CAL_oregon_standoff.0 }
 		cost = 1
 		
 		available_if_capitulated = yes
@@ -4249,7 +4254,7 @@
 		id = CAL_norton_mind.1
 		icon = GFX_goal_california
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = CAL_norton_mind.0
 		prerequisite = { focus = CAL_norton_mind.0 }
 		cost = 1
@@ -4304,6 +4309,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = { }
+		allow_branch  = {has_country_flag = CAL_LATER_UPDATE_DISABLE_FLAG} ### DISABLE BRANCH FOR LATER USE
 		bypass = {} 
 		
 		completion_reward = {	
@@ -4328,6 +4334,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = { }
+		allow_branch  = {has_country_flag = CAL_LATER_UPDATE_DISABLE_FLAG} ### DISABLE BRANCH FOR LATER USE
 		bypass = {} 
 		
 		completion_reward = {	
@@ -4509,6 +4516,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = { has_global_flag = G_FLAG_MEW_LUDO_VICTORIOUS}
+		allow_branch  = {has_global_flag = G_FLAG_MEW_LUDO_VICTORIOUS}
 		bypass = {} 
 		
 		completion_reward = {	
