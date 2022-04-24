@@ -19,6 +19,11 @@ state={
 		victory_points = { 9554 10 }  #West Sac
 	}
 	
+	resources = {
+		rubber = 11
+		steel = 34
+	}
+	
 	provinces={
 		4973 6343 9486 9487 9514 9515 9554 9569 9573 
 	}

@@ -217,7 +217,7 @@
 		y = 1
 		prerequisite = { focus = emergency_economics_3 }
 		relative_position_id = emergency_economics_3
-
+		available = { has_country_flag = cali_no_aid }
 		
 		cost = 4
 		

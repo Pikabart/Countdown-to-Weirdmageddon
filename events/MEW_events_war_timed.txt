@@ -131,8 +131,7 @@ country_event = {
 	desc = star_tom_start_decision.2.d
 	picture = GFX_report_event_open_mouth_moon
 		
-	trigger = {
-	}
+	is_triggered_only = yes
 	
 	fire_only_once = yes
 	
@@ -242,7 +241,6 @@ country_event = {
 			PIG = { transfer_state = 463 }
 			PIG = { transfer_state = 464 }
 			
-			set_global_flag = G_FLAG_MEW_CURRENT_DAY # This GLOBAL FLAG is for EARTH Nations on Mew Victory
 			MEW = {
 				load_focus_tree = {
 				tree = mewni_focus_after_war

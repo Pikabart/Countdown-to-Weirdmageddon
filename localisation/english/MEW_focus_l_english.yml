@@ -101,13 +101,13 @@ emergency_economics_desc:0 "We must preserve the little corn we have left, and t
 emergency_economics_2:0 "Extend Production Shifts"
 emergency_economics_2_desc:0 "Our previous mandate has offset some of our economic distress, but we are still in a crisis. We must extend extend the work shift to 12 hours to accomadate more corn production."
 
-emergency_economics_3:0 "Import Earth Machinery"
-emergency_economics_3_desc:0 "Our populace is quite overworked, and we are even seeing some minor protests break out. In order to maintain stability, we will import foreign machinery so that we can produce more while not agitating the populace."
+emergency_economics_3:0 "Californian Aid"
+emergency_economics_3_desc:0 "Our populace is quite overworked, and we are even seeing some minor protests break out. In order to maintain stability, we will need interdimensional assitance. The Californians seem to be the best candidate"
 
 #################################################################################################
 
 MEW_reform_economy:0 "Why Corn?"
-MEW_reform_economy_desc:0 "Our emergency measures to preserve what little corn we have left has given rise to a radical new idea: Not relying on a single crop and basing the entire economy off of it. Perhaps this idea has some merit."
+MEW_reform_economy_desc:0 "Our emergency measures to preserve what little corn we have left has given rise to a radical new idea: Not relying on a single crop and basing the entire economy off of it. Perhaps this idea has some merit, and with the interdimensional aid coming in we may actually test this out."
 
 MEW_reform_economy_2:0 "Crop Variation"
 MEW_reform_economy_2_desc:0 "By growing a variety of foods, we can ensure a fall back food if one of our crops are comprimised in the future."

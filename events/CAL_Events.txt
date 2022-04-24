@@ -639,6 +639,7 @@ country_event = {
 		name = CAL_CEF.1.b
 		ai_chance = { factor = 0 }
 		custom_effect_tooltip = CAL_CEF.1.tooltip
+		set_country_flag = cali_no_aid
 	}
 }
 country_event = {

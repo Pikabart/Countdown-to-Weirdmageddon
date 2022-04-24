@@ -19,6 +19,10 @@ state={
 
 	}
 	
+	resources = {
+		aluminium = 36
+	}
+	
 	provinces={
 		3156 4821 6414 6585 6614 8216 
 	}

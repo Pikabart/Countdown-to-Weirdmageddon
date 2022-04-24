@@ -2705,7 +2705,9 @@ technologies = {
 		dependencies = {
 			tech_magic_forces_check = 1
 		}
-		
+		enable_equipments = {
+			magic_equipment_1
+		}
 		enable_subunits = {
 			magic_main
 		}
@@ -2751,7 +2753,6 @@ technologies = {
 		enable_subunits = {
 			magic_support
 		}
-		
 		dependencies = {
 			tech_support = 1
 		}
