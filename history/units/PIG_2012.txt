@@ -40,84 +40,6 @@ division_template = {
 }
 
 units = {
-	
-	##################
-	#Ceremonial Guard#
-	##################
-	
-	
-	division= {
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 8064 # Pigeon Nest
-		division_template = "Ceremonial Guard"
-		# = 0.9
-
-
-	}
-	division= {
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 8064 # Pigeon Nest
-		division_template = "Ceremonial Guard"
-		# = 0.9
-
-
-	}
-	division= {
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 8064 # Pigeon Nest
-		division_template = "Ceremonial Guard"
-		# = 0.9
-
-
-	}	
-	division= {
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 8064 # Pigeon Nest
-		division_template = "Ceremonial Guard"
-		# = 0.9
-
-
-	}
-	
-	division= {
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 8064 # Pigeon Nest
-		division_template = "Ceremonial Guard"
-		# = 0.9
-
-
-	}
-	division= {
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 8064 # Pigeon Nest
-		division_template = "Ceremonial Guard"
-		# = 0.9
-
-
-	}
-	
-	###################
-	#Warnicorn Brigade#
-	###################
-	
 	division= {
 		division_name = {
 				is_name_ordered = yes
@@ -200,38 +122,5 @@ units = {
 		# = 0.001
 
 
-	}
-	
-	division= {
-		division_name = {
-				is_name_ordered = yes
-				name_order = 1
-		}
-		location = 8064 # Pigeon Nest
-		division_template = "Warnicorn Brigade"
-		# = 0.001
-
-
-	}
-
-	####################
-	#Conscript Brigade#
-	####################
-	
-
-	##### No Notable Naval Forces #####
-}
-
-##### No Notable Air Forces #####
-
-instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_0
-			creator = "CUB"
-		}
-		requested_factories = 1
-		progress = 0.54
-		efficiency = 100
 	}
 }

@@ -220,6 +220,7 @@ country_event = {
 	option = {
 		name = MEW_stars_14th_birthday_event.1.a
 		ai_chance = { factor = 90 }
+		set_global_flag = G_FLAG_MEW_CURRENT_DAY # This GLOBAL FLAG is for EARTH Nations on Mew Victory
 		add_ideas = MEW_heir_studying_overdimensions
 		266 = {
 			damage_building = {
@@ -1401,16 +1402,32 @@ country_event = {
 		id = remove_mina.1
 		title = remove_mina.1.t
 		desc = remove_mina.1.d
-		picture = GFX_report_event_broadcast
+		picture = GFX_report_event_mina_formal_angry
 	
 		is_triggered_only = yes
 		
 		option = {
 			name = remove_mina.1.a
 			ai_chance = { factor = 90 }
-			remove_unit_leader = 9
+			MEW_mina_loveberry = {
+				remove_unit_leader_role = yes
+			}
 		}
-}
+	}
+
+	country_event = {
+		id = remove_mina.2
+		title = remove_mina.2.t
+		desc = remove_mina.2.d
+		picture = GFX_report_event_mina_formal_angry
+	
+		is_triggered_only = yes
+		
+		option = {
+			name = remove_mina.2.a
+			ai_chance = { factor = 90 }
+		}
+	}
 
 	country_event = {
 		id = test_civil_war.1

@@ -41,6 +41,8 @@
  support_equipment_desc:0 "Radios, Jeeps, Pontoons & other equipment used to support troops."
  support_equipment_1:0 "Support Equipment"
  support_equipment_1_desc:0 "Radios, Jeeps, Pontoons & other equipment used to support troops."
+ magic_equipment:0 "Magic Equipment"
+ magic_equipment_desc:0 "Concentrated and refined magic water that is essential in enabling magical abilities outside of the realm of magic."
  EQUIPMENT_DESIGNER_DESC:0 "Designed by: $DESIGNER|Y$"
  EQUIPMENT_ARMOR:0 "Armor"
  EQUIPMENT_MOTORIZED:1 "Truck"

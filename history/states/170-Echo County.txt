@@ -21,6 +21,10 @@ state={
 		victory_points = {6704 10}
 	}
 	
+	resources = {
+		steel = 56
+	}
+	
 	provinces={
 		5725 6704 6935 10162 10170 10184 10193 10197 
 	}
