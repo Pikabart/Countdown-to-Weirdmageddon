@@ -1607,7 +1607,7 @@
 	
 	focus = {
 		id = CAL_shermie.0
-		icon = GFX_goal_california
+		icon = GFX_goal_shermie_pines
 		x = -25
 		y = 1
 		relative_position_id = CAL_start.8
@@ -1636,7 +1636,7 @@
 	
 	focus = {
 		id = CAL_shermie.1
-		icon = GFX_goal_california
+		icon = GFX_goal_rally_to_west
 		x = -2
 		y = 1
 		relative_position_id = CAL_shermie.0
@@ -1663,7 +1663,7 @@
 	
 	focus = {
 		id = CAL_shermie.2
-		icon = GFX_goal_california
+		icon = GFX_goal_reopen_navarro
 		x = 2
 		y = 1
 		relative_position_id = CAL_shermie.0

@@ -33,7 +33,7 @@
  
  CAL_start.6:0 "The Long Summer"
  CAL_start.6_desc:0 "I can just tell. This summer is going to be a good summer.\n\n- §CEugene Pines§! -\nBefore sending his kids off to Oregon for the summer"
- CAL_start.6.t:0 ""
+ CAL_start.6.t:0 ""Lame..." - §YMason "Dipper" Pines§!"
  
  CAL_start.7:0 "The April Gubernatorial Election"
  CAL_start.7_desc:0 "Despite the complete subversion of American Democracy, we still intend to go through with the election for a new governor of California. But with the change in the political landscape, the emergence of Trembley and the FPI, and the new return of the “Emperor”, this election is far from certain.\n- §GGovernor Gerald Green§! -"
@@ -218,8 +218,8 @@
  ##################################################################################################################
  #5
  
- CAL_shermie.0:0 "Sherman Filbrick Pines"
- CAL_shermie.0_desc:0 ""The Iron Negotiator. The Butcher of the Levant.\nThe Hero of Mesopotamia.\n Sherman Pines served a long and illustrious career in the US Army, leaving behind an unusual legacy. Now though, the time has come for General Pines to forge a new legacy in the Long Summer."\n- §GGovernor Gerald Green§! -"
+ CAL_shermie.0:0 "The Hero of Mesopotamia"
+ CAL_shermie.0_desc:0 "The Iron Negotiator. The Butcher of the Levant.\nThe Hero of Mesopotamia.\n Sherman Filbrick Pines served a long and illustrious career in the US Army, with a complicated legacy. Now though, the time has come for General Pines to forge a new legacy in the Long Summer."\n- §GGovernor Gerald Green§! -"
  CAL_shermie.0.t:0 "§CSherman "Shermie" Pines§! becomes an available Field Marhsall."
  
  CAL_shermie.1:0 "Rally To The West"
@@ -239,7 +239,7 @@
  CAL_complex.0_desc:0 "As the largest state contractor and with companies in the industry and military fields, we will need to let Northwest of California expand to new heights to meet our new demands as a nation.\n\nWe’ll just have to rein them in at a future time, lest they grow too big."
  CAL_complex.0.t:0 ""
  
- CAL_complex.1:0 "Fuel For The West"
+ CAL_complex.1:0 "Fuel For The West" 
  CAL_complex.1_desc:0 "Our major Energy Spore refineries were already in a good position to meet civilian demands as we maintain a sperate standard of ethanol fuel from the other states. But as we gear up to meet the demands of our own military, we’ll need to quickly expand them to supply California’s new needs."
  CAL_complex.1.t:0 ""
  
@@ -546,7 +546,7 @@
  CAL_butterfly_aid.2.t:0 ""
  
  CAL_butterfly_aid.3:0 "New Farming Methods"
- CAL_butterfly_aid.3_desc:0 ""
+ CAL_butterfly_aid.3_desc:0 "We began shipping in mechanized farming equipment to Mewni. Most of it are outdated equipment from farmers in the Central Valley, we have the added benefit of swapping our farmers with truly modern equipment and giving the Mewmans ones that are still certainly more advance than a horse and a plow."
  CAL_butterfly_aid.3.t:0 ""
  
  CAL_butterfly_aid.4:0 "The New Industrial Revolution"
@@ -554,7 +554,7 @@
  CAL_butterfly_aid.3.t:0 "I'm sure magic can fix thier ozone"
  
  CAL_butterfly_aid.5:0 "Advance Food Destribution"
- CAL_butterfly_aid.5_desc:0 ""
+ CAL_butterfly_aid.5_desc:0 "Most mewmans rely on subsistence farming, meaning there are few in the way of surplus to bring to market and free labor for other task. By ensuring massive surplus and utilizing modern food distribution, we can feed more people and open up a labor pool for other demands."
  CAL_butterfly_aid.5.t:0 ""
  
  CAL_butterfly_aid.6:0 "Center of the Mewni Universe"
@@ -566,12 +566,12 @@
  CAL_butterfly_aid.7.t:0 "§PSocial Media§! is probably why they're a backward feudal society."
  
  CAL_butterfly_aid.8:0 "Heavy Magic Water Extraction"
- CAL_butterfly_aid.8_desc:0 ""
+ CAL_butterfly_aid.8_desc:0 "From refining it into special energy cells, conductor cooling fluid, to just sprinkling it on machines to magically fix this, we need more water! Our current bottleneck is in safely extracting it. Apparently, you do not want to touch this thing. New enviro-suits will keep our engineers from literally losing their minds."
  CAL_butterfly_aid.8.t:0 ""
  
  CAL_butterfly_aid.9:0 "Early Magic Refinement"
  CAL_butterfly_aid.9_desc:0 "According to FPI documents discovered in Area 51, there is a super potent form of magical water that exist in the multiverse. A single drop can power entire cities... or maybe, our own Interdimensional Portals? We can solve the energy crisis and accelerate Project Golden Gate's development.\nWe must figure out how to make this "Titan's Blood"!"
- CAL_butterfly_aid.9.t:0 ""
+ CAL_butterfly_aid.9.t:0 "A small batch will be refined for study and later use."
  
  CAL_butterfly_aid.10:0 "Expand the Trade Port Cities"
  CAL_butterfly_aid.10_desc:0 "The Port Cities are a critical part of the mewman economy. Unlike the interior of the kingdom, there is a feel of vibrant energy and progress in the ports, with even early signs of industrialization and modern economic theory in play. To expand this would only benefit us... and the mewmans as well, why not?\n- §RImperial Secretary of State Lady Carman Everett§! -"

@@ -144,6 +144,23 @@ spriteTypes = {
 	#################
 	
 	SpriteType = {
+	name = "GFX_goal_shermie_pines"
+	texturefile = "gfx/interface/goals/CAL/focus_california_pines.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_rally_to_west"
+	texturefile = "gfx/interface/goals/CAL/focus_california_rally_to_west.dds"		
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_reopen_navarro"
+	texturefile = "gfx/interface/goals/CAL/focus_california_reopen_navarro.dds"		
+	}
+	
+	#################
+	
+	SpriteType = {
 	name = "GFX_goal_california_northwest"
 	texturefile = "gfx/interface/goals/CAL/focus_california_northwest.dds"			
 	}

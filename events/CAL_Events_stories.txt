@@ -1,5 +1,5 @@
 ﻿###########################
-# California story events
+# California story events 
 ###########################
 
 add_namespace = CAL_TWOWORLDS

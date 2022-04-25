@@ -122,35 +122,36 @@
  ######################################################
  ######################################################
 
- CAL_MILITARY.1.t:0 "Recalled to Service"
- CAL_MILITARY.1.d:0 ""
- CAL_MILITARY.1.a:0 ""
+ CAL_MILITARY.1.t:0 "The Call To Service"
+ CAL_MILITARY.1.d:0 "As he carried a cup of tea down the hallway, Sherman “Shermie” Pines looked at the old photos hanging on the wall. He looked on first at the photos of his grandchildren, including a recent image of them with Dipper’s brown cap and Mabel’s shooting star sweater. Next was of his own children, from a summer trip with them to Disneyland Pyeongyang in the 80s to Eugene Pines when he graduated from UC Emeryville to his daughter Emily Pines in her Marines formal Dress after she was promoted to Captain. Finally, he chuckled to himself looking at a poorly timed photo of him socking his brother Stanford Pines as Ford tried to hog the new born twins from him. But he stopped at the last photo on the wall. There laid a photo of him at the docks of Newark before his first deployment, playing around with both of his brothers, Stanford and Stanley Pines. He sighed and walked away.\n\nAs he sat down with his wife Angelica and turned to the TV where an ad of “Norton For Governor” was on, he received a call on his cell phone, which Angelica was playing Candy Smasher on. He took the phone back and answered it."
+ CAL_MILITARY.1.a:0 "“This is Sherman Pines... Governor Green?!” "
+ 
+ CAL_MILITARY.6.t:0 "Recalled to Service"
+ CAL_MILITARY.6.d:0 "“You want me to command the National Guard?”\n\n“Not just them,” said Governor Green in his office in Sacramento, “Several army officers and even the Marines at Fort Pendleton say they’ll stay in California instead of heading East if you assume control. Any hopes to protecting California and restoring the US rest on you returning to service.”\n\nWith Norton only days away from assuming control as the new Governor of California, the outgoing Gerald Green was making sure California was ready with some sane leadership. If war broke out, having Pines fighting for California can bring many military units to side with them and the Hero of Mesopotamia. Likewise, Shermie knew him in control of the military was equally for internal security as any external one.\n\n“I know you called me here over Norton, Governor Green.”\n\n“Norton, yes. But more so, my and soon his Lieutenant Governor, Hector Diaz-Guzman. Have you ever met the man before?” asked Green.\n\n“We talked on the elevator ride up here, actually. He remembered meeting me, right before Nixon pinned a medal on me. Not sure why he was there in the White House. I assumed he was Secret Service. Very young to be one at the time, though.”\n\n“He’s a former, hopefully, agent. I’m not sure which Alphabet Agency and I pulled every connection in Washington before and after the Kerfuffle. With his heavy clout in the South, I’m just as worried about him as this Emperor of ours. But still. We will all need you, General Pines. Do you accept?”\n\nHe thought about it, remembering he will now be facing off against Oregon, where his brother and grandchildren were.\n\n“I hope fighting doesn’t break out. Even in victory, we won’t win.”"
+ CAL_MILITARY.6.a:0 "“With you, who would dare oppose California?”" 
  
  CAL_MILITARY.2.t:0 "To the shores of California"
- CAL_MILITARY.2.d:0 ""
- CAL_MILITARY.2.a:0 ""
+ CAL_MILITARY.2.d:0 "“Stay down and be quiet!” Emily said to her lieutenant and sergeant.\n\n“We been coop up in that container for nearly a week, Major. Have you smelled Adams?”\n\n“If the Pentagon caught your scent, Charlie, they think it’s a chemical attack and nuke us.”\n\nEmily chuckled a bit, “Well, if we can make contact with General Pines, he can bail our asses out. Yours’ a second time Adams.”\n\n“Copy that, Major.”\n\nThe three of them sneaked their way to the gangway on the cargo ship to the docks of San Diego below. As they stepped on dry land, a swarm of vehicles marked “I.B.I.” surrounded them as helicopters flew above head. Agents quickly stepped out and raised their weapons as their commander walked up to them.\n\n“Major Emily Pines. 4th Marine Engineering Battalion, am I correct,” asked Hector Diaz-Guzman.\n\n“That’s correct.” She said, hands raised, “We’re here to fight for California and General Pines!”\n\n“Oh don’t worry,” he waved his agents to stand down, “We caught word of that a few days ago,” Hector chuckled, “That’s some journey. I’d half expect you simply have your marines take control of the ship.”\n\n“My marines are best the Corps has to offer. We're engineers, not pirates. That’s what the Navy’s for.”\n\n“I don’t doubt you, Major. Come with me, your father has been awaiting you all week at Fort Pendleton. Your subordinates can work with my agents to get your men treated,” Hector grabbed something from the van and tossed it to Emily’s XOs, “This should keep them busy.”\n\n“Awesome, crayons!” said Charlie.\n\nEmily looked at Hector with annoyed disbelief."
+ CAL_MILITARY.2.a:0 "“Hey, it worked on CIA agents also...”"
  
  CAL_MILITARY.3.t:0 "The Sierra Army Depot"
- CAL_MILITARY.3.d:0 "tanks!"
- CAL_MILITARY.3.a:0 "NBB"
- CAL_MILITARY.3.b:0 "NO NSB"
+ CAL_MILITARY.3.d:0 "Our engineers report that the tanks at the Sierra Army Depot are in rougher shape then we expected. Some private Northwest contractor engineers with them say they can break down the tanks and figure out how to reverse-engineer the tank parts. We'll have to rebuild them, but we will now have the expertice to actually build and maintain them for future use.\n\nAt the very least, we have plenty of useful small arms and supplies we can take from the depot to supply the main Imperial Army."
+ CAL_MILITARY.3.b:0 "Our engineers report that the tanks at the Sierra Army Depot are in good shape. We can deploy the tanks immediately to service!\n\nA small bit of bad news though. All the surpluss equipment like rifles and rations were apperently all left out in the open during the winter and now are rendered beyond operation or repair. If only Field Marshall Pines was commanding the US Army, this would have never happened! Still, truley it is a feat of Mother Nature and the great Sierra Nevada to destory such robust equipment. Oh well..."
+ CAL_MILITARY.3.a:0 "We shall make do!"
  
  CAL_MILITARY.4.t:0 "What have we learned?"
- CAL_MILITARY.4.d:0 ""
+ CAL_MILITARY.4.d:0 "As helicopters and hummers buzzed about Fort Navarro, Sherman Pines and his staff were busy reviewing old and captured US Military records of performance from the Second World War to the present. The room was full of skilled and experienced theorist working to achieve one thing, determine what was there to learn from all these reports and evaluations.\n\nFor all the victories in the Cold War, there were many notable defeats and learning from both was crucial as far as Pines was concern. As preliminary conclusions were made, three different competing conclusions formed among the officers.\n\nPines read each of their summaries and what should be the main takeaway for California and the United States after half a century of fighting."
  CAL_MILITARY.4.a:0 "Be prepared and always have a plan!"
  CAL_MILITARY.4.b:0 "Strike Fast, Stike Hard, and Keep Striking!"
  CAL_MILITARY.4.c:0 "Rain hell on our enemies and keep on Raining!"
  
  CAL_MILITARY.5.t:0 "Private Security Contracts"
- CAL_MILITARY.5.d:0 ""
- CAL_MILITARY.5.a:0 "Stick with California's favority contractor"
- CAL_MILITARY.5.b:0 "You, know, the best stuff comes from Japan"
+ CAL_MILITARY.5.d:0 "With our main army and personal deployed either at the borders or off-dimension, the state is pressed for security personnel for critical infrastructure and facilities. We do however have access to private contractors we can hire to do the job.\n\nRight now, the two biggest we can choose is Northwest of California’s Mil-Tech, a US favorite, and Imperial Japan’s Arisaka based from Night City. Mil-Tech has plenty of former US soldiers, so integration with our troops is easier. But they take up more resource trains to supply. Arisaka troops are better trained, but our politicians don’t like foreign private mega-corps and they cost more. Likewise, our people hate both and view it highly hypocritical that California of all states would hire them.\n\nNow, we could secretly sign deals with both of them and weaken them both by pitting them against each other. It’s a bit of drain on manpower and makes them both less efficient in their real job. But the people would get a sick kick of mercs aimlessly dying while fighting each other. Thanks Valve. \n\nLast, we could just stretch our lines and keep things directly in our control."
+ CAL_MILITARY.5.a:0 "Mil-Tech: Stick with California's favorite contractor"
+ CAL_MILITARY.5.b:0 "Arisaka: You, know, the best stuff comes from Japan"
  CAL_MILITARY.5.c:0 "Contract both of them (And pit them againts each other!)"
- CAL_MILITARY.5.e:0 "Keep suppression nationalized"
- 
- #CAL_MILITARY.6.t:0 ""
- #CAL_MILITARY.6.d:0 ""
- #CAL_MILITARY.6.a:0 ""
+ CAL_MILITARY.5.e:0 "Keep Suppression Nationalized"
+
  
  CAL_fleet_event.1.t:0 "Trans-Pacific Trade"
  CAL_fleet_event.1.d:0 "Surprisingly, the Pacific Fleet is holding out better than we expected. The fleet has been able to hold off against aggression from China, Japan, India, and Australia. They even successfully integrated with the Canadian Pacific Flotilla after they escaped Canadian Okinawa when the Japanese Imperial Defense Fleet took it back. Still, the situation in Asia is tense and the Admiralty made it clear to General Pines that if the Fleet leaves, our states from Chukotka to South Vietnam will quickly fall to Russian, SEATO, or former Commonwealth forces.\n\nStill, supplies are tight. Besides burning dirty fuel from reactivated refineries from Alaska, the fleet needs food and supplies, which we have. Keeping things unofficial, Admiral Park is willing to “look the other way” and let some ships go AWOL and sail for California. We would in turn send rations and ordinance. Here is a list of what ships the Pacific Fleet “can do without.”"

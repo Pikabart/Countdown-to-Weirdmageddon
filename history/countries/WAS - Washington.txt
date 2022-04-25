@@ -67,7 +67,7 @@ set_popularities = {
 create_country_leader = {
 	name = "Harold Day"
 	desc = "POLITICS_DAY_DESC"
-	picture = "gfx/leaders/EPI/hoi4_portrait_FPI_HOLDER.dds"
+	picture = "gfx/leaders/WAS/Portrait_WAS_Day.dds"
 	ideology = liberalism
 	traits = {
 		#

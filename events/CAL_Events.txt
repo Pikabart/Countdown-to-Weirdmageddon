@@ -232,6 +232,7 @@ country_event = { # Shermie Returns to Service
 
 	option = {
 		name = CAL_MILITARY.1.a
+		country_event = CAL_MILITARY.6
 	}
 }
 country_event = { # Emily's Marines
@@ -285,6 +286,16 @@ country_event = {
 				set_technology = { basic_light_tank_chassis = 1 }
 				set_technology = { basic_medium_tank_chassis = 1 }
 				set_technology = { basic_heavy_tank_chassis = 1 }
+				add_equipment_to_stockpile = {
+					type = mod_infantry_equipment_1
+					amount = 1000
+					producer = CAL
+				}
+				add_equipment_to_stockpile = {
+					type = support_equipment
+					amount = 1000
+					producer = EUS
+				}
 			}
 		}
 		else = {
@@ -292,7 +303,7 @@ country_event = {
 				add_equipment_to_stockpile = {
 					type = modern_tank_equipment_1
 					amount = 100
-					producer = EUS
+					producer = CAL
 				}
 			}
 		}
@@ -353,13 +364,35 @@ country_event = {
 	}
 	option = {
 		name = CAL_MILITARY.5.b	
+		add_ideas = CAL_private_security_b
 	}
 	option = {
 		name = CAL_MILITARY.5.c	
+		add_ideas = CAL_private_security_c
 	}
 	option = {
 		name = CAL_MILITARY.5.e	
+		add_political_power = 100
+		add_stability = 0.05
 	}
+}
+country_event = {
+	id = CAL_MILITARY.6 # Second part to event 1
+	title = CAL_MILITARY.6.t
+	desc = CAL_MILITARY.6.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {}
+
+	option = {
+		name = CAL_MILITARY.6.a	
+		army_experience = 100
+	}
+
 }
 ########################################################################################################
 ########################################################################################################
