@@ -1,0 +1,39 @@
+﻿l_english:
+
+ #For California events in descisions
+ 
+ #1
+ CAL_ROADS.1.t:0 "Only Minor Problems Found!"
+ CAL_ROADS.1.d:0 ""
+ CAL_ROADS.1.a:0 "Let's get to work!"
+ 
+ CAL_ROADS.2.t:0 "Anger over Southern Highway Problems"
+ CAL_ROADS.2.d:0 ""
+ CAL_ROADS.2.a:0 "Never an easy day..."
+ 
+ CAL_ROADS.3.t:0 "Southern Highway Attention is Apperciated"
+ CAL_ROADS.3.d:0 ""
+ CAL_ROADS.3.a:0 "Let's get to work!"
+ 
+ CAL_ROADS.4.t:0 "Everywhere a Pothole!"
+ CAL_ROADS.4.d:0 ""
+ CAL_ROADS.4.a:0 "Never an easy day..."
+ 
+ ###############################################################
+ 
+ CAL_civil_war_events.1.t:0 "The Progressives Rebel!"
+ CAL_civil_war_events.1.d:0 ""
+ CAL_civil_war_events.1.a:0 "Oh No!"
+ 
+ CAL_civil_war_events.2.t:0 "The Traditionalist Rebel!"
+ CAL_civil_war_events.2.d:0 ""
+ CAL_civil_war_events.2.a:0 "Oh No!"
+ 
+ CAL_civil_war_events.3.t:0 "Disaster at the Ball Game"
+ CAL_civil_war_events.3.d:0 ""
+ CAL_civil_war_events.3.a:0 "Oh No!"
+ 
+ CAL_united.1.t:0 "A Pleasent Day at the Ball Game"
+ CAL_united.1.d:0 ""
+ CAL_united.1.a:0 "The American Sport To Unite Us All!"
+ 

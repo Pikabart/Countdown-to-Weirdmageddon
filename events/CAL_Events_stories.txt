@@ -41,7 +41,7 @@ country_event = {  #
 	}
 }
 ##########################################
-country_event = {  # Investigating St James Focus
+country_event = {  # NOT USED IN 0.2.0
 	id = CAL_JANNA.2
 	title = CAL_JANNA.2.t
 	desc = CAL_JANNA.2.d
@@ -56,7 +56,7 @@ country_event = {  # Investigating St James Focus
 	}
 }
 ##############
-country_event = {  # 
+country_event = {  # NOT USED IN 0.2.0
 	id = CAL_JANNA.3
 	title = CAL_JANNA.3.t
 	desc = CAL_JANNA.3.d
@@ -71,7 +71,7 @@ country_event = {  #
 	}
 }
 ##############
-country_event = {  # 
+country_event = {  # NOT USED IN 0.2.0
 	id = CAL_JANNA.4
 	title = CAL_JANNA.4.t
 	desc = CAL_JANNA.4.d
@@ -85,7 +85,7 @@ country_event = {  #
 	}
 }
 ##########################################
-country_event = {  # Contact Old Prtoegee
+country_event = {  # NOT USED IN 0.2.0
 	id = CAL_JANNA.5
 	title = CAL_JANNA.5.t
 	desc = CAL_JANNA.5.d
@@ -100,7 +100,7 @@ country_event = {  # Contact Old Prtoegee
 	}
 }
 ##############
-country_event = {  # 
+country_event = {  # NOT USED IN 0.2.0
 	id = CAL_JANNA.6
 	title = CAL_JANNA.6.t
 	desc = CAL_JANNA.6.d
@@ -239,7 +239,7 @@ country_event = {  # Bakersfieldville ignored
 	id = CAL_GUSTAV.7
 	title = CAL_GUSTAV.7.t
 	desc = CAL_GUSTAV.7.d
-	picture = GFX_report_event_gustav
+	picture = GFX_report_event_bakersfieldville
 	
 	is_triggered_only = yes
 	
@@ -340,7 +340,7 @@ country_event = {  # Bakersfieldville forever ignored
 	option = { 
 		name = CAL_GUSTAV.9.a
 		custom_effect_tooltip = CAL_GUSTAV.9.tt
-		add_political_power = 100
+		add_political_power = 200
 		161 = { 
 			add_core_of = MCA
 			remove_core_of = SOC
