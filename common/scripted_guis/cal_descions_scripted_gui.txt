@@ -6,5 +6,11 @@ scripted_gui = {
 		properties = {}
 	}
 	
+	cal_decision_navy_ui = {
+		context_type = decision_category
+		window_name = "cal_decision_navy_ui_window"
+		properties = {}
+	}
+	
 }
 

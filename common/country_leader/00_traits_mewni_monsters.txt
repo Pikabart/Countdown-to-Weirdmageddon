@@ -103,4 +103,15 @@ leader_traits = {
 		}
 	}
 	
+	master_cook = {
+		random = no
+		sprite = 13
+		stability_factor = 0.05
+		consumer_goods_factor = -0.1
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 }

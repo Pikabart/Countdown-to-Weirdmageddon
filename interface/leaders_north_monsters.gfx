@@ -29,6 +29,15 @@ spriteTypes = {
 	#####
 	#DTH#
 	#####
+	
+	spriteType = {
+		name = "GFX_hoi4_portrait_sustavo"
+		texturefile = "gfx/leaders/DRG/hoi4_portrait_sustavo.dds"
+	}
+	
+	#####
+	#DTH#
+	#####
 	spriteType = {
 		name = "GFX_hoi4_portrait_DTH_initial_leader"
 		texturefile = "gfx/leaders/DTH/hoi4_portrait_DTH_initial_leader.dds"

@@ -36,12 +36,7 @@ MEW_pre_industrial
 }
 
 recruit_character = HGH_principal
-recruit_character = HGH_edgy_character
-recruit_character = HGH_arsty_kid_character
-recruit_character = HGH_sportsy_kid_character
-recruit_character = HGH_reddit_council_character
-recruit_character = HGH_snake_character
-recruit_character = HGH_model_un_character
+
 recruit_character = HGH_generic_monster_advisor_1
 recruit_character = HGH_generic_monster_advisor_2
 recruit_character = HGH_generic_monster_advisor_3

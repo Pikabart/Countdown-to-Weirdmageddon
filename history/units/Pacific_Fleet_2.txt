@@ -1,0 +1,22 @@
+﻿
+units = {
+	
+	#### Navy 1 
+	
+	
+	fleet = {
+        name = "Pacific Fleet Returner" # Name 1
+        naval_base = 5246
+        task_force = {
+            name = "Taskforce 2" # Name 2
+            location = 5246
+            ship = { name = "Ticonderoga Class" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { heavy_cruiser_1 = { amount = 1 owner = EUS version_name = "Ticonderoga Class" } } }	
+			ship = { name = "Ticonderoga Class" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { heavy_cruiser_1 = { amount = 1 owner = EUS version_name = "Ticonderoga Class" } } }	
+        }
+
+	}
+}
+
+##### No Notable Air Forces #####
+
+### Other ###

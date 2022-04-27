@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = { 
 		id = HGH_start
-		icon = GFX_focus_ger_reichskommisariats
+		icon = GFX_goal_focus_prime_principal
 		x = 14
 		y = 1
 		

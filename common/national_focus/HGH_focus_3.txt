@@ -5,8 +5,8 @@ focus_tree = {
 	country = {
 		factor = 0		
 		modifier = {
-			add = 100
-			tag = HGH
+		#	add = 100
+		#	tag = HGH
 		}
 	}
 	
@@ -246,7 +246,7 @@ focus_tree = {
 	}
 	focus = { 
 		id = HGH_proper_administration
-		icon = GFX_focus_ger_reichskommisariats
+		icon = GFX_focus_generic_self_management
 		x = -1
 		y = 1
 		relative_position_id = HGH_school_radio 
@@ -356,11 +356,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 2
-				category = electronics
-			}
+			add_ideas = HGH_nerds
 		}
 		
 		ai_will_do = {

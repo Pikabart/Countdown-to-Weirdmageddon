@@ -1,5 +1,5 @@
 ﻿###########################
-# California stroy events
+# California story events 
 ###########################
 
 add_namespace = CAL_TWOWORLDS
@@ -41,7 +41,7 @@ country_event = {  #
 	}
 }
 ##########################################
-country_event = {  # Investigating St James Focus
+country_event = {  # NOT USED IN 0.2.0
 	id = CAL_JANNA.2
 	title = CAL_JANNA.2.t
 	desc = CAL_JANNA.2.d
@@ -56,7 +56,7 @@ country_event = {  # Investigating St James Focus
 	}
 }
 ##############
-country_event = {  # 
+country_event = {  # NOT USED IN 0.2.0
 	id = CAL_JANNA.3
 	title = CAL_JANNA.3.t
 	desc = CAL_JANNA.3.d
@@ -71,7 +71,7 @@ country_event = {  #
 	}
 }
 ##############
-country_event = {  # 
+country_event = {  # NOT USED IN 0.2.0
 	id = CAL_JANNA.4
 	title = CAL_JANNA.4.t
 	desc = CAL_JANNA.4.d
@@ -85,7 +85,7 @@ country_event = {  #
 	}
 }
 ##########################################
-country_event = {  # Contact Old Prtoegee
+country_event = {  # NOT USED IN 0.2.0
 	id = CAL_JANNA.5
 	title = CAL_JANNA.5.t
 	desc = CAL_JANNA.5.d
@@ -100,7 +100,7 @@ country_event = {  # Contact Old Prtoegee
 	}
 }
 ##############
-country_event = {  # 
+country_event = {  # NOT USED IN 0.2.0
 	id = CAL_JANNA.6
 	title = CAL_JANNA.6.t
 	desc = CAL_JANNA.6.d
@@ -171,13 +171,14 @@ country_event = {  #
 	is_triggered_only = yes
 	
 	option = { 
-		name = CAL_GUSTAV.3.a
+		name = CAL_GUSTAV.3.a # End of story line
 		ai_chance = { factor = 0 }	# 0% AI choose this
+		#country_event = { id = CAL_GUSTAV.7 days = 21}
 	}
 	option = { 
 		name = CAL_GUSTAV.3.b
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = CAL_GUSTAV.4 days = 21}
+		country_event = { id = CAL_GUSTAV.4 days = 7}
 	}
 }
 
@@ -192,7 +193,7 @@ country_event = {  #
 	option = { 
 		name = CAL_GUSTAV.4.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		country_event = { id = CAL_GUSTAV.5 days = 21}
+		country_event = { id = CAL_GUSTAV.5 days = 7}
 	}
 }
 
@@ -207,14 +208,14 @@ country_event = {  #
 	option = { 
 		name = CAL_GUSTAV.5.a  # Calls him out
 		ai_chance = { factor = 90 }	# 100% AI choose this
-		country_event = { id = CAL_GUSTAV.6 days = 21}
-		set_country_flag = cal_gustav_home
+		country_event = { id = CAL_GUSTAV.6 days = 7}
+		set_country_flag = cal_gustav_home # will make BKFV new capitol later on
 	}
 	option = { 
 		name = CAL_GUSTAV.5.b  # Goes with it
 		ai_chance = { factor = 10 }	# 100% AI choose this
-		country_event = { id = CAL_GUSTAV.7 days = 21}
-		set_country_flag = cal_gustav_echo
+		country_event = { id = CAL_GUSTAV.7 days = 7}
+		set_country_flag = cal_gustav_echo # does nothing right now, I think
 	}
 }
 
@@ -229,6 +230,8 @@ country_event = {  # Bakersfieldville known
 	option = { 
 		name = CAL_GUSTAV.6.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_political_power = -100
+		add_stability = 0.05
 	}
 }
 
@@ -236,13 +239,14 @@ country_event = {  # Bakersfieldville ignored
 	id = CAL_GUSTAV.7
 	title = CAL_GUSTAV.7.t
 	desc = CAL_GUSTAV.7.d
-	picture = GFX_report_event_gustav
+	picture = GFX_report_event_bakersfieldville
 	
 	is_triggered_only = yes
 	
 	option = { 
 		name = CAL_GUSTAV.7.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_political_power = 100
 	}
 }
 
@@ -255,7 +259,7 @@ country_event = {  # Bakersfieldville becomes the capital
 	is_triggered_only = yes
 	#immediate = {}
 	
-	option = { 
+	option = {  
 		name = CAL_GUSTAV.8.a
 		custom_effect_tooltip = CAL_GUSTAV.8.tt
 		add_political_power = -200
@@ -336,7 +340,7 @@ country_event = {  # Bakersfieldville forever ignored
 	option = { 
 		name = CAL_GUSTAV.9.a
 		custom_effect_tooltip = CAL_GUSTAV.9.tt
-		add_political_power = 100
+		add_political_power = 200
 		161 = { 
 			add_core_of = MCA
 			remove_core_of = SOC

@@ -13,5 +13,9 @@ spriteTypes = {
 			name = "GFX_leaders_andrew_chiu"
 			texturefile = "gfx/leaders/ORE/Portrait_ORE_Chiu.dds"
 	}	
+	spriteType = {
+			name = "GFX_leaders_parson_northwest"
+			texturefile = "gfx/leaders/ORE/Portrait_ORE_Northwest.dds"
+	}	
 	
 }

@@ -8,7 +8,7 @@ characters = {
 			}
 		}
 		country_leader = {
-			desc = ""
+			desc = "POLITICS_ONYX_DESC"
 			ideology = liberalism
 			expire = "2040.1.1.1"
 			id = -1
@@ -54,20 +54,19 @@ characters = {
 		
 		portraits = {
 			civilian = {
-				large = "GFX_leaders_andrew_chiu"
+				large = "GFX_leaders_parson_northwest"
 			}
 		}
 		
 		field_marshal = {
 			desc = "MILITARY_PARSON_NORTHWEST_DESC"
 			traits = { career_officer commando inspirational_leader }
-			skill = 5
-			
+			skill = 4
 
-			attack_skill = 2
-			defense_skill = 2		
-			planning_skill = 6
-			logistics_skill = 6
+			attack_skill = 3
+			defense_skill = 3		
+			planning_skill = 4
+			logistics_skill = 3
 		}
 		
 	}

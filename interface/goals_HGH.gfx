@@ -1,0 +1,8 @@
+spriteTypes = {	
+	
+	SpriteType = {
+	name = "GFX_goal_focus_prime_principal"
+	texturefile = "gfx/interface/goals/HGH/focus_prime_principal.dds"
+	}
+
+} ### End Bracket

@@ -19,6 +19,11 @@ state={
 		victory_points = { 3304 10 }  #Redding
 	}
 	
+	resources = {
+		aluminium = 36
+		steel = 12
+	}
+	
 	provinces={
 		432 2959 3304 3609 6443 9192 9198 9217 9238 9247 9254 9255 9257 9269 
 	}

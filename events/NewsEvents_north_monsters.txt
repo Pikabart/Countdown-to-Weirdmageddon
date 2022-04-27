@@ -1,0 +1,110 @@
+﻿add_namespace = SWP_MHC_road_collab_news_event
+add_namespace = monster_expansion_news_event
+
+news_event = {
+	id = SWP_MHC_road_collab_news_event.1
+	title = SWP_MHC_road_collab_news_event.1.t
+	desc = {
+		text = SWP_MHC_road_collab_news_event.1.d
+	}
+	
+	picture = GFX_news_event_kingdom_collapse
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = SWP_MHC_road_collab_news_event.1.c
+		trigger = {TAG = MEW}
+		add_stability = -0.03
+	}
+	
+	option = {
+		name = SWP_MHC_road_collab_news_event.2.c
+		trigger = {TAG = SWP}
+		add_stability = 0.03
+	}
+
+	option = {
+		name = SWP_MHC_road_collab_news_event.3.c
+		trigger = {TAG = MHC}
+		add_stability = -0.03
+	}
+	
+	option = {
+		name = SWP_MHC_road_collab_news_event.4.c
+		trigger = {NOT = {TAG = MEW }}
+		trigger = {NOT = {TAG = SWP }}
+		trigger = {NOT = {TAG = MHC }}
+	}
+
+}
+
+news_event = {
+	id = monster_expansion_news_event.1
+	title = monster_expansion_news_event.1.t
+	desc = {
+		text = monster_expansion_news_event.1.d
+	}
+	
+	picture = GFX_news_event_jaggy_collapse
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = monster_expansion_news_event.1.a
+		trigger = { 
+			is_in_faction_with = MEW
+		}
+	}
+	
+	option = {
+		name = monster_expansion_news_event.1.b
+		trigger = {
+			NOT = {
+				is_in_faction_with = MEW
+			}
+		}
+	}
+
+}
+
+news_event = {
+	id = monster_expansion_news_event.2
+	title = monster_expansion_news_event.2.t
+	desc = {
+		text = monster_expansion_news_event.2.d
+	}
+	
+	picture = GFX_news_event_jaggy_collapse
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = monster_expansion_news_event.2.a
+		trigger = { 
+			is_in_faction_with = MEW
+		}
+	}
+	
+	option = {
+		name = monster_expansion_news_event.2.b
+		trigger = {
+			NOT = {
+				is_in_faction_with = MEW
+			}
+		}
+	}
+
+}

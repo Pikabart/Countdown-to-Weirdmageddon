@@ -72,3 +72,4 @@ set_popularities = {
 recruit_character = ORE_amelia_onyx
 recruit_character = ORE_quentin_trembley
 recruit_character = ORE_andrew_chiu
+recruit_character = ORE_parson_northwest

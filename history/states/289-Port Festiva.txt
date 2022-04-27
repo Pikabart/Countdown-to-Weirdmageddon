@@ -30,7 +30,7 @@ state={
 		steel=8
 	}
 	
-	manpower=25000000
+	manpower=230000
 	
 	state_category=metropolis  
 }

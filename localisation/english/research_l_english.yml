@@ -91,7 +91,7 @@
  #########
 
  tech_special_operation:0 "Special Operation Forces"
- tech_special_operation_desc:0 "Special Operation Forces consist of the finest soldiers in any army. Their formations come as a natural need for elite units as the indutrial age begins and warfare becomes more complex."
+ tech_special_operation_desc:0 "Special Operation Forces consist of the finest soldiers in any army. Their formations come as a natural need for elite units as the Industrial Age begins and warfare becomes more complex. (Unlocked once Industrial Advancement is Complete)"
  
  tech_special_operation_1:0 "Special Operation Integration"
  tech_special_operation_1_desc:0 "The officers of our special op forces are often both well trained and skilled in both tactical and strategic deployment. By attaching a small contingent of them with our main forces, our frontline commanders would have both greater firepower and expertise at their disposal. They may also advice regular field commanders to improve our main force's capabilities."
@@ -166,10 +166,10 @@
  
  ##########################################################
  
- tech_magic_forces_check:0 "Condition: Can use Applied Magic"
+ tech_magic_forces_check:0 "Condition: Can research $tech_magic_forces$"
  
- tech_magic_forces:0 "Military Application of Magic"
- tech_magic_forces_desc:0 "Magic's potential as a weapon has made it's military application a common occurence throughout the multiverse, often being developed independently before interdimensional contact. (Unlocked through Event or National Focus)"
+ magic_equipment_1:0 "Magic Equipment"
+ magic_equipment_1_desc:0 "Magic's potential as a weapon has made it's military application a common occurence throughout the multiverse, often being developed independently before interdimensional contact. (Unlocked through Event or National Focus)"
 
  tech_magic_forces_1:0 "Magical Organization"
  tech_magic_forces_1_desc:0 "Magic has the ability to streamline communications through messenger teleportation, and magic can also organize crowds of people by displaying grand flags with moving images. (Support Company)"

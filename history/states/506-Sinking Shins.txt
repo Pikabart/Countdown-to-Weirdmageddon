@@ -1,0 +1,17 @@
+state={
+	id=506
+	name="STATE_506"
+	
+	history={
+		owner = BOI
+		add_core_of = BOI
+	}
+	
+	provinces={
+		725 854 1998 2745 3890 4774 6194 7257 10276 10278 10284 10295 10301 10306 10311 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

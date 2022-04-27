@@ -98,8 +98,8 @@ characters = {
 
 			attack_skill = 2
 			defense_skill = 2		
-			planning_skill = 6
-			logistics_skill = 6
+			planning_skill = 7
+			logistics_skill = 7
 		}	
 	}
 	

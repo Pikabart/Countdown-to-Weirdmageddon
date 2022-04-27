@@ -1,0 +1,28 @@
+﻿division_template = {
+	name = "National Guard"
+	#division_names_group = SPAN_INFB_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+division_template = {
+	name = "Rocky Mountain US Forces"  
+	#division_names_group = SPAN_CAVB_01
+
+	regiments = {
+		special_operation_main = { x = 0 y = 0 }
+		special_operation_main = { x = 0 y = 1 }
+		special_operation_main = { x = 1 y = 0 }
+		special_operation_main = { x = 1 y = 1 }
+	}
+}
+
+instant_effect = {
+	add_manpower = 50000
+}

@@ -1,12 +1,14 @@
-﻿###########################
+###########################
 # Kaiserreich
 ###########################
 
 add_namespace = KAI_change_focus_tree
 add_namespace = KAI_TSR_steal_horse_neighbor
+add_namespace = KAI_junta
+add_namespace = KAI_friends
 
 country_event = {
-	id = KAI_change_focus_tree.1
+	id = KAI_change_focus_tree.1 # focus change when entering pre-uni stage
 	title = KAI_change_focus_tree.1.t
 	desc = KAI_change_focus_tree.1.d
 	picture = GFX_report_event_chinese_soldiers_fighting
@@ -21,12 +23,16 @@ country_event = {
 				tree = KAI_focus_season_one
 				keep_completed = yes
 			}
+			set_variable = {
+				var = kai_military
+				value = 75
+			}
 		}
 	}
 }
 
 country_event = {
-	id = KAI_change_focus_tree.2
+	id = KAI_change_focus_tree.2 # focus change if junta wins
 	title = KAI_change_focus_tree.2.t
 	desc = KAI_change_focus_tree.2.d
 	picture = GFX_report_event_chinese_soldiers_fighting
@@ -45,7 +51,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = KAI_change_focus_tree.3
+	id = KAI_change_focus_tree.3 # focus change if prince wins
 	title = KAI_change_focus_tree.3.t
 	desc = KAI_change_focus_tree.3.d
 	picture = GFX_report_event_chinese_soldiers_fighting
@@ -104,5 +110,1312 @@ country_event = {
 		add_stability = 0.05
 		name = KAI_TSR_steal_horse_neighbor.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = KAI_friends.1 # event about Prince planning with Manfred to bring friends to him
+	title = KAI_friends.1.t
+	desc = KAI_friends.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.1.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = KAI_friends.2 # introduction event for friends
+	title = KAI_friends.2.t
+	desc = KAI_friends.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.2.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			set_variable = {
+				var = kai_karol
+				value = 50 
+			}
+			set_variable = {
+				var = kai_luke
+				value = 50
+			}
+			set_variable = {
+				var = kai_maggie
+				value = 50
+			}
+		}
+	}
+}
+
+country_event = {
+	id = KAI_friends.3 # karol introduction
+	title = KAI_friends.3.t
+	desc = KAI_friends.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.3.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_karol
+				value = 10
+			}
+		}
+		custom_effect_tooltip = kai_karol_12_tt
+	}
+}
+
+country_event = {
+	id = KAI_friends.4 # prince visits the tournament grounds, publicly humiliates self
+	title = KAI_friends.4.t
+	desc = KAI_friends.4.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.4.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		add_ideas = KAI_prince_public_idea_004
+		if = {
+           	limit = { has_idea = prince_state_idea_007 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_007
+                add_idea = prince_state_idea_008
+        	}
+    	}
+    	else_if = {
+           	limit = { has_idea = prince_state_idea_006 }
+          	swap_ideas = { 
+                remove_idea = prince_state_idea_006
+                add_idea = prince_state_idea_007
+            }
+       	}
+    	else_if = {
+           	limit = { has_idea = prince_state_idea_005 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_005
+                add_idea = prince_state_idea_006
+            }
+       	}
+        else_if = {
+           	limit = { has_idea = prince_state_idea_004 }
+          	swap_ideas = { 
+                remove_idea = prince_state_idea_004
+                add_idea = prince_state_idea_005
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_003 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_003
+                add_idea = prince_state_idea_004
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_002 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_002
+                add_idea = prince_state_idea_003
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_001 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_001
+                add_idea = prince_state_idea_002
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_000 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_000
+                add_idea = prince_state_idea_001
+            }
+       	}
+       	else = {
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_101
+                add_idea = prince_state_idea_000
+       		}
+   		}
+	}
+}
+
+country_event = {
+	id = KAI_friends.5 # karol luke and will in the armory
+	title = KAI_friends.5.t
+	desc = KAI_friends.5.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.5.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_karol
+				value = 5
+			}
+			add_to_variable = {
+				var = kai_luke
+				value = 5
+			}
+		}
+		custom_effect_tooltip = kai_karol_11_tt
+		custom_effect_tooltip = kai_luke_11_tt
+	}
+}
+
+country_event = {
+	id = KAI_friends.6 # karol maggie and will in the stables
+	title = KAI_friends.6.t
+	desc = KAI_friends.6.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_karol
+				value = 5
+			}
+			add_to_variable = {
+				var = kai_maggie
+				value = 5
+			}
+		}
+		custom_effect_tooltip = kai_karol_11_tt
+		custom_effect_tooltip = kai_maggie_11_tt
+	}
+}
+
+country_event = {
+	id = KAI_friends.7 # karol and will decide to duel
+	title = KAI_friends.7.t
+	desc = KAI_friends.7.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.7.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = KAI_friends.8
+		swap_ideas = { 
+            remove_idea = KAI_prince_public_idea_004
+            add_idea = KAI_prince_public_idea_003
+    	}
+	}
+}
+
+country_event = {
+	id = KAI_friends.8 # the duel begins
+	title = KAI_friends.8.t
+	desc = KAI_friends.8.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.8.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		if = {
+			limit = { has_country_flag = prince_magic }
+			country_event = KAI_friends.10
+		}
+		else = {
+           	country_event = KAI_friends.9
+   		}
+	}
+}
+
+country_event = {
+	id = KAI_friends.9 # will loses
+	title = KAI_friends.9.t
+	desc = KAI_friends.9.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.9.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		swap_ideas = { 
+            remove_idea = KAI_prince_public_idea_003
+            add_idea = KAI_prince_public_idea_004
+    	}
+		if = {
+           	limit = { has_idea = prince_state_idea_008 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_008
+                add_idea = prince_state_idea_009
+        	}
+    	}
+    	else_if = {
+           	limit = { has_idea = prince_state_idea_007 }
+          	swap_ideas = { 
+                remove_idea = prince_state_idea_007
+                add_idea = prince_state_idea_008
+            }
+       	}
+    	else_if = {
+           	limit = { has_idea = prince_state_idea_006 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_006
+                add_idea = prince_state_idea_007
+            }
+       	}
+        else_if = {
+           	limit = { has_idea = prince_state_idea_005 }
+          	swap_ideas = { 
+                remove_idea = prince_state_idea_005
+                add_idea = prince_state_idea_006
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_004 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_004
+                add_idea = prince_state_idea_005
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_003 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_003
+                add_idea = prince_state_idea_004
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_002 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_002
+                add_idea = prince_state_idea_003
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_001 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_001
+                add_idea = prince_state_idea_002
+            }
+       	}
+       	else = {
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_000
+                add_idea = prince_state_idea_001
+       		}
+   		}
+	}
+}
+
+country_event = {
+	id = KAI_friends.10 # karol gets really hurt
+	title = KAI_friends.10.t
+	desc = KAI_friends.10.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.10.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		country_event = KAI_friends.8
+		set_country_flag = karol_hurt
+		swap_ideas = { 
+            remove_idea = KAI_prince_public_idea_003
+            add_idea = KAI_prince_public_idea_002
+    	}
+    	hidden_effect = {
+			add_to_variable = {
+				var = kai_karol
+				value = -10
+			}
+		}
+		custom_effect_tooltip = kai_karol_02_tt
+	}
+}
+
+country_event = {
+	id = KAI_friends.11 # will is ashamed of his weakness
+	title = KAI_friends.11.t
+	desc = KAI_friends.11.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.11.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = KAI_friends.12 # will confides in karol
+	title = KAI_friends.12.t
+	desc = KAI_friends.12.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.12.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		if = {
+           	limit = { has_idea = prince_state_idea_009 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_009
+                add_idea = prince_state_idea_008
+        	}
+    	}
+    	else_if = {
+           	limit = { has_idea = prince_state_idea_008 }
+          	swap_ideas = { 
+                remove_idea = prince_state_idea_008
+                add_idea = prince_state_idea_007
+            }
+       	}
+    	else_if = {
+           	limit = { has_idea = prince_state_idea_007 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_007
+                add_idea = prince_state_idea_006
+            }
+       	}
+        else_if = {
+           	limit = { has_idea = prince_state_idea_006 }
+          	swap_ideas = { 
+                remove_idea = prince_state_idea_006
+                add_idea = prince_state_idea_005
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_005 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_005
+                add_idea = prince_state_idea_004
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_004 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_004
+                add_idea = prince_state_idea_003
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_003 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_003
+                add_idea = prince_state_idea_002
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_002 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_002
+                add_idea = prince_state_idea_001
+            }
+       	}
+       	else = {
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_001
+                add_idea = prince_state_idea_000
+       		}
+   		}
+	}
+}
+
+country_event = {
+	id = KAI_friends.13 # karol promises to support will
+	title = KAI_friends.13.t
+	desc = KAI_friends.13.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.13.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_karol
+				value = 10
+			}
+		}
+		custom_effect_tooltip = kai_karol_12_tt
+		if = {
+           	limit = { has_idea = prince_state_idea_008 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_008
+                add_idea = prince_state_idea_007
+        	}
+    	}
+    	else_if = {
+           	limit = { has_idea = prince_state_idea_007 }
+          	swap_ideas = { 
+                remove_idea = prince_state_idea_007
+                add_idea = prince_state_idea_006
+            }
+       	}
+    	else_if = {
+           	limit = { has_idea = prince_state_idea_006 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_006
+                add_idea = prince_state_idea_005
+            }
+       	}
+        else_if = {
+           	limit = { has_idea = prince_state_idea_005 }
+          	swap_ideas = { 
+                remove_idea = prince_state_idea_005
+                add_idea = prince_state_idea_004
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_004 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_004
+                add_idea = prince_state_idea_003
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_003 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_003
+                add_idea = prince_state_idea_002
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_002 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_002
+                add_idea = prince_state_idea_001
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_001 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_001
+                add_idea = prince_state_idea_000
+            }
+       	}
+       	else = {
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_000
+                add_idea = prince_state_idea_101
+       		}
+   		}
+	}
+}
+
+country_event = {
+	id = KAI_friends.14 # karol is hospitalized
+	title = KAI_friends.14.t
+	desc = KAI_friends.14.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.14.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = KAI_friends.15 # will helps karol recover
+	title = KAI_friends.15.t
+	desc = KAI_friends.15.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.15.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_karol
+				value = 10
+			}
+		}
+		custom_effect_tooltip = kai_karol_12_tt
+	}
+}
+
+country_event = {
+	id = KAI_friends.16 # karols wings recover
+	title = KAI_friends.16.t
+	desc = KAI_friends.16.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.16.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_karol
+				value = 10
+			}
+		}
+		custom_effect_tooltip = kai_karol_12_tt
+		if = {
+           	limit = { has_idea = prince_state_idea_008 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_008
+                add_idea = prince_state_idea_007
+        	}
+    	}
+    	else_if = {
+           	limit = { has_idea = prince_state_idea_007 }
+          	swap_ideas = { 
+                remove_idea = prince_state_idea_007
+                add_idea = prince_state_idea_006
+            }
+       	}
+    	else_if = {
+           	limit = { has_idea = prince_state_idea_006 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_006
+                add_idea = prince_state_idea_005
+            }
+       	}
+        else_if = {
+           	limit = { has_idea = prince_state_idea_005 }
+          	swap_ideas = { 
+                remove_idea = prince_state_idea_005
+                add_idea = prince_state_idea_004
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_004 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_004
+                add_idea = prince_state_idea_003
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_003 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_003
+                add_idea = prince_state_idea_002
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_002 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_002
+                add_idea = prince_state_idea_001
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_001 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_001
+                add_idea = prince_state_idea_000
+            }
+       	}
+       	else = {
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_000
+                add_idea = prince_state_idea_101
+       		}
+   		}
+	}
+}
+
+country_event = {
+	id = KAI_friends.17 # will flies for the first time
+	title = KAI_friends.17.t
+	desc = KAI_friends.17.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.17.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		if = {
+			limit = { has_country_flag = KAI_prince_public_idea_004 }
+			swap_ideas = { 
+            	remove_idea = KAI_prince_public_idea_004
+            	add_idea = KAI_prince_public_idea_003
+    		}
+		}
+		else = {
+           	swap_ideas = { 
+            	remove_idea = KAI_prince_public_idea_002
+            	add_idea = KAI_prince_public_idea_001
+            }
+    	}
+	}
+}
+
+country_event = {
+	id = KAI_friends.18 # lukas introduction
+	title = KAI_friends.18.t
+	desc = KAI_friends.18.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.18.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_luke
+				value = 15
+			}
+		}
+		custom_effect_tooltip = kai_luke_13_tt
+	}
+}
+
+country_event = {
+	id = KAI_friends.19 # lukas and will explore the throneroom
+	title = KAI_friends.19.t
+	desc = KAI_friends.19.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.19.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_karol
+				value = -5
+			}
+			add_to_variable = {
+				var = kai_luke
+				value = -5
+			}
+			add_to_variable = {
+				var = kai_maggie
+				value = -5
+			}
+			add_to_variable = {
+				var = kai_military
+				value = -5
+			}
+		}
+		custom_effect_tooltip = kai_karol_01_tt
+		custom_effect_tooltip = kai_luke_01_tt
+		custom_effect_tooltip = kai_maggie_01_tt
+		custom_effect_tooltip = kai_military_01_tt
+	}
+}
+
+country_event = {
+	id = KAI_friends.20 # will holds court for the first time
+	title = KAI_friends.20.t
+	desc = KAI_friends.20.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.20.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_military
+				value = -5
+			}
+		}
+		custom_effect_tooltip = kai_military_01_tt
+		if = {
+        	limit = { has_idea = prince_state_idea_004 }
+           	swap_ideas = { 
+       	    	remove_idea = prince_state_idea_004
+              	add_idea = prince_state_idea_005
+       		}
+   		}
+   		else_if = {
+       		limit = { has_idea = prince_state_idea_003 }
+       		swap_ideas = { 
+          	    remove_idea = prince_state_idea_003
+           	    add_idea = prince_state_idea_004
+           	}
+   		}
+    	else_if = {
+        	limit = { has_idea = prince_state_idea_002 }
+       		swap_ideas = { 
+          	    remove_idea = prince_state_idea_002
+           	    add_idea = prince_state_idea_003
+           	}
+   		}
+      	else_if = {
+       	   	limit = { has_idea = prince_state_idea_001 }
+       	  	swap_ideas = { 
+       	        remove_idea = prince_state_idea_001
+       	        add_idea = prince_state_idea_002
+           	}
+   		}
+   		else_if = {
+      	   	limit = { has_idea = prince_state_idea_000 }
+       	   	swap_ideas = { 
+       	        remove_idea = prince_state_idea_000
+       	        add_idea = prince_state_idea_001
+       	    }
+   		}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_101 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_101
+                add_idea = prince_state_idea_000
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_102 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_102
+           	    add_idea = prince_state_idea_101
+           	}
+   		}
+       	else_if = {
+          	limit = { has_idea = prince_state_idea_103 }
+       		swap_ideas = { 
+           	    remove_idea = prince_state_idea_103
+           	    add_idea = prince_state_idea_102
+           	}
+   		}
+   		else = {
+       	   	swap_ideas = { 
+       	        remove_idea = prince_state_idea_104
+       	        add_idea = prince_state_idea_103
+  			}
+   		}
+	}
+}
+
+country_event = {
+	id = KAI_friends.21 # will has a panic attack
+	title = KAI_friends.21.t
+	desc = KAI_friends.21.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.21.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		if = {
+        	limit = { has_idea = prince_state_idea_007 }
+           	swap_ideas = { 
+       	    	remove_idea = prince_state_idea_007
+              	add_idea = prince_state_idea_009
+       		}
+   		}
+   		else_if = {
+       		limit = { has_idea = prince_state_idea_006 }
+       		swap_ideas = { 
+          	    remove_idea = prince_state_idea_006
+           	    add_idea = prince_state_idea_008
+           	}
+   		}
+    	else_if = {
+        	limit = { has_idea = prince_state_idea_005 }
+       		swap_ideas = { 
+          	    remove_idea = prince_state_idea_005
+           	    add_idea = prince_state_idea_007
+           	}
+   		}
+      	else_if = {
+       	   	limit = { has_idea = prince_state_idea_004 }
+       	  	swap_ideas = { 
+       	        remove_idea = prince_state_idea_004
+       	        add_idea = prince_state_idea_006
+           	}
+   		}
+   		else_if = {
+      	   	limit = { has_idea = prince_state_idea_003 }
+       	   	swap_ideas = { 
+       	        remove_idea = prince_state_idea_003
+       	        add_idea = prince_state_idea_005
+       	    }
+   		}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_002 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_002
+                add_idea = prince_state_idea_004
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_001 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_001
+           	    add_idea = prince_state_idea_003
+           	}
+   		}
+       	else_if = {
+          	limit = { has_idea = prince_state_idea_000 }
+       		swap_ideas = { 
+           	    remove_idea = prince_state_idea_000
+           	    add_idea = prince_state_idea_002
+           	}
+   		}
+   		else = {
+       	   	swap_ideas = { 
+       	        remove_idea = prince_state_idea_101
+       	        add_idea = prince_state_idea_001
+  			}
+   		}
+	}
+}
+
+country_event = {
+	id = KAI_friends.22 # luke is a good friend
+	title = KAI_friends.22.t
+	desc = KAI_friends.22.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.22.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_luke
+				value = 10
+			}
+		}
+		custom_effect_tooltip = kai_luke_12_tt
+		if = {
+        	limit = { has_idea = prince_state_idea_009 }
+           	swap_ideas = { 
+       	    	remove_idea = prince_state_idea_009
+              	add_idea = prince_state_idea_008
+       		}
+   		}
+   		else_if = {
+       		limit = { has_idea = prince_state_idea_008 }
+       		swap_ideas = { 
+          	    remove_idea = prince_state_idea_008
+           	    add_idea = prince_state_idea_007
+           	}
+   		}
+    	else_if = {
+        	limit = { has_idea = prince_state_idea_007 }
+       		swap_ideas = { 
+          	    remove_idea = prince_state_idea_007
+           	    add_idea = prince_state_idea_006
+           	}
+   		}
+      	else_if = {
+       	   	limit = { has_idea = prince_state_idea_006 }
+       	  	swap_ideas = { 
+       	        remove_idea = prince_state_idea_006
+       	        add_idea = prince_state_idea_005
+           	}
+   		}
+   		else_if = {
+      	   	limit = { has_idea = prince_state_idea_005 }
+       	   	swap_ideas = { 
+       	        remove_idea = prince_state_idea_005
+       	        add_idea = prince_state_idea_004
+       	    }
+   		}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_004 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_004
+                add_idea = prince_state_idea_003
+            }
+       	}
+       	else_if = {
+           	limit = { has_idea = prince_state_idea_003 }
+           	swap_ideas = { 
+                remove_idea = prince_state_idea_003
+           	    add_idea = prince_state_idea_002
+           	}
+   		}
+       	else_if = {
+          	limit = { has_idea = prince_state_idea_002 }
+       		swap_ideas = { 
+           	    remove_idea = prince_state_idea_002
+           	    add_idea = prince_state_idea_001
+           	}
+   		}
+   		else = {
+       	   	swap_ideas = { 
+       	        remove_idea = prince_state_idea_001
+       	        add_idea = prince_state_idea_000
+  			}
+   		}
+	}
+}
+
+country_event = {
+	id = KAI_friends.23 # lukas support will in the budget meeting with cleverness
+	title = KAI_friends.23.t
+	desc = KAI_friends.23.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.23.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_luke
+				value = 20
+			}
+		}
+		custom_effect_tooltip = kai_luke_14_tt
+	}
+}
+
+country_event = {
+	id = KAI_friends.24 # lukas brings karol and maggie to make plans to support will
+	title = KAI_friends.24.t
+	desc = KAI_friends.24.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.24.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_karol
+				value = 10
+			}
+			add_to_variable = {
+				var = kai_luke
+				value = 10
+			}
+			add_to_variable = {
+				var = kai_maggie
+				value = 10
+			}
+		}
+		custom_effect_tooltip = kai_karol_12_tt
+		custom_effect_tooltip = kai_luke_12_tt
+		custom_effect_tooltip = kai_maggie_12_tt
+		if = {
+        	limit = { has_idea = prince_state_idea_007 }
+          	swap_ideas = { 
+      	    	remove_idea = prince_state_idea_007
+               	add_idea = prince_state_idea_005
+        	}
+    	}
+    	else_if = {
+          	limit = { has_idea = prince_state_idea_006 }
+       		swap_ideas = { 
+          	    remove_idea = prince_state_idea_006
+           	    add_idea = prince_state_idea_005
+           	}
+   		}
+    	else_if = {
+       		limit = { has_idea = prince_state_idea_005 }
+       		swap_ideas = { 
+           	    remove_idea = prince_state_idea_005
+           	    add_idea = prince_state_idea_003
+           	}
+       	}
+       	else_if = {
+       	   	limit = { has_idea = prince_state_idea_004 }
+       	  	swap_ideas = { 
+       	        remove_idea = prince_state_idea_004
+       	        add_idea = prince_state_idea_002
+           	}
+       	}
+       	else_if = {
+       	   	limit = { has_idea = prince_state_idea_003 }
+       	   	swap_ideas = { 
+       	        remove_idea = prince_state_idea_003
+       	        add_idea = prince_state_idea_001
+       	    }
+       	}
+       	else_if = {
+       	   	limit = { has_idea = prince_state_idea_002 }
+       	   	swap_ideas = { 
+       	        remove_idea = prince_state_idea_002
+       	        add_idea = prince_state_idea_000
+       	    }
+        }
+       	else_if = {
+       	   	limit = { has_idea = prince_state_idea_001 }
+       	   	swap_ideas = { 
+       	        remove_idea = prince_state_idea_001
+           	    add_idea = prince_state_idea_101
+           	}
+     	}
+      	else_if = {
+       		limit = { has_idea = prince_state_idea_000 }
+       		swap_ideas = { 
+          	    remove_idea = prince_state_idea_000
+           	    add_idea = prince_state_idea_102
+           	}
+   		}
+       	else = {
+       	   	swap_ideas = { 
+       	        remove_idea = prince_state_idea_101
+       	        add_idea = prince_state_idea_103
+       		}
+   		}
+	}
+}
+
+country_event = {
+	id = KAI_friends.25 # maggie introduction
+	title = KAI_friends.25.t
+	desc = KAI_friends.25.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.25.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_maggie
+				value = 10
+			}
+		}
+		custom_effect_tooltip = kai_maggie_12_tt
+	}
+}
+
+country_event = {
+	id = KAI_friends.26 # maggie introduction
+	title = KAI_friends.26.t
+	desc = KAI_friends.26.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.26.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_military
+				value = 5
+			}
+		}
+		custom_effect_tooltip = kai_military_11_tt
+		add_ideas = KAI_personal_studies_idea_1
+	}
+}
+
+country_event = {
+	id = KAI_friends.27 # maggie luke and will in the planetarium
+	title = KAI_friends.27.t
+	desc = KAI_friends.27.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.27.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_maggie
+				value = 5
+			}
+			add_to_variable = {
+				var = kai_luke
+				value = 5
+			}
+		}
+		custom_effect_tooltip = kai_maggie_11_tt
+		custom_effect_tooltip = kai_luke_11_tt
+	}
+}
+
+country_event = {
+	id = KAI_friends.28 # maggie karol and will play warhammer
+	title = KAI_friends.28.t
+	desc = KAI_friends.28.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.28.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_maggie
+				value = 5
+			}
+			add_to_variable = {
+				var = kai_karol
+				value = 5
+			}
+		}
+		custom_effect_tooltip = kai_maggie_11_tt
+		custom_effect_tooltip = kai_karol_11_tt
+	}
+}
+
+country_event = {
+	id = KAI_friends.29 # maggie finds a secret tome of witchcraft
+	title = KAI_friends.29.t
+	desc = KAI_friends.29.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.29.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {
+	id = KAI_friends.30 # lightning in a bottle, maggie casts a spell
+	title = KAI_friends.30.t
+	desc = KAI_friends.30.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.30.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_military
+				value = -5
+			}
+		}
+		custom_effect_tooltip = kai_military_01_tt
+		swap_ideas = { 
+            	remove_idea = KAI_personal_studies_idea_1
+            	add_idea = KAI_personal_studies_idea_2
+    		}
+ 			if = {
+        	   	limit = { has_idea = prince_state_idea_008 }
+           		swap_ideas = { 
+           	    	remove_idea = prince_state_idea_008
+                	add_idea = prince_state_idea_007
+        		}
+    		}
+    		else_if = {
+           		limit = { has_idea = prince_state_idea_007 }
+          		swap_ideas = { 
+            	    remove_idea = prince_state_idea_007
+            	    add_idea = prince_state_idea_006
+            	}
+       		}
+    		else_if = {
+           		limit = { has_idea = prince_state_idea_006 }
+           		swap_ideas = { 
+            	    remove_idea = prince_state_idea_006
+            	    add_idea = prince_state_idea_005
+            	}
+       		}
+        	else_if = {
+        	   	limit = { has_idea = prince_state_idea_005 }
+        	  	swap_ideas = { 
+        	        remove_idea = prince_state_idea_005
+        	        add_idea = prince_state_idea_004
+            	}
+       		}
+       		else_if = {
+        	   	limit = { has_idea = prince_state_idea_004 }
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_004
+        	        add_idea = prince_state_idea_003
+        	    }
+       		}
+       		else_if = {
+        	   	limit = { has_idea = prince_state_idea_003 }
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_003
+        	        add_idea = prince_state_idea_002
+        	    }
+       		}
+       		else_if = {
+        	   	limit = { has_idea = prince_state_idea_002 }
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_002
+            	    add_idea = prince_state_idea_001
+            	}
+       		}
+       		else_if = {
+           		limit = { has_idea = prince_state_idea_001 }
+           		swap_ideas = { 
+            	    remove_idea = prince_state_idea_001
+            	    add_idea = prince_state_idea_000
+            	}
+       		}
+       		else = {
+        	   	swap_ideas = { 
+        	        remove_idea = prince_state_idea_000
+        	        add_idea = prince_state_idea_101
+       			}
+   			}
+	}
+}
+
+country_event = {
+	id = KAI_friends.31 # magic fun times
+	title = KAI_friends.31.t
+	desc = KAI_friends.31.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.31.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		hidden_effect = {
+			add_to_variable = {
+				var = kai_maggie
+				value = 10
+			}
+		}
+		custom_effect_tooltip = kai_maggie_12_tt
+	}
+}
+
+country_event = {
+	id = KAI_friends.32 # horizons edge, Möller finds the study
+	title = KAI_friends.32.t
+	desc = KAI_friends.32.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = KAI_friends.32.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+		swap_ideas = { 
+            remove_idea = KAI_eldritch_studies_idea
+            add_idea = KAI_personal_studies_idea_2
+    	}
+    	add_political_power = -100
+		custom_effect_tooltip = kai_maggie_12_tt
 	}
 }

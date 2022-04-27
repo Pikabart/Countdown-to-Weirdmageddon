@@ -4,7 +4,7 @@ state={
 	local_supplies=0.0 
 	
 	history {
-		owner = OST
+		owner = PIG
 		add_core_of = OST
 		add_core_of = PIG
 		buildings = {
@@ -26,7 +26,7 @@ state={
 		1202 2520 3012 3370 3883 4223 4326 4941 5505 6419 6779 7019 7983 8184 8256 8272 8314 
 	}
 	
-	manpower=5000
+	manpower=15000
 	
 	state_category=town
 }

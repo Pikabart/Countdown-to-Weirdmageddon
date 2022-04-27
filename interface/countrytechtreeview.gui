@@ -452,7 +452,7 @@ guiTypes = {
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
-					text = "SUPPORT_TITLE_TRAINS"
+					text = "Roadways"
 					maxWidth = 600
 					maxHeight = 62
 					format = left

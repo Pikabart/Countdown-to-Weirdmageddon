@@ -8,7 +8,7 @@ ideas = {
 		DTH_unenthusiastic = {
 			picture =
 			
-			allowed = {original_tag = MEW}
+			allowed = {original_tag = DTH}
 			available = {}
 			cancel = {
 				#when at war

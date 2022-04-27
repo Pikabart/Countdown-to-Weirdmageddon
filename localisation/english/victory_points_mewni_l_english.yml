@@ -26,13 +26,11 @@
  VICTORY_POINTS_8324:0 "Corn Canning Center"
  VICTORY_POINTS_2814:0 "Eastern Collection Center"
  VICTORY_POINTS_8296:0 "Inner Collection Center"
- VICTORY_POINTS_5729:0 "Wandering Coast"
- VICTORY_POINTS_5317:0 "Wandering Outpost"
- VICTORY_POINTS_2882:0 "Forest Center"
+ VICTORY_POINTS_5729:0 "Monster Temple"
+ VICTORY_POINTS_5317:0 "Monster-Mewman Outpost"
+ VICTORY_POINTS_2882:0 "Monster's Ghetto Center"
  VICTORY_POINTS_217:0 "Jaggy Embassy"
  VICTORY_POINTS_2570:0 "Waterway Purification Center"
- 
- VICTORY_POINTS_2616:0 "Monster Temple" 
  
  #Jaggy Kingdom VPs
  VICTORY_POINTS_7487:0 "Jaggi-vostok"

@@ -15,9 +15,11 @@ state={
 			air_base = 0
 			anti_air_building = 0
 			radar_station = 0
-
+			
+			10435 = {naval_base = 2}
 		}
-
+		
+		victory_points = { 10435 30 }
 	}
 
 	provinces={

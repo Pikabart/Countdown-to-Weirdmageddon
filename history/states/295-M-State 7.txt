@@ -1,7 +1,7 @@
+
 state={
 	id=295
 	name="STATE_295"
-	local_supplies=0.0 
 	
 	history {
 		owner = OST
@@ -19,10 +19,10 @@ state={
 	}
 	
 	provinces={
-		1317 2340 2804 3189 3689 3982 4141 4239 4420 4512 6267 6841 8259 
+		2340 2804 3189 3689 3982 4141 4239 4420 4512 6267 6841 8259 
 	}
-	
-	manpower=3000000
-	
+	manpower=3000
+	buildings_max_level_factor=1.000
 	state_category=town
+	local_supplies=0.000
 }

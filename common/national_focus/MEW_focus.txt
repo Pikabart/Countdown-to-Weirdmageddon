@@ -4,8 +4,8 @@ focus_tree = {
 	country = {
 		factor = 0
 		modifier = {
-			add = 10
-			tag = MEW
+		#	add = 10
+		#	tag = MEW
 		}
 	}
 	
@@ -440,12 +440,23 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-		declare_war_on = {
-			target = OST
-			type = annex_everything
-		}
-		remove_ideas = OST_hostile_mewman_trade_mew
-		
+			declare_war_on = {
+				target = OST
+				type = annex_everything
+			}
+			remove_ideas = OST_hostile_mewman_trade_mew
+			every_country = {
+				limit = {
+					is_in_array = {
+						array = GLOBAL.mewni_dimension_countries
+						value = THIS.id
+					}
+				}
+				news_event = {
+					id = mewni_pigeon_war_start_news_event.1
+					days = 1
+				}
+			}
 		}
 	}
 	

@@ -1,0 +1,127 @@
+﻿###########################
+# California road decisions EVENTS
+########################### 
+
+add_namespace = CAL_fleet_event
+
+
+########################################################################################################
+
+country_event = {
+	id = CAL_fleet_event.1
+	title = CAL_fleet_event.1.t
+	desc = CAL_fleet_event.1.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {
+		
+	}
+
+	option = {
+		name = CAL_fleet_event.1.a
+		add_political_power = -20
+		add_equipment_to_stockpile = { type = convoy_1 amount = -10 }
+		add_equipment_to_stockpile = { type = support_equipment amount = -50 }
+		add_equipment_to_stockpile = { type = mod_infantry_equipment_1 amount = -50 }
+		if = {
+			limit = { has_dlc = "Man the Guns" }  
+			CAL = {	
+				load_oob = Pacific_MTG_Fleet_1
+			}
+		}
+		else = {
+			CAL = {	
+				load_oob = Pacific_Fleet_1
+			}
+		}
+	}
+	option = {
+		name = CAL_fleet_event.1.b
+		add_political_power = -50
+		add_equipment_to_stockpile = { type = convoy_1 amount = -20 }
+		add_equipment_to_stockpile = { type = support_equipment amount = -100 }
+		add_equipment_to_stockpile = { type = mod_infantry_equipment_1 amount = -100 }
+		if = {
+			limit = { has_dlc = "Man the Guns" }  
+			CAL = {	
+				load_oob = Pacific_MTG_Fleet_2
+			}
+		}
+		else = {
+			CAL = {	
+				load_oob = Pacific_Fleet_2
+			}
+		}
+	}
+	option = {
+		name = CAL_fleet_event.1.c
+		add_political_power = -100
+		add_equipment_to_stockpile = { type = convoy_1 amount = -50 }
+		add_equipment_to_stockpile = { type = support_equipment amount = -200 }
+		add_equipment_to_stockpile = { type = mod_infantry_equipment_1 amount = -200 }
+		if = {
+			limit = { has_dlc = "Man the Guns" }  
+			CAL = {	
+				load_oob = Pacific_MTG_Fleet_3
+			}
+		}
+		else = {
+			CAL = {	
+				load_oob = Pacific_Fleet_3
+			}
+		}
+	}
+	option = {
+		name = CAL_fleet_event.1.e
+		country_event = CAL_fleet_event.2
+	}
+}
+
+country_event = {
+	id = CAL_fleet_event.2
+	title = CAL_fleet_event.2.t
+	desc = CAL_fleet_event.2.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = { 
+		
+	}
+
+	option = {
+		name = CAL_fleet_event.2.a
+		add_political_power = -200
+		add_stability = 0.05
+		add_war_support = 0.05
+		add_equipment_to_stockpile = { type = convoy_1 amount = -100 }
+		add_equipment_to_stockpile = { type = support_equipment amount = -1000 }
+		add_equipment_to_stockpile = { type = mod_infantry_equipment_1 amount = -1000 }
+		add_fuel = -5000
+		if = {
+			limit = { has_dlc = "Man the Guns" }  
+			CAL = {	
+				load_oob = Pacific_MTG_Fleet_5
+			}
+		}
+		else = {
+			CAL = {	
+				load_oob = Pacific_Fleet_5
+			}
+		}
+	}
+	option = {
+		name = CAL_fleet_event.2.b
+		country_event = CAL_fleet_event.1
+	}
+}
+
+
+
+

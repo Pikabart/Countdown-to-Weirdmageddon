@@ -3,10 +3,10 @@ focus_tree = {
 	id = SWP_focus
 	
 	country = {
-		factor = 0		
+		factor = 0
 		modifier = {
-		#	add = 100
-		#	tag = SWP
+			add = 100
+			tag = SWP
 		}
 	}
 	

@@ -5,7 +5,7 @@
 #######
 
 mewni_startup.1.t:0 "Welcome to Countdown to Weirdmaggedon: [Root.GetName]!"
-mewni_startup.1.d:0 "Welcome to our mod, we hope you enjoy!\n\n§RIMPORTANT NOTES:§! You will get a thank you event once you've reached the end of the mod's current content. Events and scripted peaces about the end of wars will take a maximum of one months after the war to show up. Scripted peace is a possibility, but it is not game-ending if you get a manual peace confrence. Just annex everything."
+mewni_startup.1.d:0 "Welcome to our mod, we hope you enjoy!\n\n§RIMPORTANT NOTES:§! You will get a thank you event once you've reached the end of the mod's current content. Manpower has been reworked, you need less than you do in vanilla. Roads (Railroads in vanilla) and Supply wagons (the first train) are researchable in the support tab, you should probably research those ASAP to actually have supply."
 mewni_startup.1.a:0 "Alright, time to play!"
 
 mewni_solaria.1.t:0 "The Legacy of Queen Solaria"
@@ -14,9 +14,9 @@ mewni_solaria.1.a:0 "Rest in peace, Monster Carver"
 legacy_of_solaria_tooltip:0 "Gain 3 §YSolarian Ceremonial Guard§! divisions"
 
 
-mewni_300_peace.1.t:0 "300 Years of Peace"
-mewni_300_peace.1.d:0 "Mewni has enjoyed three hundred years of peace. There is no doubt of what was accomplished during that time. But it was not an era of "happily ever after." The whole dimension is entering a new era, political alliances are now being tested and strained. The old social order facing challenges from rapidly evolving foes. The economy has stagnated due to minimal reform, the entire economy relying on exporting the corn crop. Even the monsters, who were so utterly crushed three centuries ago, are now starting to recover.\n\n And there is of course, the odd radical and revolutionary here and there. Spewing foreign doctrines of "Freedom" and "Democracy." But they are few and far between."
-mewni_300_peace.1.a:0 "As the Earth saying goes, "We live in interesting times.""
+mewni_300_peace.1.t:0 "300 Years of Domination"
+mewni_300_peace.1.d:0 "Mewni has enjoyed three hundred years of domination after Solaria's generation set it up. There is no doubt of what was accomplished during that time. But it was not an era of "happily ever after." The whole dimension is entering a new era, political alliances are now being tested and strained. The old social order facing challenges from rapidly evolving foes. The economy has stagnated due to minimal reform, the entire economy relying on exporting the corn crop. Even the monsters, who were so utterly crushed three centuries ago, are now starting to recover.\n\n And there is of course, the odd radical and revolutionary here and there. Spewing foreign doctrines of "Freedom" and "Democracy." But they are few and far between."
+mewni_300_peace.1.a:0 "We live in interesting times."
 
 butterfly_family.1.t:0 "House Butterfly"
 butterfly_family.1.d:0 "The Butterfly family has ruled most of Mewni since the great Queen Solaria led the glorious fight against the monsters and secured Mewnipendance. Having secured the Mewman’s goal of "Life, Safety, and Corn" the monarchy under House Butterfly has led their kingdom, and by extension most of the Mewman race, through the golden age of Mewman peace. But not all is easy, as in the recent years the reluctance to reform has begun to show it's concequences.\n\nThe Queen Comet Crisis, which had the current Queen Butterfly rise to the throne after her mother was slain by the Monster Toffee, almost had Mewni be plunged into war once again. However, Queen Moon protected her people and prevented the crisis from starting total war. And as a new era dawns on the Mewman dimension, everyone looks to Moon and the Butterfly family for guidance."

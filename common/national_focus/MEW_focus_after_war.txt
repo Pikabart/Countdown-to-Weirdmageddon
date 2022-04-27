@@ -22,7 +22,7 @@
 		icon = GFX_goal_focus_star_butterfly
 		x = 10
 		y = 0	
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 1
 		
@@ -45,13 +45,9 @@
 		y = 1
 		relative_position_id = star_14_birthday
 		prerequisite = { focus = star_14_birthday }
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 1
-		
-		mutually_exclusive = {
-			focus = ludo_path
-		}
 		
 		available_if_capitulated = yes
 
@@ -61,29 +57,6 @@
 		}
 	}
 
-	focus = {
-		id = ludo_path
-		icon = GFX_goal_generic_allies_build_infantry
-		x = -5
-		y = 1
-		relative_position_id = star_14_birthday
-		prerequisite = { focus = star_14_birthday }		
-		search_filters = {  FOCUS_FILTER_RESEARCH }
-		available = { has_global_flag = ai_block }
-
-		cost = 2
-		
-		mutually_exclusive = {
-			focus = corn_report
-		}
-		
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = corn_theft_ludo.1
-		}
-	}
-	
 	##########################################################
 	
 	focus = {
@@ -93,7 +66,7 @@
 		y = 2		
 		prerequisite = { focus = emergency_economics }
 		relative_position_id = emergency_economics_3
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 4
 		
@@ -113,7 +86,7 @@
 		y = 2
 		prerequisite = { focus = emergency_economics }
 		relative_position_id = emergency_economics_3
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 4
 		
@@ -135,7 +108,7 @@
 		prerequisite = { focus = exterminators }
 		prerequisite = { focus = hunt_rat }
 		relative_position_id = exterminators
-		search_filters = {  FOCUS_FILTER_RESEARCH }		
+		
 		
 		cost = 4
 		
@@ -154,7 +127,7 @@
 		y = 1
 		prerequisite = { focus = utilize_army }
 		relative_position_id = utilize_army
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 4
 		
@@ -175,7 +148,7 @@
 		y = 1	
 		prerequisite = { focus = corn_report }
 		relative_position_id = corn_report
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 			
 		cost = 4
 		
@@ -193,7 +166,7 @@
 		y = 1
 		prerequisite = { focus = emergency_economics }
 		relative_position_id = emergency_economics
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 4
 		
@@ -218,11 +191,12 @@
 		relative_position_id = emergency_economics_2
 		
 		cost = 4
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		available_if_capitulated = yes
 
 		completion_reward = {
+			CAL = { country_event = CAL_CEF.0 }
 			swap_ideas = { 
 				remove_idea = MEW_emergency_economics_2
 				add_idea = MEW_emergency_economics_3_display
@@ -243,7 +217,7 @@
 		y = 1
 		prerequisite = { focus = emergency_economics_3 }
 		relative_position_id = emergency_economics_3
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+		available = { has_country_flag = cali_no_aid }
 		
 		cost = 4
 		
@@ -269,7 +243,7 @@
 		y = 1
 		prerequisite = { focus = MEW_force_economy }
 		relative_position_id = MEW_force_economy
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 6
 		
@@ -287,7 +261,7 @@
 		y = 1
 		prerequisite = { focus = MEW_force_economy_2 }
 		relative_position_id = MEW_force_economy_2
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 6
 		
@@ -305,7 +279,7 @@
 		y = 1
 		prerequisite = { focus = MEW_force_economy_3 }
 		relative_position_id = MEW_force_economy_3
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 6
 		
@@ -325,8 +299,9 @@
 		x = 3
 		y = 1
 		prerequisite = { focus = emergency_economics_3 }
+		available = { has_country_flag = cali_aid_1 }
 		relative_position_id = emergency_economics_3
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 4
 		
@@ -348,7 +323,7 @@
 		y = 1
 		prerequisite = { focus = MEW_reform_economy }
 		relative_position_id = MEW_reform_economy
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 6
 		
@@ -366,7 +341,7 @@
 		y = 1
 		prerequisite = { focus = MEW_reform_economy_2 }
 		relative_position_id = MEW_reform_economy_2
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 6
 		
@@ -385,7 +360,7 @@
 		y = 1
 		prerequisite = { focus = MEW_reform_economy_3 }
 		relative_position_id = MEW_reform_economy_3
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 6
 		
@@ -411,7 +386,7 @@
 		}
 		prerequisite = { focus = desperate_measures }
 		relative_position_id = desperate_measures
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 
 		cost = 6
 		
@@ -430,7 +405,7 @@
 		prerequisite = { focus = MEW_economy_final }
 		available = { has_country_flag = A-RAT_magic_operation_done } #This will enable focus The Magical Malfunction
 		relative_position_id = desperate_measures
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 6
 		
@@ -448,7 +423,7 @@
 		y = 1
 		prerequisite = { focus = magic_fritz }
 		relative_position_id = magic_fritz
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 3
 		
@@ -467,7 +442,7 @@
 		y = 1
 		prerequisite = { focus = magic_fritz }
 		relative_position_id = magic_fritz
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 3
 		
@@ -488,7 +463,7 @@
 		prerequisite = { focus = brush_up }
 
 		relative_position_id = brush_up
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 3
 		
@@ -508,7 +483,7 @@
 		prerequisite = { focus = ensure_support_from_mhc }
 
 		relative_position_id = ensure_support_from_mhc
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 3
 		
@@ -531,7 +506,7 @@
 
 
 		relative_position_id = visit_avarius_family
-		search_filters = {  FOCUS_FILTER_RESEARCH }
+
 		
 		cost = 10
 		

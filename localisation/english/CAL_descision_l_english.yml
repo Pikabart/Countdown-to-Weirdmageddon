@@ -9,20 +9,26 @@
     #Flags
     cal_California_United:0 "California is united once more!"
     cal_NorSo_relationship:0 "California is divided!"
+    cal_pacific_fleet:0 "US Pacific Fleet Contacted"
+    
+    GLOBAL_AMERICA_UNITED:0 "The United States is United Once More!"
+    GLOBAL_ASIA_FELL:0 "The US Pacific Fleet has been overwhelmed!"
 
     ### Mending the Californian Divide ###
 
     CAL_catagory_NorCal_SoCal:0 "Mending the Californian Divide"
     CAL_catagory_NorCal_SoCal_desc:0 "As California shifts from basicly being its own nation to actually being its own nation, so has the political structure of the state change as well. Along with the increased §YNorthern§! and §GSouthern§! divisions, the Californian §1New Democratic-Republican Party§! is also divided. Managing both regional and party divisions will be Norton's (and his staff) greatest challange towards achieveing a better California."
     
-    #"\n\nNorton's §YNorthern Approval Rating§! = [?cal_norton_norcal|+0]\n\nNorton's §GSouthern Approval Rating§! = [?cal_norton_socal|+0]\n\n§4Progressive Imperial Democratic-Republican Support§! = [?cal_pIDR|+0]\n\n§RTraditional Imperial Democratic-Republican Support§! = [?cal_tIDR|+0]\n\n§8Moderate New Democratic-Republican Support§! = [?cal_hectorNDR|+0]\n§8Level of Moderate Support§! = [?cal_compromise_NDR|+0]§8 of 3§!"
-    
     cal_decision_relationship_baseball:0 "The Big Baseball Game is approching."
-    cal_decision_relationship_baseball_desc:0 "The Giants-Dodgers baseball game is fast approching. This rivalary could be the straw that brakes the camel's back in terms of NorCal/SoCal Relationship. We must mend this rift by getting high support from both sides for Imperial Governor Norton. if the Emperor can't unite California, we face civil war!"
+    cal_decision_relationship_baseball_desc:0 "The Giants-Dodgers baseball game is fast approching. This rivalary could be the straw that brakes the camel's back in terms of NorCal/SoCal Relationship. If we can get more than §G50%§! Approval from both §YNorthern§! and §GSouthern California§! by the time of the game, we could reunited California again. But if polls for either drop below §R20%§! by the first pitch, then §RWe Are Doomed§!!"
     cal_decision_relationship_checkup:0 "Update Regional Polls"
     cal_decision_relationship_checkup_desc:0 "New polls will tell us our standing in California and the effects of that scoring."
     cal_decision_party_checkup:0 "Reevaluate Political Standing"
     cal_decision_party_checkup_desc:0 "New reports will tell us our standing in the Party and the effects of that scoring."
+    cal_decision_party_progressive_alert:0 "The §4Progressive IDRs§! are §RAngry§!!"
+    cal_decision_party_progressive_alert_tt:0 "The Progressive IDR is angry at Emperor Norton. They believe he had betrayed the progressive values that he had championed. If nothing is done to mend ties, our critical coastal cities may rebel."
+    cal_decision_party_traditional_alert:0 "The §RTraditional IDRs§! are §RAngry§!!"
+    cal_decision_party_traditional_alert_tt:0 "The Traditional IDR is angry at Emperor Norton. They believe he had disgraced the Imperial Presitge of America he is suppose to project. If nothing is done to mend ties, our resource-rich rural lands may rebel."
     
     cal_sit_down_with_guzman:0 "We have sat down with §GLt. Governor Diaz-Guzman§!."
     
@@ -36,7 +42,7 @@
     cal_norton_south_approval_tt:0 "§GSouthern California§! is home to the southern ten counties of the state of California. With great urban sprawls and open deserts, the south is home to a majority of California and more critically, the entertainment capital of the World. To all, the image of palm trees, movie stars, and the entails of modern living is embodied in the south."
     cal_party_PIDR_tt:0 "The §4Progressive Imperial Democratic-Republicans§! consist primarily of the liberal wing of the NorCal NDR. Making up the Bay Area and the Sacremento Valley, and thus the majority of NorCal's population, they control the high sectors of the economy. The Progressives rally to Norton on his (by 19th century standrds) progressive view. Appealing to them will ensure overall stability, manpower, and economic support to the state."
     cal_party_TIDR_tt:0 "The §RTraditional Imperial Democratic-Republicans§! consist primarily of the conservative branch of the NorCal NDR. Consisting of the rural parts of Northern California, they make up for lower numbers in thier access to the key resources the state needs now that interstate commerce has collapsed. The Traditionalist rally to Norton on his anti-Trembley stance and his Imperial Presitge of a better America. Appealing to them will ensure overall war support, resource collection, and regional security from the likes of the Western FPI or Oregon."
-    cal_party_MNDR_tt:0 "The §8Moderate New Democratic-Republicans§! consist of the SoCal NDR party. Though just as divided as their northern counterparts, they are kept together by Lieutenant Governor Diaz-Guzman. Many are openly concerned of the election upset and though they are upset the north voted in Norton by a massive margin, Norton did also win SoCal by a slim margin. As Southern California has a larger population and sends more representatives, gaining thier support will mend the NorCal/SoCal divide and ensure overall stability and fuction of California in the long run."
+    cal_party_MNDR_tt:0 "The §8Moderate New Democratic-Republicans§! consist of the SoCal NDR party. Though just as divided as their northern counterparts, they are kept together by Lieutenant Governor Diaz-Guzman and won't overreact when low in approval.\n\n Still, many are openly concerned of the election upset and though they are upset the north voted in Norton by a massive margin, Norton did also win SoCal by a slim margin. As Southern California has a larger population and sends more representatives, gaining thier support will mend the NorCal/SoCal divide and ensure overall stability and fuction of California in the long run."
     
     
     ################
@@ -48,7 +54,7 @@
     cal_decision_southern_rally_desc:0 "We can set up a rally for support for Emperor Norton in Los Angeles. While we have plenty of supporters in Southern California, many are skeptical of a man from the 19th Century, and some protest could occur. If it goes poorly, we may even lose support with the north as well over the botched rally."
     
     cal_decision_meet_hector:0 "Sit Down with §8Lt. Governor Diaz-Guzman§!"
-    cal_decision_meet_hector_desc:0 "Lieutenant Governor Hector Diaz-Guzman has a strong support base in Southern California. Though sceptical of Norton, he is more than willing to join us in a rally to promote full state unity and support for the current governor.\n\nIf decision is taken, the next Rally we hold will always end well."
+    cal_decision_meet_hector_desc:0 "Lieutenant Governor Hector Diaz-Guzman has a strong support base in Southern California. Though sceptical of Norton, he is more than willing to join us in a rally to promote full state unity and support for the current governor.\n\n§YIf decision is taken, the next Rally we hold anywhere in the state will always end well.§!"
     
     ################
 
@@ -69,31 +75,6 @@
     
     cal_decision_moderate_bill_large:0 "Support a Major §8Moderate§! Bill"
     cal_decision_moderate_bill_large_desc:0 "With enough compromises and negotiations between the IDR and NDR, we can pass a major Moderate Bill through the Imperial Californian Assembley.\n\nUsing §83 Compromise Points§! from the Moderate NDR will ensure that all factions of the Imperial and New Democratic-Republican will approve and support the bill.\n\nCurrently, we have §8[?cal_compromise_NDR|+0] Compromise Points§!"
-
-##########################################################################################
-##########################################################################################
-    #:0 "A"
-    #_desc:0 "A"
-
-##########################################################################################
-    CAL_catagory_everett_pressure:0 "Lady Everett's Diplomatic Corp"
-    CAL_catagory_everett_pressure_desc:0 "A"
- 
-    cal_decision_pressure_utah:0 "Pressure Utah"
-    cal_decision_pressure_utah_desc:0 "A"
-##########################################################################################
-    CAL_catagory_sierra_depot:0 "The Sierra Army Depot"
-    CAL_catagory_sierra_depot_desc:0 "A"
-    
-    cal_decision_open_depot:0 "Prepare an Inventory Report"
-    cal_decision_open_depot_desc:0 "A"
-
-##########################################################################################     
-    CAL_catagory_pacific_fleet:0 "The U.S. Pacific Fleet"
-    CAL_catagory_pacific_fleet_desc:0 "A"
-    
-    cal_decision_send_supplies:0 "Send Supplies"
-    cal_decision_send_supplies_desc:0 "A"
 
 ########################################################################################## 
 ##########################################################################################
@@ -129,15 +110,65 @@
     cal_decision_rebuilt_five_5_desc:0 "With the possibility of conflict with Oregon or the Western FPI, we must reinforce our northern border. Whether it be from the Coast, the Valley, or the Sierra, we will make sure our supply lines get from point A to Point B."
     cal_decision_rebuilt_five_5_t:0 "Once this is completed, California's highways will be the envy and model of the United States."
     
+
+##########################################################################################
+##########################################################################################
+##########################################################################################     
+    CAL_catagory_pacific_fleet:0 "The U.S. Pacific Fleet"
+    CAL_catagory_pacific_fleet_desc:0 "Even in dock, the Admiralty in Asia are trying to leverage the U.S. Pacific Fleet to keep peace in Asia between the fallen Commonwealth nations and an emerging SEATO. We need the fleet to come home to help secure the country, and without supplies from North America, the fleet won't last long anyway. But if we bring home too many ships or fail to supply them, then we will lose Asia and the US will be weaker even when reunited. Still, both California and Oregon will be attempting to get ships to sail to their respective ports." #[?cal_deployed_convoy_turmoil|-0]
     
     
+    cal_PACIFIC_FLEET_STRENGTH:0 "Current §CU.S. Pacific Fleet§! Strength: [?usa_pacific_fleet_value|+0]%"
+    #cal_PACIFIC_FLEET_STRENGTH_desc:0 "A"
+
+    cal_PACIFIC_FLEET_SHIP:0 "Current §CU.S. Pacific Fleet§! Ship Count: [?usa_pacific_fleet_ships|+0] Ships"
     
+    cal_ORIENTAL_TURMOIL:0 "Current Amount of §RTurmoil In Asia§!: [?usa_oriental_turmoil_value|-0]"
+    #cal_ORIENTAL_TURMOIL_desc:0 "A"
     
+    cal_PREPARED_CONVOY:0 "§YSupplies Currently Prepared§! For The Pacific Fleet: [?cal_prepared_convoy_value|+0]"
+    #cal_PREPARED_CONVOY_desc:0 "A"
     
+    cal_DEPLOYED_CONVOY:0 "§GSupplies Currently Enroute§! For The Pacific Fleet: [?cal_deployed_convoy_value|+0]"
+    #cal_DEPLOYED_CONVOY_desc:0 "A"
     
+    cal_decision_pacific_condition_update:0 "Incoming Report of §CFleet Conditions§!"
+    cal_decision_pacific_condition_update_desc:0 "Field Marshall Pines made some surprising friends within the Navy when the Army threw him under the bus back in the 2000s. With backdoor contacts, we can receive a regular update on the status of the Pacific Fleet."
+    cal_decision_pacific_condition_update_tt:0 "70% §8Docked with Low Moral§!\n15% §ODegraded Maintenance§!\n 5% §RSabotage!§!\n10% §GThe Fleet Rallies!§!"
     
+    cal_decision_asia_condition_update:0 "Updated News of the §RTurmoil in Asia§!"
+    cal_decision_asia_condition_update_desc:0 "News from Asia flood the internet every day. Accurate news from Asia is rare and far between. It will take us a while to get an accurate idea of what's going on."
+    cal_decision_asia_condition_update_tt:0 "70% §8Minor Instability§!\n15% §OCivilian Riots§!\n 5% §RNaval Standoffs§!\n10% §GEerie Calm§!"
     
+    cal_decision_bring_home_1:0 "Offer Safe Ports"
+    cal_decision_bring_home_1_desc:0 "Even our states in Asia are not particularly friendly to our forces. With some convincing, we can persuade sailors and even some captains to set sail and head back home to America and our safe and friendly ports."
+    cal_decision_bring_home_1_tt:0 "§Y30%§! A Few Destroyers Joins California!\n§Y50%§! A Thousand Sailors Joins California!\n§Y20%§! Some Experienced Officers Join California!"
     
+    cal_decision_bring_home_2:0 "Contact Naval Captains"
+    cal_decision_bring_home_2_desc:0 "Some of our loyal officers have friends in high places in the Pacific Fleet. We can have them directly contact officers in the east and persuade them to leave port and sail their ships and join us. There’s not much the admiralty can do about it anyway."
+    cal_decision_bring_home_2_tt:0 "§Y50%§! A Few Cruisers Joins California!\n§Y25%§! A Halsey Class Aircraft Carrier Joins California!\n§Y25%§! A South Korea Fast Battleship Join California!"
+    
+    cal_decision_bring_home_3:0 "Snubbing President Curtis with the Admiralty"
+    cal_decision_bring_home_3_desc:0 "The USS Adrian Levi Curtis is the flagship of the US Navy. The Pacific Admiralty worries of the ship’s safety and have no love for the man its named after. With a word from the well-respected General Pines, perhaps docking it in California can satisfy concerns of safety and giving the bird to Curtis."
+    cal_decision_bring_home_3_tt:0 "The Flagship of the US Navy Joins California!"
+    
+    cal_decision_convoy_0:0 "Ship Supplies To Asia"
+    cal_decision_convoy_0_desc:0 "Order a convoy with our prepared supplies to set sail to Asia and the Pacific Fleet.  Since Trans-Pacific Trade has almost collapsed, it will take a while for our ships to reach one of our Oriental ports. Unfortunately, there is no guaranteed they'll make it."
+    
+    cal_decision_convoy_1:0 "Prepare Sailor Rations"
+    cal_decision_convoy_1_desc:0 "To keep our sailors and marines fed, we can quickly ready food and medical rations and ship them to Asia so they can still stay in operational condition."
+    
+    cal_decision_convoy_2:0 "Resupply Fuel Reserves"
+    cal_decision_convoy_2_desc:0 "Unlike the Nuclear Canadian Navy, most of our ships still use bio-diesel as fuel. Unfortunately, our Asian states do not produce enough fuel for themselves, let along the fleet. If we can send more fuel to them, they can sail more patrols and help the civilian populace."
+    
+    cal_decision_convoy_3:0 "Apply Economic Pressure"
+    cal_decision_convoy_3_desc:0 "From SEATO, the former Commonwealth to even Russia, many nations are taking advantage of the fall of Canada and the US to push into Asia. But being the last few trading partners in the Post-Kerfuffle world, we can put economic pressure on these nations to back off."
+    
+    Pacific_Fleet_1:0 "A Few Destroyers"
+    Pacific_Fleet_2:0 "A Pair of Cruisers"
+    Pacific_Fleet_3:0 "A Halsey Class Aircraft Carrier"
+    Pacific_Fleet_4:0 "A South Korea Fast Battleship"
+    Pacific_Fleet_5:0 "The Flagship of the US Navy"
     
     
     

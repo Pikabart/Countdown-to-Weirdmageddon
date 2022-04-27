@@ -1,13 +1,13 @@
 ﻿###########################
 # California road decisions EVENTS
-###########################
+########################### 
 
 add_namespace = CAL_ROADS
 
 
 ########################################################################################################
 
-country_event = {
+country_event = { # crew to both, gets no bonus to polls
 	id = CAL_ROADS.1
 	title = CAL_ROADS.1.t
 	desc = CAL_ROADS.1.d
@@ -55,7 +55,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { # crew to north, no poll bonus
 	id = CAL_ROADS.2
 	title = CAL_ROADS.2.t
 	desc = CAL_ROADS.2.d
@@ -121,7 +121,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { # crew to south
 	id = CAL_ROADS.3
 	title = CAL_ROADS.3.t
 	desc = CAL_ROADS.3.d
@@ -177,7 +177,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { # NO Crew to both
 	id = CAL_ROADS.4
 	title = CAL_ROADS.4.t
 	desc = CAL_ROADS.4.d

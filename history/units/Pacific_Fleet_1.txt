@@ -1,0 +1,23 @@
+﻿
+units = {
+	
+	#### Navy 1 
+	
+	
+	fleet = {
+        name = "Pacific Fleet Returner" # Name 1
+        naval_base = 5246
+        task_force = {
+            name = "Taskforce 1" # Name 2
+            location = 5246
+            ship = { name = "Saratoga Class" definition = destroyer start_experience_factor = 0.25 equipment = { destroyer_1 = { amount = 1 owner = EUS version_name = "Saratoga Class" } } }	
+			ship = { name = "Saratoga Class" definition = destroyer start_experience_factor = 0.25 equipment = { destroyer_1 = { amount = 1 owner = EUS version_name = "Saratoga Class" } } }	
+			ship = { name = "Saratoga Class" definition = destroyer start_experience_factor = 0.25 equipment = { destroyer_1 = { amount = 1 owner = EUS version_name = "Saratoga Class" } } }	
+        }
+
+	}
+}
+
+##### No Notable Air Forces #####
+
+### Other ###

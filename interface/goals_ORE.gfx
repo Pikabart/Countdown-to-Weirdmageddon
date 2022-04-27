@@ -137,6 +137,29 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/ORE/focus_oregon_backup_puppetmaster_v2.dds"			
 	}	
 	
+	##########################
+	##########################	
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_blacksheep_parson_northwest"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_parson_northwest.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_rally_to_west"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_rally_to_west.dds"			
+	}	
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_frontier_military"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_frontier_military.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_frontier_spirit"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_frontier_spirit.dds"			
+	}
+	
 	#############
 	#############
 	

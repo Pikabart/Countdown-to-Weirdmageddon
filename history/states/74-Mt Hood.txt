@@ -19,6 +19,10 @@ state={
 
 	}
 	
+	resources = {
+		steel = 12
+	}
+	
 	provinces={
 		4666 4949 5751 8235 8257 8294 
 	}

@@ -1,0 +1,41 @@
+﻿
+units = {
+	
+	#### Navy 1 
+	
+	
+	fleet = {
+        name = "Imperial Coast Guard" # Name 1
+        naval_base = 5246
+        task_force = {
+            name = "NorCal Taskforce" # Name 2
+            location = 5246
+            ship = { name = "Saratoga Class" definition = destroyer start_experience_factor = 0.25 equipment = { destroyer_1 = { amount = 1 owner = EUS version_name = "Saratoga Class" } } }	
+			ship = { name = "Saratoga Class" definition = destroyer start_experience_factor = 0.25 equipment = { destroyer_1 = { amount = 1 owner = EUS version_name = "Saratoga Class" } } }	
+			ship = { name = "Saratoga Class" definition = destroyer start_experience_factor = 0.25 equipment = { destroyer_1 = { amount = 1 owner = EUS version_name = "Saratoga Class" } } }	
+			ship = { name = "Saratoga Class" definition = destroyer start_experience_factor = 0.25 equipment = { destroyer_1 = { amount = 1 owner = EUS version_name = "Saratoga Class" } } }	
+			ship = { name = "Saratoga Class" definition = destroyer start_experience_factor = 0.25 equipment = { destroyer_1 = { amount = 1 owner = EUS version_name = "Saratoga Class" } } }	
+			ship = { name = "Ticonderoga Class" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { heavy_cruiser_1 = { amount = 1 owner = EUS version_name = "Ticonderoga Class" } } }	
+        }
+
+	}
+	fleet = {
+        name = "Imperial Coast Guard" # Name 1
+        naval_base = 10256
+        task_force = {
+            name = "SoCal Taskforce" # Name 2
+            location = 10256
+            ship = { name = "Saratoga Class" definition = destroyer start_experience_factor = 0.25 equipment = { destroyer_1 = { amount = 1 owner = EUS version_name = "Saratoga Class" } } }	
+			ship = { name = "Saratoga Class" definition = destroyer start_experience_factor = 0.25 equipment = { destroyer_1 = { amount = 1 owner = EUS version_name = "Saratoga Class" } } }	
+			ship = { name = "Saratoga Class" definition = destroyer start_experience_factor = 0.25 equipment = { destroyer_1 = { amount = 1 owner = EUS version_name = "Saratoga Class" } } }	
+			ship = { name = "Saratoga Class" definition = destroyer start_experience_factor = 0.25 equipment = { destroyer_1 = { amount = 1 owner = EUS version_name = "Saratoga Class" } } }	
+			ship = { name = "Saratoga Class" definition = destroyer start_experience_factor = 0.25 equipment = { destroyer_1 = { amount = 1 owner = EUS version_name = "Saratoga Class" } } }	
+			ship = { name = "Ticonderoga Class" definition = heavy_cruiser start_experience_factor = 0.25 equipment = { heavy_cruiser_1 = { amount = 1 owner = EUS version_name = "Ticonderoga Class" } } }	
+        }
+
+	}
+}
+
+##### No Notable Air Forces #####
+
+### Other ###

@@ -7,7 +7,7 @@ spriteTypes = {
 	}
 	spriteType = {
 			name = "GFX_leaders_shermie_pines"
-			texturefile = "gfx/leaders/CAL/hoi4_portrait_FPI_HOLDER.dds"
+			texturefile = "gfx/leaders/CAL/Portrait_CAL_Pines.dds"
 	}	
 	spriteType = {
 			name = "GFX_leaders_emily_pines"

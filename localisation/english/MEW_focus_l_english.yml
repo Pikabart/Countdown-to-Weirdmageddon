@@ -38,7 +38,7 @@ mew_trolling_desc:0 "By hiring those who call themselves "Russians" we can use t
 excessive_trolling:0 "Excessive Trolling"
 
 mew_demand_state:0 "Demand Emily River And The Fjords"
-mew_demand_state_desc:0 "We do not have big enough frontlines to attack the Ostro Starvarians in case of a war. We will demand some land from them under threat of war. They will have no choice but to accept this."
+mew_demand_state_desc:0 "It would be good to have a strong defensive line at the start of the war even if we intend to go across. We will demand some land to make the river a natural border."
 
 mew_demand_state_a:0 "Demand Itchy Clearing"
 mew_demand_state_a_desc:0 "The Ostro Starvarians cannot withstand out diplomatic pressure. We will demand more land from them as a power move."
@@ -101,13 +101,13 @@ emergency_economics_desc:0 "We must preserve the little corn we have left, and t
 emergency_economics_2:0 "Extend Production Shifts"
 emergency_economics_2_desc:0 "Our previous mandate has offset some of our economic distress, but we are still in a crisis. We must extend extend the work shift to 12 hours to accomadate more corn production."
 
-emergency_economics_3:0 "Import Earth Machinery"
-emergency_economics_3_desc:0 "Our populace is quite overworked, and we are even seeing some minor protests break out. In order to maintain stability, we will import foreign machinery so that we can produce more while not agitating the populace."
+emergency_economics_3:0 "Californian Aid"
+emergency_economics_3_desc:0 "Our populace is quite overworked, and we are even seeing some minor protests break out. In order to maintain stability, we will need interdimensional assitance. The Californians seem to be the best candidate"
 
 #################################################################################################
 
 MEW_reform_economy:0 "Why Corn?"
-MEW_reform_economy_desc:0 "Our emergency measures to preserve what little corn we have left has given rise to a radical new idea: Not relying on a single crop and basing the entire economy off of it. Perhaps this idea has some merit."
+MEW_reform_economy_desc:0 "Our emergency measures to preserve what little corn we have left has given rise to a radical new idea: Not relying on a single crop and basing the entire economy off of it. Perhaps this idea has some merit, and with the interdimensional aid coming in we may actually test this out."
 
 MEW_reform_economy_2:0 "Crop Variation"
 MEW_reform_economy_2_desc:0 "By growing a variety of foods, we can ensure a fall back food if one of our crops are comprimised in the future."
