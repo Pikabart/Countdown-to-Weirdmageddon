@@ -3,7 +3,7 @@
 ########################### 
 
 add_namespace = CAL_civil_war_events
-
+add_namespace = CAL_united
 
 ########################################################################################################
  
@@ -104,5 +104,47 @@ country_event = { # California Nor/So civil war
 			ai_chance = { factor = 0 }	# 0% AI choose this
 		}
 		
+	}
+}
+
+####################################
+
+country_event = { # California reunited
+	id = CAL_united.1
+	title = CAL_united.1.t
+	desc = CAL_united.1.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {
+		hidden_effect = {
+			CAL = {  
+				add_state_core = 160 add_state_core = 161 add_state_core = 165
+				add_state_core = 162 add_state_core = 164 add_state_core = 166
+				add_state_core = 167 add_state_core = 163 add_state_core = 168
+				add_state_core = 169 add_state_core = 171 add_state_core = 190
+				add_state_core = 176 add_state_core = 170 add_state_core = 173
+				add_state_core = 175 add_state_core = 177 add_state_core = 174
+				add_state_core = 172 add_state_core = 191 
+			}
+			SOC = {  
+				remove_state_core = 160 remove_state_core = 161 remove_state_core = 165
+				remove_state_core = 162 remove_state_core = 164 remove_state_core = 166
+				remove_state_core = 167 remove_state_core = 163 remove_state_core = 168
+				remove_state_core = 169 remove_state_core = 171 remove_state_core = 190
+				remove_state_core = 176 remove_state_core = 170 remove_state_core = 173
+				remove_state_core = 175 remove_state_core = 177 remove_state_core = 174
+				remove_state_core = 172 remove_state_core = 191 
+			}
+		}
+	}
+
+	option = {
+		name = CAL_united.1.a
+		add_political_power = 500
+		annex_country = { target = SOC transfer_troops = yes }
 	}
 }

@@ -556,6 +556,23 @@ country_event = {
 
 	option = {
 		name = CAL_IBI.8.a
+		country_event = CAL_IBI.9
+	}
+}
+country_event = {
+	id = CAL_IBI.9 
+	title = CAL_IBI.9.t
+	desc = CAL_IBI.9.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {}
+
+	option = {
+		name = CAL_IBI.9.a
 	}
 }
 
