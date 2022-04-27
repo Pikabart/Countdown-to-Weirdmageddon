@@ -3131,7 +3131,7 @@
 		id = CAL_For_Emperor.0
 		icon = GFX_goal_california
 		x = 0
-		y = 6
+		y = 5
 		relative_position_id = CAL_assembly.1
 		prerequisite = { 
 			focus = CAL_pacific.7 
@@ -3144,6 +3144,9 @@
 		}
 		prerequisite = { focus = CAL_assembly.2 }
 		prerequisite = { focus = CAL_hector.1 }
+		prerequisite = {
+			focus = CAL_victory.1
+		}
 		
 		cost = 3
 		
@@ -3168,10 +3171,9 @@
 	focus = {
 		id = CAL_mewni.0
 		icon = GFX_goal_california
-		x = 0
-		y = 2
-		relative_position_id = CAL_For_Emperor.0
-		#prerequisite = { focus = CAL_divide.0 }
+		x = 20
+		y = -3
+		relative_position_id = CAL_hector.0
 		cost = 1
 		
 		available_if_capitulated = yes
@@ -3242,14 +3244,16 @@
 				remove_core_of = CAL
 				CEF = {
 					transfer_state = 430
-					load_oob = "CEF_2012"
 				}
 				CAL = {
 					puppet = CEF
 				}
 				set_province_name = { id = 1258 name = "Port Norton"}
 				hidden_effect = {
-					CEF = { give_military_access = MEW }
+					CEF = {
+						give_military_access = MEW
+						load_oob = "CEF_2012"
+					}
 					MEW = { give_military_access = CEF }
 				}
 			}
@@ -3462,7 +3466,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = { MEW = { has_war_with = LUD } }
 		bypass = {} 
 		
 		completion_reward = {	
@@ -3525,8 +3529,6 @@
 		 
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_magic.9.t"
-			add_stability = 0.10
-			add_war_support = 0.10
 		} 
 	} 
 	
@@ -3884,7 +3886,7 @@
 		id = CAL_victory.0
 		icon = GFX_goal_california
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = CAL_mewni.3
 		prerequisite = { focus = CAL_mewni.3 }
 		cost = 1
@@ -3920,6 +3922,8 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_victory.1.t"
+			add_stability = 0.10
+			add_war_support = 0.10
 		}
 	}
 	
@@ -3932,8 +3936,8 @@
 		icon = GFX_goal_california
 		x = 0
 		y = 1
-		relative_position_id = CAL_victory.1
-		prerequisite = { focus = CAL_victory.1 }
+		prerequisite = { focus = CAL_For_Emperor.0 }
+		relative_position_id = CAL_For_Emperor.0
 		cost = 1
 		
 		available_if_capitulated = yes
@@ -4504,7 +4508,7 @@
 	focus = {
 		id = CAL_disaster.0
 		icon = GFX_goal_california
-		x = -20
+		x = 14
 		y = 0
 		relative_position_id = CAL_mewni.0
 		#prerequisite = { focus = CAL_divide.0 }

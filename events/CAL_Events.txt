@@ -10,6 +10,7 @@ add_namespace = CAL_IBI
 add_namespace = CAL_BIB_event
 ###
 add_namespace = CAL_CEF
+add_namespace = CAL_CEF_DECLINE
 add_namespace = CAL_FRITZ
 ###
 add_namespace = CAL_NWB
@@ -619,7 +620,7 @@ country_event = {
 	id = CAL_CEF.0 
 	title = CAL_CEF.0.t
 	desc = CAL_CEF.0.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
@@ -634,6 +635,8 @@ country_event = {
 		trigger = {tag = CAL}
 		name = CAL_CEF.0.b
 		ai_chance = { factor = 0 }
+		MEW = { country_event = { id = CAL_CEF_DECLINE.1 days = 1 } }
+		unlock_national_focus = CAL_victory.1
 	}
 }
 
@@ -641,7 +644,7 @@ country_event = {
 	id = CAL_CEF.1
 	title = CAL_CEF.1.t
 	desc = CAL_CEF.1.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
@@ -673,13 +676,39 @@ country_event = {
 		ai_chance = { factor = 0 }
 		custom_effect_tooltip = CAL_CEF.1.tooltip
 		set_country_flag = cali_no_aid
+		CAL = { country_event = { id = CAL_CEF_DECLINE.1 days = 1 } }
 	}
 }
+
+country_event = {
+	id = CAL_CEF_DECLINE.1
+	title = CAL_CEF_DECLINE.1.t
+	desc = CAL_CEF_DECLINE.1.d
+	picture = GFX_report_event_CEF
+	is_triggered_only = yes
+
+	immediate = {}
+
+	option = {
+		name = CAL_CEF_DECLINE.1.a
+		ai_chance = { factor = 0 }
+		trigger = { TAG = MEW }
+		custom_effect_tooltip = CAL_CEF.1.tooltip
+		set_country_flag = cali_no_aid
+	}
+	
+	option = {
+		name = CAL_CEF_DECLINE.1.b
+		ai_chance = { factor = 0 }
+		trigger = { TAG = CAL }
+	}
+}
+
 country_event = {
 	id = CAL_CEF.2 
 	title = CAL_CEF.2.t
 	desc = CAL_CEF.2.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
@@ -695,7 +724,7 @@ country_event = {  # For Focus CAL_magic.0
 	id = CAL_FRITZ.0 
 	title = CAL_FRITZ.0.t
 	desc = CAL_FRITZ.0.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
@@ -710,7 +739,7 @@ country_event = { # For Focus CAL_magic.3 # Dr. Frakes
 	id = CAL_FRITZ.1 
 	title = CAL_FRITZ.1.t
 	desc = CAL_FRITZ.1.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
@@ -738,7 +767,7 @@ country_event = { # For Focus CAL_magic.4 Steal Scissors
 	id = CAL_FRITZ.2 
 	title = CAL_FRITZ.2.t
 	desc = CAL_FRITZ.2.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
@@ -754,7 +783,7 @@ country_event = { # For Focus CAL_magic.5 # Emily's transformation
 	id = CAL_FRITZ.3 
 	title = CAL_FRITZ.3.t
 	desc = CAL_FRITZ.3.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
@@ -769,7 +798,7 @@ country_event = { # For Focus CAL_magic.6 # Borrow Star's wand
 	id = CAL_FRITZ.4 
 	title = CAL_FRITZ.4.t
 	desc = CAL_FRITZ.4.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
