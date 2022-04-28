@@ -203,5 +203,15 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/ORE/focus_charge_east.dds"			
 	}
 	
+	SpriteType = {
+	name = "GFX_goal_indistinguishable_from_magic"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_indistinguishable_from_magic.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_union_forever"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_union_forever.dds"			
+	}
+	
 	
 }#################################
