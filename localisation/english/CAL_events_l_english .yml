@@ -168,15 +168,19 @@
  #####################################################
  
  CAL_CEF.0.t:0 "The Mewmans Request Economic Aid"
- CAL_CEF.0.d:0 ""
+ CAL_CEF.0.d:0 "The Kingdom of Mewni, the extradimensional kingdom we have made contact with, has requested that we send them some economic aid. Apparently they are going through some sort of food shortage, and due to them being an agrarian pre-industrial society this spells disaster for them.\n\nIf we were to send them some aid, we would ask for some territory in return. This would make us an interdimensional state, the first of it's kind coming from earth. On the other hand, if we were to reject them and withold aid, our analysts predict that the Kingdom of Mewni would not completely collapse. It would go through some instability and harship, sure, but the Butterfly monarchy would stay in power."
  CAL_CEF.0.a:0 "We'll do it! For a price..."
- CAL_CEF.0.a:0 "Meh... we really don't need to get involved Extradimensionally..."
- 
+ CAL_CEF.0.b:0 "Meh... we really don't need to get involved extradimensionally..."
  
  CAL_CEF.1.t:0 "Californians Want Territory as Payment!"
- CAL_CEF.1.d:0 ""
- CAL_CEF.1.a:0 "Sounds Like a Good Deal!"
- CAL_CEF.1.b:0 "No."
- CAL_CEF.1.tooltip:0 "§YThe§! §CCalifornians§! §Ywont be involved in Mewni...§!"
+ CAL_CEF.1.d:0 "Our request to California has returned with a response: They will provide us with aid, if we provide them with some territory. Specifically, the territory of the Waterway Overlook.\n\nBy accepting and taking their aid, we can be more lax on the people and accelerate out industrial development. However, by giving the Californians a foothold in our dimension it opens the door for them to exert more influence over the dimension and, by extension, us. With their industrial and technological advantage over us, we would be at a disadvantage when dealing with them. Should we ever get on their bad side..."
+ CAL_CEF.1.a:0 "We're on good terms with the Californians. Let's welcome them in!"
+ CAL_CEF.1.b:0 "Who knows what could happen in the future? We wont let the Californians into Mewni."
+ CAL_CEF.1.tooltip:0 "§CFocus§! §YDouble Down§! §CIs Unlocked!§!"
  CAL_CEF.1.tooltip_2:0 "§CFocus§! §YWhy Corn?§! §CIs Unlocked!§!"
+ 
+ CAL_CEF_DECLINE.1.t:0 "Rejection!"
+ CAL_CEF_DECLINE.1.d:0 "[FROM.getname] has rejected our offer!"
+ CAL_CEF_DECLINE.1.a:0 "Drat!"
+ CAL_CEF_DECLINE.1.b:0 "Guess we wont be involved in Mewni..."
  
