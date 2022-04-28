@@ -107,11 +107,15 @@ country_event = {
 		if = {
 			limit = { has_dlc = "Man the Guns" }  
 			CAL = {	
+				load_oob = Pacific_MTG_Fleet_1
+				load_oob = Pacific_MTG_Fleet_2
 				load_oob = Pacific_MTG_Fleet_5
 			}
 		}
 		else = {
 			CAL = {	
+				load_oob = Pacific_Fleet_1
+				load_oob = Pacific_Fleet_2
 				load_oob = Pacific_Fleet_5
 			}
 		}

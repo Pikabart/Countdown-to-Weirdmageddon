@@ -473,18 +473,18 @@ country_event = {
 
 	option = {
 		name = CAL_birnbaum_event.6.a #California burdens
-		country_event = CAL_birnbaum_event.7
+		country_event = { id = CAL_birnbaum_event.7 days = 3}
 		ai_chance = { factor = 90 }
 	}
 	option = {
 		name = CAL_birnbaum_event.6.b #California negotiates the terms
 		random_list = {
-			70 = {country_event = CAL_birnbaum_event.10}
-			20 = {
-				country_event = CAL_birnbaum_event.7
+			60 = {country_event = { id = CAL_birnbaum_event.10 days = 3}}
+			30 = {
+				country_event = { id = CAL_birnbaum_event.7 days = 3}
 				set_country_flag = CAL_pays_texas_flag
 			}
-			10 = {country_event = CAL_birnbaum_event.8}
+			10 = {country_event = { id = CAL_birnbaum_event.8 days = 3}}
 		}
 	}
 	option = {
@@ -517,9 +517,8 @@ country_event = {
 		add_ideas = CAL_pays_texas  #idea of big economic peently
 	}
 	option = {
-		name = CAL_birnbaum_event.7.a #California burdens
-		trigger = {
-		has_country_flag = CAL_pays_texas_less_flag}
+		name = CAL_birnbaum_event.7.b #California burdens
+		trigger = { has_country_flag = CAL_pays_texas_less_flag }
 		CAL = { add_to_faction = TEX }
 		CAL = { add_to_faction = MEX }
 		add_ideas = CAL_pays_texas_less  #idea of big economic peently
@@ -541,7 +540,8 @@ country_event = {
 
 	option = {
 		name = CAL_birnbaum_event.8.a #California refuses
-		create_wargoal = { type = puppet_wargoal_focus target = TEX }
+		TEX = { declare_war_on = { target = CAL type = annex_everything }}
+		TEX = { declare_war_on = { target = MEX type = annex_everything }}
 		CAL = { add_to_faction = MEX }
 	}
 

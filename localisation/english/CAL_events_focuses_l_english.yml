@@ -79,7 +79,7 @@
  CAL_IBI.1.a:0 "“I wonder if we do have missiles to sell?”"
  
  CAL_IBI.2.t:0 "The Next Generation"
- CAL_IBI.2.d:0 "“This is so exciting,” said Mr. Ordonia.\n\n“Yes. Our daughter. A government employee. What a stable job she has,” said Mrs. Ordonia.\n\nNext to them was Star, Marco and Tom. Star wondered, “I didn’t know they let a fifteen-year-old become a secret agent, like in your dad’s movies, Marco. That sounds cool!”\n\n“I really don’t trust Janna with a license to kill.”\n\n“No, I hear you Marco,” said Tom, “Sounds like more work for my parents...”\n\nThey sat with about several dozen other people in the stands of a small stadium outside Riverside. On the field were thirty graduating members of the Imperial Bureau of Investigation’s Academy. Janna sat in the first row as Hector took the stage to introduce them.\n\n“Hello everyone! I’m not sure how you got here since this was a classified event. But like the old Federal government back east, we’ll blame the Russians and move on. Today we gather to commemorate the first class of the Imperial Bureau of Investigation. From crime solving, intelligence gathering, dimensional affairs and paranormal containment, these thirty are the finest the next generation has to offer. When the emperor reunited our great nation, many of you will surely have great futures ahead serving to protect America from the unknown. Some of you, standing before me now, I have come to know personally, such as my own pupil and the alma mater of this class, Janna Ordonia...”\n\n“The fact she’s the alma mater is already suspicious,” grumbled Marco.\n\n“Shhh!” Star silence him.\n\n“The future remains unwritten. We already determine time doesn’t work like that. So go forth into the great unknown. And maintain a low causality rate! Cheers for our new agents!”"
+ CAL_IBI.2.d:0 "“This is so exciting,” said Mr. Ordonia with a pinoy accent.\n\n“Yes. Our daughter, a government employee! What a stable job she has,” said Mrs. Ordonia.\n\nNext to them was Star, Marco and Tom. Star wondered, “I didn’t know they let a fifteen-year-old become a secret agent, like in your dad’s movies, Marco. That sounds cool!”\n\n“I really don’t trust Janna with a license to kill.”\n\n“No, I hear you Marco,” said Tom, “Sounds like more work for my parents...”\n\nThey sat with about several dozen other people in the stands of a small stadium outside Riverside. On the field were thirty graduating members of the Imperial Bureau of Investigation’s Academy. Janna sat in the first row as Hector took the stage to introduce them.\n\n“Hello everyone! I’m not sure how you got here since this was a classified event. But like the old Federal Government back east, we’ll blame the Russians and move on. Today we gather to commemorate the first class of the Imperial Bureau of Investigation. From crime solving, intelligence gathering, dimensional affairs and paranormal containment, these thirty are the finest the next generation has to offer. When the emperor reunited our great nation, many of you will surely have great futures ahead serving to protect America from the unknown. Some of you, standing before me now, I have come to know personally, such as my own pupil and the alma mater of this class, Janna Ordonia...”\n\n“The fact she’s the alma mater is already suspicious,” grumbled Marco.\n\n“Shhh!” Star silence him.\n\n“The future remains unwritten. We already determine time doesn’t work like that. So go forth into the great unknown. And maintain a low causality rate! Cheers for our new agents!”"
  CAL_IBI.2.a:0 "“Hip, Hip, Hurray!”"
  
  CAL_IBI.3.t:0 "Nothing To See Here"
@@ -119,24 +119,29 @@
  CAL_BIB_event.1.a:0 "“Let’s discuss my proposal for our own magical troopers, shall we?"
  
  CAL_BIB_event.2.t:0 "A Star in our lives"
- CAL_BIB_event.2.d:0 "“Man, Star. That was crazy,” said Marco as he, Star and his parents emerged from Mewni after Star’s rescue of Marco from Toffee. Rafael was still wearing the suit of armor he put on there. He promptly fell to the ground after arriving home, quickly swarmed by the laser shooting puppies.\n\nStar turned to her wand, concerned about the missing half of the crystal embedded into it. But she quickly shrugged it off, “It was no sweat Marco.”\n\nThere was then a knock on the door. Before Marco could walk over, it burst open and a SWAT team rushed in. Right after them running in was the Lieutenant Governor of California. “Rafael, Angie, Marco!” he rushed over and embraced Marco and his mom as his dad struggled to get back up in his suit of armor. “Your father texted me what happened and I rushed over as soon as I could. How did you even get to Mew...” he noticed Star next to them, “Dios Mio...”\n\n“Hello!” Star introduced herself, “I’m Star Butterfly! I’m a princess from the magical world of Mewni!” She whispered to Marco, “Who’s the old man?”\n\n“Star, this is my great uncle Hector. He also happens to be Lieutenant Governor of California. That’s like the person right below the Queen back on Mewni.”\n\n“Oh!” she nodded, “And you said you were not royalty, Diaz Family.”\n\nHector turned back to Marco, “W-Why is the crown princess on Mewni here?”\n\nMarco took a moment to explain what had happened in the past few months. Hector sat down and gestured the SWAT team out of the house as he listened in shock. Unable to find the words to respond, Star and Marco took it as a casual acceptance and walked away to get ready for bed.\n\n“I did message you what was happening this whole time,” said Rafael as he stood back up.\n\n“I thought you were on one of your PEYOTE INDUCED DRUG TRIPS when you said all that!” he calmed himself down, “Dip down, Hector... I’m sorry, Raefel. I didn’t take you seriously. Star and her kind are dangerous!”\n\nAngie countered, “Star is our hero! She risked her life to save my son, your grandnephew, from some evil lizard named... what was it? Laffy, Taffy?”\n\n“Toffee, Angie,” Hector replied, “You know what. I have been too busy with work. I think I will spend more time with the family. You, Rafael, Marco... and Star Butterfly.”\n\nRafael gave him a tight metal hug, squeezing the air out of him."
+ CAL_BIB_event.2.d:0 "“Man, Star. That was crazy,” said Marco as he, Star and his parents emerged from Mewni after Star’s rescue of Marco from Toffee. Rafael was still wearing the suit of armor he put on there. He promptly fell to the ground after arriving home, quickly swarmed by the laser shooting puppies.\n\nStar turned to her wand, concerned about the missing half of the crystal embedded into it. But she quickly shrugged it off, “It was no sweat Marco.”\n\nThere was then a knock on the door. Before Marco could walk over, it burst open and a SWAT team rushed in. Right after them running in was the Lieutenant Governor of California. “Rafael, Angie, Marco!” he rushed over and embraced Marco and his mom as his dad struggled to get back up in his suit of armor. “Your father texted me what happened and I rushed over as soon as I could. How did you even get to Mew...” he noticed Star next to them, “Dios Mio...”\n\n“Hello!” Star introduced herself, “I’m Star Butterfly! I’m a princess from the magical world of Mewni!” She whispered to Marco, “Who’s the old man?”\n\n“Star, this is my great uncle Hector. He also happens to be Lieutenant Governor of California. That’s like the person right below the Queen back on Mewni.”\n\n“Oh!” she nodded, “And you said you were not royalty, Diaz Family.”\n\nHector turned back to Marco, “W-Why is the crown princess of Mewni here?”\n\nMarco took a moment to explain what had happened in the past few months. Hector sat down and gestured the SWAT team out of the house as he listened in shock. Unable to find the words to respond, Star and Marco took it as a casual acceptance and walked away to get ready for bed.\n\n“I did message you what was happening this whole time,” said Rafael as he stood back up.\n\n“I thought you were on one of your PEYOTE INDUCED DRUG TRIPS when you said all that!” he calmed himself down, “Dip down, Hector... I’m sorry, Raefel. I didn’t take you seriously. Star and her kind are dangerous!”\n\nAngie countered, “Star is our hero! She risked her life to save my son, your grandnephew, from some evil lizard named... what was it? Laffy, Taffy?”\n\n“Toffee, Angie,” Hector replied, “You know what. I have been too busy with work. I think I will spend more time with the family. You, Rafael, Marco... and Star Butterfly.”\n\nRafael gave him a tight metal hug, squeezing the air out of him."
  CAL_BIB_event.2.a:0 "“More time with my Tio Hector!”"
  
  CAL_BIB_event.3.t:0 "Sparring Session"
  CAL_BIB_event.3.d:0 ""
  CAL_BIB_event.3.a:0 "" 
  
+ 
  ######################################################
  ######################################################
  ######################################################
 
- CAL_MILITARY.1.t:0 "The Call To Service"
- CAL_MILITARY.1.d:0 "As he carried a cup of tea down the hallway, Sherman “Shermie” Pines looked at the old photos hanging on the wall. He looked on first at the photos of his grandchildren, including a recent image of them with Dipper’s brown cap and Mabel’s shooting star sweater. Next was of his own children, from a summer trip with them to Disneyland Pyeongyang in the 80s to Eugene Pines when he graduated from UC Emeryville to his daughter Emily Pines in her Marines formal Dress after she was promoted to Captain. Finally, he chuckled to himself looking at a poorly timed photo of him socking his brother Stanford Pines as Ford tried to hog the new born twins from him. But he stopped at the last photo on the wall. There laid a photo of him at the docks of Newark before his first deployment, playing around with both of his brothers, Stanford and Stanley Pines. He sighed and walked away.\n\nAs he sat down with his wife Angelica and turned to the TV where an ad of “Norton For Governor” was on, he received a call on his cell phone, which Angelica was playing Candy Smasher on. He took the phone back and answered it."
+ CAL_MILITARY.1.t:0 "A Quiet Retirement"
+ CAL_MILITARY.1.d:0 "As he carried a cup of tea down the hallway, Sherman “Shermie” Pines looked at the old photos hanging on the wall. He looked on first at the photos of his grandchildren, including a recent image of them with Dipper’s brown cap and Mabel’s shooting star sweater. Next was of his own children, from a summer trip with them to Disneyland Pyeongyang in the 80s to Eugene Pines when he graduated from UC Emeryville to his daughter Emily Pines in her Marines formal Dress after she was promoted to Captain.\n\nFinally, he chuckled to himself looking at a poorly timed photo of him socking his brother Stanford Pines as Ford tried to hog the new born twins from him. But he stopped at the last photo on the wall. There laid a photo of him at the docks of Newark before his first deployment, playing around with both of his brothers, Stanford and Stanley Pines. He sighed and walked away.\n\nAs he sat down with his wife Angelica and turned to the TV where an ad of “Norton For Governor” was on, he received a call on his cell phone, which Angelica was playing Candy Smasher on. He took the phone back and answered it."
  CAL_MILITARY.1.a:0 "“This is Sherman Pines... Governor Green?!” "
  
- CAL_MILITARY.6.t:0 "Recalled to Service"
- CAL_MILITARY.6.d:0 "“You want me to command the National Guard?”\n\n“Not just them,” said Governor Green in his office in Sacramento, “Several army officers and even the Marines at Fort Pendleton say they’ll stay in California instead of heading East if you assume control. Any hopes to protecting California and restoring the US rest on you returning to service.”\n\nWith Norton only days away from assuming control as the new Governor of California, the outgoing Gerald Green was making sure California was ready with some sane leadership. If war broke out, having Pines fighting for California can bring many military units to side with them and the Hero of Mesopotamia. Likewise, Shermie knew him in control of the military was equally for internal security as any external one.\n\n“I know you called me here over Norton, Governor Green.”\n\n“Norton, yes. But more so, my and soon his Lieutenant Governor, Hector Diaz-Guzman. Have you ever met the man before?” asked Green.\n\n“We talked on the elevator ride up here, actually. He remembered meeting me, right before Nixon pinned a medal on me. Not sure why he was there in the White House. I assumed he was Secret Service. Very young to be one at the time, though.”\n\n“He’s a former, hopefully, agent. I’m not sure which Alphabet Agency and I pulled every connection in Washington before and after the Kerfuffle. With his heavy clout in the South, I’m just as worried about him as this Emperor of ours. But still. We will all need you, General Pines. Do you accept?”\n\nHe thought about it, remembering he will now be facing off against Oregon, where his brother and grandchildren were.\n\n“I hope fighting doesn’t break out. Even in victory, we won’t win.”"
- CAL_MILITARY.6.a:0 "“With you, who would dare oppose California?”" 
+ CAL_MILITARY.6.t:0 "Elevator Music"
+ CAL_MILITARY.6.d:0 "“Wait, wait! Hold that door!”\n\nWearing his old and now tight formal uniform, Shermie rushed over to the elevator as a hand stuck out to hold the door. He rushed inside as it closed and took a moment to catch his breath.\n\n“Thanks for that...”\n\n“Of course. General Pines, I assume?” asked the other man in the elevator.\n\nShermie dusted himself, “Why yes,” he held his hand out to him, “General Sherman Filbrick Pines. Retired, but from how things are going, that may no longer be the case.\n\n“California could certainly use you,” he shook his hand, “Lieutenant Governor Hector Diaz-Guzman.”\n\n“Lieutenant Governor! It’s a pleasure to finally meet you in person. Will you be joining Governor Green and I?”\n\nHector smiled but shook his head, “I must attend to other matters. Still, it's good to meet you again, actually. You have certainly changed a lot from the young Lieutenant who was nervously awaiting to be pinned the Medal of Honor by Nixon.”\n\nShermie looked at him, thinking for a moment. He then remembered, mildly shocked, “Why yes, you were the one who offered me that cup of water! That was a long time ago.” Shermie gave him another look, “You certainly aged better?”\n\n“Perks of my old trade.”\n\n“And that was?”\n\nThe elevator opened up.\n\n“Perhaps another time, General Pines.”"
+ CAL_MILITARY.6.a:0 "“Yes... another time.”"
+ 
+ CAL_MILITARY.7.t:0 "Recalled to Service"
+ CAL_MILITARY.7.d:0 "“You want me to command the National Guard?”\n\n“Not just them,” said Governor Green in his office in Sacramento, “Several army officers and even the Marines at Fort Pendleton say they’ll stay in California instead of heading East if you assume control. Any hopes to protecting California and restoring the US rest on you returning to service.”\n\nWith Norton only days away from assuming control as the new Governor of California, the outgoing Gerald Green was making sure California was ready with some sane leadership. If war broke out, having Pines fighting for California can bring many military units to side with them and the Hero of Mesopotamia. Likewise, Shermie knew him in control of the military was equally for internal security as any external one.\n\n“I know you called me here over Norton, Governor Green.”\n\n“Norton, yes. But more so, my and soon his Lieutenant Governor, Hector Diaz-Guzman. Have you ever met the man before?” asked Green.\n\n“We talked on the elevator ride up here, actually. He remembered meeting me, right before Nixon pinned a medal on me. Not sure why he was there in the White House. I assumed he was Secret Service. Very young to be one at the time, though.”\n\n“He’s a former, hopefully, agent. I’m not sure which alphabet agency and I pulled every connection in Washington before and after the Kerfuffle. With his heavy clout in the South, I’m just as worried about him as this Emperor of ours. But still. We will all need you, General Pines. Do you accept?”\n\nHe thought about it, remembering he will now be facing off against Oregon, where his brother and grandchildren were.\n\n“I hope fighting doesn’t break out. Even in victory, we won’t win.”"
+ CAL_MILITARY.7.a:0 "“With you, who would dare oppose California?”" 
  
  CAL_MILITARY.2.t:0 "To the shores of California"
  CAL_MILITARY.2.d:0 "“Stay down and be quiet!” Emily said to her lieutenant and sergeant.\n\n“We been coop up in that container for nearly a week, Major. Have you smelled Adams?”\n\n“If the Pentagon caught your scent, Charlie, they think it’s a chemical attack and nuke us.”\n\nEmily chuckled a bit, “Well, if we can make contact with General Pines, he can bail our asses out. Yours’ a second time Adams.”\n\n“Copy that, Major.”\n\nThe three of them sneaked their way to the gangway on the cargo ship to the docks of San Diego below. As they stepped on dry land, a swarm of vehicles marked “I.B.I.” surrounded them as helicopters flew above head. Agents quickly stepped out and raised their weapons as their commander walked up to them.\n\n“Major Emily Pines. 4th Marine Engineering Battalion, am I correct,” asked Hector Diaz-Guzman.\n\n“That’s correct.” She said, hands raised, “We’re here to fight for California and General Pines!”\n\n“Oh don’t worry,” he waved his agents to stand down, “We caught word of that a few days ago,” Hector chuckled, “That’s some journey. I’d half expect you simply have your marines take control of the ship.”\n\n“My marines are best the Corps has to offer. We're engineers, not pirates. That’s what the Navy’s for.”\n\n“I don’t doubt you, Major. Come with me, your father has been awaiting you all week at Fort Pendleton. Your subordinates can work with my agents to get your men treated,” Hector grabbed something from the van and tossed it to Emily’s XOs, “This should keep them busy.”\n\n“Awesome, crayons!” said Charlie.\n\nEmily looked at Hector with annoyed disbelief."
@@ -169,10 +174,84 @@
  CAL_fleet_event.1.e:0 "Whats the condition of our dear "President"?"
  
  CAL_fleet_event.2.t:0 "Adrian Levi Curtis' Pride"
- CAL_fleet_event.2.d:0 "The newest aircraft carrier in the US Navy, the USS Adrian Levi Curtis was originally a "gift" from Congress when everyone thought President Curtis succeeded in getting the Philippines to vote for Union Admission. (They voted 89% against, with many poll takers having promptly disappeared since then). Though more advance than the old and famed Halsey Class Aircraft Carrier, the ship needs new parts to maintain, and all of those parts were stored and shipped from the East Coast.\n\nBut it was Northwest of California that designed her and could build new parts. For a big trade, we could take the ship off their hands and run it ourselves. The massive shipment in food, fuel, and munitions will keep the fleet secure for weeks to come. Hopefully, the situation in the United States would have changed for the better."
+ CAL_fleet_event.2.d:0 "The newest aircraft carrier in the US Navy, the USS Adrian Levi Curtis was originally a "gift" from Congress when everyone thought President Curtis succeeded in getting the Philippines to vote for Union Admission. (They voted 89% against, with many poll takers having promptly disappeared since then). Though more advance than the old and famed Halsey Class Aircraft Carrier, the ship needs new parts to maintain, and all of those parts were stored and shipped from the East Coast.\n\nBut it was Northwest of California that designed her and could build new parts. For a big trade, we could take the ship and her escorts off their hands and run it ourselves. The massive shipment in food, fuel, and munitions will keep the fleet secure for weeks to come. Hopefully, the situation in the United States would have changed for the better."
  CAL_fleet_event.2.a:0 "Having this ship is a blow to Curtis and Trembley"
  CAL_fleet_event.2.b:0 "Let's keep our options on such a commitment."
  
  ######################################################
  ######################################################
  ######################################################
+ 
+ CAL_CONTACT.1.t:0 "Rallies and Mysteries"
+ CAL_CONTACT.1.d:0 ""
+ CAL_CONTACT.1.a:0 "He... knew I was Mewman?"
+ 
+ CAL_CONTACT.2.t:0 "Diplomatic Immunity"
+ CAL_CONTACT.2.d:0 ""
+ CAL_CONTACT.2.a:0 "Wait... what?!"
+ 
+ CAL_CONTACT.3.t:0 "Looking Our Best"
+ CAL_CONTACT.3.d:0 ""
+ CAL_CONTACT.3.a:0 ""
+ 
+ CAL_CONTACT.4.t:0 "First Contact"
+ CAL_CONTACT.4.d:0 ""
+ CAL_CONTACT.4.a:0 ""
+ 
+ CAL_CONTACT.5.t:0 "A Stroll through the Past"
+ CAL_CONTACT.5.d:0 ""
+ CAL_CONTACT.5.a:0 "The secrets we have..."
+ 
+ ######################################################
+ ######################################################
+ ######################################################
+ 
+ CAL_FRITZ.0.t:0 "The Fritz?"
+ CAL_FRITZ.0.d:0 ""
+ CAL_FRITZ.0.a:0 "We need to get ready for this!"
+ 
+ CAL_FRITZ.1.t:0 "Patent Infringement"
+ CAL_FRITZ.1.d:0 ""
+ CAL_FRITZ.1.a:0 "Ignore the crazy lady from the Brainasium..."
+ CAL_FRITZ.1.b:0 "Pay the royalties, we can't afford the scandal!"
+ 
+ CAL_FRITZ.2.t:0 "Commission Heist"
+ CAL_FRITZ.2.d:0 ""
+ CAL_FRITZ.2.a:0 ""
+ 
+ CAL_FRITZ.3.t:0 "Semper Magicis!"
+ CAL_FRITZ.3.d:0 ""
+ CAL_FRITZ.3.a:0 ""
+ 
+ CAL_FRITZ.4.t:0 "Butterfly Interceptions"
+ CAL_FRITZ.4.d:0 ""
+ CAL_FRITZ.4.a:0 ""
+ 
+ CAL_FRITZ.5.t:0 "Taking Candy from a Princess"
+ CAL_FRITZ.5.d:0 ""
+ CAL_FRITZ.5.a:0 ""
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ ######################################################
+ ######################################################
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
