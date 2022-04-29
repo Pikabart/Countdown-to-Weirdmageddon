@@ -1265,14 +1265,14 @@
 						has_country_flag = cal_four_corner_weaken
 					}
 					random_list = {
-						30 = { country_event = CAL_everett_event.2 }
-						70 = { country_event = CAL_everett_event.3 }
+						35 = { country_event = CAL_everett_event.2 }
+						65 = { country_event = CAL_everett_event.3 }
 					}
 				}
 				ELSE = {
 					random_list = {
-						45 = { country_event = CAL_everett_event.2 }
-						55 = { country_event = CAL_everett_event.3 }
+						50 = { country_event = CAL_everett_event.2 }
+						50 = { country_event = CAL_everett_event.3 }
 					}
 				}
 			}
@@ -1305,14 +1305,14 @@
 						has_country_flag = cal_four_corner_weaken
 					}
 					random_list = {
-						30 = { country_event = CAL_everett_event.5 }
-						70 = { country_event = CAL_everett_event.6 }
+						35 = { country_event = CAL_everett_event.5 }
+						65 = { country_event = CAL_everett_event.6 }
 					}
 				}
 				ELSE = {
 					random_list = {
-						45 = { country_event = CAL_everett_event.5 }
-						55 = { country_event = CAL_everett_event.6 }
+						50 = { country_event = CAL_everett_event.5 }
+						50 = { country_event = CAL_everett_event.6 }
 					}
 				}
 			}
@@ -1346,14 +1346,14 @@
 						has_country_flag = cal_four_corner_weaken
 					}
 					random_list = {
-						30 = { country_event = CAL_everett_event.8 }
-						70 = { country_event = CAL_everett_event.9 }
+						35 = { country_event = CAL_everett_event.8 }
+						65 = { country_event = CAL_everett_event.9 }
 					}
 				}
 				ELSE = {
 					random_list = {
-						45 = { country_event = CAL_everett_event.8 }
-						55 = { country_event = CAL_everett_event.9 }
+						50 = { country_event = CAL_everett_event.8 }
+						50 = { country_event = CAL_everett_event.9 }
 					}
 				}
 			}
@@ -2848,7 +2848,13 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_IBI_focus.0.t"
-			country_event = CAL_IBI.0
+			#country_event = CAL_IBI.0
+			if = {
+				limit = {has_dlc = "La Resistance"}
+				create_intelligence_agency = yes
+				upgrade_intelligence_agency = upgrade_form_department
+			}
+			else = { add_ideas = CAL_no_la_resistance_0}
 		}
 		
 		ai_will_do = {

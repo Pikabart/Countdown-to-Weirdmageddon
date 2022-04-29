@@ -19,7 +19,11 @@
  
  ######################################################
  #2
- CAL_TREMBLEY.2.t:0 "The Cascadian Standoff!"
+ CAL_TREMBLEY.1.t:0 "The Cascadian Standoff!\nPart 1"
+ CAL_TREMBLEY.1.d:0 "Weird stuff going on up there"
+ CAL_TREMBLEY.1.a:0 "Rush troops in, we must protect Northern California!"
+ 
+ CAL_TREMBLEY.2.t:0 "The Cascadian Standoff!\nPart 2"
  CAL_TREMBLEY.2.d:0 "We're getting word that Federal Government agents are appearing in Southern Oregon and are taking control of key government and military posts! Already, we saw movement of the Oregon National Guard to counter them and we now fear fighting might break out. If this agency that we have learned is known as the Federal Paranormal Investigations continues to expand its occupation, they might spill into California and we could suddenly face a full war!"
  CAL_TREMBLEY.2.a:0 "Rush troops in, we must protect Northern California!"
  
@@ -31,7 +35,7 @@
  CAL_ELECTION.1.a:0 ""
  
  CAL_ELECTION.2.t:0 "Imperial Governor"
- CAL_ELECTION.2.d:0 ""
+ CAL_ELECTION.2.d:0 "Norton has won!"
  CAL_ELECTION.2.a:0 "God Save Norton and the California Republic!"
  
  ######################################################
@@ -79,11 +83,22 @@
  
  CAL_everett_event.11.t:0 "Texas Refuses Us!"
  CAL_everett_event.11.d:0 ""
- CAL_everett_event.11.a:0 "Forward!"
+ CAL_everett_event.11.a:0 "Then here we cross the Rio Grande!"
  
  CAL_everett_event.12.t:0 "Texas Yields to our Taxes"
  CAL_everett_event.12.d:0 ""
  CAL_everett_event.12.a:0 "California reigns supreme!" 
+ 
+ CAL_everett_war_event.1.a:0 "Utah has surrendered to the Imperial Californian Repuiblic!"
+ CAL_everett_war_event.2.a:0 "Arizona has surrendered to the Imperial Californian Repuiblic!"
+ CAL_everett_war_event.3.a:0 "New Mexico has surrendered to the Imperial Californian Repuiblic!"
+ CAL_everett_war_event.4.a:0 "Colorado has surrendered to the Imperial Californian Repuiblic!"
+ CAL_everett_war_event.5.a:0 "The Republic of Texas and her allies has surrendered to the Imperial Californian Repuiblic!"
+ 
+ CAL_everett_war_event.6.t:0 "Mexico has Surrendered!"
+ CAL_everett_war_event.6.d:0 "Given Mexico's military state compared to California or Texas, let alone the US, it was no surprice we squashed the Mexicans once more. Still, the fact remains as far as most are concerns, we caused this war and to most, Emperor Norton has betrayed his promise to defend Mexico. We're trying to frame this in as postive light as we can, but this will take a long time."
+ CAL_everett_war_event.6.a:0 "But, but... the Emperor Protects!"
+ CAL_everett_war_event.6.b:0 "Mexico is now under the Imperial Californian Repuiblic!\nThe Emperor Protects!"
  
 
  ######################################################

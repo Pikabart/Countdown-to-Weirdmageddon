@@ -38,6 +38,10 @@ on_actions = {
 				array = GLOBAL.earth_dimension_countries
 				value = EUR.id
 			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = WPI.id
+			}
 			##############################
 			add_to_array = {
 				array = GLOBAL.earth_dimension_countries
@@ -66,7 +70,19 @@ on_actions = {
 			}
 			add_to_array = {
 				array = GLOBAL.earth_dimension_countries
+				value = MON.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
 				value = WYM.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = NDK.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = SDK.id
 			}
 			add_to_array = {
 				array = GLOBAL.earth_dimension_countries
@@ -74,7 +90,19 @@ on_actions = {
 			}
 			add_to_array = {
 				array = GLOBAL.earth_dimension_countries
+				value = NEB.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = IWA.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
 				value = KAN.id
+			}
+			add_to_array = {
+				array = GLOBAL.earth_dimension_countries
+				value = MIS.id
 			}
 			add_to_array = {
 				array = GLOBAL.earth_dimension_countries

@@ -4,6 +4,7 @@
 
 add_namespace = CAL_rocky_guard
 add_namespace = CAL_everett_event
+add_namespace = CAL_everett_war_event
 add_namespace = CAL_birnbaum_event
 
 
@@ -204,7 +205,7 @@ country_event = { # Demands on Texas
 	is_triggered_only = yes
 
 
-	immediate = {}
+	immediate = {give_guarantee = MEX}
 
 	option = {
 		name = CAL_everett_event.10.a
@@ -229,10 +230,10 @@ country_event = { #Texas Refuse
 
 	option = {
 		name = CAL_everett_event.11.a
-		create_wargoal = { type = puppet_wargoal_focus target = TEX }
-		create_wargoal = { type = puppet_wargoal_focus target = OKL }
-		create_wargoal = { type = puppet_wargoal_focus target = ARK }
-		create_wargoal = { type = puppet_wargoal_focus target = LOU }
+		declare_war_on = { target = TEX type = annex_everything }
+		declare_war_on = { target = OKL type = annex_everything }		
+		declare_war_on = { target = ARK type = annex_everything }
+		declare_war_on = { target = LOU type = annex_everything }
 	}
 }
 country_event = { #Texas submits
@@ -253,6 +254,79 @@ country_event = { #Texas submits
 		puppet = OKL
 		puppet = ARK
 		puppet = LOU
+	}
+}
+
+######### Hidden Events for White Peace, triggered through ON_ACTION
+
+country_event = { # annex events - UTAH
+	id = CAL_everett_war_event.1
+	title = CAL_everett_war_event.1.t
+	desc = CAL_everett_war_event.1.d
+	picture = GFX_report_event_generic_factory
+	is_triggered_only = yes
+	hidden = yes
+	is_triggered_only = yes 
+	fire_only_once = yes  
+	immediate = { white_peace = { tag = UTH message = CAL_everett_war_event.1.a } puppet = UTH }
+}
+
+country_event = { # annex events - ARIZONA
+	id = CAL_everett_war_event.2
+	title = CAL_everett_war_event.2.t
+	desc = CAL_everett_war_event.2.d
+	picture = GFX_report_event_generic_factory
+	hidden = yes
+	is_triggered_only = yes 
+	fire_only_once = yes  
+	immediate = { white_peace = { tag = ARZ message = CAL_everett_war_event.2.a } puppet = ARZ }
+}
+
+country_event = { # annex events - NEW MEXICO
+	id = CAL_everett_war_event.3
+	title = CAL_everett_war_event.3.t
+	desc = CAL_everett_war_event.3.d
+	picture = GFX_report_event_generic_factory
+	hidden = yes
+	is_triggered_only = yes 
+	fire_only_once = yes  
+	immediate = { white_peace = { tag = NMX message = CAL_everett_war_event.3.a } puppet = NMX }
+
+}
+
+country_event = { # annex events - COLORADO
+	id = CAL_everett_war_event.4
+	title = CAL_everett_war_event.4.t
+	desc = CAL_everett_war_event.4.d
+	picture = GFX_report_event_generic_factory
+	hidden = yes
+	is_triggered_only = yes 
+	fire_only_once = yes  
+	immediate = { white_peace = { tag = CRD message = CAL_everett_war_event.4.a } puppet = CRD }
+}
+
+country_event = { # annex events - TEXAS
+	id = CAL_everett_war_event.5
+	title = CAL_everett_war_event.5.t
+	desc = CAL_everett_war_event.5.d
+	picture = GFX_report_event_generic_factory
+	hidden = yes
+	is_triggered_only = yes 
+	fire_only_once = yes  
+	immediate = { white_peace = { tag = TEX message = CAL_everett_war_event.5.a } puppet = TEX puppet = OKL puppet = ARK puppet = LOU }
+}
+
+country_event = { # annex events - MEXICO
+	id = CAL_everett_war_event.6
+	title = CAL_everett_war_event.6.t
+	desc = CAL_everett_war_event.6.d
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes 
+	fire_only_once = yes  
+	immediate = { white_peace = { tag = MEX message = CAL_everett_war_event.6.b } puppet = MEX }
+	option = {
+		name = CAL_everett_war_event.6.a
 	}
 }
 

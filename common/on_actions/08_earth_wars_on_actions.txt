@@ -1,0 +1,51 @@
+on_actions = {
+	
+	#Lady Everett's Liberations
+	on_capitulation = {##################
+		effect = {
+			if = {
+				limit = { # Californian Victory Over UTAH
+					ROOT = { original_tag = UTH }
+					FROM = { OR = { original_tag = CAL original_tag = SOC original_tag = NEV original_tag = UTH original_tag = CRD original_tag = ARZ original_tag = NMX  } }
+				}
+				FROM = { CAL = { country_event = CAL_everett_war_event.1  } }
+			}
+			else_if = {
+				limit = { # Californian Victory Over ARIZONA
+					ROOT = { original_tag = ARZ }
+					FROM = { OR = { original_tag = CAL original_tag = SOC original_tag = NEV original_tag = UTH original_tag = CRD original_tag = ARZ original_tag = NMX  } }
+				}
+				FROM = { CAL = { country_event = CAL_everett_war_event.2  } }
+			}
+			else_if = {
+				limit = { # Californian Victory Over NEW MEXICO
+					ROOT = { original_tag = NMX }
+					FROM = { OR = { original_tag = CAL original_tag = SOC original_tag = NEV original_tag = UTH original_tag = CRD original_tag = ARZ original_tag = NMX  } }
+				}
+				FROM = { CAL = { country_event = CAL_everett_war_event.3  } }
+			}
+			else_if = {
+				limit = { # Californian Victory Over COLORADO
+					ROOT = { original_tag = CRD }
+					FROM = { OR = { original_tag = CAL original_tag = SOC original_tag = NEV original_tag = UTH original_tag = CRD original_tag = ARZ original_tag = NMX  } }
+				}
+				FROM = { CAL = { country_event = CAL_everett_war_event.4  } }
+			}
+			else_if = {
+				limit = { # Californian Victory Over TEXAS
+					ROOT = { original_tag = TEX }
+					FROM = { OR = { original_tag = CAL original_tag = SOC original_tag = NEV original_tag = UTH original_tag = CRD original_tag = ARZ original_tag = NMX original_tag = MEX } }
+				}
+				FROM = { CAL = { country_event = CAL_everett_war_event.5  } }
+			}
+			else_if = {
+				limit = { # Californian Victory Over MEXICO
+					ROOT = { original_tag = MEX }
+					FROM = { OR = { original_tag = CAL original_tag = SOC original_tag = NEV original_tag = UTH original_tag = CRD original_tag = ARZ original_tag = NMX original_tag = TEX } }
+				}
+				FROM = { CAL = { country_event = CAL_everett_war_event.6  } }
+			}
+		}
+	}##################
+	
+} ## END OF FILE ##
