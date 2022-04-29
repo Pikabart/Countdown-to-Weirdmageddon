@@ -66,7 +66,7 @@ country_event = { # What the heck is going on up there?
 	}
 	
 	option = { 
-		name = CAL_TREMBLEY.2.a
+		name = CAL_TREMBLEY.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 	}	
 }
@@ -233,7 +233,7 @@ country_event = { # Shermie Returns to Service
 
 	option = {
 		name = CAL_MILITARY.1.a
-		country_event = CAL_MILITARY.6
+		country_event = { id = CAL_MILITARY.6 days = 6}
 	}
 }
 country_event = { # Emily's Marines
@@ -391,6 +391,25 @@ country_event = {
 
 	option = {
 		name = CAL_MILITARY.6.a	
+		country_event = { id = CAL_MILITARY.7 days = 6}
+	}
+
+}
+
+country_event = {
+	id = CAL_MILITARY.7 # third part to event 1
+	title = CAL_MILITARY.7.t
+	desc = CAL_MILITARY.7.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {}
+
+	option = {
+		name = CAL_MILITARY.7.a	
 		army_experience = 100
 	}
 
@@ -593,7 +612,7 @@ country_event = {
 	immediate = {}
 
 	option = {
-		name = CAL_BIB_event.2.a
+		name = CAL_BIB_event.1.a
 	}
 }
 
@@ -657,7 +676,7 @@ country_event = {
 	}
 }
 
-country_event = {
+country_event = { # THIS IS A MEWNI EVENT THEY WILL GET FOR CAL_CEF.0
 	id = CAL_CEF.1
 	title = CAL_CEF.1.t
 	desc = CAL_CEF.1.d
@@ -686,13 +705,14 @@ country_event = {
 				transfer_state = 430
 			}
 		}
-		ai_chance = { factor = 10 }
+		ai_chance = { factor = 100 }
 	}
 	option = {
 		name = CAL_CEF.1.b
 		ai_chance = { factor = 0 }
 		custom_effect_tooltip = CAL_CEF.1.tooltip
 		set_country_flag = cali_no_aid
+		set_global_flag = GLOBAL_cali_no_aid
 		CAL = { country_event = { id = CAL_CEF_DECLINE.1 days = 1 } }
 	}
 }
@@ -709,15 +729,21 @@ country_event = {
 	option = {
 		name = CAL_CEF_DECLINE.1.a
 		ai_chance = { factor = 0 }
-		trigger = { TAG = MEW }
 		custom_effect_tooltip = CAL_CEF.1.tooltip
 		set_country_flag = cali_no_aid
 	}
 	
 	option = {
 		name = CAL_CEF_DECLINE.1.b
-		ai_chance = { factor = 0 }
-		trigger = { TAG = CAL }
+		ai_chance = { factor = 100 }
+		MEW = { 
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 100
+				producer = CAL
+			} 
+		}
+		set_country_flag = cali_no_aid
 	}
 }
 
@@ -811,7 +837,7 @@ country_event = { # For Focus CAL_magic.5 # Emily's transformation
 	}
 }
 
-country_event = { # For Focus CAL_magic.6 # Borrow Star's wand
+country_event = { # For Focus CAL_magic.5 # Emily's transformation part 2
 	id = CAL_FRITZ.4 
 	title = CAL_FRITZ.4.t
 	desc = CAL_FRITZ.4.d
@@ -822,6 +848,20 @@ country_event = { # For Focus CAL_magic.6 # Borrow Star's wand
 
 	option = {
 		name = CAL_FRITZ.4.a
+	}
+}
+
+country_event = { # For Focus CAL_magic.6 # Borrow Star's wand
+	id = CAL_FRITZ.5 
+	title = CAL_FRITZ.5.t
+	desc = CAL_FRITZ.5.d
+	picture = GFX_report_event_CEF
+	is_triggered_only = yes
+
+	immediate = {}
+
+	option = {
+		name = CAL_FRITZ.5.a
 		add_political_power = 150
 	}
 }
