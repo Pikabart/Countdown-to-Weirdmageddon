@@ -1,0 +1,25 @@
+﻿l_english:
+
+#########
+#generic#
+#########
+
+quality_troops_generic_warlord:0 "Military Emphasis: Quality"
+quality_troops_generic_warlord_desc:0 ""
+
+quantity_troops_generic_warlord:0 "Military Emphasis: Quantity"
+quantity_troops_generic_warlord_desc:0 ""
+
+priority_civillian_generic_warlord:0 "Economic Emphasis: Civilian"
+priority_civillian_generic_warlord_desc:0 ""
+
+priority_military_generic_warlord:0 "Economic Emphasis: Military"
+priority_military_generic_warlord_desc:0 ""
+
+modern_politics_generic_warlord:0 "Advancement Emphasis: Political"
+modern_politics_generic_warlord_desc:0 ""
+
+modern_warfare_generic_warlord:0 "Advancement Emphasis: Military"
+modern_warfare_generic_warlord_desc:0 ""
+
+

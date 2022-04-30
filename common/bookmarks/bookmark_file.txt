@@ -268,8 +268,15 @@ bookmarks = {
 			minor = yes
 		}
 		"DTH"={
-			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			history = "DTH_ANOTHER_DIMENSION_DESC"
 			minor = yes
+			ideas = {
+			}
+			focuses = {
+				DTH_nature_worship
+				DTH_janna_bannana
+				DTH_death_cult
+			}
 		}
 		"AVA"={
 			history = "OTHER_ANOTHER_DIMENSION_DESC"
