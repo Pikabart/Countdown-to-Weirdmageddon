@@ -2760,7 +2760,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_BIB.6.t"
-			country_event = CAL_IBI.5 
+			country_event = CAL_IBI.7 
 		}
 	}
 	
@@ -2823,7 +2823,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_hector.1.t"
-			country_event = CAL_IBI.6
+			country_event = CAL_IBI.8
 		}
 	}
 	
@@ -3158,6 +3158,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_For_Emperor.0.t"
+			country_event = CAL_FORTHEEMPEROR.1
 		}  
 	}
 	
@@ -3980,6 +3981,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_oregon_unite.1.t"
+			country_event = wus_unity_event.1
 		}
 	}
 	
@@ -4093,6 +4095,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_oregon_unite.6.t"
+			country_event = wus_unity_event.3
 		}
 	}
 	
@@ -4231,6 +4234,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_oregon_war.6.t"
+			declare_war_on = { target = ORE type = annex_everything }
 		}
 	}
 	

@@ -1,0 +1,41 @@
+﻿l_english:
+
+ #For Oregon events
+ 
+ #1
+ wus_unity_news.1.t:0 "Oregon and California Agree To Meet!"
+ wus_unity_news.1.d:0 ""
+ wus_unity_news.1.a:0 "Peace In Our Time!"
+ 
+ wus_unity_news.2.t:0 "THe Western US Is United Once More"
+ wus_unity_news.2.d:0 ""
+ wus_unity_news.2.a:0 "America is Back!"
+ 
+ wus_unity_news.3.t:0 "Canadian Christmas In July"
+ wus_unity_news.3.d:0 ""
+ wus_unity_news.3.a:0 "Canada was very good this year!"
+ 
+ wus_unity_news.4.t:0 "Massive Interdimensional Invasion!"
+ wus_unity_news.4.d:0 ""
+ wus_unity_news.4.a:0 "Drive the Frogs Back!"
+
+ 
+ ######################################################
+ 
+ wus_unity_event.1.t:0 "Give Peace A Chance"
+ wus_unity_event.1.d:0 ""
+ wus_unity_event.1.a:0 "We're off to Victoria!"
+ 
+ wus_unity_event.3.t:0 "The Treaty of Victoria is Signed!"
+ wus_unity_event.3.d:0 ""
+ wus_unity_event.3.a:0 ""
+ 
+ wus_unity_event.2.t:0 "Santa Claus Came Early!"
+ wus_unity_event.2.d:0 ""
+ wus_unity_event.2.a:0 "De-Kerfuffling is a gift that keeps on giving!"
+ 
+ 
+ wus_unity_event.4.t:0 "What We Feared Has Passed..."
+ wus_unity_event.4.d:0 ""
+ wus_unity_event.4.a:0 "Amphibian Robot: Go F Yourself!"
+ 

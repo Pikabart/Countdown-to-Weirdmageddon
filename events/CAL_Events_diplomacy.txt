@@ -61,7 +61,7 @@ country_event = { # they submit
 	is_triggered_only = yes
 
 
-	immediate = {}
+	immediate = {set_country_flag = cal_flag_uth}
 
 	option = {
 		name = CAL_everett_event.3.a
@@ -127,7 +127,10 @@ country_event = { # they submit
 	is_triggered_only = yes
 
 
-	immediate = {}
+	immediate = {
+		set_country_flag = cal_flag_arz
+		set_country_flag = cal_flag_nmx
+	}
 
 	option = {
 		name = CAL_everett_event.6.a
@@ -187,7 +190,7 @@ country_event = { # they submit
 	is_triggered_only = yes
 
 
-	immediate = {}
+	immediate = {set_country_flag = cal_flag_crd}
 
 	option = {
 		name = CAL_everett_event.9.a
@@ -246,7 +249,7 @@ country_event = { #Texas submits
 	is_triggered_only = yes
 
 
-	immediate = {}
+	immediate = {set_country_flag = cal_flag_tex}
 
 	option = {
 		name = CAL_everett_event.12.a
@@ -268,7 +271,7 @@ country_event = { # annex events - UTAH
 	hidden = yes
 	is_triggered_only = yes 
 	fire_only_once = yes  
-	immediate = { white_peace = { tag = UTH message = CAL_everett_war_event.1.a } puppet = UTH }
+	immediate = { white_peace = { tag = UTH message = CAL_everett_war_event.1.a } puppet = UTH set_country_flag = cal_flag_uth}
 }
 
 country_event = { # annex events - ARIZONA
@@ -279,7 +282,7 @@ country_event = { # annex events - ARIZONA
 	hidden = yes
 	is_triggered_only = yes 
 	fire_only_once = yes  
-	immediate = { white_peace = { tag = ARZ message = CAL_everett_war_event.2.a } puppet = ARZ }
+	immediate = { white_peace = { tag = ARZ message = CAL_everett_war_event.2.a } puppet = ARZ set_country_flag = cal_flag_arz}
 }
 
 country_event = { # annex events - NEW MEXICO
@@ -290,7 +293,7 @@ country_event = { # annex events - NEW MEXICO
 	hidden = yes
 	is_triggered_only = yes 
 	fire_only_once = yes  
-	immediate = { white_peace = { tag = NMX message = CAL_everett_war_event.3.a } puppet = NMX }
+	immediate = { white_peace = { tag = NMX message = CAL_everett_war_event.3.a } puppet = NMX set_country_flag = cal_flag_nmx}
 
 }
 
@@ -302,7 +305,7 @@ country_event = { # annex events - COLORADO
 	hidden = yes
 	is_triggered_only = yes 
 	fire_only_once = yes  
-	immediate = { white_peace = { tag = CRD message = CAL_everett_war_event.4.a } puppet = CRD }
+	immediate = { white_peace = { tag = CRD message = CAL_everett_war_event.4.a } puppet = CRD set_country_flag = cal_flag_crd}
 }
 
 country_event = { # annex events - TEXAS
@@ -313,7 +316,7 @@ country_event = { # annex events - TEXAS
 	hidden = yes
 	is_triggered_only = yes 
 	fire_only_once = yes  
-	immediate = { white_peace = { tag = TEX message = CAL_everett_war_event.5.a } puppet = TEX puppet = OKL puppet = ARK puppet = LOU }
+	immediate = { white_peace = { tag = TEX message = CAL_everett_war_event.5.a } puppet = TEX puppet = OKL puppet = ARK puppet = LOU set_country_flag = cal_flag_tex}
 }
 
 country_event = { # annex events - MEXICO
@@ -324,7 +327,7 @@ country_event = { # annex events - MEXICO
 
 	is_triggered_only = yes 
 	fire_only_once = yes  
-	immediate = { white_peace = { tag = MEX message = CAL_everett_war_event.6.b } puppet = MEX }
+	immediate = { white_peace = { tag = MEX message = CAL_everett_war_event.6.b } puppet = MEX set_country_flag = cal_flag_tex}
 	option = {
 		name = CAL_everett_war_event.6.a
 	}
@@ -344,7 +347,7 @@ country_event = {
 	is_triggered_only = yes
 
 
-	immediate = {CAL = { add_to_faction = UTH }}
+	immediate = {CAL = { add_to_faction = UTH } set_country_flag = cal_flag_uth}
 
 	option = {
 		name = CAL_birnbaum_event.1.a
@@ -386,7 +389,7 @@ country_event = {
 	is_triggered_only = yes
 
 
-	immediate = {CAL = { add_to_faction = ARZ }}
+	immediate = {CAL = { add_to_faction = ARZ } set_country_flag = cal_flag_arz}
 
 	option = {
 		name = CAL_birnbaum_event.2.a
@@ -415,7 +418,7 @@ country_event = {
 	is_triggered_only = yes
 
 
-	immediate = {CAL = { add_to_faction = CRD }}
+	immediate = {CAL = { add_to_faction = CRD } set_country_flag = cal_flag_crd}
 
 	option = {
 		name = CAL_birnbaum_event.3.a
@@ -464,7 +467,7 @@ country_event = {
 	is_triggered_only = yes
 
 
-	immediate = {CAL = { add_to_faction = NMX }}
+	immediate = {CAL = { add_to_faction = NMX } set_country_flag = cal_flag_nmx}
 
 	option = {
 		name = CAL_birnbaum_event.4.a
@@ -589,6 +592,7 @@ country_event = {
 		CAL = { add_to_faction = TEX }
 		CAL = { add_to_faction = MEX }
 		add_ideas = CAL_pays_texas  #idea of big economic peently
+		set_country_flag = cal_flag_tex
 	}
 	option = {
 		name = CAL_birnbaum_event.7.b #California burdens
@@ -596,6 +600,7 @@ country_event = {
 		CAL = { add_to_faction = TEX }
 		CAL = { add_to_faction = MEX }
 		add_ideas = CAL_pays_texas_less  #idea of big economic peently
+		set_country_flag = cal_flag_tex
 	}
 
 }
@@ -678,6 +683,7 @@ country_event = {
 	option = {
 		name = CAL_birnbaum_event.9.a #California makes texas blinking
 		add_ideas = CAL_texas_blinks
+		set_country_flag = cal_flag_tex
 	}
 
 }
@@ -827,8 +833,86 @@ country_event = { #
 				}
 			}
 		}
-	
-	
+		TEX={
+			random_owned_controlled_state = {
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"US Mountaineers\" division_template = \"Rocky Mountain US Forces\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+			}
+		}
+		OKL={
+			random_owned_controlled_state = {
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+			}
+		}
+		ARK={
+			random_owned_controlled_state = {
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+			}
+		}
+		LOU={
+			random_owned_controlled_state = {
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+				create_unit = {
+						division = "name = \"National Guard\" division_template = \"National Guard\" start_experience_factor = 0.5"
+						owner = NMX
+				}
+			}
+		}
 	
 	}
 

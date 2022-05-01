@@ -1,0 +1,425 @@
+﻿###########################
+# Western US Unification  Events
+###########################
+
+add_namespace = wus_unity_news
+
+add_namespace = wus_unity_event
+
+news_event = { # Announce Unification plans
+	id = wus_unity_news.1
+	title = wus_unity_news.1.t
+	desc = wus_unity_news.1.d
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {	}
+	
+	option = {
+		name = wus_unity_news.1.a
+		ai_chance = { factor = 100 }		
+	}
+}
+
+news_event = { # The West Unites
+	id = wus_unity_news.2
+	title = wus_unity_news.2.t
+	desc = wus_unity_news.2.d
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {	}
+	
+	option = {
+		name = wus_unity_news.2.a
+		ai_chance = { factor = 100 }		
+	}
+}
+
+news_event = { # Canada Returns
+	id = wus_unity_news.3
+	title = wus_unity_news.3.t
+	desc = wus_unity_news.3.d
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {	}
+	
+	option = {
+		name = wus_unity_news.3.a
+		ai_chance = { factor = 100 }		
+	}
+}
+
+news_event = { # Amphibia Invades
+	id = wus_unity_news.4
+	title = wus_unity_news.4.t
+	desc = wus_unity_news.4.d
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {	}
+	
+	option = {
+		name = wus_unity_news.4.a
+		ai_chance = { factor = 100 }		
+	}
+}
+
+######################################################################################
+######################################################################################
+
+news_event = { # No Peace
+	id = wus_unity_news.5
+	title = wus_unity_news.5.t
+	desc = wus_unity_news.5.d
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {	}
+	
+	option = {
+		name = wus_unity_news.5.a
+		ai_chance = { factor = 100 }		
+	}
+}
+
+news_event = { # Norton Victory
+	id = wus_unity_news.6
+	title = wus_unity_news.6.t
+	desc = wus_unity_news.6.d
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {	}
+	
+	option = {
+		name = wus_unity_news.6.a
+		ai_chance = { factor = 100 }		
+	}
+}
+
+news_event = { # Trembley Victory
+	id = wus_unity_news.7
+	title = wus_unity_news.7.t
+	desc = wus_unity_news.7.d
+	picture = GFX_news_peace_arc_kerfuffle
+	
+	major = yes
+	is_triggered_only = yes
+	
+	immediate = {	}
+	
+	option = {
+		name = wus_unity_news.7.a
+		ai_chance = { factor = 100 }		
+	}
+}
+
+######################################################################################
+######################################################################################
+
+country_event = { # details of the event
+	id = wus_unity_event.1
+	title = wus_unity_event.1.t 
+	desc = wus_unity_event.1.d  
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = wus_unity_event.1.a
+		#country_event = { id = wus_unity_event.3 days = 10 }
+		news_event = { id = wus_unity_news.1 days = 2 }
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = { # canada is summoned
+	id = wus_unity_event.2
+	title = wus_unity_event.2.t 
+	desc = wus_unity_event.2.d  
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {        
+	}
+	
+	option = { 
+		name = wus_unity_event.2.a
+		news_event = { id = wus_unity_news.3 days = 2 }
+		country_event = { id = wus_unity_event.4 days = 20 }
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = { # Unification, this event handles unification
+	id = wus_unity_event.3
+	title = wus_unity_event.3.t 
+	desc = wus_unity_event.3.d  
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = { 
+		IF = {
+			limit = { CAL = { is_ai = NO } }
+			CAL = {
+				IF = { limit = { IDH = {is_in_faction_with = ORE} } annex_country = { target = IDH transfer_troops = yes } 
+				every_state = {  limit = { is_core_of = IDH} CAL = { add_state_core = PREV} IDH = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { WAS = {is_in_faction_with = ORE} } annex_country = { target = WAS transfer_troops = yes } 
+				every_state = {  limit = { is_core_of = WAS} CAL = { add_state_core = PREV} WAS = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { MON = {is_in_faction_with = ORE} } annex_country = { target = MON transfer_troops = yes } 
+				every_state = {  limit = { is_core_of = MON} CAL = { add_state_core = PREV} MON = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { WYM = {is_in_faction_with = ORE} } annex_country = { target = WYM transfer_troops = yes } 
+				every_state = {  limit = { is_core_of = WYM} CAL = { add_state_core = PREV} WYM = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { SDK = {is_in_faction_with = ORE} } annex_country = { target = SDK transfer_troops = yes } 
+				every_state = {  limit = { is_core_of = SDK} CAL = { add_state_core = PREV} SDK = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { NDK = {is_in_faction_with = ORE} } annex_country = { target = NDK transfer_troops = yes } 
+				every_state = {  limit = { is_core_of = NDK} CAL = { add_state_core = PREV} NDK = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { MIN = {is_in_faction_with = ORE} } annex_country = { target = MIN transfer_troops = yes } 
+				every_state = {  limit = { is_core_of = MIN} CAL = { add_state_core = PREV} MIN = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { NEB = {is_in_faction_with = ORE} } annex_country = { target = NEB transfer_troops = yes } 
+				every_state = {  limit = { is_core_of = NEB} CAL = { add_state_core = PREV} NEB = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { KAN = {is_in_faction_with = ORE} } annex_country = { target = KAN transfer_troops = yes } 
+				every_state = {  limit = { is_core_of = KAN} CAL = { add_state_core = PREV} KAN = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { IWA = {is_in_faction_with = ORE} } annex_country = { target = IWA transfer_troops = yes } 
+				every_state = {  limit = { is_core_of = IWA} CAL = { add_state_core = PREV} IWA = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { MIS = {is_in_faction_with = ORE} } annex_country = { target = MIS transfer_troops = yes } 
+				every_state = {  limit = { is_core_of = MIS} CAL = { add_state_core = PREV} MIS = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { TEX = {is_in_faction_with = CAL} } annex_country = { target = TEX transfer_troops = yes } 	
+				every_state = {  limit = { is_core_of = TEX} CAL = { add_state_core = PREV} TEX = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { OKL = {is_in_faction_with = CAL} } annex_country = { target = OKL transfer_troops = yes } 
+				every_state = {  limit = { is_core_of = OKL} CAL = { add_state_core = PREV} OKL = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { LOU = {is_in_faction_with = CAL} } annex_country = { target = LOU transfer_troops = yes } 	
+				every_state = {  limit = { is_core_of = LOU} CAL = { add_state_core = PREV} LOU = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { ARK = {is_in_faction_with = CAL} } annex_country = { target = ARK transfer_troops = yes } 	
+				every_state = {  limit = { is_core_of = ARK} CAL = { add_state_core = PREV} ARK = { remove_state_core = PREV remove_state_claim = PREV } } }
+			
+				annex_country = { target = ORE transfer_troops = yes }
+				every_state = {  limit = { is_core_of = ORE} CAL = { add_state_core = PREV} ORE = { remove_state_core = PREV remove_state_claim = PREV } }
+				set_cosmetic_tag = WUS
+			}
+		}
+		ELSE_IF = {
+			limit = { ORE = { is_ai = NO } }
+			ORE = {
+				IF = { limit = { UTH = {is_in_faction_with = CAL} } annex_country = { target = UTH transfer_troops = yes } 
+				every_state = {  limit = { is_core_of = UTH} ORE = { add_state_core = PREV} UTH = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { CRD = {is_in_faction_with = CAL} } annex_country = { target = CRD transfer_troops = yes } 
+				every_state = {  limit = { is_core_of = CRD} ORE = { add_state_core = PREV} CRD = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { ARZ = {is_in_faction_with = CAL} } annex_country = { target = ARZ transfer_troops = yes } 			
+				every_state = {  limit = { is_core_of = ARZ} ORE = { add_state_core = PREV} ARZ = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { NMX = {is_in_faction_with = CAL} } annex_country = { target = NMX transfer_troops = yes } 		
+				every_state = {  limit = { is_core_of = NMX} ORE = { add_state_core = PREV} NMX = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { TEX = {is_in_faction_with = CAL} } annex_country = { target = TEX transfer_troops = yes } 	
+				every_state = {  limit = { is_core_of = TEX} ORE = { add_state_core = PREV} TEX = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { OKL = {is_in_faction_with = CAL} } annex_country = { target = OKL transfer_troops = yes } 
+				every_state = {  limit = { is_core_of = OKL} ORE = { add_state_core = PREV} OKL = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { LOU = {is_in_faction_with = CAL} } annex_country = { target = LOU transfer_troops = yes } 	
+				every_state = {  limit = { is_core_of = LOU} ORE = { add_state_core = PREV} LOU = { remove_state_core = PREV remove_state_claim = PREV } } }
+				IF = { limit = { ARK = {is_in_faction_with = CAL} } annex_country = { target = ARK transfer_troops = yes } 	
+				every_state = {  limit = { is_core_of = ARK} ORE = { add_state_core = PREV} ARK = { remove_state_core = PREV remove_state_claim = PREV } } }
+				
+				annex_country = { target = CAL transfer_troops = yes }
+				every_state = {  limit = { is_core_of = CAL} ORE = { add_state_core = PREV} CAL = { remove_state_core = PREV remove_state_claim = PREV } }
+				set_cosmetic_tag = WUS
+			}
+		}
+		ELSE_IF = {
+			limit = { CAL = { is_ai = NO } ORE = { is_ai = NO } }
+			random_list = {
+				50 = {
+					CAL = {
+						set_cosmetic_tag = WUS
+						IF = { limit = { IDH = {is_in_faction_with = ORE} } annex_country = { target = IDH transfer_troops = yes } 
+						every_state = {  limit = { is_core_of = IDH} CAL = { add_state_core = PREV} IDH = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { WAS = {is_in_faction_with = ORE} } annex_country = { target = WAS transfer_troops = yes } 
+						every_state = {  limit = { is_core_of = WAS} CAL = { add_state_core = PREV} WAS = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { MON = {is_in_faction_with = ORE} } annex_country = { target = MON transfer_troops = yes } 
+						every_state = {  limit = { is_core_of = MON} CAL = { add_state_core = PREV} MON = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { WYM = {is_in_faction_with = ORE} } annex_country = { target = WYM transfer_troops = yes } 
+						every_state = {  limit = { is_core_of = WYM} CAL = { add_state_core = PREV} WYM = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { SDK = {is_in_faction_with = ORE} } annex_country = { target = SDK transfer_troops = yes } 
+						every_state = {  limit = { is_core_of = SDK} CAL = { add_state_core = PREV} SDK = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { NDK = {is_in_faction_with = ORE} } annex_country = { target = NDK transfer_troops = yes } 
+						every_state = {  limit = { is_core_of = NDK} CAL = { add_state_core = PREV} NDK = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { MIN = {is_in_faction_with = ORE} } annex_country = { target = MIN transfer_troops = yes } 
+						every_state = {  limit = { is_core_of = MIN} CAL = { add_state_core = PREV} MIN = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { NEB = {is_in_faction_with = ORE} } annex_country = { target = NEB transfer_troops = yes } 
+						every_state = {  limit = { is_core_of = NEB} CAL = { add_state_core = PREV} NEB = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { KAN = {is_in_faction_with = ORE} } annex_country = { target = KAN transfer_troops = yes } 
+						every_state = {  limit = { is_core_of = KAN} CAL = { add_state_core = PREV} KAN = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { IWA = {is_in_faction_with = ORE} } annex_country = { target = IWA transfer_troops = yes } 
+						every_state = {  limit = { is_core_of = IWA} CAL = { add_state_core = PREV} IWA = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { MIS = {is_in_faction_with = ORE} } annex_country = { target = MIS transfer_troops = yes } 
+						every_state = {  limit = { is_core_of = MIS} CAL = { add_state_core = PREV} MIS = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { TEX = {is_in_faction_with = CAL} } annex_country = { target = TEX transfer_troops = yes } 	
+						every_state = {  limit = { is_core_of = TEX} CAL = { add_state_core = PREV} TEX = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { OKL = {is_in_faction_with = CAL} } annex_country = { target = OKL transfer_troops = yes } 
+						every_state = {  limit = { is_core_of = OKL} CAL = { add_state_core = PREV} OKL = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { LOU = {is_in_faction_with = CAL} } annex_country = { target = LOU transfer_troops = yes } 	
+						every_state = {  limit = { is_core_of = LOU} CAL = { add_state_core = PREV} LOU = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { ARK = {is_in_faction_with = CAL} } annex_country = { target = ARK transfer_troops = yes } 	
+						every_state = {  limit = { is_core_of = ARK} CAL = { add_state_core = PREV} ARK = { remove_state_core = PREV remove_state_claim = PREV } } }
+					
+						annex_country = { target = ORE transfer_troops = yes }
+						every_state = {  limit = { is_core_of = ORE} CAL = { add_state_core = PREV} ORE = { remove_state_core = PREV remove_state_claim = PREV } }
+					}
+				}
+				50 = {
+					ORE = {
+						set_cosmetic_tag = WUS
+						IF = { limit = { UTH = {is_in_faction_with = CAL} } annex_country = { target = UTH transfer_troops = yes } 
+						every_state = {  limit = { is_core_of = UTH} ORE = { add_state_core = PREV} UTH = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { CRD = {is_in_faction_with = CAL} } annex_country = { target = CRD transfer_troops = yes } 
+						every_state = {  limit = { is_core_of = CRD} ORE = { add_state_core = PREV} CRD = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { ARZ = {is_in_faction_with = CAL} } annex_country = { target = ARZ transfer_troops = yes } 			
+						every_state = {  limit = { is_core_of = ARZ} ORE = { add_state_core = PREV} ARZ = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { NMX = {is_in_faction_with = CAL} } annex_country = { target = NMX transfer_troops = yes } 		
+						every_state = {  limit = { is_core_of = NMX} ORE = { add_state_core = PREV} NMX = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { TEX = {is_in_faction_with = CAL} } annex_country = { target = TEX transfer_troops = yes } 	
+						every_state = {  limit = { is_core_of = TEX} ORE = { add_state_core = PREV} TEX = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { OKL = {is_in_faction_with = CAL} } annex_country = { target = OKL transfer_troops = yes } 
+						every_state = {  limit = { is_core_of = OKL} ORE = { add_state_core = PREV} OKL = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { LOU = {is_in_faction_with = CAL} } annex_country = { target = LOU transfer_troops = yes } 	
+						every_state = {  limit = { is_core_of = LOU} ORE = { add_state_core = PREV} LOU = { remove_state_core = PREV remove_state_claim = PREV } } }
+						IF = { limit = { ARK = {is_in_faction_with = CAL} } annex_country = { target = ARK transfer_troops = yes } 	
+						every_state = {  limit = { is_core_of = ARK} ORE = { add_state_core = PREV} ARK = { remove_state_core = PREV remove_state_claim = PREV } } }
+						
+						annex_country = { target = CAL transfer_troops = yes }
+						every_state = {  limit = { is_core_of = CAL} ORE = { add_state_core = PREV} CAL = { remove_state_core = PREV remove_state_claim = PREV } }
+					}
+				}
+			}
+		}
+	}
+	
+	option = { 
+		name = wus_unity_event.3.a
+		news_event = { id = wus_unity_news.2 days = 2 }
+		country_event = { id = wus_unity_event.2 days = 10 }
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = { # Amphibia portal opens over LA
+	id = wus_unity_event.4
+	title = wus_unity_event.4.t 
+	desc = wus_unity_event.4.d  
+	picture = GFX_report_event_CTW #  change this later
+	
+	is_triggered_only = yes  
+	
+	fire_only_once = yes     #Can't happen again
+	
+	immediate = {  
+		hidden_effect = {
+		AMP = {
+			transfer_state = 5
+			add_state_core = 5
+			#SOCAL Invasion
+			transfer_state = 169
+			transfer_state = 191
+			transfer_state = 163
+			transfer_state = 172
+			transfer_state = 174
+			#NORCAL Invasion
+			transfer_state = 134
+			transfer_state = 139
+			transfer_state = 136
+			transfer_state = 172
+			load_oob = AMP_Invasion
+		}
+		AMP = {
+			169 = {
+				create_unit = { division = "name = \"Amphibian Battalion\" division_template = \"Amphibian Battalion\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Battalion\" division_template = \"Amphibian Battalion\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Battalion\" division_template = \"Amphibian Battalion\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+			}
+			191 = {
+				create_unit = { division = "name = \"Amphibian Battalion\" division_template = \"Amphibian Battalion\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+			}
+			163 = {
+				create_unit = { division = "name = \"Amphibian Battalion\" division_template = \"Amphibian Battalion\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+			}
+			172 = {
+				create_unit = { division = "name = \"Amphibian Battalion\" division_template = \"Amphibian Battalion\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+			}
+			174 = {
+				create_unit = { division = "name = \"Amphibian Battalion\" division_template = \"Amphibian Battalion\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+			}
+			134 = {
+				create_unit = { division = "name = \"Amphibian Battalion\" division_template = \"Amphibian Battalion\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+			}
+			139 = {
+				create_unit = { division = "name = \"Amphibian Battalion\" division_template = \"Amphibian Battalion\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+			}
+			136 = {
+				create_unit = { division = "name = \"Amphibian Battalion\" division_template = \"Amphibian Battalion\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+			}
+			172 = {
+				create_unit = { division = "name = \"Amphibian Battalion\" division_template = \"Amphibian Battalion\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+				create_unit = { division = "name = \"Amphibian Robot Force\" division_template = \"Amphibian Robot Force\" start_experience_factor = 0.5" owner = AMP }
+			}
+			declare_war_on = {
+				target = CAL
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = ORE
+				type = annex_everything
+			}
+		}
+		}
+	}
+	
+	option = { 
+		name = wus_unity_event.4.a
+		news_event = { id = wus_unity_news.4 days = 2 }
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
