@@ -4236,6 +4236,7 @@
 			custom_effect_tooltip = "CAL_oregon_war.6.t"
 			declare_war_on = { target = ORE type = annex_everything }
 		}
+		will_lead_to_war_with = ORE
 	}
 	
 	####################################################################

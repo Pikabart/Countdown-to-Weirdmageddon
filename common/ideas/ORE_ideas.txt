@@ -59,6 +59,33 @@ ideas = { #Entire file
 				trade_opinion_factor = 0.05
 			}
 		}
+		
+		ORE_texan_payments = {
+			picture = a
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+				consumer_goods_factor = 0.08
+			}
+		}
+		
+		ORE_against_east = {
+			picture = a
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			targeted_modifier = {
+				tag = EUS
+				attack_bonus_against = 0.05
+			}
+		}
 
 
 
