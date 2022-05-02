@@ -3114,7 +3114,7 @@
 	
 	focus = {
 		id = ORE_frontier_focus.0 
-		icon = GFX_focus_generic_little_entente
+		icon = GFX_goal_oregon_blacksheep_parson_northwest
 		x = -10
 		y = 2
 		cost = 1
@@ -3136,7 +3136,7 @@
 	}
 	focus = {
 		id = ORE_frontier_focus.1 
-		icon = GFX_goal_generic_propaganda
+		icon = GFX_goal_oregon_rally_to_west
 		x = -5
 		y = 1
 		cost = 1
@@ -3158,7 +3158,7 @@
 	}
 	focus = {
 		id = ORE_frontier_focus.2 
-		icon = GFX_focus_generic_manpower
+		icon = GFX_goal_oregon_frontier_spirit
 		x = 5
 		y = 1
 		cost = 1
@@ -3180,7 +3180,7 @@
 	}
 	focus = {
 		id = ORE_frontier_focus.3 
-		icon = GFX_focus_generic_military_mission
+		icon = GFX_goal_oregon_frontier_military
 		x = 0
 		y = 1
 		cost = 1
@@ -3728,7 +3728,7 @@
 	
 	focus = {
 		id = ORE_wicked_focus.1 
-		icon = GFX_goal_generic_war_with_comintern
+		icon = GFX_goal_magic_basics
 		x = -2
 		y = 1
 		cost = 1
@@ -3751,7 +3751,7 @@
 	
 	focus = {
 		id = ORE_wicked_focus.2 
-		icon = GFX_goal_demand_sudetenland
+		icon = GFX_goal_portable_magic
 		x = 2
 		y = 1
 		cost = 1
@@ -3890,7 +3890,7 @@
 	
 	focus = {
 		id = ORE_wicked_focus.8 
-		icon = GFX_goal_generic_political_pressure
+		icon = GFX_goal_will_of_beaver
 		x = -1
 		y = 1
 		cost = 1
@@ -3915,7 +3915,7 @@
 	
 	focus = {
 		id = ORE_wicked_focus.9 
-		icon = GFX_goal_generic_secret_weapon
+		icon = GFX_goal_boiling_cascadia
 		x = 1
 		y = 1
 		cost = 1
@@ -3942,7 +3942,7 @@
 	
 	focus = {
 		id = ORE_wicked_diverse.1 
-		icon = GFX_focus_POL_sanation_right
+		icon = GFX_goal_coven_track
 		x = 0
 		y = 1
 		cost = 1
@@ -3966,7 +3966,7 @@
 	
 	focus = {
 		id = ORE_wicked_diverse.2 
-		icon = GFX_focus_rom_royal_dictatorship
+		icon = GFX_goal_titan_all_trade
 		x = 0
 		y = 1
 		cost = 1
@@ -3989,7 +3989,7 @@
 	
 	focus = {
 		id = ORE_wicked_coven.1 
-		icon = GFX_goal_rhineland
+		icon = GFX_goal_coven_corps
 		x = 0
 		y = 1
 		cost = 1
@@ -4013,7 +4013,7 @@
 	
 	focus = {
 		id = ORE_wicked_coven.2 
-		icon = GFX_focus_usa_recruit_the_free_corps
+		icon = GFX_goal_president_coven
 		x = 0
 		y = 1
 		cost = 1
