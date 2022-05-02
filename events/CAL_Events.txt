@@ -835,6 +835,7 @@ country_event = { # For Focus CAL_magic.5 # Emily's transformation
 	option = {
 		name = CAL_FRITZ.3.a
 		add_political_power = 150
+		country_event = CAL_FRITZ.4 
 	}
 }
 
@@ -849,6 +850,22 @@ country_event = { # For Focus CAL_magic.5 # Emily's transformation part 2
 
 	option = {
 		name = CAL_FRITZ.4.a
+		country_event = CAL_FRITZ.6 
+	}
+}
+
+country_event = { # For Focus CAL_magic.6 # Emily's transformation part 3
+	id = CAL_FRITZ.6 
+	title = CAL_FRITZ.6.t
+	desc = CAL_FRITZ.6.d
+	picture = GFX_report_event_CEF
+	is_triggered_only = yes
+
+	immediate = {}
+
+	option = {
+		name = CAL_FRITZ.6.a
+		add_political_power = 150
 	}
 }
 
