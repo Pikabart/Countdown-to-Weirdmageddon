@@ -1088,7 +1088,7 @@
 	
 	focus = {
 		id = CAL_everett.0
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_position_armies
 		x = -12
 		y = 1
 		relative_position_id = CAL_assembly.0
@@ -1119,7 +1119,7 @@
 	
 	focus = {
 		id = CAL_everett.1
-		icon = GFX_goal_california
+		icon = GFX_focus_generic_manpower
 		x = -3
 		y = 1
 		relative_position_id = CAL_everett.0
@@ -1154,7 +1154,7 @@
 	
 	focus = {
 		id = CAL_everett.2
-		icon = GFX_goal_california
+		icon = GFX_goal_demand_sudetenland
 		x = 0
 		y = 1
 		relative_position_id = CAL_everett.0
@@ -1202,7 +1202,7 @@
 	
 	focus = {
 		id = CAL_everett.3
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_air_fighter
 		x = 3
 		y = 1
 		relative_position_id = CAL_everett.0
@@ -1241,7 +1241,7 @@
 	
 	focus = {
 		id = CAL_everett.4
-		icon = GFX_goal_california
+		icon = GFX_focus_generic_little_entente
 		x = 1
 		y = 1
 		relative_position_id = CAL_everett.1
@@ -1283,7 +1283,7 @@
 	
 	focus = {
 		id = CAL_everett.5
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_major_war
 		x = -1
 		y = 1
 		relative_position_id = CAL_everett.3
@@ -1325,7 +1325,7 @@
 	
 	focus = {
 		id = CAL_everett.6
-		icon = GFX_goal_california
+		icon = GFX_focus_eng_expose_the_belly_of_the_bear
 		x = 0
 		y = 2
 		relative_position_id = CAL_everett.2
@@ -1394,7 +1394,7 @@
 	
 	focus = {
 		id = CAL_birnbaum.0
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_position_armies
 		x = 12
 		y = 1
 		relative_position_id = CAL_assembly.0
@@ -1423,7 +1423,7 @@
 	
 	focus = {
 		id = CAL_birnbaum.1
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_major_alliance
 		x = 0
 		y = 1
 		relative_position_id = CAL_birnbaum.0
@@ -1455,7 +1455,7 @@
 	
 	focus = {
 		id = CAL_birnbaum.2
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_positive_trade_relations
 		x = -2 
 		y = 1
 		relative_position_id = CAL_birnbaum.1
@@ -1484,7 +1484,7 @@
 	
 	focus = { # Add Utah
 		id = CAL_birnbaum.3 
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_alliance
 		x = 2
 		y = 1
 		relative_position_id = CAL_birnbaum.1
@@ -1507,7 +1507,7 @@
 	
 	focus = { # Add Arizona
 		id = CAL_birnbaum.4
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_air_doctrine
 		x = -1
 		y = 1
 		relative_position_id = CAL_birnbaum.2
@@ -1530,7 +1530,7 @@
 	
 	focus = { # Add Colorado
 		id = CAL_birnbaum.5
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_army_motorized
 		x = -2
 		y = 1
 		relative_position_id = CAL_birnbaum.3
@@ -1554,7 +1554,7 @@
 	
 	focus = { # Add New Mexico
 		id = CAL_birnbaum.6
-		icon = GFX_goal_california
+		icon = GFX_focus_mex_redeem_aztlan
 		x = 1
 		y = 1
 		relative_position_id = CAL_birnbaum.3
@@ -1717,7 +1717,7 @@
 	
 	focus = {
 		id = CAL_complex.1
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_oil_refinery
 		x = -2
 		y = 1
 		relative_position_id = CAL_complex.0
@@ -1742,7 +1742,7 @@
 	
 	focus = {
 		id = CAL_complex.2
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 2
 		y = 1
 		relative_position_id = CAL_complex.0
@@ -1790,7 +1790,7 @@
 	
 	focus = {
 		id = CAL_complex.3
-		icon = GFX_goal_california
+		icon = GFX_focus_POL_sanation_right
 		x = 0
 		y = 1
 		relative_position_id = CAL_complex.1
@@ -1813,7 +1813,7 @@
 	
 	focus = {
 		id = CAL_complex.4
-		icon = GFX_goal_california
+		icon = GFX_goal_tfv_generic_tech_sharing
 		x = 0
 		y = 1
 		relative_position_id = CAL_complex.2
@@ -1836,7 +1836,7 @@
 	
 	focus = {
 		id = CAL_complex.5
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_war_with_comintern
 		x = 0
 		y = 1
 		relative_position_id = CAL_complex.3
@@ -1896,7 +1896,7 @@
 	
 	focus = {
 		id = CAL_complex.6
-		icon = GFX_goal_california
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		x = 0
 		y = 1
 		relative_position_id = CAL_complex.4
@@ -1967,7 +1967,7 @@
 	
 	focus = {
 		id = CAL_complex.7
-		icon = GFX_goal_california
+		icon = GFX_focus_spa_no_compromise_on_carlist_ideals
 		x = 0
 		y = 5
 		relative_position_id = CAL_complex.0
@@ -1993,7 +1993,7 @@
 	
 	focus = {
 		id = CAL_pacific.0
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_navy_battleship
 		x = -6
 		y = 2
 		relative_position_id = CAL_shermie.0
@@ -2027,7 +2027,7 @@
 	
 	focus = {
 		id = CAL_pacific.1
-		icon = GFX_goal_california
+		icon = GFX_focus_generic_little_entente
 		x = -1
 		y = 1
 		relative_position_id = CAL_pacific.0
@@ -2055,7 +2055,7 @@
 	
 	focus = {
 		id = CAL_pacific.2
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_radar
 		x = 1
 		y = 1
 		relative_position_id = CAL_pacific.0
@@ -2079,7 +2079,7 @@
 	
 	focus = {
 		id = CAL_pacific.3
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_navy_cruiser
 		x = 0
 		y = 1
 		relative_position_id = CAL_pacific.1
@@ -2114,7 +2114,7 @@
 	
 	focus = {
 		id = CAL_pacific.4
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_trade
 		x = 0
 		y = 1
 		relative_position_id = CAL_pacific.2
@@ -2139,7 +2139,7 @@
 	
 	focus = {
 		id = CAL_pacific.5
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_navy_doctrines_tactics
 		x = 0
 		y = 1
 		relative_position_id = CAL_pacific.3
@@ -2166,7 +2166,7 @@
 	
 	focus = {
 		id = CAL_pacific.6
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 0
 		y = 1
 		relative_position_id = CAL_pacific.4
@@ -2268,7 +2268,7 @@
 	
 	focus = {
 		id = CAL_pacific.7
-		icon = GFX_goal_california
+		icon = GFX_focus_SOV_reinforce_eastern_naval_bases
 		x = 0
 		y = 5
 		relative_position_id = CAL_pacific.0
@@ -2294,7 +2294,7 @@
 	
 	focus = {
 		id = CAL_army.0
-		icon = GFX_goal_california
+		icon = GFX_focus_generic_military_mission
 		x = 6
 		y = 2
 		relative_position_id = CAL_shermie.0
@@ -2319,7 +2319,7 @@
 	
 	focus = {
 		id = CAL_army.1
-		icon = GFX_goal_california
+		icon = GFX_focus_focus_fra_maquis
 		x = -1
 		y = 1
 		relative_position_id = CAL_army.0
@@ -2344,7 +2344,7 @@
 	
 	focus = {
 		id = CAL_army.2
-		icon = GFX_goal_california
+		icon = GFX_focus_chi_army_reform
 		x = 1
 		y = 1
 		relative_position_id = CAL_army.0
@@ -2367,7 +2367,7 @@
 	
 	focus = {
 		id = CAL_army.3
-		icon = GFX_goal_california
+		icon = GFX_focus_secret_rearmament
 		x = 0
 		y = 1
 		relative_position_id = CAL_army.1
@@ -2391,7 +2391,7 @@
 	
 	focus = {
 		id = CAL_army.4
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_build_tank
 		x = 0
 		y = 1
 		relative_position_id = CAL_army.2
@@ -2414,7 +2414,7 @@
 	
 	focus = {
 		id = CAL_army.5
-		icon = GFX_goal_california
+		icon = GFX_focus_CZE_military_aeronautical_institute
 		x = 0
 		y = 1
 		relative_position_id = CAL_army.3
@@ -2444,7 +2444,7 @@
 	
 	focus = {
 		id = CAL_army.6
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_army_doctrines
 		x = 0
 		y = 1
 		relative_position_id = CAL_army.4
@@ -2467,7 +2467,7 @@
 	
 	focus = {
 		id = CAL_army.7
-		icon = GFX_goal_california
+		icon = GFX_focus_spa_the_war_of_vengeance
 		x = 0
 		y = 5
 		relative_position_id = CAL_army.0
@@ -2495,7 +2495,7 @@
 	
 	focus = {
 		id = CAL_hector.0
-		icon = GFX_goal_california
+		icon = GFX_focus_BUL_the_return_of_ferdinand
 		x = 25
 		y = 1
 		relative_position_id = CAL_start.8
@@ -2525,7 +2525,7 @@
 	
 	focus = {
 		id = CAL_BIB.0
-		icon = GFX_goal_california
+		icon = GFX_focus_generic_strike_at_democracy1
 		x = 4
 		y = 1
 		relative_position_id = CAL_hector.0
@@ -2599,7 +2599,7 @@
 	
 	focus = {
 		id = CAL_BIB.1
-		icon = GFX_goal_california
+		icon = GFX_goal_molotov_ribbentrop_pact
 		x = -2
 		y = 1
 		relative_position_id = CAL_BIB.0
@@ -2622,7 +2622,7 @@
 	
 	focus = {
 		id = CAL_BIB.2
-		icon = GFX_goal_california
+		icon = GFX_focus_spr_masters_of_our_own_fate
 		x = 2
 		y = 1
 		relative_position_id = CAL_BIB.0
@@ -2649,7 +2649,7 @@
 	
 	focus = {
 		id = CAL_BIB.3
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_dangerous_deal
 		x = -1
 		y = 1
 		relative_position_id = CAL_BIB.1
@@ -2672,7 +2672,7 @@
 	
 	focus = {
 		id = CAL_BIB.4
-		icon = GFX_goal_california
+		icon = GFX_focus_spr_crush_the_revolution
 		x = 0
 		y = 2
 		relative_position_id = CAL_BIB.0
@@ -2718,7 +2718,7 @@
 	
 	focus = {
 		id = CAL_BIB.5
-		icon = GFX_goal_california
+		icon = GFX_goal_rhineland
 		x = 1
 		y = 1
 		relative_position_id = CAL_BIB.2
@@ -2746,7 +2746,7 @@
 	
 	focus = {
 		id = CAL_BIB.6
-		icon = GFX_goal_california
+		icon = GFX_goal_tripartite_pact
 		x = 0
 		y = 6
 		relative_position_id = CAL_hector.0
@@ -2769,7 +2769,7 @@
 	
 	focus = { 
 		id = CAL_BIB.7 
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_secret_weapon
 		x = 0
 		y = 1
 		relative_position_id = CAL_BIB.4
@@ -2809,7 +2809,7 @@
 	
 	focus = { 
 		id = CAL_hector.1 
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_wolf_pack
 		x = 0
 		y = 7
 		relative_position_id = CAL_hector.0
@@ -2834,7 +2834,7 @@
 	
 	focus = {
 		id = CAL_IBI_focus.0 
-		icon = GFX_goal_california
+		icon = GFX_focus_generic_self_management
 		x = -4
 		y = 1
 		relative_position_id = CAL_hector.0
@@ -2862,7 +2862,7 @@
 	
 	focus = {
 		id = CAL_IBI_focus.1
-		icon = GFX_goal_california
+		icon = GFX_focus_EST_era_of_silence
 		x = -2
 		y = 1
 		relative_position_id = CAL_IBI_focus.0
@@ -2901,7 +2901,7 @@
 	
 	focus = {
 		id = CAL_IBI_focus.2
-		icon = GFX_goal_california
+		icon = GFX_focus_TUR_ratify_the_six_arrows
 		x = 2
 		y = 1
 		relative_position_id = CAL_IBI_focus.0
@@ -2935,7 +2935,7 @@
 	
 	focus = {
 		id = CAL_IBI_focus.3
-		icon = GFX_goal_california
+		icon = GFX_focus_secret_rearmament
 		x = -1
 		y = 1
 		relative_position_id = CAL_IBI_focus.1
@@ -2984,7 +2984,7 @@
 	
 	focus = {
 		id = CAL_IBI_focus.4
-		icon = GFX_goal_california
+		icon = GFX_focus_usa_voter_registration_act
 		x = 0
 		y = 2
 		relative_position_id = CAL_IBI_focus.0
@@ -3038,7 +3038,7 @@
 	
 	focus = {
 		id = CAL_IBI_focus.5
-		icon = GFX_goal_california
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
 		x = 1
 		y = 1
 		relative_position_id = CAL_IBI_focus.2
@@ -3077,7 +3077,7 @@
 	
 	focus = {
 		id = CAL_IBI_focus.6
-		icon = GFX_goal_california
+		icon = GFX_focus_generic_treaty
 		x = 0
 		y = 1
 		relative_position_id = CAL_IBI_focus.4
@@ -3102,7 +3102,7 @@
 	
 	focus = {
 		id = CAL_IBI_focus.7
-		icon = GFX_goal_california
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		x = 0
 		y = 5
 		relative_position_id = CAL_hector.0
@@ -3129,7 +3129,7 @@
 	
 	focus = {
 		id = CAL_For_Emperor.0
-		icon = GFX_goal_california
+		icon = GFX_focus_eng_imperial_federation
 		x = 0
 		y = 6
 		relative_position_id = CAL_assembly.1
@@ -3167,7 +3167,7 @@
 	
 	focus = {
 		id = CAL_mewni.0
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_major_alliance
 		x = 0
 		y = 2
 		relative_position_id = CAL_For_Emperor.0
@@ -3221,7 +3221,7 @@
 	
 	focus = {
 		id = CAL_mewni.2
-		icon = GFX_goal_california
+		icon = GFX_focus_generic_military_dictatorship
 		x = 0
 		y = 1
 		relative_position_id = CAL_mewni.1
@@ -3265,7 +3265,7 @@
 	
 	focus = {
 		id = CAL_magic.0
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_CAS
 		x = -6
 		y = 1
 		relative_position_id = CAL_mewni.2
@@ -3321,7 +3321,7 @@
 	
 	focus = {
 		id = CAL_magic.2
-		icon = GFX_goal_california
+		icon = GFX_focus_SOV_builder_of_the_red_army
 		x = 3
 		y = 1
 		relative_position_id = CAL_magic.0
@@ -3349,7 +3349,7 @@
 	
 	focus = {
 		id = CAL_magic.3
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_construct_infrastructure
 		x = -1
 		y = 1
 		relative_position_id = CAL_magic.1
@@ -3380,7 +3380,7 @@
 	
 	focus = {
 		id = CAL_magic.4
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_forceful_treaty
 		x = 1
 		y = 1
 		relative_position_id = CAL_magic.1
@@ -3403,7 +3403,7 @@
 	
 	focus = {
 		id = CAL_magic.5
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_war_with_comintern
 		x = -1
 		y = 1
 		relative_position_id = CAL_magic.2
@@ -3426,7 +3426,7 @@
 	
 	focus = {
 		id = CAL_magic.6
-		icon = GFX_goal_california
+		icon = GFX_focus_wonderweapons
 		x = 1
 		y = 1
 		relative_position_id = CAL_magic.2
@@ -3477,7 +3477,7 @@
 	
 	focus = {
 		id = CAL_magic.8
-		icon = GFX_goal_california
+		icon = GFX_focus_generic_women_in_military
 		x = 0
 		y = 2
 		relative_position_id = CAL_magic.2
@@ -3507,7 +3507,7 @@
 	
 	focus = {
 		id = CAL_magic.9
-		icon = GFX_goal_california
+		icon = GFX_focus_POL_support_global_falangism
 		x = 0
 		y = 4
 		relative_position_id = CAL_magic.0
@@ -3535,7 +3535,7 @@
 	
 	focus = {
 		id = CAL_butterfly_aid.0
-		icon = GFX_goal_california
+		icon = GFX_goal_california_and_mewni
 		x = 6
 		y = 1
 		relative_position_id = CAL_mewni.2
@@ -3564,7 +3564,7 @@
 	
 	focus = {
 		id = CAL_butterfly_aid.1
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_trade
 		x = -3
 		y = 1
 		relative_position_id = CAL_butterfly_aid.0
@@ -3589,7 +3589,7 @@
 	
 	focus = {
 		id = CAL_butterfly_aid.2
-		icon = GFX_goal_california
+		icon = GFX_focus_mex_privatisation
 		x = 3
 		y = 1
 		relative_position_id = CAL_butterfly_aid.0
@@ -3617,7 +3617,7 @@
 	
 	focus = {
 		id = CAL_butterfly_aid.3
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_construction2
 		x = 0
 		y = 1
 		relative_position_id = CAL_butterfly_aid.1
@@ -3642,7 +3642,7 @@
 	
 	focus = {
 		id = CAL_butterfly_aid.4
-		icon = GFX_goal_california
+		icon = GFX_focus_generic_the_giant_wakes
 		x = 0
 		y = 1
 		relative_position_id = CAL_butterfly_aid.2
@@ -3673,7 +3673,7 @@
 	
 	focus = {
 		id = CAL_butterfly_aid.5
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_positive_trade_relations
 		x = 0
 		y = 1
 		relative_position_id = CAL_butterfly_aid.3
@@ -3704,7 +3704,7 @@
 	
 	focus = {
 		id = CAL_butterfly_aid.6
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_territory_or_war
 		x = 0
 		y = 1
 		relative_position_id = CAL_butterfly_aid.4
@@ -3736,7 +3736,7 @@
 	
 	focus = {
 		id = CAL_butterfly_aid.7
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_oil_refinery
 		x = 0
 		y = 2
 		relative_position_id = CAL_butterfly_aid.0
@@ -3760,7 +3760,7 @@
 	
 	focus = {
 		id = CAL_butterfly_aid.8
-		icon = GFX_goal_california
+		icon = GFX_focus_generic_coastal_fort
 		x = -1
 		y = 1
 		relative_position_id = CAL_butterfly_aid.7
@@ -3786,7 +3786,7 @@
 	
 	focus = {
 		id = CAL_butterfly_aid.9
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_secret_weapon
 		x = 1
 		y = 1
 		relative_position_id = CAL_butterfly_aid.7
@@ -3810,7 +3810,7 @@
 	
 	focus = {
 		id = CAL_butterfly_aid.10
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_construct_naval_dockyard
 		x = -1
 		y = 1
 		relative_position_id = CAL_butterfly_aid.9
@@ -3855,7 +3855,7 @@
 	
 	focus = {
 		id = CAL_mewni.3
-		icon = GFX_goal_california 
+		icon = GFX_goal_generic_attack_allies
 		x = 0 
 		y = 6
 		relative_position_id = CAL_mewni.2
@@ -3882,7 +3882,7 @@
 
 	focus = {
 		id = CAL_victory.0
-		icon = GFX_goal_california
+		icon = GFX_focus_generic_monarchy_2
 		x = 0
 		y = 2
 		relative_position_id = CAL_mewni.3
@@ -3904,7 +3904,7 @@
 	
 	focus = {
 		id = CAL_victory.1
-		icon = GFX_goal_california
+		icon = GFX_focus_hol_united_netherlands
 		x = 0
 		y = 1
 		relative_position_id = CAL_victory.0
@@ -3929,7 +3929,7 @@
 	
 	focus = {
 		id = CAL_oregon_standoff.0
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_major_war
 		x = 0
 		y = 1
 		relative_position_id = CAL_victory.1
@@ -3953,7 +3953,7 @@
 	
 	focus = {
 		id = CAL_oregon_unite.1
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_military_sphere
 		x = -4
 		y = 1
 		relative_position_id = CAL_oregon_standoff.0
@@ -3976,7 +3976,7 @@
 	
 	focus = {
 		id = CAL_oregon_unite.2
-		icon = GFX_goal_california
+		icon = GFX_focus_rom_parties_end
 		x = -1
 		y = 1
 		relative_position_id = CAL_oregon_unite.1
@@ -3998,7 +3998,7 @@
 	
 	focus = {
 		id = CAL_oregon_unite.3
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_political_pressure
 		x = 1
 		y = 1
 		relative_position_id = CAL_oregon_unite.1
@@ -4020,7 +4020,7 @@
 	
 	focus = {
 		id = CAL_oregon_unite.4
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 0
 		y = 1
 		relative_position_id = CAL_oregon_unite.2
@@ -4042,7 +4042,7 @@
 	
 	focus = {
 		id = CAL_oregon_unite.5
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_military_deal
 		x = 0
 		y = 1
 		relative_position_id = CAL_oregon_unite.3
@@ -4091,7 +4091,7 @@
 	
 	focus = {
 		id = CAL_oregon_war.1
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_propaganda
 		x = 4
 		y = 1
 		relative_position_id = CAL_oregon_standoff.0
@@ -4114,7 +4114,7 @@
 	
 	focus = {
 		id = CAL_oregon_war.2
-		icon = GFX_goal_california
+		icon = GFX_focus_spa_eliminate_the_carlists
 		x = -1
 		y = 1
 		relative_position_id = CAL_oregon_war.1
@@ -4136,7 +4136,7 @@
 	
 	focus = {
 		id = CAL_oregon_war.3
-		icon = GFX_goal_california
+		icon = GFX_focus_ger_reichskommisariats
 		x = 1
 		y = 1
 		relative_position_id = CAL_oregon_war.1
@@ -4158,7 +4158,7 @@
 	
 	focus = {
 		id = CAL_oregon_war.4
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_navy_battleship
 		x = 0
 		y = 1
 		relative_position_id = CAL_oregon_war.2
@@ -4180,7 +4180,7 @@
 	
 	focus = {
 		id = CAL_oregon_war.5
-		icon = GFX_goal_california
+		icon = GFX_goal_generic_national_unity
 		x = 0
 		y = 1
 		relative_position_id = CAL_oregon_war.3
@@ -4230,7 +4230,7 @@
 	
 	focus = {
 		id = CAL_norton_mind.0
-		icon = GFX_goal_california
+		icon = GFX_focus_SOV_zemsky_sobor
 		x = 0
 		y = 2
 		relative_position_id = CAL_oregon_standoff.0
@@ -4252,7 +4252,7 @@
 	
 	focus = {
 		id = CAL_norton_mind.1
-		icon = GFX_goal_california
+		icon = GFX_focus_TUR_purge_the_kemalists
 		x = 0
 		y = 1
 		relative_position_id = CAL_norton_mind.0
@@ -4274,7 +4274,7 @@
 	
 	focus = {
 		id = CAL_norton_mind.2
-		icon = GFX_goal_california
+		icon = GFX_focus_hol_the_foundations_of_defense
 		x = 0
 		y = 1
 		relative_position_id = CAL_norton_mind.1
