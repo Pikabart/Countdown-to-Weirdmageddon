@@ -106,6 +106,7 @@ characters = {
 	CAL_emily_pines = {
 		name = "Emily Pines" 
 		desc = ""
+		gender = female
 		portraits = {
 			civilian = {
 				large = "GFX_leaders_emily_pines"
@@ -217,6 +218,185 @@ characters = {
 			ideology = fascism_ideology
 			expire = "2040.1.1.1"
 			id = -1
+		}
+	}
+	
+	##################################
+	
+	CAL_general_1 = {
+		name = "Frank Hawkins" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Generic_land_4"
+				small = "GFX_Portrait_USA_Generic_land_4_small"
+			}
+		}
+		field_marshal = {
+			traits = { old_guard }
+			skill = 4
+			visible = {
+				has_completed_focus = CAL_shermie.1 
+			}
+
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	
+	CAL_general_7 = {
+		name = "Marcus Suthers" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Generic_land_5"
+				small = "GFX_Portrait_USA_Generic_land_5_small"
+			}
+		}
+		corps_commander= {
+			traits = { infantry_officer trickster}
+			skill = 2
+			id = 8
+			
+			visible = { 
+				has_completed_focus = CAL_shermie.1
+			}
+
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+		
+		}
+	}
+	
+	CAL_general_2 = {
+		name = "Marvin Wallace" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Generic_land_2"
+				small = "GFX_Portrait_USA_Generic_land_2_small"
+			}
+		}
+		corps_commander= {
+			traits = { armor_officer }
+			skill = 3
+			id = 8
+			
+			visible = { 
+				has_completed_focus = CAL_shermie.1
+			}
+
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 4
+		
+		}
+	}
+	
+	CAL_general_3 = {
+		name = "Darío Rodriquez" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Generic_land_3"
+				small = "GFX_Portrait_USA_Generic_land_3_small"
+			}
+		}
+		corps_commander= {
+			traits = { infantry_officer }
+			skill = 2
+			id = 8
+			
+			visible = { 
+				has_completed_focus = CAL_shermie.1
+			}
+
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		
+		}
+	}
+	
+	CAL_general_4 = {
+		name = "Melania Peláez" 
+		desc = ""
+		gender = female
+		portraits = {
+
+		}
+		corps_commander= {
+			traits = { infantry_officer }
+			skill = 2
+			id = 8
+			
+			visible = { 
+				has_completed_focus = CAL_shermie.1
+			}
+
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 3
+		
+		}
+	}
+	
+	CAL_general_5 = {
+		name = "Arthur Smith" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Generic_land_4"
+				small = "GFX_Portrait_USA_Generic_land_4_small"
+			}
+		}
+		corps_commander= {
+			traits = { infantry_officer }
+			skill = 2
+			id = 8
+			
+			visible = { 
+
+			}
+
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		
+		}
+	}
+	
+	CAL_general_6 = {
+		name = "George Lee" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Generic_land_5"
+				small = "GFX_Portrait_USA_Generic_land_5_small"
+			}
+		}
+		corps_commander= {
+			traits = { armor_officer }
+			skill = 2
+			id = 8
+			
+			visible = { 
+
+			}
+
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		
 		}
 	}
 

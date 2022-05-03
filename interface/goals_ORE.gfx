@@ -161,6 +161,57 @@ spriteTypes = {
 	}
 	
 	#############
+	
+	SpriteType = {
+	name = "GFX_goal_boiling_cascadia"
+	texturefile = "gfx/interface/goals/ORE/focus_wicked_chiu.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_president_coven"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_president_coven.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_titan_all_trade"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_titan_all_trade.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_portable_magic"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_portable_magic.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_magic_basics"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_magic_basics.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_will_of_beaver"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_will_of_beaver.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_coven_track"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_coven_track.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_coven_corps"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_coven_corps.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_whispering_croaks"
+	texturefile = "gfx/interface/goals/ORE/focus_whispering_croaks.dds"			
+	}
+		
+	SpriteType = {
+	name = "GFX_goal_wicked_chiu"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_andrew_chiu.dds"			
+	}
+	
 	#############
 	
 	SpriteType = {
@@ -182,17 +233,7 @@ spriteTypes = {
 	name = "GFX_goal_oregon_and_mewni"
 	texturefile = "gfx/interface/goals/ORE/focus_oregon_and_mewni.dds"			
 	}
-	
-	SpriteType = {
-	name = "GFX_goal_wicked_chiu"
-	texturefile = "gfx/interface/goals/ORE/focus_wicked_chiu.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_goal_whispering_croaks"
-	texturefile = "gfx/interface/goals/ORE/focus_whispering_croaks.dds"			
-	}
-	
+
 	SpriteType = {
 	name = "GFX_goal_trembley_alamo"
 	texturefile = "gfx/interface/goals/ORE/focus_trembley_alamo.dds"			

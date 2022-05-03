@@ -354,12 +354,12 @@
  ##################################################################################################################
  #################################################################################################################
  
- CAL_IBI_focus.0:0 "The Imperial Bureau of Investigation"
+ CAL_IBI_focus.0:0 "The Imperial Bureau Of Investigation"
  CAL_IBI_focus.0_desc:0 "In response to the initial collapse of the US and an increase of crime across the state, Lt. Governor Diaz-Guzman now has the political clout to form the Imperial Bureau of Investigation.\nUnofficially, with the FPI in the North and the paranormal nature of the St. James Disappearance in the South, the IBI will see Hector's return to the secret paranormal world."
  CAL_IBI_focus.0.t:0 "Establish the Imperial Bureau of Investigation"
  
  CAL_IBI_focus.1:0 "Call In Mr. X"
- CAL_IBI_focus.1_desc:0 "The FBI have been trying to push into FPI jurisdiction since even before the Secret Civil War. They even maintain a small division of agents meant for paranormal investigation, with surprising success. As we are in need of skilled and capable agents, I could use someone of the likes of Mr. X in our new ranks.\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
+ CAL_IBI_focus.1_desc:0 "The FBI have been trying to push into FPI jurisdiction since even the FPI/MI-13 Split. They even maintain a small division of agents known as the UIU for paranormal investigation, with surprising success as the SCP's decline. As we are in need of skilled and capable agents, I could use someone of the likes of Mr. X in our new ranks.\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
  CAL_IBI_focus.1.t:0 ""
  
  CAL_IBI_focus.2:0 "Absorb Loyal Intelligence Assets"

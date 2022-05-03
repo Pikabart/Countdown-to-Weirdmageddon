@@ -1,6 +1,6 @@
 ﻿l_english:
 
- #For Oregon events
+ #For CALIFORNIA events
  
  #1
  CAL_STARTER.1.t:0 "Eukeka!"
@@ -30,6 +30,7 @@
  ######################################################
  #2
  
+ #Not used
  CAL_ELECTION.1.t:0 "" 
  CAL_ELECTION.1.d:0 ""
  CAL_ELECTION.1.a:0 ""
@@ -78,12 +79,12 @@
  CAL_everett_event.9.a:0 "The Will of the West stands!"
  
  CAL_everett_event.10.t:0 "Impose the West on Texas"
- CAL_everett_event.10.d:0 "As we rush our forces to the border, we have made our intentions clear. If Texas does not submit to the Imperial Government, we will bring the full might of California on them. Since this is Texas we are talking about, some are very hesitant to openly go to war with the only other state that can rival California in power. For sure, the Texans will sure as heck be motivated to drive us out. And make us pay for stepping inch on Texan soil\n\nBut we will not allow their transgression to Mexico stands. As the Protector of Mexico, Norton's will shall be enforced!"
+ CAL_everett_event.10.d:0 "As we rush our forces to the border, we have made our intentions clear. If Texas does not submit to the Imperial Government, we will bring the full might of California on them. Since this is Texas we are talking about, some are very hesitant to openly go to war with the only other state that can rival California in power. For sure, the Texans will sure as heck be motivated to drive us out. And make us pay for stepping even a single inch onto Texan soil\n\nBut we will not allow their transgression to Mexico stands. As the Protector of Mexico, Norton's will shall be enforced!"
  CAL_everett_event.10.a:0 "For the Emperor and the Republic!"
  
- CAL_everett_event.11.t:0 "Texas Refuses Us!"
+ CAL_everett_event.11.t:0 "Texas Rejects Our Demands!"
  CAL_everett_event.11.d:0 ""
- CAL_everett_event.11.a:0 "Then here we cross the Rio Grande!"
+ CAL_everett_event.11.a:0 "They will regret crossing the Rio Grande!"
  
  CAL_everett_event.12.t:0 "Texas Yields to our Taxes"
  CAL_everett_event.12.d:0 ""
@@ -96,7 +97,7 @@
  CAL_everett_war_event.5.a:0 "The Republic of Texas and her allies has surrendered to the Imperial Californian Repuiblic!"
  
  CAL_everett_war_event.6.t:0 "Mexico has Surrendered!"
- CAL_everett_war_event.6.d:0 "Given Mexico's military state compared to California or Texas, let alone the US, it was no surprice we squashed the Mexicans once more. Still, the fact remains as far as most are concerns, we caused this war and to most, Emperor Norton has betrayed his promise to defend Mexico. We're trying to frame this in as postive light as we can, but this will take a long time."
+ CAL_everett_war_event.6.d:0 "Given Mexico's military state compared to California or Texas, let alone the US, it was no surprice we squashed the Mexicans once more. Still, the fact remains as far as most are concerns, we caused this war! And to most, Emperor Norton has betrayed his promise to defend Mexico. We're trying to frame this in as postive light as we can, but this will take a long time."
  CAL_everett_war_event.6.a:0 "But, but... the Emperor Protects!"
  CAL_everett_war_event.6.b:0 "Mexico is now under the Imperial Californian Repuiblic!\nThe Emperor Protects!"
  
@@ -147,7 +148,7 @@
  
  CAL_birnbaum_event.9.t:0 "Betrayal on the Rio Grande"
  CAL_birnbaum_event.9.d:0 "Our backout from the negotations has stunned the Western US. Already, many are angry that Norton has failed to live to his title and now it seems it is Mexico itself that is angered by this."
- CAL_birnbaum_event.9.a:0 ""
+ CAL_birnbaum_event.9.a:0 "Rush troops to the border, quick!"
  
  CAL_birnbaum_event.10.t:0 "A Fair Deal"
  CAL_birnbaum_event.10.d:0 ""The price is high, yes. But this is far more appetible than the first offer," said Lord Birnbuam. He pulled out a handkerchief and wiped his bald head, "This will be our last chance to seal the deal.""

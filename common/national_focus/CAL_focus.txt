@@ -2492,7 +2492,7 @@
 	
 	focus = {
 		id = CAL_hector.0
-		icon = GFX_goal_california
+		icon = GFX_goal_hector_diaz
 		x = 25
 		y = 1
 		relative_position_id = CAL_start.8
@@ -2831,7 +2831,7 @@
 	
 	focus = {
 		id = CAL_IBI_focus.0 
-		icon = GFX_goal_california
+		icon = GFX_goal_imperial_bureau
 		x = -4
 		y = 1
 		relative_position_id = CAL_hector.0
@@ -2865,7 +2865,7 @@
 	
 	focus = {
 		id = CAL_IBI_focus.1
-		icon = GFX_goal_california
+		icon = GFX_goal_MR_X
 		x = -2
 		y = 1
 		relative_position_id = CAL_IBI_focus.0
@@ -3041,7 +3041,7 @@
 	
 	focus = {
 		id = CAL_IBI_focus.5
-		icon = GFX_goal_california
+		icon = GFX_goal_licence_to_janna
 		x = 1
 		y = 1
 		relative_position_id = CAL_IBI_focus.2
