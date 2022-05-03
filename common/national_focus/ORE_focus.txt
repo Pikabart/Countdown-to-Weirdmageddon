@@ -98,8 +98,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
-		bypass = {} 
+		available = { has_global_flag = canada_kerfuffled }
+		bypass = { has_global_flag = canada_kerfuffled } 
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_start_focus.4.t"
@@ -1334,7 +1334,7 @@
 		available = {}
 		bypass = {} 
 		
-		completion_reward = {	
+		completion_reward = {
 			#custom_effect_tooltip = "ORE_head_east_focus.0.t"
 			hidden_effect = {}
 		}
@@ -1381,7 +1381,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_oregon_trail_focus.0.t"
-                        add_political_power = 100
+            add_political_power = 100
 			hidden_effect = {}
 		}
 	}
@@ -1410,6 +1410,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_head_east_focus.1.t"
+			add_ideas = { ORE_against_east }
 			hidden_effect = {}
 		}
 	}
@@ -1417,15 +1418,17 @@
 		id = ORE_head_east_focus.2 
 		icon = GFX_goal_union_forever
 		x = 0
-		y = 2
+		y = 3
 		cost = 1
 		relative_position_id = ORE_head_east_focus.1
 		prerequisite = { 
-			focus = ORE_cross_rockies.6 
-			focus = ORE_oregon_trail_focus.5 
+			focus = ORE_cross_rockies.7
 		}
 		prerequisite = { 
 			focus = ORE_head_east_focus.1 
+		}
+		prerequisite = {
+			focus = ORE_oregon_trail_focus.7
 		}
 		
 		available_if_capitulated = yes
@@ -1436,9 +1439,32 @@
 		available = {}
 		bypass = {} 
 		
-		completion_reward = {	
-			#custom_effect_tooltip = "ORE_head_east_focus.2.t"
-			hidden_effect = {}
+		completion_reward = {
+			every_other_country = {
+				limit = {
+					AND = {
+						is_in_faction_with = ORE
+						NOT = { TAG = TEX }
+					}
+				}
+				custom_effect_tooltip = "ORE_head_east_focus.2.t"
+				hidden_effect = {
+					ORE = {
+						annex_country = {
+							target = PREV
+							transfer_troops = yes
+						}
+					}
+				}
+					IF = {
+						limit = {
+							TEX = {
+								is_in_faction_with = ORE
+							}
+						}
+						ORE = { puppet = TEX }
+					}
+			}
 		}
 	}
 	
@@ -1464,6 +1490,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_cross_rockies.1.t"
+			puppet = IDH
 			hidden_effect = {}
 		}
 	}
@@ -1484,8 +1511,10 @@
 		available = {}
 		bypass = {} 
 		
-		completion_reward = {	
+		completion_reward = {
 			#custom_effect_tooltip = "ORE_cross_rockies.2.t"
+			ORE = { add_to_faction = WYM }
+			ORE = { add_to_faction = MON }
 			hidden_effect = {}
 		}
 	}
@@ -1497,6 +1526,7 @@
 		cost = 1
 		relative_position_id = ORE_cross_rockies.1
 		prerequisite = { focus = ORE_cross_rockies.1 }
+		prerequisite = { focus = ORE_cross_rockies.2 }
 		
 		available_if_capitulated = yes
 		
@@ -1508,6 +1538,8 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_cross_rockies.3.t"
+			ORE = { add_to_faction = NDK }
+			ORE = { add_to_faction = SDK }
 			hidden_effect = {}
 		}
 	}
@@ -1518,6 +1550,7 @@
 		y = 1
 		cost = 1
 		relative_position_id = ORE_cross_rockies.2
+		prerequisite = { focus = ORE_cross_rockies.1 }
 		prerequisite = { focus = ORE_cross_rockies.2 }
 		
 		available_if_capitulated = yes
@@ -1530,6 +1563,48 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_cross_rockies.4.t"
+			59 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			103 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			104 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			100 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			105 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			58 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
 			hidden_effect = {}
 		}
 	}
@@ -1553,6 +1628,7 @@
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_cross_rockies.5.t"
 			hidden_effect = {}
+			ORE = { add_to_faction = MIN }
 		}
 	}
 	focus = {
@@ -1574,6 +1650,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_cross_rockies.6.t"
+			country_event = ORE_TEXAS.1
 			hidden_effect = {}
 		}
 	}
@@ -1595,8 +1672,16 @@
 		available = {}
 		bypass = {} 
 		
-		completion_reward = {	
-			#custom_effect_tooltip = "ORE_cross_rockies.7.t"
+		completion_reward = {
+				every_other_country = {
+					limit = { is_in_faction_with = ORE }
+					custom_effect_tooltip = "ORE_cross_rockies.7.t"
+					hidden_effect = {
+						ORE = {
+							puppet = PREV
+						}
+					}
+				}
 			hidden_effect = {}
 		}
 	}
@@ -1617,11 +1702,56 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = { IDH = { is_in_faction_with = ORE } }
 		bypass = {} 
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_oregon_trail_focus.1.t"
+			build_railway = {
+			  level = 2
+			  build_only_on_allied = yes
+			  fallback = yes
+			  start_province = 1520
+			  target_province = 4910
+			}
+			build_railway = {
+			  level = 2
+			  build_only_on_allied = yes
+			  fallback = yes
+			  start_province = 1520
+			  target_province = 2903
+			}
+			build_railway = {
+			  level = 2
+			  build_only_on_allied = yes
+			  fallback = yes
+			  start_province = 1520
+			  target_province = 7941
+			}
+			189 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 4910
+				}
+			}
+			186 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 2903
+				}
+			}
+			187 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 7941
+				}
+			}
 			hidden_effect = {}
 		}
 	}
@@ -1639,11 +1769,25 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = { }
 		bypass = {} 
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_oregon_trail_focus.2.t"
+			build_railway = {
+			  level = 2
+			  build_only_on_allied = yes
+			  fallback = yes
+			  start_province = 1928
+			  target_province = 8826
+			}
+			build_railway = {
+			  level = 2
+			  build_only_on_allied = yes
+			  fallback = yes
+			  start_province = 8826
+			  target_province = 6663
+			}
 			hidden_effect = {}
 		}
 	}
@@ -1661,11 +1805,19 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = { MIN = { is_in_faction_with = ORE } }
 		bypass = {} 
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_oregon_trail_focus.3.t"
+			204 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
+			}
 			hidden_effect = {}
 		}
 	}
@@ -1688,6 +1840,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_oregon_trail_focus.4.t"
+			add_war_support = 0.03
 			hidden_effect = {}
 		}
 	}
@@ -1708,8 +1861,22 @@
 		available = {}
 		bypass = {} 
 		
-		completion_reward = {	
+		completion_reward = {
 			#custom_effect_tooltip = "ORE_oregon_trail_focus.5.t"
+			209 = {
+				add_building_construction = {
+					type = naval_port
+					level = 4
+					instant_build = yes
+					province = 8234
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 8
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 8
+			}
 			hidden_effect = {}
 		}
 	}
@@ -1732,6 +1899,14 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_oregon_trail_focus.6.t"
+			77 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+			}
 			hidden_effect = {}
 		}
 	}
@@ -1753,8 +1928,29 @@
 		available = {}
 		bypass = {} 
 		
-		completion_reward = {	
+		completion_reward = {
 			#custom_effect_tooltip = "ORE_oregon_trail_focus.7.t"
+			build_railway = {
+			  level = 4
+			  build_only_on_allied = yes
+			  fallback = yes
+			  start_province = 8247
+			  target_province = 2933
+			}
+			build_railway = {
+			  level = 4
+			  build_only_on_allied = yes
+			  fallback = yes
+			  start_province = 8247
+			  target_province = 3573
+			}
+			build_railway = {
+			  level = 4
+			  build_only_on_allied = yes
+			  fallback = yes
+			  start_province = 8247
+			  target_province = 8234
+			}
 			hidden_effect = {}
 		}
 	}
@@ -1779,7 +1975,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = { has_completed_focus = ORE_start_focus.4 }
 		bypass = {} 
 		
 		completion_reward = {	
@@ -3126,7 +3322,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = { has_completed_focus = ORE_start_focus.4 }
 		bypass = {} 
 		
 		completion_reward = {	
@@ -3717,7 +3913,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = { has_completed_focus = ORE_start_focus.4 }
 		bypass = {} 
 		
 		completion_reward = {	
@@ -3891,12 +4087,11 @@
 	focus = {
 		id = ORE_wicked_focus.8 
 		icon = GFX_goal_will_of_beaver
-		x = -1
+		x = 0
 		y = 1
 		cost = 1
-		relative_position_id = ORE_wicked_coven.2
-		prerequisite = { focus = ORE_wicked_focus.6 }
-		prerequisite = { focus = ORE_wicked_coven.2 }
+		relative_position_id = ORE_wicked_coven.1
+		prerequisite = { focus = ORE_wicked_coven.1 focus = ORE_wicked_diverse.1 }
 
 		
 		available_if_capitulated = yes
@@ -3921,7 +4116,7 @@
 		cost = 1
 		relative_position_id = ORE_wicked_focus.7
 		prerequisite = { focus = ORE_wicked_focus.7 }
-		prerequisite = { focus = ORE_wicked_focus.8 }
+		prerequisite = { focus = ORE_wicked_coven.2 }
 
 		
 		available_if_capitulated = yes
@@ -3971,7 +4166,7 @@
 		y = 1
 		cost = 1
 		relative_position_id = ORE_wicked_diverse.1
-		prerequisite = { focus = ORE_wicked_diverse.1 }
+		prerequisite = { focus = ORE_wicked_coven.1 focus = ORE_wicked_diverse.1 }
 		
 		available_if_capitulated = yes
 		
@@ -4014,11 +4209,12 @@
 	focus = {
 		id = ORE_wicked_coven.2 
 		icon = GFX_goal_president_coven
-		x = 0
+		x = -1
 		y = 1
 		cost = 1
-		relative_position_id = ORE_wicked_coven.1
-		prerequisite = { focus = ORE_wicked_coven.1 }
+		relative_position_id = ORE_wicked_focus.8 
+		prerequisite = { focus = ORE_wicked_focus.8 }
+		prerequisite = { focus = ORE_wicked_focus.6 }
 		
 		available_if_capitulated = yes
 		

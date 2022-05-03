@@ -256,16 +256,30 @@ bookmarks = {
 		}
 		
 		"TSR"={
-			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			history = "TSR_ANOTHER_DIMENSION_DESC"
 			minor = yes
+			ideas = {
+			}
+			focuses = {
+				TSR_chaos_in_the_kremlin
+				TSR_queen_and_the_people
+				TSR_secret_military_meeting
+			}
 		}
 		"KAI"={
 			history = "OTHER_ANOTHER_DIMENSION_DESC"
 			minor = yes
 		}
 		"SWP"={
-			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			history = "SWP_ANOTHER_DIMENSION_DESC"
 			minor = yes
+			ideas = {
+			}
+			focuses = {
+				SWP_road_project_with_mewmans
+				SWP_the_election
+				SWP_blow_the_mewman_road
+			}
 		}
 		"DTH"={
 			history = "DTH_ANOTHER_DIMENSION_DESC"
@@ -279,20 +293,41 @@ bookmarks = {
 			}
 		}
 		"AVA"={
-			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			history = "AVA_ANOTHER_DIMENSION_DESC"
 			minor = yes
+			ideas = {
+			}
+			focuses = {
+				AVA_start
+				AVA_active_exile
+				AVA_fort_avarius
+			}
 		}
 		"DRG"={
 			history = "OTHER_ANOTHER_DIMENSION_DESC"
 			minor = yes
 		}
 		"HGH"={
-			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			history = "HGH_ANOTHER_DIMENSION_DESC"
 			minor = yes
+			ideas = {
+			}
+			focuses = {
+				HGH_symphony_of_power
+				HGH_wolf_takes
+				HGH_model_council
+			}
 		}
 		"MHC"={
-			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			history = "MHC_ANOTHER_DIMENSION_DESC"
 			minor = yes
+			ideas = {
+			}
+			focuses = {
+				MHC_phase_out_inferior_tongue
+				MHC_research_anomalies
+				MHC_no_mercy
+			}
 		}
 		
 		"---"={

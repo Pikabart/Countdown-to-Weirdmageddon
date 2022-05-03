@@ -229,7 +229,7 @@
  
  ORE_head_east_focus.2:0 "Union Forever"
  ORE_head_east_focus.2_desc:0 ""
- ORE_head_east_focus.2.t:0 ""
+ ORE_head_east_focus.2.t:0 "Is annexed by §Y[ORE.getname]§!"
  
  ######################################################################
  
@@ -263,7 +263,7 @@
  
  ORE_cross_rockies.7:0 "The New Federal Government"
  ORE_cross_rockies.7_desc:0 ""
- ORE_cross_rockies.7.t:0 ""
+ ORE_cross_rockies.7.t:0 "Becomes a puppet of §Y[ORE.getname]§!"
  ######################################################################
  
  ORE_oregon_trail_focus.0:0 "The Oregon Trail"
