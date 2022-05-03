@@ -2,6 +2,9 @@
 
  #For Oregon Focus Tree
  
+ GLOBAL_CAL_TEXAS:0 "California has dealt with Texas"
+ GLOBAL_ORE_TEXAS:0 "Texas has sided Oregon"
+ 
  #1 §G §! §
  #ORE_start_focus.1:0 ""
  #ORE_start_focus.1_desc:0 ""

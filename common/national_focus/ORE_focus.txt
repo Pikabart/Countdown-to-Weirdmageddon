@@ -23,7 +23,7 @@
 		icon = GFX_goal_oregon_election
 		x = 40
 		y = 1
-		cost = 1
+		cost = 4
 		
 		available_if_capitulated = yes
 		
@@ -35,6 +35,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_start_focus.0.t"
+			add_ideas = ORE_own_wings
 			hidden_effect = {}
 		}
 	}
@@ -43,7 +44,7 @@
 		icon = GFX_goal_oregon_northwest
 		x = -2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_start_focus.0
 		prerequisite = { focus = ORE_start_focus.0 }
 		
@@ -65,7 +66,7 @@
 		icon = GFX_goal_oregon_canada_ties
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_start_focus.0
 		prerequisite = { focus = ORE_start_focus.0 }
 		
@@ -104,6 +105,7 @@
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_start_focus.4.t"
 			hidden_effect = {}
+			add_ideas = state_interstate_gone
 		}
 	}
 	
@@ -112,7 +114,7 @@
 		icon = GFX_goal_oregon_trembley_eight_half
 		x = 0
 		y = 1
-		cost = 1
+		cost = 2
 		relative_position_id = ORE_start_focus.4
 		prerequisite = { focus = ORE_start_focus.4 }
 		
@@ -126,7 +128,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_start_focus.3.t"
-			hidden_effect = {}
+			hidden_effect = {set_cosmetic_tag = ORE_TREM}
 		}
 	}
 	
@@ -139,7 +141,7 @@
 		icon = GFX_goal_eight_half
 		x = 0
 		y = 2
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_start_focus.3
 		prerequisite = { focus = ORE_start_focus.3 }
 		
@@ -162,7 +164,7 @@
 		icon = GFX_goal_oregon_head_government_v2
 		x = 0
 		y = 4
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_focus.0
 		prerequisite = { 
 			focus = ORE_trembley_crazy.4 
@@ -190,7 +192,7 @@
 		icon = GFX_goal_oregon_trembley_eight_half
 		x = 0
 		y = 3
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_focus.1
 		prerequisite = { 
 			focus = ORE_trembley_chief.2 
@@ -221,7 +223,7 @@
 		icon = GFX_goal_oregon_insanity_throughthe_storm
 		x = -5
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_focus.0
 		prerequisite = { focus = ORE_trembley_focus.0 }
 		mutually_exclusive = { focus = ORE_trembley_line.1	}
@@ -248,7 +250,7 @@
 		icon = GFX_goal_oregon_break_the_belts
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_crazy.1
 		prerequisite = { focus = ORE_trembley_crazy.1 }
 		
@@ -277,7 +279,7 @@
 		icon = GFX_goal_oregon_war_on_pancakes
 		x = 1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_crazy.1
 		prerequisite = { focus = ORE_trembley_crazy.1 }
 		
@@ -300,7 +302,7 @@
 		icon = GFX_goal_oregon_american_madman
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_crazy.3
 		prerequisite = { focus = ORE_trembley_crazy.3 }
 		prerequisite = { focus = ORE_trembley_crazy.2 }
@@ -335,7 +337,7 @@
 		icon = GFX_goal_oregon_the_fine_line
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_focus.0
 		prerequisite = { focus = ORE_trembley_focus.0 }
 		mutually_exclusive = { focus = ORE_trembley_crazy.1	}
@@ -362,7 +364,7 @@
 		icon = GFX_goal_oregon_new_SOD
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_line.1
 		prerequisite = { focus = ORE_trembley_line.1 }
 		
@@ -386,7 +388,7 @@
 		icon = GFX_goal_oregon_silly_political_games
 		x = 1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_line.1
 		prerequisite = { focus = ORE_trembley_line.1 }
 		
@@ -409,7 +411,7 @@
 		icon = GFX_goal_oregon_flippin_fathers
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_line.3
 		prerequisite = { focus = ORE_trembley_line.3 }
 		prerequisite = { focus = ORE_trembley_line.2 }
@@ -442,7 +444,7 @@
 		icon = GFX_goal_oregon_mental_pants
 		x = 5
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_focus.0
 		prerequisite = { focus = ORE_trembley_focus.0 }
 		mutually_exclusive = { focus = ORE_trembley_crazy.1	}
@@ -469,7 +471,7 @@
 		icon = GFX_goal_oregon_stack_courts
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_pants.1
 		prerequisite = { focus = ORE_trembley_pants.1 }
 		
@@ -494,7 +496,7 @@
 		icon = GFX_goal_oregon_counter_concussion
 		x = 1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_pants.1
 		prerequisite = { focus = ORE_trembley_pants.1 }
 		
@@ -517,7 +519,7 @@
 		icon = GFX_goal_oregon_oddity_sanity
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_pants.3
 		prerequisite = { focus = ORE_trembley_pants.3 }
 		prerequisite = { focus = ORE_trembley_pants.2 }
@@ -552,7 +554,7 @@
 		icon = GFX_goal_oregon_hail_chief
 		x = -2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_focus.1
 		prerequisite = { focus = ORE_trembley_focus.1 }
 		mutually_exclusive = { focus = ORE_trembley_veep.1	}
@@ -576,7 +578,7 @@
 		icon = GFX_goal_oregon_executive_erraticity
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_chief.1
 		prerequisite = { focus = ORE_trembley_chief.1 }
 		
@@ -599,7 +601,7 @@
 		icon = GFX_goal_oregon_trembling_trembley
 		x = 1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_chief.1
 		prerequisite = { focus = ORE_trembley_chief.1 }
 		
@@ -624,7 +626,7 @@
 		icon = GFX_goal_oregon_VEEP
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_focus.1
 		prerequisite = { focus = ORE_trembley_focus.1 }
 		mutually_exclusive = { focus = ORE_trembley_chief.1	}
@@ -648,7 +650,7 @@
 		icon = GFX_goal_oregon_politically_onyx
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_veep.1
 		prerequisite = { focus = ORE_trembley_veep.1 }
 		
@@ -671,7 +673,7 @@
 		icon = GFX_goal_oregon_backup_puppetmaster
 		x = 1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_veep.1
 		prerequisite = { focus = ORE_trembley_veep.1 }
 		
@@ -698,7 +700,7 @@
 		icon = GFX_goal_generic_positive_trade_relations
 		x = -14
 		y = 2
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_start_focus.3
 		prerequisite = { focus = ORE_start_focus.3 }
 		
@@ -720,7 +722,7 @@
 		icon = GFX_goal_generic_production
 		x = -3
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_economy_focus.0
 		prerequisite = { focus = ORE_economy_focus.0 }
 		mutually_exclusive = { focus = ORE_cascadia_focus.0 }
@@ -745,7 +747,7 @@
 		icon = GFX_goal_generic_construct_infrastructure
 		x = 3
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_economy_focus.0
 		prerequisite = { focus = ORE_economy_focus.0 }
 		mutually_exclusive = { focus = ORE_willamette.0 }
@@ -773,7 +775,7 @@
 		icon = GFX_goal_generic_air_production
 		x = 0
 		y = 2
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_economy_focus.0
 		prerequisite = { 
 			focus = ORE_willamette.0
@@ -798,7 +800,7 @@
 		icon = GFX_goal_generic_major_alliance
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_economy_focus.1
 		prerequisite = { focus = ORE_economy_focus.1 }
 		
@@ -820,7 +822,7 @@
 		icon = GFX_goal_generic_forceful_treaty
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_economy_focus.2
 		prerequisite = { focus = ORE_economy_focus.2 }
 		
@@ -842,7 +844,7 @@
 		icon = GFX_goal_anschluss
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_economy_focus.3
 		prerequisite = { focus = ORE_economy_focus.3 }
 		
@@ -867,7 +869,7 @@
 		icon = GFX_goal_generic_construct_civ_factory
 		x = -2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_willamette.0
 		prerequisite = { focus = ORE_willamette.0 }
 		
@@ -899,7 +901,7 @@
 		icon = GFX_goal_generic_construction2
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_willamette.0
 		prerequisite = { focus = ORE_willamette.0 }
 		
@@ -936,7 +938,7 @@
 		icon = GFX_goal_generic_construction
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_willamette.1
 		prerequisite = { focus = ORE_willamette.1 }
 		
@@ -982,7 +984,7 @@
 		icon = GFX_goal_generic_consumer_goods
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_willamette.2
 		prerequisite = { focus = ORE_willamette.2 }
 		
@@ -1014,7 +1016,7 @@
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_willamette.3
 		prerequisite = { focus = ORE_willamette.3 }
 		
@@ -1066,7 +1068,7 @@
 		icon = GFX_goal_generic_oil_refinery
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_willamette.4
 		prerequisite = { focus = ORE_willamette.4 }
 		
@@ -1098,7 +1100,7 @@
 		icon = GFX_goal_continuous_naval_production
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_willamette.6
 		prerequisite = { focus = ORE_willamette.5 }
 		prerequisite = { focus = ORE_willamette.6 }
@@ -1113,19 +1115,20 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_willamette.7.t"
-                        add_stability = 0.10
+            add_stability = 0.10
+			remove_ideas = state_interstate_gone
 			hidden_effect = {}
 		}
 	}
 	#################################################################################
-	# At Home in Willimette
+	# Across Cascadia Focuses
 	
 	focus = {
 		id = ORE_cascadia_focus.1 
 		icon = GFX_goal_generic_navy_cruiser
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cascadia_focus.0
 		prerequisite = { focus = ORE_cascadia_focus.0 }
 		
@@ -1150,7 +1153,7 @@
 		icon = GFX_goal_generic_construct_civilian
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cascadia_focus.0
 		prerequisite = { focus = ORE_cascadia_focus.0 }
 		
@@ -1180,7 +1183,7 @@
 		icon = GFX_focus_SOV_organize_wreckers
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cascadia_focus.1
 		prerequisite = { focus = ORE_cascadia_focus.1 }
 		
@@ -1209,7 +1212,7 @@
 		icon = GFX_focus_generic_rubber
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cascadia_focus.2
 		prerequisite = { focus = ORE_cascadia_focus.2 }
 		
@@ -1235,7 +1238,7 @@
 		icon = GFX_goal_generic_army_motorized
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cascadia_focus.3
 		prerequisite = { focus = ORE_cascadia_focus.3 }
 		
@@ -1262,7 +1265,7 @@
 		icon = GFX_goal_generic_position_armies
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cascadia_focus.4
 		prerequisite = { focus = ORE_cascadia_focus.4 }
 		
@@ -1294,7 +1297,7 @@
 		icon = GFX_goal_generic_trade
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cascadia_focus.6
 		prerequisite = { focus = ORE_cascadia_focus.5 }
 		prerequisite = { focus = ORE_cascadia_focus.6 }
@@ -1309,6 +1312,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_cascadia_focus.7.t"
+			remove_ideas = state_interstate_gone
 			hidden_effect = {}
 		}
 	}
@@ -1322,7 +1326,7 @@
 		icon = GFX_focus_spa_the_war_of_vengeance
 		x = 14
 		y = 2
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_start_focus.3
 		prerequisite = { focus = ORE_start_focus.3 }
 		
@@ -1344,7 +1348,7 @@
 		icon = GFX_focus_prc_infiltration
 		x = -3
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_head_east_focus.0
 		prerequisite = { focus = ORE_head_east_focus.0 }
 		
@@ -1367,7 +1371,7 @@
 		icon = GFX_focus_generic_rubber
 		x = 3
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_head_east_focus.0
 		prerequisite = { focus = ORE_head_east_focus.0 }
 		
@@ -1393,7 +1397,7 @@
 		icon = GFX_focus_generic_strike_at_democracy3
 		x = 0
 		y = 3
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_head_east_focus.0
 		prerequisite = { 
 			focus = ORE_cross_rockies.2 
@@ -1419,7 +1423,7 @@
 		icon = GFX_goal_union_forever
 		x = 0
 		y = 3
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_head_east_focus.1
 		prerequisite = { 
 			focus = ORE_cross_rockies.7
@@ -1440,6 +1444,7 @@
 		bypass = {} 
 		
 		completion_reward = {
+			set_cosmetic_tag = FED_WUS
 			every_other_country = {
 				limit = {
 					AND = {
@@ -1476,7 +1481,7 @@
 		icon = GFX_goal_generic_major_alliance
 		x = -2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cross_rockies.0
 		prerequisite = { focus = ORE_cross_rockies.0 }
 		
@@ -1499,7 +1504,7 @@
 		icon = GFX_goal_generic_national_unity
 		x = 1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cross_rockies.0
 		prerequisite = { focus = ORE_cross_rockies.0 }
 		
@@ -1523,7 +1528,7 @@
 		icon = GFX_focus_GRE_a_land_of_mountains
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cross_rockies.1
 		prerequisite = { focus = ORE_cross_rockies.1 }
 		prerequisite = { focus = ORE_cross_rockies.2 }
@@ -1548,7 +1553,7 @@
 		icon = GFX_goal_generic_construction2
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cross_rockies.2
 		prerequisite = { focus = ORE_cross_rockies.1 }
 		prerequisite = { focus = ORE_cross_rockies.2 }
@@ -1605,6 +1610,10 @@
 					instant_build = yes
 				}
 			}
+			ORE = { add_to_faction = NEB }
+			ORE = { add_to_faction = IWA }
+			ORE = { add_to_faction = KAN }
+			ORE = { add_to_faction = MIS }
 			hidden_effect = {}
 		}
 	}
@@ -1613,7 +1622,7 @@
 		icon = GFX_focus_generic_coastal_fort
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cross_rockies.3
 		prerequisite = { focus = ORE_cross_rockies.3 }
 		
@@ -1636,7 +1645,7 @@
 		icon = GFX_focus_mex_caudillo_private_armies
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cross_rockies.4
 		prerequisite = { focus = ORE_cross_rockies.4 }
 		
@@ -1646,7 +1655,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = {has_global_flag = GLOBAL_CAL_TEXAS} 
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_cross_rockies.6.t"
@@ -1659,7 +1668,7 @@
 		icon = GFX_focus_generic_self_management
 		x = -2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cross_rockies.6
 		prerequisite = { focus = ORE_cross_rockies.5 }
 		prerequisite = { focus = ORE_cross_rockies.6 }
@@ -1682,6 +1691,7 @@
 						}
 					}
 				}
+				set_faction_name = "Trembley Federal Government"
 			hidden_effect = {}
 		}
 	}
@@ -1693,7 +1703,7 @@
 		icon = GFX_goal_generic_construct_infrastructure
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_oregon_trail_focus.0
 		prerequisite = { focus = ORE_oregon_trail_focus.0 }
 		
@@ -1760,7 +1770,7 @@
 		icon = GFX_goal_generic_army_motorized
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_oregon_trail_focus.0
 		prerequisite = { focus = ORE_oregon_trail_focus.0 }
 		
@@ -1796,7 +1806,7 @@
 		icon = GFX_focus_POL_develop_polish_shipbuilding
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_oregon_trail_focus.1
 		prerequisite = { focus = ORE_oregon_trail_focus.1 }
 		
@@ -1826,7 +1836,7 @@
 		icon = GFX_goal_anschluss
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_oregon_trail_focus.2
 		prerequisite = { focus = ORE_oregon_trail_focus.2 }
 		
@@ -1849,7 +1859,7 @@
 		icon = GFX_goal_generic_navy_battleship
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_oregon_trail_focus.3
 		prerequisite = { focus = ORE_oregon_trail_focus.3 }
 		
@@ -1885,7 +1895,7 @@
 		icon = GFX_goal_generic_soviet_construction
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_oregon_trail_focus.4
 		prerequisite = { focus = ORE_oregon_trail_focus.4 }
 		
@@ -1915,7 +1925,7 @@
 		icon = GFX_focus_SOV_the_road_of_life
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_oregon_trail_focus.6
 		prerequisite = { focus = ORE_oregon_trail_focus.5 }
 		prerequisite = { focus = ORE_oregon_trail_focus.6 }
@@ -1966,7 +1976,7 @@
 		icon = GFX_goal_the_pinch
 		x = 36
 		y = 0
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_focus.0
 		#prerequisite = { focus = ORE_start_focus.3 }
 		
@@ -1989,7 +1999,7 @@
 		icon = GFX_focus_TUR_the_sun_language_theory
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_the_pinch.0
 		prerequisite = { focus = ORE_the_pinch.0 }
 		
@@ -2014,7 +2024,7 @@
 		icon = GFX_goal_generic_attack_allies
 		x = 0
 		y = 2
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_the_pinch.1
 		prerequisite = { 
 			focus = ORE_washington_daybreak.0 
@@ -2040,7 +2050,7 @@
 		icon = GFX_goal_generic_dangerous_deal
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_compromised.0
 		prerequisite = { focus = ORE_compromised.0 }
 		
@@ -2065,7 +2075,7 @@
 		icon = GFX_goal_generic_secret_weapon
 		x = -2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_the_pinch.1
 		prerequisite = { focus = ORE_the_pinch.1 }
 		mutually_exclusive = { focus = ORE_washington_twinpeak.0 }
@@ -2089,7 +2099,7 @@
 		icon = GFX_goal_generic_construct_military
 		x = -2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_washington_daybreak.0
 		prerequisite = { focus = ORE_washington_daybreak.0 }
 		
@@ -2112,7 +2122,7 @@
 		icon = GFX_goal_generic_major_war
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_washington_daybreak.0
 		prerequisite = { focus = ORE_washington_daybreak.0 }
 		
@@ -2135,7 +2145,7 @@
 		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_washington_daybreak.1
 		prerequisite = { focus = ORE_washington_daybreak.1 }
 		
@@ -2158,7 +2168,7 @@
 		icon = GFX_focus_prc_infiltration
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_washington_daybreak.2
 		prerequisite = { focus = ORE_washington_daybreak.2 }
 		
@@ -2181,7 +2191,7 @@
 		icon = GFX_goal_generic_more_territorial_claims
 		x = 1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_washington_daybreak.3
 		prerequisite = { focus = ORE_washington_daybreak.3 }
 		prerequisite = { focus = ORE_washington_daybreak.4 }
@@ -2208,7 +2218,7 @@
 		icon = GFX_focus_generic_strike_at_democracy1
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_the_pinch.1
 		prerequisite = { focus = ORE_the_pinch.1 }
 		mutually_exclusive = { focus = ORE_washington_daybreak.0 }
@@ -2232,7 +2242,7 @@
 		icon = GFX_focus_usa_tank_destroyer_doctrine
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_washington_twinpeak.0
 		prerequisite = { focus = ORE_washington_twinpeak.0 }
 		
@@ -2255,7 +2265,7 @@
 		icon = GFX_focus_generic_provoke_border_clashes
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_washington_twinpeak.0
 		prerequisite = { focus = ORE_washington_twinpeak.0 }
 		
@@ -2278,7 +2288,7 @@
 		icon = GFX_focus_generic_treaty
 		x = 1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_washington_twinpeak.1
 		prerequisite = { focus = ORE_washington_twinpeak.1 }
 		prerequisite = { focus = ORE_washington_twinpeak.2 }
@@ -2302,7 +2312,7 @@
 		icon = GFX_focus_generic_strike_at_democracy2
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_washington_twinpeak.3
 		prerequisite = { focus = ORE_washington_twinpeak.3 }
 		prerequisite = { focus = ORE_compromised.1 }
@@ -2330,7 +2340,7 @@
 		icon = GFX_goal_generic_CAS
 		x = -9
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_the_pinch.0
 		prerequisite = { focus = ORE_the_pinch.0 }
 		
@@ -2355,7 +2365,7 @@
 		icon = GFX_goal_molotov_ribbentrop_pact
 		x = -2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_spiders.0
 		prerequisite = { focus = ORE_spiders.0 }
 		mutually_exclusive = { focus = ORE_spider_war.0 }
@@ -2379,7 +2389,7 @@
 		icon = GFX_focus_generic_concessions
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_spider_peace.0
 		prerequisite = { focus = ORE_spider_peace.0 }
 		
@@ -2402,7 +2412,7 @@
 		icon = GFX_focus_mex_privatisation
 		x = 1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_spider_peace.0
 		prerequisite = { focus = ORE_spider_peace.0 }
 		
@@ -2425,7 +2435,7 @@
 		icon = GFX_focus_generic_the_giant_wakes
 		x = 1
 		y = 2
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_spider_peace.1
 		prerequisite = { focus = ORE_spider_peace.1 }
 		prerequisite = { focus = ORE_spider_peace.2 }
@@ -2451,7 +2461,7 @@
 		icon = GFX_goal_generic_military_deal
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_spiders.0
 		prerequisite = { focus = ORE_spiders.0 }
 		mutually_exclusive = { focus = ORE_spider_peace.0 }
@@ -2475,7 +2485,7 @@
 		icon = GFX_goal_generic_major_war
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_spider_war.0
 		prerequisite = { focus = ORE_spider_war.0 }
 		
@@ -2498,7 +2508,7 @@
 		icon = GFX_goal_generic_attack_allies
 		x = 1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_spider_war.0
 		prerequisite = { focus = ORE_spider_war.0 }
 		
@@ -2521,7 +2531,7 @@
 		icon = GFX_focus_generic_military_mission
 		x = 1
 		y = 2
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_spider_war.1
 		prerequisite = { focus = ORE_spider_war.1 }
 		prerequisite = { focus = ORE_spider_war.2 }
@@ -2549,7 +2559,7 @@
 		icon = GFX_focus_eng_move_to_secure_the_dominions
 		x = 9
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_the_pinch.0
 		prerequisite = { focus = ORE_the_pinch.0 }
 		
@@ -2572,7 +2582,7 @@
 		icon = GFX_goal_generic_build_tank
 		x = -2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_FPI.0
 		prerequisite = { focus = ORE_FPI.0 }
 		
@@ -2595,7 +2605,7 @@
 		icon = GFX_goal_generic_wolf_pack
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_FPI.0
 		prerequisite = { focus = ORE_FPI.0 }
 		
@@ -2618,7 +2628,7 @@
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		x = -1
 		y = 1 
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_FPI.1
 		prerequisite = { focus = ORE_FPI.1 }
 		prerequisite = { focus = ORE_FPI.2 }
@@ -2642,7 +2652,7 @@
 		icon = GFX_goal_generic_major_alliance
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_FPI.1
 		prerequisite = { focus = ORE_FPI.1 }
 		prerequisite = { focus = ORE_FPI.2 }
@@ -2666,7 +2676,7 @@
 		icon = GFX_focus_spr_masters_of_our_own_fate
 		x = 1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_FPI.2
 		prerequisite = { focus = ORE_FPI.1 }
 		prerequisite = { focus = ORE_FPI.2 }
@@ -2690,7 +2700,7 @@
 		icon = GFX_focus_prc_infiltration
 		x = -2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_FPI.4
 		prerequisite = { focus = ORE_FPI.3 }
 		prerequisite = { focus = ORE_FPI.4 }
@@ -2716,7 +2726,7 @@
 		icon = GFX_goal_generic_demand_territory
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_FPI.4
 		prerequisite = { focus = ORE_FPI.3 }
 		prerequisite = { focus = ORE_FPI.4 }
@@ -2742,7 +2752,7 @@
 		icon = GFX_focus_CZE_german_puppet
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_FPI.6
 		prerequisite = { focus = ORE_FPI.6 }
 		prerequisite = { focus = ORE_FPI.7 }
@@ -2771,7 +2781,7 @@
 		icon = GFX_focus_POL_support_global_falangism
 		x = 0
 		y = 7
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_the_pinch.0
 		prerequisite = { 
 			focus = ORE_spider_peace.3
@@ -2804,7 +2814,7 @@
 		icon = GFX_goal_oregon_and_mewni
 		x = 0
 		y = 2
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_onward_focus.0
 		prerequisite = { focus = ORE_onward_focus.0 }
 		
@@ -2827,7 +2837,7 @@
 		icon = GFX_goal_generic_trade
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_onward_focus.1
 		prerequisite = { focus = ORE_onward_focus.1 }
 		
@@ -2850,7 +2860,7 @@
 		icon = GFX_focus_generic_military_academy
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_onward_focus.2
 		prerequisite = { focus = ORE_onward_focus.2 }
 		
@@ -2873,7 +2883,7 @@
 		icon = GFX_goal_generic_positive_trade_relations
 		x = -2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_onward_focus.3
 		prerequisite = { focus = ORE_onward_focus.3 }
 		
@@ -2896,7 +2906,7 @@
 		icon = GFX_focus_generic_monarchy_1
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_onward_focus.3
 		prerequisite = { focus = ORE_onward_focus.3 }
 		
@@ -2919,7 +2929,7 @@
 		icon = GFX_focus_GRE_reevaluating_the_drachma
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_onward_focus.3
 		prerequisite = { focus = ORE_onward_focus.3 }
 		
@@ -2942,7 +2952,7 @@
 		icon = GFX_goal_tripartite_pact
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_onward_focus.5
 		prerequisite = { focus = ORE_onward_focus.4 }
 		prerequisite = { focus = ORE_onward_focus.5 }
@@ -2967,7 +2977,7 @@
 		icon = GFX_goal_generic_neutrality_focus
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_onward_focus.7
 		prerequisite = { focus = ORE_onward_focus.7 }
 		
@@ -2992,7 +3002,7 @@
 		icon = GFX_goal_generic_alliance
 		x = -5
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_onward_focus.0
 		prerequisite = { focus = ORE_onward_focus.0 }
 		mutually_exclusive = { focus = ORE_cali_war.1 }
@@ -3016,7 +3026,7 @@
 		icon = GFX_goal_generic_propaganda
 		x = -2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cali_peace.1
 		prerequisite = { focus = ORE_cali_peace.1 }
 		
@@ -3039,7 +3049,7 @@
 		icon = GFX_focus_eng_concessions_to_the_trade_unions
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cali_peace.1
 		prerequisite = { focus = ORE_cali_peace.1 }
 		
@@ -3062,7 +3072,7 @@
 		icon = GFX_focus_generic_little_entente
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cali_peace.2
 		prerequisite = { focus = ORE_cali_peace.2 }
 		
@@ -3085,7 +3095,7 @@
 		icon = GFX_focus_generic_diplomatic_treaty
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cali_peace.3
 		prerequisite = { focus = ORE_cali_peace.3 }
 		
@@ -3108,7 +3118,7 @@
 		icon = GFX_goal_generic_national_unity
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cali_peace.4
 		prerequisite = { focus = ORE_cali_peace.4 }
 		prerequisite = { focus = ORE_cali_peace.5 }
@@ -3134,7 +3144,7 @@
 		icon = GFX_goal_generic_attack_allies
 		x = 5
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_onward_focus.0
 		prerequisite = { focus = ORE_onward_focus.0 }
 		mutually_exclusive = { focus = ORE_cali_peace.1 }
@@ -3158,7 +3168,7 @@
 		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
 		x = -2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cali_war.1
 		prerequisite = { focus = ORE_cali_war.1 }
 		
@@ -3181,7 +3191,7 @@
 		icon = GFX_focus_generic_manpower
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cali_war.1
 		prerequisite = { focus = ORE_cali_war.1 }
 		
@@ -3204,7 +3214,7 @@
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cali_war.2
 		prerequisite = { focus = ORE_cali_war.2 }
 		
@@ -3227,7 +3237,7 @@
 		icon = GFX_goal_generic_political_pressure
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cali_war.3
 		prerequisite = { focus = ORE_cali_war.3 }
 		
@@ -3250,7 +3260,7 @@
 		icon = GFX_focus_generic_little_entente
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_cali_war.4
 		prerequisite = { focus = ORE_cali_war.4 }
 		prerequisite = { focus = ORE_cali_war.5 }
@@ -3313,7 +3323,7 @@
 		icon = GFX_goal_oregon_blacksheep_parson_northwest
 		x = -10
 		y = 2
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_focus.2
 		#prerequisite = { focus = ORE_start_focus.3 }
 		
@@ -3335,7 +3345,7 @@
 		icon = GFX_goal_oregon_rally_to_west
 		x = -5
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_focus.0
 		prerequisite = { focus = ORE_frontier_focus.0 }
 		
@@ -3357,7 +3367,7 @@
 		icon = GFX_goal_oregon_frontier_spirit
 		x = 5
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_focus.0
 		prerequisite = { focus = ORE_frontier_focus.0 }
 		
@@ -3379,7 +3389,7 @@
 		icon = GFX_goal_oregon_frontier_military
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_focus.0
 		prerequisite = { focus = ORE_frontier_focus.0 }
 		
@@ -3405,7 +3415,7 @@
 		icon = GFX_focus_generic_combined_arms
 		x = -3
 		y = 2
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_focus.0
 		prerequisite = { 
 			focus = ORE_frontier_focus.1
@@ -3435,7 +3445,7 @@
 		icon = GFX_goal_rhineland
 		x = 0
 		y = 2
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_focus.0
 		prerequisite = { 
 			focus = ORE_frontier_focus.1
@@ -3465,7 +3475,7 @@
 		icon = GFX_focus_SOV_penal_battalions
 		x = 3
 		y = 2
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_focus.0
 		prerequisite = { 
 			focus = ORE_frontier_focus.1
@@ -3498,7 +3508,7 @@
 		icon = GFX_goal_generic_navy_carrier
 		x = -3
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_doctrine.1
 		prerequisite = { 
 			focus = ORE_frontier_doctrine.0
@@ -3528,7 +3538,7 @@
 		icon = GFX_goal_generic_amphibious_assault
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_doctrine.1
 		prerequisite = { 
 			focus = ORE_frontier_doctrine.0
@@ -3558,7 +3568,7 @@
 		icon = GFX_goal_generic_navy_anti_submarine
 		x = 3
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_doctrine.1
 		prerequisite = { 
 			focus = ORE_frontier_doctrine.0
@@ -3591,7 +3601,7 @@
 		icon = GFX_goal_generic_territory_or_war
 		x = -3
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_doctrine.4
 		prerequisite = { 
 			focus = ORE_frontier_doctrine.3
@@ -3621,7 +3631,7 @@
 		icon = GFX_goal_generic_air_fighter2
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_doctrine.4
 		prerequisite = { 
 			focus = ORE_frontier_doctrine.3
@@ -3651,7 +3661,7 @@
 		icon = GFX_goal_generic_CAS
 		x = 3
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_doctrine.4
 		prerequisite = { 
 			focus = ORE_frontier_doctrine.3
@@ -3681,7 +3691,7 @@
 		icon = GFX_focus_generic_military_dictatorship
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_doctrine.7
 		prerequisite = { 
 			focus = ORE_frontier_doctrine.6
@@ -3699,6 +3709,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_doctrine.9.t"
+			remove_ideas = state_national_guard
 			hidden_effect = {}
 		}
 	}
@@ -3708,7 +3719,7 @@
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_focus.1
 		prerequisite = { focus = ORE_frontier_focus.1 }
 		
@@ -3730,7 +3741,7 @@
 		icon = GFX_focus_chi_army_reform
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_focus.4
 		prerequisite = { focus = ORE_frontier_focus.4 }
 		
@@ -3752,7 +3763,7 @@
 		icon = GFX_goal_generic_fortify_city
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_focus.5
 		prerequisite = { focus = ORE_frontier_focus.5 }
 		
@@ -3774,7 +3785,7 @@
 		icon = GFX_focus_mex_support_general_cedillo
 		x = 1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_focus.6
 		prerequisite = { focus = ORE_frontier_focus.6 }
 		prerequisite = { 
@@ -3802,7 +3813,7 @@
 		icon = GFX_focus_prc_infiltration
 		x = 1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_focus.2
 		prerequisite = { focus = ORE_frontier_focus.2 }
 		
@@ -3824,7 +3835,7 @@
 		icon = GFX_focus_SOV_mobilization_plan
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_focus.8
 		prerequisite = { focus = ORE_frontier_focus.8 }
 		
@@ -3846,7 +3857,7 @@
 		icon = GFX_focus_generic_diplomatic_treaty
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_focus.9
 		prerequisite = { focus = ORE_frontier_focus.9 }
 		
@@ -3868,7 +3879,7 @@
 		icon = GFX_focus_spr_torchbearers_of_tomorrow
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_frontier_focus.10
 		prerequisite = { focus = ORE_frontier_focus.10 }
 		prerequisite = { 
@@ -3904,7 +3915,7 @@
 		icon = GFX_goal_wicked_chiu
 		x = 8
 		y = 2
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_trembley_focus.2
 		#prerequisite = { focus = ORE_start_focus.3 }
 		
@@ -3927,7 +3938,7 @@
 		icon = GFX_goal_magic_basics
 		x = -2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_wicked_focus.0
 		prerequisite = { focus = ORE_wicked_focus.0 }
 		
@@ -3950,7 +3961,7 @@
 		icon = GFX_goal_portable_magic
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_wicked_focus.0
 		prerequisite = { focus = ORE_wicked_focus.0 }
 		
@@ -3973,7 +3984,7 @@
 		icon = GFX_goal_generic_air_doctrine
 		x = -2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_wicked_focus.1
 		prerequisite = { focus = ORE_wicked_focus.1 }
 		
@@ -3996,7 +4007,7 @@
 		icon = GFX_focus_generic_socialist_science
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_wicked_focus.3
 		prerequisite = { focus = ORE_wicked_focus.3 }
 		
@@ -4019,7 +4030,7 @@
 		icon = GFX_focus_spr_crush_the_revolution
 		x = 2
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_wicked_focus.2
 		prerequisite = { focus = ORE_wicked_focus.2 }
 		
@@ -4042,7 +4053,7 @@
 		icon = GFX_goal_generic_military_sphere
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_wicked_focus.5
 		prerequisite = { focus = ORE_wicked_focus.5 }
 		
@@ -4065,7 +4076,7 @@
 		icon = GFX_goal_indistinguishable_from_magic
 		x = 1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_wicked_diverse.2
 		prerequisite = { focus = ORE_wicked_focus.4 }
 		prerequisite = { focus = ORE_wicked_diverse.2 }
@@ -4089,7 +4100,7 @@
 		icon = GFX_goal_will_of_beaver
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_wicked_coven.1
 		prerequisite = { focus = ORE_wicked_coven.1 focus = ORE_wicked_diverse.1 }
 
@@ -4113,7 +4124,7 @@
 		icon = GFX_goal_boiling_cascadia
 		x = 1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_wicked_focus.7
 		prerequisite = { focus = ORE_wicked_focus.7 }
 		prerequisite = { focus = ORE_wicked_coven.2 }
@@ -4140,7 +4151,7 @@
 		icon = GFX_goal_coven_track
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_wicked_focus.1
 		prerequisite = { focus = ORE_wicked_focus.1 }
 		mutually_exclusive = { focus = ORE_wicked_coven.1 }
@@ -4164,7 +4175,7 @@
 		icon = GFX_goal_titan_all_trade
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_wicked_diverse.1
 		prerequisite = { focus = ORE_wicked_coven.1 focus = ORE_wicked_diverse.1 }
 		
@@ -4187,7 +4198,7 @@
 		icon = GFX_goal_coven_corps
 		x = 0
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_wicked_focus.2
 		prerequisite = { focus = ORE_wicked_focus.2 }
 		mutually_exclusive = { focus = ORE_wicked_diverse.1 }
@@ -4211,7 +4222,7 @@
 		icon = GFX_goal_president_coven
 		x = -1
 		y = 1
-		cost = 1
+		cost = 3
 		relative_position_id = ORE_wicked_focus.8 
 		prerequisite = { focus = ORE_wicked_focus.8 }
 		prerequisite = { focus = ORE_wicked_focus.6 }

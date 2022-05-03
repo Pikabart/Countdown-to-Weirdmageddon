@@ -283,6 +283,9 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_start.8.t"
+			
+			add_ideas = state_interstate_gone
+			
 			set_country_flag = cal_NorSo_relationship # Enable Decisions for NorCal SoCal Relationship
 			set_variable = { cal_norton_norcal = 70 }
 			set_variable = { cal_norton_socal = 45 }
@@ -1982,6 +1985,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_complex.7.t"
+			remove_ideas = state_interstate_gone
 			add_ideas = CAL_golden_industry
 		}
 	}
@@ -2358,7 +2362,10 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_army.2.t"
-			add_ideas = CAL_over_there_1
+			swap_ideas = {
+				add_idea = CAL_over_there_1
+				remove_idea = CAL_over_there_0
+			}
 		}
 	}
 	
@@ -2482,7 +2489,11 @@
 		
 		completion_reward = {	  
 			custom_effect_tooltip = "CAL_army.7.t"
-			add_ideas = CAL_over_there_2
+			remove_ideas = state_national_guard
+			swap_ideas = {
+				add_idea = CAL_over_there_2
+				remove_idea = CAL_over_there_1
+			}
 		}
 	}
 	
@@ -4236,7 +4247,7 @@
 			custom_effect_tooltip = "CAL_oregon_war.6.t"
 			declare_war_on = { target = ORE type = annex_everything }
 		}
-		will_lead_to_war_with = ORE
+		will_lead_to_war_with = ORE					 
 	}
 	
 	####################################################################

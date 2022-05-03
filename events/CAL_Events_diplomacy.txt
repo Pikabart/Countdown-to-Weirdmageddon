@@ -42,6 +42,7 @@ country_event = { # become hostile, california considered aggressor still
 	option = {
 		name = CAL_everett_event.2.a
 		declare_war_on = { target = UTH type = annex_everything }
+		add_timed_idea = { idea = CAL_resort_to_war  days = 60 }
 		NEV = {
 			add_to_war = { 
 				targeted_alliance = PREV 
@@ -103,6 +104,7 @@ country_event = { # become hostile, california considered aggressor still
 		name = CAL_everett_event.5.a
 		declare_war_on = { target = ARZ type = annex_everything }
 		declare_war_on = { target = NMX type = annex_everything }
+		add_timed_idea = { idea = CAL_resort_to_war  days = 60 }
 		NEV = {
 			add_to_war = { 
 				targeted_alliance = PREV 
@@ -171,6 +173,7 @@ country_event = { # become hostile, california considered aggressor still
 	option = {
 		name = CAL_everett_event.8.a
 		declare_war_on = { target = CRD type = annex_everything }
+		add_timed_idea = { idea = CAL_resort_to_war  days = 60 }
 		NEV = {
 			add_to_war = { 
 				targeted_alliance = PREV 
@@ -551,12 +554,13 @@ country_event = {
 	option = {
 		name = CAL_birnbaum_event.6.a #California burdens
 		country_event = { id = CAL_birnbaum_event.7 days = 3}
+		set_country_flag = CAL_pays_texas_flag
 		ai_chance = { factor = 90 }
 	}
 	option = {
 		name = CAL_birnbaum_event.6.b #California negotiates the terms
 		random_list = {
-			60 = {country_event = { id = CAL_birnbaum_event.10 days = 3}}
+			60 = {country_event = { id = CAL_birnbaum_event.10 days = 3} set_country_flag = CAL_pays_texas_flag}
 			30 = {
 				country_event = { id = CAL_birnbaum_event.7 days = 3}
 				set_country_flag = CAL_pays_texas_flag
@@ -591,7 +595,7 @@ country_event = {
 		trigger = {has_country_flag=CAL_pays_texas_flag}
 		CAL = { add_to_faction = TEX }
 		CAL = { add_to_faction = MEX }
-		add_ideas = CAL_pays_texas  #idea of big economic peently
+		add_timed_idea = { idea = CAL_pays_texas  days = 180 } #idea of big economic peently
 		set_country_flag = cal_flag_tex
 	}
 	option = {
@@ -599,7 +603,7 @@ country_event = {
 		trigger = { has_country_flag = CAL_pays_texas_less_flag }
 		CAL = { add_to_faction = TEX }
 		CAL = { add_to_faction = MEX }
-		add_ideas = CAL_pays_texas_less  #idea of big economic peently
+		add_timed_idea = { idea = CAL_pays_texas_less  days = 180 }  #idea of big economic peently
 		set_country_flag = cal_flag_tex
 	}
 
