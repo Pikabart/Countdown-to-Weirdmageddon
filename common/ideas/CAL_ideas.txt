@@ -111,7 +111,7 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-              
+				stability_weekly_factor = 0.05
 			}
 		}
 		CAL_imp_governor = {
@@ -123,7 +123,7 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-               
+				war_support_weekly_factor = 0.05
 			}
 		}
 		########################################################
@@ -136,7 +136,8 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-              
+				stability_factor = 0.20
+				consumer_goods_factor = 0.15
 			}
 		}
 		CAL_moderate_socsec = {
@@ -148,7 +149,8 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-               
+				stability_factor = 0.10
+				consumer_goods_factor = 0.075
 			}
 		}
 		CAL_moderate_smallbiz = {
@@ -160,7 +162,8 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-               
+				consumer_goods_factor = -0.1
+				supply_node_range = 0.1
 			}
 		}
 		CAL_trad_remove = {
@@ -172,7 +175,9 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-               
+				consumer_goods_factor = -0.25
+				stability_factor = -0.25
+				war_support_weekly = 0.005
 			}
 		}
 		########################################################
@@ -185,7 +190,8 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-              
+				monthly_population = 0.05
+				stability_weekly_factor = 0.005
 			}
 		}
 		CAL_tax_codes = {
@@ -197,7 +203,8 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-               
+				consumer_goods_factor = -0.10
+				political_power_factor = 0.25
 			}
 		}
 		#########################################################################
@@ -212,7 +219,45 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-               
+				stability_factor = -0.1
+				consumer_goods_factor = 0.05
+				supply_node_range = -0.1
+				root_out_resistance_effectiveness_factor = 0.1
+				occupation_cost = -0.1
+				required_garrison_factor = -0.25
+			}
+		} 
+		CAL_private_security_b = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+				political_power_factor = -0.10
+				stability_factor = -0.1
+				consumer_goods_factor = 0.1
+				supply_node_range = 0.1
+				root_out_resistance_effectiveness_factor = 0.2
+				occupation_cost = -0.05
+				required_garrison_factor = -0.5
+			}
+		} 
+		CAL_private_security_c = {
+			picture = GFX_idea_CAL_northwest # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+               consumer_goods_factor = 0.15
+			   political_power_factor = 0.20
+			   stability_factor = 0.20
+			   war_support_factor = 0.20
 			}
 		} 
 		########################################################
@@ -225,7 +270,8 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-               
+               war_support_factor = 0.05
+			   recruitable_population = 0.01
 			}
 		}
 		CAL_over_there_1 = {
@@ -237,7 +283,10 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-               
+               training_time_factor = -0.05
+				minimum_training_level = -0.1
+				war_support_factor = 0.05
+				recruitable_population = 0.05
 			}
 		}
 		CAL_logistics_first = {
@@ -249,7 +298,9 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-               
+			   supply_node_range = 0.25
+			   attrition = -0.25
+			   army_org_regain = 0.1
 			}
 		}
 
@@ -263,7 +314,9 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-               
+                production_speed_industrial_complex_factor = 0.10
+				production_speed_arms_factory_factor = 0.10 
+				consumer_goods_factor = -0.10
 			}
 		}
 		CAL_fareast_wildwest = {
@@ -275,7 +328,11 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-              
+				experience_gain_navy = 0.005
+				experience_gain_navy_unit = 0.05
+               convoy_escort_efficiency = 0.25
+			   convoy_retreat_speed = 0.25
+			   naval_morale_factor = 0.25
 			}
 		}
 		CAL_over_there_2 = {
@@ -287,7 +344,12 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-               
+                training_time_factor = -0.05
+				minimum_training_level = -0.1
+				army_attack_factor = 0.10
+				army_defence_factor = 0.05
+				recruitable_population = 0.10
+				experience_gain_army_factor = 0.2
 			}
 		}
 		########################################################
@@ -402,7 +464,8 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-              
+              war_support_factor = -0.50
+			  stability_weekly_factor = -0.10
 			}
 		}
 		
@@ -415,10 +478,11 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-              
+              consumer_goods_factor = 0.30
+			  stability_weekly_factor = 0.01
 			}
 		}
-		CAL_texas_blinks = {   # For CAL_birnbaum_event.11 , bonus
+		CAL_texas_blinks = {   # For CAL_birnbaum_event.11 , MODERATE economic penelty
 			picture = GFX_idea_CAL_northwest # 
 			
 			allowed = {}
@@ -427,7 +491,8 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-              
+              consumer_goods_factor = 0.20
+			  stability_weekly_factor = 0.01
 			}
 		}
 		

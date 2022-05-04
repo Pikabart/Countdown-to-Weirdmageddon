@@ -1,4 +1,14 @@
 ﻿l_english:
+##########
+#shared state ideas
+state_national_guard:0 "National Guard"
+state_national_guard_desc:0 "As the US Military as a whole has experience a decline in the past decade, the National Guards of numerous states are not as up to code as they once were."
+state_interstate_gone:0 "The Collapse of Interstate Commerse"
+state_interstate_gone_desc:0 "The US is the largest economy in the world and its interstate commerse rivals even the EU's Schengen Area. Now, the The collapse of Interstate Commerse has devestated the economy of the states and it will take great effort to fix this."
+
+########
+
+
 
  CAL_golden:0 "Eureka!"
  CAL_golden_desc:0 "California is a large diverse state and is home to a diverse range of people from all walks of life. Its coastlines and cities are vast, its valley rich and fetile, and its mountains and forest rising strong from the ground. Countrymen, City Slicker, Northerner, Southerner, the people of the Golden State stand ready for whatever comes it way."
@@ -41,18 +51,25 @@ CAL_tax_codes:0 "Revised Tax Codes"
 #Expansion Focus Tree Ideas
 
 CAL_resort_to_war:0 "Unpopular "Liberation""
+CAL_resort_to_war_desc:0 "Our poor dimploatic efforts has caused a war and it has proven to be massivley unpopular with our own populace. For many living in those states, spiting California is all the worthwhile."
 
-CAL_pays_texas:0 "Texas Bribed"
+CAL_pays_texas:0 "Texas Paid Off!"
+CAL_pays_texas_desc:0 "We have agreed to basicly pay for Texas siding wiht us. The cost is massive and they're clearly milking us for all its worth. Still, in the end, Texas choose us over the others or even Independence. Such a legitimacy bonus is worth almost any price."
+CAL_pays_texas_less:0 "Texas Bribed!"
+CAL_pays_texas_less_desc:0 ""We have agreed to a fairer plan to help pay for Texass expenses. The cost is still large and they're clearly milking us for all its worth. Still, in the end, Texas choose us over the others or even Independence. Such a legitimacy bonus is worth almost any price."
 CAL_texas_blinks:0 "Texas Blinked!"
 
 #################################
 #Shermie Focus Tree Ideas
 
-CAL_private_security:0 "The Homefront, Privatized"
+CAL_private_security:0 "Militech"
+CAL_private_security_b:0 "Arasaka"
+CAL_private_security_c:0 "The Only Good Corpo is a Dead Corpo"
 
 CAL_over_there_0:0 "The Army Of The West"
 CAL_over_there_1:0 "Gathering in the West"
 CAL_logistics_first:0 "Logistics First and Always"
+CAL_logistics_first_desc:0 "General Pines managed to evacuate tens of thousand of soliders from slow atomic death. This man knows a thing or two of moving things from Point A to Point B"
 CAL_over_there_2:0 "Over There!"
 
 CAL_golden_industry:0 "The Golden Industry"

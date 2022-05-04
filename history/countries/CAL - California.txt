@@ -7,7 +7,6 @@
 
 add_ideas = {
 	state_national_guard
-	state_interstate_gone
 }
 
 #oob = "CAL_2012"

@@ -376,6 +376,7 @@ country_event = {
 		name = CAL_MILITARY.5.e	
 		add_political_power = 100
 		add_stability = 0.05
+		add_war_support = -0.05
 	}
 }
 country_event = {
