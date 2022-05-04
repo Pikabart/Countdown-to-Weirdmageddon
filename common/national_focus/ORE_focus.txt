@@ -3359,6 +3359,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_focus.1.t"
+			add_ideas = ORE_rally_to_the_west_idea
 			hidden_effect = {}
 		}
 	}
@@ -3381,6 +3382,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_focus.2.t"
+			add_ideas = ORE_frontier_spirit_idea
 			hidden_effect = {}
 		}
 	}
@@ -3403,6 +3405,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_focus.3.t"
+			army_experience = 30
 			hidden_effect = {}
 		}
 	}
@@ -3437,6 +3440,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_doctrine.0.t"
+			add_ideas = ORE_federal_professionalism
 			hidden_effect = {}
 		}
 	}
@@ -3466,8 +3470,24 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_frontier_doctrine.1.t"
-			hidden_effect = {}
+			custom_effect_tooltip = "ORE_frontier_doctrine.1.t"
+			swap_ideas = {
+				remove_idea = state_national_guard
+				add_idea = ORE_efficient_national_guard_system
+			}
+			hidden_effect = {
+				random_owned_controlled_state = {
+					prioritize = { 79 }
+					create_unit = {
+						division = "name = \"Oregon National Guard\" division_template = \"Oregon National Guard\" start_experience_factor = 0"
+						owner = ORE
+					}
+					create_unit = {
+						division = "name = \"Oregon National Guard\" division_template = \"Oregon National Guard\" start_experience_factor = 0"
+						owner = ORE
+					}
+				}
+			}
 		}
 	}
 	focus = {
@@ -3496,7 +3516,43 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_frontier_doctrine.2.t"
+			custom_effect_tooltip = "ORE_frontier_doctrine.2.t"
+			hidden_effect = {
+				division_template = {
+					name = "Oregon Minutemen"
+					regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+					}
+				}
+				random_owned_controlled_state = {
+					prioritize = { 79 }
+					create_unit = {
+						division = "name = \"Salem Minutemen\" division_template = \"Oregon Minutemen\" start_experience_factor = 0"
+						owner = ORE
+					}
+					create_unit = {
+						division = "name = \"Portland Minutemen and Women\" division_template = \"Oregon Minutemen\" start_experience_factor = 0"
+						owner = ORE
+					}
+					create_unit = {
+						division = "name = \"Brazzersville Minutemen\" division_template = \"Oregon Minutemen\" start_experience_factor = 0"
+						owner = ORE
+					}
+					create_unit = {
+						division = "name = \"Chemult Minutemen\" division_template = \"Oregon Minutemen\" start_experience_factor = 0"
+						owner = ORE
+					}
+					create_unit = {
+						division = "name = \"Boring Minutemen\" division_template = \"Oregon Minutemen\" start_experience_factor = 0"
+						owner = ORE
+					}
+					create_unit = {
+						division = "name = \"Minutemen of Cascadia\" division_template = \"Oregon Minutemen\" start_experience_factor = 0"
+						owner = ORE
+					}
+				}
+			}
 			hidden_effect = {}
 		}
 	}
@@ -3530,6 +3586,11 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_doctrine.3.t"
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_fleet_in_being
+			}
 			hidden_effect = {}
 		}
 	}
@@ -3560,6 +3621,39 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_doctrine.4.t"
+			89 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 10
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_coast = yes
+					}
+				}
+			}
+			90 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 10
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_coast = yes
+					}
+				}
+			}
+			86 = {
+				add_building_construction = {
+					type = coastal_bunker
+					level = 10
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_coast = yes
+					}
+				}
+			}
 			hidden_effect = {}
 		}
 	}
@@ -3588,8 +3682,13 @@
 		available = {}
 		bypass = {} 
 		
-		completion_reward = {	
+		completion_reward = {
 			#custom_effect_tooltip = "ORE_frontier_doctrine.5.t"
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_trade_interdiction
+			}
 			hidden_effect = {}
 		}
 	}
@@ -3623,6 +3722,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_doctrine.6.t"
+			add_ideas = ORE_skies_of_america
 			hidden_effect = {}
 		}
 	}
@@ -3653,6 +3753,16 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_doctrine.7.t"
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 2
+				category = naval_air
+			}
+			add_doctrine_cost_reduction = {
+				cost_reduction = 0.5
+				uses = 2
+				category = cat_base_strike
+			}
 			hidden_effect = {}
 		}
 	}
@@ -3683,6 +3793,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_doctrine.8.t"
+			add_ideas = ORE_northern_skies
 			hidden_effect = {}
 		}
 	}
@@ -3707,10 +3818,29 @@
 		available = {}
 		bypass = {} 
 		
-		completion_reward = {	
-			#custom_effect_tooltip = "ORE_frontier_doctrine.9.t"
-			remove_ideas = state_national_guard
-			hidden_effect = {}
+		completion_reward = {
+			custom_effect_tooltip = "ORE_frontier_doctrine.9.t"
+			hidden_effect = {
+				if = {
+					limit = {
+						has_idea = state_national_guard
+					}
+					swap_ideas = {
+						add_idea  = ORE_efficient_national_guard_system
+						remove_idea = state_national_guard
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = ORE_efficient_national_guard_system
+					}
+					remove_ideas = ORE_efficient_national_guard_system
+				}
+				else = {#this is here as a failsafe
+					remove_ideas = ORE_efficient_national_guard_system
+					remove_ideas = state_national_guard
+				}
+			}
 		}
 	}
 	#################################################################################
@@ -3733,6 +3863,10 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_focus.4.t"
+			swap_ideas = {
+				remove_idea = ORE_rally_to_the_west_idea
+				add_idea = ORE_rally_to_the_west_idea_2
+			}
 			hidden_effect = {}
 		}
 	}
@@ -3755,6 +3889,9 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_focus.5.t"
+			army_experience = 5
+			air_experience = 10
+			navy_experience = 10
 			hidden_effect = {}
 		}
 	}
@@ -3777,6 +3914,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_focus.6.t"
+			army_experience = 15
 			hidden_effect = {}
 		}
 	}
@@ -3804,6 +3942,10 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_focus.7.t"
+			ORE_parson_northwest = {
+				add_attack = 2
+				add_logistics = 3
+			}
 			hidden_effect = {}
 		}
 	}
@@ -3827,6 +3969,10 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_focus.8.t"
+			swap_ideas = {
+				remove_idea = ORE_frontier_spirit_idea
+				add_idea = ORE_frontier_spirit_idea_2
+			}
 			hidden_effect = {}
 		}
 	}
@@ -3849,6 +3995,10 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_focus.9.t"
+			swap_ideas = {
+				remove_idea = ORE_frontier_spirit_idea_2
+				add_idea = ORE_frontier_spirit_idea_3
+			}
 			hidden_effect = {}
 		}
 	}
@@ -3871,6 +4021,10 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_focus.10.t"
+			swap_ideas = {
+				remove_idea = ORE_frontier_spirit_idea_3
+				add_idea = ORE_frontier_spirit_idea_4
+			}
 			hidden_effect = {}
 		}
 	}
@@ -3898,6 +4052,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_frontier_focus.1.t"
+			add_war_support = 0.1
 			hidden_effect = {}
 		}
 	}

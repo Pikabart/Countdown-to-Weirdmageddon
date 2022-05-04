@@ -1,8 +1,8 @@
 ﻿l_english:
 ##########
 #shared state ideas
-state_national_guard:0 "National Guard"
-state_national_guard_desc:0 "As the US Military as a whole has experience a decline in the past decade, the National Guards of numerous states are not as up to code as they once were."
+state_national_guard:0 "Inefficient National Guard System"
+state_national_guard_desc:0 "As the US Military as a whole has experienced a decline in the past decade, the National Guards of numerous states are not as up to code as they once were."
 state_interstate_gone:0 "The Collapse of Interstate Commerse"
 state_interstate_gone_desc:0 "The US is the largest economy in the world and its interstate commerse rivals even the EU's Schengen Area. Now, the The collapse of Interstate Commerse has devestated the economy of the states and it will take great effort to fix this."
 

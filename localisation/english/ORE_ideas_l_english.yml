@@ -15,6 +15,30 @@
  ORE_northwest:0 "Northwest Of Oregon"
  ORE_northwest_desc:0 "The first subsidiary of the Northwest Corporation and a special extention of the company. Due in part to its military connections, such as to the Oregon National Guard and its commander, Colonel Parson Northwest, NoO is also a personal extention of its owner, CEO Preston Northwest"
 
+ ORE_frontier_spirit_idea:0 "Frontier Spirit"
+ ORE_frontier_spirit_idea_desc:0 "Oregon's history is the embodiment of American manifest destiny. The way of life of trekking travellers will inspire a sense of perseverence into the army."
+
+ ORE_frontier_spirit_idea_2:0 "Frontier Spirit"
+ ORE_frontier_spirit_idea_2_desc:0 "Oregon's history is the embodiment of American manifest destiny. The way of life of trekking travellers will inspire a sense of perseverence into the army."
+ 
+ ORE_frontier_spirit_idea_3:0 "Frontier Spirit"
+ ORE_frontier_spirit_idea_3_desc:0 "Oregon's history is the embodiment of American manifest destiny. The way of life of trekking travellers will inspire a sense of perseverence into the army."
+ 
+ ORE_frontier_spirit_idea_4:0 "Frontier Spirit"
+ ORE_frontier_spirit_idea_4_desc:0 "Oregon's history is the embodiment of American manifest destiny. The way of life of trekking travellers will inspire a sense of perseverence into the army."
+ 
+ ORE_rally_to_the_west_idea:0 "Rally to the West!"
+ ORE_rally_to_the_west_idea_desc:0 ""
+ 
+ ORE_rally_to_the_west_idea_2:0 "Rally to the West!"
+ ORE_rally_to_the_west_idea_2_desc:0 ""
+ 
+ ORE_federal_professionalism:0 "Federal Standards in the Military"
+ ORE_federal_professionalism_desc:0 "The Military's professionalism must meet or even surpass the professionalism of our enemies' if we are to defeat them."
+ 
+ ORE_efficient_national_guard_system:0 "Reforming National Guard System"
+ ORE_efficient_national_guard_system_desc:0 ""
+ 
 #################################
 
 

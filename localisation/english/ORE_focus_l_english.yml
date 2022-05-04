@@ -360,11 +360,11 @@
  
  ORE_frontier_doctrine.1:0 "Re-Organize The National Guard"
  ORE_frontier_doctrine.1_desc:0 ""
- ORE_frontier_doctrine.1.t:0 ""
+ ORE_frontier_doctrine.1.t:0 "2 §YOregon National Guard§! Divisons will be deployed in §YClackamas County§!"
  
  ORE_frontier_doctrine.2:0 "The Western Minutemen"
  ORE_frontier_doctrine.2_desc:0 ""
- ORE_frontier_doctrine.2.t:0 ""
+ ORE_frontier_doctrine.2.t:0 "Free §YOregon Minutemen§! Division Template is added. (Template consists of 2 §YInfantry§! platoons.)\n6 §YOregon Minutemen§! Divisons will be deployed in §YClackamas County§!"
  
  ORE_frontier_doctrine.3:0 "Towards the Pacific"
  ORE_frontier_doctrine.3_desc:0 ""
@@ -392,7 +392,7 @@
  
  ORE_frontier_doctrine.9:0 "The Commander-In-Chief"
  ORE_frontier_doctrine.9_desc:0 ""
- ORE_frontier_doctrine.9.t:0 ""
+ ORE_frontier_doctrine.9.t:0 "If you have Idea §YInefficient National Guard System§!, replace it with §YReforming National Guard System§!.\nIf you have Idea §YReforming National Guard System§!, it will be removed."
  
  ######################################################################
  ######################################################################
