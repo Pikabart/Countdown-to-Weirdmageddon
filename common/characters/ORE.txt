@@ -63,7 +63,7 @@ characters = {
 	
 	ORE_parson_northwest = {
 		name = "Parson Northwest" 
-		
+
 		portraits = {
 			civilian = {
 				large = "GFX_leaders_parson_northwest"

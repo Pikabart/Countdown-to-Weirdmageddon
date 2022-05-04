@@ -132,6 +132,14 @@ technologies = {
 			leads_to_tech = infantry_weapons2
 			research_cost_coeff = 1
 		}		
+		
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		cavalry = {
+			soft_attack = 0.05
+		}
 
 		research_cost = 1.5
 		
@@ -205,6 +213,13 @@ technologies = {
 			research_cost_coeff = 1
 		}
 				
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		
+		cavalry = {
+			soft_attack = 0.05
+		}
 
 		research_cost = 2
 		##start_year = 1700
@@ -369,6 +384,14 @@ technologies = {
 		path = {
 			leads_to_tech = infantry_weapons6
 			research_cost_coeff = 1
+		}
+		
+		category_light_infantry = {
+			soft_attack = 0.1
+		}
+		
+		cavalry = {
+			soft_attack = 0.1
 		}
 
 		research_cost = 2
