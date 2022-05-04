@@ -221,8 +221,11 @@ country_event = { #border wars
 	
 	option = { 
 		name = ORE_TREMBLEY.8.a
+		add_opinion_modifier = { target = CAL modifier = ORE_imperial_scum }
+		CAL = {add_opinion_modifier = { target = ORE modifier = CAL_rogue_lord }}
+		CAL = {country_event = { id = CAL_TREMBLEY.2 days = 5 } }  # The News that prompt Norton's election
+
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		CAL = {country_event = { id = CAL_TREMBLEY.2 days = 5 } }  # The NEws the promtpt Norton's electin
 	}
 }
 

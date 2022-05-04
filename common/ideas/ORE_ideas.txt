@@ -55,13 +55,13 @@ ideas = { #Entire file
 			allowed_civil_war = {always = yes}
 			
 			modifier = {
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.10
 				trade_opinion_factor = 0.05
 			}
 		}
 		
 		ORE_texan_payments = {
-			picture = a
+			picture = FRA_factory_strikes
 			
 			allowed = {}
 			available = {}
@@ -74,7 +74,7 @@ ideas = { #Entire file
 		}
 		
 		ORE_against_east = {
-			picture = a
+			picture = FRA_factory_strikes
 			
 			allowed = {}
 			available = {}
@@ -86,6 +86,73 @@ ideas = { #Entire file
 				attack_bonus_against = 0.05
 			}
 		}
+
+		##############
+		
+		ORE_SOD_shark = {
+			picture = FRA_factory_strikes
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+				offence = 0.05
+				breakthrough_factor = 0.05
+			}
+		}
+		
+		ORE_SOD_whale = {
+			picture = FRA_factory_strikes
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+				defence = 0.05
+				army_morale_factor = 0.05
+			}
+		}
+
+		##############
+		##############
+		
+		ORE_northwest_pardon = {
+			picture = FRA_factory_strikes
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+				supply_node_range = 0.2
+				fuel_gain_factor = 0.3
+				max_fuel_factor = 0.3 
+				consumer_goods_factor = -0.40
+			}
+		}
+		ORE_northwest_siezed = {
+			picture = FRA_factory_strikes
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = yes}
+			
+			modifier = {
+				political_power_factor = 0.3
+				stability_factor = 0.1
+				consumer_goods_factor = -0.20
+			}
+		}
+		
+		#######################
+		#########################
+		
 		
 		ORE_frontier_spirit_idea = {
 			picture = a

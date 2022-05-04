@@ -58,6 +58,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_start_focus.1.t"
+			add_ideas = ORE_northwest
 			hidden_effect = {}
 		}
 	}
@@ -155,6 +156,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_trembley_focus.0.t"
+			country_event = ORE_true_ninth_event.1
 			hidden_effect = {}
 		}
 	}
@@ -179,7 +181,13 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = { 
+			OR = {
+				has_completed_focus = ORE_trembley_crazy.4
+				has_completed_focus = ORE_trembley_line.4
+				has_completed_focus = ORE_trembley_pants.4
+			}
+		} 
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_trembley_focus.1.t"
@@ -212,6 +220,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_trembley_focus.3.t"
+			country_event = ORE_true_ninth_event.5
 			hidden_effect = {}
 		}
 	}
@@ -317,15 +326,16 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_trembley_crazy.4.t"
-                        add_stability = 0.10
-                        add_popularity = {
-                            ideology = democratic
-                            popularity = 0.10
-                            }
-                        add_popularity = {
-                            ideology = fascism
-                            popularity = 0.05
-                            }
+			country_event = ORE_true_ninth_event.2
+			add_stability = 0.10
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.10
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
 			hidden_effect = {}
 		}
 	}
@@ -378,7 +388,8 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_trembley_line.2.t"
-                        add_political_power = -100
+            country_event = ORE_true_ninth_event.6
+			add_political_power = -100
 			hidden_effect = {}
 		}
 	}
@@ -426,13 +437,14 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_trembley_line.4.t"
-                        add_war_support = 0.05
-                        add_stability = 0.05
-                        add_political_power = 150
-                        add_popularity = {
-                            ideology = democratic
-                            popularity = 0.20
-                            }
+				country_event = ORE_true_ninth_event.3
+				add_war_support = 0.05
+				add_stability = 0.05
+				add_political_power = 150
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.20
+				}
 			hidden_effect = {}
 		}
 	}
@@ -534,15 +546,16 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_trembley_pants.4.t"
-                        add_political_power = 450
-                        add_popularity = {
-                            ideology = democratic
-                            popularity = 0.10
-                            }
-                            add_popularity = {
-                            ideology = neutrality
-                            popularity = 0.10
-                            }
+				country_event = ORE_true_ninth_event.4
+				add_political_power = 150
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.10
+				}
+					add_popularity = {
+					ideology = neutrality
+					popularity = 0.10
+				}
 			hidden_effect = {}
 		}
 	}
@@ -564,11 +577,11 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = {NOT = {has_completed_focus = ORE_trembley_pants.4}}
 		bypass = {} 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_trembley_chief.1.t"
+			custom_effect_tooltip = "ORE_trembley_chief.1.t"
 			hidden_effect = {}
 		}
 	}
@@ -592,6 +605,8 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_trembley_chief.2.t"
+			add_war_support = 0.1
+			add_political_power = -100
 			hidden_effect = {}
 		}
 	}
@@ -615,6 +630,15 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_trembley_chief.3.t"
+			add_stability = 0.1
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
 			hidden_effect = {}
 		}
 	}
@@ -636,11 +660,11 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = {NOT = {has_completed_focus = ORE_trembley_crazy.4}}
 		bypass = {} 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_trembley_veep.1.t"
+			custom_effect_tooltip = "ORE_trembley_veep.1.t"
 			hidden_effect = {}
 		}
 	}
@@ -664,6 +688,9 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_trembley_veep.2.t"
+			add_stability = 0.15
+			add_war_support = -0.1
+			add_political_power = 200
 			hidden_effect = {}
 		}
 	}
@@ -687,6 +714,18 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_trembley_veep.3.t"
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.15
+			}
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.05
+			}
 			hidden_effect = {}
 		}
 	}
@@ -792,6 +831,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_economy_focus.1.t"
+			country_event = ORE_NORTHWEST_EVENT.1
 			hidden_effect = {}
 		}
 	}
@@ -814,6 +854,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_economy_focus.2.t"
+			country_event = ORE_NORTHWEST_EVENT.2
 			hidden_effect = {}
 		}
 	}
@@ -836,6 +877,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_economy_focus.3.t"
+			country_event = ORE_NORTHWEST_EVENT.3
 			hidden_effect = {}
 		}
 	}
@@ -854,10 +896,11 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = {has_country_flag = ORE_seize_northwest_property} 
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_economy_focus.4.t"
+			country_event = ORE_NORTHWEST_EVENT.4
 			hidden_effect = {}
 		}
 	}
@@ -1116,6 +1159,7 @@
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_willamette.7.t"
             add_stability = 0.10
+			country_event = ORE_economy_event.1
 			remove_ideas = state_interstate_gone
 			hidden_effect = {}
 		}
@@ -1312,6 +1356,8 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_cascadia_focus.7.t"
+			add_war_support = 0.10
+			country_event = ORE_economy_event.2
 			remove_ideas = state_interstate_gone
 			hidden_effect = {}
 		}
@@ -1384,7 +1430,7 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_oregon_trail_focus.0.t"
+			custom_effect_tooltip = "ORE_oregon_trail_focus.0.t"
             add_political_power = 100
 			hidden_effect = {}
 		}
@@ -1788,17 +1834,25 @@
 			  level = 2
 			  build_only_on_allied = yes
 			  fallback = yes
-			  start_province = 1928
-			  target_province = 8826
-			}
+			  start_province = 2516
+			  target_province = 5532
+			} 
 			build_railway = {
 			  level = 2
 			  build_only_on_allied = yes
 			  fallback = yes
-			  start_province = 8826
-			  target_province = 6663
+			  start_province = 2516
+			  target_province = 3701
 			}
-			hidden_effect = {}
+			hidden_effect = {
+				build_railway = {
+				  level = 1
+				  build_only_on_allied = yes
+				  fallback = yes
+				  start_province = 227
+				  target_province = 5532
+				} 
+			}
 		}
 	}
 	focus = {
@@ -1826,6 +1880,12 @@
 					level = 3
 					instant_build = yes
 				}
+				add_building_construction = {
+					type = naval_base
+					level = 2
+					instant_build = yes
+					province = 96
+				}
 				add_extra_state_shared_building_slots = 3
 			}
 			hidden_effect = {}
@@ -1850,7 +1910,14 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_oregon_trail_focus.4.t"
-			add_war_support = 0.03
+			build_railway = {
+			  level = 2
+			  build_only_on_allied = yes
+			  fallback = yes
+			  path = { 192 201 200 206 }
+			  start_state = 192
+			  target_state = 206
+			}
 			hidden_effect = {}
 		}
 	}
@@ -1873,7 +1940,7 @@
 		
 		completion_reward = {
 			#custom_effect_tooltip = "ORE_oregon_trail_focus.5.t"
-			209 = {
+			205 = {
 				add_building_construction = {
 					type = naval_port
 					level = 4
@@ -1882,10 +1949,24 @@
 				}
 				add_building_construction = {
 					type = dockyard
-					level = 8
+					level = 2
 					instant_build = yes
 				}
-				add_extra_state_shared_building_slots = 8
+				add_extra_state_shared_building_slots = 3
+			}
+			206 = {
+				add_building_construction = {
+					type = naval_port
+					level = 4
+					instant_build = yes
+					province = 8234
+				}
+				add_building_construction = {
+					type = dockyard
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 3
 			}
 			hidden_effect = {}
 		}
@@ -1909,14 +1990,15 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_oregon_trail_focus.6.t"
-			77 = {
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-				add_extra_state_shared_building_slots = 2
-			}
+			193 = { add_building_construction = { type = Infrastructure level = 1 instant_build = yes } }
+			192 = { add_building_construction = { type = Infrastructure level = 1 instant_build = yes } }
+			203 = { add_building_construction = { type = Infrastructure level = 1 instant_build = yes } }
+			202 = { add_building_construction = { type = Infrastructure level = 1 instant_build = yes } }
+			204 = { add_building_construction = { type = Infrastructure level = 1 instant_build = yes } }
+			201 = { add_building_construction = { type = Infrastructure level = 1 instant_build = yes } }
+			200 = { add_building_construction = { type = Infrastructure level = 1 instant_build = yes } }
+			205 = { add_building_construction = { type = Infrastructure level = 1 instant_build = yes } }
+			206 = { add_building_construction = { type = Infrastructure level = 1 instant_build = yes } }
 			hidden_effect = {}
 		}
 	}
@@ -1985,15 +2067,17 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = { has_completed_focus = ORE_start_focus.4 }
+		available = { has_completed_focus = ORE_start_focus.3 }
 		bypass = {} 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_the_pinch.0.t"
+			custom_effect_tooltip = "ORE_the_pinch.0.t"
 			hidden_effect = {}
 		}
 	}
 	
+	###############################
+
 	focus = {
 		id = ORE_the_pinch.1 
 		icon = GFX_focus_TUR_the_sun_language_theory
@@ -2012,12 +2096,12 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_the_pinch.0.t"
+			custom_effect_tooltip = "ORE_the_pinch.1.t"
+			add_war_support = 0.05
 			hidden_effect = {}
 		}
 	}
 	
-	###############################
 	
 	focus = {
 		id = ORE_compromised.0 
@@ -2041,6 +2125,12 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_compromised.0.t"
+			add_stability = 0.05
+			add_war_support = 0.05
+			WAS = {
+				add_stability = -0.20
+				add_war_support = -0.20
+			}
 			hidden_effect = {}
 		}
 	}
@@ -2064,6 +2154,10 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_compromised.0.t"
+			add_political_power = 100
+			WAS = {
+				add_political_power = -500
+			}
 			hidden_effect = {}
 		}
 	}
@@ -2089,7 +2183,10 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_washington_daybreak.0.t"
+			custom_effect_tooltip = "ORE_washington_daybreak.0.t"
+			ORE = {
+				transfer_state = 119
+			}
 			hidden_effect = {}
 		}
 	}
@@ -2113,6 +2210,17 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_washington_daybreak.1.t"
+			119 = {add_core_of = ORE remove_core_of = WAS 
+				add_building_construction = {
+					type = bunker
+					level = 3
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_border = yes
+					}
+				}
+			}
 			hidden_effect = {}
 		}
 	}
@@ -2136,7 +2244,29 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_washington_daybreak.2.t"
-			hidden_effect = {}
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 57
+					num_provinces = 4
+					on_win = ore_daybreak_event.1
+					on_lose = ore_daybreak_event.2
+				}
+							
+				defender = {
+					state = 118
+					num_provinces = 4
+				}
+			}
+			hidden_effect = {
+			set_border_war_data = {
+				attacker = 57
+				defender = 118
+				attacker_modifier = 3
+				defender_modifier = -1
+				combat_width = 100
+			}
+			}
 		}
 	}
 	
@@ -2159,6 +2289,16 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_washington_daybreak.3.t"
+			WAS = {
+				delete_unit_template_and_units = {
+					division_template = "Canadian Mechanised Exiles"
+					disband = no #will refund equipment and manpower
+				}
+				delete_unit_template_and_units = {
+					division_template = "Canadian Mountie Exiles"
+					disband = no #will refund equipment and manpower
+				}
+			}
 			hidden_effect = {}
 		}
 	}
@@ -2182,7 +2322,9 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_washington_daybreak.4.t"
-			hidden_effect = {}
+			ORE = { transfer_state = 245  }
+			245 = {add_core_of = ORE remove_core_of = EPI }
+			hidden_effect = { }
 		}
 	}
 	
@@ -2207,6 +2349,10 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_washington_daybreak.5.t"
+			declare_war_on = {
+				target = WAS
+				type = annex_everything
+			}
 			hidden_effect = {}
 		}
 	}
@@ -2232,7 +2378,7 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_washington_twinpeak.0.t"
+			custom_effect_tooltip = "ORE_washington_twinpeak.0.t"
 			hidden_effect = {}
 		}
 	}
@@ -2256,6 +2402,8 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_washington_twinpeak.1.t"
+			add_war_support = -0.05
+			add_stability = -0.05
 			hidden_effect = {}
 		}
 	}
@@ -2279,6 +2427,9 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_washington_twinpeak.2.t"
+			120 = {damage_building = { type = infrastructure damage = 1 }}
+			115 = {damage_building = { type = infrastructure damage = 1 }}
+			114 = {damage_building = { type = infrastructure damage = 1 }}
 			hidden_effect = {}
 		}
 	}
@@ -2303,6 +2454,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_washington_twinpeak.3.t"
+			#country_event = 
 			hidden_effect = {}
 		}
 	}
@@ -2327,6 +2479,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_washington_twinpeak.4.t"
+			#country_event = 
 			hidden_effect = {}
 		}
 	}
@@ -2354,6 +2507,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_spiders.0.t"
+			add_stability = -0.10
 			hidden_effect = {}
 		}
 	}
@@ -2380,6 +2534,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_spider_peace.0.t"
+			add_political_power = -150
 			hidden_effect = {}
 		}
 	}
@@ -2403,6 +2558,11 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_spider_peace.1.t"
+			add_stability = -0.05
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.10
+			}
 			hidden_effect = {}
 		}
 	}
@@ -2426,6 +2586,18 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_spider_peace.2.t"
+			random_owned_controlled_state = { 
+				limit = { industrial_complex > 1 }
+				remove_building = { type = industrial_complex  level = 2 }				
+			}
+			random_owned_controlled_state = { 
+				limit = { arms_factory > 1 }
+				remove_building = { type = arms_factory  level = 2 }				
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = 0.10
+			}
 			hidden_effect = {}
 		}
 	}
@@ -2450,6 +2622,25 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_spider_peace.3.t"
+			puppet = MYM
+			ORE = { transfer_state = 61  }
+			61 = {add_core_of = ORE remove_core_of = YBL }
+			ORE = { transfer_state = 62  }
+			62 = {add_core_of = ORE remove_core_of = COR }
+			ORE = { transfer_state = 63  }
+			63 = {add_core_of = ORE remove_core_of = YBL }
+			ORE = { transfer_state = 64  }
+			64 = {add_core_of = ORE remove_core_of = LOG }
+			ORE = { transfer_state = 65  }
+			65 = {add_core_of = ORE remove_core_of = UPD }
+			ORE = { transfer_state = 66  }
+			66 = {add_core_of = ORE remove_core_of = COR }
+			add_manpower = 50000
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.10
+			}
+			
 			hidden_effect = {}
 		}
 	}
@@ -2476,6 +2667,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_spider_war.0.t"
+			add_war_support = 0.05
 			hidden_effect = {}
 		}
 	}
@@ -2499,6 +2691,11 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_spider_war.1.t"
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_tech
+			}
 			hidden_effect = {}
 		}
 	}
@@ -2522,6 +2719,22 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_spider_war.2.t"
+			add_political_power = -500
+			add_popularity = {
+				ideology = fascism
+				popularity = -0.10
+			}
+			add_popularity = {
+				ideology = communism
+				popularity = -0.10
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.10
+			}
+			add_manpower = -25000
+			add_stability = 0.20
+			add_war_support = 0.20
 			hidden_effect = {}
 		}
 	}
@@ -2546,6 +2759,11 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_spider_peace.3.t"
+			declare_war_on = { target = MYM type = annex_everything }
+			declare_war_on = { target = YBL type = annex_everything }
+			declare_war_on = { target = LOG type = annex_everything }
+			declare_war_on = { target = COR type = annex_everything }
+			declare_war_on = { target = UPD type = annex_everything }
 			hidden_effect = {}
 		}
 	}
@@ -2569,10 +2787,16 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = {NOT = {country_exists = WPI} } 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_FPI.0.t"
+			custom_effect_tooltip = "ORE_FPI.0.t"
+			if = {
+				limit = {has_dlc = "La Resistance"}
+				create_intelligence_agency = yes
+				upgrade_intelligence_agency = upgrade_form_department
+			}
+			else = { add_manpower = 10000}
 			hidden_effect = {}
 		}
 	}
@@ -2592,10 +2816,17 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = {NOT = {country_exists = WPI} }  
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_FPI.1.t"
+			if = {
+				limit = { has_dlc = "La Resistance" }
+				upgrade_intelligence_agency = upgrade_training_centers
+			}
+			else = { 
+				add_stability = 0.05
+			}
 			hidden_effect = {}
 		}
 	}
@@ -2615,16 +2846,22 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = {NOT = {country_exists = WPI} } 
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_FPI.2.t"
+			if = {
+				limit = {has_dlc = "La Resistance"}
+				upgrade_intelligence_agency = upgrade_decryption_boost_2
+				upgrade_intelligence_agency = upgrade_crypto_strength_2
+			}
+			else = {add_political_power = 200}
 			hidden_effect = {}
 		}
 	}
 	
 	focus = {
-		id = ORE_FPI.3 
+		id = ORE_FPI.3 # IGNORE
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		x = -1
 		y = 1 
@@ -2638,6 +2875,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
+		allow_branch = {always = false}
 		available = {} 
 		bypass = {} 
 		
@@ -2663,7 +2901,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = {NOT = {country_exists = WPI} } 
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_FPI.4.t"
@@ -2672,7 +2910,7 @@
 	}
 	
 	focus = {
-		id = ORE_FPI.5 
+		id = ORE_FPI.5 # IGNORE
 		icon = GFX_focus_spr_masters_of_our_own_fate
 		x = 1
 		y = 1
@@ -2686,6 +2924,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
+		allow_branch = {always = false}
 		available = {}
 		bypass = {} 
 		
@@ -2702,9 +2941,9 @@
 		y = 1
 		cost = 3
 		relative_position_id = ORE_FPI.4
-		prerequisite = { focus = ORE_FPI.3 }
+		#prerequisite = { focus = ORE_FPI.3 }
 		prerequisite = { focus = ORE_FPI.4 }
-		prerequisite = { focus = ORE_FPI.5 }
+		#prerequisite = { focus = ORE_FPI.5 }
 		
 		
 		available_if_capitulated = yes
@@ -2713,10 +2952,31 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = {NOT = {country_exists = WPI} } 
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_FPI.6.t"
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 84
+					num_provinces = 4
+				}
+							
+				defender = {
+					state = 87
+					num_provinces = 4
+				}
+			}
+			hidden_effect = {
+				set_border_war_data = {
+					attacker = 84
+					defender = 87
+					attacker_modifier = 3
+					defender_modifier = -1
+					combat_width = 30
+				}
+			}
 			hidden_effect = {}
 		}
 	}
@@ -2728,9 +2988,9 @@
 		y = 1
 		cost = 3
 		relative_position_id = ORE_FPI.4
-		prerequisite = { focus = ORE_FPI.3 }
+		#prerequisite = { focus = ORE_FPI.3 }
 		prerequisite = { focus = ORE_FPI.4 }
-		prerequisite = { focus = ORE_FPI.5 }
+		#prerequisite = { focus = ORE_FPI.5 }
 		
 		
 		available_if_capitulated = yes
@@ -2739,10 +2999,12 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = {NOT = {country_exists = WPI} } 
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_FPI.7.t"
+			add_war_support = 0.05
+			add_manpower = 10000
 			hidden_effect = {}
 		}
 	}
@@ -2764,11 +3026,27 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = {NOT = {country_exists = WPI} }  
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_FPI.8.t"
-			hidden_effect = {}
+			declare_war_on = {
+				target = WPI
+				type = annex_everything
+			}
+			hidden_effect = {
+			92 = {add_core_of = ORE remove_core_of = WPI} 97 = {add_core_of = ORE remove_core_of = WPI} 
+			99 = {add_core_of = ORE remove_core_of = WPI} 91 = {add_core_of = ORE remove_core_of = WPI} 
+			102 = {add_core_of = ORE remove_core_of = WPI} 93 = {add_core_of = ORE remove_core_of = WPI}
+			98 = {add_core_of = ORE remove_core_of = WPI} 95 = {add_core_of = ORE remove_core_of = WPI} 
+			96 = {add_core_of = ORE remove_core_of = WPI} 94 = {add_core_of = ORE remove_core_of = WPI} 
+			87 = {add_core_of = ORE remove_core_of = WPI} 
+			finalize_border_war = {
+				attacker_win = yes
+				attacker = 84
+				defender = 87
+			}
+			}
 		}
 	}
 	
@@ -2798,7 +3076,12 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = {
+			has_completed_focus = ORE_economy_focus.4
+			has_completed_focus = ORE_trembley_focus.2
+			has_completed_focus = ORE_head_east_focus.2
+			OR = {has_completed_focus = ORE_willamette.7 has_completed_focus = ORE_cascadia_focus.7 }
+		}
 		bypass = {} 
 		
 		completion_reward = {	
@@ -2823,6 +3106,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
+		allow_branch = {always = false}
 		available = {}
 		bypass = {} 
 		
@@ -3017,6 +3301,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_cali_peace.1.t"
+			country_event = wus_unity_event.1
 			hidden_effect = {}
 		} 
 	}
@@ -3133,6 +3418,7 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_cali_peace.6.t"
+			country_event = wus_unity_event.3
 			hidden_effect = {}
 		}
 	}
@@ -3275,8 +3561,9 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_cali_war.6.t"
-			hidden_effect = {}
+			declare_war_on = { target = CAL type = annex_everything }
 		}
+		will_lead_to_war_with = CAL		
 	}
 	
 	
@@ -4051,7 +4338,7 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_frontier_focus.1.t"
+			#custom_effect_tooltip = "ORE_frontier_focus.11.t"
 			add_war_support = 0.1
 			hidden_effect = {}
 		}

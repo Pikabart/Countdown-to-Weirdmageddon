@@ -1,0 +1,6 @@
+opinion_modifiers = {
+	
+	ORE_strengthen_ties = { value = 10 }
+	ORE_imperial_scum = { value = -25 }
+
+}

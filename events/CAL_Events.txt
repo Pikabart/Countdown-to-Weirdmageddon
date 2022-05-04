@@ -594,6 +594,45 @@ country_event = {
 
 	option = {
 		name = CAL_IBI.9.a
+		hidden_effect = {
+			CAL = {}
+			ORE = {}
+		}
+	}
+}
+
+country_event = {
+	id = CAL_IBI.10
+	title = CAL_IBI.10.t
+	desc = CAL_IBI.10.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {
+		ORE = {
+			annex_country = {
+				target = WPI
+				transfer_troops = yes
+			}
+		}
+		92 = {add_core_of = ORE remove_core_of = WPI} 97 = {add_core_of = ORE remove_core_of = WPI} 
+		99 = {add_core_of = ORE remove_core_of = WPI} 91 = {add_core_of = ORE remove_core_of = WPI} 
+		102 = {add_core_of = ORE remove_core_of = WPI} 93 = {add_core_of = ORE remove_core_of = WPI}
+		98 = {add_core_of = ORE remove_core_of = WPI} 95 = {add_core_of = ORE remove_core_of = WPI} 
+		96 = {add_core_of = ORE remove_core_of = WPI} 94 = {add_core_of = ORE remove_core_of = WPI} 
+		87 = {add_core_of = ORE remove_core_of = WPI} 
+	}
+
+	option = {
+		trigger = {tag = CAL}
+		name = CAL_IBI.10.a
+	}
+	option = {
+		trigger = {tag = ORE}
+		name = CAL_IBI.10.b
 	}
 }
 

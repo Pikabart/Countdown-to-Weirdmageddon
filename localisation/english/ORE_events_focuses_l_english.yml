@@ -2,8 +2,6 @@
 
  #For Oregon events
  
- 
- 
  #1
  ORE_TEXAS.1.t:0 "Remembering Trembley and the Alamo!"
  ORE_TEXAS.1.d:0 ""
@@ -18,4 +16,68 @@
  ORE_TEXAS.3.d:0 ""
  ORE_TEXAS.3.a:0 ""
  
+ ########################################################
+ 
+ ORE_economy_event.1.t:0 "Silicon River"
+ ORE_economy_event.1.d:0 "Struck out and on our own, Oregon turned to the heart to rebuild. The great Willamette River gave us a grand and fertile valley that embodied the old West and for which our state and the true America shall rise once again heading back East. From increased agriculture and manufacturing, our new investments into the valley have quickly transformed the great river into a new technological mecca for which the latest advancements are now under development.\n\nAs the newest Doogle, Mewtube, and QMD campuses are opened outside of Portland, Willamette River has become the Silicon River, rivaling the old tech hubs across the fallen US in California, Texas, and the Koreas. President Trembley gave a speech at the new campus, quipping about what possibilities and new “Magic from the Atom” we can achieve."
+ ORE_economy_event.1.a:0 ""We tricked a rock into thinking! What else is possible?""
+ 
+ ORE_economy_event.2.t:0 "Lands Vast and Rich"
+ ORE_economy_event.2.d:0 "Struck out and on our own, Oregon turned to the grand lands of Cascadia for the answer. Our ancestors traveled the great trail that bears our state’s name to this land of new beginnings and opportunity. Her forests are grand and stretch wide and are bound with life. Her rocky mountains reach for the sky and are full of vital raw resources.\n\nWith our investment, we have strengthened our state from the Pacific Coast to the Snake River. From the fall of the US, new wealth is made like the old Gold Rushes and the lives of rural Oregonians have improved when once ignored. The people flock to Trembley for their thanks, and some even go to the governor they once didn’t like for bringing Trembley and the idea of a True America to them. Many challenges await, but her speech when campaigning in Gravity Falls says it best."
+ ORE_economy_event.2.a:0 ""A better Oregon is a better America!""
+ 
+ ########################################################
+ 
+ ORE_seize_northwest_property:0 "Trembley Seized Northwest Property"
+ 
+ ORE_NORTHWEST_EVENT.1.t:0 "Northwest Capital"
+ ORE_NORTHWEST_EVENT.1.d:0 "“And the numbers?” asked Milly Onyx.\n\n“Not well,” the secretary of the treasury said, “We’re running low on capital and our revenue has dropped drastically with international trade gone.”\n\n“But our renewed interstate commerce?”\n\n“Nowhere near enough to replace it. Losing California was costly, and we’re squeezing our belts tighter now that Medford is under FPI hands.”\n\nMilly pondered what to do as Secretary Chiu and Colonel Northwest walked in. She turned to them, “We have a problem. We need revenue and loans, ASAP. We can’t stand againts Washington, the Feds, or the Califonrians in our condition.”\n\n“I’m aware, Madam Vice President. The colonel is here to talk to you more about that.”\n\n“Really?” she turned to him, “What do you have?”\n\n“Not me, ma’am. My brother. Preston Northwest has been made aware of the government’s financial situation. It took some persuading, but he has agreed to a meeting to discuss loans and other ecnomic aid.”\n\nThe secretary of the Treasury quickly turned to Milly, “Ma’am, I highly suggest we look into it. The northwest still have access to their vast fortune around the world and funneling the money can help prop up the economy and spur more growth.”\n\nMilly nodded, already knowing that Preston Northwest wanted something from Oregon."
+ ORE_NORTHWEST_EVENT.1.a:0 ""
+ 
+ ORE_NORTHWEST_EVENT.2.t:0 "Paying off old sins"
+ ORE_NORTHWEST_EVENT.2.d:0 "As a show of power, Parson was late. As Trembley and staff awaited at a disclosed location in Bends, the Northwest private helicopter finally arrived and touched down. Preston was less than enthusiastic that it was his brother Parson that was there to greet him, but he kept his displeasure mostly hidden as Andrew Chiu was there and Preston was well aware of who he was and what he was capable of.\n\nIn the meeting room, President Trembley greeted him and they began to talk.\n\nAn assistance gave Trembley a presidential binder holding what Oregon wanted and Trembley presented that to Preston. Parson gave it a quick look.\n\n”These are your terms? You can’t be serious.”\n\n”I am, Mr. Northwest. And don't call me shirley."\n\n”Still, this is a massive loan you are asking from a simple private citizen. And your rates and terms are not very conducive to enticing a willing loaner.”\n\nTrembley sat back in his seat opposite of Preston, “Maybe so. But for me, working for someone whos fortune was made erasing me from history can be… difficult.”\n\nPreston chuckled, “Now the sins of my ancestors can’t be pinned on me. I’m innicoent.”\n\n”Of course you are,” Trembley affirmed, “But of course you can understand that we can’t let ill gotten gains be allowed to flow freely. I might have to exercise the asset forfeiture-”\n\n”Be careful what you say, Mr. president.”\n\n”and be careful what you do, Mr. Northwest. If I go for your wealth by force, every subsidiary in the country will be open to seizer. And if they’re not safe, some of those CEOs might just spin their subsidiary as their own company!”\n\nThat put Preston back in his seat. In another room watching the meeting, Andrew and Parson commented on Trembley’s negotiations skills.”\n\n”Trembley really is a politician at heart. And a scary one,” said Parson."
+ ORE_NORTHWEST_EVENT.2.a:0 ""He did get five babies on the court. Hell, one of them is still alive!""
+ 
+ ORE_NORTHWEST_EVENT.3.t:0 "Art of the Deal"
+ ORE_NORTHWEST_EVENT.3.d:0 "After the sitdown with Preston Northwest, a deal was struck over the conditions to give the loans to the Trembley Federal Government. Northwest of Oregon, the direct subsidiary to the whole company, is prepared to give tens of billions in both loans and aid. In return, President Trembley must publicly pardon Nathanial Northwest, the ancestor who was used as pawn to cover up Trembley’s erasure from history.\n\nAs Trembley contemplated this deal, officials from both sides argued. If they accept, the aid would, for the moment, place Oregon in a footing with California, which would greatly counter their influence. Some of that money, through the magic that is whatever international banking system is still working, would even come from Northwest of California, which is helping bankroll Emperor Norton. But if we accept the deal, any chance for justice for Trembley through the Northwest would be gone and the Northwest Family, mainly Preston’s immediate family would be untouchable moving forward.\n\nt\Trembley stood up and silenced his cabinet with his answer."
+ ORE_NORTHWEST_EVENT.3.a:0 ""We Accept!""
+ ORE_NORTHWEST_EVENT.3.b:0 ""No Deal! Begin seizures immediately!""
+
+ ORE_NORTHWEST_EVENT.4.t:0 "North by Northwest"
+ ORE_NORTHWEST_EVENT.4.d:0 "“And though our paths crossed through shadowy events, I am glad to say we and the Northwest can leave the past behind and step forward into the future!”\n\nTrembley gave his public speech to a news conference as he announced the official pardon of Nathanial Northwest. He and Preston Northwest answered questions of the situation and Trembley was able to deflect most criticism of the Northwest Family at the FPI's expense, an easy target as they were just South of the Umpqua River.\n\nAlready, the influx of cash has revitalized the economy and the effects were working they're away down and back East to the Trembley align states. Northwest of California even had to announced scale backs on major government projects as their cash reserved was taken by the parent company.\n\nStill, many were not happy and wanted blood from the Northwest. One report found out how to get it by asking of the relationship between Preston and Parson Northwest, before subitally singing praise of the Commander of the Army, and veiled criticism of the younger brother. Preston faked an excuse to leave the newspress early, but the populations was still riled up at the news of no justice for the President.\n\nAs for Trembley, for all the craziness in his head, his care was in the people first before his own pride."
+ ORE_NORTHWEST_EVENT.4.a:0 ""Pride, the silliest thing of all!"" 
+ 
+ ########################################################
+ ########################################################
+ ########################################################
+
+ ORE_true_ninth_event.1.t:0 "The True Ninth"
+ ORE_true_ninth_event.1.d:0 "President Trembley’s return has required a major rewrite of our history books.\n\nFrom what FPI records we got, we found out that he was the true ninth president of the United States. He won his election in 1837 in a landslide, literally, when a landslide killed all his opponents in a debate, though records indicate he likely was going to win regardless. The reason for an election was due to a constitutional crisis when Van Buren died early into his term. When Trembley’s Vice President, John Tyler, successfully ousted him without a proper impeachment, he created the false ninth president William Henry Harrison to cover for both Van Buren’s death and Trembley’s removal, and claimed the tenth presidency for himself, He ordered the FPI, which Trembley ironically elevated into a full government agency during his short term, to track him and erase him at the right time.\n\nSince then, he traveled the country for a few decades, popping up from time to time. He founded the town of Gravity Fall and helped turn Oregon into a state. At one point, he even went to San Francisco, where he was knighted by Emperor Norton and given the title of “Lord Protector of Oregon”.\n\nIt was after he soon disappeared in the late 60s that the FPI, coming off its first interdimensional victory on Mewni, enacted the Northwest Coverup to remove him from history.\n\nNow though, we will make sure Trembley is known by all Americans and he takes his place from the Eight and a Half to the True Ninth!"
+ ORE_true_ninth_event.1.a:0 "Hail to the True Ninth!"
+ 
+ ORE_true_ninth_event.2.t:0 "A Proper Madman"
+ ORE_true_ninth_event.2.d:0 "From the outside, it seemed the new Federal Government was actively busy, working away to get things done. Internally, everyone from lowly clerks to staff interns to elected officials were running about in a chaotic panic like headless chickens. Many of Trembley’s reforms have turned the traditional American government upside down and people were either rushing about to get new procedures up and running or just running in a circle from all the disorder that was now at play. The VP was attending a news conference and shunned any request for help from the other officials while state Secretary Chiu was using magic to implement reforms, with minor success.\n\nBut with high approval and many new officials ready to use the new chaos to forged their own legacy in government, trembley’s government was as vibrant as any system in America gets."
+ ORE_true_ninth_event.2.a:0 "A Government at work shouldn't be a weird sight to behold."
+ 
+ ORE_true_ninth_event.3.t:0 "A True Politician"
+ ORE_true_ninth_event.3.d:0 "For all the erraticy of Trembley, he is unusually in sync when it comes to politicking. While many view the politicians of the rural northwest as subservient to the power brokers of the two branches of the New Democratic-Republicans, they are in fact very outspoken and influential people in their own right, from the liberals and progressives of the cities of Willamette valley to the conservatives and libertarians of the rural cascadia.\n\nTrembley, even two centuries apart knows how to speak to these people and has proven to be a shrewd negotiator. Unlike the political division of California where ‘Emperor” Norton is relying on sheer presence to hold things together, Trembley has maintained the unity of the Oregon NDRs and used them in masterful strokes to pass legislation and rally public support for them. It can be difficult for any man to do anywhere near what he has done. While President Curtis has divided this nation, both people and politicians can see Trembey can unite this nation and restore america back to prominence."
+ ORE_true_ninth_event.3.a:0 "The People and the Party stand by President Trembley"
+ 
+ ORE_true_ninth_event.4.t:0 "Crazily Calm"
+ ORE_true_ninth_event.4.d:0 "In recent days, there has been a calm in President Trembley. Once there were almost maddening ideas of insane reforms and erratic legistartion, Trembley has been more soft spoken and yielding to his Vice President and State Secretary on more moderate, political and in tone, ideas.\n\nIn recent speeches, this tone was more calm and reserved and people are starting to notice this new man. Almost groomed into a traditional politician, some say this new trembley gives a feel of noralicy. But many are equally bewildered by it and are suspicious of the fact. The division it's causing now is unlikely to be critical, but is still very noticeable. As for the NDR party, keeping things normalized seems unpopular now, but maintaining the status quo will only help us in the long run."
+ ORE_true_ninth_event.4.a:0 "The Normalcy, The Calm... its eerie!"
+ 
+ ORE_true_ninth_event.5.t:0 "The 46th President"
+ ORE_true_ninth_event.5.d:0 "As we claim to be the true, legitimate continuation of the American Government, it is important we keep to as much of the original rules and procedures as laid out in the Constitution. Of course, the Constitution can be amended. Today, as our new congress announced the de-legitimacy of President Curtis back east, the congressed as amended a “Continuation of Government” procedure to the 25th Amendment to give a former President a succession path during an emergency.\n\nWith it, President Trembley was inaugurated once again as our president, and the massive turnout in Salem show we have little worry of any election need. The True Ninth before, Quentin Trembley is now the 46th President of the United States of America. Soon, he will that in more than name!"
+ ORE_true_ninth_event.5.a:0 "Hail to the President! Hail to the Chief!"
+ 
+ ORE_true_ninth_event.6.t:0 "Senate Committee"
+ ORE_true_ninth_event.6.d:0 "President Trembley has come before the Senate to push for his new appointee for a cabinet position. Naturally there was discussion and debate about who he selected, more so than usual.\n\nFor the vacant Secretary of Defense, he had brought forth two possible nominees, a Great White Shark named Fluffy, and a Blue Whale named Skitty Jr. Oddly enough, most of the senate were legitimately debating their qualifications, only a few were bewildered that two sea creatures were being nominated for government positions. One in particular debated if they should be the Navy Secretary instead, before being called a racist.\n\nThe Senate needs to make a decision. It's almost lunch time and the taco truck outside the building in Salam gets crowded at this time."
+ ORE_true_ninth_event.6.a:0 "Aggressive as the Shark!"
+ ORE_true_ninth_event.6.b:0 "Slow, Steady and Ensured as the Whale"
+ 
+ 
+ ########################################################
+ ########################################################
+ ########################################################
  

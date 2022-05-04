@@ -48,16 +48,16 @@
  ######################################################################
  
  ORE_trembley_crazy.1:0 "Insanity Through The Storm"
- ORE_trembley_crazy.1_desc:0 "We call the president back east a madman. But with the overt power the executive office had and the 47th amendment he sighted to disband congress, any President would have done that.\nSanity destroyed America.\nBut Trembley?\nHis insanity will save us all!"
+ ORE_trembley_crazy.1_desc:0 "We call the president back east a madman. But with the overt power the executive office had and the 47th amendment he sighted to the Supreme Court to disband congress, any President would have done that. Sanity destroyed America.\nBut Trembley?\nHis insanity will save us all!"
  ORE_trembley_crazy.1.t:0 ""
  
  ORE_trembley_crazy.2:0 "Break the Belts!"
  ORE_trembley_crazy.2_desc:0 "Trembley believes in Freedom, Liberty, and the Pursuit of Happiness.\nSo much in fact he emancipated us from the shackles of pants! How foolish we were to force our blue jeans onto the world.\n\nIt's time We Break the Belts!"
- ORE_trembley_crazy.2.t:0 "Also, ignore his 1837 Compromise to make slaves worth .667 of a person."
+ ORE_trembley_crazy.2.t:0 "Also, ignore his 1837 Compromise to make increase a slave's worth .667 of a person."
  
  ORE_trembley_crazy.3:0 "The War On Pancakes"
- ORE_trembley_crazy.3_desc:0 "President Tremlbely has declared a War on Pancakes!\nPancakes have proven to be high in carbs and bad for your health, or so our lobbyists and their cash keep telling us. With Trembley leading the way, we will defeat pancakes, find their weapons of mass digestion, and secure our limited supply of Canadian Maple Syrup."
- ORE_trembley_crazy.3.t:0 ""
+ ORE_trembley_crazy.3_desc:0 "President Trembley has declared a War on Pancakes!\nPancakes have proven to be high in carbs and bad for your health, or so our lobbyists and their cash keep telling us. With Trembley leading the way, we will defeat pancakes, find their weapons of mass digestion, and secure our limited supply of Canadian Maple Syrup."
+ ORE_trembley_crazy.3.t:0 "We probably enact another prohibition on Maple Syrup altogether!"
  
  ORE_trembley_crazy.4:0 "American Madman"
  ORE_trembley_crazy.4_desc:0 "Curtis, Day, Norton. How are they madmen? Because sanity is anything but. For Trembley, insanity breeds creativity, maneuverability, capability. It will take a true madman, a true oddity of reality to restore the United States.\n\nAnd through the storm, The True Ninth shall do just that."
@@ -66,19 +66,19 @@
  ######################################################################
  
  ORE_trembley_line.1:0 "The Fine Line"
- ORE_trembley_line.1_desc:0 ""
+ ORE_trembley_line.1_desc:0 "Trembley’s erratic behavior can prove to be problematic at times. But done correctly, keeping ourselves on that fine line of brilliance and insanity, Trembley’s mind can be the key to our problems!"
  ORE_trembley_line.1.t:0 ""
  
  ORE_trembley_line.2:0 "The New Secretary Of Defense"
- ORE_trembley_line.2_desc:0 ""
+ ORE_trembley_line.2_desc:0 "We don’t have anyone really lined up to act as the SOD as most qualified officials went to California, the East, or are serving in a military role right now. Trembley has a nomination, so why not get some free PR from it?"
  ORE_trembley_line.2.t:0 ""
  
  ORE_trembley_line.3:0 "Silly Political Games"
- ORE_trembley_line.3_desc:0 ""
+ ORE_trembley_line.3_desc:0 "What’s more silly than Trembley? These games the elected officials of our government play when they should be doing their jobs!\n\nPresident Trembley is a silly man, but he is not a slacker!"
  ORE_trembley_line.3.t:0 ""
  
  ORE_trembley_line.4:0 "Our Flipping Father"
- ORE_trembley_line.4_desc:0 ""
+ ORE_trembley_line.4_desc:0 "For America to rise up, we stick to what does work, and use the creativity of Quentin Trembley on what does not work. Only with our efforts can we restore America and give new life to it as the Founding Fathers did when they first birth her."
  ORE_trembley_line.4.t:0 ""
  
  ######################################################################
@@ -103,7 +103,7 @@
  
  ORE_trembley_chief.1:0 "Hail To The Chief"
  ORE_trembley_chief.1_desc:0 ""
- ORE_trembley_chief.1.t:0 ""
+ ORE_trembley_chief.1.t:0 "Let the Executive Chaos Begin!"
  
  ORE_trembley_chief.2:0 "Executive Erraticity"
  ORE_trembley_chief.2_desc:0 ""
@@ -117,7 +117,7 @@
  
  ORE_trembley_veep.1:0 "VEEP"
  ORE_trembley_veep.1_desc:0 ""
- ORE_trembley_veep.1.t:0 ""
+ ORE_trembley_veep.1.t:0 "Behind every hot blooded crazy person is a cold, calculating steady hand."
  
  ORE_trembley_veep.2:0 "Politically Onyx"
  ORE_trembley_veep.2_desc:0 ""
@@ -132,75 +132,75 @@
  ######################################################################
  
  ORE_economy_focus.0:0 "Kerfuffled Economy"
- ORE_economy_focus.0_desc:0 ""
+ ORE_economy_focus.0_desc:0 "International trade has collapsed with the Kerfuffling of Canada! And with the total collapse of the United States, and all state funding and imports from the Federal Government being redirected to the states still loyal to Curtis’ regime, the economy has gone into total freefall. If Oregon is to have any chance of reclaiming America, we need to fix our economy ASAP!"
  ORE_economy_focus.0.t:0 ""
  
  ORE_economy_focus.1:0 "The New Economy"
- ORE_economy_focus.1_desc:0 ""
+ ORE_economy_focus.1_desc:0 "Already the economic plans we've enacted to get Oregon stabilized looks incredibly promising. However, in our precarious economic situation, we can only afford a portion of the costs needed to enact our plans, and we’re going to need major investments."\n\n- §1Secretary of State Andrew Chiu§! -"
  ORE_economy_focus.1.t:0 ""
  
  ORE_economy_focus.2:0 "Turn To The Northwest"
- ORE_economy_focus.2_desc:0 ""
+ ORE_economy_focus.2_desc:0 "Oregon is home to one of the richest men on the planet, Preston Northwest of the Northwest Company! If there’s anyone in Oregon who can provide us with the large investment that we need to get the economy on track, it’s him. Perhaps our commander, Parson Northwest can lend us a hand?.”"\n- §GGovernor Amelia Onyx§!”"
  ORE_economy_focus.2.t:0 ""
  
  ORE_economy_focus.3:0 "Pardon Nathaniel Northwest"
- ORE_economy_focus.3_desc:0 ""
+ ORE_economy_focus.3_desc:0 "Preston wants us to pardon Nathanial for his crimes against Trembley? That selfish sniveling weasel, I couldn’t have expected anything else from him, putting the entire country on the line so he can get something out of it. Well, I suppose we have no other choice but to give in to his demands..."\n- §YColonel Parson Northwest§! -"
  ORE_economy_focus.3.t:0 ""
  
  ORE_economy_focus.4:0 "North By Northwest"
- ORE_economy_focus.4_desc:0 ""
+ ORE_economy_focus.4_desc:0 "After meeting Preston’s ‘conditions', the Northwest Corporation is now honored to help reunite the country under President Trembley. With our new economic plans, soon Oregon will be able to stand up to the might of California and Emperor Norton!"
  ORE_economy_focus.4.t:0 ""
  
  ######################################################################
  
  ORE_willamette.0:0 "At Home in Willamette Valley"
- ORE_willamette.0_desc:0 ""
+ ORE_willamette.0_desc:0 "Willamette Valley is the center of Oregon's economy and home to millions. We must focus on expanding it to compete with the other urban centers of the world."
  ORE_willamette.0.t:0 ""
  
  ORE_willamette.1:0 "Concentrate Industry"
- ORE_willamette.1_desc:0 ""
+ ORE_willamette.1_desc:0 "To compete with the manufacturing capacity of California, we will need factories to ramp up production!"
  ORE_willamette.1.t:0 ""
  
- ORE_willamette.2:0 "New Farming Insentives"
- ORE_willamette.2_desc:0 ""
+ ORE_willamette.2:0 "New Farming Incentives"
+ ORE_willamette.2_desc:0 "Flat and fertile to the rest of the state, we live and grow our food here. We must ensure our food production if we can advance further."
  ORE_willamette.2.t:0 ""
  
  ORE_willamette.3:0 "Develop Portlandia"
- ORE_willamette.3_desc:0 ""
+ ORE_willamette.3_desc:0 "Portland is the largest city in Oregon and its beating heart. To most, the oddity that is Oregon is born from this city. Now more than ever should we continue to enhance that image!"
  ORE_willamette.3.t:0 ""
  
  ORE_willamette.4:0 "What's Packing Under the Hood"
- ORE_willamette.4_desc:0 ""
+ ORE_willamette.4_desc:0 "With Mt. Hood nearby, we can open up new extraction rights to gain resources under the mountain. A recent discovery of some mysterious liquid was also found, fascinating Secretary Chiu greatly."
  ORE_willamette.4.t:0 ""
  
  ORE_willamette.5:0 "Reopen Sea Routes"
- ORE_willamette.5_desc:0 ""
+ ORE_willamette.5_desc:0 "Maintaining some control of the Columbia dividing Oregon and Washington, we can entice what's left of international trade to go through us instead. Why settle for a burdensome California when Oregon is friendly and open for business!"
  ORE_willamette.5.t:0 ""
  
  ORE_willamette.6:0 "Expand Spore Refinement"
- ORE_willamette.6_desc:0 ""
+ ORE_willamette.6_desc:0 "It was in this woods, supposedly found by some crazy old man near Gravity falls, that the “industria glomerorum fungus” or simply energy spore was discovered and ended a energy crisis of the 90s. It may grow everywhere, but Oregon has a lot of it and in easy to get locations.\n\nNow let's put all of that to good use!"
  ORE_willamette.6.t:0 ""
  
  ORE_willamette.7:0 "The Beating Heart Of Oregon"
- ORE_willamette.7_desc:0 ""
+ ORE_willamette.7_desc:0 "From Willamette, the blood of Oregon flows. Her farms stretch wide from mountain to mountain and as home to millions, she is a hub for the latest in advancement in science and culture. Here, Oregon and a future America will start her rise back up."
  ORE_willamette.7.t:0 ""
  
  ######################################################################
  
  ORE_cascadia_focus.0:0 "Across Cascadia"
- ORE_cascadia_focus.0_desc:0 ""
+ ORE_cascadia_focus.0_desc:0 "Oregon may seem small on a map, but she is a large and diverse state from forest to mountains to deserts and more. All of Oregon must be harnessed to ensure her survival."
  ORE_cascadia_focus.0.t:0 ""
  
  ORE_cascadia_focus.1:0 "Expand the Coastal Regions"
- ORE_cascadia_focus.1_desc:0 ""
+ ORE_cascadia_focus.1_desc:0 "Home to the traditional cliff views of the Pacific Northwest, we must put effort into turning these otherwise useless landscapes to ports and homes to expand our reach on the Pacific Ocean."
  ORE_cascadia_focus.1.t:0 ""
  
  ORE_cascadia_focus.2:0 "Chemult Crossroads"
- ORE_cascadia_focus.2_desc:0 ""
+ ORE_cascadia_focus.2_desc:0 "Near the center of the state, critical road junctions and intrastate trade flows through this town. Expanding this location is vital to moving resources across the state and in our eventual push East."
  ORE_cascadia_focus.2.t:0 ""
  
  ORE_cascadia_focus.3:0 "Crossing the Deschutes"
- ORE_cascadia_focus.3_desc:0 ""
+ ORE_cascadia_focus.3_desc:0 "One of the main rivers in interior Oregon, we face a true cascadian wilderness on her eastern shores. But through a hill or river, we shall cross and continue heading east."
  ORE_cascadia_focus.3.t:0 ""
  
  ORE_cascadia_focus.4:0 "The Redwood Highway"
@@ -271,7 +271,7 @@
  
  ORE_oregon_trail_focus.0:0 "The Oregon Trail"
  ORE_oregon_trail_focus.0_desc:0 ""
- ORE_oregon_trail_focus.0.t:0 ""
+ ORE_oregon_trail_focus.0.t:0 "§YMany of these focuses are best done after more states have joined up with President Trembley§!"
  
  ORE_oregon_trail_focus.1:0 "Snaking Through Idaho"
  ORE_oregon_trail_focus.1_desc:0 ""
@@ -340,7 +340,7 @@
  ORE_frontier_focus.8_desc:0 ""
  ORE_frontier_focus.8.t:0 ""
  
- ORE_frontier_focus.9:0 ""Fight For A New America!""
+ ORE_frontier_focus.9:0 ""Fight For The True America!""
  ORE_frontier_focus.9_desc:0 ""
  ORE_frontier_focus.9.t:0 ""
  
@@ -355,7 +355,7 @@
  ######################################################################
  
  ORE_frontier_doctrine.0:0 "The New Federal Army"
- ORE_frontier_doctrine.0_desc:0 ""
+ ORE_frontier_doctrine.0_desc:0 "" 
  ORE_frontier_doctrine.0.t:0 ""
  
  ORE_frontier_doctrine.1:0 "Re-Organize The National Guard"
@@ -459,11 +459,11 @@
  
  ORE_the_pinch.0:0 "Breakout From the Pinch"
  ORE_the_pinch.0_desc:0 ""
- ORE_the_pinch.0.t:0 ""
+ ORE_the_pinch.0.t:0 "§YThe Northwest Today, the Southwest Tomorrow!§!"
  
  ORE_the_pinch.1:0 "A Day In Washington"
  ORE_the_pinch.1_desc:0 ""
- ORE_the_pinch.1.t:0 "" 
+ ORE_the_pinch.1.t:0 "§RThere will be no compromises today...§!" 
  ######################################################################
  
  ORE_compromised.0:0 "Compromised Lieutenant"
@@ -476,7 +476,7 @@
  
  ORE_washington_daybreak.0:0 "Daybreak"
  ORE_washington_daybreak.0_desc:0 ""
- ORE_washington_daybreak.0.t:0 ""
+ ORE_washington_daybreak.0.t:0 "§GThe Clash of Cascadia is Inevitably§!"
  
  ORE_washington_daybreak.1:0 "Reinforce Fort Vancouver"
  ORE_washington_daybreak.1_desc:0 ""
@@ -502,7 +502,7 @@
  
  ORE_washington_twinpeak.0:0 "Nightfall In Twin Peaks"
  ORE_washington_twinpeak.0_desc:0 ""
- ORE_washington_twinpeak.0.t:0 ""
+ ORE_washington_twinpeak.0.t:0 "§YThe§! §CGreater Good§! §Ydemands§! §RCertain Evils§!"
  
  ORE_washington_twinpeak.1:0 "Undermine The UIU"
  ORE_washington_twinpeak.1_desc:0 ""

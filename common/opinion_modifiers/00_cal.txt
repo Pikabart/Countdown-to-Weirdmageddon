@@ -1,5 +1,6 @@
 opinion_modifiers = {
 	
 	CAL_strengthen_ties = { value = 10 }
+	CAL_rogue_lord = { value = -25 }
 
 }
