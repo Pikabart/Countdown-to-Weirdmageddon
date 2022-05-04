@@ -1,6 +1,6 @@
 ﻿l_english:
 
- #For Oregon events
+ #For CALIFORNIA events
  
  #1
  CAL_STARTER.1.t:0 "Eukeka!"
@@ -19,19 +19,24 @@
  
  ######################################################
  #2
- CAL_TREMBLEY.2.t:0 "The Cascadian Standoff!"
- CAL_TREMBLEY.2.d:0 "The FPI moved in"
+ CAL_TREMBLEY.1.t:0 "The Cascadian Standoff!\nPart 1"
+ CAL_TREMBLEY.1.d:0 "Weird stuff going on up there"
+ CAL_TREMBLEY.1.a:0 "Rush troops in, we must protect Northern California!"
+ 
+ CAL_TREMBLEY.2.t:0 "The Cascadian Standoff!\nPart 2"
+ CAL_TREMBLEY.2.d:0 "We're getting word that Federal Government agents are appearing in Southern Oregon and are taking control of key government and military posts! Already, we saw movement of the Oregon National Guard to counter them and we now fear fighting might break out. If this agency that we have learned is known as the Federal Paranormal Investigations continues to expand its occupation, they might spill into California and we could suddenly face a full war!"
  CAL_TREMBLEY.2.a:0 "Rush troops in, we must protect Northern California!"
  
  ######################################################
  #2
  
+ #Not used
  CAL_ELECTION.1.t:0 "" 
  CAL_ELECTION.1.d:0 ""
  CAL_ELECTION.1.a:0 ""
  
  CAL_ELECTION.2.t:0 "Imperial Governor"
- CAL_ELECTION.2.d:0 ""
+ CAL_ELECTION.2.d:0 "Norton has won!"
  CAL_ELECTION.2.a:0 "God Save Norton and the California Republic!"
  
  ######################################################
@@ -43,11 +48,11 @@
  
  CAL_everett_event.2.t:0 "The Utahns Fight Back"
  CAL_everett_event.2.d:0 ""
- CAL_everett_event.2.a:0 ""
+ CAL_everett_event.2.a:0 "Insolence little state!"
  
  CAL_everett_event.3.t:0 "Utah submits to the Imperial Republic"
  CAL_everett_event.3.d:0 ""
- CAL_everett_event.3.a:0 ""
+ CAL_everett_event.3.a:0 "The Will of the West stands!"
  
  CAL_everett_event.4.t:0 "The Southwest Refuses!"
  CAL_everett_event.4.d:0 ""
@@ -55,11 +60,11 @@
  
  CAL_everett_event.5.t:0 "Arizona and New Mexico unites againts us!"
  CAL_everett_event.5.d:0 ""
- CAL_everett_event.5.a:0 ""
+ CAL_everett_event.5.a:0 "Insolence little states!"
  
  CAL_everett_event.6.t:0 "The Imperial Republic cross the Colorado"
  CAL_everett_event.6.d:0 ""
- CAL_everett_event.6.a:0 ""
+ CAL_everett_event.6.a:0 "The Will of the West stands!"
  
  CAL_everett_event.7.t:0 "The Mile High snubs the Pacific Coast!"
  CAL_everett_event.7.d:0 ""
@@ -67,23 +72,34 @@
  
  CAL_everett_event.8.t:0 "Fortress Denver"
  CAL_everett_event.8.d:0 ""
- CAL_everett_event.8.a:0 ""
+ CAL_everett_event.8.a:0 "Insolence little state!"
  
  CAL_everett_event.9.t:0 "The Gateway to the Rockies is Ours!"
  CAL_everett_event.9.d:0 ""
- CAL_everett_event.9.a:0 ""
+ CAL_everett_event.9.a:0 "The Will of the West stands!"
  
  CAL_everett_event.10.t:0 "Impose the West on Texas"
- CAL_everett_event.10.d:0 ""
- CAL_everett_event.10.a:0 ""
+ CAL_everett_event.10.d:0 "As we rush our forces to the border, we have made our intentions clear. If Texas does not submit to the Imperial Government, we will bring the full might of California on them. Since this is Texas we are talking about, some are very hesitant to openly go to war with the only other state that can rival California in power. For sure, the Texans will sure as heck be motivated to drive us out. And make us pay for stepping even a single inch onto Texan soil\n\nBut we will not allow their transgression to Mexico stands. As the Protector of Mexico, Norton's will shall be enforced!"
+ CAL_everett_event.10.a:0 "For the Emperor and the Republic!"
  
- CAL_everett_event.11.t:0 "Texas Refuses Us!"
+ CAL_everett_event.11.t:0 "Texas Rejects Our Demands!"
  CAL_everett_event.11.d:0 ""
- CAL_everett_event.11.a:0 ""
+ CAL_everett_event.11.a:0 "They will regret crossing the Rio Grande!"
  
  CAL_everett_event.12.t:0 "Texas Yields to our Taxes"
  CAL_everett_event.12.d:0 ""
- CAL_everett_event.12.a:0 "" 
+ CAL_everett_event.12.a:0 "California reigns supreme!" 
+ 
+ CAL_everett_war_event.1.a:0 "Utah has surrendered to the Imperial Californian Repuiblic!"
+ CAL_everett_war_event.2.a:0 "Arizona has surrendered to the Imperial Californian Repuiblic!"
+ CAL_everett_war_event.3.a:0 "New Mexico has surrendered to the Imperial Californian Repuiblic!"
+ CAL_everett_war_event.4.a:0 "Colorado has surrendered to the Imperial Californian Repuiblic!"
+ CAL_everett_war_event.5.a:0 "The Republic of Texas and her allies has surrendered to the Imperial Californian Repuiblic!"
+ 
+ CAL_everett_war_event.6.t:0 "Mexico has Surrendered!"
+ CAL_everett_war_event.6.d:0 "Given Mexico's military state compared to California or Texas, let alone the US, it was no surprice we squashed the Mexicans once more. Still, the fact remains as far as most are concerns, we caused this war! And to most, Emperor Norton has betrayed his promise to defend Mexico. We're trying to frame this in as postive light as we can, but this will take a long time."
+ CAL_everett_war_event.6.a:0 "But, but... the Emperor Protects!"
+ CAL_everett_war_event.6.b:0 "Mexico is now under the Imperial Californian Repuiblic!\nThe Emperor Protects!"
  
 
  ######################################################
@@ -95,17 +111,17 @@
  CAL_birnbaum_event.1.b:0 "Just make sure we can come back to this later..."
  
  CAL_birnbaum_event.2.t:0 "Arizona Joines the Imperial Republic!"
- CAL_birnbaum_event.2.d:0 "Arizona is asking the Imperial Government for help. There is currently a migrant crisis at the border with Mexico. We had assume its those fleeing South America in the wake of the now global kerfuffle, but that part of the world has been unusually stable and quiet. Actually, we have no idea what’s happening in South America. The people trying to cross over are actually Americans from the East Coast, fleeing President Curtis!\n\nOddly enough, none of them wanted to flee to California’s relativity open border, choosing Arizona instead. Arizona now ask we take custody of them and house them in California. But since Curtis won the Eastern States by a massive margin last election, many Californians are not so charitable to their eastern brethren. Arizona does promise close cooperation with the Imperial Government if we help, and the opposite if they don’t."
- CAL_birnbaum_event.2.a:0 "Send to them to California"
+ CAL_birnbaum_event.2.d:0 "Arizona is asking the Imperial Government for help. There is currently a migrant crisis at the border with Mexico. We had assume its those fleeing South America in the wake of the now global kerfuffle, but that part of the world has been unusually stable and quiet.\n\nActually, we have no idea what’s happening in South America.\n\nThe people trying to cross over are actually Americans from the East Coast, fleeing President Curtis!\n\nOddly enough, none of them wanted to flee to California’s relativity open border, choosing Arizona instead. Arizona now ask we take custody of them and house them in California. But since Curtis won the Eastern States by a massive margin last election, many Californians are not so charitable to their eastern brethren. Arizona does promise close cooperation with the Imperial Government if we help, and the opposite if they don’t."
+ CAL_birnbaum_event.2.a:0 "Send them to California"
  CAL_birnbaum_event.2.b:0 "Sends some fund to keep them in Arizona"
  
  CAL_birnbaum_event.3.t:0 "Colorado Joines the Imperial Republic!"
  CAL_birnbaum_event.3.d:0 "With the Rocky Mountain cutting right through the middle of the state, Colorado is both the Gateway to the West and a fortress anyone east must take to enter it. With potentially hostile states from the Eastern Government and the Trembley Government bordering it, Colorado is asking California to defend the front line of a divided America.\n\nWe can invest resources to fortify the state, with the goal of eventually using it as a staging ground to one day march East towards the Mississippi. While popular, that would be expensive. We could just set up some light defenses, but neither our or their populace will like this."
- CAL_birnbaum_event.3.a:0 "Like Hannibal before, Norton will one day ride down the Rockies!"
+ CAL_birnbaum_event.3.a:0 "Like Hannibal before, Norton will one day ride down these Alps of America!"
  CAL_birnbaum_event.3.b:0 "Just shore up some defenses there."
  
  CAL_birnbaum_event.4.t:0 "New Mexico Joines the Imperial Republic!"
- CAL_birnbaum_event.4.d:0 "New Mexico is home to the original site of Los Alamos, where the first atomic bomb was developed. As SDI, EuroNet, and the Northern Lights systems render nuclear warfare as a whole impossible (on Earth), the site is still an active facility into both peaceful and non-peaceful research into the atom. One we could make good use of, in case something in the multiverse needs a nuke up the butt. Some one also mentioned Roswell and aliens, but Lieutenant Governor Diaz-Guzman laughed it off, citing the teenage alien joyriders that crashed there are either long dead or too high up in the old Federal Government to be touched.\n\nFor a lump sum payment, New Mexico will gladly hand the facilities to the Imperial Government and even wave the cost they incurred keeping it from irradiating the entire South West. We could also just take it, as we are the successor government to the old Federal Government, but they won’t be happy about that and the scientist will be less enthusiastic to work for us."
+ CAL_birnbaum_event.4.d:0 "New Mexico is home to the original site of Los Alamos, where the first atomic bomb was developed. As SDI, EuroNet, and the Northern Lights systems render nuclear warfare as a whole impossible (on Earth), the site is still an active facility into both peaceful and non-peaceful research into the atom. One we could make good use of, in case something in the multiverse needs a nuke up the butt. Someone also mentioned Roswell and aliens, but Lieutenant Governor Diaz-Guzman laughed it off, citing the teenage alien joyriders that crashed there are either long dead or too high up in the old Federal Government to be touched.\n\nFor a lump sum payment, New Mexico will gladly hand the facilities to the Imperial Government and even wave the cost they incurred keeping it from irradiating the entire South West. We could also just take it, as we are the successor government to the old Federal Government, but they won’t be happy about that and the scientist will be less enthusiastic to work for us."
  CAL_birnbaum_event.4.a:0 "A fair enough deal."
  CAL_birnbaum_event.4.b:0 "Give us back rightful Imperial Property!"
  
@@ -116,32 +132,32 @@
  CAL_birnbaum_event.5.c:0 "We can't help..."
  
  CAL_birnbaum_event.6.t:0 "Let's Make a Deal!"
- CAL_birnbaum_event.6.d:0 ""
+ CAL_birnbaum_event.6.d:0 "A deal from Texan President and (former actor) Peter McCalloughs has arrived. What we received was something even we were not prepared for.\n\nThe Texans are not faring as well as California since the collapse of interstate commerce and the Rockwell Pipeline moving liquid spore from Canada dried up at the start of the Kerfuffle. Worse, most of their funding has gone to militarization to protect itself and the buffer states it controls from President Curtis. All in all, they did a good job hiding their economic woes. Better we have for our own economy.\n\nThe deal is simple. If we foot the bill for American refugees, and invest greatly into the Texan economy through Northwest of Texas, they will agree to join the republic outright! Still easier said than done as the cost for this has been calculated and it is enormous. But if we, California, get Texas to join us, it would be a massive blow to Curtis and Trembley.\n\nWe also may not have a choice to this potential good fortune. A War with Mexico is almost imminent and if we fail to reach a deal quickly, or worse backtrack from this entire deal, we can face conflict with either nation.\n\nSo, what do we do?"
  CAL_birnbaum_event.6.a:0 "Accept the Deal"
  CAL_birnbaum_event.6.b:0 "Renegotiate Better Terms"
  CAL_birnbaum_event.6.c:0 "We Refuse!"
  CAL_birnbaum_event.6.e:0 "We're over our head on this..."
  
  CAL_birnbaum_event.7.t:0 "The Price of the Imperial Republic"
- CAL_birnbaum_event.7.d:0 ""
+ CAL_birnbaum_event.7.d:0 "Politicians in both Sacramento and the Imperial Congress balk at the massive price tag of bringing Texas into the Imperial Union. It's debatable if Texas has even outsmarted California to its own benefit. But the peace we have won is of far greater value and never have we been this close to showing the world we are the new America. In a way, we are from Sea to Shining Sea. And that's worth any pretty penny (or trillion) to have!"
  CAL_birnbaum_event.7.a:0 "This is the price for a united America!"
  
  CAL_birnbaum_event.8.t:0 "No Deal"
- CAL_birnbaum_event.8.d:0 ""
+ CAL_birnbaum_event.8.d:0 "Negotiations has collapsed! Already, troops are enmassing at the border of both new and old Mexico. It looks like we will have to pay for Texas's submission with blood."
  CAL_birnbaum_event.8.a:0 "One more obstacle to Unity!"
  
  CAL_birnbaum_event.9.t:0 "Betrayal on the Rio Grande"
- CAL_birnbaum_event.9.d:0 ""
- CAL_birnbaum_event.9.a:0 ""
+ CAL_birnbaum_event.9.d:0 "Our backout from the negotations has stunned the Western US. Already, many are angry that Norton has failed to live to his title and now it seems it is Mexico itself that is angered by this."
+ CAL_birnbaum_event.9.a:0 "Rush troops to the border, quick!"
  
  CAL_birnbaum_event.10.t:0 "A Fair Deal"
- CAL_birnbaum_event.10.d:0 ""
+ CAL_birnbaum_event.10.d:0 ""The price is high, yes. But this is far more appetible than the first offer," said Lord Birnbuam. He pulled out a handkerchief and wiped his bald head, "This will be our last chance to seal the deal.""
  CAL_birnbaum_event.10.a:0 "Fine, we accept"
  CAL_birnbaum_event.10.b:0 "To Heck with all this!"
 
  CAL_birnbaum_event.11.t:0 "California Prevails!"
- CAL_birnbaum_event.11.d:0 ""
- CAL_birnbaum_event.11.a:0 ""
+ CAL_birnbaum_event.11.d:0 "With the overwhelming pressure we place on Texas to back off and the potential war they face with both us and Mexico, Texas has surrendered. It's a bit surprising this even happened, but the point stands. If even Texas can't stand up to us, then who else in the old US can really have a chance to stop California and the Emperor?"
+ CAL_birnbaum_event.11.a:0 "The Emperor Protects!"
 
 
 
@@ -167,16 +183,23 @@
  #####################################################
  #####################################################
  
- CAL_CEF.0.t:0 "The Mewmans Request Economic Aid"
- CAL_CEF.0.d:0 ""
- CAL_CEF.0.a:0 "We'll do it! For a price..."
- CAL_CEF.0.a:0 "Meh... we really don't need to get involved Extradimensionally..."
+ #GLOBAL FLAG
+ GLOBAL_cali_no_aid:0 "Mewni Rejected Our Aid Offer!"
  
+ CAL_CEF.0.t:0 "The Mewmans Request Economic Aid"
+ CAL_CEF.0.d:0 "The Kingdom of Mewni, the extradimensional kingdom we have made contact with, has requested that we send them some economic aid. Apparently they are going through some sort of food shortage, and due to them being an agrarian pre-industrial society, this spells disaster for them.\n\nAs we our looking for somewhere on Mewni to set up a more perment presence, if we were to send them aid, we would ask for some territory in return to "safeguard on their behalf". This would make us an interdimensional state, the first of it's kind coming from Earth and it'll serve as a massive prestige boost back home.\n\nOn the other hand, if we were to reject them and withhold aid, our analysts predict that the Kingdom of Mewni would not completely collapse just yet. It would go through some instability and hardship, sure, but the Butterfly Monarchy would stay in power, making the internal political pressure for humanitarian aid low in the future."
+ CAL_CEF.0.a:0 "We'll do it! For a price..."
+ CAL_CEF.0.b:0 "Meh... we really don't need to get involved extradimensionally."
  
  CAL_CEF.1.t:0 "Californians Want Territory as Payment!"
- CAL_CEF.1.d:0 ""
- CAL_CEF.1.a:0 "Sounds Like a Good Deal!"
- CAL_CEF.1.b:0 "No."
- CAL_CEF.1.tooltip:0 "§YThe§! §CCalifornians§! §Ywont be involved in Mewni...§!"
+ CAL_CEF.1.d:0 "Our request to California has returned with a response: They will provide us with aid, if we provide them with some territory to "safeguard" and set up a base at. To this end, the territory of the Waterway Overlook was choosen by them for their inital spot, as its a unimportant location to us.\n\nBy accepting and taking their aid, we can be more lax on the people and accelerate out industrial development. However, by giving the Californians a foothold in our dimension it opens the door for them to exert more influence over the dimension and, by extension, us. With their industrial and technological advantage over us, we would be at a disadvantage when dealing with them. Should we ever get on their bad side..."
+ CAL_CEF.1.a:0 "We're on good terms with the Human-Californians. Let's welcome them in!"
+ CAL_CEF.1.b:0 "Who knows what could happen in the future? We won't let the Californians loose on Mewni."
+ CAL_CEF.1.tooltip:0 "§CFocus§! §YDouble Down§! §CIs Unlocked!§!"
  CAL_CEF.1.tooltip_2:0 "§CFocus§! §YWhy Corn?§! §CIs Unlocked!§!"
+ 
+ CAL_CEF_DECLINE.1.t:0 "Rejection!"
+ CAL_CEF_DECLINE.1.d:0 "[FROM.getname] has rejected our offer! As it stand, we could still provide minimual aid, but we'll have less politicla will, for better or worse, to give any meaningful aid going forward. At least they are still willing to let us open an embassy in thier city of Port Festiva."
+ CAL_CEF_DECLINE.1.a:0 "We'll take the offical relationship..."
+ CAL_CEF_DECLINE.1.b:0 "... and send some token aid. Can't say we didn't help."
  

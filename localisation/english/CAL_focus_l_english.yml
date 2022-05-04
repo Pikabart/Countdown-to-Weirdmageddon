@@ -354,12 +354,12 @@
  ##################################################################################################################
  #################################################################################################################
  
- CAL_IBI_focus.0:0 "The Imperial Bureau of Investigation"
+ CAL_IBI_focus.0:0 "The Imperial Bureau Of Investigation"
  CAL_IBI_focus.0_desc:0 "In response to the initial collapse of the US and an increase of crime across the state, Lt. Governor Diaz-Guzman now has the political clout to form the Imperial Bureau of Investigation.\nUnofficially, with the FPI in the North and the paranormal nature of the St. James Disappearance in the South, the IBI will see Hector's return to the secret paranormal world."
  CAL_IBI_focus.0.t:0 "Establish the Imperial Bureau of Investigation"
  
  CAL_IBI_focus.1:0 "Call In Mr. X"
- CAL_IBI_focus.1_desc:0 "The FBI have been trying to push into FPI jurisdiction since even before the Secret Civil War. They even maintain a small division of agents meant for paranormal investigation, with surprising success. As we are in need of skilled and capable agents, I could use someone of the likes of Mr. X in our new ranks.\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
+ CAL_IBI_focus.1_desc:0 "The FBI have been trying to push into FPI jurisdiction since even the FPI/MI-13 Split. They even maintain a small division of agents known as the UIU for paranormal investigation, with surprising success as the SCP's decline. As we are in need of skilled and capable agents, I could use someone of the likes of Mr. X in our new ranks.\n- §YLieutenant Governor Regent Hector Diaz-Guzman§! -"
  CAL_IBI_focus.1.t:0 ""
  
  CAL_IBI_focus.2:0 "Absorb Loyal Intelligence Assets"
@@ -434,14 +434,14 @@
  
  CAL_mewni.0:0 "First Contact"
  CAL_mewni.0_desc:0 "Emperor Norton is giving a speech in front of San Francisco City Hall. Many of his supporters from both Northern and Southern California will be there."
- CAL_mewni.0.t:0 ""
+ CAL_mewni.0.t:0 ""Front Row seats for the Mayor of Detension... and you too Marco.”- §5Janna§!"
  
  CAL_mewni.1:0 "The Pivot To Mewni"
  CAL_mewni.1_desc:0 "Now that we are an interdimensional state, we must shift some of our attention away from our home dimension."
  CAL_mewni.1.t:0 ""
  
  CAL_mewni.2:0 "Form the Expeditionary Force"
- CAL_mewni.2_desc:0 "With a part of our land in a completley diffrent dimension, it makes no logistical sense to govern it the same way we govern the areas of our state in our home dimension. Thus a new governing body, the §Y[CEF.getname]§!, shall be formed on our Mewni territories."
+ CAL_mewni.2_desc:0 "With holdings and military bases in another dimension, it is critical we show to everyone on Earth and Mewni that we can protect ourseleves and those under our rule. To this end, the §Y[CEF.getname]§! shall be formed to manage and protect our Mewni territories."
  CAL_mewni.2.t:0 ""
  
  CAL_mewni.3:0 "The Rodent Problem..."
@@ -580,25 +580,25 @@
  ##################################################################################################################
  
  CAL_victory.0:0 "Victory In Mewni!"
- CAL_victory.0_desc:0 ""
+ CAL_victory.0_desc:0 "With our aid, Queen Moon has emerged victorious in the great Battle for Mewni! The evil Ludo has been vanquished into the multiverse and our soliders patrol from Butterfly Castle to the grand Port Cities.\n\nThere is no doubt we have become more entrenched in Mewman affairs. But now it must sway to what California wills as well."
  CAL_victory.0.t:0 ""
  
- CAL_victory.1:0 "The Glory Of California"
- CAL_victory.1_desc:0 ""
+ CAL_victory.1:0 "Interdimensional Glory"
+ CAL_victory.1_desc:0 "California is a Interdimensional Power. But now we turn back to the homefront and face the great issues of our day.\n\nIf we march across the multiverse again, it will not be as California, but as the United States of American!"
  CAL_victory.1.t:0 ""
  
  ##################################################################################################################
  
  CAL_norton_mind.0:0 "Evaluating Norton's State of Mind"
- CAL_norton_mind.0_desc:0 ""
- CAL_norton_mind.0.t:0 ""
+ CAL_norton_mind.0_desc:0 "As the political situation in California calms down for the initial chaos of the Canadian Kerfuffle, questions by some from both the NDR and IDR are popping up on Norton’s state of mind. We can’t have allegations of such mental issues. We are not like Oregon.\n\nOff to a therapist for our Emperor!"
+ CAL_norton_mind.0.t:0 "Good thing Norton Care is paying for this."
  
  CAL_norton_mind.1:0 "Rediscover The Past"
- CAL_norton_mind.1_desc:0 ""
+ CAL_norton_mind.1_desc:0 "Both Norton and Hector know more of Mewni than they let on. It’s clear from Norton's therapist that he is repressing his memories of how he really knows Mewni. But Hector is hiding more of his FPI past about it and after what happen at the Battle of Mewni between him and Toffee, we will get the truth from him, no matter what!"
  CAL_norton_mind.1.t:0 ""
  
  CAL_norton_mind.2:0 "Bisabuela's Diary"
- CAL_norton_mind.2_desc:0 ""
+ CAL_norton_mind.2_desc:0 ""My Great Grandmother, Reina Diaz, was once the head of the FPI. In her life, she went from a skilled Gun Slinger that turned the Wild West Mild, to ruling an agency that erased a President from history.\n\nBut most importantly, mi sobrino nieto. She was first Diaz on Mewni."\n- §YHector Diaz-Guzman to his grandnephew, Marco Diaz§! –"
  CAL_norton_mind.2.t:0 ""
  
  CAL_norton_mind.3:0 "Norton's Turnabout!"
@@ -607,57 +607,57 @@
  ##################################################################################################################
  
  CAL_oregon_standoff.0:0 "We Look North"
- CAL_oregon_standoff.0_desc:0 ""
+ CAL_oregon_standoff.0_desc:0 "Much of the Southwest is united under our rule. But with the chaos in the East Coast and the new problems emerging from the multiverse, we must decide what to do with the Rogue Lord."
  CAL_oregon_standoff.0.t:0 ""
  
- CAL_oregon_unite.1:0 "The Cost of Victory"
- CAL_oregon_unite.1_desc:0 ""
+ CAL_oregon_unite.1:0 "The Reality We Must Bare"
+ CAL_oregon_unite.1_desc:0 "With new threats from the multiverse and from home, we can’t continue to stand apart when the world burns. If America and Humanity is to survive, we must set aside our differences. "
  CAL_oregon_unite.1.t:0 ""
  
  CAL_oregon_unite.2:0 "Croaking Echoes"
- CAL_oregon_unite.2_desc:0 ""
+ CAL_oregon_unite.2_desc:0 "Diaz wasn’t clear what threat “The Amphibians” pose to us. Even he wasn’t sure. But he warned it was a threat that even if reunited we might not stand against. But if we are to have a chance to stop these truly interdimensional invaders, we will need America back in her Prime.\n- §GRetired Governor Gerald Green§! -"
  CAL_oregon_unite.2.t:0 ""
  
  CAL_oregon_unite.3:0 "New Political Pressures"
- CAL_oregon_unite.3_desc:0 ""
+ CAL_oregon_unite.3_desc:0 "“The economy will only hold so long at its state. We need interstate commerce. We need international trade! If we pull our might together, the lost order of the world will return with our combine might.”\n\n- §7Northwest of California CEO Lord Timothy Birnbaum§! -"
  CAL_oregon_unite.3.t:0 ""
  
  CAL_oregon_unite.4:0 "The Next War"
- CAL_oregon_unite.4_desc:0 ""
+ CAL_oregon_unite.4_desc:0 ""The best officers America has currently stand against one another at the 42° Parallel.\nWhy should they waste fighting one another then doing what they sworn to do decades ago, defend not just America, but the Freedom, Liberty and Democracy that they and their ancestors won so long ago?"\n- §CICR Field Marshall Sherman Pines§! -"
  CAL_oregon_unite.4.t:0 ""
  
  CAL_oregon_unite.5:0 "Formalized Back Doors"
- CAL_oregon_unite.5_desc:0 ""
+ CAL_oregon_unite.5_desc:0 ""My former bloc and caucuses from representatives in Trembley's Government still take my messages. The time has come to bring the New Democratic Republicans back together and bring order to the political scene."\n- §RImperial Secretary of State Lady Carman Everett§! -"
  CAL_oregon_unite.5.t:0 ""
  
  CAL_oregon_unite.6:0 "Reach Out To Victoria"
- CAL_oregon_unite.6_desc:0 ""
- CAL_oregon_unite.6.t:0 ""
+ CAL_oregon_unite.6_desc:0 "With some additional backtalks from the Eastern FPI, we have arranged a meeting between Norton and Trembley in Victoria, Canada. So critical is America's fate in this moment that even the True Leader of the United States has agreed to come and mediate."
+ CAL_oregon_unite.6.t:0 "It'll be the Best Christmas In July, Ever!"
  
  ##############################
  
  CAL_oregon_war.1:0 "Proclaim The New America"
- CAL_oregon_war.1_desc:0 ""
+ CAL_oregon_war.1_desc:0 "The Imperial Repuiblic Stands! Its time we unite this country!\n\nBefore we go Over There, we must unite Over Here!"
  CAL_oregon_war.1.t:0 ""
  
  CAL_oregon_war.2:0 "Fear No Frog"
- CAL_oregon_war.2_desc:0 ""
+ CAL_oregon_war.2_desc:0 "Diaz-Guzman warns us of technolgoically advance robot frogs. And they're not French? What a childish fantasy..."
  CAL_oregon_war.2.t:0 ""
  
  CAL_oregon_war.3:0 "Reunite The West"
- CAL_oregon_war.3_desc:0 ""
+ CAL_oregon_war.3_desc:0 "We shall overcome these fake governments!"
  CAL_oregon_war.3.t:0 ""
  
  CAL_oregon_war.4:0 "Through The Realm of Magic"
- CAL_oregon_war.4_desc:0 ""
+ CAL_oregon_war.4_desc:0 "We must use our interdimesional travel ability to keep Earth safe from whoever steps into our plane of reality.\n\nIf the multiverse wishes us harm, they'll learn we can fight Magical fire with Atomic fire."
  CAL_oregon_war.4.t:0 ""
  
  CAL_oregon_war.5:0 "Bring The Rogue Lord In"
- CAL_oregon_war.5_desc:0 ""
+ CAL_oregon_war.5_desc:0 "Trembley betrayed his original post as the Lord Protector of Oregon when Norton knighted him centuries ago. It’s time we bring him in and face the Emperor's Justice."
  CAL_oregon_war.5.t:0 ""
  
  CAL_oregon_war.6:0 "March North"
- CAL_oregon_war.6_desc:0 ""
+ CAL_oregon_war.6_desc:0 "If we win the West, we win America."
  CAL_oregon_war.6.t:0 ""
  
  ##############################
@@ -734,25 +734,25 @@
  ##################################################################################################################
  
  CAL_disaster.0:0 "Fall Back!"
- CAL_disaster.0_desc:0 ""
+ CAL_disaster.0_desc:0 "Our Failure in the Battle for Mewni has saw us beaten out of another dimension. There will be grave repercussions to this."
  CAL_disaster.0.t:0 ""
  
  CAL_disaster.1:0 "Rat Over Bear"
- CAL_disaster.1_desc:0 ""
+ CAL_disaster.1_desc:0 "We lost to Rats... RATS!"
  CAL_disaster.1.t:0 ""
  
  CAL_disaster.2:0 "The Failure Of The CEF"
- CAL_disaster.2_desc:0 ""
+ CAL_disaster.2_desc:0 "We would be grilling Major Pines over her failure over leading the CEF on Mewni... if she was able to make it back to Earth as the CEF was overunned."
  CAL_disaster.2.t:0 ""
  
  ######################################################
  
  CAL_civil_war.1:0 "Stand With Governor Norton"
- CAL_civil_war.1_desc:0 ""
+ CAL_civil_war.1_desc:0 "Emperor Norton was Betrayed! Lieutenant Governor Diaz-Guzman his critical information that could have saved our forces on Mewni. The Traitor must be brought to heel!"
  CAL_civil_war.1.t:0 ""
  
  CAL_civil_war.2:0 "Stand With Lt. Governor Diaz-Guzman"
- CAL_civil_war.2_desc:0 ""
+ CAL_civil_war.2_desc:0 "California now sees the error of voting in a madman as its Governor and than proclaiming him as the "Emperor" of the United States. Now the Lieutenant Governor vows to fix this!"
  CAL_civil_war.2.t:0 ""
  
  CAL_civil_war.3:0 "Fortify Salianas"

@@ -140,8 +140,6 @@
  VICTORY_POINTS_3109:0 "Shawnee"
  VICTORY_POINTS_3647:0 "Brighton"
  
- VICTORY_POINTS_3894:0 "Salt Lake City"
- 
  ################################################
  #Great Plains VPs
  
@@ -179,15 +177,30 @@
  VICTORY_POINTS_1164:0 "Ciudad Juárez"
  
  ################################################
- #Arizona Colorado New Mexico VPs
+ #Arizona Colorado New Mexico Utah VPs
  VICTORY_POINTS_230:0 "Albuquerque"
+ VICTORY_POINTS_5131:0 "Gallup"
  VICTORY_POINTS_2614:0 "Santa Fe"
+ VICTORY_POINTS_2725:0 "Las Cruces"
+ VICTORY_POINTS_691:0 "Lordsburg"
  
  VICTORY_POINTS_1068:0 "Flagstaff"
+ VICTORY_POINTS_1388:0 "Kingman"
  VICTORY_POINTS_2832:0 "Yuma"
  VICTORY_POINTS_721:0 "Phoenix"
+ VICTORY_POINTS_5910:0 "Tucson"
  
  VICTORY_POINTS_2389:0 "Denver"
+ VICTORY_POINTS_998:0 "South Park"
+ VICTORY_POINTS_460:0 "Grand Junction"
+ VICTORY_POINTS_9468:0 "Aspen"
+ VICTORY_POINTS_5440:0 "Bayfield" 
+ 
+ VICTORY_POINTS_3894:0 "Salt Lake City"
+ VICTORY_POINTS_1279:0 "St. George"
+ VICTORY_POINTS_1635:0 "Cedar City"
+ VICTORY_POINTS_1758:0 "Richfield"
+ VICTORY_POINTS_4014:0 "Eskdale"
  
  ################################################
  #Nevada Montana Idaho VPs

@@ -208,6 +208,11 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MEW/report_event_horseless_carriage.dds"
 	}
 	
+	spriteType = { # CEF - California Expeditionary Force
+		name = "GFX_report_event_CEF"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_CEF.dds"
+	}
+	
 	
    #############################################################
    #  Decisions

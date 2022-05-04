@@ -47,6 +47,18 @@ characters = {
 			expire = "2040.1.1.1"
 			id = -1
 		}
+		field_marshal = {
+			traits = { old_guard }
+			skill = 4
+			visible = {
+				has_completed_focus = ORE_wicked_focus.0 
+			}
+
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+		}
 	}
 	
 	ORE_parson_northwest = {
@@ -70,6 +82,138 @@ characters = {
 		}
 		
 	}
+
+##########################################################
+
+	ORE_general_1 = {
+		name = "Mike Jenkins" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Generic_land_1"
+				small = "GFX_Portrait_USA_Generic_land_1_small"
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 2
+			visible = {
+				has_completed_focus = ORE_frontier_focus.1
+			}
+
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		}
+	}
+	
+	ORE_general_2 = {
+		name = "Marge Wells" 
+		desc = ""
+		gender = female
+		portraits = {
+
+		}
+		corps_commander= {
+			traits = { armor_officer }
+			skill = 3
+			id = 8
+			
+			visible = { 
+				has_completed_focus = ORE_frontier_focus.1
+			}
+
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+		
+		}
+	}
+	
+	ORE_general_3 = {
+		name = "George Kursk" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Generic_land_3"
+				small = "GFX_Portrait_USA_Generic_land_3_small"
+			}
+		}
+		corps_commander= {
+			traits = { infantry_officer }
+			skill = 2
+			id = 8
+			
+			visible = { 
+				has_completed_focus = ORE_frontier_focus.1
+			}
+
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		
+		}
+	}
+	
+	ORE_general_4 = {
+		name = "Sofia Cruz" 
+		desc = ""
+		gender = female
+		portraits = {
+
+		}
+		corps_commander= {
+			traits = { infantry_officer }
+			skill = 2
+			id = 8
+			
+			visible = { 
+			}
+
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+		
+		}
+	}
+	
+	ORE_general_5 = {
+		name = "Jonathan Ackland" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_Portrait_USA_Generic_land_4"
+				small = "GFX_Portrait_USA_Generic_land_4_small"
+			}
+		}
+		corps_commander= {
+			traits = { infantry_officer }
+			skill = 3
+			id = 8
+			
+			visible = { 
+
+			}
+
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+		
+		}
+	}
+
+
+
+
+
+
+
+
 
 }###########################################################
 	

@@ -6,6 +6,7 @@ add_namespace = CAL_TWOWORLDS
 add_namespace = CAL_JANNA
 add_namespace = CAL_GUSTAV
 add_namespace = CAL_IPD
+add_namespace = CAL_CONTACT
 
 ############################################################################################################
 
@@ -385,7 +386,7 @@ country_event = {  # Bakersfieldville forever ignored
 
 ########################################################################################################
 
-country_event = {
+country_event = { # Is DEFUNCT
 	id = CAL_IPD.1
 	title = CAL_IPD.1.t
 	desc = CAL_IPD.1.d
@@ -410,3 +411,93 @@ country_event = {
 
 ########################################################################################################
 
+country_event = {  # Star Meets Norton
+	id = CAL_CONTACT.1
+	title = CAL_CONTACT.1.t
+	desc = CAL_CONTACT.1.d
+	picture = GFX_report_event_CEF
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_CONTACT.1.a
+		country_event = { id = CAL_CONTACT.2 days = 5}
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = { # Star barges in and offers a meeting
+	id = CAL_CONTACT.2
+	title = CAL_CONTACT.2.t
+	desc = CAL_CONTACT.2.d
+	picture = GFX_report_event_CEF
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_CONTACT.2.a
+		country_event = { id = CAL_CONTACT.3 days = 5}
+		#country_event = { id = .3 days = 5} # Mewni version
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = { # California getting read, MEWNI will have its own version
+	id = CAL_CONTACT.3
+	title = CAL_CONTACT.3.t
+	desc = CAL_CONTACT.3.d
+	picture = GFX_report_event_CEF
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_CONTACT.3.a
+		country_event = { id = CAL_CONTACT.4 days = 5}
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = { # THIS IS A SHARED EVENT for CAL and MEW
+	id = CAL_CONTACT.4 
+	title = CAL_CONTACT.4.t
+	desc = CAL_CONTACT.4.d
+	picture = GFX_report_event_CEF
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_CONTACT.4.a
+		CAL = {country_event = { id = CAL_CONTACT.5 days = 5}}
+		add_political_power = 100
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {  # Hector and Shermie
+	id = CAL_CONTACT.5
+	title = CAL_CONTACT.5.t
+	desc = CAL_CONTACT.5.d
+	picture = GFX_report_event_CEF
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_CONTACT.5.a
+		CAL = {country_event = { id = CAL_CONTACT.6 days = 5}}
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+country_event = {  # Hector and Shermie
+	id = CAL_CONTACT.6
+	title = CAL_CONTACT.6.t
+	desc = CAL_CONTACT.6.d
+	picture = GFX_report_event_CEF
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = CAL_CONTACT.6.a
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}

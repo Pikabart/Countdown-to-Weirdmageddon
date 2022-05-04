@@ -1,0 +1,185 @@
+﻿l_english:
+
+#########
+#generic#
+#########
+
+quality_troops_generic_warlord:0 "Military Emphasis: Quality"
+quality_troops_generic_warlord_desc:0 ""
+
+quantity_troops_generic_warlord:0 "Military Emphasis: Quantity"
+quantity_troops_generic_warlord_desc:0 ""
+
+priority_civillian_generic_warlord:0 "Economic Emphasis: Civilian"
+priority_civillian_generic_warlord_desc:0 ""
+
+priority_military_generic_warlord:0 "Economic Emphasis: Military"
+priority_military_generic_warlord_desc:0 ""
+
+modern_politics_generic_warlord:0 "Advancement Emphasis: Political"
+modern_politics_generic_warlord_desc:0 ""
+
+modern_warfare_generic_warlord:0 "Advancement Emphasis: Military"
+modern_warfare_generic_warlord_desc:0 ""
+
+#####
+#AVA#
+#####
+
+AVA_paralyzed_exile:0 "A Paralyzed Exile"
+AVA_paralyzed_exile_desc:0 ""
+
+AVA_drg_bonus:0 "Against Los Pollos Monsteros"
+AVA_drg_bonus_desc:0 ""
+
+#####
+#DRG#
+#####
+
+DRG_wholesome_ingredients_idea:0 "Wholsome Ingredients"
+DRG_wholesome_ingredients_idea_desc:0 ""
+
+DRG_fast_cheap_questionable_idea:0 "Pumped Full of Filler"
+DRG_fast_cheap_questionable_idea_desc:0 ""
+
+DRG_innovation_and_class_idea:0 "Innovation and Class"
+DRG_innovation_and_class_idea_desc:0 ""
+
+DRG_external_invsetments_idea:0 "External Investments"
+DRG_external_invsetments_idea_desc:0 ""
+
+#####
+#DTH#
+#####
+
+HGH_power_vaccum:0 "Power Vaccum"
+HGH_power_vaccum_desc:0 ""
+
+HGH_nerds:0 "Nerd Recruitment"
+HGH_nerds_desc:0 ""
+
+#####
+#MHC#
+#####
+
+MHC_dimensional_instability:0 "Dimensional Instability"
+MHC_dimensional_instability_desc:0 ""
+
+MHC_dimensional_instability_2:0 "Dimensional Instability"
+MHC_dimensional_instability_2_desc:0 ""
+
+MHC_anti_monster_ambitions:0 "Anti Monster Ambitions"
+MHC_anti_monster_ambitions_desc:0 ""
+
+MHC_merciless_rebels:0 "Merciless Rebels"
+MHC_merciless_rebels_desc:0 ""
+
+MHC_radical_rebels:0 "Radical Rebels"
+MHC_radical_rebels_desc:0 ""
+
+MHC_rioting_rebels:0 "Riots"
+MHC_rioting_rebels_desc:0 ""
+
+MHC_protesting_rebels:0 "Protesters"
+MHC_protesting_rebels_desc:0 ""
+
+MHC_dead_rebel_movement:0 "Dead Resistance Movement"
+MHC_dead_rebel_movement_desc:0 ""
+
+MHC_monitored_market:0 "Monitored Markets"
+MHC_monitored_market_desc:0 ""
+
+MHC_unrecognizable_culture:0 "No Mewman Influence on Culture"
+MHC_unrecognizable_culture_desc:0 ""
+
+MHC_slight_mewman_culture:0 "Slight Mewman Influence on Culture"
+MHC_slight_mewman_culture_desc:0 ""
+
+MHC_medium_mewman_culture:0 "Moderate Mewman Influence on Culture"
+MHC_medium_mewman_culture_desc:0 ""
+
+MHC_major_mewman_culture:0 "Major Mewman Influence on Culture"
+MHC_major_mewman_culture_desc:0 ""
+
+MHC_free_courses:0 "Free Mewman Language Courses"
+MHC_free_courses_desc:0 ""
+
+MHC_free_courses_2:0 "Free Mewman Language Courses"
+MHC_free_courses_2_desc:0 ""
+
+#####
+#SWP#
+#####
+
+SWP_decentralized_government:0 "Decentralized Tribal Government"
+SWP_decentralized_government_desc:0 ""
+
+SWP_decentralized_government_2:0 "Decentralized Tribal Government"
+SWP_decentralized_government_2_desc:0 ""
+
+SWP_decentralized_government_3:0 "Decentralized Tribal Government"
+SWP_decentralized_government_3_desc:0 ""
+
+#####
+#TSR#
+#####
+
+TSR_factory_build_speed:0 "Construction Effort"
+TSR_factory_build_speed_desc:0 ""
+
+TSR_calvary_debt:0 "Extreme Debt"
+TSR_calvary_debt_desc:0 ""
+
+TSR_calvary_debt_better:0 "Recovering From Debt"
+TSR_calvary_debt_better_desc:0 ""
+
+TSR_sabotage_plans:0 "Sabatoged Finances"
+TSR_sabotage_plans_desc:0 ""
+
+TSR_MIL_police:0 "Police Corps"
+TSR_MIL_police_desc:0 ""
+
+TSR_MIL_police_2:0 "Police Corps"
+TSR_MIL_police_2_desc:0 ""
+
+TSR_MIL_police_3:0 "Police Corps"
+TSR_MIL_police_3_desc:0 ""
+
+TSR_MIL_artificial_culture:0 "Military Centered Culture"
+TSR_MIL_artificial_culture_desc:0 ""
+
+TSR_QUEEN_purge:0 "The Queen's Purge"
+TSR_QUEEN_purge_desc:0 ""
+
+TSR_QUEEN_benefits_idea:0 "Katerina-care"
+TSR_QUEEN_benefits_idea_desc:0 ""
+
+TSR_QUEEN_benefits_idea_2:0 "Katerina-care"
+TSR_QUEEN_benefits_idea_2_desc:0 ""
+
+TSR_QUEEN_benefits_idea_3:0 "Katerina-care"
+TSR_QUEEN_benefits_idea_3_desc:0 ""
+
+TSR_QUEEN_benefits_idea_4:0 "Katerina-care"
+TSR_QUEEN_benefits_idea_4_desc:0 ""
+
+TSR_QUEEN_pro_monster:0 "Monster Enlightenment"
+TSR_QUEEN_pro_monster_desc:0 ""
+
+TSR_QUEEN_pro_monster_2:0 "Monster Enlightenment"
+TSR_QUEEN_pro_monster_2_desc:0 ""
+
+TSR_QUEEN_pro_monster_3:0 "Monster Enlightenment"
+TSR_QUEEN_pro_monster_3_desc:0 ""
+
+TSR_QUEEN_anti_monster:0 "Mewman Privleged Class"
+TSR_QUEEN_anti_monster_desc:0 ""
+
+TSR_QUEEN_anti_monster_2:0 "Mewman Privleged Class"
+TSR_QUEEN_anti_monster_2_desc:0 ""
+
+TSR_QUEEN_anti_monster_3:0 "Mewman Privleged Class"
+TSR_QUEEN_anti_monster_3_desc:0 ""
+
+
+

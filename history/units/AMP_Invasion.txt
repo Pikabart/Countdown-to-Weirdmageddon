@@ -1,0 +1,39 @@
+﻿division_template = {
+	name = "Amphibian Battalion"
+	#division_names_group = SPAN_INFB_02
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Amphibian Robot Force"  
+	#division_names_group = SPAN_CAVB_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	
+	
+	##### No Notable Naval Forces #####
+}
+
+##### No Notable Air Forces #####
+
+### Other ###
+
+instant_effect = {
+	add_manpower = 125000
+}

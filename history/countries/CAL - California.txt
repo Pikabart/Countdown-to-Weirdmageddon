@@ -7,7 +7,6 @@
 
 add_ideas = {
 	state_national_guard
-	state_interstate_gone
 }
 
 #oob = "CAL_2012"
@@ -52,6 +51,13 @@ recruit_character = CAL_joshua_norton_v2
 recruit_character = CAL_hector_diaz_north
 recruit_character = CAL_carman_evertt_social
 recruit_character = CAL_carman_evertt_auto
+recruit_character = CAL_general_1
+recruit_character = CAL_general_2
+recruit_character = CAL_general_3
+recruit_character = CAL_general_4
+recruit_character = CAL_general_5
+recruit_character = CAL_general_6
+recruit_character = CAL_general_7
 
 #################################################
 #################################################

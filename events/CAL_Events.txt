@@ -10,11 +10,13 @@ add_namespace = CAL_IBI
 add_namespace = CAL_BIB_event
 ###
 add_namespace = CAL_CEF
+add_namespace = CAL_CEF_DECLINE
 add_namespace = CAL_FRITZ
 ###
 add_namespace = CAL_NWB
 add_namespace = CAL_TEST
-
+###
+add_namespace = CAL_FORTHEEMPEROR
 
 country_event = {
 	id = CAL_STARTER.1
@@ -65,7 +67,7 @@ country_event = { # What the heck is going on up there?
 	}
 	
 	option = { 
-		name = CAL_TREMBLEY.2.a
+		name = CAL_TREMBLEY.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
 	}	
 }
@@ -232,7 +234,7 @@ country_event = { # Shermie Returns to Service
 
 	option = {
 		name = CAL_MILITARY.1.a
-		country_event = CAL_MILITARY.6
+		country_event = { id = CAL_MILITARY.6 days = 6}
 	}
 }
 country_event = { # Emily's Marines
@@ -374,6 +376,7 @@ country_event = {
 		name = CAL_MILITARY.5.e	
 		add_political_power = 100
 		add_stability = 0.05
+		add_war_support = -0.05
 	}
 }
 country_event = {
@@ -390,6 +393,25 @@ country_event = {
 
 	option = {
 		name = CAL_MILITARY.6.a	
+		country_event = { id = CAL_MILITARY.7 days = 6}
+	}
+
+}
+
+country_event = {
+	id = CAL_MILITARY.7 # third part to event 1
+	title = CAL_MILITARY.7.t
+	desc = CAL_MILITARY.7.d
+	
+	picture = GFX_report_event_generic_factory
+
+	is_triggered_only = yes
+
+
+	immediate = {}
+
+	option = {
+		name = CAL_MILITARY.7.a	
 		army_experience = 100
 	}
 
@@ -592,7 +614,7 @@ country_event = {
 	immediate = {}
 
 	option = {
-		name = CAL_BIB_event.2.a
+		name = CAL_BIB_event.1.a
 	}
 }
 
@@ -636,7 +658,7 @@ country_event = {
 	id = CAL_CEF.0 
 	title = CAL_CEF.0.t
 	desc = CAL_CEF.0.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
@@ -651,14 +673,16 @@ country_event = {
 		trigger = {tag = CAL}
 		name = CAL_CEF.0.b
 		ai_chance = { factor = 0 }
+		MEW = { country_event = { id = CAL_CEF_DECLINE.1 days = 1 } }
+		unlock_national_focus = CAL_victory.1
 	}
 }
 
-country_event = {
+country_event = { # THIS IS A MEWNI EVENT THEY WILL GET FOR CAL_CEF.0
 	id = CAL_CEF.1
 	title = CAL_CEF.1.t
 	desc = CAL_CEF.1.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
@@ -683,20 +707,53 @@ country_event = {
 				transfer_state = 430
 			}
 		}
-		ai_chance = { factor = 10 }
+		ai_chance = { factor = 100 }
 	}
 	option = {
 		name = CAL_CEF.1.b
 		ai_chance = { factor = 0 }
 		custom_effect_tooltip = CAL_CEF.1.tooltip
 		set_country_flag = cali_no_aid
+		set_global_flag = GLOBAL_cali_no_aid
+		CAL = { country_event = { id = CAL_CEF_DECLINE.1 days = 1 } }
 	}
 }
+
+country_event = {
+	id = CAL_CEF_DECLINE.1
+	title = CAL_CEF_DECLINE.1.t
+	desc = CAL_CEF_DECLINE.1.d
+	picture = GFX_report_event_CEF
+	is_triggered_only = yes
+
+	immediate = {}
+
+	option = {
+		name = CAL_CEF_DECLINE.1.a
+		ai_chance = { factor = 0 }
+		custom_effect_tooltip = CAL_CEF.1.tooltip
+		set_country_flag = cali_no_aid
+	}
+	
+	option = {
+		name = CAL_CEF_DECLINE.1.b
+		ai_chance = { factor = 100 }
+		MEW = { 
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 100
+				producer = CAL
+			} 
+		}
+		set_country_flag = cali_no_aid
+	}
+}
+
 country_event = {
 	id = CAL_CEF.2 
 	title = CAL_CEF.2.t
 	desc = CAL_CEF.2.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
@@ -712,7 +769,7 @@ country_event = {  # For Focus CAL_magic.0
 	id = CAL_FRITZ.0 
 	title = CAL_FRITZ.0.t
 	desc = CAL_FRITZ.0.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
@@ -727,7 +784,7 @@ country_event = { # For Focus CAL_magic.3 # Dr. Frakes
 	id = CAL_FRITZ.1 
 	title = CAL_FRITZ.1.t
 	desc = CAL_FRITZ.1.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
@@ -755,7 +812,7 @@ country_event = { # For Focus CAL_magic.4 Steal Scissors
 	id = CAL_FRITZ.2 
 	title = CAL_FRITZ.2.t
 	desc = CAL_FRITZ.2.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
@@ -771,7 +828,7 @@ country_event = { # For Focus CAL_magic.5 # Emily's transformation
 	id = CAL_FRITZ.3 
 	title = CAL_FRITZ.3.t
 	desc = CAL_FRITZ.3.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
@@ -779,20 +836,51 @@ country_event = { # For Focus CAL_magic.5 # Emily's transformation
 	option = {
 		name = CAL_FRITZ.3.a
 		add_political_power = 150
+		country_event = CAL_FRITZ.4 
 	}
 }
 
-country_event = { # For Focus CAL_magic.6 # Borrow Star's wand
+country_event = { # For Focus CAL_magic.5 # Emily's transformation part 2
 	id = CAL_FRITZ.4 
 	title = CAL_FRITZ.4.t
 	desc = CAL_FRITZ.4.d
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_CEF
 	is_triggered_only = yes
 
 	immediate = {}
 
 	option = {
 		name = CAL_FRITZ.4.a
+		country_event = CAL_FRITZ.6 
+	}
+}
+
+country_event = { # For Focus CAL_magic.6 # Emily's transformation part 3
+	id = CAL_FRITZ.6 
+	title = CAL_FRITZ.6.t
+	desc = CAL_FRITZ.6.d
+	picture = GFX_report_event_CEF
+	is_triggered_only = yes
+
+	immediate = {}
+
+	option = {
+		name = CAL_FRITZ.6.a
+		add_political_power = 150
+	}
+}
+
+country_event = { # For Focus CAL_magic.6 # Borrow Star's wand
+	id = CAL_FRITZ.5 
+	title = CAL_FRITZ.5.t
+	desc = CAL_FRITZ.5.d
+	picture = GFX_report_event_CEF
+	is_triggered_only = yes
+
+	immediate = {}
+
+	option = {
+		name = CAL_FRITZ.5.a
 		add_political_power = 150
 	}
 }
@@ -838,6 +926,61 @@ country_event = {  #
 	}
 	option = { 
 		name = CAL_TEST.1.c
+		ai_chance = { factor = 100 }	# 100% AI choose this
+	}
+}
+
+#####################################################################################
+
+country_event = {
+	id = CAL_FORTHEEMPEROR.1
+	title = CAL_FORTHEEMPEROR.1.t
+	desc = CAL_FORTHEEMPEROR.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	
+	
+	option = { 
+		name = CAL_FORTHEEMPEROR.1.a
+		
+		set_faction_name = "Imperial United States"
+		set_cosmetic_tag = IMP_WUS
+		set_country_flag = cal_California_United
+		hidden_effect = {
+			annex_country = { target = NEV transfer_troops = yes }
+			every_state = {  limit = { is_core_of = NEV} CAL = { add_state_core = PREV} NEV = { remove_state_core = PREV remove_state_claim = PREV } }
+			annex_country = { target = SOC transfer_troops = yes } 	
+			every_state = {  limit = { is_core_of = SOC} CAL = { add_state_core = PREV} SOC = { remove_state_core = PREV remove_state_claim = PREV } }
+			
+			IF = { limit = { UTH = {is_in_faction_with = CAL} } annex_country = { target = UTH transfer_troops = yes } 
+			every_state = {  limit = { is_core_of = UTH} CAL = { add_state_core = PREV} UTH = { remove_state_core = PREV remove_state_claim = PREV } }
+			}
+			IF = { limit = { CRD = {is_in_faction_with = CAL} } annex_country = { target = CRD transfer_troops = yes } 
+			every_state = {  limit = { is_core_of = CRD} CAL = { add_state_core = PREV} CRD = { remove_state_core = PREV remove_state_claim = PREV } }
+			}
+			IF = { limit = { ARZ = {is_in_faction_with = CAL} } annex_country = { target = ARZ transfer_troops = yes } 			
+			every_state = {  limit = { is_core_of = ARZ} CAL = { add_state_core = PREV} ARZ = { remove_state_core = PREV remove_state_claim = PREV } }
+			}
+			IF = { limit = { NMX = {is_in_faction_with = CAL} } annex_country = { target = NMX transfer_troops = yes } 		
+			every_state = {  limit = { is_core_of = NMX} CAL = { add_state_core = PREV} NMX = { remove_state_core = PREV remove_state_claim = PREV } }
+			}
+			IF = { limit = { TEX = {is_in_faction_with = CAL} } annex_country = { target = TEX transfer_troops = yes } 	
+			every_state = {  limit = { is_core_of = TEX} CAL = { add_state_core = PREV} TEX = { remove_state_core = PREV remove_state_claim = PREV } }
+			}
+			IF = { limit = { OKL = {is_in_faction_with = CAL} } annex_country = { target = OKL transfer_troops = yes } 
+			every_state = {  limit = { is_core_of = OKL} CAL = { add_state_core = PREV} OKL = { remove_state_core = PREV remove_state_claim = PREV } }
+			}
+			IF = { limit = { LOU = {is_in_faction_with = CAL} } annex_country = { target = LOU transfer_troops = yes } 	
+			every_state = {  limit = { is_core_of = LOU} CAL = { add_state_core = PREV} LOU = { remove_state_core = PREV remove_state_claim = PREV } }
+			}
+			IF = { limit = { ARK = {is_in_faction_with = CAL} } annex_country = { target = ARK transfer_troops = yes } 	
+			every_state = {  limit = { is_core_of = ARK} CAL = { add_state_core = PREV} ARK = { remove_state_core = PREV remove_state_claim = PREV } }
+			}
+		}
+		
 		ai_chance = { factor = 100 }	# 100% AI choose this
 	}
 }

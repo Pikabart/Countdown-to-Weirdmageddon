@@ -283,6 +283,9 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_start.8.t"
+			
+			add_ideas = state_interstate_gone
+			
 			set_country_flag = cal_NorSo_relationship # Enable Decisions for NorCal SoCal Relationship
 			set_variable = { cal_norton_norcal = 70 }
 			set_variable = { cal_norton_socal = 45 }
@@ -1265,16 +1268,14 @@
 						has_country_flag = cal_four_corner_weaken
 					}
 					random_list = {
-						70 = { country_event = CAL_everett_event.1 }
-						15 = { country_event = CAL_everett_event.2 }
-						15 = { country_event = CAL_everett_event.2 }
+						35 = { country_event = CAL_everett_event.2 }
+						65 = { country_event = CAL_everett_event.3 }
 					}
 				}
 				ELSE = {
 					random_list = {
-						50 = { country_event = CAL_everett_event.1 }
-						25 = { country_event = CAL_everett_event.2 }
-						25 = { country_event = CAL_everett_event.2 }
+						50 = { country_event = CAL_everett_event.2 }
+						50 = { country_event = CAL_everett_event.3 }
 					}
 				}
 			}
@@ -1307,16 +1308,14 @@
 						has_country_flag = cal_four_corner_weaken
 					}
 					random_list = {
-						70 = { country_event = CAL_everett_event.4 }
-						15 = { country_event = CAL_everett_event.5 }
-						15 = { country_event = CAL_everett_event.6 }
+						35 = { country_event = CAL_everett_event.5 }
+						65 = { country_event = CAL_everett_event.6 }
 					}
 				}
 				ELSE = {
 					random_list = {
-						50 = { country_event = CAL_everett_event.4 }
-						25 = { country_event = CAL_everett_event.5 }
-						25 = { country_event = CAL_everett_event.6 }
+						50 = { country_event = CAL_everett_event.5 }
+						50 = { country_event = CAL_everett_event.6 }
 					}
 				}
 			}
@@ -1350,16 +1349,14 @@
 						has_country_flag = cal_four_corner_weaken
 					}
 					random_list = {
-						70 = { country_event = CAL_everett_event.7 }
-						15 = { country_event = CAL_everett_event.8 }
-						15 = { country_event = CAL_everett_event.9 }
+						35 = { country_event = CAL_everett_event.8 }
+						65 = { country_event = CAL_everett_event.9 }
 					}
 				}
 				ELSE = {
 					random_list = {
-						50 = { country_event = CAL_everett_event.7 }
-						25 = { country_event = CAL_everett_event.8 }
-						25 = { country_event = CAL_everett_event.9 }
+						50 = { country_event = CAL_everett_event.8 }
+						50 = { country_event = CAL_everett_event.9 }
 					}
 				}
 			}
@@ -1622,9 +1619,12 @@
 		available = {}
 		bypass = {} 
 		
+		select_effect = {
+			country_event = CAL_MILITARY.1
+		}
+		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_shermie.0.t"
-			country_event = CAL_MILITARY.1
 		}
 		
 		
@@ -1985,6 +1985,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_complex.7.t"
+			remove_ideas = state_interstate_gone
 			add_ideas = CAL_golden_industry
 		}
 	}
@@ -2361,7 +2362,10 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_army.2.t"
-			add_ideas = CAL_over_there_1
+			swap_ideas = {
+				add_idea = CAL_over_there_1
+				remove_idea = CAL_over_there_0
+			}
 		}
 	}
 	
@@ -2485,7 +2489,11 @@
 		
 		completion_reward = {	  
 			custom_effect_tooltip = "CAL_army.7.t"
-			add_ideas = CAL_over_there_2
+			remove_ideas = state_national_guard
+			swap_ideas = {
+				add_idea = CAL_over_there_2
+				remove_idea = CAL_over_there_1
+			}
 		}
 	}
 	
@@ -2495,7 +2503,9 @@
 	
 	focus = {
 		id = CAL_hector.0
-		icon = GFX_focus_BUL_the_return_of_ferdinand
+
+		icon = GFX_goal_hector_diaz
+
 		x = 25
 		y = 1
 		relative_position_id = CAL_start.8
@@ -2735,7 +2745,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_BIB.5.t"
-			country_event = CAL_BIB_event.3 
+			#country_event = CAL_BIB_event.3 
 			if = {
 				limit = {has_dlc = "La Resistance"}
 				upgrade_intelligence_agency = upgrade_commando_training
@@ -2763,7 +2773,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_BIB.6.t"
-			country_event = CAL_IBI.5 
+			country_event = CAL_IBI.7 
 		}
 	}
 	
@@ -2826,7 +2836,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_hector.1.t"
-			country_event = CAL_IBI.6
+			country_event = CAL_IBI.8
 		}
 	}
 	
@@ -2834,7 +2844,7 @@
 	
 	focus = {
 		id = CAL_IBI_focus.0 
-		icon = GFX_focus_generic_self_management
+		icon = GFX_goal_imperial_bureau
 		x = -4
 		y = 1
 		relative_position_id = CAL_hector.0
@@ -2851,7 +2861,13 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_IBI_focus.0.t"
-			country_event = CAL_IBI.0
+			#country_event = CAL_IBI.0
+			if = {
+				limit = {has_dlc = "La Resistance"}
+				create_intelligence_agency = yes
+				upgrade_intelligence_agency = upgrade_form_department
+			}
+			else = { add_ideas = CAL_no_la_resistance_0}
 		}
 		
 		ai_will_do = {
@@ -2862,7 +2878,7 @@
 	
 	focus = {
 		id = CAL_IBI_focus.1
-		icon = GFX_focus_EST_era_of_silence
+		icon = GFX_goal_MR_X
 		x = -2
 		y = 1
 		relative_position_id = CAL_IBI_focus.0
@@ -3038,7 +3054,7 @@
 	
 	focus = {
 		id = CAL_IBI_focus.5
-		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		icon = GFX_goal_licence_to_janna
 		x = 1
 		y = 1
 		relative_position_id = CAL_IBI_focus.2
@@ -3131,19 +3147,17 @@
 		id = CAL_For_Emperor.0
 		icon = GFX_focus_eng_imperial_federation
 		x = 0
-		y = 6
+		y = 5
 		relative_position_id = CAL_assembly.1
-		prerequisite = { 
-			focus = CAL_pacific.7 
-			focus = CAL_complex.7 
-			focus = CAL_army.7 
-		}
+
 		prerequisite = { 
 			focus = CAL_everett.7 
 			focus = CAL_birnbaum.7 
 		}
 		prerequisite = { focus = CAL_assembly.2 }
-		prerequisite = { focus = CAL_hector.1 }
+		prerequisite = {
+			focus = CAL_victory.1
+		}
 		
 		cost = 3
 		
@@ -3157,6 +3171,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_For_Emperor.0.t"
+			country_event = CAL_FORTHEEMPEROR.1
 		}  
 	}
 	
@@ -3167,12 +3182,13 @@
 	
 	focus = {
 		id = CAL_mewni.0
+
 		icon = GFX_goal_generic_major_alliance
-		x = 0
-		y = 2
-		relative_position_id = CAL_For_Emperor.0
-		#prerequisite = { focus = CAL_divide.0 }
-		cost = 1
+		x = 20
+		y = -3
+		relative_position_id = CAL_hector.0
+		cost = 4
+
 		
 		available_if_capitulated = yes
 		
@@ -3181,6 +3197,8 @@
 		available_if_capitulated = no
 		available = { has_global_flag  = G_FLAG_MEW_CURRENT_DAY }
 		bypass = {} 
+		
+		select_effect = { country_event = { id = CAL_CONTACT.1 days = 5} }
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_mewni.0.t"
@@ -3207,7 +3225,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = { always = no }
-		bypass = {} 
+		bypass = { has_global_flag = GLOBAL_cali_no_aid} 
 		
 		completion_reward = {
 			custom_effect_tooltip = "CAL_mewni.1.t"
@@ -3234,7 +3252,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = { has_global_flag = GLOBAL_cali_no_aid} 
 		
 		completion_reward = {
 			430 = {
@@ -3242,14 +3260,16 @@
 				remove_core_of = CAL
 				CEF = {
 					transfer_state = 430
-					load_oob = "CEF_2012"
 				}
 				CAL = {
 					puppet = CEF
 				}
 				set_province_name = { id = 1258 name = "Port Norton"}
 				hidden_effect = {
-					CEF = { give_military_access = MEW }
+					CEF = {
+						give_military_access = MEW
+						load_oob = "CEF_2012"
+					}
 					MEW = { give_military_access = CEF }
 				}
 			}
@@ -3366,6 +3386,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_magic.3.t"
+			country_event = CAL_FRITZ.1 
 			add_stability = -0.05
 			134 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes }}
 			135 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes }}
@@ -3374,7 +3395,6 @@
 			170 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes }}
 			172 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes }}
 			174 = { add_building_construction = { type = infrastructure level = 1 instant_build = yes }}
-			country_event = CAL_FRITZ.1 
 		}
 	}
 	
@@ -3443,7 +3463,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_magic.6.t"
-			country_event = CAL_FRITZ.4
+			country_event = CAL_FRITZ.5
 		}
 	}
 	
@@ -3462,7 +3482,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = { MEW = { has_war_with = LUD } }
 		bypass = {} 
 		
 		completion_reward = {	
@@ -3525,8 +3545,6 @@
 		 
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_magic.9.t"
-			add_stability = 0.10
-			add_war_support = 0.10
 		} 
 	} 
 	
@@ -3548,7 +3566,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = { has_global_flag = GLOBAL_cali_no_aid} 
 		
 		completion_reward = {
 			custom_effect_tooltip = "CAL_butterfly_aid.0.t"
@@ -3577,7 +3595,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = { NOT = { has_global_flag = GLOBAL_cali_no_aid } }
 		bypass = {} 
 		
 		completion_reward = {	
@@ -3602,7 +3620,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
+		available = { NOT = { has_global_flag = GLOBAL_cali_no_aid } }
 		bypass = {} 
 		
 		completion_reward = {	
@@ -3686,7 +3704,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = { has_global_flag = GLOBAL_cali_no_aid} 
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_butterfly_aid.5.t"
@@ -3717,7 +3735,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = { has_global_flag = GLOBAL_cali_no_aid} 
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_butterfly_aid.6.t"
@@ -3814,10 +3832,7 @@
 		x = -1
 		y = 1
 		relative_position_id = CAL_butterfly_aid.9
-		prerequisite = { 
-			focus = CAL_butterfly_aid.5 
-			focus = CAL_butterfly_aid.6 
-		}
+
 		prerequisite = { focus = CAL_butterfly_aid.8 }
 		prerequisite = { focus = CAL_butterfly_aid.9 }
 		cost = 3
@@ -3827,8 +3842,16 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		available = {}
-		bypass = {} 
+		available = { # If helping Mewni, addiitonal focuses are needed. Will bypass below otherwise
+			if = { 
+				limit =  { NOT = {has_global_flag = GLOBAL_cali_no_aid} }
+				OR = {
+					has_completed_focus = CAL_butterfly_aid.5
+					has_completed_focus = CAL_butterfly_aid.6
+				}
+			}			
+		}
+		bypass = { has_global_flag = GLOBAL_cali_no_aid} 
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_butterfly_aid.10.t"
@@ -3884,7 +3907,7 @@
 		id = CAL_victory.0
 		icon = GFX_focus_generic_monarchy_2
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = CAL_mewni.3
 		prerequisite = { focus = CAL_mewni.3 }
 		cost = 1
@@ -3920,6 +3943,8 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_victory.1.t"
+			add_stability = 0.10
+			add_war_support = 0.10
 		}
 	}
 	
@@ -3932,8 +3957,8 @@
 		icon = GFX_goal_generic_major_war
 		x = 0
 		y = 1
-		relative_position_id = CAL_victory.1
-		prerequisite = { focus = CAL_victory.1 }
+		prerequisite = { focus = CAL_For_Emperor.0 }
+		relative_position_id = CAL_For_Emperor.0
 		cost = 1
 		
 		available_if_capitulated = yes
@@ -3971,6 +3996,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_oregon_unite.1.t"
+			country_event = wus_unity_event.1
 		}
 	}
 	
@@ -4084,6 +4110,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_oregon_unite.6.t"
+			country_event = wus_unity_event.3
 		}
 	}
 	
@@ -4222,7 +4249,9 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_oregon_war.6.t"
+			declare_war_on = { target = ORE type = annex_everything }
 		}
+		will_lead_to_war_with = ORE					 
 	}
 	
 	####################################################################
@@ -4504,7 +4533,7 @@
 	focus = {
 		id = CAL_disaster.0
 		icon = GFX_goal_california
-		x = -20
+		x = 14
 		y = 0
 		relative_position_id = CAL_mewni.0
 		#prerequisite = { focus = CAL_divide.0 }

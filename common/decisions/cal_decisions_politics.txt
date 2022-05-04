@@ -413,6 +413,7 @@ CAL_catagory_NorCal_SoCal = {
 				#has_country_flag = cal_NorSo_relationship
 				#NOT = {has_country_flag = cal_California_United}
 				check_variable = { cal_pIDR < 20 }
+				has_completed_focus = CAL_start.8
 			}
         }
 		visible = { 
@@ -444,6 +445,7 @@ CAL_catagory_NorCal_SoCal = {
 				#has_country_flag = cal_NorSo_relationship
 				#NOT = {has_country_flag = cal_California_United}
 				check_variable = { cal_tIDR < 20 }
+				has_completed_focus = CAL_start.8
 			}
         }
 		visible = { 
