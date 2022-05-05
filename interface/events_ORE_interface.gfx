@@ -8,6 +8,11 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/ORE/report_event_election_GF.dds"
 	}
 	
+	spriteType = { # 
+		name = "GFX_report_event_magic_corps"
+		texturefile = "gfx/event_country_pictures/ORE/report_event_magic_corps.dds"
+	}
+	
 
 	
 	
