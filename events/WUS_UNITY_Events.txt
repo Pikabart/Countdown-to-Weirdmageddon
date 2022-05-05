@@ -221,6 +221,7 @@ country_event = { # Unification, this event handles unification
 				annex_country = { target = ORE transfer_troops = yes }
 				every_state = {  limit = { is_core_of = ORE} CAL = { add_state_core = PREV} ORE = { remove_state_core = PREV remove_state_claim = PREV } }
 				set_cosmetic_tag = WUS
+				
 			}
 		}
 		ELSE_IF = {
@@ -321,6 +322,8 @@ country_event = { # Unification, this event handles unification
 		name = wus_unity_event.3.a
 		news_event = { id = wus_unity_news.2 days = 2 }
 		country_event = { id = wus_unity_event.2 days = 10 }
+		hidden_effect = {country_event = ORE_fix_event.1}
+		create_faction = "The Western United States"
 		ai_chance = { factor = 100 }	# 100% AI choose this
 	}
 }

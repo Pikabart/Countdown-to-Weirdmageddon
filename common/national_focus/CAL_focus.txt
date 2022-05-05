@@ -2769,7 +2769,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = { ORE = {has_completed_focus = ORE_FPI.8} }
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_BIB.6.t"
@@ -2832,7 +2832,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = { ORE = {has_completed_focus = ORE_FPI.8} } 
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_hector.1.t"
@@ -3132,7 +3132,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 		available = {}
-		bypass = {} 
+		bypass = { ORE = {has_completed_focus = ORE_FPI.8} } 
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_IBI_focus.7.t"

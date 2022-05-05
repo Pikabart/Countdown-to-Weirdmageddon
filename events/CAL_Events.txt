@@ -172,6 +172,7 @@ country_event = { # California chooses Norton for Governor
 		hidden_effect = {  
 			news_event = { id = launcher_news.4 days = 1 } # Launch event to launch world news event for Earth
 			set_cosmetic_tag = IMP_CAL
+			SOC = {set_cosmetic_tag = IMP_CAL_SOC}
 		}
 		create_faction = "Imperial California Republic"
 		add_to_faction = NEV
@@ -988,37 +989,27 @@ country_event = {
 		set_faction_name = "Imperial United States"
 		set_cosmetic_tag = IMP_WUS
 		set_country_flag = cal_California_United
-		hidden_effect = {
-			annex_country = { target = NEV transfer_troops = yes }
-			every_state = {  limit = { is_core_of = NEV} CAL = { add_state_core = PREV} NEV = { remove_state_core = PREV remove_state_claim = PREV } }
-			annex_country = { target = SOC transfer_troops = yes } 	
-			every_state = {  limit = { is_core_of = SOC} CAL = { add_state_core = PREV} SOC = { remove_state_core = PREV remove_state_claim = PREV } }
-			
-			IF = { limit = { UTH = {is_in_faction_with = CAL} } annex_country = { target = UTH transfer_troops = yes } 
-			every_state = {  limit = { is_core_of = UTH} CAL = { add_state_core = PREV} UTH = { remove_state_core = PREV remove_state_claim = PREV } }
+		#hidden_effect = {
+			every_other_country = {
+				limit = {
+					AND = {
+						is_in_faction_with = CAL
+						NOT = { TAG = MEX }
+					}
+				}
+				
+				hidden_effect = {
+					CAL = {
+						annex_country = {
+							target = PREV
+							transfer_troops = yes
+						}
+					}
+				}
+
 			}
-			IF = { limit = { CRD = {is_in_faction_with = CAL} } annex_country = { target = CRD transfer_troops = yes } 
-			every_state = {  limit = { is_core_of = CRD} CAL = { add_state_core = PREV} CRD = { remove_state_core = PREV remove_state_claim = PREV } }
-			}
-			IF = { limit = { ARZ = {is_in_faction_with = CAL} } annex_country = { target = ARZ transfer_troops = yes } 			
-			every_state = {  limit = { is_core_of = ARZ} CAL = { add_state_core = PREV} ARZ = { remove_state_core = PREV remove_state_claim = PREV } }
-			}
-			IF = { limit = { NMX = {is_in_faction_with = CAL} } annex_country = { target = NMX transfer_troops = yes } 		
-			every_state = {  limit = { is_core_of = NMX} CAL = { add_state_core = PREV} NMX = { remove_state_core = PREV remove_state_claim = PREV } }
-			}
-			IF = { limit = { TEX = {is_in_faction_with = CAL} } annex_country = { target = TEX transfer_troops = yes } 	
-			every_state = {  limit = { is_core_of = TEX} CAL = { add_state_core = PREV} TEX = { remove_state_core = PREV remove_state_claim = PREV } }
-			}
-			IF = { limit = { OKL = {is_in_faction_with = CAL} } annex_country = { target = OKL transfer_troops = yes } 
-			every_state = {  limit = { is_core_of = OKL} CAL = { add_state_core = PREV} OKL = { remove_state_core = PREV remove_state_claim = PREV } }
-			}
-			IF = { limit = { LOU = {is_in_faction_with = CAL} } annex_country = { target = LOU transfer_troops = yes } 	
-			every_state = {  limit = { is_core_of = LOU} CAL = { add_state_core = PREV} LOU = { remove_state_core = PREV remove_state_claim = PREV } }
-			}
-			IF = { limit = { ARK = {is_in_faction_with = CAL} } annex_country = { target = ARK transfer_troops = yes } 	
-			every_state = {  limit = { is_core_of = ARK} CAL = { add_state_core = PREV} ARK = { remove_state_core = PREV remove_state_claim = PREV } }
-			}
-		}
+			hidden_effect = {country_event = ORE_fix_event.1}
+		#}
 		
 		ai_chance = { factor = 100 }	# 100% AI choose this
 	}

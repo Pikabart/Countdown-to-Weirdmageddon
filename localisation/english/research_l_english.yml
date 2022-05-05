@@ -167,6 +167,10 @@
  ##########################################################
  
  tech_magic_forces_check:0 "Condition: Can research $tech_magic_forces$"
+ cat_magic_spec_ops:0 "Magical Tech"
+ 
+ tech_magic_forces:0 "Magic Forces"
+ tech_magic_forces_desc:0 "Magic's potential as a weapon has made it's military application a common occurence throughout the multiverse, often being developed independently before interdimensional contact. (Unlocked through Event or National Focus)"
  
  magic_equipment_1:0 "Magic Equipment"
  magic_equipment_1_desc:0 "Magic's potential as a weapon has made it's military application a common occurence throughout the multiverse, often being developed independently before interdimensional contact. (Unlocked through Event or National Focus)"

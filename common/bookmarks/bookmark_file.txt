@@ -120,10 +120,14 @@ bookmarks = {
 			ideology = democratic
 			
 			ideas = {
-				
+				ORE_own_wings
+				ORE_true_ninth
+				ORE_northwest
 			}
 			focuses = {
-				
+				ORE_start_focus.3 
+				ORE_wicked_focus.0 
+				ORE_the_pinch.0 
 			}
 		}
 		
@@ -132,10 +136,14 @@ bookmarks = {
 			ideology = democratic
 			
 			ideas = {
-				
+				CAL_golden
+				CAL_norton
+				CAL_northwest
 			}
 			focuses = {
-				
+				CAL_start.8
+				CAL_hector.0
+				CAL_mewni.1
 			}
 		}
 		

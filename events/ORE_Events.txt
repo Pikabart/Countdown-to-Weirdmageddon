@@ -5,7 +5,6 @@
 add_namespace = ORE_START
 add_namespace = ORE_ELECTION_event
 add_namespace = ORE_TREMBLEY
-add_namespace = ORE_FPI
 add_namespace = ORE_TEXAS
 
 
@@ -192,6 +191,8 @@ country_event = { # Trembley declares Rival government
 		hidden_effect = { 
 			country_event = { id = ORE_TREMBLEY.8 days = 3 } 
 			news_event = { id = launcher_news.3 days = 1 } # Launch event to launch world news event for Earth
+			hidden_effect = {set_cosmetic_tag = ORE_TREM}
+			hidden_effect = {WAS = {set_cosmetic_tag = WAS_NEW}}
 		}
 	}
 }

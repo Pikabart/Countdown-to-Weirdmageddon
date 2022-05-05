@@ -56,18 +56,18 @@ COR = {
 #Earth
 #------------------------------------
 WAS={
-	color = rgb { 0  132  87 }
-	color_ui = rgb { 0  132  87 }
+	color = rgb { 20 101 170 }
+	color_ui = rgb { 20 101 170 }
 }
 #------------------------------------
 CAL={
-	color = rgb { 255  221  71 }
-	color_ui = rgb { 255  221  71 }
+	color = rgb { 20 101 170 }
+	color_ui = rgb { 20 101 170 }
 }
 #------------------------------------
 ORE = {
-	color = rgb { 252  156  12 }
-	color_ui = rgb { 252  156  12 }
+	color = rgb { 20 101 170 }
+	color_ui = rgb { 20 101 170 }
 }
 #------------------------------------
 SOC={ # Middle Cali
@@ -75,8 +75,8 @@ SOC={ # Middle Cali
 	color_ui = rgb { 232 228 201 }
 }
 SOC={ # Southern Cali
-	color = rgb { 204  255  153 }
-	color_ui = rgb { 204  255  153 }
+	color = rgb { 20 101 170 }
+	color_ui = rgb { 20 101 170 }
 }
 #------------------------------------
 EUS={ #Eastern US

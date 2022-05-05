@@ -18,6 +18,37 @@ color = rgb { 20 101 170 }
 color_ui = rgb { 20 101 170 }
 }
 
+IMP_CAL = { 
+color = rgb { 255  221  71 }
+color_ui = rgb { 255  221  71 }
+}
+
+IMP_WUS = { 
+color = rgb { 255  221  71 }
+color_ui = rgb { 255  221  71 }
+}
+
+IMP_CAL_SOC = { 
+color = rgb { 204  255  153 }
+color_ui = rgb { 204  255  153 }
+}
+
+ORE_TREM = { 
+color = rgb { 252  156  12 }
+color_ui = rgb { 252  156  12 }
+}
+
+FED_WUS = { 
+color = rgb { 252  156  12 }
+color_ui = rgb { 252  156  12 }
+}
+
+
+WAS_NEW={
+	color = rgb { 0  132  87 }
+	color_ui = rgb { 0  132  87 }
+}
+
 #####After Breakup of the Kingdom of Mewni
 #------------------------------------
 LUC_IND = {

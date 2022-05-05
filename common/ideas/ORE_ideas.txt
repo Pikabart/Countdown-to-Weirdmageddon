@@ -300,6 +300,37 @@ ideas = { #Entire file
 			}
 			
 		}
+		##############
+		idea_magic_will_of_beaver = {
+			picture = GFX_idea_idea_cascadia_standoff # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				command_power_gain = 0.5
+				conscription_factor = 0.01
+				special_forces_cap = 0.3
+			}
+		}
+		
+		idea_magic_cascadia = {
+			picture = GFX_idea_idea_cascadia_standoff # 
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = {
+				special_forces_out_of_supply_factor = -0.5
+				out_of_supply_factor = -0.25
+			}
+		}
+		
+		
 		
 	}
 }
