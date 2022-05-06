@@ -18,7 +18,7 @@ on_actions = {
 				every_owned_state = {
 					damage_building = {
 						type = rail_way
-						damage = 2
+						damage = 1
 					}
 				}
 			}
@@ -36,7 +36,7 @@ on_actions = {
 				country_event = { id = mys_startup.1 } # Event code is in MYS_events
 			}
 			ORE = {
-				country_event = { id = ORE_START.1 } # Event code is in ORE events
+				#country_event = { id = ORE_START.1 } # Event code is in ORE events
 			}
 		}	
 	}

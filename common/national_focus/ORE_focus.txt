@@ -115,7 +115,7 @@
 		icon = GFX_goal_oregon_trembley_eight_half
 		x = 0
 		y = 1
-		cost = 2
+		cost = 4
 		relative_position_id = ORE_start_focus.4
 		prerequisite = { focus = ORE_start_focus.4 }
 		

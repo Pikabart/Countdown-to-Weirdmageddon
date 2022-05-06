@@ -479,99 +479,99 @@
  ORE_washington_daybreak.0.t:0 "§GThe Clash of Cascadia is Inevitably§!"
  
  ORE_washington_daybreak.1:0 "Reinforce Fort Vancouver"
- ORE_washington_daybreak.1_desc:0 ""
+ ORE_washington_daybreak.1_desc:0 "The other Vancouver lays right across the river from Portland. A team is ready to take it over and reinforce it before Washington National Guards can react."
  ORE_washington_daybreak.1.t:0 ""
  
  ORE_washington_daybreak.2:0 "Giving Washington A Spanking!"
- ORE_washington_daybreak.2_desc:0 ""
+ ORE_washington_daybreak.2_desc:0 "We must secure the entire southern shores of the Snake river. The state's soft bottom is expose and its time Trembley repay the spanking he got centuries ago."
  ORE_washington_daybreak.2.t:0 ""
  
  ORE_washington_daybreak.3:0 "Force Canadian Withdrawl"
- ORE_washington_daybreak.3_desc:0 ""
+ ORE_washington_daybreak.3_desc:0 "These Elite Canadian divisions help protect and deter attack on Washington. But with pressure on Victoria, they can be made to leave Washington altogether."
  ORE_washington_daybreak.3.t:0 ""
  
  ORE_washington_daybreak.4:0 "Infiltrate Fort Teller"
- ORE_washington_daybreak.4_desc:0 ""
+ ORE_washington_daybreak.4_desc:0 "Fort Teller is the home to the American SDI. We take this, not only is Washington's leverage on nukes gone, we gain that same leverage on the rest of the US."
  ORE_washington_daybreak.4.t:0 ""
  
  ORE_washington_daybreak.5:0 "Crossing The Columbia"
- ORE_washington_daybreak.5_desc:0 ""
+ ORE_washington_daybreak.5_desc:0 "Cascadia will be united once again!"
  ORE_washington_daybreak.5.t:0 ""
  
  ######################################################################
  
  ORE_washington_twinpeak.0:0 "Nightfall In Twin Peaks"
- ORE_washington_twinpeak.0_desc:0 ""
+ ORE_washington_twinpeak.0_desc:0 "If Harold Day is gone, Washington won't have the will or leadership to keep resisiting us. An idea has been proposed on getting rid of him without dirtying our hands.\n\nBut our hearts and minds will be a very different story..."
  ORE_washington_twinpeak.0.t:0 "§YThe§! §CGreater Good§! §Ydemands§! §RCertain Evils§!"
  
  ORE_washington_twinpeak.1:0 "Undermine The UIU"
- ORE_washington_twinpeak.1_desc:0 ""
+ ORE_washington_twinpeak.1_desc:0 "UIU units sides with Day during the collapse of the US. They are the assigned teams overlooking the entitiy we are searching for in this part of Washington. Dealing with them is easy, but many internally won't be happy about this seemingly blue-on-blue attack."
  ORE_washington_twinpeak.1.t:0 ""
  
  ORE_washington_twinpeak.2:0 "Secure. Contain. Unleash!"
- ORE_washington_twinpeak.2_desc:0 ""
+ ORE_washington_twinpeak.2_desc:0 "A SCP contianment base is somewhere in the region. The SCPs they have are trivial, but they cause real, but localized damage if we unleash them."
  ORE_washington_twinpeak.2.t:0 ""
  
  ORE_washington_twinpeak.3:0 "Renting Out The Black Lodge"
- ORE_washington_twinpeak.3_desc:0 ""
- ORE_washington_twinpeak.3.t:0 ""
+ ORE_washington_twinpeak.3_desc:0 "What happened here in Twin Peaks decades ago was abit after my time in the FPI, and wasn't prominant when the country was gripped with race riots, a disasterous war, and the Secret Civil War. But this is the key to getting rid of Governor Day once and for all.\n- §1Secretary of State Andrew Chiu§! -"
+ ORE_washington_twinpeak.3.t:0 "Forgive us for what we do next."
  
  ORE_washington_twinpeak.4:0 "At Day's End"
- ORE_washington_twinpeak.4_desc:0 ""
+ ORE_washington_twinpeak.4_desc:0 "With Olympia in chaos, we sent our demand they surrender and rejoin the new Federal Government. With the new governor too weak to lead, the answer will be assured!"
  ORE_washington_twinpeak.4.t:0 ""
  
  ######################################################################
  
  ORE_spiders.0:0 "The Arachnid Scare"
- ORE_spiders.0_desc:0 ""
+ ORE_spiders.0_desc:0 "These gaint spiders are apperently well ingrained in our society. Even Cognitio Inc and the lizard people representative in our government are shocked how well they got in. Trembley must decide if he sticks to his guns and call on thier removal, or if its time we give true peace a chance?"
  ORE_spiders.0.t:0 ""
  
  ORE_spider_peace.0:0 "Peace With Spider Kind?"
- ORE_spider_peace.0_desc:0 ""
+ ORE_spider_peace.0_desc:0 "It's time we give peace a chance."
  ORE_spider_peace.0.t:0 ""
  
  ORE_spider_peace.1:0 "Substitute Nourishment"
- ORE_spider_peace.1_desc:0 ""
+ ORE_spider_peace.1_desc:0 "Spiders need living creatures to sustain themseleves. We can work on finding alternatives..."
  ORE_spider_peace.1.t:0 ""
  
  ORE_spider_peace.2:0 "Subsidize the Tourist Industry"
- ORE_spider_peace.2_desc:0 ""
+ ORE_spider_peace.2_desc:0 "A popular attraction in rural Washington is a front for the Spiders. We could promote the market to help mend relationships."
  ORE_spider_peace.2.t:0 ""
  
  ORE_spider_peace.3:0 "A Nation For All"
- ORE_spider_peace.3_desc:0 ""
+ ORE_spider_peace.3_desc:0 "America is a land for all walks of life, from lizard people form the hollow earth, to spiders in the hills of cascadia, to humans and their readiness to kill everyone else in a heartbeat. Together, this si what the True America looks like."
  ORE_spider_peace.3.t:0 ""
  
  ######################################################################
  
  ORE_spider_war.0:0 "Nothing to fear..."
- ORE_spider_war.0_desc:0 ""
+ ORE_spider_war.0_desc:0 ""We have nothing to fear... but Giant, Man-Eating Spiders!"\n\n- §1President Quentin Trembley§! -"
  ORE_spider_war.0.t:0 ""
  
  ORE_spider_war.1:0 "Burn It With Fire!"
- ORE_spider_war.1_desc:0 ""
+ ORE_spider_war.1_desc:0 "Fire, what doesn't it solve?"
  ORE_spider_war.1.t:0 ""
  
  ORE_spider_war.2:0 "Purge The Government"
- ORE_spider_war.2_desc:0 ""
+ ORE_spider_war.2_desc:0 "We are surrounded by traitors and infiltrators. We must purge them all!"
  ORE_spider_war.2.t:0 ""
  
  ORE_spider_war.3:0 "Human-Americans First"
- ORE_spider_war.3_desc:0 ""
+ ORE_spider_war.3_desc:0 "HUmanity beat them all. We claimed the surface, we claimed the world. Its time we have no more competition..."
  ORE_spider_war.3.t:0 ""
  
  ######################################################################
  
  ORE_FPI.0:0 "Crush The FPI"
- ORE_FPI.0_desc:0 ""
+ ORE_FPI.0_desc:0 "Elin is a threat to Oregon. The fact she so carelessly invaded Oregon to do her own mission will not be tolerated... Its as much my fault as hers.\n\n- §1Secretary of State Andrew Chiu§! -"
  ORE_FPI.0.t:0 ""
  
  ORE_FPI.1:0 "Slow And Steady"
- ORE_FPI.1_desc:0 ""
+ ORE_FPI.1_desc:0 "We must build up our forces. She has eleite agents and soldiers with her and they have force multipliers that can undo any advantage we have."
  ORE_FPI.1.t:0 ""
  
  ORE_FPI.2:0 "Backs To The Wall"
- ORE_FPI.2_desc:0 ""
+ ORE_FPI.2_desc:0 "With California and Hector tot he South, Elin and the FPI has no where to go. Lets make that clear to them."
  ORE_FPI.2.t:0 ""
  
  ORE_FPI.3:0 "Reclaim Klamath and Chemult"
@@ -587,21 +587,21 @@
  ORE_FPI.5.t:0 ""
  
  ORE_FPI.6:0 "Infiltrate Rosenburg"
- ORE_FPI.6_desc:0 ""
+ ORE_FPI.6_desc:0 "We need to tkake back Rosenburg before we can truely attack Medford. Launch an incursion at once!"
  ORE_FPI.6.t:0 ""
  
  ORE_FPI.7:0 "Rally On Medford"
- ORE_FPI.7_desc:0 ""
+ ORE_FPI.7_desc:0 "With a quick pincer from Klamath Falls and Rosenburg, Medford and the Grant Pass will be ours in short order."
  ORE_FPI.7.t:0 ""
   
  ORE_FPI.8:0 "The Facts Among Truths"
- ORE_FPI.8_desc:0 ""
+ ORE_FPI.8_desc:0 "I hope Elin got she was looking for. She'll be paying a heavy price for it."
  ORE_FPI.8.t:0 ""
  
  ######################################################################
  
  ORE_onward_focus.0:0 "The True Interdimensional Superpower"
- ORE_onward_focus.0_desc:0 ""
+ ORE_onward_focus.0_desc:0 "America under Trembley has emerged as a true power in the West. no one though Oregon could be where America comes back, but with Thrembley and the American People, we shall march on the East today. Then the Multiverse tomorrow!"
  ORE_onward_focus.0.t:0 ""
  
  ORE_onward_focus.1:0 "Opening New Diplomatic Ties"
@@ -639,7 +639,7 @@
  ######################################################################
  
  ORE_cali_peace.1:0 "Peace In The West"
- ORE_cali_peace.1_desc:0 ""
+ ORE_cali_peace.1_desc:0 "With the new threats America faces, it makes no sense to go into a cold war with California. We need all of America if we are to win!"
  ORE_cali_peace.1.t:0 ""
  
  ORE_cali_peace.2:0 "Croaking Echoes"
@@ -659,7 +659,7 @@
  ORE_cali_peace.5.t:0 ""
  
  ORE_cali_peace.6:0 "Reach Out To Victoria"
- ORE_cali_peace.6_desc:0 ""
+ ORE_cali_peace.6_desc:0 "We're off to Victoria to finalize the new treaty. America is closer than ever to full restoration!"
  ORE_cali_peace.6.t:0 ""
  
  ######################################################################
