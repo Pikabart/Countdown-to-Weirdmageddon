@@ -205,12 +205,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_war_support = 0.1
-			add_doctrine_cost_reduction = {
-				name = land_doc_bonus
-				cost_reduction = 0.1
-				uses = 25
-				category = land_doctrine
-			}
 			add_ideas = modern_warfare_generic_warlord
 		}
 		

@@ -8,5 +8,9 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/ALL/report_event_CTW.dds"
 	}
 	
+	spriteType = { # Nothing, clear, empty
+		name = "GFX_report_event_empty"
+		texturefile = "gfx/event_country_pictures/ALL/report_event_empty.dds"
+	}
 	
 }

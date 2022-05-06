@@ -14,7 +14,7 @@ country_event = {
 	id = TSR_flavor.1
 	title = TSR_flavor.1.t
 	desc = TSR_flavor.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
