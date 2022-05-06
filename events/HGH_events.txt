@@ -9,7 +9,7 @@ country_event = {
 	id = HGH_flavor.1
 	title = HGH_flavor.1.t
 	desc = HGH_flavor.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -23,7 +23,7 @@ country_event = {
 	id = HGH_change_focus_tree.1
 	title = HGH_change_focus_tree.1.t
 	desc = HGH_change_focus_tree.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -50,7 +50,7 @@ country_event = {
 	id = HGH_change_focus_tree.2
 	title = HGH_change_focus_tree.2.t
 	desc = HGH_change_focus_tree.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -71,7 +71,7 @@ country_event = {
 	id = HGH_change_focus_tree.3
 	title = HGH_change_focus_tree.3.t
 	desc = HGH_change_focus_tree.3.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	

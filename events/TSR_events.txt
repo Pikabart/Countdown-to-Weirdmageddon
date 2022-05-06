@@ -27,7 +27,7 @@ country_event = {
 	id = TSR_flavor.2
 	title = TSR_flavor.2.t
 	desc = TSR_flavor.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -42,7 +42,7 @@ country_event = {
 	id = TSR_flavor.3
 	title = TSR_flavor.3.t
 	desc = TSR_flavor.3.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -58,7 +58,7 @@ country_event = {
 	id = TSR_flavor.4
 	title = TSR_flavor.4.t
 	desc = TSR_flavor.4.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -73,7 +73,7 @@ country_event = {
 	id = TSR_flavor.5
 	title = TSR_flavor.5.t
 	desc = TSR_flavor.5.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -87,7 +87,7 @@ country_event = {
 	id = TSR_flavor.6
 	title = TSR_flavor.6.t
 	desc = TSR_flavor.6.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -101,7 +101,7 @@ country_event = {
 	id = TSR_flavor.7
 	title = TSR_flavor.7.t
 	desc = TSR_flavor.7.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -115,7 +115,7 @@ country_event = {
 	id = TSR_flavor.8
 	title = TSR_flavor.4.t
 	desc = TSR_flavor.4.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -129,7 +129,7 @@ country_event = {
 	id = TSR_flavor.9
 	title = TSR_flavor.9.t
 	desc = TSR_flavor.9.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -143,7 +143,7 @@ country_event = {
 	id = TSR_flavor.10
 	title = TSR_flavor.10.t
 	desc = TSR_flavor.10.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -157,7 +157,7 @@ country_event = {
 	id = TSR_flavor.11
 	title = TSR_flavor.11.t
 	desc = TSR_flavor.11.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -171,7 +171,7 @@ country_event = {
 	id = TSR_flavor.12
 	title = TSR_flavor.12.t
 	desc = TSR_flavor.12.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -185,7 +185,7 @@ country_event = {
 	id = TSR_flavor.13
 	title = TSR_flavor.13.t
 	desc = TSR_flavor.13.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -202,7 +202,7 @@ country_event = {
 	id = TSR_mewman_advisors_event.1
 	title = TSR_mewman_advisors_event.1.t
 	desc = TSR_mewman_advisors_event.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -231,7 +231,7 @@ country_event = {
 	id = TSR_change_focus_tree.1
 	title = TSR_change_focus_tree.1.t
 	desc = TSR_change_focus_tree.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -252,7 +252,7 @@ country_event = {
 	id = TSR_change_focus_tree.2
 	title = TSR_change_focus_tree.2.t
 	desc = TSR_change_focus_tree.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -273,7 +273,7 @@ country_event = {
 	id = TSR_change_focus_tree.3
 	title = TSR_change_focus_tree.3.t
 	desc = TSR_change_focus_tree.3.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -295,7 +295,7 @@ country_event = {
 	id = TSR_change_focus_tree_lamp.1
 	title = TSR_change_focus_tree_lamp.1.t
 	desc = TSR_change_focus_tree_lamp.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -317,7 +317,7 @@ country_event = {
 	id = TSR_change_focus_tree_lamp.2
 	title = TSR_change_focus_tree_lamp.2.t
 	desc = TSR_change_focus_tree_lamp.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -348,7 +348,7 @@ country_event = {
 	id = TSR_change_focus_tree_queen.1
 	title = TSR_change_focus_tree_queen.1.t
 	desc = TSR_change_focus_tree_queen.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -370,7 +370,7 @@ country_event = {
 	id = TSR_change_focus_tree_queen.2
 	title = TSR_change_focus_tree_queen.2.t
 	desc = TSR_change_focus_tree_queen.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -401,7 +401,7 @@ country_event = {
 	id = TSR_change_focus_tree_military.1
 	title = TSR_change_focus_tree_military.1.t
 	desc = TSR_change_focus_tree_military.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -423,7 +423,7 @@ country_event = {
 	id = TSR_change_focus_tree_military.2
 	title = TSR_change_focus_tree_military.2.t
 	desc = TSR_change_focus_tree_military.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -455,7 +455,7 @@ country_event = {
 	id = TSR_steal_horse_neighbor.1
 	title = TSR_steal_horse_neighbor.1.t
 	desc = TSR_steal_horse_neighbor.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -469,7 +469,7 @@ country_event = {
 	id = TSR_steal_horse_neighbor.2
 	title = TSR_steal_horse_neighbor.2.t
 	desc = TSR_steal_horse_neighbor.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -483,7 +483,7 @@ country_event = {
 	id = TSR_steal_horse_neighbor.3
 	title = TSR_steal_horse_neighbor.3.t
 	desc = TSR_steal_horse_neighbor.3.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	

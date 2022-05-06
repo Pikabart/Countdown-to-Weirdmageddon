@@ -12,7 +12,7 @@ country_event = {
 	id = ORE_START.1
 	title = ORE_START.1.t
 	desc = ORE_START.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -26,7 +26,7 @@ country_event = {
 	id = ORE_START.2
 	title = ORE_START.2.t
 	desc = ORE_START.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -57,7 +57,7 @@ country_event = { # Trembley shows up
 	id = ORE_TREMBLEY.1
 	title = ORE_TREMBLEY.1.t
 	desc = ORE_TREMBLEY.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -94,7 +94,7 @@ country_event = { #Interviewing Trembley
 	id = ORE_TREMBLEY.2
 	title = ORE_TREMBLEY.2.t
 	desc = ORE_TREMBLEY.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -110,7 +110,7 @@ country_event = { # Onyx meets Shroud - ORE POV
 	id = ORE_TREMBLEY.3
 	title = ORE_TREMBLEY.3.t
 	desc = ORE_TREMBLEY.3.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -125,7 +125,7 @@ country_event = { #Colonel Northwest and Secretary Chiu
 	id = ORE_TREMBLEY.4
 	title = ORE_TREMBLEY.4.t
 	desc = ORE_TREMBLEY.4.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -140,7 +140,7 @@ country_event = { #Onyx Descision
 	id = ORE_TREMBLEY.5
 	title = ORE_TREMBLEY.5.t
 	desc = ORE_TREMBLEY.5.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -162,7 +162,7 @@ country_event = { # Trembley declares Rival government
 	id = ORE_TREMBLEY.6
 	title = ORE_TREMBLEY.6.t
 	desc = ORE_TREMBLEY.6.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -201,7 +201,7 @@ country_event = { #Onyx gives Trembley up
 	id = ORE_TREMBLEY.7
 	title = ORE_TREMBLEY.7.t
 	desc = ORE_TREMBLEY.7.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -216,7 +216,7 @@ country_event = { #border wars
 	id = ORE_TREMBLEY.8
 	title = ORE_TREMBLEY.8.t
 	desc = ORE_TREMBLEY.8.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -236,7 +236,7 @@ country_event = {
 	id = ORE_TEXAS.1
 	title = ORE_TEXAS.1.t
 	desc = ORE_TEXAS.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -282,7 +282,7 @@ country_event = {
 	id = ORE_TEXAS.2
 	title = ORE_TEXAS.2.t
 	desc = ORE_TEXAS.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	

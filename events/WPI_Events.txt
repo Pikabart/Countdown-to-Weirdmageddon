@@ -9,7 +9,7 @@ country_event = { # Closing in on Trembley
 	id = WPI_TREMBLEY.1
 	title = WPI_TREMBLEY.1.t
 	desc = WPI_TREMBLEY.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -30,7 +30,7 @@ country_event = { #Investigating Trembley
 	id = WPI_TREMBLEY.2
 	title = WPI_TREMBLEY.2.t
 	desc = WPI_TREMBLEY.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -45,7 +45,7 @@ country_event = { # Onyx meets Shroud - FPI POV
 	id = WPI_TREMBLEY.3
 	title = WPI_TREMBLEY.3.t
 	desc = WPI_TREMBLEY.3.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -61,7 +61,7 @@ country_event = { # Trembley declares Rival government
 	id = WPI_TREMBLEY.4
 	title = WPI_TREMBLEY.4.t
 	desc = WPI_TREMBLEY.4.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -78,7 +78,7 @@ country_event = { #Onyx gives Trembley up
 	id = WPI_TREMBLEY.5
 	title = WPI_TREMBLEY.5.t
 	desc = WPI_TREMBLEY.5.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -94,7 +94,7 @@ country_event = { #Bunker down
 	id = WPI_TREMBLEY.6
 	title = WPI_TREMBLEY.6.t
 	desc = WPI_TREMBLEY.6.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -138,7 +138,7 @@ country_event = { # WFPI Leaves
 	id = WPI_TREMBLEY.7
 	title = WPI_TREMBLEY.7.t
 	desc = WPI_TREMBLEY.7.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	

@@ -16,7 +16,7 @@ country_event = {
 	id = CAL_TWOWORLDS.1
 	title = CAL_TWOWORLDS.1.t
 	desc = CAL_TWOWORLDS.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -393,7 +393,7 @@ country_event = { # Is DEFUNCT
 	title = CAL_IPD.1.t
 	desc = CAL_IPD.1.d
 	
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_empty
 
 	is_triggered_only = yes
 

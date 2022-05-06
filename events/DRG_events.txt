@@ -5,7 +5,7 @@ country_event = {
 	id = DRG_change_tree.1
 	title = DRG_change_tree.1.t
 	desc = DRG_change_tree.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	

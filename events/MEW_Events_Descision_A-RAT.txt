@@ -10,7 +10,7 @@ country_event = {
 	id = A-RAT_mobilize.1
 	title = A-RAT_mobilize.1.t
 	desc = A-RAT_mobilize.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -35,7 +35,7 @@ country_event = {
 		text = A-RAT_parade.1.d_3
 		trigger = { has_country_flag = A-RAT_parade_outcome_3 }
 	}
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -82,7 +82,7 @@ country_event = {
 		text = A-RAT_recruitment.1.d_3
 		trigger = { has_country_flag = A-RAT_parade_outcome_3 }
 	}
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -124,7 +124,7 @@ country_event = {
 		text = A-RAT_operation.1.d_3
 		trigger = { has_country_flag = A-RAT_operation_1_outcome_3 }
 	}
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -176,7 +176,7 @@ country_event = {
 		text = A-RAT_operation.2.d_3
 		trigger = { has_country_flag = A-RAT_operation_2_outcome_3 }
 	}
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -227,7 +227,7 @@ country_event = {
 		text = A-RAT_magic_operation.1.d_3
 		trigger = { has_country_flag = A-RAT_magic_operation_outcome_3 }
 	}
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -282,7 +282,7 @@ country_event = {
 	id = REC_mobilize.1
 	title = REC_mobilize.1.t
 	desc = REC_mobilize.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -296,7 +296,7 @@ country_event = {
 	id = REC_investment.1
 	title = REC_investment.1.t
 	desc = REC_investment.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -322,7 +322,7 @@ country_event = {
 		text = REC_bounty.1.d_3
 		trigger = { has_country_flag = REC_bounty_outcome_3 }
 	}
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -370,7 +370,7 @@ country_event = {
 		text = REC_pamphlet.1.d_3
 		trigger = { has_country_flag = REC_pamphlet_outcome_3 }
 	}
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -414,7 +414,7 @@ country_event = {
 		text = REC_NWB.1.d_2
 		trigger = { has_country_flag = REC_NWB_bad }
 	}
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	

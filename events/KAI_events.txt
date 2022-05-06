@@ -11,7 +11,7 @@ country_event = {
 	id = KAI_change_focus_tree.1 # focus change when entering pre-uni stage
 	title = KAI_change_focus_tree.1.t
 	desc = KAI_change_focus_tree.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -35,7 +35,7 @@ country_event = {
 	id = KAI_change_focus_tree.2 # focus change if junta wins
 	title = KAI_change_focus_tree.2.t
 	desc = KAI_change_focus_tree.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -54,7 +54,7 @@ country_event = {
 	id = KAI_change_focus_tree.3 # focus change if prince wins
 	title = KAI_change_focus_tree.3.t
 	desc = KAI_change_focus_tree.3.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -74,7 +74,7 @@ country_event = {
 	id = KAI_TSR_steal_horse_neighbor.1
 	title = KAI_TSR_steal_horse_neighbor.1.t
 	desc = KAI_TSR_steal_horse_neighbor.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -88,7 +88,7 @@ country_event = {
 	id = KAI_TSR_steal_horse_neighbor.2
 	title = KAI_TSR_steal_horse_neighbor.2.t
 	desc = KAI_TSR_steal_horse_neighbor.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -102,7 +102,7 @@ country_event = {
 	id = KAI_TSR_steal_horse_neighbor.3
 	title = KAI_TSR_steal_horse_neighbor.3.t
 	desc = KAI_TSR_steal_horse_neighbor.3.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -117,7 +117,7 @@ country_event = {
 	id = KAI_friends.1 # event about Prince planning with Manfred to bring friends to him
 	title = KAI_friends.1.t
 	desc = KAI_friends.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -131,7 +131,7 @@ country_event = {
 	id = KAI_friends.2 # introduction event for friends
 	title = KAI_friends.2.t
 	desc = KAI_friends.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -159,7 +159,7 @@ country_event = {
 	id = KAI_friends.3 # karol introduction
 	title = KAI_friends.3.t
 	desc = KAI_friends.3.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -180,7 +180,7 @@ country_event = {
 	id = KAI_friends.4 # prince visits the tournament grounds, publicly humiliates self
 	title = KAI_friends.4.t
 	desc = KAI_friends.4.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -257,7 +257,7 @@ country_event = {
 	id = KAI_friends.5 # karol luke and will in the armory
 	title = KAI_friends.5.t
 	desc = KAI_friends.5.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -283,7 +283,7 @@ country_event = {
 	id = KAI_friends.6 # karol maggie and will in the stables
 	title = KAI_friends.6.t
 	desc = KAI_friends.6.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -309,7 +309,7 @@ country_event = {
 	id = KAI_friends.7 # karol and will decide to duel
 	title = KAI_friends.7.t
 	desc = KAI_friends.7.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -328,7 +328,7 @@ country_event = {
 	id = KAI_friends.8 # the duel begins
 	title = KAI_friends.8.t
 	desc = KAI_friends.8.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -349,7 +349,7 @@ country_event = {
 	id = KAI_friends.9 # will loses
 	title = KAI_friends.9.t
 	desc = KAI_friends.9.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -429,7 +429,7 @@ country_event = {
 	id = KAI_friends.10 # karol gets really hurt
 	title = KAI_friends.10.t
 	desc = KAI_friends.10.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -456,7 +456,7 @@ country_event = {
 	id = KAI_friends.11 # will is ashamed of his weakness
 	title = KAI_friends.11.t
 	desc = KAI_friends.11.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -470,7 +470,7 @@ country_event = {
 	id = KAI_friends.12 # will confides in karol
 	title = KAI_friends.12.t
 	desc = KAI_friends.12.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -546,7 +546,7 @@ country_event = {
 	id = KAI_friends.13 # karol promises to support will
 	title = KAI_friends.13.t
 	desc = KAI_friends.13.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -629,7 +629,7 @@ country_event = {
 	id = KAI_friends.14 # karol is hospitalized
 	title = KAI_friends.14.t
 	desc = KAI_friends.14.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -643,7 +643,7 @@ country_event = {
 	id = KAI_friends.15 # will helps karol recover
 	title = KAI_friends.15.t
 	desc = KAI_friends.15.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -664,7 +664,7 @@ country_event = {
 	id = KAI_friends.16 # karols wings recover
 	title = KAI_friends.16.t
 	desc = KAI_friends.16.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -747,7 +747,7 @@ country_event = {
 	id = KAI_friends.17 # will flies for the first time
 	title = KAI_friends.17.t
 	desc = KAI_friends.17.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -774,7 +774,7 @@ country_event = {
 	id = KAI_friends.18 # lukas introduction
 	title = KAI_friends.18.t
 	desc = KAI_friends.18.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -795,7 +795,7 @@ country_event = {
 	id = KAI_friends.19 # lukas and will explore the throneroom
 	title = KAI_friends.19.t
 	desc = KAI_friends.19.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -831,7 +831,7 @@ country_event = {
 	id = KAI_friends.20 # will holds court for the first time
 	title = KAI_friends.20.t
 	desc = KAI_friends.20.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -914,7 +914,7 @@ country_event = {
 	id = KAI_friends.21 # will has a panic attack
 	title = KAI_friends.21.t
 	desc = KAI_friends.21.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -990,7 +990,7 @@ country_event = {
 	id = KAI_friends.22 # luke is a good friend
 	title = KAI_friends.22.t
 	desc = KAI_friends.22.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -1073,7 +1073,7 @@ country_event = {
 	id = KAI_friends.23 # lukas support will in the budget meeting with cleverness
 	title = KAI_friends.23.t
 	desc = KAI_friends.23.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -1094,7 +1094,7 @@ country_event = {
 	id = KAI_friends.24 # lukas brings karol and maggie to make plans to support will
 	title = KAI_friends.24.t
 	desc = KAI_friends.24.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -1187,7 +1187,7 @@ country_event = {
 	id = KAI_friends.25 # maggie introduction
 	title = KAI_friends.25.t
 	desc = KAI_friends.25.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -1208,7 +1208,7 @@ country_event = {
 	id = KAI_friends.26 # maggie introduction
 	title = KAI_friends.26.t
 	desc = KAI_friends.26.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -1230,7 +1230,7 @@ country_event = {
 	id = KAI_friends.27 # maggie luke and will in the planetarium
 	title = KAI_friends.27.t
 	desc = KAI_friends.27.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -1256,7 +1256,7 @@ country_event = {
 	id = KAI_friends.28 # maggie karol and will play warhammer
 	title = KAI_friends.28.t
 	desc = KAI_friends.28.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -1282,7 +1282,7 @@ country_event = {
 	id = KAI_friends.29 # maggie finds a secret tome of witchcraft
 	title = KAI_friends.29.t
 	desc = KAI_friends.29.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -1296,7 +1296,7 @@ country_event = {
 	id = KAI_friends.30 # lightning in a bottle, maggie casts a spell
 	title = KAI_friends.30.t
 	desc = KAI_friends.30.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -1383,7 +1383,7 @@ country_event = {
 	id = KAI_friends.31 # magic fun times
 	title = KAI_friends.31.t
 	desc = KAI_friends.31.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -1404,7 +1404,7 @@ country_event = {
 	id = KAI_friends.32 # horizons edge, Möller finds the study
 	title = KAI_friends.32.t
 	desc = KAI_friends.32.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	

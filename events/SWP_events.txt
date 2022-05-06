@@ -12,7 +12,7 @@ country_event = {
 	id = SWP_flavor.1
 	title = SWP_flavor.1.t
 	desc = SWP_flavor.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -26,7 +26,7 @@ country_event = {
 	id = SWP_flavor.2
 	title = SWP_flavor.2.t
 	desc = SWP_flavor.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -41,7 +41,7 @@ country_event = {
 	id = SWP_change_focus.1
 	title = SWP_change_focus.1.t
 	desc = SWP_change_focus.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -62,7 +62,7 @@ country_event = {
 	id = SWP_election.1
 	title = SWP_election.1.t
 	desc = SWP_election.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -152,7 +152,7 @@ country_event = {
 	id = SWP_mewman_road_project.1
 	title = SWP_mewman_road_project.1.t
 	desc = SWP_mewman_road_project.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -187,7 +187,7 @@ country_event = {
 	id = SWP_mewman_road_project_rejection.1
 	title = SWP_mewman_road_project_rejection.1.t
 	desc = SWP_mewman_road_project_rejection.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	

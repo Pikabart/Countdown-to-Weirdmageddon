@@ -267,7 +267,7 @@ country_event = {
 	id = corn_theft_ludo.1
 	title = corn_theft_ludo.1.t
 	desc = corn_theft_ludo.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -1237,7 +1237,7 @@ country_event = {
 		id = jaggy_collapse.1
 		title = jaggy_collapse.1.t
 		desc = jaggy_collapse.1.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_empty
 	
 		is_triggered_only = yes
 	
@@ -1333,7 +1333,7 @@ country_event = {
 		id = trade_ports.2
 		title = trade_ports.2.t
 		desc = trade_ports.2.d
-		picture = GFX_report_event_chinese_soldiers_fighting
+		picture = GFX_report_event_empty
 	
 		is_triggered_only = yes
 	

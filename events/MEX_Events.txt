@@ -11,7 +11,7 @@ country_event = {
 	id = MEX_START.1
 	title = MEX_START.1.t
 	desc = MEX_START.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -25,7 +25,7 @@ country_event = {
 	id = MEX_DRUMPF.1
 	title = MEX_DRUMPF.1.t
 	desc = MEX_DRUMPF.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -40,7 +40,7 @@ country_event = {
 	id = MEX_DRUMPF.2
 	title = MEX_DRUMPF.2.t
 	desc = MEX_DRUMPF.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -76,7 +76,7 @@ country_event = {
 	id = MEX_DRUMPF.3
 	title = MEX_DRUMPF.3.t
 	desc = MEX_DRUMPF.3.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	immediate = { 
 		hidden_effect={
@@ -108,7 +108,7 @@ country_event = {
 	id = MEX_DRUMPF.4
 	title = MEX_DRUMPF.4.t
 	desc = MEX_DRUMPF.4.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	immediate = { 
 		hidden_effect={
@@ -135,7 +135,7 @@ country_event = {
 	id = MEX_DRUMPF.5
 	title = MEX_DRUMPF.5.t
 	desc = MEX_DRUMPF.5.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	immediate = {
 		hidden_effect = {
@@ -156,7 +156,7 @@ country_event = {
 	id = MEX_DRUMPF.6
 	title = MEX_DRUMPF.6.t
 	desc = MEX_DRUMPF.6.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	immediate = {
 		hidden_effect = {
@@ -198,7 +198,7 @@ country_event = {
 	id = WALL.1
 	title = WALL.1.t
 	desc = WALL.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	timeout_days = 1
@@ -466,7 +466,7 @@ country_event = {  # US GETS THIS EVENT!
 	id = WALL.2
 	title = WALL.2.t
 	desc = WALL.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	immediate = { 
 		

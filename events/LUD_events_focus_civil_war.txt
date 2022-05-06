@@ -11,7 +11,7 @@ country_event = {
 	id = uneasy_peace_lud.1
 	title = uneasy_peace.1.t
 	desc = uneasy_peace.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -27,7 +27,7 @@ country_event = {
 	id = lud_focus_tree.1
 	title = lud_focus_tree.1.t
 	desc = lud_focus_tree.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -46,7 +46,7 @@ country_event = {
 	id = lud_spi_alliance_rejected.1
 	title = lud_spi_alliance_rejected.1.t
 	desc = lud_spi_alliance_rejected.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -61,7 +61,7 @@ country_event = {
 	id = lud_spi_alliance_accepted.1
 	title = lud_spi_alliance_accepted.1.t
 	desc = lud_spi_alliance_accepted.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
