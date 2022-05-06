@@ -8,7 +8,7 @@ country_event = {
 	id = spi_lud_alliance_proposal.1
 	title = spi_lud_alliance_proposal.1.t
 	desc = spi_lud_alliance_proposal.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	

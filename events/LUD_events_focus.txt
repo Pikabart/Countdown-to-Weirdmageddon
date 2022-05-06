@@ -10,7 +10,7 @@ country_event = {
 	id = lud_start.1
 	title = lud_start.1.t
 	desc = lud_start.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -25,7 +25,7 @@ country_event = {
 	id = lud_end.1
 	title = lud_end.1.t
 	desc = lud_end.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -40,7 +40,7 @@ country_event = {
 	id = toffee_end.1
 	title = toffee_end.1.t
 	desc = toffee_end.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	

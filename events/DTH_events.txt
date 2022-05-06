@@ -9,7 +9,7 @@ country_event = {
 	id = DTH_flavor.1
 	title = DTH_flavor.1.t
 	desc = DTH_flavor.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -23,7 +23,7 @@ country_event = {
 	id = DTH_flavor.2
 	title = DTH_flavor.2.t
 	desc = DTH_flavor.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -38,7 +38,7 @@ country_event = {
 	id = DTH_flavor.3
 	title = DTH_flavor.3.t
 	desc = DTH_flavor.3.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -63,7 +63,7 @@ country_event = {
 	id = DTH_flavor.4
 	title = DTH_flavor.4.t
 	desc = DTH_flavor.4.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -90,7 +90,7 @@ country_event = {
 	id = DTH_flavor.5
 	title = DTH_flavor.5.t
 	desc = DTH_flavor.5.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -115,7 +115,7 @@ country_event = {
 	id = DTH_flavor.6
 	title = DTH_flavor.6.t
 	desc = DTH_flavor.6.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -143,7 +143,7 @@ country_event = {
 	id = DTH_flavor.7
 	title = DTH_flavor.7.t
 	desc = DTH_flavor.7.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -158,7 +158,7 @@ country_event = {
 	id = DTH_flavor.8
 	title = DTH_flavor.8.t
 	desc = DTH_flavor.8.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -172,7 +172,7 @@ country_event = {
 	id = DTH_change_tree.1
 	title = DTH_change_tree.1.t
 	desc = DTH_change_tree.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	

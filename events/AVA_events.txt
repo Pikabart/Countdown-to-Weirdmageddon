@@ -9,7 +9,7 @@ country_event = {
 	id = AVA_flavor.1
 	title = AVA_flavor.1.t
 	desc = AVA_flavor.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -23,7 +23,7 @@ country_event = {
 	id = AVA_flavor.2
 	title = AVA_flavor.2.t
 	desc = AVA_flavor.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -37,7 +37,7 @@ country_event = {
 	id = AVA_change_tree.1
 	title = AVA_change_tree.1.t
 	desc = AVA_change_tree.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	

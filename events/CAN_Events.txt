@@ -12,7 +12,7 @@ country_event = {
 	id = CAN_START.1
 	title = CAN_START.1.t
 	desc = CAN_START.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -27,7 +27,7 @@ country_event = { # Swap Out Focus Tree for Generic, for now, and kefuffle the r
 	id = CAN_kerfuffle.1
 	title = CAN_kerfuffle.1.t
 	desc = CAN_kerfuffle.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -52,7 +52,7 @@ country_event = { # Exile Canandian Army
 	id = CAN_kerfuffle.2
 	title = CAN_kerfuffle.2.t
 	desc = CAN_kerfuffle.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	fire_only_once = yes
@@ -126,7 +126,7 @@ country_event = {  # All alone
 	id = CAN_alone.1
 	title = CAN_alone.1.t
 	desc = CAN_alone.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	fire_only_once = yes

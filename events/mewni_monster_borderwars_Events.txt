@@ -11,7 +11,7 @@ country_event = {
 	id = border_war_test.1
 	title = border_war_test.1.t
 	desc = border_war_test.1.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -43,7 +43,7 @@ country_event = {
 	id = border_war_test.2
 	title = border_war_test.2.t
 	desc = border_war_test.2.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -57,7 +57,7 @@ country_event = {
 	id = border_war_test.3
 	title = border_war_test.3.t
 	desc = border_war_test.3.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
@@ -71,7 +71,7 @@ country_event = {
 	id = border_war_test.4
 	title = border_war_test.4.t
 	desc = border_war_test.4.d
-	picture = GFX_report_event_chinese_soldiers_fighting
+	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	

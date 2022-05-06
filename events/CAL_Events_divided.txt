@@ -12,7 +12,7 @@ country_event = { # California Progressive civil war
 	title = CAL_civil_war_events.1.t
 	desc = CAL_civil_war_events.1.d
 	
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_empty
 
 	is_triggered_only = yes
 
@@ -41,7 +41,7 @@ country_event = { # California Traditional civil war
 	title = CAL_civil_war_events.2.t
 	desc = CAL_civil_war_events.2.d
 	
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_empty
 
 	is_triggered_only = yes
 
@@ -70,7 +70,7 @@ country_event = { # California Nor/So civil war
 	title = CAL_civil_war_events.3.t
 	desc = CAL_civil_war_events.3.d
 	
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_empty
 
 	is_triggered_only = yes
 
@@ -114,7 +114,7 @@ country_event = { # California reunited
 	title = CAL_united.1.t
 	desc = CAL_united.1.d
 	
-	picture = GFX_report_event_generic_factory
+	picture = GFX_report_event_empty
 
 	is_triggered_only = yes
 
