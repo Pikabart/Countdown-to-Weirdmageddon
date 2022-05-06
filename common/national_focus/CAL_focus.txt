@@ -2028,7 +2028,7 @@
 	
 	focus = {
 		id = CAL_pacific.1
-		icon = GFX_focus_generic_little_entente
+		icon = GFX_goal_california_emily
 		x = -1
 		y = 1
 		relative_position_id = CAL_pacific.0
@@ -3145,7 +3145,7 @@
 	
 	focus = {
 		id = CAL_For_Emperor.0
-		icon = GFX_focus_eng_imperial_federation
+		icon = GFX_goal_american_emperor
 		x = 0
 		y = 5
 		relative_position_id = CAL_assembly.1
@@ -3202,6 +3202,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_mewni.0.t"
+			hidden_effect = {country_event = { id = CAL_Witcher_Event.1 days = 30}}
 		}
 		
 		ai_will_do = {
@@ -4276,6 +4277,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_norton_mind.0.t"
+			country_event = CAL_norton_mind_event.1
 		}
 	}
 	
@@ -4298,6 +4300,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_norton_mind.1.t"
+			country_event = CAL_norton_mind_event.2
 		}
 	}
 	
@@ -4320,6 +4323,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "CAL_norton_mind.2.t"
+			country_event = CAL_norton_mind_event.3
 		}
 	}
 	

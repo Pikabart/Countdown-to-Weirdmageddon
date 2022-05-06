@@ -180,6 +180,11 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/CAL/focus_california_northwest.dds"			
 	}
 	
+	SpriteType = {
+	name = "GFX_goal_california_emily"
+	texturefile = "gfx/interface/goals/CAL/focus_cal_emily.dds"			
+	}
+	
 	#################
 	
 	SpriteType = {
@@ -208,6 +213,11 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_goal_california_and_mewni"
 	texturefile = "gfx/interface/goals/CAL/focus_california_and_mewni.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_american_emperor"
+	texturefile = "gfx/interface/goals/CAL/focus_california_american_emperor.dds"			
 	}
 	
 	SpriteType = {

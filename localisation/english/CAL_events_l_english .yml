@@ -19,11 +19,11 @@
  
  ######################################################
  #2
- CAL_TREMBLEY.1.t:0 "The Cascadian Standoff!\nPart 1"
- CAL_TREMBLEY.1.d:0 "Weird stuff going on up there"
- CAL_TREMBLEY.1.a:0 "Rush troops in, we must protect Northern California!"
+ CAL_TREMBLEY.1.t:0 "The Cascadian Kerfuffle"
+ CAL_TREMBLEY.1.d:0 "We're getting word of some unnusual events up north near the oregon border. With Green visiting Portland, we need to make sure whatever is happening won't endanger the Governor! Already, the Liuentenant Governor has taken lead, oddly more concern about the mysterious figuers lurking near Medford, Oregon."
+ CAL_TREMBLEY.1.a:0 "Double northern patrols!"
  
- CAL_TREMBLEY.2.t:0 "The Cascadian Standoff!\nPart 2"
+ CAL_TREMBLEY.2.t:0 "The Cascadian Standoff!"
  CAL_TREMBLEY.2.d:0 "We're getting word that Federal Government agents are appearing in Southern Oregon and are taking control of key government and military posts! Already, we saw movement of the Oregon National Guard to counter them and we now fear fighting might break out. If this agency that we have learned is known as the Federal Paranormal Investigations continues to expand its occupation, they might spill into California and we could suddenly face a full war!"
  CAL_TREMBLEY.2.a:0 "Rush troops in, we must protect Northern California!"
  
