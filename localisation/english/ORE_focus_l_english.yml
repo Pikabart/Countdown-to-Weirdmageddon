@@ -84,19 +84,19 @@
  ######################################################################
  
  ORE_trembley_pants.1:0 "Mental Pants"
- ORE_trembley_pants.1_desc:0 ""
+ ORE_trembley_pants.1_desc:0 "Trembley is a symbol for our nation. But we cannot allow his insanity to influence our government. Its time to force pants on this man, both metaphorically... and literally as well."
  ORE_trembley_pants.1.t:0 ""
  
  ORE_trembley_pants.2:0 "Stack The Court"
- ORE_trembley_pants.2_desc:0 ""
- ORE_trembley_pants.2.t:0 ""
+ ORE_trembley_pants.2_desc:0 "As we guide Trembley, we will meet fierce resistance from those who will try to stop us. But if we were to ensure two branches of government are on our side, then this won't be a problem."
+ ORE_trembley_pants.2.t:0 "The man got five babies onto the Surpreme Court. How hard can this be?"
  
  ORE_trembley_pants.3:0 "Counter-Concussion"
- ORE_trembley_pants.3_desc:0 ""
+ ORE_trembley_pants.3_desc:0 "Trembley's exploits across America has done a number on his mental and physical well being. Let's make sure he's fix up just as we want him to be."
  ORE_trembley_pants.3.t:0 ""
  
  ORE_trembley_pants.4:0 "The Oddity Of Sanity"
- ORE_trembley_pants.4_desc:0 ""
+ ORE_trembley_pants.4_desc:0 "There's a calm in Salem. Trembley rules, yet there is no sense of erratic behavior at play. There is another hand in play, working the scenes, pulling the strings."
  ORE_trembley_pants.4.t:0 ""
  
  ######################################################################
@@ -106,25 +106,25 @@
  ORE_trembley_chief.1.t:0 "Let the Executive Chaos Begin!"
  
  ORE_trembley_chief.2:0 "Executive Erraticity"
- ORE_trembley_chief.2_desc:0 ""
+ ORE_trembley_chief.2_desc:0 "In recent years, the executive order capabilities of the President of the United States has allowed strong willed president sto ignore the Congress. Just the tool for a man like Trembley"
  ORE_trembley_chief.2.t:0 ""
  
  ORE_trembley_chief.3:0 "Trembling Trembley"
- ORE_trembley_chief.3_desc:0 ""
+ ORE_trembley_chief.3_desc:0 "There's almost a cult following with this man. His most ferverent supporters stand by him and are ready to act on his word."
  ORE_trembley_chief.3.t:0 ""
  
  ######################################################################
  
  ORE_trembley_veep.1:0 "VEEP"
- ORE_trembley_veep.1_desc:0 ""
+ ORE_trembley_veep.1_desc:0 "Many thing the Vice President is basicly a backup for when the President dies, resigns, or some odd consitutional quark. But are best leaders just happen to be one step away from the most powerful office in the land."
  ORE_trembley_veep.1.t:0 "Behind every hot blooded crazy person is a cold, calculating steady hand."
  
  ORE_trembley_veep.2:0 "Politically Onyx"
- ORE_trembley_veep.2_desc:0 ""
+ ORE_trembley_veep.2_desc:0 "Milly Onyx has been a steady hand to guide Trembley's passion and drive. Neithers halfs of the NDR can lock Trembley on their side. Down the middle, the path is neither red or blue, but onyx."
  ORE_trembley_veep.2.t:0 ""
  
  ORE_trembley_veep.3:0 "Backup Puppet Master"
- ORE_trembley_veep.3_desc:0 ""
+ ORE_trembley_veep.3_desc:0 "Heck, Chiu even did a old orientation film for new agents on who Trembley was. Together, the True Ninth shall be kept, more or less, in line."
  ORE_trembley_veep.3.t:0 ""
  
  ######################################################################
@@ -204,120 +204,120 @@
  ORE_cascadia_focus.3.t:0 ""
  
  ORE_cascadia_focus.4:0 "The Redwood Highway"
- ORE_cascadia_focus.4_desc:0 ""
+ ORE_cascadia_focus.4_desc:0 "One of the main road arteries in rural Oregon, this highway connects Oregon, Idaho, and Washington. It is best we make improvments to the loads there to keep supplies moving east and west."
  ORE_cascadia_focus.4.t:0 ""
  
  ORE_cascadia_focus.5:0 "The Snake of Columbia"
- ORE_cascadia_focus.5_desc:0 ""
+ ORE_cascadia_focus.5_desc:0 "We compete with Washington for the control of the Columbia and Snake River. This water way is vital for the defense of our northern border."
  ORE_cascadia_focus.5.t:0 ""
  
  ORE_cascadia_focus.6:0 "The Outbacks"
- ORE_cascadia_focus.6_desc:0 ""
+ ORE_cascadia_focus.6_desc:0 "With thick forest, high mountians, and dry deserts, the diverse lands of eastern Oregon are not to be discounted."
  ORE_cascadia_focus.6.t:0 ""
  
  ORE_cascadia_focus.7:0 "Columbian Economics"
- ORE_cascadia_focus.7_desc:0 ""
+ ORE_cascadia_focus.7_desc:0 "From Klamath Falls to Pendleton. Bend to Gravity Falls. There is an untapped reserve of riches to be gotten. And we will get the most of our state."
  ORE_cascadia_focus.7.t:0 ""
  
  ######################################################################
  ######################################################################
  
  ORE_head_east_focus.0:0 "Head East, Old Man"
- ORE_focus.0_desc:0 ""
- ORE_focus.0.t:0 ""
+ ORE_focus.0_desc:0 ""Just as the founders of Oregon traveled west to the frontier, the time has come for us to begin our march eastwards! Our fellow countrymen look to a legitimate administration, one that harolds the roots of our past and the promise of a future for the United States. From sea to shining sea, we will be one again!"\n- §1Secretary of State Andrew Chiu§! -"
+ ORE_focus.0.t:0 "We shall manifest a new destiny, eastwards"
  
  ORE_head_east_focus.1:0 "The Erratic East"
- ORE_head_east_focus.1_desc:0 ""
+ ORE_head_east_focus.1_desc:0 "They claim we are crazy, yet the Madman Curtis overthrew our democracy just to blame what happened to Canada? How do they make Trembley look so sane by comparison."
  ORE_head_east_focus.1.t:0 ""
  
  ORE_head_east_focus.2:0 "Union Forever"
- ORE_head_east_focus.2_desc:0 ""
+ ORE_head_east_focus.2_desc:0 "So we're springing to the call from the East and from the West\nShouting the battle cry of Freedom!\nAnd we'll hurl the rebel crew from the land we love the best!\nShouting the battle cry of Freedom!"
  ORE_head_east_focus.2.t:0 "Is annexed by §Y[ORE.getname]§!"
  
  ######################################################################
  
  ORE_cross_rockies.0:0 "Crossing the Rockies"
- ORE_cross_rockies.0_desc:0 ""
+ ORE_cross_rockies.0_desc:0 "With the Pacific to our backs, we take our first steps across the expansive and sky-piercing Rocky Mountains. Just as Trembley climbed great heights to found Oregon, so shall he be the President to cross the Rockies to save America! No mountain high or low shall stop reunification!"
  ORE_cross_rockies.0.t:0 ""
  
  ORE_cross_rockies.1:0 "East of Weird"
- ORE_cross_rockies.1_desc:0 ""
+ ORE_cross_rockies.1_desc:0 "Idaho, the Gem State. A land perched up within the towering heart of the Rocky Mountains, it’s beautiful scenery and nature is a testament to its title. The first to join our cause and support the Trembley Administration, reinforcing diplomatic relations and ties with Idaho will help strengthen our legitimacy in the eyes of America."
  ORE_cross_rockies.1.t:0 ""
  
  ORE_cross_rockies.2:0 "Old Faithful"
- ORE_cross_rockies.2_desc:0 ""
+ ORE_cross_rockies.2_desc:0 "Montana and Wyoming, two states that were brought together in the chaos of the Long Summer, and already the situation is tense. In a union dominated by the larger populated Montana, the two states only unified to ensure economic stability and to prevent a collapse of the region to opportunists. Unifying with us should stabilize relations."\n- §1Secretary of State Andrew Chiu§! -"
  ORE_cross_rockies.2.t:0 ""
  
  ORE_cross_rockies.3:0 "Mount Rushmore"
- ORE_cross_rockies.3_desc:0 ""
+ ORE_cross_rockies.3_desc:0 "The Dakotas, home of the iconic Mount Rushmore, countless Native reservations, and endless plains of crops. Due to their close ties together, the union has remained stable and strong, however their economy is a different story. The absorption of these states into our union will provide our troops and people with vast quantities of food, and give a significant boost to our economy."
  ORE_cross_rockies.3.t:0 ""
  
  ORE_cross_rockies.4:0 "The New Heartlands"
- ORE_cross_rockies.4_desc:0 ""
- ORE_cross_rockies.4.t:0 ""
+ ORE_cross_rockies.4_desc:0 "The Great Plains, the breadbasket and heartlands of America, teeming with endless fields of crops and agriculture suited to feed a population of over three-hundred million strong. Consisting of Nebraska, Iowa, Missouri, and Kansas, the states are trapped in between the might of three great powers and have suffered because of it. Let us offer them a hand of companionship, and bring them into the fold."
+ ORE_cross_rockies.4.t:0 "§YLet Curtis know we can stare directly into the heart of the East.§!"
  
  ORE_cross_rockies.5:0 "Great Lakes"
- ORE_cross_rockies.5_desc:0 ""
+ ORE_cross_rockies.5_desc:0 "”The Great Lakes region is the industrial heartland of the United States, and holds a significant population of the country within it. Home to a variety of different states packed with plenty of rich natural resources, if we could get a slice or two out of the region, it could be the difference between victory and defeat.”\n- §1Secretary of State Andrew Chiu§! -"
  ORE_cross_rockies.5.t:0 ""
  
  ORE_cross_rockies.6:0 "Trembley and the Alamo"
- ORE_cross_rockies.6_desc:0 ""
+ ORE_cross_rockies.6_desc:0 "Oh, the Yellow Rose of Texas, truly one of the most greatest and noble states in the Union. One of the only states to be fully independent before their history in the US, it will take quite the effort for either us or California to bring them into the fold, especially since they have their own little sphere of influence. But how could they deny Trembley, a man who fought for its existance a long time ago."
  ORE_cross_rockies.6.t:0 ""
  
  ORE_cross_rockies.7:0 "The New Federal Government"
- ORE_cross_rockies.7_desc:0 ""
+ ORE_cross_rockies.7_desc:0 "America has always been a united land, a united nation. With this restored union, the True America becomes ever closer. Now is the time to cement the new goverment, to challange the Imperials and the Easterners."
  ORE_cross_rockies.7.t:0 "Becomes a puppet of §Y[ORE.getname]§!"
  ######################################################################
  
  ORE_oregon_trail_focus.0:0 "The Oregon Trail"
- ORE_oregon_trail_focus.0_desc:0 ""
- ORE_oregon_trail_focus.0.t:0 "§YMany of these focuses are best done after more states have joined up with President Trembley§!"
+ ORE_oregon_trail_focus.0_desc:0 "“If we’re to have any success at reunifying the United States under our rule, it’s going to require the development of new roads and infrastructure to link the country together. With the cooperation of the states of the Rockies and Plains, we shall endeavor to build a new Oregon Trail, from the banks of the Columbia to our old beginnings in Independence, Missouri"
+ ORE_oregon_trail_focus.0.t:0 "§RHowever with California expanding eastward as well, a race to the Mississippi River is very likely§!\n§YStill, many of these focuses are best done after more states have joined up with President Trembley§!"
  
  ORE_oregon_trail_focus.1:0 "Snaking Through Idaho"
- ORE_oregon_trail_focus.1_desc:0 ""
+ ORE_oregon_trail_focus.1_desc:0 "As our ancestors traveled the final leg of thier journey along the Snake River, we start our first steps on those same grounds."
  ORE_oregon_trail_focus.1.t:0 ""
  
  ORE_oregon_trail_focus.2:0 "Rushing Down the Mountain"
- ORE_oregon_trail_focus.2_desc:0 ""
+ ORE_oregon_trail_focus.2_desc:0 "The Rocky Mountains are an imposing sight. But nothing that the True America can't be confined by. Up and Down we go!"
  ORE_oregon_trail_focus.2.t:0 ""
  
  ORE_oregon_trail_focus.3:0 "Land of a Thousand Lakes"
- ORE_oregon_trail_focus.3_desc:0 ""
+ ORE_oregon_trail_focus.3_desc:0 "We are close to the Great Lakes and the start of the great river that divides our country in two. Here in this northenr realm, we can start the journey south and stand guard againts the Eastern Government."
  ORE_oregon_trail_focus.3.t:0 ""
  
  ORE_oregon_trail_focus.4:0 "Returning to our Independence"
- ORE_oregon_trail_focus.4_desc:0 ""
+ ORE_oregon_trail_focus.4_desc:0 "Our final leg of the journey was their beginning. Where we arrived in modern trucks, they left in wagons. This was where the Oregon Trail and thier stories began. But it is not the end of ours."
  ORE_oregon_trail_focus.4.t:0 ""
  
  ORE_oregon_trail_focus.5:0 "Down the Ol'Missy"
- ORE_oregon_trail_focus.5_desc:0 ""
+ ORE_oregon_trail_focus.5_desc:0 "The Might River of America, the Mississippi River is the juggular vien of our country. Its severence was a death blow, but its re-opeening for trade and travel thats as free as water will restore the ture America."
  ORE_oregon_trail_focus.5.t:0 ""
  
- ORE_oregon_trail_focus.6:0 "Mile High"
- ORE_oregon_trail_focus.6_desc:0 ""
+ ORE_oregon_trail_focus.6:0 "I Can't Drive 55!"
+ ORE_oregon_trail_focus.6_desc:0 "We must be fast. We must be Quick!\n\nFrom the Sea to Shining Sea, there can be no limit to our speed!\n\n\n(Besides those new federal safety limts)"
  ORE_oregon_trail_focus.6.t:0 ""
  
  ORE_oregon_trail_focus.7:0 "The Trembley Highway"
- ORE_oregon_trail_focus.7_desc:0 ""
+ ORE_oregon_trail_focus.7_desc:0 "Given the Number Highway 8 and a 1/2, the Trembley Highway improves exisiting roads and expand the major road arteries to truley allow a both scenic and expedient route from Oregon to the Mississippi River."
  ORE_oregon_trail_focus.7.t:0 ""
  
  ######################################################################
  ######################################################################
  
  ORE_frontier_focus.0:0 "The Blacksheep of The Northwerst"
- ORE_frontier_focus.0_desc:0 ""
+ ORE_frontier_focus.0_desc:0 "Disowned by his father, Parson made his own way in life, being the first Northwest in a long time to work and really earn what they have. Even related to Nathanial, Trembley trusts this Northwest to defend him and Oregon."
  ORE_frontier_focus.0.t:0 ""
  
  ORE_frontier_focus.1:0 "Rally To The West"
- ORE_frontier_focus.1_desc:0 ""
+ ORE_frontier_focus.1_desc:0 "As a Green Beret, the colonel has alot of friends in high places. Many respect General Pines, Northwest included. But to fight for an true America means not the imperials, but fighitng with Northwest and Trembley."
  ORE_frontier_focus.1.t:0 ""
  
  ORE_frontier_focus.2:0 "Frontier Spirit"
- ORE_frontier_focus.2_desc:0 ""
+ ORE_frontier_focus.2_desc:0 "The people here sometimes fought there way to this land. Many more would fight to protect it. Small on a map, Cascadia is a large place, and whoeevr comes a knocking, we'll be ready."
  ORE_frontier_focus.2.t:0 ""
  
  ORE_frontier_focus.3:0 "The Army Of The Frontier"
- ORE_frontier_focus.3_desc:0 ""
+ ORE_frontier_focus.3_desc:0 "They may not be as many as our neighbors. But this Army of the Frontier stands ready to fight and put all thier brain and brawn to accomplish it."
  ORE_frontier_focus.3.t:0 ""
  
  ORE_frontier_focus.4:0 "Cascadia Command"

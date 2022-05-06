@@ -10,8 +10,23 @@ decrease_monster_rebel:0 "§GDecrease§! §YNumber of Monster Rebels§! by §Y1 
 decrease_monster_rebel_5:0 "§GDecrease§! §YNumber of Monster Rebels§! by §C5§! §YHundred Thousand§!"
 increase_monster_rebel:0 "§RIncrease§! §YNumber of Monster Rebels§! by §Y1 Hundred Thousand§!"
 
+MHC_rebels_allocate_manpower:0 "Allocate Manpower To Anti-Rebel Operations"
+MHC_rebels_allocate_guns:0 "Allocate Arms To Anti-Rebel Operations"
+MHC_rebels_suppresion:0 "Supress Rebel Activities"
+MHC_local_recruitment:0 "Shore Up Mewman Manpower"
+MHC_public_pow_purge:0 "Public Executions"
+MHC_info_for_immunity:0 "Immunity for Information"
+MHC_info_for_money:0 "Paid Informants"
+
+MHC_art_showcase:0 "Mewman Art Exhibitions"
+MHC_concert:0 "Mewman Concerts"
+MHC_translators:0 "Low-Mewman/Monster-Speak Translators"
+MHC_test_propaganda:0 "Propaganda Push"
+MHC_mewman_parade:0 "Mewman Parades"
+
 MHC_culture:0 "Cultural Integration"
 MHC_culture_desc:0 "The lands we control have monsters who refuse to leave the territory out of pride, spite, or most likley not having the funds to move. We must integreate these monsters into Mewman culture so that we may govern them with better understanding, and  also so that eventually the monsters will be outbred by Mewmans overtime. And as we Mewmans are civilized rulers, we cannot use violence to further this goal. (And also using violence in this sort of thing usually backfires)\n\n§YNumber of Monsters Adopting Mewman Culture:§! [?monster_culture] Hundred Thousand"
 
 add_culture_tooltip:0 "Raise Number of Monsters Adopting Mewman Culture by §Y1 Hundred Thousand§!"
 propaganda_tooltip:0 "§Y50/50 Chance§! of Either §GRaising§! or §YLowering§! Stability and Number of Monsters Adopting Mewman Culture by §Y1 Hundred Thousand§!"
+

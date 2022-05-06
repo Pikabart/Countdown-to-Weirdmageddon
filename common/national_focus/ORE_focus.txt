@@ -497,7 +497,7 @@
                 select_effect = {add_political_power = -150} 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_trembley_pants.2.t"
+			custom_effect_tooltip = "ORE_trembley_pants.2.t"
                         add_political_power = 200
 			hidden_effect = {}
 		}
@@ -2455,7 +2455,8 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_washington_twinpeak.3.t"
-			country_event = ORE_FPI_event.2
+			#country_event = ORE_FPI_event.2
+			WAS = {kill_country_leader = yes}
 			hidden_effect = {}
 		}
 	}
@@ -2480,7 +2481,7 @@
 		
 		completion_reward = {	
 			custom_effect_tooltip = "ORE_washington_twinpeak.4.t"
-			country_event = ORE_FPI_event.3
+			#country_event = ORE_FPI_event.3
 			ORE = { puppet = WAS }
 			add_political_power = 100
 			hidden_effect = {}
@@ -2762,6 +2763,10 @@
 		
 		completion_reward = {	
 			#custom_effect_tooltip = "ORE_spider_peace.3.t"
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.15
+			}
 			declare_war_on = { target = MYM type = annex_everything }
 			declare_war_on = { target = YBL type = annex_everything }
 			declare_war_on = { target = LOG type = annex_everything }
