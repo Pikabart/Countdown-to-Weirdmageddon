@@ -2386,7 +2386,7 @@
 	
 	focus = {
 		id = ORE_washington_twinpeak.1 
-		icon = GFX_focus_usa_tank_destroyer_doctrine
+		icon = GFX_goal_oregon_UIU
 		x = 0
 		y = 1
 		cost = 3
@@ -4616,6 +4616,7 @@
 			country_event = ORE_wicked_chiu_event.6
 			add_stability = 0.05
 			add_war_support = 0.05
+			load_oob = "ORE_Magic_Rangers"
 			hidden_effect = {}
 		}
 	}

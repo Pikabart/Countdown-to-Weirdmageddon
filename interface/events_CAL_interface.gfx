@@ -35,7 +35,14 @@ spriteTypes = {
 		name = "GFX_report_event_janna_cult"
 		texturefile = "gfx/event_country_pictures/CAL/report_event_janna_death_cult_1.dds" 
 	}
-
+	spriteType = { # 
+		name = "GFX_report_event_witcher"
+		texturefile = "gfx/event_country_pictures/CAL/report_event_witcher.dds" 
+	}
+	spriteType = { # 
+		name = "GFX_report_event_pol_lit"
+		texturefile = "gfx/event_country_pictures/ALL/report_event_pol_lit.dds" 
+	}
 	
 	
    #############################################################

@@ -40,7 +40,7 @@ intelligence_agency = {
 
 intelligence_agency = {
 
-	picture = GFX_intelligence_agency_logo_sov
+	picture = GFX_intelligence_agency_logo_ore
 	names = { "Oregon Paranormal Investigation" }
 	
 	default = { tag = ORE }

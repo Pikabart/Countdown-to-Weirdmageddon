@@ -135,6 +135,14 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_goal_oregon_backup_puppetmaster_v2"
 	texturefile = "gfx/interface/goals/ORE/focus_oregon_backup_puppetmaster_v2.dds"			
+	}
+
+	#########################
+	##########################	
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_UIU"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_UIU.dds"			
 	}	
 	
 	##########################

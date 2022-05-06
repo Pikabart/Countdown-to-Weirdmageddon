@@ -9,6 +9,12 @@ spriteTypes = {
 		texturefile = "gfx/interface/operatives/agencies/agency_logo_cal.dds"
 		noOfFrames = 2
 	}
+	
+	spriteType = {
+		name = "GFX_intelligence_agency_logo_ore"
+		texturefile = "gfx/interface/operatives/agencies/agency_logo_ORE.dds"
+		noOfFrames = 2
+	}
 
 	
 

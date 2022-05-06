@@ -17,7 +17,7 @@ country_event = {
 	picture = GFX_report_event_chinese_soldiers_fighting
 	
 	hidden = yes
-	timeout_days = 1
+	is_triggered_only = yes
 	
 	option = { 
 		name = ORE_fix_event.1.a
