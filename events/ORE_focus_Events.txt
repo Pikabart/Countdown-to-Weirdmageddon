@@ -15,7 +15,7 @@ country_event = {
 	title = ORE_fix_event.1.t
 	desc = ORE_fix_event.1.d
 	picture = GFX_report_event_chinese_soldiers_fighting
-	
+  
 	hidden = yes
 	is_triggered_only = yes
 	
