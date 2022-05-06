@@ -4540,7 +4540,7 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_wicked_focus.6.t"
+			custom_effect_tooltip = "ORE_wicked_focus.6.t"
 			add_equipment_to_stockpile = { type = magic_equipment_1 amount = 1000 producer = GEU }
 			hidden_effect = {}
 		}
@@ -4565,7 +4565,7 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_wicked_focus.7.t"
+			custom_effect_tooltip = "ORE_wicked_focus.7.t"
 			add_political_power = 100
 			add_research_slot = 1
 			hidden_effect = {}
@@ -4730,7 +4730,7 @@
 		bypass = {} 
 		
 		completion_reward = {	
-			#custom_effect_tooltip = "ORE_wicked_coven.2.t"
+			custom_effect_tooltip = "ORE_wicked_coven.2.t"
 			country_event = ORE_wicked_chiu_event.5
 			hidden_effect = {}
 		}

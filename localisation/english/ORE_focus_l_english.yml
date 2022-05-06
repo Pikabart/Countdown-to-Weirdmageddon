@@ -317,7 +317,7 @@
  ORE_frontier_focus.2.t:0 ""
  
  ORE_frontier_focus.3:0 "The Army Of The Frontier"
- ORE_frontier_focus.3_desc:0 "They may not be as many as our neighbors. But this Army of the Frontier stands ready to fight and put all thier brain and brawn to accomplish it."
+ ORE_frontier_focus.3_desc:0 "They may not be as many as our neighbors, nor as equally equipped. But this Army of the Frontier stands ready to fight and put all their brain and brawn to accomplish it."
  ORE_frontier_focus.3.t:0 ""
  
  ORE_frontier_focus.4:0 "Cascadia Command"
@@ -398,84 +398,84 @@
  ######################################################################
  
  ORE_wicked_focus.0:0 "Wicked Chiu Of The West"
- ORE_wicked_focus.0_desc:0 ""
+ ORE_wicked_focus.0_desc:0 "With reports of California's incursions into another dimension that has magic, our stragetic position is in danger.\nBut Secretary Chiu has proposed a plan to level the playing field. The Imperial Republic may have Magical Princesses. But we'll fight them like true Witches of Cascadia!"
  ORE_wicked_focus.0.t:0 "The §CGravesfield Project§! is Approved!"
  
  ORE_wicked_focus.1:0 "Elemental Basics"
- ORE_wicked_focus.1_desc:0 ""
+ ORE_wicked_focus.1_desc:0 ""This all sounds dumb. Learning to do magic? I'm not some kid reading her Azura The Good Witch Novels...\nBut it still beats being the personal assistant for like the third craziest President we have."\n\n- §GJennefer Onyx§! -"
  ORE_wicked_focus.1.t:0 ""
  
  ORE_wicked_focus.2:0 "Portable Magic"
- ORE_wicked_focus.2_desc:0 ""
+ ORE_wicked_focus.2_desc:0 ""How did we develope this magic projection system? That's both classified and trust me, you don't want to know..."\n\n- §YFPI Agent Raj Ekbal§! -"
  ORE_wicked_focus.2.t:0 ""
  
  ORE_wicked_focus.3:0 "Magic Theory"
- ORE_wicked_focus.3_desc:0 ""
+ ORE_wicked_focus.3_desc:0 "There are a lot of rules, technical aspects, and underlining physics to using this magic system. I half expected we just needed to say some made up words and BAM, magic. There's a lot of learning here, but not a problem for an engie like me!\n\n- §YEngineering Corps Head Witch Tony Yu§! -"
  ORE_wicked_focus.3.t:0 ""
  
  ORE_wicked_focus.4:0 "The Magic Of Cascadia"
- ORE_wicked_focus.4_desc:0 ""
+ ORE_wicked_focus.4_desc:0 "It's odd. Chiu says theres no naturally occuring radation of magic that isn't interdimesional in origin. But Oregon is such a wild, weird, and virbrant place. Whether it be food or power, this is a land we can live off of.\n\n- §YAgriculture Corps Head Witch Talia Stein§! -"
  ORE_wicked_focus.4.t:0 ""
  
- ORE_wicked_focus.5:0 "bile Substitutes"
- ORE_wicked_focus.5_desc:0 ""
+ ORE_wicked_focus.5:0 "Bile Substitutes"
+ ORE_wicked_focus.5_desc:0 ""Hector was right. These canisters of magical water could serve countless applications when used correctly. I doubt he'll mind if I used his papers on the stuff for my own use. I certainly don't mind."\n\n- §1Secretary of State Andrew Chiu§! -"
  ORE_wicked_focus.5.t:0 ""
  
  ORE_wicked_focus.6:0 "Modern Witchcraft Equipment"
- ORE_wicked_focus.6_desc:0 ""
- ORE_wicked_focus.6.t:0 ""
+ ORE_wicked_focus.6_desc:0 ""It's too bad we don't have any palisman trees in Oregon. I'm honestly surprised given what other weird thing keeps ending up in this state. Fortunatley, these new Mark VIII Magical Staffs would make a nice substitute. Sorry, Bujeog. No new friends for you..."\n\n- §1Secretary of State Andrew Chiu§! -"
+ ORE_wicked_focus.6.t:0 ""§4Squawk! It's Lonely! Squawk!§!""
  
  ORE_wicked_focus.7:0 "Indistinguishable From Science"
- ORE_wicked_focus.7_desc:0 ""
- ORE_wicked_focus.7.t:0 ""
+ ORE_wicked_focus.7_desc:0 "They say...\nAny sufficiently advanced technology is indistinguishable from magic.\nAny well understood magic is indistinguishable from technology.\nI do you one better. My new Abomatons are full of so much magic and tech, its Both AND Neither Magic or Science.\n- §YAbomination Corps Head Witch Joseph Kettleman§! -"
+ ORE_wicked_focus.7.t:0 "§YThe fact the government gave me the patent rights is the craziest thing about all this.§!"
  
  ORE_wicked_focus.8:0 "The Will Of The Beaver"
- ORE_wicked_focus.8_desc:0 ""
+ ORE_wicked_focus.8_desc:0 "So in this realm called the Boiling Isles, the natives worship this massive dead titan to which the entire land they live on consist of its rotting body. Their Covens revolve around enforcing it's will, like a cult!\nWell, I found this beaver down by the river. I'm gonna try and get as many people here to worship it as well.\n- §YHusbandry Corps Head Witch Samantha Freeman§! -"
  ORE_wicked_focus.8.t:0 ""
  
  ORE_wicked_focus.9:0 "History Rhymes"
- ORE_wicked_focus.9_desc:0 ""
+ ORE_wicked_focus.9_desc:0 "Today's the day we unveil the Oregon Magic Rangers and their Coven Corps. What can one or two 'princesses' of California do againts hundreds of Trembley's high trained witches!?"
  ORE_wicked_focus.9.t:0 ""
  ######################################################################
  
  ORE_wicked_diverse.1:0 "Diverse Training"
- ORE_wicked_diverse.1_desc:0 ""
+ ORE_wicked_diverse.1_desc:0 "Magic used and combined together can yield new, powerful spells and give our magic rangers the ability to better adapt in the field."
  ORE_wicked_diverse.1.t:0 ""
  
  ORE_wicked_diverse.2:0 "Titan Of All Trades"
- ORE_wicked_diverse.2_desc:0 ""
+ ORE_wicked_diverse.2_desc:0 "My Magic works so well with others. My voice brings life to plants, my electric guitar can literlly raise the roof. My flute brings all the animals into formation, and my drum's rum-pum-pum can lead an army of Joseph's Abomatons to victory...\nI can also like control the air and slice people with the sound waves!\n- §YHarmonics Corps Head Witch Wolfgang Smith§! -"
  ORE_wicked_diverse.2.t:0 ""
  
  ORE_wicked_coven.1:0 "Magic Track Disciplines"
- ORE_wicked_coven.1_desc:0 ""
+ ORE_wicked_coven.1_desc:0 "While its important our rangers know the basics of all magic types, its best they stick to a specialized field of study and master it to the best of thier ability."
  ORE_wicked_coven.1.t:0 ""
  
  ORE_wicked_coven.2:0 "The President's Coven"
- ORE_wicked_coven.2_desc:0 ""
- ORE_wicked_coven.2.t:0 ""
+ ORE_wicked_coven.2_desc:0 ""Unlike this 'Emperor Belos' and his dumb followers, we know that Trembley is a somewhat deranged man and we have checks and balances to keep him in line with our principals. The real difference though is that Trembley is still a competent leader and we all choosed him to lead."\n- §YThe President's Coven Corps Head Witch Parson Northwest§! -"
+ ORE_wicked_coven.2.t:0 "§YAnd Trembley isn't as racist as Belos, so take that!§!"
  ######################################################################
  ######################################################################
  ######################################################################
  
  ORE_the_pinch.0:0 "Breakout From the Pinch"
- ORE_the_pinch.0_desc:0 ""
+ ORE_the_pinch.0_desc:0 "Even as we reunite the US heading East, we cannot continue to survive having the FPI and Washington on our Northern and Southern borders, let alone the problem California causes. Worse still, the ramblings of President Trembley of Gaint Spiders lurking amongs us is more likely then we would have wish..."
  ORE_the_pinch.0.t:0 "§YThe Northwest Today, the Southwest Tomorrow!§!"
  
  ORE_the_pinch.1:0 "A Day In Washington"
- ORE_the_pinch.1_desc:0 ""
+ ORE_the_pinch.1_desc:0 "Governor Day and Washington State stands againts us! And with the loyal units he has, including elite Canandian Exiles, we must deal with him before he does the same to us!"
  ORE_the_pinch.1.t:0 "§RThere will be no compromises today...§!" 
  ######################################################################
  
  ORE_compromised.0:0 "Compromised Lieutenant"
- ORE_compromised.0_desc:0 ""
+ ORE_compromised.0_desc:0 "Day's Lieutenant Governor is no where near as strong willed as Day is. We can reach out and put pressure on him to weaken the government."
  ORE_compromised.0.t:0 ""
  
  ORE_compromised.1:0 "Undermine Olympia"
- ORE_compromised.1_desc:0 ""
+ ORE_compromised.1_desc:0 "Washington has not fared as well as we had going through the Kerfuffle. Its time we make that clear to them!"
  ORE_compromised.1.t:0 "" 
  
  ORE_washington_daybreak.0:0 "Daybreak"
- ORE_washington_daybreak.0_desc:0 ""
+ ORE_washington_daybreak.0_desc:0 "We must crush Washington. We must be ready to fight!"
  ORE_washington_daybreak.0.t:0 "§GThe Clash of Cascadia is Inevitably§!"
  
  ORE_washington_daybreak.1:0 "Reinforce Fort Vancouver"
