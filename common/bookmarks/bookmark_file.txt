@@ -275,7 +275,7 @@ bookmarks = {
 			}
 		}
 		"KAI"={
-			history = "OTHER_ANOTHER_DIMENSION_DESC"
+			history = "KAI_ANOTHER_DIMENSION_DESC"
 			minor = yes
 		}
 		"SWP"={
