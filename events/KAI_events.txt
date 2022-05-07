@@ -18,15 +18,13 @@ country_event = {
 	option = { 
 		name = KAI_change_focus_tree.1.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		hidden_effect = {
-			load_focus_tree = {
-				tree = KAI_focus_season_one
-				keep_completed = yes
-			}
-			set_variable = {
-				var = kai_military
-				value = 75
-			}
+		load_focus_tree = {
+			tree = generic_north_monters_unification_war_focus
+			keep_completed = yes
+		}
+		set_variable = {
+			var = kai_military
+			value = 75
 		}
 	}
 }

@@ -7,7 +7,7 @@ ideas = {
 	######################################################
 	country = {
 		quality_troops_generic_warlord = {
-			picture = FRA_factory_strikes
+			picture = 
 			
 			allowed = {}
 			available = {}
@@ -22,7 +22,7 @@ ideas = {
 			}
 		}
 		quantity_troops_generic_warlord = {
-			picture = FRA_factory_strikes
+			picture = 
 			
 			allowed = {}
 			available = {}
@@ -38,7 +38,7 @@ ideas = {
 			}
 		}
 		priority_civillian_generic_warlord = {
-			picture = FRA_factory_strikes
+			picture = 
 			
 			allowed = {}
 			available = {}
@@ -51,7 +51,7 @@ ideas = {
 			}
 		}
 		priority_military_generic_warlord = {
-			picture = FRA_factory_strikes
+			picture = 
 			
 			allowed = {}
 			available = {}
@@ -64,7 +64,7 @@ ideas = {
 			}
 		}
 		modern_politics_generic_warlord = {
-			picture = FRA_factory_strikes
+			picture = 
 			
 			allowed = {}
 			available = {}
@@ -76,7 +76,7 @@ ideas = {
 			}
 		}
 		modern_warfare_generic_warlord = {
-			picture = FRA_factory_strikes
+			picture = 
 			
 			allowed = {}
 			available = {}

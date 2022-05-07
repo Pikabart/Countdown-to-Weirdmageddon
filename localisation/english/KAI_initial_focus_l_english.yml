@@ -1,0 +1,35 @@
+﻿l_english:
+
+KAI_start:0 "[KAI.getname] NOT DEVELOPED"
+KAI_start_desc:0 "PROCEED AT YOUR OWN RISK"
+
+KAI_quality_troop:0 "Quality of our Troops"
+KAI_quality_troop_desc:0 "Our troop's best attribute will be their extensive training and impressive quality."
+
+KAI_quantity_troop:0 "Quantity of our Troops"
+KAI_quantity_troop_desc:0 "Our army's best attribute will be it's grand numbers."
+
+KAI_civilian_production:0 "Civil Economics"
+KAI_civilian_production_desc:0 "An industrial base must built to benefit the people and, by extension, the government."
+
+KAI_military_production:0 "Military Economics"
+KAI_military_production_desc:0 "An industrial base must built to benefit the government and, by extension, the people."
+
+KAI_modern_politics_production:0 "Flexibility of Politics"
+KAI_modern_politics_production_desc:0 "The monster reigons are a tumultuous place. Our political practices and theorems must always stay flexible in the face of such a situation."
+
+KAI_modern_warfare_production:0 "Advancement of Warfare"
+KAI_modern_warfare_production_desc:0 "The monster reigons are a tumultuous place. Our military practices and theorems must always stay flexible in the face of such a situation."
+
+KAI_take_state:0 "Settle Neu Prußen"
+KAI_take_state_desc:0 "The reigon of Neu Prußen is not settled by any organized force. We must take it before anybody else does."
+
+KAI_take_state_2:0 "Settle the Enchanted Baven"
+KAI_take_state_2_desc:0 "The reigon of the Enchanted Baven is not settled by any organized force. We must take it before anybody else does."
+
+KAI_take_state_3:0 "Settle the Avarius Mines"
+KAI_take_state_3_desc:0 "The reigon of Avarius Mines is not settled by any organized force. We must take it before anybody else does."
+
+KAI_balance_of_power:0 "The Balance of Power"
+KAI_balance_of_power_desc:0 "The reigon is stabalizing from the chaos that was the settlement of unorganized territories. It is time to look inwards."
+KAI_balance_of_power_tooltip:0 "In 515 days:"
