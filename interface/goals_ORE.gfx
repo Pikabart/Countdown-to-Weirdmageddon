@@ -135,6 +135,14 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_goal_oregon_backup_puppetmaster_v2"
 	texturefile = "gfx/interface/goals/ORE/focus_oregon_backup_puppetmaster_v2.dds"			
+	}
+
+	#########################
+	##########################	
+	
+	SpriteType = {
+	name = "GFX_goal_oregon_UIU"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_UIU.dds"			
 	}	
 	
 	##########################
@@ -206,6 +214,12 @@ spriteTypes = {
 	name = "GFX_goal_whispering_croaks"
 	texturefile = "gfx/interface/goals/ORE/focus_whispering_croaks.dds"			
 	}
+	
+	SpriteType = {
+	name = "GFX_goal_indistinguishable_from_magic"
+	texturefile = "gfx/interface/goals/ORE/focus_oregon_indistinguishable_from_magic.dds"			
+	}
+	
 		
 	SpriteType = {
 	name = "GFX_goal_wicked_chiu"
@@ -245,14 +259,10 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_goal_indistinguishable_from_magic"
-	texturefile = "gfx/interface/goals/ORE/focus_oregon_indistinguishable_from_magic.dds"			
-	}
-	
-	SpriteType = {
 	name = "GFX_goal_union_forever"
 	texturefile = "gfx/interface/goals/ORE/focus_oregon_union_forever.dds"			
 	}
+	
 	
 	
 }#################################
