@@ -4,92 +4,94 @@ spriteTypes = {
 	#### Generic continuous goal icons
 	#################
 
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_california"
 	texturefile = "gfx/interface/goals/CAL/focus_california.dds"			
 	}
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_cal_contractor"
 	texturefile = "gfx/interface/goals/CAL/focus_cal_contractor.dds"			
 	}
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_cal_global_cooling"
 	texturefile = "gfx/interface/goals/CAL/focus_cal_global_cooling.dds"			
 	}
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_cal_national_guard"
 	texturefile = "gfx/interface/goals/CAL/focus_cal_national_guard.dds"			
 	}
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_cal_expanded_service"
 	texturefile = "gfx/interface/goals/CAL/focus_cal_expanded_service.dds"			
 	}
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_cal_golden_road"
 	texturefile = "gfx/interface/goals/CAL/focus_cal_golden_road.dds"			
 	}
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_cal_long_summer"
 	texturefile = "gfx/interface/goals/CAL/focus_cal_long_summer.dds"			
 	}
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_cal_voting"
 	texturefile = "gfx/interface/goals/CAL/focus_cal_voting.dds"			
 	}
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_imperial_governor"
 	texturefile = "gfx/interface/goals/CAL/focus_california_imperial_governor.dds"			
 	}
 	
 	#################
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_procedure_change"
 	texturefile = "gfx/interface/goals/CAL/focus_hol_the_foundations_of_defense.dds"			
 	}
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_california_left_IDR"
 	texturefile = "gfx/interface/goals/CAL/focus_california_left_IDR.dds"		
 	}
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_california_right_IDR"
 	texturefile = "gfx/interface/goals/CAL/focus_california_right_IDR.dds"		
 	}
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_cal_mending"
 	texturefile = "gfx/interface/goals/CAL/focus_cal_mending.dds"		
 	}
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_cal_socal_tour"
 	texturefile = "gfx/interface/goals/CAL/focus_cal_socal_tour.dds"		
 	}
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_cal_UBI"
 	texturefile = "gfx/interface/goals/CAL/focus_cal_UBI.dds"		
 	}
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_cal_social_security"
 	texturefile = "gfx/interface/goals/CAL/focus_cal_social_security.dds"		
 	}
 	
-	SpriteType = {
+	SpriteType = {#
 	name = "GFX_goal_cal_small_business"
 	texturefile = "gfx/interface/goals/CAL/focus_cal_small_business.dds"		
 	}
+	
+	#################
 	
 	SpriteType = {
 	name = "GFX_goal_cal_repeal_reform"
@@ -110,6 +112,8 @@ spriteTypes = {
 	name = "GFX_goal_cal_governor_over_congress"
 	texturefile = "gfx/interface/goals/CAL/focus_cal_governor_over_congress.dds"		
 	}
+	
+	#############
 	
 	SpriteType = {
 	name = "GFX_goal_cal_backersfieldville"

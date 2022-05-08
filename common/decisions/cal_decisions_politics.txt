@@ -22,7 +22,7 @@ CAL_catagory_NorCal_SoCal = {
 		timeout_effect = {
 			custom_effect_tooltip = ""
 			complete_national_focus = CAL_assembly.2
-			#hidden_effect = {
+			hidden_effect = {
 				if = { #event for civil war
 					limit = {
 						OR = {
@@ -43,6 +43,8 @@ CAL_catagory_NorCal_SoCal = {
 							}
 					}
 					add_stability = -0.10
+					country_event = CAL_united.2
+					set_country_flag = cal_California_United
 				}	
 				else_if = { #Reunification
 					limit = {
@@ -51,13 +53,15 @@ CAL_catagory_NorCal_SoCal = {
 					}
 					add_stability = 0.10
 					country_event = CAL_united.1
+					set_country_flag = cal_California_United
 				}
 				
 				
 				else = {
 					add_political_power = 69
+					country_event = CAL_united.2
 				}
-			#}
+			}
 		}
 	}
 	
@@ -552,7 +556,7 @@ CAL_catagory_NorCal_SoCal = {
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 10			
 		}
 	}
 	
@@ -667,7 +671,7 @@ CAL_catagory_NorCal_SoCal = {
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 10			
 		}
 	}
 	
@@ -693,7 +697,7 @@ CAL_catagory_NorCal_SoCal = {
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 100			
 		}
 	}
 	
@@ -823,7 +827,7 @@ CAL_catagory_NorCal_SoCal = {
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 10		
 		}
 	}
 	
@@ -950,7 +954,7 @@ CAL_catagory_NorCal_SoCal = {
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 10			
 		}
 	} 
 	
@@ -1058,7 +1062,7 @@ CAL_catagory_NorCal_SoCal = {
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 100			
 		}
 	}
 	
@@ -1167,7 +1171,7 @@ CAL_catagory_NorCal_SoCal = {
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 100			
 		}
 	}
 	
@@ -1201,7 +1205,7 @@ CAL_catagory_NorCal_SoCal = {
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 100		
 		}
 	}
 	
@@ -1266,7 +1270,7 @@ CAL_catagory_NorCal_SoCal = {
 		
 		# AI LOGIC FOR THIS DECISION/MISSION
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 1			
+			factor = 100			
 		}
 	}
 	

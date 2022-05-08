@@ -29,11 +29,14 @@
  CAL_civil_war_events.2.d:0 ""
  CAL_civil_war_events.2.a:0 "Oh No!"
  
- CAL_civil_war_events.3.t:0 "Disaster at the Ball Game"
- CAL_civil_war_events.3.d:0 ""
- CAL_civil_war_events.3.a:0 "Oh No!"
+ CAL_civil_war_events.3.t:0 "Disaster at the Ball Game!"
+ CAL_civil_war_events.3.d:0 "Allowing this game was the worst mistake the Californian government ever made. It was clear from the get go and made very much so as SF Gaints and LA Dodgers fans argued outside the park as the bleachers were divided between Northern Orange and Southern Blue. The game itself wasn't any better as a solid four innings went without a single score, until a homerun gave the Dodgers a lead. But it was a foul ball by a Dodgers hitter in the 8th inning that flew up and backward and landed close to the Emperor Norton and Hector Diaz-Guzamn, who were attending the game together. Someone panicked and yelled it was an assasinatin attempt and before long, sperate security details evacuated the governor and lieutenant governor and the game eneded with a riot.\n\nBefore long, poltiicians got involved and even Hector lost control of the situation. The Southern NDR forced him to declare the north illegitamate and the military has split between the north and south. The Californian Civil War is on!"
+ CAL_civil_war_events.3.a:0 "Once again, this slow game screwed us over!"
  
- CAL_united.1.t:0 "A Pleasent Day at the Ball Game"
- CAL_united.1.d:0 ""
+ CAL_united.1.t:0 "A Pleasent Day at the Ball Game!"
+ CAL_united.1.d:0 "The game went better than anyone would have expected. Though the rivalry between the two teams are high, everyone was well hospitable to each other as Northerners tailgatered with their fellow Southerns outside Dodgers Stadium. Inside, Norton threw the first pitch of the game and it quickly became a well fought game as the each team traded the lead through the innings. When a foul ball by a Dodgers flew up and near where the two leaders were sitting, Hector helped Norton catch the ball, with surpricing applause by all, even if it gave an out to his Dodgers team. Still, they prevailed at the 11th with 13-11, but the mood was all good as everyone went home or drinking at the nightlife of LA.\n\nAll in all, it was a good game."
  CAL_united.1.a:0 "The American Sport To Unite Us All!"
  
+ CAL_united.2.t:0 "The Ball Game went So-So..."
+ CAL_united.2.d:0 ""
+ CAL_united.2.a:0 "I should have watched the Warriors-Lakers Game instead"

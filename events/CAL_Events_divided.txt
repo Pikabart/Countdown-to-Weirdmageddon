@@ -149,3 +149,24 @@ country_event = { # California reunited
 		annex_country = { target = SOC transfer_troops = yes }
 	}
 }
+
+country_event = { # California reunited
+	id = CAL_united.2
+	title = CAL_united.2.t
+	desc = CAL_united.2.d
+	
+	picture = GFX_report_event_empty
+
+	is_triggered_only = yes
+
+
+	immediate = {
+		set_country_flag = cal_California_United
+		hidden_effect = { }
+	}
+
+	option = {
+		name = CAL_united.2.a
+		add_political_power = 500
+	}
+}
