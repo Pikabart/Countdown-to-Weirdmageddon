@@ -1,4 +1,4 @@
-﻿capital = 46
+﻿capital = 47
 
 # Starting tech
 set_technology = {
@@ -39,19 +39,17 @@ set_convoys = 200
 oob = "UFC_2012"
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "2012.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 85
-	communism = 5
+	democratic = 40
+	communism = 0
 	fascism = 5
-	neutrality = 5
+	neutrality = 55
 }
 
-recruit_character = UFC_multi_corn
 recruit_character = UFC_multi_bear
-recruit_character = UFC_unicorn

@@ -77,7 +77,7 @@ characters = {###########################################################
 		}
 		country_leader = {
 			desc = ""
-			ideology = fascism_ideology
+			ideology = centrism
 			expire = "2040.1.1.1"
 			id = -1
 		}

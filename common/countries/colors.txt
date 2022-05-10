@@ -25,6 +25,10 @@ UFC = {
 	color = rgb { 160  160  160 }
 	color_ui = rgb { 160  160  160 }
 }
+UNI = {
+	color = rgb { 220 220 220 }
+	color_ui = rgb { 220  220  220 }
+}
 MAN = {
 	color = rgb { 210  105  30 }
 	color_ui = rgb { 210  105  30 }
