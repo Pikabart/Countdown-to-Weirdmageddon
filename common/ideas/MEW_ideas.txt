@@ -363,7 +363,7 @@ ideas = {
 			cancel = {}
 			
 			modifier = {	
-				stability_weekly = -0.02
+				stability_weekly = -0.014
 				
 			}
 		}

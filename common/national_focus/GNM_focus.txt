@@ -1,0 +1,377 @@
+focus_tree = {
+
+	id = GNM_focus
+	
+	country = {
+		factor = 0		
+		modifier = {
+			add = 100
+			tag = GNM
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 1 y = 0 } 
+
+	focus = {
+		id = GNM_barren_spring
+		icon = a
+		x = 10
+		y = 0
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_perfect_candidate
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = GNM_barren_spring 
+		prerequisite = { focus = GNM_barren_spring }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_operation_summer_fantasy
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = GNM_perfect_candidate 
+		prerequisite = { focus = GNM_perfect_candidate }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_operation_summer_fantasy_failure
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = GNM_operation_summer_fantasy 
+		prerequisite = { focus = GNM_operation_summer_fantasy }
+		
+		available = {
+		}
+		
+		#allow_branch = {
+		#	has_global_flag = mabel_gnome_encounter1
+		#}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GNM_blackpill_spreading
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_connect_to_internet
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = GNM_operation_summer_fantasy_failure 
+		prerequisite = { focus = GNM_operation_summer_fantasy_failure }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.03
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_vr_queens
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = GNM_connect_to_internet 
+		prerequisite = { focus = GNM_connect_to_internet }
+		mutually_exclusive = { focus = GNM_alpha_philosophy }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GNM_VR_comforts
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_collective_fitness
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = GNM_operation_summer_fantasy_failure 
+		prerequisite = { focus = GNM_operation_summer_fantasy_failure }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.02
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_alpha_philosophy
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = GNM_collective_fitness 
+		prerequisite = { focus = GNM_collective_fitness }
+		mutually_exclusive = { focus = GNM_vr_queens }
+		
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GNM_alpha_beta_sigma_philosophy
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_suppress_the_blackpill
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = GNM_alpha_philosophy 
+		prerequisite = { focus = GNM_alpha_philosophy }
+		prerequisite = { focus = GNM_vr_queens }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			remove_ideas = GNM_blackpill_spreading
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_operation_northern_dream
+		icon = a
+		x = -2
+		y = 1
+		relative_position_id = GNM_suppress_the_blackpill 
+		prerequisite = { focus = GNM_suppress_the_blackpill }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_operation_fall_fantasy
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = GNM_suppress_the_blackpill 
+		prerequisite = { focus = GNM_suppress_the_blackpill }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_operation_everything_nice
+		icon = a
+		x = 2
+		y = 1
+		relative_position_id = GNM_suppress_the_blackpill 
+		prerequisite = { focus = GNM_suppress_the_blackpill }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+}

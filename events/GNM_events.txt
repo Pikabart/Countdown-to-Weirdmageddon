@@ -1,0 +1,18 @@
+﻿add_namespace = GNM_queen_hunting
+
+country_event = {
+	id = GNM_queen_hunting.1
+	title = GNM_queen_hunting.1.t
+	desc = GNM_queen_hunting.1.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GNM_queen_hunting.1.a
+		ai_chance = { factor = 100 }
+		set_global_flag = mabel_gnome_encounter1
+		mark_focus_tree_layout_dirty = yes
+		custom_effect_tooltip = generic_focus_unlock_tooltip
+	}
+}

@@ -18,6 +18,50 @@ ideas = {
 				
 			}
 		}
+		GNM_blackpill_spreading = {
+			picture = a
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_weekly = -0.006
+				
+			}
+		}
+		
+		GNM_VR_comforts = {
+			picture = a
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = 0.05
+				war_support_factor = -0.05
+				offence = -0.05
+				defence = -0.05
+				army_core_attack_factor = 0.25
+				army_core_defence_factor = 0.25
+			}
+		}
+		
+		GNM_alpha_beta_sigma_philosophy = {
+			picture = a
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.05
+				war_support_factor = 0.05
+				offence = 0.05
+				defence = 0.05
+			}
+		}
 
 	}
 }

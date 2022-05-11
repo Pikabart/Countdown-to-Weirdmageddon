@@ -132,7 +132,9 @@
 		prerequisite = { focus = MYS_cheapest }
 		relative_position_id = MYS_prepare_for_the_summer
 		
-		available = {}		
+		available = {
+			has_global_flag = mabel_gnome_encounter1
+		}		
 		bypass = {}
 		cost = 1
 		
