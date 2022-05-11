@@ -94,7 +94,7 @@ country_event = { #5
 	option = { 
 		name = awaits_journal.5.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
-		add_ideas = MYS_Twins_1
+		MYS = {add_ideas = MYS_Twins_1}
 	}
 }
 

@@ -1,27 +1,29 @@
-
 state={
-	id=189
-	name="STATE_189"
-
+	id=508
+	name="STATE_508"
+	
 	history={
-		owner = EUS
-		add_core_of = EUS
+		owner = UFC
+		add_core_of = UFC
 		buildings = {
 			arms_factory = 0
 			industrial_complex = 0
 			infrastructure = 1
 			air_base = 0
-			anti_air_building = 0
+			anti_air_building = 1
 			radar_station = 0
-
+			8196 = { bunker = 1 }
+			3896 = { bunker = 1 }
+			
 		}
+		#victory_points = {}
 
 	}
-
+	
 	provinces={
-		314 354 537 774 1302 1632 1780 1953 2140 4468 4910 5849 6831 8249 8398 8549 8729 
+		2769 3896 6334 8171 8196 
 	}
-	manpower=10000
+	manpower=1000
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

@@ -95,6 +95,7 @@ focus_tree = {
 		ai_will_do = {
 			factor = 400
 			#modifier = {}
+			country_event = awaits_journal.1
 		}
 		
 	}

@@ -5,9 +5,10 @@ state={
 	local_supplies=0.0 
 	
 	history = {
-		owner = UNI
-		add_core_of = UNI
-		add_claim_by = UFC
+		owner = UFC
+		add_core_of = UFC
+		add_claim_by = UNI
+		set_demilitarized_zone = yes
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 3
