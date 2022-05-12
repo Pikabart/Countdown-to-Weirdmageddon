@@ -36,7 +36,7 @@ set_technology = {
 
 set_convoys = 200
 
-oob = "UFC_2012"
+oob = "UNI_2012"
 
 set_politics = {
 	ruling_party = neutrality

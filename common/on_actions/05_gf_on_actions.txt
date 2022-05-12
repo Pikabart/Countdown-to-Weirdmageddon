@@ -1,5 +1,89 @@
 on_actions = {
 	
+	################################################################
+	#Forest Border Wars
+	on_startup = {
+		effect = {
+			MAN = {
+				start_border_war = {
+					change_state_after_war = yes
+					attacker = {
+						state = 50
+						num_provinces = 3
+						#on_win = japan_border_conflict.2
+						#on_lose = japan_border_conflict.3
+						#on_cancel = japan_border_conflict.4
+					}
+								
+					defender = {
+						state = 46
+						num_provinces = 3
+						#on_win = japan_border_conflict.3
+						#on_lose = japan_border_conflict.2
+						#on_cancel = japan_border_conflict.4
+					}
+				}
+				set_border_war_data = {
+					attacker = 50
+					defender = 46
+					defender_modifier = 1
+					combat_width = 15
+				}
+				start_border_war = {
+					change_state_after_war = yes
+					attacker = {
+						state = 51
+						num_provinces = 3
+						#on_win = japan_border_conflict.2
+						#on_lose = japan_border_conflict.3
+						#on_cancel = japan_border_conflict.4
+					}
+								
+					defender = {
+						state = 508
+						num_provinces = 3
+						#on_win = japan_border_conflict.3
+						#on_lose = japan_border_conflict.2
+						#on_cancel = japan_border_conflict.4
+					}
+				}
+				set_border_war_data = {
+					attacker = 51
+					defender = 508
+					defender_modifier = 1
+					combat_width = 15
+				}
+			}
+			UFC = {
+				start_border_war = {
+					change_state_after_war = yes
+					attacker = {
+						state = 48
+						num_provinces = 3
+						#on_win = japan_border_conflict.2
+						#on_lose = japan_border_conflict.3
+						#on_cancel = japan_border_conflict.4
+					}
+								
+					defender = {
+						state = 509
+						num_provinces = 3
+						#on_win = japan_border_conflict.3
+						#on_lose = japan_border_conflict.2
+						#on_cancel = japan_border_conflict.4
+					}
+				}
+				set_border_war_data = {
+					attacker = 48
+					defender = 509
+					attacker_modifier = 1
+					combat_width = 15
+				}
+			}
+		}
+	}
+	
+	################################################################
 	#The Gleeful Wars
 	on_capitulation = {
 		effect = {

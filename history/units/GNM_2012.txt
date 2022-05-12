@@ -24,8 +24,8 @@ units = {
 		division_name = {}
 		location = 6445 
 		division_template = "Royal Forces"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	
@@ -33,8 +33,8 @@ units = {
 		division_name = {}
 		location = 6141 
 		division_template = "Royal Forces"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	
@@ -42,8 +42,8 @@ units = {
 		division_name = {}
 		location = 861 
 		division_template = "Royal Forces"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	
@@ -51,8 +51,8 @@ units = {
 		division_name = {}
 		location = 8376 
 		division_template = "Royal Forces"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
 
 	}
 	
@@ -60,7 +60,7 @@ units = {
 		division_name = {}
 		location = 8376 
 		division_template = "Jeff's Personal Guard"
-		start_experience_factor = 0.5
+		start_experience_factor = 1.0
 		start_equipment_factor = 1.0
 
 	}
@@ -71,5 +71,5 @@ units = {
 ###OTHER###
 
 instant_effect = {
-	add_manpower = 10000
+	add_manpower = 5000
 }

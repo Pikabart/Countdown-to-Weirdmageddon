@@ -1,75 +1,26 @@
 ﻿##### Division Templates #####
-division_template = {
-	name = "Gnome Police Force"
-	#division_names_group = 
 
-	regiments = {
-		infantry = { x = 0 y = 0 }
-	}
-}
 division_template = {
 	name = "Multi-Bear Brigade"
 	#division_names_group = 
 
 	regiments = {
-		mountaineers = { x = 0 y = 0 }
-		mountaineers = { x = 0 y = 1 }
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
 	}
 }
-division_template = {
-	name = "Unicorn Brigade"  
-	#division_names_group = 
 
-	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-	}
-}
 
 ########################################
 
 units = {
-	division= {	
-		division_name = {}
-		location = 8273 
-		division_template = "Gnome Police Force"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-
-	}
 	
 	division= {	
 		division_name = {}
-		location = 8165 
-		division_template = "Gnome Police Force"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {}
-		location = 4599 
-		division_template = "Gnome Police Force"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {}
-		location = 6401 
-		division_template = "Gnome Police Force"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-
-	}
-	
-	division= {	
-		division_name = {}
-		location = 8273 
+		location = 8253 
 		division_template = "Multi-Bear Brigade"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.8
 		start_equipment_factor = 1.0
 
 	}
@@ -78,25 +29,61 @@ units = {
 		division_name = {}
 		location = 8253 
 		division_template = "Multi-Bear Brigade"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.8
 		start_equipment_factor = 1.0
 
 	}
 	
 	division= {	
 		division_name = {}
-		location = 8273 
-		division_template = "Unicorn Brigade"
-		start_experience_factor = 1.0
+		location = 6397 
+		division_template = "Multi-Bear Brigade"
+		start_experience_factor = 0.8
 		start_equipment_factor = 1.0
 
 	}
 	
 	division= {	
 		division_name = {}
-		location = 8351 
-		division_template = "Unicorn Brigade"
-		start_experience_factor = 1.0
+		location = 8221 
+		division_template = "Multi-Bear Brigade"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+
+	}
+	
+	division= {	
+		division_name = {}
+		location = 8165 
+		division_template = "Multi-Bear Brigade"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+
+	}
+	
+	division= {	
+		division_name = {}
+		location = 7110 
+		division_template = "Multi-Bear Brigade"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+
+	}
+	
+	division= {	
+		division_name = {}
+		location = 6334 
+		division_template = "Multi-Bear Brigade"
+		start_experience_factor = 0.8
+		start_equipment_factor = 1.0
+
+	}
+	
+	division= {	
+		division_name = {}
+		location = 2769 
+		division_template = "Multi-Bear Brigade"
+		start_experience_factor = 0.8
 		start_equipment_factor = 1.0
 
 	}
@@ -108,5 +95,5 @@ units = {
 ###OTHER###
 
 instant_effect = {
-	add_manpower = 13000
+	add_manpower = 5000
 }
