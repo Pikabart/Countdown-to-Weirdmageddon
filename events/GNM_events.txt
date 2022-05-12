@@ -11,8 +11,7 @@ country_event = {
 	option = {
 		name = GNM_queen_hunting.1.a
 		ai_chance = { factor = 100 }
-		set_global_flag = mabel_gnome_encounter1
-		mark_focus_tree_layout_dirty = yes
-		custom_effect_tooltip = generic_focus_unlock_tooltip
+		GNM = { country_event = { id = awaits_journal.1 days = 1 } }
+		MYS = { country_event = { id = awaits_journal.1 days = 1 } }
 	}
 }

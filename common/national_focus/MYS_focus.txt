@@ -133,7 +133,6 @@
 		relative_position_id = MYS_prepare_for_the_summer
 		
 		available = {
-			has_global_flag = mabel_gnome_encounter1
 		}		
 		bypass = {}
 		cost = 1
@@ -166,7 +165,7 @@
 		prerequisite = { focus = MYS_the_pine_twins } 
 		
 		available = {}		
-		bypass = {}
+		bypass = { }
 		cost = 2 # (#)x7days 
 
 		cancel_if_invalid = yes
@@ -175,11 +174,11 @@
 
 		select_effect = {
 			#set_country_flag = all_lock_focus  #FLAG STRICTLY FOR MAKING THE FOCUS UNCANCELABLE
-			country_event = { id = awaits_journal.1 days = 1 }
 		}
 
 		completion_reward = {
 			custom_effect_tooltip = MYS_journal_3_effect
+			country_event = MYS_journal_discovery.1
 			hidden_effect={
 				set_country_flag = mys_invest  #Change			
 				set_country_flag = mys_public_time 		#Change
@@ -201,8 +200,8 @@
 		prerequisite = { focus = MYS_journal_3 }
 		relative_position_id = MYS_journal_3
 		
-		available = {}		
-		bypass = {}
+		available = { has_global_flag = mabel_gnome_encounter1 }		
+		bypass = { has_global_flag = mabel_gnome_encounter1 }
 		cost = 2 # (#)x7days 
 
 		select_effect = {

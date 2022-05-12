@@ -2,6 +2,7 @@
 #  - Report Events MYS Awaits -
 ###########################
 
+add_namespace = MYS_journal_discovery
 add_namespace = awaits_journal
 add_namespace = awaits_TREMBLEY
 add_namespace = dipper_soos
@@ -13,15 +14,31 @@ add_namespace = mabel_magnet
 # 
 #############################################
 country_event = { #1
+	id = MYS_journal_discovery.1
+	title = MYS_journal_discovery.1.t 
+	desc = MYS_journal_discovery.1.d  
+	picture = GFX_report_event_finding_journal_3
+	
+	is_triggered_only = yes 
+		
+	immediate = {        
+	}
+	
+	option = { 
+		name = awaits_journal.1.a
+		ai_chance = { factor = 100 }
+		country_event = { id = MYS_journal_discovery.2 days = 1 }
+	}
+}
+
+country_event = { #1
 	id = awaits_journal.1
 	title = awaits_journal.1.t 
 	desc = awaits_journal.1.d  
 	picture = GFX_report_event_finding_journal_3 #  change this later
 	
 	is_triggered_only = yes 
-	 
-	fire_only_once = yes     #Can't happen again
-	
+		
 	immediate = {        
 	}
 	
@@ -38,8 +55,6 @@ country_event = { #2
 	picture = GFX_report_event_norman #  change this later
 	
 	is_triggered_only = yes   
-	 
-	fire_only_once = yes    
 	
 	immediate = {        
 	}
@@ -57,7 +72,6 @@ country_event = { #3
 	picture = GFX_report_event_evidence #  change this later
 	
 	is_triggered_only = yes  
-	fire_only_once = yes     #Can't happen again
 
 	option = { 
 		name = awaits_journal.3.a
@@ -71,8 +85,7 @@ country_event = { #4
 	desc = awaits_journal.4.d  
 	picture = GFX_report_event_gnome_marriage #  change this later
 	
-	is_triggered_only = yes  
-	fire_only_once = yes     #Can't happen again
+	is_triggered_only = yes
 
 	option = { 
 		name = awaits_journal.4.a
@@ -87,13 +100,15 @@ country_event = { #5
 	picture = GFX_report_event_twins #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	#immediate = { hidden_effect = { } }
 	
 	option = { 
 		name = awaits_journal.5.a
 		ai_chance = { factor = 100 }	# 100% AI choose this
+		set_global_flag = mabel_gnome_encounter1
+		mark_focus_tree_layout_dirty = yes
+		custom_effect_tooltip = generic_focus_unlock_tooltip
 		MYS = {add_ideas = MYS_Twins_1}
 	}
 }
@@ -110,7 +125,6 @@ country_event = { #
 	picture = GFX_report_event_silly_1 #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -129,7 +143,6 @@ country_event = { #
 	picture = GFX_report_event_solve_mystery #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -148,7 +161,6 @@ country_event = { #
 	picture = GFX_report_event_silly_2 #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -167,7 +179,6 @@ country_event = { #
 	picture = GFX_report_event_frozen_trembley #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -186,7 +197,6 @@ country_event = { #
 	picture = GFX_report_event_cheers_america #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -209,7 +219,6 @@ country_event = { #
 	picture = GFX_report_event_mystery_shack #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -227,7 +236,6 @@ country_event = { #
 	picture = GFX_report_event_dip_bot #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -245,7 +253,6 @@ country_event = { #
 	picture = GFX_report_event_mab_bot #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -271,7 +278,6 @@ country_event = { #
 	picture = GFX_report_event_mab_bot #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -345,7 +351,6 @@ country_event = { #
 	picture = GFX_report_event_dip_bot #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -369,7 +374,6 @@ country_event = { #
 	picture = GFX_report_event_plaidypus #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -388,7 +392,6 @@ country_event = { #
 	picture = GFX_report_event_admiring_wendy #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -406,7 +409,6 @@ country_event = { #
 	picture = GFX_report_event_mailbox #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -425,7 +427,6 @@ country_event = { #
 	picture = GFX_report_event_forest #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -443,7 +444,6 @@ country_event = { #
 	picture = GFX_report_event_forest #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -480,7 +480,6 @@ country_event = { #
 	picture = GFX_report_event_plaidypus #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {  
 		hidden_effect = {
@@ -554,7 +553,6 @@ country_event = { #
 	picture = GFX_report_event_mystery_shack #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -572,7 +570,6 @@ country_event = { #
 	picture = GFX_report_event_mystery_shack #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -596,7 +593,6 @@ country_event = { #
 	picture = GFX_report_event_magnet_mabel #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -649,7 +645,6 @@ country_event = { #
 	picture = GFX_report_event_microwave_mabel #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -668,7 +663,6 @@ country_event = { #
 	picture = GFX_report_event_microwave_mabel #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -718,7 +712,6 @@ country_event = { #
 	picture = GFX_report_event_stan_of_the_tiger #  change this later
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -772,7 +765,6 @@ country_event = { #
 	picture = GFX_report_event_compy_egg 
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -791,7 +783,6 @@ country_event = { #
 	picture = GFX_report_event_compy_1 
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -809,7 +800,6 @@ country_event = { #
 	picture = GFX_report_event_compy_1
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -829,7 +819,6 @@ country_event = { #
 	picture = GFX_report_event_compy_2
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -853,7 +842,6 @@ country_event = { #
 	picture = GFX_report_event_compy_Sprout
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
@@ -879,7 +867,6 @@ country_event = { #
 	picture = GFX_report_event_compy_Northwest
 	
 	is_triggered_only = yes 
-	fire_only_once = yes     #Can't happen again
 	
 	immediate = {        
 	}
