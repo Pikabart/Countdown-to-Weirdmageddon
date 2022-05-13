@@ -1,0 +1,10 @@
+﻿l_english:
+
+GNM_kidnapping_category:0 "Dev Gnome Kidnapping"
+GNM_kidnapping_category_desc:0 "§YIntel:§! [?GNM_kidnapping_intel_var]\n§YInfiltration:§! [?GNM_kidnapping_infil_var]\n§YConspicuity:§! [?GNM_kidnapping_consp_var]"
+
+GNM_kidnapping_consp_increase_tooltip:0 "Conspicuity §RIncreases§! By §Y1§!"
+GNM_kidnapping_consp_decrease_tooltip:0 "Conspicuity §GDecreases§! By §Y1§!"
+GNM_kidnapping_intel_increase_tooltip:0 "Intel §GIncreases§! By §Y1§!"
+GNM_kidnapping_infil_increase_tooltip:0 "Infiltration §GIncreases§! By §Y1§!"
+GNM_kidnapping_infil_needs_intel_tooltip:0 "§YIntel§! Must be Greater than §YInfiltration§!"

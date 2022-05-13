@@ -1,0 +1,105 @@
+GNM_kidnapping_category = {
+	
+	GNM_kidnapping_intel_increase = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+		}
+		
+		fire_only_once = no
+		
+		
+
+		visible = {
+
+		}		
+
+		cost = 15
+		
+		days_remove = 14
+
+		remove_effect = {
+			custom_effect_tooltip = "GNM_kidnapping_intel_increase_tooltip"
+			custom_effect_tooltip = "GNM_kidnapping_consp_increase_tooltip"
+			add_to_variable = {
+				var = GNM_kidnapping_intel_var
+				value = 1
+			}
+			add_to_variable = {
+				var = GNM_kidnapping_consp_var
+				value = 1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1			
+		}
+	}
+	
+	GNM_kidnapping_infil_increase = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			check_variable = { GNM_kidnapping_consp_var < 99 }
+			check_variable = { GNM_kidnapping_infil_increase < GNM_kidnapping_intel_var }
+		}
+		
+		fire_only_once = no
+		
+		
+
+		visible = {
+
+		}		
+
+		cost = 15
+		
+		days_remove = 14
+
+		remove_effect = {
+			custom_effect_tooltip = "GNM_kidnapping_infil_needs_intel_tooltip"
+			custom_effect_tooltip = "GNM_kidnapping_infil_increase_tooltip"
+			custom_effect_tooltip = "GNM_kidnapping_consp_increase_tooltip"
+			add_to_variable = {
+				var = GNM_kidnapping_infil_var
+				value = 1
+			}
+			add_to_variable = {
+				var = GNM_kidnapping_consp_var
+				value = 1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1			
+		}
+	}
+	
+    GNM_kidnapping_consp_decay = {
+        allowed = { tag = GNM }
+        available = {
+			has_country_flag = GNM_has_queen
+        }
+        activation = {
+		}
+		is_good = yes
+		selectable_mission = no
+		days_mission_timeout = 14
+		timeout_effect = {
+			hidden_effect = {
+				activate_mission = GNM_kidnapping_consp_decay
+			}
+			custom_effect_tooltip = "GNM_kidnapping_consp_decrease_tooltip"
+			add_to_variable = {
+				var = GNM_kidnapping_consp_var
+				value = -1
+			}
+		}
+		complete_effect = {
+		}
+	}
+
+}
+
