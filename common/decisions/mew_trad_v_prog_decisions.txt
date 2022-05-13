@@ -34,7 +34,7 @@ mew_trad_vs_prog_category = {		#Name of category that decisions will appear unde
 			add_to_variable = {
 				var = mew_trad_opinion
 				value = 1
-			}		
+			}
 		
 		}
 		

@@ -4,6 +4,20 @@ on_actions = {
 	#Forest Border Wars
 	on_startup = {
 		effect = {
+			GNM = {
+				set_variable  = {
+					var = GNM_kidnapping_intel_var
+					value = 0
+				}
+				set_variable  = {
+					var = GNM_kidnapping_infil_var
+					value = 0
+				}
+				set_variable  = {
+					var = GNM_kidnapping_consp_var
+					value = 75
+				}
+			}
 			MAN = {
 				start_border_war = {
 					change_state_after_war = yes
