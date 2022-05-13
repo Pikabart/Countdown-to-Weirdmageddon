@@ -12,10 +12,6 @@ state={
 			air_base = 0
 			anti_air_building = 1
 			radar_station = 0
-			8196 = { bunker = 1 }
-			3896 = { bunker = 1 }
-			2769 = { bunker = 1 }
-			6334 = { bunker = 1 }
 			
 		}
 		#victory_points = {}

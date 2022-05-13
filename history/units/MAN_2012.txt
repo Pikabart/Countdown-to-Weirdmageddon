@@ -55,7 +55,7 @@ units = {
 	
 	division= {	
 		division_name = {}
-		location = 8082 
+		location = 8116 
 		division_template = "Manly Brigades"
 		start_experience_factor = 1.0
 		start_equipment_factor = 0
@@ -91,7 +91,7 @@ units = {
 	
 	division= {	
 		division_name = {}
-		location = 8082 
+		location = 8105
 		division_template = "Magic Attack Hands"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0
