@@ -20,10 +20,10 @@ GNM_kidnapping_category = {
 	picture = 
 	
 	allowed = {
-		tag = GNM
+		has_country_flag = GNM_kidnapping_2
 	}
 	visible = {
-		tag = GNM
+		has_country_flag = GNM_kidnapping_2
 	}
 	
 	visible_when_empty = no

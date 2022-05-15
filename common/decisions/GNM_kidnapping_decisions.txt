@@ -5,6 +5,7 @@ GNM_kidnapping_category = {
 		icon = GFX_decision_icon_default
 		
 		available = {
+			check_variable = { GNM_kidnapping_consp_var < 100 }
 		}
 		
 		fire_only_once = no
@@ -42,7 +43,7 @@ GNM_kidnapping_category = {
 		icon = GFX_decision_icon_default
 		
 		available = {
-			check_variable = { GNM_kidnapping_consp_var < 99 }
+			check_variable = { GNM_kidnapping_consp_var < 100 }
 			check_variable = { GNM_kidnapping_infil_increase < GNM_kidnapping_intel_var }
 		}
 		
@@ -77,12 +78,169 @@ GNM_kidnapping_category = {
 		}
 	}
 	
+	GNM_kidnapping_consp_decrease_intel = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			check_variable = { GNM_kidnapping_intel_var > 0 }
+		}
+		
+		fire_only_once = no
+		
+		
+
+		visible = {
+
+		}		
+
+		cost = 15
+		
+		days_remove = 14
+
+		remove_effect = {
+			custom_effect_tooltip = "GNM_kidnapping_intel_decrease_tooltip"
+			custom_effect_tooltip = "GNM_kidnapping_consp_decrease_tooltip_3"
+			add_to_variable = {
+				var = GNM_kidnapping_intel_var
+				value = -1
+			}
+			add_to_variable = {
+				var = GNM_kidnapping_consp_var
+				value = -3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1			
+		}
+	}
+	
+	GNM_kidnapping_consp_decrease_infil = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			check_variable = { GNM_kidnapping_infil_var > 0 }
+		}
+		
+		fire_only_once = no
+		
+		
+
+		visible = {
+
+		}		
+
+		cost = 15
+		
+		days_remove = 14
+
+		remove_effect = {
+			custom_effect_tooltip = "GNM_kidnapping_infil_decrease_tooltip"
+			custom_effect_tooltip = "GNM_kidnapping_consp_decrease_tooltip_3"
+			add_to_variable = {
+				var = GNM_kidnapping_infil_var
+				value = -1
+			}
+			add_to_variable = {
+				var = GNM_kidnapping_consp_var
+				value = -3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1			
+		}
+	}
+	
+	GNM_kidnapping_consp_decrease_intel_infil = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			check_variable = { GNM_kidnapping_infil_var > 3 }
+			check_variable = { GNM_kidnapping_intel_var > 3 }
+		}
+		
+		fire_only_once = no
+		
+		
+
+		visible = {
+
+		}		
+
+		cost = 15
+		
+		days_remove = 14
+
+		remove_effect = {
+			custom_effect_tooltip = "GNM_kidnapping_infil_decrease_tooltip_3"
+			custom_effect_tooltip = "GNM_kidnapping_intel_decrease_tooltip_3"
+			custom_effect_tooltip = "GNM_kidnapping_consp_decrease_tooltip_6"
+			add_to_variable = {
+				var = GNM_kidnapping_infil_var
+				value = -3
+			}
+			add_to_variable = {
+				var = GNM_kidnapping_infil_var
+				value = -3
+			}
+			add_to_variable = {
+				var = GNM_kidnapping_consp_var
+				value = -6
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1			
+		}
+	}
+	
+	GNM_execute_operation = {
+
+		icon = GFX_decision_icon_default
+		
+		available = {
+			check_variable = { 99 < GNM_kidnapping_intel_var }
+			check_variable = { 99 < GNM_kidnapping_infil_increase }
+		}
+		
+		fire_only_once = no
+		
+		
+
+		visible = {
+
+		}		
+
+		cost = 15
+		
+		days_remove = 14
+
+		remove_effect = {
+			custom_effect_tooltip = "GNM_kidnapping_consp_increase_tooltip"
+			custom_effect_tooltip = "GNM_kidnapping_execution_cost_tooltip"
+			add_to_variable = {
+				var = GNM_kidnapping_consp_var
+				value = 1
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1			
+		}
+	}
+	
     GNM_kidnapping_consp_decay = {
         allowed = { tag = GNM }
         available = {
 			has_country_flag = GNM_has_queen
         }
         activation = {
+			always = no
+			#activates via event GNM_queen_hunting.2
 		}
 		is_good = yes
 		selectable_mission = no
@@ -102,4 +260,3 @@ GNM_kidnapping_category = {
 	}
 
 }
-
