@@ -15,3 +15,21 @@ country_event = {
 		MYS = { country_event = { id = awaits_journal.1 days = 1 } }
 	}
 }
+
+country_event = {
+	id = GNM_queen_hunting.2
+	title = GNM_queen_hunting.2.t
+	desc = GNM_queen_hunting.2.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GNM_queen_hunting.2.a
+		ai_chance = { factor = 100 }
+		set_country_flag = GNM_kidnapping_2
+		hidden_effect = {
+			activate_mission = GNM_kidnapping_consp_decay
+		}
+	}
+}
