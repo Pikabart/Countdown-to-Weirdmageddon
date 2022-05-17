@@ -1,0 +1,12 @@
+leader_traits = {
+
+	GNM_jeffs_right_hand = {
+		random = no
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		political_power_factor = 0.15
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

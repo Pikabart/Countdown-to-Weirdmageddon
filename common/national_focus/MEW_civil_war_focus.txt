@@ -72,7 +72,10 @@
 		cost = 2			
 		relative_position_id = butterfly_front 
 		prerequisite = { focus = butterfly_front }
-		available = { has_war = no }
+		available = {
+			has_war = no
+			430 = { is_owned_by = CEF }
+		}
 		available = { country_exists = LUD }
 		ai_will_do = {
 			factor = 10

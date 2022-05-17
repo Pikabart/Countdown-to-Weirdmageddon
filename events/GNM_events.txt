@@ -1,4 +1,33 @@
 ﻿add_namespace = GNM_queen_hunting
+add_namespace = GNM_flavor
+
+country_event = {
+	id = GNM_flavor.1
+	title = GNM_flavor.1.t
+	desc = GNM_flavor.1.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GNM_flavor.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = GNM_flavor.2
+	title = GNM_flavor.2.t
+	desc = GNM_flavor.2.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GNM_flavor.2.a
+		ai_chance = { factor = 100 }
+	}
+}
 
 country_event = {
 	id = GNM_queen_hunting.1
@@ -27,7 +56,46 @@ country_event = {
 	option = {
 		name = GNM_queen_hunting.2.a
 		ai_chance = { factor = 100 }
+		custom_effect_tooltip = "new_decisions_tooltip"
 		set_country_flag = GNM_kidnapping_2
+		hidden_effect = {
+			activate_mission = GNM_kidnapping_consp_decay
+		}
+	}
+}
+
+country_event = {
+	id = GNM_queen_hunting.3
+	title = GNM_queen_hunting.3.t
+	desc = GNM_queen_hunting.3.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GNM_queen_hunting.3.a
+		ai_chance = { factor = 100 }
+		set_country_flag = GNM_kidnapping_2
+		custom_effect_tooltip = "new_decisions_tooltip"
+		hidden_effect = {
+			activate_mission = GNM_kidnapping_consp_decay
+		}
+	}
+}
+
+country_event = {
+	id = GNM_queen_hunting.4
+	title = GNM_queen_hunting.4.t
+	desc = GNM_queen_hunting.4.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GNM_queen_hunting.4.a
+		ai_chance = { factor = 100 }
+		set_country_flag = GNM_kidnapping_2
+		custom_effect_tooltip = "new_decisions_tooltip"
 		hidden_effect = {
 			activate_mission = GNM_kidnapping_consp_decay
 		}

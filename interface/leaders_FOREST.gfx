@@ -6,6 +6,14 @@ spriteTypes = {
 			texturefile = "gfx/leaders/FOREST/Portrait_Forest_Jeff_Little-Legs.dds"
 		}
 	spriteType = {
+			name = "GFX_leaders_shmebulock"
+			texturefile = "gfx/leaders/FOREST/Portrait_Forest_shmebulock.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_carson"
+			texturefile = "gfx/leaders/FOREST/Portrait_Forest_carson.dds"
+		}
+	spriteType = {
 			name = "GFX_leaders_leaderaur"
 			texturefile = "gfx/leaders/FOREST/Portrait_Forest_Leaderaur.dds"
 		}
