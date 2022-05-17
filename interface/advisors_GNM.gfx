@@ -1,0 +1,11 @@
+### Advisors for DRG ###
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_advisor_shmebulock"
+		texturefile = "gfx/interface/advisors/GNM/advisor_shmebulock.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_advisor_carson"
+		texturefile = "gfx/interface/advisors/GNM/advisor_carson.dds"
+	}
+}

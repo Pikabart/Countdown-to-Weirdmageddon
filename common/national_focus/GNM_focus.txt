@@ -32,6 +32,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = GNM_flavor.1
 		}
 		
 		ai_will_do = {
@@ -61,6 +62,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			country_event = GNM_flavor.2
 		}
 		
 		ai_will_do = {
@@ -263,8 +265,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = GNM_alpha_philosophy 
-		prerequisite = { focus = GNM_alpha_philosophy }
-		prerequisite = { focus = GNM_vr_queens }
+		prerequisite = { focus = GNM_alpha_philosophy focus = GNM_vr_queens }
 		
 		available = {
 		}
@@ -295,6 +296,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GNM_suppress_the_blackpill 
 		prerequisite = { focus = GNM_suppress_the_blackpill }
+		mutually_exclusive = { focus = GNM_operation_fall_fantasy focus = GNM_operation_everything_nice }
 		
 		available = {
 		}
@@ -325,6 +327,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GNM_suppress_the_blackpill 
 		prerequisite = { focus = GNM_suppress_the_blackpill }
+		mutually_exclusive = { focus = GNM_operation_northern_dream focus = GNM_operation_everything_nice }
 		
 		available = {
 		}
@@ -338,7 +341,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			country_event = GNM_queen_hunting.2
+			country_event = GNM_queen_hunting.3
 		}
 		
 		ai_will_do = {
@@ -355,6 +358,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = GNM_suppress_the_blackpill 
 		prerequisite = { focus = GNM_suppress_the_blackpill }
+		mutually_exclusive = { focus = GNM_operation_northern_dream focus = GNM_operation_fall_fantasy }
 		
 		available = {
 		}
@@ -368,7 +372,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			country_event = GNM_queen_hunting.2
+			country_event = GNM_queen_hunting.4
 		}
 		
 		ai_will_do = {

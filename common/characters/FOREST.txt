@@ -25,6 +25,66 @@ characters = {###########################################################
 		}	
 	}
 	
+	GNM_shmebulock = {
+		name = "Shmebulysses Q. Locke III" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_shmebulock"
+				small = "GFX_idea_advisor_shmebulock"
+			}
+		}
+		field_marshal = {
+			desc = ""
+			traits = { trait_reckless }
+			skill = 3
+
+			attack_skill = 3
+			defense_skill = 1		
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GNM_shmebulock_idea_token
+			allowed = {
+			}
+			available = {
+			}
+			ai_will_do = {
+				factor = 30.000
+			}
+			traits = {
+				prince_of_terror
+			}
+		}
+	}
+	
+	GNM_carson = {
+		name = "Carson Righty Tighty" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_carson"
+				small = "GFX_idea_advisor_carson"
+			}
+		}
+		advisor = {
+			slot = political_advisor
+			idea_token = GNM_carson_idea_token
+			allowed = {
+			}
+			available = {
+			}
+			ai_will_do = {
+				factor = 30.000
+			}
+			traits = {
+				GNM_jeffs_right_hand
+			}
+		}
+	}
+	
 	UFC_multi_corn= {
 		name = "Dual Prime Ministership" 
 		
