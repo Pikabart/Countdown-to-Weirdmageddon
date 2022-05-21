@@ -1,0 +1,30 @@
+characters = {###########################################################
+	
+	MAN_leaderaur = {
+		name = "Leaderaur" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_leaderaur"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = fascism_ideology
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			desc = ""
+			traits = {  }
+			skill = 2
+
+			attack_skill = 4
+			defense_skill = 1		
+			planning_skill = 1
+			logistics_skill = 1
+		}	
+	}
+
+}###########################################################
+	

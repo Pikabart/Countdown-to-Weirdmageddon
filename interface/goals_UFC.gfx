@@ -1,0 +1,58 @@
+spriteTypes = {	
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_river_trembley"
+	texturefile = "gfx/interface/goals/UFC/FOREST_river_trembley.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_river"
+	texturefile = "gfx/interface/goals/UFC/FOREST_river.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_river_battle"
+	texturefile = "gfx/interface/goals/UFC/FOREST_river_battle.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_UFC_bear_counter_attack"
+	texturefile = "gfx/interface/goals/UFC/UFC_bear_counter_attack.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_UFC_bear_front"
+	texturefile = "gfx/interface/goals/UFC/UFC_bear_front.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_UFC_bear_defense"
+	texturefile = "gfx/interface/goals/UFC/UFC_bear_defense.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_unicorn_manotaur"
+	texturefile = "gfx/interface/goals/UFC/FOREST_unicorn_manotaur.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_unicorn_alone"
+	texturefile = "gfx/interface/goals/UFC/FOREST_unicorn_alone.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_unicorn_bear"
+	texturefile = "gfx/interface/goals/UFC/FOREST_unicorn_bear.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_bear_victory"
+	texturefile = "gfx/interface/goals/UFC/FOREST_bear_victory.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_manotaur_victory"
+	texturefile = "gfx/interface/goals/UFC/FOREST_manotaur_victory.dds"
+	}
+
+} ### End Bracket

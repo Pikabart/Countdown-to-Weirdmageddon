@@ -1,0 +1,371 @@
+﻿focus_tree = {
+
+	id = UFC_inital_tree
+	
+	country = {
+		factor = 0		
+		modifier = {
+			add = 100
+			tag = UFC
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 1000 y = 50 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = { 
+		id = UFC_trembley_river_battle
+		icon = GFX_goal_FOREST_river_battle 
+		x = 24
+		y = 1
+		
+		available = {}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = { 
+		id = UFC_counter_attack
+		icon = GFX_goal_UFC_bear_counter_attack 
+		x = -2
+		y = 1
+		relative_position_id = UFC_trembley_river_battle
+		prerequisite = { focus = UFC_trembley_river_battle }
+		
+		available = {}
+				
+		bypass = {} 
+		
+		cost = 4
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}
+
+	focus = { 
+		id = UFC_hold_front
+		icon = GFX_goal_UFC_bear_defense 
+		x = 2
+		y = 1
+		relative_position_id = UFC_trembley_river_battle
+		prerequisite = { focus = UFC_trembley_river_battle }
+		
+		available = {}
+				
+		bypass = {} 
+		
+		cost = 4
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}	
+	
+##########################################################################
+	
+	focus = { 
+		id = UFC_unicorn_manotaur
+		icon = GFX_goal_FOREST_unicorn_manotaur 
+		x = -3
+		y = 2
+		relative_position_id = UFC_trembley_river_battle
+		prerequisite = { focus = UFC_counter_attack }
+		prerequisite = { focus = UFC_hold_front }
+		mutually_exclusive = { focus = UFC_unicorn_none }
+		mutually_exclusive = { focus = UFC_unicorn_bears }
+		
+		available = {always=false}		
+		bypass = {} 
+		cost = 4
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}
+	
+	focus = { 
+		id = UFC_unicorn_none
+		icon = GFX_goal_FOREST_unicorn_alone 
+		x = 0
+		y = 2
+		relative_position_id = UFC_trembley_river_battle
+		prerequisite = { focus = UFC_counter_attack }
+		prerequisite = { focus = UFC_hold_front }
+		mutually_exclusive = { focus = UFC_unicorn_manotaur }
+		mutually_exclusive = { focus = UFC_unicorn_bears }
+		
+		available = {always=false}		
+		bypass = {} 
+		cost = 4
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}
+	
+	focus = { 
+		id = UFC_unicorn_bears
+		icon = GFX_goal_FOREST_unicorn_bear 
+		x = 3
+		y = 2
+		relative_position_id = UFC_trembley_river_battle
+		prerequisite = { focus = UFC_counter_attack }
+		prerequisite = { focus = UFC_hold_front }
+		mutually_exclusive = { focus = UFC_unicorn_manotaur }
+		mutually_exclusive = { focus = UFC_unicorn_none }
+		
+		available = {always=false}		
+		bypass = {} 
+		cost = 4
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}
+
+##########################################################################
+	
+	focus = { 
+		id = UFC_final_defense
+		icon = GFX_goal_UFC_bear_front
+		x = 0
+		y = 1
+		relative_position_id = UFC_unicorn_none
+		prerequisite = { 
+			focus = UFC_unicorn_manotaur
+			focus = UFC_unicorn_none
+			focus = UFC_unicorn_bears
+		}
+		
+		available = {}		
+		bypass = {} 
+		cost = 4
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "UFC_final_defense.t"
+			MAN = { declare_war_on = { target = UFC type = annex_everything } }
+			cancel_border_war = {  dont_fire_events = yes defender = 46 attacker = 50 }
+			cancel_border_war = {  dont_fire_events = yes defender = 508 attacker = 51 }
+			cancel_border_war = {  dont_fire_events = yes defender = 509 attacker = 48 }
+			hidden_effect = { }
+		}
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}
+	
+	focus = { 
+		id = UFC_bear_victory
+		icon = GFX_goal_FOREST_bear_victory 
+		x = -4
+		y = 1
+		relative_position_id = UFC_final_defense
+		prerequisite = { focus = UFC_final_defense }
+		mutually_exclusive = { focus = UFC_manotaur_victory }
+		
+		available = {always=false}		
+		bypass = {} 	
+		cost = 4
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}
+	
+	focus = { 
+		id = UFC_manotaur_victory
+		icon = GFX_goal_FOREST_manotaur_victory 
+		x = 4
+		y = 1
+		relative_position_id = UFC_final_defense
+		prerequisite = { focus = UFC_final_defense }
+		mutually_exclusive = { focus = UFC_bear_victory }
+		
+		available = {always=false}				
+		bypass = {} 		
+		cost = 4
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}
+	
+	
+##########################################################################
+##########################################################################
+##########################################################################
+
+	focus = { 
+		id = UFC_hibernate
+		icon = GFX_goal_FOREST_river 
+		x = 0
+		y = 3
+		relative_position_id = UFC_final_defense
+		prerequisite = { focus = UFC_bear_victory  focus = UFC_manotaur_victory }
+		
+		available = {}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}	
+##########################################################################
+##########################################################################
+##########################################################################
+
+	focus = { 
+		id = UFC_the_new_peace 
+		icon = GFX_goal_FOREST_bear_victory 
+		x = -3
+		y = 2
+		relative_position_id = UFC_bear_victory
+		prerequisite = { focus = UFC_bear_victory }
+		
+		available = {}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}
+	
+	
+##########################################################################
+##########################################################################
+##########################################################################
+
+	focus = { 
+		id = UFC_testostrone_defeat
+		icon = GFX_goal_FOREST_manotaur_victory 
+		x = 3
+		y = 2
+		relative_position_id = UFC_manotaur_victory
+		prerequisite = { focus = UFC_manotaur_victory }
+		
+		available = {}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}
+
+
+
+
+
+
+
