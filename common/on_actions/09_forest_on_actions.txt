@@ -5,6 +5,7 @@ on_actions = {
 	on_startup = {
 		effect = {
 			MAN = { country_event = { id = FOREST_border_wars.1 hours = 2 } }
+			UFC = { country_event = { id = UFC_START_EVENT.1 hours = 1 } }
 			GNM = {
 				set_variable  = {
 					var = GNM_kidnapping_intel_var

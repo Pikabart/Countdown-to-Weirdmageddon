@@ -3,18 +3,7 @@
  #For CALIFORNIA events
  
  #1
- #.t:0 ""
- #.d:0 ""
- #.a:0 ""
- FOREST_wars.1.d_bears:0 "We have defeated the dreaded Manotaurs!"
- FOREST_wars.1.d_manot:0 "We have crushed the wussie Multi-Bears!"
+ UFC_START_EVENT.1.t:0 "The Roars of the Forest"
+ UFC_START_EVENT.1.d:0 "Up in the mountains of Northeast Oregon was a series of deep and interacted caves. Far from the eyes of the gnomes and taunts of the manotaurs was the home of the Multi-Bears, ferocious yet calm beast with multiple heads and an intelligence to match. Often found in slumber and hibernation, these creatures of the forest of Gravity Falls once had little care of the day-to-day activities at the base of their mountain, where the rule of Gnome Queen reign supreme and kept order. In their their caves they have their solitude and 80s music.\n\nNow though, that time of peace had come to an end. The Death of the Gnome Queen has thrown the Forest into disarray. With the Gnomes in retreat, and the Manotaurs and Unicorns taking control of their local area, so has the time come that the Multi-bears emerged from their caves and spread out to bring order to land. There were little the disorganized denizens of the forest could do against these multiheaded bears.\n\nBut between the brutish Manotaurs and the ever-manipulative Unicorns, the Multi-Bears and their intellect and poise could very well be the key to a new future in the Forest. As the Long Summer begins and Gravity Falls turn a Blind Eye to what rumbles in the woods, a fight has broken out. The Manotaurs have crossed the river Trembley, and the Bears stand ready to drive them back. Even in the deepest part of the Forest, any rumble will soon be heard by all."
+ UFC_START_EVENT.1.a:0 "The Multi-Bears Have Awoken!"
  
- FOREST_wars.1.t:0 "Victory at the shores of Trembley River"
- FOREST_wars.1.a:0 "Victory over the Brutes!"
- FOREST_wars.1.b:0 "Suck it, hibernating losers!"
- FOREST_wars.1.c:0 "Hooray!"
- 
- FOREST_wars.2.t:0 "We have been Defeated!"
- FOREST_wars.2.d_bears:0 "The Manotaurs have defeated us!"
- FOREST_wars.2.d_manot:0 "Those dang Multi-Bears beat us!"
- FOREST_wars.2.a:0 "..."
