@@ -381,5 +381,449 @@ focus_tree = {
 		}
 		
 	}
+	
+	focus = {
+		id = GNM_queen_chiu
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = GNM_operation_everything_nice 
+		prerequisite = { focus = GNM_operation_everything_nice }
+		
+		available = {
+		}
+		
+		allow_branch = {
+			has_global_flag = candy_gnome_kidnapped
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_work_quotas
+		icon = a
+		x = -2
+		y = 1
+		relative_position_id = GNM_queen_chiu 
+		prerequisite = { focus = GNM_queen_chiu }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GNM_CANDY_labor_decree_1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_996_standard_work
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = GNM_work_quotas 
+		prerequisite = { focus = GNM_work_quotas }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GNM_CANDY_labor_decree_1
+				add_idea = GNM_CANDY_labor_decree_2
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_beasts_of_burden
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = GNM_996_standard_work 
+		prerequisite = { focus = GNM_996_standard_work }
+		mutually_exclusive = { focus = GNM_hauling_cohesion }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GNM_CANDY_labor_decree_2
+				add_idea = GNM_CANDY_labor_decree_3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_hauling_cohesion
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = GNM_996_standard_work 
+		prerequisite = { focus = GNM_996_standard_work }
+		prerequisite = { focus = GNM_standing_army }
+		mutually_exclusive = { focus = GNM_beasts_of_burden }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GNM_CANDY_labor_decree_2
+				add_idea = GNM_CANDY_labor_decree_4
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_enforcing_discipline
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = GNM_queen_chiu 
+		prerequisite = { focus = GNM_queen_chiu }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GNM_CANDY_military_1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_standing_army
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = GNM_enforcing_discipline 
+		prerequisite = { focus = GNM_enforcing_discipline }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GNM_CANDY_military_1
+				add_idea = GNM_CANDY_military_2
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_prussia_of_oregon
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = GNM_standing_army
+		prerequisite = { focus = GNM_standing_army }
+		prerequisite = { focus = GNM_pave_over_the_forest }
+		mutually_exclusive = { focus = GNM_pittsburgh_of_oregon }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = GNM_CANDY_military_2
+				add_idea = GNM_CANDY_military_3
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_industrialize_the_forest
+		icon = a
+		x = 2
+		y = 1
+		relative_position_id = GNM_queen_chiu 
+		prerequisite = { focus = GNM_queen_chiu }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = GNM_pave_over_the_forest
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = GNM_industrialize_the_forest 
+		prerequisite = { focus = GNM_industrialize_the_forest }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 8
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_pittsburgh_of_oregon
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = GNM_pave_over_the_forest 
+		prerequisite = { focus = GNM_pave_over_the_forest }
+		prerequisite = { focus = GNM_standing_army }
+		mutually_exclusive = { focus = GNM_prussia_of_oregon }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = GNM_CANDY_pittsburgh_idea
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = GNM_blood_iron_mint
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = GNM_hauling_cohesion
+		prerequisite = { focus = GNM_beasts_of_burden focus = GNM_hauling_cohesion }
+		prerequisite = { focus = GNM_prussia_of_oregon focus = GNM_pittsburgh_of_oregon }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
 
 }

@@ -101,3 +101,38 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = GNM_queen_hunting.5
+	title = GNM_queen_hunting.5.t
+	desc = GNM_queen_hunting.5.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GNM_queen_hunting.5.a
+		ai_chance = { factor = 100 }
+		trigger = {
+			has_completed_focus = GNM_operation_everything_nice
+		}
+		set_global_flag = candy_gnome_kidnapped
+		mark_focus_tree_layout_dirty = yes
+	}
+	
+	option = {
+		name = GNM_queen_hunting.5.b
+		ai_chance = { factor = 100 }
+		trigger = {
+			has_completed_focus = GNM_operation_northern_dream
+		}
+	}
+	
+	option = {
+		name = GNM_queen_hunting.5.c
+		ai_chance = { factor = 100 }
+		trigger = {
+			has_completed_focus = GNM_operation_fall_fantasy
+		}
+	}
+}
