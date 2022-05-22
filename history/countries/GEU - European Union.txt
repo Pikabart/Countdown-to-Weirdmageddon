@@ -29,7 +29,9 @@ create_country_leader = {
 
 set_technology = {
 	
+	industrial_progress_check = 1
 	industrial_progress = 1
+	modern_progress_check = 1
 	modern_progress = 1
 	
 	#infantry folder

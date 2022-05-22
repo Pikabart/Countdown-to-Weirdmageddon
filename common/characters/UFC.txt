@@ -1,0 +1,72 @@
+characters = {###########################################################
+	
+	UFC_multi_corn= {
+		name = "Dual Prime Ministership" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_multi_corn"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+		}	
+	}
+	
+	UFC_multi_bear = {
+		name = "Multibear" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_john_multibear"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = centrism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			desc = ""
+			traits = {  }
+			skill = 4
+
+			attack_skill = 1
+			defense_skill = 1		
+			planning_skill = 3
+			logistics_skill = 2
+		}	
+	}
+	
+	UFC_unicorn = {
+		name = "Celestabellebethabelle" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_celestabellebethabelle"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = centrism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		corps_commander = {
+			desc = "MILITARY_STAN_PINES_DESC"
+			traits = {  }
+			skill = 2
+
+			attack_skill = 3
+			defense_skill = 2		
+			planning_skill = 2
+			logistics_skill = 1
+		}	
+	}
+
+}###########################################################
+	

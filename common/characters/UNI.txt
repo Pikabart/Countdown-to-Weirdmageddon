@@ -1,0 +1,30 @@
+characters = {###########################################################
+	
+	UNI_unicorn = {
+		name = "Celestabellebethabelle" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_celestabellebethabelle"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = centrism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		corps_commander = {
+			desc = ""
+			traits = {  }
+			skill = 2
+
+			attack_skill = 3
+			defense_skill = 2		
+			planning_skill = 2
+			logistics_skill = 1
+		}	
+	}
+
+}###########################################################
+	

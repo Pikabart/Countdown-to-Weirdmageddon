@@ -48,18 +48,6 @@ bookmarks = {
 			}
 		}
 		
-		"MYM"={
-			history = "MYM_ROADKILL_DESC"
-			ideology = democratic
-			
-			ideas = {
-				
-			}
-			focuses = {
-				
-			}
-		}
-		
 		"GNM"={
 			history = "GNM_ROADKILL_DESC"
 			ideology = neutrality
@@ -74,7 +62,19 @@ bookmarks = {
 
 		"UFC"={
 			history = "UFC_ROADKILL_DESC"
-			ideology = democratic
+			ideology = neutrality
+			
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"UNI"={
+			history = "UNI_ROADKILL_DESC"
+			ideology = neutrality
 			
 			ideas = {
 				

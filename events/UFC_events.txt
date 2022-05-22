@@ -1,0 +1,15 @@
+﻿add_namespace = UFC_START_EVENT
+
+country_event = {
+	id = UFC_START_EVENT.1
+	title = UFC_START_EVENT.1.t
+	desc = UFC_START_EVENT.1.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_START_EVENT.1.a
+		ai_chance = { factor = 100 }
+	}
+}

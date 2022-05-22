@@ -1,0 +1,68 @@
+﻿l_english:
+
+ #For MultiBears Focus Tree
+ 
+ #1
+ #UFC_start.1:0 ""
+ #UFC_start.1_desc:0 ""
+ #UFC_start.1.t:0 ""
+ 
+ #:0 ""
+ #_desc:0 ""
+ #.t:0 ""
+
+ UFC_trembley_river_battle:0 "Defending The River Trembley"
+ UFC_trembley_river_battle_desc:0 ""
+ UFC_trembley_river_battle.t:0 ""
+ 
+ UFC_counter_attack:0 "Launch Counter-Offensive"
+ UFC_counter_attack_desc:0 ""
+ UFC_counter_attack.t:0 ""
+ 
+ UFC_hold_front:0 "Holding The Multi-Front"
+ UFC_hold_front_desc:0 ""
+ UFC_hold_front.t:0 ""
+ 
+ UFC_unicorn_manotaur:0 "The Unicorns Abandon Us!"
+ UFC_unicorn_manotaur_desc:0 ""
+ UFC_unicorn_manotaur.t:0 ""
+ 
+ UFC_unicorn_none:0 "The Unicorns Will Not Intervene"
+ UFC_unicorn_none_desc:0 ""
+ UFC_unicorn_none.t:0 ""
+ 
+ UFC_unicorn_bears:0 "The Unicorns Support Us!"
+ UFC_unicorn_bears_desc:0 ""
+ UFC_unicorn_bears.t:0 ""
+ 
+ UFC_final_defense:0 "Defense Of The Multibear Realm!"
+ UFC_final_defense_desc:0 ""
+ UFC_final_defense.t:0 ""
+ 
+ UFC_bear_victory:0 "Victory Over The Manotaurs"
+ UFC_bear_victory_desc:0 ""
+ UFC_bear_victory.t:0 ""
+ 
+ UFC_manotaur_victory:0 "Testostrone Soaked Defeat"
+ UFC_manotaur_victory_desc:0 ""
+ UFC_manotaur_victory.t:0 ""
+ 
+ ########################################################################
+ 
+ UFC_hibernate:0 "Early Hibernation"
+ UFC_hibernate_desc:0 ""
+ UFC_hibernate.t:0 ""
+ 
+ ########################################################################
+ 
+ UFC_the_new_peace:0 "Rebuild The Peace"
+ UFC_the_new_peace_desc:0 ""
+ UFC_the_new_peace.t:0 ""
+ 
+ ########################################################################
+ 
+ UFC_testostrone_defeat:0 "No Sleep in the Long Summer"
+ UFC_testostrone_defeat_desc:0 ""
+ UFC_testostrone_defeat.t:0 ""
+ 
+ ########################################################################

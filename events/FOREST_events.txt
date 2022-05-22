@@ -1,0 +1,163 @@
+﻿# Combine FOREST OF GF events
+add_namespace = FOREST_border_wars
+add_namespace = FOREST_wars
+
+country_event = {
+	id = FOREST_border_wars.1
+	title = FOREST_border_wars.1.t
+	desc = FOREST_border_wars.1.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	hidden = yes
+	
+	immediate = {
+		MAN = {
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 50
+					num_provinces = 3
+					#on_win = japan_border_conflict.2
+					#on_lose = japan_border_conflict.3
+					#on_cancel = japan_border_conflict.4
+				}
+							
+				defender = {
+					state = 46
+					num_provinces = 3
+					#on_win = japan_border_conflict.3
+					#on_lose = japan_border_conflict.2
+					#on_cancel = japan_border_conflict.4
+				}
+			}
+			set_border_war_data = {
+				attacker = 50
+				defender = 50
+				defender_modifier = 1
+				combat_width = 15
+			}
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 51
+					num_provinces = 3
+					#on_win = japan_border_conflict.2
+					#on_lose = japan_border_conflict.3
+					#on_cancel = japan_border_conflict.4
+				}
+							
+				defender = {
+					state = 508
+					num_provinces = 3
+					#on_win = japan_border_conflict.3
+					#on_lose = japan_border_conflict.2
+					#on_cancel = japan_border_conflict.4
+				}
+			}
+			set_border_war_data = {
+				attacker = 51
+				defender = 49
+				defender_modifier = 1
+				combat_width = 15
+			}
+		}
+		UFC = {
+			start_border_war = {
+				change_state_after_war = yes
+				attacker = {
+					state = 48
+					num_provinces = 3
+					#on_win = japan_border_conflict.2
+					#on_lose = japan_border_conflict.3
+					#on_cancel = japan_border_conflict.4
+				}
+							
+				defender = {
+					state = 509
+					num_provinces = 3
+					#on_win = japan_border_conflict.3
+					#on_lose = japan_border_conflict.2
+					#on_cancel = japan_border_conflict.4
+				}
+			}
+			set_border_war_data = {
+				attacker = 48
+				defender = 52
+				attacker_modifier = 1
+				combat_width = 15
+			}
+		}
+	}
+	option = {
+		name = FOREST_border_wars.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+############################################################
+############################################################
+
+country_event = { #Winning the War
+	id = FOREST_wars.1
+	title = FOREST_wars.1.t
+	desc = {
+		text = FOREST_wars.1.d_bears
+		trigger = { tag = UFC }
+	}
+	desc = {
+		text = FOREST_wars.1.d_manot
+		trigger = { tag = MAN }
+	}
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	fire_only_once = yes  
+	
+	immediate = {
+		IF = { limit = { tag = UFC }
+			white_peace = { tag = MAN message = FOREST_wars.1.a }
+			transfer_state = 509
+			UFC = {add_state_core = 509 complete_national_focus = UFC_bear_victory}
+		}
+		ELSE_IF = { limit = { tag = MAN }
+			white_peace = { tag = UFC message = FOREST_wars.1.b }
+			transfer_state = 508
+			MAN = {add_state_core = 508}
+		}
+	}
+	option = {
+		name = FOREST_wars.1.c
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { #Losing the War
+	id = FOREST_wars.2 
+	title = FOREST_wars.2.t
+	desc = {
+		text = FOREST_wars.2.d_bears
+		trigger = { tag = UFC }
+	}
+	desc = {
+		text = FOREST_wars.2.d_manot
+		trigger = { tag = MAN }
+	}
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		IF = { limit = { tag = UFC }
+			add_political_power = -100
+			UFC = { complete_national_focus = UFC_manotaur_victory }
+		}
+		ELSE_IF = { limit = { tag = MAN }
+			add_political_power = -100
+		}
+	}
+	option = {
+		name = FOREST_wars.2.a
+		ai_chance = { factor = 100 }
+	}
+}
