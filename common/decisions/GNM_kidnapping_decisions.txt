@@ -20,15 +20,18 @@ GNM_kidnapping_category = {
 		
 		days_remove = 14
 
-		remove_effect = {
-			custom_effect_tooltip = "GNM_kidnapping_intel_increase_tooltip"
+		complete_effect = {
 			custom_effect_tooltip = "GNM_kidnapping_consp_increase_tooltip"
 			add_to_variable = {
-				var = GNM_kidnapping_intel_var
+				var = GNM_kidnapping_consp_var
 				value = 1
 			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = "GNM_kidnapping_intel_increase_tooltip"
 			add_to_variable = {
-				var = GNM_kidnapping_consp_var
+				var = GNM_kidnapping_intel_var
 				value = 1
 			}
 		}
@@ -59,16 +62,19 @@ GNM_kidnapping_category = {
 		
 		days_remove = 14
 
-		remove_effect = {
+		complete_effect = {
 			custom_effect_tooltip = "GNM_kidnapping_infil_needs_intel_tooltip"
-			custom_effect_tooltip = "GNM_kidnapping_infil_increase_tooltip"
+			custom_effect_tooltip = "GNM_kidnapping_consp_increase_tooltip"
+			add_to_variable = {
+				var = GNM_kidnapping_consp_var
+				value = 1
+			}
+		}
+
+		remove_effect = {
 			custom_effect_tooltip = "GNM_kidnapping_consp_increase_tooltip"
 			add_to_variable = {
 				var = GNM_kidnapping_infil_var
-				value = 1
-			}
-			add_to_variable = {
-				var = GNM_kidnapping_consp_var
 				value = 1
 			}
 		}
@@ -98,13 +104,16 @@ GNM_kidnapping_category = {
 		
 		days_remove = 14
 
-		remove_effect = {
+		complete_effect = {
 			custom_effect_tooltip = "GNM_kidnapping_intel_decrease_tooltip"
-			custom_effect_tooltip = "GNM_kidnapping_consp_decrease_tooltip_3"
 			add_to_variable = {
 				var = GNM_kidnapping_intel_var
 				value = -1
 			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = "GNM_kidnapping_consp_decrease_tooltip_3"
 			add_to_variable = {
 				var = GNM_kidnapping_consp_var
 				value = -3
@@ -136,13 +145,16 @@ GNM_kidnapping_category = {
 		
 		days_remove = 14
 
-		remove_effect = {
+		complete_effect = {
 			custom_effect_tooltip = "GNM_kidnapping_infil_decrease_tooltip"
-			custom_effect_tooltip = "GNM_kidnapping_consp_decrease_tooltip_3"
 			add_to_variable = {
 				var = GNM_kidnapping_infil_var
 				value = -1
 			}
+		}
+
+		remove_effect = {
+			custom_effect_tooltip = "GNM_kidnapping_consp_decrease_tooltip_3"
 			add_to_variable = {
 				var = GNM_kidnapping_consp_var
 				value = -3
@@ -175,18 +187,21 @@ GNM_kidnapping_category = {
 		
 		days_remove = 14
 
-		remove_effect = {
+		complete_effect = {
 			custom_effect_tooltip = "GNM_kidnapping_infil_decrease_tooltip_3"
 			custom_effect_tooltip = "GNM_kidnapping_intel_decrease_tooltip_3"
+			add_to_variable = {
+				var = GNM_kidnapping_infil_var
+				value = -3
+			}
+			add_to_variable = {
+				var = GNM_kidnapping_intel_var
+				value = -3
+			}
+		}
+
+		remove_effect = {
 			custom_effect_tooltip = "GNM_kidnapping_consp_decrease_tooltip_6"
-			add_to_variable = {
-				var = GNM_kidnapping_infil_var
-				value = -3
-			}
-			add_to_variable = {
-				var = GNM_kidnapping_infil_var
-				value = -3
-			}
 			add_to_variable = {
 				var = GNM_kidnapping_consp_var
 				value = -6
@@ -219,13 +234,17 @@ GNM_kidnapping_category = {
 		
 		days_remove = 14
 
-		remove_effect = {
+		complete_effect = {
 			custom_effect_tooltip = "GNM_kidnapping_consp_increase_tooltip"
 			custom_effect_tooltip = "GNM_kidnapping_execution_cost_tooltip"
 			add_to_variable = {
 				var = GNM_kidnapping_consp_var
 				value = 1
 			}
+		}
+
+		remove_effect = {
+			country_event = GNM_queen_hunting.5
 		}
 		
 		ai_will_do = {
