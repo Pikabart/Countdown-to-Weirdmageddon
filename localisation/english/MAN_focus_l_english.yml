@@ -1,0 +1,72 @@
+﻿l_english:
+
+ #For MultiBears Focus Tree
+ 
+ #1
+ #UFC_start.1:0 ""
+ #UFC_start.1_desc:0 ""
+ #UFC_start.1.t:0 ""
+ 
+ #:0 ""
+ #_desc:0 ""
+ #.t:0 ""
+
+ MAN_cross_river:0 "Crossing The River Trembley"
+ MAN_cross_river_desc:0 ""
+ MAN_cross_river.t:0 ""
+ 
+ MAN_flex_support:0 "Manly Flex"
+ MAN_flex_support_desc:0 ""
+ MAN_flex_support.t:0 ""
+ 
+ MAN_womantaur_support:0 "Ensure Womantaur's Approval"
+ MAN_womantaur_support_desc:0 ""
+ MAN_womantaur_support.t:0 ""
+ 
+ MAN_handwitch_alliance:0 "Handy Alliance"
+ MAN_handwitch_alliance_desc:0 ""
+ MAN_handwitch_alliance.t:0 ""
+ 
+ MAN_keep_pushing:0 "Keep Pushing Up The Hill"
+ MAN_keep_pushing_desc:0 ""
+ MAN_keep_pushing.t:0 ""
+ 
+ MAN_protect_painhole:0 "Protect The Pain Hole"
+ MAN_protect_painhole_desc:0 ""
+ MAN_protect_painhole.t:0 ""
+ 
+ MAN_crush_sissies:0 "Crush The Sissy Multi-Bears"
+ MAN_crush_sissies_desc:0 ""
+ MAN_crush_sissies.t:0 ""
+ 
+ ########################################################################
+ 
+ MAN_prove_their_point:0 "Our Point Was Made"
+ MAN_prove_their_point_desc:0 ""
+ MAN_prove_their_point.t:0 ""
+ 
+ ########################################################################
+ 
+ MAN_manly_victory:0 "A Masculaine Victory"
+ MAN_manly_victory_desc:0 ""
+ MAN_manly_victory.t:0 ""
+ 
+ MAN_strong_order:0 "Only The Strong Can Bring Order"
+ MAN_strong_order_desc:0 ""
+ MAN_strong_order.t:0 ""
+ 
+ 
+ 
+ ########################################################################
+ 
+ MAN_never_again:0 "An Emasculating Defeat"
+ MAN_never_again_desc:0 ""
+ MAN_never_again.t:0 ""
+ 
+ MAN_emasculating_defeat:0 "No One Out-Mans The Manotaurs!"
+ MAN_emasculating_defeat_desc:0 ""
+ MAN_emasculating_defeat.t:0 ""
+ 
+ 
+ 
+ ########################################################################

@@ -23,17 +23,17 @@
  UFC_hold_front_desc:0 ""
  UFC_hold_front.t:0 ""
  
- UFC_unicorn_manotaur:0 "The Unicorns Abandon Us!"
- UFC_unicorn_manotaur_desc:0 ""
- UFC_unicorn_manotaur.t:0 ""
+ UFC_nationalize_industry:0 "Nationalize The Forest Industry"
+ UFC_nationalize_industry_desc:0 ""
+ UFC_nationalize_industry.t:0 ""
  
- UFC_unicorn_none:0 "The Unicorns Will Not Intervene"
- UFC_unicorn_none_desc:0 ""
- UFC_unicorn_none.t:0 ""
+ UFC_rally_north_gnomes:0 "Rally The Northern Gnomes To Us!"
+ UFC_rally_north_gnomes_desc:0 ""
+ UFC_rally_north_gnomes.t:0 ""
  
- UFC_unicorn_bears:0 "The Unicorns Support Us!"
- UFC_unicorn_bears_desc:0 ""
- UFC_unicorn_bears.t:0 ""
+ UFC_unite_heads:0 "Unite The Multi-Heads Of The Realm"
+ UFC_unite_heads_desc:0 ""
+ UFC_unite_heads.t:0 ""
  
  UFC_final_defense:0 "Defense Of The Multibear Realm!"
  UFC_final_defense_desc:0 ""
@@ -59,10 +59,26 @@
  UFC_the_new_peace_desc:0 ""
  UFC_the_new_peace.t:0 ""
  
+ UFC_bear_victory_unicorn.1:0 "Form The Council"
+ UFC_bear_victory_unicorn.1_desc:0 ""
+ UFC_bear_victory_unicorn.1.t:0 ""
+ 
+ UFC_bear_victory_unicorn.2:0 "Those Who Betrayed The Forest..."
+ UFC_bear_victory_unicorn.2_desc:0 ""
+ UFC_bear_victory_unicorn.2.t:0 ""
+ 
  ########################################################################
  
- UFC_testostrone_defeat:0 "No Sleep in the Long Summer"
- UFC_testostrone_defeat_desc:0 ""
- UFC_testostrone_defeat.t:0 ""
+ UFC_no_sleep:0 "No Sleep In The Long Summer"
+ UFC_no_sleep_desc:0 ""
+ UFC_no_sleep.t:0 ""
+ 
+ UFC_bear_defeat_unicorn.1:0 "Multi-Revanchism"
+ UFC_bear_defeat_unicorn.1_desc:0 ""
+ UFC_bear_defeat_unicorn.1.t:0 ""
+ 
+ UFC_bear_defeat_unicorn.2:0 "Radical Forest Reform"
+ UFC_bear_defeat_unicorn.2_desc:0 ""
+ UFC_bear_defeat_unicorn.2.t:0 ""
  
  ########################################################################

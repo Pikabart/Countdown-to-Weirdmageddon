@@ -43,7 +43,7 @@
 	focus = { 
 		id = UFC_counter_attack
 		icon = GFX_goal_UFC_bear_counter_attack 
-		x = -2
+		x = 0
 		y = 1
 		relative_position_id = UFC_trembley_river_battle
 		prerequisite = { focus = UFC_trembley_river_battle }
@@ -70,10 +70,10 @@
 	focus = { 
 		id = UFC_hold_front
 		icon = GFX_goal_UFC_bear_defense 
-		x = 2
+		x = 0
 		y = 1
-		relative_position_id = UFC_trembley_river_battle
-		prerequisite = { focus = UFC_trembley_river_battle }
+		relative_position_id = UFC_counter_attack
+		prerequisite = { focus = UFC_counter_attack }
 		
 		available = {}
 				
@@ -97,17 +97,14 @@
 ##########################################################################
 	
 	focus = { 
-		id = UFC_unicorn_manotaur
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		id = UFC_nationalize_industry
+		icon = GFX_focus_secret_rearmament 
 		x = -3
-		y = 2
-		relative_position_id = UFC_trembley_river_battle
-		prerequisite = { focus = UFC_counter_attack }
+		y = 1
+		relative_position_id = UFC_hold_front 
 		prerequisite = { focus = UFC_hold_front }
-		mutually_exclusive = { focus = UFC_unicorn_none }
-		mutually_exclusive = { focus = UFC_unicorn_bears }
 		
-		available = {always=false}		
+		available = {}			
 		bypass = {} 
 		cost = 4
 
@@ -125,17 +122,14 @@
 	}
 	
 	focus = { 
-		id = UFC_unicorn_none
-		icon = GFX_goal_FOREST_unicorn_alone 
+		id = UFC_rally_north_gnomes
+		icon = GFX_focus_secret_rearmament 
 		x = 0
-		y = 2
-		relative_position_id = UFC_trembley_river_battle
-		prerequisite = { focus = UFC_counter_attack }
+		y = 1
+		relative_position_id = UFC_hold_front 
 		prerequisite = { focus = UFC_hold_front }
-		mutually_exclusive = { focus = UFC_unicorn_manotaur }
-		mutually_exclusive = { focus = UFC_unicorn_bears }
 		
-		available = {always=false}		
+		available = {}			
 		bypass = {} 
 		cost = 4
 
@@ -153,17 +147,14 @@
 	}
 	
 	focus = { 
-		id = UFC_unicorn_bears
-		icon = GFX_goal_FOREST_unicorn_bear 
+		id = UFC_unite_heads
+		icon = GFX_focus_secret_rearmament 
 		x = 3
-		y = 2
-		relative_position_id = UFC_trembley_river_battle
-		prerequisite = { focus = UFC_counter_attack }
+		y = 1
+		relative_position_id = UFC_hold_front 
 		prerequisite = { focus = UFC_hold_front }
-		mutually_exclusive = { focus = UFC_unicorn_manotaur }
-		mutually_exclusive = { focus = UFC_unicorn_none }
 		
-		available = {always=false}		
+		available = {}		
 		bypass = {} 
 		cost = 4
 
@@ -187,12 +178,10 @@
 		icon = GFX_goal_UFC_bear_front
 		x = 0
 		y = 1
-		relative_position_id = UFC_unicorn_none
-		prerequisite = { 
-			focus = UFC_unicorn_manotaur
-			focus = UFC_unicorn_none
-			focus = UFC_unicorn_bears
-		}
+		relative_position_id = UFC_rally_north_gnomes
+		prerequisite = {  focus = UFC_nationalize_industry }
+		prerequisite = {  focus = UFC_rally_north_gnomes }
+		prerequisite = {  focus = UFC_unite_heads  }
 		
 		available = {}		
 		bypass = {} 
@@ -281,6 +270,8 @@
 		y = 3
 		relative_position_id = UFC_final_defense
 		prerequisite = { focus = UFC_bear_victory  focus = UFC_manotaur_victory }
+		mutually_exclusive = { focus = UFC_the_new_peace }
+		mutually_exclusive = { focus = UFC_no_sleep }
 		
 		available = {}
 				
@@ -305,17 +296,71 @@
 ##########################################################################
 
 	focus = { 
-		id = UFC_the_new_peace 
+		id = UFC_the_new_peace
 		icon = GFX_goal_FOREST_bear_victory 
 		x = -3
 		y = 2
 		relative_position_id = UFC_bear_victory
 		prerequisite = { focus = UFC_bear_victory }
+		mutually_exclusive = { focus = UFC_hibernate }
+		mutually_exclusive = { focus = UFC_no_sleep }
 		
 		available = {}
 				
 		bypass = {} 
 		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}
+	
+	focus = { 
+		id = UFC_bear_victory_unicorn.1
+		icon = GFX_goal_FOREST_unicorn_bear 
+		x = -3
+		y = 1
+		relative_position_id = UFC_the_new_peace
+		prerequisite = { focus = UFC_the_new_peace }
+		mutually_exclusive = { focus = UFC_bear_victory_unicorn.2  }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}
+	
+	focus = { 
+		id = UFC_bear_victory_unicorn.2
+		icon = GFX_goal_FOREST_unicorn_manotaur 
+		x = 3
+		y = 1
+		relative_position_id = UFC_the_new_peace
+		prerequisite = { focus = UFC_the_new_peace }
+		mutually_exclusive = { focus = UFC_bear_victory_unicorn.1  }
+		
+		available = {}		
+		bypass = {} 
 		cost = 5
 
 		cancel_if_invalid = yes
@@ -337,12 +382,14 @@
 ##########################################################################
 
 	focus = { 
-		id = UFC_testostrone_defeat
+		id = UFC_no_sleep
 		icon = GFX_goal_FOREST_manotaur_victory 
 		x = 3
 		y = 2
 		relative_position_id = UFC_manotaur_victory
 		prerequisite = { focus = UFC_manotaur_victory }
+		mutually_exclusive = { focus = UFC_the_new_peace }
+		mutually_exclusive = { focus = UFC_hibernate }
 		
 		available = {}
 				
@@ -363,6 +410,57 @@
 			
 	}
 
+	focus = { 
+		id = UFC_bear_defeat_unicorn.1
+		icon = GFX_goal_FOREST_unicorn_manotaur 
+		x = -3
+		y = 1
+		relative_position_id = UFC_no_sleep
+		prerequisite = { focus = UFC_no_sleep }
+		mutually_exclusive = { focus = UFC_bear_defeat_unicorn.2  }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}
+	
+	focus = { 
+		id = UFC_bear_defeat_unicorn.2 
+		icon = GFX_goal_FOREST_unicorn_alone 
+		x = 3
+		y = 1
+		relative_position_id = UFC_no_sleep
+		prerequisite = { focus = UFC_no_sleep }
+		mutually_exclusive = { focus = UFC_bear_defeat_unicorn.1 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}
 
 
 
