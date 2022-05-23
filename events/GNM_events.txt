@@ -126,6 +126,8 @@ country_event = {
 		trigger = {
 			has_completed_focus = GNM_operation_northern_dream
 		}
+		set_global_flag = pacifica_gnome_kidnapped
+		mark_focus_tree_layout_dirty = yes
 	}
 	
 	option = {
@@ -134,5 +136,7 @@ country_event = {
 		trigger = {
 			has_completed_focus = GNM_operation_fall_fantasy
 		}
+		set_global_flag = mabel_gnome_encounter2
+		mark_focus_tree_layout_dirty = yes
 	}
 }

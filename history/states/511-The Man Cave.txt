@@ -1,28 +1,33 @@
-
 state={
-	id=52
-	name="STATE_52"
-
+	id=511
+	name="STATE_511"
+	
 	history={
 		owner = MAN
 		add_core_of = MAN
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 1
-			infrastructure = 1
+			infrastructure = 3
 			air_base = 0
 			anti_air_building = 0
 			radar_station = 0
+			
+		}
+		
 
+		victory_points = {
+			6214 30 
 		}
 
-	}
 
-	provinces={
-		3622 4006 8057 8059 8062 8077 8081 8107 8127 
 	}
-	manpower=3000
+	
+	provinces={
+		6214 
+	}
+	manpower=6000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_city
 	local_supplies=0.000
 }

@@ -1,0 +1,49 @@
+﻿add_namespace = UNI_intervention
+add_namespace = UNI_test
+
+country_event = {
+	id = UNI_intervention.1
+	title = UNI_intervention.1.t
+	desc = UNI_intervention.1.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UNI_intervention.1.a
+		ai_chance = { factor = 100 }
+		set_country_flag = UNI_yes_intervene
+		custom_effect_tooltip = "generic_decision_unlock_tooltip"
+	}
+	option = {
+		name = UNI_intervention.1.b
+		ai_chance = { factor = 100 }
+		add_ideas = UNI_hands_off_observation
+	}
+}
+
+country_event = {
+	id = UNI_test.1
+	title = UNI_test.1.t
+	desc = UNI_test.1.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UNI_test.1.a
+		ai_chance = { factor = 100 }
+		set_country_flag = UNI_yes_intervene
+		45 = {
+			add_building_construction = {
+				type = bunker
+				level = 8
+				instant_build = yes
+				province = {
+					all_provinces = yes
+					limit_to_border = yes
+					}
+			}
+		}
+	}
+}

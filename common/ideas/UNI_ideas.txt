@@ -1,0 +1,56 @@
+ideas = {
+	country = {
+
+		UNI_delicate_creatures = {
+			picture = a
+			
+			allowed = { original_tag = UNI }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				offence = -0.1
+				defence = -0.05
+				local_resources_factor = -0.15
+				
+			}
+		}	
+
+		UNI_hands_off_observation = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UNI }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				experience_gain_army = 0.02
+			}
+		}
+		
+		UNI_extract = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UNI }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				offence = 0.05
+				defence = 0.05
+				local_resources_factor = 0.15
+			}
+		}
+		
+		UNI_masters = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UNI }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				political_power_factor = 0.02
+			}
+		}
+}

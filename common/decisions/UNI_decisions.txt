@@ -1,0 +1,22 @@
+UNI_multi_mano_influence_category = {
+	
+	UNI_multi_mano_influence_test = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = yes		
+		visible = {	}		
+
+		cost = 75	
+	   state_target = yes
+	   target_trigger = {
+		   FROM = {
+			   state = 284
+		   }
+	   }
+	   
+		complete_effect = {
+		}
+		ai_will_do = {	
+			factor = 10			
+		}
+	}
+} ###end

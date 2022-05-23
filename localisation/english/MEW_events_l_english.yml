@@ -104,6 +104,7 @@ ost_mew_surrender.2.a:0 "Elevate the Pigeon minority!"
 ost_mew_surrender_tooltip:0 "§CNew Focus Tree Unlocked!§!"
 generic_focus_unlock_tooltip:0 "§CNew Focus Unlocked!§!"
 generic_focus_tree_unlock_tooltip:0 "§CNew Focus Tree Unlocked!§!"
+generic_decision_unlock_tooltip:0 "§CNew Decisions Unlocked!§!"
 
 ############
 #FIRST TREE#

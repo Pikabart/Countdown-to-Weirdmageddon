@@ -34,7 +34,7 @@ characters = {###########################################################
 				small = "GFX_idea_advisor_shmebulock"
 			}
 		}
-		field_marshal = {
+		corps_commander = {
 			desc = ""
 			traits = { trait_reckless }
 			skill = 3
