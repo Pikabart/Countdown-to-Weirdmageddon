@@ -1,0 +1,28 @@
+state={
+	id=512
+	name="STATE_512"
+	history={
+		owner = UFC
+		add_core_of = UFC
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 1
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 1
+			radar_station = 1
+
+		}
+		victory_points = {
+			8253 40 
+		}
+
+	}
+	provinces={
+		8253 
+	}
+	manpower=6000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

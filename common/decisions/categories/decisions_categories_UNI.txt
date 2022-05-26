@@ -1,0 +1,15 @@
+UNI_multi_mano_influence_category = {
+	priority = 9	
+	icon = GFX_category_icon	
+	picture = 
+	
+	allowed = {
+		tag = UNI
+	}
+	visible = {
+		tag = UNI
+		has_country_flag = UNI_yes_intervene
+	}
+	
+	visible_when_empty = no
+}

@@ -20,6 +20,16 @@ on_actions = {
 					value = 75
 				}
 			}
+			UNI = {
+				set_variable  = {
+					var = UNI_MAN_influence
+					value = 0
+				}
+				set_variable  = {
+					var = UNI_UFC_influence
+					value = 0
+				}
+			}
 		}
 	}
 	

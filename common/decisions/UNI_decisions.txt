@@ -1,0 +1,62 @@
+UNI_multi_mano_influence_category = {
+	
+	UNI_mano_influence_manpower = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = yes		
+		visible = {	}		
+
+		cost = 15	
+	   
+		complete_effect = {
+			MAN = { country_event = UNI_intervention.2 }
+		}
+		ai_will_do = {	
+			factor = 10			
+		}
+	}
+	
+	UNI_multi_influence_manpower = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = yes		
+		visible = {	}		
+
+		cost = 15	
+	   
+		complete_effect = {
+			UFC = { country_event = UNI_intervention.2 }
+		}
+		ai_will_do = {	
+			factor = 10			
+		}
+	}
+	
+	UNI_mano_influence_equipment = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = yes		
+		visible = {	}		
+
+		cost = 15
+	   
+		complete_effect = {
+			MAN = { country_event = UNI_intervention.3 }
+		}
+		ai_will_do = {	
+			factor = 10			
+		}
+	}
+	
+	UNI_multi_influence_equipment = {
+		icon = GFX_decision_icon_default		
+		fire_only_once = yes		
+		visible = {	}		
+
+		cost = 15
+	   
+		complete_effect = {
+			UFC = { country_event = UNI_intervention.3 }
+		}
+		ai_will_do = {	
+			factor = 10			
+		}
+	}
+} ###end

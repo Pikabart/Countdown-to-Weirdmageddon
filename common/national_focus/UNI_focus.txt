@@ -1,0 +1,1012 @@
+focus_tree = {
+
+	id = UNI_focus
+	
+	country = {
+		factor = 0		
+		modifier = {
+			add = 100
+			tag = UNI
+		}
+	}
+	
+	default = no # This is not a default generic tree
+	
+	continuous_focus_position = { x = 50 y = 1000 } 
+	# Change as needed as more focus are added - orginally {x=50 y=1000}
+
+	focus = {
+		id = UNI_start
+		icon = a
+		x = 14
+		y = 0
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			country_event = UNI_intervention.1
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = UNI_the_north_pacified
+		icon = a
+		x = 4
+		y = 1
+		relative_position_id = UNI_start
+		prerequisite = { focus = UNI_start }
+		
+		available = {
+			always = no
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_manotaurs_under_hoof
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = UNI_the_north_pacified
+		prerequisite = { focus = UNI_the_north_pacified }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_multis_under_hoof
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = UNI_the_north_pacified
+		prerequisite = { focus = UNI_the_north_pacified }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_rumors
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = UNI_manotaurs_under_hoof
+		prerequisite = { focus = UNI_manotaurs_under_hoof }
+		prerequisite = { focus = UNI_multis_under_hoof }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_just_leave_it_be
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = UNI_rumors
+		prerequisite = { focus = UNI_rumors }
+		mutually_exclusive = { focus = UNI_restore_order }
+		mutually_exclusive = { focus = UNI_anarchy_avoided }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_restore_order
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = UNI_rumors
+		prerequisite = { focus = UNI_rumors }
+		mutually_exclusive = { focus = UNI_just_leave_it_be }
+		mutually_exclusive = { focus = UNI_anarchy_avoided }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_anarchy_avoided
+		icon = a
+		x = 3
+		y = 1
+		relative_position_id = UNI_rumors
+		prerequisite = { focus = UNI_rumors }
+		mutually_exclusive = { focus = UNI_just_leave_it_be }
+		mutually_exclusive = { focus = UNI_restore_order }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_utilize_their_bodies
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = UNI_restore_order
+		prerequisite = { focus = UNI_just_leave_it_be focus = UNI_restore_order focus = UNI_anarchy_avoided }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = UNI_extract
+			swap_ideas = {
+				remove_idea = UNI_delicate_creatures
+				add_idea = UNI_masters
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = UNI_threat_from_north
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = UNI_start
+		prerequisite = { focus = UNI_start }
+		
+		available = {
+			always = no
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_economic_preparation
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = UNI_threat_from_north
+		prerequisite = { focus = UNI_threat_from_north }
+		prerequisite = { focus = UNI_gnome_wokers_1 }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = war_economy
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_military_preparation
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = UNI_threat_from_north
+		prerequisite = { focus = UNI_threat_from_north }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = extensive_conscription
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_military_xp
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = UNI_military_preparation
+		prerequisite = { focus = UNI_military_preparation }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			army_experience = 50
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_free_units
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = UNI_military_xp
+		prerequisite = { focus = UNI_military_xp }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_unit = {
+				division = "name = \"Gnome Police Force\" division_template = \"Gnome Police Force\" start_experience_factor = 0"
+				owner = UNI
+			}
+			create_unit = {
+				division = "name = \"Gnome Police Force\" division_template = \"Gnome Police Force\" start_experience_factor = 0"
+				owner = UNI
+			}
+			create_unit = {
+				division = "name = \"Gnome Police Force\" division_template = \"Gnome Police Force\" start_experience_factor = 0"
+				owner = UNI
+			}
+			create_unit = {
+				division = "name = \"Gnome Police Force\" division_template = \"Gnome Police Force\" start_experience_factor = 0"
+				owner = UNI
+			}
+			create_unit = {
+				division = "name = \"Gnome Police Force\" division_template = \"Gnome Police Force\" start_experience_factor = 0"
+				owner = UNI
+			}
+			create_unit = {
+				division = "name = \"Gnome Police Force\" division_template = \"Gnome Police Force\" start_experience_factor = 0"
+				owner = UNI
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_forts
+		icon = a
+		x = 0
+		y = 2
+		relative_position_id = UNI_threat_from_north
+		prerequisite = { focus = UNI_economic_preparation }
+		prerequisite = { focus = UNI_military_preparation }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = "UNI_forts_tooltip"
+			hidden_effect = {
+				45 = {
+					add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = {
+							all_provinces = yes
+							limit_to_border = yes
+						}
+					}
+				}
+			}
+		
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_mils_3
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = UNI_forts
+		prerequisite = { focus = UNI_forts }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_mindless_slaves
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = UNI_mils_3
+		prerequisite = { focus = UNI_mils_3 }
+		prerequisite = { focus = UNI_free_units }
+		prerequisite = { focus = UNI_military_production_2 }
+		
+		available = {
+			always = no
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			remove_ideas = UNI_delicate_creatures
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_military_production_1
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = UNI_economic_preparation
+		prerequisite = { focus = UNI_economic_preparation }
+		prerequisite = { focus = UNI_gnome_wokers_2 }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_military_production_2
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = UNI_military_production_1
+		prerequisite = { focus = UNI_military_production_1 }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_energy_spores
+		icon = a
+		x = -7
+		y = 1
+		relative_position_id = UNI_start
+		prerequisite = { focus = UNI_start }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_resource = {
+				type = oil
+				amount = 24
+				state = 510
+			}
+			add_resource = {
+				type = oil
+				amount = 8
+				state = 45
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_exploiting_dark_forest
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = UNI_energy_spores
+		prerequisite = { focus = UNI_energy_spores }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_resource = {
+				type = steel
+				amount = 36
+				state = 43
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_fishing
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = UNI_exploiting_dark_forest
+		prerequisite = { focus = UNI_exploiting_dark_forest }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_resource = {
+				type = aluminium
+				amount = 14
+				state = 42
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_gnome_wokers_1
+		icon = a
+		x = -5
+		y = 1
+		relative_position_id = UNI_start
+		prerequisite = { focus = UNI_start }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_gnome_wokers_2
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = UNI_gnome_wokers_1
+		prerequisite = { focus = UNI_gnome_wokers_1 }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_gnome_wokers_3
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = UNI_gnome_wokers_2
+		prerequisite = { focus = UNI_gnome_wokers_2 }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+}
