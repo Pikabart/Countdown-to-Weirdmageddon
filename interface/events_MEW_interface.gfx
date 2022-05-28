@@ -213,6 +213,16 @@ spriteTypes = {
 		texturefile = "gfx/event_country_pictures/MEW/report_event_CEF.dds"
 	}
 	
+	spriteType = { # Great Britain
+		name = "GFX_report_event_great_britain"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_great_britain.dds"
+	}
+	
+	spriteType = { # Immortal Queen
+		name = "GFX_report_event_immortal_queen"
+		texturefile = "gfx/event_country_pictures/MEW/report_event_immortal_queen.dds"
+	}
+	
 	
    #############################################################
    #  Decisions
