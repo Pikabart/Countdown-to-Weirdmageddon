@@ -21,6 +21,10 @@ state={
 
 	}
 	
+	resources={
+		tungsten=18
+	}
+	
 	provinces={
 		8351 
 	}

@@ -53,4 +53,19 @@ ideas = {
 				political_power_factor = 0.02
 			}
 		}
+		
+		UNI_support_mil = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UNI }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				army_org_factor = 0.15
+				offence = 0.1
+				defence = 0.15
+			}
+		}
+
 }

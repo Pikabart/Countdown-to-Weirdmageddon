@@ -26,3 +26,7 @@ set_popularities = {
 
 
 recruit_character = UNI_unicorn
+
+add_ideas = {
+	UNI_delicate_creatures
+}
