@@ -2,6 +2,10 @@
 add_namespace = UNI_intervention_confirmation
 add_namespace = UNI_test
 
+###########################################################################
+#IF YOU CAN FIGURE OUT HOW TO GET THESE AI MODIFIERS TO WORK, PLEASE DO IT#
+###########################################################################
+
 country_event = {
 	id = UNI_intervention.1
 	title = UNI_intervention.1.t
@@ -34,8 +38,11 @@ country_event = {
 	option = {
 		name = UNI_intervention.2.a
 		ai_chance = {
-			factor = 1
-			modifier = { has_manpower < 500 factor = 4 }
+			factor = 4
+			#modifier = {
+			#	factor = 0
+			#	has_manpower > 500
+			#}
 		}
 		add_manpower = 1500
 		UNI = { country_event = UNI_intervention_confirmation.1 }
@@ -73,33 +80,35 @@ country_event = {
 
 country_event = {
 	id = UNI_intervention_confirmation.1
-	title = UNI_intervention.1.t
-	desc = UNI_intervention.1.d
+	title = UNI_intervention_confirmation.1.t
+	desc = UNI_intervention_confirmation.1.d
 	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = UNI_intervention.1.a
+		name = UNI_intervention_confirmation.1.a
 		ai_chance = {
 			factor = 1
 		}
+		clr_country_flag = UNI_influence_dec_block
 	}
 }
 
 country_event = {
 	id = UNI_intervention_confirmation.2
-	title = UNI_intervention.2.t
-	desc = UNI_intervention.2.d
+	title = UNI_intervention_confirmation.2.t
+	desc = UNI_intervention_confirmation.2.d
 	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = UNI_intervention.2.a
+		name = UNI_intervention_confirmation.2.a
 		ai_chance = {
 			factor = 1
 		}
+		clr_country_flag = UNI_influence_dec_block
 	}
 }
 
@@ -114,8 +123,11 @@ country_event = {
 	option = {
 		name = UNI_intervention.2.a
 		ai_chance = {
-			factor = 1
-			modifier = { has_equipment = { infantry_equipment < 500 } }
+			factor = 0
+			#modifier = {
+			#	factor = 4
+			#	has_equipment = { infantry_equipment < 500 }
+			#}
 		}
 		UNI = {
 			send_equipment = {
@@ -144,6 +156,63 @@ country_event = {
 				add_to_variable = {
 					var = UNI_UFC_influence
 					value = 5
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = UNI_intervention.2.b
+		ai_chance = { factor = 1 }
+		UNI = { country_event = UNI_intervention_confirmation.2 }
+		
+	}
+
+}
+
+country_event = {
+	id = UNI_intervention.4
+	title = UNI_intervention.4.t
+	desc = UNI_intervention.4.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UNI_intervention.4.a
+		ai_chance = {
+			factor = 4
+			#modifier = {
+			#	factor = 0
+			#	surrender_progress > 0.8
+			#}
+		}
+		add_timed_idea = {
+			idea = UNI_support_mil
+			days = 180
+		}
+		UNI = {
+			country_event = UNI_intervention_confirmation.1
+		}
+		if = {
+			limit = {
+				tag = MAN
+			}
+			UNI = {
+				add_to_variable = {
+					var = UNI_MAN_influence
+					value = 10
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				tag = UFC
+			}
+			UNI = {
+				add_to_variable = {
+					var = UNI_UFC_influence
+					value = 10
 				}
 			}
 		}
