@@ -12,8 +12,10 @@ add_namespace = tsr_let_in_event_mew
 add_namespace = monster_status
 add_namespace = human_status
 add_namespace = jaggy_hidden
+add_namespace = immortal_queen
 
 ###############################################################################################################
+
 
 country_event = {
 	id = MHC_return.1
@@ -381,4 +383,20 @@ country_event = {
 		
 	}
 
+}
+
+
+country_event = {
+	id = immortal_queen.1
+	title = immortal_queen.1.t
+	desc = immortal_queen.1.d
+	picture = GFX_report_event_immortal_queen
+		
+	is_triggered_only = yes	
+	fire_only_once = yes
+			
+	option = {
+		name = immortal_queen.1.a
+		ai_chance = { factor = 90 }	
+	}
 }
