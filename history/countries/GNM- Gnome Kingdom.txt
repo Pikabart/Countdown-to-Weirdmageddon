@@ -32,6 +32,8 @@ GNM_no_bitches
 }
 
 recruit_character = GNM_jeff
+recruit_character = GNM_pacifica
+recruit_character = GNM_candy
 recruit_character = GNM_shmebulock
 recruit_character = GNM_carson
 

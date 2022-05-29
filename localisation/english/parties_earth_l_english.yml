@@ -74,6 +74,9 @@
  GNM_democratic_party:0 "United Gnome Party"
  GNM_neutrality_party:0 "The Little-Legs' Regancy"
  
+ GNM_fascism_candy_party:0 "The Candy Clique"
+ GNM_neutrality_pacifica_party:0 "The Pacifica Company"
+ 
  UFC_fascism_party:0 "The Unicorn Mandate"
  UFC_communism_party:0 "The Industrial Forest Council"
  UFC_democratic_party:0 "Multi-Bear/Unicorn Coalition"
