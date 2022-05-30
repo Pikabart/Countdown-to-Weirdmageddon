@@ -1,5 +1,6 @@
 ﻿add_namespace = UNI_intervention
 add_namespace = UNI_intervention_confirmation
+add_namespace = UNI_multi_mano_war_check
 add_namespace = UNI_test
 
 ###########################################################################
@@ -228,6 +229,67 @@ country_event = {
 }
 
 country_event = {
+	id = UNI_intervention.5
+	title = UNI_intervention.5.t
+	desc = UNI_intervention.5.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UNI_intervention.5.a
+		ai_chance = {
+			factor = 4
+		}
+	}
+	
+	option = {
+		name = UNI_intervention.2.b
+		ai_chance = { factor = 1 }
+		UNI = { country_event = UNI_intervention_confirmation.2 }
+		
+	}
+
+}
+
+country_event = {
+	id = UNI_multi_mano_war_check.1
+	title = UNI_multi_mano_war_check.1.t
+	desc = UNI_multi_mano_war_check.1.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		IF = {
+			limit = {
+				FROM = MAN #Sender is man
+				check_variable = { UNI_MAN_influence > 99 }
+			}
+			complete_national_focus = UNI_the_north_pacified
+		}
+		ELSE_IF = {
+			limit = {
+				FROM = UFC #Sender is ufc
+				check_variable = { UNI_UFC_influence > 99 }
+			}
+			complete_national_focus = UNI_the_north_pacified
+		}
+		ELSE = {
+			complete_national_focus = UNI_threat_from_north
+		}
+	}
+	
+	option = {
+		name = UNI_multi_mano_war_check.1.a
+		ai_chance = {
+			factor = 1
+		}
+	}
+
+}
+
+country_event = {
 	id = UNI_test.1
 	title = UNI_test.1.t
 	desc = UNI_test.1.d
@@ -264,7 +326,13 @@ country_event = {
 	option = {
 		name = UNI_test.2.a
 		ai_chance = { factor = 100 }
-		set_country_flag = UNI_yes_intervene
-		UFC = { country_event = UNI_intervention.2 }
+		set_variable = {
+			var = UNI_MAN_influence
+			value = 1000
+		}
+		set_variable = {
+			var = UNI_UFC_influence
+			value = 1000
+		}
 	}
 }

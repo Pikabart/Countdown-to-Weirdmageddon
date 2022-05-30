@@ -66,23 +66,8 @@ on_actions = {
 					}
 				}
 				FROM = {
-					UFC = {  country_event = FOREST_wars.1  }
-					MAN = {  country_event = FOREST_wars.2  }
-				}
-			}
-			else_if = {
-				limit = { # The Bears Wins with Unicorns
-					ROOT = {
-						original_tag = MAN
-					
-					}
-					FROM = {
-						original_tag = UNI
-					}
-				}
-				FROM = {
-					UFC = {  country_event = FOREST_wars.1  }
-					MAN = {  country_event = FOREST_wars.2  }
+					UFC = { country_event = FOREST_wars.1 }
+					MAN = { country_event = FOREST_wars.2 }
 				}
 			}
 			else_if = {
@@ -96,23 +81,8 @@ on_actions = {
 					}
 				}
 				FROM = {
-					UFC = {  country_event = FOREST_wars.2  }
-					MAN = {  country_event = FOREST_wars.1 }
-				}
-			}
-			else_if = {
-				limit = { # The MANs win with Unicorns
-					ROOT = {
-						original_tag = UFC
-					
-					}
-					FROM = {
-						original_tag = MAN
-					}
-				}
-				FROM = {
-					UFC = {  country_event = FOREST_wars.2  }
-					MAN = {  country_event = FOREST_wars.1 }
+					UFC = { country_event = FOREST_wars.2 }
+					MAN = { country_event = FOREST_wars.1 }
 				}
 			}
 		}
