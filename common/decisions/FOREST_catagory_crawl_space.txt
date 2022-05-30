@@ -468,3 +468,86 @@ FOREST_catagory_crawl_space = {
 	
 }	
 #################################################################################
+FOREST_catagory_crawl_space_sell = {
+	
+	##############################################################
+	##############################################################
+	##############################################################
+
+	FOREST_decision_sell_1_a = {    
+          
+		icon = GFX_decision_ger_military_buildup
+		allowed = { }
+	    days_remove = 0
+		fire_only_once = no
+		is_good = no                           
+        selectable_mission = no              
+		priority = 10 
+		
+		days_re_enable = 1 
+		days_remove = 14
+		available = { #  	 
+			has_equipment = {
+				infantry_equipment > 249
+			}
+		}
+		visible = {  }	
+		complete_effect = {	
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = -250
+			}
+			add_to_variable = {
+				var = ROOT.FOREST_crawl_cash
+				value = 35 
+			}
+			add_to_variable = {
+				var = global.crawl_guns
+				value = 250
+			}
+			custom_effect_tooltip = "FOREST_decision_sell_1_a_tt"
+		}		
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 80			
+		}
+	}
+	FOREST_decision_sell_1_b = {    
+          
+		icon = GFX_decision_ger_military_buildup
+		allowed = { }
+	    days_remove = 0
+		fire_only_once = no
+		is_good = no                           
+        selectable_mission = no              
+		priority = 10  
+		
+		days_re_enable = 1 
+		days_remove = 14
+		available = { #  	 
+			has_equipment = {
+				support_equipment > 249
+			}
+		}
+		visible = {  }	 
+		complete_effect = {	
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = -250
+			}
+			add_to_variable = {
+				var = ROOT.FOREST_crawl_cash
+				value = 35
+			}
+			add_to_variable = {
+				var = global.crawl_supplies
+				value = 250
+			}
+			custom_effect_tooltip = "FOREST_decision_sell_1_b_tt"
+		}		
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 80			 
+		}
+	}
+	
+}	
+#################################################################################
