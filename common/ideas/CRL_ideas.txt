@@ -1,0 +1,92 @@
+##########IDEAS and ADVISORS for the Crawlspace Customers  ##############
+	
+ideas = { #Entire file
+
+	######################################################
+	#National Spirits
+	######################################################
+	country = {
+		
+		CRL_fast_tech_1 = { # 
+			#picture =  
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = { research_speed_factor = 0.15 }
+		}
+		
+		CRL_fast_build_1 = { # Through Thick or Thin
+			#picture =  
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = { production_speed_buildings_factor = 0.15  }
+		}
+		#########################################################
+		CRL_happy_gas_2 = { # 
+			#picture =  
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = { research_speed_factor = 0.15 }
+		}
+		
+		CRL_patriot_water_2 = { # Through Thick or Thin
+			#picture =  
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = { production_speed_buildings_factor = 0.15  }
+		}
+		#########################################################
+		CRL_scrap_frobot_study_3 = { # 
+			#picture =  
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = { research_speed_factor = 0.15 }
+		}
+		CRL_coven_training_3 = { # 
+			#picture =  
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = { research_speed_factor = 0.15 }
+		}
+		CRL_rick_3 = { # 
+			#picture =  
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			allowed_civil_war = {always = no}
+			
+			modifier = { research_speed_factor = 0.15 }
+		}
+		#########################################################
+		
+		
+		
+	}
+
+
+	
+}  ##############End of File

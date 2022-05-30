@@ -3,6 +3,11 @@
 ############
 spriteTypes = {
 
+	spriteType = { # descions crawlspace
+		name = "GFX_decision_category_crawlspace"
+		texturefile = "gfx/interface/decisions/decision_cat_crawlspace.dds"
+	}
+
 	spriteType = { #
 		name = "GFX_report_event_multibear"
 		texturefile = "gfx/event_country_pictures/FOREST/report_event_multibear.dds"

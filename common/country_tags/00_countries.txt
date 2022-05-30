@@ -7,6 +7,7 @@ UFC = "countries/R-Multibears.txt"
 UNI = "countries/R-Unicorns.txt"
 MAN = "countries/R-Manotaurs Lands.txt"
 GID = "countries/R-Tent of Telepathy.txt"
+CRL = "countries/R-Crawlspace.txt"
 
 #Tourist
 MYM = "countries/T-Mystery Mountain.txt"

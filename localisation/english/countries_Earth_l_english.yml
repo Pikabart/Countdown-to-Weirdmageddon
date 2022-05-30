@@ -132,6 +132,19 @@
  MAN_neutrality_ADJ:0 "Manotaur Lands"
  MAN_communism_ADJ:0 "Manotaur Lands"
  
+ CRL_fascism:0 "The Crawlspace"
+ CRL_fascism_DEF:0 "The Crawlspace"
+ CRL_democratic:0 "The Crawlspace"
+ CRL_democratic_DEF:0 "The Crawlspace"
+ CRL_neutrality:1 "The Crawlspace"
+ CRL_neutrality_DEF:1 "The Crawlspace"
+ CRL_communism:0 "The Crawlspace"
+ CRL_communism_DEF:0 "The Crawlspace"
+ CRL_fascism_ADJ:0 "Crawlspace Market"
+ CRL_democratic_ADJ:0 "Crawlspace Market"
+ CRL_neutrality_ADJ:0 "Crawlspace Market"
+ CRL_communism_ADJ:0 "Crawlspace Market"
+ 
 #Tourist 
 
  MYM_fascism:0 "Mystery Mountain"

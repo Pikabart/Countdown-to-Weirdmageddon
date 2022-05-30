@@ -2,62 +2,466 @@
 #California Decisions 
 #####################################################################################################################
 FOREST_catagory_crawl_space = {
+	
+	##############################################################
+	##############################################################
+	##############################################################
 
-	FOREST_decision_a = {   
+	FOREST_decision_common_1_a = {    
           
-		icon = GFX_decision_icon_default
+		icon = GFX_decision_ger_military_buildup
 		allowed = { }
-        days_mission_timeout = 90
+	    days_remove = 0
+		fire_only_once = no
+		is_good = no                           
+        selectable_mission = no              
+		priority = 10 
+		
+		days_re_enable = 1 
+		days_remove = 30
+		available = { #  	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 50 }
+		   check_variable = { global.crawl_guns > 250 }
+		}
+		visible = {  }	
+		complete_effect = {	
+			custom_effect_tooltip = "FOREST_decision_common_1_a_tt"
+			add_equipment_to_stockpile = {
+				type = ren_infantry_equipment_2
+				amount = 250
+				producer = CRL
+			}
+			subtract_from_variable = {
+				var = ROOT.FOREST_crawl_cash
+				value = 50
+			}
+			subtract_from_variable = {
+				var = global.crawl_guns
+				value = 250
+			}
+		}		
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 80			
+		}
+	}
+	
+	FOREST_decision_common_1_b = {   
+          
+		icon = GFX_decision_ger_military_buildup
+		allowed = { }
 	    days_remove = 0
 		fire_only_once = no
 		is_good = no                           
         selectable_mission = no              
 		priority = 10
 		
+		days_re_enable = 1
+		days_remove = 30
 		available = { #  	 
-		   check_variable = {  }
+		   check_variable = { ROOT.FOREST_crawl_cash > 50 }
+		   check_variable = { global.crawl_supplies > 250 }
 		}
-        activation = {  
-			AND = { }
-        }
 		visible = {  }	
-		timeout_effect = {   
-			#custom_effect_tooltip = 
-			#country_event = 
-		}
-	}
-	
-	
-	
-	##############################################################
-	##############################################################
-	##############################################################
-	
-	FOREST_decision_b = { #
-		icon = GFX_decision_icon_default		
-		available = {}
-		fire_only_once = no		
-		days_re_enable = 0
-		days_remove = 6
-		visible = {	}
-		
-		priority = 9
-		cost = 10		
-
-		fixed_random_seed = no 
 		complete_effect = {		
-			#custom_effect_tooltip = ""
-			hidden_effect = {	
-				
+			custom_effect_tooltip = "FOREST_decision_common_1_b_tt"
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 250
+				producer = CRL
 			}
-			#clr_country_flag = 
-		} 
-		
-		# AI LOGIC FOR THIS DECISION/MISSION
+			subtract_from_variable = {
+				var = ROOT.FOREST_crawl_cash
+				value = 50
+			}
+			subtract_from_variable = {
+				var = global.crawl_supplies
+				value = 250
+			}
+		}
 		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
-			factor = 100		
+			factor = 80			
 		}
 	}
+	
+	FOREST_decision_common_1_c = {  
+          
+		icon = GFX_decision_ger_military_buildup
+		allowed = { }
+	    days_remove = 0
+		fire_only_once = no
+		is_good = no                           
+        selectable_mission = no              
+		priority = 10
+		
+		days_re_enable = 1
+		days_remove = 30
+		available = { #  	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 50 }
+		   check_variable = { global.crawl_supplies > 100 }
+		}
+		visible = {  }	
+		complete_effect = {		
+			custom_effect_tooltip = "FOREST_decision_common_1_c_tt"
+			add_timed_idea = { idea = CRL_fast_tech_1 days = 60 }
+			subtract_from_variable = {
+				var = ROOT.FOREST_crawl_cash
+				value = 50
+			}
+			subtract_from_variable = {
+				var = global.crawl_supplies
+				value = 100
+			}
+		}
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 80			
+		}
+	}
+	
+	FOREST_decision_common_1_d = {   
+          
+		icon = GFX_decision_ger_military_buildup
+		allowed = { }
+	    days_remove = 0
+		fire_only_once = no
+		is_good = no                           
+        selectable_mission = no              
+		priority = 10
+		
+		days_re_enable = 1
+		days_remove = 30
+		available = { #  	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 50 }
+		   check_variable = { global.crawl_supplies > 100 }
+		}
+		visible = {  }	 
+		complete_effect = {		
+			custom_effect_tooltip = "FOREST_decision_common_1_d_tt"
+			add_timed_idea = { idea = CRL_fast_build_1 days = 60 }
+			subtract_from_variable = {
+				var = ROOT.FOREST_crawl_cash
+				value = 50
+			}
+			subtract_from_variable = {
+				var = global.crawl_supplies
+				value = 100
+			}
+		}
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 80			
+		}
+	}   
+	
+	##############################################################
+	##############################################################
+	##############################################################
+
+	FOREST_decision_common_2_a = {    
+          
+		icon = GFX_decision_generic_prepare_civil_war
+		allowed = { }
+	    days_remove = 0
+		fire_only_once = no
+		is_good = no                           
+        selectable_mission = no              
+		priority = 9 
+		
+		days_re_enable = 1 
+		days_remove = 30
+		available = { #  	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 100 }
+		   check_variable = { global.crawl_guns > 250 }
+		}
+		visible = {  }	
+		complete_effect = {	
+			custom_effect_tooltip = "FOREST_decision_common_2_a_tt"
+			add_equipment_to_stockpile = {
+				type = ind_infantry_equipment_2
+				amount = 250
+				producer = CRL
+			}
+			subtract_from_variable = {
+				var = ROOT.FOREST_crawl_cash
+				value = 100
+			}
+			subtract_from_variable = {
+				var = global.crawl_guns
+				value = 250
+			}
+		}		
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 80			
+		}
+	}
+	
+	FOREST_decision_common_2_b = {   
+          
+		icon = GFX_decision_generic_prepare_civil_war
+		allowed = { }
+	    days_remove = 0
+		fire_only_once = no
+		is_good = no                           
+        selectable_mission = no              
+		priority = 9
+		
+		days_re_enable = 1
+		days_remove = 30
+		available = { #  	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 100 }
+		   check_variable = { global.crawl_guns > 200 }
+		   check_variable = { global.crawl_supplies > 200 }
+		}
+		visible = {  }	
+		complete_effect = {		
+			custom_effect_tooltip = "FOREST_decision_common_2_b_tt"
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_2
+				amount = 100
+				producer = CRL
+			}
+			subtract_from_variable = {
+				var = ROOT.FOREST_crawl_cash
+				value = 100
+			}
+			subtract_from_variable = {
+				var = global.crawl_guns
+				value = 200
+			}
+			subtract_from_variable = {
+				var = global.crawl_supplies
+				value = 200
+			}
+		}
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 80			
+		}
+	}
+	
+	FOREST_decision_common_2_c = {  
+          
+		icon = GFX_decision_generic_prepare_civil_war
+		allowed = { }
+	    days_remove = 0
+		fire_only_once = no
+		is_good = no                           
+        selectable_mission = no              
+		priority = 9
+		
+		days_re_enable = 1
+		days_remove = 30
+		available = { #  	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 100 }
+		   check_variable = { global.crawl_supplies > 100 }
+		}
+		visible = {  }	
+		complete_effect = {		
+			custom_effect_tooltip = "FOREST_decision_common_2_c_tt"
+			add_timed_idea = { idea = CRL_happy_gas_2 days = 60 }
+			subtract_from_variable = {
+				var = ROOT.FOREST_crawl_cash
+				value = 100
+			}
+			subtract_from_variable = {
+				var = global.crawl_supplies
+				value = 100
+			}
+		}
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 80			
+		}
+	}
+	
+	FOREST_decision_common_2_d = {   
+          
+		icon = GFX_decision_generic_prepare_civil_war
+		allowed = { }
+	    days_remove = 0
+		fire_only_once = no
+		is_good = no                           
+        selectable_mission = no              
+		priority = 9
+		
+		days_re_enable = 1
+		days_remove = 30
+		available = { #  	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 100 }
+		   check_variable = { global.crawl_supplies > 100 }
+		}
+		visible = {  }	 
+		complete_effect = {		
+			custom_effect_tooltip = "FOREST_decision_common_2_d_tt"
+			add_timed_idea = { idea = CRL_patriot_water_2 days = 90 }
+			subtract_from_variable = {
+				var = ROOT.FOREST_crawl_cash
+				value = 100
+			}
+			subtract_from_variable = {
+				var = global.crawl_supplies
+				value = 100
+			}
+		}
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 80			
+		}
+	}   
+	
+	##############################################################
+	##############################################################
+	##############################################################
+
+	FOREST_decision_common_3_a = {    
+          
+		icon = GFX_decision_generic_industry
+		allowed = { }
+	    days_remove = 0
+		fire_only_once = no
+		is_good = no                           
+        selectable_mission = no              
+		priority = 8 
+		
+		days_re_enable = 1 
+		days_remove = 90
+		available = { #  	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 200 }
+		   check_variable = { global.crawl_guns > 250 }
+		}
+		visible = {  }	
+		complete_effect = {	
+			custom_effect_tooltip = "FOREST_decision_common_3_a_tt"
+			random_owned_controlled_state = {
+				add_resource = {
+					type = tungsten
+					amount = 24
+				}
+			}
+			subtract_from_variable = {
+				var = ROOT.FOREST_crawl_cash
+				value = 200
+			}
+			subtract_from_variable = {
+				var = global.crawl_resource
+				value = 10
+			}
+		}	
+		remove_effect = {
+            random_owned_controlled_state = {
+				add_resource = {
+					type = tungsten
+					amount = -24
+				}
+			}
+        }
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 80			
+		}
+	}
+	
+	FOREST_decision_common_3_b = {   
+          
+		icon = GFX_decision_generic_industry
+		allowed = { }
+	    days_remove = 0
+		fire_only_once = no
+		is_good = no                           
+        selectable_mission = no              
+		priority = 8
+		
+		days_re_enable = 1
+		days_remove = 30
+		available = { #  	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 200 }
+		   check_variable = { global.crawl_supplies > 250 }
+		}
+		visible = {  }	
+		complete_effect = {		
+			custom_effect_tooltip = "FOREST_decision_common_3_b_tt"
+			add_timed_idea = { idea = CRL_scrap_frobot_study_3 days = 60 }
+			subtract_from_variable = {
+				var = ROOT.FOREST_crawl_cash
+				value = 200
+			}
+			subtract_from_variable = {
+				var = global.crawl_resource
+				value = 10
+			}
+		}
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 80			
+		}
+	}
+	
+	FOREST_decision_common_3_c = {  
+          
+		icon = GFX_decision_generic_industry
+		allowed = { }
+	    days_remove = 0
+		fire_only_once = no
+		is_good = no                           
+        selectable_mission = no              
+		priority = 8
+		
+		days_re_enable = 1
+		days_remove = 30
+		available = { #  	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 200 }
+		   check_variable = { global.crawl_supplies > 100 }
+		}
+		visible = {  }	
+		complete_effect = {		
+			custom_effect_tooltip = "FOREST_decision_common_3_c_tt"
+			add_timed_idea = { idea = CRL_coven_training_3 days = 60 }
+			subtract_from_variable = {
+				var = ROOT.FOREST_crawl_cash
+				value = 200
+			}
+			subtract_from_variable = {
+				var = global.crawl_resource
+				value = 10
+			}
+		}
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 80			
+		}
+	}
+	
+	FOREST_decision_common_3_d = {   
+          
+		icon = GFX_decision_generic_industry
+		allowed = { }
+	    days_remove = 0
+		fire_only_once = no
+		is_good = no                           
+        selectable_mission = no              
+		priority = 8
+		
+		days_re_enable = 1
+		days_remove = 30
+		available = { #  	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 200 }
+		   check_variable = { global.crawl_supplies > 100 }
+		}
+		visible = {  }	 
+		complete_effect = {		
+			custom_effect_tooltip = "FOREST_decision_common_3_d_tt"
+			add_timed_idea = { idea = CRL_rick_3 days = 60 }
+			subtract_from_variable = {
+				var = ROOT.FOREST_crawl_cash
+				value = 200
+			}
+			subtract_from_variable = {
+				var = global.crawl_resource
+				value = 10
+			}
+		}
+		ai_will_do = {	#Modifiers for the AI to decide when to execute the decision.
+			factor = 80			
+		}
+	}   
+	
+	##############################################################
+	##############################################################
+	##############################################################
+	
+
 	
 	
 	
