@@ -117,18 +117,60 @@ country_event = { #Winning the War
 	immediate = {
 		IF = { limit = { tag = UFC }
 			white_peace = { tag = MAN message = FOREST_wars.1.a }
+			UNI = { country_event = { id = UNI_multi_mano_war_check.1 days = 1 } }
+			transfer_state = 46
+			transfer_state = 48
+			transfer_state = 50
+			transfer_state = 51
+			transfer_state = 52
+			transfer_state = 53
+			transfer_state = 508
 			transfer_state = 509
-			UFC = {add_state_core = 509 complete_national_focus = UFC_bear_victory}
+			add_state_core = 46
+			add_state_core = 48
+			add_state_core = 50
+			add_state_core = 51
+			add_state_core = 52
+			add_state_core = 53
+			add_state_core = 508
+			add_state_core = 509
+			UFC = {complete_national_focus = UFC_bear_victory}
 		}
 		ELSE_IF = { limit = { tag = MAN }
 			white_peace = { tag = UFC message = FOREST_wars.1.b }
+			UNI = { country_event = { id = UNI_multi_mano_war_check.1 days = 1 } }
+			transfer_state = 46
+			transfer_state = 47
+			transfer_state = 48
+			transfer_state = 50
+			transfer_state = 51
 			transfer_state = 508
-			MAN = {add_state_core = 508}
+			transfer_state = 509
+			add_state_core = 46
+			add_state_core = 47
+			add_state_core = 48
+			add_state_core = 50
+			add_state_core = 51
+			add_state_core = 508
+			add_state_core = 509
+			IF = {
+				limit = {
+					49 = {
+						OR = {
+							is_owned_by = MAN
+							is_owned_by = UFC
+						}
+					}
+				}
+				transfer_state = 49
+				add_state_core = 49
+			}
 		}
 	}
 	option = {
 		name = FOREST_wars.1.c
 		ai_chance = { factor = 100 }
+		
 	}
 }
 

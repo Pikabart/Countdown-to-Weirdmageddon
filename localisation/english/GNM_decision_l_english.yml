@@ -1,15 +1,21 @@
 ﻿l_english:
 
-GNM_kidnapping_category:0 "Dev Gnome Kidnapping"
-GNM_kidnapping_category_desc:0 "§YIntel:§! [?GNM_kidnapping_intel_var]\n§YInfiltration:§! [?GNM_kidnapping_infil_var]\n§YConspicuity:§! [?GNM_kidnapping_consp_var]"
+GNM_kidnapping_category:0 "Operation [GNM_kidnapping_execution_scripted_loc]"
+GNM_kidnapping_category_desc:0 "Us Gnomes require a Queen to operate effectively as a state. We can only maintain societal cohesion if one, we have a queen. Or two, we have high hopes of soon getting a queen. Humans have historically been the best queens for our people, and most humans don't live in the woods. So we're gonna have to bring one in. Our sights are set one on person, [GNM_kidnapping_name_scripted_loc].\n\n§YIntel:§! [?GNM_kidnapping_intel_var]\n§YInfiltration:§! [?GNM_kidnapping_infil_var]\n§YConspicuity:§! [?GNM_kidnapping_consp_var]"
+GNM_kidnapping_name_scripted_loc_pacifica:0 "Pacifica Northwest"
+GNM_kidnapping_name_scripted_loc_candy:0 "Candy Chiu"
 
 GNM_kidnapping_intel_increase:0 "Gather Intel"
 GNM_kidnapping_intel_increase_desc:0 "Increase Intel Description sussy amongus"
-GNM_kidnapping_infil_increase:0 "Infiltrate (SCRIPTED LOCALISATION)"
+GNM_kidnapping_infil_increase:0 "Infiltrate [GNM_kidnapping_infil_scripted_loc]"
+GNM_kidnapping_infil_scripted_loc_pacifica:0 "the @NRW[NRW.getname]"
+GNM_kidnapping_infil_scripted_loc_candy:0 "@GTF[GTF.getname]"
 GNM_kidnapping_consp_decrease_intel:0 "Reduce Suspicion - Intel Operation"
 GNM_kidnapping_consp_decrease_infil:0 "Reduce Suspicion - Infiltration Operation"
 GNM_kidnapping_consp_decrease_intel_infil:0 "Reduce Suspicion - Joint Operation"
-GNM_execute_operation:0 "Execute Operation (SCRIPTED LOC)"
+GNM_execute_operation:0 "§CExecute§! Operation [GNM_kidnapping_execution_scripted_loc]"
+GNM_kidnapping_execution_scripted_loc_pacifica:0 "Northern Dream"
+GNM_kidnapping_execution_scripted_loc_candy:0 "Everything Nice"
 GNM_kidnapping_consp_decay:0 "Conspicuity Decay"
 
 GNM_kidnapping_consp_increase_tooltip:0 "Conspicuity §RIncreases§! By §Y1§!"
