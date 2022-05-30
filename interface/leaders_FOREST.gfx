@@ -5,6 +5,17 @@ spriteTypes = {
 			name = "GFX_leaders_jeff_little-legs"
 			texturefile = "gfx/leaders/FOREST/Portrait_Forest_Jeff_Little-Legs.dds"
 		}
+		
+	spriteType = {
+			name = "GFX_leaders_pacifica_forest"
+			texturefile = "gfx/leaders/GNM/hoi4_portrait_pacifica_forest.dds"
+		}
+
+	spriteType = {
+			name = "GFX_leaders_candy_forest"
+			texturefile = "gfx/leaders/GNM/hoi4_portrait_candy_forest.dds"
+		}
+		
 	spriteType = {
 			name = "GFX_leaders_shmebulock"
 			texturefile = "gfx/leaders/FOREST/Portrait_Forest_shmebulock.dds"

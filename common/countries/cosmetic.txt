@@ -115,3 +115,17 @@ SWP_communists = {
  color = rgb { 125  13  24 }
  color_ui = rgb { 125  13  24 }
 }
+
+###########
+#GF Forest#
+###########
+
+GNM_candy_cosmetic = {
+ color = rgb { 255 191 191 }
+ color_ui = rgb { 255 191 191 }
+}
+
+GNM_pacifica_cosmetic = {
+ color = rgb { 177  57  255 }
+ color_ui = rgb { 177  57  255 }
+}

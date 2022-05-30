@@ -165,6 +165,83 @@ ideas = {
 				production_speed_arms_factory_factor = 0.20
 			}
 		}
+		
+		GNM_PACIFICA_pacifica_company_idea = {
+			picture = a
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = 0.05
+			}
+		}
+		
+		GNM_PACIFICA_pacifica_company_2_idea = {
+			picture = a
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		GNM_PACIFICA_pacifica_company_3_idea = {
+			picture = a
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = 0.05
+				consumer_goods_factor = -0.1
+			}
+		}
+		
+		GNM_PACIFICA_pacifica_company_4_idea = {
+			picture = a
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		GNM_PACIFICA_china_of_oregon_idea = {
+			picture = a
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.05
+			}
+		}
+		
+		GNM_PACIFICA_shenzen_of_oregon_idea = {
+			picture = a
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				production_speed_buildings_factor = 0.15
+			}
+		}
 
 	}
 }

@@ -25,6 +25,26 @@ characters = {###########################################################
 		}	
 	}
 	
+	GNM_pacifica = {
+		name = "Pacifica Northwest" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_pacifica_forest"
+			}
+		}
+	}
+	
+	GNM_candy = {
+		name = "Candy Chiu" 
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_candy_forest"
+			}
+		}
+	}
+	
 	GNM_shmebulock = {
 		name = "Shmebulysses Q. Locke III" 
 		

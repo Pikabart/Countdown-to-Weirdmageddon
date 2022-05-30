@@ -118,6 +118,26 @@ country_event = {
 		}
 		set_global_flag = candy_gnome_kidnapped
 		mark_focus_tree_layout_dirty = yes
+		recruit_character = GNM_candy
+		add_country_leader_role = {
+			character = GNM_candy
+			promote_leader = yes
+			country_leader = {
+				ideology = fascism_ideology
+				expire = "2040.1.1.1"
+				traits = { war_hawk }
+			}
+		}
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+			long_name = GNM_fascism_candy_party
+			name = GNM_fascism_candy_party
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = 0.65
+		}
 	}
 	
 	option = {
@@ -128,15 +148,22 @@ country_event = {
 		}
 		set_global_flag = pacifica_gnome_kidnapped
 		mark_focus_tree_layout_dirty = yes
+		recruit_character = GNM_pacifica
+		add_country_leader_role = {
+			character = GNM_pacifica
+			promote_leader = yes
+			country_leader = {
+				ideology = oligarchism
+				expire = "2040.1.1.1"
+				traits = { captain_of_industry }
+			}
+		}
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+			long_name = GNM_neutrality_pacifica_party
+			name = GNM_neutrality_pacifica_party
+		}
 	}
 	
-	option = {
-		name = GNM_queen_hunting.5.c
-		ai_chance = { factor = 100 }
-		trigger = {
-			has_completed_focus = GNM_operation_fall_fantasy
-		}
-		set_global_flag = mabel_gnome_encounter2
-		mark_focus_tree_layout_dirty = yes
-	}
 }
