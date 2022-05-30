@@ -1,0 +1,10 @@
+scripted_gui = {
+
+	forest_decisions_market_ui = {
+		context_type = decision_category
+		window_name = "forest_decisions_market_ui_window"
+		properties = {} 
+	}
+	
+}
+

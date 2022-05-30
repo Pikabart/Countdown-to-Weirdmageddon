@@ -1,5 +1,6 @@
 on_actions = {
 	
+	
 	################################################################
 	#Forest Border Wars
 	on_startup = {
@@ -31,6 +32,23 @@ on_actions = {
 				}
 			}
 		}
+	}
+	
+	################################################################
+	# The Crawl Space Market Setup
+	on_startup = {
+		effect = {
+			MAN = { set_variable  = { var = FOREST_crawl_cash value = 150 } }
+			UFC = { set_variable  = { var = FOREST_crawl_cash value = 150 } }
+			GNM = { set_variable  = { var = FOREST_crawl_cash value = 150 } }
+			UNI = { set_variable  = { var = FOREST_crawl_cash value = 150 } }
+			MYS = { set_variable  = { var = FOREST_crawl_cash value = 150 } }
+			GTF = { set_variable  = { var = FOREST_crawl_cash value = 150 } }
+			NWM = { set_variable  = { var = FOREST_crawl_cash value = 150 } }
+			set_variable  = { var = global.crawl_guns value = 5000 }
+			set_variable  = { var = global.crawl_supplies value = 5000 }
+			set_variable  = { var = global.crawl_resource value = 120 }
+		} 
 	}
 	
 	################################################################

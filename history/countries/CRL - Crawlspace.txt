@@ -1,0 +1,536 @@
+﻿capital = 20
+
+set_research_slots = 6
+set_convoys = 10
+set_stability = 1
+set_war_support = 1
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "2010.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "The Merchant Guild"
+	desc = ""
+	picture = ""
+	ideology = oligarchism #liberalism
+}
+
+
+set_technology = {
+	
+	industrial_progress_check = 1
+	industrial_progress = 1
+	modern_progress_check = 1
+	modern_progress = 1
+	
+	#infantry folder
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	infantry_weapons3 = 1
+	infantry_weapons4 = 1
+	infantry_at = 1
+	infantry_at2 = 1
+	infantry_weapons5 = 1
+	infantry_weapons6 = 1
+	infantry_weapons7 = 1
+	infantry_weapons8 = 1
+	infantry_weapons9 = 1
+	infantry_weapons10 = 1
+	infantry_weapons11 = 1
+	infantry_weapons12 = 1
+	infantry_weapons13 = 1
+	infantry_weapons14 = 1
+	night_vision = 1 
+	night_vision2 = 1
+	support_weapons = 1
+	support_weapons2 = 1
+	support_weapons3 = 1
+	support_weapons4 = 1
+	#
+	mounted_infantry = 1
+	mounted_carriages1 = 1
+	mounted_carriages2 = 1
+	motorised_infantry = 1
+	motorized_rocket_unit = 1
+	mechanised_infantry = 1
+	amphibious_mechanized_infantry = 1
+	amphibious_mechanized_infantry_2 = 1
+	mechanised_infantry2 = 1
+	mechanised_infantry3 = 1
+	mounted_infantry_upgrade1 = 1
+	mounted_infantry_upgrade2 = 1
+	mounted_infantry_upgrade3 = 1
+	mounted_infantry_upgrade4 = 1
+	armored_car1 = 1
+	armored_car2 = 1
+	armored_car3 = 1
+	armored_car_at_upgrade = 1
+	#
+	tech_special_operation = 1
+	tech_special_operation_1 = 1
+	tech_special_operation_2 = 1
+	tech_special_operation_3 = 1
+	tech_special_operation_4 = 1
+	tech_special_operation_5 = 1
+	tech_special_operation_6 = 1
+	tech_special_operation_7 = 1
+	tech_special_operation_8 = 1
+	tech_special_operation_9 = 1
+	tech_special_operation_10 = 1
+	tech_special_operation_11 = 1
+	tech_special_operation_12 = 1
+	tech_special_operation_13 = 1
+	tech_special_operation_14 = 1
+	#
+	tech_magic_forces_check = 1
+	tech_magic_forces = 1
+	tech_magic_forces_1 = 1
+	mewni_magic_forces = 1
+	mewni_magic_forces_1 = 1
+	mewni_magic_forces_2 = 1
+	mewni_magic_forces_3 = 1
+	bi_magic_forces = 1
+	bi_magic_forces_1 = 1
+	bi_magic_forces_2 = 1
+	bi_magic_forces_3 = 1
+	general_magic_improvement_1 = 1
+	general_magic_improvement_2 = 1
+	general_magic_improvement_3 = 1
+	magiography = 1
+	magic_unleashed = 1
+
+	#Support
+	tech_support = 1
+	tech_engineers = 1
+	tech_engineers2 = 1
+	tech_engineers3 = 1
+	tech_engineers4 = 1
+	tech_recon = 1
+	tech_recon2 = 1
+	tech_recon3 = 1
+	tech_recon4 = 1
+	tech_military_police = 1
+	tech_military_police2 = 1
+	tech_military_police3 = 1
+	tech_military_police4 = 1
+	tech_maintenance_company = 1
+	tech_maintenance_company2 = 1
+	tech_maintenance_company3 = 1
+	tech_maintenance_company4 = 1
+	tech_field_hospital = 1
+	tech_field_hospital2 = 1
+	tech_field_hospital3 = 1
+	tech_field_hospital4 = 1
+	tech_logistics_company = 1
+	tech_logistics_company2 = 1
+	tech_logistics_company3 = 1
+	tech_logistics_company4 = 1
+	tech_signal_company = 1
+	tech_signal_company2 = 1
+	tech_signal_company3 = 1
+	tech_signal_company4 = 1
+	basic_roads = 1
+	basic_wagon = 1
+	basic_train = 1
+	railway_gun = 1
+	wartime_train = 1
+	armored_train = 1
+	
+	#Artillery
+	gw_artillery = 1
+	interwar_artillery = 1
+	artillery1 = 1
+	artillery2 = 1
+	artillery3 = 1
+	artillery4 = 1
+	artillery5 = 1
+	rocket_artillery = 1
+	rocket_artillery2 = 1
+	rocket_artillery3 = 1
+	rocket_artillery4 = 1
+	interwar_antiair = 1
+	antiair1 = 1
+	antiair2 = 1
+	antiair3 = 1
+	antiair4 = 1
+	antiair5 = 1
+	interwar_antitank = 1
+	antitank1 = 1
+	antitank2 = 1
+	antitank3 = 1
+	antitank4 = 1
+	antitank5 = 1
+
+	#Aircraft
+	early_fighter = 1
+	cv_early_fighter = 1
+	fighter1 = 1
+	cv_fighter1 = 1
+	fighter2 = 1
+	cv_fighter2 = 1
+	fighter3 = 1
+	cv_fighter3 = 1
+	jet_fighter1 = 1
+	jet_fighter2 = 1
+	CAS1 = 1
+	cv_CAS1 = 1
+	CAS2 = 1
+	cv_CAS2 = 1
+	CAS3 = 1
+	cv_CAS3 = 1
+	naval_bomber1 = 1
+	cv_naval_bomber1 = 1
+	naval_bomber2 = 1
+	cv_naval_bomber2 = 1
+	naval_bomber3 = 1
+	cv_naval_bomber3 = 1	
+	heavy_fighter1 = 1
+	heavy_fighter2 = 1
+	heavy_fighter3 = 1
+	scout_plane1 = 1
+	scout_plane2 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+	tactical_bomber2 = 1
+	tactical_bomber3 = 1
+	jet_tactical_bomber1 = 1
+	jet_tactical_bomber2 = 1
+	strategic_bomber1 = 1
+	strategic_bomber2 = 1
+	strategic_bomber3 = 1
+	jet_strategic_bomber1 = 1
+
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	decimetric_radar = 1
+	improved_decimetric_radar = 1
+	centimetric_radar = 1
+	improved_centimetric_radar = 1
+	advanced_centimetric_radar = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	improved_computing_machine = 1
+	advanced_computing_machine = 1
+	experimental_rockets = 1
+	rocket_engines = 1
+	improved_rocket_engines = 1
+	advanced_rocket_engines = 1
+	jet_engines = 1
+	atomic_research = 1
+	nuclear_reactor = 1
+	nukes = 1
+
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	assembly_line_production = 1
+	flexible_line = 1
+	streamlined_line = 1
+	concentrated_industry = 1
+	concentrated_industry2 = 1
+	concentrated_industry3 = 1
+	concentrated_industry4 = 1
+	concentrated_industry5 = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+	dispersed_industry3 = 1
+	dispersed_industry4 = 1
+	dispersed_industry5 = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	fuel_refining2 = 1
+	fuel_refining3 = 1
+	fuel_refining4 = 1
+	fuel_refining5 = 1
+	synth_oil_experiments = 1
+	oil_processing = 1
+	improved_oil_processing = 1
+	advanced_oil_processing = 1
+	modern_oil_processing = 1
+	rubber_processing = 1
+	improved_rubber_processing = 1
+	advanced_rubber_processing = 1
+	modern_rubber_processing = 1
+	construction1 = 1
+	construction2 = 1
+	construction3 = 1
+	construction4 = 1
+	construction5 = 1
+	excavation1 = 1
+	excavation2 = 1
+	excavation3 = 1
+	excavation4 = 1
+	excavation5 = 1
+	
+}
+
+if = {
+	limit = {
+		has_dlc = "Death or Dishonor"
+	}
+	set_technology = {
+		improved_equipment_conversion = 1
+		advanced_equipment_conversion = 1
+	}
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "La Resistance" }
+	}
+	set_technology = {
+		basic_encryption = 1
+		improved_encryption = 1
+		advanced_encryption = 1
+		basic_decryption = 1
+		improved_decryption = 1
+		advanced_decryption = 1
+	}
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_light_td = 1
+		basic_light_art = 1
+		basic_light_spaa = 1
+		improved_light_tank = 1
+		improved_light_td = 1
+		improved_light_art = 1
+		improved_light_spaa = 1
+		advanced_light_tank = 1
+		advanced_light_td = 1
+		advanced_light_art = 1
+		advanced_light_spaa = 1
+		basic_medium_tank = 1
+		basic_medium_td = 1
+		basic_medium_art = 1
+		basic_medium_spaa = 1
+		improved_medium_tank = 1
+		improved_medium_td = 1
+		improved_medium_art = 1
+		improved_medium_spaa = 1
+		advanced_medium_tank = 1
+		advanced_medium_td = 1
+		advanced_medium_art = 1
+		advanced_medium_spaa = 1
+		basic_heavy_tank = 1
+		basic_heavy_td = 1
+		basic_heavy_art = 1
+		basic_heavy_spaa = 1
+		improved_heavy_tank = 1
+		improved_heavy_td = 1
+		improved_heavy_art = 1
+		improved_heavy_spaa = 1
+		advanced_heavy_tank = 1
+		advanced_heavy_td = 1
+		advanced_heavy_art = 1
+		advanced_heavy_spaa = 1
+		super_heavy_tank = 1
+		super_heavy_td = 1
+		super_heavy_art = 1
+		super_heavy_spaa = 1
+		
+		main_battle_tank = 1
+		modern_td = 1
+		modern_art = 1
+		modern_spaa = 1
+
+		amphibious_tank = 1
+		amphibious_tank_2 = 1
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		advanced_light_tank_chassis = 1
+		basic_medium_tank_chassis = 1
+		improved_medium_tank_chassis = 1
+		advanced_medium_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		improved_heavy_tank_chassis = 1
+		advanced_heavy_tank_chassis = 1
+		super_heavy_tank_chassis = 1
+		
+		amphibious_tank_chassis = 1
+		amphibious_drive = 1
+		main_battle_tank_chassis = 1
+		
+		armor_tech_1 = 1
+		armor_tech_2 = 1
+		armor_tech_3 = 1
+		armor_tech_4 = 1
+		engine_tech_1 = 1
+		engine_tech_2 = 1
+		engine_tech_3 = 1
+		engine_tech_4 = 1
+		
+	}
+	add_ideas = bureau_of_ordnance_spirit
+}
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		improved_submarine = 1
+		advanced_submarine = 1
+		
+		early_destroyer = 1
+		basic_destroyer = 1
+		improved_destroyer = 1
+		advanced_destroyer = 1
+		
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		improved_light_cruiser = 1
+		advanced_light_cruiser = 1
+		
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		improved_heavy_cruiser = 1
+		advanced_heavy_cruiser = 1
+		
+		early_battleship = 1
+		basic_battleship = 1
+		improved_battleship = 1
+		advanced_battleship = 1
+		heavy_battleship = 1
+		heavy_battleship2 = 1
+		
+		early_battlecruiser = 1
+		basic_battlecruiser = 1
+		
+		early_carrier = 1
+		basic_carrier = 1
+		improved_carrier = 1
+		advanced_carrier = 1
+		
+		transport = 1
+		landing_craft = 1
+		tank_landing_craft = 1
+	}
+}
+if = {
+	limit = { has_dlc = "Man the Guns" }
+	set_technology = {
+		smoke_generator = 1
+		sonar = 1
+		improved_sonar = 1
+		basic_depth_charges = 1
+		improved_depth_charges = 1 
+		advanced_depth_charges = 1
+		modern_depth_charges = 1
+		
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		improved_ship_hull_light = 1
+		advanced_ship_hull_light = 1
+		
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		improved_ship_hull_submarine = 1
+		advanced_ship_hull_submarine = 1
+		basic_submarine_snorkel = 1
+		improved_submarine_snorkel = 1
+		
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		improved_ship_hull_cruiser = 1
+		advanced_ship_hull_cruiser = 1
+		improved_airplane_launcher = 1
+		basic_cruiser_armor_scheme = 1
+		improved_cruiser_armor_scheme = 1
+		advanced_cruiser_armor_scheme = 1
+		
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		improved_ship_hull_heavy = 1
+		advanced_ship_hull_heavy = 1
+		basic_heavy_armor_scheme = 1
+		improved_heavy_armor_scheme = 1
+		ship_hull_super_heavy = 1
+		
+		early_ship_hull_carrier = 1
+		basic_ship_hull_carrier = 1
+		improved_ship_hull_carrier = 1
+		advanced_ship_hull_carrier = 1
+
+		basic_torpedo = 1
+		magnetic_detonator = 1
+		homing_torpedo = 1
+		electric_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		advanced_ship_torpedo_launcher = 1
+		modern_ship_torpedo_launcher = 1
+		
+		basic_battery = 1
+		basic_light_battery = 1
+		improved_light_battery = 1
+		advanced_light_battery = 1
+		basic_light_shell = 1
+		improved_light_shell = 1
+		basic_medium_battery = 1
+		improved_medium_battery = 1
+		advanced_medium_battery = 1
+		basic_medium_shell = 1
+		improved_medium_shell = 1
+		basic_heavy_battery = 1
+		improved_heavy_battery = 1
+		advanced_heavy_battery = 1
+		basic_heavy_shell = 1
+		improved_heavy_shell = 1
+		
+		basic_secondary_battery = 1		
+		improved_secondary_battery = 1
+		dp_secondary_battery = 1
+		
+		damage_control_1 = 1
+		damage_control_2 = 1
+		damage_control_3 = 1
+		fire_control_methods_1 = 1
+		fire_control_methods_2 = 1
+		fire_control_methods_3 = 1
+		
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		improved_submarine_mine_laying = 1
+		improved_naval_mines = 1
+		degaussing = 1
+		advanced_naval_mines = 1
+		airdrop_mines = 1
+		modern_naval_mines = 1
+		airsweep_mines = 1
+		
+		mtg_transport = 1
+		mtg_landing_craft = 1
+		mtg_tank_landing_craft = 1
+		
+		basic_fire_control_system = 1
+		improved_fire_control_system = 1
+		advanced_fire_control_system = 1
+	}
+}
