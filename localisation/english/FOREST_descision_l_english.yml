@@ -21,7 +21,7 @@
     
     cash_reserve_loc:0 "Our Current §7Cryptid Currency Reserve§! = §Y¢§![?ROOT.FOREST_crawl_cash|+0]"
     
-    cash_reserve_loc_tt:0 "This is our current cash reserve in the currency accepted at the Crawlspace. This currency is backed by the full faith and combined wealth of the Crawlspace Merchant Guild and is secretly the third most popular currency of the Shadow Goverment, behind the Canadian Pound-Sterling and the European Union Euro."
+    cash_reserve_loc_tt:0 "This is our current cash reserve in the currency accepted at the §RCrawlspace§!.\n\nThis currency is backed by the full faith and combined wealth of the Crawlspace Merchant Guild and is secretly the third most popular currency of the Shadow Government, behind the §OCanadian Pound-Sterling§! and the §CEuropean Union Euro§!."
     
     ##
     
@@ -33,7 +33,7 @@
     
     crawl_supply_count_loc:0 "Current Market §YSupplies§! Available = [?global.crawl_supplies|+0]"
     
-    crawl_supply_count_loc_tt:0 "While not very profitable per unit, everything needs food and supplies to live. Supply merchnants may not be rolling in the dough, but are never without customers."
+    crawl_supply_count_loc_tt:0 "While not very profitable per unit, everything needs food and supplies to live. Supply merchants may not be rolling in the dough, but are never without customers."
     
     ##
     
@@ -66,7 +66,7 @@
     FOREST_decision_common_2_a_tt:0 "Require having more than §7¢100 Cryptid Currency§! and the market having more then §R250 units of weapons§! in their stockpile."
     
     FOREST_decision_common_2_b:0 "Lvl 2: Buy Artillery Pieces"
-    FOREST_decision_common_2_b_desc:0 "Y"
+    FOREST_decision_common_2_b_desc:0 "Someone in the Oregon National Guard is going to be in big trouble when they find their artillery pieces all missing..."
     FOREST_decision_common_2_b_tt:0 "Require having more than §7¢100 Cryptid Currency§! and the market having more then §R250 units of weapons§! and §Y250 units of supplies§! in their stockpile."
     
     FOREST_decision_common_2_c:0 "Lvl 2: Happy Gas"
@@ -88,7 +88,7 @@
     FOREST_decision_common_3_b_tt:0 "Require having more than §7¢200 Cryptid Currency§! and the market having more then §C10 units of resources§! in their stockpile."
     
     FOREST_decision_common_3_c:0 "Lvl 3: Coven Training Documents"
-    FOREST_decision_common_3_c_desc:0 "Some pale witch with big hair, a fake sharp tooth and a "Over Thirty and Flirty" shirt sold this manual to them. She then robbed them blind. At least it's useful for Magic Troops."
+    FOREST_decision_common_3_c_desc:0 "Some pale witch with big hair, a fake sharp tooth and a "Over Thirty and Flirty" shirt sold these manuals to the merchants of the Crawlspace. She then robbed them blind. Trying to recoup their losses, the manuals are quite useful for Magic Special Forces."
     FOREST_decision_common_3_c_tt:0 "Require having more than §7¢200 Cryptid Currency§! and the market having more then §C10 units of resources§! in their stockpile."
     
     FOREST_decision_common_3_d:0 "Lvl 3: Rick Ex Machina"
@@ -102,7 +102,7 @@
     ###  ###
 
     FOREST_catagory_crawl_space_sell:0 "The Crawlspace: Sell Sell Sell!"
-    FOREST_catagory_crawl_space_sell_desc:0 "The merchants of the §RCrawlspace§! gets their critical merchandise from a series of mysterious wholesale sources. Most are either sold by corrupt sources within the Shadow Government or lost by incompetent bureaucrats within the US Government. The market is no looking to its customers to buy equipment, which could be an easy way to make some cash."
+    FOREST_catagory_crawl_space_sell_desc:0 "The merchants of the §RCrawlspace§! gets their critical merchandise from a series of mysterious wholesale sources. Most are either sold by corrupt sources within the Shadow Government or lost by incompetent bureaucrats within the US Government. The market is now looking to its customers to buy equipment, which could be an easy way to make some cash."
     
     ###########################################
     
