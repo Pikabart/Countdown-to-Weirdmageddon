@@ -37,7 +37,7 @@ ideas = { #Entire file
 			cancel = {}
 			allowed_civil_war = {always = no}
 			
-			modifier = { research_speed_factor = 0.15 }
+			modifier = { stability_factor = 0.25 }
 		}
 		
 		CRL_patriot_water_2 = { # Through Thick or Thin
@@ -48,7 +48,7 @@ ideas = { #Entire file
 			cancel = {}
 			allowed_civil_war = {always = no}
 			
-			modifier = { production_speed_buildings_factor = 0.15  }
+			modifier = { war_support_factor = 0.25  }
 		}
 		#########################################################
 		CRL_scrap_frobot_study_3 = { # 
@@ -59,7 +59,7 @@ ideas = { #Entire file
 			cancel = {}
 			allowed_civil_war = {always = no}
 			
-			modifier = { research_speed_factor = 0.15 }
+			modifier = { research_speed_factor = 0.25	 }
 		}
 		CRL_coven_training_3 = { # 
 			#picture =  
@@ -69,7 +69,7 @@ ideas = { #Entire file
 			cancel = {}
 			allowed_civil_war = {always = no}
 			
-			modifier = { research_speed_factor = 0.15 }
+			modifier = { special_forces_attack_factor = 0.15 special_forces_defence_factor = 0.15 }
 		}
 		CRL_rick_3 = { # 
 			#picture =  
@@ -77,9 +77,9 @@ ideas = { #Entire file
 			allowed = {}
 			available = {}
 			cancel = {}
-			allowed_civil_war = {always = no}
+			allowed_civil_war = {always = no} 
 			
-			modifier = { research_speed_factor = 0.15 }
+			modifier = { research_speed_factor = 0.3 encryption_factor = 0.5 decryption_factor = 0.5 fuel_gain_factor = 10 refit_speed = 1 }
 		}
 		#########################################################
 		
