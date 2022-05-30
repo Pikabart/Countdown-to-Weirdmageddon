@@ -1,0 +1,53 @@
+defined_text = {
+	name = GNM_kidnapping_infil_scripted_loc
+	text = {
+		trigger = {
+			original_tag = GNM
+			has_completed_focus = GNM_operation_northern_dream
+		}
+		localization_key = GNM_kidnapping_infil_scripted_loc_pacifica
+	}
+	text = {
+		trigger = {
+			original_tag = GNM
+			has_completed_focus = GNM_operation_everything_nice
+		}
+		localization_key = GNM_kidnapping_infil_scripted_loc_candy
+	}
+}
+
+defined_text = {
+	name = GNM_kidnapping_execution_scripted_loc
+	text = {
+		trigger = {
+			original_tag = GNM
+			has_completed_focus = GNM_operation_northern_dream
+		}
+		localization_key = GNM_kidnapping_execution_scripted_loc_pacifica
+	}
+	text = {
+		trigger = {
+			original_tag = GNM
+			has_completed_focus = GNM_operation_everything_nice
+		}
+		localization_key = GNM_kidnapping_execution_scripted_loc_candy
+	}
+}
+
+defined_text = {
+	name = GNM_kidnapping_name_scripted_loc
+	text = {
+		trigger = {
+			original_tag = GNM
+			has_completed_focus = GNM_operation_northern_dream
+		}
+		localization_key = GNM_kidnapping_name_scripted_loc_pacifica
+	}
+	text = {
+		trigger = {
+			original_tag = GNM
+			has_completed_focus = GNM_operation_everything_nice
+		}
+		localization_key = GNM_kidnapping_name_scripted_loc_candy
+	}
+}
