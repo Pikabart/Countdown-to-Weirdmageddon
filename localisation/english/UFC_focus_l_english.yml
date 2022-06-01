@@ -29,7 +29,7 @@
  
  UFC_rally_north_gnomes:0 "Rally The Northern Gnomes To Us!"
  UFC_rally_north_gnomes_desc:0 ""
- UFC_rally_north_gnomes.t:0 ""
+ UFC_rally_north_gnomes.t:0 "Police Captain Miller will rally his police force to help us battle the Manotaurs!"
  
  UFC_unite_heads:0 "Unite The Multi-Heads Of The Realm"
  UFC_unite_heads_desc:0 ""
@@ -59,13 +59,81 @@
  UFC_the_new_peace_desc:0 ""
  UFC_the_new_peace.t:0 ""
  
- UFC_bear_victory_unicorn.1:0 "Form The Council"
+ UFC_bear_victory_council.1:0 "Form The Council"
+ UFC_bear_victory_council.1_desc:0 ""
+ UFC_bear_victory_council.1.t:0 ""
+ 
+ UFC_bear_victory_council.2:0 "Begin The Great Reform"
+ UFC_bear_victory_council.2_desc:0 ""
+ UFC_bear_victory_council.2.t:0 ""
+ 
+ UFC_bear_victory_council.3:0 "Unite The Forest"
+ UFC_bear_victory_council.3_desc:0 ""
+ UFC_bear_victory_council.3.t:0 ""
+ 
+ UFC_bear_victory_council.4:0 "Multi-Rejuviation"
+ UFC_bear_victory_council.4_desc:0 ""
+ UFC_bear_victory_council.4.t:0 ""
+ 
+ UFC_bear_victory_council.5:0 "Formation Of The Council"
+ UFC_bear_victory_council.5_desc:0 ""
+ UFC_bear_victory_council.5.t:0 ""
+ 
+ UFC_bear_victory_council.6:0 "Forest Creature Equality"
+ UFC_bear_victory_council.6_desc:0 ""
+ UFC_bear_victory_council.6.t:0 ""
+ 
+ UFC_bear_victory_council.7:0 "The Great Compromise"
+ UFC_bear_victory_council.7_desc:0 ""
+ UFC_bear_victory_council.7.t:0 ""
+ 
+ ##################################
+ 
+ UFC_bear_victory_unicorn.1:0 "Those Who Betrayed The Forest..."
  UFC_bear_victory_unicorn.1_desc:0 ""
  UFC_bear_victory_unicorn.1.t:0 ""
  
- UFC_bear_victory_unicorn.2:0 "Those Who Betrayed The Forest..."
+ UFC_bear_victory_unicorn.2:0 "Never Bow To Any Horn"
  UFC_bear_victory_unicorn.2_desc:0 ""
  UFC_bear_victory_unicorn.2.t:0 ""
+ 
+ UFC_bear_victory_unicorn.3:0 "Reject The Unicorn Mandate"
+ UFC_bear_victory_unicorn.3_desc:0 ""
+ UFC_bear_victory_unicorn.3.t:0 ""
+ 
+ UFC_bear_victory_unicorn.4:0 "Wrestle Control Of The Upper Trembley"
+ UFC_bear_victory_unicorn.4_desc:0 ""
+ UFC_bear_victory_unicorn.4.t:0 ""
+ 
+ UFC_bear_victory_unicorn.5:0 "A Fight Against Decadence"
+ UFC_bear_victory_unicorn.5_desc:0 ""
+ UFC_bear_victory_unicorn.5.t:0 ""
+ 
+ UFC_bear_victory_unicorn.6:0 "Exact The Cost Of Backstabbing"
+ UFC_bear_victory_unicorn.6_desc:0 ""
+ UFC_bear_victory_unicorn.6.t:0 ""
+ 
+ UFC_bear_victory_unicorn.7:0 "Dam The River Tremblet!"
+ UFC_bear_victory_unicorn.7_desc:0 ""
+ UFC_bear_victory_unicorn.7.t:0 ""
+ 
+ ##################################
+ 
+ UFC_bear_victory_wooden_wall.1:0 "Wooden Curtain"
+ UFC_bear_victory_wooden_wall.1_desc:0 ""
+ UFC_bear_victory_wooden_wall.1.t:0 ""
+ 
+ UFC_bear_victory_wooden_wall.2:0 "Reposition To The Southern Forest"
+ UFC_bear_victory_wooden_wall.2_desc:0 ""
+ UFC_bear_victory_wooden_wall.2.t:0 ""
+ 
+ UFC_bear_victory_wooden_wall.3:0 "Secure The Crossing Gap"
+ UFC_bear_victory_wooden_wall.3_desc:0 ""
+ UFC_bear_victory_wooden_wall.3.t:0 ""
+ 
+ UFC_bear_victory_final:0 ""
+ UFC_bear_victory_final_desc:0 ""
+ UFC_bear_victory_final.t:0 ""
  
  ########################################################################
  
@@ -73,12 +141,70 @@
  UFC_no_sleep_desc:0 ""
  UFC_no_sleep.t:0 ""
  
- UFC_bear_defeat_unicorn.1:0 "Multi-Revanchism"
- UFC_bear_defeat_unicorn.1_desc:0 ""
- UFC_bear_defeat_unicorn.1.t:0 ""
+ UFC_bear_defeat_revanch.1:0 "Multi-Revanchism"
+ UFC_bear_defeat_revanch.1_desc:0 ""
+ UFC_bear_defeat_revanch.1.t:0 ""
  
- UFC_bear_defeat_unicorn.2:0 "Radical Forest Reform"
- UFC_bear_defeat_unicorn.2_desc:0 ""
- UFC_bear_defeat_unicorn.2.t:0 ""
+ UFC_bear_defeat_revanch.2:0 "Betrayed By Decadence"
+ UFC_bear_defeat_revanch.2_desc:0 ""
+ UFC_bear_defeat_revanch.2.t:0 ""
+ 
+ UFC_bear_defeat_revanch.3:0 "Beaten Back"
+ UFC_bear_defeat_revanch.3_desc:0 ""
+ UFC_bear_defeat_revanch.3.t:0 ""
+ 
+ UFC_bear_defeat_revanch.4:0 "Our Lifestyle Questioned"
+ UFC_bear_defeat_revanch.4_desc:0 ""
+ UFC_bear_defeat_revanch.4.t:0 ""
+ 
+ UFC_bear_defeat_revanch.5:0 "But Multi-Limbed..."
+ UFC_bear_defeat_revanch.5_desc:0 ""
+ UFC_bear_defeat_revanch.5.t:0 ""
+ 
+ UFC_bear_defeat_revanch.6:0 "... And Multi-Headed"
+ UFC_bear_defeat_revanch.6_desc:0 ""
+ UFC_bear_defeat_revanch.6.t:0 ""
+ 
+ UFC_bear_defeat_revanch.7:0 "Our Singular Vendetta Aawaits"
+ UFC_bear_defeat_revanch.7_desc:0 ""
+ UFC_bear_defeat_revanch.7.t:0 ""
+ 
+ ###################
+ 
+ UFC_bear_defeat_radical.1:0 "Radical Forest Reform"
+ UFC_bear_defeat_radical.1_desc:0 ""
+ UFC_bear_defeat_radical.1.t:0 ""
+ 
+ UFC_bear_defeat_radical.2:0 "Question Our Choices"
+ UFC_bear_defeat_radical.2_desc:0 ""
+ UFC_bear_defeat_radical.2.t:0 ""
+ 
+ UFC_bear_defeat_radical.3:0 "Question Our Leaders"
+ UFC_bear_defeat_radical.3_desc:0 ""
+ UFC_bear_defeat_radical.3.t:0 ""
+ 
+ UFC_bear_defeat_radical.4:0 "Overthrow The Upper Head"
+ UFC_bear_defeat_radical.4_desc:0 ""
+ UFC_bear_defeat_radical.4.t:0 ""
+ 
+ UFC_bear_defeat_radical.5:0 "All Heads Equal"
+ UFC_bear_defeat_radical.5_desc:0 ""
+ UFC_bear_defeat_radical.5.t:0 ""
+ 
+ UFC_bear_defeat_radical.6:0 "Each Head To Their Own Needs"
+ UFC_bear_defeat_radical.6_desc:0 ""
+ UFC_bear_defeat_radical.6.t:0 ""
+ 
+ UFC_bear_defeat_radical.7:0 "Ensure Forest Equality"
+ UFC_bear_defeat_radical.7_desc:0 ""
+ UFC_bear_defeat_radical.7.t:0 ""
+ 
+ UFC_bear_defeat_radical.8:0 "Bring On The Forest Revolution"
+ UFC_bear_defeat_radical.8_desc:0 ""
+ UFC_bear_defeat_radical.8.t:0 ""
+ 
+ UFC_bear_defeat_final:0 ""
+ UFC_bear_defeat_final_desc:0 ""
+ UFC_bear_defeat_final.t:0 ""
  
  ########################################################################

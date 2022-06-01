@@ -1,0 +1,16 @@
+﻿##### Division Templates #####
+
+division_template = {
+	name = "Gnome Police Department"
+	#division_names_group = 
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+		military_police = { x = 0 y = 0 }
+	}
+}
+
+########################################

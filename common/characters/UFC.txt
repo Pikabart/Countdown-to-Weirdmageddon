@@ -57,13 +57,41 @@ characters = {###########################################################
 			id = -1
 		}
 		corps_commander = {
-			desc = "MILITARY_STAN_PINES_DESC"
+			desc = ""
 			traits = {  }
 			skill = 2
 
 			attack_skill = 3
 			defense_skill = 2		
 			planning_skill = 2
+			logistics_skill = 1
+		}	
+	}
+	
+	UFC_gnome_chief = {
+		name = "Captain Miller" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = fascism_ideology
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		corps_commander = {
+			desc = ""
+			traits = {  }
+			skill = 3
+			visible = {
+				has_country_flag = UFC_gnome_police_join
+			}
+			attack_skill = 3
+			defense_skill = 2		
+			planning_skill = 3
 			logistics_skill = 1
 		}	
 	}

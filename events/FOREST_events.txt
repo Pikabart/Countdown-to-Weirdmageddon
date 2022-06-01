@@ -13,6 +13,7 @@ country_event = {
 	
 	immediate = {
 		MAN = {
+			# Central Crossing
 			start_border_war = {
 				change_state_after_war = yes
 				attacker = {
@@ -33,10 +34,12 @@ country_event = {
 			}
 			set_border_war_data = {
 				attacker = 50
-				defender = 50
-				defender_modifier = 1
+				defender = 46
+				defender_modifier = 2
 				combat_width = 15
 			}
+			
+			# Trembley Rapids
 			start_border_war = {
 				change_state_after_war = yes
 				attacker = {
@@ -57,37 +60,12 @@ country_event = {
 			}
 			set_border_war_data = {
 				attacker = 51
-				defender = 49
-				defender_modifier = 1
+				defender = 508
+				defender_modifier = 2
 				combat_width = 15
 			}
 		}
-		UFC = {
-			start_border_war = {
-				change_state_after_war = yes
-				attacker = {
-					state = 48
-					num_provinces = 3
-					#on_win = japan_border_conflict.2
-					#on_lose = japan_border_conflict.3
-					#on_cancel = japan_border_conflict.4
-				}
-							
-				defender = {
-					state = 509
-					num_provinces = 3
-					#on_win = japan_border_conflict.3
-					#on_lose = japan_border_conflict.2
-					#on_cancel = japan_border_conflict.4
-				}
-			}
-			set_border_war_data = {
-				attacker = 48
-				defender = 52
-				attacker_modifier = 1
-				combat_width = 15
-			}
-		}
+		
 	}
 	option = {
 		name = FOREST_border_wars.1.a
@@ -122,7 +100,6 @@ country_event = { #Winning the War
 			transfer_state = 48
 			transfer_state = 50
 			transfer_state = 51
-			transfer_state = 52
 			transfer_state = 53
 			transfer_state = 508
 			transfer_state = 509
@@ -130,7 +107,6 @@ country_event = { #Winning the War
 			add_state_core = 48
 			add_state_core = 50
 			add_state_core = 51
-			add_state_core = 52
 			add_state_core = 53
 			add_state_core = 508
 			add_state_core = 509
@@ -140,14 +116,12 @@ country_event = { #Winning the War
 			white_peace = { tag = UFC message = FOREST_wars.1.b }
 			UNI = { country_event = { id = UNI_multi_mano_war_check.1 days = 1 } }
 			transfer_state = 46
-			transfer_state = 47
 			transfer_state = 48
 			transfer_state = 50
 			transfer_state = 51
 			transfer_state = 508
 			transfer_state = 509
 			add_state_core = 46
-			add_state_core = 47
 			add_state_core = 48
 			add_state_core = 50
 			add_state_core = 51
@@ -165,6 +139,7 @@ country_event = { #Winning the War
 				transfer_state = 49
 				add_state_core = 49
 			}
+			MAN = {complete_national_focus = MAN_manly_victory}
 		}
 	}
 	option = {
@@ -196,6 +171,7 @@ country_event = { #Losing the War
 		}
 		ELSE_IF = { limit = { tag = MAN }
 			add_political_power = -100
+			MAN = { complete_national_focus = MAN_emasculating_defeat }
 		}
 	}
 	option = {

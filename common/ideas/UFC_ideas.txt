@@ -1,0 +1,43 @@
+ideas = {
+	country = {
+
+		UFC_gnome_police = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				army_org_factor = 0.15
+				offence = 0.05
+				defence = 0.05				
+			}
+		}	
+
+		UFC_united_heads = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = 0.2
+				experience_gain_army = 0.05
+			}
+		}
+		
+		UFC_hibernate_isolate = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				defence = 0.40	
+			}
+		}
+
+}
