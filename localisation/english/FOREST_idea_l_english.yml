@@ -40,6 +40,17 @@
     UFC_hibernate_isolate:0 "Early Hibernation"
     UFC_hibernate_isolate_desc:0 ""
     
+    ####################################################
+    
+    MAN_flexing:0 "Flexing"
+    MAN_flexing_desc:0 ""
+    
+    MAN_handy:0 "A Handy Allaince"
+    MAN_handy_desc:0 ""
+    
+    MAN_dont_bother_us:0 "Return To The Man-Cave"
+    MAN_dont_bother_us_desc:0 ""
+    
     
     
     

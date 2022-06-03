@@ -17,7 +17,7 @@ characters = {###########################################################
 	}
 	
 	UFC_multi_bear = {
-		name = "Multibear" 
+		name = "John Multibear" 
 		
 		portraits = {
 			civilian = {
@@ -33,10 +33,10 @@ characters = {###########################################################
 		field_marshal = {
 			desc = ""
 			traits = {  }
-			skill = 4
+			skill = 3
 
 			attack_skill = 1
-			defense_skill = 1		
+			defense_skill = 2		
 			planning_skill = 3
 			logistics_skill = 2
 		}	
@@ -69,7 +69,7 @@ characters = {###########################################################
 	}
 	
 	UFC_gnome_chief = {
-		name = "Captain Miller" 
+		name = "Chief Miller" 
 		
 		portraits = {
 			civilian = {
@@ -93,6 +93,28 @@ characters = {###########################################################
 			defense_skill = 2		
 			planning_skill = 3
 			logistics_skill = 1
+		}	
+	}
+	
+	UFC_gnome_captain = {
+		name = "Kelly Red-Hat" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		corps_commander = {
+			desc = ""
+			traits = {  }
+			skill = 2
+			visible = {
+				has_country_flag = UFC_gnome_police_join
+			}
+			attack_skill = 2
+			defense_skill = 1		
+			planning_skill = 2
+			logistics_skill = 2
 		}	
 	}
 

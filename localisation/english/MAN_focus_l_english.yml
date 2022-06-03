@@ -59,13 +59,13 @@
  
  ########################################################################
  
- MAN_never_again:0 "An Emasculating Defeat"
- MAN_never_again_desc:0 ""
- MAN_never_again.t:0 ""
- 
- MAN_emasculating_defeat:0 "No One Out-Mans The Manotaurs!"
+ MAN_emasculating_defeat:0 "An Emasculating Defeat"
  MAN_emasculating_defeat_desc:0 ""
  MAN_emasculating_defeat.t:0 ""
+ 
+ MAN_never_again:0 "No One Out-Mans The Manotaurs!"
+ MAN_never_again_desc:0 ""
+ MAN_never_again.t:0 ""
  
  
  

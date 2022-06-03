@@ -74,7 +74,7 @@ units = {
 	division= {	
 		division_name = {}
 		location = 6674 
-		division_template = "Magic Attack Hands"
+		division_template = "Manly Brigades"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0
 
@@ -83,29 +83,12 @@ units = {
 	division= {	
 		division_name = {}
 		location = 4591 
-		division_template = "Magic Attack Hands"
+		division_template = "Manly Brigades"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0
 
 	}
-	
-	division= {	
-		division_name = {}
-		location = 8105
-		division_template = "Magic Attack Hands"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0
 
-	}
-	
-	division= {	
-		division_name = {}
-		location = 8128 
-		division_template = "Magic Attack Hands"
-		start_experience_factor = 0.1
-		start_equipment_factor = 0
-
-	}
 
 	##### No Notable Naval Forces #####
 }

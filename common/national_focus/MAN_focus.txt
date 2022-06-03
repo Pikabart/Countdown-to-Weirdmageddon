@@ -33,6 +33,8 @@
 
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
+			add_command_power = 50
+			set_war_support = 1
 		}
 		
 		ai_will_do = {
@@ -59,6 +61,7 @@
 
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
+			add_ideas = MAN_flexing
 		}
 		
 		ai_will_do = {
@@ -85,6 +88,7 @@
 
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
+			add_political_power = 200
 		}
 		
 		ai_will_do = {
@@ -111,6 +115,19 @@
 
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
+			add_manpower = 5000
+			add_ideas = MAN_handy
+			#hidden_effect = {
+				random_owned_controlled_state = {
+					create_unit = { division = "name = \"Magic Attack Hands\" division_template = \"Magic Attack Hands\" start_experience_factor = 0.1" owner = MAN }
+					create_unit = { division = "name = \"Magic Attack Hands\" division_template = \"Magic Attack Hands\" start_experience_factor = 0.1" owner = MAN }
+				}
+				random_owned_controlled_state = {
+					create_unit = { division = "name = \"Magic Attack Hands\" division_template = \"Magic Attack Hands\" start_experience_factor = 0.1" owner = MAN }
+					create_unit = { division = "name = \"Magic Attack Hands\" division_template = \"Magic Attack Hands\" start_experience_factor = 0.1" owner = MAN }
+					create_unit = { division = "name = \"Magic Attack Hands\" division_template = \"Magic Attack Hands\" start_experience_factor = 0.1" owner = MAN }
+				}			
+			#}
 		}
 		
 		ai_will_do = {
@@ -139,6 +156,12 @@
 
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
+			set_border_war_data = {
+				attacker = 51
+				defender = 508
+				attacker_modifier = 40
+				combat_width = 20
+			}
 		}
 		
 		ai_will_do = {
@@ -167,6 +190,12 @@
 
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
+			set_border_war_data = {
+				attacker = 48
+				defender = 509
+				defender_modifier = 40
+				combat_width = 20
+			}
 		}
 		
 		ai_will_do = {
@@ -199,7 +228,9 @@
 			cancel_border_war = {  dont_fire_events = yes defender = 508 attacker = 51 }
 			cancel_border_war = {  dont_fire_events = yes defender = 509 attacker = 48 }
 			add_war_support = 0.10
-			hidden_effect = { }
+			hidden_effect = { 
+				UFC = { complete_national_focus = UFC_final_defense }
+			}
 		}
 		
 		ai_will_do = {
@@ -231,6 +262,7 @@
 
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
+			add_ideas = MAN_dont_bother_us
 		}
 		
 		ai_will_do = {
@@ -296,6 +328,188 @@
 		}	
 	}
 	
+	focus = { 
+		id = MAN_leaderaur.1
+		icon = GFX_goal_FOREST_river_battle 
+		x = -2
+		y = 2
+		relative_position_id = MAN_strong_order
+		prerequisite = { focus = MAN_strong_order }
+		mutually_exclusive = { focus = MAN_chutzpar.1 }
+		mutually_exclusive = { focus = MAN_womantaur.1 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_leaderaur.2
+		icon = GFX_goal_FOREST_river_battle 
+		x = -3
+		y = 1
+		relative_position_id = MAN_leaderaur.1
+		prerequisite = { focus = MAN_leaderaur.1 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_leaderaur.3
+		icon = GFX_goal_FOREST_river_battle 
+		x = 0
+		y = 1
+		relative_position_id = MAN_leaderaur.1
+		prerequisite = { focus = MAN_leaderaur.1 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_leaderaur.4
+		icon = GFX_goal_FOREST_river_battle 
+		x = 3
+		y = 1
+		relative_position_id = MAN_leaderaur.1
+		prerequisite = { focus = MAN_leaderaur.1 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_leaderaur.5
+		icon = GFX_goal_FOREST_river_battle 
+		x = 0
+		y = 1
+		relative_position_id = MAN_leaderaur.3
+		prerequisite = { focus = MAN_leaderaur.2 }
+		prerequisite = { focus = MAN_leaderaur.3 }
+		prerequisite = { focus = MAN_leaderaur.4 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_leaderaur.6
+		icon = GFX_goal_FOREST_river_battle 
+		x = 0
+		y = 1
+		relative_position_id = MAN_leaderaur.4
+		prerequisite = { focus = MAN_leaderaur.2 }
+		prerequisite = { focus = MAN_leaderaur.3 }
+		prerequisite = { focus = MAN_leaderaur.4 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_leaderaur.7
+		icon = GFX_goal_FOREST_river_battle 
+		x = 0
+		y = 1
+		relative_position_id = MAN_leaderaur.6
+		prerequisite = { focus = MAN_leaderaur.5 }
+		prerequisite = { focus = MAN_leaderaur.6 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
 	#######################################################
 	#######################################################
 	#######################################################
@@ -317,7 +531,7 @@
 		available_if_capitulated = no
 
 		completion_reward = { 
-			#custom_effect_tooltip = "X.t"
+			#custom_effect_tooltip = "X.t" 
 		}
 		
 		ai_will_do = {
@@ -353,8 +567,424 @@
 		}	
 	}
 
+	focus = { 
+		id = MAN_womantaur.1
+		icon = GFX_goal_FOREST_river_battle 
+		x = 2
+		y = 2
+		relative_position_id = MAN_never_again
+		prerequisite = { focus = MAN_never_again }
+		mutually_exclusive = { focus = MAN_leaderaur.1 }
+		mutually_exclusive = { focus = MAN_chutzpar.1 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_womantaur.2
+		icon = GFX_goal_FOREST_river_battle 
+		x = 3
+		y = 1
+		relative_position_id = MAN_womantaur.1
+		prerequisite = { focus = MAN_womantaur.1 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_womantaur.3
+		icon = GFX_goal_FOREST_river_battle 
+		x = 0
+		y = 1
+		relative_position_id = MAN_womantaur.1
+		prerequisite = { focus = MAN_womantaur.1 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_womantaur.4
+		icon = GFX_goal_FOREST_river_battle 
+		x = -3
+		y = 1
+		relative_position_id = MAN_womantaur.1
+		prerequisite = { focus = MAN_womantaur.1 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_womantaur.5
+		icon = GFX_goal_FOREST_river_battle 
+		x = 0
+		y = 1
+		relative_position_id = MAN_womantaur.3
+		prerequisite = { focus = MAN_womantaur.2 }
+		prerequisite = { focus = MAN_womantaur.3 }
+		prerequisite = { focus = MAN_womantaur.4 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
 
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_womantaur.6
+		icon = GFX_goal_FOREST_river_battle 
+		x = 0
+		y = 1
+		relative_position_id = MAN_womantaur.4
+		prerequisite = { focus = MAN_womantaur.2 }
+		prerequisite = { focus = MAN_womantaur.3 }
+		prerequisite = { focus = MAN_womantaur.4 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_womantaur.7
+		icon = GFX_goal_FOREST_river_battle 
+		x = 0
+		y = 1
+		relative_position_id = MAN_womantaur.6
+		prerequisite = { focus = MAN_womantaur.5 }
+		prerequisite = { focus = MAN_womantaur.6 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+
+	########################################################
+	########################################################
+
+	focus = { 
+		id = MAN_chutzpar.1
+		icon = GFX_goal_FOREST_river_battle 
+		x = 0
+		y = 2
+		relative_position_id = MAN_prove_their_point
+		prerequisite = { focus = MAN_strong_order  focus = MAN_never_again }
+		mutually_exclusive = { focus = MAN_leaderaur.1 }
+		mutually_exclusive = { focus = MAN_womantaur.1 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+
+	focus = { 
+		id = MAN_chutzpar.2
+		icon = GFX_goal_FOREST_river_battle 
+		x = -1
+		y = 1
+		relative_position_id = MAN_chutzpar.1
+		prerequisite = { focus = MAN_chutzpar.1 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_chutzpar.3
+		icon = GFX_goal_FOREST_river_battle 
+		x = 1
+		y = 1
+		relative_position_id = MAN_chutzpar.1
+		prerequisite = { focus = MAN_chutzpar.1 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_chutzpar.4
+		icon = GFX_goal_FOREST_river_battle 
+		x = 0
+		y = 2
+		relative_position_id = MAN_chutzpar.1
+		prerequisite = { focus = MAN_chutzpar.2 }
+		prerequisite = { focus = MAN_chutzpar.3 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_chutzpar.5
+		icon = GFX_goal_FOREST_river_battle 
+		x = -2
+		y = 0
+		relative_position_id = MAN_chutzpar.4
+		prerequisite = { focus = MAN_chutzpar.2 }
+		prerequisite = { focus = MAN_chutzpar.3 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_chutzpar.6
+		icon = GFX_goal_FOREST_river_battle 
+		x = 2
+		y = 0
+		relative_position_id = MAN_chutzpar.4
+		prerequisite = { focus = MAN_chutzpar.2 }
+		prerequisite = { focus = MAN_chutzpar.3 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_chutzpar.7
+		icon = GFX_goal_FOREST_river_battle 
+		x = 0
+		y = 1
+		relative_position_id = MAN_chutzpar.4
+		prerequisite = { focus = MAN_chutzpar.5 }
+		prerequisite = { focus = MAN_chutzpar.4 }
+		prerequisite = { focus = MAN_chutzpar.6 }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+
+	########################################################
+	########################################################
+
+	focus = { 
+		id = MAN_affirmation
+		icon = GFX_goal_FOREST_river_battle 
+		x = -2
+		y = 1
+		relative_position_id = MAN_chutzpar.7
+		prerequisite = { focus = MAN_leaderaur.7  focus = MAN_chutzpar.7 }
+		mutually_exclusive = { focus = MAN_tranquil }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_tranquil
+		icon = GFX_goal_FOREST_river_battle 
+		x = 2
+		y = 1
+		relative_position_id = MAN_chutzpar.7
+		prerequisite = { focus = MAN_womantaur.7  focus = MAN_chutzpar.7 }
+		mutually_exclusive = { focus = MAN_affirmation }
+		
+		available = {}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}

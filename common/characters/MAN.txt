@@ -25,6 +25,74 @@ characters = {###########################################################
 			logistics_skill = 1
 		}	
 	}
+	
+	MAN_womantaur = {
+		name = "The Womantaur" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = centrism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		field_marshal = {
+			desc = ""
+			traits = {  }
+			skill = 2
+
+			attack_skill = 4
+			defense_skill = 1		
+			planning_skill = 1
+			logistics_skill = 1
+		}	
+	}
+	
+	MAN_womantaur = {
+		name = "The Womantaur" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = centrism
+			expire = "2040.1.1.1"
+			id = -1
+		}	
+	}
+	
+	MAN_chutzpar = {
+		name = "Chutzpar" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		corps_commander = {
+			desc = ""
+			traits = {  }
+			skill = 3
+
+			attack_skill = 2
+			defense_skill = 1		
+			planning_skill = 3
+			logistics_skill = 3
+		}	
+	}
 
 }###########################################################
 	

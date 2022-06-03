@@ -1,0 +1,43 @@
+ideas = {
+	country = {
+
+		MAN_flexing = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				offence = 0.20
+				defence = -0.10				
+				army_org_factor = -0.10
+			}
+		}	
+
+		MAN_handy = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				army_attack_speed_factor = 0.05
+				experience_gain_army = 0.05
+			}
+		}
+		
+		MAN_dont_bother_us = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				defence = 0.40	
+			}
+		}
+
+}

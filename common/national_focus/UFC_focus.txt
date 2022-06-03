@@ -131,8 +131,8 @@
 				combat_width = 15
 			}
 			set_border_war_data = { # Counter Attack
-				attacker = 51
-				defender = 508
+				attacker = 48
+				defender = 509
 				attacker_modifier = 50
 				combat_width = 15
 			}
@@ -203,6 +203,7 @@
 			hidden_effect = {
 				set_country_flag = UFC_gnome_police_join
 				load_oob = "UFC_gnomes"
+			}
 				random_owned_controlled_state = {
 					create_unit = { division = "name = \"Miller's Guard\" division_template = \"Gnome Police Department\" start_experience_factor = 1" owner = UFC }
 					create_unit = { division = "name = \"Central Patrol\" division_template = \"Gnome Police Department\" start_experience_factor = 0.5" owner = UFC }
@@ -210,7 +211,6 @@
 					create_unit = { division = "name = \"Crittervale PD\" division_template = \"Gnome Police Department\" start_experience_factor = 0.5" owner = UFC }
 					create_unit = { division = "name = \"Crittervale PD\" division_template = \"Gnome Police Department\" start_experience_factor = 0.5" owner = UFC }
 				}
-			}
 		}
 		
 		ai_will_do = {
