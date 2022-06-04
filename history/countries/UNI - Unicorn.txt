@@ -26,6 +26,13 @@ set_popularities = {
 
 
 recruit_character = UNI_unicorn
+recruit_character = UNI_political_advisor
+recruit_character = UNI_editor
+recruit_character = UNI_financial_expert
+recruit_character = UNI_humble_appeaser
+recruit_character = UNI_war_industrialist
+recruit_character = UNI_attack_expert
+recruit_character = UNI_defense_expert
 
 add_ideas = {
 	UNI_delicate_creatures

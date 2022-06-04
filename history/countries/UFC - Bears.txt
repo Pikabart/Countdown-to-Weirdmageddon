@@ -34,4 +34,11 @@ recruit_character = UFC_grizzle
 recruit_character = UFC_cerbearus_central_head
 recruit_character = UFC_cerbearus_second_head
 recruit_character = UFC_cerbearus_third_head
+recruit_character = UFC_political_advisor
+recruit_character = UFC_editor
+recruit_character = UFC_financial_expert
+recruit_character = UFC_humble_appeaser
+recruit_character = UFC_war_industrialist
+recruit_character = UFC_attack_expert
+recruit_character = UFC_defense_expert
 

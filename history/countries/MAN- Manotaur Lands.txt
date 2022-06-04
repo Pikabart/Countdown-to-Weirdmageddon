@@ -26,4 +26,16 @@ set_popularities = {
 }
 
 recruit_character = MAN_leaderaur
+recruit_character = MAN_womantaur
+recruit_character = MAN_chutzpar
+recruit_character = MAN_pituitar
+recruit_character = MAN_beardy
+recruit_character = MAN_pubetor
+recruit_character = MAN_political_advisor
+recruit_character = MAN_editor
+recruit_character = MAN_financial_expert
+recruit_character = MAN_humble_appeaser
+recruit_character = MAN_war_industrialist
+recruit_character = MAN_attack_expert
+recruit_character = MAN_defense_expert
 

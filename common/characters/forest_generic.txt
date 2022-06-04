@@ -1,111 +1,6 @@
 characters = {###########################################################
-	GNM_jeff = {
-		name = "Jeff Little-Legs" 
-		
-		portraits = {
-			civilian = {
-				large = "GFX_leaders_jeff_little-legs"
-			}
-		}
-		country_leader = {
-			desc = ""
-			ideology = despotism
-			expire = "2040.1.1.1"
-			id = -1
-		}
-		field_marshal = {
-			desc = ""
-			traits = { harsh_leader trait_reckless }
-			skill = 3
-
-			attack_skill = 1
-			defense_skill = 1		
-			planning_skill = 1
-			logistics_skill = 1
-		}	
-	}
 	
-	GNM_pacifica = {
-		name = "Pacifica Northwest" 
-		
-		portraits = {
-			civilian = {
-				large = "GFX_leaders_pacifica_forest"
-			}
-		}
-	}
-	
-	GNM_candy = {
-		name = "Candy Chiu" 
-		
-		portraits = {
-			civilian = {
-				large = "GFX_leaders_candy_forest"
-			}
-		}
-	}
-	
-	GNM_shmebulock = {
-		name = "Shmebulysses Q. Locke III" 
-		
-		portraits = {
-			civilian = {
-				large = "GFX_leaders_shmebulock"
-				small = "GFX_idea_advisor_shmebulock"
-			}
-		}
-		corps_commander = {
-			desc = ""
-			traits = { trait_reckless }
-			skill = 3
-
-			attack_skill = 3
-			defense_skill = 1		
-			planning_skill = 1
-			logistics_skill = 1
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = GNM_shmebulock_idea_token
-			allowed = {
-			}
-			available = {
-			}
-			ai_will_do = {
-				factor = 30.000
-			}
-			traits = {
-				prince_of_terror
-			}
-		}
-	}
-	
-	GNM_carson = {
-		name = "Carson Righty Tighty" 
-		
-		portraits = {
-			civilian = {
-				large = "GFX_leaders_carson"
-				small = "GFX_idea_advisor_carson"
-			}
-		}
-		advisor = {
-			slot = political_advisor
-			idea_token = GNM_carson_idea_token
-			allowed = {
-			}
-			available = {
-			}
-			ai_will_do = {
-				factor = 30.000
-			}
-			traits = {
-				GNM_jeffs_right_hand
-			}
-		}
-	}
-
-	GNM_political_advisor = {
+	forest_political_advisor = {
 		name = "Forest Political Advisor" 
 		
 		portraits = {
@@ -128,7 +23,7 @@ characters = {###########################################################
 		
 	}
 
-	GNM_editor = {
+	forest_editor = {
 		name = "Forest Editor" 
 		
 		portraits = {
@@ -151,7 +46,7 @@ characters = {###########################################################
 		
 	}
 
-	GNM_financial_advisor = {
+	forest_financial_expert = {
 		name = "Forest Political Advisor" 
 		
 		portraits = {
@@ -174,7 +69,7 @@ characters = {###########################################################
 		
 	}
 
-	GNM_humble_appeaser = {
+	forest_humble_appeaser = {
 		name = "Forest Appeaser" 
 		
 		portraits = {
@@ -197,7 +92,7 @@ characters = {###########################################################
 		
 	}
 
-	GNM_propaganda_expert = {
+	forest_propaganda_expert = {
 		name = "Forest Propagandist" 
 		
 		portraits = {
@@ -220,7 +115,7 @@ characters = {###########################################################
 		
 	}
 
-	GNM_war_industrialist = {
+	forest_war_industrialist = {
 		name = "Forest War Industrialist" 
 		
 		portraits = {
@@ -243,7 +138,7 @@ characters = {###########################################################
 		
 	}
 
-	GNM_attack_expert = {
+	forest_attack_expert = {
 		name = "Forest Attack Expert" 
 		
 		portraits = {
@@ -266,7 +161,7 @@ characters = {###########################################################
 		
 	}
 
-	GNM_defense_expert = {
+	forest_defense_expert = {
 		name = "Forest Defense Expert" 
 		
 		portraits = {
