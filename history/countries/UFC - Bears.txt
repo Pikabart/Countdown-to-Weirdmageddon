@@ -26,3 +26,12 @@ set_popularities = {
 }
 
 recruit_character = UFC_multi_bear
+recruit_character = UFC_multi_corn
+recruit_character = UFC_unicorn
+recruit_character = UFC_gnome_chief
+recruit_character = UFC_gnome_captain
+recruit_character = UFC_grizzle
+recruit_character = UFC_cerbearus_central_head
+recruit_character = UFC_cerbearus_second_head
+recruit_character = UFC_cerbearus_third_head
+
