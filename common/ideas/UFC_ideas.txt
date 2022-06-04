@@ -40,4 +40,30 @@ ideas = {
 			}
 		}
 
+	}
+
+	industrial_concern = {
+
+		UFC_crawlspace = {
+				
+			#picture = 
+			
+			allowed = {
+				original_tag = UFC
+			}
+
+			available = { 
+				
+			}	
+
+			cost = 125			
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { construction_company }
+		}
+
+	}
 }
