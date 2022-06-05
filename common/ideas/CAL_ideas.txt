@@ -89,7 +89,7 @@ ideas = { #Entire file
 		}
 		########################################################
 		CAL_repair_crew = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = SOV_third_five_year_plan_civilian 
 			
 			allowed = {}
 			available = {}
@@ -103,7 +103,7 @@ ideas = { #Entire file
 		}
 		########################################################
 		CAL_imp_congress = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = gre_venerate_the_ancient_hellenes_hoplite
 			
 			allowed = {}
 			available = {}
@@ -115,7 +115,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_imp_governor = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = HUN_hungarian_monarchy_democratic
 			
 			allowed = {}
 			available = {}
@@ -128,7 +128,7 @@ ideas = { #Entire file
 		}
 		########################################################
 		CAL_prog_UBI = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = generic_foreign_capital
 			
 			allowed = {}
 			available = {}
@@ -141,7 +141,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_moderate_socsec = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = EST_democratic_opposition
 			
 			allowed = {}
 			available = {}
@@ -154,7 +154,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_moderate_smallbiz = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = EST_exploit_the_banks
 			
 			allowed = {}
 			available = {}
@@ -167,7 +167,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_trad_remove = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = HUN_hungarian_monarchy_fascism
 			
 			allowed = {}
 			available = {}
@@ -182,7 +182,7 @@ ideas = { #Entire file
 		}
 		########################################################
 		CAL_norton_care = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = generic_victors_of_ww1
 			
 			allowed = {}
 			available = {}
@@ -195,7 +195,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_tax_codes = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = hol_the_foundations_of_defense
 			
 			allowed = {}
 			available = {}
@@ -211,7 +211,7 @@ ideas = { #Entire file
 		#########################################################################
 		#########################################################################
 		CAL_private_security = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = ast_volunteer_defence_corps
 			
 			allowed = {}
 			available = {}
@@ -228,7 +228,7 @@ ideas = { #Entire file
 			}
 		} 
 		CAL_private_security_b = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = generic_japanese_conflict
 			
 			allowed = {}
 			available = {}
@@ -246,7 +246,7 @@ ideas = { #Entire file
 			}
 		} 
 		CAL_private_security_c = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = EST_vaps_3
 			
 			allowed = {}
 			available = {}
@@ -262,7 +262,7 @@ ideas = { #Entire file
 		} 
 		########################################################
 		CAL_over_there_0 = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = chi_army_corruption3
 			
 			allowed = {}
 			available = {}
@@ -275,7 +275,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_over_there_1 = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = limited_conscription
 			
 			allowed = {}
 			available = {}
@@ -290,7 +290,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_logistics_first = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = SOV_scientist_defect
 			
 			allowed = {}
 			available = {}
@@ -306,7 +306,7 @@ ideas = { #Entire file
 
 		########################################################
 		CAL_golden_industry = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = POL_succesful_four_year_plan
 			
 			allowed = {}
 			available = {}
@@ -320,7 +320,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_fareast_wildwest = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = generic_navy_carrier_bonus
 			
 			allowed = {}
 			available = {}
@@ -336,7 +336,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_over_there_2 = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = MEX_politicised_army
 			
 			allowed = {}
 			available = {}
@@ -356,7 +356,7 @@ ideas = { #Entire file
 		########################################################
 		########################################################
 		CAL_no_la_resistance_BIB = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = SPA_la_division_azul
 			
 			allowed = {}
 			available = {}
@@ -368,7 +368,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_no_la_resistance_mrX = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = usa_desegregation_2 
 			
 			allowed = {}
 			available = {}
@@ -380,7 +380,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_no_la_resistance_janna = {
-			picture = GFX_idea_CAL_northwest # 
+			picture = janna_fpi
 			
 			allowed = {}
 			available = {}
@@ -392,7 +392,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_no_la_resistance_0 = {   # In Event
-			picture = GFX_idea_CAL_northwest # 
+			picture = generic_fascism_drift_2
 			
 			allowed = {}
 			available = {} 
@@ -404,7 +404,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_no_la_resistance_1 = {   # In Focus
-			picture = GFX_idea_CAL_northwest # 
+			picture = saf_ossewabrandwag
 			
 			allowed = {}
 			available = {}
@@ -416,7 +416,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_no_la_resistance_2 = {   # In Focus
-			picture = GFX_idea_CAL_northwest # 
+			picture = saf_ossewabrandwag_2
 			
 			allowed = {}
 			available = {}
@@ -428,7 +428,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_no_la_resistance_3 = {   # In Focus
-			picture = GFX_idea_CAL_northwest # 
+			picture = saf_ossewabrandwag_fascism
 			
 			allowed = {}
 			available = {}
@@ -440,7 +440,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_no_la_resistance_4 = {   # In Focus
-			picture = GFX_idea_CAL_northwest # 
+			picture = ast_abandon_the_westminster_system_fascism
 			
 			allowed = {}
 			available = {}
@@ -456,7 +456,7 @@ ideas = { #Entire file
 		########################################################
 		
 		CAL_resort_to_war = {   # For CAL_everett, BIG war support penelty
-			picture = GFX_idea_CAL_northwest # 
+			picture = POL_the_peasants_strike
 			
 			allowed = {}
 			available = {}
@@ -470,7 +470,7 @@ ideas = { #Entire file
 		}
 		
 		CAL_pays_texas = {   # For CAL_birnbaum_event.7, BIG economic penelty
-			picture = GFX_idea_CAL_northwest # 
+			picture = ger_mefo_bills_payment
 			
 			allowed = {}
 			available = {}
@@ -483,7 +483,7 @@ ideas = { #Entire file
 			}
 		}
 		CAL_texas_blinks = {   # For CAL_birnbaum_event.11 , MODERATE economic penelty
-			picture = GFX_idea_CAL_northwest # 
+			picture = neutrality_idea
 			
 			allowed = {}
 			available = {}
@@ -501,7 +501,7 @@ ideas = { #Entire file
 	######################################################
 	
 		CAL_MEW_building_roads = {
-			picture = FRA_factory_strikes
+			picture = generic_build_infrastructure
 			
 			allowed = { original_tag = MEW }
 			available = {}
@@ -515,7 +515,7 @@ ideas = { #Entire file
 		}	
 		
 		CAL_MEW_hearts_minds = {
-			picture = FRA_factory_strikes
+			picture = SPR_torchbearers_of_tomorrow
 			
 			allowed = { original_tag = MEW }
 			available = {}
