@@ -25,6 +25,189 @@ characters = {###########################################################
 			logistics_skill = 1
 		}	
 	}
+	UNI_political_advisor = {
+		name = "Forest Political Advisor" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				silent_workhorse
+			}
+			cost = 100
+		}
+		
+	}
+
+	UNI_editor = {
+		name = "Forest Editor" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				editor
+			}
+			cost = 100
+		}
+		
+	}
+
+	UNI_financial_advisor = {
+		name = "Forest Political Advisor" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				financial_expert
+			}
+			cost = 100
+		}
+		
+	}
+
+	UNI_humble_appeaser = {
+		name = "Forest Appeaser" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				appeaser
+			}
+			cost = 100
+		}
+		
+	}
+
+	UNI_propaganda_expert = {
+		name = "Forest Propagandist" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				propaganda_expert
+			}
+			cost = 100
+		}
+		
+	}
+
+	UNI_war_industrialist = {
+		name = "Forest War Industrialist" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				war_industrialist
+			}
+			cost = 100
+		}
+		
+	}
+
+	UNI_attack_expert = {
+		name = "Forest Attack Expert" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = army_chief
+			
+			available = {
+				
+			}
+			traits = {
+				army_chief_offensive_3
+			}
+			cost = 100
+		}
+		
+	}
+
+	UNI_defense_expert = {
+		name = "Forest Defense Expert" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = army_chief
+			
+			available = {
+				
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+			cost = 100
+		}
+		
+	}
 
 }###########################################################
 	

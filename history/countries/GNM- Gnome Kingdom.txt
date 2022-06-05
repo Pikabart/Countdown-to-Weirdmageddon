@@ -36,6 +36,13 @@ recruit_character = GNM_pacifica
 recruit_character = GNM_candy
 recruit_character = GNM_shmebulock
 recruit_character = GNM_carson
+recruit_character = GNM_political_advisor
+recruit_character = GNM_editor
+recruit_character = GNM_financial_expert
+recruit_character = GNM_humble_appeaser
+recruit_character = GNM_war_industrialist
+recruit_character = GNM_attack_expert
+recruit_character = GNM_defense_expert
 
 #create_country_leader = {
 #	name = "Shmebulysses Q. Locke III"

@@ -68,4 +68,30 @@ ideas = {
 			}
 		}
 
+	}
+
+	industrial_concern = {
+
+		UNI_crawlspace = {
+				
+			#picture = 
+			
+			allowed = {
+				original_tag = UNI
+			}
+			
+			available = { 
+				
+			}	
+
+			cost = 125			
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { construction_company }
+		}
+
+	}
 }
