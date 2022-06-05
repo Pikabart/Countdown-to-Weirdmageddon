@@ -242,6 +242,18 @@ ideas = {
 				production_speed_buildings_factor = 0.15
 			}
 		}
+		
+		GNM_ensure_stability = {
+			picture = a
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_weekly = 0.001
+			}
+		}
 
 	}
 
