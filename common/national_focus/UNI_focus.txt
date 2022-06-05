@@ -83,7 +83,7 @@ focus_tree = {
 		prerequisite = { focus = UNI_the_north_pacified }
 		
 		available = {
-			47 = { is_owned_by = MAN }
+			always = no
 		}
 				
 		bypass = {} 
@@ -95,8 +95,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			puppet = MAN
-			UFC = { country_event = UNI_intervention.5 }
 		}
 		
 		ai_will_do = {
@@ -115,7 +113,7 @@ focus_tree = {
 		prerequisite = { focus = UNI_the_north_pacified }
 		
 		available = {
-			47 = { is_owned_by = UFC }
+			always = no
 		}
 				
 		bypass = {} 
@@ -127,8 +125,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			puppet = UFC
-			UFC = { country_event = UNI_intervention.5 }
 		}
 		
 		ai_will_do = {

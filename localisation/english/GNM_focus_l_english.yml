@@ -1,0 +1,18 @@
+﻿l_english:
+
+ GNM_the_local_market:0 "The Local Market"
+ GNM_the_local_market_desc:0 ""
+ GNM_the_local_market_tooltip:0 "Add §Y¢§!§G50§! §7Cryptid Currency§!"
+ 
+ GNM_dominate_crawlspace:0 "Dominate the Crawlspace!"
+ GNM_dominate_crawlspace_desc:0 ""
+ GNM_dominate_crawlspace_tooltip:0 "Add §Y¢§!§G100§! §7Cryptid Currency§!"
+ 
+ GNM_industrial_advancement:0 "Industrial Advancement"
+ GNM_industrial_advancement_desc:0 ""
+ GNM_industrial_advancement_tooltip:0 "Allows §YIndustrial Advancement§! be researched"
+ 
+ GNM_prepare_to_strike_north:0 "Prepare to Strike North"
+ GNM_prepare_to_strike_north_desc:0 ""
+ GNM_prepare_to_strike_north_tooltip:0 "Build §YLevel 2 Forts§! Across the Northern Border"
+ 
