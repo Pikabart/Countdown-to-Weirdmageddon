@@ -10,7 +10,7 @@ FOREST_catagory_crawl_space = {
 	
 	scripted_gui = forest_decisions_market_ui
 	
-	allowed = { OR = {tag = UFC tag = MAN tag = UNI tag = GMN tag = MYS tag = GTF tag = NWM} }  
+	allowed = { OR = {tag = UFC tag = MAN tag = UNI tag = GNM tag = MYS tag = GTF tag = NWM} }  
 	visible = { 
 		#has_global_flag = GLOBAL_FLAG_MARKET
 	}
@@ -23,7 +23,7 @@ FOREST_catagory_crawl_space_sell = {
 	icon = GFX_category_icon	
 	picture = GFX_decision_category_crawlspace
 	
-	allowed = { OR = {tag = UFC tag = MAN tag = UNI tag = GMN tag = MYS tag = GTF tag = NWM} }  
+	allowed = { OR = {tag = UFC tag = MAN tag = UNI tag = GNM tag = MYS tag = GTF tag = NWM} }  
 	visible = { 
 		#has_global_flag = GLOBAL_FLAG_MARKET
 	}
