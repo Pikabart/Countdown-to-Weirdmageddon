@@ -256,4 +256,29 @@ ideas = {
 		}
 
 	}
+
+	industrial_concern = {
+
+		GNM_crawlspace = {
+				
+			#picture = 
+		
+			allowed = {
+				original_tag = GNM
+			}
+			
+			available = { 
+				
+			}	
+
+			cost = 125			
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { construction_company }
+		}
+
+	}
 }

@@ -220,16 +220,17 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
+		will_lead_to_war_with = UFC
 
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
-			MAN = { declare_war_on = { target = UFC type = annex_everything } }
-			cancel_border_war = {  dont_fire_events = yes defender = 46 attacker = 50 }
-			cancel_border_war = {  dont_fire_events = yes defender = 508 attacker = 51 }
-			cancel_border_war = {  dont_fire_events = yes defender = 509 attacker = 48 }
-			add_war_support = 0.10
+			IF = { limit = {NOT = {has_war_with = UFC} } MAN = { declare_war_on = { target = UFC type = annex_everything } } }
+			IF = { limit = {has_border_war_with = attacker = 46 defender = 50} cancel_border_war = {  dont_fire_events = yes defender = 46 attacker = 50 } }
+			IF = { limit = {has_border_war_with = attacker = 508 defender = 51} cancel_border_war = {  dont_fire_events = yes defender = 508 attacker = 51 } }
+			IF = { limit = {has_border_war_with = attacker = 509 defender = 48} cancel_border_war = {  dont_fire_events = yes defender = 509 attacker = 48 } }
+			add_war_support = 0.05
 			hidden_effect = { 
-				UFC = { complete_national_focus = UFC_final_defense }
+				#UFC = { complete_national_focus = UFC_final_defense }
 			}
 		}
 		

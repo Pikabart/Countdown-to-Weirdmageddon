@@ -40,6 +40,19 @@ characters = {###########################################################
 			expire = "2040.1.1.1"
 			id = -1
 		}
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+				
+			}
+			traits = {
+				silent_workhorse
+			}
+			cost = 100
+		}
 		field_marshal = {
 			desc = ""
 			traits = {  }
@@ -49,22 +62,6 @@ characters = {###########################################################
 			defense_skill = 1		
 			planning_skill = 1
 			logistics_skill = 1
-		}	
-	}
-	
-	MAN_womantaur = {
-		name = "The Womantaur" 
-		
-		portraits = {
-			civilian = {
-				large = ""
-			}
-		}
-		country_leader = {
-			desc = ""
-			ideology = centrism
-			expire = "2040.1.1.1"
-			id = -1
 		}	
 	}
 	
@@ -82,6 +79,19 @@ characters = {###########################################################
 			expire = "2040.1.1.1"
 			id = -1
 		}
+		advisor = {
+			slot = army_chief
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+				
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			cost = 100
+		}
 		corps_commander = {
 			desc = ""
 			traits = {  }
@@ -92,6 +102,304 @@ characters = {###########################################################
 			planning_skill = 3
 			logistics_skill = 3
 		}	
+	}
+
+	MAN_pituitar = {
+		name = "Pituitar" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+		advisor = {
+			slot = army_chief
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+				
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			cost = 100
+		}
+		corps_commander = {
+			desc = ""
+			traits = {  }
+			skill = 3
+
+			attack_skill = 2
+			defense_skill = 2		
+			planning_skill = 2
+			logistics_skill = 1
+		}	
+	}
+
+	MAN_beardy = {
+		name = "Beardy" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+				
+			}
+			traits = {
+				silent_workhorse
+			}
+			cost = 100
+		}
+		
+	}
+
+	MAN_pubetor = {
+		name = "Pubetor" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+				
+			}
+			traits = {
+				captain_of_industry
+			}
+			cost = 100
+		}
+		
+	}
+
+	MAN_testosteraur = {
+		name = "Testosteraur" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = MAN
+			}
+			available = {
+				
+			}
+			traits = {
+				war_industrialist 
+			}
+			cost = 100
+		}
+		
+	}
+
+	MAN_political_advisor = {
+		name = "Forest Political Advisor" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				silent_workhorse
+			}
+			cost = 100
+		}
+		
+	}
+
+	MAN_editor = {
+		name = "Forest Editor" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				editor
+			}
+			cost = 100
+		}
+		
+	}
+
+	MAN_financial_advisor = {
+		name = "Forest Political Advisor" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				financial_expert
+			}
+			cost = 100
+		}
+		
+	}
+
+	MAN_humble_appeaser = {
+		name = "Forest Appeaser" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				appeaser
+			}
+			cost = 100
+		}
+		
+	}
+
+	MAN_propaganda_expert = {
+		name = "Forest Propagandist" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				propaganda_expert
+			}
+			cost = 100
+		}
+		
+	}
+
+	MAN_war_industrialist = {
+		name = "Forest War Industrialist" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				war_industrialist
+			}
+			cost = 100
+		}
+		
+	}
+
+	MAN_attack_expert = {
+		name = "Forest Attack Expert" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = army_chief
+			
+			available = {
+				
+			}
+			traits = {
+				army_chief_offensive_3
+			}
+			cost = 100
+		}
+		
+	}
+
+	MAN_defense_expert = {
+		name = "Forest Defense Expert" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = army_chief
+			
+			available = {
+				
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+			cost = 100
+		}
+		
 	}
 
 }###########################################################

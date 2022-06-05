@@ -39,5 +39,38 @@ ideas = {
 				defence = 0.40	
 			}
 		}
+	}
+
+
+
+
+		###companies
+
+	industrial_concern = {
+
+		MAN_crawlspace = {
+				
+			#picture = 
+		
+			allowed = {
+				original_tag = MAN
+			}
+
+			available = { 
+				
+			}	
+
+			cost = 125			
+			
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { construction_company }
+		}
+
+	}
+
+
 
 }

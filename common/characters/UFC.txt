@@ -118,5 +118,347 @@ characters = {###########################################################
 		}	
 	}
 
+	UFC_grizzle = {
+		name = "Grizzle" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+
+		advisor = {
+			slot = army_chief
+			allowed = {
+				original_tag = UFC
+			}
+			available = {
+				
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			cost = 100
+		}
+		corps_commander = {
+			desc = ""
+			traits = {  }
+			skill = 2
+			
+			attack_skill = 3
+			defense_skill = 2		
+			planning_skill = 2
+			logistics_skill = 1
+		}	
+	}
+
+	UFC_plaidin = {
+		name = "Plaidin" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = UFC
+			}
+			available = {
+				has_intelligence_agency = yes
+			}
+			traits = {
+				head_of_intelligence 
+			}
+			cost = 100
+		}
+		corps_commander = {
+			desc = ""
+			traits = {  }
+			skill = 2
+			
+			attack_skill = 3
+			defense_skill = 2		
+			planning_skill = 2
+			logistics_skill = 1
+		}	
+	}
+
+	UFC_cerbearus_central_head = {
+		name = "Cerbearus's Central Head" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+
+		
+		corps_commander = {
+			desc = ""
+			traits = {  }
+			skill = 2
+			
+			attack_skill = 2
+			defense_skill = 2		
+			planning_skill = 1
+			logistics_skill = 2
+		}	
+	}
+
+	UFC_cerbearus_second_head = {
+		name = "Cerbearus's Second Head" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = UFC
+			}
+			available = {
+				
+			}
+			traits = {
+				captain_of_industry  
+			}
+			cost = 100
+		}
+		corps_commander = {
+			desc = ""
+			traits = {  }
+			skill = 2
+			
+			attack_skill = 3
+			defense_skill = 2		
+			planning_skill = 2
+			logistics_skill = 1
+		}	
+	}
+
+	UFC_cerbearus_third_head = {
+		name = "Cerbearus's Third Head" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+
+		advisor = {
+			slot = political_advisor
+			allowed = {
+				original_tag = UFC
+			}
+			available = {
+				
+			}
+			traits = {
+				silent_workhorse  
+			}
+			cost = 100
+		}
+		corps_commander = {
+			desc = ""
+			traits = {  }
+			skill = 2
+			
+			attack_skill = 3
+			defense_skill = 2		
+			planning_skill = 2
+			logistics_skill = 1
+		}	
+	}
+
+	UFC_political_advisor = {
+		name = "Forest Political Advisor" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				silent_workhorse
+			}
+			cost = 100
+		}
+		
+	}
+
+	UFC_editor = {
+		name = "Forest Editor" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				editor
+			}
+			cost = 100
+		}
+		
+	}
+
+	UFC_financial_advisor = {
+		name = "Forest Political Advisor" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				financial_expert
+			}
+			cost = 100
+		}
+		
+	}
+
+	UFC_humble_appeaser = {
+		name = "Forest Appeaser" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				appeaser
+			}
+			cost = 100
+		}
+		
+	}
+
+	UFC_propaganda_expert = {
+		name = "Forest Propagandist" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				propaganda_expert
+			}
+			cost = 100
+		}
+		
+	}
+
+	UFC_war_industrialist = {
+		name = "Forest War Industrialist" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = political_advisor
+			
+			available = {
+				
+			}
+			traits = {
+				war_industrialist
+			}
+			cost = 100
+		}
+		
+	}
+
+	UFC_attack_expert = {
+		name = "Forest Attack Expert" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = army_chief
+			
+			available = {
+				
+			}
+			traits = {
+				army_chief_offensive_3
+			}
+			cost = 100
+		}
+		
+	}
+
+	UFC_defense_expert = {
+		name = "Forest Defense Expert" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		
+		advisor = {
+			slot = army_chief
+			
+			available = {
+				
+			}
+			traits = {
+				army_chief_defensive_3
+			}
+			cost = 100
+		}
+		
+	}
+
 }###########################################################
 	

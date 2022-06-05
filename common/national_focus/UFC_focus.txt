@@ -269,12 +269,9 @@
 
 		completion_reward = { 
 			#custom_effect_tooltip = "UFC_final_defense.t"
-			MAN = { declare_war_on = { target = UFC type = annex_everything } }
-			cancel_border_war = {  dont_fire_events = yes defender = 46 attacker = 50 }
-			cancel_border_war = {  dont_fire_events = yes defender = 508 attacker = 51 }
-			cancel_border_war = {  dont_fire_events = yes defender = 509 attacker = 48 }
+			add_war_support = 0.15
 			hidden_effect = { 
-				MAN = { complete_national_focus = MAN_crush_sissies }
+				#MAN = { complete_national_focus = MAN_crush_sissies }
 			}
 		}
 		ai_will_do = {
@@ -434,7 +431,7 @@
 		id = UFC_bear_victory_council.2
 		icon = GFX_goal_FOREST_unicorn_bear 
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = UFC_bear_victory_council.1
 		prerequisite = { focus = UFC_bear_victory_council.1 }
 		
@@ -499,7 +496,7 @@
 	focus = { 
 		id = UFC_bear_victory_council.5
 		icon = GFX_goal_FOREST_unicorn_bear 
-		x = -2
+		x = 2
 		y = 1
 		relative_position_id = UFC_bear_victory_council.1
 		prerequisite = { focus = UFC_bear_victory_council.1 }
@@ -577,7 +574,8 @@
 		mutually_exclusive = { focus = UFC_bear_victory_unicorn.5  }
 		
 		available = {}	 bypass = {}  cost = 5
-
+		
+		allow_branch = { has_country_flag = UFC_wood }
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -599,7 +597,7 @@
 		prerequisite = { focus = UFC_bear_victory_wooden_wall.1 }
 		
 		available = {}	 bypass = {}  cost = 5
-
+		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
