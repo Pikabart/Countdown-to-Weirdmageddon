@@ -30,6 +30,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/cal/idea_cal_norton.dds"			
 	}
 	
+	SpriteType = {
+		name = "GFX_idea_janna_fpi"
+		texturefile = "gfx/interface/ideas/cal/idea_janna_fpi.dds"			
+	}
+	
 	
 	
 	
