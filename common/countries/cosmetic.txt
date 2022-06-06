@@ -129,3 +129,8 @@ GNM_pacifica_cosmetic = {
  color = rgb { 177  57  255 }
  color_ui = rgb { 177  57  255 }
 }
+
+FOREST_ANARCHY = {
+ color = rgb { 0  0  0 }
+ color_ui = rgb { 0  0  0 }
+}

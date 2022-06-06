@@ -218,8 +218,10 @@ GNM_kidnapping_category = {
 		icon = GFX_decision_icon_default
 		
 		available = {
-			check_variable = { 99 < GNM_kidnapping_intel_var }
-			check_variable = { 99 < GNM_kidnapping_infil_increase }
+			AND = {
+				check_variable = { GNM_kidnapping_intel_var > 99 }
+				check_variable = { GNM_kidnapping_intel_var > 99 }
+			}
 		}
 		
 		fire_only_once = no

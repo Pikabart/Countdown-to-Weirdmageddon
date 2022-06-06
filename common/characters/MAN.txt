@@ -26,6 +26,22 @@ characters = {###########################################################
 		}	
 	}
 	
+	MAN_anarchy = {
+		name = "Chaos" 
+		
+		portraits = {
+			civilian = {
+				large = ""
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = anarchist_communism
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+	
 	MAN_womantaur = {
 		name = "The Womantaur" 
 		

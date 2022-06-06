@@ -79,6 +79,7 @@ on_actions = {
 					}
 					MAN = { country_event = FOREST_wars.2 }
 				}
+				UNI = { clr_country_flag = UNI_yes_intervene }
 			}
 			else_if = {
 				limit = { # The MANs win
@@ -104,6 +105,7 @@ on_actions = {
 						}
 					}
 				}
+				UNI = { clr_country_flag = UNI_yes_intervene }
 			}
 		}
 	}

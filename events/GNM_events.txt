@@ -125,7 +125,7 @@ country_event = {
 			country_leader = {
 				ideology = fascism_ideology
 				expire = "2040.1.1.1"
-				traits = { war_hawk }
+				traits = { GNM_ruthless_queen }
 			}
 		}
 		set_politics = {
@@ -138,6 +138,7 @@ country_event = {
 			ideology = fascism
 			popularity = 0.65
 		}
+		clr_country_flag = GNM_kidnapping_2
 	}
 	
 	option = {
@@ -155,7 +156,7 @@ country_event = {
 			country_leader = {
 				ideology = oligarchism
 				expire = "2040.1.1.1"
-				traits = { captain_of_industry }
+				traits = { captain_of_industry GNM_CEO }
 			}
 		}
 		set_politics = {
@@ -164,6 +165,7 @@ country_event = {
 			long_name = GNM_neutrality_pacifica_party
 			name = GNM_neutrality_pacifica_party
 		}
+		clr_country_flag = GNM_kidnapping_2
 	}
 	
 }

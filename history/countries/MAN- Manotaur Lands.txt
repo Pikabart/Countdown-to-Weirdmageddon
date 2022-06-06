@@ -26,6 +26,7 @@ set_popularities = {
 }
 
 recruit_character = MAN_leaderaur
+recruit_character = MAN_anarchy
 recruit_character = MAN_womantaur
 recruit_character = MAN_chutzpar
 recruit_character = MAN_pituitar
