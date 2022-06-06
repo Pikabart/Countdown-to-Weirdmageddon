@@ -9,4 +9,37 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	
+	GNM_ruthless_queen = {
+		random = no
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		political_power_factor = 0.05
+		stability_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	GNM_CEO = {
+		random = no
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		consumer_goods_factor = 0.05
+		stability_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	MAN_uniter = {
+		random = no
+		sprite = 13 #Likely the type of advisor portrait - more research needed
+		stability_factor = 0.10
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
 }

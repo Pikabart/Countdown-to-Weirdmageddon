@@ -67,6 +67,19 @@ ideas = {
 				defence = 0.15
 			}
 		}
+		
+		UNI_isolation_idea = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UNI }
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				defence = 0.15
+				consumer_goods_factor = -0.1
+			}
+		}
 
 	}
 

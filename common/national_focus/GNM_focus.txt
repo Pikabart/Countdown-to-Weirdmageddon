@@ -113,9 +113,9 @@ focus_tree = {
 		available = {
 		}
 		
-		allow_branch = {
-			has_global_flag = mabel_gnome_encounter1
-		}
+		#allow_branch = {
+		#	has_global_flag = mabel_gnome_encounter1
+		#}
 				
 		bypass = {} 
 		
@@ -1729,8 +1729,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = GNM_air_xp
-		prerequisite = { focus = GNM_air_xp }
-		prerequisite = { focus = GNM_infrastructure }
+		prerequisite = { focus = GNM_air_xp }		
 		
 		available = {
 		}

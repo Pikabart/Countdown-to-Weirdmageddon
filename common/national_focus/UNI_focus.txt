@@ -743,7 +743,7 @@ focus_tree = {
 				
 		bypass = {} 
 		
-		cost = 5
+		cost = 15
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -782,7 +782,7 @@ focus_tree = {
 				
 		bypass = {} 
 		
-		cost = 5
+		cost = 15
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -816,7 +816,7 @@ focus_tree = {
 				
 		bypass = {} 
 		
-		cost = 5
+		cost = 15
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -850,7 +850,7 @@ focus_tree = {
 				
 		bypass = {} 
 		
-		cost = 5
+		cost = 15
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -909,7 +909,7 @@ focus_tree = {
 				
 		bypass = {} 
 		
-		cost = 5
+		cost = 15
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -968,7 +968,7 @@ focus_tree = {
 				
 		bypass = {} 
 		
-		cost = 5
+		cost = 15
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1003,6 +1003,234 @@ focus_tree = {
 					type = industrial_complex
 					level = 3
 					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_north_subjagated
+		icon = a
+		x = 3
+		y = 1
+		relative_position_id = UNI_mindless_slaves
+		prerequisite = { focus = UNI_mindless_slaves }
+		prerequisite = { focus = UNI_utilize_their_bodies }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+
+	focus = {
+		id = UNI_isolate
+		icon = a
+		x = -2
+		y = 1
+		relative_position_id = UNI_north_subjagated
+		prerequisite = { focus = UNI_north_subjagated }
+		mutually_exclusive = { focus = UNI_look_outwards }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = UNI_isolation_idea
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_look_outwards
+		icon = a
+		x = 2
+		y = 1
+		relative_position_id = UNI_north_subjagated
+		prerequisite = { focus = UNI_north_subjagated }
+		mutually_exclusive = { focus = UNI_isolate }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_obliterate_gnomes
+		icon = a
+		x = -1
+		y = 1
+		relative_position_id = UNI_look_outwards
+		prerequisite = { focus = UNI_look_outwards }
+		
+		available = {
+		}
+				
+		bypass = {} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		will_lead_to_war_with = GNM
+
+		completion_reward = {
+			declare_war_on = {
+				target = GNM
+				type = annex_everything
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_annex_north
+		icon = a
+		x = 1
+		y = 1
+		relative_position_id = UNI_look_outwards
+		prerequisite = { focus = UNI_look_outwards }
+		
+		available = {
+		}
+				
+		bypass = {
+			511 = { is_owned_by = UNI }
+			512 = { is_owned_by = UNI }
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			IF = {
+				limit = {
+					AND = {
+						country_exists = UFC
+						country_exists = MAN
+					}
+				}
+				annex_country = {
+					target = UFC
+					transfer_troops = yes
+				}
+				annex_country = {
+					target = MAN
+					transfer_troops = yes
+				}
+			}
+			ELSE_IF = {
+				limit = {
+					country_exists = UFC
+				}
+				annex_country = {
+					target = UFC
+					transfer_troops = yes
+				}
+			}
+			ELSE_IF = {
+				limit = {
+					country_exists = MAN
+				}
+				annex_country = {
+					target = MAN
+					transfer_troops = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_domination_over_the_forest
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = UNI_obliterate_gnomes
+		prerequisite = { focus = UNI_obliterate_gnomes }
+		
+		available = {
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			custom_effect_tooltip = UNI_domination_over_the_forest_tooltip
+			hidden_effect = {
+				every_owned_state = {
+					add_core_of = ROOT 
 				}
 			}
 		}

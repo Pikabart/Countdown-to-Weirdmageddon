@@ -1,6 +1,7 @@
 ﻿# Combine FOREST OF GF events
 add_namespace = FOREST_border_wars
 add_namespace = FOREST_wars
+add_namespace = FOREST_anarchy
 
 country_event = {
 	id = FOREST_border_wars.1
@@ -177,5 +178,95 @@ country_event = { #Losing the War
 	option = {
 		name = FOREST_wars.2.a
 		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = FOREST_anarchy.1
+	title = FOREST_anarchy.1.t
+	desc = {
+		text = FOREST_anarchy.1
+	}
+
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = FOREST_anarchy.1.a
+		ai_chance = { factor = 100 }
+		hidden_effect = {
+			IF = {
+				limit = {
+					tag = MAN
+				}
+				annex_country = {
+					target = UFC
+					transfer_troops = no
+				}
+			}
+			ELSE_IF = {
+				limit = {
+					tag = UFC
+				}
+				annex_country = {
+					target = MAN
+					transfer_troops = no
+				}
+				every_possible_country = {
+					limit = { has_character = MAN_womantaur }
+					random_character = {
+						limit = { is_character = MAN_womantaur }
+						set_nationality = UFC
+					}
+				}
+			}
+			set_cosmetic_tag = FOREST_ANARCHY
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+			set_political_party = {
+				ideology = communism
+				popularity = 100
+			}
+			country_event = { id = FOREST_anarchy.2 days = 14 }
+		}
+	}
+}
+
+country_event = {
+	id = FOREST_anarchy.2
+	title = FOREST_anarchy.2.t
+	desc = {
+		text = FOREST_anarchy.2
+	}
+
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = FOREST_anarchy.1.a
+		ai_chance = { factor = 100 }
+		add_country_leader_role = {
+			character = MAN_womantaur
+			promote_leader = yes
+			country_leader = {
+				ideology = fascism_ideology
+				expire = "2040.1.1.1"
+				traits = { MAN_uniter }
+			}
+		}
+		set_politics = {
+			ruling_party = fascism
+			elections_allowed = no
+			long_name = MAN_fascism_womantaur_party
+			name = MAN_fascism_womantaur_party
+		}
+		set_political_party = {
+			ideology = fascism
+			popularity = 100
+		}
 	}
 }

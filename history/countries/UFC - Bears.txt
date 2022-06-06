@@ -26,6 +26,7 @@ set_popularities = {
 }
 
 recruit_character = UFC_multi_bear
+recruit_character = UFC_anarchy
 recruit_character = UFC_multi_corn
 recruit_character = UFC_unicorn
 recruit_character = UFC_gnome_chief
