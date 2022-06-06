@@ -55,6 +55,8 @@
  
  ########################################################################
  
+ GLOBAL_UNI_COUNCIL_FLAG:0 "The Unicorns Agreed To Join The Council!"
+ 
  UFC_the_new_peace:0 "Rebuild The Peace"
  UFC_the_new_peace_desc:0 ""
  UFC_the_new_peace.t:0 ""

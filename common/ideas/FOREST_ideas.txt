@@ -1,0 +1,48 @@
+ideas = {
+	country = { 
+
+		FOREST_attack = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {OR = {has_war_with = UFC has_war_with = MAN}}
+			cancel = {}
+			
+			modifier = {	
+				army_org_factor = 0.10
+				offence = 0.30				
+			}
+		}	
+
+		FOREST_defense = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {OR = {has_war_with = UFC has_war_with = MAN}}
+			cancel = {}
+			
+			modifier = {	
+				experience_gain_army = 0.25
+				defence = 0.30	
+			}
+		}
+		
+		FOREST_all_in = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {OR = {has_war_with = UFC has_war_with = MAN}}
+			cancel = {}
+			
+			modifier = {
+				consumer_goods_factor = -0.40
+				production_speed_buildings_factor = 0.4
+				required_garrison_factor = 0.5
+				encryption_factor = 0.5
+				decryption_factor = 0.5
+				war_stability_factor = 1
+				war_support_factor = 1
+			}
+		}
+
+}

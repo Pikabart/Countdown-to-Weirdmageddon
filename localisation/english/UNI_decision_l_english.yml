@@ -1,5 +1,7 @@
 ﻿l_english:
 
+GLOBAL_UNI_MANO_FLAG:0 "The Unicorns Supported the Manotaurs"
+
 UNI_multi_mano_influence_category:0 "Conflict in the North"
 UNI_multi_mano_influence_category_desc:0 "The conflict in the north presents us with a unique opportunity. If we were able to sufficiently influence the winning faction, then we could harness their labor to act as an arm of Unicorn influence. Our noble nature will no longer be an issue as we get the working class to do the dirty work for us.\n\n @MAN§YManotaur Influence:§! [?UNI_MAN_influence]\n@UFC§YMultibear Influence:§! [?UNI_UFC_influence]"
 

@@ -1,4 +1,4 @@
-UNI_multi_mano_influence_category = {
+UNI_multi_mano_influence_category = { 
 	
 	UNI_mano_influence_manpower = {
 		icon = GFX_decision_icon_default		
@@ -14,6 +14,7 @@ UNI_multi_mano_influence_category = {
 		
 		remove_effect = {
 			MAN = { country_event = { id = UNI_intervention.2 days = 1} }
+			set_global_flag = GLOBAL_UNI_MANO_FLAG
 		}
 		ai_will_do = {	
 			factor = 10			
@@ -39,6 +40,7 @@ UNI_multi_mano_influence_category = {
 		
 		remove_effect = {
 			MAN = { country_event = { id = UNI_intervention.2 days = 1} }
+			set_global_flag = GLOBAL_UNI_MANO_FLAG
 		}
 		ai_will_do = {	
 			factor = 10			
@@ -59,6 +61,7 @@ UNI_multi_mano_influence_category = {
 		
 		remove_effect = {
 			MAN = { country_event = { id = UNI_intervention.4 days = 1} }
+			set_global_flag = GLOBAL_UNI_MANO_FLAG
 		}
 		ai_will_do = {	
 			factor = 10			

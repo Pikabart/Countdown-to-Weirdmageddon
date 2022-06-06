@@ -229,9 +229,6 @@
 			IF = { limit = {has_border_war_with = attacker = 508 defender = 51} cancel_border_war = {  dont_fire_events = yes defender = 508 attacker = 51 } }
 			IF = { limit = {has_border_war_with = attacker = 509 defender = 48} cancel_border_war = {  dont_fire_events = yes defender = 509 attacker = 48 } }
 			add_war_support = 0.05
-			hidden_effect = { 
-				#UFC = { complete_national_focus = UFC_final_defense }
-			}
 		}
 		
 		ai_will_do = {
@@ -239,6 +236,87 @@
 			#modifier = {}
 		}	
 	}
+	
+	#######################################################
+	
+	focus = { 
+		id = MAN_war.1
+		icon = GFX_goal_FOREST_river_battle 
+		x = -2
+		y = 1
+		relative_position_id = MAN_crush_sissies
+		prerequisite = { focus = MAN_crush_sissies  }
+		
+		available = {has_war_with = UFC}			
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+			add_timed_idea = { idea = FOREST_attack days = 60}  
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_war.2
+		icon = GFX_goal_FOREST_river_battle 
+		x = 0
+		y = 1
+		relative_position_id = MAN_crush_sissies
+		prerequisite = { focus = MAN_crush_sissies  }
+		
+		available = {has_war_with = UFC}			
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+			add_timed_idea = { idea = FOREST_defense days = 60} 
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_war.3
+		icon = GFX_goal_FOREST_river_battle 
+		x = 2
+		y = 1
+		relative_position_id = MAN_crush_sissies
+		prerequisite = { focus = MAN_crush_sissies  }
+		
+		available = {has_war_with = UFC}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+			add_timed_idea = { idea = FOREST_all_in days = 60}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
 	
 	#######################################################
 	#######################################################
@@ -249,7 +327,7 @@
 		icon = GFX_goal_FOREST_river_battle 
 		x = 0
 		y = 2
-		relative_position_id = MAN_crush_sissies
+		relative_position_id = MAN_war.2
 		prerequisite = { focus = MAN_manly_victory  focus = MAN_emasculating_defeat }
 		mutually_exclusive = { focus = MAN_strong_order }
 		mutually_exclusive = { focus = MAN_never_again }
@@ -281,8 +359,7 @@
 		icon = GFX_goal_FOREST_river_battle 
 		x = -4
 		y = 1
-		relative_position_id = MAN_crush_sissies
-		prerequisite = { focus = MAN_crush_sissies }
+		relative_position_id = MAN_war.2
 		mutually_exclusive = { focus = MAN_emasculating_defeat }
 		
 		available = {}		
@@ -520,8 +597,7 @@
 		icon = GFX_goal_FOREST_river_battle 
 		x = 4
 		y = 1
-		relative_position_id = MAN_crush_sissies
-		prerequisite = { focus = MAN_crush_sissies }
+		relative_position_id = MAN_war.2
 		mutually_exclusive = { focus = MAN_manly_victory }
 		
 		available = {}		

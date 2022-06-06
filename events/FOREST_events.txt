@@ -16,7 +16,7 @@ country_event = {
 		MAN = {
 			# Central Crossing
 			start_border_war = {
-				change_state_after_war = yes
+				change_state_after_war = no
 				attacker = {
 					state = 50
 					num_provinces = 3
@@ -28,7 +28,7 @@ country_event = {
 				defender = {
 					state = 46
 					num_provinces = 3
-					#on_win = japan_border_conflict.3
+					on_win = FOREST_border_wars.3
 					#on_lose = japan_border_conflict.2
 					#on_cancel = japan_border_conflict.4
 				}
@@ -36,13 +36,13 @@ country_event = {
 			set_border_war_data = {
 				attacker = 50
 				defender = 46
-				defender_modifier = 2
-				combat_width = 15
+				#defender_modifier = 2
+				combat_width = 12
 			}
 			
 			# Trembley Rapids
 			start_border_war = {
-				change_state_after_war = yes
+				change_state_after_war = no
 				attacker = {
 					state = 51
 					num_provinces = 3
@@ -62,8 +62,8 @@ country_event = {
 			set_border_war_data = {
 				attacker = 51
 				defender = 508
-				defender_modifier = 2
-				combat_width = 15
+				#defender_modifier = 2
+				combat_width = 12
 			}
 		}
 		
@@ -72,6 +72,35 @@ country_event = {
 		name = FOREST_border_wars.1.a
 		ai_chance = { factor = 100 }
 	}
+}
+
+country_event = { # 
+	id = FOREST_border_wars.2
+	title = FOREST_border_wars.2.t
+	desc = FOREST_border_wars.2.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes hidden = yes
+	
+	immediate = {
+		transfer_state = 509
+		
+	}
+	option = { ai_chance = { factor = 100 } }
+}
+country_event = { # 
+	id = FOREST_border_wars.3
+	title = FOREST_border_wars.3.t
+	desc = FOREST_border_wars.3.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes hidden = yes
+	
+	immediate = {
+		49 = { set_demilitarized_zone = no }
+		
+	}
+	option = { ai_chance = { factor = 100 } }
 }
 
 ############################################################
@@ -180,6 +209,9 @@ country_event = { #Losing the War
 		ai_chance = { factor = 100 }
 	}
 }
+
+################################################################
+
 
 country_event = {
 	id = FOREST_anarchy.1

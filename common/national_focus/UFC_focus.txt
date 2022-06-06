@@ -28,7 +28,7 @@
 		cost = 5
 
 		cancel_if_invalid = yes
-		continue_if_invalid = no
+		continue_if_invalid = no 
 		available_if_capitulated = no
 
 		completion_reward = { 	
@@ -64,29 +64,25 @@
 		completion_reward = { 	
 			UFC = { # Counter Attack
 				start_border_war = {
-					change_state_after_war = yes
+					change_state_after_war = no
 					attacker = {
 						state = 48
 						num_provinces = 3
-						#on_win = japan_border_conflict.2
-						#on_lose = japan_border_conflict.3
-						#on_cancel = japan_border_conflict.4
+						on_win = FOREST_border_wars.2
 					}
 								
 					defender = {
 						state = 509
 						num_provinces = 3
-						#on_win = japan_border_conflict.3
-						#on_lose = japan_border_conflict.2
-						#on_cancel = japan_border_conflict.4
+
 					}
 				}
 				hidden_effect = {
 					set_border_war_data = {
 						attacker = 48
 						defender = 509
-						attacker_modifier = 25
-						combat_width = 15
+						attacker_modifier = 15
+						combat_width = 12
 					}
 				}
 			}
@@ -270,9 +266,6 @@
 		completion_reward = { 
 			#custom_effect_tooltip = "UFC_final_defense.t"
 			add_war_support = 0.15
-			hidden_effect = { 
-				#MAN = { complete_national_focus = MAN_crush_sissies }
-			}
 		}
 		ai_will_do = {
 			factor = 400
@@ -282,12 +275,91 @@
 	}
 	
 	focus = { 
+		id = UFC_war.1
+		icon = GFX_goal_FOREST_river_battle 
+		x = -2
+		y = 1
+		relative_position_id = UFC_final_defense
+		prerequisite = { focus = UFC_final_defense  }
+		
+		available = {has_war_with = MAN}			
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+			add_timed_idea = { idea = FOREST_attack days = 60}  
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = UFC_war.2
+		icon = GFX_goal_FOREST_river_battle 
+		x = 0
+		y = 1
+		relative_position_id = UFC_final_defense
+		prerequisite = { focus = UFC_final_defense  }
+		
+		available = {has_war_with = MAN}			
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+			add_timed_idea = { idea = FOREST_defense days = 60} 
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = UFC_war.3
+		icon = GFX_goal_FOREST_river_battle 
+		x = 2
+		y = 1
+		relative_position_id = UFC_final_defense
+		prerequisite = { focus = UFC_final_defense  }
+		
+		available = {has_war_with = MAN}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+			add_timed_idea = { idea = FOREST_all_in days = 60}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	##########################################################################
+	
+	focus = { 
 		id = UFC_bear_victory
 		icon = GFX_goal_FOREST_bear_victory 
 		x = -4
-		y = 1
-		relative_position_id = UFC_final_defense
-		prerequisite = { focus = UFC_final_defense }
+		y = 2
+		relative_position_id = MAN_war.2
 		mutually_exclusive = { focus = UFC_manotaur_victory }
 		
 		available = {always=false}		
@@ -311,9 +383,8 @@
 		id = UFC_manotaur_victory
 		icon = GFX_goal_FOREST_manotaur_victory 
 		x = 4
-		y = 1
-		relative_position_id = UFC_final_defense
-		prerequisite = { focus = UFC_final_defense }
+		y = 2
+		relative_position_id = MAN_war.2
 		mutually_exclusive = { focus = UFC_bear_victory }
 		
 		available = {always=false}				
@@ -343,7 +414,7 @@
 		icon = GFX_goal_FOREST_river 
 		x = 0
 		y = 3
-		relative_position_id = UFC_final_defense
+		relative_position_id = MAN_war.2
 		prerequisite = { focus = UFC_bear_victory  focus = UFC_manotaur_victory }
 		mutually_exclusive = { focus = UFC_the_new_peace }
 		mutually_exclusive = { focus = UFC_no_sleep }
@@ -503,7 +574,7 @@
 		mutually_exclusive = { focus = UFC_bear_victory_wooden_wall.1  }
 		mutually_exclusive = { focus = UFC_bear_victory_unicorn.5  }
 		
-		available = {}	 bypass = {}  cost = 5
+		available = {has_global_flag = GLOBAL_UNI_COUNCIL_FLAG}	 bypass = {}  cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -643,7 +714,7 @@
 		prerequisite = { focus = UFC_the_new_peace }
 		mutually_exclusive = { focus = UFC_bear_victory_unicorn.1  }
 		
-		available = {}		
+		available = { has_global_flag = GLOBAL_UNI_MANO_FLAG }		
 		bypass = {} 
 		cost = 5
 
@@ -664,7 +735,7 @@
 		id = UFC_bear_victory_unicorn.2
 		icon = GFX_goal_FOREST_unicorn_manotaur 
 		x = 0
-		y = 2
+		y = 1
 		relative_position_id = UFC_bear_victory_unicorn.1
 		prerequisite = { focus = UFC_bear_victory_unicorn.1 }
 		
@@ -729,14 +800,14 @@
 	focus = { 
 		id = UFC_bear_victory_unicorn.5
 		icon = GFX_goal_FOREST_unicorn_manotaur 
-		x = 2
+		x = -2
 		y = 1
 		relative_position_id = UFC_bear_victory_unicorn.1
-		prerequisite = { focus = UFC_bear_victory_unicorn.1 }
+		prerequisite = { focus = UFC_bear_victory_council.1  focus = UFC_bear_victory_unicorn.1 }
 		mutually_exclusive = { focus = UFC_bear_victory_council.5  }
 		mutually_exclusive = { focus = UFC_bear_victory_wooden_wall.1  }
 		
-		available = {}	 bypass = {}  cost = 5
+		available = {NOT = {has_global_flag = GLOBAL_UNI_COUNCIL_FLAG}}	 bypass = {}  cost = 5
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
