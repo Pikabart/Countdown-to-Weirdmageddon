@@ -216,7 +216,7 @@
 		
 		available = {}		
 		bypass = {} 
-		cost = 5
+		cost = 5 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
@@ -362,7 +362,7 @@
 		relative_position_id = MAN_war.2
 		mutually_exclusive = { focus = MAN_emasculating_defeat }
 		
-		available = {}		
+		available = {always=false}			
 		bypass = {} 
 		cost = 5
 		cancel_if_invalid = yes
@@ -600,7 +600,7 @@
 		relative_position_id = MAN_war.2
 		mutually_exclusive = { focus = MAN_manly_victory }
 		
-		available = {}		
+		available = {always=false}		
 		bypass = {} 
 		cost = 5
 		cancel_if_invalid = yes

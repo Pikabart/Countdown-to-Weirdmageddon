@@ -83,8 +83,7 @@ country_event = { #
 	is_triggered_only = yes hidden = yes
 	
 	immediate = {
-		transfer_state = 509
-		
+		transfer_state = 509	
 	}
 	option = { ai_chance = { factor = 100 } }
 }
@@ -99,6 +98,19 @@ country_event = { #
 	immediate = {
 		49 = { set_demilitarized_zone = no }
 		
+	}
+	option = { ai_chance = { factor = 100 } }
+}
+country_event = { # 
+	id = FOREST_border_wars.4
+	title = FOREST_border_wars.4.t
+	desc = FOREST_border_wars.4.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes hidden = yes
+	
+	immediate = {
+		transfer_state = 42	
 	}
 	option = { ai_chance = { factor = 100 } }
 }

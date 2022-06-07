@@ -31,6 +31,17 @@
     
     ####################################################
     
+    FOREST_all_in:0 "All In!"
+    FOREST_all_in_desc:0 "If we are to win, we must be all in! Victory or Death!"
+    
+    FOREST_defense:0 "Hold The Line!"
+    FOREST_defense_desc:0 ""
+    
+    FOREST_attack:0 "Keep Pushing!"
+    FOREST_attack_desc:0 ""
+    
+    ####################################################
+    
     UFC_gnome_police:0 "The Gnome Police Department"
     UFC_gnome_police_desc:0 ""
     
@@ -39,6 +50,28 @@
     
     UFC_hibernate_isolate:0 "Early Hibernation"
     UFC_hibernate_isolate_desc:0 ""
+    
+    ####################################################
+    
+    UFC_democracy_boost:0 "Reform Government Ideology"
+    UFC_democracy_boost_desc:0 ""
+    
+    UFC_unite_forest:0 "Unite The Forest"
+    UFC_unite_forest_desc:0 ""
+    
+    UFC_rejuvenation:0 "Rejuvenate The Forest Critters"
+    UFC_rejuvenation_desc:0 ""
+    
+    ####################################################
+    
+    UFC_never_bow:0 "Bow To No Horn!"
+    UFC_never_bow_desc:0 ""
+    
+    UFC_fight_decadence:0 "Fight the Decadent Unicorns"
+    UFC_fight_decadence_desc:0 ""
+    
+    UFC_reject_mandate:0 "Reject Uni-Mandates"
+    UFC_reject_mandate_desc:0 ""
     
     ####################################################
     

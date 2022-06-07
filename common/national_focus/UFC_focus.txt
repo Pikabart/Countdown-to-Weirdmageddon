@@ -303,7 +303,7 @@
 	focus = { 
 		id = UFC_war.2
 		icon = GFX_goal_FOREST_river_battle 
-		x = 0
+		x = 2
 		y = 1
 		relative_position_id = UFC_final_defense
 		prerequisite = { focus = UFC_final_defense  }
@@ -329,7 +329,7 @@
 	focus = { 
 		id = UFC_war.3
 		icon = GFX_goal_FOREST_river_battle 
-		x = 2
+		x = 0
 		y = 1
 		relative_position_id = UFC_final_defense
 		prerequisite = { focus = UFC_final_defense  }
@@ -413,7 +413,7 @@
 		id = UFC_hibernate
 		icon = GFX_goal_FOREST_river 
 		x = 0
-		y = 3
+		y = 4
 		relative_position_id = MAN_war.2
 		prerequisite = { focus = UFC_bear_victory  focus = UFC_manotaur_victory }
 		mutually_exclusive = { focus = UFC_the_new_peace }
@@ -461,7 +461,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { add_stability = 0.05 add_political_power = 100	}
 		
 		ai_will_do = {
 			factor = 400
@@ -484,12 +484,13 @@
 		available = {}	 	
 		bypass = {} 
 		cost = 5
-
+		
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-
-		completion_reward = { 		}
+		
+		select_effect = { country_event = { id = UFC_COUNCIL.1 days = 10} }
+		completion_reward = { custom_effect_tooltip = "UFC_bear_victory_council.1.t" }
 		
 		ai_will_do = {
 			factor = 400
@@ -512,7 +513,15 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 	
+			add_political_power = -200
+			add_stability = 0.15
+			add_popularity = {
+				ideology = democratic
+				popularity = 0.10
+			}
+			add_timed_idea = {  idea = UFC_democracy_boost days = 180 }  
+		}
 		
 		ai_will_do = {
 			factor = 400
@@ -534,7 +543,12 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 	
+			add_political_power = -100
+			add_stability = 0.05
+			add_manpower = 10000
+			add_timed_idea = {  idea = UFC_unite_forest days = 180 } 
+		}
 		
 		ai_will_do = {
 			factor = 400
@@ -556,7 +570,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 	add_ideas = UFC_rejuvenation	}
 		
 		ai_will_do = {
 			factor = 400
@@ -580,7 +594,11 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 	
+			create_faction = UFC_FACTION_NAME
+			UFC = { add_to_faction = UNI }
+			country_event = UFC_COUNCIL.5
+		}
 		
 		ai_will_do = {
 			factor = 400
@@ -602,7 +620,9 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 
+			country_event = UFC_COUNCIL.6
+		}
 		
 		ai_will_do = {
 			factor = 400
@@ -624,7 +644,9 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 
+			country_event = UFC_COUNCIL.7
+		}
 		
 		ai_will_do = {
 			factor = 400
@@ -722,14 +744,14 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { custom_effect_tooltip = "UFC_bear_victory_unicorn.1.t"	}
 		
 		ai_will_do = {
 			factor = 400
 			#modifier = {}
 		}
 			
-	}
+	} 
 	
 	focus = { 
 		id = UFC_bear_victory_unicorn.2
@@ -745,7 +767,9 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 	
+			add_ideas = UFC_never_bow
+		}
 		
 		ai_will_do = {
 			factor = 400
@@ -767,7 +791,10 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 
+			add_political_power = 200
+			add_timed_idea = {  idea = UFC_reject_mandate days = 180 } 
+		}
 		
 		ai_will_do = {
 			factor = 400
@@ -789,7 +816,30 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 
+			UFC = { # Counter Attack
+				start_border_war = {
+					change_state_after_war = no
+					attacker = {
+						state = 46
+						num_provinces = 3
+						on_win = FOREST_border_wars.4
+					}							
+					defender = {
+						state = 42
+						num_provinces = 3
+					}
+				}
+				hidden_effect = {
+					set_border_war_data = {
+						attacker = 46
+						defender = 42
+						attacker_modifier = 25
+						combat_width = 12
+					}
+				}
+			}
+		}
 		
 		ai_will_do = {
 			factor = 400
@@ -813,7 +863,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { add_ideas = UFC_fight_decadence	}
 		
 		ai_will_do = {
 			factor = 400
@@ -835,7 +885,22 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 	
+			country_event = UFC_BETRAYAL.1
+			custom_effect_tooltip = "UFC_BETRAYAL.1.at"
+			add_to_variable = { 
+				var = ROOT.FOREST_crawl_cash
+				value = UNI.FOREST_crawl_cash
+			}
+			subtract_from_variable = {
+				var = UNI.FOREST_crawl_cash
+				value = 1000
+			}
+			clamp_variable = {
+				var = UNI.FOREST_crawl_cash
+				min = 0
+			}
+		}
 		
 		ai_will_do = {
 			factor = 400
@@ -857,7 +922,20 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 	
+			42 = {
+				damage_building = { type = infrastructure damage = 1}
+				damage_building = { type = industrial_complex damage = 2}
+				damage_building = { type = bunker damage = 2}			
+			}
+			50 = {
+				damage_building = { type = infrastructure damage = 1}
+				damage_building = { type = industrial_complex damage = 2}
+				damage_building = { type = bunker damage = 2}			
+			}
+			add_offsite_building = { type = arms_factory level = 3 }
+			add_offsite_building = { type = industrial_complex level = 3 }
+		}
 		
 		ai_will_do = {
 			factor = 400
@@ -869,13 +947,39 @@
 ##########################################################################
 	
 	focus = { 
-		id = UFC_bear_victory_final
+		id = UFC_bear_victory_final.1
+		icon = GFX_goal_FOREST_unicorn_bear 
+		x = -2
+		y = 1
+		relative_position_id = UFC_bear_victory_wooden_wall.3
+		prerequisite = { focus = UFC_bear_victory_council.4}
+		prerequisite = { focus = UFC_bear_victory_council.7}
+		
+		available = {}	 bypass = {}  cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no 
+		available_if_capitulated = no
+
+		completion_reward = { 	 
+			annex_country = { target = UNI transfer_troops = yes }
+			news_event = UFC_COUNCIL_NEWS.1 
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}		
+	}
+	
+	focus = { 
+		id = UFC_bear_victory_final.2
 		icon = GFX_goal_FOREST_unicorn_manotaur 
-		x = 0
-		y = 2
+		x = 2 
+		y = 1
 		relative_position_id = UFC_bear_victory_wooden_wall.3
 		prerequisite = { focus = UFC_bear_victory_unicorn.4 focus = UFC_bear_victory_council.4}
-		prerequisite = { focus = UFC_bear_victory_unicorn.7 focus = UFC_bear_victory_council.7 focus = UFC_bear_victory_wooden_wall.3}
+		prerequisite = { focus = UFC_bear_victory_unicorn.7}
 		
 		available = {}	 bypass = {}  cost = 5
 
@@ -883,7 +987,9 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 	
+			UFC = { declare_war_on = { target = UNI type = annex_everything } }
+		}
 		
 		ai_will_do = {
 			factor = 400

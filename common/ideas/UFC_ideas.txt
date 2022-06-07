@@ -39,8 +39,99 @@ ideas = {
 				defence = 0.40	
 			}
 		}
+		
+		##########################################
+		
+		UFC_democracy_boost = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				democratic_drift = 0.05
+			}
+		}
+		
+		UFC_unite_forest = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				monthly_population = 0.10
+			}
+		}
+		
+		UFC_rejuvenation = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				production_speed_buildings_factor = 0.15 
+				consumer_goods_factor = -0.15
+				supply_node_range = 0.25
+			}
+		}
+		
+		##########################################
+		
+		UFC_never_bow = { 
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				surrender_limit = 0.1
+				drift_defence_factor = 0.3
+				defence = 0.15
+				neutrality_drift = 0.05
+			} 
+		}
+		
+		UFC_fight_decadence = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				offence = 0.15
+				offensive_war_stability_factor = 0.50
+				war_support_factor = 0.3
+				political_power_cost = -0.3
+				political_power_gain = 0.3
+			}
+		}
+		
+		UFC_reject_mandate = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				consumer_goods_factor = -0.3
+			}
+		}
 
-	}
+	}#############
+
+	##########################################
+	##########################################
+	##########################################
+	##########################################
+	##########################################
 
 	industrial_concern = {
 

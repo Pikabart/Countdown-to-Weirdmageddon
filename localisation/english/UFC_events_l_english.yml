@@ -1,9 +1,63 @@
 ﻿l_english:
 
- #For CALIFORNIA events
+ #For Multi-Bear events
+ UFC_START_EVENT.0.t:0 ""
+ UFC_START_EVENT.0.d:0 ""
+ UFC_START_EVENT.0.a:0 ""
  
  #1
  UFC_START_EVENT.1.t:0 "The Roars of the Forest"
  UFC_START_EVENT.1.d:0 "Up in the mountains of Northeast Oregon was a series of deep and interacted caves. Far from the eyes of the gnomes and taunts of the manotaurs was the home of the Multi-Bears, ferocious yet calm beast with multiple heads and an intelligence to match. Often found in slumber and hibernation, these creatures of the forest of Gravity Falls once had little care of the day-to-day activities at the base of their mountain, where the rule of Gnome Queen reign supreme and kept order. In their their caves they have their solitude and 80s music.\n\nNow though, that time of peace had come to an end. The Death of the Gnome Queen has thrown the Forest into disarray. With the Gnomes in retreat, and the Manotaurs and Unicorns taking control of their local area, so has the time come that the Multi-bears emerged from their caves and spread out to bring order to land. There were little the disorganized denizens of the forest could do against these multiheaded bears.\n\nBut between the brutish Manotaurs and the ever-manipulative Unicorns, the Multi-Bears and their intellect and poise could very well be the key to a new future in the Forest. As the Long Summer begins and Gravity Falls turn a Blind Eye to what rumbles in the woods, a fight has broken out. The Manotaurs have crossed the river Trembley, and the Bears stand ready to drive them back. Even in the deepest part of the Forest, any rumble will soon be heard by all."
  UFC_START_EVENT.1.a:0 "The Multi-Bears Have Awoken!"
  
+ ####################################################################
+ 
+ UFC_COUNCIL.1.t:0 "Unite the Eastern Banks"
+ UFC_COUNCIL.1.d:0 ""
+ UFC_COUNCIL.1.a:0 "Send the messenger Druid to the Enchanted Grove"
+ 
+ UFC_COUNCIL.2.t:0 "The Multi-Bears Have A Proposal For Us"
+ UFC_COUNCIL.2.d:0 ""
+ UFC_COUNCIL.2.a:0 "Let them have thier "Forest" Council..."
+ UFC_COUNCIL.2.b:0 "It'll save us the effort!"
+ UFC_COUNCIL.2.c:0 "Tell The Smelly Brutes\n"NO"!"
+ 
+ UFC_COUNCIL.3.t:0 "The Unicorns Agree!"
+ UFC_COUNCIL.3.d:0 ""
+ UFC_COUNCIL.3.a:0 ""
+ 
+ UFC_COUNCIL.4.t:0 "The Unicorns Reject Our United Forest"
+ UFC_COUNCIL.4.d:0 ""
+ UFC_COUNCIL.4.a:0 ""
+ 
+ UFC_COUNCIL.5.t:0 "The Measure of Representation"
+ UFC_COUNCIL.5.d:0 ""
+ UFC_COUNCIL.5.a:0 "Representation By Population Count It Shall Be"
+ UFC_COUNCIL.5.at:0 "§Y¢100§! §7Cryptid Currency§! will be added to our reserve"
+ UFC_COUNCIL.5.b:0 "Equal Representation For All!"
+ 
+ UFC_COUNCIL.6.t:0 "All Animals Are Equal..."
+ UFC_COUNCIL.6.d:0 ""
+ UFC_COUNCIL.6.a:0 "... But Some Are More Equal Than Others"
+ UFC_COUNCIL.6.at:0 "§Y¢200§! §7Cryptid Currency§! will be added to our reserve"
+ UFC_COUNCIL.6.b:0 "... Whether they be Mano, Multi, Uni, or Gnome"
+ 
+ UFC_COUNCIL.7.t:0 "The Prime Ministership"
+ UFC_COUNCIL.7.d:0 ""
+ UFC_COUNCIL.7.a:0 "Many Heads Are Better Than One!"
+ UFC_COUNCIL.7.b:0 "May Their Horns Lead Us To Victory..."
+ UFC_COUNCIL.7.bt:0 "And The Nearest §PRave§!!\n§Y¢500§! §7Cryptid Currency§! will be added to our reserve"
+ UFC_COUNCIL.7.c:0 "Embrace The Duality Of Government"
+ 
+ UFC_COUNCIL_NEWS.1.t:0 "The Leader Of The United Forest"
+ UFC_COUNCIL_NEWS.1.d:0 ""
+ UFC_COUNCIL_NEWS.1.db:0 ""
+ UFC_COUNCIL_NEWS.1.dc:0 ""
+ UFC_COUNCIL_NEWS.1.a:0 ""
+ 
+ ##################
+ 
+ UFC_BETRAYAL.1.t:0 "The Great Bear Heist"
+ UFC_BETRAYAL.1.d:0 ""
+ UFC_BETRAYAL.1.a:0 "Who Do They Think They Are?\nHumans?"
+ UFC_BETRAYAL.1.at:0 "Steal The Unicorn's Treasuery, up to §Y¢100§! §7Cryptid Currency§!"

@@ -1,4 +1,7 @@
 ﻿add_namespace = UFC_START_EVENT
+add_namespace = UFC_COUNCIL
+add_namespace = UFC_BETRAYAL
+add_namespace = UFC_COUNCIL_NEWS
 
 country_event = {
 	id = UFC_START_EVENT.1
@@ -10,6 +13,198 @@ country_event = {
 	
 	option = {
 		name = UFC_START_EVENT.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+############################################
+
+country_event = { # Ask Unicorns
+	id = UFC_COUNCIL.1
+	title = UFC_COUNCIL.1.t
+	desc = UFC_COUNCIL.1.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_COUNCIL.1.a
+		ai_chance = { factor = 100 }
+		UNI = {country_event = { id = UFC_COUNCIL.2 days = 10}}
+	}
+}
+
+country_event = { # Unicrons Respond
+	id = UFC_COUNCIL.2
+	title = UFC_COUNCIL.2.t
+	desc = UFC_COUNCIL.2.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_COUNCIL.2.a
+		UFC = {country_event = { id = UFC_COUNCIL.3 days = 5}}
+		set_global_flag = GLOBAL_UNI_COUNCIL_FLAG
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = UFC_COUNCIL.2.b
+		UFC = {country_event = { id = UFC_COUNCIL.3 days = 5}}
+		set_global_flag = GLOBAL_UNI_COUNCIL_FLAG
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = UFC_COUNCIL.2.c
+		UFC = {country_event = { id = UFC_COUNCIL.4 days = 5}}
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # They said yes
+	id = UFC_COUNCIL.3
+	title = UFC_COUNCIL.3.t
+	desc = UFC_COUNCIL.3.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_COUNCIL.3.a
+		add_political_power = 100
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # They said no
+	id = UFC_COUNCIL.4
+	title = UFC_COUNCIL.4.t
+	desc = UFC_COUNCIL.4.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_COUNCIL.4.a
+		add_war_support = 0.10
+		add_command_power = 50
+		ai_chance = { factor = 100 }
+	}
+}
+
+##############################################
+
+country_event = { # The Unicorns want more reps
+	id = UFC_COUNCIL.5
+	title = UFC_COUNCIL.5.t
+	desc = UFC_COUNCIL.5.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_COUNCIL.5.a
+		add_political_power = 200
+		custom_effect_tooltip = "UFC_COUNCIL.5.at"
+		add_to_variable = {
+			var = ROOT.FOREST_crawl_cash
+			value = 100
+		}
+		ai_chance = { factor = 100 }
+	}	
+	option = {
+		name = UFC_COUNCIL.5.b
+		add_stability = 0.05
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # The Unicorns Protest
+	id = UFC_COUNCIL.6
+	title = UFC_COUNCIL.6.t
+	desc = UFC_COUNCIL.6.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_COUNCIL.6.a
+		add_political_power = 200
+		add_stability = -0.05
+		custom_effect_tooltip = "UFC_COUNCIL.6.at"
+		add_to_variable = {
+			var = ROOT.FOREST_crawl_cash
+			value = 200
+		}
+		ai_chance = { factor = 100 }
+	}	
+	option = {
+		name = UFC_COUNCIL.6.b
+		add_political_power = -100
+		add_stability = 0.10
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # The Prime Minstership
+	id = UFC_COUNCIL.7
+	title = UFC_COUNCIL.7.t
+	desc = UFC_COUNCIL.7.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_COUNCIL.7.a
+		set_global_flag = GLOBAL_UFC_BEAR_FLAG
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = UFC_COUNCIL.7.b
+		custom_effect_tooltip = "UFC_COUNCIL.7.bt"
+		add_to_variable = {
+			var = ROOT.FOREST_crawl_cash
+			value = 500
+		}
+		set_global_flag = GLOBAL_UFC_UNICORN_FLAG
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = UFC_COUNCIL.7.c
+		set_global_flag = GLOBAL_UFC_DUAL_FLAG
+		ai_chance = { factor = 100 }
+	}
+}
+
+news_event = { # 
+	id = UFC_COUNCIL_NEWS.1
+	title = UFC_COUNCIL_NEWS.1.t
+	desc = UFC_COUNCIL_NEWS.1.d
+	
+	
+	major = no 
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+	
+		}
+	}
+	
+}
+
+############################################
+
+country_event = { # Steal Their Money, Unicorn POV
+	id = UFC_BETRAYAL.1
+	title = UFC_BETRAYAL.1.t
+	desc = UFC_BETRAYAL.1.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_BETRAYAL.1.a
 		ai_chance = { factor = 100 }
 	}
 }

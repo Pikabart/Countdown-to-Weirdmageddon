@@ -47,6 +47,18 @@
  UFC_manotaur_victory_desc:0 ""
  UFC_manotaur_victory.t:0 ""
  
+ UFC_war.1:0 "We Must Push Forward!"
+ UFC_war.1_desc:0 ""
+ UFC_war.1.t:0 ""
+ 
+ UFC_war.2:0 "Not A Single Step On Our Shores!"
+ UFC_war.2_desc:0 ""
+ UFC_war.2.t:0 ""
+ 
+ UFC_war.3:0 "Victory or Death!"
+ UFC_war.3_desc:0 ""
+ UFC_war.3.t:0 ""
+ 
  ########################################################################
  
  UFC_hibernate:0 "Early Hibernation"
@@ -61,9 +73,9 @@
  UFC_the_new_peace_desc:0 ""
  UFC_the_new_peace.t:0 ""
  
- UFC_bear_victory_council.1:0 "Form The Council"
+ UFC_bear_victory_council.1:0 "A United Dream"
  UFC_bear_victory_council.1_desc:0 ""
- UFC_bear_victory_council.1.t:0 ""
+ UFC_bear_victory_council.1.t:0 "Let's see how the §PSouthern Forest Unicorns§! say to our plans..."
  
  UFC_bear_victory_council.2:0 "Begin The Great Reform"
  UFC_bear_victory_council.2_desc:0 ""
@@ -73,13 +85,14 @@
  UFC_bear_victory_council.3_desc:0 ""
  UFC_bear_victory_council.3.t:0 ""
  
- UFC_bear_victory_council.4:0 "Multi-Rejuviation"
+ UFC_bear_victory_council.4:0 "Multi-Rejuvenation"
  UFC_bear_victory_council.4_desc:0 ""
  UFC_bear_victory_council.4.t:0 ""
  
  UFC_bear_victory_council.5:0 "Formation Of The Council"
  UFC_bear_victory_council.5_desc:0 ""
  UFC_bear_victory_council.5.t:0 ""
+ UFC_FACTION_NAME:0 "Forest Council"
  
  UFC_bear_victory_council.6:0 "Forest Creature Equality"
  UFC_bear_victory_council.6_desc:0 ""
@@ -93,7 +106,7 @@
  
  UFC_bear_victory_unicorn.1:0 "Those Who Betrayed The Forest..."
  UFC_bear_victory_unicorn.1_desc:0 ""
- UFC_bear_victory_unicorn.1.t:0 ""
+ UFC_bear_victory_unicorn.1.t:0 "They'll pay for their §RTreachery§!!"
  
  UFC_bear_victory_unicorn.2:0 "Never Bow To Any Horn"
  UFC_bear_victory_unicorn.2_desc:0 ""
@@ -115,7 +128,7 @@
  UFC_bear_victory_unicorn.6_desc:0 ""
  UFC_bear_victory_unicorn.6.t:0 ""
  
- UFC_bear_victory_unicorn.7:0 "Dam The River Tremblet!"
+ UFC_bear_victory_unicorn.7:0 "Dam The River Trembley!"
  UFC_bear_victory_unicorn.7_desc:0 ""
  UFC_bear_victory_unicorn.7.t:0 ""
  
@@ -133,9 +146,13 @@
  UFC_bear_victory_wooden_wall.3_desc:0 ""
  UFC_bear_victory_wooden_wall.3.t:0 ""
  
- UFC_bear_victory_final:0 ""
- UFC_bear_victory_final_desc:0 ""
- UFC_bear_victory_final.t:0 ""
+ UFC_bear_victory_final.1:0 "Solidify The United Forest Council"
+ UFC_bear_victory_final.1_desc:0 ""
+ UFC_bear_victory_final.1.t:0 ""
+ 
+ UFC_bear_victory_final.2:0 "End Unicorn Supression!"
+ UFC_bear_victory_final.2_desc:0 ""
+ UFC_bear_victory_final.2.t:0 ""
  
  ########################################################################
  
