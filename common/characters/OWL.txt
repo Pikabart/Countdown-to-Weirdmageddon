@@ -15,7 +15,7 @@ characters = {
 		country_leader = {
 			ideology = anarchist_communism 
 			traits = {
-				
+				OWL_the_owl_lady
 			}
 			expire = "2040.1.1.1"
 			id = -1
@@ -37,7 +37,7 @@ characters = {
 		country_leader = {
 			ideology = anarchist_communism 
 			traits = {
-				
+
 			}
 			expire = "2040.1.1.1"
 			id = -1
@@ -51,7 +51,9 @@ characters = {
 				original_tag = OWL
 			}
 			available = {  }
-			traits = {  } 
+			traits = { 
+				OWL_beacon_of_cuteness
+			} 
 			
 		}
 	}

@@ -65,6 +65,8 @@ set_popularities = {
 	communism = 100
 }
 
+set_country_flag = CAN_MAGIC
+
 
 
 recruit_character = OWL_eda_clawthorne
