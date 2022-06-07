@@ -1,0 +1,16 @@
+state={
+	id=514
+	name="STATE_514"
+	provinces={
+		373 3762 4990 4993 6394 9019 9049 
+	}
+	history={
+		owner = BOI
+		add_core_of = BOI
+
+	}
+	manpower=1000
+	state_category=city
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
