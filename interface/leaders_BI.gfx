@@ -11,6 +11,11 @@ spriteTypes = {
 		texturefile = "gfx/leaders/OWL/Portrait_edaClawthorne.dds"
 	}
 
+	spriteType = {
+		name = "GFX_idea_king"
+		texturefile = "gfx/interface/ideas/boiling-isles/idea_OWL_king.dds"
+	}
+
 
 	
 	

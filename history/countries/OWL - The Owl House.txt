@@ -65,5 +65,13 @@ set_popularities = {
 	communism = 100
 }
 
+
+
 recruit_character = OWL_eda_clawthorne
+recruit_character = OWL_king
+
+add_ideas = {
+
+	OWL_king
+}
 

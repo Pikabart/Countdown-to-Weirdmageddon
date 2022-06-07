@@ -22,6 +22,40 @@ characters = {
 		}
 	}
 
+	OWL_king = {
+		name = "King" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_eda_clawthorne"
+				small = "GFX_idea_king"
+			}
+			army = {
+				small = "GFX_idea_king"
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism 
+			traits = {
+				
+			}
+			expire = "2040.1.1.1"
+			id = -1
+		}
+
+		advisor = {
+			slot = political_advisor
+			idea_token = OWL_king
+			removal_cost = -1
+			allowed = {
+				original_tag = OWL
+			}
+			available = {  }
+			traits = {  } 
+			
+		}
+	}
+
 
 }###########################################################
 	
