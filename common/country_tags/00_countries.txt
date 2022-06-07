@@ -103,6 +103,8 @@ AMP = "countries/A-Amphibia.txt"
 
 #Boiling Isles
 BOI = "countries/BI-Emperor Coven.txt"
+BON = "countries/BI-Bonesborough.txt"
+OWL = "countries/BI-The Owl House.txt"
 
 #Dimensional Barriers
 ROM = "countries/D-Barrier.txt"
