@@ -3,19 +3,19 @@
 ############################################################################
 characters = {
 	
-	BON_precinct_128 = {
-		name = "Bonesborough Police" 
+	OWL_eda_clawthorne = {
+		name = "Eda Clawthorne" 
 		desc = ""
 		portraits = {
 			civilian = {
-				large = "GFX_leaders_precinct128"
+				large = "GFX_leaders_eda_clawthorne"
 				small = ""
 			}
 		}
 		country_leader = {
-			ideology = fascism_ideology
+			ideology = anarchist_communism 
 			traits = {
-				BON_incompetent_police_state
+				
 			}
 			expire = "2040.1.1.1"
 			id = -1

@@ -1,0 +1,17 @@
+### Leaders and such for  ###
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_leaders_precinct128"
+		texturefile = "gfx/leaders/BON/Portrait_precinct128.dds"
+	}
+
+	spriteType = {
+		name = "GFX_leaders_eda_clawthorne"
+		texturefile = "gfx/leaders/OWL/Portrait_edaClawthorne.dds"
+	}
+
+
+	
+	
+}

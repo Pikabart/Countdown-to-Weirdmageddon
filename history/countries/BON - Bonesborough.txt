@@ -66,4 +66,4 @@ set_popularities = {
 	neutrality = 20
 }
 
-recruit_character = BOI_belos
+recruit_character = BON_precinct_128
