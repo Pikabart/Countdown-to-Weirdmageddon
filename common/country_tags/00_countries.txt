@@ -105,6 +105,7 @@ AMP = "countries/A-Amphibia.txt"
 BOI = "countries/BI-Emperor Coven.txt"
 BON = "countries/BI-Bonesborough.txt"
 OWL = "countries/BI-The Owl House.txt"
+CON = "countries/BI-Conformatorium.txt"
 
 #Dimensional Barriers
 ROM = "countries/D-Barrier.txt"

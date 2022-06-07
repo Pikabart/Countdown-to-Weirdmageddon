@@ -455,8 +455,11 @@ OWL = {
 	color = rgb { 252 227 3  }
 }
 
+CON = { 
+	color = rgb { 173 172 156 }
+	color = rgb { 173 172 156 }
+}
 
-color = { 252 177 3 }
 
 
 #Dimensional Barriers
