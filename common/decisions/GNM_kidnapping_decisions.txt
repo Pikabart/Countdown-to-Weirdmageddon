@@ -37,7 +37,7 @@ GNM_kidnapping_category = {
 		}
 		
 		ai_will_do = {
-			factor = 1			
+			factor = 200	
 		}
 	}
 	
@@ -80,7 +80,7 @@ GNM_kidnapping_category = {
 		}
 		
 		ai_will_do = {
-			factor = 1			
+			factor = 200
 		}
 	}
 	
@@ -121,8 +121,7 @@ GNM_kidnapping_category = {
 		}
 		
 		ai_will_do = {
-			factor = 1			
-		}
+			factor = 100					}
 	}
 	
 	GNM_kidnapping_consp_decrease_infil = {
@@ -162,8 +161,7 @@ GNM_kidnapping_category = {
 		}
 		
 		ai_will_do = {
-			factor = 1			
-		}
+			factor = 100					}
 	}
 	
 	GNM_kidnapping_consp_decrease_intel_infil = {
@@ -209,8 +207,7 @@ GNM_kidnapping_category = {
 		}
 		
 		ai_will_do = {
-			factor = 1			
-		}
+			factor = 100					}
 	}
 	
 	GNM_execute_operation = {
@@ -250,8 +247,7 @@ GNM_kidnapping_category = {
 		}
 		
 		ai_will_do = {
-			factor = 1			
-		}
+			factor = 500					}
 	}
 	
     GNM_kidnapping_consp_decay = {
