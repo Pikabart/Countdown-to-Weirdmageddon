@@ -1,5 +1,95 @@
 ﻿l_english:
 
+UNI_start:0 "Looking to the North"
+UNI_start_desc:0 ""
+
+UNI_the_north_pacified:0 "The North Pacified!"
+UNI_the_north_pacified_desc:0 ""
+
+UNI_manotaurs_under_hoof:0 "The [MAN.getname] Under Our Hooves"
+UNI_manotaurs_under_hoof_desc:0 ""
+
+UNI_multis_under_hoof:0 "The [UFC.getname] Under Our Hooves"
+UNI_multis_under_hoof_desc:0 ""
+
+UNI_rumors:0 "Rumblings Of Change..."
+UNI_rumors_desc:0 "We are hearing some rumors that the losers of the war in the North are planning something... (Dipper is going to assasinate the winner's leader, causing anarchy. Parentheses stuff is not indcluded in final mod)"
+
+UNI_just_leave_it_be:0 "Just Leave It Be..."
+UNI_just_leave_it_be_desc:0 "(UNI doesnt intervene in the anarchy)"
+
+UNI_restore_order:0 "Restore Order!"
+UNI_restore_order_desc:0 "(UNI declares war on the anarchy)"
+
+UNI_anarchy_avoided:0 "Anarchy Avoided"
+UNI_anarchy_avoided_desc:0 "(Anarchy didnt happen)"
+
+UNI_utilize_their_bodies:0 "Utilize their bodies"
+UNI_utilize_their_bodies_desc:0 "With the north under our controll and our subjects being in a politically stable position, we can finally enact our plan: Have our subjects do the hard manual labor while us Unicorns kick back and relax!"
+
+UNI_threat_from_north:0 "Threat From the North..."
+UNI_threat_from_north_desc:0 "The North has been dominated by a faction which we do not have control of. They will soon set their sights upon us, we must prepare to defend ourselves!"
+
+UNI_economic_preparation:0 "Economic Preparation"
+UNI_economic_preparation_desc:0 ""
+
+UNI_military_preparation:0 "Military Preparation"
+UNI_military_preparation_desc:0 ""
+
+UNI_military_xp:0 "Emergency Training"
+UNI_military_xp_desc:0 ""
+
+UNI_free_units:0 "Call Up More Gnome Mercanaries"
+UNI_free_units_desc:0 ""
+
+UNI_forts:0 "Defensive Fortifications"
+UNI_forts_desc:0 ""
+
+UNI_mils_3:0 "Hire Gnome Workers"
+UNI_mils_3_desc:0 "Although they don't have the physical prowess or the loyalty to truly help us in the long run, they're the best we have in terms of outsourcing hard labor."
+
+UNI_mindless_slaves:0 "Mindless Enslavement"
+UNI_mindless_slaves_desc:0 "With the war over, our subjects have proven themselves too dangerous with free will. Thus we shall impose a spell on them to turn them into mindless slaves. They will do the hard labor without uprising while we sit back and relax!"
+
+UNI_military_production_1:0 "Hire Gnome Workers"
+UNI_military_production_1_desc:0 "Although they don't have the physical prowess or the loyalty to truly help us in the long run, they're the best we have in terms of outsourcing hard labor."
+
+UNI_military_production_2:0 "Hire Gnome Workers"
+UNI_military_production_2_desc:0 "Although they don't have the physical prowess or the loyalty to truly help us in the long run, they're the best we have in terms of outsourcing hard labor."
+
+UNI_energy_spores:0 "Growing Glowing Lichen"
+UNI_energy_spores_desc:0 ""
+
+UNI_exploiting_dark_forest:0 "Reopening the Crystal Quarry"
+UNI_exploiting_dark_forest_desc:0 ""
+
+UNI_fishing:0 "Fishing"
+UNI_fishing_desc:0 ""I told her I was goin' to the bank...\n\nDIDN'T TELL HER WHICH ONE!""
+
+UNI_gnome_wokers_1:0 "Hire Gnome Workers"
+UNI_gnome_wokers_1_desc:0 "Although they don't have the physical prowess or the loyalty to truly help us in the long run, they're the best we have in terms of outsourcing hard labor."
+
+UNI_gnome_wokers_2:0 "Hire Gnome Workers"
+UNI_gnome_wokers_2_desc:0 "Although they don't have the physical prowess or the loyalty to truly help us in the long run, they're the best we have in terms of outsourcing hard labor."
+
+UNI_gnome_wokers_3:0 "Hire Gnome Workers"
+UNI_gnome_wokers_3_desc:0 "Although they don't have the physical prowess or the loyalty to truly help us in the long run, they're the best we have in terms of outsourcing hard labor."
+
+UNI_north_subjagated:0 "The North Subjagated!"
+UNI_north_subjagated_desc:0 ""
+
+UNI_isolate:0 "Isolate"
+UNI_isolate_desc:0 ""
+
+UNI_look_outwards:0 "Look Outwards"
+UNI_look_outwards_desc:0 "We have the resources, we should not be looking to just survive now, we should be looking to dominate!"
+
+UNI_obliterate_gnomes:0 "Obliterate the Gnomes!"
+UNI_obliterate_gnomes_desc:0 ""
+
+UNI_annex_north:0 "Annex Our Northern Subjects"
+UNI_annex_north_desc:0 ""
+
 UNI_domination_over_the_forest:0 "Domination Over The Forest!"
 UNI_domination_over_the_forest_desc:0 ""
 UNI_domination_over_the_forest_tooltip:0 "§YAll Owned States Will Be Cored§!"
