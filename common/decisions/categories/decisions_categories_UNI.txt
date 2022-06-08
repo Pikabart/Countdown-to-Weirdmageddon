@@ -11,5 +11,5 @@ UNI_multi_mano_influence_category = {
 		has_country_flag = UNI_yes_intervene
 	}
 	
-	visible_when_empty = no
+	visible_when_empty = yes
 }

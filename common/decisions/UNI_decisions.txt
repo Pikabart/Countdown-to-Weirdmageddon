@@ -17,7 +17,7 @@ UNI_multi_mano_influence_category = {
 			set_global_flag = GLOBAL_UNI_MANO_FLAG
 		}
 		ai_will_do = {	
-			factor = 10			
+			factor = 200			
 		}
 	}
 	
@@ -43,7 +43,7 @@ UNI_multi_mano_influence_category = {
 			set_global_flag = GLOBAL_UNI_MANO_FLAG
 		}
 		ai_will_do = {	
-			factor = 10			
+			factor = 200			
 		}
 	}
 	
@@ -64,7 +64,7 @@ UNI_multi_mano_influence_category = {
 			set_global_flag = GLOBAL_UNI_MANO_FLAG
 		}
 		ai_will_do = {	
-			factor = 10			
+			factor = 200			
 		}
 	}
 	
@@ -84,7 +84,7 @@ UNI_multi_mano_influence_category = {
 			UFC = { country_event = { id = UNI_intervention.2 days = 1} }
 		}
 		ai_will_do = {	
-			factor = 10			
+			factor = 200			
 		}
 	}
 	
@@ -109,7 +109,7 @@ UNI_multi_mano_influence_category = {
 			UFC = { country_event = { id = UNI_intervention.2 days = 1} }
 		}
 		ai_will_do = {	
-			factor = 10			
+			factor = 200			
 		}
 	}
 	
@@ -129,7 +129,7 @@ UNI_multi_mano_influence_category = {
 			UFC = { country_event = { id = UNI_intervention.4 days = 1} }
 		}
 		ai_will_do = {	
-			factor = 10			
+			factor = 200			
 		}
 	}
 	
