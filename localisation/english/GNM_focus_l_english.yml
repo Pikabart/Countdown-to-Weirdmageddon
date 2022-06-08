@@ -1,18 +1,165 @@
 ﻿l_english:
 
- GNM_the_local_market:0 "The Local Market"
- GNM_the_local_market_desc:0 ""
- GNM_the_local_market_tooltip:0 "Add §Y¢§!§G50§! §7Cryptid Currency§!"
- 
- GNM_dominate_crawlspace:0 "Dominate the Crawlspace!"
- GNM_dominate_crawlspace_desc:0 ""
- GNM_dominate_crawlspace_tooltip:0 "Add §Y¢§!§G100§! §7Cryptid Currency§!"
- 
- GNM_industrial_advancement:0 "Industrial Advancement"
- GNM_industrial_advancement_desc:0 ""
- GNM_industrial_advancement_tooltip:0 "Allows §YIndustrial Advancement§! be researched"
- 
- GNM_prepare_to_strike_north:0 "Prepare to Strike North"
- GNM_prepare_to_strike_north_desc:0 ""
- GNM_prepare_to_strike_north_tooltip:0 "Build §YLevel 2 Forts§! Across the Northern Border"
- 
+GNM_barren_spring:0 "Barren Spring"
+GNM_barren_spring_desc:0 "Us Gnomes are like ants, we need a queen to survive. Unfoutunatley, right now, we dont have one."
+
+GNM_perfect_candidate:0 "Perfect Candidate for a Date"
+GNM_perfect_candidate_desc:0 ""
+
+GNM_operation_summer_fantasy:0 "Operation Summer Fantasy"
+GNM_operation_summer_fantasy_desc:0 "(Gnomes initiate thier plan to kidnap mabel through dressing up as norman)"
+
+GNM_operation_summer_fantasy_failure:0 "Failure of Operation Summer Fantasy"
+GNM_operation_summer_fantasy_failure_desc:0 ""
+
+GNM_connect_to_internet:0 "Connect to the Internet"
+GNM_connect_to_internet_desc:0 "In order to distract ourselves from descending into chaos, we will use the internet's numerous distracting things."
+
+GNM_vr_queens:0 "VR Queens"
+GNM_vr_queens_desc:0 "By hookin ourseles up to VR, we can stave off the collapse of gnome society in the long run. Still, a real queen would be much better..."
+
+GNM_collective_fitness:0 "Collective Fitness"
+GNM_collective_fitness_desc:0 "In order to distract ourselves from descending into chaos, we will dedicate some of our time to athletic pursuits."
+
+GNM_alpha_philosophy:0 "Socio-sexual Philosophy"
+GNM_alpha_philosophy_desc:0 "The Beta, the Alpha, and the Sigma is a universal truth that makes men strive to be better."
+
+GNM_suppress_the_blackpill:0 "Suppress the Blackpill"
+GNM_suppress_the_blackpill_desc:0 ""
+
+GNM_operation_northern_dream:0 "Operation Northern Dream"
+GNM_operation_northern_dream_desc:0 "Our sights are now set on someone new: Pacifica Northwest of the [NRW.getname]"
+
+GNM_queen_pacifica:0 "Queen Pacifica"
+GNM_queen_pacifica_desc:0 ""
+
+GNM_the_local_market:0 "The Local Market"
+GNM_the_local_market_desc:0 ""
+GNM_the_local_market_tooltip:0 "Add §Y¢§!§G50§! §7Cryptid Currency§!"
+
+GNM_local_currency:0 "Local Currency"
+GNM_local_currency_desc:0 ""
+
+GNM_reorg_into_company:0 "Reorganze into a Company"
+GNM_reorg_into_company_desc:0 ""
+
+GNM_make_profits:0 "Make Profits"
+GNM_make_profits_dess:0 ""
+
+GNM_prioritize_the_company:0 "Prioritize The Company"
+GNM_prioritize_the_company_desc:0 ""
+
+GNM_dominate_crawlspace:0 "Dominate the Crawlspace"
+GNM_dominate_crawlspace_desc:0 ""
+
+GNM_china_of_oregon:0 "China of Oregon"
+GNM_china_of_oregon_desc:0 "By attracting foreign investors and holding monopoly over the crawlspace, we have become much like another political entity economically: China!"
+
+GNM_shenzen_of_oregon:0 "Shenzen of Oregon"
+GNM_shenzen_of_oregon_desc:0 "By anticipating growth and artificially building a city in response, we have become much like another city: Shenzen!"
+
+GNM_forest_monopoly:0 "Forest Monopoly"
+GNM_forest_monopoly_desc:0 ""
+
+GNM_attract_investors:0 "Attract Investors"
+GNM_attract_investors_desc:0 ""
+
+GNM_artificial_city:0 "Artificial City"
+GNM_artificial_city_desc:0 "We anticipate large growth in the future, and we will build a city in response. It may be empty at first, but it wont be for long."
+
+GNM_operation_everything_nice:0 "Operation Everything Nice"
+GNM_operation_everything_nice_desc:0 "Our sights are now set on someone new: Candy Chiu of [GTF.getname]"
+
+GNM_queen_chiu:0 "Queen Chiu"
+GNM_queen_chiu_desc:0 ""
+
+GNM_work_quotas:0 "Work Quotas"
+GNM_work_quotas_desc:0 ""
+
+GNM_996_standard_work:0 "996 Minimum Work Week"
+GNM_996_standard_work_desc:0 "§C"Oh no, you don't get paid for it. You only get paid for the hours after you work the minimum. Great system, no?"§!\n\n-Queen Chiu"
+GNM_996_standard_work:0 "The 996 working hour system is a system practiced by some companies in China, where workers work from 9am to 9pm, 6 days a week."
+
+GNM_beasts_of_burden:0 "Beasts of Burden"
+GNM_beasts_of_burden_desc:0 "Beasts of burden can haul lots of things but are slow. This makes them perfect for construction."
+
+GNM_hauling_cohesion:0 "Hauling Cohesion"
+GNM_hauling_cohesion_desc:0 "The Gnomes are very effective at combining thier bodies to make something stronger. This will be taken advantage of in supplying, as they can do it quickly."
+
+GNM_enforcing_discipline:0 "Enforcing Discipline"
+GNM_enforcing_discipline_desc:0 ""
+
+GNM_standing_army:0 "Standing Army"
+GNM_standing_army_desc:0 ""
+
+GNM_prussia_of_oregon:0 "Prussia of Oregon"
+GNM_prussia_of_oregon_desc:0 "Collumns of soldiers march through Gnomepolis as daily excersize, military marches blare out from radios. It is said that states have an army, but the Gnome Kingdom is an army with a state.\n\nAnd Queen Candy is at the head of both these institutions."
+
+GNM_industrialize_the_forest:0 "Industrialize the Forest"
+GNM_industrialize_the_forest_desc:0 ""
+
+GNM_pave_over_the_forest:0 "Pave over the Forest"
+GNM_pave_over_the_forest_desc:0 ""
+
+GNM_pittsburgh_of_oregon:0 "Pittsburgh of Oregon"
+GNM_pittsburgh_of_oregon_desc:0 "Industrial smokestacks, the lack of greenery, the oppresive grey, and dull rhythyms of factories, Gnomepolis can only be compared to one other city: Pittsburgh"
+
+GNM_blood_iron_mint:0 "Blood and Iron and Mint"
+GNM_blood_iron_mint_desc:0 ""
+
+GNM_isolationism:0 "Isolationism"
+GNM_isolationism_desc:0 ""
+
+GNM_ensure_stability:0 "Ensure Stability"
+GNM_ensure_stability_desc:0 ""
+
+GNM_civilian_factories:0 "Provide Jobs"
+GNM_civilian_factories_desc:0 ""
+
+GNM_ensure_stability_2:0 "Ensure Long Term Stability"
+GNM_ensure_stability_2_desc:0 ""
+
+GNM_dominate_crawlspace:0 "Dominate the Crawlspace!"
+GNM_dominate_crawlspace_desc:0 ""
+GNM_dominate_crawlspace_tooltip:0 "Add §Y¢§!§G100§! §7Cryptid Currency§!"
+
+GNM_industrial_advancement:0 "Industrial Advancement"
+GNM_industrial_advancement_desc:0 ""
+GNM_industrial_advancement_tooltip:0 "Allows §YIndustrial Advancement§! be researched"
+
+GNM_industry_tech:0 "Propell Industry"
+GNM_industry_tech_desc:0 ""
+
+GNM_infrastructure:0 "Better Infrastructure"
+GNM_infrastructure_desc:0 ""
+
+GNM_the_path_to_war:0 "The Path to War"
+GNM_the_path_to_war_desc:0 ""
+
+GNM_weapons_tech:0 "Weapons Development"
+GNM_weapons_tech_desc:0 ""
+
+GNM_army_xp:0 "Strategic Adjustments"
+GNM_army_xp_desc:0 ""
+
+GNM_dominate_skies:0 "A New Dimension to Warfare"
+GNM_dominate_skies_desc:0 ""
+
+GNM_air_xp:0 "Dominate the Skies"
+GNM_air_xp_desc:0 ""
+
+GNM_strike_at_UNI:0 "Strike at the [UNI.getname]"
+GNM_strike_at_UNI_desc:0 ""
+
+GNM_prepare_to_strike_north:0 "Prepare to Strike North"
+GNM_prepare_to_strike_north_desc:0 ""
+GNM_prepare_to_strike_north_tooltip:0 "Build §YLevel 2 Forts§! Across the Northern Border"
+
+GNM_strike_at_manos:0 "Strike at the [MAN.getname]"
+GNM_strike_at_manos_desc:0 ""
+
+GNM_strike_at_bears:0 "Strike at the [UFC.getname]"
+GNM_strike_at_bears_desc:0 ""
+
+GNM_strike_at_gravity_falls:0 "Strike at the [GTF.getname]"
+GNM_strike_at_gravity_falls_desc:0 ""
