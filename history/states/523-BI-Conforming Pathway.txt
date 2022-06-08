@@ -1,12 +1,12 @@
 state={
-	id=522
-	name="STATE_522"
+	id=523
+	name="STATE_523"
 	provinces={
-		2825 2911 3705 5335 
+		2094 2938 4025 6379 8843 8871 
 	}
 	history={
-		owner = CON
-		add_core_of = CON
+		owner = COM
+		add_core_of = COM
 	}
 	manpower=1000
 	state_category=city

@@ -455,7 +455,7 @@ OWL = {
 	color = rgb { 252 227 3  }
 }
 
-CON = { 
+COM = { 
 	color = rgb { 173 172 156 }
 	color = rgb { 173 172 156 }
 }

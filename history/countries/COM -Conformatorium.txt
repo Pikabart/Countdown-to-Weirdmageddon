@@ -40,7 +40,7 @@ set_technology = {
 }
 
 set_research_slots = 2
-set_convoys = 50
+#set_convoys = 50
 set_stability = 0.70
 set_war_support = 0.70
 
@@ -65,4 +65,6 @@ set_popularities = {
 	fascism = 80
 	neutrality = 20
 }
+
+recruit_character = COM_warden_wrath
 
