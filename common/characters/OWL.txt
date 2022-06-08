@@ -1,0 +1,27 @@
+############################################################################
+### BON Characters
+############################################################################
+characters = {
+	
+	OWL_eda_clawthorne = {
+		name = "Eda Clawthorne" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_eda_clawthorne"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism 
+			traits = {
+				
+			}
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+
+
+}###########################################################
+	

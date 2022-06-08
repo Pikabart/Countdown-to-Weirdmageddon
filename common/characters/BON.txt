@@ -1,0 +1,27 @@
+############################################################################
+### BON Characters
+############################################################################
+characters = {
+	
+	BON_precinct_128 = {
+		name = "Bonesborough Police" 
+		desc = ""
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_precinct128"
+				small = ""
+			}
+		}
+		country_leader = {
+			ideology = fascism_ideology
+			traits = {
+				BON_incompetent_police_state
+			}
+			expire = "2040.1.1.1"
+			id = -1
+		}
+	}
+
+
+}###########################################################
+	

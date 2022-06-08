@@ -1,15 +1,16 @@
 state={
-	id=495
-	name="STATE_495"
+	id=514
+	name="STATE_514"
 	provinces={
-		3457 4200 4743 
+		373 3762 4990 4993 6394 9019 9049 
 	}
 	history={
 		owner = BON
 		add_core_of = BON
+
 	}
 	manpower=1000
-	buildings_max_level_factor=1.000
 	state_category=city
+	buildings_max_level_factor=1.000
 	local_supplies=0.000
 }
