@@ -1,20 +1,6 @@
 ideas = {
 	country = {
 
-		UFC_gnome_police = {
-			picture = generic_research_bonus
-			
-			allowed = { original_tag = UFC }
-			available = {}
-			cancel = {}
-			
-			modifier = {	
-				army_org_factor = 0.15
-				offence = 0.05
-				defence = 0.05				
-			}
-		}
-
 		OWL_crownless_king = {
 			picture = generic_research_bonus
 			
@@ -22,7 +8,8 @@ ideas = {
 			available = {}
 			cancel = {}
 			
-			modifier = {	
+			modifier = {
+				stability_factor = -0.05	
 				stability_weekly = -0.005			
 			}
 		}	

@@ -1,21 +1,21 @@
 focus_tree = {
 
-	id = OWL_focus
+	id = COM_focus
 	
 	country = {
 		factor = 0		
 		modifier = {
 			add = 100
-			tag = GNM
+			tag = COM
 		}
 	}
 	
 	default = no # This is not a default generic tree
 	
-	continuous_focus_position = { x = 1 y = 0 } 
+	continuous_focus_position = { x = 50 y = 1000  } 
 
 	focus = {
-		id = GNM_barren_spring
+		id = COM_owl_lady_approaches
 		icon = a
 		x = 10
 		y = 0
@@ -32,7 +32,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			country_event = GNM_flavor.1
+			#country_event = GNM_flavor.1
 		}
 		
 		ai_will_do = {

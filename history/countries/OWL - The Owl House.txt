@@ -83,5 +83,6 @@ recruit_character = OWL_king
 add_ideas = {
 
 	OWL_king
+	OWL_crownless_king
 }
 
