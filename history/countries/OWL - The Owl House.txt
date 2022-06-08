@@ -68,6 +68,14 @@ set_popularities = {
 set_country_flag = CAN_MAGIC
 
 
+494 = {
+	add_dynamic_modifier = {
+		modifier = owl_house_hooty_dynamic_modifier
+	}
+}
+
+
+	
 
 recruit_character = OWL_eda_clawthorne
 recruit_character = OWL_king

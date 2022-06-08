@@ -1,5 +1,5 @@
 ############################################################################
-### BON Characters
+### COM Characters
 ############################################################################
 characters = {
 	
@@ -8,15 +8,13 @@ characters = {
 		desc = ""
 		portraits = {
 			civilian = {
-				#large = "GFX_leaders_eda_clawthorne"
-				#small = "GFX_idea_king"
+				large = "GFX_leaders_warden_wrath"
 			}
 			army = {
-				#small = "GFX_idea_king"
 			}
 		}
 		country_leader = {
-			ideology = fascist_ideology
+			ideology = fascism_ideology
 			traits = {
 
 			}

@@ -16,6 +16,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/boiling-isles/idea_OWL_king.dds"
 	}
 
+	spriteType = {
+		name = "GFX_leaders_warden_wrath"
+		texturefile = "gfx/leaders/COM/Portrait_warden_wrath.dds"
+	}
+
 
 	
 	

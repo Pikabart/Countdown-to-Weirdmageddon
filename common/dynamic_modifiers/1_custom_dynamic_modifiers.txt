@@ -34,3 +34,13 @@ dyn_mod_cal_social_services_expansion = {
 	consumer_goods_factor = 0.05
 	
 }
+
+owl_house_hooty_dynamic_modifier = {
+	icon = GFX_unplanned_offensive
+	attacker_modifier = yes
+	
+	army_attack_factor = -0.9
+	army_speed_factor = -0.75
+	ground_attack_factor = -0.75
+	local_org_regain = -0.5
+}
