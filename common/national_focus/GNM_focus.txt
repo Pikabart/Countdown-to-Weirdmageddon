@@ -331,9 +331,9 @@ focus_tree = {
 		available = {
 		}
 		
-		allow_branch = {
-			has_global_flag = pacifica_gnome_kidnapped
-		}
+		#allow_branch = {
+		#	has_global_flag = pacifica_gnome_kidnapped
+		#}
 				
 		bypass = {} 
 		
@@ -883,6 +883,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			custom_effect_tooltip = GNM_996_standard_work_tooltip
 			swap_ideas = {
 				remove_idea = GNM_CANDY_labor_decree_1
 				add_idea = GNM_CANDY_labor_decree_2
