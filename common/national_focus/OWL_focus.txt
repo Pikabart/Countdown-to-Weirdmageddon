@@ -32,7 +32,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-			#country_event = GNM_flavor.1
+			country_event = owl_house.1
 		}
 		
 		ai_will_do = {
@@ -60,6 +60,9 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
+		select_effect = {  
+			country_event = { id = owl_house.2 days = 5 }
+		}
 
 		completion_reward = {
 			#country_event = GNM_flavor.2
