@@ -761,7 +761,7 @@
 		relative_position_id = UFC_bear_victory_unicorn.1
 		prerequisite = { focus = UFC_bear_victory_unicorn.1 }
 		
-		available = {}	 bypass = {}  cost = 5
+		available = {}	 bypass = {}  cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -785,7 +785,7 @@
 		relative_position_id = UFC_bear_victory_unicorn.2
 		prerequisite = { focus = UFC_bear_victory_unicorn.2 }
 		
-		available = {}	 bypass = {}  cost = 5
+		available = {}	 bypass = {}  cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -810,7 +810,7 @@
 		relative_position_id = UFC_bear_victory_unicorn.3
 		prerequisite = { focus = UFC_bear_victory_unicorn.3 }
 		
-		available = {}	 bypass = {}  cost = 5
+		available = {}	 bypass = {}  cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -857,7 +857,7 @@
 		mutually_exclusive = { focus = UFC_bear_victory_council.5  }
 		mutually_exclusive = { focus = UFC_bear_victory_wooden_wall.1  }
 		
-		available = {NOT = {has_global_flag = GLOBAL_UNI_COUNCIL_FLAG}}	 bypass = {}  cost = 5
+		available = {NOT = {has_global_flag = GLOBAL_UNI_COUNCIL_FLAG}}	 bypass = {}  cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -879,7 +879,7 @@
 		relative_position_id = UFC_bear_victory_unicorn.5
 		prerequisite = { focus = UFC_bear_victory_unicorn.5 }
 		
-		available = {}	 bypass = {}  cost = 5
+		available = {}	 bypass = {}  cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -916,7 +916,7 @@
 		relative_position_id = UFC_bear_victory_unicorn.6
 		prerequisite = { focus = UFC_bear_victory_unicorn.6 }
 		
-		available = {}	 bypass = {}  cost = 5
+		available = {}	 bypass = {}  cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -981,7 +981,7 @@
 		prerequisite = { focus = UFC_bear_victory_unicorn.4 focus = UFC_bear_victory_council.4}
 		prerequisite = { focus = UFC_bear_victory_unicorn.7}
 		
-		available = {}	 bypass = {}  cost = 5
+		available = {}	 bypass = {}  cost = 2
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no

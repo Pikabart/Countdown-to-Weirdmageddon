@@ -44,5 +44,24 @@ ideas = {
 				war_support_factor = 1
 			}
 		}
+}
 
+hidden_ideas = {
+	
+	FOREST_hidden_buff = {
+		picture = a
+		
+		available = {}
+		cancel = {}
+		
+		modifier = {
+			offence = 30
+			defence = 30
+			army_attack_speed_factor = 30
+			army_speed_factor = 30
+			army_strength_factor = 30
+			supply_factor = 30
+			supply_consumption_factor = -30
+		}
+	}
 }
