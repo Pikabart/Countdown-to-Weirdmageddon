@@ -340,6 +340,7 @@ focus_tree = {
 		prerequisite = { focus = UNI_gnome_wokers_1 }
 		
 		available = {
+			has_war = no
 		}
 				
 		bypass = {} 
@@ -370,6 +371,7 @@ focus_tree = {
 		prerequisite = { focus = UNI_threat_from_north }
 		
 		available = {
+			has_war = no
 		}
 				
 		bypass = {} 
@@ -400,6 +402,7 @@ focus_tree = {
 		prerequisite = { focus = UNI_military_preparation }
 		
 		available = {
+			has_war = no
 		}
 				
 		bypass = {} 
@@ -430,6 +433,7 @@ focus_tree = {
 		prerequisite = { focus = UNI_military_xp }
 		
 		available = {
+			has_war = no
 		}
 				
 		bypass = {} 
@@ -484,6 +488,7 @@ focus_tree = {
 		prerequisite = { focus = UNI_military_preparation }
 		
 		available = {
+			has_war = no
 		}
 				
 		bypass = {} 
@@ -528,6 +533,7 @@ focus_tree = {
 		prerequisite = { focus = UNI_forts }
 		
 		available = {
+			has_war = no
 		}
 				
 		bypass = {} 
@@ -621,6 +627,7 @@ focus_tree = {
 		prerequisite = { focus = UNI_gnome_wokers_2 }
 		
 		available = {
+			has_war = no
 		}
 				
 		bypass = {} 
@@ -680,6 +687,7 @@ focus_tree = {
 		prerequisite = { focus = UNI_military_production_1 }
 		
 		available = {
+			has_war = no
 		}
 				
 		bypass = {} 
