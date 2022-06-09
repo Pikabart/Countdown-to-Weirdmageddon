@@ -2,6 +2,7 @@
 add_namespace = FOREST_border_wars
 add_namespace = FOREST_wars
 add_namespace = FOREST_anarchy
+add_namespace = FOREST_balance
 
 country_event = {
 	id = FOREST_border_wars.1
@@ -312,5 +313,172 @@ country_event = {
 			ideology = fascism
 			popularity = 100
 		}
+	}
+	
+	option = {
+		name = FOREST_anarchy.2.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # Balance check
+	id = FOREST_balance.1
+	title = FOREST_balance.1.t
+	desc = FOREST_balance.1.d
+	picture = GFX_report_event_empty
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = FOREST_balance.1.a
+		ai_chance = { factor = 100 }
+		IF = {
+			limit = {
+				AND = {
+					MAN = { is_ai = no }
+					UFC = { is_ai = no }
+				}
+			}
+			random_list = {
+				50 = {
+					MAN = {
+						country_event = {
+							id = FOREST_balance.2
+							days = 1
+						}
+					}
+				}
+				50 = {
+					UFC = {
+						country_event = {
+							id = FOREST_balance.2
+							days = 1
+						}
+					}
+				}
+			}
+		}
+		ELSE_IF = {
+			limit = {
+				MAN = { is_ai = no }
+			}
+			MAN = {
+				country_event = {
+					id = FOREST_balance.2
+					days = 1
+				}
+			}
+		}
+		ELSE_IF = {
+			limit = {
+				UFC = { is_ai = no }
+			}
+			UFC = {
+				country_event = {
+					id = FOREST_balance.2
+					days = 1
+				}
+			}
+		}
+		ELSE = {
+			random_list = {
+				50 = {
+					MAN = {
+						country_event = {
+							id = FOREST_balance.2
+							days = 1
+						}
+					}
+				}
+				50 = {
+					UFC = {
+						country_event = {
+							id = FOREST_balance.2
+							days = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Balance given
+	id = FOREST_balance.2
+	title = FOREST_balance.2.t
+	desc = FOREST_balance.2.d
+	picture = GFX_report_event_empty
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = FOREST_balance.2.a
+		ai_chance = { factor = 100 }
+		add_timed_idea = {
+			idea = FOREST_hidden_buff
+			days = 280
+		}
+		country_event = { id = FOREST_balance.3 days = 280 }
+	}
+}
+
+country_event = { # Anarchy, for balance
+	id = FOREST_balance.3
+	title = FOREST_balance.3.t
+	desc = FOREST_balance.3.d
+	picture = GFX_report_event_empty
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = FOREST_balance.3.a
+		ai_chance = { factor = 100 }
+			IF = {
+				limit = {
+					tag = MAN
+				}
+				white_peace = {
+					tag = UFC
+					message = forest_anarchy_white_peace_msg
+				}
+				annex_country = {
+					target = UFC
+					transfer_troops = no
+				}
+			}
+			ELSE_IF = {
+				limit = {
+					tag = UFC
+				}
+				white_peace = {
+					tag = MAN
+					message = forest_anarchy_white_peace_msg
+				}
+				annex_country = {
+					target = MAN
+					transfer_troops = no
+				}
+				every_possible_country = {
+					limit = { has_character = MAN_womantaur }
+					random_character = {
+						limit = { is_character = MAN_womantaur }
+						set_nationality = UFC
+					}
+				}
+			}
+			set_cosmetic_tag = FOREST_ANARCHY
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+			set_political_party = {
+				ideology = communism
+				popularity = 100
+			}
+			country_event = { id = FOREST_anarchy.2 days = 14 }
+			UNI = { clr_country_flag = UNI_yes_intervene }
 	}
 }

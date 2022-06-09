@@ -6,7 +6,10 @@ on_actions = {
 	on_startup = {
 		effect = {
 			MAN = { country_event = { id = FOREST_border_wars.1 hours = 2 } }
-			UFC = { country_event = { id = UFC_START_EVENT.1 hours = 1 } }
+			UFC = {
+				country_event = { id = UFC_START_EVENT.1 hours = 1 }
+				country_event = { id = FOREST_balance.2 days = 730 }
+			}
 			GNM = {
 				set_variable  = {
 					var = GNM_kidnapping_intel_var
@@ -106,6 +109,43 @@ on_actions = {
 					}
 				}
 				UNI = { clr_country_flag = UNI_yes_intervene }
+			}
+			else_if = {
+				limit = { # UNI loses war
+					ROOT = {
+						original_tag = UNI
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = UNI
+						message = forest_manos_or_multi_conquers_uni
+					}
+					annex_country = {
+						target = UNI
+						transfer_troops = no
+					}
+				}
+			}
+			else_if = {
+				limit = { # UNI conquers north
+					ROOT = {
+						OR = {
+							original_tag = MAN
+							original_tag = UFC
+						}
+					}
+				}
+				FROM = {
+					white_peace = {
+						tag = ROOT
+						message = forest_uni_conquers_north
+					}
+					annex_country = {
+						target = ROOT
+						transfer_troops = no
+					}
+				}
 			}
 		}
 	}
