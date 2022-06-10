@@ -276,6 +276,14 @@ country_event = {
 				popularity = 100
 			}
 			country_event = { id = FOREST_anarchy.2 days = 14 }
+			UNI = { country_event = { id = UNI_north_anarchy.2 days = 7 } }
+		}
+	}
+	option = {
+		name = FOREST_anarchy.1.b
+		ai_chance = { factor = 100 }
+		UNI = {
+			complete_national_focus = UNI_anarchy_avoided
 		}
 	}
 }
@@ -479,6 +487,7 @@ country_event = { # Anarchy, for balance
 				popularity = 100
 			}
 			country_event = { id = FOREST_anarchy.2 days = 14 }
+			UNI = { country_event = { id = UNI_north_anarchy.2 days = 7 } }
 			UNI = { clr_country_flag = UNI_yes_intervene }
 	}
 }

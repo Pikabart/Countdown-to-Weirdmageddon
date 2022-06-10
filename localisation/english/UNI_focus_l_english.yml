@@ -90,6 +90,9 @@ UNI_obliterate_gnomes_desc:0 ""
 UNI_annex_north:0 "Annex Our Northern Subjects"
 UNI_annex_north_desc:0 ""
 
+UNI_mop_up_north:0 "Mop Up The North"
+UNI_mop_up_north_desc:0 ""
+
 UNI_domination_over_the_forest:0 "Domination Over The Forest!"
 UNI_domination_over_the_forest_desc:0 ""
 UNI_domination_over_the_forest_tooltip:0 "§YAll Owned States Will Be Cored§!"
