@@ -1,0 +1,22 @@
+﻿l_english:
+
+ #For Mystery Shack Focus Tree description and custom_effect_tooltip
+ 
+ #1
+ OWL_from_the_door:0 "From the Door"
+ OWL_from_the_door_desc:0 "to be entered"
+
+ OWL_conformatorium_heist:0 "Conformatorium Heist"
+
+ OWL_luz_adventure:0 "Luz's 'adventure'"
+
+ OWL_luz_first_hexside:0 "Hexside School of Magic and Demonic"
+
+ 
+
+ MYS_prepare_for_the_summer:0 "Preparing For The Summer!"
+ MYS_prepare_for_the_summer_desc:0 "Summertime!\nThe sun shines down through the tall everygreen trees. The animals skimper about. And tourist flock to the great outback of Oregon.\nAnother year, another new tourist season to profit from...\nAnother year, another reminder of my work to fix what I have done.\n- §RStan Pines§! -"
+ MYS_prepare_for_the_summer_effect:0 "Let's see here. I still need to hire a cashier. Gotta fix the 'S' on the roof.\nHopefully Soos forgot about that raise I promised him. And where to get nuclear waste?\n\n<ring ring>\nWho's calling at this hour?" # ^ above is a custom loc to add text to effect section of focus. Must be called in focus file
+ ######################################################
+ #2
+ 
