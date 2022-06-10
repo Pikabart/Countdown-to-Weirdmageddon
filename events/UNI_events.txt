@@ -1,6 +1,7 @@
 ﻿add_namespace = UNI_intervention
 add_namespace = UNI_intervention_confirmation
 add_namespace = UNI_multi_mano_war_check
+add_namespace = UNI_north_anarchy
 add_namespace = UNI_test
 
 ###########################################################################
@@ -283,17 +284,23 @@ country_event = {
 	immediate = {
 		IF = {
 			limit = {
-				FROM = MAN #Sender is man
-				check_variable = { UNI_MAN_influence > 99 }
+				AND = {
+					FROM = MAN #Sender is man
+					check_variable = { UNI_MAN_influence > 99 }
+				}
 			}
 			complete_national_focus = UNI_the_north_pacified
+			complete_national_focus = UNI_manotaurs_under_hoof
 		}
 		ELSE_IF = {
 			limit = {
-				FROM = UFC #Sender is ufc
-				check_variable = { UNI_UFC_influence > 99 }
+				AND = {
+					FROM = UFC #Sender is ufc
+					check_variable = { UNI_UFC_influence > 99 }
+				}
 			}
 			complete_national_focus = UNI_the_north_pacified
+			complete_national_focus = UNI_multis_under_hoof
 		}
 		ELSE = {
 			complete_national_focus = UNI_threat_from_north
@@ -305,8 +312,69 @@ country_event = {
 		ai_chance = {
 			factor = 1
 		}
+		
 	}
 
+}
+
+country_event = {
+	id = UNI_north_anarchy.1
+	title = UNI_north_anarchy.1.t
+	desc = UNI_north_anarchy.1.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UNI_north_anarchy.1.a
+		ai_chance = {
+			factor = 1
+		}
+		complete_national_focus = UNI_rumors
+	}
+}
+
+country_event = {
+	id = UNI_north_anarchy.2
+	title = UNI_north_anarchy.2.t
+	desc = UNI_north_anarchy.2.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UNI_north_anarchy.2.a
+		ai_chance = {
+			factor = 1
+		}
+		complete_national_focus = UNI_just_leave_it_be
+	}
+	
+	option = {
+		name = UNI_north_anarchy.2.b
+		ai_chance = {
+			factor = 1
+		}
+		complete_national_focus = UNI_restore_order
+		IF = {
+			limit = {
+				country_exists = MAN
+			}
+			declare_war_on = {
+				target = MAN
+				type = annex_everything
+			}
+		}
+		ELSE_IF = {
+			limit = {
+				country_exists = UFC
+			}
+			declare_war_on = {
+				target = UFC
+				type = annex_everything
+			}
+		}
+	}
 }
 
 country_event = {

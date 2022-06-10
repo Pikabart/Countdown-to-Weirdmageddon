@@ -140,10 +140,10 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = UNI_manotaurs_under_hoof
-		prerequisite = { focus = UNI_manotaurs_under_hoof }
-		prerequisite = { focus = UNI_multis_under_hoof }
+		prerequisite = { focus = UNI_manotaurs_under_hoof focus = UNI_multis_under_hoof }
 		
 		available = {
+			always = no
 		}
 				
 		bypass = {} 
@@ -273,7 +273,7 @@ focus_tree = {
 		prerequisite = { focus = UNI_just_leave_it_be focus = UNI_restore_order focus = UNI_anarchy_avoided }
 		
 		available = {
-			always = no
+			has_war = no
 		}
 				
 		bypass = {} 
@@ -343,7 +343,13 @@ focus_tree = {
 			has_war = no
 		}
 				
-		bypass = {} 
+		bypass = {
+			OR = {
+				has_war = yes
+				has_idea = war_economy
+				has_idea = tot_economic_mobilisation
+			}
+		} 
 		
 		cost = 5
 
@@ -374,7 +380,15 @@ focus_tree = {
 			has_war = no
 		}
 				
-		bypass = {} 
+		bypass = {
+			OR = {
+				has_war = yes
+				has_idea = extensive_conscription
+				has_idea = service_by_requirement
+				has_idea = all_adults_serve
+				has_idea = scraping_the_barrel
+			}
+		} 
 		
 		cost = 5
 
@@ -405,7 +419,9 @@ focus_tree = {
 			has_war = no
 		}
 				
-		bypass = {} 
+		bypass = {
+			has_war = yes
+		} 
 		
 		cost = 5
 
@@ -436,7 +452,9 @@ focus_tree = {
 			has_war = no
 		}
 				
-		bypass = {} 
+		bypass = {
+			has_war = yes
+		} 
 		
 		cost = 5
 
@@ -491,7 +509,9 @@ focus_tree = {
 			has_war = no
 		}
 				
-		bypass = {} 
+		bypass = {
+			has_war = yes
+		} 
 		
 		cost = 5
 
@@ -536,7 +556,9 @@ focus_tree = {
 			has_war = no
 		}
 				
-		bypass = {} 
+		bypass = {
+			has_war = yes
+		} 
 		
 		cost = 5
 
@@ -595,7 +617,7 @@ focus_tree = {
 		prerequisite = { focus = UNI_military_production_2 }
 		
 		available = {
-			always = no
+			has_war = no
 		}
 				
 		bypass = {} 
@@ -630,7 +652,9 @@ focus_tree = {
 			has_war = no
 		}
 				
-		bypass = {} 
+		bypass = {
+			has_war = yes
+		} 
 		
 		cost = 5
 
@@ -690,7 +714,9 @@ focus_tree = {
 			has_war = no
 		}
 				
-		bypass = {} 
+		bypass = {
+			has_war = yes
+		} 
 		
 		cost = 5
 
@@ -1028,8 +1054,7 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = UNI_mindless_slaves
-		prerequisite = { focus = UNI_mindless_slaves }
-		prerequisite = { focus = UNI_utilize_their_bodies }
+		prerequisite = { focus = UNI_mindless_slaves focus = UNI_utilize_their_bodies }
 		
 		available = {
 		}
@@ -1105,6 +1130,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_war_support = 0.05
 		}
 		
 		ai_will_do = {
@@ -1160,8 +1186,18 @@ focus_tree = {
 		}
 				
 		bypass = {
-			511 = { is_owned_by = UNI }
-			512 = { is_owned_by = UNI }
+			AND = {
+				NOT = {
+					UFC = {
+						is_puppet_of = UNI
+					}
+				}
+				NOT = {
+					MAN = {
+						is_puppet_of = UNI
+					}
+				}
+			}
 		} 
 		
 		cost = 5
@@ -1174,8 +1210,12 @@ focus_tree = {
 			IF = {
 				limit = {
 					AND = {
-						country_exists = UFC
-						country_exists = MAN
+						UFC = {
+							is_puppet_of = UNI
+						}
+						MAN = {
+							is_puppet_of = UNI
+						}
 					}
 				}
 				annex_country = {
@@ -1189,7 +1229,9 @@ focus_tree = {
 			}
 			ELSE_IF = {
 				limit = {
-					country_exists = UFC
+					UFC = {
+						is_puppet_of = UNI
+					}
 				}
 				annex_country = {
 					target = UFC
@@ -1198,11 +1240,67 @@ focus_tree = {
 			}
 			ELSE_IF = {
 				limit = {
-					country_exists = MAN
+					MAN = {
+						is_puppet_of = UNI
+					}
 				}
 				annex_country = {
 					target = MAN
 					transfer_troops = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+		
+	}
+	
+	focus = {
+		id = UNI_mop_up_north
+		icon = a
+		x = 0
+		y = 1
+		relative_position_id = UNI_annex_north
+		prerequisite = { focus = UNI_annex_north }
+		
+		available = {
+			OR = {
+				country_exists = UFC
+				country_exists = MAN
+			}
+		}
+				
+		bypass = {
+		} 
+		
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		will_lead_to_war_with = UFC
+		will_lead_to_war_with = MAN
+
+		completion_reward = {
+			IF = {
+				limit = {
+					country_exists = UFC
+				}
+				declare_war_on = {
+					target = UFC
+					type = annex_everything
+				}
+			}
+			ELSE_IF = {
+				limit = {
+					country_exists = MAN
+				}
+				declare_war_on = {
+					target = MAN
+					type = annex_everything
 				}
 			}
 		}
