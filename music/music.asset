@@ -1,10 +1,18 @@
 
 # MAIN THEME
+
 music = {
 	name = "maintheme"
-	file = "gf_intro_main_theme.ogg"
+	file = "gf_intro_main_theme_with_bill.ogg"
 	volume = 2
 }
+
+music = {
+	name = "wellmeetagain"
+	file = "alex_wellmeetagain.ogg"
+	volume = 2
+}
+
 
 # General Peace:
 music = {

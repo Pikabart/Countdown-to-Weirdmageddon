@@ -1,4 +1,5 @@
 ﻿add_namespace = UFC_START_EVENT
+add_namespace = UFC_MANWAR 
 add_namespace = UFC_COUNCIL
 add_namespace = UFC_BETRAYAL
 add_namespace = UFC_COUNCIL_NEWS
@@ -13,6 +14,32 @@ country_event = {
 	
 	option = {
 		name = UFC_START_EVENT.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+############################################
+
+country_event = { # Ask the Mayor
+	id = UFC_MANWAR.1
+	title = UFC_MANWAR.1.t
+	desc = UFC_MANWAR.1.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_MANWAR.1.a
+		add_equipment_to_stockpile = {
+			type = mod_infantry_equipment_3
+			amount = 1000
+			producer = GEU
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 2000
+			producer = GEU
+		}
 		ai_chance = { factor = 100 }
 	}
 }

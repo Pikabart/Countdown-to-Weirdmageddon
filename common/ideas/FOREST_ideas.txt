@@ -44,6 +44,20 @@ ideas = {
 				war_support_factor = 1
 			}
 		}
+		
+		FOREST_ripped_from_unicorn_reliance = {
+			picture = generic_research_bonus
+			
+			allowed = {}
+			available = {}
+			cancel = {}
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				supply_factor = -0.3
+				defence = -0.15
+			}
+		}
 }
 
 hidden_ideas = {

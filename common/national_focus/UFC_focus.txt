@@ -48,7 +48,7 @@
 		icon = GFX_goal_UFC_bear_counter_attack 
 		x = 0
 		y = 1
-		relative_position_id = UFC_trembley_river_battle
+		relative_position_id = UFC_trembley_river_battle 
 		prerequisite = { focus = UFC_trembley_river_battle }
 		
 		available = {}
@@ -82,7 +82,7 @@
 						attacker = 48
 						defender = 509
 						attacker_modifier = 15
-						combat_width = 12
+						combat_width = 10
 					}
 				}
 			}
@@ -262,6 +262,7 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
+		select_effect = {country_event = {id = UFC_MANWAR.1 days = 14} }
 
 		completion_reward = { 
 			#custom_effect_tooltip = "UFC_final_defense.t"

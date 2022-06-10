@@ -21,24 +21,21 @@ country_event = {
 				attacker = {
 					state = 50
 					num_provinces = 3
-					#on_win = japan_border_conflict.2
-					#on_lose = japan_border_conflict.3
-					#on_cancel = japan_border_conflict.4
+
 				}
 							
 				defender = {
 					state = 46
 					num_provinces = 3
 					on_win = FOREST_border_wars.3
-					#on_lose = japan_border_conflict.2
-					#on_cancel = japan_border_conflict.4
+
 				}
 			}
 			set_border_war_data = {
 				attacker = 50
 				defender = 46
 				#defender_modifier = 2
-				combat_width = 12
+				combat_width = 10
 			}
 			
 			# Trembley Rapids
@@ -47,9 +44,7 @@ country_event = {
 				attacker = {
 					state = 51
 					num_provinces = 3
-					#on_win = japan_border_conflict.2
-					#on_lose = japan_border_conflict.3
-					#on_cancel = japan_border_conflict.4
+
 				}
 							
 				defender = {
@@ -64,7 +59,7 @@ country_event = {
 				attacker = 51
 				defender = 508
 				#defender_modifier = 2
-				combat_width = 12
+				combat_width = 10
 			}
 		}
 		
@@ -84,7 +79,7 @@ country_event = { #
 	is_triggered_only = yes hidden = yes
 	
 	immediate = {
-		transfer_state = 509	
+		UFC = {transfer_state = 509	}
 	}
 	option = { ai_chance = { factor = 100 } }
 }
@@ -111,7 +106,7 @@ country_event = { #
 	is_triggered_only = yes hidden = yes
 	
 	immediate = {
-		transfer_state = 42	
+		UFC = {transfer_state = 42	}
 	}
 	option = { ai_chance = { factor = 100 } }
 }
@@ -276,6 +271,14 @@ country_event = {
 				popularity = 100
 			}
 			country_event = { id = FOREST_anarchy.2 days = 14 }
+			UNI = { country_event = { id = UNI_north_anarchy.2 days = 7 } }
+		}
+	}
+	option = {
+		name = FOREST_anarchy.1.b
+		ai_chance = { factor = 100 }
+		UNI = {
+			complete_national_focus = UNI_anarchy_avoided
 		}
 	}
 }
@@ -424,7 +427,7 @@ country_event = { # Balance given
 	}
 }
 
-country_event = { # Anarchy, for balance
+country_event = { # Anarchy, for balance 
 	id = FOREST_balance.3
 	title = FOREST_balance.3.t
 	desc = FOREST_balance.3.d
@@ -479,6 +482,7 @@ country_event = { # Anarchy, for balance
 				popularity = 100
 			}
 			country_event = { id = FOREST_anarchy.2 days = 14 }
+			UNI = { country_event = { id = UNI_north_anarchy.2 days = 7 } }
 			UNI = { clr_country_flag = UNI_yes_intervene }
 	}
 }

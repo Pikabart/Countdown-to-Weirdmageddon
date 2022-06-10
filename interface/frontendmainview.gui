@@ -37,12 +37,30 @@ guiTypes = {
 			spriteType = "GFX_frontend_game_logo"
 			position = { x= 20 y = 45 }
 		}
+		
+		
+		
 		#iconType =   
 		#{
 		#	name ="frontend_alpha_stamp"
 		#	spriteType = "GFX_alpha_stamp"
 		#	position = { x= 50 y = 270 }
 		#}
+		
+		iconType =
+		{
+			name ="frontend_dev_logo"
+			spriteType = "GFX_frontend_dev_logo"
+			position = { x= 70 y = 315 }
+		}
+		
+		iconType =
+		{
+			name ="pdx_int_logo"
+			spriteType = "GFX_pdx_int_logo"
+			position = { x= 270 y = 335 }
+		}
+		
 		
 	}
 
@@ -85,22 +103,22 @@ guiTypes = {
 		{
 			name ="frontend_alpha_stamp"
 			spriteType = "GFX_alpha_stamp"
-			position = { x= -160 y = 230 }
+			position = { x= -160 y = 100 }
 		}
 		
-		iconType =
-		{
-			name ="frontend_dev_logo"
-			spriteType = "GFX_frontend_dev_logo"
-			position = { x= -120 y = 15 }
-		}
+		#iconType =
+		#{
+		#	name ="frontend_dev_logo"
+		#	spriteType = "GFX_frontend_dev_logo"
+		#	position = { x= -120 y = 15 }
+		#}
 		
-		iconType =
-		{
-			name ="pdx_int_logo"
-			spriteType = "GFX_pdx_int_logo"
-			position = { x= 70 y = 35 }
-		}		
+		#iconType =
+		#{
+		#	name ="pdx_int_logo"
+		#	spriteType = "GFX_pdx_int_logo"
+		#	position = { x= 70 y = 35 }
+		#}		
 		
 	}		
 

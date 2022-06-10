@@ -8,6 +8,7 @@ BREAZYREAZY
 #CODE DEVELOPERS:
 Culverin
 That Random Alien
+Echo532
 
 #ARTIST DEVELOPERS:
 X3
@@ -16,7 +17,15 @@ Homer
 
 #WRITER DEVELOPERS:
 Lyon
+
+#SPECIAL CONTRIBUTIONS
+Symeta - Artwork - Gravity Falls Small Memory
+
+#ADDITIONAL CONTRIBUTIONS
 HecateSkai
+Legionaire
+Pikabart
+
 
 -----------------------
 
