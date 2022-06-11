@@ -1,32 +1,19 @@
 ﻿l_english:
-    #TEST_EVENT######################################
+
     
-    mystery_shack.9999.t:0 "Dippy Returns!"
-    mystery_shack.9999.d:0 "Oh no! Why? Sweet Hot Belgium waffles, why?!"
-    mystery_shack.9999.a:0 "Hey Dippy, your hat's on backward!"
-    mystery_shack.9999.b:0 "Why Mable, why?!"
+    ##################################################################################################
+    ##################################################################################################
+    
+    owl_house.9999999.t:0 "Welcome to the Countdown to Weirdmageddon:\nThe Owl House"
+    mys_startup.9999999.d:0 "Welcome! And thank you for playing "Countdown to Wierdmageddon", the HoI4 total conversion mod set in the Multiverse intersecting Gravity Falls, Star vs The Forces of Evil, Amphibia, and The Owl House.\n\nWe are proud to release our Alpha 0.1.2 version for all of you to play as we contninue working on expanding this unique world of Earth 42'\\ and the dimensions around it.\n\nFor the Mystery Shack, the Shack is a story driven experience exploring a reinterpetation of Season Pne of Gravity Falls. Follow the Mystery Twins as they explore Gravity Falls, and join Stan in his quest to fully rebuild the portal, as well as use it for fun and profit!\n\nEnjoy!"
+    mys_startup.9999999.a:0 "And remember, we put the "Fun" in\n"No Refunds"!"
    
-    mystery_shack.9998.t:0 "Got Yeah!"
-    mystery_shack.9998.d:0 "Eeny, meeny, miny, MOE!"
-    mystery_shack.9998.a:0 "Time to trim the Pinetree!"
-    mystery_shack.9998.b:0 "Guess why they call you 'Shooting Star'?"
-    
-    ##################################################################################################
-    ##################################################################################################
-    
-    mys_startup.1.t:0 "Welcome to the Countdown to Weirdmageddon:\nThe Mystery Shack"
-    mys_startup.1.d:0 "Welcome! And thank you for playing "Countdown to Wierdmageddon", the HoI4 total conversion mod set in the Multiverse intersecting Gravity Falls, Star vs The Forces of Evil, Amphibia, and The Owl House.\n\nWe are proud to release our Alpha 0.1.2 version for all of you to play as we contninue working on expanding this unique world of Earth 42'\\ and the dimensions around it.\n\nFor the Mystery Shack, the Shack is a story driven experience exploring a reinterpetation of Season Pne of Gravity Falls. Follow the Mystery Twins as they explore Gravity Falls, and join Stan in his quest to fully rebuild the portal, as well as use it for fun and profit!\n\nEnjoy!"
-    mys_startup.1.a:0 "And remember, we put the "Fun" in\n"No Refunds"!"
-    
-    mystery_shack.1.t:0 "Welcome to the Mystery Shack!"
-    mystery_shack.1.d:0 ""Come one, come all, and feast your eyes on what spooky, creepy, bizarre things inside the Mystery Shack! I'm Mr. Mystery, your guide to what lays beyond this portal into the wierd and unnatural!\nPrepare to be amazed, astounded, brought to tears... Payment upfront!"\n\nI've been doing this now for thirty years. Day in, day out. Not for the money... well, yes the money. But also for something truely out of this world. Oh the real secrets and mysteries. All within the Myserty Shack!"
-    mystery_shack.1.a:0 "But you'll have to pay extra for that!"
     
     ##################################################
     
-    mystery_shack.2.t:0 "A Man of Mystery"
-    mystery_shack.2.d:0 "There once was a man, not unlike me, who lived in this old, run-down shack. Smart, a genius really, if not also a bit of a stuck-up idiot at times. But standing in front of this invention of his, its humbling really. This was his achievement of a lifetime, a gateway to the universe and beyond. Its was his rise and because of me, it would be his fall.\n\nThirty years ago, that man was lost from our world, sucked up by the portal and into parts unknown. He was gone and I have labored since. To repair, to rebuild, to reinvent what I had thought anyway was the product of his mind. In his lost, I was changed to a new man. In my lost, he became known as a changed man. Across all the universe, across countless dimensions and realms that go beyond human comprehension, my quest to bring him back had led me to find more about myself. In that portal, I felt reborn, I felt broken, I stood on the shoulders of gods, and I saw where I really laid among the vast infinity.\n\nMaybe nothing has changed. But as that man once said, even in an isolated environment, nothing stays the same. I am not the man they think I am. I am not who I seem to be."
-    mystery_shack.2.a:0 "But of course, my name is "Stanford" Pines"
+    owl_house.1.t:0 "A Mystical World"
+    owl_house.1.d:0 "The hopping owl creature carrying her favorite book vanished inside the creepy old house down the block. Luz hesitated, but gritted her teeth and rushed after it. “Stop adorably hopping away, you-huh?” She stopped, finding herself in a tent full of all sorts of junk. “Woah, I though I had a lot of weird stuff. But this? This is impressive,” she said, holding a doll up to the light.\n\n“Finally! You’re back,” said a voice up ahead. Luz crept to the curtain ahead and watched a mysterious woman with gray hair rummage through the owl creature’s bag, tossing out valuables. “Garbage…garbage…garbage…now this,” she said, putting on a pair of googly eyes, “This will make me rich! And this,” she said, holding Luz’s book, “Will make good kindling.”\n\n“Excusemesorrythatsmine,” Luz said, running to snatch her book and run out the door she came. A door which snapped into nonexistence before she could run through it. “You’re not going anywhere,” the lady said.\nLuz screamed, ducked under the curtain and ran for it, only to be confronted with a sight she had never seen in even her wildest daydreams. “What..what’s going on??”"
+    owl_house.1.a:0 "Welcome to the Boiling Isles!"
     
     ##################################################
     
