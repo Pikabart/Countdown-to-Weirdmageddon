@@ -17,7 +17,7 @@ focus_tree = {
 
 	focus = {
 		id = UNI_start
-		icon = a
+		icon = GFX_focus_generic_military_mission
 		x = 14
 		y = 0
 		
@@ -45,7 +45,7 @@ focus_tree = {
 
 	focus = {
 		id = UNI_the_north_pacified
-		icon = a
+		icon = GFX_goal_generic_fortify_city
 		x = 4
 		y = 1
 		relative_position_id = UNI_start
@@ -76,7 +76,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_manotaurs_under_hoof
-		icon = a
+		icon = GFX_goal_generic_cavalry
 		x = -1
 		y = 1
 		relative_position_id = UNI_the_north_pacified
@@ -106,7 +106,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_multis_under_hoof
-		icon = a
+		icon = GFX_goal_support_fascism
 		x = 1
 		y = 1
 		relative_position_id = UNI_the_north_pacified
@@ -136,7 +136,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_rumors
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = 1
 		y = 1
 		relative_position_id = UNI_manotaurs_under_hoof
@@ -167,7 +167,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_just_leave_it_be
-		icon = a
+		icon = GFX_goal_generic_neutrality_focus
 		x = -1
 		y = 1
 		relative_position_id = UNI_rumors
@@ -200,7 +200,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_restore_order
-		icon = a
+		icon = GFX_focus_LIT_restore_order
 		x = 1
 		y = 1
 		relative_position_id = UNI_rumors
@@ -233,7 +233,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_anarchy_avoided
-		icon = a
+		icon = GFX_focus_SOV_behead_the_snake
 		x = 3
 		y = 1
 		relative_position_id = UNI_rumors
@@ -266,7 +266,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_utilize_their_bodies
-		icon = a
+		icon = GFX_focus_generic_manpower
 		x = 0
 		y = 1
 		relative_position_id = UNI_restore_order
@@ -301,7 +301,7 @@ focus_tree = {
 
 	focus = {
 		id = UNI_threat_from_north
-		icon = a
+		icon = GFX_goal_generic_more_territorial_claims
 		x = -1
 		y = 1
 		relative_position_id = UNI_start
@@ -332,7 +332,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_economic_preparation
-		icon = a
+		icon = GFX_goal_generic_construction
 		x = -1
 		y = 1
 		relative_position_id = UNI_threat_from_north
@@ -409,7 +409,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_military_xp
-		icon = a
+		icon = GFX_focus_POL_belarus_army
 		x = 1
 		y = 1
 		relative_position_id = UNI_military_preparation
@@ -442,7 +442,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_free_units
-		icon = a
+		icon = GFX_focus_TUR_ratify_the_six_arrows
 		x = 0
 		y = 1
 		relative_position_id = UNI_military_xp
@@ -498,7 +498,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_forts
-		icon = a
+		icon = GFX_goal_fortify_the_westwall
 		x = 0
 		y = 2
 		relative_position_id = UNI_threat_from_north
@@ -546,7 +546,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_mils_3
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = UNI_forts
@@ -608,7 +608,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_mindless_slaves
-		icon = a
+		icon = GFX_goal_generic_propaganda
 		x = 0
 		y = 1
 		relative_position_id = UNI_mils_3
@@ -641,7 +641,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_military_production_1
-		icon = a
+		icon = GFX_goal_generic_construct_infrastructure
 		x = -1
 		y = 1
 		relative_position_id = UNI_economic_preparation
@@ -704,7 +704,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_military_production_2
-		icon = a
+		icon = GFX_focus_BUL_cooperate_with_the_zveno
 		x = 0
 		y = 1
 		relative_position_id = UNI_military_production_1
@@ -766,7 +766,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_energy_spores
-		icon = a
+		icon = GFX_focus_generic_africa_factory
 		x = -7
 		y = 1
 		relative_position_id = UNI_start
@@ -805,7 +805,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_exploiting_dark_forest
-		icon = a
+		icon = GFX_focus_generic_africa_production
 		x = 0
 		y = 1
 		relative_position_id = UNI_energy_spores
@@ -839,7 +839,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_fishing
-		icon = a
+		icon = GFX_goal_continuous_non_factory_construct
 		x = 0
 		y = 1
 		relative_position_id = UNI_exploiting_dark_forest
@@ -873,7 +873,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_gnome_wokers_1
-		icon = a
+		icon = GFX_focus_SOV_organize_wreckers
 		x = -5
 		y = 1
 		relative_position_id = UNI_start
@@ -932,7 +932,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_gnome_wokers_2
-		icon = a
+		icon = GFX_focus_POL_complete_april_constitution
 		x = 0
 		y = 1
 		relative_position_id = UNI_gnome_wokers_1
@@ -991,7 +991,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_gnome_wokers_3
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = UNI_gnome_wokers_2
@@ -1050,7 +1050,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_north_subjagated
-		icon = a
+		icon = GFX_focus_POL_polish_revanchism
 		x = 3
 		y = 1
 		relative_position_id = UNI_mindless_slaves
@@ -1080,7 +1080,7 @@ focus_tree = {
 
 	focus = {
 		id = UNI_isolate
-		icon = a
+		icon = GFX_goal_generic_defence
 		x = -2
 		y = 1
 		relative_position_id = UNI_north_subjagated
@@ -1111,7 +1111,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_look_outwards
-		icon = a
+		icon = GFX_focus_eng_global_defense
 		x = 2
 		y = 1
 		relative_position_id = UNI_north_subjagated
@@ -1142,7 +1142,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_obliterate_gnomes
-		icon = a
+		icon = GFX_focus_generic_military_dictatorship
 		x = -1
 		y = 1
 		relative_position_id = UNI_look_outwards
@@ -1176,7 +1176,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_annex_north
-		icon = a
+		icon = GFX_focus_hol_the_foundations_of_defense
 		x = 1
 		y = 1
 		relative_position_id = UNI_look_outwards
@@ -1260,7 +1260,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_mop_up_north
-		icon = a
+		icon = GFX_goal_generic_major_war
 		x = 0
 		y = 1
 		relative_position_id = UNI_annex_north
@@ -1314,7 +1314,7 @@ focus_tree = {
 	
 	focus = {
 		id = UNI_domination_over_the_forest
-		icon = a
+		icon = GFX_focus_generic_forest_brothers
 		x = 0
 		y = 1
 		relative_position_id = UNI_obliterate_gnomes
