@@ -48,9 +48,23 @@ on_actions = {
 			MYS = { set_variable  = { var = FOREST_crawl_cash value = 150 } }
 			GTF = { set_variable  = { var = FOREST_crawl_cash value = 150 } }
 			NWM = { set_variable  = { var = FOREST_crawl_cash value = 150 } }
+			MAN = { set_variable  = { var = FOREST_crawl_favorite value = 0 } }
+			UFC = { set_variable  = { var = FOREST_crawl_favorite value = 0 } }
+			GNM = { set_variable  = { var = FOREST_crawl_favorite value = 0 } }
+			UNI = { set_variable  = { var = FOREST_crawl_favorite value = 0 } }
+			MYS = { set_variable  = { var = FOREST_crawl_favorite value = 0 } }
+			GTF = { set_variable  = { var = FOREST_crawl_favorite value = 0 } }
+			NWM = { set_variable  = { var = FOREST_crawl_favorite value = 0 } }
 			set_variable  = { var = global.crawl_guns value = 5000 }
 			set_variable  = { var = global.crawl_supplies value = 5000 }
 			set_variable  = { var = global.crawl_resource value = 120 }
+			MAN = { country_event = { id = FOREST_crawlspace_trigger.1 days = 90 } }
+			UFC = { country_event = { id = FOREST_crawlspace_trigger.1 days = 90 } }
+			GNM = { country_event = { id = FOREST_crawlspace_trigger.1 days = 90 } }
+			UNI = { country_event = { id = FOREST_crawlspace_trigger.1 days = 90 } }
+			MYS = { country_event = { id = FOREST_crawlspace_trigger.1 days = 90 } }
+			GTF = { country_event = { id = FOREST_crawlspace_trigger.1 days = 90 } }
+			NWM = { country_event = { id = FOREST_crawlspace_trigger.1 days = 90 } }
 		} 
 	}
 	

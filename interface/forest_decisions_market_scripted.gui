@@ -4,7 +4,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "forest_decisions_market_ui_window"
 		position = { x = 0 y = 0 }
-		size = { width = 100% height= 160 } 
+		size = { width = 100% height= 200 } 
 
 
 		instantTextBoxType = {
@@ -25,12 +25,33 @@ guiTypes = {
 			maxHeight = 24
 			pdx_tooltip = cash_reserve_loc_tt
 		}
+		
+		########################################## 
+		 
+		instantTextBoxType = {
+			name ="crawl_favorite_count"
+			position = { x = 55 y = 50 }
+			font = "hoi_18mbs"
+			text = "crawl_favorite_count_loc"
+			format = left
+			maxHeight = 24
+			maxwidth = 500
+		}
+		
+		#Tooltip
+		instantTextBoxType = {
+			name ="crawl_favorite_count_tooltip"
+			position = { x = 55 y = 50 }
+			maxwidth = 400
+			maxHeight = 24
+			pdx_tooltip = crawl_favorite_count_loc_tt
+		}
 
         ########################################## 
 		 
 		instantTextBoxType = {
 			name ="crawl_gun_count"
-			position = { x = 55 y = 50 }
+			position = { x = 55 y = 90 }
 			font = "hoi_18mbs"
 			text = "crawl_gun_count_loc"
 			format = left
@@ -41,7 +62,7 @@ guiTypes = {
 		#Tooltip
 		instantTextBoxType = {
 			name ="crawl_gun_count_tooltip"
-			position = { x = 55 y = 50 }
+			position = { x = 55 y = 90 }
 			maxwidth = 400
 			maxHeight = 24
 			pdx_tooltip = crawl_gun_count_loc_tt
@@ -51,7 +72,7 @@ guiTypes = {
 		 
 		instantTextBoxType = {
 			name ="crawl_supply_count"
-			position = { x = 55 y = 90 }
+			position = { x = 55 y = 130 }
 			font = "hoi_18mbs"
 			text = "crawl_supply_count_loc"
 			format = left
@@ -62,7 +83,7 @@ guiTypes = {
 		#Tooltip
 		instantTextBoxType = {
 			name ="crawl_supply_count_tooltip"
-			position = { x = 55 y = 90 }
+			position = { x = 55 y = 130 }
 			maxwidth = 400
 			maxHeight = 24
 			pdx_tooltip = crawl_supply_count_loc_tt
@@ -72,7 +93,7 @@ guiTypes = {
 		 
 		instantTextBoxType = {
 			name ="crawl_resource_count"
-			position = { x = 55 y = 130 }
+			position = { x = 55 y = 170 }
 			font = "hoi_18mbs"
 			text = "crawl_resource_count_loc"
 			format = left
@@ -83,11 +104,13 @@ guiTypes = {
 		#Tooltip
 		instantTextBoxType = {
 			name ="crawl_resource_count_tooltip"
-			position = { x = 55 y = 130 }
+			position = { x = 55 y = 170 }
 			maxwidth = 400
 			maxHeight = 24
 			pdx_tooltip = crawl_resource_count_loc_tt
 		}
+		
+		 
 
 
 

@@ -24,7 +24,7 @@
     CRL_scrap_frobot_study_3_desc:0 "These old robots from the Empire of Amphibia were from before they went into isolation a millennial ago. Useless as combat robots now, but they hold plenty of juicy tech for us to do some studying."
     
     CRL_coven_training_3:0 "Coven Training Documents"
-    CRL_coven_training_3_desc:0 "Some pale witch with big hair, a fake sharp tooth and a "Over Thirty and Flirty" shirt sold these manuals to the merchants of the Crawlspace. She then robbed them blind. Trying to recoup their losses, the manuals are quite useful for Magic Special Forces."
+    CRL_coven_training_3_desc:0 "Some pale witch with big hair, a fake sharp tooth and a "Over Thirty and Flirty" shirt sold these manuals to the merchants of the Crawlspace. She then robbed them blind. Trying to recoup their losses, the manuals are quite useful for Magic Special Forces." 
     
     CRL_rick_3:0 "Rick Ex Machina"
     CRL_rick_3_desc:0 "We have hire a Rick. Since we're on the other side of the Central Finite Curve, they can't stay long since it'll mean risk starting another war with the Citadel of Soos. But man oh man. Even if he's not trying, the man gets things done!"
@@ -72,6 +72,29 @@
     
     UFC_reject_mandate:0 "Reject Uni-Mandates"
     UFC_reject_mandate_desc:0 ""
+    
+    ####################################################
+    
+    UFC_betrayed_by_decadence:0 "Decadent Betrayal"
+    UFC_betrayed_by_decadence_desc:0 ""
+    
+    UFC_lifestyle_questioned:0 "Our Lifestyle Questioned"
+    UFC_lifestyle_questioned_desc:0 ""
+    
+    UFC_head_equal:0 "All Heads Equal"
+    UFC_head_equal_desc:0 ""
+    
+    UFC_each_head_own_need:0 "According To Their Needs"
+    UFC_each_head_own_need_desc:0 ""
+    
+    UFC_equal_forest:0 "Forest Equality"
+    UFC_equal_forest_desc:0 ""
+    
+    UFC_bear_revolution_1:0 "Revolution In The Woods"
+    UFC_bear_revolution_1_desc:0 ""
+    
+    UFC_bear_revolution_2:0 "Revolution In The Woods"
+    UFC_bear_revolution_2_desc:0 ""
     
     ####################################################
     

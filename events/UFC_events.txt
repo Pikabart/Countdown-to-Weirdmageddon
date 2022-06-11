@@ -3,6 +3,10 @@ add_namespace = UFC_MANWAR
 add_namespace = UFC_COUNCIL
 add_namespace = UFC_BETRAYAL
 add_namespace = UFC_COUNCIL_NEWS
+add_namespace = UFC_RAVANCHISM
+add_namespace = UFC_REVOULTION
+add_namespace = UFC_MANO_FATE
+add_namespace = UFC_GNOME_FATE
 
 country_event = {
 	id = UFC_START_EVENT.1
@@ -70,19 +74,19 @@ country_event = { # Unicrons Respond
 	is_triggered_only = yes
 	
 	option = {
-		name = UFC_COUNCIL.2.a
+		name = UFC_COUNCIL.2.a # YES
 		UFC = {country_event = { id = UFC_COUNCIL.3 days = 5}}
 		set_global_flag = GLOBAL_UNI_COUNCIL_FLAG
 		ai_chance = { factor = 100 }
 	}
 	option = {
-		name = UFC_COUNCIL.2.b
+		name = UFC_COUNCIL.2.b # For now, yes
 		UFC = {country_event = { id = UFC_COUNCIL.3 days = 5}}
 		set_global_flag = GLOBAL_UNI_COUNCIL_FLAG
 		ai_chance = { factor = 100 }
 	}
 	option = {
-		name = UFC_COUNCIL.2.c
+		name = UFC_COUNCIL.2.c # LOL, NO!
 		UFC = {country_event = { id = UFC_COUNCIL.4 days = 5}}
 		ai_chance = { factor = 100 }
 	}
@@ -232,6 +236,148 @@ country_event = { # Steal Their Money, Unicorn POV
 	
 	option = {
 		name = UFC_BETRAYAL.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+############################################
+############################################
+############################################
+# Revanchism and Revolutiponar events
+############################################
+
+country_event = { # Gnome Furher takes control
+	id = UFC_RAVANCHISM.1
+	title = UFC_RAVANCHISM.1.t
+	desc = UFC_RAVANCHISM.1.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_RAVANCHISM.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # The Upper head is upper no more
+	id = UFC_REVOULTION.1
+	title = UFC_REVOULTION.1.t
+	desc = UFC_REVOULTION.1.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_REVOULTION.1.a
+		ai_chance = { factor = 100 } 
+	}
+}
+
+############################################
+# MANO FATE events
+############################################
+
+country_event = { # We Will Be Avenged!  (Auth/Com Bears vs ALL MAN) (NEUT/DEMO Bears vs AUTH MAN)
+	id = UFC_MANO_FATE.1
+	title = UFC_MANO_FATE.1.t
+	desc = UFC_MANO_FATE.1.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_MANO_FATE.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # A new peace on the river trembley (NEUT Bears vs NEUT/DEMO MAN) (DEMO Bears vs NEUT MAN)
+	id = UFC_MANO_FATE.2
+	title = UFC_MANO_FATE.2.t
+	desc = UFC_MANO_FATE.2.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_MANO_FATE.2.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # Reappochment ((DEMO Bears vs DEMO MAN)) 
+	id = UFC_MANO_FATE.3
+	title = UFC_MANO_FATE.3.t
+	desc = UFC_MANO_FATE.3.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_MANO_FATE.3.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+
+
+############################################
+# Gnomes events
+############################################
+
+country_event = { # Chief vs Jeff or New Queen
+	id = UFC_GNOME_FATE.1
+	title = UFC_GNOME_FATE.1.t
+	desc = UFC_GNOME_FATE.1.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_GNOME_FATE.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # Force revoluitiopn adoption, no monarchy
+	id = UFC_GNOME_FATE.2
+	title = UFC_GNOME_FATE.2.t
+	desc = UFC_GNOME_FATE.2.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_GNOME_FATE.2.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # The Forest Realm
+	id = UFC_GNOME_FATE.3
+	title = UFC_GNOME_FATE.3.t
+	desc = UFC_GNOME_FATE.3.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_GNOME_FATE.3.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # The Forest Council
+	id = UFC_GNOME_FATE.4
+	title = UFC_GNOME_FATE.4.t
+	desc = UFC_GNOME_FATE.4.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_GNOME_FATE.4.a
 		ai_chance = { factor = 100 }
 	}
 }

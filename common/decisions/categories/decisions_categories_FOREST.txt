@@ -12,7 +12,7 @@ FOREST_catagory_crawl_space = {
 	
 	allowed = { OR = {tag = UFC tag = MAN tag = UNI tag = GNM tag = MYS tag = GTF tag = NWM} }  
 	visible = { 
-		#has_global_flag = GLOBAL_FLAG_MARKET
+		has_global_flag = GLOBAL_FLAG_MARKET
 	}
 	
 	visible_when_empty = yes
@@ -25,7 +25,7 @@ FOREST_catagory_crawl_space_sell = {
 	
 	allowed = { OR = {tag = UFC tag = MAN tag = UNI tag = GNM tag = MYS tag = GTF tag = NWM} }  
 	visible = { 
-		#has_global_flag = GLOBAL_FLAG_MARKET
+		has_global_flag = GLOBAL_FLAG_MARKET
 	}
 	
 	visible_when_empty = yes

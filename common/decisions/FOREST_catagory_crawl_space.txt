@@ -1,7 +1,7 @@
 #####################################################################################################################
 #California Decisions 
 #####################################################################################################################
-FOREST_catagory_crawl_space = {
+FOREST_catagory_crawl_space = { 
 	
 	##############################################################
 	##############################################################
@@ -20,8 +20,8 @@ FOREST_catagory_crawl_space = {
 		days_re_enable = 1 
 		days_remove = 30
 		available = { #  	 
-		   check_variable = { ROOT.FOREST_crawl_cash > 50 }
-		   check_variable = { global.crawl_guns > 250 }
+		   check_variable = { ROOT.FOREST_crawl_cash > 49 }
+		   check_variable = { global.crawl_guns > 249 }
 		}
 		visible = {  }	
 		complete_effect = {	
@@ -30,6 +30,10 @@ FOREST_catagory_crawl_space = {
 				type = ren_infantry_equipment_2
 				amount = 250
 				producer = CRL
+			}
+			add_to_variable = {
+				var = ROOT.FOREST_crawl_favorite
+				value = 5
 			}
 			subtract_from_variable = {
 				var = ROOT.FOREST_crawl_cash
@@ -55,11 +59,11 @@ FOREST_catagory_crawl_space = {
         selectable_mission = no              
 		priority = 10
 		
-		days_re_enable = 1
+		days_re_enable = 1 
 		days_remove = 30
 		available = { #  	 
-		   check_variable = { ROOT.FOREST_crawl_cash > 50 }
-		   check_variable = { global.crawl_supplies > 250 }
+		   check_variable = { ROOT.FOREST_crawl_cash > 49 }
+		   check_variable = { global.crawl_supplies > 249 }
 		}
 		visible = {  }	
 		complete_effect = {		
@@ -68,6 +72,10 @@ FOREST_catagory_crawl_space = {
 				type = support_equipment
 				amount = 250
 				producer = CRL
+			}
+			add_to_variable = {
+				var = ROOT.FOREST_crawl_favorite
+				value = 5
 			}
 			subtract_from_variable = {
 				var = ROOT.FOREST_crawl_cash
@@ -96,13 +104,17 @@ FOREST_catagory_crawl_space = {
 		days_re_enable = 1
 		days_remove = 30
 		available = { #  	 
-		   check_variable = { ROOT.FOREST_crawl_cash > 50 }
-		   check_variable = { global.crawl_supplies > 100 }
+		   check_variable = { ROOT.FOREST_crawl_cash > 49 }
+		   check_variable = { global.crawl_supplies > 99 }
 		}
 		visible = {  }	
 		complete_effect = {		
 			custom_effect_tooltip = "FOREST_decision_common_1_c_tt"
 			add_timed_idea = { idea = CRL_fast_tech_1 days = 60 }
+			add_to_variable = {
+				var = ROOT.FOREST_crawl_favorite
+				value = 5
+			}
 			subtract_from_variable = {
 				var = ROOT.FOREST_crawl_cash
 				value = 50
@@ -130,13 +142,17 @@ FOREST_catagory_crawl_space = {
 		days_re_enable = 1
 		days_remove = 30
 		available = { #  	 
-		   check_variable = { ROOT.FOREST_crawl_cash > 50 }
-		   check_variable = { global.crawl_supplies > 100 }
+		   check_variable = { ROOT.FOREST_crawl_cash > 49 }
+		   check_variable = { global.crawl_supplies > 99 }
 		}
 		visible = {  }	 
 		complete_effect = {		
 			custom_effect_tooltip = "FOREST_decision_common_1_d_tt"
 			add_timed_idea = { idea = CRL_fast_build_1 days = 60 }
+			add_to_variable = {
+				var = ROOT.FOREST_crawl_favorite
+				value = 5
+			}
 			subtract_from_variable = {
 				var = ROOT.FOREST_crawl_cash
 				value = 50
@@ -167,9 +183,10 @@ FOREST_catagory_crawl_space = {
 		
 		days_re_enable = 1 
 		days_remove = 30
-		available = { #  	 
-		   check_variable = { ROOT.FOREST_crawl_cash > 100 }
-		   check_variable = { global.crawl_guns > 250 }
+		available = { # 
+		   check_variable = { ROOT.FOREST_crawl_favorite > 49 }
+		   check_variable = { ROOT.FOREST_crawl_cash > 99 }
+		   check_variable = { global.crawl_guns > 249 }
 		}
 		visible = {  }	
 		complete_effect = {	
@@ -178,6 +195,10 @@ FOREST_catagory_crawl_space = {
 				type = ind_infantry_equipment_2
 				amount = 250
 				producer = CRL
+			}
+			add_to_variable = {
+				var = ROOT.FOREST_crawl_favorite
+				value = 5
 			}
 			subtract_from_variable = {
 				var = ROOT.FOREST_crawl_cash
@@ -205,10 +226,11 @@ FOREST_catagory_crawl_space = {
 		
 		days_re_enable = 1
 		days_remove = 30
-		available = { #  	 
-		   check_variable = { ROOT.FOREST_crawl_cash > 100 }
-		   check_variable = { global.crawl_guns > 200 }
-		   check_variable = { global.crawl_supplies > 200 }
+		available = { #  
+			check_variable = { ROOT.FOREST_crawl_favorite > 49 }
+		   check_variable = { ROOT.FOREST_crawl_cash > 99 }
+		   check_variable = { global.crawl_guns > 249 }
+		   check_variable = { global.crawl_supplies > 249 }
 		}
 		visible = {  }	
 		complete_effect = {		
@@ -217,6 +239,10 @@ FOREST_catagory_crawl_space = {
 				type = artillery_equipment_2
 				amount = 100
 				producer = CRL
+			}
+			add_to_variable = {
+				var = ROOT.FOREST_crawl_favorite
+				value = 5
 			}
 			subtract_from_variable = {
 				var = ROOT.FOREST_crawl_cash
@@ -248,14 +274,19 @@ FOREST_catagory_crawl_space = {
 		
 		days_re_enable = 1
 		days_remove = 30
-		available = { #  	 
-		   check_variable = { ROOT.FOREST_crawl_cash > 100 }
-		   check_variable = { global.crawl_supplies > 100 }
+		available = { #  
+			check_variable = { ROOT.FOREST_crawl_favorite > 49 }	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 99 }
+		   check_variable = { global.crawl_supplies > 99 }
 		}
 		visible = {  }	
 		complete_effect = {		
 			custom_effect_tooltip = "FOREST_decision_common_2_c_tt"
 			add_timed_idea = { idea = CRL_happy_gas_2 days = 60 }
+			add_to_variable = {
+				var = ROOT.FOREST_crawl_favorite
+				value = 5
+			}
 			subtract_from_variable = {
 				var = ROOT.FOREST_crawl_cash
 				value = 100
@@ -282,14 +313,19 @@ FOREST_catagory_crawl_space = {
 		
 		days_re_enable = 1
 		days_remove = 30
-		available = { #  	 
-		   check_variable = { ROOT.FOREST_crawl_cash > 100 }
-		   check_variable = { global.crawl_supplies > 100 }
+		available = { #  
+			check_variable = { ROOT.FOREST_crawl_favorite > 49 }	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 99 }
+		   check_variable = { global.crawl_supplies > 99 }
 		}
 		visible = {  }	 
 		complete_effect = {		
 			custom_effect_tooltip = "FOREST_decision_common_2_d_tt"
 			add_timed_idea = { idea = CRL_patriot_water_2 days = 90 }
+			add_to_variable = {
+				var = ROOT.FOREST_crawl_favorite
+				value = 5
+			}
 			subtract_from_variable = {
 				var = ROOT.FOREST_crawl_cash
 				value = 100
@@ -320,9 +356,10 @@ FOREST_catagory_crawl_space = {
 		
 		days_re_enable = 1 
 		days_remove = 90
-		available = { #  	 
-		   check_variable = { ROOT.FOREST_crawl_cash > 200 }
-		   check_variable = { global.crawl_guns > 250 }
+		available = { # 
+			check_variable = { ROOT.FOREST_crawl_favorite > 99 } 	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 199 }
+		   check_variable = { global.crawl_resource > 9 }
 		}
 		visible = {  }	
 		complete_effect = {	
@@ -332,6 +369,10 @@ FOREST_catagory_crawl_space = {
 					type = tungsten
 					amount = 24
 				}
+			}
+			add_to_variable = {
+				var = ROOT.FOREST_crawl_favorite
+				value = 5
 			}
 			subtract_from_variable = {
 				var = ROOT.FOREST_crawl_cash
@@ -367,14 +408,19 @@ FOREST_catagory_crawl_space = {
 		
 		days_re_enable = 1
 		days_remove = 30
-		available = { #  	 
-		   check_variable = { ROOT.FOREST_crawl_cash > 200 }
-		   check_variable = { global.crawl_supplies > 250 }
+		available = { #  
+			check_variable = { ROOT.FOREST_crawl_favorite > 99 } 	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 199 }
+		   check_variable = { global.crawl_resource > 9 }
 		}
 		visible = {  }	
 		complete_effect = {		
 			custom_effect_tooltip = "FOREST_decision_common_3_b_tt"
 			add_timed_idea = { idea = CRL_scrap_frobot_study_3 days = 60 }
+			add_to_variable = {
+				var = ROOT.FOREST_crawl_favorite
+				value = 5
+			}
 			subtract_from_variable = {
 				var = ROOT.FOREST_crawl_cash
 				value = 200
@@ -401,14 +447,19 @@ FOREST_catagory_crawl_space = {
 		
 		days_re_enable = 1
 		days_remove = 30
-		available = { #  	 
-		   check_variable = { ROOT.FOREST_crawl_cash > 200 }
-		   check_variable = { global.crawl_supplies > 100 }
+		available = { #  
+			check_variable = { ROOT.FOREST_crawl_favorite > 99 } 	 
+		   check_variable = { ROOT.FOREST_crawl_cash > 199 }
+		   check_variable = { global.crawl_resource > 9 }
 		}
 		visible = {  }	
 		complete_effect = {		
 			custom_effect_tooltip = "FOREST_decision_common_3_c_tt"
 			add_timed_idea = { idea = CRL_coven_training_3 days = 60 }
+			add_to_variable = {
+				var = ROOT.FOREST_crawl_favorite
+				value = 5
+			}
 			subtract_from_variable = {
 				var = ROOT.FOREST_crawl_cash
 				value = 200
@@ -435,14 +486,19 @@ FOREST_catagory_crawl_space = {
 		
 		days_re_enable = 1
 		days_remove = 30
-		available = { #  	 
-		   check_variable = { ROOT.FOREST_crawl_cash > 200 }
-		   check_variable = { global.crawl_supplies > 100 }
+		available = { #  
+			check_variable = { ROOT.FOREST_crawl_favorite > 99 } 	 
+			check_variable = { ROOT.FOREST_crawl_cash > 249 }
+			check_variable = { global.crawl_resource > 19 }
 		}
 		visible = {  }	 
 		complete_effect = {		
 			custom_effect_tooltip = "FOREST_decision_common_3_d_tt"
 			add_timed_idea = { idea = CRL_rick_3 days = 60 }
+			add_to_variable = {
+				var = ROOT.FOREST_crawl_favorite
+				value = 5
+			}
 			subtract_from_variable = {
 				var = ROOT.FOREST_crawl_cash
 				value = 200
@@ -502,6 +558,10 @@ FOREST_catagory_crawl_space_sell = {
 				value = 35 
 			}
 			add_to_variable = {
+				var = ROOT.FOREST_crawl_favorite
+				value = 1 
+			}
+			add_to_variable = {
 				var = global.crawl_guns
 				value = 250
 			}
@@ -533,6 +593,10 @@ FOREST_catagory_crawl_space_sell = {
 			add_equipment_to_stockpile = {
 				type = support_equipment
 				amount = -250
+			}
+			add_to_variable = {
+				var = ROOT.FOREST_crawl_favorite
+				value = 1 
 			}
 			add_to_variable = {
 				var = ROOT.FOREST_crawl_cash

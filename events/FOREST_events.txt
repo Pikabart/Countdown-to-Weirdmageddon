@@ -1,10 +1,11 @@
 ﻿# Combine FOREST OF GF events
 add_namespace = FOREST_border_wars
 add_namespace = FOREST_wars
+add_namespace = FOREST_crawlspace_trigger
 add_namespace = FOREST_anarchy
 add_namespace = FOREST_balance
 
-country_event = {
+country_event = { # Trigger Starting Man War Border War
 	id = FOREST_border_wars.1
 	title = FOREST_border_wars.1.t
 	desc = FOREST_border_wars.1.d
@@ -44,9 +45,7 @@ country_event = {
 				attacker = {
 					state = 51
 					num_provinces = 3
-
-				}
-							
+				}						
 				defender = {
 					state = 508
 					num_provinces = 3
@@ -70,7 +69,7 @@ country_event = {
 	}
 }
 
-country_event = { # 
+country_event = { # If Bear counter attack wins
 	id = FOREST_border_wars.2
 	title = FOREST_border_wars.2.t
 	desc = FOREST_border_wars.2.d
@@ -79,7 +78,7 @@ country_event = { #
 	is_triggered_only = yes hidden = yes
 	
 	immediate = {
-		UFC = {transfer_state = 509	}
+		UFC = {transfer_state = 509	} 
 	}
 	option = { ai_chance = { factor = 100 } }
 }
@@ -97,7 +96,7 @@ country_event = { #
 	}
 	option = { ai_chance = { factor = 100 } }
 }
-country_event = { # 
+country_event = { # Border Slopes Border war win
 	id = FOREST_border_wars.4
 	title = FOREST_border_wars.4.t
 	desc = FOREST_border_wars.4.d
@@ -106,11 +105,23 @@ country_event = { #
 	is_triggered_only = yes hidden = yes
 	
 	immediate = {
-		UFC = {transfer_state = 42	}
+		UFC = {transfer_state = 522	}
 	}
 	option = { ai_chance = { factor = 100 } }
 }
-
+country_event = { # Border Slopes Border war win
+	id = FOREST_border_wars.5
+	title = FOREST_border_wars.5.t
+	desc = FOREST_border_wars.5.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes hidden = yes
+	
+	immediate = {
+		UFC = {transfer_state = 46	}
+	}
+	option = { ai_chance = { factor = 100 } }
+}
 ############################################################
 ############################################################
 
@@ -219,7 +230,24 @@ country_event = { #Losing the War
 }
 
 ################################################################
+############################################################
 
+country_event = { # Open Crawlspace Market
+	id = FOREST_crawlspace_trigger.1
+	title = FOREST_crawlspace_trigger.1.t
+	desc = FOREST_crawlspace_trigger.1.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = GLOBAL_FLAG_MARKET
+	}
+	option = { name = FOREST_crawlspace_trigger.1.a ai_chance = { factor = 100 } }
+}
+
+############################################################
+############################################################
 
 country_event = {
 	id = FOREST_anarchy.1

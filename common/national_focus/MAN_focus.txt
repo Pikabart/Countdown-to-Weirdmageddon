@@ -71,7 +71,7 @@
 	}
 	
 	focus = { 
-		id = MAN_womantaur_support
+		id = MAN_council_support
 		icon = GFX_goal_FOREST_river_battle 
 		x = 0
 		y = 1
@@ -141,9 +141,9 @@
 		icon = GFX_goal_FOREST_river_battle 
 		x = -2
 		y = 1
-		relative_position_id = MAN_womantaur_support
+		relative_position_id = MAN_council_support
 		prerequisite = { focus = MAN_flex_support }
-		prerequisite = { focus = MAN_womantaur_support }
+		prerequisite = { focus = MAN_council_support }
 		prerequisite = { focus = MAN_handwitch_alliance }
 		#mutually_exclusive = { focus = X }
 		
@@ -175,9 +175,9 @@
 		icon = GFX_goal_FOREST_river_battle 
 		x = 2
 		y = 1
-		relative_position_id = MAN_womantaur_support
+		relative_position_id = MAN_council_support
 		prerequisite = { focus = MAN_flex_support }
-		prerequisite = { focus = MAN_womantaur_support }
+		prerequisite = { focus = MAN_council_support }
 		prerequisite = { focus = MAN_handwitch_alliance }
 		#mutually_exclusive = { focus = X }
 		
@@ -209,7 +209,7 @@
 		icon = GFX_goal_FOREST_river_battle 
 		x = 0
 		y = 2
-		relative_position_id = MAN_womantaur_support
+		relative_position_id = MAN_council_support
 		prerequisite = { focus = MAN_keep_pushing }
 		prerequisite = { focus = MAN_protect_painhole }
 		#mutually_exclusive = { focus = X }
@@ -224,11 +224,11 @@
 
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
-			IF = { limit = {NOT = {has_war_with = UFC} } MAN = { declare_war_on = { target = UFC type = annex_everything } } }
+			MAN = { declare_war_on = { target = UFC type = annex_everything } } 
 			IF = { limit = {has_border_war_with = attacker = 46 defender = 50} cancel_border_war = {  dont_fire_events = yes defender = 46 attacker = 50 } }
 			IF = { limit = {has_border_war_with = attacker = 508 defender = 51} cancel_border_war = {  dont_fire_events = yes defender = 508 attacker = 51 } }
 			IF = { limit = {has_border_war_with = attacker = 509 defender = 48} cancel_border_war = {  dont_fire_events = yes defender = 509 attacker = 48 } }
-			add_war_support = 0.05
+			add_war_support = 0.05 
 		}
 		
 		ai_will_do = {
@@ -414,7 +414,7 @@
 		relative_position_id = MAN_strong_order
 		prerequisite = { focus = MAN_strong_order }
 		mutually_exclusive = { focus = MAN_chutzpar.1 }
-		mutually_exclusive = { focus = MAN_womantaur.1 }
+		mutually_exclusive = { focus = MAN_council.1 }
 		
 		available = {}		
 		bypass = {} 
@@ -645,7 +645,7 @@
 	}
 
 	focus = { 
-		id = MAN_womantaur.1
+		id = MAN_council.1
 		icon = GFX_goal_FOREST_river_battle 
 		x = 2
 		y = 2
@@ -672,12 +672,12 @@
 	}
 	
 	focus = { 
-		id = MAN_womantaur.2
+		id = MAN_council.2
 		icon = GFX_goal_FOREST_river_battle 
 		x = 3
 		y = 1
-		relative_position_id = MAN_womantaur.1
-		prerequisite = { focus = MAN_womantaur.1 }
+		relative_position_id = MAN_council.1
+		prerequisite = { focus = MAN_council.1 }
 		
 		available = {}		
 		bypass = {} 
@@ -697,12 +697,12 @@
 	}
 	
 	focus = { 
-		id = MAN_womantaur.3
+		id = MAN_council.3
 		icon = GFX_goal_FOREST_river_battle 
 		x = 0
 		y = 1
-		relative_position_id = MAN_womantaur.1
-		prerequisite = { focus = MAN_womantaur.1 }
+		relative_position_id = MAN_council.1
+		prerequisite = { focus = MAN_council.1 }
 		
 		available = {}		
 		bypass = {} 
@@ -722,12 +722,12 @@
 	}
 	
 	focus = { 
-		id = MAN_womantaur.4
+		id = MAN_council.4
 		icon = GFX_goal_FOREST_river_battle 
 		x = -3
 		y = 1
-		relative_position_id = MAN_womantaur.1
-		prerequisite = { focus = MAN_womantaur.1 }
+		relative_position_id = MAN_council.1
+		prerequisite = { focus = MAN_council.1 }
 		
 		available = {}		
 		bypass = {} 
@@ -747,14 +747,14 @@
 	}
 	
 	focus = { 
-		id = MAN_womantaur.5
+		id = MAN_council.5
 		icon = GFX_goal_FOREST_river_battle 
 		x = 0
 		y = 1
-		relative_position_id = MAN_womantaur.3
-		prerequisite = { focus = MAN_womantaur.2 }
-		prerequisite = { focus = MAN_womantaur.3 }
-		prerequisite = { focus = MAN_womantaur.4 }
+		relative_position_id = MAN_council.3
+		prerequisite = { focus = MAN_council.2 }
+		prerequisite = { focus = MAN_council.3 }
+		prerequisite = { focus = MAN_council.4 }
 		
 		available = {}		
 		bypass = {} 
@@ -774,14 +774,14 @@
 	}
 	
 	focus = { 
-		id = MAN_womantaur.6
+		id = MAN_council.6
 		icon = GFX_goal_FOREST_river_battle 
 		x = 0
 		y = 1
-		relative_position_id = MAN_womantaur.4
-		prerequisite = { focus = MAN_womantaur.2 }
-		prerequisite = { focus = MAN_womantaur.3 }
-		prerequisite = { focus = MAN_womantaur.4 }
+		relative_position_id = MAN_council.4
+		prerequisite = { focus = MAN_council.2 }
+		prerequisite = { focus = MAN_council.3 }
+		prerequisite = { focus = MAN_council.4 }
 		
 		available = {}		
 		bypass = {} 
@@ -801,13 +801,13 @@
 	}
 	
 	focus = { 
-		id = MAN_womantaur.7
+		id = MAN_council.7
 		icon = GFX_goal_FOREST_river_battle 
 		x = 0
 		y = 1
-		relative_position_id = MAN_womantaur.6
-		prerequisite = { focus = MAN_womantaur.5 }
-		prerequisite = { focus = MAN_womantaur.6 }
+		relative_position_id = MAN_council.6
+		prerequisite = { focus = MAN_council.5 }
+		prerequisite = { focus = MAN_council.6 }
 		
 		available = {}		
 		bypass = {} 
@@ -837,7 +837,7 @@
 		relative_position_id = MAN_prove_their_point
 		prerequisite = { focus = MAN_strong_order  focus = MAN_never_again }
 		mutually_exclusive = { focus = MAN_leaderaur.1 }
-		mutually_exclusive = { focus = MAN_womantaur.1 }
+		mutually_exclusive = { focus = MAN_council.1 }
 		
 		available = {}		
 		bypass = {} 
@@ -1015,15 +1015,14 @@
 	########################################################
 
 	focus = { 
-		id = MAN_affirmation
+		id = MAN_unicorn_again
 		icon = GFX_goal_FOREST_river_battle 
 		x = -2
 		y = 1
 		relative_position_id = MAN_chutzpar.7
 		prerequisite = { focus = MAN_leaderaur.7  focus = MAN_chutzpar.7 }
-		mutually_exclusive = { focus = MAN_tranquil }
 		
-		available = {}		
+		available = {is_neighbor_of = UNI}		
 		bypass = {} 
 		cost = 5
 		cancel_if_invalid = yes
@@ -1041,15 +1040,40 @@
 	}
 	
 	focus = { 
-		id = MAN_tranquil
+		id = MAN_bears_again
 		icon = GFX_goal_FOREST_river_battle 
 		x = 2
 		y = 1
 		relative_position_id = MAN_chutzpar.7
-		prerequisite = { focus = MAN_womantaur.7  focus = MAN_chutzpar.7 }
-		mutually_exclusive = { focus = MAN_affirmation }
+		prerequisite = { focus = MAN_council.7  focus = MAN_chutzpar.7 }
 		
-		available = {}		
+		available = {is_neighbor_of = UFC}		
+		bypass = {} 
+		cost = 5
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			#custom_effect_tooltip = "X.t"
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}	
+	}
+	
+	focus = { 
+		id = MAN_gnomes_again
+		icon = GFX_goal_FOREST_river_battle 
+		x = 0
+		y = 3
+		relative_position_id = MAN_chutzpar.7
+		prerequisite = { focus = MAN_unicorn_again } 
+		prerequisite = { focus = MAN_bears_again }
+		
+		available = {is_neighbor_of = GNM}		
 		bypass = {} 
 		cost = 5
 		cancel_if_invalid = yes

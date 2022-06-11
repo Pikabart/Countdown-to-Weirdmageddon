@@ -104,8 +104,8 @@ ideas = {
 			available = {}
 			cancel = {}
 			
+			targeted_modifier = { tag = UNI attack_bonus_against = 0.15 }
 			modifier = {	
-				offence = 0.15
 				offensive_war_stability_factor = 0.50
 				war_support_factor = 0.3
 				political_power_cost = -0.3
@@ -123,6 +123,105 @@ ideas = {
 			modifier = {	
 				consumer_goods_factor = -0.3
 			}
+		}
+		
+		##########################################
+		##########################################
+		##########################################
+		
+		UFC_betrayed_by_decadence = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+
+			modifier = {	
+				offensive_war_stability_factor = 0.60
+				political_power_cost = -0.3
+				political_power_gain = 0.3
+			}
+		}
+		
+		UFC_lifestyle_questioned = { 
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				surrender_limit = 0.15
+				drift_defence_factor = 0.3
+				defence = 0.05
+				neutrality_drift = -0.05
+				fascism_drift = 0.05 
+			} 
+		}
+		
+		######################################
+		
+		UFC_head_equal = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+
+			modifier = {	
+				stability_factor = 0.10
+				political_power_gain = 0.25
+			}
+		}
+		
+		UFC_each_head_own_need = { 
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				surrender_limit = 0.15
+				drift_defence_factor = 0.3
+				defence = 0.05
+				neutrality_drift = -0.05
+				communism_drift = 0.05
+			} 
+		}
+		
+		UFC_equal_forest = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				monthly_population = 0.10
+				army_morale = 5
+				army_org = 5
+			}
+		}
+		
+		UFC_bear_revolution_1 = {
+			picture = generic_research_bonus
+			
+			allowed = { }
+			available = {}
+			cancel = {}
+			
+			modifier = { communism_drift = 0.05 offence = 0.25  }
+		}
+		
+		UFC_bear_revolution_2 = {
+			picture = generic_research_bonus
+			
+			allowed = { }
+			available = {}
+			cancel = {}
+			
+			modifier = {  communism_drift = 0.05  defence = -0.25  }
 		}
 
 	}#############

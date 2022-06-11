@@ -818,23 +818,23 @@
 		available_if_capitulated = no
 
 		completion_reward = { 
-			UFC = { # Counter Attack
+			UFC = { # Hurt Unicrons
 				start_border_war = {
 					change_state_after_war = no
 					attacker = {
-						state = 46
+						state = 47
 						num_provinces = 3
 						on_win = FOREST_border_wars.4
 					}							
 					defender = {
-						state = 42
+						state = 522
 						num_provinces = 3
 					}
 				}
 				hidden_effect = {
 					set_border_war_data = {
-						attacker = 46
-						defender = 42
+						attacker = 47
+						defender = 522
 						attacker_modifier = 25
 						combat_width = 12
 					}
@@ -934,8 +934,19 @@
 				damage_building = { type = industrial_complex damage = 2}
 				damage_building = { type = bunker damage = 2}			
 			}
-			add_offsite_building = { type = arms_factory level = 3 }
-			add_offsite_building = { type = industrial_complex level = 3 }
+			add_resource = {
+				type = oil
+				amount = 16
+				state = 46
+			}
+			add_resource = {
+				type = Aluminium
+				amount = 16
+				state = 46
+			}
+			add_offsite_building = { type = arms_factory level = 2 }
+			add_offsite_building = { type = industrial_complex level = 2 }
+			46 = {add_building_construction = {  type = infrastructure level = 1 instant_build = yes }}
 		}
 		
 		ai_will_do = {
@@ -962,7 +973,11 @@
 		continue_if_invalid = no 
 		available_if_capitulated = no
 
-		completion_reward = { 	 
+		completion_reward = { 	
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = no
+			}
 			annex_country = { target = UNI transfer_troops = yes }
 			news_event = UFC_COUNCIL_NEWS.1 
 		}
@@ -1023,7 +1038,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { add_stability = -0.10 add_popularity = { ideology = fascism popularity = 0.10 } add_popularity = { ideology = communism popularity = 0.10 }}
 		
 		ai_will_do = {
 			factor = 400
@@ -1051,7 +1066,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { add_popularity = { ideology = fascism popularity = 0.30 } add_political_power = 100}
 		
 		ai_will_do = {
 			factor = 400
@@ -1076,7 +1091,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 	add_ideas = UFC_betrayed_by_decadence	}
 		
 		ai_will_do = {
 			factor = 400
@@ -1101,7 +1116,30 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = {  
+			UFC = { # Hurt Unicrons
+				start_border_war = {
+					change_state_after_war = no
+					attacker = {
+						state = 47
+						num_provinces = 3
+						on_win = FOREST_border_wars.5
+					}							
+					defender = {
+						state = 46
+						num_provinces = 3
+					}
+				}
+				hidden_effect = {
+					set_border_war_data = {
+						attacker = 47
+						defender = 46
+						attacker_modifier = 25
+						combat_width = 8
+					}
+				}
+			}
+		}
 		
 		ai_will_do = {
 			factor = 400
@@ -1126,7 +1164,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { add_ideas = UFC_lifestyle_questioned }
 		
 		ai_will_do = {
 			factor = 400
@@ -1152,8 +1190,15 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
-		
+		completion_reward = { 
+			add_equipment_to_stockpile = {
+				type = ind_infantry_equipment_1
+				amount = 500
+				producer = GEU
+			}  
+			add_offsite_building = { type = arms_factory level = 2 }
+			add_offsite_building = { type = industrial_complex level = 2 }
+		}
 		ai_will_do = {
 			factor = 400
 			#modifier = {}
@@ -1178,7 +1223,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { add_manpower = 10000 army_experience = 50 add_popularity = { ideology = fascism popularity = 0.15 } }
 		
 		ai_will_do = {
 			factor = 400
@@ -1204,7 +1249,13 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 
+			country_event = UFC_RAVANCHISM.1
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
+		}
 		
 		ai_will_do = {
 			factor = 400
@@ -1232,7 +1283,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { add_popularity = { ideology = communism popularity = 0.30 } add_political_power = 100}
 		
 		ai_will_do = {
 			factor = 400
@@ -1257,7 +1308,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { add_popularity = { ideology = communism popularity = 0.10 } add_stability = -0.10 add_political_power = 100}
 		
 		ai_will_do = {
 			factor = 400
@@ -1282,7 +1333,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { add_popularity = { ideology = communism popularity = 0.10 } add_popularity = { ideology = neutrality popularity = -0.10 }}
 		
 		ai_will_do = {
 			factor = 400
@@ -1307,7 +1358,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 	add_ideas = UFC_head_equal	}
 		
 		ai_will_do = {
 			factor = 400
@@ -1333,7 +1384,14 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 
+			country_event = UFC_REVOULTION.1
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+				long_name = UFC_revolutionary_party
+			} 
+		}
 		
 		ai_will_do = {
 			factor = 400
@@ -1358,7 +1416,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 	add_ideas = UFC_each_head_own_need	}
 		
 		ai_will_do = {
 			factor = 400
@@ -1384,7 +1442,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { add_ideas = UFC_equal_forest add_manpower = 10000}
 		
 		ai_will_do = {
 			factor = 400
@@ -1410,7 +1468,13 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 		}
+		completion_reward = { 
+			UFC = { add_timed_idea = {idea = UFC_bear_revolution_1 days = 360} }
+			MAN = { add_timed_idea = {idea = UFC_bear_revolution_2 days = 360} }
+			UNI = { add_timed_idea = {idea = UFC_bear_revolution_2 days = 360} }
+			GNM = { add_timed_idea = {idea = UFC_bear_revolution_2 days = 360} }
+		
+		}
 		
 		ai_will_do = {
 			factor = 400
@@ -1420,10 +1484,10 @@
 	}
 	
 	focus = { 
-		id = UFC_bear_defeat_final 
+		id = UFC_bear_defeat_final
 		icon = GFX_goal_FOREST_unicorn_manotaur 
 		x = 0
-		y = 6
+		y = 5
 		relative_position_id = UFC_no_sleep
 		prerequisite = { focus = UFC_bear_defeat_revanch.7 focus = UFC_bear_defeat_radical.7 focus = UFC_bear_defeat_radical.8  }
 		
@@ -1435,8 +1499,14 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
+		will_lead_to_war_with = UNI
+		will_lead_to_war_with = MAN
 
-		completion_reward = { 		}
+		completion_reward = { 
+			add_war_support = 0.25
+			create_wargoal = {  type = annex_everything target = UNI}
+			create_wargoal = {  type = annex_everything target = MAN}
+		}
 		
 		ai_will_do = {
 			factor = 400
@@ -1445,7 +1515,88 @@
 			
 	}
 
+	#################################################################
+	#################################################################
+	# Now, the Gnomes...
+	#################################################################
+	#################################################################
+	
+	focus = { 
+		id = UFC_manotaur_fate.1
+		icon = GFX_goal_FOREST_manotaur_victory 
+		x = 0
+		y = 6
+		relative_position_id = UFC_hibernate
+		prerequisite = { focus = UFC_bear_defeat_final focus = UFC_bear_victory_final.1 focus = UFC_bear_victory_final.2 }
+		
+		available = { }	
+		bypass = {} 
+		cost = 5
 
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_political_power = 100  
+			IF = { 
+				limit = {has_government = neutrality MAN = {has_government = neutrality} }   
+				country_event = UFC_MANO_FATE.2   
+			}
+			ELSE_IF = { 
+				limit = {has_government = neutrality MAN = {has_government = democratic} } 
+				country_event = UFC_MANO_FATE.2   
+			}
+			ELSE_IF = { 
+				limit = {has_government = democratic MAN = {has_government = neutrality} }   
+				country_event = UFC_MANO_FATE.2   
+			}
+			ELSE_IF = { 
+				limit = {has_government = democratic MAN = {has_government = democratic} } 
+				country_event = UFC_MANO_FATE.3   
+			}
+			ELSE = {
+				country_event = UFC_MANO_FATE.1  
+			}
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}
+	
+	focus = { 
+		id = UFC_gnomes_fate.1
+		icon = GFX_goal_FOREST_unicorn_alone 
+		x = 0
+		y = 2
+		relative_position_id = UFC_manotaur_fate.1
+		prerequisite = { focus = UFC_manotaur_fate.1 }
+		
+		available = { NOT = {country_exists = UNI}	}	
+		bypass = {} 
+		cost = 5
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = { 
+			add_political_power = 100 
+			IF = { limit = {has_government = fascism}  country_event = UFC_GNOME_FATE.1  }
+			ELSE_IF = { limit = {has_government = communism}  country_event = UFC_GNOME_FATE.2   }
+			ELSE_IF = { limit = {has_government = neutrality}  country_event = UFC_GNOME_FATE.3   }
+			ELSE = { country_event = UFC_GNOME_FATE.4 }
+		}
+		
+		ai_will_do = {
+			factor = 400
+			#modifier = {}
+		}
+			
+	}
 
 
 

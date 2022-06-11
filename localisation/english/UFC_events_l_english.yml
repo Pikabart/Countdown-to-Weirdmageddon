@@ -66,4 +66,48 @@
  UFC_BETRAYAL.1.t:0 "The Great Bear Heist"
  UFC_BETRAYAL.1.d:0 ""
  UFC_BETRAYAL.1.a:0 "Who Do They Think They Are?\nHumans?"
- UFC_BETRAYAL.1.at:0 "Steal The Unicorn's Treasuery, up to §Y¢100§! §7Cryptid Currency§!"
+ UFC_BETRAYAL.1.at:0 "Steal The Unicorn's Treasuery, up to §Y¢1000§! §7Cryptid Currency§!"
+ 
+ ##################
+ 
+ UFC_RAVANCHISM.1.t:0 "Single Head - Sole Leader"
+ UFC_RAVANCHISM.1.d:0 ""
+ UFC_RAVANCHISM.1.a:0 ""
+ 
+ ##################
+ 
+ UFC_REVOULTION.1.t:0 "Many Heads - More Power"
+ UFC_REVOULTION.1.d:0 ""
+ UFC_REVOULTION.1.a:0 ""
+ 
+ ##################
+ 
+ UFC_MANO_FATE.1.t:0 "We Will Have Our Vengence"
+ UFC_MANO_FATE.1.d:0 ""
+ UFC_MANO_FATE.1.a:0 ""
+ 
+ UFC_MANO_FATE.2.t:0 "A New Peace On The River Trembley"
+ UFC_MANO_FATE.2.d:0 ""
+ UFC_MANO_FATE.2.a:0 ""
+ 
+ UFC_MANO_FATE.3.t:0 "Settle Our Differences"
+ UFC_MANO_FATE.3.d:0 ""
+ UFC_MANO_FATE.3.a:0 "" 
+ 
+ ##################
+ 
+ UFC_GNOME_FATE.1.t:0 "The Grand Chief Returns Home"
+ UFC_GNOME_FATE.1.d:0 ""
+ UFC_GNOME_FATE.1.a:0 ""
+ 
+ UFC_GNOME_FATE.2.t:0 "We Never Needed A Queen"
+ UFC_GNOME_FATE.2.d:0 ""
+ UFC_GNOME_FATE.2.a:0 ""
+ 
+ UFC_GNOME_FATE.3.t:0 "The Real Power of the Woods"
+ UFC_GNOME_FATE.3.d:0 ""
+ UFC_GNOME_FATE.3.a:0 ""
+ 
+ UFC_GNOME_FATE.4.t:0 "The Will Of The Forest Critters!"
+ UFC_GNOME_FATE.4.d:0 ""
+ UFC_GNOME_FATE.4.a:0 ""

@@ -21,7 +21,13 @@
     
     cash_reserve_loc:0 "Our Current §7Cryptid Currency Reserve§! = §Y¢§![?ROOT.FOREST_crawl_cash|+0]"
     
-    cash_reserve_loc_tt:0 "This is our current cash reserve in the currency accepted at the §RCrawlspace§!.\n\nThis currency is backed by the full faith and combined wealth of the Crawlspace Merchant Guild and is secretly the third most popular currency of the Shadow Government, behind the §OCanadian Pound-Sterling§! and the §CEuropean Union Euro§!."
+    cash_reserve_loc_tt:0 "This is our current cash reserve in the currency accepted at the §RCrawlspace§!.\n\nThis currency is backed by the full faith and combined wealth of the Crawlspace Merchant Guild and is secretly the third most popular currency of the Shadow Government, behind the §OCanadian Pound-Sterling§! and the §CEuropean Union Euro Mark§!."
+    
+    ###
+    
+    crawl_favorite_count_loc:0 "Our Current Crawlspace §4Valued Customer Rewards§! Count = [?ROOT.FOREST_crawl_favorite|+0]"
+    
+    crawl_favorite_count_loc_tt:0 "This is our current §4Valued Customer Rewards§! level with the §RCrawlspace§!.\n\n When at §O50§!, we will become a "§OVIP-Level§!" customer and gain access Level 2 inventory, which includes useful and powerful items for sale.\n\nAt §C100§!, we will become a "§CExecutive-Level§!" customer and could then buy from their special and rare Level 3 Multiversal Inventory."
     
     ##
     
@@ -45,55 +51,55 @@
     
     FOREST_decision_common_1_a:0 "Lvl 1: Buy Medieval Range Weapons"
     FOREST_decision_common_1_a_desc:0 "We will buy some primative range weapons from the Crawlspace Market. Even includes a book on how to stand in a line and get shot!"
-    FOREST_decision_common_1_a_tt:0 "Require having more than §7¢50 Cryptid Currency§! and the market having more then §R250 units of weapons§! in their stockpile."
+    FOREST_decision_common_1_a_tt:0 "Require having at least §7¢50 Cryptid Currency§! and the market having at least §R250 units of weapons§! in their stockpile."
     
     FOREST_decision_common_1_b:0 "Lvl 1: Buy Support Supplies"
     FOREST_decision_common_1_b_desc:0 "Y"
-    FOREST_decision_common_1_b_tt:0 "Require having more than §7¢50 Cryptid Currency§! and the market having more then §Y250 units of supplies§! in their stockpile."
+    FOREST_decision_common_1_b_tt:0 "Require having at least §7¢50 Cryptid Currency§! and the market having at least §Y250 units of supplies§! in their stockpile."
     
     FOREST_decision_common_1_c:0 "Lvl 1: Contract Freelance Researchers"
     FOREST_decision_common_1_c_desc:0 "We'll hire Crawlspace Researchers to help in speeding up the development of our technology."
-    FOREST_decision_common_1_c_tt:0 "Require having more than §7¢50 Cryptid Currency§! and the market having more then §Y100 units of supplies§! in their stockpile."
+    FOREST_decision_common_1_c_tt:0 "Require having at least §7¢50 Cryptid Currency§! and the market having at least §Y100 units of supplies§! in their stockpile."
     
     FOREST_decision_common_1_d:0 "Lvl 1: Contract Market Workshops"
     FOREST_decision_common_1_d_desc:0 "We'll hire Crawlspace merchants to fufill our consumer's need, allowing us to put state resources elsewhere."
-    FOREST_decision_common_1_d_tt:0 "Require having more than §7¢50 Cryptid Currency§! and the market having more then §Y100 units of supplies§! in their stockpile."
+    FOREST_decision_common_1_d_tt:0 "Require having at least §7¢50 Cryptid Currency§! and the market having at least §Y100 units of supplies§! in their stockpile."
     
     ################
     
     FOREST_decision_common_2_a:0 "Lvl 2: Buy Industrial Weapons"
     FOREST_decision_common_2_a_desc:0 "We will buy some old World War weapons from the Crawlspace Market. Look at all those Mosins and Garands. Collectable and Pratical!"
-    FOREST_decision_common_2_a_tt:0 "Require having more than §7¢100 Cryptid Currency§! and the market having more then §R250 units of weapons§! in their stockpile."
+    FOREST_decision_common_2_a_tt:0 "For §OVIP-Level§! Customers.\nRequire having at least §7¢100 Cryptid Currency§! and the market having at least §R250 units of weapons§! in their stockpile."
     
     FOREST_decision_common_2_b:0 "Lvl 2: Buy Artillery Pieces"
     FOREST_decision_common_2_b_desc:0 "Someone in the Oregon National Guard is going to be in big trouble when they find their artillery pieces all missing..."
-    FOREST_decision_common_2_b_tt:0 "Require having more than §7¢100 Cryptid Currency§! and the market having more then §R250 units of weapons§! and §Y250 units of supplies§! in their stockpile."
+    FOREST_decision_common_2_b_tt:0 "For §OVIP-Level§! Customers.\nRequire having at least §7¢100 Cryptid Currency§! and the market having at least §R250 units of weapons§! and §Y250 units of supplies§! in their stockpile."
     
     FOREST_decision_common_2_c:0 "Lvl 2: Happy Gas"
     FOREST_decision_common_2_c_desc:0 "These cansisters of gas, when deployed upwind from our main population groups, will increace our people's happiness and stability."
-    FOREST_decision_common_2_c_tt:0 "Require having more than §7¢100 Cryptid Currency§! and the market having more then §Y100 units of supplies§! in their stockpile."
+    FOREST_decision_common_2_c_tt:0 "For §OVIP-Level§! Customers.\nRequire having at least §7¢100 Cryptid Currency§! and the market having at least §Y100 units of supplies§! in their stockpile."
     
     FOREST_decision_common_2_d:0 "Lvl 2: Patriots In The Water"
     FOREST_decision_common_2_d_desc:0 "Our outlets from the River Trembley will be laced with chemicals that will increase our people's aggression to our enemies. It also turns the frogs gay, which is perfect for Pride Month!"
-    FOREST_decision_common_2_d_tt:0 "Require having more than §7¢100 Cryptid Currency§! and the market having more then §Y100 units of supplies§! in their stockpile."
+    FOREST_decision_common_2_d_tt:0 "For §OVIP-Level§! Customers.\nRequire having at least §7¢100 Cryptid Currency§! and the market having at least §Y100 units of supplies§! in their stockpile."
     
     ################
     
     FOREST_decision_common_3_a:0 "Lvl 3: Mewman Magical Water Tap"
     FOREST_decision_common_3_a_desc:0 "For a limited time, we will get access to a special dimentional tap to the water of the Realm of Magic"
-    FOREST_decision_common_3_a_tt:0 "Require having more than §7¢200 Cryptid Currency§! and the market having more then §C10 units of resources§! in their stockpile."
+    FOREST_decision_common_3_a_tt:0 "For §CExecutive-Level§! Customers.\nRequire having at least §7¢200 Cryptid Currency§! and the market having at least §C10 units of resources§! in their stockpile."
     
     FOREST_decision_common_3_b:0 "Lvl 3: Scrap Frobots"
     FOREST_decision_common_3_b_desc:0 "These old robots from the Empire of Amphibia were from before they went into isolation a millennial ago. Useless as combat robots now, but they hold plenty of juicy tech for us to do some studying."
-    FOREST_decision_common_3_b_tt:0 "Require having more than §7¢200 Cryptid Currency§! and the market having more then §C10 units of resources§! in their stockpile."
+    FOREST_decision_common_3_b_tt:0 "For §CExecutive-Level§! Customers.\nRequire having at least §7¢200 Cryptid Currency§! and the market having at least §C10 units of resources§! in their stockpile."
     
     FOREST_decision_common_3_c:0 "Lvl 3: Coven Training Documents"
     FOREST_decision_common_3_c_desc:0 "Some pale witch with big hair, a fake sharp tooth and a "Over Thirty and Flirty" shirt sold these manuals to the merchants of the Crawlspace. She then robbed them blind. Trying to recoup their losses, the manuals are quite useful for Magic Special Forces."
-    FOREST_decision_common_3_c_tt:0 "Require having more than §7¢200 Cryptid Currency§! and the market having more then §C10 units of resources§! in their stockpile."
+    FOREST_decision_common_3_c_tt:0 "For §CExecutive-Level§! Customers.\nRequire having at least §7¢200 Cryptid Currency§! and the market having at least §C10 units of resources§! in their stockpile."
     
     FOREST_decision_common_3_d:0 "Lvl 3: Rick Ex Machina"
     FOREST_decision_common_3_d_desc:0 "We'll hire a Rick. Since we're on the other side of the Central Finite Curve, they can't stay long or their presence will risk starting another war with the Citadel of Soos."
-    FOREST_decision_common_3_d_tt:0 "Require having more than §7¢250 Cryptid Currency§! and the market having more then §C20 units of resources§! in their stockpile."
+    FOREST_decision_common_3_d_tt:0 "For §CExecutive-Level§! Customers.\nRequire having at least §7¢250 Cryptid Currency§! and the market having at least §C20 units of resources§! in their stockpile."
     
     ##############################################################################
     #Flags

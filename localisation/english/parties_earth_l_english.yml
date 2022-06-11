@@ -77,9 +77,10 @@
  GNM_fascism_candy_party:0 "The Candy Clique"
  GNM_neutrality_pacifica_party:0 "The Pacifica Company"
  
- UFC_fascism_party:0 "The Unicorn Mandate"
+ UFC_fascism_party:0 "Grand Forest Order"
  UFC_communism_party:0 "Anarchic Chaos"
- UFC_democratic_party:0 "Multi-Bear/Unicorn Coalition"
+ UFC_revolutionary_party:0 "The Forest COOP" 
+ UFC_democratic_party:0 "Forest Coalition"
  UFC_neutrality_party:0 "The Multi-Bear Mandate"
  
  MAN_fascism_party:0 "Leaderaur's Rule"

@@ -116,7 +116,7 @@
  UFC_bear_victory_unicorn.3_desc:0 ""
  UFC_bear_victory_unicorn.3.t:0 ""
  
- UFC_bear_victory_unicorn.4:0 "Wrestle Control Of The Upper Trembley"
+ UFC_bear_victory_unicorn.4:0 "Wrestle Control Of The Slopes"
  UFC_bear_victory_unicorn.4_desc:0 ""
  UFC_bear_victory_unicorn.4.t:0 ""
  
@@ -184,9 +184,9 @@
  UFC_bear_defeat_revanch.6_desc:0 ""
  UFC_bear_defeat_revanch.6.t:0 ""
  
- UFC_bear_defeat_revanch.7:0 "Our Singular Vendetta Aawaits"
+ UFC_bear_defeat_revanch.7:0 "Our Singular Vendetta Awaits"
  UFC_bear_defeat_revanch.7_desc:0 ""
- UFC_bear_defeat_revanch.7.t:0 ""
+ UFC_bear_defeat_revanch.7.t:0 "" 
  
  ###################
  
@@ -202,11 +202,11 @@
  UFC_bear_defeat_radical.3_desc:0 ""
  UFC_bear_defeat_radical.3.t:0 ""
  
- UFC_bear_defeat_radical.4:0 "Overthrow The Upper Head"
+ UFC_bear_defeat_radical.4:0 "All Heads Equal"
  UFC_bear_defeat_radical.4_desc:0 ""
  UFC_bear_defeat_radical.4.t:0 ""
  
- UFC_bear_defeat_radical.5:0 "All Heads Equal"
+ UFC_bear_defeat_radical.5:0 "Overthrow The Upper Head"
  UFC_bear_defeat_radical.5_desc:0 ""
  UFC_bear_defeat_radical.5.t:0 ""
  
@@ -222,8 +222,16 @@
  UFC_bear_defeat_radical.8_desc:0 ""
  UFC_bear_defeat_radical.8.t:0 ""
  
- UFC_bear_defeat_final:0 ""
+ UFC_bear_defeat_final:0 "Retake The Forest!"
  UFC_bear_defeat_final_desc:0 ""
  UFC_bear_defeat_final.t:0 ""
+
+ UFC_manotaur_fate.1:0 "What Makes One Manly?"
+ UFC_manotaur_fate.1_desc:0 ""
+ UFC_manotaur_fate.1.t:0 ""
+ 
+ UFC_gnomes_fate.1:0 "The Gnome Question"
+ UFC_gnomes_fate.1_desc:0 ""
+ UFC_gnomes_fate.1.t:0 ""
  
  ########################################################################
