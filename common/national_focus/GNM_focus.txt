@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = GNM_barren_spring
-		icon = a
+		icon = GFX_focus_generic_self_management
 		x = 10
 		y = 0
 		
@@ -44,7 +44,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_perfect_candidate
-		icon = a
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		x = 0
 		y = 1
 		relative_position_id = GNM_barren_spring 
@@ -74,7 +74,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_operation_summer_fantasy
-		icon = a
+		icon = GFX_focus_rom_royal_dictatorship
 		x = 0
 		y = 1
 		relative_position_id = GNM_perfect_candidate 
@@ -104,7 +104,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_operation_summer_fantasy_failure
-		icon = a
+		icon = GFX_focus_rom_abdicate
 		x = 0
 		y = 1
 		relative_position_id = GNM_operation_summer_fantasy 
@@ -138,7 +138,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_connect_to_internet
-		icon = a
+		icon = GFX_goal_generic_radar
 		x = 1
 		y = 1
 		relative_position_id = GNM_operation_summer_fantasy_failure 
@@ -168,7 +168,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_vr_queens
-		icon = a
+		icon = GFX_focus_POL_end_the_regency
 		x = 0
 		y = 1
 		relative_position_id = GNM_connect_to_internet 
@@ -199,7 +199,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_collective_fitness
-		icon = a
+		icon = GFX_focus_generic_little_entente
 		x = -1
 		y = 1
 		relative_position_id = GNM_operation_summer_fantasy_failure 
@@ -229,7 +229,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_alpha_philosophy
-		icon = a
+		icon = GFX_focus_smiling_buddha
 		x = 0
 		y = 1
 		relative_position_id = GNM_collective_fitness 
@@ -261,7 +261,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_suppress_the_blackpill
-		icon = a
+		icon = GFX_goal_generic_secret_weapon
 		x = 1
 		y = 1
 		relative_position_id = GNM_alpha_philosophy 
@@ -291,7 +291,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_operation_northern_dream
-		icon = a
+		icon = GFX_goal_generic_military_deal
 		x = -1
 		y = 1
 		relative_position_id = GNM_suppress_the_blackpill 
@@ -322,7 +322,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_queen_pacifica
-		icon = a
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 		x = 0
 		y = 1
 		relative_position_id = GNM_operation_northern_dream 
@@ -355,7 +355,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_the_local_market
-		icon = a
+		icon = GFX_goal_generic_positive_trade_relations
 		x = 0
 		y = 1
 		relative_position_id = GNM_queen_pacifica 
@@ -389,7 +389,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_local_currency
-		icon = a
+		icon = GFX_goal_generic_neutrality_focus
 		x = 0
 		y = 1
 		relative_position_id = GNM_the_local_market 
@@ -423,7 +423,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_reorg_into_company
-		icon = a
+		icon = GFX_focus_generic_industry_1
 		x = -2
 		y = 1
 		relative_position_id = GNM_queen_pacifica 
@@ -453,7 +453,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_make_profits
-		icon = a
+		icon = GFX_focus_generic_industry_2
 		x = 0
 		y = 1
 		relative_position_id = GNM_reorg_into_company 
@@ -486,7 +486,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_prioritize_the_company
-		icon = a
+		icon = GFX_focus_generic_industry_3
 		x = -1
 		y = 1
 		relative_position_id = GNM_make_profits 
@@ -520,7 +520,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_dominate_crawlspace
-		icon = a
+		icon = GFX_goal_generic_demand_territory
 		x = 1
 		y = 1
 		relative_position_id = GNM_make_profits 
@@ -560,7 +560,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_china_of_oregon
-		icon = a
+		icon = GFX_focus_chi_one_china_policy
 		x = 1
 		y = 1
 		relative_position_id = GNM_local_currency 
@@ -592,7 +592,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_shenzen_of_oregon
-		icon = a
+		icon = GFX_focus_spa_save_the_alcazar
 		x = 1
 		y = 1
 		relative_position_id = GNM_artificial_city 
@@ -623,7 +623,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_forest_monopoly
-		icon = a
+		icon = GFX_focus_generic_the_giant_wakes
 		x = -3
 		y = 1
 		relative_position_id = GNM_shenzen_of_oregon 
@@ -653,7 +653,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_attract_investors
-		icon = a
+		icon = GFX_focus_generic_diplomatic_treaty
 		x = 2
 		y = 1
 		relative_position_id = GNM_queen_pacifica 
@@ -712,7 +712,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_artificial_city
-		icon = a
+		icon = GFX_focus_generic_tank_production
 		x = 0
 		y = 1
 		relative_position_id = GNM_attract_investors 
@@ -771,7 +771,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_operation_everything_nice
-		icon = a
+		icon = GFX_goal_molotov_ribbentrop_pact
 		x = 1
 		y = 1
 		relative_position_id = GNM_suppress_the_blackpill 
@@ -802,7 +802,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_queen_chiu
-		icon = a
+		icon = GFX_focus_hun_elect_a_king
 		x = 0
 		y = 1
 		relative_position_id = GNM_operation_everything_nice 
@@ -835,7 +835,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_work_quotas
-		icon = a
+		icon = GFX_focus_generic_industry_1
 		x = -2
 		y = 1
 		relative_position_id = GNM_queen_chiu 
@@ -865,7 +865,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_996_standard_work
-		icon = a
+		icon = GFX_focus_generic_industry_2
 		x = 0
 		y = 1
 		relative_position_id = GNM_work_quotas 
@@ -899,7 +899,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_beasts_of_burden
-		icon = a
+		icon = GFX_goal_generic_CAS
 		x = -1
 		y = 1
 		relative_position_id = GNM_996_standard_work 
@@ -933,7 +933,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_hauling_cohesion
-		icon = a
+		icon = GFX_goal_generic_secret_weapon
 		x = 1
 		y = 1
 		relative_position_id = GNM_996_standard_work 
@@ -968,7 +968,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_enforcing_discipline
-		icon = a
+		icon = GFX_focus_generic_air_defense
 		x = 0
 		y = 1
 		relative_position_id = GNM_queen_chiu 
@@ -998,7 +998,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_standing_army
-		icon = a
+		icon = GFX_focus_generic_military_mission
 		x = 0
 		y = 1
 		relative_position_id = GNM_enforcing_discipline 
@@ -1031,7 +1031,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_prussia_of_oregon
-		icon = a
+		icon = GFX_focus_ger_revive_kaiserreich
 		x = 1
 		y = 1
 		relative_position_id = GNM_standing_army
@@ -1066,7 +1066,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_industrialize_the_forest
-		icon = a
+		icon = GFX_goal_generic_production
 		x = 2
 		y = 1
 		relative_position_id = GNM_queen_chiu 
@@ -1125,7 +1125,7 @@ focus_tree = {
 
 	focus = {
 		id = GNM_pave_over_the_forest
-		icon = a
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 0
 		y = 1
 		relative_position_id = GNM_industrialize_the_forest 
@@ -1184,7 +1184,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_pittsburgh_of_oregon
-		icon = a
+		icon = GFX_focus_usa_guarantee_the_american_dream
 		x = 1
 		y = 1
 		relative_position_id = GNM_pave_over_the_forest 
@@ -1217,7 +1217,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_blood_iron_mint
-		icon = a
+		icon = GFX_focus_ger_oppose_hitler
 		x = 1
 		y = 1
 		relative_position_id = GNM_hauling_cohesion
@@ -1248,7 +1248,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_isolationism
-		icon = a
+		icon = GFX_goal_generic_political_pressure
 		x = -1
 		y = 1
 		relative_position_id = GNM_forest_monopoly
@@ -1280,7 +1280,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_ensure_stability
-		icon = a
+		icon = GFX_focus_generic_military_academy
 		x = -1
 		y = 1
 		relative_position_id = GNM_isolationism
@@ -1310,7 +1310,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_civilian_factories
-		icon = a
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = GNM_ensure_stability
@@ -1369,7 +1369,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_ensure_stability_2
-		icon = a
+		icon = GFX_goal_generic_national_unity
 		x = 1
 		y = 2
 		relative_position_id = GNM_civilian_factories
@@ -1400,7 +1400,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_industrial_advancement
-		icon = a
+		icon = GFX_goal_generic_air_production
 		x = 1
 		y = 2
 		relative_position_id = GNM_forest_monopoly
@@ -1435,7 +1435,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_industry_tech
-		icon = a
+		icon = GFX_goal_generic_production
 		x = -1
 		y = 1
 		relative_position_id = GNM_industrial_advancement
@@ -1470,7 +1470,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_infrastructure
-		icon = a
+		icon = GFX_goal_generic_construct_infrastructure
 		x = 0
 		y = 1
 		relative_position_id = GNM_industry_tech
@@ -1529,7 +1529,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_the_path_to_war
-		icon = a
+		icon = GFX_focus_generic_strike_at_democracy1
 		x = 3
 		y = 1
 		relative_position_id = GNM_forest_monopoly
@@ -1561,7 +1561,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_weapons_tech
-		icon = a
+		icon = GFX_focus_generic_combined_arms
 		x = 1
 		y = 1
 		relative_position_id = GNM_the_path_to_war
@@ -1595,7 +1595,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_army_xp
-		icon = a
+		icon = GFX_goal_generic_allies_build_infantry
 		x = 0
 		y = 1
 		relative_position_id = GNM_weapons_tech
@@ -1625,7 +1625,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_dominate_skies
-		icon = a
+		icon = GFX_focus_generic_aircraft_production
 		x = -1
 		y = 2
 		relative_position_id = GNM_the_path_to_war
@@ -1660,7 +1660,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_air_xp
-		icon = a
+		icon = GFX_goal_generic_build_airforce
 		x = 0
 		y = 1
 		relative_position_id = GNM_dominate_skies
@@ -1690,7 +1690,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_strike_at_UNI
-		icon = a
+		icon = GFX_goal_generic_major_war
 		x = 1
 		y = 1
 		relative_position_id = GNM_air_xp
@@ -1726,7 +1726,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_prepare_to_strike_north
-		icon = a
+		icon = GFX_goal_generic_position_armies
 		x = -1
 		y = 1
 		relative_position_id = GNM_air_xp
@@ -1805,7 +1805,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_strike_at_manos
-		icon = a
+		icon = GFX_goal_generic_major_war
 		x = 1
 		y = 1
 		relative_position_id = GNM_prepare_to_strike_north
@@ -1840,7 +1840,7 @@ focus_tree = {
 
 	focus = {
 		id = GNM_strike_at_bears
-		icon = a
+		icon = GFX_goal_generic_major_war
 		x = -1
 		y = 1
 		relative_position_id = GNM_prepare_to_strike_north
@@ -1875,7 +1875,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_strike_at_gravity_falls
-		icon = a
+		icon = GFX_goal_generic_major_war
 		x = -1
 		y = 1
 		relative_position_id = GNM_strike_at_manos
