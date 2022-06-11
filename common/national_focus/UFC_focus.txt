@@ -412,7 +412,7 @@
 
 	focus = { 
 		id = UFC_hibernate
-		icon = GFX_goal_FOREST_river 
+		icon = GFX_goal_generic_wolf_pack
 		x = 0
 		y = 4
 		relative_position_id = MAN_war.2
@@ -444,7 +444,7 @@
 
 	focus = { 
 		id = UFC_the_new_peace
-		icon = GFX_goal_FOREST_bear_victory 
+		icon = GFX_focus_generic_the_giant_wakes
 		x = -3
 		y = 2
 		relative_position_id = UFC_bear_victory
@@ -475,7 +475,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_council.1
-		icon = GFX_goal_FOREST_unicorn_bear 
+		icon = GFX_focus_generic_support_the_left_right
 		x = -3
 		y = 1
 		relative_position_id = UFC_the_new_peace
@@ -502,7 +502,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_council.2
-		icon = GFX_goal_FOREST_unicorn_bear 
+		icon = GFX_goal_support_democracy 
 		x = 0
 		y = 1
 		relative_position_id = UFC_bear_victory_council.1
@@ -532,7 +532,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_council.3
-		icon = GFX_goal_FOREST_unicorn_bear 
+		icon = GFX_goal_generic_political_pressure 
 		x = 0
 		y = 1
 		relative_position_id = UFC_bear_victory_council.2
@@ -559,7 +559,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_council.4
-		icon = GFX_goal_FOREST_unicorn_bear 
+		icon = GFX_focus_research
 		x = 0
 		y = 1
 		relative_position_id = UFC_bear_victory_council.3
@@ -581,7 +581,7 @@
 
 	focus = { 
 		id = UFC_bear_victory_council.5
-		icon = GFX_goal_FOREST_unicorn_bear 
+		icon = GFX_goal_generic_military_deal
 		x = 2
 		y = 1
 		relative_position_id = UFC_bear_victory_council.1
@@ -609,7 +609,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_council.6
-		icon = GFX_goal_FOREST_unicorn_bear 
+		icon = GFX_focus_generic_treaty
 		x = 0
 		y = 1
 		relative_position_id = UFC_bear_victory_council.5
@@ -633,7 +633,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_council.7
-		icon = GFX_goal_FOREST_unicorn_bear 
+		icon = GFX_goal_generic_forceful_treaty
 		x = 0
 		y = 1
 		relative_position_id = UFC_bear_victory_council.6
@@ -658,7 +658,7 @@
 ##########################################################################
 
 	focus = { 
-		id = UFC_bear_victory_wooden_wall.1
+		id = UFC_bear_victory_wooden_wall.1 
 		icon = GFX_goal_FOREST_unicorn_manotaur 
 		x = 0
 		y = 2
@@ -683,7 +683,7 @@
 	}
 	
 	focus = { 
-		id = UFC_bear_victory_wooden_wall.2
+		id = UFC_bear_victory_wooden_wall.2 
 		icon = GFX_goal_FOREST_unicorn_bear 
 		x = 0
 		y = 1
@@ -705,7 +705,7 @@
 	}
 	
 	focus = { 
-		id = UFC_bear_victory_wooden_wall.3
+		id = UFC_bear_victory_wooden_wall.3 
 		icon = GFX_goal_FOREST_unicorn_bear 
 		x = 0 
 		y = 1
@@ -730,7 +730,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_unicorn.1
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_focus_generic_diplomatic_treaty
 		x = 3
 		y = 1
 		relative_position_id = UFC_the_new_peace
@@ -756,7 +756,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_unicorn.2
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_goal_generic_neutrality_focus
 		x = 0
 		y = 1
 		relative_position_id = UFC_bear_victory_unicorn.1
@@ -780,7 +780,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_unicorn.3
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_goal_generic_construct_civ_factory
 		x = 0
 		y = 1
 		relative_position_id = UFC_bear_victory_unicorn.2
@@ -805,7 +805,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_unicorn.4
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_goal_generic_major_war 
 		x = 0
 		y = 1
 		relative_position_id = UFC_bear_victory_unicorn.3
@@ -850,7 +850,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_unicorn.5
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_goal_generic_more_territorial_claims 
 		x = -2
 		y = 1
 		relative_position_id = UFC_bear_victory_unicorn.1
@@ -874,7 +874,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_unicorn.6
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_focus_generic_military_academy 
 		x = 0
 		y = 1
 		relative_position_id = UFC_bear_victory_unicorn.5
@@ -911,7 +911,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_unicorn.7
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_goal_generic_military_sphere 
 		x = 0
 		y = 1
 		relative_position_id = UFC_bear_victory_unicorn.6
@@ -960,7 +960,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_final.1
-		icon = GFX_goal_FOREST_unicorn_bear 
+		icon = GFX_goal_generic_military_deal 
 		x = -2
 		y = 1
 		relative_position_id = UFC_bear_victory_wooden_wall.3
@@ -990,7 +990,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_final.2
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_goal_generic_major_war 
 		x = 2 
 		y = 1
 		relative_position_id = UFC_bear_victory_wooden_wall.3
@@ -1020,7 +1020,7 @@
 
 	focus = { 
 		id = UFC_no_sleep
-		icon = GFX_goal_FOREST_manotaur_victory 
+		icon = GFX_focus_generic_strike_at_democracy2 
 		x = 3
 		y = 2
 		relative_position_id = UFC_manotaur_victory
@@ -1051,7 +1051,7 @@
 
 	focus = { 
 		id = UFC_bear_defeat_revanch.1
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_focus_generic_strike_at_democracy1 
 		x = -3
 		y = 1
 		relative_position_id = UFC_no_sleep
@@ -1077,7 +1077,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_revanch.2
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_goal_generic_political_pressure 
 		x = -2
 		y = 1
 		relative_position_id = UFC_bear_defeat_revanch.1
@@ -1102,7 +1102,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_revanch.3
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_goal_generic_occupy_states_ongoing_war 
 		x = 0
 		y = 1
 		relative_position_id = UFC_bear_defeat_revanch.1
@@ -1150,7 +1150,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_revanch.4
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_focus_ger_oppose_hitler 
 		x = 2
 		y = 1
 		relative_position_id = UFC_bear_defeat_revanch.1
@@ -1175,7 +1175,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_revanch.5
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_goal_generic_construct_mil_factory 
 		x = -1
 		y = 1
 		relative_position_id = UFC_bear_defeat_revanch.3
@@ -1208,7 +1208,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_revanch.6
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_focus_generic_military_mission 
 		x = 1
 		y = 1
 		relative_position_id = UFC_bear_defeat_revanch.3
@@ -1234,7 +1234,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_revanch.7
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_goal_support_fascism 
 		x = 0
 		y = 2
 		relative_position_id = UFC_bear_defeat_revanch.3
@@ -1268,7 +1268,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_radical.1 
-		icon = GFX_goal_FOREST_unicorn_alone 
+		icon = GFX_focus_generic_join_comintern 
 		x = 3
 		y = 1
 		relative_position_id = UFC_no_sleep
@@ -1294,7 +1294,7 @@
 
 	focus = { 
 		id = UFC_bear_defeat_radical.2
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_focus_generic_soviet_politics 
 		x = -1
 		y = 1
 		relative_position_id = UFC_bear_defeat_radical.1
@@ -1319,7 +1319,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_radical.3
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_goal_generic_war_with_comintern 
 		x = 1
 		y = 1
 		relative_position_id = UFC_bear_defeat_radical.1
@@ -1344,7 +1344,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_radical.4
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_focus_generic_self_management 
 		x = -2
 		y = 2
 		relative_position_id = UFC_bear_defeat_radical.1
@@ -1369,7 +1369,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_radical.5
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_goal_support_communism 
 		x = 0
 		y = 2
 		relative_position_id = UFC_bear_defeat_radical.1
@@ -1402,7 +1402,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_radical.6
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_focus_prc_agrarian_socialism 
 		x = 2
 		y = 2
 		relative_position_id = UFC_bear_defeat_radical.1
@@ -1427,7 +1427,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_radical.7
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_focus_SOV_mobilization_plan 
 		x = -1
 		y = 1
 		relative_position_id = UFC_bear_defeat_radical.5
@@ -1453,7 +1453,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_radical.8
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_focus_ger_great_red_menace 
 		x = 1
 		y = 1
 		relative_position_id = UFC_bear_defeat_radical.5
@@ -1485,7 +1485,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_final
-		icon = GFX_goal_FOREST_unicorn_manotaur 
+		icon = GFX_focus_hol_legacy_of_the_de_zeven_provincien_mutiny 
 		x = 0
 		y = 5
 		relative_position_id = UFC_no_sleep
@@ -1517,13 +1517,13 @@
 
 	#################################################################
 	#################################################################
-	# Now, the Gnomes...
+	# Now, the Gnomes... 
 	#################################################################
 	#################################################################
 	
 	focus = { 
 		id = UFC_manotaur_fate.1
-		icon = GFX_goal_FOREST_manotaur_victory 
+		icon = GFX_focus_generic_military_mission 
 		x = 0
 		y = 6
 		relative_position_id = UFC_hibernate
@@ -1569,7 +1569,7 @@
 	
 	focus = { 
 		id = UFC_gnomes_fate.1
-		icon = GFX_goal_FOREST_unicorn_alone 
+		icon = GFX_focus_generic_strike_at_democracy2 
 		x = 0
 		y = 2
 		relative_position_id = UFC_manotaur_fate.1
@@ -1597,6 +1597,4 @@
 		}
 			
 	}
-
-
 
