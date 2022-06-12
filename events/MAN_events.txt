@@ -1,0 +1,114 @@
+﻿add_namespace = MAN_START_EVENT
+add_namespace = MAN_MANWAR 
+add_namespace = MAN_LEADERAUR_EVENT
+
+
+country_event = {
+	id = MAN_START_EVENT.1
+	title = MAN_START_EVENT.1.t
+	desc = MAN_START_EVENT.1.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MAN_START_EVENT.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+############################################
+
+country_event = { # Womantaur's approval
+	id = MAN_MANWAR.1
+	title = MAN_MANWAR.1.t
+	desc = MAN_MANWAR.1.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MAN_MANWAR.1.a
+		add_command_power = 100
+		add_war_support = 0.2
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # Hand Witch Alliance
+	id = MAN_MANWAR.2
+	title = MAN_MANWAR.2.t
+	desc = MAN_MANWAR.2.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MAN_MANWAR.2.a
+		add_equipment_to_stockpile = {
+			type = ind_infantry_equipment_2
+			amount = 1000
+			producer = CRL
+		}
+		add_equipment_to_stockpile = {
+			type = support_equipment
+			amount = 1000
+			producer = CRL
+		}
+		ai_chance = { factor = 100 }
+	}
+}
+
+############################################
+
+country_event = { # Refugge Crisis
+	id = MAN_LEADERAUR_EVENT.1
+	title = MAN_LEADERAUR_EVENT.1.t
+	desc = MAN_LEADERAUR_EVENT.1.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = MAN_LEADERAUR_EVENT.1.a
+		add_stability = -0.10
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # The Great Duel
+	id = MAN_LEADERAUR_EVENT.2
+	title = MAN_LEADERAUR_EVENT.2.t
+	desc = MAN_LEADERAUR_EVENT.2.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MAN_LEADERAUR_EVENT.2.a
+		set_politics = {
+				ruling_party = democratic
+				elections_allowed = no
+		}
+		add_popularity = { ideology = democratic popularity = 0.30 }
+		add_stability = 0.10
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # Bro-Taur Meet
+	id = MAN_LEADERAUR_EVENT.3
+	title = MAN_LEADERAUR_EVENT.3.t
+	desc = MAN_LEADERAUR_EVENT.3.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = MAN_LEADERAUR_EVENT.3.a
+		add_command_power
+		add_political_power = 100
+		add_popularity = { ideology = neutrality popularity = 0.10 }
+		ai_chance = { factor = 100 }
+	}
+}

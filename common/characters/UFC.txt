@@ -76,7 +76,9 @@ characters = {###########################################################
 			desc = ""
 			traits = {  }
 			skill = 2
-
+			visible = {
+				always = false
+			}
 			attack_skill = 3
 			defense_skill = 2		
 			planning_skill = 2
@@ -89,7 +91,7 @@ characters = {###########################################################
 		
 		portraits = {
 			civilian = {
-				large = ""
+				large = "GFX_leaders_chief_gnome"
 			}
 		}
 		country_leader = {
@@ -301,7 +303,7 @@ characters = {###########################################################
 			}
 		}
 		
-		advisor = {
+		advisor = { 
 			slot = political_advisor
 			
 			available = {

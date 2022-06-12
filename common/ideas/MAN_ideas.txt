@@ -4,7 +4,7 @@ ideas = {
 		MAN_flexing = {
 			picture = generic_research_bonus
 			
-			allowed = { original_tag = UFC }
+			allowed = {  }
 			available = {}
 			cancel = {}
 			
@@ -18,7 +18,7 @@ ideas = {
 		MAN_handy = {
 			picture = generic_research_bonus
 			
-			allowed = { original_tag = UFC }
+			allowed = {  }
 			available = {}
 			cancel = {}
 			
@@ -28,10 +28,12 @@ ideas = {
 			}
 		}
 		
+		################################
+		
 		MAN_dont_bother_us = {
 			picture = generic_research_bonus
 			
-			allowed = { original_tag = UFC }
+			allowed = {  }
 			available = {}
 			cancel = {}
 			
@@ -39,7 +41,120 @@ ideas = {
 				defence = 0.40	
 			}
 		}
-	}
+		
+		################################
+		################################
+		
+		MAN_the_manly_way = {
+			picture = generic_research_bonus
+			
+			allowed = {  }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				experience_gain_army = 0.01
+				weekly_manpower = 100 
+			}
+		}
+		MAN_purge_weak = {
+			picture = generic_research_bonus
+			
+			allowed = {  }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				max_command_power_mult = 0.15 
+				conscription_factor = -0.1
+			}
+		}
+		MAN_weak_refugee = {
+			picture = generic_research_bonus
+			
+			allowed = { original_tag = UFC }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				stability_factor = -0.15
+				monthly_population = 0.05
+			}
+		}
+		MAN_hormonal_economy = {
+			picture = generic_research_bonus
+			
+			allowed = {  }
+			available = {}
+			cancel = {}
+			on_remove = { add_ideas = MAN_pec_economy}
+			modifier = {	
+				consumer_goods_factor = 0.1
+				global_building_slots_factor = 0.3
+				base_fuel_gain_factor = 0.2
+				fuel_cost = 100
+			}
+		}
+		MAN_pec_economy = {
+			picture = generic_research_bonus
+			
+			allowed = {  }
+			available = {}
+			cancel = {} 
+			
+			modifier = {	
+				consumer_goods_factor = -0.1
+				global_building_slots_factor = 0.3
+				base_fuel_gain_factor = 0.2
+				industry_repair_factor = 0.1
+			}
+		}
+		
+		################################
+		
+		MAN_the_steady_hands = {
+			picture = generic_research_bonus
+			
+			allowed = {  }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				offensive_war_stability_factor = 0.2
+				stability_factor = 0.2
+			}
+		}
+		
+		MAN_expand_manliness = {
+			picture = generic_research_bonus
+			
+			allowed = {  }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				monthly_population = 0.05
+				recruitable_population_factor = 0.05
+			}
+		}
+		################################
+		
+		MAN_unhappy_warriors = {
+			picture = generic_research_bonus
+			
+			allowed = {  }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				offence = -0.2
+				defence = -0.2
+				political_power_gain = 0.3
+			}
+		}
+		
+		
+	}##########
 
 
 

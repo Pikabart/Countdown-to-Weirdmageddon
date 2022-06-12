@@ -7,7 +7,7 @@
  #UFC_start.1_desc:0 ""
  #UFC_start.1.t:0 ""
  
- #:0 ""
+ #:0 "" 
  #_desc:0 ""
  #.t:0 ""
 
@@ -19,9 +19,9 @@
  MAN_flex_support_desc:0 ""
  MAN_flex_support.t:0 ""
  
- MAN_womantaur_support:0 "Ensure Womantaur's Approval"
- MAN_womantaur_support_desc:0 ""
- MAN_womantaur_support.t:0 ""
+ MAN_council_support:0 "Ensure *HER* Approval"
+ MAN_council_support_desc:0 ""
+ MAN_council_support.t:0 ""
  
  MAN_handwitch_alliance:0 "Handy Alliance"
  MAN_handwitch_alliance_desc:0 ""
@@ -29,11 +29,11 @@
  
  MAN_keep_pushing:0 "Keep Pushing Up The Hill"
  MAN_keep_pushing_desc:0 ""
- MAN_keep_pushing.t:0 ""
+ MAN_keep_pushing.t:0 "§YIf we have not yet taken Central Crossing, we will redouble our efforts. If we failed to take Central Crossing, we will launch another raid to take it from the lame Multi-Bears!§!"
  
  MAN_protect_painhole:0 "Protect The Pain Hole"
  MAN_protect_painhole_desc:0 ""
- MAN_protect_painhole.t:0 ""
+ MAN_protect_painhole.t:0 "§YIf we are still battling to hold Trembley's Snakes, we'll redouble our efforts. If we had been driven back, we will launch an attack from the Pain Hole to take back our side of the River Trembley! If we already won, we'll launch an attack on their Southern Snake Shore!§!\n§RIf our second attack fails however, the bears will counterattack in turn!§!"
  
  MAN_crush_sissies:0 "Crush The Sissy Multi-Bears"
  MAN_crush_sissies_desc:0 ""
@@ -65,20 +65,116 @@
  
  MAN_strong_order:0 "Only The Strong Can Bring Order"
  MAN_strong_order_desc:0 ""
- MAN_strong_order.t:0 ""
- 
- 
- 
- ########################################################################
+ MAN_strong_order.t:0 "§ROnly the most manly of us can rule! Is our leader even really in question?§!"
  
  MAN_emasculating_defeat:0 "An Emasculating Defeat"
  MAN_emasculating_defeat_desc:0 ""
  MAN_emasculating_defeat.t:0 ""
  
- MAN_never_again:0 "No One Out-Mans The Manotaurs!"
+ MAN_never_again:0 "An Emasculating Leader"
  MAN_never_again_desc:0 ""
  MAN_never_again.t:0 ""
  
+ ########################################################################
  
+ MAN_leaderaur.1:0 "The Leader In Leaderaur"
+ MAN_leaderaur.1_desc:0 ""
+ MAN_leaderaur.1.t:0 "§OThe Ulitimate Male Specimen§!"
+ 
+ MAN_leaderaur.2:0 "Show The Worthy The Manly Way"
+ MAN_leaderaur.2_desc:0 ""
+ MAN_leaderaur.2.t:0 ""
+ 
+ MAN_leaderaur.3:0 "Purge The Weak From The Land"
+ MAN_leaderaur.3_desc:0 ""
+ MAN_leaderaur.3.t:0 ""
+ 
+ MAN_leaderaur.4:0 "Masculaine Economics"
+ MAN_leaderaur.4_desc:0 ""
+ MAN_leaderaur.4.t:0 "Our manly economic reforms shall prove expensive, thats for sure (subtract §Y¢200§! §7Cryptid Currency§!)"
+ 
+ MAN_leaderaur.5:0 "Affirm The Pec-ing Order"
+ MAN_leaderaur.5_desc:0 ""
+ MAN_leaderaur.5.t:0 ""
+ 
+ MAN_leaderaur.6:0 "Pinnacle Manliness"
+ MAN_leaderaur.6_desc:0 ""
+ MAN_leaderaur.6.t:0 ""
+ 
+ MAN_leaderaur.7:0 "A King Among Manotaurs"
+ MAN_leaderaur.7_desc:0 ""
+ MAN_leaderaur.7.t:0 ""
  
  ########################################################################
+ 
+ MAN_chutzpar.1:0 "We Need A New Leader!"
+ MAN_chutzpar.1_desc:0 ""
+ MAN_chutzpar.1.t:0 "§CWe need a new leader. One to restore our pride and masculinity.§!"
+ 
+ MAN_chutzpar.2:0 "End The Toxicity"
+ MAN_chutzpar.2_desc:0 ""
+ MAN_chutzpar.2.t:0 ""
+ 
+ MAN_chutzpar.3:0 "No Gods Or Kings, Just Manotaur"
+ MAN_chutzpar.3_desc:0 ""
+ MAN_chutzpar.3.t:0 ""
+ 
+ MAN_chutzpar.4:0 "Expanding The Definition Of Manliness"
+ MAN_chutzpar.4_desc:0 ""
+ MAN_chutzpar.4.t:0 ""
+ 
+ MAN_chutzpar.5:0 "Steady, Muscular Hands"
+ MAN_chutzpar.5_desc:0 ""
+ MAN_chutzpar.5.t:0 ""
+ 
+ MAN_chutzpar.6:0 "Manly Job Occupation"
+ MAN_chutzpar.6_desc:0 ""
+ MAN_chutzpar.6.t:0 "To encourge our economic reforms, the §YCrawlspace§! shall give us a grant of §Y¢200§! §7Cryptid Currency§!"
+ 
+ MAN_chutzpar.7:0 "The Great Duel"
+ MAN_chutzpar.7_desc:0 ""
+ MAN_chutzpar.7.t:0 "§CWhat Makes A Man?§!"
+ 
+ ########################################################################
+ 
+ MAN_council.1:0 "Doubt Among The Manos"
+ MAN_council.1_desc:0 ""
+ MAN_council.1.t:0 "§RHis Failure Questions All Our Manliness!§!"
+ 
+ MAN_council.2:0 "Our Warriors Speak Out"
+ MAN_council.2_desc:0 ""
+ MAN_council.2.t:0 ""
+ 
+ MAN_council.3:0 "The Bro-Taurs Meet"
+ MAN_council.3_desc:0 ""
+ MAN_council.3.t:0 ""
+ 
+ MAN_council.4:0 "Does He Look Old?"
+ MAN_council.4_desc:0 ""
+ MAN_council.4.t:0 ""
+ 
+ MAN_council.5:0 "End Leaderaur's Favor"
+ MAN_council.5_desc:0 ""
+ MAN_council.5.t:0 ""
+ 
+ MAN_council.6:0 "Manotaurs Strong Together"
+ MAN_council.6_desc:0 ""
+ MAN_council.6.t:0 ""
+ 
+ MAN_council.7:0 "Thirteen Angry Manotaurs"
+ MAN_council.7_desc:0 ""
+ MAN_council.7.t:0 "No single manotaur is §Rmanly enough to lead!§!"
+ 
+ ########################################################################
+ 
+ MAN_unicorn_again:0 "End Those Prancy Unicorns"
+ MAN_unicorn_again_desc:0 ""
+ MAN_unicorn_again.t:0 ""
+ 
+ MAN_bears_again:0 "And What Of The Multi-Bears?"
+ MAN_bears_again_desc:0 ""
+ MAN_bears_again.t:0 ""
+ 
+ MAN_gnomes_again:0 "Remind The Gnomes Who Rules Now..."
+ MAN_gnomes_again_desc:0 ""
+ MAN_gnomes_again.t:0 ""

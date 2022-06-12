@@ -21,8 +21,8 @@ set_politics = {
 set_popularities = {
 	democratic = 10
 	communism = 5
-	fascism = 80
-	neutrality = 5
+	fascism = 55
+	neutrality = 30
 }
 
 recruit_character = MAN_leaderaur
@@ -32,6 +32,8 @@ recruit_character = MAN_chutzpar
 recruit_character = MAN_pituitar
 recruit_character = MAN_beardy
 recruit_character = MAN_pubetor
+recruit_character = MAN_handwitch
+recruit_character = MAN_council
 recruit_character = MAN_political_advisor
 recruit_character = MAN_editor
 recruit_character = MAN_financial_expert

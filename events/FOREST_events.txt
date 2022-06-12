@@ -6,7 +6,7 @@ add_namespace = FOREST_anarchy
 add_namespace = FOREST_balance
 
 country_event = { # Trigger Starting Man War Border War
-	id = FOREST_border_wars.1
+	id = FOREST_border_wars.1 
 	title = FOREST_border_wars.1.t
 	desc = FOREST_border_wars.1.d
 	picture = GFX_report_event_empty
@@ -82,7 +82,7 @@ country_event = { # If Bear counter attack wins
 	}
 	option = { ai_chance = { factor = 100 } }
 }
-country_event = { # 
+country_event = { # Bear defends Crossing
 	id = FOREST_border_wars.3
 	title = FOREST_border_wars.3.t
 	desc = FOREST_border_wars.3.d
@@ -109,7 +109,7 @@ country_event = { # Border Slopes Border war win
 	}
 	option = { ai_chance = { factor = 100 } }
 }
-country_event = { # Border Slopes Border war win
+country_event = { # Retake Crossing Border war win
 	id = FOREST_border_wars.5
 	title = FOREST_border_wars.5.t
 	desc = FOREST_border_wars.5.d
@@ -119,6 +119,19 @@ country_event = { # Border Slopes Border war win
 	
 	immediate = {
 		UFC = {transfer_state = 46	}
+	}
+	option = { ai_chance = { factor = 100 } }
+}
+country_event = { # MANOTAURs, Retake Crossing 2nd Border war win
+	id = FOREST_border_wars.6
+	title = FOREST_border_wars.6.t
+	desc = FOREST_border_wars.6.d
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes hidden = yes
+	
+	immediate = {
+		MAN = {transfer_state = 46	}
 	}
 	option = { ai_chance = { factor = 100 } }
 }
@@ -142,7 +155,7 @@ country_event = { #Winning the War
 	fire_only_once = yes  
 	
 	immediate = {
-		IF = { limit = { tag = UFC }
+		IF = { limit = { tag = UFC } # The Multi-Bears Win
 			white_peace = { tag = MAN message = FOREST_wars.1.a }
 			UNI = { country_event = { id = UNI_multi_mano_war_check.1 days = 1 } }
 			transfer_state = 46
@@ -161,7 +174,7 @@ country_event = { #Winning the War
 			add_state_core = 509
 			UFC = {complete_national_focus = UFC_bear_victory}
 		}
-		ELSE_IF = { limit = { tag = MAN }
+		ELSE_IF = { limit = { tag = MAN } # The Manotaurs Win
 			white_peace = { tag = UFC message = FOREST_wars.1.b }
 			UNI = { country_event = { id = UNI_multi_mano_war_check.1 days = 1 } }
 			transfer_state = 46
