@@ -1,6 +1,6 @@
 ﻿l_english:
 
-GNM_barren_spring:0 "Barren Spring"
+GNM_barren_spring:0 "Empty Throne"
 GNM_barren_spring_desc:0 "Us Gnomes are like ants, we need a queen to survive. Unfoutunatley, right now, we dont have one."
 
 GNM_perfect_candidate:0 "Perfect Candidate for a Date"
@@ -78,7 +78,7 @@ GNM_work_quotas_desc:0 ""
 
 GNM_996_standard_work:0 "996 Minimum Work Week"
 GNM_996_standard_work_desc:0 "§C"Oh no, you don't get paid for it. You only get paid for the hours after you work the minimum. Great system, no?"§!\n\n-Queen Chiu"
-GNM_996_standard_work:0 "The 996 working hour system is a system practiced by some companies in China, where workers work from 9am to 9pm, 6 days a week."
+GNM_996_standard_work_tooltip:0 "The 996 working hour system is a system practiced by some companies in China, where workers work from 9am to 9pm, 6 days a week."
 
 GNM_beasts_of_burden:0 "Beasts of Burden"
 GNM_beasts_of_burden_desc:0 "Beasts of burden can haul lots of things but are slow. This makes them perfect for construction."

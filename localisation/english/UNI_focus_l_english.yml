@@ -57,8 +57,8 @@ UNI_military_production_1_desc:0 "Although they don't have the physical prowess 
 UNI_military_production_2:0 "Hire Gnome Workers"
 UNI_military_production_2_desc:0 "Although they don't have the physical prowess or the loyalty to truly help us in the long run, they're the best we have in terms of outsourcing hard labor."
 
-UNI_energy_spores:0 "Growing Glowing Lichen"
-UNI_energy_spores_desc:0 ""
+UNI_energy_spores:0 "Growing Energy Plants"
+UNI_energy_spores_desc:0 "Glowing lichen, volatile cabbage, and thrioum infused brocolli are plants that can be utilized as fuel."
 
 UNI_exploiting_dark_forest:0 "Reopening the Crystal Quarry"
 UNI_exploiting_dark_forest_desc:0 ""

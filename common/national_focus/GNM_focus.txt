@@ -16,7 +16,7 @@ focus_tree = {
 
 	focus = {
 		id = GNM_barren_spring
-		icon = GFX_focus_generic_self_management
+		icon = GFX_goal_focus_GNM_empty_throne
 		x = 10
 		y = 0
 		
@@ -229,7 +229,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_alpha_philosophy
-		icon = GFX_focus_smiling_buddha
+		icon = GFX_goal_focus_GNM_alpha_beta
 		x = 0
 		y = 1
 		relative_position_id = GNM_collective_fitness 
@@ -291,7 +291,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_operation_northern_dream
-		icon = GFX_goal_generic_military_deal
+		icon = GFX_goal_molotov_ribbentrop_pact
 		x = -1
 		y = 1
 		relative_position_id = GNM_suppress_the_blackpill 
@@ -322,7 +322,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_queen_pacifica
-		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		icon = GFX_goal_focus_GNM_pacifica
 		x = 0
 		y = 1
 		relative_position_id = GNM_operation_northern_dream 
@@ -331,9 +331,9 @@ focus_tree = {
 		available = {
 		}
 		
-		#allow_branch = {
-		#	has_global_flag = pacifica_gnome_kidnapped
-		#}
+		allow_branch = {
+			has_global_flag = pacifica_gnome_kidnapped
+		}
 				
 		bypass = {} 
 		
@@ -771,7 +771,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_operation_everything_nice
-		icon = GFX_goal_molotov_ribbentrop_pact
+		icon = GFX_goal_generic_military_deal
 		x = 1
 		y = 1
 		relative_position_id = GNM_suppress_the_blackpill 
@@ -802,7 +802,7 @@ focus_tree = {
 	
 	focus = {
 		id = GNM_queen_chiu
-		icon = GFX_focus_hun_elect_a_king
+		icon = GFX_goal_focus_GNM_candy
 		x = 0
 		y = 1
 		relative_position_id = GNM_operation_everything_nice 
