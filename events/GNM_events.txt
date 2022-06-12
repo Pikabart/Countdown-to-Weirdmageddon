@@ -104,14 +104,78 @@ country_event = {
 
 country_event = {
 	id = GNM_queen_hunting.5
-	title = GNM_queen_hunting.5.t
-	desc = GNM_queen_hunting.5.d
+	title = {
+		text = GNM_queen_hunting.5.t.1
+		trigger = {
+			has_completed_focus = GNM_operation_everything_nice
+		}
+	}
+	title = {
+		text = GNM_queen_hunting.5.t.2
+		trigger = {
+			has_completed_focus = GNM_operation_northern_dream
+		}
+	}
+	desc = {
+		text = GNM_queen_hunting.5.d.1
+		trigger = {
+			has_completed_focus = GNM_operation_everything_nice
+		}
+	}
+	desc = {
+		text = GNM_queen_hunting.5.d.2
+		trigger = {
+			has_completed_focus = GNM_operation_northern_dream
+		}
+	}
 	picture = GFX_report_event_empty
 	
 	is_triggered_only = yes
 	
 	option = {
 		name = GNM_queen_hunting.5.a
+		ai_chance = { factor = 100 }
+		trigger = {
+			has_completed_focus = GNM_operation_everything_nice
+		}
+		country_event = { id = GNM_queen_hunting.6 days = 1 }
+
+	}
+	
+}
+
+country_event = {
+	id = GNM_queen_hunting.6
+	title = {
+		text = GNM_queen_hunting.6.t.1
+		trigger = {
+			has_completed_focus = GNM_operation_everything_nice
+		}
+	}
+	title = {
+		text = GNM_queen_hunting.6.t.2
+		trigger = {
+			has_completed_focus = GNM_operation_northern_dream
+		}
+	}
+	desc = {
+		text = GNM_queen_hunting.6.d.1
+		trigger = {
+			has_completed_focus = GNM_operation_everything_nice
+		}
+	}
+	desc = {
+		text = GNM_queen_hunting.6.d.2
+		trigger = {
+			has_completed_focus = GNM_operation_northern_dream
+		}
+	}
+	picture = GFX_report_event_empty
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = GNM_queen_hunting.6.a
 		ai_chance = { factor = 100 }
 		trigger = {
 			has_completed_focus = GNM_operation_everything_nice
@@ -142,7 +206,7 @@ country_event = {
 	}
 	
 	option = {
-		name = GNM_queen_hunting.5.b
+		name = GNM_queen_hunting.6.b
 		ai_chance = { factor = 100 }
 		trigger = {
 			has_completed_focus = GNM_operation_northern_dream

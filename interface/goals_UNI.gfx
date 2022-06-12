@@ -1,0 +1,17 @@
+spriteTypes = {	
+
+	#######
+	# UNI #
+	#######
+
+	SpriteType = {
+	name = "GFX_goal_focus_UNI_fishing"
+	texturefile = "gfx/interface/goals/UNI/focus_UNI_fishing.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_UNI_glowing_lichen"
+	texturefile = "gfx/interface/goals/UNI/focus_UNI_glowing_lichen.dds"			
+	}
+
+} ### End Bracket

@@ -1,0 +1,23 @@
+spriteTypes = {	
+
+	SpriteType = {
+	name = "GFX_goal_focus_GNM_alpha_beta"
+	texturefile = "gfx/interface/goals/GNM/focus_GNM_alpha_beta.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_GNM_empty_throne"
+	texturefile = "gfx/interface/goals/GNM/focus_GNM_empty_throne.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_focus_GNM_pacifica"
+	texturefile = "gfx/interface/goals/GNM/focus_GNM_pacifica.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_focus_GNM_candy"
+	texturefile = "gfx/interface/goals/GNM/focus_GNM_candy.dds"			
+	}
+
+}#################################

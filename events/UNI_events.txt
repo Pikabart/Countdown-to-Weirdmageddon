@@ -128,6 +128,7 @@ country_event = {
 			factor = 1
 		}
 		clr_country_flag = UNI_influence_dec_block
+		complete_national_focus = UNI_threat_from_north
 	}
 }
 
@@ -269,6 +270,7 @@ country_event = {
 		name = UNI_intervention.2.b
 		ai_chance = { factor = 1 }
 		UNI = { country_event = { id = UNI_intervention_confirmation.3 days = 1 } }
+		add_ideas = FOREST_ripped_from_unicorn_reliance
 	}
 
 }
