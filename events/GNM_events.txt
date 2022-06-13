@@ -133,10 +133,20 @@ country_event = {
 	is_triggered_only = yes
 	
 	option = {
-		name = GNM_queen_hunting.5.a
+		name = GNM_queen_hunting.5.a.1
 		ai_chance = { factor = 100 }
 		trigger = {
 			has_completed_focus = GNM_operation_everything_nice
+		}
+		country_event = { id = GNM_queen_hunting.6 days = 1 }
+
+	}
+	
+	option = {
+		name = GNM_queen_hunting.5.a.2
+		ai_chance = { factor = 100 }
+		trigger = {
+			has_completed_focus = GNM_operation_northern_dream
 		}
 		country_event = { id = GNM_queen_hunting.6 days = 1 }
 
@@ -202,7 +212,9 @@ country_event = {
 			ideology = fascism
 			popularity = 0.65
 		}
+		custom_effect_tooltip = generic_focus_tree_unlock_tooltip
 		clr_country_flag = GNM_kidnapping_2
+		remove_mission = GNM_kidnapping_consp_decay
 	}
 	
 	option = {
