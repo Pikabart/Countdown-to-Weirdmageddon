@@ -2,7 +2,7 @@ UNI_multi_mano_influence_category = {
 	
 	UNI_mano_influence_manpower = {
 		icon = GFX_decision_icon_default		
-		fire_only_once = no
+		fire_only_once = yes
 
 		visible = {	}
 		available = { NOT = { has_country_flag = UNI_influence_dec_block } }
@@ -23,7 +23,7 @@ UNI_multi_mano_influence_category = {
 	
 	UNI_mano_influence_equipment = {
 		icon = GFX_decision_icon_default		
-		fire_only_once = no
+		fire_only_once = yes
 
 		visible = {	}
 		available = { 
@@ -49,7 +49,7 @@ UNI_multi_mano_influence_category = {
 	
 	UNI_mano_influence_mil_support = {
 		icon = GFX_decision_icon_default		
-		fire_only_once = no
+		fire_only_once = yes
 
 		visible = {	}
 		available = { NOT = { has_country_flag = UNI_influence_dec_block } }
@@ -70,7 +70,7 @@ UNI_multi_mano_influence_category = {
 	
 	UNI_multi_influence_manpower = {
 		icon = GFX_decision_icon_default		
-		fire_only_once = no
+		fire_only_once = yes
 
 		visible = {	}
 		available = { NOT = { has_country_flag = UNI_influence_dec_block } }
@@ -90,7 +90,7 @@ UNI_multi_mano_influence_category = {
 	
 	UNI_multi_influence_equipment = {
 		icon = GFX_decision_icon_default		
-		fire_only_once = no
+		fire_only_once = yes
 
 		visible = {	}
 		available = {
@@ -115,7 +115,7 @@ UNI_multi_mano_influence_category = {
 	
 	UNI_multi_influence_mil_support = {
 		icon = GFX_decision_icon_default		
-		fire_only_once = no
+		fire_only_once = yes
 
 		visible = {	}
 		available = { NOT = { has_country_flag = UNI_influence_dec_block } }

@@ -18,3 +18,8 @@
  FOREST_wars.2.d_bears:0 "The Manotaurs have defeated us!"
  FOREST_wars.2.d_manot:0 "Those dang Multi-Bears beat us!"
  FOREST_wars.2.a:0 "..."
+
+ FOREST_crawlspace_trigger.1.t:0 "The Crawlspace Market"
+ FOREST_crawlspace_trigger.1.d:0 "The increasing conflict between the Multi-Bears and the Manotaurs thrown the entire forest into disarray, where rival tribes seek to defend themselves from their potential enemies. They have found that source in the Crawlspace Market. Previously only for civilian trade, enterprising inhabitants of the forest have set up a lucrative black market trade where Weapons of all shapes and sizes are bought and sold for Crypids. Who knows what nefarious business this market may become involved in."
+ FOREST_crawlspace_trigger.1.a:0 "War is hell, but it is also profitable."
+ FOREST_crawlspace_trigger.1.tooltip:0 "§YThe Crawlspace Market becomes open for business.§!"

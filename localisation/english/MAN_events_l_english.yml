@@ -1,0 +1,19 @@
+﻿l_english:
+
+ #For GNM events
+ 
+
+ #1
+ MAN_START_EVENT.1.t:0 "The Manotaur Lands"
+ MAN_START_EVENT.1.d:0 ""
+ MAN_START_EVENT.1.a:0 "-Jeff Little-Legs"
+
+ MAN_MANWAR.1.t:0 "Ask womantaur's Approval"
+ MAN_MANWAR.1.d:0 ""
+ MAN_MANWAR.1.a:0 "The plan is set" 
+
+ MAN_MANWAR.2.t:0 "Weapons to win"
+ MAN_MANWAR.2.d:0 ""
+ MAN_MANWAR.2.a:0 "These will be useful for the coming conflict."
+ 
+ 
