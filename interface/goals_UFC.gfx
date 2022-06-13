@@ -55,4 +55,53 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/UFC/FOREST_manotaur_victory.dds"
 	}
 
+	###
+
+	SpriteType = {
+	name = "GFX_goal_FOREST_strike_manos"
+	texturefile = "gfx/interface/goals/UFC/focus_strike_manos.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_strike_unicorn"
+	texturefile = "gfx/interface/goals/UFC/focus_strike_unicorn.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_bear_dream"
+	texturefile = "gfx/interface/goals/UFC/FOREST_bear_dream.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_man_bear_toast"
+	texturefile = "gfx/interface/goals/UFC/FOREST_man_bear_toast.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_unicorn_manotaur_betrayed"
+	texturefile = "gfx/interface/goals/UFC/FOREST_unicorn_manotaur_betrayed.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_unicorn_bear_toast"
+	texturefile = "gfx/interface/goals/UFC/FOREST_unicorn_bear_toast.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_unicorn_manotaur_strike"
+	texturefile = "gfx/interface/goals/UFC/FOREST_unicorn_manotaur_strike.dds"
+	}
+	
+	###
+
+	SpriteType = {
+	name = "GFX_goal_FOREST_bear_revenge"
+	texturefile = "gfx/interface/goals/UFC/FOREST_bear_revenge.dds"
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_bear_revolution"
+	texturefile = "gfx/interface/goals/UFC/FOREST_bear_revolution.dds"
+	}
+
 } ### End Bracket

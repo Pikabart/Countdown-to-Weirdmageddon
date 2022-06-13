@@ -17,7 +17,7 @@
 
 	focus = { 
 		id = MAN_cross_river
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_FOREST_river_battle
 		x = 24
 		y = 1
 		#relative_position_id = X
@@ -45,10 +45,10 @@
 	
 	focus = { 
 		id = MAN_flex_support
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_generic_small_arms 
 		x = -4
 		y = 1
-		relative_position_id = MAN_cross_river 
+		relative_position_id = MAN_cross_river
 		prerequisite = { focus = MAN_cross_river }
 		#mutually_exclusive = { focus = X }
 		
@@ -71,8 +71,8 @@
 	}
 	
 	focus = { 
-		id = MAN_council_support 
-		icon = GFX_goal_FOREST_river_battle 
+		id = MAN_council_support
+		icon = GFX_focus_generic_self_management 
 		x = 0
 		y = 1
 		relative_position_id = MAN_cross_river
@@ -88,7 +88,6 @@
 
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
-			country_event = MAN_MANWAR.1
 			add_political_power = 200
 		}
 		
@@ -100,7 +99,7 @@
 	
 	focus = { 
 		id = MAN_handwitch_alliance
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_focus_generic_manpower 
 		x = 4
 		y = 1
 		relative_position_id = MAN_cross_river
@@ -140,7 +139,7 @@
 	
 	focus = { 
 		id = MAN_keep_pushing
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_focus_generic_strike_at_democracy1 
 		x = -2
 		y = 1
 		relative_position_id = MAN_council_support
@@ -156,7 +155,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { 
+		completion_reward = {  
 			custom_effect_tooltip = "MAN_keep_pushing.t"
 			IF = { 
 				limit = {has_border_war_with = attacker = 50 defender = 46}  
@@ -190,7 +189,7 @@
 	
 	focus = { 
 		id = MAN_protect_painhole
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_generic_fortify_city 
 		x = 2
 		y = 1
 		relative_position_id = MAN_council_support
@@ -254,7 +253,7 @@
 	
 	focus = { 
 		id = MAN_crush_sissies
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_generic_territory_or_war 
 		x = 0
 		y = 2
 		relative_position_id = MAN_council_support
@@ -289,7 +288,7 @@
 	
 	focus = { 
 		id = MAN_war.1
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_generic_more_territorial_claims 
 		x = -2
 		y = 1
 		relative_position_id = MAN_crush_sissies
@@ -315,7 +314,7 @@
 	
 	focus = { 
 		id = MAN_war.2
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_generic_more_territorial_claims 
 		x = 0
 		y = 1
 		relative_position_id = MAN_crush_sissies
@@ -341,7 +340,7 @@
 	
 	focus = { 
 		id = MAN_war.3
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_generic_more_territorial_claims 
 		x = 2
 		y = 1
 		relative_position_id = MAN_crush_sissies
@@ -372,7 +371,7 @@
 	
 	focus = { 
 		id = MAN_prove_their_point
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_focus_generic_home_defense
 		x = 0
 		y = 2
 		relative_position_id = MAN_war.2
@@ -393,7 +392,7 @@
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 400
 			#modifier = {}
 		}	
 	}
@@ -429,7 +428,7 @@
 	
 	focus = { 
 		id = MAN_strong_order
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_generic_cavalry 
 		x = -2
 		y = 1
 		relative_position_id = MAN_manly_victory
@@ -445,17 +444,17 @@
 		available_if_capitulated = no
 
 		completion_reward = { 
-			custom_effect_tooltip = "MAN_strong_order.t"
+			#custom_effect_tooltip = "X.t"
 		}
 		
-		ai_will_do = { 
+		ai_will_do = {
 			factor = 400
 			#modifier = {}
 		}	
 	}
 	
 	focus = { 
-		id = MAN_leaderaur.1 
+		id = MAN_leaderaur.1
 		icon = GFX_goal_FOREST_manotaur_victory 
 		x = -2
 		y = 2
@@ -623,7 +622,7 @@
 	}
 	
 	focus = { 
-		id = MAN_leaderaur.7 
+		id = MAN_leaderaur.7
 		icon = GFX_goal_FOREST_river_battle 
 		x = 0
 		y = 1
@@ -648,7 +647,7 @@
 		
 		ai_will_do = {
 			factor = 400
-			#modifier = {} 
+			#modifier = {}
 		}	
 	}
 	
@@ -710,7 +709,7 @@
 
 	focus = { 
 		id = MAN_council.1
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_FOREST_strike_manos 
 		x = 2
 		y = 2
 		relative_position_id = MAN_never_again
@@ -726,7 +725,7 @@
 		available_if_capitulated = no
 
 		completion_reward = { 
-			custom_effect_tooltip = "MAN_council.1.t"
+			#custom_effect_tooltip = "X.t"
 		}
 		
 		ai_will_do = {
@@ -737,7 +736,7 @@
 	
 	focus = { 
 		id = MAN_council.2
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_FOREST_strike_manos 
 		x = 3
 		y = 1
 		relative_position_id = MAN_council.1
@@ -763,7 +762,7 @@
 	
 	focus = { 
 		id = MAN_council.3
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_FOREST_bro_council 
 		x = 0
 		y = 1
 		relative_position_id = MAN_council.1
@@ -865,7 +864,7 @@
 			add_popularity = { ideology = neutrality popularity = 0.3}
 		}
 		
-		ai_will_do = { 
+		ai_will_do = {
 			factor = 400
 			#modifier = {}
 		}	
@@ -873,7 +872,7 @@
 	
 	focus = { 
 		id = MAN_council.7
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_FOREST_13_angry_men
 		x = 0
 		y = 1
 		relative_position_id = MAN_council.6
@@ -903,7 +902,7 @@
 
 	focus = { 
 		id = MAN_chutzpar.1
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_FOREST_manotaur_chutzpar
 		x = 0
 		y = 2
 		relative_position_id = MAN_prove_their_point
@@ -1076,7 +1075,7 @@
 	
 	focus = { 
 		id = MAN_chutzpar.7
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_FOREST_manotaur_end 
 		x = 0
 		y = 1
 		relative_position_id = MAN_chutzpar.4
@@ -1107,14 +1106,14 @@
 
 	focus = { 
 		id = MAN_unicorn_again
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_FOREST_unicorn_end 
 		x = -2
 		y = 1
 		relative_position_id = MAN_chutzpar.7
 		prerequisite = { focus = MAN_leaderaur.7  focus = MAN_chutzpar.7 }
 		
 		available = {is_neighbor_of = UNI}		
-		bypass = {} 
+		bypass = {NOT = {country_exists = UNI}} 
 		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1133,14 +1132,14 @@
 	
 	focus = { 
 		id = MAN_bears_again
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_FOREST_bear_revenge 
 		x = 2
 		y = 1
 		relative_position_id = MAN_chutzpar.7
 		prerequisite = { focus = MAN_council.7  focus = MAN_chutzpar.7 }
 		
 		available = {is_neighbor_of = UFC}		
-		bypass = {} 
+		bypass = {NOT = {country_exists = UFC}} 
 		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1159,7 +1158,7 @@
 	
 	focus = { 
 		id = MAN_gnomes_again
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_FOREST_gnome_question 
 		x = 0
 		y = 3
 		relative_position_id = MAN_chutzpar.7

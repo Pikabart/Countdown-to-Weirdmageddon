@@ -6,12 +6,12 @@
 #################################################
 #Descions LOCS  
 #####################################################
-    #Flags
+    #ideas
     
-    CRL_fast_tech_1:0 "Contract Researchers"
+    CRL_fast_tech_1:0 "Crawlspace Research Contractors"
     CRL_fast_tech_1_desc:0 "We'll hire Crawlspace Researchers to help in speeding up the development of our technology."
 
-    CRL_fast_build_1:0 "Contract Researchers"
+    CRL_fast_build_1:0 "Crawlspace Construction Contractors"
     CRL_fast_build_1_desc:0 "We'll hire Crawlspace Researchers to help in speeding up the development of our technology."
     
     CRL_happy_gas_2:0 "Happy Gas"
@@ -107,7 +107,54 @@
     MAN_dont_bother_us:0 "Return To The Man-Cave"
     MAN_dont_bother_us_desc:0 ""
     
+    MAN_the_manly_way:0 "I'll Make A Man Out Of You!"
+    MAN_the_manly_way_desc:0 ""
     
+    MAN_purge_weak:0 "Purge The Unmanly Wish"
+    MAN_purge_weak_desc:0 ""
+    
+    MAN_weak_refugee:0 "Emasculated Refugees"
+    MAN_weak_refugee_desc:0 ""
+    
+    MAN_hormonal_economy:0 "A Hormonal Economy"
+    MAN_hormonal_economy_desc:0 ""
+    
+    MAN_pec_economy:0 "Iron Pecs, Iron Economy"
+    MAN_pec_economy_desc:0 ""
+    
+    MAN_the_steady_hands:0 "Steady, Muscular Hands"
+    MAN_the_steady_hands_desc:0 ""
+    
+    MAN_expand_manliness:0 "Many Means A Man"
+    MAN_expand_manliness_desc:0 ""
+    
+    MAN_unhappy_warriors:0 "Unhappy Warriors"
+    MAN_unhappy_warriors_desc:0 ""
+    
+    ####################################################
+    # genric for all Forest
+    ####################################################
+    
+    UFC_crawlspace:0 "Crawlspace County Construction Co."
+    UFC_crawlspace_desc:0 ""
+    
+    GNM_crawlspace:0 "Crawlspace County Construction Co."
+    GNM_crawlspace_desc:0 ""
+    
+    MAN_crawlspace:0 "Crawlspace County Construction Co."
+    MAN_crawlspace_desc:0 ""
+    
+    UNI_crawlspace:0 "Crawlspace County Construction Co."
+    UNI_crawlspace_desc:0 ""
+    
+    MYS_crawlspace:0 "Roadkill County Construction Co."
+    MYS_crawlspace_desc:0 ""
+    
+    GTF_crawlspace:0 "Roadkill County Construction Co."
+    GTF_crawlspace_desc:0 ""
+    
+    NRW_crawlspace:0 "Roadkill County Construction Co."
+    NRW_crawlspace_desc:0 ""
     
     
     

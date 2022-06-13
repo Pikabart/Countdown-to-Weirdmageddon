@@ -1,14 +1,11 @@
 spriteTypes = {	
-
-	########################################################################################################
-	#### Generic continuous goal icons
-
+	
 	SpriteType = {
-		name = "GFX_goal_focus_GNM_alpha_beta_shine"
-		texturefile = "gfx/interface/goals/GNM/focus_GNM_alpha_beta.dds"
+		name = "GFX_goal_FOREST_manotaur_chutzpar_shine"
+		texturefile = "gfx/interface/goals/MAN/FOREST_manotaur_chutzpar.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GNM/focus_GNM_alpha_beta.dds"
+			animationmaskfile = "gfx/interface/goals/MAN/FOREST_manotaur_chutzpar.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -21,7 +18,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GNM/focus_GNM_alpha_beta.dds"
+			animationmaskfile = "gfx/interface/goals/MAN/FOREST_manotaur_chutzpar.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -36,11 +33,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_focus_GNM_empty_throne_shine"
-		texturefile = "gfx/interface/goals/GNM/focus_GNM_empty_throne.dds"
+		name = "GFX_goal_FOREST_manotaur_end_shine"
+		texturefile = "gfx/interface/goals/MAN/FOREST_manotaur_end.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GNM/focus_GNM_empty_throne.dds"
+			animationmaskfile = "gfx/interface/goals/MAN/FOREST_manotaur_end.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -53,39 +50,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GNM/focus_GNM_empty_throne.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-
-	SpriteType = {
-		name = "GFX_goal_focus_GNM_pacifica_shine"
-		texturefile = "gfx/interface/goals/GNM/focus_GNM_pacifica.dds"
-				effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GNM/focus_GNM_pacifica.dds"
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/GNM/focus_GNM_pacifica.dds"
+			animationmaskfile = "gfx/interface/goals/MAN/FOREST_manotaur_end.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -100,11 +65,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_focus_GNM_candy_shine"
-		texturefile = "gfx/interface/goals/GNM/focus_GNM_candy.dds"
+		name = "GFX_goal_FOREST_unicorn_end_shine"
+		texturefile = "gfx/interface/goals/MAN/FOREST_unicorn_end.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GNM/focus_GNM_candy.dds"
+			animationmaskfile = "gfx/interface/goals/MAN/FOREST_unicorn_end.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -117,7 +82,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GNM/focus_GNM_candy.dds"
+			animationmaskfile = "gfx/interface/goals/MAN/FOREST_unicorn_end.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -132,11 +97,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_FOREST_gnome_jeff_shine"
-		texturefile = "gfx/interface/goals/GNM/FOREST_gnome_jeff.dds"
+		name = "GFX_goal_FOREST_bro_council_shine"
+		texturefile = "gfx/interface/goals/MAN/FOREST_bro_council.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GNM/FOREST_gnome_jeff.dds"
+			animationmaskfile = "gfx/interface/goals/MAN/FOREST_bro_council.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -149,7 +114,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GNM/FOREST_gnome_jeff.dds"
+			animationmaskfile = "gfx/interface/goals/MAN/FOREST_bro_council.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -164,11 +129,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_goal_FOREST_gnome_question_shine"
-		texturefile = "gfx/interface/goals/GNM/FOREST_gnome_question.dds"
+		name = "GFX_goal_FOREST_13_angry_men_shine"
+		texturefile = "gfx/interface/goals/MAN/FOREST_13_angry_men.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GNM/FOREST_gnome_question.dds"
+			animationmaskfile = "gfx/interface/goals/MAN/FOREST_13_angry_men.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -181,7 +146,7 @@ spriteTypes = {
 		}
 
 		animation = {
-			animationmaskfile = "gfx/interface/goals/GNM/FOREST_gnome_question.dds"
+			animationmaskfile = "gfx/interface/goals/MAN/FOREST_13_angry_men.dds"
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)
@@ -194,5 +159,5 @@ spriteTypes = {
 		}
 		legacy_lazy_load = no
 	}
-	
-}###################################
+
+} ### End Bracket

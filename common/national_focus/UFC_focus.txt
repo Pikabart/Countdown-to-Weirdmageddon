@@ -412,7 +412,7 @@
 
 	focus = { 
 		id = UFC_hibernate
-		icon = GFX_goal_generic_wolf_pack
+		icon = GFX_goal_FOREST_river
 		x = 0
 		y = 4
 		relative_position_id = MAN_war.2
@@ -444,7 +444,7 @@
 
 	focus = { 
 		id = UFC_the_new_peace
-		icon = GFX_focus_generic_the_giant_wakes
+		icon = GFX_goal_FOREST_bear_victory
 		x = -3
 		y = 2
 		relative_position_id = UFC_bear_victory
@@ -475,7 +475,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_council.1
-		icon = GFX_focus_generic_support_the_left_right
+		icon = GFX_goal_FOREST_unicorn_bear
 		x = -3
 		y = 1
 		relative_position_id = UFC_the_new_peace
@@ -730,7 +730,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_unicorn.1
-		icon = GFX_focus_generic_diplomatic_treaty
+		icon = GFX_goal_FOREST_unicorn_manotaur_betrayed
 		x = 3
 		y = 1
 		relative_position_id = UFC_the_new_peace
@@ -756,7 +756,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_unicorn.2
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_FOREST_unicorn_manotaur
 		x = 0
 		y = 1
 		relative_position_id = UFC_bear_victory_unicorn.1
@@ -960,7 +960,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_final.1
-		icon = GFX_goal_generic_military_deal 
+		icon = GFX_goal_FOREST_unicorn_bear_toast 
 		x = -2
 		y = 1
 		relative_position_id = UFC_bear_victory_wooden_wall.3
@@ -990,7 +990,7 @@
 	
 	focus = { 
 		id = UFC_bear_victory_final.2
-		icon = GFX_goal_generic_major_war 
+		icon = GFX_goal_FOREST_strike_unicorn 
 		x = 2 
 		y = 1
 		relative_position_id = UFC_bear_victory_wooden_wall.3
@@ -1051,7 +1051,7 @@
 
 	focus = { 
 		id = UFC_bear_defeat_revanch.1
-		icon = GFX_focus_generic_strike_at_democracy1 
+		icon = GFX_goal_FOREST_bear_revenge 
 		x = -3
 		y = 1
 		relative_position_id = UFC_no_sleep
@@ -1268,7 +1268,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_radical.1 
-		icon = GFX_focus_generic_join_comintern 
+		icon = GFX_goal_FOREST_bear_revolution 
 		x = 3
 		y = 1
 		relative_position_id = UFC_no_sleep
@@ -1485,7 +1485,7 @@
 	
 	focus = { 
 		id = UFC_bear_defeat_final
-		icon = GFX_focus_hol_legacy_of_the_de_zeven_provincien_mutiny 
+		icon = GFX_goal_FOREST_unicorn_manotaur_strike 
 		x = 0
 		y = 5
 		relative_position_id = UFC_no_sleep
@@ -1523,14 +1523,14 @@
 	
 	focus = { 
 		id = UFC_manotaur_fate.1
-		icon = GFX_focus_generic_military_mission 
+		icon = GFX_goal_FOREST_strike_manos 
 		x = 0
 		y = 6
 		relative_position_id = UFC_hibernate
 		prerequisite = { focus = UFC_bear_defeat_final focus = UFC_bear_victory_final.1 focus = UFC_bear_victory_final.2 }
 		
 		available = { }	
-		bypass = {} 
+		bypass = {NOT = {country_exists = MAN}} 
 		cost = 5
 
 		cancel_if_invalid = yes
@@ -1569,7 +1569,7 @@
 	
 	focus = { 
 		id = UFC_gnomes_fate.1
-		icon = GFX_focus_generic_strike_at_democracy2 
+		icon = GFX_goal_FOREST_gnome_question 
 		x = 0
 		y = 2
 		relative_position_id = UFC_manotaur_fate.1

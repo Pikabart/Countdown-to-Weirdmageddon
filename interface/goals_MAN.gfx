@@ -1,0 +1,28 @@
+spriteTypes = {	
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_manotaur_chutzpar"
+	texturefile = "gfx/interface/goals/MAN/FOREST_manotaur_chutzpar.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_manotaur_end"
+	texturefile = "gfx/interface/goals/MAN/FOREST_manotaur_end.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_unicorn_end"
+	texturefile = "gfx/interface/goals/MAN/FOREST_unicorn_end.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_bro_council"
+	texturefile = "gfx/interface/goals/MAN/FOREST_bro_council.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_13_angry_men"
+	texturefile = "gfx/interface/goals/MAN/FOREST_13_angry_men.dds"			
+	}
+
+} ### End Bracket

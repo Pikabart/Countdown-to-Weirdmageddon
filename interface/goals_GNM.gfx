@@ -19,5 +19,15 @@ spriteTypes = {
 	name = "GFX_goal_focus_GNM_candy"
 	texturefile = "gfx/interface/goals/GNM/focus_GNM_candy.dds"			
 	}
+	
+	SpriteType = {
+	name = "GFX_goal_FOREST_gnome_jeff"
+	texturefile = "gfx/interface/goals/GNM/FOREST_gnome_jeff.dds"			
+	}
+
+	SpriteType = {
+	name = "GFX_goal_FOREST_gnome_question"
+	texturefile = "gfx/interface/goals/GNM/FOREST_gnome_question.dds"			
+	}
 
 }#################################

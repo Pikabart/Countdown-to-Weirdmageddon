@@ -146,6 +146,7 @@ country_event = { # The Unicorns want more reps
 	option = {
 		name = UFC_COUNCIL.5.b
 		add_stability = 0.05
+		add_political_power = -100
 		ai_chance = { factor = 100 }
 	}
 }
@@ -160,21 +161,21 @@ country_event = { # The Unicorns Protest
 	
 	option = {
 		name = UFC_COUNCIL.6.a
+		add_political_power = -100
+		add_stability = 0.10
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = UFC_COUNCIL.6.b
 		add_political_power = 200
 		add_stability = -0.05
-		custom_effect_tooltip = "UFC_COUNCIL.6.at"
+		custom_effect_tooltip = "UFC_COUNCIL.6.bt"
 		add_to_variable = {
 			var = ROOT.FOREST_crawl_cash
 			value = 200
 		}
 		ai_chance = { factor = 100 }
 	}	
-	option = {
-		name = UFC_COUNCIL.6.b
-		add_political_power = -100
-		add_stability = 0.10
-		ai_chance = { factor = 100 }
-	}
 }
 
 country_event = { # The Prime Minstership
