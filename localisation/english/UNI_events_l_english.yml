@@ -1,0 +1,50 @@
+﻿l_english:
+
+ #For GNM events
+ 
+
+ 
+
+ UNI_intervention.1.t:0 "Looking North"
+ UNI_intervention.1.d:0 ""
+ UNI_intervention.1.a:0 ""
+
+ UNI_intervention.2.t:0 "Help from the Unicorns: Manpower"
+ UNI_intervention.2.d:0 ""
+ UNI_intervention.2.a:0 ""
+
+ UNI_intervention_confirmation.1.t:0 "The [FROM.getname] Accepts!"
+ UNI_intervention_confirmation.1.d:0 ""
+ UNI_intervention_confirmation.1.a:0 ""
+
+ UNI_intervention_confirmation.2.t:0 "The [FROM.getname] Declines!"
+ UNI_intervention_confirmation.2.d:0 ""
+ UNI_intervention_confirmation.2.a:0 ""
+
+ UNI_intervention_confirmation.3.t:0 "The [FROM.getname] Rejects their Subjugation!"
+ UNI_intervention_confirmation.3.d:0 ""
+ UNI_intervention_confirmation.3.a:0 ""
+
+ UNI_intervention.3.t:0 "Help from the Unicorns: Equipment"
+ UNI_intervention.3.d:0 ""
+ UNI_intervention.3.a:0 ""
+
+ UNI_intervention.4.t:0 "Help From the Unicorns: Field Advisors"
+ UNI_intervention.4.d:0 ""
+ UNI_intervention.4.a:0 ""
+
+ UNI_intervention.5.t:0 "Unicorns Demand our Subjugation!"
+ UNI_intervention.5.d:0 ""
+ UNI_intervention.5.a:0 ""
+
+ UNI_multi_mano_war_check.1.t:0 "The War in the North is Over!"
+ UNI_multi_mano_war_check.1.d:0 ""
+ UNI_multi_mano_war_check.1.a:0 ""
+
+ UNI_north_anarchy.1.t:0 "Rumors"
+ UNI_north_anarchy.1.d:0 ""
+ UNI_north_anarchy.1.a:0 ""
+
+ UNI_north_anarchy.2.t:0 "Anarchy!"
+ UNI_north_anarchy.2.d:0 ""
+ UNI_north_anarchy.2.a:0 ""
