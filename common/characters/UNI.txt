@@ -36,6 +36,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = UNI_political_advisor 
 			
 			available = {
 				
@@ -82,6 +83,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = UNI_financial_advisor 
 			
 			available = {
 				
@@ -105,6 +107,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = UNI_humble_appeaser
 			
 			available = {
 				
@@ -128,6 +131,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = UNI_propaganda_expert
 			
 			available = {
 				
@@ -174,6 +178,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = army_chief
+			idea_token = UNI_attack_expert
 			
 			available = {
 				
@@ -197,6 +202,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = army_chief
+			idea_token = UNI_defense_expert
 			
 			available = {
 				
