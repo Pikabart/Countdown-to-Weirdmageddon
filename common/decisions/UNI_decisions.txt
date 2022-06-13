@@ -2,14 +2,14 @@ UNI_multi_mano_influence_category = {
 	
 	UNI_mano_influence_manpower = {
 		icon = GFX_decision_icon_default		
-		fire_only_once = yes
+		fire_only_once = no
 
 		visible = {	}
 		available = { NOT = { has_country_flag = UNI_influence_dec_block } }
 
 		cost = 15	
 		days_remove = 7
-		
+		days_re_enable = 200
 		complete_effect = { set_country_flag = UNI_influence_dec_block }
 		
 		remove_effect = {
@@ -23,7 +23,7 @@ UNI_multi_mano_influence_category = {
 	
 	UNI_mano_influence_equipment = {
 		icon = GFX_decision_icon_default		
-		fire_only_once = yes
+		fire_only_once = no
 
 		visible = {	}
 		available = { 
@@ -35,6 +35,7 @@ UNI_multi_mano_influence_category = {
 
 		cost = 15
 		days_remove = 7
+		days_re_enable = 200
 		
 		complete_effect = { set_country_flag = UNI_influence_dec_block }
 		
@@ -49,13 +50,14 @@ UNI_multi_mano_influence_category = {
 	
 	UNI_mano_influence_mil_support = {
 		icon = GFX_decision_icon_default		
-		fire_only_once = yes
+		fire_only_once = no
 
 		visible = {	}
 		available = { NOT = { has_country_flag = UNI_influence_dec_block } }
 
 		cost = 30
 		days_remove = 45
+		days_re_enable = 200
 		
 		complete_effect = { set_country_flag = UNI_influence_dec_block }
 		
@@ -70,13 +72,14 @@ UNI_multi_mano_influence_category = {
 	
 	UNI_multi_influence_manpower = {
 		icon = GFX_decision_icon_default		
-		fire_only_once = yes
+		fire_only_once = no
 
 		visible = {	}
 		available = { NOT = { has_country_flag = UNI_influence_dec_block } }
 
 		cost = 15
 		days_remove = 7
+		days_re_enable = 200
 		
 		complete_effect = { set_country_flag = UNI_influence_dec_block }
 	   
@@ -90,7 +93,7 @@ UNI_multi_mano_influence_category = {
 	
 	UNI_multi_influence_equipment = {
 		icon = GFX_decision_icon_default		
-		fire_only_once = yes
+		fire_only_once = no
 
 		visible = {	}
 		available = {
@@ -102,6 +105,7 @@ UNI_multi_mano_influence_category = {
 
 		cost = 15
 		days_remove = 7
+		days_re_enable = 200
 		
 		complete_effect = { set_country_flag = UNI_influence_dec_block }
 		
@@ -115,7 +119,7 @@ UNI_multi_mano_influence_category = {
 	
 	UNI_multi_influence_mil_support = {
 		icon = GFX_decision_icon_default		
-		fire_only_once = yes
+		fire_only_once = no
 
 		visible = {	}
 		available = { NOT = { has_country_flag = UNI_influence_dec_block } }
