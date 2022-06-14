@@ -256,7 +256,9 @@ country_event = { # Open Crawlspace Market
 	immediate = {
 		set_global_flag = GLOBAL_FLAG_MARKET
 	}
-	option = { name = FOREST_crawlspace_trigger.1.a ai_chance = { factor = 100 } }
+	option = { name = FOREST_crawlspace_trigger.1.a ai_chance = { factor = 100 }
+		custom_effect_tooltip = FOREST_crawlspace_trigger.1.tooltip
+	}
 }
 
 ############################################################

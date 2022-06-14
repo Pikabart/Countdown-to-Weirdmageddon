@@ -116,6 +116,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = GNM_political_advisor
 			
 			available = {
 				
@@ -139,6 +140,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = GNM_editor
 			
 			available = {
 				
@@ -162,6 +164,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = GNM_financial_advisor
 			
 			available = {
 				
@@ -185,6 +188,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = GNM_humble_appeaser
 			
 			available = {
 				
@@ -208,6 +212,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = GNM_propaganda_expert
 			
 			available = {
 				
@@ -231,6 +236,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = GNM_war_industrialist
 			
 			available = {
 				
@@ -254,6 +260,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = army_chief
+			idea_token = GNM_attack_expert
 			
 			available = {
 				
@@ -277,6 +284,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = army_chief
+			idea_token = GNM_defense_expert
 			
 			available = {
 				

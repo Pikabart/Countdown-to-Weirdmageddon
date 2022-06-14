@@ -89,6 +89,7 @@
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
 			add_political_power = 200
+			country_event = MAN_MANWAR.1
 		}
 		
 		ai_will_do = {
@@ -114,7 +115,7 @@
 		available_if_capitulated = no
 
 		completion_reward = { 
-			#custom_effect_tooltip = "X.t"
+			custom_effect_tooltip = MAN_council_support.tooltip
 			add_manpower = 5000
 			country_event = MAN_MANWAR.2
 			hidden_effect = {

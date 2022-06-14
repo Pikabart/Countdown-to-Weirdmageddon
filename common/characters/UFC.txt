@@ -148,7 +148,7 @@ characters = {###########################################################
 		advisor = {
 			slot = army_chief
 			allowed = {
-				original_tag = UFC
+				
 			}
 			available = {
 				
@@ -182,7 +182,7 @@ characters = {###########################################################
 		advisor = {
 			slot = political_advisor
 			allowed = {
-				original_tag = UFC
+				
 			}
 			available = {
 				has_intelligence_agency = yes
@@ -237,12 +237,7 @@ characters = {###########################################################
 
 		advisor = {
 			slot = political_advisor
-			allowed = {
-				original_tag = UFC
-			}
-			available = {
-				
-			}
+			idea_token = UFC_cerbearus_second_head
 			traits = {
 				captain_of_industry  
 			}
@@ -271,12 +266,7 @@ characters = {###########################################################
 
 		advisor = {
 			slot = political_advisor
-			allowed = {
-				original_tag = UFC
-			}
-			available = {
-				
-			}
+			idea_token = UFC_cerbearus_third_head
 			traits = {
 				silent_workhorse  
 			}
@@ -305,10 +295,8 @@ characters = {###########################################################
 		
 		advisor = { 
 			slot = political_advisor
+			idea_token = UFC_political_advisor
 			
-			available = {
-				
-			}
 			traits = {
 				silent_workhorse
 			}
@@ -328,10 +316,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
-			
-			available = {
-				
-			}
+			idea_token = UFC_editor
 			traits = {
 				editor
 			}
@@ -351,10 +336,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
-			
-			available = {
-				
-			}
+			idea_token = UFC_financial_advisor
 			traits = {
 				financial_expert
 			}
@@ -374,6 +356,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
+			idea_token = UFC_humble_appeaser
 			
 			available = {
 				
@@ -397,10 +380,8 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
-			
-			available = {
-				
-			}
+			idea_token = UFC_propaganda_expert
+
 			traits = {
 				propaganda_expert
 			}
@@ -420,10 +401,7 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = political_advisor
-			
-			available = {
-				
-			}
+			idea_token = UFC_war_industrialist
 			traits = {
 				war_industrialist
 			}
@@ -443,10 +421,8 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = army_chief
+			idea_token = UFC_attack_expert
 			
-			available = {
-				
-			}
 			traits = {
 				army_chief_offensive_3
 			}
@@ -466,10 +442,8 @@ characters = {###########################################################
 		
 		advisor = {
 			slot = army_chief
+			idea_token = UFC_defense_expert
 			
-			available = {
-				
-			}
 			traits = {
 				army_chief_defensive_3
 			}

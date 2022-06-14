@@ -21,7 +21,7 @@
  
  MAN_council_support:0 "Ensure *HER* Approval"
  MAN_council_support_desc:0 ""
- MAN_council_support.t:0 ""
+ MAN_council_support.tooltip:0 "§YThe Hand Witches are recruited into our ranks.§!"
  
  MAN_handwitch_alliance:0 "Handy Alliance"
  MAN_handwitch_alliance_desc:0 ""
