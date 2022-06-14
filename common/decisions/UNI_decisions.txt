@@ -8,7 +8,7 @@ UNI_multi_mano_influence_category = {
 		available = { NOT = { has_country_flag = UNI_influence_dec_block } }
 
 		cost = 15	
-		days_remove = 7
+		days_remove = 14
 		
 		complete_effect = { set_country_flag = UNI_influence_dec_block }
 		
@@ -34,7 +34,7 @@ UNI_multi_mano_influence_category = {
 		}
 
 		cost = 15
-		days_remove = 7
+		days_remove = 14
 		
 		complete_effect = { set_country_flag = UNI_influence_dec_block }
 		
@@ -76,7 +76,7 @@ UNI_multi_mano_influence_category = {
 		available = { NOT = { has_country_flag = UNI_influence_dec_block } }
 
 		cost = 15
-		days_remove = 7
+		days_remove = 14
 		
 		complete_effect = { set_country_flag = UNI_influence_dec_block }
 	   
@@ -101,7 +101,7 @@ UNI_multi_mano_influence_category = {
 		}
 
 		cost = 15
-		days_remove = 7
+		days_remove = 14
 		
 		complete_effect = { set_country_flag = UNI_influence_dec_block }
 		

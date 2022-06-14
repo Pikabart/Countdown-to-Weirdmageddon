@@ -1,10 +1,5 @@
 ﻿l_english:
 
- #For GNM events
- 
-
- 
-
  UNI_intervention.1.t:0 "Looking North"
  UNI_intervention.1.d:0 ""
  UNI_intervention.1.a:0 ""
@@ -48,3 +43,4 @@
  UNI_north_anarchy.2.t:0 "Anarchy!"
  UNI_north_anarchy.2.d:0 ""
  UNI_north_anarchy.2.a:0 ""
+ 
