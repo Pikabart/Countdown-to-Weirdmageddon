@@ -2,7 +2,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_goal_focus_UNI_fishing_shine"
-		texturefile = "gfx/interface/goals/UNIfocus_UNI_fishing.dds"
+		texturefile = "gfx/interface/goals/UNI/focus_UNI_fishing.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/UNI/focus_UNI_fishing.dds"
@@ -34,7 +34,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_goal_focus_UNI_glowing_lichen_shine"
-		texturefile = "gfx/interface/goals/focus_UNI_glowing_lichen.dds"
+		texturefile = "gfx/interface/goals/UNI/focus_UNI_glowing_lichen.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/UNI/focus_UNI_glowing_lichen.dds"
