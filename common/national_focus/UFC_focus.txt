@@ -864,7 +864,7 @@
 		continue_if_invalid = no
 		available_if_capitulated = no
 
-		completion_reward = { add_ideas = UFC_fight_decadence	}
+		completion_reward = { add_ideas = UFC_fight_decadence	add_research_slot = 1}
 		
 		ai_will_do = {
 			factor = 400
@@ -978,8 +978,18 @@
 				ruling_party = democratic
 				elections_allowed = no
 			}
+			country_event = UFC_COUNCIL.8
 			annex_country = { target = UNI transfer_troops = yes }
 			news_event = UFC_COUNCIL_NEWS.1 
+			add_research_slot = 2
+			IF = {
+				limit = {has_country_flag = UFC_FLAG_BEAR}
+				create_country_leader = { name = "John Multibear" picture = GFX_leaders_john_multibear expire = "1965.1.1" ideology = liberalism}
+			}
+			ELSE_IF = {
+				limit = {has_country_flag = UFC_FLAG_UNI}
+				create_country_leader = { name = "Celestabellebethabelle" picture = GFX_leaders_celestabellebethabelle expire = "1965.1.1" ideology = conservatism}
+			}
 		}
 		
 		ai_will_do = {
@@ -1134,11 +1144,13 @@
 					set_border_war_data = {
 						attacker = 47
 						defender = 46
-						attacker_modifier = 25
+						attacker_modifier = 55
 						combat_width = 8
 					}
 				}
 			}
+			add_offsite_building = { type = arms_factory level = 2 }
+			add_offsite_building = { type = industrial_complex level = 2 }
 		}
 		
 		ai_will_do = {
@@ -1194,10 +1206,10 @@
 			add_equipment_to_stockpile = {
 				type = ind_infantry_equipment_1
 				amount = 500
-				producer = GEU
-			}  
-			add_offsite_building = { type = arms_factory level = 2 }
-			add_offsite_building = { type = industrial_complex level = 2 }
+				producer = CRL
+			} 
+			add_research_slot = 1			
+			
 		}
 		ai_will_do = {
 			factor = 400
@@ -1383,6 +1395,10 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
+
+		select_effect = {
+			retire_ideology_leader = communism 
+		}
 
 		completion_reward = { 
 			country_event = UFC_REVOULTION.1

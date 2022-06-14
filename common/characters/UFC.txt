@@ -2,6 +2,7 @@ characters = {###########################################################
 	
 	UFC_multi_corn= {
 		name = "Dual Prime Ministership" 
+		#allowed = {NOT = {has_country_flag = UFC_FLAG_BEAR} NOT = {has_country_flag = UFC_FLAG_UNI}}
 		
 		portraits = {
 			civilian = {
@@ -15,7 +16,7 @@ characters = {###########################################################
 			id = -1
 		}	
 	}
-	
+	#######################################
 	UFC_anarchy = {
 		name = "Chaos" 
 		
@@ -31,7 +32,7 @@ characters = {###########################################################
 			id = -1
 		}
 	}
-	
+	#######################################
 	UFC_multi_bear = {
 		name = "John Multibear" 
 		
@@ -57,7 +58,40 @@ characters = {###########################################################
 			logistics_skill = 2
 		}	
 	}
+	UFC_multi_bear_democ = {
+		name = "John Multibear" 
+			#allowed = {has_country_flag = UFC_FLAG_BEAR}
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_john_multibear"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = liberalism
+			expire = "2040.1.1.1"
+			id = -1
+		}	
+	}
+	UFC_unicorn_democ = {
+		name = "Celestabellebethabelle" 
+			#allowed = {has_country_flag = UFC_FLAG_UNI}
+		
+		portraits = {
+			civilian = {
+				large = "GFX_leaders_celestabellebethabelle"
+			}
+		}
+		country_leader = {
+			desc = ""
+			ideology = conservatism
+			expire = "2040.1.1.1"
+			id = -1
+		}
 	
+	}
+	####################################### 
 	UFC_unicorn = {
 		name = "Celestabellebethabelle" 
 		
@@ -85,7 +119,7 @@ characters = {###########################################################
 			logistics_skill = 1
 		}	
 	}
-	
+	#######################################
 	UFC_gnome_chief = {
 		name = "Chief Miller" 
 		
@@ -175,10 +209,15 @@ characters = {###########################################################
 		
 		portraits = {
 			civilian = {
-				large = ""
+				large = "GFX_leaders_plaidin"
 			}
 		}
-
+		country_leader = {
+			desc = ""
+			ideology = anarchist_communism
+			expire = "2040.1.1.1"
+			id = -1
+		}
 		advisor = {
 			slot = political_advisor
 			allowed = {
