@@ -40,5 +40,20 @@ spriteTypes = {
 			name = "GFX_leaders_john_multibear"
 			texturefile = "gfx/leaders/FOREST/Portrait_Forest_John_Multibear.dds"
 		}
-	
+	spriteType = {
+			name = "GFX_leaders_Chutzpar"
+			texturefile = "gfx/leaders/FOREST/Portrait_Forest_chutzpar.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_Bro_Council"
+			texturefile = "gfx/leaders/FOREST/Portrait_Forest_Bro_Council.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_chief_gnome"
+			texturefile = "gfx/leaders/FOREST/Portrait_Forest_chief_gnome.dds"
+		}
+	spriteType = {
+			name = "GFX_leaders_plaidin"
+			texturefile = "gfx/leaders/FOREST/Portrait_Forest_Plaidin.dds"
+		}
 }
