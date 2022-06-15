@@ -1,0 +1,86 @@
+﻿add_namespace = FOREST_crawlspace_reopening
+add_namespace = FOREST_gnome_pacifica
+add_namespace = FOREST_gnome_candy
+add_namespace = FOREST_man_vs_ufc_start
+
+news_event = {
+	id = FOREST_crawlspace_reopening.1
+	title = FOREST_crawlspace_reopening.1.t
+	desc = {
+		text = FOREST_crawlspace_reopening.1.d.1
+	}
+	
+	picture = GFX_report_event_empty
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = FOREST_crawlspace_reopening.1.a
+		custom_effect_tooltip = generic_decision_unlock_tooltip
+		set_global_flag = GLOBAL_FLAG_MARKET
+	}
+}
+
+news_event = {
+	id = FOREST_man_vs_ufc_start.1
+	title = FOREST_man_vs_ufc_start.1.t
+	desc = {
+		text = FOREST_man_vs_ufc_start.1.d.1
+	}
+	
+	picture = GFX_report_event_empty
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = FOREST_man_vs_ufc_start.1.a
+	}
+}
+
+news_event = {
+	id = FOREST_gnome_pacifica.1
+	title = FOREST_gnome_pacifica.1.t
+	desc = {
+		text = FOREST_gnome_pacifica.1.d.1
+	}
+	
+	picture = GFX_report_event_empty
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = FOREST_gnome_pacifica.1.a
+	}
+}
+
+news_event = {
+	id = FOREST_gnome_candy.1
+	title = FOREST_gnome_candy.1.t
+	desc = {
+		text = FOREST_gnome_candy.1.d.1
+	}
+	
+	picture = GFX_report_event_empty
+	
+	major = no
+	is_triggered_only = yes
+	
+	immediate = {
+	}
+	
+	option = {
+		name = FOREST_gnome_candy.1.a
+	}
+}

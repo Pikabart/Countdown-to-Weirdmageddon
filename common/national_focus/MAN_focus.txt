@@ -277,6 +277,15 @@
 			IF = { limit = {has_border_war_with = attacker = 508 defender = 51} cancel_border_war = {  dont_fire_events = yes defender = 508 attacker = 51 } }
 			IF = { limit = {has_border_war_with = attacker = 509 defender = 48} cancel_border_war = {  dont_fire_events = yes defender = 509 attacker = 48 } }
 			add_war_support = 0.05 
+			every_country = {
+				limit = {
+					is_in_array = {
+						array = GLOBAL.forest_countries
+						value = THIS.id
+					}
+				}
+				news_event = { id = FOREST_man_vs_ufc_start.1 days = 1 }
+			}
 		}
 		
 		ai_will_do = {

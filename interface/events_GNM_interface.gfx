@@ -1,5 +1,5 @@
 ##########
-# UFC country event picture interface
+# GNM country event picture interface
 ############
 spriteTypes = {
 
@@ -7,12 +7,10 @@ spriteTypes = {
 		name = "GFX_decision_category_gnome_kidnap"
 		texturefile = "gfx/interface/decisions/decision_cat_gnome_kidnap.dds"
 	}
-
-	#spriteType = { #
-	#	name = "GFX_report_event_X"
-	#	texturefile = "gfx/event_country_pictures/FOREST/X.dds"
-	#}
-
 	
+	spriteType = {
+		name = "GFX_report_event_gnomes"
+		texturefile = "gfx/event_country_pictures/FOREST/report_event_gnomes.dds"
+	}
 	
 }
