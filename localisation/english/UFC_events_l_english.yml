@@ -57,15 +57,21 @@
  UFC_COUNCIL.7.c:0 "Embrace The Duality Of Government"
  
  UFC_COUNCIL_NEWS.1.t:0 "The Leader Of The United Forest"
- UFC_COUNCIL_NEWS.1.d:0 ""
- UFC_COUNCIL_NEWS.1.db:0 ""
- UFC_COUNCIL_NEWS.1.dc:0 ""
- UFC_COUNCIL_NEWS.1.a:0 ""
+ UFC_COUNCIL_NEWS.1.d:0 "Its a new day for the forest. From the base of Handwitch Mountain to the depts of the Dark Forest, on top of the Multibear Realm to the hidden groves of the Enchanted Forest; the animals of the forest gathered as the United Forest Council was offically formed.\n\nUniting the Multibears and the Unicorns under one government once more, each will have a critical role to running the forest and restoring the peace that once was had before the Long Summer. More so, now the time reform and a new beginning can also begin.\n\nUnder the Prime Minstership of John Multibear, it shall be done!"
+ UFC_COUNCIL_NEWS.1.a:0 "For The Forest!"
+ 
+ UFC_COUNCIL_NEWS.2.t:0 "The Leader Of The United Forest"
+ UFC_COUNCIL_NEWS.2.d:0 "It's a new day for the forest. From the base of Handwitch Mountain to the depths of the Dark Forest, on top of the Multibear Realm to the hidden groves of the Enchanted Forest; the animals of the forest gathered as the United Forest Council was officially formed.\n\nUniting the Multibears and the Unicorns under one government once more, each will have a critical role to running the forest and restoring the peace that once was had before the Long Summer. More so, now the time for reform and a new beginning can also begin.\n\nUnder the Prime Ministership of Celestabellebethabelle, the future will be gained!"
+ UFC_COUNCIL_NEWS.2.a:0 "For The Forest!"
+ 
+ UFC_COUNCIL_NEWS.3.t:0 "The Leader Of The United Forest"
+ UFC_COUNCIL_NEWS.3.d:0 "It's a new day for the forest. From the base of Handwitch Mountain to the depths of the Dark Forest, on top of the Multibear Realm to the hidden groves of the Enchanted Forest; the animals of the forest gathered as the United Forest Council was officially formed.\n\nUniting the Multibears and the Unicorns under one government once more, each will have a critical role to running the forest and restoring the peace that once was had before the Long Summer. More so, now the time for reform and a new beginning can also begin.\n\nUnder the new Dual Prime Ministership of John Multibear and Celestabellebethabelle, the forest will be united!"
+ UFC_COUNCIL_NEWS.3.a:0 "For The Forest!"
  
  ##################
  
  UFC_BETRAYAL.1.t:0 "The Great Bear Heist"
- UFC_BETRAYAL.1.d:0 ""
+ UFC_BETRAYAL.1.d:0 "Those multibears stole our cash! What the heck!"
  UFC_BETRAYAL.1.a:0 "Who Do They Think They Are?\nHumans?"
  UFC_BETRAYAL.1.at:0 "Steal The Unicorn's Treasuery, up to §Y¢1000§! §7Cryptid Currency§!"
  
@@ -85,30 +91,89 @@
  
  UFC_MANO_FATE.1.t:0 "We Will Have Our Vengence"
  UFC_MANO_FATE.1.d:0 ""
- UFC_MANO_FATE.1.a:0 ""
+ UFC_MANO_FATE.1.a:0 "Attack!"
  
- UFC_MANO_FATE.2.t:0 "A New Peace On The River Trembley"
+ UFC_MANO_FATE.2.t:0 "Settle Our Differences"
  UFC_MANO_FATE.2.d:0 ""
- UFC_MANO_FATE.2.a:0 ""
+ UFC_MANO_FATE.2.a:0 "Arrange the met up"
  
- UFC_MANO_FATE.3.t:0 "Settle Our Differences"
+ UFC_MANO_FATE.3.t:0 "A New Peace On The River Trembley?"
  UFC_MANO_FATE.3.d:0 ""
- UFC_MANO_FATE.3.a:0 "" 
+ UFC_MANO_FATE.3.a:0 "Arrange the met up" 
+ 
+ UFC_MANO_FATE.4.t:0 "A Simple Understanding"
+ UFC_MANO_FATE.4.d:0 ""
+ UFC_MANO_FATE.4.a:0 "Fine, we'll let each other be..."
+ UFC_MANO_FATE.4.b:0 "We still have a bone to pick with them!"
+
+ UFC_MANO_FATE.5.t:0 "A New Peace On The River Trembley?"
+ UFC_MANO_FATE.5.d:0 ""
+ UFC_MANO_FATE.5.a:0 "The Manliest Option is to give Peace a Chance"
+ UFC_MANO_FATE.5.b:0 "We Refuse!"
+ 
  
  ##################
  
  UFC_GNOME_FATE.1.t:0 "The Grand Chief Returns Home"
- UFC_GNOME_FATE.1.d:0 ""
- UFC_GNOME_FATE.1.a:0 ""
+ UFC_GNOME_FATE.1.d:0 "The Chief of the New Forest Order demands the old gnome kingdom's final submission. It's time to end this charade of a kingdom!"
+ UFC_GNOME_FATE.1.a:0 "Send the Ultimatum!"
  
  UFC_GNOME_FATE.2.t:0 "We Never Needed A Queen"
- UFC_GNOME_FATE.2.d:0 ""
- UFC_GNOME_FATE.2.a:0 ""
+ UFC_GNOME_FATE.2.d:0 "The revoloution must continue! Here, the last vestage of the old order stands. Its time we end the monarchy once and for all."
+ UFC_GNOME_FATE.2.a:0 "Our Revolution or their Bust!"
  
  UFC_GNOME_FATE.3.t:0 "The Real Power of the Woods"
- UFC_GNOME_FATE.3.d:0 ""
- UFC_GNOME_FATE.3.a:0 ""
+ UFC_GNOME_FATE.3.d:0 "As we brought order to the lands, its time we discuss the matter of the old Gnome Kingdom. What will we do about them?"
+ UFC_GNOME_FATE.3.a:0 "Have them join our Realm"
+ UFC_GNOME_FATE.3.b:0 "Let them be"
  
  UFC_GNOME_FATE.4.t:0 "The Will Of The Forest Critters!"
- UFC_GNOME_FATE.4.d:0 ""
+ UFC_GNOME_FATE.4.d:0 "We have restored order to the forest and united it under a rule for all critters of the forest. Now we look to the last refuge fo the old order, the Gnome Kingdom that ironicly survived all that has happen. It's time we bring liberation to the home of the gnomes."
  UFC_GNOME_FATE.4.a:0 ""
+ 
+ ##########
+ 
+ UFC_GNOME_FATE.5.t:0 "They demand our summission!"
+ UFC_GNOME_FATE.5.d:0 "They demand we surrender our land to them!"
+ UFC_GNOME_FATE.5.a:0 "We have no choice"
+ UFC_GNOME_FATE.5.b:0 "We will not bow!" 
+ 
+ UFC_GNOME_FATE.6.t:0 "They accepted!"
+ UFC_GNOME_FATE.6.d:0 "The gnome kingdom is ours!"
+ UFC_GNOME_FATE.6.a:0 "Victory!"
+ 
+ UFC_GNOME_FATE.7.t:0 "They refuse!"
+ UFC_GNOME_FATE.7.d:0 "This will not be tolerated. Cross the River Trembley!"
+ UFC_GNOME_FATE.7.a:0 "To Victory!"
+ 
+ #################
+ 
+ UFC_GNOME_FATE.9.t:0 "The Council demands we join them!"
+ UFC_GNOME_FATE.9.d:0 "the council demands we join them! With some reluctance, they have said if we merged with them, the queen we have can stay as a figurtive leader. They sight the powerful Canadians and thier immortal queen for such an arrangment in power. But after all we been throguh, should we give up now? Though what they offer is fair now, and unlikely if we fail to resist them later"
+ UFC_GNOME_FATE.9.a:0 "Let us unite the forest!"
+ UFC_GNOME_FATE.9.b:0 "The Council has no sway here!"
+ 
+ UFC_GNOME_FATE.10.t:0 "They accepted!"
+ UFC_GNOME_FATE.10.d:0 "Forest Democracy Prevails!"
+ UFC_GNOME_FATE.10.a:0 "Victory!"
+ 
+ UFC_GNOME_FATE.11.t:0 "They refuse!"
+ UFC_GNOME_FATE.11.d:0 "They refuse! Our choices are rather limited. The people demand unification. We can attack now, or prepare a full offensive. We can rally the population for a war if we take time, but a full attack now will catch them off guard. What shall we do for our democracy?"
+ UFC_GNOME_FATE.11.a:0 "To Victory!"
+ UFC_GNOME_FATE.11.b:0 "Soon, Victory will be ours!"
+ 
+ #################
+ 
+ UFC_GNOME_FATE.12.t:0 "They want us to join up with them!"
+ UFC_GNOME_FATE.12.d:0 "They want us to join with them and finalize the unification of the forest!"
+ UFC_GNOME_FATE.12.a:0 "Prehaps the time has come to unite?"
+ UFC_GNOME_FATE.12.a:0 "With them? We stand apart!"
+ 
+ UFC_GNOME_FATE.13.t:0 "They accepted!"
+ UFC_GNOME_FATE.13.d:0 "The gnome kingdom has sided with us. The forest is as good as united!"
+ UFC_GNOME_FATE.13.a:0 "Victory!"
+ 
+ UFC_GNOME_FATE.14.t:0 "They refuse!"
+ UFC_GNOME_FATE.14.d:0 "The rejected our offer? A little expected, but still. Now it's our choice. Do we take this rejection as an offense, or let it be as we have most of the forest."
+ UFC_GNOME_FATE.14.a:0 "Let's complete the forest entirly!"
+ UFC_GNOME_FATE.14.a:0 "Let them go..."

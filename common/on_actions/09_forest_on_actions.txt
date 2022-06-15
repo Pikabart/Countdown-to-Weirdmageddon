@@ -74,7 +74,10 @@ on_actions = {
 	#Forest Border Wars
 	on_startup = {
 		effect = {
-			MAN = { country_event = { id = FOREST_border_wars.1 hours = 2 } }
+			MAN = { 
+				country_event = { id = MAN_START_EVENT.1 hours = 1 }
+				country_event = { id = FOREST_border_wars.1 hours = 2 }
+			}
 			UFC = {
 				country_event = { id = UFC_START_EVENT.1 hours = 1 }
 				country_event = { id = FOREST_balance.2 days = 730 }

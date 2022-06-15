@@ -555,7 +555,7 @@ country_event = { #
 	id = FOREST_dipper_kill_man.2
 	title = FOREST_dipper_kill_man.2.t
 	desc = FOREST_dipper_kill_man.2.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_minotaur_and_dipper
 	
 	is_triggered_only = yes 
 	
@@ -579,7 +579,7 @@ country_event = { #
 	id = FOREST_dipper_kill_man.3
 	title = FOREST_dipper_kill_man.3.t
 	desc = FOREST_dipper_kill_man.3.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_minotaur_and_dipper
 	
 	is_triggered_only = yes 
 	
@@ -595,7 +595,7 @@ country_event = { #
 	id = FOREST_dipper_kill_man.4
 	title = FOREST_dipper_kill_man.4.t
 	desc = FOREST_dipper_kill_man.4.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_cart_chase
 	
 	is_triggered_only = yes 
 	
@@ -612,7 +612,7 @@ country_event = { #
 	id = FOREST_dipper_kill_multi.1
 	title = FOREST_dipper_kill_multi.1.t
 	desc = FOREST_dipper_kill_multi.1.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_chutzpar_and_dipper_running
 	
 	is_triggered_only = yes 
 	
@@ -629,20 +629,20 @@ country_event = { #
 	id = FOREST_dipper_kill_multi.2
 	title = FOREST_dipper_kill_multi.2.t
 	desc = FOREST_dipper_kill_multi.2.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_dipper_on_bear
 	
 	is_triggered_only = yes 
 	
 	immediate = {}
 	option = {
-		name = FOREST_dipper_kill_multi.3.a
+		name = FOREST_dipper_kill_multi.2.a
 		hidden_effect = {
 			country_event = { id = FOREST_dipper_kill_multi.3 days = 30 }
 		}
 		ai_chance = { factor = 20 }
 	}
 	option = {
-		name = FOREST_dipper_kill_multi.3.b
+		name = FOREST_dipper_kill_multi.2.b
 		hidden_effect = {
 			country_event = { id = FOREST_dipper_kill_multi.4 days = 30 }
 		}
@@ -653,7 +653,7 @@ country_event = { # Kill Bear
 	id = FOREST_dipper_kill_multi.3
 	title = FOREST_dipper_kill_multi.3.t
 	desc = FOREST_dipper_kill_multi.3.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_dipper_on_bear
 	
 	is_triggered_only = yes 
 	
@@ -662,15 +662,14 @@ country_event = { # Kill Bear
 		name = FOREST_dipper_kill_multi.3.a
 		UFC = { country_event = { id = FOREST_anarchy.1 days = 5 } }
 		MYS = {add_timed_idea = {idea = FOREST_dipper_ptsd days = 720} }
-		hidden_effect = {
-		}
+		hidden_effect = { }
 	}
 }
 country_event = { # Spare Bear
 	id = FOREST_dipper_kill_multi.4
 	title = FOREST_dipper_kill_multi.4.t
 	desc = FOREST_dipper_kill_multi.4.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_dipper_on_bear 
 	
 	is_triggered_only = yes 
 	

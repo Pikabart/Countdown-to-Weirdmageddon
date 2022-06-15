@@ -129,7 +129,7 @@ country_event = { # The Unicorns want more reps
 	id = UFC_COUNCIL.5
 	title = UFC_COUNCIL.5.t
 	desc = UFC_COUNCIL.5.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	
@@ -155,7 +155,7 @@ country_event = { # The Unicorns Protest
 	id = UFC_COUNCIL.6
 	title = UFC_COUNCIL.6.t
 	desc = UFC_COUNCIL.6.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	
@@ -182,7 +182,7 @@ country_event = { # The Prime Minstership
 	id = UFC_COUNCIL.7
 	title = UFC_COUNCIL.7.t
 	desc = UFC_COUNCIL.7.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_unicorns
 	
 	is_triggered_only = yes
 	
@@ -237,6 +237,10 @@ news_event = { #
 	
 		}
 	}	
+	option = {
+		name = UFC_COUNCIL_NEWS.1.a
+		ai_chance = { factor = 100 }
+	}
 }
 
 news_event = { # 
@@ -253,6 +257,10 @@ news_event = { #
 	
 		}
 	}	
+	option = {
+		name = UFC_COUNCIL_NEWS.2.a
+		ai_chance = { factor = 100 }
+	}
 }
 
 news_event = { # 
@@ -269,6 +277,10 @@ news_event = { #
 	
 		}
 	}	
+	option = {
+		name = UFC_COUNCIL_NEWS.3.a
+		ai_chance = { factor = 100 }
+	}
 }
 
 ############################################
@@ -335,11 +347,12 @@ country_event = { # We Will Be Avenged!  (Auth/Com Bears vs ALL MAN) (NEUT/DEMO 
 	
 	option = {
 		name = UFC_MANO_FATE.1.a
+		create_wargoal = {  type = annex_everything target = MAN}
 		ai_chance = { factor = 100 }
 	}
 }
 
-country_event = { # A new peace on the river trembley (NEUT Bears vs NEUT/DEMO MAN) (DEMO Bears vs NEUT MAN)
+country_event = { 
 	id = UFC_MANO_FATE.2
 	title = UFC_MANO_FATE.2.t
 	desc = UFC_MANO_FATE.2.d
@@ -349,16 +362,12 @@ country_event = { # A new peace on the river trembley (NEUT Bears vs NEUT/DEMO M
 	
 	option = {
 		name = UFC_MANO_FATE.2.a
-		diplomatic_relation = {
-			country = MAN
-			relation = non_aggression_pact
-			active = YES
-		}
+		country_event = { id = UFC_MANO_FATE.5 days = 10  }
 		ai_chance = { factor = 100 }
 	}
 }
 
-country_event = { # Reappochment ((DEMO Bears vs DEMO MAN)) 
+country_event = { 
 	id = UFC_MANO_FATE.3
 	title = UFC_MANO_FATE.3.t
 	desc = UFC_MANO_FATE.3.d
@@ -368,7 +377,53 @@ country_event = { # Reappochment ((DEMO Bears vs DEMO MAN))
 	
 	option = {
 		name = UFC_MANO_FATE.3.a
+		country_event = { id = UFC_MANO_FATE.4 days = 10  }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # A new peace on the river trembley (NEUT Bears vs NEUT/DEMO MAN) (DEMO Bears vs NEUT MAN)
+	id = UFC_MANO_FATE.4
+	title = UFC_MANO_FATE.4.t
+	desc = UFC_MANO_FATE.4.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_MANO_FATE.4.a
+		diplomatic_relation = {
+			country = MAN
+			relation = non_aggression_pact
+			active = YES
+		}
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = UFC_MANO_FATE.4.b
+		UFC = {create_wargoal = {  type = annex_everything target = MAN}}
+		MAN = {create_wargoal = {  type = annex_everything target = UFC}}
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # Reappochment ((DEMO Bears vs DEMO MAN)) 
+	id = UFC_MANO_FATE.5
+	title = UFC_MANO_FATE.5.t
+	desc = UFC_MANO_FATE.5.d
+	picture = GFX_report_event_multibear
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = UFC_MANO_FATE.5.a
 		UFC = { add_to_faction = MAN }
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = UFC_MANO_FATE.5.b
+		UFC = {create_wargoal = {  type = annex_everything target = MAN}}
+		MAN = {create_wargoal = {  type = annex_everything target = UFC}}
 		ai_chance = { factor = 100 }
 	}
 }
@@ -383,7 +438,7 @@ country_event = { # Chief vs Jeff or New Queen
 	id = UFC_GNOME_FATE.1
 	title = UFC_GNOME_FATE.1.t
 	desc = UFC_GNOME_FATE.1.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
@@ -398,7 +453,7 @@ country_event = { # Force revoluitiopn
 	id = UFC_GNOME_FATE.2
 	title = UFC_GNOME_FATE.2.t
 	desc = UFC_GNOME_FATE.2.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
@@ -413,7 +468,7 @@ country_event = { # The Forest Realm
 	id = UFC_GNOME_FATE.3
 	title = UFC_GNOME_FATE.3.t
 	desc = UFC_GNOME_FATE.3.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
@@ -433,7 +488,7 @@ country_event = { # The Forest Council
 	id = UFC_GNOME_FATE.4
 	title = UFC_GNOME_FATE.4.t
 	desc = UFC_GNOME_FATE.4.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
@@ -468,7 +523,7 @@ country_event = { # They accpet
 	id = UFC_GNOME_FATE.6
 	title = UFC_GNOME_FATE.6.t
 	desc = UFC_GNOME_FATE.6.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
@@ -486,7 +541,7 @@ country_event = { # They refuse
 	id = UFC_GNOME_FATE.7
 	title = UFC_GNOME_FATE.7.t
 	desc = UFC_GNOME_FATE.7.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
@@ -525,7 +580,7 @@ country_event = { # They accpet
 	id = UFC_GNOME_FATE.13
 	title = UFC_GNOME_FATE.13.t
 	desc = UFC_GNOME_FATE.13.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
@@ -540,7 +595,7 @@ country_event = { # They refuse
 	id = UFC_GNOME_FATE.14
 	title = UFC_GNOME_FATE.14.t
 	desc = UFC_GNOME_FATE.14.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
@@ -585,7 +640,7 @@ country_event = { # They accpet
 	id = UFC_GNOME_FATE.10
 	title = UFC_GNOME_FATE.10.t
 	desc = UFC_GNOME_FATE.10.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	
@@ -603,7 +658,7 @@ country_event = { # They refuse
 	id = UFC_GNOME_FATE.11
 	title = UFC_GNOME_FATE.11.t
 	desc = UFC_GNOME_FATE.11.d
-	picture = GFX_report_event_multibear
+	picture = GFX_report_event_gnomes
 	
 	is_triggered_only = yes
 	

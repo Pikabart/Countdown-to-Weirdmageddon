@@ -5,6 +5,11 @@
  UFC_START_EVENT.0.d:0 ""
  UFC_START_EVENT.0.a:0 ""
  
+  
+ MAN_START_EVENT.1.t:0 "" "Strength, Vigor, Manliness!" 
+ MAN_START_EVENT.1.d:0 "Up in the northern hills, past the northern shores of the River Trembley, beyond the handsy lands of Handwitch Mountain, is the Flexing Grounds. Here, at its center is the Man Cave, the home of the Manotaurs. These Half Man, Haft Beast, All Buff creatures live to the code of manliness. Masculinity means everything for these buff men; their culture revolves around the manly lifestyle of getting ripped, testing each other’s strength, and making sure each bro is sufficiently manly for them all.\n\nAbove them, ironically enough, is the dreaded She-Who-Shall-Not-Be-Named, the Womantaur, the female strong enough to emasculate them all with ease. But as she cares not for their unimpressive manliness, she allows a champion to rule over her kind. Thus comes the dreaded Leaderaur, a colossal above them all that rules with manly vigor and refusal to accept weakness, from manotaurs or other creatures that dare be known to them.\n\nOnce serving as shock troopers when the Gnomes ruled the forest, the manotaurs are now free to decide their fate. Fitting, they choose a fight. As the long summer passes, it will be seen if this was a good decision."
+ MAN_START_EVENT.1.a:0 "Time to Flex on these losers!"
+ 
  #1
  #####################################################
  
@@ -44,6 +49,24 @@
  FOREST_dipper_kill_multi.4.d:0 "Dipper paused. The Multibear made a final request, to listen to his favorite song before he went. When dipper walked up to the old stereo system, he was amazed at what he saw. An old tape cassette of “Disco Girl” by BABBA! He asked, shocked that the ferocious beast would also listen to this song that made Dipper feel enmasucated.\n\nHe played the song and the man and bear sang together. Many others in the cave thought John was having a karaoke night and were quick to avoid his personal chambers.\n\nDisco girl! coming through, that girl is you\nOoo-ooo Ooo-ooo\nIt's the year 1972 and that girl is you\nOoo-ooo Ooo-ooo\nYou can sing, you can shimmer\nLove's on the menu and disco's for dinner\nDisco girl! coming through, that girl is you\nOoo-Ooo\n\nAfter talking some more and learning of each other, Dipper departed back to the Shack. He may not fit the definition of “Manliness”, but he fit the definition of being himself. As he whistled the song to himself back to the shack, he didn't feel troubled. He knew who he was."
  FOREST_dipper_kill_multi.4.a:0 "Disco Girl! Coming Through! That Girl Is You!"
  
- FOREST_crawlspace_trigger.1.t:0 "The Market Is Open For Business! "
- FOREST_crawlspace_trigger.1.d:0 "When the great Gnome Queen passed, it caused not only a political and social upheaval, but also an economic upheaval. The Crawlspace Market officially closed to moan for the Queen’s death; the loss of their biggest customer. It also allowed merchants to divest and reinvent their assets and prepare for what would come next. With new wars’ a brewing and the lines being redrawn, a new normal has developed.\n\nNow the infamous paranormal black market is open for business. New product to sell and plenty in inventory to meet demand. One thing’s for sure. The Long Summer will prove to be very profitable!"
- FOREST_crawlspace_trigger.1.a:0 "When’s there's blood on the fields..."
+ 
+ 
+ FOREST_crawlspace_reopening.1.t:0 "The Market Is Open For Business!"
+ FOREST_crawlspace_reopening.1.d:0 "When the great Gnome Queen passed, it caused not only a political and social upheaval, but also an economic upheaval. The Crawlspace Market officially closed to moan for the Queen’s death; the loss of their biggest customer. It also allowed merchants to divest and reinvent their assets and prepare for what would come next. With new wars’ a brewing and the lines being redrawn, a new normal has developed.\n\nNow the infamous paranormal black market is open for business. New product to sell and plenty in inventory to meet demand. One thing’s for sure. The Long Summer will prove to be very profitable!"
+ FOREST_crawlspace_reopening.1.a:0 "When’s there's blood on the fields..."
+ 
+ FOREST_man_vs_ufc_start.1.t:0 "The Battle for The River Trembley Begins!"
+ FOREST_man_vs_ufc_start.1.d:0 "The humans go on their day in ignorance in Gravity Falls, but in the forest there is a massive commotion all will soon come to know. The Manotaurs have declared a full war on the lands the Multibears have taken control of since the Gnome Kingdom collapsed. From Woodland Union to the Trembley Rapids, fighting has fully broken out. Leadertaur is determined to fully break free from the gnome’s rule. The Multibears rally as the northern forest last hope for order.\n\nThe Battle for the River Trembley has begun!\n\nYou may not hear it happen, but it can be best assured. Great trees shall fall on this day."
+ FOREST_man_vs_ufc_start.1.a:0 "Oh Dear..."
+ 
+ FOREST_gnome_pacifica.1.t:0 "Queen Pacific Reigns"
+ FOREST_gnome_pacifica.1.d:0 "The gnomes of the forest still loyal to the monarchy gather as a new Queen of the Gnomes is crowned. With great effort from the Regent Jeff Little-Foot, the human girl Pacific now leads the forest. Or really, what still is willing to acknowledge her rule. Still, with a queen, the gnomes are no longer utterly disorganized or fractured. Hope still exists that the kingdom can be restored with Pacifica’s business talent put to the front.\n\nTime will see if the House Northwest can rebuild the Forest."
+ FOREST_gnome_pacifica.1.a:0 "Queen, ???, Profit!"
+ 
+ FOREST_gnome_candy.1.t:0 "Queen Candy Reigns"
+ FOREST_gnome_candy.1.d:0 "With a sense of excitement, and apparently utter fear, the human girl Candy Chiu has ascended as the new Queen of the Gnomes. Gnomes cheered as their new queen promised to lead the kingdom to greatness once more. As she descends from Kim Chiu, a city councilor for Gravity Falls, and Andrew Chiu, the Secretary of State for Oregon and the Trembley Federal Government, politics is in her blood.\n\nBut with unlimited power comes a mind of ruthless pursuit, hidden by the face of a sweet adorable 10-Year old.Whatever the cost, it seems, is fine for her to build her new land back to prominence. "
+ FOREST_gnome_candy.1.a:0 "For the Queen of Suger and Blood!"
+ 
+ FOREST_crawlspace_reopening.1.t:0 ""
+ FOREST_crawlspace_reopening.1.d:0 ""
+ FOREST_crawlspace_reopening.1.a:0 ""

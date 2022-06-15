@@ -21,7 +21,7 @@
     CRL_patriot_water_2_desc:0 "Our outlets from the River Trembley will be laced with chemicals that will increase our people's aggression to our enemies. It also turns the frogs gay, which is perfect for Pride Month!"
     
     CRL_scrap_frobot_study_3:0 "Scrap Frobots"
-    CRL_scrap_frobot_study_3_desc:0 "These old robots from the Empire of Amphibia were from before they went into isolation a millennial ago. Useless as combat robots now, but they hold plenty of juicy tech for us to do some studying."
+    CRL_scrap_frobot_study_3_desc:0 "These old robots from the Empire of Amphibia were from before they went into isolation a millennial ago. Useless as combat robots now, but they hold plenty of juicy tech for us to do some studying." 
     
     CRL_coven_training_3:0 "Coven Training Documents" 
     CRL_coven_training_3_desc:0 "Some pale witch with big hair, a fake sharp tooth and a "Over Thirty and Flirty" shirt sold these manuals to the merchants of the Crawlspace. She then robbed them blind. Trying to recoup their losses, the manuals are quite useful for Magic Special Forces." 
@@ -40,8 +40,8 @@
     FOREST_attack:0 "Keep Pushing!"
     FOREST_attack_desc:0 ""
     
-    FOREST_dipper_ptsd:0 "Fortunate Dipper"
-    FOREST_dipper_ptsd_desc:0 ""
+    FOREST_dipper_ptsd:0 "Fortunate Grandnephew "
+    FOREST_dipper_ptsd_desc:0 "..."
     
     ####################################################
     

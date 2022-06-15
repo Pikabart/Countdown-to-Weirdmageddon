@@ -1,6 +1,6 @@
 ﻿l_english:
 
- #For MultiBears Focus Tree
+ #For Manotaur Focus Tree
  
  #1
  #UFC_start.1:0 ""
@@ -21,11 +21,11 @@
  
  MAN_council_support:0 "Ensure *HER* Approval"
  MAN_council_support_desc:0 ""
- MAN_council_support.tooltip:0 "§YThe Hand Witches are recruited into our ranks.§!"
+ MAN_council_support.t:0 "§RShe-Who-Shall-Not-Be-Named§! approves of our plans for war!"
  
  MAN_handwitch_alliance:0 "Handy Alliance"
  MAN_handwitch_alliance_desc:0 ""
- MAN_handwitch_alliance.t:0 ""
+ MAN_handwitch_alliance.t:0 "§YThe Hand Witches are recruited into our ranks.§!"
  
  MAN_keep_pushing:0 "Keep Pushing Up The Hill"
  MAN_keep_pushing_desc:0 ""

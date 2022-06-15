@@ -87,9 +87,9 @@
 		available_if_capitulated = no
 
 		completion_reward = { 
-			#custom_effect_tooltip = "X.t"
+			custom_effect_tooltip = "MAN_council_support.t"
 			add_political_power = 200
-			country_event = MAN_MANWAR.1
+			#country_event = MAN_MANWAR.1
 		}
 		
 		ai_will_do = {
@@ -115,9 +115,9 @@
 		available_if_capitulated = no
 
 		completion_reward = { 
-			custom_effect_tooltip = MAN_council_support.tooltip
+			custom_effect_tooltip = "MAN_handwitch_alliance.t"
 			add_manpower = 5000
-			country_event = MAN_MANWAR.2
+			#country_event = MAN_MANWAR.2
 			hidden_effect = {
 				add_ideas = MAN_handy
 				random_owned_controlled_state = {
@@ -324,7 +324,7 @@
 	
 	focus = { 
 		id = MAN_war.2
-		icon = GFX_goal_generic_more_territorial_claims 
+		icon = GFX_focus_generic_provoke_border_clashes 
 		x = 0
 		y = 1
 		relative_position_id = MAN_crush_sissies
@@ -493,7 +493,7 @@
 	
 	focus = { 
 		id = MAN_leaderaur.2
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_generic_dangerous_deal
 		x = -3
 		y = 1
 		relative_position_id = MAN_leaderaur.1
@@ -519,7 +519,7 @@
 	
 	focus = { 
 		id = MAN_leaderaur.3
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_focus_prc_infiltration
 		x = 0
 		y = 1
 		relative_position_id = MAN_leaderaur.1
@@ -535,7 +535,10 @@
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
 			add_timed_idea = {idea = MAN_purge_weak days = 270 }
-			UNI = {add_timed_idea = {idea = MAN_weak_refugee days = 270} country_event =  MAN_LEADERAUR_EVENT.1}
+			UNI = {
+				add_timed_idea = {idea = MAN_weak_refugee days = 270} 
+				#country_event =  MAN_LEADERAUR_EVENT.1
+			}
 		}
 		
 		ai_will_do = {
@@ -546,7 +549,7 @@
 	
 	focus = { 
 		id = MAN_leaderaur.4
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_focus_POL_riot_of_37
 		x = 3
 		y = 1
 		relative_position_id = MAN_leaderaur.1
@@ -576,7 +579,7 @@
 	
 	focus = { 
 		id = MAN_leaderaur.5
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_generic_secret_weapon
 		x = 0
 		y = 1
 		relative_position_id = MAN_leaderaur.3
@@ -584,7 +587,7 @@
 		prerequisite = { focus = MAN_leaderaur.3 }
 		prerequisite = { focus = MAN_leaderaur.4 }
 		
-		available = {}		
+		available = {}	
 		bypass = {} 
 		cost = 5
 		cancel_if_invalid = yes
@@ -605,7 +608,7 @@
 	
 	focus = { 
 		id = MAN_leaderaur.6
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_continuous_suppression
 		x = 0
 		y = 1
 		relative_position_id = MAN_leaderaur.4
@@ -633,7 +636,7 @@
 	
 	focus = { 
 		id = MAN_leaderaur.7
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_focus_AST_rats_tobruk 
 		x = 0
 		y = 1
 		relative_position_id = MAN_leaderaur.6
@@ -746,7 +749,7 @@
 	
 	focus = { 
 		id = MAN_council.2
-		icon = GFX_goal_FOREST_strike_manos 
+		icon = GFX_goal_generic_attack_allies
 		x = 3
 		y = 1
 		relative_position_id = MAN_council.1
@@ -787,7 +790,8 @@
 
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
-			country_event = MAN_LEADERAUR_EVENT.3
+			#country_event = MAN_LEADERAUR_EVENT.3
+			add_political_power = 100
 		}
 		
 		ai_will_do = {
@@ -798,7 +802,7 @@
 	
 	focus = { 
 		id = MAN_council.4
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_generic_wolf_pack 
 		x = -3
 		y = 1
 		relative_position_id = MAN_council.1
@@ -825,7 +829,7 @@
 	
 	focus = { 
 		id = MAN_council.5
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_focus_generic_anti_fascist_diplomacy 
 		x = 0
 		y = 1
 		relative_position_id = MAN_council.3
@@ -854,7 +858,7 @@
 	
 	focus = { 
 		id = MAN_council.6
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_molotov_ribbentrop_pact
 		x = 0
 		y = 1
 		relative_position_id = MAN_council.4
@@ -898,7 +902,15 @@
 
 		completion_reward = { 
 			custom_effect_tooltip = "MAN_council.7.t"
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+			create_country_leader = { name = "The Bro Council" picture = GFX_leaders_Bro_Council expire = "1965.1.1" ideology = centrism}
+			add_popularity = { ideology = neutrality popularity = 0.10 }
 			set_stability = 0.80
+			add_political_power = 100
+			add_command_power = 20
 		}
 		
 		ai_will_do = {
@@ -943,7 +955,7 @@
 
 	focus = { 
 		id = MAN_chutzpar.2
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_anti_comintern_pact
 		x = -1
 		y = 1
 		relative_position_id = MAN_chutzpar.1
@@ -971,7 +983,7 @@
 	
 	focus = { 
 		id = MAN_chutzpar.3
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
 		x = 1
 		y = 1
 		relative_position_id = MAN_chutzpar.1
@@ -998,7 +1010,7 @@
 	
 	focus = { 
 		id = MAN_chutzpar.4
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_focus_generic_strike_at_democracy2 
 		x = 0
 		y = 2
 		relative_position_id = MAN_chutzpar.1
@@ -1025,7 +1037,7 @@
 	
 	focus = { 
 		id = MAN_chutzpar.5
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_generic_demand_territory
 		x = -2
 		y = 0
 		relative_position_id = MAN_chutzpar.4
@@ -1052,7 +1064,7 @@
 	
 	focus = { 
 		id = MAN_chutzpar.6
-		icon = GFX_goal_FOREST_river_battle 
+		icon = GFX_goal_continuous_non_factory_construct
 		x = 2
 		y = 0
 		relative_position_id = MAN_chutzpar.4
@@ -1102,7 +1114,12 @@
 
 		completion_reward = { 
 			custom_effect_tooltip = "MAN_chutzpar.7.t"
-			country_event = MAN_LEADERAUR_EVENT.2
+			#country_event = MAN_LEADERAUR_EVENT.2
+			set_politics = {
+				ruling_party = democratic
+				elections_allowed = no
+			}
+			add_popularity = { ideology = democratic popularity = 0.30 }
 		}
 		
 		ai_will_do = {
@@ -1123,7 +1140,7 @@
 		prerequisite = { focus = MAN_leaderaur.7  focus = MAN_chutzpar.7 }
 		
 		available = {is_neighbor_of = UNI}		
-		bypass = {NOT = {country_exists = UNI}} 
+		bypass = {NOT = {country_exists = UNI} is_puppet_of = UNI } 
 		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1132,6 +1149,7 @@
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
 			set_technology = {  industrial_progress_check = 1 }
+			create_wargoal = { type = annex_everything target = UNI }
 		}
 		
 		ai_will_do = {
@@ -1149,7 +1167,7 @@
 		prerequisite = { focus = MAN_council.7  focus = MAN_chutzpar.7 }
 		
 		available = {is_neighbor_of = UFC}		
-		bypass = {NOT = {country_exists = UFC}} 
+		bypass = {NOT = {country_exists = UFC} has_non_aggression_pact_with = UFC is_in_faction_with = UFC} 
 		cost = 5
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -1158,6 +1176,7 @@
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
 			set_technology = {  industrial_progress_check = 1 }
+			create_wargoal = { type = annex_everything target = UFC }
 		}
 		
 		ai_will_do = {
@@ -1184,6 +1203,7 @@
 
 		completion_reward = { 
 			#custom_effect_tooltip = "X.t"
+			create_wargoal = { type = annex_everything target = GNM }
 		}
 		
 		ai_will_do = {

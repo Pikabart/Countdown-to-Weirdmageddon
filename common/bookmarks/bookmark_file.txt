@@ -56,11 +56,13 @@ bookmarks = {
 				
 			}
 			focuses = {
-				
+				GNM_barren_spring
+				GNM_queen_chiu
+				GNM_queen_pacifica
 			}
 		}
 
-		"UFC"={
+		"UFC"={ 
 			history = "UFC_ROADKILL_DESC"
 			ideology = neutrality
 			
@@ -68,7 +70,9 @@ bookmarks = {
 				
 			}
 			focuses = {
-				
+				UFC_final_defense
+				UFC_bear_victory_final.1
+				UFC_bear_defeat_final
 			}
 		}
 
@@ -80,7 +84,9 @@ bookmarks = {
 				
 			}
 			focuses = {
-				
+				UNI_start
+				UNI_energy_spores
+				UNI_domination_over_the_forest
 			}
 		}
 
@@ -92,7 +98,9 @@ bookmarks = {
 				
 			}
 			focuses = {
-				
+				MAN_leaderaur.1
+				MAN_council.7
+				MAN_chutzpar.1
 			}
 		}
 

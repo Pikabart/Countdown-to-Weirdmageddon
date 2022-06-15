@@ -55,7 +55,7 @@
 				
 		bypass = {} 
 		
-		cost = 4
+		cost = 4 
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
@@ -980,16 +980,27 @@
 			}
 			country_event = UFC_COUNCIL.8
 			annex_country = { target = UNI transfer_troops = yes }
-			news_event = UFC_COUNCIL_NEWS.1 
 			add_research_slot = 2
 			IF = {
 				limit = {has_country_flag = UFC_FLAG_BEAR}
 				create_country_leader = { name = "John Multibear" picture = GFX_leaders_john_multibear expire = "1965.1.1" ideology = liberalism}
+				every_country = {
+				limit = { is_in_array = { array = GLOBAL.gf_and_forest value = THIS.id } }
+				news_event = UFC_COUNCIL_NEWS.1
+			}
 			}
 			ELSE_IF = {
 				limit = {has_country_flag = UFC_FLAG_UNI}
 				create_country_leader = { name = "Celestabellebethabelle" picture = GFX_leaders_celestabellebethabelle expire = "1965.1.1" ideology = conservatism}
+				every_country = {
+				limit = { is_in_array = { array = GLOBAL.gf_and_forest value = THIS.id } }
+				news_event = UFC_COUNCIL_NEWS.2
 			}
+			}
+			ELSE = {every_country = {
+				limit = { is_in_array = { array = GLOBAL.gf_and_forest value = THIS.id } }
+				news_event = UFC_COUNCIL_NEWS.3
+			}}
 		}
 		
 		ai_will_do = {
@@ -1262,7 +1273,7 @@
 		available_if_capitulated = no
 
 		completion_reward = { 
-			country_event = UFC_RAVANCHISM.1
+			#country_event = UFC_RAVANCHISM.1
 			set_politics = {
 				ruling_party = fascism
 				elections_allowed = no
@@ -1401,7 +1412,7 @@
 		}
 
 		completion_reward = { 
-			country_event = UFC_REVOULTION.1
+			#country_event = UFC_REVOULTION.1
 			set_politics = {
 				ruling_party = communism
 				elections_allowed = no
@@ -1552,6 +1563,8 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
+		
+		will_lead_to_war_with = MAN
 
 		completion_reward = { 
 			add_political_power = 100  

@@ -1,11 +1,16 @@
 ##########
-# UNI country event picture interface
+# UNI country event picture interface 
 ############
 spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_report_event_bear_roar"
 		texturefile = "gfx/event_country_pictures/FOREST/report_event_bear_roar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_cart_chase"
+		texturefile = "gfx/event_country_pictures/FOREST/report_event_cart_chase.dds"
 	}
 	
 	spriteType = {
