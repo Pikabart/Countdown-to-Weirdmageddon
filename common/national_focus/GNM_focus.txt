@@ -113,9 +113,9 @@ focus_tree = {
 		available = {
 		}
 		
-		#allow_branch = {
-		#	has_global_flag = mabel_gnome_encounter1
-		#}
+		allow_branch = {
+			has_global_flag = mabel_gnome_encounter1
+		}
 				
 		bypass = {} 
 		

@@ -1,0 +1,11 @@
+##########
+# UNI country event picture interface
+############
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_event_unicorns"
+		texturefile = "gfx/event_country_pictures/FOREST/report_event_unicorns.dds"
+	}
+	
+}
