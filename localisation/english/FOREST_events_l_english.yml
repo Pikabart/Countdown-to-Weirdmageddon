@@ -1,25 +1,49 @@
 ﻿l_english:
 
- #For CALIFORNIA events
+ #For Multi-Bear events
+ UFC_START_EVENT.0.t:0 ""
+ UFC_START_EVENT.0.d:0 ""
+ UFC_START_EVENT.0.a:0 ""
  
  #1
- #.t:0 ""
- #.d:0 ""
- #.a:0 ""
- FOREST_wars.1.d_bears:0 "We have defeated the dreaded Manotaurs!"
- FOREST_wars.1.d_manot:0 "We have crushed the wussie Multi-Bears!"
+ #####################################################
  
- FOREST_wars.1.t:0 "Victory at the shores of Trembley River"
- FOREST_wars.1.a:0 "Victory over the Brutes!"
- FOREST_wars.1.b:0 "Suck it, hibernating losers!"
- FOREST_wars.1.c:0 "Hooray!"
+ FOREST_dipper_kill_man.1.t:0 "Among Like-Minded Heads"
+ FOREST_dipper_kill_man.1.d:0 "Dipper marched through the forest of Gravity Falls, angrily stomping up a hill in front of him. He couldn’t stand the comments and questions made out against him, as he saw it, questioning his manliness. He didn’t want to be the wimp, with noodle arms. As he hit a steep slope, he began to climb it up, wanting to show anyone watching that he was strong and can do anything!\n\nHe scaled the rocks and cliffs and made it to an opening of a cave. Unaware, there were some gnome guards walking away from the edge he scaled up to, leaving it unguarded. He wondered in, when some basic booby traps that he quickly dodged and got around. As he made his way in, he heard a sound that was all so familiar, a piano riff from his favorite song! He ran in, shocked at what he saw. There, in the middle of the room by itself was a massive bear with multiple limbs and heads. All were dancing and grooving one entity to the song of Disco Girl, by  Icelandic pop band BABBA. When the center head opened his eyes, he saw the boy and shifted to a fighting stance. Dipper yelled out.\n\n“Wait, I, uh... I like dancing to Disco Girl by Babba too!” Dipper nervously admitted.\n\n“Really?” the multibear shifted to a neutral stance, “Not even my war staff likes this song...”\n\nThe two of them talked and Dipper got a better understanding of the Multi Bear’s situation. For all the ferociousness the bears were, the overly buff and toxic Manotaurs hated them for what they thought was just being free to be who they are. After a while, a plan was hatch by Dipper to get back at these “manotaurs”. Multibear agreed and to help him, he gave him wearable bear claws with super sharp talons that can pierced anything.\n\n“Is this a good self-defense weapon?”\n\n“We also have a cache of Shadow Government Plasma Rifles...”"
+ FOREST_dipper_kill_man.1.a:0 "“But I shouldn't give that to a kid.”"
  
- FOREST_wars.2.t:0 "We have been Defeated!"
- FOREST_wars.2.d_bears:0 "The Manotaurs have defeated us!"
- FOREST_wars.2.d_manot:0 "Those dang Multi-Bears beat us!"
- FOREST_wars.2.a:0 "..."
-
- FOREST_crawlspace_trigger.1.t:0 "The Crawlspace Market"
- FOREST_crawlspace_trigger.1.d:0 "The increasing conflict between the Multi-Bears and the Manotaurs thrown the entire forest into disarray, where rival tribes seek to defend themselves from their potential enemies. They have found that source in the Crawlspace Market. Previously only for civilian trade, enterprising inhabitants of the forest have set up a lucrative black market trade where Weapons of all shapes and sizes are bought and sold for Crypids. Who knows what nefarious business this market may become involved in."
- FOREST_crawlspace_trigger.1.a:0 "War is hell, but it is also profitable."
- FOREST_crawlspace_trigger.1.tooltip:0 "§YThe Crawlspace Market becomes open for business.§!"
+ FOREST_dipper_kill_man.2.t:0 "Dipper Vs Manliness"
+ FOREST_dipper_kill_man.2.d:0 "Dipper crossed over into the northern shores of the River Trembley. Making it through Manotaur patrols, who really just took quick glances of the area and occasionally headbutted some trees and each other, Dipper arrived at the Mancave. Here, he entered, claws at the ready. Inside, the leader of the manotaurs, Leaderaur, was giving a speech of his, and by extension, the manotaurs manliness in defeating the bears and claiming the northern forest. It was then that Dipper sprung out and landed in between the crowd of burly manotaurs and Leaderaur.\n\n“Your toxic reign of terror is over!”\n\nAfter a quiet look at him, they all laughed!\n\n“Is this some assassin?” Leaderaur spoke up, “So wussy are they that they would send some girl with a little dipper on her head to kill me?!”\n\n“I’m a boy!”\n\n“Wait, really?” there was a short commotion as they were all legitimately confused by Dipper’s utterly unmasculine appearance, “So be it. Then She-Who-Shall-Not-Be-Named won’t mind if we squash you!”"
+ FOREST_dipper_kill_man.2.a:0 "“Prepare to be flatten by my massive pecs!”"
+ FOREST_dipper_kill_man.2.b:0 "“Manotaurs! Dog Pile Him!”"
+ 
+ FOREST_dipper_kill_man.3.t:0 "Dipper The Impaler"
+ FOREST_dipper_kill_man.3.d:0 "Leaderaur jumped up into the air in a surprising show of fitness. Doing multiple spins in the air, he flattened himself and began a fast fall on top of Dipper, chest first. Dipper held out his claws as Leadertaur body slammed him. All the manotaurs watched to see what would happen next.\n\nIt was then that from Leadertaur's back that Dipper emerged. The sharp claws of the Multi Bears pierced Leadertaur and Dipper emerged unscaved, besides being coated in the guts and blood of a now firmly dead Leaderaur. As Dipper looked at himself and screamed in horror, so did the manotaurs, but for a different reason.\n\n“Who will lead us now!”\n\n“I’m the manliness one here! I shall lead!”\n\n“No, I am!”\n\n“I'd rather die!”\n\nAs they all broke up and began fighting, a Gnome Special Op force lead by Gnome Police Chief Miller attacked the Man cave. In the fighting, a multi bear carrying the chief rushed in and secured Dipper and rushed him back to the safety of the southern shore of the River Trembley.\n\n“I had my doubts, but John was right,” said Miller, “No wonder Jeff couldn’t beat a weak looking kid like you!”\n\nDipper shuttered,"
+ FOREST_dipper_kill_man.3.a:0 "“I wanna go home...”"
+ 
+ FOREST_dipper_kill_man.4.t:0 "Girly Girl!"
+ FOREST_dipper_kill_man.4.d:0 "In short order, the manotaurs beat the ever living snot out of Dipper. When they were done, they tossed him out of their Man Cave and over a cliff. Falling to the ground, he fell into the Pain Hole and let out a scream so loud that other versions of Dipper and Mabel in parallel universes to him looked up to see what that yell was.\n\nLater that evening, Dipper made it to the Shack. Wendy greeted him as she finished her shift for once and Mabel ran up to him.\n\n“Woah, Dipper. What happened to you?”\n\n“Yeah dude. You got in a fight?”\n\nDipper groaned, “Sort of...”\n\nWendy grabbed a cheaply made Mystery Towle and cleaned Dipper up a bit, “I heard what Stan and Mabel said about you. But you seemed to hold yourself up. Being able to take a punch, that’s pretty cool.”\n\nHe looked at her, “Really?”\n\n“Yeah man,” she grabbed her ‘pay’ from the cash register, “Come one guys. Thompson is driving us to this abandoned dinner in the middle of the woods. You two will love it!”\n\nMabel contemplated it after what happened at the convenience store, “ I don’t know...”\n\nDipper answered for both of them."
+ FOREST_dipper_kill_man.4.a:0 "“Totally!”"
+ 
+ #####################################################
+ 
+ FOREST_dipper_kill_multi.1.t:0 "What Makes A Man?"
+ FOREST_dipper_kill_multi.1.d:0 "As Dipper walked through the forest, bitter that wherever he went his perceived masculinity was questioned, he heard a loud noise. He jumped out of the way as a herd of animals and Wendy’s dad, Manly Dan, ran away. He walked over to see what they were running away from. There he saw a Manotaur: haft man, half beast, all muscular, in his natural and crude habitat. Chutpar sensed the jerky Dipper had on him and found the little boy standing in front of him. Dipper looked at him and asked about how to be manly and masculine. Chutpar agreed and took him to the Mancave, home of the manotaurs.\n\nThere, Dipper trained with them over a long and grueling afternoon. They presented Dipper to their leader for final approval, but the massive Leaderaur was not impressed by the boy and his fake tattoos. But Dipper did not back down and demanded to be put to the test. Leadertaur agreed and gave him a task. He must go and defeat the Manotaur’s arch enemy who has, with reluctance to admit, drove them up the hill to only their cave.\n\nDipper was to slay the leader of the Multi-Bear!"
+ FOREST_dipper_kill_multi.1.a:0 ""Slay the beast and return as a Man!"" 
+ 
+ FOREST_dipper_kill_multi.2.t:0 "Dipper's Quest For Manliness"
+ FOREST_dipper_kill_multi.2.d:0 "Dipper traveled to the realm of the bears. By some stroke of luck for him and immense incompetence of the gnome police guards, Dipper made it up the hill undetected. There, he found the cave he was after and entered. Booby Traps sprang and he used his training to dodge and avoid them. At the end, was the leader of the Multibears, a bear with multiple heads and limbs.\n\nBefore Dipper could get the drop on it, it awoke and they battled. But Dipper’s training and small status allowed him to run circles of the heads and he got the center head into a choke lock. Quickly, the multibear fell to the ground.\n\nDipper readied his spear. As he was about to go for the killing strike, the bear yelled out!\n\n“Wait!”"
+ FOREST_dipper_kill_multi.2.a:0 "Dipper did not hesitate"
+ FOREST_dipper_kill_multi.2.b:0 "Dipper paused."
+ 
+ FOREST_dipper_kill_multi.3.t:0 "Emancipation From Life"
+ FOREST_dipper_kill_multi.3.d:0 "And with a thrust, the deed was done. A bear’s body laid cold under his feat, one head less than before. Dipper took several deep breaths and stood there, slowly realizing what he had done. His eyes wide open.\n\nBack at the cave, the manotaurs threw a manly party for him with drinks and foosball, Leaderaur giving a small nod of approval to him. But he was simply there the entire time, staring at whatever was in front of him; staring right through whatever was in front of him.\n\nBack at the Shack, Dipper, dressed normal once again, still did the same, starting at the otherside of the gift shop as he manned the cash register. A tourist walked up to him to buy something, was confused at what he was doing, but then thought it was a scary attraction and gave Dipper a stack of cash as a tip. As Stan took the money, he turned to Dipper, who continued his thousand yard stare. He asked, confused.\n\n“What happened to you Dipper? You look like your Grandpa Shermie after Vietnam.”"
+ FOREST_dipper_kill_multi.3.a:0 "“I... I...”"
+ 
+ FOREST_dipper_kill_multi.4.t:0 "Disco Girl!"
+ FOREST_dipper_kill_multi.4.d:0 "Dipper paused. The Multibear made a final request, to listen to his favorite song before he went. When dipper walked up to the old stereo system, he was amazed at what he saw. An old tape cassette of “Disco Girl” by BABBA! He asked, shocked that the ferocious beast would also listen to this song that made Dipper feel enmasucated.\n\nHe played the song and the man and bear sang together. Many others in the cave thought John was having a karaoke night and were quick to avoid his personal chambers.\n\nDisco girl! coming through, that girl is you\nOoo-ooo Ooo-ooo\nIt's the year 1972 and that girl is you\nOoo-ooo Ooo-ooo\nYou can sing, you can shimmer\nLove's on the menu and disco's for dinner\nDisco girl! coming through, that girl is you\nOoo-Ooo\n\nAfter talking some more and learning of each other, Dipper departed back to the Shack. He may not fit the definition of “Manliness”, but he fit the definition of being himself. As he whistled the song to himself back to the shack, he didn't feel troubled. He knew who he was."
+ FOREST_dipper_kill_multi.4.a:0 "Disco Girl! Coming Through! That Girl Is You!"
+ 
+ FOREST_crawlspace_trigger.1.t:0 "The Market Is Open For Business! "
+ FOREST_crawlspace_trigger.1.d:0 "When the great Gnome Queen passed, it caused not only a political and social upheaval, but also an economic upheaval. The Crawlspace Market officially closed to moan for the Queen’s death; the loss of their biggest customer. It also allowed merchants to divest and reinvent their assets and prepare for what would come next. With new wars’ a brewing and the lines being redrawn, a new normal has developed.\n\nNow the infamous paranormal black market is open for business. New product to sell and plenty in inventory to meet demand. One thing’s for sure. The Long Summer will prove to be very profitable!"
+ FOREST_crawlspace_trigger.1.a:0 "When’s there's blood on the fields..."

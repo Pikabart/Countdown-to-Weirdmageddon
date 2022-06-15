@@ -83,6 +83,8 @@ on_actions = {
 					}
 				}
 				FROM = {
+					MAN = { country_event = FOREST_wars.2 } # Lose Event
+					MYS = { country_event = { id = FOREST_dipper_kill_multi.1 days = 20} } 
 					UFC = {
 						country_event = FOREST_wars.1 # Win Event
 						IF = { 
@@ -94,7 +96,6 @@ on_actions = {
 							country_event = { id = UNI_intervention.5 days = 1 }
 						}
 					}
-					MAN = { country_event = FOREST_wars.2 } # Lose Event
 				}
 				UNI = { clr_country_flag = UNI_yes_intervene }
 			}
@@ -111,6 +112,7 @@ on_actions = {
 				}
 				FROM = {
 					UFC = { country_event = FOREST_wars.2 }  # Lose Event
+					MYS = { country_event = { id = FOREST_dipper_kill_man.1 days = 20} } 
 					MAN = {
 						country_event = FOREST_wars.1 # Win Event
 						IF = {

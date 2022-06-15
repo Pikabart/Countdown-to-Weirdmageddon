@@ -58,6 +58,23 @@ ideas = {
 				defence = -0.15
 			}
 		}
+		
+		########################################################
+		FOREST_dipper_ptsd = { 
+			picture = GFX_idea_SPR_crush_the_revolution
+			
+			allowed = { original_tag = MYS }
+			available = {}
+			cancel = {}
+			
+			modifier = {	
+				army_org_factor = -0.05
+				offence = -0.05
+				defence = -0.05
+			}
+		}
+		########################################################
+		
 }
 
 hidden_ideas = {
