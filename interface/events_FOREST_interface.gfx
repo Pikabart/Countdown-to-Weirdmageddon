@@ -1,0 +1,40 @@
+##########
+# UNI country event picture interface
+############
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_report_event_bear_roar"
+		texturefile = "gfx/event_country_pictures/FOREST/report_event_bear_roar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_choking_bear"
+		texturefile = "gfx/event_country_pictures/FOREST/report_event_choking_bear.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_chutzpar_and_dipper_running"
+		texturefile = "gfx/event_country_pictures/FOREST/report_event_chutzpar_and_dipper_running.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_dance_dance_dance"
+		texturefile = "gfx/event_country_pictures/FOREST/report_event_dance_dance_dance.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_dipper_on_bear"
+		texturefile = "gfx/event_country_pictures/FOREST/report_event_dipper_on_bear.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_minotaur_and_dipper"
+		texturefile = "gfx/event_country_pictures/FOREST/report_event_minotaur_and_dipper.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_report_event_weak_dipper"
+		texturefile = "gfx/event_country_pictures/FOREST/report_event_weak_dipper.dds"
+	}
+}
